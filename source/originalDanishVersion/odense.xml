@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Odense</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="odense" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Du kjære gamle Fødeby</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01087</section>
+                                                                 <date>1874</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1874</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Odense" xml:id="odense"><pb n="441"/><head type="part">Odense</head>
+<lg xml:id="p_01088">
+<l rend="noIndent" subtype="firstline" corresp="Du kjære gamle Fødeby" rendition="du-kjaere-gamle-foedeby">Du kjære gamle Fødeby</l>
+<l rend="noIndent">Er altid i min Tanke.</l>
+<l rend="noIndent"><seg target="txtcmnt-441-01" type="dfnStart"/><!--DATA-TERM: Stolt bygged’ … Banke--><!--DATA-DEFINITION: Næsbyhoved borgbanke nær Odense Havn blev antagelig anlagt i 1100-tallet, der findes spor af bebyggelse fra omkring 1340 og befæstningsanlæg fra omkring 1370; slottet på banken blev ødelagt i 1534 under Grevens Fejde, og de sidste bygninger blev revet ned i 1764.-->Stolt bygged’ <hi rend="italic">Odin</hi> Slot mod Sky</l>
+<l rend="noIndent">Paa Næsbyhoved Banke<seg type="dfnEnd" target="txtcmnt-441-01"/>;</l>
+<l rend="noIndent">Da voxte Huse, først to, tre,</l>
+<l rend="noIndent">Saa flere – der man havned’.</l>
+<l rend="noIndent">Og <seg target="txtcmnt-441-02" type="dfnStart"/><!--DATA-TERM: Frigge raabte … Navnet--><!--DATA-DEFINITION: H.C. Andersens ordhistoriske forklaring hviler på en udbredt, men forkert antagelse; <i>Odense</i> stammer fra det gammeldanske ord <i>Othenswi</i>, der betyder »Odins vi«, hvor <i>vi</i> betegner en nordisk, hedensk helligdom; i nordisk mytologi er Frigg Odins hustru.--><hi rend="italic">Frigge</hi> raabte: <hi rend="italic">»Odin see!«</hi></l>
+<l rend="noIndent">Derfra fik Byen Navnet<seg type="dfnEnd" target="txtcmnt-441-02"/>.</l>
+</lg>
+<lg xml:id="p_01089">
+<l rend="noIndent">I »<seg target="txtcmnt-441-03" type="dfnStart"/><!--DATA-TERM: Klokkedybet … Aamanden--><!--DATA-DEFINITION: sagnomspundet parti af Odense Å; i »Bemærkninger« fra <i>Samlede Skrifter. Syv og Tyvende Bind</i>, 1868 (BFN 974), skriver H.C. Andersen om klokkedybet: »<i>Klokkedybet</i> er udsprunget af Folketroen om Aamanden i Odense Aa og Sagnet om Kirkeklokken, der svang sig ud fra Albani Kirketaarn«; jf. Thiele 1, 2, s. 29 f., hvor det dog er klokkerne i Skt. Knuds Kirke, der flyver, fordi man ringede for stærkt med dem.-->Klokkedybet« ned sig svang</l>
+<l rend="noIndent"><seg target="txtcmnt-441-04">Aamanden</seg><seg type="dfnEnd" target="txtcmnt-441-03"/> ganske bange,</l>
+<l rend="noIndent">Idet han hørte første Gang</l>
+<l rend="noIndent">De Kirkeklokker mange.</l>
+<l rend="noIndent">Fra <seg target="txtcmnt-441-05"><!--DATA-TERM: Klostret(s)--><!--DATA-DEFINITION: Skt. Knuds kloster.-->Klostrets</seg> Celle lød der Sang,</l>
+<l rend="noIndent">Man endnu lytter efter,</l>
+<l rend="noIndent">Nu <hi rend="italic">Odense</hi> har Alders Rang</l>
+<l rend="noIndent">Og alle Ungdoms Kræfter.</l>
+</lg>
+<lg xml:id="p_01090">
+<l rend="noIndent">Det er en Roes og ingen Spot</l>
+<l rend="noIndent">Paa Vittighedens Fløite,</l>
+<l rend="noIndent">At Du i <hi rend="italic">Dygtighed og Godt</hi></l>
+<l rend="noIndent">Er altid »<seg target="txtcmnt-441-06"><!--DATA-TERM: første Sprøite--><!--DATA-DEFINITION: egentlig den brandsprøjte, der er først fremme; her: det vigtigste, min favorit.-->første Sprøite</seg>!«</l>
+<l rend="noIndent">Du gamle, ungdomsfriske By</l>
+<l rend="noIndent">Engang for mig den største,</l>
+<l rend="noIndent">Rul op min Barndoms Tid paa ny,</l>
+<l rend="noIndent">Og da er Du den første!</l>
+</lg>
+<lg xml:id="p_01091">
+<l rend="noIndent">Her løb jeg om med Træskoe paa</l>
+<l rend="noIndent">Og gik i Fattigskole,</l>
+<l rend="noIndent">Men hele Verden for mig laa,</l>
+<l rend="noIndent">Som bar jeg Greve-Kjole;</l>
+<l rend="noIndent">Nei, jeg var ingen fattig Fyr,</l>
+<l rend="noIndent">Og Fader ikke heller,</l>
+<l rend="noIndent">Han læste for mig Eventyr,</l>
+<l rend="noIndent">Saa jeg blev selv Fortæller.</l>
+</lg>
+<pb n="442"/>
+<lg xml:id="p_01092">
+<l rend="noIndent">Til »<seg target="txtcmnt-442-01"><!--DATA-TERM: Nonnebakken--><!--DATA-DEFINITION: bakke syd for Odense Å tæt ved Skt. Knuds Kirke.-->Nonnebakken</seg>« tidt jeg gik,</l>
+<l rend="noIndent">Hen over »<seg target="txtcmnt-442-02"><!--DATA-TERM: Munkemose--><!--DATA-DEFINITION: mosedrag syd for Odense Å, nu omdannet til park.-->Munkemose</seg>«,</l>
+<l rend="noIndent">Der var en Glands, en Romantik,</l>
+<l rend="noIndent">Hver Blomst blev til en Rose;</l>
+<l rend="noIndent">»Aamanden« sang, som aldrig før</l>
+<l rend="noIndent">For Elverkongens Kone,</l>
+<l rend="noIndent"><seg target="txtcmnt-442-03"><!--DATA-TERM: Sanct Knud--><!--DATA-DEFINITION: kong Knud 4. den Hellige blev myrdet i Albani Kirke i Odense 1086.--><hi rend="italic">Sanct Knud</hi></seg> jeg saae i Kirkens Dør</l>
+<l rend="noIndent">Med Glorie og med Krone!</l>
+</lg>
+<lg xml:id="p_01093">
+<l rend="noIndent">Jeg havde Barnets stærke Tro,</l>
+<l rend="noIndent">Og <seg target="txtcmnt-442-04"><!--DATA-TERM: Jakobs Himmelstige--><!--DATA-DEFINITION: jf. 1. Mosebog 28,12.-->Jakobs Himmelstige</seg>,</l>
+<l rend="noIndent">Og jeg fandt Frøkorn, som nu groe</l>
+<l rend="noIndent">I Eventyrets Rige,</l>
+<l rend="noIndent">Der naaer ind i vort Barndoms Land</l>
+<l rend="noIndent">Og Paradisets Have,</l>
+<l rend="noIndent">Til Lysets, Evighedens Strand</l>
+<l rend="noIndent">Hinsides Jordens Grave.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Odense" synch="odense">
+<head type="section-comments">Odense</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Illustreret Tidende</hi>, nr. 804, 21. februar 1875, under en illustration af »Odense, seet fra »Nonnebakken««. BFN 1044</p>
+<table rend="textcomments">
+<cell type="page">441</cell><cell><row xml:id="txtcmnt-441-01"><cell type="data-term">Stolt bygged’ … Banke</cell><cell type="data-definition">Næsbyhoved borgbanke nær Odense Havn blev antagelig anlagt i 1100-tallet, der findes spor af bebyggelse fra omkring 1340 og befæstningsanlæg fra omkring 1370; slottet på banken blev ødelagt i 1534 under Grevens Fejde, og de sidste bygninger blev revet ned i 1764.</cell></row><row xml:id="txtcmnt-441-02"><cell type="data-term">Frigge raabte … Navnet</cell><cell type="data-definition">H.C. Andersens ordhistoriske forklaring hviler på en udbredt, men forkert antagelse; <hi rend="italic">Odense</hi> stammer fra det gammeldanske ord <hi rend="italic">Othenswi</hi>, der betyder »Odins vi«, hvor <hi rend="italic">vi</hi> betegner en nordisk, hedensk helligdom; i nordisk mytologi er Frigg Odins hustru.</cell></row><row xml:id="txtcmnt-441-03"><cell type="data-term">Klokkedybet … Aamanden</cell><cell type="data-definition">sagnomspundet parti af Odense Å; i »Bemærkninger« fra <hi rend="italic">Samlede Skrifter. Syv og Tyvende Bind</hi>, 1868 (BFN 974), skriver H.C. Andersen om klokkedybet: »<hi rend="italic">Klokkedybet</hi> er udsprunget af Folketroen om Aamanden i Odense Aa og Sagnet om Kirkeklokken, der svang sig ud fra Albani Kirketaarn«; jf. Thiele 1, 2, s. 29 f., hvor det dog er klokkerne i Skt. Knuds Kirke, der flyver, fordi man ringede for stærkt med dem.</cell></row><row xml:id="txtcmnt-441-04"><cell type="data-term">Aamanden</cell><cell type="data-definition">if. folketroen et væsen, der lokker mennesker ned til sig i åen; jf. Thiele 1, 4, s. 18.</cell></row><row xml:id="txtcmnt-441-05"><cell type="data-term">Klostret(s)</cell><cell type="data-definition">Skt. Knuds kloster.</cell></row><row xml:id="txtcmnt-441-06"><cell type="data-term">første Sprøite</cell><cell type="data-definition">egentlig den brandsprøjte, der er først fremme; her: det vigtigste, min favorit.</cell></row></cell>
+<cell type="page">442</cell><cell><row xml:id="txtcmnt-442-01"><cell type="data-term">Nonnebakken</cell><cell type="data-definition">bakke syd for Odense Å tæt ved Skt. Knuds Kirke.</cell></row><row xml:id="txtcmnt-442-02"><cell type="data-term">Munkemose</cell><cell type="data-definition">mosedrag syd for Odense Å, nu omdannet til park.</cell></row><row xml:id="txtcmnt-442-03"><cell type="data-term">Sanct Knud</cell><cell type="data-definition">kong Knud 4. den Hellige blev myrdet i Albani Kirke i Odense 1086.</cell></row><row xml:id="txtcmnt-442-04"><cell type="data-term">Jakobs Himmelstige</cell><cell type="data-definition">jf. 1. Mosebog 28,12.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

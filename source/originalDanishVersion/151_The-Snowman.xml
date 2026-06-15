@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Snowman</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="sneemanden">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="sneemanden_modern.xml">moderniseret version</note>
+                                                       <note target="151_The-Snowman.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘It’s squeaking and creaking inside me, so beautifully cold it is!’ the snowman ...</incipit><idno type="image">Sneemanden_hca_ill_0094.png</idno><popularity>943</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Snowman. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tingseventyr</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-17" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-17" who="NHB">formatted</change><change who="NHB" when="2022-10-17">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Snowman">
+               <head type="main" rend="The Snowman">The Snowman</head>                <p rend="noIndent" xml:id="p_00001">‘It’s squeaking and creaking inside me, so beautifully cold it is!’ the <hi rend="italic">snowman</hi> said. ‘The wind can really bite some life into one! And that glarer, how she glares!’ it was the sun he was referring to; it was just about to set. ‘I refuse to let her make me blink, I can still hold onto the chunks!’</p>
+               <p rend="firstIndent" xml:id="p_00002">These were the two large, triangular chunks of roof tile he had for eyes; his mouth was a piece of an old rake, which it why he had teeth.</p>
+               <p rend="firstIndent" xml:id="p_00003">He had been born to the cries of hurrah from the boys, welcomed by the jingling of bells and cracking of whips from the sleighs.</p>
+               <p rend="firstIndent" xml:id="p_00004">The sun set, the full moon rose, round and large, clear and lovely in the blue sky.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘There she is again from another angle!’ the <hi rend="italic">snowman</hi> said. He thought it was the sun that was showing itself again. ‘I have cured her of all that glaring! Now she can hang there and light things up and I can see myself. If only I knew how to go about moving myself! I would so like to be able to move! If I could, I would now go down and slide on the ice, as I saw the boys do; but I don’t know how to run!’</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Gone! gone!’ the old chained dog barked; he was somewhat hoarse, had been so ever since he had been a pet dog and lain by the tile stove. ‘The sun will teach you to run all right! I saw that happen with your predecessor last year and with his too; gone! gone! and they are all gone!’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘I fail to understand you, my friend!’ the <hi rend="italic">snowman</hi> said; ‘is <hi rend="italic">that</hi> thing up there going to teach me how to run?’ He meant the moon; ‘well, she certainly ran a while back, for I stared hard at her and now she’s pussyfooting from a different angle!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘You don’t understand a thing!’ the <hi rend="italic">chained dog</hi> said, ‘but then you’ve only recently been botched together! What you’re looking at now is called the <hi rend="italic">moon</hi>, what just left was the <hi rend="italic">sun</hi>, she will be back in the morning, she’ll teach you to run down into the moat all right. We’ll soon have a change in the weather, I can feel it in my left hind leg, it’s giving me a twinge. We’re in for a change in the weather!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘I fail to understand him!’ the <hi rend="italic">snowman</hi> said, ‘but I have a suspicion that what he’s saying is something unpleasant. I suspect that what glared and set and he calls the sun isn’t exactly my friend!’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Gone! gone!’ the <hi rend="italic">chained dog</hi> barked, turned around three times and lay down in its kennel to sleep.</p>
+               <p rend="firstIndent" xml:id="p_00011">There really did come a change in the weather. A fog, so thick and dank, settled over the entire area in the early hours; at daybreak there came a slight wind; the wind was so bitterly cold, the frost took a solid grip, but what a sight it all was when the sun rose. All the trees and bushes were coated with hoar frost; it was like a whole forest of white coral, it was as if all the branches had been smothered with gleaming white flowers. The infinite number of dividing and subdividing branches and twigs that cannot be seen in summer for all the foliage now stood out each and every one; it was lacework and so brilliantly white, as if a white gleam were coming out of every single branch and twig. The weeping birch moved in the wind, there was life in it as in the trees in summer; it was incomparable in its beauty! and when the sun then shone, oh, how everything glittered as if it had been powdered with diamond dust and over the layer of snow that covered the earth the large diamonds glistened, or one could also be convinced that an infinite number of tiny lights were burning, even whiter than the white snow.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Oh, <hi rend="italic">what</hi> incomparable beauty!’ a young girl said as she walked out with a young man into the garden and they stopped right in front of the snowman and gazed at the glistening trees. ‘There is no lovelier sight during the summer!’ she said, and her eyes shone.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘And a chap like that one there is nowhere to be found!’ the young man said, pointing at the snowman. ‘He is splendid!’</p>
+               <p rend="firstIndent" xml:id="p_00014">The young girl laughed, nodded at the snowman, and then danced with her friend across the snow, which crunched underfoot, as if they were walking on starch.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Who were those two?’ the <hi rend="italic">snowman</hi> asked the chained dog. ‘You’ve been here at the manor longer than I have, do you know them?’</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Yes, I do!’ the <hi rend="italic">chained dog</hi> said. ‘For she has stroked me, and he has given me a juicy bone; those two I don’t bite!’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘But what are they supposed to be here?’ the <hi rend="italic">snowman</hi> asked.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘Sweethearts!’ the <hi rend="italic">chained dog</hi> said. ‘They are going to move into a kennel and gnaw bones together. Gone! gone!’</p>
+               <p rend="firstIndent" xml:id="p_00019">‘Are those two as important as you and I are?’ the <hi rend="italic">snowman</hi> asked.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘They belong to the gentry!’ the <hi rend="italic">chained dog</hi> said; ‘it really is pitifully little one knows when one was born yesterday! I notice this in you! I have age and knowledge, I know everyone here at the manor! and I have known a time when I didn’t stand out here in the cold on a chain; gone! gone!’</p>
+               <p rend="firstIndent" xml:id="p_00021">‘The cold’s lovely!’ the <hi rend="italic">snowman</hi> said. ‘Tell me more, tell me more! but you mustn’t rattle your chain, for then things start cracking inside me!’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Gone! gone!’ the <hi rend="italic">chained dog</hi> barked. ‘I’ve been a puppy, small and charming, they said, then I used to lie in a velvet-covered chair inside the manor, lie in the lap of the highest in society; was kissed on the jaws and had my paws wiped with an embroidered handkerchief; I was called “<hi rend="italic">Luvvikins</hi>”, “<hi rend="italic">Patapaws</hi>”, but then I grew too big for them! so they gave me to the housekeeper; I was relegated to the cellar! You can look in there from where you stand; you can look down into the chamber, where I was the master; because that is what I was when I was with the housekeeper. It was a more humble place than upstairs, of course, but more comfortable; I was not cuddled and carried around by children like I was upstairs. My food was just as good and I had much more! I had my own pillow, and then there was the tile stove, during that time it was the loveliest thing in this world! I would creep right in under it, so that I was out of sight. ‘Oh, I still dream of that tiled stove; gone! gone!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Does a tiled stove look so lovely?’ the <hi rend="italic">snowman</hi> asked. ‘Does it look like me?’</p>
+               <p rend="firstIndent" xml:id="p_00024">‘It’s the very opposite of you! It’s black as coal! has a long neck with a brass drum. It devours firewood so that fire stands out of its mouth. One must keep to the side of it, close up, in under it, it is limitless comfort! You must be able to catch sight of it through the window from where you are standing!’</p>
+               <p rend="firstIndent" xml:id="p_00025">And the <hi rend="italic">snowman</hi> looked, and he really could see a black, highly polished object with a brass drum; the fire gleamed down below. The <hi rend="italic">snowman</hi> felt strangely uneasy at the sight; he had a feeling he couldn’t explain; something came over him that he was unfamiliar with, but which all people feel if they are not snowmen.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘And why did you leave her?’ the <hi rend="italic">snowman</hi> asked. He felt it had to be a female person. ‘How could you leave such a place?’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘I was forced to do so!’ the <hi rend="italic">chained dog</hi> said, ‘they threw me out and put me on a chain here. I had bitten the youngest young nobleman in the leg, for he pushed the bone I was gnawing away from me; and a bone for a bone, I thought! but they didn’t like that one bit, and since then I have been on a chain and have lost my clear voice, just listen to how hoarse I am: gone! gone! that was the end of it!’</p>
+               <p rend="firstIndent" xml:id="p_00028">The <hi rend="italic">snowman</hi> was no longer listening; he was still looking into the housekeeper’s basement, down into her cellar room, where the tiled stove stood on its four iron legs and had the same size as the snowman himself.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘There such a strange creaking going on inside me!’ he said. ‘Will I never get inside there? it is an innocent wish, and our innocent wishes must surely be fulfilled. It is my highest wish, my one and only wish and it would almost be unjust if it were not fulfilled. I simply must get in there, I must lean up against her, even if I have to break the window to do it!’</p>
+               <p rend="firstIndent" xml:id="p_00030">‘You’ll never get in there!’ the <hi rend="italic">chained dog</hi> said, ‘and if you did get to the tiled stove, then you’d be gone! gone!’</p>
+               <p rend="firstIndent" xml:id="p_00031">‘I’m as good as gone!’ the <hi rend="italic">snowman</hi> said, ‘I am about to break in two, I think!’</p>
+               <p rend="firstIndent" xml:id="p_00032">The <hi rend="italic">snowman</hi> stood there all day, gazing in through the window; in the twilight the room looked even more inviting; there was such a gentle glow coming from the tiled stove, a gleam that neither the moon nor the sun can have, no, only a tiled stove when there is something in it. If a door was opened or shut, the flames shot out, as was their custom; it really blazed red into the white face of the snowman, right from his chest upwards there was a red gleam.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘I can’t bear it!’ he said. ‘How it becomes her to put her tongue out!’</p>
+               <p rend="firstIndent" xml:id="p_00034">The night was very long but not for the snowman, he stood in his own delightful thoughts and they froze till they creaked.</p>
+               <p rend="firstIndent" xml:id="p_00035">When morning came the cellar window were frozen, they bore the loveliest ice ferns a snowman could wish for, but they concealed the tiled stove. The panes refused to thaw out, he could not see her. It creaked, it cracked, it was just the sort of frosty weather that must gratify a snowman, but he was not gratified; he could and should have felt so happy, but he was not happy – he suffered from tile stove.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘That is a nasty disease for a snowman to have!’ the <hi rend="italic">chained dog</hi> said; ‘I’ve also suffered from that disease, but I managed to get over it! gone! gone! – Now we’re in for a change in the weather!’</p>
+               <p rend="firstIndent" xml:id="p_00037">And the weather changed, it started to thaw.</p>
+               <p rend="firstIndent" xml:id="p_00038">The thaw increased, the snowman decreased. He didn’t say anything, he didn’t complain, and that is just as it should be.</p>
+               <p rend="firstIndent" xml:id="p_00039">One morning he collapsed. something like a broomstick stuck up where he had stood – the boys had built him up around it.</p>
+               <p rend="firstIndent" xml:id="p_00040">‘Now I can understand that business with his longing!’ the <hi rend="italic">chained dog</hi> said, ‘the snowman had a stove scraper inside him! that’s what moved him, now it’s over and done with; gone! gone!’</p>
+               <p rend="firstIndent" xml:id="p_00041">And soon the winter was also over and done with.</p>
+               <p rend="firstIndent" xml:id="p_00042">‘Gone! gone!’ the <hi rend="italic">chained dog</hi> barked; but the small girls up at the house sang:</p>
+               <lg xml:id="p_00043">
+                    <l>‘See, woodruff! spring’s here, start to sprout,</l>
+               <l>Hang, willow! woollen gloves now out,</l>
+               <l>Come cuckoo, lark! and sing out clear</l>
+               <l>Spring e’en in February’s here!</l>
+               <l>I’ll join in too, cuckoo! cheep-cheep!</l>
+               <l>Dear sun, now often you shall peep!’</l></lg>
+               <p rend="noIndent" xml:id="p_00044">And then no one thinks about the <hi rend="italic">snowman</hi>!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

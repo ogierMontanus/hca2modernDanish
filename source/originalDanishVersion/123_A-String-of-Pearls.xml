@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>A String of Pearls</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="et-stykke-perlesnor">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="et-stykke-perlesnor_modern.xml">moderniseret version</note>
+                                                       <note target="123_A-String-of-Pearls.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>As yet, the railway in Denmark only stretches from Copenhagen to Korsør, it is a...</incipit><idno type="image">Et_Stykke_Perlesnor_forside.png</idno><popularity>901</popularity><cite>&lt;p&gt;Hans Christian Andersen: A String of Pearls. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term><term>steder</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-30" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-30" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="A String of Pearls">
+               <head type="main" rend="A String of Pearls">A String of Pearls</head>
+<div rend="I">
+<head rend="I">I</head>
+               <p rend="noIndent" xml:id="p_00001">As yet, the railway in Denmark only stretches from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi>, it is a string of pearls of which there are a great many in Europe, the most precious usually mentioned <hi rend="italic">there </hi>being Paris, London, Vienna and Naples – although many people would not choose any of these large cities as their loveliest pearl, but refer instead to a small unobtrusive town as their home of homes, there where their dear ones live; and often it is no more than a single dwelling, a small house, hidden behind green hedges, a point passed in an instant as the train flashes past.</p>
+               <p rend="firstIndent" xml:id="p_00002">Just how many such pearls are there on the string from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi>? We would like to consider six that most people can’t fail to notice – old memories and poetry itself lend these pearls a lustre that makes them light up our thoughts.</p>
+               <p rend="firstIndent" xml:id="p_00003">Near the hill on which <hi rend="italic">Frederik VI’s</hi> palace lies, <hi rend="italic">Oehlenschläger’s</hi> childhood home, sheltered by the woodland soil of Søndermarken, shines one such pearl, known as ‘<hi rend="italic">Baucis and Philemon’s Cottage’</hi>, in other words, the home of a lovable old couple. Here <hi rend="italic">Rahbek</hi> lived with his wife <hi rend="italic">Camma</hi>, here, under their hospitable roof, brilliant minds from busy Copenhagen gathered for a whole generation, here there was a home of the spirit, – – and now! do not say ‘Alas, how changed!’ – no, it is still a home of the spirit, a hothouse for the languishing plant! the flower bud that is not yet strong enough to unfold, still secretely hides all the shoots needed for leaves and seeds. Here the illuminating sun of the intellect shines into a protected home of the intellect, enlivens and animates. The outside world streams in through the eyes into the unfathomable depths of the soul: the ‘<hi rend="italic">mental home’</hi>, round which human love hovers, is a holy place, a hothouse for the languishing plant that one day will be replanted and flower in God’s garden. Those mentally feeblest now gather here where once the greatest and mightiest minds once met, exchanged thoughts and were lifted aloft – aloft too the souls’ flame still blazes in <hi rend="italic">‘Baucis and Philemon’s Cottage’</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00004">The City of Royal Graves near Hroar’s Spring, old <hi rend="italic">Roskilde</hi>, lies before us; the slender spires of the cathedral rise up over the low houses of the city and are mirrored in the Issefjord; one grave only we wish to seek here, gaze at it in the pearl’s lustre – it is not that of the mighty monarch of the Union of Kalmar, Margrethe I, no, inside the cemetery, close to whose white walls we fly past, the grave lies, a simple stone raised above it, the King of the Organ, the reviver of the Danish romance, lies here; the old legends became melodies in our soul, we sensed where: ‘the clear waves rolled’, ‘A king once dwelt in Lejre!’ – <hi rend="italic">Roskilde</hi>, City of Royal Graves, in your pearl we wish to visit the humble grave where stone is inscribed with a lyre and the name <hi rend="italic">Weyse</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00005">Now we come to <hi rend="italic">Sigersted</hi>, near Ringsted; the riverbed is low; the golden corn grows where <hi rend="italic">Hagbarth’s</hi> boat used to moor, not far from <hi rend="italic">Signe’s</hi> bower. Who doesn’t know the legend of <hi rend="italic">Hagbarth</hi>, who was hanged in the oak tree and <hi rend="italic">Signelil’s</hi> bower that was set ablaze, a legend of the strength of love.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Beautiful <hi rend="italic">Sorø</hi> surrounded by woodland!’ your quiet abbey town has been granted a view between the moss-covered trees; with youthful look it gazes from the Academy out across the lake to the World Highway, hears the roaring breath of the locomotive’s dragon as it flies through the wood. <hi rend="italic">Sorø</hi>, you pearl of poetry, where the mortal remains of <hi rend="italic">Holberg</hi> lie! Like a mighty white swan at the deep woodland lake lies your palace of learning – which is where our eye searches – there gleams, like white stitchwort on the woodland floor, a small house from which pious hymns sound through the surrounding countryside, words are uttered inside, even the farmer listens to them and recognises times past in Denmark. The green wood and the song of the bird belong together, as do the names of <hi rend="italic">Sorø</hi> and <hi rend="italic">Ingemann</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00007">Off to the town of <hi rend="italic">Slagelse</hi>! what is reflected here in the pearl’s lustre? Gone now is Antvorskov Abbey, gone are the fine halls of the castle, even its solitary, deserted wing; although an old sign still stands there, renewed time and time again, a wooden cross on the hill yonder where in legendary times <hi rend="italic">Holy Anders</hi>, the Slagelse priest, woke up, borne here during one night from Jerusalem.</p>
+               <p rend="firstIndent" xml:id="p_00008"><hi rend="italic">Korsør</hi> – here you were born, who gave us:</p>
+               <lg xml:id="p_00009">
+                    <l>‘Jests combined with gravity</l>
+               <l>In songs by Knud Sealand’s father.’</l></lg>
+               <p rend="noIndent" xml:id="p_00010">You master of word and wit! the subsiding old ramparts of the abandoned fortress are now the last visible evidence of your childhood home; when the sun sets, their shadows point to the spot where the house of your birth once lay; from these ramparts, looking out towards the high ground on <hi rend="italic">Sprogø</hi>, you saw when you ‘were small’, ‘the moon slide down behind the island’ and your song of praise made it immortal! , just as you later sang of the mountains of Switzerland, you who set off into the labyrinth of the world and discovered that –</p>
+               <lg xml:id="p_00011">
+                    <l>‘…nowhere are roses deeper red</l>
+               <l>And nowhere smaller thorns are found</l>
+               <l>And nowhere is there softer down</l>
+               <l>Than where we young innocents laid our head!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00012">Delicious songs of whimsy! we weave a garland of woodruff for you, throw it into the lake, and the current will carry it to Kiel Fjord, on whose banks your mortal remains have been laid to rest; it brings a greeting from the younger generation, a greeting from your native town of <hi rend="italic">Korsør</hi> – where the string of pearls comes to an end!</p>
+</div>
+<div rend="II">
+               <head rend="II">II</head>
+               <p rend="noIndent" xml:id="p_00013">‘That certainly is a string of pearls from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi>,’ grandmother said, who had heard what we just now had read aloud. ‘It is a string of pearls for me as it already was forty years ago!’ she said. ‘Back then we did not have those steam machines, we spent days travelling what now takes only a few hours! That was back in 1815, when I was twenty-one years old! now that is a delightful age! although it is also delightful to be in one’s sixties, so wonderful! – In my young days, it was a quite different and rare occasion than it is now to go to <hi rend="italic">Copenhagen</hi>, the City of all Cities, as we considered it. My parents, after twenty years, wanted once more to pay it a visit, and I was to go with them; we had spoken about the journey for years and now it was really going to take place! I felt as if a completely new life was about to begin, and in a way a new life did begin for me.</p>
+               <p rend="firstIndent" xml:id="p_00014">Much sewing and packing was done and when we were about to leave, well, you can’t imagine how many good friends came to bid us farewell! it was a long journey we had ahead of us! Around mid-morning we set out from <hi rend="italic">Odense</hi> in my parents’ Holstein cart, acquaintances nodded from the windows all the way down the street, almost until we had passed through St. Jørgen’s Gate. The weather was fine, the birds sang, all was sheer pleasure, one forgot it was such a long and difficult way to <hi rend="italic">Nyborg</hi>, where we arrived towards evening; the mail did not arrive until early in the night and before that the ferry did not leave; we then went on board; ahead of us lay the great expanse of water, calm as a mill-pond as far as the eye could see. We lay down still fully dressed and slept. When I awoke early the next morning and came up on deck, there was nothing to be seen in any direction, so thick was the mist. I heard the cocks crow, sensed that the sun rose, the bells rang; where were we, I wondered; the mist lifted, and there we were still just off <hi rend="italic">Nyborg</hi>. Later in the day a breath of wind at last came, but head-on; we tacked and tacked, and finally were fortunate enough to reach <hi rend="italic">Korsør</hi> just after eleven that evening – by then we had spent twenty-two hours covering just under twenty miles.</p>
+               <p rend="firstIndent" xml:id="p_00015">It felt good to be on dry land, but it was dark, the lamps gave only a dim light and everything was so totally strange to me, for I had never been in any other town than <hi rend="italic">Odense</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Look, it was here that <hi rend="italic">Baggesen</hi> was born!’ my father said, ‘and here <hi rend="italic">Birckner</hi> used to live!’</p>
+               <p rend="firstIndent" xml:id="p_00017">It then seemed to me as if the old town with the small houses suddenly became brighter and larger; what’s more, we were so happy to have dry land under our feet; I couldn’t sleep that night because of all the many things I had already seen and experienced since leaving home two days earlier.</p>
+               <p rend="firstIndent" xml:id="p_00018">The next morning we had to be up early, we had a hard journey ahead with awful bumps and lots of potholes before we reached <hi rend="italic">Slagelse</hi>, and things were not much better on the other side of it either, and we so much wanted to get to The Crayfish Inn in good time, so that while it was still daylight we could reach <hi rend="italic">Sorø</hi> and visit <hi rend="italic">Møller’s Emil</hi>, as we called him, yes, that was your grandfather, my late husband, the dean, he was studying in <hi rend="italic">Sorø Academy</hi> at the time and had just taken his first-year university exams.</p>
+               <p rend="firstIndent" xml:id="p_00019">We reached <hi rend="italic">The Crayfish Inn</hi> after midday, it was an excellent place back then, the best inn of the whole journey and the loveliest region, well, all of you must surely admit that it still is. Its proprietress was a highly proficient lady, Madam <hi rend="italic">Plambek</hi>, everything at the inn was like a well-scoured chopping board. On the wall, framed and glazed was <hi rend="italic">Baggesen’s</hi> letter to her – that was well worth seeing! – I found it a great curiosity. – Then we continued to <hi rend="italic">Sorø</hi> and met <hi rend="italic">Emil</hi> there; believe me, he was very glad to see us, as we were him, he was so kind and attentive. He took us to see the church with <hi rend="italic">Absalon’s</hi> grave and <hi rend="italic">Holberg’s</hi> coffin; we saw the old monk-inscriptions, and we sailed across the lake to the <hi rend="italic">‘Parnassus’</hi> – the most delightful evening I can recall! I really felt that if there was anywhere in the world where one could write prose or verse, it had to be in <hi rend="italic">Sorø</hi>, in the tranquillity and delightfulness of nature. Then we walked in the moonlight along <hi rend="italic">‘The Philosophers’ Path’</hi> as they called it, the lovely, lonely path alongside the lake and the swift-flowing water out towards the highway to <hi rend="italic">The Crayfish Inn</hi>; <hi rend="italic">Emil</hi> stayed on and dined with us, father and mother thought he had become so knowledgeable and looked so handsome. He promised us that within five days he would be staying with his family in Copenhagen and could be with us, for it was Whitsun. The hours in <hi rend="italic">Sorø</hi> and at The Crayfish Inn, well, they belong to the loveliest pearls of my life!</p>
+               <p rend="firstIndent" xml:id="p_00020">The next morning we set out very early, for we had a long way ahead of us before we reached <hi rend="italic">Roskilde</hi>, and we had to be there in good time in order to see the cathedral, and for father during the evening to visit an old school friend; all this we did, and stayed the night in <hi rend="italic">Roskilde</hi>, and the next day, though first around midday – for it was the worst, the most heavily used road that still lay before us – we arrived in <hi rend="italic">Copenhagen</hi>. We had spent roughly three days getting from <hi rend="italic">Korsør</hi> to <hi rend="italic">Copenhagen</hi>, now you are able to do the same trip in three hours. The pearls have not become more precious, they could not do so, but the string itself has become new and marvellous. I spent three weeks with my parents in Copenhagen, we were together with <hi rend="italic">Emil</hi> no less than eighteen days, and when we then returned to <hi rend="italic">Funen</hi>, he accompanied us all the way from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi>, there we became engaged before we parted; so you can well understand that I call from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi> a string of pearls.</p>
+               <p rend="firstIndent" xml:id="p_00021">Later, when <hi rend="italic">Emil</hi> gained a position in <hi rend="italic">Assens</hi>, we got married; we often spoke of the <hi rend="italic">Copenhagen</hi> trip, and of repeating it some day, but first your mother came, and then came brothers and sisters, and there was a great deal to see to and take care of, and when father was promoted and became a dean, well, it was all a source of joy and happiness, but we never got to <hi rend="italic">Copenhagen</hi>! I never went there again, though we often thought and spoke about it, and now that I have become too old, I haven’t the stamina to travel by railway, though I am glad the railways exist! It is a blessing that they are there – it brings you to me more swiftly! Now <hi rend="italic">Odense</hi> is hardly further from Copenhagen than it was from <hi rend="italic">Nyborg</hi> when I was young! You can now be whisked to Italy just as quickly as it took us to travel to <hi rend="italic">Copenhagen</hi>! yes, that is really something! Even so, I intend to stay put where I am and let others travel! let them come to me! but you shouldn’t smile even so because I sit here so quietly, I have a great journey of a different kind ahead of me than yours, one that is much quicker than even the railways; when the <hi rend="italic">Lord God</hi> wishes, I will travel up to ‘Grandfather’, and when you have carried out your life’s task and rejoiced in this marvellous world, I know for sure that you will come up to us, and then we will talk about our days here on earth, believe me, children! I will also say there as I do now: ‘from <hi rend="italic">Copenhagen</hi> to <hi rend="italic">Korsør</hi>, it is indeed a string of pearls!’</p>
+          </div>
+          </div>
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Silent Book</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl>
+                                             <notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-stumme-bog">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-stumme-bog_modern.xml">moderniseret version</note>
+                                                       <note target="97_The-Silent-Book.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Right by the road in the wood lay a lonely farm, one actually passed straight th...</incipit><idno type="image">Den_stumme_Bog_hca_ill_0173.png</idno><popularity>924</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Silent Book. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>steder</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-25" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-25" who="NHB">formatted</change><change who="NHB" when="2022-11-09">silent&gt;Silent in title. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Silent Book">
+          <head type="main" rend="The Silent Book">The Silent Book</head>                <p rend="noIndent" xml:id="p_00001">Right by the road in the wood lay a lonely farm, one actually passed straight through the courtyard; the sun shone there, all the windows were open, there was a hustle and bustle inside, but in the courtyard, in a bower of flowering lilacs, there stood an open coffin; the dead man had been placed out there and was to be buried that same morning; no one stood gazing in sorrow down on the dead man, no one wept for him over the coffin, his face had been covered with a white cloth, and under his head a large, bulky book had been placed, the pages of which were whole sheets of grey paper, and between each of them, out of sight and out of mind, lay withered flowers – a whole herbarium – collected in various places; they were to be buried with him at his own request. A chapter of his life was linked to each and every flower.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Who is the dead man?’ we asked, and the answer came: ‘the old student from Uppsala! he is said once to have been clever, had a knowledge of classical languages, been able to sing, even write songs; but then something went amiss, and he threw away all his thoughts, and himself as well, into strong liquor, his health followed him downhill, and he ended up out here in the country, where his board was paid for. He was as meek as a lamb, when the black mood did not come upon him, that is, for then he grew strong and rushed around in the forest like a hunted animal; but if we managed to get him home and to look at the book with the dried plants, he could sit the whole day long looking at first one plant then another, and tears would often course down his cheeks; God only knows what he was thinking of then! but he asked for the book to be placed in his coffin, and that is where it now lies, and soon the lid will be fastened to the coffin and he will rest in peace in his grave.’</p>
+          <p rend="firstIndent" xml:id="p_00003">The cloth was lifted; the dead man’s face looked peaceful, a sun’s ray fell on it; swift as an arrow, a swallow shot into the bower and veered sharply, chirping above the dead man’s head.</p>
+          <p rend="firstIndent" xml:id="p_00004">How strange it feels – all of us have experienced this – to take out old letters from our younger days and read them; it is as if a whole life wells up, with all its expectations, all its sorrows. Oh, how many of those who we were once so close to are now as if dead to us, and yet they are still alive, but we have not thought of them for such a long time, those we once believed we would always hold on to, share each other’s joys and sorrows.</p>
+          <p rend="firstIndent" xml:id="p_00005">The withered oak leaf in the book here reminds one of the friend, the school friend, the friend for life; he attached this leaf to his student’s cap in the green forest when the pledge of lifelong friendship was made. – Where does he live now? – the leaf’s kept hidden, the friendship’s forgotten –! Here is a strange greenhouse plant, too fine for Northern gardens – it is as if there was still scent left in these leaves! <hi rend="italic">she </hi>gave it to him, the young lady from the aristocratic family’s flower garden. Here is the waterlily he himself has picked and watered with his salt tears, the fresh-water lily. And here is a nettle, what does its leaf say? Here is a lily-of-the-valley from the loneliness of the forest; here is honeysuckle from the tap-room’s flowerpot, and here the bare, sharp blade of grass -!</p>
+          <p rend="firstIndent" xml:id="p_00006">The flowering lilac leans its fresh, fragrant cluster over the dead man’s head – the swallow flies past once more: Kee-wit! kee-wit! – Now the men come with nails and hammer, the lid is placed over the dead man who rests his head on <hi rend="italic">the silent book</hi>. Hidden – forgotten.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

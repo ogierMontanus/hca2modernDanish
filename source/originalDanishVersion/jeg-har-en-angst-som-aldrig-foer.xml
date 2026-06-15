@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Psalme</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="jeg-har-en-angst-som-aldrig-foer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Jeg har en Angst som aldrig før</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00888</section>
+                                                                 <date>1864</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1864</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Psalme" xml:id="jeg-har-en-angst-som-aldrig-foer"><pb n="355"/><head type="part">Psalme</head>
+<lg xml:id="p_00889">
+<l rend="noIndent" subtype="firstline" corresp="Jeg har en Angst som aldrig før" rendition="jeg-har-en-angst-som-aldrig-foer">Jeg har en Angst som aldrig før,</l>
+<l rend="noIndent">Som stod jeg foran Dødens Dør</l>
+<l rend="noIndent">Og maatte ind og styrte ned</l>
+<l rend="noIndent">I Mørke og i Eensomhed;</l>
+<l rend="noIndent">Jeg drives frem med Stormens Hast,</l>
+<l rend="noIndent">O Herre, Herre, hold mig fast!</l>
+</lg>
+<lg xml:id="p_00890">
+<l rend="noIndent">Alt Ondt i mig det kom fra mig,</l>
+<l rend="noIndent">Hvad Godt jeg gjorde kom fra Dig;</l>
+<l rend="noIndent">De Andres Skyld jeg nok opskrev</l>
+<l rend="noIndent">Men ei mit eget Skyldner-Brev;</l>
+<l rend="noIndent">Hvor har jeg for mig selv hver Dag</l>
+<l rend="noIndent">Besmykket godt min egen Sag.</l>
+</lg>
+<lg xml:id="p_00891">
+<l rend="noIndent">Jeg trædes skal af Dødens Hæl,</l>
+<l rend="noIndent">Først da sig løfte kan min Sjæl.</l>
+<l rend="noIndent">Læg <hi rend="italic">Fadervor</hi> som <seg target="txtcmnt-355-01"><!--DATA-TERM: Duens Blad--><!--DATA-DEFINITION: jf. 1 Mosebog 8,11.-->Duens Blad</seg></l>
+<l rend="noIndent">Mig paa min Tunge, gjør mig glad.</l>
+<l rend="noIndent">Har jeg ei Gud, hvad har jeg da,</l>
+<l rend="noIndent">Naar hele Verden falder fra!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Psalme" synch="jeg-har-en-angst-som-aldrig-foer">
+<head type="section-comments">Psalme</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Dansk Kirketidende</hi>, nr. 28, 17. juli 1864. BFN 882</p>
+<table rend="textcomments">
+<cell type="page">355</cell><cell><row xml:id="txtcmnt-355-01"><cell type="data-term">Duens Blad</cell><cell type="data-definition">jf. 1 Mosebog 8,11.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

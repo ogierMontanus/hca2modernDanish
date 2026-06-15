@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Solskins-Historier</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i engelsk oversættelse ved Anna Raasløff med titlen »Sunshine Stories« i <i>Riverside Magazine</i>, der udkom i maj 1869. Trykt første gang på dansk i <i>Fra nordiske Digtere. Et Album</i>, der udkom i november 1869 (BFN 991). Optaget i <i>Eventyr og Historier. Ny Samling</i>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="solskins-historier" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="solskins-historier_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="182_Sunshine-Stories">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>»Nu skal jeg fortælle!« sagde Blæsten....</incipit><readingTime>5</readingTime><popularity>872</popularity><cite>&lt;p&gt;H.C. Andersen: Solskins-Historier. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Solskins-Historier-02_2022-03-14.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Solskins-Historier" xml:id="solskins-historier">
+<head type="main">Solskins-Historier</head>
+
+<p rend="noIndent" xml:id="p_00001">»Nu skal jeg fortælle!« sagde <hi rend="italic">Blæsten</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Nei, tillader De,« sagde <hi rend="italic">Regnveiret</hi>, »nu er det min Tour! De har længe nok staaet ved Gadehjørnet og tudet alt hvad De kunde tude!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Er det Tak,« sagde <hi rend="italic">Blæsten</hi>, »fordi jeg til Ære for Dem har vendt mangen Paraply, ja knækket den, naar Folk ikke vilde have med Dem at gjøre!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">»<hi rend="italic">Jeg</hi> fortæller!« sagde <hi rend="italic">Solskinnet</hi>, »stille!« og det blev sagt med Glands og Majestæt, saa Blæsten lagde sig saa lang den var, men <hi rend="italic">Regnveiret</hi> ruskede i Blæsten og sagde: »Det skulle vi taale! hun bryder altid igjennem, denne Madame Solskin. Vi ville ikke høre efter! det er ikke Umagen værdt at høre efter!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Og <hi rend="italic">Solskinnet</hi> fortalte:</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Der fløi en Svane hen over det rullende Hav; hver Fjer paa den skinnede som Guld; een Fjer faldt ned paa det store Kjøbmands-Skib, som for fulde Seil gled forbi; Fjeren faldt i det krøllede Haar paa den unge Mand, Tilsynsmand over Varerne, <seg target="txtcmnt-261-01"><!--DATA-TERM: Supercargo--><anchor target="txtcmnt-261-01"/><!--person, der forestod tilsyn med varer og salget af ladningen.-->Supercargo</seg> kaldte de ham. Lykkefuglens Fjer berørte hans Pande, blev Pen i hans Haand, og han blev snart den rige Kjøbmand, der nok kunde kjøbe sig Sporer af Guld, forvandle Guldfad til Adelsskjold; jeg har skinnet ind i det!« sagde <hi rend="italic">Solskinnet</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Svanen fløi hen over den grønne Eng, hvor <seg target="txtcmnt-261-02"><!--DATA-TERM: den lille Faarevogter … Tro og Viden--><anchor target="txtcmnt-261-02"/><!--måske filosoffen, professor Rasmus Nielsen (1809-1884), som var husmandssøn, og som netop i disse år hævdede muligheden af at forene tro og viden.-->den lille Faarevogter, en Dreng paa syv Aar, havde lagt sig i Skyggen af det gamle, eneste Træ herude. Og Svanen i sin Flugt kyssede et af Træets Blade, det faldt i Drengens Haand, og det ene Blad blev til tre, blev til ti, blev til en heel Bog, og han læste i den om Naturens Underværker, om Modersmaalet, om Tro og Viden</seg>. Mod Sengetid lagde han Bogen under sit Hoved for ikke at glemme hvad han havde læst, og Bogen bar ham til Skolebænk, til Lærdoms Bord. Jeg har læst hans Navn mellem de Lærdes!« sagde <hi rend="italic">Solskinnet</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Svanen fløi ind i Skoveensomhed, hvilede sig der paa de stille mørke Søer, hvor Aakanden groer, hvor de vilde Skovæbler groe, hvor Gjøg og Skovdue har hjemme.</p>
+
+<pb n="262"/><p rend="firstIndent" xml:id="p_00009">En fattig Kone samlede Brændsel, nedfaldne Grene, bar dem paa sin Ryg, sit lille Barn bar hun ved Brystet og gik sin Hjemvei. Hun saae den gyldne Svane, Lykkens Svane, løfte sig fra den sivgroede Bred. Hvad skinnede der? Et gyldent Æg; hun lagde det ved sit Bryst og Varmen blev; der var vist Liv i Ægget. Ja, det pikkede indenfor Skallen; hun fornam det og troede, det var hendes eget Hjerte, der slog.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Hjemme i sin fattige Stue tog hun Guld-Ægget frem. »Tik! tik!« sagde det, som var det et kosteligt Gulduhr, men et Æg var det med levende Liv. Ægget revnede, en lille Svaneunge, <seg target="txtcmnt-262-01"><!--DATA-TERM: fjedret--><anchor target="txtcmnt-262-01"/><!--fjerklædt.-->fjedret</seg>, som af det pure Guld, stak Hovedet frem; den havde om Halsen fire Ringe, og da den fattige Kone netop havde fire Drenge, tre hjemme og den fjerde, som hun havde baaret med i Skoveensomheden, saa begreb hun strax, at her var en Ring til hver af Børnene, og idet hun begreb det, fløi den lille Guldfugl.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Hun kyssede hver Ring, lod hvert Barn kysse een af Ringene, lagde den ved Barnets Hjerte, satte den paa Barnets Finger.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Jeg saae det!« sagde <hi rend="italic">Solskinnet</hi>. »Jeg saae hvad der fulgte!«</p>
+
+<p rend="firstIndent" xml:id="p_00013"><seg target="txtcmnt-262-02"><!--DATA-TERM: Den ene Dreng … Skind--><anchor target="txtcmnt-262-02"/><!--Bertel Thorvaldsen (1770-1844), billedhugger, fik sit internationale gennembrud i Rom i 1802-1803 med en statue af Jason (græsk sagnhelt, der i spidsen for argonauterne drog til Kolchis ved Sortehavet for at hente det gyldne skind).-->Den ene Dreng satte sig i Leergraven, tog en Klump Leer i sin Haand, dreiede det med Fingrene, og det blev en <hi rend="italic">Jason</hi>-Skikkelse, der havde hentet det gyldne Skind</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Den anden af Drengene løb strax ud paa Engen hvor Blomsterne stode med alle tænkelige Farver; han plukkede en Haandfuld, klemte dem saa fast, at Safterne sprøitede ham ind i hans Øine, vædede Ringen, det kriblede og krablede i Tanker og i Haand, og efter Aar og Dag talte den store Stad om den store Maler.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Den tredie af Drengene holdt Ringen saa fast i sin Mund, at den gav Klang, Gjenlyd fra Hjertebunden; Følelser og Tanker løftede sig i Toner, løftede sig, som syngende Svaner, dukkede sig, som Svaner, ned i den dybe Sø, Tankens dybe Sø; han blev Tonernes Mester, hvert Land kan nu tænke: »mig tilhører han!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">Den fjerde Lille, ja han var <seg target="txtcmnt-262-03"><!--DATA-TERM: Skumpelskud--><anchor target="txtcmnt-262-03"/><!--ynkelig og ringeagtet person.-->Skumpelskud</seg>; han havde Pip, sagde de, han skulde have Peber og Smør, som de syge Kyllinger! de sagde nu Ordene med den Betoning de vilde: »Peber og <seg target="txtcmnt-262-04"><!--DATA-TERM: Smøer--><anchor target="txtcmnt-262-04"/><!--prygl.-->Smøer</seg>!« og det fik han; men af mig fik han et Solskins-Kys,« sagde <hi rend="italic">Solskinnet</hi>, »han fik ti Kys for eet. Han var en Digter-Natur, han blev knubset og kysset; men Lykkeringen havde han fra Lykkens gyldne Svane. Hans Tanker fløi ud som gyldne Sommerfugle, Udødeligheds-Symbolet!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Det var en lang Historie den!« sagde <hi rend="italic">Blæsten</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Og kjedelig!« sagde <hi rend="italic">Regnveiret</hi>. »Blæs paa mig, at jeg kan komme mig igjen!«</p>
+
+<pb n="263"/><p rend="firstIndent" xml:id="p_00019">Og <hi rend="italic">Blæsten</hi> blæste, og <hi rend="italic">Solskinnet</hi> fortalte:</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Lykkens Svane fløi hen over den dybe Havbugt, hvor Fiskerne havde spændt deres Garn. Den Fattigste af dem tænkte paa at gifte sig og han giftede sig.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Til ham bragte Svanen et Stykke Rav; Rav drager til sig, det drog Hjerter til Huset. Rav er den deiligste Røgelse. Der kom en Duft, som fra Kirken, der kom en Duft fra Guds Natur. De følte ret Huuslivets Lykke, Tilfredshed i de smaa Kaar, og da blev deres Liv en heel Solskins-Historie.«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Skulle vi nu bryde af!« sagde <hi rend="italic">Blæsten</hi>. »Nu har <hi rend="italic">Solskinnet</hi> længe nok fortalt. Jeg har kjedet mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Jeg ogsaa!« sagde <hi rend="italic">Regnveiret</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Hvad sige nu vi Andre, som have hørt Historierne?«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Vi sige: »nu ere de ude!««</p>
+
+<pb n="264"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Solskins-Historier" xml:id="solskins-historier">
+<head type="section-comments">Solskins-Historier</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse ved Anna Raasløff med titlen »Sunshine Stories« i <hi rend="italic">Riverside Magazine</hi>, der udkom i maj 1869. Trykt første gang på dansk i <hi rend="italic">Fra nordiske Digtere. Et Album</hi>, der udkom i november 1869 (BFN 991). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p>
+<p>BFN 1017/V,133-135/VII,354-355.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">261,9</cell><cell type="deviation">»stille &lt; »Stille</cell></row>
+<row><cell type="position">263,14</cell><cell type="deviation">»nu &lt; »» nu</cell></row>
+</table>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til det danske førstetryk</p>
+
+<table rend="textdeviations">
+<row><cell type="position">261</cell><cell type="deviation"><hi rend="italic">titlen var forsynet med forfatterangivelse på ny linje:</hi> af H. C. Andersen – 12: Madame &lt; Madam – 13: værdt &lt; værd</cell></row>
+<row><cell type="position">262</cell><cell type="deviation">5: hun &lt; det var varmt endnu. Hun – 32: Skumpelskud &lt; Skrumpelskud – 38: som gyldne &lt; som syngende</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">261</cell><row xml:id="txtcmnt-261-01"><cell type="data-term">Supercargo</cell><cell type="data-definition">person, der forestod tilsyn med varer og salget af ladningen.</cell></row><row xml:id="txtcmnt-261-02"><cell type="data-term">den lille Faarevogter … Tro og Viden</cell><cell type="data-definition">måske filosoffen, professor Rasmus Nielsen (1809-1884), som var husmandssøn, og som netop i disse år hævdede muligheden af at forene tro og viden.</cell></row>
+<cell type="page">262</cell><row xml:id="txtcmnt-262-01"><cell type="data-term">fjedret</cell><cell type="data-definition">fjerklædt.</cell></row><row xml:id="txtcmnt-262-02"><cell type="data-term">Den ene Dreng … Skind</cell><cell type="data-definition">Bertel Thorvaldsen (1770-1844), billedhugger, fik sit internationale gennembrud i Rom i 1802-1803 med en statue af Jason <pb n="448"/>(græsk sagnhelt, der i spidsen for argonauterne drog til Kolchis ved Sortehavet for at hente det gyldne skind).</cell></row><row xml:id="txtcmnt-262-03"><cell type="data-term">Skumpelskud</cell><cell type="data-definition">ynkelig og ringeagtet person.</cell></row><row xml:id="txtcmnt-262-04"><cell type="data-term">Smøer</cell><cell type="data-definition">prygl.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

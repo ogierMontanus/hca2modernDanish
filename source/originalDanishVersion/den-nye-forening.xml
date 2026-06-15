@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den nye Forening</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</licence>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<head type="section-comments">Den nye Forening. Den 28de Januar 1829</head><p rend="noIndent">Først kendte tryk: lejlighedstryk, formentlig i forbindelse med kong Frederik 6.s 61-års fødselsdag, 28. januar 1829. BFN 24</p>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">7:<hi rend="italic"> Digte I 1823-1839</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-nye-forening" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Kold og taus Naturen sover</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>den-nye-forening/#kold-og-taus-naturen-sover</section>
+                                                                 <date>1829</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1829</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-06-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-06-08" who="NHB">formatted</change><change who="NHB" when="2023-06-23" status="draft">gennemset indtil 10333: 
+               Hr. Mickel i Odense</change><change who="NHB" when="2023-06-25" status="draft">indsat sourceDate. Endnu ikke well-formet</change><change who="NHB" when="2023-06-25" status="draft">wellformet</change><change who="NHB" when="2023-06-25" status="draft">sourceDate og div struktur kontrolleret indtil Phantasier og Skizzer</change><change who="NHB" when="2023-10-27" status="draft">overordnet værkstruktur etableret i works</change><change who="NHB" when="2023-11-03" status="draft">citater m.v. kodet indtil s. 205. Mangler systematiske ændringer og manuelt gennemsyn fra og med 1823</change><change who="NHB" when="2023-11-07" status="draft">indtil s. 315</change><change who="NHB" when="2023-11-08" status="draft">til s. 333</change><change who="NHB" when="2023-11-13" status="draft">autoindsat subtype=firstline</change><change who="NHB" when="2023-11-13" status="draft">gennemset struktur i kommentarer indtil side 178</change><change who="NHB" when="2023-11-17" status="draft">struktur indtil 474</change><change who="NHB" when="2023-11-19" status="draft">gennemset opmærkning indtil s. 66</change><change who="NHB" when="2023-11-24" status="draft">indtil s. 92</change><change who="NHB" when="2023-11-28" status="draft">gennemset indtil s. 344</change><change who="NHB" when="2023-11-30" status="draft">indtil Februar, s. 378</change><change who="NHB" when="2023-12-02" status="draft">til s. 436</change><change who="NHB" when="2023-12-21" status="draft">indsat seg comStart</change><change who="NHB" when="2024-06-14" status="draft">batch changes rend attributes for elements l and stage with stylesheet: resetRendAttributeLetAl.xsl</change>
+                                        <change who="NHB" when="2024-09-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Den nye Forening" xml:id="den-nye-forening">
+<head type="main"><seg target="txtcmnt-051-01"><!--DATA-TERM: Den nye Forening--><!--DATA-DEFINITION: måske hentydning til prins Frederiks, den senere kong Frederik 7., og prinsesse Vilhelmine Maries, kong Frederik 6.s yngste datter, bryllup 1. november 1828.-->Den nye Forening</seg></head>
+<head type="sub">Den 28<hi rend="raised">de</hi> Januar 1829</head>
+<head type="melody"><hi rend="italic">Mel. Studentersangen: »<seg target="txtcmnt-051-02"><!--DATA-TERM: Elskov som til Jordens Glæde--><!--DATA-DEFINITION: har ikke kunnet lokaliseres.-->Elskov som til Jordens Glæde«</seg></hi></head>
+<lg xml:id="p_00013">
+<l rend="noIndent" subtype="firstline" corresp="Kold og taus Naturen sover" rendition="kold-og-taus-naturen-sover">Kold og taus Naturen sover</l>
+<l rend="noIndent">Nu ved Vinter-Gubbens Bryst;</l>
+<l rend="noIndent">Iisklædt staae de bundne <seg target="txtcmnt-051-03"><!--DATA-TERM: Vover--><!--DATA-DEFINITION: bølger.-->Vover</seg></l>
+<l rend="noIndent">Om den sneebedækte Kyst;</l>
+<l rend="noIndent">Men i Kongeborgens Sale</l>
+<l rend="noIndent">Elskovs Træ med Blomster staaer,</l>
+<l rend="noIndent">Og i Toppen Haabets Svale</l>
+<l rend="noIndent">Synger om den glade Vaar.</l>
+</lg>
+<lg xml:id="p_00014">
+<l rend="noIndent">Stjernerne som Blomster bæve,</l>
+<l rend="noIndent">Aftenen er reen og klar,</l>
+<l rend="noIndent">Kun to hvide Skyer svæve,</l>
+<l rend="noIndent">Det er <seg target="txtcmnt-051-04"><!--DATA-TERM: Knud og Valdemar--><!--DATA-DEFINITION: danske kongenavne.-->Knud og Valdemar</seg>.</l>
+<l rend="noIndent">Glad de skue Danmarks Lykke,</l>
+<l rend="noIndent">Og i Lysets höie Hjem</l>
+<l rend="noIndent">Lytter fro hver salig <seg target="txtcmnt-051-05"><!--DATA-TERM: Skygge--><!--DATA-DEFINITION: afdød.-->Skygge</seg></l>
+<l rend="noIndent">Til hvad de fortælle dem.</l>
+</lg>
+<lg xml:id="p_00015">
+<l rend="noIndent">Fuglen med sin glade Trille</l>
+<l rend="noIndent">Lader glemme Vintrens Gys.</l>
+<l rend="noIndent">Stjerneskud paa Himlen spille,</l>
+<l rend="noIndent">Det er <seg target="txtcmnt-051-06"><!--DATA-TERM: Freja(s)--><!--DATA-DEFINITION: kærlighedsgudinden i nordisk mytologi.--><hi rend="italic">Frejas</hi></seg> Brudelys.</l>
+<l rend="noIndent">Alle Hjerter glade bæve,</l>
+<l rend="noIndent">Höit det toner i hvert Bryst:</l>
+<l rend="noIndent">»<hi rend="italic">Fredrik</hi>, <hi rend="italic">Wilhelmine</hi> leve!</l>
+<l rend="noIndent">Danmarks Haab og Danmarks Lyst.«</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Den nye Forening. Den 28de Januar 1829" synch="den-nye-forening-den-28de-januar-1829">
+<argument type="sourceData">
+<head type="section-comments">Den nye Forening. Den 28de Januar 1829</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, formentlig i forbindelse med kong Frederik 6.s 61-års fødselsdag, 28. januar 1829. BFN 24</p></argument>
+<table rend="textcomments">
+<cell type="page">51</cell><row xml:id="txtcmnt-051-01"><cell type="data-term">Den nye Forening</cell><cell type="data-definition">måske hentydning til prins Frederiks, den senere kong Frederik 7., og prinsesse Vilhelmine Maries, kong Frederik 6.s yngste datter, bryllup 1. november 1828.</cell></row><row xml:id="txtcmnt-051-02"><cell type="data-term">Elskov som til Jordens Glæde</cell><cell type="data-definition">har ikke kunnet lokaliseres.</cell></row><row xml:id="txtcmnt-051-03"><cell type="data-term">Vover</cell><cell type="data-definition">bølger.</cell></row><row xml:id="txtcmnt-051-04"><cell type="data-term">Knud og Valdemar</cell><cell type="data-definition">danske kongenavne.</cell></row><row xml:id="txtcmnt-051-05"><cell type="data-term">Skygge</cell><cell type="data-definition">afdød.</cell></row><row xml:id="txtcmnt-051-06"><cell type="data-term">Freja(s)</cell><cell type="data-definition">kærlighedsgudinden i nordisk mytologi.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

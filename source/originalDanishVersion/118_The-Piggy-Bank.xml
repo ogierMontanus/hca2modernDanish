@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Piggy Bank</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="pengegrisen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="pengegrisen_modern.xml">moderniseret version</note>
+                                                       <note target="118_The-Piggy-Bank.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There were so many toys in the children’s room; on the top of the cupboard stood...</incipit><idno type="image">Pengegrisen_forside.png</idno><popularity>917</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Piggy Bank. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>tingseventyr</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09"/><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Piggy Bank">
+          <head type="main" rend="The Piggy Bank">The Piggy Bank</head>                <p rend="noIndent" xml:id="p_00001">There were so many toys in the children’s room; on the top of the cupboard stood the piggy bank, it was made of clay in the form of a pig, he had a natural slit in his back and the slit had been made bigger with a knife, so that silver thalers could be inserted and two such had been, as well as lots of other smaller coins. The piggy bank was so crammed full that he could no longer rattle, and that is the greatest thing a piggy bank can achieve. There he stood now, on the topmost shelf, and looked down on everything in the room, he knew that with what he had inside him he could buy all of it, and that made him full of self-confidence.</p>
+          <p rend="firstIndent" xml:id="p_00002">The others thought about this too, although they didn’t say anything ,there were lots of other things to talk about. The drawer of the dresser was ajar and there a large doll could be seen, she was rather old and her neck had been repaired; she gazed out and said: ‘Let’s pretend we are humans, that’s always something!’ and then what a commotion there was, even the paintings turned round on the walls, they showed their reverse side, though not to be contrary.</p>
+          <p rend="firstIndent" xml:id="p_00003">It was the middle of the night, the moon shone in through the window and lit up everything. Now the game was about to start and everyone had been invited, even the pram, although it was one of the coarser toys. ‘Everyone’s got his good points!’ it said. ‘We can’t all be noblemen!</p>
+          <p rend="firstIndent" xml:id="p_00004">The piggy bank was the only one who got a written invitation, he stood too high up for them to believe he could hear it by word of mouth, and he didn’t reply to say if he would come, for he did not come; if he was to be present, he would have to enjoy everything from his own home, they would have to fit in with that, and they did.</p>
+          <p rend="firstIndent" xml:id="p_00005">The small toy theatre was immediately set up so that the pig could see right into it; they wanted to start with a play, and then there would be tea and some exercise of the intellect, and they started this at once; the rocking horse talked about training and thoroughbreds, the pram about railways and steam power – for all this belonged to their own particular field and was something they could talk about. The clock talked about politics – tick – tick! it knew when the hour had come, although people said it didn’t keep time. The walking cane stood there and was proud of his ferrule and silver knob, he was both well-heeled and well-topped; two embroidered cushions lay on the sofa, they were attractive but dim-witted – and now the play could begin.</p>
+          <p rend="firstIndent" xml:id="p_00006">They all sat and watched, and were asked to crack, bang and rattle as they felt inclined. But the riding whip said that he never cracked for old folks, only for those who were not yet engaged. ‘I’ll go bang for anything!’ the banger said. ‘One has after all to be somewhere!’ the spittoon felt – they all had their different thoughts about being part of a play.</p>
+          <p rend="firstIndent" xml:id="p_00007">The play itself was no good, but it was well performed, all the actors put their painted side forward, they could only be seen from one side, not the reverse. All of them acted splendidly, coming way out past the footlights; their wires were too long, but that made them all the more conspicuous. It made the repairs of the doll work loose, and the piggy bank was so entranced too in his own way that he decided to do something for one of them, put him in his will as the one who would lie in a mausoleum<!--an open coffin--> with him when the time came.</p>
+          <p rend="firstIndent" xml:id="p_00008">It was a real treat, so the tea-drinking was abandoned and they confined themselves to the exercise of the intellect. That was what they called pretending to be humans and there was no harm in that, for they were only pretending; and each one thought of himself or herself and of what the piggy bank was thinking, and the piggy bank’s thoughts went farthest, he was thinking of his will and funeral – – and when it might come about –! always before one expects it. Crash! down he came from the cupboard – lay on the floor smashed to smithereens, while the coins leapt and danced; the smallest ones spun, the large ones rolled, especially one of the silver thalers, he really wanted to see the world, which he did, and so did all the rest of them; and the pieces of the pig were dumped in the bin. – –</p>
+          <p rend="firstIndent" xml:id="p_00009">But on the cupboard the following day a new clay piggy bank now stood with not a single coin inside, so he couldn’t rattle either, which meant he was like the other one and that was always a start – which is where we stop!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

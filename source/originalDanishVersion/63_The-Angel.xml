@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Angel</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="engelen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="engelen_modern.xml">moderniseret version</note>
+                                                       <note target="63_The-Angel.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘Every time a good child dies, an angel of God comes down to Earth, takes the de...</incipit><idno type="image">Engelen_02_2022-03-09.png</idno><popularity>970</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Angel. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Angel">
+          <head type="main" rend="The Angel">The Angel</head>                <p rend="noIndent" xml:id="p_00001">‘Every time a good child dies, an angel of God comes down to Earth, takes the dead child in its arms, spreads out its great white wings, flies over all the places the child has been fond of, and plucks a whole handful of flowers that they take with them up to God so that they can bloom even more beautifully than on Earth. The Lord God presses all these flowers to his heart, but the flower that is dearest to him he gives a kiss, and that flower gains a voice and can join in the singing in the great bliss of heaven!’</p>
+          <p rend="firstIndent" xml:id="p_00002">All this an angel of God related as it bore a dead child off to heaven, and the child heard it as in a dream; and they passed over the places in the home where the young child had played and through gardens with lovely flowers.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Which ones shall we now take with us and plant in heaven?’ the angel asked.</p>
+          <p rend="firstIndent" xml:id="p_00004">And a slender, wonderful rose bush grew there, but some wicked hand had broken its stem, so that all the branches, full of large, half-open blossoms, hung withered around it.</p>
+          <p rend="firstIndent" xml:id="p_00005">‘The poor bush!’ the child said, ‘let us take it with us so that it can flower up there with God!’</p>
+          <p rend="firstIndent" xml:id="p_00006">And the angel took it, kissed the child for saying this, and the little one half-opened its eyes. They plucked some of the many magnificent flowers, but also took with them the disdained marigold and the wild pansy.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Now we’ve got flowers!’ the child said, and the angel nodded, but they did not yet fly up to God. It was night, it was completely quiet, they stayed in the large city, hovering over one of the narrowest streets, where there lay great heaps of straw, ashes and bric-a-brac scrap – it had been quarter day! – there lay bits of plates, chunks of plaster, rags and old hat-crowns: a sorry sight, all of it.</p>
+          <p rend="firstIndent" xml:id="p_00008">And in the midst of all the commotion the angel pointed down at some shards of a small flower pot and a lump of earth that had fallen out of it and was held together by the roots of a large, withered field flower that was no good for anything and therefore had been thrown out into the street.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘We’ll take that along with us!’ the angel said, ‘I’ll explain while we are flying. And then they flew off, and the angel explained:</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Down there in the narrow street, in the low cellar, there once lived a poor, sickly boy; from early infancy he had been bed-ridden; but when he had a really good day, he was able to walk up and down the small living room on crutches a couple of times – and that was all. On a few days in summer the rays of the sun fell into the front room of the cellar for about half an hour, and when the little boy sat there and let the warm sun shine on him, and he saw the red blood flowing through his fine fingers if he held them up to his face, people said: ‘yes, today he’s been outside!’’ He only knew the lovely springtime green of the wood from the first sprig of beech that the neighbour’s son brought him and held over his head, and then he dreamt that he was standing beneath the beech trees, where the sun shone and the birds sang. One spring day the neighbour’s boy also brought him some field flowers, and among them, by chance, there was one with root attached, and so it was planted in a flower pot and placed on the window sill close to his bed. And the flower had been planted by someone with green fingers, it grew, put out new shoots and every year it bloomed; it was the loveliest kitchen garden for the sickly boy, his small treasure here on Earth; he watered and tended it, and made sure that it got every ray of the sun, including the very last that glided down across the low window; and the flower itself grew into his dreams, for it flowered for him, spread out its scent and was a joy to behold; he turned towards it in his hour of death, when our Lord God called for him. – He has now been with God for a year, a year the flower has been standing forgotten in the window and has withered, and therefore on quarter day been thrown out into the sweepings in the street. And it is this flower, the poor, withered flower, that we have included in the bouquet, for this flower has given more happiness than the most expensive flower in a queen’s garden.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘But how do you know all this?’ the child asked that the angel was carrying up towards heaven asked him.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘I know it for sure!’ the angel said. ‘For I was the sickly little boy who walked on crutches! My own flower I recognise at once!’</p>
+          <p rend="firstIndent" xml:id="p_00013">And the child opened his eyes wide and looked into the lovely, happy face of the angel, and at that very moment they were in God’s heaven, where all was joy and bliss. And God pressed the dead child to his heart, and then it gained wings like the other angel and flew hand in hand with him; and God pressed all the flowers to his heart, but the poor, withered field flower he kissed and it gained a voice and sang with all the angels who were hovering around God, some quite close, others around these, in great circles that spread out to infinity, but all of them equally happy. And all of them sang, great and small, the good, blessed child, and the poor field flower that had lain withered, thrown onto the sweepings amongst all the quarter-day bric-a-brac, in the narrow, dark street.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

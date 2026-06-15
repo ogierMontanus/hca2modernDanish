@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Ved Professor Niels W. Gade’s og Fröken Mathilde Stæger’s Brudevielse, den 12te November 1857</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="ved-professor-niels-w-gades-og-froeken-mathilde-staegers-brudevielse-den-12te-november-1857" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Igjennem Orglets stærke Klang</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00744</section>
+                                                                 <date>1857</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1857</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Ved Professor Niels W. Gade’s og Fröken Mathilde Stæger’s Brudevielse, den 12te November 1857" xml:id="ved-professor-niels-w-gades-og-froeken-mathilde-staegers-brudevielse-den-12te-november-1857"><pb n="300"/><head type="part">Ved Professor <seg target="txtcmnt-300-01"><!--DATA-TERM: Niels W. Gade’s … Brudevielse--><!--DATA-DEFINITION: Niels W. Gade giftede sig med Mathilde Stæger efter at have mistet sin første hustru, Sophie Gade, i 1855.-->Niels W. Gade’s og Fröken Mathilde Stæger’s Brudevielse</seg>, den 12<hi rend="raised">te </hi>November 1857</head>
+<lg xml:id="p_00745">
+<l rend="noIndent" subtype="firstline" corresp="Igjennem Orglets stærke Klang" rendition="igjennem-orglets-staerke-klang">Igjennem Orglets stærke Klang</l>
+<l rend="noIndent">Gaaer Alvor selv i Glædes Sang</l>
+<l rend="noIndent">Paa Livets store Dage;</l>
+<l rend="noIndent">Igjennem Brud og Brudgoms Bryst</l>
+<l rend="noIndent">I denne Stund med al dens Lyst</l>
+<l rend="noIndent">Just Alvors Tanker drage;</l>
+<l rend="noIndent">Tabt og Vundet</l>
+<l rend="noIndent">Straaler frem som Perler fundet,</l>
+<l rend="noIndent">Volde Glæde.</l>
+<l rend="noIndent">Selv i Fryd er södt at græde!</l>
+</lg>
+<lg xml:id="p_00746">
+<l rend="noIndent">Du Höitids Dag, Du Alvors Stund,</l>
+<l rend="noIndent">Hvor Pagten de med Haand og Mund</l>
+<l rend="noIndent">Besegle her paa Jorden,</l>
+<l rend="noIndent">Den Pagt paa Sammenhold og Tro,</l>
+<l rend="noIndent">Den Pagt i Kjærlighed, hvor <seg target="txtcmnt-300-02" type="dfnStart"/>To</l>
+<l rend="noIndent">For Gud som Een er vorden<seg target="txtcmnt-300-02" type="dfnEnd"/>.</l>
+<l rend="noIndent">Solskins Straale</l>
+<l rend="noIndent">Er i Huset Du, o Qvinde!</l>
+<l rend="noIndent">Og derinde</l>
+<l rend="noIndent">Manden være Kraft og Ære!</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_00747">
+<l rend="noIndent">I Jesu Navn det sluttet staaer;</l>
+<l rend="noIndent">Et Samlivs rige Tid opgaaer,</l>
+<l rend="noIndent">Hold fast i Savn og Lykke!</l>
+<l rend="noIndent">Fra Himlen selv see Öine ned,</l>
+<l rend="noIndent">Velsignende i Kjærlighed</l>
+<l rend="noIndent">Det Hjemmets Hjem I bygge.</l>
+<l rend="noIndent">Orgelsangen</l>
+<l rend="noIndent">Lyder nu med Hjerte-Klangen:</l>
+<l rend="noIndent">Glæde, Glæde!</l>
+<l rend="noIndent">Ind til Samlivs Held I træde!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Ved Professor Niels W. Gade’s og Fröken Mathilde Stæger’s Brudevielse, den 12te November 1857" synch="ved-professor-niels-w-gades-og-froeken-mathilde-staegers-brudevielse-den-12te-november-1857">
+<pb n="601"/><head type="section-comments">Ved Professor Niels W. Gade’s og Fröken Mathilde Stæger’s Brudevielse, den 12<hi rend="raised">te </hi>November 1857</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 764</p>
+<table rend="textcomments">
+<cell type="page">300</cell><cell><row xml:id="txtcmnt-300-01"><cell type="data-term">Niels W. Gade’s … Brudevielse</cell><cell type="data-definition">Niels W. Gade giftede sig med Mathilde Stæger efter at have mistet sin første hustru, Sophie Gade, i 1855.</cell></row><row xml:id="txtcmnt-300-02"><cell type="data-term">To For Gud … vorden</cell><cell type="data-definition">jf. 1. Mosebog 2,24.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

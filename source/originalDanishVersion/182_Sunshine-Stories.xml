@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sunshine Stories</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="solskins-historier">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="solskins-historier_modern.xml">moderniseret version</note>
+                                                       <note target="182_Sunshine-Stories.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘Just you listen to this!’ the wind said....</incipit><idno type="image">Solskins-Historier-02_2022-03-14.png</idno><popularity>872</popularity><cite>&lt;p&gt;Hans Christian Andersen: Sunshine Stories. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">added missing a missing italic and a missing line break. Ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added. It is also missing from the Danish first edition</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Sunshine Stories">
+               <head type="main" rend="Sunshine Stories">Sunshine Stories</head>                <p rend="noIndent" xml:id="p_00001">‘Just you listen to this!’ the <hi rend="italic">wind</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘If you don’t mind,’ the <hi rend="italic">rain</hi> said, ‘it’s my turn now! You’ve been standing long enough at the street corner howling away for all you are worth!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Is that all the thanks I get,’ the <hi rend="italic">wind</hi> said, ‘when I’ve turned many an umbrella inside-out as a favour to you, even snapped it in two, when people didn’t want to have anything to do with you!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘<hi rend="italic">I’m</hi> telling the next story!’ the <hi rend="italic">sunshine</hi> said, ‘be quiet!’ and it was said with brilliance and majesty, so that the wind lay down flat, but the <hi rend="italic">rain</hi> shook the wind and said: ‘Are we to put up with this! she’s always breaking in is Lady Sunshine. We won’t listen to this! it’s not worth the trouble to listen to!’</p>
+               <p rend="firstIndent" xml:id="p_00005">And the <hi rend="italic">sunshine</hi> told her story:</p>
+               <p rend="firstIndent" xml:id="p_00006">‘A swan once flew over the rolling ocean; every feather of its body gleamed like gold; one feather fell down onto the large merchant vessel that glided past with all sails set; the feather fell onto the curly hair of a young man, the man in charge of the goods, known as Supercargo. The feather of the bird of good fortune touched his forehead, became a quill pen in his hand, and soon he became the rich merchant who could certainly buy golden spurs for himself, transform gold dishes into a coat of arms – I have shone on it!’ the <hi rend="italic">sunshine</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘The swan flew across the green meadow where the young shepherd, a seven-year-old boy, had lain down in the shade of the old, lone tree out here. And in his flight the swan kissed one of the tree’s leaves, which fell into the boy’s hand, and that one leaf turned into three, then ten, became an entire book, and in it he read about the wonders of nature, about his mother tongue, about faith and knowledge. When bedtime came, he placed the book under his head so as not to forget what he had read, and the book carried him to the school bench, to the table of learning. I have read his name among the scholars!’ the <hi rend="italic">sunshine</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘The swan flew into the solitude of the wood, rested there on the quiet, dark lakes where the water lilies grow, where the wild crab apples grow, where the cuckoo and wood pigeon have their home.</p>
+               <p rend="firstIndent" xml:id="p_00009">A poor woman was gathering firewood, branches that had fallen down; she carried them on her back, her baby she held at her breast and she was on her way home. She saw the golden swan, the bird of good fortune, rise up from the rushy shore. What was gleaming there? A golden egg. She placed it to her breast and it stayed warm; there was clearly life in the egg. Indeed, inside there was something pecking, she could feel it and thought it must be her own heart beating.</p>
+               <p rend="firstIndent" xml:id="p_00010">Back home in her humble living room she took out the golden egg. ‘Tick! tick!’ it said, as if it was a precious gold watch, but it was an egg with something alive inside it. The shell cracked and a small cygnet, feathered as if with pure gold, stuck out its head; round its neck it had four rings, and since the poor woman had exactly four boys, three at home and the fourth that she had carried with her outside into the solitude of the wood, she immediately realised that here there was a ring for each of her children, and as she realised this, the small golden bird flew off.</p>
+               <p rend="firstIndent" xml:id="p_00011">She kissed each ring, let each child kiss one of the rings, placed it by the child’s heart, placed it on the child’s finger.<!--missing quotation mark in Danish first edition--></p>
+               <p rend="firstIndent" xml:id="p_00012">‘I saw it!’ the <hi rend="italic">sunshine</hi> said. ‘I saw what happened next!’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘One of the boys sat down in the clay pit, took a lump of clay, shaped it with his fingers and it turned into a <hi rend="italic">Jason</hi> figure, the one who had fetched the golden fleece.</p>
+               <p rend="firstIndent" xml:id="p_00014">The second boy immediately ran out onto the meadow, where the flowers stood in every conceivable colour; he picked a handful, squeezed them so tightly that the juices squirted into his eyes, moistened the ring, which tingled and prickled in both thoughts and hand, and in the course of time the great city came to talk about the great painter.</p>
+               <p rend="firstIndent" xml:id="p_00015">The third boy held the ring so firmly in his mouth that it resounded, an echo from the depths of his heart; feelings and thoughts rose up in musical notes, soared like singing swans, dived like swans down into the deep lake, the deep lake of thought; he became a great composer, every country can now think: “he belongs to me!”</p>
+               <p rend="firstIndent" xml:id="p_00016">The fourth, infant child, well he was the outcast of the family; he was barmy, they said, he ought to be soused in pepper and butter like the sick chickens! they did not mince matters: “Pepper and butter!” which he got; but from me he got a sunshine kiss,’ the <hi rend="italic">sunshine</hi> said, ‘he got ten kisses for every one the others got. He was a poet by nature, he was cuffed and kissed; but the lucky ring he had received from the golden swan of good fortune. His thoughts flew out like golden butterflies, the symbol of immortality!’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘That was one long story!’ the <hi rend="italic">wind</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘And a boring one!’ the <hi rend="italic">rain</hi> said. ‘Blow on me, so I can recover!’</p>
+               <p rend="firstIndent" xml:id="p_00019">And the <hi rend="italic">wind</hi> blew, and the <hi rend="italic">sunshine</hi> went on:</p>
+              <p rend="firstIndent" xml:id="p_00020">‘The swan of good fortune flew over the deep bay where the fishermen had put out their nets. The poorest of them had thoughts of getting married and marry he did.</p>
+               <p rend="firstIndent" xml:id="p_00021">To him the swan brought a piece of amber; amber attracts, it attracted hearts to the house. Amber is the loveliest of incenses. There came a fragrance as from a church, a fragrance from God’s nature. They truly knew the happiness of home life, contentment with humble circumstances, and their whole life was a sunshine story.’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘I think we can stop here!’ the <hi rend="italic">wind</hi> said. ‘<hi rend="italic">Sunshine</hi> has been telling stories for long enough. I’ve found it quite boring!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Me too!’ the <hi rend="italic">rain</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘And what do the rest of us who have heard the stories say?’</p>
+               <p rend="firstIndent" xml:id="p_00025">‘We say “now they are finished!”’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

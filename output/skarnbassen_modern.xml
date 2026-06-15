@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Skarnbassen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Anden Række</hi>, som udkom den 2. marts 1861.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1861</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Skarnbassen" xml:id="skarnbassen">
+<head type="main">Skarnbassen</head>
+
+<p rend="noIndent" xml:id="p_01667">Kejserens Hest fik Guldsko; Guldsko på hver en Fod.</p>
+
+<p rend="firstIndent" xml:id="p_01668">Hvorfor fik han Guldsko?</p>
+
+<p rend="firstIndent" xml:id="p_01669">Han var det dejligste Dyr, havde fine Ben, Øine så kloge og en Manke, der hang som et Silkeslør ned om Halsen. Han havde båret sin Herre i Kruddamp og Kugleregn, hørt Kuglerne synge og pibe; han havde bidt om sig, slået om sig, kæmpet med, da Fjenderne trængte på; med sin Kejser sat i ét Spring over den styrtede Fjendes Hest, frelst sin Kejsers Krone af det røde Guld, frelst sin Kejsers Liv, der var mere end det røde Guld, og derfor fik Kejserens Hest Guldsko, Guldsko på hver en Fod.</p>
+
+<p rend="firstIndent" xml:id="p_01670">Og <hi rend="italic">Skarnbassen</hi> krøb frem.</p>
+
+<p rend="firstIndent" xml:id="p_01671">»Først de Store, så de Små,« sagde den, »dog det er ikke Størrelsen, som gør det.« Og så strakte den frem sine tynde Ben.</p>
+
+<p rend="firstIndent" xml:id="p_01672">»Hvad vil Du?« spurgte <hi rend="italic">Smeden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_01673">»Guldsko!« svarede <hi rend="italic">Skarnbassen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_01674">»Du er nok ikke klarhovedet!« sagde <hi rend="italic">Smeden</hi>, »vil Du også have Guldsko?«</p>
+
+<p rend="firstIndent" xml:id="p_01675">»Guldsko!« sagde <hi rend="italic">Skarnbassen</hi>. »Er jeg ikke ligeså god som det store Bæst, der skal have Opvartning, strigles, passes, have Føde og Drikke. Hører jeg ikke også til Kejserens Stald?«</p>
+
+<p rend="firstIndent" xml:id="p_01676">»Men hvorfor får Hesten Guldsko?« spurgte <hi rend="italic">Smeden</hi>, »begriber Du det ikke?«</p>
+
+<p rend="firstIndent" xml:id="p_01677">»Begriber? Jeg begriber, at det er Ringeagt imod mig,« sagde <hi rend="italic">Skarnbassen</hi>, »det er en Krænkelse – og nu går jeg derfor ud i den vide Verden!«</p>
+
+<p rend="firstIndent" xml:id="p_01678">»Pil af!« sagde <hi rend="italic">Smeden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_01679">»Grov Karl!« sagde <hi rend="italic">Skarnbassen</hi>, og så gik den udenfor, fløj et lille Stykke, og nu var den i en nydelig lille Blomsterhave, hvor der duftede af Roser og Lavendler.</p>
+
+<p rend="firstIndent" xml:id="p_01680">»Er her ikke dejligt!« sagde en af de små »<hi rend="italic"><seg><!--DATA-TERM: Vorherres Høns--><anchor target="txtcmnt-345-01"/><!--mariehøns.-->Vorherres Høns</seg></hi>«, der fløj om med sorte Prikker på de røde skjoldstærke Vinger. »Hvor her lugter sødt og hvor her er kønt!«</p>
+
+<pb n="346"/>
+
+<p rend="firstIndent" xml:id="p_01681">»Jeg er vant til Bedre!« sagde <hi rend="italic">Skarnbassen</hi>, »kalde I dette kønt? Her er jo ikke engang en Mødding!«</p>
+
+<p rend="firstIndent" xml:id="p_01682">Og så gik den videre frem, ind i Skyggen af en stor Levkoi; der krøb en <hi rend="italic">Kaalorm</hi> paa den.</p>
+
+<p rend="firstIndent" xml:id="p_01683">»Hvor dog Verden er dejlig!« sagde <hi rend="italic">Kaalormen</hi>, »Solen er så varm! Alt er så fornøjeligt! og når jeg engang sover ind og dør, som de kalde det, så vågner jeg op og er en Sommerfugl!«</p>
+
+<p rend="firstIndent" xml:id="p_01684">»Bild Dig Noget ind!« sagde <hi rend="italic">Skarnbassen</hi>, »nu flyve vi om som Sommerfugl! Jeg kommer fra Kejserens Stald, men Ingen der, ikke engang Kejserens <seg><!--DATA-TERM: Livhest--><anchor target="txtcmnt-346-01"/><!--yndlingshest.-->Livhest</seg>, der dog går med mine aflagte Guldsko, har slige Indbildninger. Få Vinger! flyve! ja nu flyve vi!« Og så fløj <hi rend="italic">Skarnbassen</hi>. »Jeg vil ikke ærgre mig, men jeg ærgrer mig dog!«</p>
+
+<p rend="firstIndent" xml:id="p_01685">Så dumpede den ned på en stor Græsplet; her lå den lidt, så faldt den i Søvn.</p>
+
+<p rend="firstIndent" xml:id="p_01686">Bevares, hvilken Skylregn der styrtede! <hi rend="italic">Skarnbassen</hi> vågnede ved det Pladsk og vilde straks ned i Jorden, men kunde det ikke; den væltede, den svømmede på Maven og på Ryggen, flyve var der ikke at tænke på, den kom vist aldrig levende fra denne Plet; den lå hvor den lå og blev liggende.</p>
+
+<p rend="firstIndent" xml:id="p_01687">Da det <seg><!--DATA-TERM: hoftede lidt--><anchor target="txtcmnt-346-02"/><!--stilnede lidt af.-->hoftede lidt</seg>, og <hi rend="italic">Skarnbassen</hi> havde blinket Vandet af sine Øine, skimtede den noget Hvidt, det var Linned på <seg><!--DATA-TERM: Blegen--><anchor target="txtcmnt-346-03"/><!--blegepladsen.-->Blegen</seg>; den nåede derhen, krøb ind i en Fold af det våde Lintøj, det var rigtignok ikke, som at ligge i den varme <seg><!--DATA-TERM: Dynge--><anchor target="txtcmnt-346-04"/><!--gødning.-->Dynge</seg> i Stalden; men her var nu Intet bedre, og så blev den her en hel Dag, en hel Nat, og også Regnvejret blev. I Morgenstunden kom <hi rend="italic">Skarnbassen</hi> frem; den var så ærgerlig over Climatet.</p>
+
+<p rend="firstIndent" xml:id="p_01688">Der sad på Linnedet to Frøer; deres klare Øine lyste af bare Fornøjelse. »Det er et velsignet Vejr!« sagde den Ene, »hvor det forfrisker! og Lintøjet holder så dejligt sammen på Vandet! det <seg><!--DATA-TERM: kriller--><anchor target="txtcmnt-346-05"/><!--klør.-->kriller</seg> mig i Bagbenene, som om jeg skulde svømme!«</p>
+
+<p rend="firstIndent" xml:id="p_01689">»Jeg gad nok vide,« sagde den Anden, »om Svalen, som flyver så vidt omkring, om den på sine mange Rejser i Udlandet har fundet et bedre Climat, end vort; sådant et Rusk, og sådan en Væde! det er ligesom om man lå i en våd Grøft! er man ikke glad ved det, så elsker man rigtignok ikke sit Fædreland!«</p>
+
+<p rend="firstIndent" xml:id="p_01690">»I have da aldrig været i Kejserens Stalde?« spurgte <hi rend="italic">Skarnbassen</hi>. »Der er det Våde både varmt og krydret! det er jeg vant til; det er mit Climat, men det kan man ikke tage med på <pb n="347"/>Rejsen. Er her ingen <seg><!--DATA-TERM: Mistbænk--><anchor target="txtcmnt-347-01"/><!--drivbænk, glasoverdækket bed.-->Mistbænk</seg> i Haven, hvor Standspersoner, som jeg, kunne tage ind og føle sig hjemme?«</p>
+
+<p rend="firstIndent" xml:id="p_01691">Men Frøerne forstod ham ikke, eller vilde ikke forstå ham.</p>
+
+<p rend="firstIndent" xml:id="p_01692">»Jeg spørger aldrig anden Gang!« sagde <hi rend="italic">Skarnbassen</hi>, da den havde spurgt tre Gange uden at få Svar.</p>
+
+<p rend="firstIndent" xml:id="p_01693">Så gik den et Stykke, der lå et Potteskår; det skulde ikke ligge der, men som det lå gav det Ly. Her boede flere <hi rend="italic">Ørentviste</hi>-Familier; de forlange ikke meget Husrum, men kun Selskabelighed; Hunnerne er især begavede med Moderkærlighed, derfor var også hvers Unge den kønneste og den klogeste.</p>
+
+<p rend="firstIndent" xml:id="p_01694">»Vor Søn er blevet forlovet!« sagde én Moder, »den søde Uskyldighed! hans højeste Mål er engang at kunne <seg><!--DATA-TERM: krybe i Øret--><anchor target="txtcmnt-347-02"/><!--hentyder til den udbredte tro på, at ørentvisten kunne krybe ind i øret og overbide trommehinden.-->krybe i Øret</seg> på en Præst. Han er så elskelig barnlig og Forlovelse holder ham fra Udskejelser! det er så glædeligt for en Moder!«</p>
+
+<p rend="firstIndent" xml:id="p_01695">»Vor Søn,« sagde en anden Moder, »kom lige ud af Ægget og var straks på Spil; det sprutter i ham, han løber Hornene af sig. Det er en uhyre Glæde for en Moder! Ikke sandt? Hr. <hi rend="italic">Skarnbasse</hi>!« De kendte den Fremmede på <seg><!--DATA-TERM: Skabelonen--><anchor target="txtcmnt-347-03"/><!--udseendet, skikkelsen.-->Skabelonen</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_01696">»De har begge To Ret!« sagde <hi rend="italic">Skarnbassen</hi>, og så blev den budt op i Stuen, så langt den kunde komme under Potteskåret.</p>
+
+<p rend="firstIndent" xml:id="p_01697">»Nu skal De også se min lille Ørentvist!« sagde en tredje og fjerde af Mødrene, »det er de elskeligste Børn og så morsomme! de er aldrig uartige uden når de have ondt i Maven, men det får man så let i deres Alder!«</p>
+
+<p rend="firstIndent" xml:id="p_01698">Og så talte hver Moder om sine Unger, og Ungerne talte med og brugte den lille Gaffel de havde på Halen til at trække i Skarnbassens Mundskæg.</p>
+
+<p rend="firstIndent" xml:id="p_01699">»De finde nu også på Alting, de Småskelmer!« sagde Mødrene og dunstede af Moderkærlighed, men det kedede <hi rend="italic">Skarnbassen</hi>, og så spurgte den om der var langt herfra til Mistbænken.</p>
+
+<p rend="firstIndent" xml:id="p_01700">»Det er langt ude i Verden, på den anden Side Grøften!« sagde <hi rend="italic">Ørentvisten</hi>, »så langt, vil jeg håbe, komme aldrig nogen af mine Børn, for så døde jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_01701">»Så langt vil jeg dog prøve at nå!« sagde <hi rend="italic">Skarnbassen</hi> og gik uden Afsked; det er galantest.</p>
+
+<p rend="firstIndent" xml:id="p_01702">Ved Grøften traf den flere af sin Slægt, alle Skarnbasser.</p>
+
+<p rend="firstIndent" xml:id="p_01703">»Her bo vi!« sagde de. »Vi have det ganske lunt! Tør vi ikke byde Dem ned i det Fede! Rejsen har vist trættet Dem!« <pb n="348"/></p><p rend="firstIndent" xml:id="p_01704">»Det har den!« sagde <hi rend="italic">Skarnbassen</hi>. »Jeg har ligget på Linned i Regnvejr, og Renlighed tager især på mig! jeg har også fået Gigt i Vingeledet, ved at stå i Træk under et Potteskår. Det er rigtig en <seg><!--DATA-TERM: Vederqvægelse--><anchor target="txtcmnt-348-01"/><!--lindring.-->Vederkvægelse</seg> at komme engang til sine egne!«</p>
+
+<p rend="firstIndent" xml:id="p_01705">»De kommer måske fra Mistbænken!« spurgte den Ældste.</p>
+
+<p rend="firstIndent" xml:id="p_01706">»Højere op!« sagde <hi rend="italic">Skarnbassen</hi>. »Jeg kommer fra Kejserens Stald, hvor jeg blev født med Guldsko; jeg rejser i et hemmeligt Ærende, hvorom De ikke må fritte mig, thi jeg siger det ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_01707">Og så steg <hi rend="italic">Skarnbassen</hi> ned i det fede Dynd; der sad tre unge <hi rend="italic">Hun-Skarnbasser</hi>, de fnisede, for de vidste ikke hvad de skulde sige.</p>
+
+<p rend="firstIndent" xml:id="p_01708">»De er uforlovede!« sagde Moderen, og så fnisede de igen, men det var af Forlegenhed.</p>
+
+<p rend="firstIndent" xml:id="p_01709">»Jeg har ikke set dem skønnere i Kejserens Stalde!« sagde den rejsende <hi rend="italic">Skarnbasse</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_01710">»Fordærv mig ikke mine Pigebørn! og tal ikke til dem, uden De har reelle Hensigter; – men det har De, og jeg giver Dem min Velsignelse.«</p>
+
+<p rend="firstIndent" xml:id="p_01711">»Hurra!« sagde alle de Andre, og så var <hi rend="italic">Skarnbassen</hi> forlovet. Først Forlovelse, så Bryllup, der var jo ikke Noget at vente efter.</p>
+
+<p rend="firstIndent" xml:id="p_01712">Næste Dag gik meget godt, den anden luntede af, men på den tredje Dag skulde man dog tænke på Føden for Kone og måske Rollinger.</p>
+
+<p rend="firstIndent" xml:id="p_01713">»Jeg har ladet mig overraske!« sagde den, »så må jeg nok overraske dem igen –!«</p>
+
+<p rend="firstIndent" xml:id="p_01714">Og det gjorde den. Væk var den; væk hele Dagen, væk hele Natten – og Konen sad Enke. De andre <hi rend="italic">Skarnbasser</hi> sagde, at det var en rigtig Landstryger de havde optaget i Familien; Konen sad dem nu til Byrde.</p>
+
+<p rend="firstIndent" xml:id="p_01715">»Så kan hun sidde som Jomfru igen!« sagde <hi rend="italic">Moderen</hi>, »sidde som mit Barn! fy, det lede Skarn, som forlod hende!«</p>
+
+<p rend="firstIndent" xml:id="p_01716">Han var imidlertid på Farten, var sejlet på et Kålblad over Grøften; hen på Morgenstunden kom to Mennesker, de så Skarnbassen, tog den op, vendte og drejede den og de var meget lærde begge To, især Drengen. »<seg><!--DATA-TERM:  Allah  … Alkoranen--><anchor target="txtcmnt-348-02"/><!--Alkoranen, dvs. Koranen; muligvis reminiscens af Oehlenschlägers <i>Aladdin</i> i <i>Poetiske Skrifter</i>, 1805: »Troer du, der er en Gud, en Eeneste, / En Skaber, Giver, Vexler og Opholder, / (…) Som skuer, i den sorte Nat, den Sorte / Skarnbasses Kryben paa den sorte Steen« (II, 298).--><hi rend="italic">Allah</hi> ser den sorte Skarnbasse i den sorte Sten i det sorte Fjeld! står der ikke således i Alkoranen</seg>?« spurgte han og oversatte Skarnbassens Navn på Latin, gjorde Rede for dens Slægt og Natur. Den ældre Lærde stemte imod at den skulde tages med hjem, de havde der ligeså gode Exemplarer, sagde han, og det var ikke <pb n="349"/>høfligt sagt, syntes <hi rend="italic">Skarnbassen</hi>, derfor fløj den ham af Hånden, fløj et godt Stykke, den var blevet tør i Vingerne og så nåede den Drivhuset, hvor den i største Bekvemmelighed, da det ene Vindue var skudt op, kunde smutte ind og grave sig ned i den friske Gjødning.</p>
+
+<p rend="firstIndent" xml:id="p_01717">»Her er lækkert!« sagde den.</p>
+
+<p rend="firstIndent" xml:id="p_01718">Snart faldt den i søvn og drømte at Kejserens Hest var styrtet og at Hr. Skarnbasse havde fået dens Guldsko og Løftet om to til. Det var en Behagelighed og da <hi rend="italic">Skarnbassen</hi> vågnede, krøb den frem og så op. Hvilken Pragt her i Drivhuset! store Vifte-Palmer bredte sig i Højden, Solen gjorde dem <seg><!--DATA-TERM: transparente--><anchor target="txtcmnt-349-01"/><!--gennemskinnelige.-->transparente</seg>, og under dem vældede der en Fylde af Grønt og skinnede der Blomster, røde som Ild, gule som Rav og hvide som nysfalden Sne.</p>
+
+<p rend="firstIndent" xml:id="p_01719">»Det er en mageløs Plantepragt! hvor den vil smage når den går i Forrådnelse!« sagde <hi rend="italic">Skarnbassen</hi>. »Det er et godt Spiskammer; her bo vist af Familien; jeg vil gå på Eftersporing, se at finde Nogen, jeg kan omgås med. Stolt er jeg, det er min Stolthed!« Og så gik den og tænkte på sin Drøm om den døde Hest og de vundne Guldsko.</p>
+
+<p rend="firstIndent" xml:id="p_01720">Da greb lige med Eet en Hånd om <hi rend="italic">Skarnbassen</hi>, den blev klemt, vendt og drejet.</p>
+
+<p rend="firstIndent" xml:id="p_01721">Gartnerens lille Søn og en Kammerat var i Drivhuset, havde set <hi rend="italic">Skarnbassen</hi> og skulde have Fornøjelse af den; lagt i et Vindrueblad kom den ned i en varm Buxelomme, den kriblede og krablede, fik så et Tryk med Hånden af Drengen, der gik rask af sted til den store Indsø for Enden af Haven, her blev <hi rend="italic">Skarnbassen</hi> sat i en gammel knækket Træsko, som Vristen var gået af; en Pind blev gjort fast, som Mast; og til den blev <hi rend="italic">Skarnbassen</hi> tøjret med en ulden Tråd; nu var den Skipper og skulde ud at sejle.</p>
+
+<p rend="firstIndent" xml:id="p_01722">Det var en meget stor Indsø, <hi rend="italic">Skarnbassen</hi> syntes, at det var et Verdenshav og blev så forbavset, at den faldt om på Ryggen og sprættede med Benene.</p>
+
+<p rend="firstIndent" xml:id="p_01723">Træskoen sejlede, der var Strømning i Vandet, men kom Fartøjet lidt forlangt ud, så smøgede den ene Dreng straks sine Buxer op og gik ud og hentede det, men da det igen var i Drift blev der kaldt på Drengene, alvorligt kaldt, og de skyndte dem af sted og lod Træsko være Træsko; den drev og det altid mere fra Land, altid længere ud, det var gyseligt for <hi rend="italic">Skarnbassen</hi>; flyve kunde den ikke, den var bunden fast til Masten.</p>
+
+<p rend="firstIndent" xml:id="p_01724">Den fik Besøg af en <hi rend="italic">Flue</hi>.</p>
+
+<pb n="350"/><p rend="firstIndent" xml:id="p_01725">»Det er et dejligt Vejr vi har!« sagde <hi rend="italic">Fluen</hi>. »Her kan jeg hvile mig! her kan jeg sole mig. De har det meget behageligt!«</p>
+
+<p rend="firstIndent" xml:id="p_01726">»De snakker, som De har Forstand til! ser De ikke, at jeg er tøjret!«</p>
+
+<p rend="firstIndent" xml:id="p_01727">»Jeg er ikke tøjret!« sagde <hi rend="italic">Fluen</hi> og så fløj den.</p>
+
+<p rend="firstIndent" xml:id="p_01728">»Nu kender jeg Verden!« sagde <hi rend="italic">Skarnbassen</hi>, »det er en <seg><!--DATA-TERM: nedrig--><anchor target="txtcmnt-350-01"/><!--ond.-->nedrig</seg> Verden! jeg er den eneste <seg><!--DATA-TERM: Honette--><anchor target="txtcmnt-350-02"/><!--hæderlige.-->Honette</seg> i den! Først negter man mig Guldsko, så må jeg ligge på vådt Linned, stå i Træk og til sidst prakke de mig en Kone på. Gjør jeg nu et rask Skridt ud i Verden, og ser hvorledes man kan have det og jeg skulde have det, så kommer en Menneske-Hvalp og sætter mig i Tøjr på det vilde Hav. Og imidlertid går Kejserens Hest med Guldsko! det <seg><!--DATA-TERM: creperer--><anchor target="txtcmnt-350-03"/><!--ærgrer.-->creperer</seg> mig mest; men Deltagelse kan man ikke vente sig i denne Verden! mit Levnetsløb er meget interessant, dog hvad kan det hjælpe når Ingen kende det! Verden fortjener heller ikke at kende det, ellers havde den givet mig Guldsko i Kejserens Stald, da Livhesten blev skoet og jeg rakte Benene frem. Havde jeg fået Guldsko, da var jeg blevet en Ære for Stalden, nu har den tabt mig og Verden har tabt mig, Alt er ude!«</p>
+
+<p rend="firstIndent" xml:id="p_01729">Men Alt var ikke ude endnu, der kom en Båd med nogle unge Piger.</p>
+
+<p rend="firstIndent" xml:id="p_01730">»Der sejler en Træsko!« sagde den Ene.</p>
+
+<p rend="firstIndent" xml:id="p_01731">»Der er et lille Dyr tøjret fast i den!« sagde den Anden.</p>
+
+<p rend="firstIndent" xml:id="p_01732">De var lige ved Siden af Træskoen, de fik den op, og den ene af Pigerne tog en lille Sax frem, klippede Uldtråden over uden at gøre <hi rend="italic">Skarnbassen</hi> Skade og da de kom i Land, satte hun den i Græsset.</p>
+
+<p rend="firstIndent" xml:id="p_01733">»Kryb, kryb! flyv, flyv, om Du kan!« sagde hun. »Frihed er en dejlig Ting!«</p>
+
+<p rend="firstIndent" xml:id="p_01734">Og <hi rend="italic">Skarnbassen</hi> fløj lige ind af det åbne Vindue på en stor Bygning og der sank den træt ned i den fine bløde, lange Manke på Kejserens Livhest, der stod i Stalden, hvor den og <hi rend="italic">Skarnbassen</hi> hørte hjemme; den klamrede sig fast i Manken og sad lidt og summede sig. »Her sidder jeg på Kejserens Livhest! sidder som Rytter! Hvad er det jeg siger! ja nu bliver det mig klart! det er en god Ide, og rigtig. Hvorfor fik Hesten Guldsko? Det spurgte han mig også om, Smeden. Nu indser jeg det! for min Skyld fik Hesten Guldsko!«</p>
+
+<p rend="firstIndent" xml:id="p_01735">Og så blev <hi rend="italic">Skarnbassen</hi> i godt Humør.</p>
+
+<p rend="firstIndent" xml:id="p_01736">»Man bliver klarhovedet på Rejsen!« sagde den.</p>
+
+<p rend="firstIndent" xml:id="p_01737">Solen skinnede ind på den, skinnede meget smukt. »Verden <pb n="351"/>er ikke så gal endda,« sagde <hi rend="italic">Skarnbassen</hi>, »man må bare vide at tage den!« Verden var dejlig, thi Kejserens Livhest havde fået Guldsko fordi <hi rend="italic">Skarnbassen</hi> skulde være dens Rytter.</p>
+
+<p rend="firstIndent" xml:id="p_01738">»Nu vil jeg stige ned til de andre <hi rend="italic">Basser</hi> og fortælle hvor Meget man har gjort for mig; jeg vil fortælle om alle de Behageligheder jeg har nydt på Udenlandsrejsen, og jeg vil sige, at nu bliver jeg hjemme så længe, til Hesten har slidt sine Guldsko!«</p>
+
+<pb n="352"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Skarnbassen" xml:id="skarnbassen">
+<head type="section-comments">Skarnbassen</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Anden Række</hi>, som udkom den 2. marts 1861.</p>
+<p rend="noIndent">BFN 819/IV,75-81/VII,246-248.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">345,19</cell><cell type="deviation">Smeden, &lt; Smeden,«</cell></row>
+<row><cell type="position">346,31</cell><cell type="deviation">»hvor &lt; »Hvor</cell></row>
+<row><cell type="position">350,17</cell><cell type="deviation">og jeg rakte &lt; og rakte</cell></row>
+<row><cell type="position">350,39</cell><cell type="deviation">Guldsko!« &lt; Guldsko!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">345</cell><row xml:id="txtcmnt-345-01"><cell type="data-term">Vorherres Høns</cell><cell type="data-definition">mariehøns.</cell></row>
+<cell type="page">346</cell><row xml:id="txtcmnt-346-01"><cell type="data-term">Livhest</cell><cell type="data-definition">yndlingshest.</cell></row><row xml:id="txtcmnt-346-02"><cell type="data-term">hoftede lidt</cell><cell type="data-definition">stilnede lidt af.</cell></row><row xml:id="txtcmnt-346-03"><cell type="data-term">Blegen</cell><cell type="data-definition">blegepladsen.</cell></row><row xml:id="txtcmnt-346-04"><cell type="data-term">Dynge</cell><cell type="data-definition">gødning.</cell></row><row xml:id="txtcmnt-346-05"><cell type="data-term">kriller</cell><cell type="data-definition">klør.</cell></row>
+<cell type="page">347</cell><row xml:id="txtcmnt-347-01"><cell type="data-term">Mistbænk</cell><cell type="data-definition">drivbænk, glasoverdækket bed.</cell></row><row xml:id="txtcmnt-347-02"><cell type="data-term">krybe i Øret</cell><cell type="data-definition">hentyder til den udbredte tro på, at ørentvisten kunne krybe ind i øret og overbide trommehinden.</cell></row><row xml:id="txtcmnt-347-03"><cell type="data-term">Skabelonen</cell><cell type="data-definition">udsendet, skikkelsen.</cell></row>
+<cell type="page">348</cell><row xml:id="txtcmnt-348-01"><cell type="data-term">Vederkvægelse</cell><cell type="data-definition">lindring.</cell></row><row xml:id="txtcmnt-348-02"><cell type="data-term"><hi rend="italic">Allah</hi> … Alkoranen</cell><cell type="data-definition">Alkoranen, dvs. Koranen; muligvis reminiscens af Oehlenschlägers <hi rend="italic">Aladdin</hi> i <hi rend="italic">Poetiske Skrifter</hi>, 1805: »Troer du, der er en Gud, en Eeneste, / En Skaber, Giver, Vexler og Opholder, / (…) Som skuer, i den sorte Nat, den Sorte / Skarnbasses <pb n="506"/>Kryben på den sorte Sten« (II, 298).</cell></row>
+<cell type="page">349</cell><row xml:id="txtcmnt-349-01"><cell type="data-term">transparente</cell><cell type="data-definition">gennemskinnelige.</cell></row>
+<cell type="page">350</cell><row xml:id="txtcmnt-350-01"><cell type="data-term">nedrig</cell><cell type="data-definition">ond.</cell></row><row xml:id="txtcmnt-350-02"><cell type="data-term">Honette</cell><cell type="data-definition">hæderlige.</cell></row><row xml:id="txtcmnt-350-03"><cell type="data-term">creperer</cell><cell type="data-definition">ærgrer.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

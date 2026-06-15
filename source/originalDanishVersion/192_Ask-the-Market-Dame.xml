@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Førstetrykket</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="text">Christian Smidt Alenkjær</editor><editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>H.C. Andersen Centret, Syddansk Universitet, Odense. Faksimiler fra Det Kongelige Bibliotek, København</publisher>
+                                             <availability>
+               <p>http://pmm.dsl.dk/spoerg-amagermoer/dossier/spoerg-amagermoer.xml</p>
+            </availability>
+                                             <idno type="version0.9">0.9.</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             
+                                                  <bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl>
+                                                       <!--test1-->
+                                                       <notesStmt><note type="originalDanish" target="spoerg-amagermoer">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="spoerg-amagermoer_modern.xml">moderniseret version</note>
+                                                       <note target="192_Ask-the-Market-Dame.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                     </notesStmt>             
+                                             
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was this carrot, as old as old,</incipit><idno type="image">Spoerg-Amagermoer_01_2022-03-14.png</idno><popularity>884</popularity><cite>&lt;p&gt;Hans Christian Andersen: Førstetrykket. Udg. af [INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+               http://pmm.dsl.dk/spoerg-amagermoer/dossier/spoerg-amagermoer.xml
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>teknik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change who="NHB" when="2022-06-09">oprettet fil</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+<body>
+           <div rend="‘Ask the Market-Dame’!">
+            <pb ed="SV" n="286"/>
+              <head>‘Ask the Market-Dame’!</head>
+              <lg xml:id="p_00001">
+              <l>There was this carrot, as old as old,</l>
+              <l>So knobbly, so heavy and stout,</l>
+              <l>That nevertheless was so frightfully bold,</l>
+              <l>Would wed a young carrot no more than a sprout,</l>
+              <l>So sweet, her beauty scarcely in bud,</l>
+              <l>A root of the finest pure blood.</l>
+              <l>– The wedding day came.</l>
+              <l>The food and drink, priceless, lived up to its name</l>
+              <l>It cost not a single pound sterling;</l>
+              <l>They all lapped up moonlight and dined on dew,</l>
+              <l>Sniffed flower-scent too</l>
+              <l>That from field and meadow came swirling.</l>
+              <l>– Old carrot he greeted them all with a bow,</l>
+              <l>His speech like a clock went on whirring,</l>
+              <l>The words they ticked away tickety-tock;</l>
+              <l>Young carrot she sat there silent in shock,</l>
+              <l>With neither a smile nor a sigh, just a stare,</l>
+              <l>Young and fair.</l>
+              <l rend="firstIndent">If this you’d disclaim,</l>
+              <l rend="firstIndent">Ask the market-dame!</l>
+              </lg>
+              <lg xml:id="p_00002">
+              <l>A large red cabbage performed the rite,</l>
+              <l>White turnips wore bridesmaid’s attire;</l>
+              <l>Cucumber and sparrowgrass made a fine sight,</l>
+              <l>Potatoes comprised the whole choir.</l>
+              <l>The guests all joined in when the dancing came.</l>
+              <l>Ask the market-dame!</l>
+              <l>Old carrot without shoes and stockings he pranced,</l>
+              <l>Cer-rack! he split down the middle,</l>
+              <l>Was dead on the spot, he should never have danced,</l>
+              <l>Young carrot, entranced,</l>
+              <l>Found this turn of good fortune a riddle.</l>
+              <l>She was a widow now, happy was she,</l>
+              <l>Now she could be what she wanted to be,</l>
+              <l>She could swim young and fair in a soup tureen,</l>
+              <l>Quite serene.</l>
+              <l rend="firstIndent">If this you’d disclaim,</l>
+              <l rend="firstIndent">Ask the market-dame! </l>
+              </lg>
+<figure/>
+         </div>
+      </body>
+                                                      </text>
+                    </TEI>

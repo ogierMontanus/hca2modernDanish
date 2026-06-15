@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>I Maaneskin</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Opført første og eneste gang 2. juni 1855 på privatteatret Casino i Amaliegade som del af en beneficeforestilling for skuespilleren Edvard Hansen (1820-1874). Musik af den tyske komponist Ignaz Lachner (1807-1895).</p><p rend="firstIndent">Casino var oprindelig et vinteretablissement, oprettet af Georg Carstensen, åbnet 1847; lejet af teaterdirektøren H.W. Lange og omdannet til teater 1848. Casino blev også brugt som koncertsal. Det lukkede 1939.</p><p rend="firstIndent">Trykforlæg til <hi rend="italic">I Maaneskin</hi>: Edvard Hansens rollehæfte, Den Laage-Petersenske Samling, nr. 646. Med H.C. Andersens signatur på titelbladet og egenhændige rettelser, ellers afskrift (renskrift). En del tekst er i rollehæftet overstreget, tilsyneladende af anden hånd end H.C. Andersens; det overstregede er sandsynligvis udeladt ved opførelsen og er derfor, med en enkelt undtagelse, som er nævnt i tekstrettelseslisten, ikke medtaget i nærværende udgave, men er opført i noteapparatet.</p><hi rend="italic">I Maaneskin</hi><p rend="firstIndent">Rollehæftets fulde tekst, inklusive de overstregede tekststeder, kan desuden ses i <hi rend="italic">H.C. Andersen. Eventyrdigterens studenterkomedier samt »I Maaneskin« (En bearbejdelse)</hi> ved Jørgen Skjerk, 2001.</p><hi rend="italic">H.C. Andersen. Eventyrdigterens studenterkomedier samt »I Maaneskin« (En bearbejdelse)</hi><p rend="firstIndent">Partitur til den danske opførelse synes ikke bevaret. Klaverudtog af Lachners musik findes, fx: <hi rend="italic">‘S letzti Fensterln« und »Drei Jahrln nach’m letz<pb n="631"/>ten Fensterln. 2 Alpenscenen.</hi> Ignaz Lachner. Clavier-Auszug ohne Worte. München, Aibl (ikke på Det Kongelige Bibliotek).</p><hi rend="italic">‘S letzti Fensterln« und »Drei Jahrln nach’m letz<pb n="631"/>ten Fensterln. 2 Alpenscenen.</hi><pb n="631"/><p rend="firstIndent">Forlægget er et syngespil i to dele, 1848, af den østrigske forfatter J.G. Seidl (1804-1875): <hi rend="italic">‘s letzte Fensterln</hi> ((tysk) den sidste aftenvisit ved den elskedes vindue) og <hi rend="italic">3 Jahre nach’m letzten Fensterln</hi> (tre år efter den sidste aftenvisit). H.C. Andersen har muligvis oplysningerne på titelbladet fra det ovenfor nævnte klaverudtog; i alle udgaver af stykket står Seidl imidlertid som eneforfatter. Kobell, som er nævnt på titelbladet , er den tyske dialektdigter og mineralog Franz von Kobell (1803-1882), som var en bekendt af H.C. Andersen. Ingen af Kobells digte synes at være forlæg for Seidls syngespil.</p><hi rend="italic">‘s letzte Fensterln</hi><hi rend="italic">3 Jahre nach’m letzten Fensterln</hi>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">13:<hi rend="italic"> Skuespil IV 1850-1876</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="i-maaneskin" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: I Maaneskin. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 13:&lt;i&gt; Skuespil IV 1850-1876&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Opført første og eneste gang 2. juni 1855 på privatteatret Casino i Amaliegade som del af en beneficeforestilling for skuespilleren Edvard Hansen (1820-1874). Musik af den tyske komponist Ignaz Lachner (1807-1895).&lt;/p&gt;&lt;p&gt;Casino var oprindelig et vinteretablissement, oprettet af Georg Carstensen, åbnet 1847; lejet af teaterdirektøren H.W. Lange og omdannet til teater 1848. Casino blev også brugt som koncertsal. Det lukkede 1939.&lt;/p&gt;&lt;p&gt;Trykforlæg til &lt;i&gt;I Maaneskin&lt;/i&gt;: Edvard Hansens rollehæfte, Den Laage-Petersenske Samling, nr. 646. Med H.C. Andersens signatur på titelbladet og egenhændige rettelser, ellers afskrift (renskrift). En del tekst er i rollehæftet overstreget, tilsyneladende af anden hånd end H.C. Andersens; det overstregede er sandsynligvis udeladt ved opførelsen og er derfor, med en enkelt undtagelse, som er nævnt i tekstrettelseslisten, ikke medtaget i nærværende udgave, men er opført i noteapparatet.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Rollehæftets fulde tekst, inklusive de overstregede tekststeder, kan desuden ses i &lt;i&gt;H.C. Andersen. Eventyrdigterens studenterkomedier samt »I Maaneskin« (En bearbejdelse)&lt;/i&gt; ved Jørgen Skjerk, 2001.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Partitur til den danske opførelse synes ikke bevaret. Klaverudtog af Lachners musik findes, fx: &lt;i&gt;‘S letzti Fensterln« und »Drei Jahrln nach’m letzten Fensterln. 2 Alpenscenen.&lt;/i&gt; Ignaz Lachner. Clavier-Auszug ohne Worte. München, Aibl (ikke på Det Kongelige Bibliotek).&lt;/p&gt;&lt;i&gt;&lt;/i&gt;<pb n="631"/>&lt;p&gt;Forlægget er et syngespil i to dele, 1848, af den østrigske forfatter J.G. Seidl (1804-1875): &lt;i&gt;‘s letzte Fensterln&lt;/i&gt; ((tysk) den sidste aftenvisit ved den elskedes vindue) og &lt;i&gt;3 Jahre nach’m letzten Fensterln&lt;/i&gt; (tre år efter den sidste aftenvisit). H.C. Andersen har muligvis oplysningerne på titelbladet fra det ovenfor nævnte klaverudtog; i alle udgaver af stykket står Seidl imidlertid som eneforfatter. Kobell, som er nævnt på titelbladet , er den tyske dialektdigter og mineralog Franz von Kobell (1803-1882), som var en bekendt af H.C. Andersen. Ingen af Kobells digte synes at være forlæg for Seidls syngespil.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1855</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0116"/>
+                                                       
+                                                            <cell ref="#div0117">En Løverdag-Aften</cell>
+                                                       
+                                                            <cell ref="#div0118">1ste Scene</cell>
+                                                       
+                                                            <cell ref="#div0119">2den Scene</cell>
+                                                       
+                                                            <cell ref="#div0120">3die Scene</cell>
+                                                       
+                                                            <cell ref="#div0121">Tre Aar efter. En Løverdag-aften</cell>
+                                                       
+                                                            <cell ref="#div0122" level="2">1ste Scene</cell>
+                                                       
+                                                            <cell ref="#div0123" level="2">2den Scene</cell>
+                                                       
+                                                            <cell ref="#div0124" level="2">3die Scene</cell>
+                                                       
+                                                            <cell ref="#div0125" level="2">4de Scene</cell>
+                                                       
+                                                            <cell ref="#div0126" level="2">5te Scene</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-04-22" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-04-22" who="NHB">formatted</change><change who="NHB" when="2024-04-24" status="draft">gennemset indtil s. 22</change><change who="NHB" when="2024-04-25" status="draft">gennemset indtil 93</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="I Maaneskin" xml:id="i-maaneskin">
+<pb n="303"/>
+<front><titlePage><docTitle>
+<titlePart type="main">I Maaneskin</titlePart>
+
+<titlePart type="part">Alpescener fra de tyrolske Bjerge</titlePart></docTitle>
+<docImprint>
+<docDate>1855</docDate>
+<byline><source subtype="foreign">Musik af I. Lachner</source></byline>
+
+<performance><source subtype="foreign">Opført første gang 2. juni 1855</source></performance></docImprint>
+</titlePage>
+</front>
+<div type="part" rend="" xml:id="div0116">
+<front>
+<pb n="304"/>
+<titlePage><head type="part">1<hi rend="raised">ste </hi>Deel</head></titlePage>
+<pb n="305"/>
+
+<pb n="306"/>
+<castList>
+<head>Personerne</head>
+<castItem>
+<role>MATHIES</role><roleDesc>en Jæger</roleDesc>
+</castItem>
+<castItem>
+<role>ROSEL</role><roleDesc>en Bondepige</roleDesc>
+</castItem>
+</castList>
+<pb n="307"/></front>
+
+<div rend="En Løverdag-Aften" xml:id="div0117">
+<head type="act">En <seg target="txtcmnt-307-01">Løverdag-Aften</seg></head>
+<stage rend="noIndent">Theatret forestiller en Bjergegn med en <seg target="txtcmnt-307-02"><!--DATA-TERM: Sennhytte--><!--DATA-DEFINITION: sæterhytte.-->Sennhytte</seg>. Maaneskin, der siden gaaer over i en rød Dagning.</stage>
+</div>
+                              
+<div type="scene" rend="1ste Scene" xml:id="div0118">
+<head type="scene">1<hi rend="raised">ste </hi>Scene</head>
+<sp>
+<speaker>ROSEL <stage><hi rend="italic">(synger)</hi></stage></speaker>
+<lg xml:id="p_01409"><l>En Blomst paa mit Bryst og een paa min Hat.</l>
+<l>Det klæder mig godt, det siger min Skat,</l>
+<l>Naa, han vil idag synes just jeg er net,</l>
+<l>Et poppelgrønt Baand til – det klæder mig ret!</l></lg>
+<lg xml:id="p_01410"><l>Ak, det er en Sorg det, at Ugen er lang,</l>
+<l>Og Veien er ikke den korteste Gang.</l>
+<l>Af Ugens syv Dage er Løverdag sidst</l>
+<l>Den kommer kun engang :|: i Ugen for vist. :|:</l></lg>
+<lg xml:id="p_01411"><l>Hvor var Almanakken velsignet og god</l>
+<l>Hvis der ved hver Dag altid Løverdag stod,</l>
+<l>Ja, Løverdag! evig og altid kun den,</l>
+<l>Da var altid hos mig min kjæreste Ven.</l></lg>
+<stage rend="right"><hi rend="italic">(gaaer ind i Hytten)</hi></stage>
+</sp>
+</div>
+                              
+<div type="scene" rend="2den Scene" xml:id="div0119">
+<head type="scene">2<hi rend="raised">den</hi> Scene</head>
+<sp>
+<speaker>MATHIES <stage><hi rend="italic">(kommer fra Bjergstien)</hi></stage></speaker>
+<lg xml:id="p_01412"><l>Her er jeg! saa varm! – og jeg dog fornemmer</l>
+<l>En Kuldegysen i alle Lemmer!</l>
+<l>– Mit Hjerte er tungt – og den Fortræd,</l>
+<l>Den mærker man nede i Benene med!</l>
+<pb n="308"/>
+<l>Hvad nytter Klynken, hvad nytter Klage,</l>
+<l>Enhver har jo gode og tunge Dage;</l>
+<l>Det kan ei forandres, skee hvad der maa!</l>
+<l>Der staaer hendes Huus og det vil staae</l>
+<l>Naar jeg er borte – ja, Gud veed hvor!</l>
+<l>See, Maanen skinner saa rund og stor,</l>
+<l>Den gaaer vel sin Vei, men den kommer tilbage.</l>
+<l>Mon jeg kommer det? Ak om Aar og Dage,</l>
+<l>Ja hvor er jeg saa – begravet maaskee!</l>
+<l>Naa, skam Dig Jæger! – Du heller see,</l>
+<l>Til Vinduet der, til den lille Rude.</l>
+<l>Endnu iaften Du staaer herude,</l>
+<l>Endnu er Du her! – imorgen? Ei, hvad!</l>
+<l>Saalænge man kan skal man ret være glad!</l></lg>
+<l rend="firstIndent"><hi rend="italic">Duet</hi></l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="firstIndent">Udenfor synger den Ven Du har</l>
+<l rend="firstIndent">Er du ham god, saa giv ham et Svar!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="firstIndent">Jeg er Dig god, ja hjertens god,</l>
+<l rend="firstIndent">Det er en Sag du længst forstod.–</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent"><stage><hi rend="italic">(han)</hi></stage> Venten er ei for Ungdoms Sind.</l>
+<l rend="firstIndent"><stage><hi rend="italic">(hun)</hi></stage> Ude sig røre ei en Vind.</l>
+<l rend="firstIndent"><stage><hi rend="italic">(han)</hi></stage> Her er saa koldt, ak luk mig ind.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="firstIndent">Kan Du have saa haardt et Sind</l>
+<l rend="firstIndent">At Du strax ei lukker mig ind. Her er saa koldt i Maaneskin.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="firstIndent">Vente maatte jeg Vennen min,</l>
+<l rend="firstIndent">Ventetouren være nu Din</l>
+<l rend="firstIndent">Mødets Stund er – i Maaneskin.</l>
+</sp>
+</div>
+                              
+<div type="scene" rend="3die Scene" xml:id="div0120">
+<pb n="309"/>
+<head type="scene">3<hi rend="raised">die </hi>Scene</head>
+<sp>
+<speaker>ROSEL <stage><hi rend="italic">(kommer ind.)</hi></stage></speaker><speaker>MATHIES</speaker>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Min <hi rend="italic">Rosel</hi>!</l>
+</sp>
+<sp>
+<seg target="txtcmnt-309-01" type="dfnStart"/><speaker>ROSEL</speaker>
+<l rend="right"><hi rend="italic">Mathies</hi>!</l><seg target="txtcmnt-309-01" type="dfnEnd"/>
+</sp>
+
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">O, det er velsignet at samles igjen!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Hvor tidt end Du kommer, Du kommer for lidt.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Der er ei i Verden et Hjerte som Dit!</l>
+<l rend="noIndent">Og derfor ogsaa hver Gang jeg Dig saae,</l>
+<l rend="noIndent">Min Kjærlighed tiltog!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Hvordan skal det gaae,</l>
+<l rend="noIndent">Naar saa engang vi hinanden først faae.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Ak, faae Dig –! Gud give det <seg target="txtcmnt-309-02"><!--DATA-TERM: alt--><!--DATA-DEFINITION: allerede.-->alt</seg> være skeet!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men saadan et Ansigt jeg aldrig har seet,</l>
+<l rend="noIndent">Hvad feiler Dig dog – før blev dandset og leet –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Slet ingen Ting er det, min sødeste Skat.</l>
+<l rend="noIndent">Fornøiede sees vi! – den deilige Nat,</l>
+<l rend="noIndent">Det prægtige Maaneskin, er for os To.</l>
+<l rend="noIndent">Hør Bjergskoven suser og Alt er dog Ro,</l>
+<l rend="noIndent">Kom, sæt Dig hos mig! – Du holder af mig?</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Mathies hvad gaaer der iaften af Dig!</l>
+<l rend="noIndent">Du skjuler mig noget – maaskee før Du kom,</l>
+<l rend="noIndent">En lille Fugl har dog sjunget derom! –</l>
+</sp>
+<pb n="310"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Hvad veed Du?</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Min Gud er det sandt maaskee</l>
+<l rend="noIndent">Hvad Folk har fortalt – jeg snart skulde see,</l>
+<l rend="noIndent">Du kunde gifte Dig, boe i Byen,</l>
+<l rend="noIndent">Og gaae med <seg target="txtcmnt-310-01"><!--DATA-TERM: guldtresset Hat og Fjer--><!--DATA-DEFINITION: Mathies har måske udsigt til at blive områdets jægermester, hvis opgave det er at have opsyn med fyrstens jagtvæsen.-->guldtresset Hat og Fjer</seg> –</l>
+<l rend="noIndent"><hi rend="italic">Mathies</hi>, jeg al den Herlighed seer!</l>
+<l rend="noIndent">Ja, det var en Lykke for mig og Dig! –</l>
+<l rend="noIndent">Det vilde vel falde lidt tungt for mig</l>
+<l rend="noIndent">At tage herfra hvor jeg altid boede,</l>
+<l rend="noIndent">Jeg kjender hvert Straa, hvert Træ som det groede,</l>
+<l rend="noIndent">Jeg kjender ved Navn hver Kalv og hver Ko,</l>
+<l rend="noIndent">Jeg kjender Kukkeren med, kan Du tro,</l>
+<l rend="noIndent">Den lille Svale og Gemsernes Flok. –</l>
+<l rend="noIndent">Jeg kjedet mig aldrig det veed jeg nok.</l>
+<l rend="noIndent">Jeg vidste at Du, naar Ugen var omme,</l>
+<l rend="noIndent">Den lange Vei til mig vilde komme.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Jo længere en Vei, desmere man længes,</l>
+<l rend="noIndent">Men saa er det deiligt at naae til sit Maal.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Med Dig gik jeg gjerne til Verdens Ende!</l>
+<l rend="noIndent">Ja før jeg gav slip paa Dig, kan Du troe,</l>
+<l rend="noIndent">Jeg heller gik uden Strømper og Skoe.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Nei, slippe hinanden, vi aldrig vil</l>
+<l rend="noIndent">Men gifte Os! – det er der længe til!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">O, Gud!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="center">Du har glædet Dig!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Inderligt!</l>
+<l rend="noIndent">Hvor kunne jeg vel lægge Skjul paa Sligt!</l>
+</sp>
+<pb n="311"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Ak der vil tidt falde Løv fra Hækken,</l>
+<l rend="noIndent">Og meget Vand vil der løbe fra Bækken,</l>
+<l rend="noIndent">Før vi kunne gifte os, – <seg target="txtcmnt-311-01"><!--DATA-TERM: lad saa være--><!--DATA-DEFINITION: det må så være.-->lad saa være</seg>!</l>
+<l rend="noIndent">Du bliver mig troe! – i Tugt og Ære!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Jeg har for mit Hjerte sat Laas og Lukke,</l>
+<l rend="noIndent">Kun Du har Nøglen –! Du maa ei sukke –</l>
+<l rend="noIndent">Alt maa have Tid – vær nu i Humeur! –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Ja lystig, Juchheisa –! nei, ikke som før</l>
+<l rend="noIndent">Jeg ret kan tralle –</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right"><seg target="txtcmnt-311-02"><!--DATA-TERM: Hvad er der mødt--><!--DATA-DEFINITION: hvad er der tilstødt dig.-->Hvad er der mødt</seg>! –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">O, mig er der slet Ingenting tilstødt.</l>
+<l rend="noIndent">Det Hele det er – man skal være fornøiet.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men det er ei Du –! Du er saa nedbøiet</l>
+<l rend="noIndent">Saa underlig –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Syng mig en Vise, syng den,</l>
+<l rend="noIndent">Der altid er mig i Sind og i Tanke. –</l>
+<l rend="noIndent">Den gjorde at Hjertet slog om i at banke. –</l>
+<l rend="noIndent">Der nede i Landsbyen Markedet stod,</l>
+<l rend="noIndent">De Spillemænd spillede op til en <seg target="txtcmnt-311-03"><!--DATA-TERM: Fiirtour--><!--DATA-DEFINITION: folkedans (turdans) i fire afdelinger.-->Fiirtour</seg>,</l>
+<l rend="noIndent">Idet jeg kom ind, – da var jeg tilsinds, –</l>
+<l rend="noIndent">At gjerne jeg kunde heldt Gift i Vinen. –</l>
+<l rend="noIndent"><seg target="txtcmnt-311-04"><!--DATA-TERM: Men saa seer Dig der sidde – Gud veed--><!--DATA-DEFINITION: H.C. Andersen har rettet fra: »Men saa seer Dig sidde og fandt her Gud veed«; måske en forkert rettelse, da den forstyrrer metret.-->Men saa seer Dig der sidde – Gud veed</seg>,</l>
+<l rend="noIndent">Hvis mig en Steenbuk var kommen for Skud,</l>
+<l rend="noIndent">Jeg havde ei skudt, jeg havde ei truffet,</l>
+<l rend="noIndent">Jeg kunde ei sidde, jeg kunde ei staae,</l>
+<l rend="noIndent">Jeg maatte derover hvor Dig jeg saae.</l>
+<l rend="noIndent">Din Moster skar Ansigt, hun leed ikke mig,</l>
+<l rend="noIndent">Og Frantz ikke heller – men vi, Du og jeg,</l>
+<l rend="noIndent">Vi talte og dandsede Natten lang. –</l>
+<pb n="312"/>
+<l rend="noIndent">Og siden – saa mødtes vi mangen en Gang.</l>
+<l rend="noIndent">– Ret ofte Du sang ved Cithren en Sang</l>
+<l rend="noIndent">Den klinger mig altid endnu for Øret.</l>
+<l rend="noIndent">O, syng den! jeg det saa inderligt vil,</l>
+<l rend="noIndent">Mit Hjerte er sygt, jeg trænger dertil.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">En Sang kan tidt, det har man mig sagt</l>
+<l rend="noIndent">Faae over et Hjerte en trøstende Magt.</l>
+<lg xml:id="p_01413"><l><seg target="txtcmnt-312-01" type="dfnStart"><!--DATA-TERM: Den ringe Hytte … Hjertet hænger--><!--DATA-DEFINITION: i sufflørbogen har sangen to strofer, hvoraf strofe 2 er overstreget og lyder: At skilles fra det Hjem er altid svært, Selv Sorgerne kan gjøre det saa kjært. Min gamle Fader elsked’ dette Sted; Herfra gik han ind i Guds Evighed. »I Børn hold sammen smukt i Held og Nød.« Bad han og blandt os var han ikke længer!<br>Saa helligt Stedet blev mig ved hans Død.<br>Ved Barndomshjemmet hele Hjertet hænger.<br> Strofen ses også i et tidligere, ukomplet manuskript (Collinske samling 21, 4°, IV,6,4).--></seg>Den ringe Hytte her jeg holder af.</l>
+<l>Her vil jeg boe og bygge til min Grav.</l>
+<l>Her er jeg født og voxet op saa godt.</l>
+<l>:|: Jeg bytter ikke Hytten for et Slot, :|:</l>
+<l>Den husker mig paa baade Stort og Smaat</l>
+<l>I Gulvet her sees Spor af Vuggens Gjænger,</l>
+<l>Jeg har i Minde her saa meget Godt;</l>
+<l>Ved Barndomshjemmet hele Hjertet hænger<seg target="txtcmnt-312-01" type="dfnEnd"><!--DATA-TERM: Den ringe Hytte … Hjertet hænger--><!--DATA-DEFINITION: i sufflørbogen har sangen to strofer, hvoraf strofe 2 er overstreget og lyder: At skilles fra det Hjem er altid svært, Selv Sorgerne kan gjøre det saa kjært. Min gamle Fader elsked’ dette Sted; Herfra gik han ind i Guds Evighed. »I Børn hold sammen smukt i Held og Nød.« Bad han og blandt os var han ikke længer!<br>Saa helligt Stedet blev mig ved hans Død.<br>Ved Barndomshjemmet hele Hjertet hænger.<br> Strofen ses også i et tidligere, ukomplet manuskript (Collinske samling 21, 4°, IV,6,4).--></seg>.</l></lg>
+<l rend="noIndent">Ja, nu har jeg sjunget: men siig dog et Ord,</l>
+<l rend="noIndent">See ikke saa ned mod den sorte Jord.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Saa mange Tanker har den kaldt hid!</l>
+<l rend="noIndent">Du sang den ei i <seg target="txtcmnt-312-02"><!--DATA-TERM: langsommelig Tid--><!--DATA-DEFINITION: meget lang tid.-->langsommelig Tid</seg>.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Langsommelig Tid, jeg sang den jo sidst,</l>
+<l rend="noIndent">Nu sidste Lørdag, det veed jeg forvist!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Den sidste, og denne – ak, naar vil det skee,</l>
+<l rend="noIndent">Vi atter hinanden en Løverdag see!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Du taler saa sælsomt!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="center">Din Haand!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Den er der!</l>
+</sp>
+<pb n="313"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Hvad tænker Du saa?!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">At jeg har Dig saa kjær!</l>
+<l rend="noIndent">Du er al min Glæde!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">– Og Du er al min Qval!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Hvad er det Du siger, <hi rend="italic">Mathies</hi> – saa tal!</l>
+<l rend="noIndent">Forklar Dig! fortæl mig – Du gjør mig saa bange.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">I Glæde jeg kom her jo hundrede Gange,</l>
+<l rend="noIndent">Du hørte mig jodle, Du hørte min Sang.</l>
+<l rend="noIndent">Iaften jeg kommer nok sidste Gang.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Du stiller Dig an, – mener ikke dermed!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Jeg stiller mig! ja, – jeg er just blevet stillet</l>
+<l rend="noIndent">Er indkaldt – jeg skal som Soldat nu afsted.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Soldat!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="center">Ja, Soldat!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Og skal bortmarschere –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Imorgen!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="center">Og Løverdag? –</l>
+</sp>
+<pb n="314"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Sees vi ei mere!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Ak, aldrig! –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Maaskee om et Aar, vil Gud!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent"><hi rend="italic">Mathies</hi>, det kan jeg ei holde ud!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent"><seg target="txtcmnt-314-01"><!--DATA-TERM: For (Bøssen)--><!--DATA-DEFINITION: i stedet for.-->For Bøssen</seg> jeg nu skal bære Gevæhr,</l>
+<l rend="noIndent">Marschere, staae Skildvagt, men ikke her!</l>
+<l rend="noIndent">Ei see Dig – maaskee ei engang fra Dig høre!</l>
+<l rend="noIndent">Min Gud!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="center">Jeg gik ei!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Men hvad skal jeg gjøre!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Du skal desertere!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Saa bliver jeg skudt!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men skriv Du til <seg target="txtcmnt-314-02"><!--DATA-TERM: Kongen--><!--DATA-DEFINITION: den østrigske regent, idet Tyrol i nyere tid, med undtagelse af årene 1805-1814, har hørt under Østrig.-->Kongen</seg>!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Jeg kan ikke skrive!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Saa er Du Soldat – og det maa Du blive.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Det maa jeg!</l>
+</sp>
+<pb n="315"/>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Men var der i Landsbyen Ingen</l>
+<l rend="noIndent">Undtagen Dig ene, De kunde tage!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">De maatte vel tage hver ung Person</l>
+<l rend="noIndent">Der hører ei lidt til en <seg target="txtcmnt-315-01"><!--DATA-TERM: Bataillon--><!--DATA-DEFINITION: hærafdeling, bestående af kompagnier og mindre end et regiment.-->Bataillon</seg>.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men gaaer Du i Krig da?</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Det er ikke sagt,</l>
+<l rend="noIndent">Men om det befales, har Kongen jo Magt,</l>
+<l rend="noIndent">Og Kongen skal lydes –! det siger jeg Dig.</l>
+<l rend="noIndent">I Krigen! – Du skal ei faae Skam af mig.</l>
+
+<lg xml:id="p_01414"><l rend="firstIndent">1.</l>
+<l>I Verden er <seg target="txtcmnt-315-02" type="dfnStart"><!--DATA-TERM: to Farver … Blaae--><!--DATA-DEFINITION: siden 1760’erne har der i den østrigske hær været blå og hvide uniformer--></seg>to Farver de smukkeste jeg saae.</l>
+<l>Den Ene er den Hvide, den Anden er den Blaae<seg target="txtcmnt-315-02" type="dfnEnd"><!--DATA-TERM: to Farver … Blaae--><!--DATA-DEFINITION: siden 1760’erne har der i den østrigske hær været blå og hvide uniformer--></seg>.</l>
+<l>Dem begge jeg bærer naar jeg i Krigen gaaer,</l>
+<l>Dem faaer jeg af min Konge, mens jeg for Landet slaaer!</l></lg>
+<lg xml:id="p_01415"><l rend="firstIndent">2.</l>
+<l>De Farver ere ægte, de holde alle Aar,</l>
+<l>Det blaae, – see op mod Himlen deroppe Farven staaer.</l>
+<l>Det hvide, reen er Farven, og den jeg her kan see,</l>
+<l>Den skinner deiligt til mig i mine Bjerges Snee.</l></lg>
+<lg xml:id="p_01416"><l rend="firstIndent">3.</l>
+<l>For Hvidt og Blaat er kjæmpet, er givet Liv og Blod.</l>
+<l>Mit Bjerglands kjære Farver; – ei Sønnen dem forlod.</l>
+<l>Christ og hans Engleskare gaaer frem i Hvidt og Blaat,</l>
+<l>De kjære Landets Farver gjør Sjæl og Øie godt!</l>
+</lg></sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Ja, det er rigtigt! og maa det saa være,</l>
+<l rend="noIndent">Saa bliv Soldat! – og bliv det med Ære!</l>
+<l rend="noIndent">Jeg hører jo fra Dig!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Ja, det giver Mod!</l>
+<pb n="316"/>
+<l rend="noIndent">Saadan skal Du tale – Den Tale var god!</l>
+<l rend="noIndent">Nu gaaer jeg med lettere Hjerte afsted.</l>
+<l rend="noIndent">Og tro skal jeg blive, det bliver Du med;</l>
+<l rend="noIndent">Som <seg target="txtcmnt-316-01"><!--DATA-TERM: hjempermiteret--><!--DATA-DEFINITION: på orlov.-->hjempermiteret</seg> jeg kommer igjen,</l>
+<l rend="noIndent">Som graae eller blaa, Du nok kjender Din Ven.</l>
+<l rend="noIndent">Hvorledes det end saa i Verden gaaer,</l>
+<l rend="noIndent">Tilsidst vi To dog hinanden faaer!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Ja, Dig eller Ingen! – Alt skee i Guds Navn!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Jeg siger Dig ærligt, jeg vil kun Dit Gavn,</l>
+<l rend="noIndent">Og skulde det træffe – mens jeg er herfra,</l>
+<l rend="noIndent">Du kunde ret gjøre Din Lykke – nu da, –</l>
+<l rend="noIndent">Du er ikke bundet, – det blev mig vel svært</l>
+<l rend="noIndent">Dog Dit Held er meer end mit eget mig kjært!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Jeg tage en Anden! nei hvordan det gaaer,</l>
+<l rend="noIndent">Jeg venter paa Dig, i hundrede Aar!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Farvel da! Gud med Dig!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Ak, Du gaaer alt bort!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">See Maanen er nede, – det dages <seg target="txtcmnt-316-02"><!--DATA-TERM: om kort--><!--DATA-DEFINITION: om kort tid.-->om kort</seg>!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent"><hi rend="italic">Mathies</hi>!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Græd ikke! tænk videre frem,</l>
+<l rend="noIndent">Syng, arbeid og bed! pas troligt Dit Hjem!</l>
+<l rend="noIndent">Saa vil det nok gaae! Sørg ikke for mig!</l>
+<l rend="noIndent">Farvel lille <hi rend="italic">Rosel</hi>! Vær Herren med Dig!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="firstIndent">Ei mere i Maaneskin aander jeg frit.</l>
+<pb n="317"/>
+<l rend="firstIndent">Min Arm er min Konges, :|: mit Hjerte er Dit. :|:</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="firstIndent">Bemærk Dig den Stjerne deroppe, just den!</l>
+<l rend="firstIndent">Den seer vore Veie – :|: den være vor Ven! :|:</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="firstIndent">Farvel hjertens Ven da! Gud gjøre Dig glad!</l>
+<l rend="firstIndent">Vi kan ikke skilles :|: og skilles dog ad. :|:</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="firstIndent">Hvad gjør vel en Skramme, hvad gjør selv et Par,</l>
+<l rend="firstIndent">Naar Hjertet kun bliver det Samme, det var!</l>
+</sp>
+<trailer><p rend="noIndent" xml:id="p_01417"><hi rend="italic">Ende paa 1ste Deel</hi></p></trailer>
+</div>
+                              
+</div>
+                         
+<div type="part" rend="Tre Aar efter. En Løverdag-aften" xml:id="div0121">
+<front>
+<pb n="318"/>
+<titlePage>
+<head type="act">2<hi rend="raised">den </hi>Deel</head></titlePage>
+<pb n="319"/></front>
+<pb n="320"/>
+<head type="act">Tre Aar efter</head>
+<head type="act">En Løverdag-aften</head>
+<stage>(Det Indre af en Sennhytte. Et Bord og to Stole; paa en Knage hænger Rosels Søndagsklæder; paa en anden Mathies Jægerhabit; to Døre, et Vindue med en knækket Rude.)</stage>
+<div type="scene" rend="1ste Scene" xml:id="div0122">
+<head type="scene">1ste Scene</head>
+<sp>
+<speaker>MATHIES <stage><hi rend="italic">(som Soldat han bærer <seg target="txtcmnt-320-01"><!--DATA-TERM: Tornister--><!--DATA-DEFINITION: stiv, firkantet rygsæk til soldatens oppakning.-->Tornister</seg>)</hi></stage></speaker>
+<l rend="noIndent">Juchhei! her seer jo Alt ud som før!</l>
+<l rend="noIndent">Den lille Stue med Bord og med Stole;</l>
+<l rend="noIndent">Paa Knagen der hendes Søndagskjole,</l>
+<l rend="noIndent">I Krogen den gamle Spinderok.</l>
+<l rend="noIndent">Hun lever, det er for det Første nok.</l>
+<l rend="noIndent">Hvordan det staaer til, skal jeg snart erfare.</l>
+<l rend="noIndent">Paa faae Minutter vi er i det Klare!</l>
+<l rend="noIndent">Jeg har ingen Frygt, jeg er den som før,</l>
+<l rend="noIndent">Og hun er det ogsaa; Alt er som sig bør!</l>
+<l rend="noIndent">Og dog kan jeg ikke sige, hvorledes</l>
+<l rend="noIndent">Jeg har det; jeg isner og <seg target="txtcmnt-320-02"><!--DATA-TERM: gjennemhedes--><!--DATA-DEFINITION: efterfølges i trykforlægget af følgende (overstreget): Jeg er så løierlig – ængstes saa smaat! – / Jeg har det saa godt og dog ikke godt! / Der er over mig som en Troldenes Magt. / Det er som Bly var i Benene lagt, / Og Hjertet slaaer i den sædvanlige Takt. / Jeg veed det, – saasnart som hun nu træder frem, / Saa staaer jeg, kan ikke tælle til fem. / Rundtom er Alt, som i gamle Dage, / Og dog saa nyt, – nu jeg kommer tilbage!-->gjennemhedes</seg>;</l>
+<l rend="noIndent">Naa, det vil gi’e sig, faaer jeg først fat,</l>
+<l rend="noIndent">Min grønne Kofte, min Jægerhat</l>
+<l rend="noIndent">Med Gemseskjæget saa stift og stridt –</l>
+<l rend="noIndent">Min Gud – der hænger den hele Habit;</l>
+<l rend="noIndent">Ja, <hi rend="italic">Rosel</hi> paa mig har Du tænkt saa tidt.</l>
+<l rend="noIndent">Da Fuglen fløi bort, Du tog som et Minde,</l>
+<l rend="noIndent">Hver Fjer der var efter den at finde! –</l>
+<l rend="noIndent">Men det er silde, – og Maaneskin.</l>
+<l rend="noIndent">Endnu har hun ei drevet Hjorden ind,</l>
+<l rend="noIndent">Hun <seg target="txtcmnt-320-03"><!--DATA-TERM: tager sig Tiden i rigtig Mag--><!--DATA-DEFINITION: tager sig virkelig god tid.-->tager sig Tiden i rigtig Mag</seg>,</l>
+<l rend="noIndent">Det skeete ei før paa en Løverdag,</l>
+<l rend="noIndent">Da var hun alt paa sin Plads ved Birken,</l>
+<l rend="noIndent">Hvorfra hun kan see ligened til Kirken,</l>
+<l rend="noIndent">Hun jodlede høit, det lød rundtom;</l>
+<l rend="noIndent">Da kunde jeg høre, hun vidste jeg kom,</l>
+<pb n="321"/>
+<l rend="noIndent">Og ringede Klokken i Taarnet dernede,</l>
+<l rend="noIndent">Paa Bjerget jeg vidste een for mig bede,</l>
+<l rend="noIndent">Thi from og gudfrygtig, i Tugt og Ære,</l>
+<l rend="noIndent">See, det er det en Pige maa være! –</l>
+<stage><hi rend="italic">(man hører Køernes Klokker)</hi></stage>
+<l rend="noIndent">Ak ja, nu kommer hun! – Køerne komme,</l>
+<l rend="noIndent">Den blakkede Ko gaaer forrest som før,</l>
+<l rend="noIndent">Nu følge de Andre – der er den fromme <seg target="txtcmnt-321-01" type="dfnStart"><!--DATA-TERM: Fru Godel … henne –?--><!--DATA-DEFINITION: er i trykforlægget understreget og efterfulgt af en slutparentes.--></seg>Fru Godel og sorte Marie – og Kløer-Og Hjertermadam – men den Graae.</l>
+<l rend="noIndent">Jeg seer ei den Graae – den jeg altid saae.</l>
+<l rend="noIndent">Hvor er den henne –<seg target="txtcmnt-321-01" type="dfnEnd"><!--DATA-TERM: Fru Godel … henne –?--><!--DATA-DEFINITION: er i trykforlægget understreget og efterfulgt af en slutparentes.--></seg>? – I, Du min Gud!</l>
+<l rend="noIndent">– Min <hi rend="italic">Rosel</hi>! nei see! hvor godt hun seer ud,</l>
+<l rend="noIndent">Saa ganske som før – jeg den selvsamme seer,</l>
+<l rend="noIndent">Men grumme alvorlig! – hun jodler ei meer!</l>
+<l rend="noIndent">Nu er de ved Stalden, – saa langsomt det gaaer.</l>
+<l rend="noIndent">See saa! – først den Røde, – nei, see hvor den staaer</l>
+<l rend="noIndent">– <seg target="txtcmnt-321-02">Naa endelig! – hun lukker</seg>! hun kommer – Nei,</l>
+<l rend="noIndent">Hun maa ikke strax faae mig her at see,</l>
+<l rend="noIndent">En altfor stor Glæde gjør Hjertet Vee.</l>
+<l rend="noIndent">Jeg skjuler mig lidt – og kommer saa hid!</l>
+<l rend="noIndent">Mit Hjerte vil sige mig naar det er Tid!</l>
+<stage rend="right"><hi rend="italic">(gaaer)</hi></stage>
+</sp>
+</div>
+                              
+<div type="scene" rend="2den Scene" xml:id="div0123">
+<head type="scene">2<hi rend="raised">den </hi>Scene</head>
+<sp>
+<speaker>ROSEL</speaker>
+<lg xml:id="p_01418"><l>Her oppe paa Bjerget var lykkeligt før,</l>
+<l>Jeg sad hos min Ven og var i Humeur.</l>
+<l>Nu sidder jeg ene og græder saa tidt.</l>
+<l>:|: Og Tankerne flyve saa vildsomt og vidt. :|:</l></lg>
+<lg xml:id="p_01419"><l>Langt ude hvor Bjergene reent blaane hen</l>
+<l>Der vandrer han ene, mine Tankers Ven.</l>
+<l>Derude jeg stirrer med Graad paa Kind.</l>
+<l>:|: Ved Dag og ved Aften i Maaneskin. :|:</l></lg>
+<l rend="noIndent">– I Aar og i Maaneder aldrig ret glad!</l>
+<l rend="noIndent">– Jeg skulde have Ild paa, koge lidt Mad.</l>
+<l rend="noIndent">Den smager mig ikke, – mindst Løverdagen:</l>
+<pb n="322"/>
+<l rend="noIndent">Den Dag kom <hi rend="italic">Mathies</hi>, – ja det er Sagen.</l>
+<l rend="noIndent">Ved hver en Bid jeg ta’er i min Mund,</l>
+<l rend="noIndent">Jeg tænker paa ham i den samme Stund.</l>
+<l rend="noIndent">Maaskee han sulter og lider stor Nød,</l>
+<l rend="noIndent">Maaskee er han død – nei han er ei død:</l>
+<l rend="noIndent">Thi dersom han var det, havde han skrevet,</l>
+<l rend="noIndent">Og Svar paa mit Brev ei udeblevet.</l>
+<l rend="noIndent">Maaskee var det vanskeligt, reent umuligt</l>
+<l rend="noIndent">At finde Een der rigtigt og dueligt,</l>
+<l rend="noIndent">Forstod at skrive hans Hjertes Tanke.</l>
+<l rend="noIndent">Jeg finder knap Een der kan ret forstaae,</l>
+<l rend="noIndent">At læse hans Brev, som det læses maa.</l>
+<l rend="noIndent">Desuden hvad Kjærestefolk har at skrive</l>
+<l rend="noIndent">Det skal man just ei til en Tredie give,</l>
+<l rend="noIndent">Den skal ei vide hvert Ord der staaer</l>
+<l rend="noIndent">– To Breve – og det i tre lange Aar:</l>
+<l rend="noIndent">Det er ikke meget, det maa jeg sige,</l>
+<l rend="noIndent">Dog er det en Skat, som et Kongerige.</l>
+<l rend="noIndent">Med Øinene kan jeg vel ei læse Skrift</l>
+<l rend="noIndent">Men med mit Hjerte jeg læser det Skrevne:</l>
+<l rend="noIndent">Og udenad lærte ere Brevene blevne:</l>
+<l rend="noIndent">Jeg kan dem og veed dem – o det er en Lyst!</l>
+<l rend="noIndent">Jeg gjemmer dem altid her paa mit Bryst.</l>
+<l rend="noIndent">Nu Dagen er endt – og Solen er nede;</l>
+<l rend="noIndent">Og der skinner Stjernen; – den seer nu <hi rend="italic">Mathies</hi>!</l>
+
+<lg xml:id="p_01420"><l>Bemærk Dig den Stjerne deroppe, just den:</l>
+<l>Den seer vore Veie, :|: den være vor <seg target="txtcmnt-322-01" type="dfnStart"/>Ven! :|:</l></lg>
+<l rend="noIndent">Min Gud<seg target="txtcmnt-322-01" type="dfnEnd"/> – hvad er det dog – det er Spøgerie!</l>
+<stage rend="right"><hi rend="italic">(Mathies jodler)</hi></stage>
+</sp>
+</div>
+                              
+<div type="scene" rend="3die Scene" xml:id="div0124">
+<head type="scene">3<hi rend="raised">die </hi>Scene</head>
+<stage>MATHIES. ROSEL</stage>
+<sp>
+<seg target="txtcmnt-322-02" type="dfnStart"/><speaker>ROSEL</speaker>
+<l rend="noIndent">Mathies!</l><seg target="txtcmnt-322-02" type="dfnEnd"/>
+<l rend="noIndent">Men siig mig dog bare hvorledes det skeer,</l>
+<l rend="noIndent">At Du er tilbage, at Dig jeg seer.</l>
+</sp>
+<pb n="323"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Tilladelse fik jeg – <seg target="txtcmnt-323-01"><!--DATA-TERM: og har jo … bære mig –--><!--DATA-DEFINITION: sætningen er i trykforlægget understreget og sat i parentes.-->og har jo to Been,</seg>
+<seg target="txtcmnt-323-01">Der nok kan bære mig –</seg> jeg var ei seen.</l>
+<l rend="noIndent">Jeg vandred afsted, jeg tænkte paa Dig,</l>
+<l rend="noIndent">Og saa blev den kort, den lange Vei!</l>
+<l rend="noIndent">Men Du, min <hi rend="italic">Rosel</hi>, min egen Pige,</l>
+<l rend="noIndent">Du maa fortælle, nu maa Du sige,</l>
+<l rend="noIndent">Hvordan det er gaaet Dig fra vi saaes sidst.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">O, mig; – kun daarligt! – ja, det er vist, –</l>
+<l rend="noIndent">Men Dig –! fortæl hvad Du hørte og saae</l>
+<l rend="noIndent">Fra den Tid Du maatte i Krigen gaae! –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Jeg oplevet meget og ikke meget!</l>
+<l rend="noIndent">I Krigen min Ven gaaer alt saa gesvindt</l>
+<l rend="noIndent">Saasnart jeg var kommet i min <seg target="txtcmnt-323-02"><!--DATA-TERM: Mondering--><!--DATA-DEFINITION: mundering, udrustning.-->Mondering</seg>,</l>
+<l rend="noIndent">Det var som man kun havde ventet paa mig!</l>
+<l rend="noIndent">Strax heed det: »nu bryder det løst i Italien!«</l>
+<l rend="noIndent">Godt! Marschen begyndte, fra Morgen til Aften.</l>
+<l rend="noIndent">Det gik som fra Vuggen jeg havde marscheret.</l>
+<l rend="noIndent">Og blev der paa Veien en Dag gjort Holdt</l>
+<l rend="noIndent">Saa øved man Os i excerceren;</l>
+<l rend="noIndent">For det maa man kunde naar det gaaer løst!</l>
+<l rend="noIndent">Og Hjertet maa sidde det rigtige Sted,</l>
+<l rend="noIndent">Og Æren – ja, den maa sidde der med.</l>
+<l rend="noIndent">Da er man som brav Karl med Livet parat.</l>
+<l rend="noIndent">En daarlig Karl kan ei være Soldat.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Det seer man paa Dig! – har Du været i Slag!</l>
+<l rend="noIndent">Ak, det maa dog være en egen Sag!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">En Dands er kjærere det maa jeg sige,</l>
+<l rend="noIndent">Men er man deri, la’er man fem være lige!</l>
+<l rend="noIndent">Det første Skridt er det Værste at gjøre.</l>
+<l rend="noIndent">Den Trommen – og Blæsen – og Skyden at høre,</l>
+<l rend="noIndent">Det er noget Nyt for en ung Rekrut –</l>
+<l rend="noIndent">Man holder ei af at der bliver skudt! –</l>
+<l rend="noIndent">Saa gik det mig og det Andre med;</l>
+<pb n="324"/>
+<l rend="noIndent">Men alle de Ældre i Regimentet</l>
+<l rend="noIndent">De gjorde lidt Nar af vor blege Mine.</l>
+<l rend="noIndent">Og Generalen var skrap at see;</l>
+<l rend="noIndent">Vor Feldtpræst sagde: »Guds Villie skee!«</l>
+<l rend="noIndent">Han gav sin Velsignelse, nok saa kjærligt.</l>
+<l rend="noIndent">Og saa kom Couragen! det gik herligt!</l>
+
+<lg xml:id="p_01421"><l>Naar sig Fanen udfolder og Trommerne gaae</l>
+<l>Føle Alle som Een rigtig Lyst til at slaae!</l>
+<l>Naar saa Kuglerne pibe, de har denne Skik</l>
+<l>Siger strax hver Soldat, det er min Musik!</l>
+<l>Lader Fjenden os falde, det kan hænde tidt,</l>
+<l>Paa den Maade kun kan han blive os qvit,</l>
+<l>Der er ikke Een som vil forlade sit Geled,</l>
+<l>Naar ei Døden er der og faaer Manden afsted.</l></lg>
+<lg xml:id="p_01422"><l>Naar Kanonerne dundre, det gjør de ei slet.</l>
+<l>Faae en Kugle, – den Bolle fordøies ei let!</l>
+<l>Slig en Føde fra Fjenden, den er ei saa sund.</l>
+<l>Giv Bollen tilbage i ligemange Pund.</l>
+<l>Enhver lige udsat staaer for Kuglernes Fortred</l>
+<l>Soldat, Officier og Generalen selv med.</l>
+<l>Og man føler og forstaaer der, at man alle Mand</l>
+<l>Ere lige Børn af samme Fædreland.</l></lg>
+<l rend="noIndent">Hjem kom ikke alle som droge afsted.</l>
+<l rend="noIndent">Nu, de som saa døde, de har vundet Fred.</l>
+<l rend="noIndent">Det græmme Dig ei det mindste Stykke.</l>
+<l rend="noIndent">See her Kongens Billed, det er mit Smykke:</l>
+<l rend="noIndent">Jeg loved’, jeg ei skulde gjøre Dig Skam,</l>
+<l rend="noIndent">Det har jeg ei og eiheller ham!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">O, Du gjør mig stolt! – var jeg dog fulgt med,</l>
+<l rend="noIndent">Saa kunde jeg som <seg target="txtcmnt-324-01"><!--DATA-TERM: Marketenderpige--><!--DATA-DEFINITION: marketendersken sørger for soldaternes proviantering.-->Marketenderpige</seg>,</l>
+<l rend="noIndent">– For de gaae jo med, har jeg hørt sige –</l>
+<l rend="noIndent">Imellem dog rakt Dig en Lædskedrik,</l>
+<l rend="noIndent">Og pleiet Dig, naar et Saar Du fik!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Du fulgte med mig – Du var i min Tanke,</l>
+<l rend="noIndent">Paa Marsch, i <seg target="txtcmnt-324-02"><!--DATA-TERM: Qvarteer--><!--DATA-DEFINITION: opholdssted for soldater.-->Qvarteer</seg> og paa Lazarettet</l>
+<pb n="325"/>
+</sp>
+<pb n="326"/>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Der har Du da været?! og syg og saaret –</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">O, nu er det lægt!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Alt det har Du baaret.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Det er nu længst glemt! – men siig mig nu Du!</l>
+<l rend="noIndent">Hvordan er det gaaet Dig indtil nu!</l>
+<l rend="noIndent">– Tre lange Aar ere rullede hen.</l>
+<l rend="noIndent">Jeg veed Du har bitterlig <seg target="txtcmnt-326-01"><!--DATA-TERM: savnet Din Ven--><!--DATA-DEFINITION: efterfølges af følgende (overstreget): Hvor fandt Du vel Trøst, hvordan har Du lidt; Tænkt paa mig det har Du og bedet vist tidt.-->savnet Din Ven</seg>.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<lg xml:id="p_01423"><l>Hver Søndag den festlige Dag var saa lang.</l>
+<l>Da gik jeg til Kirken og græd mens de sang,</l>
+<l>Hver Mandag paa Bjerget saa ensom jeg sad.</l>
+<l>Du var al min Tanke og for Dig jeg bad.</l></lg>
+<lg xml:id="p_01424"><l>Hver Tirsdag – de selvsamme Tanker kom.</l>
+<l>»Min Glæde i Verden hvor vandrer Du om!«</l>
+<l>Hver Onsdag – den halve Uge var endt.</l>
+<l>Mit Hjerte var sygt dog og længsels-bespændt.</l></lg>
+<l rend="noIndent">Ja, saadan gik Uger – og Maaneder og Aar!</l>
+<l rend="noIndent">Men nu, det er ogsaa glemt – alt bittert og haardt</l>
+<l rend="noIndent">Er ligesom om det reent var blæst bort:</l>
+<l rend="noIndent">Alt hvad Du fortalte, – har sagt – hvad jeg vidste</l>
+<l rend="noIndent"><hi rend="italic">Mathies</hi>, vor Kjærlighed kunde ei briste!</l>
+<l rend="noIndent">Men – jeg staaer og snakker – og Du har gaaet</l>
+<l rend="noIndent">Saa langt, – og ikke en Bid har Du faaet!</l>
+<l rend="noIndent">Du maa være træt, baade sulten og tørstig</l>
+<l rend="noIndent">Jeg skal hente Brød og Mælk – eller vil Du</l>
+<l rend="noIndent">Jeg laver lidt varmt!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Det har jeg i Hjertet!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">I Hjertet, ja vist det fryser vist ikke</l>
+<pb n="327"/>
+<l rend="noIndent">Men Maven behøver dog Mad og Drikke!</l>
+<stage rend="right"><hi rend="italic">(gaaer)</hi></stage>
+</sp>
+</div>
+                              
+<div type="scene" rend="4de Scene" xml:id="div0125">
+<head type="scene">4<hi rend="raised">de </hi>Scene</head>
+<sp>
+<speaker>MATHIES <stage><hi rend="italic">(alene)</hi></stage></speaker>
+<l rend="noIndent">Ja, det er min Tanke, det bliver ved den!</l>
+<l rend="noIndent">Nu snarest jeg kaster Ungkarlen hen,</l>
+<l rend="noIndent">Jeg veed hvad jeg vil, jeg veed hvad jeg gjør,</l>
+<l rend="noIndent">Og nu vente længer vi slet ikke bør!</l>
+<l rend="noIndent">Farvel, Hr Soldat, her Jægeren staaer!</l>
+<l rend="noIndent">En sød, lille Kone Krabaten faaer!</l>
+<stage rend="right"><hi rend="italic">(gaaer med Jægerhabitten han tager ned fra Knagen)</hi></stage>
+</sp>
+</div>
+                              
+<div type="scene" rend="5te Scene" xml:id="div0126">
+<head type="scene">5<hi rend="raised">te </hi>Scene</head>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">See saa, han skal ikke just lide Nød.</l>
+<l rend="noIndent">Her har jeg lidt Ost, lidt Pølse og Brød:</l>
+<l rend="noIndent">Desuden, en Haandfuld Tobak jeg har gjemt</l>
+<l rend="noIndent">Fra sidst han var her; da blev den glemt;</l>
+<l rend="noIndent">Nu vil den smage ham, kan jeg tænke; –</l>
+<l rend="noIndent">Ak, havde jeg dog lidt Viin at skjænke;</l>
+<l rend="noIndent">Men jeg har kun Mælk og Kildevand. –</l>
+<l rend="noIndent">Mathies, maa tænke sig midt i Feldten,</l>
+<l rend="noIndent">Hvor ikke Alt kan faaes for Enhver,</l>
+<l rend="noIndent">Nu er han nok inde i Kammeret der,</l>
+<l rend="noIndent">Har sat sig hen for at faae lidt Hvile,</l>
+<l rend="noIndent">Og den kan han trænge til især</l>
+<l rend="noIndent">Thi fra Italien er langt til her!</l>
+<stage rend="right"><hi rend="italic">(Aftenklokken ringer)</hi></stage>
+<lg xml:id="p_01425">
+<l>Jeg takker Dig evige Gud!</l>
+<l>Du fri mig fra Fare, fra Sygdom og Død,</l>
+<l>Du give mig altid mit daglige Brød.</l>
+<l>See ned til min Græsgang der nærer min Ko,</l>
+<l>Beskjærm Du Mathies, – min Tanke og Tro –</l>
+<l rend="firstIndent">Jeg takker Dig evige Gud!</l></lg>
+</sp>
+<pb n="328"/>
+<sp>
+<speaker>MATHIES <stage><hi rend="italic">(er traadt ind som Jæger)</hi></stage></speaker>
+<l rend="noIndent">O, tak for Din Bøn, den vil høres af Gud!</l>
+<l rend="noIndent">Et Hjerte saa fromt som Dit, det er ægte!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men, søde Mathies hvor godt Du seer ud! –</l>
+<l rend="noIndent">Dit Tøi har Du fundet og strax taget paa!</l>
+<l rend="noIndent">Saasnart at jeg det hos Din Moster saae,</l>
+<l rend="noIndent">Strax bad jeg om ikke jeg maatte det gjemme;</l>
+<l rend="noIndent">Det var en Erindring for mig herhjemme!</l>
+<l rend="noIndent">Hver evige Time jeg kunde saa see det.</l>
+<l rend="noIndent">Du fandt det da strax!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Det klæ’er min Skat?</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">O, yndigt!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Og Gemseskjægget her paa min Hat.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Velsignet!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Sølvskillingen der, skal man bære!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Det er det deiligste Syn der kan være.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Hvad synes Du bedst om, Grønt eller Blaat??</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Det Grønne!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="center">Hvorfor?</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Det gjør Øinene godt.</l>
+<pb n="329"/>
+<l rend="noIndent">Og Grønt er jo Marken og Træerne grønne,</l>
+<l rend="noIndent">Og Haabets Couleur er den samme kjønne.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Og derfor jeg nu vil gaae klædt i grønt.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men <seg target="txtcmnt-329-01"><!--DATA-TERM: tør--><!--DATA-DEFINITION: må, bør.-->tør</seg> du?!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Hvorfor ikke; – det er saa kjønt.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men naar Permissionen nu er forbi,</l>
+<l rend="noIndent">Saa gaaer Du – det maa vi finde os i!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Men naar jeg nu ikke har Lyst dertil!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Jeg veed nok <hi rend="italic">Mathies</hi> hvor nødig Du vil!</l>
+<l rend="noIndent">Og det er for min Skyld, – men frygt kun ikke!</l>
+<l rend="noIndent">En brav Soldat maa gaae, naar der kaldes.</l>
+<l rend="noIndent">Og just som en brav Soldat har Din Pige</l>
+<l rend="noIndent">Dig allerkjærest! – ja det, tør jeg sige!</l>
+<l rend="noIndent">Betragt kun det lille Kors paa Dit Bryst</l>
+<l rend="noIndent">Drag bort i Ære, det er just min Lyst!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Vel talt! – men Rosel Du maa forstaae,</l>
+<l rend="noIndent">Jeg vil kun det, som jeg bør og maa!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Og hvad er det?</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Du vil ikke høre –!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Din Permission –?</l>
+</sp>
+<pb n="330"/>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Den vil vi gjøre</l>
+<l rend="noIndent">Til Afsked.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="center">Hvorledes!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Jeg er Invalid!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Det er og det var Du jo ingentid.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Hvad gjør vel en Skramme, hvad gjør selv et Par</l>
+<l rend="noIndent">Naar Hjertet kun bliver det Samme det var.</l>
+<l rend="noIndent">Det har Du selv sjunget! –</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Nei, er det sandt!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Det Sandheden er – og jeg Afsked vandt.</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Men hvor er Du skudt?</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="center">I Foden!</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">– og Hugget!?</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">I Armen! – og drøie Puf har jeg faaet.</l>
+<l rend="noIndent">Der sees endnu Spor hvor Kolben har slaaet.</l>
+<l rend="noIndent">Saa falder det svært at bære <seg target="txtcmnt-330-01"><!--DATA-TERM: Musket--><!--DATA-DEFINITION: flintebøsse for fodfolk.-->Musket</seg>,</l>
+<l rend="noIndent">En stadig Marscheren, tilsidst gjør træt,</l>
+<l rend="noIndent">Mig tynger Tornystren og den maa med!</l>
+<l rend="noIndent">Den Unge gaaer ind i den Ældres Geled,</l>
+<l rend="noIndent">Den Ældre faaer Afsked – hver Invalid</l>
+<l rend="noIndent">Er velforsørget i al hans Tid;</l>
+<pb n="331"/>
+<l rend="noIndent">Et Huus er ham reist paa hans gamle Dage.</l>
+<l rend="noIndent">Men har han som jeg, endnu Kræfter tilbage</l>
+<l rend="noIndent">Og nok vil prøve hvad Lykken kan bringe,</l>
+<l rend="noIndent">Han takker og faaer en Sum, – ikke ringe –</l>
+<l rend="noIndent">De blanke Kroner – og dem har jeg faaet, –</l>
+<l rend="noIndent">Nu vil jeg –</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Min Gud har jeg rigtig forstaaet</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Det har Du –! jeg bliver! – er Jæger som før;</l>
+<l rend="noIndent">Men som Invalid mon jeg komme tør, –</l>
+<l rend="noIndent">Og vide –</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="right">Dit Hjerte er sundt og godt,</l>
+<l rend="noIndent">Min Skjønhed, – med den gaaer det kun smaat.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Al Skjønhed varer kun ved en Tid,</l>
+<l rend="noIndent">Den ogsaa bliver tilsidst Invalid.</l>
+<l rend="noIndent">Nei, ret holde af, være brav og tro</l>
+<l rend="noIndent">Derfor skal man leve og det vil vi To.</l>
+<l rend="noIndent">Jeg efter min Moster har arvet jo lidt</l>
+<l rend="noIndent">Og hvad jeg har faaet er jo ogsaa Dit.</l>
+<l rend="noIndent">Jeg kjøber et Huus, saa mangler der kun</l>
+<l rend="noIndent">En lille Kone – hvor findes hun?</l>
+</sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l rend="noIndent">Hun findes, – det veed Du jo nok <hi rend="italic">Mathies</hi>!</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="noIndent">Vi gifter Os! – det er et Paradiis!</l>
+</sp>
+
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Altsaa er vi nu et Par</l>
+<l rend="firstIndent">Vi det i Tugt og Ære var</l>
+<l rend="firstIndent">Paa Bjerget i <seg target="txtcmnt-331-01"><!--DATA-TERM: deiligt Maaneskin!--><!--DATA-DEFINITION: slutstrofen efterfølges i trykforlægget af to overstregede strofer:<br>I Krigen kaldte man min Ven,<br>Men Freden gav mig ham igjen<br>Paa Bjerget i deiligt Maaneskin.<br><br>En Løverdag var sorrigfuld.<br>En Løverdag gav Glædens Guld<br>Paa Bjerget i deiligt Maaneskin.-->deiligt Maaneskin!</seg></l>
+</sp>
+<trailer><l rend="firstIndent"><hi rend="italic">Teppe</hi></l></trailer>
+<pb n="332"/>
+</div>
+                              
+</div>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="I Maaneskin. " synch="i-maaneskin">
+<head type="section-comments">I Maaneskin</head>
+
+<head type="section-comments">efter Kobell og Seidl’s »‘s letzti Fensterln«</head>
+
+<argument type="sourceData"><p rend="noIndent">Opført første og eneste gang 2. juni 1855 på privatteatret Casino i Amaliegade som del af en beneficeforestilling for skuespilleren Edvard Hansen (1820-1874). Musik af den tyske komponist Ignaz Lachner (1807-1895).</p>
+<p rend="firstIndent">Casino var oprindelig et vinteretablissement, oprettet af Georg Carstensen, åbnet 1847; lejet af teaterdirektøren H.W. Lange og omdannet til teater 1848. Casino blev også brugt som koncertsal. Det lukkede 1939.</p>
+<p rend="firstIndent">Trykforlæg til <hi rend="italic">I Maaneskin</hi>: Edvard Hansens rollehæfte, Den Laage-Petersenske Samling, nr. 646. Med H.C. Andersens signatur på titelbladet og egenhændige rettelser, ellers afskrift (renskrift). En del tekst er i rollehæftet overstreget, tilsyneladende af anden hånd end H.C. Andersens; det overstregede er sandsynligvis udeladt ved opførelsen og er derfor, med en enkelt undtagelse, som er nævnt i tekstrettelseslisten, ikke medtaget i nærværende udgave, men er opført i noteapparatet.</p>
+<p rend="firstIndent">Rollehæftets fulde tekst, inklusive de overstregede tekststeder, kan desuden ses i <hi rend="italic">H.C. Andersen. Eventyrdigterens studenterkomedier samt »I Maaneskin« (En bearbejdelse)</hi> ved Jørgen Skjerk, 2001.</p>
+<p rend="firstIndent">Partitur til den danske opførelse synes ikke bevaret. Klaverudtog af Lachners musik findes, fx: <hi rend="italic">‘S letzti Fensterln« und »Drei Jahrln nach’m letz<pb n="631"/>ten Fensterln. 2 Alpenscenen.</hi> Ignaz Lachner. Clavier-Auszug ohne Worte. München, Aibl (ikke på Det Kongelige Bibliotek).</p>
+<p rend="firstIndent">Forlægget er et syngespil i to dele, 1848, af den østrigske forfatter J.G. Seidl (1804-1875): <hi rend="italic">‘s letzte Fensterln</hi> ((tysk) den sidste aftenvisit ved den elskedes vindue) og <hi rend="italic">3 Jahre nach’m letzten Fensterln</hi> (tre år efter den sidste aftenvisit). H.C. Andersen har muligvis oplysningerne på titelbladet fra det ovenfor nævnte klaverudtog; i alle udgaver af stykket står Seidl imidlertid som eneforfatter. Kobell, som er nævnt på titelbladet , er den tyske dialektdigter og mineralog Franz von Kobell (1803-1882), som var en bekendt af H.C. Andersen. Ingen af Kobells digte synes at være forlæg for Seidls syngespil.</p></argument>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">307,2</cell><cell type="deviation">Theatret &lt; 1 Scene / Theatret</cell></row>
+<row><cell type="position">307,7</cell><cell type="deviation">Skat, &lt; Skat</cell></row>
+<row><cell type="position">307,15</cell><cell type="deviation">stod, &lt; stod</cell></row>
+<row><cell type="position">308,33</cell><cell type="deviation">Maaneskin. &lt; Maaneskin</cell></row>
+<row><cell type="position">309,2</cell><cell type="deviation">Rosel <hi rend="italic">(kommer ind.)</hi> Mathies &lt; Mathies [tilføjelsen ses i trykforlæg, men er slettet]</cell></row>
+<row><cell type="position">309,10</cell><cell type="deviation">lidt. &lt; lidt</cell></row>
+<row><cell type="position">312,9</cell><cell type="deviation">Den ringe &lt; 1. / Den ringe</cell></row>
+<row><cell type="position">315,14</cell><cell type="deviation">1. / I Verden &lt; I Verden</cell></row>
+<row><cell type="position">316,15</cell><cell type="deviation">kjært! &lt; kjært</cell></row>
+<row><cell type="position">317,11</cell><cell type="deviation">Ende paa 1ste Deel &lt; 1ste Deel [tilføjelsen ses i trykforlæg, men er slettet]</cell></row>
+<row><cell type="position">320,20</cell><cell type="deviation">Min grønne Kofte &lt; Min Kofte [»grønne Trøie« er i trykforlægget slettet og rettet til »Kofte«, sandsynligvis fejlagtigt]</cell></row>
+<row><cell type="position">321,18</cell><cell type="deviation">Naa &lt; naa</cell></row>
+<row><cell type="position">323,7</cell><cell type="deviation">sige, &lt; sige.</cell></row>
+<row><cell type="position">323,8</cell><cell type="deviation">sidst. &lt; sidst</cell></row>
+<row><cell type="position">323,19</cell><cell type="deviation">Aften. &lt; Aften</cell></row>
+<row><cell type="position">324,4</cell><cell type="deviation">skee!« &lt; skee!</cell></row>
+<row><cell type="position">326,13</cell><cell type="deviation">lang. &lt; lang</cell></row>
+<row><cell type="position">327,7</cell><cell type="deviation">hvad jeg gjør &lt; hvad gjør</cell></row>
+<row><cell type="position">328,17</cell><cell type="deviation">Hat. &lt; Hat</cell></row>
+<row><cell type="position">329,8</cell><cell type="deviation">kjønt. &lt; kjønt</cell></row>
+<row><cell type="position">331,15</cell><cell type="deviation">smaat. &lt; smaat</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page"><app type="corrNote"><app><lem wit="HCAC">307</lem></app><rdg wit="SV">304</rdg></app></cell><cell><row xml:id="txtcmnt-307-01"><cell type="data-term">Løverdag(-Aften)</cell><cell type="data-definition">lørdag.</cell></row></cell>
+<cell type="page">307</cell><cell><row xml:id="txtcmnt-307-02"><cell type="data-term">Sennhytte</cell><cell type="data-definition">sæterhytte.</cell></row></cell>
+<cell type="page">309</cell><cell><row xml:id="txtcmnt-309-01"><cell type="data-term">ROSEL: Mathies!</cell><cell type="data-definition"><p rend="noIndent">efterfølges af følgende (overstregede) replikskifte:</p>
+<sp><speaker>MATHIES</speaker>
+<l rend="firstIndent">Du har mig!</l></sp><sp><speaker>ROSEL</speaker>
+<l rend="right">Min Ven!</l></sp></cell></row><row xml:id="txtcmnt-309-02"><cell type="data-term">alt</cell><cell type="data-definition">allerede.</cell></row></cell>
+<cell type="page">310</cell><cell><row xml:id="txtcmnt-310-01"><cell type="data-term">guldtresset Hat og Fjer</cell><cell type="data-definition">Mathies har måske udsigt til at blive områdets jægermester, hvis opgave det er at have opsyn med fyrstens jagtvæsen.</cell></row></cell>
+<cell type="page">311</cell><cell><row xml:id="txtcmnt-311-01"><cell type="data-term">lad saa være</cell><cell type="data-definition">det må så være.</cell></row><row xml:id="txtcmnt-311-02"><cell type="data-term">Hvad er der mødt</cell><cell type="data-definition">hvad er der tilstødt dig.</cell></row><row xml:id="txtcmnt-311-03"><cell type="data-term">Fiirtour</cell><cell type="data-definition">folkedans (turdans) i fire afdelinger.</cell></row><row xml:id="txtcmnt-311-04"><cell type="data-term">Men saa seer Dig der sidde – Gud veed</cell><cell type="data-definition">H.C. Andersen har rettet fra: »Men saa seer Dig sidde og fandt her Gud veed«; måske en forkert rettelse, da den for<pb n="632"/>styrrer metret.</cell></row></cell>
+<cell type="page">312</cell><cell><row xml:id="txtcmnt-312-01"><cell type="data-term">Den ringe Hytte … Hjertet hænger</cell><cell type="data-definition"><p rend="noIndent">i sufflørbogen har sangen to strofer, hvoraf strofe 2 er overstreget og lyder:</p>
+<l rend="firstIndent">At skilles fra det Hjem er altid svært,</l>
+<l rend="firstIndent">Selv Sorgerne kan gjøre det saa kjært.</l>
+<l rend="firstIndent">Min gamle Fader elsked’ dette Sted;</l>
+<l rend="firstIndent">Herfra gik han ind i Guds Evighed.</l>
+<l rend="firstIndent">»I Børn hold sammen smukt i Held og Nød.«</l>
+<l rend="firstIndent">Bad han og blandt os var han ikke længer!</l>
+<l rend="firstIndent">Saa helligt Stedet blev mig ved hans Død.</l>
+<l rend="firstIndent">Ved Barndomshjemmet hele Hjertet hænger.</l>
+<p rend="noIndent">Strofen ses også i et tidligere, ukomplet manuskript (Collinske samling 21, 4°, IV,6,4).</p></cell></row><row xml:id="txtcmnt-312-02"><cell type="data-term">langsommelig Tid</cell><cell type="data-definition">meget lang tid.</cell></row></cell>
+<cell type="page">314</cell><cell><row xml:id="txtcmnt-314-01"><cell type="data-term">For (Bøssen)</cell><cell type="data-definition">i stedet for.</cell></row><row xml:id="txtcmnt-314-02"><cell type="data-term">Kongen</cell><cell type="data-definition">den østrigske regent, idet Tyrol i nyere tid, med undtagelse af årene 1805-1814, har hørt under Østrig.</cell></row></cell>
+<cell type="page">315</cell><cell><row xml:id="txtcmnt-315-01"><cell type="data-term">Bataillon</cell><cell type="data-definition">hærafdeling, bestående af kompagnier og mindre end et regiment.</cell></row><row xml:id="txtcmnt-315-02"><cell type="data-term">to Farver … Blaae</cell><cell type="data-definition">siden 1760’erne har der i den østrigske hær været blå og hvide uniformer</cell></row></cell>
+<cell type="page">316</cell><cell><row xml:id="txtcmnt-316-01"><cell type="data-term">hjempermiteret</cell><cell type="data-definition">på orlov.</cell></row><row xml:id="txtcmnt-316-02"><cell type="data-term">om kort</cell><cell type="data-definition">om kort tid.</cell></row></cell>
+<cell type="page">320</cell><cell><row xml:id="txtcmnt-320-01"><cell type="data-term">Tornister</cell><cell type="data-definition">stiv, firkantet rygsæk til soldatens oppakning.</cell></row><row xml:id="txtcmnt-320-02"><cell type="data-term">gjennemhedes</cell><cell type="data-definition">efterfølges i trykforlægget af følgende (overstreget): Jeg er så løierlig – ængstes saa smaat! – / Jeg har det saa godt og dog ikke godt! / Der er over mig som en Troldenes Magt. / Det er som Bly var i Benene lagt, / Og Hjertet slaaer i den sædvanlige Takt. / Jeg veed det, – saasnart som hun nu træder frem, / Saa staaer jeg, kan ikke tælle til fem. / Rundtom er Alt, som i gamle Dage, / Og dog saa nyt, – nu jeg kommer tilbage!</cell></row><row xml:id="txtcmnt-320-03"><cell type="data-term">tager sig Tiden i rigtig Mag</cell><cell type="data-definition">tager sig virkelig god tid.</cell></row></cell>
+<cell type="page">321</cell><cell><row xml:id="txtcmnt-321-01"><cell type="data-term">Fru Godel … henne –?</cell><cell type="data-definition">er i trykforlægget understreget og efterfulgt af en slutparentes.</cell></row><row xml:id="txtcmnt-321-02"><cell type="data-term">Naa endelig! – /  hun lukker</cell><cell type="data-definition">trykforlægget har i disse to vers nogle sletninger, der forstyrrer metrum og rim. Den oprindelige tekst lyder: Skrub af, – naa endelig! – gaae Eders Vei! / See saa, hun lukker! hun kommer – Nei,</cell></row></cell>
+<cell type="page">322</cell><cell><row xml:id="txtcmnt-322-01"><cell type="data-term">Ven! /  Min Gud</cell><cell type="data-definition">trykforlægget har: Ven! / <hi rend="italic">(udenfor høres Mathies) /</hi> Min Gud. Regibemærkningen er overstreget, måske fejlagtigt.</cell></row><row xml:id="txtcmnt-322-02"><cell type="data-term">ROSEL: Mathies!</cell><cell type="data-definition"><p rend="noIndent">efterfølges i trykforlægget af følgende overstregede replikskifte:</p>
+<sp><speaker>MATHIES</speaker><l>Min <hi rend="italic">Rosel</hi>!</l></sp>
+<sp><speaker>ROSEL</speaker><l rend="center">Dig er det!</l></sp>
+<sp><speaker>MATHIES</speaker><l rend="right">Just mig!</l></sp>
+<sp><speaker>ROSEL</speaker><l>Det er vist Din Geist!</l>
+</sp>
+<pb n="633"/>
+<sp><speaker>MATHIES</speaker><l rend="right">Nei, jeg er hos Dig!</l></sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l>Ak, hvis Du forsvinder!</l></sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l rend="right">Her har du Din Ven!</l></sp>
+<sp>
+<speaker>ROSEL</speaker><l>Nå.<!--formentlig fejl for: Naa--> Gud være lovet, je<!--muligvis fejl for: jeg--> har Dig igjen.</l>
+</sp>
+<sp>
+<speaker>MATHIES</speaker>
+<l>Og ikke som Geist, – jeg er levende jeg!</l></sp>
+<sp>
+<speaker>ROSEL</speaker>
+<l>Jo det er Mathies! jo vist det er Dig!</l>
+<l>Saa ganske som før! – og den samme Maneer.</l></sp></cell></row></cell>
+<cell type="page">323</cell><cell><row xml:id="txtcmnt-323-01"><cell type="data-term">og har jo … bære mig –</cell><cell type="data-definition">sætningen er i trykforlægget understreget og sat i parentes.</cell></row><row xml:id="txtcmnt-323-02"><cell type="data-term">Mondering</cell><cell type="data-definition">mundering, udrustning.</cell></row></cell>
+<cell type="page">324</cell><cell><row xml:id="txtcmnt-324-01"><cell type="data-term">Marketenderpige</cell><cell type="data-definition">marketendersken sørger for soldaternes proviantering.</cell></row><row xml:id="txtcmnt-324-02"><cell type="data-term">Qvarteer</cell><cell type="data-definition">opholdssted for soldater.</cell></row></cell>
+<cell type="page">326</cell><cell><row xml:id="txtcmnt-326-01"><cell type="data-term">savnet Din Ven</cell><cell type="data-definition">efterfølges af følgende (overstreget): Hvor fandt Du vel Trøst, hvordan har Du lidt; Tænkt paa mig det har Du og bedet vist tidt.</cell></row></cell>
+<cell type="page">329</cell><cell><row xml:id="txtcmnt-329-01"><cell type="data-term">tør</cell><cell type="data-definition">må, bør.</cell></row></cell>
+<cell type="page">330</cell><cell><row xml:id="txtcmnt-330-01"><cell type="data-term">Musket</cell><cell type="data-definition">flintebøsse for fodfolk.</cell></row></cell>
+<cell type="page">331</cell><cell><row xml:id="txtcmnt-331-01"><cell type="data-term">deiligt Maaneskin!</cell><cell type="data-definition"><p rend="noIndent">slutstrofen efterfølges i trykforlægget af to overstregede strofer:</p>
+<lg><l>I Krigen kaldte man min Ven,</l><l>Men Freden gav mig ham igjen</l><l>Paa Bjerget i deiligt Maaneskin.</l></lg>
+<lg><l>En Løverdag var sorrigfuld.</l><l>En Løverdag gav Glædens Guld</l><l>Paa Bjerget i deiligt Maaneskin.</l></lg></cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

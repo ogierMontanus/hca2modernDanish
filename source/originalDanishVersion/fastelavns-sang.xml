@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fastelavns-Sang</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</licence>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<head type="section-comments">Fastelavns-Sang. 1823</head><p rend="noIndent">Først kendte tryk: lejlighedstryk ved tøndeslagningen fastelavnsmandag 1823 i Slagelse. BFN 7</p>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">7:<hi rend="italic"> Digte I 1823-1839</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fastelavns-sang" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Nordens Kraft er ei forsvunden</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>fastelavns-sang/#nordens-kraft-er-ei-forsvunden</section>
+                                                                 <date>1823</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1823</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-06-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-06-08" who="NHB">formatted</change><change who="NHB" when="2023-06-23" status="draft">gennemset indtil 10333: 
+               Hr. Mickel i Odense</change><change who="NHB" when="2023-06-25" status="draft">indsat sourceDate. Endnu ikke well-formet</change><change who="NHB" when="2023-06-25" status="draft">wellformet</change><change who="NHB" when="2023-06-25" status="draft">sourceDate og div struktur kontrolleret indtil Phantasier og Skizzer</change><change who="NHB" when="2023-10-27" status="draft">overordnet værkstruktur etableret i works</change><change who="NHB" when="2023-11-03" status="draft">citater m.v. kodet indtil s. 205. Mangler systematiske ændringer og manuelt gennemsyn fra og med 1823</change><change who="NHB" when="2023-11-07" status="draft">indtil s. 315</change><change who="NHB" when="2023-11-08" status="draft">til s. 333</change><change who="NHB" when="2023-11-13" status="draft">autoindsat subtype=firstline</change><change who="NHB" when="2023-11-13" status="draft">gennemset struktur i kommentarer indtil side 178</change><change who="NHB" when="2023-11-17" status="draft">struktur indtil 474</change><change who="NHB" when="2023-11-19" status="draft">gennemset opmærkning indtil s. 66</change><change who="NHB" when="2023-11-24" status="draft">indtil s. 92</change><change who="NHB" when="2023-11-28" status="draft">gennemset indtil s. 344</change><change who="NHB" when="2023-11-30" status="draft">indtil Februar, s. 378</change><change who="NHB" when="2023-12-02" status="draft">til s. 436</change><change who="NHB" when="2023-12-21" status="draft">indsat seg comStart</change><change who="NHB" when="2024-06-14" status="draft">batch changes rend attributes for elements l and stage with stylesheet: resetRendAttributeLetAl.xsl</change>
+                                        <change who="NHB" when="2024-09-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Fastelavns-Sang" xml:id="fastelavns-sang">
+<pb n="46"/>
+<head type="main">Fastelavns-Sang</head>
+<head type="sub">1823</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-046-01"><!--DATA-TERM: Druen voxer … etc.--><!--DATA-DEFINITION: drikkevise fra 2. akt af E. de Falsens populære syngespil <i>Dragedukken</i>, 1797, med melodi af F. Kunzen.-->Druen voxer paa vor Klode etc.</seg></hi></head>
+<lg xml:id="p_00002">
+<l rend="noIndent" subtype="firstline" corresp="Nordens Kraft er ei forsvunden" rendition="nordens-kraft-er-ei-forsvunden">Nordens Kraft er ei forsvunden,</l>
+<l rend="firstIndent">Det har vi beviist i Dag. –</l>
+<l rend="noIndent">Tønden brast og ud faldt Bunden.</l>
+<l rend="firstIndent">For vor’ <seg target="txtcmnt-046-02"><!--DATA-TERM: diærve--><!--DATA-DEFINITION: kraftige, stærke.-->diærve</seg> Helteslag.</l>
+<l rend="secondIndent">:|: Vi med <seg target="txtcmnt-046-03"><!--DATA-TERM: Laurbær krones--><!--DATA-DEFINITION: symbol på hæder og ros.-->Laurbær krones</seg> bør,</l>
+<l rend="secondIndent">Siig hvem andet sige tør! :|:</l></lg>
+<lg xml:id="p_00003">
+<l rend="noIndent">Efter Kampen maae man drikke,</l>
+<l rend="firstIndent">Saadan lyder <seg target="txtcmnt-046-04"><!--DATA-TERM: Bacchi--><!--DATA-DEFINITION: (latin) Bacchus’, den romerske vingud.-->Bacchi</seg> Bud,</l>
+<l rend="noIndent"><seg target="txtcmnt-046-05"><!--DATA-TERM: Stymper--><!--DATA-DEFINITION: ussel, sølle person.-->Stymper</seg>: den som gjør det ikke,</l>
+<l rend="firstIndent">Lyde bør man Vinens Gud!</l>
+<l rend="secondIndent">:|: Derfor drik til Glassets Bund,</l>
+<l rend="secondIndent">Vi har jo en vigtig Grund. :|:</l></lg>
+<lg xml:id="p_00004">
+<l rend="noIndent">Syden har ei bedre Glæder,</l>
+<l rend="firstIndent">End det raske kjære Nord;</l>
+<l rend="noIndent">Venskabs-Blomst vi ei nedtræder,</l>
+<l rend="firstIndent">Her den trives <seg target="txtcmnt-046-06"><!--DATA-TERM: bedst paa Jord--><!--DATA-DEFINITION: bedre end andre steder.-->bedst paa Jord</seg>!</l>
+<l rend="secondIndent">:|: Og med vores Fastelavn</l>
+<l rend="secondIndent">Glemmes Carnevalets Savn. :|:</l></lg>
+<lg xml:id="p_00005">
+<l rend="noIndent">Masker der de da <seg target="txtcmnt-046-07"><!--DATA-TERM: mon bære--><!--DATA-DEFINITION: bærer.-->mon bære</seg>,</l>
+<l rend="firstIndent">– Maske kjender Dansken ei! –</l>
+<l rend="noIndent">Aabent, stolt af Dannerære</l>
+<l rend="firstIndent">Gaaer han frem den lige Vei.</l>
+<l rend="secondIndent">:|: Aaben ud i Krig og Fred</l>
+<l rend="secondIndent">Skjul fandt aldrig hos ham Sted. :|:</l></lg>
+<lg xml:id="p_00006">
+<l rend="noIndent">Nu forsømme maae vi ikke;</l>
+<l rend="firstIndent">Da det er vort Carneval,</l>
+<l rend="noIndent">Nu at <seg target="txtcmnt-046-08"><!--DATA-TERM: spadse--><!--DATA-DEFINITION: lave spas, sjov; more sig.-->spadse</seg>, synge, drikke,</l>
+<l rend="firstIndent">Glemme Verdens Sorg og Qval.</l>
+<pb n="47"/>
+<l rend="secondIndent">:|: Og i munter Vennelag.</l>
+<l rend="secondIndent">Nyde denne glade Dag. :|:</l></lg>
+<lg xml:id="p_00007">
+<l rend="noIndent">Kommer da og lad os drikke;</l>
+<l rend="firstIndent">Hurra! Carneval det er!</l>
+<l rend="noIndent">Mismodsrynker lides ikke!</l>
+<l rend="firstIndent">Munter Skjæmt tag Sæde her!</l>
+<l rend="secondIndent">:|: Kommer drik af <seg target="txtcmnt-047-01"><!--DATA-TERM: bredfuldt Maal--><!--DATA-DEFINITION: bæger fyldt til randen.-->bredfuldt Maal</seg>,</l>
+<l rend="secondIndent">Enigheds og Venskabs Skaal. :|:</l></lg>
+<pb n="48"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Fastelavns-Sang. 1823" synch="fastelavns-sang-1823">
+<argument type="sourceData">
+<head type="section-comments">Fastelavns-Sang. 1823</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk ved tøndeslagningen fastelavnsmandag 1823 i Slagelse. BFN 7</p></argument>
+<table rend="textcomments">
+<cell type="page">46</cell><row xml:id="txtcmnt-046-01"><cell type="data-term">Druen voxer … etc.</cell><cell type="data-definition">drikkevise fra 2. akt af E. de Falsens populære syngespil <hi rend="italic">Dragedukken</hi>, 1797, med melodi af F. Kunzen.</cell></row><row xml:id="txtcmnt-046-02"><cell type="data-term">diærve</cell><cell type="data-definition">kraftige, stærke.</cell></row><row xml:id="txtcmnt-046-03"><cell type="data-term">Laurbær krones</cell><cell type="data-definition">symbol på hæder og ros.</cell></row><row xml:id="txtcmnt-046-04"><cell type="data-term">Bacchi</cell><cell type="data-definition">(latin) Bacchus’, den romerske vingud.</cell></row><row xml:id="txtcmnt-046-05"><cell type="data-term">Stymper</cell><cell type="data-definition">ussel, sølle person.</cell></row><row xml:id="txtcmnt-046-06"><cell type="data-term">bedst paa Jord</cell><cell type="data-definition">bedre end andre steder.</cell></row><row xml:id="txtcmnt-046-07"><cell type="data-term">mon bære</cell><cell type="data-definition">bærer.</cell></row><row xml:id="txtcmnt-046-08"><cell type="data-term">spadse</cell><cell type="data-definition">lave spas, sjov; more sig.</cell></row>
+<cell type="page">47</cell><row xml:id="txtcmnt-047-01"><cell type="data-term">bredfuldt Maal</cell><cell type="data-definition">bæger fyldt til randen.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

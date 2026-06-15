@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fornuftgiftermaalet Nr. 2</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fornuftgiftermaalet-nr-2" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1831</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Fornuftgiftermaalet Nr. 2" xml:id="fornuftgiftermaalet-nr-2">
+<div type="source"><source>Fra</source> <sourceTitle>Valkyrien</sourceTitle>
+<sourceDate>1831</sourceDate>
+</div>
+<pb n="280"/>
+<head type="part"><seg target="txtcmnt-280-01"><!--DATA-TERM: Fornuftgiftermaalet Nr. 2--><!--DATA-DEFINITION: jf. E. Scribes (1791-1861) lystspil i 3 akter <i>Le mariage de raison</i>, 1826, oversat til dansk af Johanne Elisa Thomsen (1807-1873) med titlen <i>Fornuftgiftermaalet</i>; opført første gang på Det Kgl. Teater i 1829.-->Fornuftgiftermaalet Nr. 2</seg></head>
+<head type="sub">En dramatisk Drøm paa Skagens Rev</head>
+<cit>
+<lg xml:id="p_00611">
+<quote><l rend="noIndent">»<seg target="txtcmnt-280-02"><!--DATA-TERM: Gud veed … fornærme--><!--DATA-DEFINITION: fra H.C. Andersens digt »Avis aux lectrices«, trykt i <i>Kjøbenhavns flyvende Post</i>, nr. 38, 29. marts 1830 (BFN 80).-->Gud veed, jeg vil jo ei en Sjæl fornærme</seg>.«</l></quote>
+<bibl><l rend="right"><hi rend="italic">Avis aux lectrices</hi></l></bibl>
+</lg>
+</cit>
+<p rend="noIndent" xml:id="p_00612">Min Læser, har Du nogensinde været paa Skagen? Seet hvor Bølgerne brydes mod den nøgne Tange, hvor de sorte Vrag titte frem i det hvide Sand, hvor Klitterne reise sig som Bjerge og hvor Qviksandet truer at opsluge den Uforsigtige, der vover sig ud paa det. Her er det min Læser jeg fører Dig hen, har Du før været her? – Jeg har ikke, men det er en Hemmelighed, som jeg jo nok tør betroe Dig, Du taler ikke derom.</p>
+<p rend="firstIndent" xml:id="p_00613">– Vognen kjørte langsomt i det dybe Sand, der undertiden naaede op til Axelen, den eensformige Skuren, den stille Nat, Alt virkede paa mig og mit Reiseselskab, og før vi vidste af det, gjorde Søvnen os alle til blinde Passagerer. Jeg begyndte at drømme – en Masse af Tragedier og Comedier, jeg havde læst og seet, gik underligt over i et heelt nyt Stykke, som min Phantasie spillede for mig midt i Skagens Sandørken. Alt hvad der blev talt var Citater af bekjendte Arbeider, og de fleste handlende Personer vare ogsaa Figurer, udsprungne fra disse.</p>
+<p rend="firstIndent" xml:id="p_00614"><hi rend="italic">Fornuftgiftermaalet Nr. 2</hi>, troer jeg man kunde kalde dette <seg target="txtcmnt-280-03"><!--DATA-TERM: borgerlige Phantasiestykke--><!--DATA-DEFINITION: i 1700-tallet afløste det borgerlige, ofte opbyggelige drama klassicismens heroiserende og underholdende hofteater.-->borgerlige Phantasiestykke</seg> uden Phantasie.</p>
+<p rend="firstIndent" xml:id="p_00615"><seg target="txtcmnt-280-04"><!--DATA-TERM: Cora--><!--DATA-DEFINITION: <i>Cora och Alonzo</i>, opera i 3 akter af J.G. Naumann (1741-1801) med tekst af G.G. Adlerbeth (1751-1818), oversat af Th. Thaarup (1749-1821) med titlen <i>Cora</i>; opført første gang på Det Kgl. Teater i 1788. Odense Stadsarkiv har ingen oplysninger om, at stykket skulle være opført på Odense Teater i H.C. Andersens barndomsår. I personlisten beskrives titelpersonen Cora som en »Jomfru af kongelig Byrd, bestemt til Solens Præstinde«.--><hi rend="italic">Cora</hi></seg>, den gamle Solenspræstinde, hvis Bekjendtskab jeg, alt som Dreng, havde gjort paa Theatret i Odense, og <seg target="txtcmnt-280-05"><!--DATA-TERM: Abelino--><!--DATA-DEFINITION: <i>Abällino, der große Bandit</i>, roman 1793, sørgespil i 5 akter 1795 af J.H. Zschokke (1771-1848), oversat af N.T. Bruun (1778-1823) med titlen <i>Abellino, eller Den store Bandit</i>; delvist opført på Det Kgl. Teater (2 akter) i 1816, tillige opført på Odense Teater i den tyske teaterdirektør Görbing Francks tid, 1809-1822; stykket er tilsyneladende ikke opført på de større norske scener eller udkommet i bogform i Norge omkring 1830.--><hi rend="italic">Abelino</hi></seg>, den saakaldte große Bandit, der nu <seg target="txtcmnt-280-06"><!--DATA-TERM: subscribere(s)--><!--DATA-DEFINITION: abonnere.-->subscriberes</seg> paa i Norge, traadte op i ægteskabelig Forening; de havde et Slags <seg target="txtcmnt-280-07"><!--DATA-TERM: Institut--><!--DATA-DEFINITION: undervisnings- eller opdragelsesanstalt.-->Institut</seg>, hvori en heel Deel dramatiske Personer, hvilke de betragtede som deres Børn, bleve opdragne.</p>
+<p rend="firstIndent" xml:id="p_00616"><hi rend="italic">Poesie</hi> var deres Datter, men vor Herre maa vide, hvor de havde faaet hende fra; det var vist et adopteret Barn, thi det var aldeles ikke Kjød af deres Kjød og Been af deres Been. Det arme Pigebarn elskede inderligt <hi rend="italic">den gode Smag</hi>, en fattig <seg target="txtcmnt-280-08"><!--DATA-TERM: vandrende Ridder--><!--DATA-DEFINITION: i middelalderlige ridderromaner en ridder på jagt efter eventyr og efter at bevise sin ridderlighed.-->vandrende Ridder</seg>, men Pleieforældrene, der tænkte paa hendes Lykke, paa det Solide i Verden, bestemte hende en anden Brudgom: <hi rend="italic">Publicum</hi>, hvis Familie de skyldte megen <seg target="txtcmnt-280-09"><!--DATA-TERM: Forbindtlighed--><!--DATA-DEFINITION: taknemlighed, venlighed.-->Forbindtlighed</seg> fra deres egne unge Dage.</p>
+<pb n="281"/>
+<p rend="firstIndent" xml:id="p_00617">Hvordan jeg nu drømte og ikke drømte, nok, det syntes mig at Scenen foregik Juleaften.</p>
+<p rend="firstIndent" xml:id="p_00618"><hi rend="italic">Poesien</hi>, et deiligt ungdomsblomstrende Pigebarn traadte op og skildrede i smukke Citater af <seg target="txtcmnt-281-01"><!--DATA-TERM: Göthe(s)--><!--DATA-DEFINITION: Johann Wolfgang von Goethe (1749-1832), tysk digter.--><hi rend="italic">Göthes</hi></seg> og <seg target="txtcmnt-281-02"><!--DATA-TERM: Calderon(s)--><!--DATA-DEFINITION: Pedro Calderón de la Barca (1600-1681), spansk dramatiker.--><hi rend="italic">Calderons</hi></seg> Skrifter sin Kjærlighed til <hi rend="italic">den gode Smag</hi> og sin Ulykke over, at hun skulde skjænkes til <hi rend="italic">Publicum</hi>. »Det bliver min Død,« sagde hun, og sang med Hjertets hele Veemod: »<seg target="txtcmnt-281-03"><!--DATA-TERM: Du Heilige … zurück--><!--DATA-DEFINITION: fra anden strofe af Friedrich von Schillers (1759-1805) digt »Des Mädchens Klage«, trykt første gang i <i>Musenalmanach für 1799</i>, indgår siden i anden del af dramatrilogien <i>Wallenstein</i>, 1800. I Adam Oehlenschlägers (1779-1850) oversættelse, »Dybt Skoven bruser«, som indgår i det indledende optrin af »Sanct Hans Aften-Spil« i <i>Digte</i>, 1803, lyder verset: »Du Hellige! kald da dit Barn til dit Bryst«. C.E.F. Weyses (1774-1842) melodi (<i>Teklas Gesang aus Schillers Wallenstein</i>, 1801) gjorde romancen populær.-->Du Heilige, rufe dein Kind zurück</seg>!«</p>
+<p rend="firstIndent" xml:id="p_00619">Da traadte <hi rend="italic">Abelino</hi> og <hi rend="italic">Cora</hi> op, men ikke i deres Ungdoms phantastiske Dragt, nei, de vare jo ogsaa nu blevne ældre og satte Folk; det var Holbergs <seg target="txtcmnt-281-04"><!--DATA-TERM: Jeronimus og Magdelone--><!--DATA-DEFINITION: faste typer, begge ældre folk, i flere af Ludvig Holbergs (1684-1754) komedier, hvor Jeronimus repræsenterer bl.a. konservativ, borgerlig snusfornuft, Magdelone forlystelsessyge eller komisk elskovslængsel, jf. <i>Juele-Stue</i>, 1724.--><hi rend="italic">Jeronimus</hi> og <hi rend="italic">Magdelone</hi></seg>, der svævede for mit Øie. Nu fulgte en Scene, som jeg kjendte af hundrede gamle og nye Stykker, hvori Forældrene talte Beilerens (Publicums) Sag, men <hi rend="italic">Poesien</hi> blev <hi rend="italic">den gode Smag</hi> tro og bad dem ikke give hende til den visse Død.</p>
+<p rend="firstIndent" xml:id="p_00620">Da spillede <hi rend="italic">Abelino</hi> <seg target="txtcmnt-281-05"><!--DATA-TERM: den ædle Oberst i Fornuftgiftermaalet--><!--DATA-DEFINITION: general, Grev von Saalheim, en af de centrale personer i E. Scribes <i>Le mariage de raison</i>, 1826.-->den ædle Oberst i <hi rend="italic">Fornuftgiftermaalet</hi></seg> (Nr. 1), lod hende høre alt det Gode, hun havde nydt her, talte om Taknemmelighed og Nødvendighed, og for nu ret at sætte en Trumf paa, blev han atter Jeronimus og svoer: »Tager Du ikke Publicum, saa bliver der ingen Julestue i Aften!«</p>
+<p rend="firstIndent" xml:id="p_00621">Da brast <hi rend="italic">Cora</hi> i Graad: »Ingen Julestue! ak! ak! jeg elendige Menneske!«</p>
+<p rend="firstIndent" xml:id="p_00622">Men <hi rend="italic">Abelino</hi> stod fast, thi <hi rend="italic">Poesie</hi> lod sig ikke skræmme ved at miste Julestuen. <hi rend="italic">Cora</hi> tog imidlertid Mod til sig, vovede at modsige Fatter og Resultatet, Spændescenen i Stykket, blev nu: der skulde være Julestue, og hvis da det unge Pigebarn, naar Skolemesteren begyndte Examinationen og viiste hvad <seg target="txtcmnt-281-06"><!--DATA-TERM: artigt--><!--DATA-DEFINITION: dannet; jf. Ludvig Holberg <i>Juele-Stue</i>, 1724 (11. scene).-->artigt</seg> Børnene havde lært til den Fest, fortjente <seg target="txtcmnt-281-07"><!--DATA-TERM: Ug … Tg med Spørgs--><!--DATA-DEFINITION: efter den daværende karakterskala henholdsvis den højeste (Udmærket Godt) og en meget lav karakter (Temmelig Godt med spørgsmålstegn, dvs. Tg÷, en karakter under Tg).--><hi rend="italic">Ug</hi>, skulde hun faae <hi rend="italic">den gode Smag</hi> til Flids-Belønning, men fik hun <hi rend="italic">Tg</hi> med Spørgs</seg>, skulde hun, uden Naade og Barmhjertighed, overgives til Publicum.</p>
+<p rend="firstIndent" xml:id="p_00623">Gud, hvor jeg blev bange for det arme Barn! bare hun har <seg target="txtcmnt-281-08"><!--DATA-TERM: læst over--><!--DATA-DEFINITION: læst sine lektier.-->læst over</seg>, tænkte jeg; hun er bestemt ikke stiv i <seg target="txtcmnt-281-09"><!--DATA-TERM: Reguladetri--><!--DATA-DEFINITION: kortform af regula proportionum de tribus, (latin) regel om proportioner ud fra de tre; regneregel, der muliggør at bestemme den fjerde (ubekendte) størrelse i en proportion, når man kender de tre øvrige; jf. eksaminationen af skolepigen Trine Rar i J.L. Heibergs (1791-1860) vaudeville <i>Aprilsnarrene eller Intrigen i Skolen</i>, I,14, opført første gang på Det Kgl. Teater i 1826.-->Reguladetri</seg> og Hovedregning. Jeg følte en dyb Foragt for <hi rend="italic">Cora</hi> og der große <hi rend="italic">Abelino</hi>, at de kunde lade en ussel Examen afgjøre et Menneskes Lykke.</p>
+<p rend="firstIndent" xml:id="p_00624">Nu aabnede Scenen sig igjen, <hi rend="italic">Abelino</hi> kom, som <hi rend="italic">Jeronimus</hi>, med en stor Kurv <seg target="txtcmnt-281-10" type="dfnStart"/><seg target="txtcmnt-281-11"><!--DATA-TERM: Dukketøi--><!--DATA-DEFINITION: legetøj.-->Dukketøi</seg> og begyndte, men noget forandret, dennes bekjendte Monolog; thi som jeg før har sagt: Børnene vare store dramatiske Personer af bekjendte Stykker. Hele denne Scene prægede sig dybt i min Hukommelse, da jeg forud kjendte den næsten udenad fra Holberg, hvor man kan sammenligne den med dette.</p>
+<pb n="282"/>
+<floatingText type="drama">
+<!--NHB 2023-09-25: Abelinos first speech-->
+<sp>
+<p rend="firstIndent" xml:id="p_00625">»Det er,« begyndte han, »en Kunst at dele Gaver ud iblandt Børn, saa at alle kunne blive fornøiede. Vognen, hvem skal jeg give den? den vil jeg give til Weyses <seg target="txtcmnt-282-01"><!--DATA-TERM: Floribella--><!--DATA-DEFINITION: lyrisk romantisk drama i 3 akter af C.J. Boye (1791-1853), musik af C.E.F. Weyse; opført første gang på Det Kgl. Teater i 1825, sidste gang 30. marts 1827 (i alt 9 gange).--><hi rend="italic">Floribella</hi></seg>, for hun gaaer aldrig. <seg target="txtcmnt-282-02"><!--DATA-TERM: Oberon--><!--DATA-DEFINITION: Oberon, alfernes konge, titelperson i J.R. Planchés (1796-1880) romantiske trylleopera <i>Oberon</i> i 3 akter fra 1826 med musik af Carl Maria von Weber (1786-1826), oversat af Adam Oehlenschläger og opført første gang på Det Kgl. Teater den 31. januar 1831.--><hi rend="italic">Oberon</hi></seg> skal have Violinen, thi jeg troer han ikke kan leve uden Musik. <seg target="txtcmnt-282-03"><!--DATA-TERM: Trine Rar--><!--DATA-DEFINITION: skolepige i J.L. Heibergs vaudeville <i>Aprilsnarrene eller Intrigen i Skolen</i>, 1826.--><hi rend="italic">Trine Rar</hi></seg> skal have Vuggen med Barnet udi; thi <seg target="txtcmnt-282-04"><!--DATA-TERM: det første--><!--DATA-DEFINITION: så snart.-->det første</seg> Piger blive saa gamle at de kunne tale, saa tænke de paa Giftermaal og Vugge; <seg target="txtcmnt-282-05"><!--DATA-TERM: Gaza Ladra … Piben--><!--DATA-DEFINITION: <i>La gazza ladra</i>, opera af den italienske komponist Gioacchino Rossini (1792-1868) fra 1817, oversat af N.T. Bruun og opført første gang på Det Kgl. Teater i 1824 med titlen <i>Skaden eller Uskylds Sejr</i>. Operaen blev ved førsteopførelsen pebet ud.--><hi rend="italic">Gaza Ladra</hi>, Du skal lade Dig nøie med Piben</seg>! – Ei! jeg havde nær glemt lille <seg target="txtcmnt-282-06"><!--DATA-TERM: Jocko--><!--DATA-DEFINITION: <i>Danina eller Jocko, den brasilianske Abe</i>, ballet i 3 akter efter F. Taglionis (1777-1871) program af P. Larcher (1801-1847), musik af P.J. von Lindpaitner (1791-1856); opført første gang på Det Kgl. Teater i 1829. Titlen kan tillige henvise til pantomimen <i>Jocko, eller: Den brasilianske Abe. Heroisk-comisk Pantomime</i>, der opførtes første gang i 1828 på Morskabsteatret på Vesterbro.--><hi rend="italic">Jocko</hi></seg>, han skal have Dingeldangen med Bjelderne paa; men der seer jeg dem komme med Skolemesteren<seg target="txtcmnt-281-10" type="dfnEnd"/>.«</p>
+<stage rend="firstIndent"><hi rend="italic">(De komme Par for Par med Skolemesteren, der slutter Troppen.)</hi></stage></sp>
+<sp>
+<speaker>SKOLEMESTEREN</speaker>
+<p rend="noIndent" xml:id="p_00626">»<seg target="txtcmnt-282-07"><!--DATA-TERM: Vort Uhelds fæle Sky … o. s. v.--><!--DATA-DEFINITION: jf. Ludvig Holberg <i>Juele-Stue</i>, 1724 (12. scene).-->Vort Uhelds fæle Sky, bort sorte vinged Taage o. s. v.</seg>«</p>
+</sp>
+<sp>
+<speaker>ABELINO <stage><hi rend="italic">(tager sig til Hatten.)</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00627">»Han skal have Tak Skolemester, det var et deiligt Vers! – Men hvad artigt har Børnene lært til denne Fest? Forgangen Aar vidste de saa mange artige <seg target="txtcmnt-282-08"><!--DATA-TERM: Sprikworter--><!--DATA-DEFINITION: (tysk) ordsprog.-->Sprikworter</seg>, kan de ogsaa nogen i Aar?«</p>
+</sp>
+<sp>
+<speaker>SKOLEMESTEREN</speaker>
+<p rend="noIndent" xml:id="p_00628">»Ja de kan, vil Fatter høre Sprikworter eller Spørgsmaal?«</p>
+</sp>
+<sp>
+<speaker>ABELINO</speaker>
+<p rend="noIndent" xml:id="p_00629">»Begge ere gode! lad Grev <hi rend="italic">Essex</hi> komme ind, at han kan høre paa, hvordan smaae Børn kan gjøre ham til Skamme.«</p>
+</sp>
+<stage rend="firstIndent"><hi rend="italic">(<seg target="txtcmnt-282-11">Pernille</seg> springer efter Grev</hi> Essex<hi rend="italic">, der kommer ind og staaer med foldede Hænder og hører derpaa.)</hi></stage>
+<sp>
+<speaker>ABELINO</speaker>
+<p rend="noIndent" xml:id="p_00630">»Skolemester, spørg først Grev <hi rend="italic">Essex</hi>, og lad siden een af Børnene <seg target="txtcmnt-282-10">beskjæmme</seg> ham!«</p>
+</sp>
+<sp>
+<speaker>SKOLEMESTEREN</speaker>
+<p rend="noIndent" xml:id="p_00631">»Essex! hvem regjerede i Danmark paa din egen Tid?«</p>
+</sp>
+<sp>
+<speaker><seg target="txtcmnt-282-09"><!--DATA-TERM: Grev Essex--><!--DATA-DEFINITION: <i>Greven af Essex</i>, heroisk-tragisk drama i fem akter af C.J. Lange (1785-1850), opført første gang på Det Kgl. Teater i 1829. Stykket blev en fiasko, opførtes kun 2 gang, og førte til den såkaldte »Essexfejde«, hvor forfatteren i tidsskrifter og aviser stædigt forsøgte at forsvare sit stykke.-->GREV ESSEX</seg> <stage><hi rend="italic">(flaaende sig i Hovedet.)</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00632">»Det var en – – – Julebuk.«</p>
+</sp>
+<sp>
+<speaker>ABELINO</speaker>
+<p rend="noIndent" xml:id="p_00633">»Den Julebuk ligger ham endnu i Hovedet.«</p>
+</sp>
+<pb n="283"/>
+<sp>
+<speaker>SKOLEMESTEREN</speaker>
+<p rend="noIndent" xml:id="p_00634">»<seg target="txtcmnt-283-01"><!--DATA-TERM: Deodata--><!--DATA-DEFINITION: <i>Das Gespenst</i>, romantisk skuespil i 4 akter af August von Kotzebue (1761-1819), oversat af N.T. Bruun og opført første gang på Det Kgl. Teater i 1817 med titlen <i>Deodata eller Giengangersken</i>.-->Deodata</seg>, Floribella, Oberon, <hi rend="italic">Gaza Ladra</hi>, Jocko! hvem regjerede i Danmark paa Grev Essex’ Tid?«</p>
+</sp>
+<sp>
+<speaker>TUTI</speaker>
+<p rend="noIndent" xml:id="p_00635">»Det var <seg target="txtcmnt-283-02"><!--DATA-TERM: Christian den Fjerde--><!--DATA-DEFINITION: Christian 4. (1577-1648), konge af Danmark og Norge fra 1596.-->Christian den Fjerde</seg>.«</p>
+</sp>
+<sp>
+<speaker>ABELINO <stage><hi rend="italic">(til Grev Essex.)</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00636">»Fy Dig an, Du lange Slyngel! de kan læse for Dig.«</p>
+</sp>
+<sp>
+<speaker>SKOLEMESTEREN</speaker>
+<p rend="noIndent" xml:id="p_00637">»<hi rend="italic">Essex</hi>! hvad for en Landsmand var <seg target="txtcmnt-283-03"><!--DATA-TERM: Shakspear--><!--DATA-DEFINITION: William Shakespeare (1564-1616), engelsk digter.--><hi rend="italic">Shakspear</hi></seg>?«</p>
+</sp>
+<sp>
+<speaker>GREV ESSEX</speaker>
+<p rend="noIndent" xml:id="p_00638">»<seg target="txtcmnt-283-04"><!--DATA-TERM: Sølling--><!--DATA-DEFINITION: P.N. Sølling (1758-1827), dansk søofficer; opstillede 1819 med kongens tilladelse en 200-pundig bombe indrettet til sparebøsse på skippernes lavshus og fik derved indsamlet midler til oprettelsen af »Bombebøssen«, en stiftelse for gamle trængende søfolk, beliggende på hjørnet af Sqvaldergaarden og Dybensgade {E4}.--><hi rend="italic">Sølling</hi></seg> har stiftet Bombebøssen.«</p>
+</sp>
+<sp>
+<speaker>ABELINO</speaker>
+<p rend="noIndent" xml:id="p_00639">»Hør Børn, peger Fingre af Grev <hi rend="italic">Essex</hi>!«</p>
+</sp>
+<sp>
+<speaker>BØRNENE</speaker>
+<p rend="noIndent" xml:id="p_00640">»Æ! æ! æ!«</p>
+</sp>
+</floatingText>
+<p rend="noIndent" xml:id="p_00641">Den arme Grev <hi rend="italic">Essex</hi>! det gjorde mig ganske ondt for ham; men nu gik Examinationen over til den kjære <hi rend="italic">Poesie</hi>; det var Scenen af <hi rend="italic">Aprilsnarrene</hi> man her kom ind i.</p>
+<p rend="firstIndent" xml:id="p_00642">»<seg target="txtcmnt-283-05" type="dfnStart"><!--DATA-TERM: Det er saamæn … Ting--><!--DATA-DEFINITION: jf. J.L. Heiberg <i>Aprilsnarrene eller Intrigen i Skolen</i>, I,14, 1826.--></seg>Det er saamæn,« sagde <hi rend="italic">Cora</hi>, »en svær Byrde at opdrage et saadant Pigebarn, og et stort Ansvar for Gud og Mennesker.«</p>
+<p rend="firstIndent" xml:id="p_00643">»Mamsellen var <seg target="txtcmnt-283-06">mycket bra</seg> i sine Ting<seg target="txtcmnt-283-05" type="dfnEnd"><!--DATA-TERM: Det er saamæn … Ting--><!--DATA-DEFINITION: jf. J.L. Heiberg <i>Aprilsnarrene eller Intrigen i Skolen</i>, I,14, 1826.--></seg>«; men tænkte jeg det ikke nok, Reguladetri og Hovedregning stødte hende fra Characteren, Abelino var stræng og – – ja saa vaagnede jeg og kjørte endnu i Sandet, men det var ligesaadan for mig, som jeg nok vidste, at hun fik Publicum og det skjar mig i mit Hjerte; der kom nu ogsaa en stakkels bleg Mand, der gik og æltede i det dybe Sand, han bad om at kjøre med – hvem var han? – Ja det veed jeg ikke, men jeg sad og tænkte paa <hi rend="italic">den gode Smag</hi>.</p>
+<pb n="284"/>
+<pb n="285"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Fornuftgiftermaalet Nr. 2. En dramatisk Drøm paa Skagens Rev" synch="fornuftgiftermaalet-nr-2-en-dramatisk-droem-paa-skagens-rev">
+<head type="section-comments">Fornuftgiftermaalet Nr. 2. En dramatisk Drøm paa Skagens Rev</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Valkyrien. Et Maanedsskrift for dannede Læsere</hi>, bind 3, december 1831. BFN 170</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">283,26</cell><cell type="deviation">stakkels &lt; stakkes</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">280</cell><cell><row xml:id="txtcmnt-280-01"><cell type="data-term">Fornuftgiftermaalet Nr. 2</cell><cell type="data-definition">jf. E. Scribes (1791-1861) lystspil i 3 akter <hi rend="italic">Le mariage de raison</hi>, 1826, oversat til dansk af Johanne Elisa Thomsen (1807-1873) med titlen <hi rend="italic">Fornuftgiftermaalet</hi>; opført første gang på Det Kgl. Teater i 1829.</cell></row><row xml:id="txtcmnt-280-02"><cell type="data-term">Gud veed … fornærme</cell><cell type="data-definition">fra H.C. Andersens digt »Avis aux lectrices«, trykt i <hi rend="italic">Kjøbenhavns flyvende <pb n="645"/>Post</hi>, nr. 38, 29. marts 1830 (BFN 80).</cell></row><row xml:id="txtcmnt-280-03"><cell type="data-term">borgerlige Phantasiestykke</cell><cell type="data-definition">i 1700-tallet afløste det borgerlige, ofte opbyggelige drama klassicismens heroiserende og underholdende hofteater.</cell></row><row xml:id="txtcmnt-280-04"><cell type="data-term">Cora</cell><cell type="data-definition"><hi rend="italic">Cora och Alonzo</hi>, opera i 3 akter af J.G. Naumann (1741-1801) med tekst af G.G. Adlerbeth (1751-1818), oversat af Th. Thaarup (1749-1821) med titlen <hi rend="italic">Cora</hi>; opført første gang på Det Kgl. Teater i 1788. Odense Stadsarkiv har ingen oplysninger om, at stykket skulle være opført på Odense Teater i H.C. Andersens barndomsår. I personlisten beskrives titelpersonen Cora som en »Jomfru af kongelig Byrd, bestemt til Solens Præstinde«.</cell></row><row xml:id="txtcmnt-280-05"><cell type="data-term">Abelino</cell><cell type="data-definition"><hi rend="italic">Abällino, der große Bandit</hi>, roman 1793, sørgespil i 5 akter 1795 af J.H. Zschokke (1771-1848), oversat af N.T. Bruun (1778-1823) med titlen <hi rend="italic">Abellino, eller Den store Bandit</hi>; delvist opført på Det Kgl. Teater (2 akter) i 1816, tillige opført på Odense Teater i den tyske teaterdirektør Görbing Francks tid, 1809-1822; stykket er tilsyneladende ikke opført på de større norske scener eller udkommet i bogform i Norge omkring 1830.</cell></row><row xml:id="txtcmnt-280-06"><cell type="data-term">subscribere(s)</cell><cell type="data-definition">abonnere.</cell></row><row xml:id="txtcmnt-280-07"><cell type="data-term">Institut</cell><cell type="data-definition">undervisnings- eller opdragelsesanstalt.</cell></row><row xml:id="txtcmnt-280-08"><cell type="data-term">vandrende Ridder</cell><cell type="data-definition">i middelalderlige ridderromaner en ridder på jagt efter eventyr og efter at bevise sin ridderlighed.</cell></row><row xml:id="txtcmnt-280-09"><cell type="data-term">Forbindtlighed</cell><cell type="data-definition">taknemlighed, venlighed.</cell></row></cell>
+<cell type="page">281</cell><cell><row xml:id="txtcmnt-281-01"><cell type="data-term">Göthe(s)</cell><cell type="data-definition">Johann Wolfgang von Goethe (1749-1832), tysk digter.</cell></row><row xml:id="txtcmnt-281-02"><cell type="data-term">Calderon(s)</cell><cell type="data-definition">Pedro Calderón de la Barca (1600-1681), spansk dramatiker.</cell></row><row xml:id="txtcmnt-281-03"><cell type="data-term">Du Heilige … zurück</cell><cell type="data-definition">fra anden strofe af Friedrich von Schillers (1759-1805) digt »Des Mädchens Klage«, trykt første gang i <hi rend="italic">Musenalmanach für 1799</hi>, indgår siden i anden del af dramatrilogien <hi rend="italic">Wallenstein</hi>, 1800. I Adam Oehlenschlägers (1779-1850) oversættelse, »Dybt Skoven bruser«, som indgår i det indledende optrin af »Sanct Hans Aften-Spil« i <hi rend="italic">Digte</hi>, 1803, lyder verset: »Du Hellige! kald da dit Barn til dit Bryst«. C.E.F. Weyses (1774-1842) melodi (<hi rend="italic">Teklas Gesang aus Schillers Wallenstein</hi>, 1801) gjorde romancen populær.</cell></row><row xml:id="txtcmnt-281-04"><cell type="data-term">Jeronimus og Magdelone</cell><cell type="data-definition">faste typer, begge ældre folk, i flere af Ludvig Holbergs (1684-1754) komedier, hvor Jeronimus repræsenterer bl.a. konservativ, borgerlig snusfornuft, Magdelone forlystelsessyge eller komisk elskovslængsel, jf. <hi rend="italic">Juele-Stue</hi>, 1724.</cell></row><row xml:id="txtcmnt-281-05"><cell type="data-term">den ædle Oberst i Fornuftgiftermaalet</cell><cell type="data-definition">general, Grev von Saalheim, en af de centrale personer i E. Scribes <hi rend="italic">Le mariage de raison</hi>, 1826.</cell></row><row xml:id="txtcmnt-281-06"><cell type="data-term">artigt</cell><cell type="data-definition">dannet; jf. Ludvig Holberg <hi rend="italic">Juele-Stue</hi>, 1724 (11. scene).</cell></row><row xml:id="txtcmnt-281-07"><cell type="data-term">Ug … Tg med Spørgs</cell><cell type="data-definition">efter den daværende karakterskala henholdsvis den højeste (Udmærket Godt) og en meget lav karakter (Temmelig Godt med spørgsmålstegn, dvs. Tg÷, en karakter under Tg).</cell></row><row xml:id="txtcmnt-281-08"><cell type="data-term">læst over</cell><cell type="data-definition">læst sine lektier.</cell></row><row xml:id="txtcmnt-281-09"><cell type="data-term">Reguladetri</cell><cell type="data-definition">kortform af regula proportionum de tribus, (latin) regel om proportioner ud fra de tre; regneregel, der muliggør at bestemme den fjerde (ubekendte) størrelse i en proportion, når man kender de tre øvrige; jf. eksaminationen af skolepigen Trine Rar i J.L. Heibergs (1791-1860) vaudeville <hi rend="italic">Aprilsnarrene eller Intrigen i Skolen</hi>, I,14, opført første gang på Det Kgl. Teater i 1826.</cell></row><row xml:id="txtcmnt-281-10"><cell type="data-term">Dukketøi … en Kunst … Skolemesteren</cell><cell type="data-definition">jf. <hi rend="italic">Juele-Stue</hi>, 1724 (11. scene).</cell></row><row xml:id="txtcmnt-281-11"><cell type="data-term">Dukketøi</cell><cell type="data-definition">legetøj.</cell></row></cell>
+<pb n="646"/>
+<cell type="page">282</cell><cell><row xml:id="txtcmnt-282-01"><cell type="data-term">Floribella</cell><cell type="data-definition">lyrisk romantisk drama i 3 akter af C.J. Boye (1791-1853), musik af C.E.F. Weyse; opført første gang på Det Kgl. Teater i 1825, sidste gang 30. marts 1827 (i alt 9 gange).</cell></row><row xml:id="txtcmnt-282-02"><cell type="data-term">Oberon</cell><cell type="data-definition">Oberon, alfernes konge, titelperson i J.R. Planchés (1796-1880) romantiske trylleopera <hi rend="italic">Oberon</hi> i 3 akter fra 1826 med musik af Carl Maria von Weber (1786-1826), oversat af Adam Oehlenschläger og opført første gang på Det Kgl. Teater den 31. januar 1831.</cell></row><row xml:id="txtcmnt-282-03"><cell type="data-term">Trine Rar</cell><cell type="data-definition">skolepige i J.L. Heibergs vaudeville <hi rend="italic">Aprilsnarrene eller Intrigen i Skolen</hi>, 1826.</cell></row><row xml:id="txtcmnt-282-04"><cell type="data-term">det første</cell><cell type="data-definition">så snart.</cell></row><row xml:id="txtcmnt-282-05"><cell type="data-term">Gaza Ladra … Piben</cell><cell type="data-definition"><hi rend="italic">La gazza ladra</hi>, opera af den italienske komponist Gioacchino Rossini (1792-1868) fra 1817, oversat af N.T. Bruun og opført første gang på Det Kgl. Teater i 1824 med titlen <hi rend="italic">Skaden eller Uskylds Sejr</hi>. Operaen blev ved førsteopførelsen pebet ud.</cell></row><row xml:id="txtcmnt-282-06"><cell type="data-term">Jocko</cell><cell type="data-definition"><hi rend="italic">Danina eller Jocko, den brasilianske Abe</hi>, ballet i 3 akter efter F. Taglionis (1777-1871) program af P. Larcher (1801-1847), musik af P.J. von Lindpaitner (1791-1856); opført første gang på Det Kgl. Teater i 1829. Titlen kan tillige henvise til pantomimen <hi rend="italic">Jocko, eller: Den brasilianske Abe. Heroisk-comisk Pantomime</hi>, der opførtes første gang i 1828 på Morskabsteatret på Vesterbro.</cell></row><row xml:id="txtcmnt-282-07"><cell type="data-term">Vort Uhelds fæle Sky … o. s. v.</cell><cell type="data-definition">jf. Ludvig Holberg <hi rend="italic">Juele-Stue</hi>, 1724 (12. scene).</cell></row><row xml:id="txtcmnt-282-08"><cell type="data-term">Sprikworter</cell><cell type="data-definition">(tysk) ordsprog.</cell></row><row xml:id="txtcmnt-282-09"><cell type="data-term">Grev Essex</cell><cell type="data-definition"><hi rend="italic">Greven af Essex</hi>, heroisk-tragisk drama i fem akter af C.J. Lange (1785-1850), opført første gang på Det Kgl. Teater i 1829. Stykket blev en fiasko, opførtes kun 2 gang, og førte til den såkaldte »Essexfejde«, hvor forfatteren i tidsskrifter og aviser stædigt forsøgte at forsvare sit stykke.</cell></row><row xml:id="txtcmnt-282-10"><cell type="data-term">beskjæmme</cell><cell type="data-definition">bringe skam over.</cell></row><row xml:id="txtcmnt-282-11"><cell type="data-term">Pernille</cell><cell type="data-definition">den fiffige tjenestepige i Ludvig Holbergs komedier.</cell></row></cell>
+<cell type="page">283</cell><cell><row xml:id="txtcmnt-283-01"><cell type="data-term">Deodata</cell><cell type="data-definition"><hi rend="italic">Das Gespenst</hi>, romantisk skuespil i 4 akter af August von Kotzebue (1761-1819), oversat af N.T. Bruun og opført første gang på Det Kgl. Teater i 1817 med titlen <hi rend="italic">Deodata eller Giengangersken</hi>.</cell></row><row xml:id="txtcmnt-283-02"><cell type="data-term">Christian den Fjerde</cell><cell type="data-definition">Christian 4. (1577-1648), konge af Danmark og Norge fra 1596.</cell></row><row xml:id="txtcmnt-283-03"><cell type="data-term">Shakspear</cell><cell type="data-definition">William Shakespeare (1564-1616), engelsk digter.</cell></row><row xml:id="txtcmnt-283-04"><cell type="data-term">Sølling</cell><cell type="data-definition">P.N. Sølling (1758-1827), dansk søofficer; opstillede 1819 med kongens tilladelse en 200-pundig bombe indrettet til sparebøsse på skippernes lavshus og fik derved indsamlet midler til oprettelsen af »Bombebøssen«, en stiftelse for gamle trængende søfolk, beliggende på hjørnet af Sqvaldergaarden og Dybensgade {E4}.</cell></row><row xml:id="txtcmnt-283-05"><cell type="data-term">Det er saamæn … Ting</cell><cell type="data-definition">jf. J.L. Heiberg <hi rend="italic">Aprilsnarrene eller Intrigen i Skolen</hi>, I,14, 1826.</cell></row><row xml:id="txtcmnt-283-06"><cell type="data-term">mycket bra</cell><cell type="data-definition">(svensk) meget god.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

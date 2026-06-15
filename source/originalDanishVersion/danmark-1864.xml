@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Danmark</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="danmark-1864" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Endnu er ei Danmark en Kæmpegrav</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00876</section>
+                                                                 <date>1864</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1864</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Danmark" xml:id="danmark-1864"><pb n="351"/><head type="part">Danmark</head>
+<lg xml:id="p_00877">
+<l rend="noIndent" subtype="firstline" corresp="Endnu er ei Danmark en Kæmpegrav" rendition="endnu-er-ei-danmark-en-kaempegrav">Endnu er ei Danmark en Kæmpegrav</l>
+<l rend="noIndent">Med styrtede <seg target="txtcmnt-351-01"><!--DATA-TERM: Bautastene--><!--DATA-DEFINITION: aflange sten, der, stillet på højkant og delvis nedgravet, står som grav- el. mindesten.-->Bautastene</seg>;</l>
+<l rend="noIndent">Det er et Træ i det salte Hav,</l>
+<l rend="noIndent">Med friske og sunde Grene;</l>
+<l rend="noIndent">Det <seg target="txtcmnt-351-02"><!--DATA-TERM: tør--><!--DATA-DEFINITION: må.-->tør</seg> ei fældes og kastes hen:</l>
+<l rend="noIndent">Gud kan ydmyge, men løfter igjen.</l>
+</lg>
+<lg xml:id="p_00878">
+<l rend="noIndent">Om Kæmpefugle med voldsom Klo</l>
+<l rend="noIndent">End søge det Træ at flænge,</l>
+<l rend="noIndent">Vorherre dog vil, det i Kraft skal groe</l>
+<l rend="noIndent">Med Blomster og Frugter længe.</l>
+<l rend="noIndent">Ei Danmark fældes og kastes hen:</l>
+<l rend="noIndent">Gud er vor Hjælper, vor frelsende Ven!</l>
+</lg>
+<lg xml:id="p_00879">
+<l rend="noIndent">I Natten lyse nu Stjerneskud</l>
+<l rend="noIndent">Af unge Hjerter, som briste;</l>
+<l rend="noIndent">Et lille Folk, i Fortrøstning til Gud</l>
+<l rend="noIndent">Og sin Ret, holder ud til det Sidste;</l>
+<l rend="noIndent">I Sammenhold, folkelig Tanke og Tro</l>
+<l rend="noIndent"><seg target="txtcmnt-351-03"><!--DATA-TERM: Danmark skal seire--><!--DATA-DEFINITION: hentydning til anden slesvigske krig, der begyndte 24. december 1863; 5. februar faldt Dannevirke og kampen om Dybbøl Skanse var forestående.-->Danmark skal seire</seg> og blomstrende groe!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Danmark" synch="danmark-1864">
+<head type="section-comments">Danmark</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Dagbladet</hi>, nr. 84, 9. april 1864. BFN 878</p>
+<table rend="textcomments">
+<cell type="page">351</cell><cell><row xml:id="txtcmnt-351-01"><cell type="data-term">Bautastene</cell><cell type="data-definition">aflange sten, der, stillet på højkant og delvis nedgravet, står som grav- el. mindesten.</cell></row><row xml:id="txtcmnt-351-02"><cell type="data-term">tør</cell><cell type="data-definition">må.</cell></row><row xml:id="txtcmnt-351-03"><cell type="data-term">Danmark skal seire</cell><cell type="data-definition">hentydning til anden slesvigske krig, der begyndte 24. december 1863; 5. februar faldt Dannevirke og kampen om Dybbøl Skanse var forestående.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

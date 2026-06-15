@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Who was the Happiest?</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hvem-var-den-lykkeligste">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hvem-var-den-lykkeligste_modern.xml">moderniseret version</note>
+                                                       <note target="176_Who-was-the-Happiest.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘What lovely roses!’ the sunshine said. ‘And every bud will blossom and be just ...</incipit><idno type="image">Hvem_var_den_Lykkeligste_hca_ill_0155.png</idno><popularity>892</popularity><cite>&lt;p&gt;Hans Christian Andersen: Who was the Happiest?. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Who was the Happiest?">
+          <head type="main" rend="Who was the Happiest?">Who was the Happiest?</head>                <p rend="noIndent" xml:id="p_00001">‘What lovely roses!’ the <hi rend="italic">sunshine</hi> said. ‘And every bud will blossom and be just as beautiful. They are my children! I have kissed them into life!’</p>
+          <p rend="firstIndent" xml:id="p_00002">‘They are my children!’ the <hi rend="italic">dew</hi> said, ‘I have suckled them on my tears.’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘I think I am the one to claim to be their mother!’ the <hi rend="italic">rosebush</hi> said. ‘Both of you are just godparents who gave christening presents according to your ability and good intentions.’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘My lovely rose-children!’ all three of them said, and wished each flower the greatest happiness; but only one of them could be the happiest and one of them would have to be the least happy – but which?</p>
+          <p rend="firstIndent" xml:id="p_00005">‘I’m the one to find out!’ the <hi rend="italic">wind</hi> said. ‘I chase all over the place, force my way through the narrowest crack, am best informed inside and out.’</p>
+          <p rend="firstIndent" xml:id="p_00006">Every full-blown rose heard what was said, every swelling bud sensed it.</p>
+          <p rend="firstIndent" xml:id="p_00007">Through the garden there then came a sorrowful, loving mother, dressed in black; she picked one of the roses that was coming into flower, fresh and finely-formed, and it seemed to her to be the most beautiful of them all. She brought the flower into the still, silent room where a few days previously her young, cheerful daughter had frisked but now lay stretched out like some sleeping marble statue in the black coffin. The mother kissed her dead daughter, then she kissed the rose that was coming into bloom and placed it beside the young girl’s breast, as if by its freshness and a mother’s kiss it could cause the heart to beat once more.</p>
+          <p rend="firstIndent" xml:id="p_00008">It was as if the rose filled out – every petal quivered in thought and happiness: ‘What a path of love has been granted me! I find myself like a human child, am given a mother’s kiss, receive words of blessing and also enter the unknown kingdom, dreaming at the breast of the dead girl! I am assuredly the happiest of all my sisters!’</p>
+          <p rend="firstIndent" xml:id="p_00009">The old <hi rend="italic">weeding woman</hi> was in the garden where the rosebush stood; she also observed its magnificence, and fixed her gaze on the largest, full-blown rose. Another dewdrop and another day and its petals would start to fall; the woman realised this and felt that it had served beauty sufficiently and now should also be put to use. So she plucked it and placed it in a newspaper, it was to be taken home to the other roses with fallen petals and be conserved with them, become potpourri, be joined with the small blue boys that are called lavender, be embalmed with salt. To be embalmed is something only accorded to roses and kings.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘I am to be the most honoured!’ the <hi rend="italic">rose</hi> said when the <hi rend="italic">weeding woman</hi> picked it. ‘I will be the happiest! I am to be embalmed!’</p>
+          <p rend="firstIndent" xml:id="p_00011">Two young men came into the garden, one of them was a <hi rend="italic">painter</hi>, the other a <hi rend="italic">poet</hi>, each of them plucked a rose that was pleasing to the eye.</p>
+          <p rend="firstIndent" xml:id="p_00012">And the <hi rend="italic">painter</hi> painted on canvas a picture of the rose in bloom, so that it thought it was its own reflection.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Now,’ the <hi rend="italic">painter</hi> said, ‘it will live for many generations, during which time millions and yet more millions of roses will fade and die!’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘I was the one most favoured!’ the <hi rend="italic">rose</hi> said, ‘I gained the greatest happiness!’</p>
+          <p rend="firstIndent" xml:id="p_00015">The <hi rend="italic">poet</hi> looked at his rose, wrote a poem about it, a complete mystery, everything he could read on petal by petal in the rose: ‘The picture book of love’ – it was an immortal piece of writing.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘I too am immortal because of it,’ the <hi rend="italic">rose</hi> said, ‘I am the happiest!’</p>
+          <p rend="firstIndent" xml:id="p_00017">However, among all this magnificent profusion of roses, there was one that was almost hidden by the others; fortunately, perhaps, it had a certain imperfection, it sat crookedly on its stalk, and the petals on one side did not correspond to those on the other side; indeed, in the centre of the flower itself grew something that resembled a small, stunted green leaf; this can happen with roses!</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Poor child!’ the <hi rend="italic">wind</hi> said, and kissed it on the cheek. The rose thought this was a greeting, a tribute; it had a feeling of being slightly differently created than the other roses, and that a green leaf grew out of its interior it considered a mark of distinction. A butterfly landed on it and kissed its petals, it was a suitor; she let it fly off again. A huge grasshopper appeared; it admittedly settled on another rose, rubbed its legs together in infatuation, a sign of love in grasshoppers; the rose it was sitting on did not understand this, but the rose, which wore the green, stunted leaf as a distinction, did, for the grasshopper sat gazing at her with eyes that said: ‘I could devour you out of sheer love!’ and no love can pass that excess: the one is consumed by the other! But the rose did not want to be consumed by the jumping jack. The nightingale sang in the clear, starry night.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘It does so for me alone!’ the <hi rend="italic">rose</hi> with the imperfection or distinction said. ‘Why should I be singled out for this rather than all my sisters! Why was I given this peculiarity that makes me the happiest?’</p>
+          <p rend="firstIndent" xml:id="p_00020">Then two cigar-smoking gentlemen entered the garden; they spoke of roses and of tobacco: it is said that roses cannot abide tobacco, they change colour, turn green. This had to be put to the test. They did not have the heart to take one of the very finest roses – they took the one with the imperfection.</p>
+          <p rend="firstIndent" xml:id="p_00021">‘What new distinction!’ it said. ‘I am excessively happy! The happiest of them all!’</p>
+          <p rend="firstIndent" xml:id="p_00022">And it turned green from realising this and tobacco smoke.</p>
+          <p rend="firstIndent" xml:id="p_00023">A rose, still budding, perhaps the most beautiful of the rosebush, was given pride of place in the gardener’s skilfully arranged bouquet; it was taken to the young, masterful head of the house and rode alongside him in the carriage, it sat there like a flowery gem among the other flowers and attractive greenery; it was taken to parties and glittering events: men and women sat there so elegantly illuminated by thousands of lamps; the music played; it was in the theatre’s blaze of lights; and when, during the wild ovation, the celebrated young female dancer floated onto the stage, bouquet on bouquet fell like a shower of flowers at her feet. There fell the bouquet in which the lovely rose sat like a precious stone; it experienced all its inexpressible bliss, the glory and glitter on which it was borne; and as it touched the floor, it danced along too, it leapt, skittered over the boards, its stem broken off as it fell. It never reached the hands of the fêted dancer, it rolled backstage, where a stagehand picked it up, saw how beautiful it was, how fragrant, but it had lost its stalk. Then he put it in his pocket and when he was back home that evening, it was placed in a snaps glass, where it lay all night. Early the next morning it was placed in front of Grandma, who sat, old and feeble, in her armchair. She looked at the broken-off, lovely rose, took pleasure in it and its scent.</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Well, you did not end up on the table of a fine, rich lady but with a poor old woman, here though you are like an entire rosebush; oh, how lovely you are!’</p>
+          <p rend="firstIndent" xml:id="p_00025">And she gazed with childlike joy at the flower, probably also thinking of her own long-gone fresh youth.</p>
+          <p rend="firstIndent" xml:id="p_00026">‘There was a hole in the window-pane,’ the <hi rend="italic">wind</hi> said, ‘I could easily slip in, saw the old woman’s eyes gleaming with youth and the lovely, broken-off rose in the snaps glass. The happiest of them all! I know it for sure! I can say so for sure!’</p>
+          <p rend="firstIndent" xml:id="p_00027">Every rose on the bush in the garden had its own story. Every rose believed and imagined it was the happiest – and by all means let it do so, for blessed are those that believe. The last rose, certainly, was the happiest of them all, in its own opinion.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘I survived them all! I am the last one, the only one, mother’s dearest child!’</p>
+          <p rend="firstIndent" xml:id="p_00029">‘And I am the mother of them all!’ the <hi rend="italic">rosebush</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00030">‘I am,’ the <hi rend="italic">sunshine</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘And me!’ said <hi rend="italic">wind</hi> and <hi rend="italic">weather</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00032">‘Each of you have a part in them!’ the <hi rend="italic">wind</hi> said. ‘And each of you shall have your share!’ and then the wind blew its petals out over the bush where the dewdrops lay, where the sun shone. ‘I too received my share,’ the <hi rend="italic">wind</hi> said. ‘I received the stories of every rose to pass on in the great wide world! Tell me then, which was the happiest of them all? Yes, it’s your turn now, I’ve had my say!’</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

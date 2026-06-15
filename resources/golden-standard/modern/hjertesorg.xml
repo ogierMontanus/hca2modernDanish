@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Hjertesorg</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Historier. Anden Samling, som udkom den 30. november 1852 med årstallet 1853 på titelbladet.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="hjertesorg"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1853</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"/>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="hjertesorg">
+<head type="main">Hjertesorg</head>
+
+<p rend="noIndent" xml:id="p_00001">Det er egentligt en historie i to dele vi her kommer med. Første del kunne gerne være borte – men den giver forkundskaber, og de er nyttige!</p>
+
+<p rend="firstIndent" xml:id="p_00002">Vi opholder os inde i landet på en herregård, og så traf det sig at herskabet dér for en dags tid tog bort. Da kom der fra nærmeste købstad en madamme, hun havde sin moppe med og kom for, som hun sagde, at man skulle tage »aktier« i hendes garveri. Sine papirer havde hun med, og vi rådede hende at slå en konvolut om dem og udenpå at skrive gårdejerens adresse: »Generalkrigskommissær, ridder, etcetera«.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Hun hørte på os, hun tog pennen, standsede og bad os om at gentage udskriften, men langsomt. Vi gjorde det, og hun skrev, men midt i »Generalkrigs« blev hun stående, sukkede og sagde: »Jeg er kun et fruentimmer!« Moppen havde hun sat på gulvet mens hun skrev, og han knurrede; han var jo også taget med for sin fornøjelse og sundheds skyld, og så skal man ikke sættes på gulvet. Braknæse og flæskeryg var hans udvortes.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Han bider ikke!« sagde madammen, »han har ingen tænder. Han er ligesom <seg><!--DATA-TERM: Lem--><anchor target="txtcmnt-056-02"/><!--medlem.-->lem</seg> af familien, trofast og arrig, men dette er han tirret til af mine børnebørn. De leger bryllup, og så vil de have ham til at være brudepige, og det anstrenger ham, det gamle skind!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Og hun afleverede sine papirer og tog moppen på armen.</p>
+
+<p rend="noIndent" xml:id="p_00006">Det er første del – som nok kunne undværes!</p>
+
+<p rend="firstIndent" xml:id="p_00007">»<hi rend="italic">Moppen døde!</hi>« det er anden del.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Det var en uges tid efter. Vi kom til købstaden og tog ind på gæstgiverstedet. Vore vinduer vendte ud til gården, der ved et plankeværk var delt i to dele. I den ene her hang skind og huder, rå og <seg><!--DATA-TERM: barkede--><anchor target="txtcmnt-056-03"/><!--garvede.-->barkede</seg>, her stod alle materialer til et garveri, og det var enkens. Moppen var død i denne morgen og begravet her i gården. Enkens børnebørn, det vil sige garverenkens, for moppen havde ikke været gift, klappede graven til, og det var en dejlig grav, det måtte være en fornøjelse at ligge der.</p>
+
+<pb n="57"/><p rend="firstIndent" xml:id="p_00009">Graven var indhegnet med potteskår og bestrøet med sand. Øverst på den havde de sat en halv ølflaske med halsen op, og det var slet ikke allegorisk.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Børnene dansede rundt om graven, og den ældste af drengene, en praktisk yngling på syv år, foreslog at der skulle være en udstilling af moppens grav og det for alle fra strædet. Adgangen måtte betales med en seleknap, det var noget enhver dreng havde, og han også kunne levere for småpigerne. Og det forslag blev enstemmigt antaget.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Og alle børn fra strædet og bagstrædet med kom og gav deres knap, der var mange der kom til at gå med én sele den eftermiddag, men så havde man set moppens grav, og det var nok så meget værd.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Men uden for garvergården, tæt op til lågen der, stod en lille pjaltet unge, så yndigt skabt med det dejligste krøllede hår og øjne så blå og klare at det var en lyst. Hun sagde ikke et ord, hun græd ikke heller, men så så langt hun kunne, hver gang lågen åbnedes. Hun ejede ikke en knap, vidste hun, og blev derfor sørgmodig stående udenfor, stod der til de alle havde set af, og alle var gået bort. Da satte hun sig ned, holdt de små brune hænder for øjnene og brast i gråd. Hun alene havde ikke set moppens grav. Det var hjertesorg og stor som den voksnes tit kan være det.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Vi så det ovenfra – og ovenfra set – denne, som mange af vore og andres sorger – ja, så kan vi le ad dem! – Det er historien, og den som ikke forstår den, kan tage aktier i enkens garveri.</p>
+
+<pb n="58"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="hjertesorg">
+<head type="section-comments">Hjertesorg</head>
+
+<p rend="noIndent">Trykt første gang i Historier. Anden Samling, som udkom den 30. november 1852 med årstallet 1853 på titelbladet.</p>
+<p rend="noIndent">BFN 617/II,245-246/VII,148-149.</p>
+
+<table rend="textcomments">
+<cell type="page">56</cell><row xml:id="txtcmnt-056-01"><cell type="data-term">Generalkrigskommissær</cell><cell type="data-definition">øverste embedsmand for udskrivningsvæsenet, der forestod rekruttering af soldater.</cell></row><row xml:id="txtcmnt-056-02"><cell type="data-term">Lem</cell><cell type="data-definition">medlem.</cell></row><row xml:id="txtcmnt-056-03"><cell type="data-term">barkede</cell><cell type="data-definition">garvede.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

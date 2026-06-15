@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Leapers</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="springfyrene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="springfyrene_modern.xml">moderniseret version</note>
+                                                       <note target="73_The-Leapers.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The flea, the grasshopper and the jumping goosebone once wanted to see which of ...</incipit><idno type="image">Springfyrene-01_2022-03-14.png</idno><popularity>961</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Leapers. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-17" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-05-17" xml:id="XX" who="XX">enter your initials @xml:id and keep a protocol of revisions</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Leapers">
+          <head type="main" rend="The Leapers">The Leapers</head>                <p rend="noIndent" xml:id="p_00001">The flea, the grasshopper and the jumping goosebone once wanted to see which of them could leap the highest, so they invited the whole world and anyone else who wanted to come and watch the spectacle, and it was three jaunty leapers who entered the room together.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Well, I’ll give my daughter to the one who can leap highest!’ the king said, ‘for it’s a poor show if these fellows have to leap for nothing at all!’</p>
+          <p rend="firstIndent" xml:id="p_00003">The flea was the first come forward, it had such pleasing manners and greeted people on all sides, for it had fine young ladies’ blood inside it and was used to frequenting human society, which makes quite a difference.</p>
+          <p rend="firstIndent" xml:id="p_00004">Then came the grasshopper, it was admittedly a good deal heavier, but was well-mannered and in a green uniform it had been born with; furthermore, the fellow said that it had a very fine family in the land of Egypt, and that it was highly esteemed in this country, it had been taken in straight from the field and placed in a three-storey card house made of court cards with the picture side turned inwards; and it had both a door and windows carved out of the middle of the queen of hearts. ‘I sing in such a fashion, ‘it said, ‘that sixteen native crickets that have chirped since they were small and not yet gained a card house were so vexed on hearing me that they grew even thinner than they were before!’</p>
+          <p rend="firstIndent" xml:id="p_00005">The two of them, the flea and the grasshopper, gave a good account of themselves and both felt confident they were worthy to marry a princess.</p>
+          <p rend="firstIndent" xml:id="p_00006">The jumping goosebone didn’t say anything, but people said that meant it thought all the more instead, and when the court dog just sniffed at it, he vouched for the fact that the skipjack was of a fine family; the old councillor who had been given three fine decorations to keep silent, assured that he knew that the skipjack was able to predict the future, one could see from its back if one was going to have a mild or a severe winter, and that you cannot even see from the back of the man who writes the almanac.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Yes, well, I’m not saying anything!’ the old king said, ‘but I too walk around thinking my own thoughts!’</p>
+          <p rend="firstIndent" xml:id="p_00008">Now it was time for the leap. The flea leapt so high that no one could see it, and so they claimed it hadn’t leapt at all, which was very mean of them!</p>
+          <p rend="firstIndent" xml:id="p_00009">The grasshopper only leapt half as high, but it leapt right into the king’s face, who said that was disgusting.</p>
+          <p rend="firstIndent" xml:id="p_00010">The jumping goosebone stood still for a long while; finally people started to believe it couldn’t leap at all.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘I only hope it’s not in some sort of pain!’ the court dog said and sniffed at it again: flip! it made a little lopsided leap into the lap of the princess, who was sitting on a low golden footstool.</p>
+          <p rend="firstIndent" xml:id="p_00012">Then the king said: ‘The highest leap was the one up to my daughter, for that’s the finest thing one can do, but such a leap needs a head to rely on and the goosebone has proved it has a head. No one could call such a head bone idle!’</p>
+          <p rend="firstIndent" xml:id="p_00013">And so it won the princess.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘I leapt the highest!’ the flea said. ‘But it’s of no matter! let her have the bony goose with its stick and wax! I leapt the highest, though in this world you need a body to be able to see it!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And then the flea went off and fought in foreign wars, where people say it met its death.</p>
+          <p rend="firstIndent" xml:id="p_00016">The grasshopper sat in the ditch and thought about the ways of the world and it also said: ‘A body’s what you need! A body’s what you need’ and then it sang its own mournful song and it is from this that we have taken the story, which could well be a lie, even if it was printed.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

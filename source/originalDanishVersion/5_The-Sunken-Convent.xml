@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Sunken Convent</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-sjunkne-kloster">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-sjunkne-kloster_modern.xml">moderniseret version</note>
+                                                       <note target="5_The-Sunken-Convent.xml.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Close to the hamlet of Neuenkirch, in the middle of a dark forest, there lies a ...</incipit><idno type="image">HCA-Phantasy-Cut_rect-lightblue.png</idno><popularity>910</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Sunken Convent. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>steder</term><term>fortiden</term><term>trylleeventyr</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-04-26" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-04-27" who="NHB">formatted</change><change who="NHB" when="2022-06-30">added additional italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Sunken Convent Based on Gottschalck’s German folk tale">
+          <head type="main" rend="The Sunken Convent">The Sunken Convent</head>                <head type="part" rend="Based on Gottschalck’s German folk tale">Based on Gottschalck’s German folk tale</head>                <p rend="noIndent" xml:id="p_00001">Close to the hamlet of <hi rend="italic">Neuenkirch</hi>, in the middle of a dark forest, there lies a secluded meadow with a small lake; this place is rarely visited, indeed, only few know of it. The black pine forest that surrounds it has something melancholy about it, something that causes one to shudder, since it seems almost to cast a mysterious veil over the place where no bird twitters, no sunbeam fully can penetrate. The lake itself is immensely deep, and this is another reason why people fear it.</p>
+          <p rend="firstIndent" xml:id="p_00002">Many centuries ago there stood a convent here, with high towers and stone figures carved in the red wall.</p>
+          <p rend="firstIndent" xml:id="p_00003">One dark and stormy night, a poor old man came to it; ill and feeble, he wanted to beg for shelter and a place to stay the night; he knocked at the door, but the doorkeeper was an indolent, hard-hearted woman; she felt it was too cold and too much trouble to go down and open the many locks and bolts; so she angrily called down to him and curtly told him to be off and seek shelter for the night elsewhere, but it was impossible for the old man, because of his exhaustion and the cold, to go any further; he begged once again, moaned and wept, but in vain; even the prioress and all the other nuns refused to be affected by his distress. Only a single one, a novice who had not yet taken the vows of the order, was moved and prayed for him; but they laughed at her, mocked her fine feelings and left the old man outside.</p>
+          <p rend="firstIndent" xml:id="p_00004">Then the storm grew and grew; the old man touched the wall with his staff, and at that same instant the proud convent sank into the depths. Smoke and fire gushed up from the frightful chasm that then filled with water. When the storm died down the following morning, one could see a lake at the spot where the previous day the golden cross had glittered in the sunlight on top of the tall bell-towers.</p>
+          <p rend="firstIndent" xml:id="p_00005">The kind-hearted sister who alone had felt pity for the old man cherished an honest and intense love for one of the noblest knights of the area; to her the convent was therefore a prison. But in many a night hour the knight would steal through the forest to the lonely convent. When all were fast asleep, they would talk through the grating of her cell, and often dawn would already be in the sky before they parted company.</p>
+          <p rend="firstIndent" xml:id="p_00006">He also came on this stormy night. But how his heart beat with fear and pain when he no longer could see the convent standing there, but could only hear how the water rushed and seethed in the thick smoke. He wrung his hands, moaned and called out his beloved’s name so that it could even be heard far and wide through the storm.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Just once, just one single time,’ he sighed, ‘come back into my arms!’</p>
+          <p rend="firstIndent" xml:id="p_00008">Then he heard a voice from the depths, where the lake raised its foaming waves.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Come tomorrow night at the eleventh hour, to this very spot! On the surface of the water you will then see a blood-red silken thread, take hold of it and pull it up!’</p>
+          <p rend="firstIndent" xml:id="p_00010">The voice fell silent. Full of grief and pain, the knight went home, unsure as to what his fate would be. But at the appointed time he returned and did what the voice had commanded him.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Inscrutable fate,’ she said, ‘that allowed me who am innocent to sink down into the depths with the guilty, has granted me that I may speak to you every night between eleven and twelve; but I must never go beyond that particular time; were I to do so, you would never see me again; nor must any other man, except you, catch sight of me, for otherwise an invisible hand will cut through my life’s thread.’</p>
+          <p rend="firstIndent" xml:id="p_00012">For a long, long time the knight continued his nightly visits, and always his beloved rose up out of the blue waves when he pulled on the blood-red thread. They were both so happy at these secret meetings, nor did they fear being surprised here by anyone in this secluded, feared spot. Envy and evil, however, dogged the knight’s footsteps, and a stranger saw the lovers walking arm in arm along the shore of the lake. When the knight the following night approached the dear lake in the bright moonlight, the water was blood-red, he tremblingly grasped the thread, but – it had been bleached white and cut.</p>
+          <p rend="firstIndent" xml:id="p_00013">Moaning, he ran round the lake, wringing his hands and calling out his beloved’s name. But everything remained silent. Then the inconsolable young man threw himself into the lake, and the waters closed over him.</p>
+     </div>
+               
+               
+</body>
+                         </text>
+                    </TEI>

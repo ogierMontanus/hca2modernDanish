@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang i Brudehuset ved Fröken Augusta Bournonvilles og Pastor M. P. Tuxens Bryllup, den 21de April 1852</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-i-brudehuset-ved-froeken-augusta-bournonvilles-og-pastor-m-p-tuxens-bryllup-den-21de-april-1852" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Der er en Ö, derhen fra hele Landet</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00438</section>
+                                                                 <date>1852</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1852</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang i Brudehuset ved Fröken Augusta Bournonvilles og Pastor M. P. Tuxens Bryllup, den 21de April 1852" xml:id="sang-i-brudehuset-ved-froeken-augusta-bournonvilles-og-pastor-m-p-tuxens-bryllup-den-21de-april-1852"><pb n="193"/><head type="part">Sang i Brudehuset ved Fröken Augusta Bournonville<hi rend="raised">s </hi>og Pastor M. P. Tuxen<hi rend="raised">s</hi> Bryllup, den 21<hi rend="raised">de </hi>April 1852</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-193-01"><!--DATA-TERM: Der er et Land … Norden--><!--DATA-DEFINITION: førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <i>Svend Grathe</i>, 1825, med musik af C.E.F. Weyse, 1826.-->Der er et Land, dets Sted er höit mod Norden.</seg></hi></head>
+<lg xml:id="p_00439">
+<l rend="noIndent" subtype="firstline" corresp="Der er en Ö, derhen fra hele Landet" rendition="der-er-en-oe-derhen-fra-hele-landet"><seg target="txtcmnt-193-02"><!--DATA-TERM: Der er en Ö--><!--DATA-DEFINITION: Als, hvor Tuxen var præst.-->Der er en Ö</seg>, derhen fra hele Landet,</l>
+<l rend="noIndent">I Krigens Tid, vor Alvors-Tanke drog,</l>
+<l rend="noIndent">En deilig Ö, en Æblegreen paa Vandet,</l>
+<l rend="noIndent">Et Seirens Grönt omkring vort Dannebrog.</l>
+<l rend="noIndent">Nu er der Fred og Solskin, Fugle-Qvidder,</l>
+<l rend="noIndent">I Skov og Enge mylre Blomster frem,</l>
+<l rend="noIndent">Foraaret der i Præstens Have sidder,</l>
+<l rend="noIndent">Han og hans unge Hustru ventes hjem!</l>
+</lg>
+<lg xml:id="p_00440">
+<l rend="noIndent">De komme, fulgt’ af vore glade Sange</l>
+<l rend="noIndent">De drage ind, i eget Hjem er bedst!</l>
+<l rend="noIndent">Snart Roserne igjennem Havens Gange</l>
+<l rend="noIndent">Vil ogsaa feire Parrets Bryllups-Fest;</l>
+<l rend="noIndent">Og <seg target="txtcmnt-193-03"><!--DATA-TERM: Kukkeren--><!--DATA-DEFINITION: gøgen.-->Kukkeren</seg> vil sige: <hi rend="italic">»leve længe!«</hi></l>
+<l rend="noIndent">I Droslens Sang vil höres Hjertets Slag;</l>
+<l rend="noIndent">Hvor ret man elsker, Hjertets skjulte Strænge</l>
+<l rend="noIndent">Forkynde: det hver Dag er Bryllups-Dag.</l>
+</lg>
+<lg xml:id="p_00441">
+<l rend="noIndent">Det nye Hjem vi denne Skaal vil bringe,</l>
+<l rend="noIndent">Oprul for dem et Samliv minderigt,</l>
+<l rend="noIndent">Der Sjælen folde ud sin stærke Vinge,</l>
+<l rend="noIndent">Jordlivet blive dem et Skjönheds-Digt.</l>
+<l rend="noIndent">Forældres Bön som Dug velsignet falder,</l>
+<l rend="noIndent">I Fryd og Sorg hold fast, Gud er jo med,</l>
+<l rend="noIndent">Vor Sang idag, læs den i sölvgraa Alder,</l>
+<l rend="noIndent">Den bliver ung, som Eders Kjærlighed!</l>
+</lg>
+<lg xml:id="p_00442">
+<l rend="noIndent">Ja Tiden har en Flugt, som vore Tanker,</l>
+<l rend="noIndent">Og Tiden ruller store Dramer op,</l>
+<l rend="noIndent">Men hvor i Kjærlighed to Hjerter banker,</l>
+<l rend="noIndent">Udfolder sig hvert Haabets Rosenknop.</l>
+<l rend="noIndent">– Der, hvor Kanoner löd i Krigens Dage,</l>
+<l rend="noIndent">Nu Lærken synger, Nattergalen slaaer.</l>
+<l rend="noIndent">Med Gud ind i det nye Hjem I drage,</l>
+<l rend="noIndent">Sölv-Bryllup der om fem og tyve Aar!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang i Brudehuset ved Fröken Augusta Bournonvilles og Pastor M. P. Tuxens Bryllup, den 21de April 1852" synch="sang-i-brudehuset-ved-froeken-augusta-bournonvilles-og-pastor-m-p-tuxens-bryllup-den-21de-april-1852">
+<head type="section-comments">Sang i Brudehuset ved Fröken Augusta Bournonvilles og Pastor M. P. Tuxens Bryllup, den 21de April 1852</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 611</p>
+<pb n="583"/>
+<table rend="textcomments">
+<cell type="page">193</cell><cell><row xml:id="txtcmnt-193-01"><cell type="data-term">Der er et Land … Norden</cell><cell type="data-definition">førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <hi rend="italic">Svend Grathe</hi>, 1825, med musik af C.E.F. Weyse, 1826.</cell></row><row xml:id="txtcmnt-193-02"><cell type="data-term">Der er en Ö</cell><cell type="data-definition">Als, hvor Tuxen var præst.</cell></row><row xml:id="txtcmnt-193-03"><cell type="data-term">Kukkeren</cell><cell type="data-definition">gøgen.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

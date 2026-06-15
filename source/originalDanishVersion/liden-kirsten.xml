@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Liden Kirsten</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Opført 12. maj 1846 på Det Kongelige Teater med musik af J.P.E. Hartmann (1805-1900). Udkom samme dag. BFN 487</p><p rend="noIndent">Partitur: MAms 4475 mu 9705.2800 (Musikhåndskrifter). Trykte noder: J.P.E. Hartmann <hi rend="italic">Liden Kirsten, op. 44</hi>, 1981. E-noder: Liden Kirsten (fuldstændigt klaverudtog).</p><hi rend="italic">Liden Kirsten, op. 44</hi><p rend="noIndent">Forlæg er folkevisen »Sverkel og hans Søster«, DgF 436, der i modsætning til <hi rend="italic">Liden Kirsten</hi> ender tragisk. H.C. Andersen skriver i dagbogsoptegnelse fra Rom 10. november 1833 efter at have hørt om en ung pige, der »blev gjort til Nonne«: »jeg læste i Kjæmpeviserne og fandt her Leilighed til Lignende Situation for Scenen i Romanzen <hi rend="italic">»Hrr Sverkel«</hi>, som jeg vil benytte til et Drama« (Dagbøger I, s. 228). I løbet af 1846 indførte H.C. Andersen og Hartmann forskellige ændringer, både tekstlige og musikalske, så operaen fik den form, der bringes i det nævnte klaverudtog. Jf. i øvrigt Erik Sønderholm »Hans Christian Andersen als Opernlibrettist«, <hi rend="italic">Anderseniana</hi>, 1996, s. 44.</p><hi rend="italic">Liden Kirsten</hi><hi rend="italic">»Hrr Sverkel«</hi><hi rend="italic">Anderseniana</hi>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">12:<hi rend="italic"> Skuespil III 1844-1849</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="liden-kirsten" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Liden Kirsten. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 12:&lt;i&gt; Skuespil III 1844-1849&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Opført 12. maj 1846 på Det Kongelige Teater med musik af J.P.E. Hartmann (1805-1900). Udkom samme dag. BFN 487&lt;/p&gt;&lt;p&gt;Partitur: MAms 4475 mu 9705.2800 (Musikhåndskrifter). Trykte noder: J.P.E. Hartmann &lt;i&gt;Liden Kirsten, op. 44&lt;/i&gt;, 1981. E-noder: Liden Kirsten (fuldstændigt klaverudtog).&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Forlæg er folkevisen »Sverkel og hans Søster«, DgF 436, der i modsætning til &lt;i&gt;Liden Kirsten&lt;/i&gt; ender tragisk. H.C. Andersen skriver i dagbogsoptegnelse fra Rom 10. november 1833 efter at have hørt om en ung pige, der »blev gjort til Nonne«: »jeg læste i Kjæmpeviserne og fandt her Leilighed til Lignende Situation for Scenen i Romanzen &lt;i&gt;»Hrr Sverkel«&lt;/i&gt;, som jeg vil benytte til et Drama« (Dagbøger I, s. 228). I løbet af 1846 indførte H.C. Andersen og Hartmann forskellige ændringer, både tekstlige og musikalske, så operaen fik den form, der bringes i det nævnte klaverudtog. Jf. i øvrigt Erik Sønderholm »Hans Christian Andersen als Opernlibrettist«, &lt;i&gt;Anderseniana&lt;/i&gt;, 1996, s. 44.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1846</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0067">[skuespillet]</cell>
+                                                       
+                                                            <cell ref="#div0068">[gården på Fru Malfreds borg]</cell>
+                                                       
+                                                            <cell ref="#div0069">Riddersalen</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-26" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-26" who="NHB">formatted</change><change who="NHB" when="2024-02-02" status="draft">front, inkl. castList</change><change who="NHB" when="2024-02-06" status="draft">regex afsluttet. Oprettet mappe på gitHub sv-datarens</change><change who="NHB" when="2024-02-09" status="draft">indtil "78"</change><change who="NHB" when="2024-02-12" status="draft">"172"</change><change who="NHB" when="2024-02-17" status="draft">"222"</change><change who="NHB" when="2024-02-18" status="draft">"225"</change><change who="NHB" when="2024-02-19" status="draft">"266"</change><change who="NHB" when="2024-02-20" status="draft">"350"</change><change who="NHB" when="2024-02-29" status="draft">diff indtil: Forræderi! Vee!</change><change who="NHB" when="2024-02-29" status="draft">indtil (ikke med) n="48"</change><change who="NHB" when="2024-03-01" status="draft">Mit Bryst er tungt!</change><change who="NHB" when="2024-03-01" status="draft">Mon ikke Eders Pleiefader kommer</change><change who="NHB" when="2024-03-02" status="draft">Benjamins split-line overført. Mangler errors</change><change who="NHB" when="2024-03-03" status="draft">errors indtil s. 233</change><change who="NHB" when="2024-03-04" status="draft">gennemset errors. Taget stilling til Benjamins kommentarer</change><change who="NHB" when="2024-03-19" status="draft">indtil side 420</change><change who="NHB" when="2024-05-07" status="draft">indtil og med side 449</change><change who="NHB" when="2024-05-15" status="draft">508</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rendition="verse" rend="Liden Kirsten" xml:id="liden-kirsten">
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">Liden Kirsten</titlePart>
+<titlePart type="part">Originalt, romantisk Syngestykke i een Act</titlePart>
+<titlePart type="part"><date>1846</date></titlePart>
+</docTitle>
+<docImprint>
+<byline><source subtype="foreign">Musik af J. P. E. Hartmann</source></byline>
+<performance><source subtype="foreign">Opført første gang 12. maj 1846</source></performance>
+</docImprint>
+</titlePage>
+<pb n="218"/>
+<castList>
+<head>Personerne</head>
+<castItem><role>Fru MALFRED</role></castItem>
+<castItem><role>KIRSTEN, hendes Datter</role></castItem>
+<castItem><role>ETLE, hendes Slægtning</role></castItem>
+<castItem><role>Moer INGEBORG, en Bondekone</role></castItem>
+<castItem><role>SVERKEL, hendes Søn</role></castItem>
+<castItem><role>NARREN</role></castItem>
+<castItem><role>Riddere, Damer og Bønderfolk</role></castItem>
+</castList>
+<set>
+<p rend="noIndent" xml:id="p_00663">Tiden omtrent 1100</p></set>
+</front>
+<pb n="219"/>
+<div type="act" rend="[skuespillet]" xml:id="div0067">
+<div type="scene" rend="[gården på Fru Malfreds borg]" xml:id="div0068">
+<pb n="220"/>
+<stage>Fru Malfreds Borg; midt i Gaarden voxer en stor Lind, Hyldetræer brede sig hen under en fremspringende Altan, paa hvilken Liden KIRSTEN sidder med ETLE, der fletter hendes Haar.</stage>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">I Klostret, hvor de fromme Nonner boe,</l>
+<l rend="firstIndent">Hvor Lampen brænder for Guds Moders Billed,</l>
+<l rend="firstIndent">Der finder Tanken Fred og Hjertet Ro,</l>
+<l rend="firstIndent">Hver bitter Sjæletørst vil blive stillet.</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Bedre dog i <seg target="txtcmnt-220-01"><!--DATA-TERM: Fruer-Borg--><!--DATA-DEFINITION: vel fruerstue eller fruerbur, kvindernes opholdsrum på slotte, herregårde.-->Fruer-Borg</seg>,</l>
+<l rend="firstIndent">Hvor Musikken klinger:</l>
+<l rend="firstIndent">Der i Dandsen hver en Sorg</l>
+<l rend="firstIndent">Bort fra Hjertet springer.</l>
+<l rend="firstIndent">Skoven har saa sød en Duft,</l>
+<l rend="firstIndent">Jægerhornet kalder.</l>
+<l rend="firstIndent">Kom og drik den friske Luft,</l>
+<l rend="firstIndent">Kom, see Dyret falder!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Klokkeklang,</l>
+<l rend="firstIndent"><seg target="txtcmnt-220-02"><!--DATA-TERM: Ottesang--><!--DATA-DEFINITION: gudstjeneste, der holdes før daggry (kl. 3 om natten).-->Ottesang</seg>,</l>
+<l rend="firstIndent">Bøn ved Altrets Kjerte</l>
+<l rend="firstIndent">Glæder meer mit Hjerte!</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Ak, det er sidste Gang i denne Verden,</l>
+<l rend="firstIndent">Jeg flætter Eders smukke, lange Haar!</l>
+<l rend="firstIndent">Imorgen gaaer I fra os, gaaer i Kloster,</l>
+<l rend="firstIndent">Den smukke Flætning bliver skaaret af,</l>
+<l rend="firstIndent">– End er det Tid, gaae ikke ned i Graven!</l>
+</sp>
+<pb n="221"/>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Guds Moder staaer i Silke og i Guld</l>
+<l rend="firstIndent">Paa Altret, hvor de gyldne Lamper brænde,</l>
+<l rend="firstIndent">Hun eier Trøst for hver en Sorrigfuld,</l>
+<l rend="firstIndent">Hvor kan man bedre boe, end boe hos hende.</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Paa den blaa, den salte Sø,</l>
+<l rend="firstIndent">Er det Lyst at være!</l>
+<l rend="firstIndent">Til den sommergrønne Ø</l>
+<l rend="firstIndent">Skal os Baaden bære;</l>
+<l rend="firstIndent">Der er lystig <seg target="txtcmnt-221-01"><!--DATA-TERM: Kildetid--><!--DATA-DEFINITION: om den periode, hvor folkeovertroen tilskrev hellige kilder særlig helbredende kraft, nemlig omkring Skt. Hans (24. juni), Mariæ besøgelsesdag (2. juli) og den mellemliggende tid, som kaldtes »kildetiden«; dette blev desuden betegnelsen for sommerforlystelsernes højsæson, idet der omkring kilderne gerne voksede markeder op med gøgl og andre forlystelser.-->Kildetid</seg>,</l>
+<l rend="firstIndent">See dog Flag og Krandse,</l>
+<l rend="firstIndent">Alle Godtfolk strømme did</l>
+<l rend="firstIndent">Og de Unge dandse.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Klokkeklang,</l>
+<l rend="firstIndent">Ottesang,</l>
+<l rend="firstIndent">Bøn ved Altrets Kjerte</l>
+<l rend="firstIndent">Glæder meer mit Hjerte!</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Da seer I aldrig meer den grønne Skov,</l>
+<l rend="firstIndent">I kommer aldrig mere ned til Stranden,</l>
+<l rend="firstIndent">Seer ei de smukke Børn –</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="right">Fra Klostrets Vindue</l>
+<l rend="firstIndent">Jeg seer jo Skoven og det aabne Hav,</l>
+<l rend="firstIndent"> Fra Kirkens Chor jeg hilser mine Venner!</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Og <hi rend="italic">Sverkel</hi>, Eders kjække Pleiebroder?</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Jeg var et Barn, men han en Ungersvend,</l>
+<l rend="firstIndent">Da han forlod os. O, hvor jeg holdt af ham!</l>
+<l rend="firstIndent">Han kommer ei, jeg faaer ham ei at see,</l>
+<l rend="firstIndent">Men derom Etle, ville vi ei tale.</l>
+<l rend="firstIndent">Jeg elsker Klostrets Ro, min Moder vil det, –</l>
+<l rend="firstIndent">Vor Biskop har mig mindet om vort Løfte.</l>
+</sp>
+<pb n="222"/>
+
+<speaker>BØNDERFOLK AF BEGGE KJØN</speaker>
+<stage><hi rend="italic">træde dandsende ind i Gaarden; Mjøden skjænkes for dem.</hi></stage>
+
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Den Spillemand sin Harpe tog,</l>
+<l rend="firstIndent">Stolt paa hver Streng han slog.</l>
+<l rend="secondIndent">Tys!</l>
+<stage><hi rend="italic">Kirsten og Etle bortfjerne sig.</hi></stage>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">1.</l>
+<l rend="firstIndent">Den Spillemand sin Harpe tog,</l>
+<l rend="firstIndent">Stolt paa hver Stræng han slog.</l>
+<l rend="secondIndent">Tys!</l>
+<l rend="firstIndent">Det klang fra den første, som Jordens Drøn,</l>
+<l rend="firstIndent">Den anden ret lød, som Englenes Bøn,</l>
+<l rend="firstIndent">Den tredie vildt, som Flammens Bragen,</l>
+<l rend="firstIndent">Den fjerde dybt, som Bølgens Klagen:</l>
+<l rend="secondIndent">Rask afsted!</l>
+<l rend="secondIndent">»Jeg følger dog ikke med!«</l>
+<l rend="secondIndent">Sagde skjøn Jomfrue.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="secondIndent">Rask afsted! etc.</l>
+<l rend="firstIndent">2.</l>
+<l rend="firstIndent">Han gik den slagne Landevei,</l>
+<l rend="firstIndent">Hørte man Sangen ei?</l>
+<l rend="secondIndent">Tys!</l>
+<l rend="firstIndent">Alle de Smaabørn kom løbende til,</l>
+<l rend="firstIndent">De dandsede rundt ved hans Strængespil,</l>
+<l rend="firstIndent">Selv Elskende kom fra det Fjerne,</l>
+<l rend="firstIndent">De kyssedes og fulgte gjerne.</l>
+<l rend="secondIndent">Rask afsted!</l>
+<l rend="secondIndent">»Jeg følger dog ikke med!«</l>
+<l rend="secondIndent">Sagde skjøn Jomfrue.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="secondIndent">Rask afsted! etc.</l>
+<l rend="firstIndent">3.</l>
+<l rend="firstIndent">Han greb i Harpen anden Gang,</l>
+<pb n="223"/>
+<l rend="firstIndent"><seg target="txtcmnt-223-01"><!--DATA-TERM: Underligt--><!--DATA-DEFINITION: forunderligt.-->Underligt</seg> da det klang!</l>
+<l rend="secondIndent">Tys!</l>
+<l rend="firstIndent">Alle Smaafugle kom flyvende til,</l>
+<l rend="firstIndent">Alle de sang til hans Strængespil,</l>
+<l rend="firstIndent">Hvert Skovens Dyr sprang frem fra Hækken,</l>
+<l rend="firstIndent">Selv Fisken svømmed’ op mod Bækken.</l>
+<l rend="secondIndent">Rask afsted!</l>
+<l rend="secondIndent">»Jeg følger dog ikke med!«</l>
+<l rend="secondIndent">Sagde skjøn Jomfrue.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="secondIndent">Rask afsted! etc.</l>
+<l rend="firstIndent">4.</l>
+<l rend="firstIndent">Den tredie Gang han slog hver Stræng,</l>
+<l rend="firstIndent">Neiede Mark og Eng.</l>
+<l rend="secondIndent">Tys!</l>
+<l rend="firstIndent">Floder og Bjerge med Stene og Træer,</l>
+<l rend="firstIndent">Dandsede med, som de kunde enhver;</l>
+<l rend="firstIndent">Ja Sol og Maane, Stjernekrandsen,</l>
+<l rend="firstIndent">De maatte alle med i Dandsen.</l>
+<l rend="secondIndent">Rask afsted!</l>
+<l rend="secondIndent">»Jeg følger dog ikke med!«</l>
+<l rend="secondIndent">Sagde skjøn Jomfrue.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="secondIndent">Rask afsted! etc.</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Nu, drik, vær glad!</l>
+</sp>
+<sp>
+<speaker>MOER INGEBORG</speaker>
+<l rend="right">Det er en sælsom Skik,</l>
+<l rend="firstIndent">At Aftnen før en Jomfrue gaaer i Kloster,</l>
+<l rend="firstIndent">Skal først hun see al verdslig Pragt og Glæde!</l>
+<l rend="firstIndent">Her lystigt er i Riddersal og Borggaard.</l>
+<l rend="firstIndent">Min stakkels <hi rend="italic">Sverkel</hi> vil det vist bedrøve,</l>
+<l rend="firstIndent">De to, de var’, som Søster og som Broder!</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Som Søster og som Broder –! ja, vi veed det.</l>
+</sp>
+<pb n="224"/>
+<sp>
+<speaker>MOER INGEBORG</speaker>
+<l rend="firstIndent">Hr. <hi rend="italic">Nilaus</hi> og Fru <hi rend="italic">Malfred</hi> vare unge,</l>
+<l rend="firstIndent">De saae min lille Søn, fik Godhed for ham;</l>
+<l rend="firstIndent">Han kom paa Slottet, lærte <seg target="txtcmnt-224-01"><!--DATA-TERM: Ridder(-Skik)--><!--DATA-DEFINITION: adelsmand, der ved særlig opdragelse og ceremoniel var optaget i en fyrstes kreds og havde forpligtet sig til at bruge kraft og mod i det godes tjeneste. Som syvårig kom adelssønnen i pagetjeneste hos en anden adelig for at lære at lyde og tjene.-->Ridder-Skik</seg>,</l>
+<l rend="firstIndent">Og da de siden selv fik <hi rend="italic">liden Kirsten</hi>,</l>
+<l rend="firstIndent">De to, de var’, som Søster og som Broder.</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Og hvad de var’, det var’ de! ikke sandt. –</l>
+<l rend="firstIndent">Det gaaer tilbage op i gamle Dage;</l>
+<l rend="firstIndent">I havde været gift omtrent eet Aar,</l>
+<l rend="firstIndent">Da fik I Tvillinger, den ene døde,</l>
+<l rend="firstIndent">Den Tid endnu Fru <hi rend="italic">Malfred</hi> hedte Jomfrue;</l>
+<l rend="firstIndent">Hr. <hi rend="italic">Nilaus</hi> var en <seg target="txtcmnt-224-02"><!--DATA-TERM: snild--><!--DATA-DEFINITION: her nok: sympatisk.-->snild</seg>, en høvisk Ridder,</l>
+<l rend="firstIndent">Men vi er’ alle kun af Kjød og Blod; –</l>
+<l rend="firstIndent">Før Bryllupsdagen græd et lille Barn; –</l>
+<l rend="firstIndent">Det bragte Ridder <hi rend="italic">Nilaus</hi> ned til Eder,</l>
+<l rend="firstIndent">Det var den liden <hi rend="italic">Sverkel</hi>; Eders døde; –</l>
+<l rend="firstIndent">– Da <hi rend="italic">Nilaus</hi> og Fru <hi rend="italic">Malfred</hi> fik hinanden,</l>
+<l rend="firstIndent">Ja vist, saa fandt de, Drengen var saa smuk,</l>
+<l rend="firstIndent">De tog sig af ham, lod ham godt oplære;</l>
+<l rend="firstIndent">– Saa fik de liden <hi rend="italic">Kirsten</hi> og de to</l>
+<l rend="firstIndent">Blev ret som Broder og som Søster. Seer I!</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">For Herrens Altar tør jeg sværge,</l>
+<l rend="firstIndent">At <hi rend="italic">Sverkel</hi> er mit Kjød og Blod!</l>
+<l rend="firstIndent">De toge ham i deres Favn og Værge,</l>
+<l rend="firstIndent">Vort ædle Herskab! O de var ham god.</l>
+<l rend="firstIndent">Nu har han <seg target="txtcmnt-224-03"><!--DATA-TERM: tjent sig Spore--><!--DATA-DEFINITION: gjort sig værdig til ridderslaget og ridderens gyldne sporer.-->tjent sig Spore</seg> til og Sværd,</l>
+<l rend="firstIndent">Han er den bedste Ridders Lykke værd,</l><l rend="firstIndent"><seg target="txtcmnt-224-04"><!--DATA-TERM: Keiseren … Miklegard--><!--DATA-DEFINITION: Miklagaard eller Miklagard var den norrøne (oldnordiske) litteraturs navn for Konstantinopel. Her tjente i vikingetid og tidlig middelalder skandinaviske lejesoldater som den byzantinske kejsers livvagt, væringegarden.-->Keiseren tjener han i Miklegard</seg>!</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">»<seg target="txtcmnt-224-05"><!--DATA-TERM: Tanker er toldfrie--><!--DATA-DEFINITION: DgO VII:1, 903.-->Tanker er toldfrie</seg>!« – siger Narren.</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">Han os forlod, ak, hvor den Tid er gaaet.</l>
+<l rend="firstIndent">Den Gang var liden Kirsten otte Aar.</l>
+<l rend="firstIndent">Vi om hans Hjemkomst Brev og Bud har faaet,</l>
+<l rend="firstIndent">Men ventet har jeg nu i Høst og Vaar.</l>
+<l rend="firstIndent">Gud veed om mine Øine see ham meer –!</l>
+<pb n="225"/>
+<l rend="firstIndent">Bag Klostrets Gitter Søsteren han seer.</l>
+<l rend="firstIndent">Keiseren tjener han i Miklegard.</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">»Tanker er’ toldfrie« –! siger Narren.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<stage><hi rend="italic">i ridderlig Reise-Dragt, er traadt midt ind i Borggaarden og staaer foran hende</hi></stage>
+<l rend="firstIndent">God Aften, Moder! kan du kjende mig?</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">Min Søn! min Søn! –</l>
+<l rend="firstIndent">Himlen hørte min Bøn;</l>
+<l rend="firstIndent">Hvor jeg stod, hvor jeg sad,</l>
+<l rend="firstIndent">Eet kun jeg bad:</l>
+<l rend="firstIndent">Dig at gjensee, Dig at favne.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Velsignet alle hellige Navne!</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">Det er for stor en Glæde!</l>
+<l rend="firstIndent">Jeg kan kun græde, græde –!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hr. Sverkel! hvilken Glæde!</l>
+<l rend="firstIndent">Nei, see dog paa de to:</l>
+<l rend="firstIndent">De baade lee og græde.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Du vilde ikke tro,</l>
+<l rend="firstIndent">Jeg kom igjen tilbage</l>
+<l rend="firstIndent">I dine Levedage!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">De lykkelige to!</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Skjøndt udenlandske Skikke</l>
+<l rend="firstIndent">Forandre nok saa nemt,</l>
+<l rend="firstIndent">Jeg haaber, I dog ikke</l>
+<l rend="firstIndent">Har ganske Narren glemt!</l>
+</sp>
+
+<pb n="226"/>
+<sp>
+<speaker>INGEBORG</speaker>
+
+<l rend="firstIndent">Guds Moder Du gav Glæde,</l>
+<l rend="firstIndent">Dig hører <seg target="txtcmnt-226-01"><!--DATA-TERM: Prisen--><!--DATA-DEFINITION: lovprisningen.-->Prisen</seg> til,</l>
+<l rend="firstIndent">Lys og et <seg target="txtcmnt-226-02"><!--DATA-TERM: Altarklæde--><!--DATA-DEFINITION: klæde, som hænges over alterets forside (modsat alterdugen, som dækker alterbordet).-->Altarklæde</seg></l>
+<l rend="firstIndent">Til Tak jeg bringe vil!</l>
+</sp>
+<span type="unison" spanTo="unison0001"/>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Jeg fletter liden Kirstens Haar,</l>
+<l rend="firstIndent">Jeg hendes Fryd og Sorg forstaaer,</l>
+<l rend="firstIndent">O, hvor mit Hjerte banker!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Fra Palmer og fra Ranker,</l>
+<l rend="firstIndent">Hvor Aandens Storværk boer,</l>
+<l rend="firstIndent">Fløi Hjertets bedste Tanker</l>
+<anchor type="unison" xml:id="unison0001"/>
+<l rend="firstIndent">Her hjem hvor Bøgen groer!</l>
+<l rend="firstIndent">Jeg er hos mine Kjære,</l>
+<l rend="firstIndent">Seer Hjemmets kjendte Sted.</l>
+</sp>
+<sp>
+<speaker>ALLE</speaker>
+<l rend="firstIndent">Guds Moder Priis og Ære,</l>
+<l rend="firstIndent">I Tid og Evighed!</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">Min Søn, fortæl hvad Du har seet!</l>
+<l rend="firstIndent">Ak, ogsaa her er meget skeet!</l>
+<l rend="firstIndent">Fortæl dog lidt Din gamle Moer! –</l>
+<l rend="firstIndent">Nei, hvor han dog er smuk og stor,</l>
+<l rend="firstIndent">Har gyldne Sporer, er saa fiin,</l>
+<l rend="firstIndent"><seg target="txtcmnt-226-03"><!--DATA-TERM: Det er en Søn--><!--DATA-DEFINITION: hvilken søn, sikken en søn.-->Det er en Søn</seg>! og han er min.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Fru Malfred er dog karsk og glad?</l>
+<l rend="firstIndent">Og liden Kirsten –?</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="right">Veed Du hvad?</l>
+<l rend="firstIndent">Nei, det er sandt, Du Intet veed!</l>
+<l rend="firstIndent">Du kommer just til Lystighed –!</l>
+</sp>
+<sp>
+<speaker>ETLE og NARREN</speaker>
+<l rend="firstIndent">Iaften er her Bal og Sang,</l>
+<l rend="firstIndent">Imorgen Alt er Klostergang.</l>
+</sp>
+<pb n="227"/>
+<sp>
+<speaker>INGEBORG</speaker>
+<l rend="firstIndent">Iaften verdslig Glands og Pragt,</l>
+<l rend="firstIndent">Imorgen Suk og Nonne-Dragt!</l>
+</sp>
+<sp>
+<speaker>ETLE og CHOR</speaker>
+<l rend="firstIndent">I Kloster liden Kirsten gaaer,</l>
+<l rend="firstIndent">Iaften Afskeds-Gildet staaer;</l>
+<l rend="firstIndent">Iaften Dands, imorgen Suk;</l>
+<l rend="firstIndent">Hun er saa god, saa ung og smuk!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<stage><hi rend="italic">kommer hurtigt ned fra Trappen.</hi></stage>
+<l rend="firstIndent">Sverkel!</l>
+</sp>
+<sp>
+<speaker>SVERKEL <hi rend="italic">flyver i hendes Arme.</hi></speaker>
+<l rend="center">Moder!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="right">O, Du kjære!</l>
+</sp>
+<sp>
+<speaker>ETLE og INGEBORG</speaker>
+<l rend="firstIndent">Kan der større Lykke være!</l>
+<stage><hi rend="italic"><hi rend="normal">Kirsten </hi>iler hen mod Sverkel, men standser igjen.</hi></stage>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Liden Kirsten! det er hende!</l>
+<l rend="firstIndent">Hvert et Træk jeg kan gjenkjende,</l>
+<l rend="firstIndent">Rosenknoppen er udsprunget,</l>
+<l rend="firstIndent">Barnet er en Jomfru vorden.</l>
+<l rend="firstIndent">Ude har mit Hjerte sjunget:</l>
+<l rend="firstIndent">»Skjønheds-Blomsten groer i Norden!«</l>
+<l rend="firstIndent">Vær ei taus!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="right">Hvor ungdomsglad,</l>
+<l rend="firstIndent">Ret, som da vi skiltes ad!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN, INGEBORG, ETLE, SVERKEL</speaker>
+<l rend="firstIndent">Alle Minderne gjenfødes,</l>
+<l rend="firstIndent">Hver en Blomst i Soelskin staaer;</l>
+<l rend="firstIndent">O hvor saligt, sødt at mødes</l>
+<l rend="firstIndent">Efter lange, lange Aar!</l>
+<pb n="228"/>
+<l rend="firstIndent">Minderne saa selsomt sjunge,</l>
+<l rend="firstIndent">Jubel dæmper hvert et Suk!</l>
+</sp>
+<span type="unison" spanTo="unison0002"/>
+<sp>
+<speaker>SVERKEL, KIRSTEN</speaker>
+<l rend="firstIndent">Vi er begge to jo <hi rend="italic">unge</hi>,</l>
+<l rend="firstIndent">Hele Verden er saa smuk!</l>
+</sp>
+<sp>
+<speaker>ETLE og INGEBORG</speaker>
+<l rend="firstIndent">Hvor han har en Engle-Tunge,</l>
+<l rend="firstIndent">Naar han taler døer hvert Suk.</l>
+</sp>
+<anchor type="unison" xml:id="unison0002"/>
+<sp>
+<speaker>SVERKEL</speaker>
+<stage><hi rend="italic">griber liden Kirstens Haand.</hi></stage>
+<l rend="firstIndent">Imorgen Du vil i Kloster gaae;</l>
+<l rend="firstIndent">Kjær Søster, det ender ikke saa!</l>
+<l rend="firstIndent">De Griller vi dandse i Aften hen.</l>
+<l rend="firstIndent">Du dandser jo nok med din Barndoms Ven?</l>
+<l rend="firstIndent"> Da sidst vi dandsed’, paa min Arm Du sad,</l>
+<l rend="firstIndent">Et deiligt Barn, saa livsaligt og glad.</l>
+<stage rend="right"><hi rend="italic">(De stige op ad Trappen).</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Natten lang</l>
+<l rend="firstIndent">Dands og Sang,</l>
+<l rend="firstIndent">Til Musik og Bægerklang.</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Først i <seg target="txtcmnt-228-01"><!--DATA-TERM: Fakkeldandsen--><!--DATA-DEFINITION: rituel dans, oftest som brudedans.-->Fakkeldandsen</seg> gaae</l>
+<l rend="firstIndent">Riddersmand med Frue,</l>
+<l rend="firstIndent"><seg target="txtcmnt-228-02"><!--DATA-TERM: Mummespil--><!--DATA-DEFINITION: maskespil.-->Mummespil</seg> saa følger paa,</l>
+<l rend="firstIndent">Det er værd at skue.</l>
+</sp>
+<sp>
+<speaker>PIGERNE</speaker>
+<l rend="firstIndent">Blus og Lys og Fakler brænde,</l>
+<l rend="firstIndent">Ingen dog hinanden <seg target="txtcmnt-228-03"><!--DATA-TERM: kjende--><!--DATA-DEFINITION: genkende.-->kjende</seg>!</l>
+<l rend="firstIndent">Større Stads jeg aldrig saae.</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Følg nu med i <seg target="txtcmnt-228-04"><!--DATA-TERM: Borgestue--><!--DATA-DEFINITION: folkestue.-->Borgestue</seg>,</l>
+<l rend="firstIndent">Der vor Lystighed skal staae.</l>
+</sp>
+<pb n="229"/>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Natten lang,</l>
+<l rend="firstIndent">Dands og Sang,</l>
+<l rend="firstIndent">Til Musik og Bægerklang.</l>
+<stage><hi rend="italic">De tage hinanden i Hænderne og dandse Gaarden rundt. Naar Scenen er tom, forandres den til:</hi></stage>
+</sp>
+</div>
+                              
+                              
+<div type="act" rend="Riddersalen" xml:id="div0069">
+<head type="act">Riddersalen</head>
+<p rend="noIndent" xml:id="p_00664">paa Fru Malfreds Borg. Den er <seg target="txtcmnt-229-01"><!--DATA-TERM: prakt(fuld)--><!--DATA-DEFINITION: måske afledt af den ældre form »pract«.-->praktfuld</seg> oplyst.</p>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-229-02"><!--DATA-TERM: Ja, jeg er hjemme--><!--DATA-DEFINITION: såvel tekst som melodi er i 1846 ændret til den nu kendte version, jf. oplysninger herom ovenfor.-->Ja, jeg er hjemme</seg>! ja, jeg er i Danmark!</l>
+<l rend="firstIndent">Ei længer Himlen staaer i evigt blaat,</l>
+<l rend="firstIndent">Den vexler smukt med Skyer, Vinden lufter,</l>
+<l rend="firstIndent">Skovmærken sødt i Bøgelunden dufter,</l>
+<l rend="firstIndent">Her er mit Hjem, saa hyggeligt og godt!</l>
+<l rend="firstIndent">Ret som en Drøm staaer al min Vandring nu; –</l>
+<l rend="firstIndent">En Drøm – og mens jeg drømte blev det Morgen</l>
+<l rend="firstIndent">Og Rosenknoppen aabned’ sig, som Rose;</l>
+<l rend="firstIndent">Jeg maa den trykke til min hede Læbe,</l>
+<l rend="firstIndent">Den Blomst er min, jeg elsked’ den som Knop;</l>
+<l rend="firstIndent">Jeg trykkede alt da mit Kys paa den,</l>
+<l rend="firstIndent">Et sødt Levvel, ret som min Drøm begyndte.</l>
+<l rend="secondIndent">I Kjærlighed er ingen Sorg for tung,</l>
+<l rend="secondIndent">O, hvad er selv at lide og at savne!</l>
+<l rend="secondIndent">Hvor det er lykkeligt at være ung,</l>
+<l rend="secondIndent">Men lykkeligst sin søde Brud at favne.</l>
+</sp>
+<sp>
+<speaker>LIDEN KIRSTEN <stage><hi rend="italic">(kommer).</hi></stage></speaker>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Seer du, jeg er her alt og festlig smykket,</l>
+<l rend="firstIndent">Du dandser jo den første Dands med mig?</l>
+<l rend="firstIndent">Den første og den anden og den tredie!</l>
+<l rend="firstIndent">Jeg er en sjælden Gjæst jo, den hjemkomne,</l>
+<l rend="firstIndent">Din Broder og din allerbedste Ven!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Min Broder og min allerbedste Ven!</l>
+</sp>
+<pb n="230"/>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">I Vindues Karmen seer jeg endnu sidde</l>
+<l rend="firstIndent">Den gamle Jernring, hvor jeg tidt og ofte</l>
+<l rend="firstIndent">Fastbandt den ene Ende af mit Scherf</l>
+<l rend="firstIndent">Og holdt saa i den anden. Husker du</l>
+<l rend="firstIndent">Da satte Du dig op, det var din Gynge.</l>
+<l rend="firstIndent">Saa gynged’ Du paa Bølge over Havet,</l>
+<l rend="firstIndent">Til Miklegaard og til Jerusalem.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">I Haven planted’ vi et Rosentræ,</l>
+<l rend="firstIndent">Det groer endnu; seer Du dets høie Grene</l>
+<l rend="firstIndent">Naae op til Vinduet.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="right">Det staaer fuldt af Roser.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Og med de smukkeste, vi har i Haven.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Og husker Du den Vise, jeg Dig lærte.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Om »<seg target="txtcmnt-230-01"><!--DATA-TERM: Gangerpilten--><!--DATA-DEFINITION: »Tærningspillet«, DgF 238; også kendt under titlen »Prinsessen sad i højenloft«.--><hi rend="italic">Gangerpilten</hi></seg>«; tidt jeg husker den.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Jeg sang den ude, og da var det for mig,</l>
+<l rend="firstIndent">Som sad jeg hos dig i mit kjære Danmark,</l>
+<l rend="firstIndent">Men ene sang jeg der den hele Vise,</l>
+<l rend="firstIndent">Ei smukt med Vexelsangen, som vi sang den,</l>
+<l rend="firstIndent">Naar jeg var <seg target="txtcmnt-230-02"><!--DATA-TERM: Gangerpilt(en)--><!--DATA-DEFINITION: page.--><hi rend="italic">Gangerpilten</hi></seg>, Du <hi rend="italic">Prindsessen</hi>.</l>
+<l rend="firstIndent">– O, syng den for mig, da er jeg ret hjemme,</l>
+<l rend="firstIndent">En Drøm er Reisen og de mange Aar;</l>
+<l rend="firstIndent">Jeg sidder atter hos min liden Kirsten</l>
+<l rend="firstIndent">Ved Tavlebordet, hvor vi spille sammen,</l>
+<l rend="firstIndent">Og hører om hun husker Visen ret,</l>
+<l rend="firstIndent">Jeg lærte hende. Du begynder først.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Og Gangerpilten svarer da Prindsessen.</l>
+<stage rend="right"><hi rend="italic">(De sætte sig til Tavlebord.)</hi></stage>
+<pb n="231"/>
+<head type="styleOfSinging"><seg target="txtcmnt-231-01"><!--DATA-TERM: Vexelsang--><!--DATA-DEFINITION: teksten citeret mere eller mindre ordret efter DgF 238.--><hi rend="italic">Vexelsang</hi></seg></head>
+<l rend="firstIndent">1.</l>
+<l rend="firstIndent">Hør Ungersvend, siig ikke nei,</l>
+<l rend="firstIndent">Leeg Tavlebord med mig.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Jeg eier ei det røde Guld,</l>
+<l rend="firstIndent">At sætte op mod Dig.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Sæt Du kun op din gode Hat,</l>
+<l rend="firstIndent">Og fast om den er graa,</l>
+<l rend="firstIndent">See jeg min Perle-Snor har sat,</l>
+<l rend="firstIndent">Tag den, kan Du den faae.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Den første Gang Guldterning paa <seg target="txtcmnt-231-02"><!--DATA-TERM: Tavlebord(et)--><!--DATA-DEFINITION: eller tavlbord: bord til bræt- eller terningespil.-->Tavlebordet</seg> randt,</l><l rend="firstIndent">Den Ungersvend han tabte, men Jomfruen hun vandt.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">2.</l>
+<l rend="firstIndent">Hør Ungersvend, siig ikke nei,</l>
+<l rend="firstIndent">Leeg Tavlebord med mig.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Det røde Guld jeg eier ei,</l>
+<l rend="firstIndent">At sætte op mod Dig.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Sæt Du din Kjortel da paa Spil,</l>
+<l rend="firstIndent">Ja fast om den er graa,</l>
+<l rend="firstIndent">Min Krone af Guld jeg sætte vil,</l>
+<l rend="firstIndent">Tag den, kan Du den faae.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Den anden Gang Guldterning paa Tavlebordet randt,</l>
+<l rend="firstIndent">Den Ungersvend han tabte og Jomfruen hun vandt.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">3.</l>
+<l rend="firstIndent">Hør Ungersvend, siig ikke nei,</l>
+<pb n="232"/>
+<l rend="firstIndent">Leeg Tavlebord med mig!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Jeg eier ei det røde Guld</l>
+<l rend="firstIndent">At sætte op mod Dig.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Din Lykke har Du ret i Spil,</l>
+<l rend="firstIndent">Nu vel, sæt dine Skoe.</l>
+<l rend="firstIndent">Mod dem mig selv jeg sætte vil,</l>
+<l rend="firstIndent">Min Ære og min Tro.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Den tredie Gang Guldterning paa Tavlebordet randt,</l>
+<l rend="firstIndent">Den Jomfrue tabte Spillet, men Ungersvenden vandt.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">4.</l>
+<l rend="firstIndent">Til Fruerbuur den Jomfru gaaer,</l>
+<l rend="firstIndent">»Var jeg slig Skjæbne værd!«</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Den Ungersvend i Gaarden staaer,</l>
+<l rend="firstIndent">Stolt støttet til sit Sværd.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Gud lad mig døe, var hendes Bøn.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">»De Taarer blive spildt,</l>
+<l rend="firstIndent">Du faaer den bedste Kongesøn,</l>
+<l rend="firstIndent">Og ingen Gangerpilt!«</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Er Du den bedste Kongesøn, jeg Dig da hører til,</l>
+<l rend="firstIndent">Mig selv, mit hele Hjerte, jeg glad Dig give vil.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Mig selv, mit hele Hjerte, jeg glad Dig give vil.</l>
+</sp>
+<stage><hi rend="italic">(Riddere og Fruer i selsomme Udklædninger, nogle som allegoriske Personer, andre i fremmede Klædninger, foran hver en <seg target="txtcmnt-232-01"><!--DATA-TERM: Smaadreng--><!--DATA-DEFINITION: dreng i pagetjeneste.-->Smaadreng</seg> med en brændende Fakkel. Fru Malfred, Narren.)</hi></stage>
+<pb n="233"/>
+
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hil være vor Indgang i Riddersal,</l>
+<l rend="secondIndent">Vort Mummespil!</l>
+<l rend="firstIndent">End staaer liden Kirsten i Jomfruers Tal,</l>
+<l rend="secondIndent">Men bort hun vil.</l>
+<l rend="thirdIndent">Imorgen!</l>
+<l rend="firstIndent">Imorgen er Sorgen!</l>
+</sp>
+<sp>
+<speaker>ETLE og NARREN</speaker>
+<l rend="firstIndent">Skoe og Støvler lystigt knirke,</l>
+<l rend="firstIndent">Majet ud er hver en Gjæst!</l>
+<l rend="firstIndent">Salen her er nu vor Kirke,</l>
+<l rend="firstIndent">Det er som en Æselfest.</l>
+<l rend="secondIndent">»<seg target="txtcmnt-233-01"><!--DATA-TERM: Hinham--><!--DATA-DEFINITION: (latin), efterligning af et æsels skryden. Især i Frankrig afholdt man i middelalderen ved midvinter og i juleugen en kirkelig fest for det vilde æsel, jf. 1. Mosebog 16,12, hvor det hedder om Ismael (se note til s. 305): »Han skal blive et vildæsel af et menneske ... han skal leve på tværs af sine brødre«. Her æredes også æselet som det dyr, der bar Maria og barnet under flugten til Ægypten og Kristus ved indtoget i Jerusalem. Ved festerne blev et æsel, som bar Madonna i skikkelse af en ung pige med et spædbarn, gennet ind i kirken. If. et håndskrift, som menes at stamme fra 1000-tallet, afsluttede man i den derpå følgende messe (»Missa solemnis«) den enkelte messedel (som Introitus, Kyrie, Gloria etc.) med et æsels skryden, og i stedet for ved slutningen af messen at sige »Ite missa est« (gå bort, forsamlingen er bortsendt) brød præsten ud i en trefoldig skryden (»hinham«), hvorefter menigheden tilsvarende tre gange svarede med »hinham« og ikke med »Deo gratias« (lovet være Gud).-->Hinham</seg>! hinham!«</l>
+</sp>
+<sp>
+<speaker>EN SKARE UNGE PIGER</speaker>
+<stage><hi rend="italic">(dandse om liden Kirsten).</hi></stage>
+<l rend="firstIndent">Fra Klostret til Kirken er Nonnens Gang,</l>
+<l rend="firstIndent">Fri Jomfrue dandser paa <seg target="txtcmnt-233-02"><!--DATA-TERM: Tillie--><!--DATA-DEFINITION: gulv.-->Tillie</seg>,</l>
+<l rend="firstIndent">Hun synger sit Hiertes gladeste Sang,</l>
+<l rend="firstIndent">Hun følger sin egen Villie!</l>
+</sp>
+<sp>
+<speaker>NARREN og DE UNGE JÆGERE</speaker>
+<l rend="firstIndent">Ungmøens Haar er et Jægergarn,</l>
+<l rend="firstIndent">Nonnen maa Garnet miste!</l>
+<l rend="firstIndent">Rosen i <seg target="txtcmnt-233-03"><!--DATA-TERM: Haugen--><!--DATA-DEFINITION: haven.-->Haugen</seg>, det Skjønheds Barn,</l>
+<l rend="firstIndent">Blev ei til for at lægges i Kiste!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Imens Musikken aander Sjæle-Lyst,</l>
+<l rend="firstIndent">Gaae tunge Tanker gjennem dette Bryst.</l>
+</sp>
+<sp>
+<speaker>SVERKEL <stage><hi rend="italic">(til liden Kirsten.)</hi></stage></speaker>
+<l rend="firstIndent">Jeg Din Dandser være vil,</l>
+<l rend="firstIndent">Vil Du kaare mig dertil?</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Dandsen vil jeg træde.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Natten kan rumme en Verden af Glæde!</l>
+<stage rend="right"><hi rend="italic">(Dands).</hi></stage>
+</sp>
+
+<pb n="234"/>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">1.</l>
+<l rend="firstIndent">Hr. <seg target="txtcmnt-234-01" type="dfnStart"/><!--DATA-TERM: Lave … Jon--><!--DATA-DEFINITION: efter folkevisen »Lave og Jon«, DgF 390.--><hi rend="italic">Lave</hi> han reed sig under Ø,</l>
+<l rend="firstIndent">Der fæsted’ han sig saa væn en Mø,</l>
+<l rend="firstIndent">»Jeg rider med!« sagde <hi rend="italic">Jon</hi><seg target="txtcmnt-234-01" type="dfnEnd"/>.</l>
+<l rend="firstIndent">Nu førte han Bruden til sit Hjem,</l>
+<l rend="firstIndent">Riddere og Svende fulgte med dem.</l>
+<l rend="firstIndent">»Jeg rider med!« sagde <hi rend="italic">Jon</hi>.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-234-02"><!--DATA-TERM: I binde op Hjelmen--><!--DATA-DEFINITION: ifør jer hjelmen.-->I binde op Hjelmen</seg> af Guld og følge hr. <hi rend="italic">Jon</hi>.</l>
+<lg xml:id="p_00665">
+<l rend="firstIndent">2.</l>
+<l rend="firstIndent">Satte de Bruden paa Brudebænk,</l>
+<l rend="firstIndent">Løste de ei hendes <seg target="txtcmnt-234-03">Snørelænk</seg>,</l>
+<l rend="firstIndent">»Jeg løser den!« sagde <hi rend="italic">Jon</hi>.</l>
+<l rend="firstIndent">Lukkede derpaa den Dør saa brat,</l>
+<l rend="firstIndent">»Siig nu Hr. Lave fra mig god Nat,</l>
+<l rend="firstIndent">Jeg bliver her!« sagde <hi rend="italic">Jon</hi>.</l></lg>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I binde op Hjelmen af Guld og følge Hr. <hi rend="italic">Jon</hi>.</l>
+<lg xml:id="p_00666">
+<l rend="firstIndent">3.<note type="footnote"><!--* --><p rend="noIndent"><!--* -->Dette Vers udelades ved Opførelsen.</p></note></l>
+<l rend="firstIndent">Hr. <hi rend="italic">Lave</hi> raaber høit paa sin Brud,</l>
+<l rend="firstIndent">Han banker paa Døren: »Hr. <hi rend="italic">Jon</hi> kom ud!«</l>
+<l rend="firstIndent">– »See om jeg gjør!« sagde <hi rend="italic">Jon</hi>.</l>
+<l rend="firstIndent">Aarle om Morgenen, det var Dag</l>
+<l rend="firstIndent">Mældtes for Kongen den hele Sag.</l>
+<l rend="firstIndent">»Jeg vil nok med!« sagde <hi rend="italic">Jon</hi>.</l></lg>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I binde op Hjelmen af Guld og følge Hr. <hi rend="italic">Jon</hi>.</l>
+<lg xml:id="p_00667">
+<l rend="firstIndent">4.</l>
+<l rend="firstIndent">Hr. <hi rend="italic">Lave</hi> klager for Kongen da:</l>
+<l rend="firstIndent">»Een har taget min Brud mig fra!«</l>
+<l rend="firstIndent">– »Det gjorde jeg!« sagde <hi rend="italic">Jon</hi>.</l>
+<l rend="firstIndent">Kongen sagde til hver især:</l>
+<l rend="firstIndent">»Da maa I <seg target="txtcmnt-234-04">bryde om hende et Spær</seg>!«</l>
+<l rend="firstIndent">– »Ja, her er jeg!« sagde <hi rend="italic">Jon</hi>.</l></lg>
+</sp>
+<pb n="235"/>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I binde op Hjelmen af Guld og følge Hr. <hi rend="italic">Jon</hi>.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">End vi mødes i Dandsens Rad!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Morgenen skiller os evigt ad!</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">5.</l>
+<l rend="firstIndent">Den første Dyst de tilsammen reed,</l>
+<l rend="firstIndent">Hr. <hi rend="italic">Lave</hi> han faldt til Jorden need;</l>
+<l rend="firstIndent">»Der ligger han!« sagde <hi rend="italic">Jon</hi>.</l>
+<l rend="firstIndent">Drog saa til Hjemmet, rask afsted,</l>
+<l rend="firstIndent">Bruden ham vented’ ved Borgens Led.</l>
+<l rend="firstIndent">»Du blev dog min!« sagde <hi rend="italic">Jon</hi>.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I binde op Hjelmen af Guld og følge Hr. <hi rend="italic">Jon</hi>.</l>
+<stage><hi rend="italic">De Dandsendes Række bevæger sig i Baggrunden, Sverkel og Kirsten staae i Forgrunden.</hi></stage>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">O giv mig ja! – Ved Daggry maa vi skilles!</l>
+<l rend="firstIndent">Du gaaer i Kloster, aldrig meer vi sees! –</l>
+<l rend="firstIndent">Jeg elsker Dig saa høit et Hjerte kan!</l>
+<l rend="firstIndent">Ak, skal vi skilles?</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="center">Nei!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndentRight"><seg target="txtcmnt-235-01"><!--DATA-TERM: Du er da min--><!--DATA-DEFINITION: så er du min.-->Du er da min</seg>!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="right">Din!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Saa sødt det klang!</l>
+<l rend="firstIndent">O, siig det nok en Gang!</l>
+<l rend="firstIndent">Du vil ei skilles meer fra mig?</l>
+</sp>
+<pb n="236"/>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Jeg elsker Dig!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED,</speaker>
+<stage><hi rend="italic">som er traadt frem og betragter dem.</hi></stage>
+<l rend="firstIndent">Søster og Broder!</l>
+</sp>
+<sp>
+<speaker>SVERKEL og KIRSTEN</speaker>
+<l rend="firstIndent">Velsign os Moder!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Den første Bøn, jeg altid beder,</l>
+<l rend="firstIndent">Det Bønnen er for Eder.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Kjær Moder, o vi skilles ikke,</l>
+<l rend="firstIndent">Ej liden Kirsten i Kloster gaaer,</l>
+<l rend="firstIndent">Den friske Livsluft skal hun drikke,</l>
+<l rend="firstIndent">Ej Blomsten visne i sin Vaar.</l>
+<l rend="firstIndent">Jeg elsker hende, og Du, jeg veed,</l>
+<l rend="firstIndent">Velsigne vil vor Kjærlighed.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Jeg er hans Brud!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Evige Gud!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I Tugt og Ære</l>
+<l rend="firstIndent">Har Dine Børn hinanden kjære.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Giv liden Kirsten mig til Brud.</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Nei! nei! aldrig, o Gud!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Du førte ham fra Hyttens Straa,</l>
+<l rend="firstIndent">Du aanded’ Adel i hans Hjerte;</l>
+<l rend="firstIndent">Det Bedste, Høieste at naae,</l>
+<pb n="237"/>
+<l rend="firstIndent">Du og Din Husbond Sønnen lærte.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Han er mig kjær!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="right">I skilles maa!</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Det vil og kan Du ikke,</l>
+<l rend="firstIndent">At skilles er vor Død.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Om korte Øieblikke</l>
+<l rend="firstIndent">Er endt hver Angst og Nød!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">O, Moder!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="right">Moder!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent"><hi rend="italic">Han er din Broder!!!</hi></l>
+<l rend="firstIndent"><hi rend="italic">Det</hi> er min Synd min Smerte,</l>
+<l rend="firstIndent"><hi rend="italic">Han</hi> ogsaa hvilte under dette Hjerte.</l>
+<l rend="firstIndent">Det er den Synd, som mig forfulgte,</l>
+<l rend="firstIndent">Som Læben dulgte!</l>
+<l rend="firstIndent">Mit Øie græd et Taarehav,</l>
+<l rend="firstIndent">Og Dig, mit Alt jeg Klostret gav; –</l>
+<l rend="firstIndent">Tilgivelse!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="right">Min Moder!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent"><hi rend="italic">Jeg</hi> hendes Broder!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hvad har jeg hørt! O, bittre Øieblik!</l>
+</sp>
+<pb n="238"/>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Det Bedste, som af Gud vort Hjerte fik,</l>
+<l rend="firstIndent">Er her en Gift, som bringer Synd og Døden.</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Hvad er min Bod for Brøden!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Gud styrke Dig, jeg bliver aldrig glad!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">– Aldrig glad!</l>
+</sp>
+<sp>
+<speaker>SVERKEL <hi rend="italic">til Kirsten.</hi></speaker>
+<l rend="firstIndent">Og Du, min Søster, vi maa skilles ad!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">– Skilles ad!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Men Broder <seg target="txtcmnt-237-02">tør</seg> jo nok paa Søster tænke!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED <hi rend="italic">til Sverkel.</hi></speaker>
+<l rend="firstIndent">O bliv, Du som mig ene Trøst kan skjænke!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Ak Ingen, Ingen dem i Hjertet trøster.</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Hun gaaer i Kloster, han i Verden ud –</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Vee! Broder har trolovet sig med Søster!</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED <hi rend="italic">til Sverkel.</hi></speaker>
+<l rend="firstIndent">O, bliv! o, bliv! forbarm Dig, Gud!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Kjær Moder siig mig da hvordan,</l>
+<l rend="firstIndent">Jeg liden Kirsten glemme kan.</l>
+</sp>
+<pb n="239"/>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-239-01"><!--DATA-TERM: Beed--><!--DATA-DEFINITION: jag.-->Beed</seg> Hjort og Hind, søg <seg target="txtcmnt-239-02"><!--DATA-TERM: Ridderspil--><!--DATA-DEFINITION: dystridt, turnering.-->Ridderspil</seg>,</l>
+<l rend="firstIndent">Da liden Kirsten glemmes vil!</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">For Hjort og Hind og Ridderspil</l>
+<l rend="firstIndent">Ej liden Kirsten glemmes vil!</l>
+<l rend="firstIndent">Jeg glemmer ei min Sjæls Attraa!</l>
+<l rend="firstIndent">Farvel, farvel! – vi skilles maa.</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">Hver Fugl, som flyver <seg target="txtcmnt-239-03"><!--DATA-TERM: under Ø--><!--DATA-DEFINITION: på, langs stranden, et folkeviseudtryk.-->under Ø</seg>,</l>
+<l rend="firstIndent">Dig hilser fra Din Fæstemø.</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Saa liden Fugl er der ei til, <seg target="txtcmnt-239-04"><!--DATA-TERM: Den jo--><!--DATA-DEFINITION: at den ikke.--></seg>
+<seg target="txtcmnt-239-04">Den jo</seg> Gjenhilsen bringe vil.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Lunden vil stande med Blomst og Blad,</l>
+<l rend="firstIndent">Aldrig dog her bliver Tanken glad.</l>
+</sp>
+<sp>
+<speaker>INGEBORG <hi rend="italic">iler frem.</hi></speaker>
+<l rend="firstIndent">De stakkels Børn! min eiegode Frue!</l>
+<l rend="firstIndent">De skal ei skilles ad! jeg Løftet bryder,</l>
+<l rend="firstIndent">En større Pligt, en hellig Kraft mig byder.</l>
+<l rend="firstIndent">Han er <hi rend="italic">min</hi> Søn, <hi rend="italic">mig</hi> blev han givet!</l>
+<l rend="firstIndent">Ved dette Hjerte har han aandet Livet.</l>
+<l rend="firstIndent"><hi rend="italic">Min</hi> Søn! <hi rend="italic">min</hi> Søn!</l>
+</sp>
+<sp>
+<speaker>ALLE</speaker>
+<l rend="firstIndent">O tal! mit Hjerte bæver!</l>
+</sp>
+<sp>
+<speaker>INGEBORG</speaker>
+<l>Det Barn, som Eders Husbond bragte mig,</l>
+<l>Er dødt, saa sandt, som her jeg staaer. Ja <hi rend="italic">dødt!</hi></l>
+<l>I turde det ei vide og han bød mig</l>
+<l>At sige dengang, at <hi rend="italic">mit</hi> Barn var Eders.</l>
+<l>Jeg vilde ikke; – men saasnart jeg saae,</l>
+<l>Hvor bleg og svag I var, hvor inderligt</l>
+<l>I kysset Barnet, græd og smilte, ja,</l>
+<l>Da blev jeg blød, og syntes det var Ret!</l>
+<pb n="240"/>
+<l>Jeg kunde ikke nænne at fortælle –</l>
+<l><hi rend="italic">Mit</hi> Barn er det! men <hi rend="italic">Dit</hi> har vi begravet</l>
+<l>Der under Hyldebuskene ved Muren.</l>
+</sp>
+<sp>
+<speaker>FRU MALFRED</speaker>
+<l rend="firstIndent">Som Engles Trøst det klang!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Guds Solskin blev os givet.</l>
+</sp>
+<sp>
+<speaker>SVERKEL <hi rend="italic">til Ingeborg.</hi></speaker>
+<l rend="firstIndent">O Moder, anden Gang</l>
+<l rend="firstIndent">Du skjænker Sønnen Livet.</l>
+</sp>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Munken han reed sig under Ø,</l>
+<l rend="firstIndent">Fæsted’ som Nonne den vænneste Møe.</l>
+<l rend="firstIndent">»Jeg rider med!« sagde <hi rend="italic">Jon</hi>.</l>
+<l rend="firstIndent">Første Dyst, de tilsammen reed,</l>
+<l rend="firstIndent">Munken faldt brat til Jorden ned.</l>
+<l rend="firstIndent">»Nonnen blev min!« sagde <hi rend="italic">Jon</hi>.</l>
+</sp>
+<sp>
+<speaker>CHOR og DANS</speaker>
+<l rend="firstIndent">Vi binde op Hjelmen af Guld og følge Hr. <hi rend="italic">Jon</hi>!<note type="footnote"><!--* --><p rend="noIndent"><!--* -->Her ender Stykket ved Opførelsen.</p></note></l>
+</sp>
+<sp>
+<speaker>FRU MALFRED og INGEBORG</speaker>
+<l rend="firstIndent">Guds Moder Du min Glæde veed,</l>
+<l rend="firstIndent">Dig skal mit Hjerte prise!</l>
+</sp>
+<sp>
+<speaker>KIRSTEN</speaker>
+<l rend="firstIndent">En Synd er ei vor Kjærlighed! –</l>
+</sp>
+<sp>
+<speaker>SVERKEL</speaker>
+<l rend="firstIndent">Ved den just Gud vi prise!</l>
+</sp>
+<sp>
+<speaker>ETLE</speaker>
+<l rend="firstIndent">Ej liden Kirsten i Kloster gaaer,</l>
+<l rend="firstIndent">I Dandsen hun hos sin Brudgom staaer.</l>
+</sp>
+<pb n="241"/>
+<sp>
+<speaker>NARREN</speaker>
+<l rend="firstIndent">Og Narren synger sin Vise!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Død er Sorgen!</l>
+<l rend="firstIndent">Glæde, Lykke gjæster Borgen</l>
+<l rend="firstIndent">I den <seg target="txtcmnt-241-01"><!--DATA-TERM: aarle--><!--DATA-DEFINITION: tidlige.-->aarle</seg>, friske Morgen!</l>
+<stage><hi rend="italic">De dandse om Brudgom og Brud.</hi></stage>
+</sp>
+</div>
+
+
+</div>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Liden Kirsten. " synch="liden-kirsten">
+<head type="section-comments">Liden Kirsten</head>
+<head type="section-comments">Originalt, romantisk Syngestykke i een Act</head>
+<argument type="sourceData">
+<p rend="noIndent">Opført 12. maj 1846 på Det Kongelige Teater med musik af J.P.E. Hartmann (1805-1900). Udkom samme dag. BFN 487</p>
+<p rend="noIndent">Partitur: MAms 4475 mu 9705.2800 (Musikhåndskrifter). Trykte noder: J.P.E. Hartmann <hi rend="italic">Liden Kirsten, op. 44</hi>, 1981. E-noder: Liden Kirsten (fuldstændigt klaverudtog).</p>
+<p rend="noIndent">Forlæg er folkevisen »Sverkel og hans Søster«, DgF 436, der i modsætning til <hi rend="italic">Liden Kirsten</hi> ender tragisk. H.C. Andersen skriver i dagbogsoptegnelse fra Rom 10. november 1833 efter at have hørt om en ung pige, der »blev gjort til Nonne«: »jeg læste i Kjæmpeviserne og fandt her Leilighed til Lignende Situation for Scenen i Romanzen <hi rend="italic">»Hrr Sverkel«</hi>, som jeg vil benytte til et Drama« (Dagbøger I, s. 228). I løbet af 1846 indførte H.C. Andersen og Hartmann forskellige ændringer, både tekstlige og musikalske, så operaen fik den form, der bringes i det nævnte klaverudtog. Jf. i øvrigt Erik Sønderholm »Hans Christian Andersen als Opernlibrettist«, <hi rend="italic">Anderseniana</hi>, 1996, s. 44.</p></argument>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">221,14</cell><cell type="deviation">dandse. &lt; dandse;</cell></row>
+<row><cell type="position">228,21</cell><cell type="deviation">Bægerklang. &lt; Bægerklang,</cell></row>
+<row><cell type="position">234,22</cell><cell type="deviation">ud!« &lt; ud!</cell></row>
+<row><cell type="position">234,23</cell><cell type="deviation">gjør!« &lt; gjør!</cell></row>
+<pb n="565"/>
+<row><cell type="position">234,35</cell><cell type="deviation">jeg! &lt; jeg?</cell></row>
+<row><cell type="position">235,11</cell><cell type="deviation">sagde Jon. &lt; sagde Jon:</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">220</cell><cell><row xml:id="txtcmnt-220-01"><cell type="data-term">Fruer-Borg</cell><cell type="data-definition">vel fruerstue eller fruerbur, kvindernes opholdsrum på slotte, herregårde.</cell></row><row xml:id="txtcmnt-220-02"><cell type="data-term">Ottesang</cell><cell type="data-definition">gudstjeneste, der holdes før daggry (kl. 3 om natten).</cell></row></cell>
+<cell type="page">221</cell><cell><row xml:id="txtcmnt-221-01"><cell type="data-term">Kildetid</cell><cell type="data-definition">om den periode, hvor folkeovertroen tilskrev hellige kilder særlig helbredende kraft, nemlig omkring Skt. Hans (24. juni), Mariæ besøgelsesdag (2. juli) og den mellemliggende tid, som kaldtes »kildetiden«; dette blev desuden betegnelsen for sommerforlystelsernes højsæson, idet der omkring kilderne gerne voksede markeder op med gøgl og andre forlystelser.</cell></row></cell>
+<cell type="page">223</cell><cell><row xml:id="txtcmnt-223-01"><cell type="data-term">Underligt</cell><cell type="data-definition">forunderligt.</cell></row></cell>
+<cell type="page">224</cell><cell><row xml:id="txtcmnt-224-01"><cell type="data-term">Ridder(-Skik)</cell><cell type="data-definition">adelsmand, der ved særlig opdragelse og ceremoniel var optaget i en fyrstes kreds og havde forpligtet sig til at bruge kraft og mod i det godes tjeneste. Som syvårig kom adelssønnen i pagetjeneste hos en anden adelig for at lære at lyde og tjene.</cell></row><row xml:id="txtcmnt-224-02"><cell type="data-term">snild</cell><cell type="data-definition">her nok: sympatisk.</cell></row><row xml:id="txtcmnt-224-03"><cell type="data-term">tjent sig Spore</cell><cell type="data-definition">gjort sig værdig til ridderslaget og ridderens gyldne sporer.</cell></row><row xml:id="txtcmnt-224-04"><cell type="data-term">Keiseren … Miklegard</cell><cell type="data-definition">Miklagaard eller Miklagard var den norrøne (oldnordiske) litteraturs navn for Konstantinopel. Her tjente i vikingetid og tidlig middelalder skandinaviske lejesoldater som den byzantinske kejsers livvagt, væringegarden.</cell></row><row xml:id="txtcmnt-224-05"><cell type="data-term">Tanker er toldfrie</cell><cell type="data-definition">DgO VII:1, 903.</cell></row></cell>
+<cell type="page">226</cell><cell><row xml:id="txtcmnt-226-01"><cell type="data-term">Prisen</cell><cell type="data-definition">lovprisningen.</cell></row><row xml:id="txtcmnt-226-02"><cell type="data-term">Altarklæde</cell><cell type="data-definition">klæde, som hænges over alterets forside (modsat alterdugen, som dækker alterbordet).</cell></row><row xml:id="txtcmnt-226-03"><cell type="data-term">Det er en Søn</cell><cell type="data-definition">hvilken søn, sikken en søn.</cell></row></cell>
+<cell type="page">228</cell><cell><row xml:id="txtcmnt-228-01"><cell type="data-term">Fakkeldandsen</cell><cell type="data-definition">rituel dans, oftest som brudedans.</cell></row><row xml:id="txtcmnt-228-02"><cell type="data-term">Mummespil</cell><cell type="data-definition">maskespil.</cell></row><row xml:id="txtcmnt-228-03"><cell type="data-term">kjende</cell><cell type="data-definition">genkende.</cell></row><row xml:id="txtcmnt-228-04"><cell type="data-term">Borgestue</cell><cell type="data-definition">folkestue.</cell></row></cell>
+<cell type="page">229</cell><cell><row xml:id="txtcmnt-229-01"><cell type="data-term">prakt(fuld)</cell><cell type="data-definition">måske afledt af den ældre form »pract«.</cell></row><row xml:id="txtcmnt-229-02"><cell type="data-term">Ja, jeg er hjemme</cell><cell type="data-definition">såvel tekst som melodi er i 1846 ændret til den nu kendte version, jf. oplysninger herom ovenfor.</cell></row></cell>
+<cell type="page">230</cell><cell><row xml:id="txtcmnt-230-01"><cell type="data-term">Gangerpilten</cell><cell type="data-definition">»Tærningspillet«, DgF 238; også kendt under titlen »Prinsessen sad i højenloft«.</cell></row><row xml:id="txtcmnt-230-02"><cell type="data-term">Gangerpilt(en)</cell><cell type="data-definition">page.</cell></row></cell>
+<cell type="page">231</cell><cell><row xml:id="txtcmnt-231-01"><cell type="data-term">Vexelsang</cell><cell type="data-definition">teksten citeret mere eller mindre ordret efter DgF 238.</cell></row><row xml:id="txtcmnt-231-02"><cell type="data-term">Tavlebord(et)</cell><cell type="data-definition">eller tavlbord: bord til bræt- eller terningespil.</cell></row></cell>
+<cell type="page">232</cell><cell><row xml:id="txtcmnt-232-01"><cell type="data-term">Smaadreng</cell><cell type="data-definition">dreng i pagetjeneste.</cell></row></cell>
+<cell type="page">233</cell><cell><row xml:id="txtcmnt-233-01"><cell type="data-term">Hinham</cell><cell type="data-definition">(latin), efterligning af et æsels skryden. Især i Frankrig afholdt man i middelalderen ved midvinter og i juleugen en kirkelig fest for det vilde æsel, jf. 1. Mosebog 16,12, hvor det hedder om Ismael (se note til s. 305): »Han skal blive et vildæsel af et menneske ... han skal leve på tværs af sine brødre«. Her æredes også æselet som det dyr, der bar Maria og barnet under flugten til Ægypten og Kristus ved indtoget i Jerusalem. Ved festerne blev et æsel, som bar Madonna i skikkelse af en ung pige med et spædbarn, gennet ind i kirken. If. et håndskrift, som menes at stamme fra 1000-tallet, afsluttede man i den derpå følgende messe (»Missa solemnis«) den enkelte messedel (som Introitus, Kyrie, Gloria etc.) med et æsels skryden, og i stedet for ved slutningen af messen at sige »Ite missa est« (gå bort, forsamlingen er bortsendt) brød præsten ud i en tre<pb n="566"/>foldig skryden (»hinham«), hvorefter menigheden tilsvarende tre gange svarede med »hinham« og ikke med »Deo gratias« (lovet være Gud).</cell></row><row xml:id="txtcmnt-233-02"><cell type="data-term">Tillie</cell><cell type="data-definition">gulv.</cell></row><row xml:id="txtcmnt-233-03"><cell type="data-term">Haugen</cell><cell type="data-definition">haven.</cell></row></cell>
+<cell type="page">234</cell><cell><row xml:id="txtcmnt-234-01"><cell type="data-term">Lave … Jon</cell><cell type="data-definition">efter folkevisen »Lave og Jon«, DgF 390.</cell></row><row xml:id="txtcmnt-234-02"><cell type="data-term">I binde op Hjelmen</cell><cell type="data-definition">ifør jer hjelmen.</cell></row><row xml:id="txtcmnt-234-03"><cell type="data-term">Snørelænk</cell><cell type="data-definition">sølvlænke, som et snørliv, livstykke o. lign. blev snøret med.</cell></row><row xml:id="txtcmnt-234-04"><cell type="data-term">bryde … et Spær</cell><cell type="data-definition">bryde en lanse; tage en kamp.</cell></row></cell>
+<cell type="page">235</cell><cell><row xml:id="txtcmnt-235-01"><cell type="data-term">Du er da min</cell><cell type="data-definition">så er du min.</cell></row><row xml:id="txtcmnt-237-02"><cell type="data-term"><app type="addNote"><lem wit="SV">tør<note type="editor">Lemma forekommer ikke på side 235. Derfor er forklaringen knyttet til den næste relevante forekomst af lemma på side 237.</note></lem></app></cell><cell type="data-definition">har lov til.</cell></row></cell>
+<cell type="page">239</cell><cell><row xml:id="txtcmnt-239-01"><cell type="data-term">Beed</cell><cell type="data-definition">jag.</cell></row><row xml:id="txtcmnt-239-02"><cell type="data-term">Ridderspil</cell><cell type="data-definition">dystridt, turnering.</cell></row><row xml:id="txtcmnt-239-03"><cell type="data-term">under Ø</cell><cell type="data-definition">på, langs stranden, et folkeviseudtryk.</cell></row><row xml:id="txtcmnt-239-04"><cell type="data-term">Den jo</cell><cell type="data-definition">at den ikke.</cell></row></cell>
+<cell type="page">241</cell><cell><row xml:id="txtcmnt-241-01"><cell type="data-term">aarle</cell><cell type="data-definition">tidlige.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Midsommar-Resan«. En Vall-Fart af Förf. till Teckningar ur hvardagslifvet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="midsommar-resan-en-vall-fart-af-foerf-till-teckningar-ur-hvardagslifvet" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1855</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="»Midsommar-Resan«. En Vall-Fart af Förf. till Teckningar ur hvardagslifvet" xml:id="midsommar-resan-en-vall-fart-af-foerf-till-teckningar-ur-hvardagslifvet">
+<div type="source">
+<source>Af</source> <sourceTitle>Samlede Skrifter. Attende Bind</sourceTitle>
+<sourceDate>1855</sourceDate></div>
+<pb n="502"/>
+<head type="part">»<seg target="txtcmnt-502-01" type="dfnStart"><!--DATA-TERM: Midsommar-Resan … hvardagslifvet--><!--DATA-DEFINITION: Fredrika Bremer <i>Midsommar-Resan, en Vall-Fart</i>, af Förf. till »Teckningar ur Hvardagslifvet«, Stockholm 1848 (dansk <i>Midsommersrejsen. En Valfart</i>, 1849). Den svenske forfatterinde og kvindesagsforkæmper Fredrika Bremer (1801-1865) debuterede 1828 med første del af den anonymt udgivne hverdagsrealistiske række af fortællinger <i>Teckningar utur hvardagslifvet</i>, 1828-1831 (dansk <i>Tegninger af Hverdagslivet</i>, 1836), siden udkommer også <i>Nya Teckninger utur Hvardagslifvet</i>, 1834-1835. H.C. Andersen mødte hende første gang på sin rejse i Sverige i sommeren 1837.--></seg>Midsommar-Resan«. En Vall-Fart af Förf. till Teckningar ur hvardagslifvet<seg target="txtcmnt-502-01" type="dfnEnd"><!--DATA-TERM: --><!--DATA-DEFINITION: --></seg></head>
+<head type="sub">(Anmeldelsen i »Nordischer Telegraph.« <hi rend="italic">C. B. Lorck</hi>. Leipzig)</head>
+<p rend="noIndent" xml:id="p_01195">Ved at høre og see <seg target="txtcmnt-502-02"><!--DATA-TERM: Jenny Lind--><!--DATA-DEFINITION: Jenny Lind (1820-1887), svensk sopran; debuterede 18 år gammel i Carl Maria von Webers (1786-1826) opera <i>Der Freischütz</i> i Stockholm, men hendes stemme blev hurtigt nedslidt. I 1842 indledte hun sin anden karriere med titelrollen i Vicenzo Bellinis (1801-1835) opera <i>Norma</i>, 1831. Jenny Lind blev fejret over alt i Europa og USA med tilnavnet »den svenske nattergal«; påvirket af dyb religiøsitet trak hun sig tidligt tilbage fra scenen, men gav dog enkelte koncerter. Også H.C. Andersen tog del i Jenny Lind-feberen; han mødte hende første gang i København i 1843.--><hi rend="italic">Jenny Lind</hi></seg> paa Scenen og ved at læse <hi rend="italic">Fredrika Bremers</hi> Skrifter gribes vi ved et Beslægtet hos dem begge, vi føle og <seg target="txtcmnt-502-03"><!--DATA-TERM: overtydes--><!--DATA-DEFINITION: overbevises.-->overtydes</seg> om, at her rækkes os Aandens Viin af et reent Bæger.</p>
+<p rend="firstIndent" xml:id="p_01196">De nyere franske Romaner frembyde ligesom en Række af pirrende Feste og glimrende <seg target="txtcmnt-502-04"><!--DATA-TERM: Bacchanal(ier)--><!--DATA-DEFINITION: drikkegilde; oprindeligt knyttet til dyrkelsen af vinguden Bacchus.-->Bacchanalier</seg>; man faaer ikke Hvile til sin egen frie Tanke, sin egen naturlige Følelse; <hi rend="italic">Fredrika Bremer</hi> aabner for os et Familieliv, hvor man derimod snart voxer fast, føler os hyggeligt inde, det Gode i os oplives og kommer frem, man bliver der et bedre Menneske. Den christelige Ro, Forfatterinden synes at eie, det kjærlige Sind, der saa fuldelig gjennemlyser hendes Skrifter, gjør at man faaer disse og hende kjær.</p>
+<p rend="firstIndent" xml:id="p_01197">Enhver, der læser de to sidste <seg target="txtcmnt-502-05"><!--DATA-TERM: Noveller--><!--DATA-DEFINITION: noveller eller romaner; begreberne bruges på dette tidspunkt i flæng om en længere fortælling.-->Noveller</seg> af hende: <seg target="txtcmnt-502-06"><!--DATA-TERM: »Syskonlif«--><!--DATA-DEFINITION: Fredrika Bremer <i>Syskonlif</i>, 1848 (dansk <i>Søskendeliv</i>, 1848).-->»<hi rend="italic">Syskonlif</hi>«</seg> og »<hi rend="italic">Midsommar-Resan</hi>«, vil ubetvivlelig strax være enig med os heri. Den sidstnævnte, hendes seneste Arbeide, synes os især et sandt Miniatur-Billed af hende selv, i Aand og Skrifter. Om Novellens Hovedperson, den mesterligt givne Fru <hi rend="italic">Cecilie</hi>, staae alle de andre Personer, klart tegnede, som ved en kjærlig begavet Søsters Haand; man lever med disse Mennesker ind i deres Glæder og Sorger; det Hele er saa vel sammenstillet, at man har for sig som kun eet Billed; Reisen til Midnats-Solen er den Bevægelsens Straaler, som der kaster sit Lys; vi ville ikke <seg target="txtcmnt-502-07"><!--DATA-TERM: skelettere--><!--DATA-DEFINITION: opløse, sønderdele.-->skelettere</seg> Billedet, ikke rive enkelte Dele ud og sige: see hvor smukt, hvor sandt, men sige: betragt selv! En høist interessant Indledning fører os til Novellen, en Indledning, der som Vinger bærer Læseren op til det Sted, hvor Sceneriet er henlagt; vi flyve heelt op mod Lapmarken, op til Nordland, Birkenes, de stride Elves og de store Ørnes Land. Paa denne Flugt, ligesom climatiseres vi for den givne Fortællings Hjem. Vi see hele Sverrig, under os et poetisk characteristisk Landkort, hvor hver Provindses Eiendommelighed i Natur og Mennesker ere nøie fremhævede, vi troe paa vor Flugt at titte ind i Stuen i de smaa Stæder, hvor Kaffeselskabet og Klubben er et Verdens-Forum; <pb n="503"/>vi see historiske Navne som Smaalys festligt skinne fra Hytte og Slot; man ønsker næsten at Reisen endnu var længer; og staaer ved Maalet, der hvor Forfatterinden begynder sin <seg target="txtcmnt-503-01"><!--DATA-TERM: Valfart--><!--DATA-DEFINITION: rejse, til et helligt sted eller til en (større) begivenhed, der tiltrækker et stort antal mennesker.-->Valfart</seg> »<hi rend="italic">Midsommar-Resan</hi>«.</p>
+<pb n="504"/>
+<pb n="505"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="»Midsommar-Resan«" synch="midsommar-resan-en-vall-fart-af-foerf-till-teckningar-ur-hvardagslifvet">
+<head type="section-comments">»Midsommar-Resan«</head>
+<p rend="noIndent">Trykt første gang i tysk oversættelse med signaturen »– C –« i <hi rend="italic">Nordischer Telegraph</hi>, nr. 22, 2. marts 1849, med titlen »<hi rend="italic">Midsommar-Resan</hi>, <hi rend="italic">en Vallfart</hi> (die Sommer-Reise, eine Wallfahrt), von der Verfasserin der Zeichnungen aus dem Alltagsleben«. En dansk version siden optaget i <hi rend="italic">Samlede Skrifter. Attende Bind</hi> (BFN 740), der udkom den 8. maj 1855. Sidstnævnte gengives her. BFN 742</p>
+<table rend="textcomments">
+<cell type="page">502</cell><cell><row xml:id="txtcmnt-502-01"><cell type="data-term">Midsommar-Resan … hvardagslifvet</cell><cell type="data-definition">Fredrika Bremer <hi rend="italic">Midsommar-Resan, en Vall-Fart</hi>, af Förf. till »Teckningar ur Hvardagslifvet«, Stockholm 1848 (dansk <hi rend="italic">Midsommersrejsen. En Valfart</hi>, 1849). Den svenske forfatterinde og kvindesagsforkæmper Fredrika Bremer (1801-1865) debuterede 1828 med første del af den anonymt udgivne hverdagsrealistiske række af fortællinger <hi rend="italic">Teckningar utur hvardagslifvet</hi>, 1828-1831 (dansk <hi rend="italic">Tegninger af Hverdagslivet</hi>, 1836), siden udkommer også <hi rend="italic">Nya Teckninger utur Hvardagslifvet</hi>, 1834-1835. H.C. Andersen mødte hende første gang på sin rejse i Sverige i sommeren 1837.</cell></row><row xml:id="txtcmnt-502-02"><cell type="data-term">Jenny Lind</cell><cell type="data-definition">Jenny Lind (1820-1887), svensk sopran; debuterede 18 år gammel i Carl Maria von Webers (1786-1826) opera <hi rend="italic">Der Freischütz</hi> i Stockholm, men hendes stemme blev hurtigt nedslidt. I 1842 indledte hun sin anden karriere med titelrollen i Vicenzo Bellinis (1801-1835) opera <hi rend="italic">Norma</hi>, 1831. Jenny Lind blev fejret over alt i Europa og USA med tilnavnet »den svenske nattergal«; påvirket af dyb religiøsitet trak hun sig tidligt tilbage fra scenen, men gav dog enkelte koncerter. Også H.C. Andersen tog del i Jenny Lind-feberen; han mødte hende første gang i København i 1843.</cell></row><row xml:id="txtcmnt-502-03"><cell type="data-term">overtydes</cell><cell type="data-definition">overbevises.</cell></row><row xml:id="txtcmnt-502-04"><cell type="data-term">Bacchanal(ier)</cell><cell type="data-definition">drikkegilde; oprindeligt knyttet til dyrkelsen af vinguden Bacchus.</cell></row><row xml:id="txtcmnt-502-05"><cell type="data-term">Noveller</cell><cell type="data-definition">noveller eller romaner; begreberne bruges på dette tidspunkt i flæng om en længere fortælling.</cell></row><row xml:id="txtcmnt-502-06"><cell type="data-term">»Syskonlif«</cell><cell type="data-definition">Fredrika Bremer <hi rend="italic">Syskonlif</hi>, 1848 (dansk <hi rend="italic">Søskendeliv</hi>, 1848).</cell></row><row xml:id="txtcmnt-502-07"><cell type="data-term">skelettere</cell><cell type="data-definition">opløse, sønderdele.</cell></row></cell>
+<cell type="page">503</cell><cell><row xml:id="txtcmnt-503-01"><cell type="data-term">Valfart</cell><cell type="data-definition">rejse, til et helligt sted eller til en (større) begivenhed, der tiltrækker et stort antal mennesker.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

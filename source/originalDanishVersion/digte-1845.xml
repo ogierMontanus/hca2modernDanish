@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Digte</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="digte-1845" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>Digterens sidste Sang</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0018/#digte-1845/#digterens-sidste-sang</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Med to Bøger</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0018/#digte-1845/#med-to-boeger</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Hegels »Philosophie der Geschichte«</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0018/#digte-1845/#med-to-boeger/#med-hellig-hjertebanken</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Rückerts »Gedichte«</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0018/#digte-1845/#med-to-boeger/#rueckert-som-en-fugl-sig-svinger</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Romanze</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0018/#digte-1845/#romanze</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+
+
+
+                                                            <separateWork>
+                                                                 <title>Løft mig kun bort, Du stærke Død</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00170</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Med hellig Hjertebanken</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00172</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Rückert som en Fugl sig svinger</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00173</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Vi saae hinanden efter mange Aar</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00174</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#digterens-sidste-sang">Digterens sidste Sang</cell>
+                                                       
+                                                            <cell ref="#med-to-boeger">Med to Bøger</cell>
+                                                       
+                                                            <cell ref="#med-hellig-hjertebanken">Hegels »Philosophie der Geschichte«</cell>
+                                                       
+                                                            <cell ref="#rueckert-som-en-fugl-sig-svinger">Rückerts »Gedichte«</cell>
+                                                       
+                                                            <cell ref="#romanze">Romanze</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Digte" xml:id="digte-1845">
+<head type="part">Digte</head>
+<div type="workPart" rend="Digterens sidste Sang" xml:id="digterens-sidste-sang">
+<head type="section">Digterens sidste Sang</head>
+<lg xml:id="p_00171">
+<l rend="noIndent" subtype="firstline" corresp="Løft mig kun bort, Du stærke Død" rendition="loeft-mig-kun-bort-du-staerke-doed">Løft mig kun bort, Du stærke Død,</l>
+<l rend="noIndent">Til Aandens store Lande!</l>
+<l rend="noIndent">Jeg gaaer min Vei, som Gud mig bød,</l>
+<l rend="noIndent">Fremad, med opreist Pande.</l>
+<l rend="noIndent">Alt hvad jeg gav, Gud, det var dit,</l>
+<l rend="noIndent">Min Rigdom ei jeg vidste!</l>
+<l rend="noIndent"><seg target="txtcmnt-082-01"><!--DATA-TERM: (Hvad jeg har) øvet--><!--DATA-DEFINITION: udrettet.-->Hvad jeg har øvet</seg>, er kun lidt,</l>
+<l rend="noIndent">Jeg sang som Fugl paa Qviste!</l>
+</lg>
+<lg xml:id="p_00172">
+<l rend="noIndent">Farvel hver Rose frisk og rød,</l>
+<l rend="noIndent">Farvel, I mine Kjære!</l>
+<l rend="noIndent">Løft mig kun bort Du stærke Død,</l>
+<l rend="noIndent">Skjøndt her er godt at være!</l>
+<l rend="noIndent">Hav Tak, o Gud, for hvad Du gav,</l>
+<l rend="noIndent">Hav Tak for hvad der kommer!</l>
+<l rend="noIndent">Flyv Død, hen over Tidens Hav,</l>
+<l rend="noIndent">Bort til en evig Sommer!</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Med to Bøger" xml:id="med-to-boeger">
+<head type="part">Med to Bøger</head>
+<floatingText xml:id="med-hellig-hjertebanken" rend="Hegels »Philosophie der Geschichte«" type="poem">
+<head type="section" subtype="numbersOnly">1.</head>
+<head type="section"><seg target="txtcmnt-082-02"><!--DATA-TERM: Hegels »Philosophie der Geschichte«--><!--DATA-DEFINITION: Hegels posthumt udgivne <i>Vorlesungen über die Geschichte der Philosophie</i>, Berlin 1833-1836 (dansk <i>Forelæsninger over Historiens Philosophie</i>, 1842).-->Hegels »Philosophie der Geschichte«</seg></head>
+<lg xml:id="p_00173">
+<l rend="noIndent" subtype="firstline" corresp="Med hellig Hjertebanken" rendition="med-hellig-hjertebanken">Med hellig Hjertebanken</l>
+<l rend="noIndent">Vi staae paa Bjergets Top,</l>
+<l rend="noIndent">Et Verdens Drama for Tanken</l>
+<l rend="noIndent">Rulles i Dalen op!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="rueckert-som-en-fugl-sig-svinger" rend="Rückerts »Gedichte«" type="poem">
+<pb n="83"/><head type="section" subtype="numbersOnly">2.</head>
+<head type="section"><seg target="txtcmnt-083-01"><!--DATA-TERM: Rückerts »Gedichte«--><!--DATA-DEFINITION: F. Rückert udgav flere digtsamlinger, H.C. Andersen henviser her givetvis til <i>Gedichte</i>, 1841 (el. <i>Gesammelte Gedichte</i> I-III, 1843).-->Rückerts »Gedichte«</seg></head>
+<lg xml:id="p_00174">
+<l rend="noIndent" subtype="firstline" corresp="Rückert som en Fugl sig svinger" rendition="rueckert-som-en-fugl-sig-svinger">Rückert som en Fugl sig svinger</l>
+<l rend="noIndent">Gjennem Sprogets Region;</l>
+<l rend="noIndent">Alting dandser, Alting klinger,</l>
+<l rend="noIndent">Hvert et Bogstav faaer Motion,</l>
+<l rend="noIndent">Digterkortet bliver blandet,</l>
+<l rend="noIndent">Han er næsten meer, end klog,</l>
+<l rend="noIndent">Ligesom en Fisk i Vandet</l>
+<l rend="noIndent">Er han i det tydske Sprog.</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Romanze" xml:id="romanze">
+<head type="section">Romanze</head>
+<lg xml:id="p_00175">
+<l rend="noIndent" subtype="firstline" corresp="Vi saae hinanden efter mange Aar" rendition="vi-saae-hinanden-efter-mange-aar">Vi saae hinanden efter mange Aar,</l>
+<l rend="noIndent">Jeg saae i Dybet, da jeg saae i Øiet;</l>
+<l rend="noIndent">Min Tanke aldrig hun at vide faaer –</l>
+<l rend="noIndent">Jeg hilsed hende, – hver var saa fornøiet;</l>
+<l rend="firstIndent">I Skoven.</l>
+</lg>
+<lg xml:id="p_00176">
+<l rend="noIndent">Det var et kort Minut, og dog saa rigt,</l>
+<l rend="noIndent">En Duft af Blomster strømmed mig imøde,</l>
+<l rend="noIndent">Jeg husked paa en Sang – et Ungdoms Digt,</l>
+<l rend="noIndent">Jeg nynner den – og mine Kinder gløde –</l>
+<l rend="firstIndent">I Skoven.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<pb n="84"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Digte" synch="digte-1845">
+<pb n="563"/><head type="section-comments">Digte</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Gæa, æsthetisk Aarbog</hi>, december 1844 med årstallet 1845 på titelbladet. BFN 459-462</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">82,20</cell><cell type="deviation">1. &lt; 1</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">82</cell><cell><row xml:id="txtcmnt-082-01"><cell type="data-term">(Hvad jeg har) øvet</cell><cell type="data-definition">udrettet.</cell></row><row xml:id="txtcmnt-082-02"><cell type="data-term">Hegels »Philosophie der Geschichte«</cell><cell type="data-definition">Hegels posthumt udgivne <hi rend="italic">Vorlesungen über die Geschichte der Philosophie</hi>, Berlin 1833-1836 (dansk <hi rend="italic">Forelæsninger over Historiens Philosophie</hi>, 1842).</cell></row></cell>
+<cell type="page">83</cell><cell><row xml:id="txtcmnt-083-01"><cell type="data-term">Rückerts »Gedichte«</cell><cell type="data-definition">F. Rückert udgav flere digtsamlinger, H.C. Andersen henviser her givetvis til <hi rend="italic">Gedichte</hi>, 1841 (el. <hi rend="italic">Gesammelte Gedichte</hi> I-III, 1843).</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

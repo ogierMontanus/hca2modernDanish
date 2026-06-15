@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Af Fortællinger og Digte</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="af-fortaellinger-og-digte" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>Pigen fra Albano</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0035/#af-fortaellinger-og-digte/#madonna-jeg-neppe-af-glaede-kan-tale</section>
+                                                                 <date>1848</date>
+                                                       </separateWork>
+
+
+
+                                                            <separateWork>
+                                                                 <title>Madonna! jeg neppe af Glæde kan tale</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00282</section>
+                                                                 <date>1848</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1848</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Af Fortællinger og Digte" xml:id="af-fortaellinger-og-digte">
+<head type="main"><source subtype="foreign">Af</source> Fortællinger og Digte</head>
+<floatingText xml:id="madonna-jeg-neppe-af-glaede-kan-tale" rend="Pigen fra Albano" type="poem">
+     <head type="part">Pigen fra <seg target="txtcmnt-123-01"><!--DATA-TERM: Albano--><!--DATA-DEFINITION: 22 km sydøst for Rom.-->Albano</seg></head>
+     <head type="sub">(Fremsagt, som Prolog ved Kunstner-Carnevalet i <seg target="txtcmnt-123-02"><!--DATA-TERM: Casino--><!--DATA-DEFINITION: teater og forlystelsesetablissement i Amaliegade i København, åbnet 1848 (nedlagt 1939).--><hi rend="italic">Casino</hi></seg> 1847<note type="footnote"><!--* --><p rend="noIndent"><!--* -->En ung Kunstner, klædt som Bondepige fra <hi rend="italic">Albano</hi>, traadte frem paa Scenen.</p></note>)</head>
+     <lg xml:id="p_00283">
+          <l rend="noIndent" subtype="firstline" corresp="Madonna! jeg neppe af Glæde kan tale" rendition="madonna-jeg-neppe-af-glaede-kan-tale"><seg target="txtcmnt-123-03"><!--DATA-TERM: Madonna--><!--DATA-DEFINITION: Jomfru Maria.-->Madonna</seg>! jeg neppe af Glæde kan tale,</l>
+          <l rend="noIndent">Jeg er i <seg target="txtcmnt-123-04"><!--DATA-TERM: festino--><!--DATA-DEFINITION: muntert selskab, bal.--><hi rend="italic">festino</hi></seg>, ved Carnevale,</l>
+          <l rend="noIndent">Jeg faaer hvad jeg bad saa inderligt om! – –</l>
+          <l rend="noIndent">Iaar saae jeg første Gang i Rom</l>
+          <l rend="noIndent">Et Carnevale. Det er noget andet</l>
+          <l rend="noIndent">End i <hi rend="italic">Albano</hi>, som ligger paa Landet.</l>
+          <l rend="noIndent">Jeg kom just til <hi rend="italic">Rom</hi>, som Klokkerne klang,</l>
+          <l rend="noIndent">Og Carnevalet blev sat i Gang.</l>
+          <l rend="noIndent">I <seg target="txtcmnt-123-05"><!--DATA-TERM: Corso--><!--DATA-DEFINITION: (italiensk) egentlig løb; her Roms hovedstrøg.-->Corso</seg>, – nei hvor den Gade er lang! –</l>
+          <l rend="noIndent">De deiligste Tepper fra Vinduerne hang,</l>
+          <l rend="noIndent">Og udklædt’ var’ Folk, ja Vogne og Heste,</l>
+          <l rend="noIndent">Paa Stylter man gik og gjorde sig stor.</l>
+          <l rend="noIndent">I bare <seg target="txtcmnt-123-06"><!--DATA-TERM: Salat--><!--DATA-DEFINITION: salatblade blev (af de fattige) brugt som udklædning.-->Salat</seg> kom Fa’er og Mo’er;</l>
+          <l rend="noIndent">Uh, der var en Trængsel og det var det bedste!</l>
+          <l rend="noIndent">Een Vogn var et Dampskib med Skorsteen som røg,</l>
+          <l rend="noIndent">Der var den deiligste Tummel og Støi,</l>
+          <l rend="noIndent">Der regned’ <hi rend="italic">Confetti</hi> paa Ansigt og Kjole.</l>
+          <l rend="noIndent">Paa hele Fortouget sad man paa Stole,</l>
+          <l rend="noIndent">Kanonerne dundred’ – du hellige Ole!</l>
+          <l rend="noIndent">Nu Veddeløbs-Hestene kom, hvilken Fart,</l>
+          <l rend="noIndent">»<hi rend="italic"><seg target="txtcmnt-123-07"><!--DATA-TERM: Cavalli--><!--DATA-DEFINITION: (italiensk) heste.-->Cavalli</seg>! Cavalli!</hi>« det gik altfor <seg target="txtcmnt-123-08"><!--DATA-TERM: snart--><!--DATA-DEFINITION: hurtigt.-->snart</seg>,</l>
+          <l rend="noIndent">De suuste forbi, det var som et Gys.</l>
+          <l rend="noIndent">Nu havde vi <seg target="txtcmnt-123-09"><!--DATA-TERM: Moccoli--><!--DATA-DEFINITION: (italiensk) her: lysfest, der afsluttede det romerske karneval, hvor hver bar på et lille tændt lys og søgte at slukke de andres, så de var uden lys, <i>senza moccoli</i>; jf. nedenfor.--><hi rend="italic">Moccoli</hi></seg>: Lys tæt ved Lys,</l>
+          <l rend="noIndent">Paa Vogne og Heste, paa hele Hoben,</l>
+          <l rend="noIndent">Uh, der var en Myl’ren, en Surren, en Raaben,</l>
+          <l rend="noIndent">Fra Taget kom Lys paa Stænger og Rør,</l>
+          <l rend="noIndent">Man slukked’ man tændte, »hu Lyset døer!«</l>
+          <l rend="noIndent">Man skreg: »<seg target="txtcmnt-123-10"><!--DATA-TERM: sensa moccoli--><!--DATA-DEFINITION: <i>senza moccoli</i> (italiensk) uden lys, her om det lille lys brugt ved det romerske karneval; jf. ovenfor.--><hi rend="italic">sensa moccoli!</hi></seg>« O, jeg var ør,</l>
+          <l rend="noIndent">Det lyste, det flammed’, man mærkede Heden</l>
+          <pb n="124"/>
+          <l rend="noIndent">Af Lys, tusindviis, for oven og neden.</l>
+          <l rend="noIndent">For mig var det ganske, som Hexeri,</l>
+          <l rend="noIndent">Lyksalig jeg tabte mig reent deri, – –</l>
+          <l rend="noIndent">Og saa var Carnevalet forbi!</l>
+          <l rend="noIndent">Da blev jeg saa trist i mit gode Humeur,</l>
+          <l rend="noIndent">Det var, som Verden var uden Couleur,</l>
+          <l rend="noIndent">Jeg ønsked’ saa stille, det maa jeg bekjende:</l>
+          <l rend="noIndent">»Gid Carnevalet fik aldrig Ende!</l>
+          <l rend="noIndent">Gid til dets Forlængelse kun blev sat</l>
+          <l rend="noIndent">En Uge bare, ja kun een Nat!«</l>
+          <l rend="noIndent">Og lige med eet saa stod ved min Side</l>
+          <l rend="noIndent">En Carnevals Troldmand med Vinger saa hvide,</l>
+          <l rend="noIndent">Saa skinnende klare; hans Øine var blide,</l>
+          <l rend="noIndent">Hans Mund var saa smuk, hans Pande saa høi,</l>
+          <l rend="noIndent">Han løfted’ mig op paa sin Arm og vi fløi</l>
+          <l rend="noIndent">Saa langt over Skyer og Bjerge og Dale.</l>
+          <l rend="noIndent">»Du kommer til Danmark,« det var hans Tale,</l>
+          <l rend="noIndent">»Du kommer til Kunstnernes Carnevale;</l>
+          <l rend="noIndent">Lidt silde de holde just deres Festino,</l>
+          <l rend="noIndent">Det er i den store Sal i Casino.</l>
+          <l rend="noIndent">Saa snart Du siger Du kommer fra Rom,</l>
+          <l rend="noIndent">Saa faaer Du i Dandsen den første Svingom,</l>
+          <l rend="noIndent">Hils kun fra <seg target="txtcmnt-124-01"><!--DATA-TERM: Campagnen--><!--DATA-DEFINITION: den store slette, der omgiver Rom.-->Campagnen</seg> fra <seg target="txtcmnt-124-02"><!--DATA-TERM: monte cavo--><!--DATA-DEFINITION: Monte Cavo; det højeste bjerg i Albanerbjergene.--><hi rend="italic">monte cavo</hi></seg>,</l>
+          <l rend="noIndent">Fra <seg target="txtcmnt-124-03"><hi rend="italic">Küchler</hi> og <hi rend="italic">Marstrand</hi>, fra <hi rend="italic">Koop</hi> og <hi rend="italic">Bravo</hi></seg>,</l>
+          <l rend="noIndent">De fleste der kjende Italia,</l>
+          <l rend="noIndent">Fortæl Du dem løst og fast derfra,</l>
+          <l rend="noIndent">Og Kys og Klap vil du faae for din Tale</l>
+          <l rend="noIndent">Og Du, – Du kommer til Carnevale!«</l>
+          <l rend="noIndent">– Det gik gjennem Luftens skjærende Strøm,</l>
+          <l rend="noIndent">Saa hurtigt, som Sollyset gaaer over Engen;</l>
+          <l rend="noIndent">Her er jeg! – ak er det nu ikke en Drøm.</l>
+          <l rend="noIndent">Hu! Det var jo grueligt, laae jeg i Sengen!</l>
+          <l rend="noIndent">Nei, det er umuligt! til Danmark jeg kom,</l>
+          <l rend="noIndent">Her er Carnevale, saa friskt, som i Rom,</l>
+          <l rend="noIndent">Med Optog og Masker, det bruser afsted.</l>
+          <l rend="noIndent"><seg target="txtcmnt-124-04"><!--DATA-TERM: Eviva la gjoja--><!--DATA-DEFINITION: evvìva la gi ia (italiensk) leve glæden.--><hi rend="italic">Eviva la gjoja</hi></seg> og jeg, jeg er med.</l>
+          <l rend="noIndent">Gid først om en Maaned vi sige maatte:</l>
+          <l rend="noIndent">»<seg target="txtcmnt-124-05"><!--DATA-TERM: Addio, addio! felicissima notte--><!--DATA-DEFINITION: (italiensk) farvel, farvel! god nat.--><hi rend="italic">Addio, addio! felicissima notte!</hi></seg>«</l>
+     </lg>
+</floatingText>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Af Fortællinger og Digte" synch="af-fortaellinger-og-digte">
+<head type="section-comments"><source subtype="foreign">Af</source> Fortællinger og Digte</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Dansk Folkekalender for 1848</hi>, 1847. BFN 525-526</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">124,7</cell><cell type="deviation">bekjende: &lt; bekjende;</cell></row>
+<row><cell type="position">124,38</cell><cell type="deviation">»<hi rend="italic">Addio</hi> &lt; <hi rend="italic">Addio</hi></cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">123</cell><cell><row xml:id="txtcmnt-123-01"><cell type="data-term">Albano</cell><cell type="data-definition">22 km sydøst for Rom.</cell></row><row xml:id="txtcmnt-123-02"><cell type="data-term">Casino</cell><cell type="data-definition">teater og forlystelsesetablissement i Amaliegade i København, åbnet 1848 (nedlagt 1939).</cell></row><row xml:id="txtcmnt-123-03"><cell type="data-term">Madonna</cell><cell type="data-definition">Jomfru Maria.</cell></row><row xml:id="txtcmnt-123-04"><cell type="data-term">festino</cell><cell type="data-definition">muntert selskab, bal.</cell></row><row xml:id="txtcmnt-123-05"><cell type="data-term">Corso</cell><cell type="data-definition">(italiensk) egentlig løb; her Roms hovedstrøg.</cell></row><row xml:id="txtcmnt-123-06"><cell type="data-term">Salat</cell><cell type="data-definition">salatblade blev (af de fattige) brugt som udklædning.</cell></row><row xml:id="txtcmnt-123-07"><cell type="data-term">Cavalli</cell><cell type="data-definition">(italiensk) heste.</cell></row><row xml:id="txtcmnt-123-08"><cell type="data-term">snart</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-123-09"><cell type="data-term">Moccoli</cell><cell type="data-definition">(italiensk) her: lysfest, der afsluttede det romerske karneval, hvor hver bar på et lille tændt lys og søgte at slukke de andres, så de var uden lys, <hi rend="italic">senza moccoli</hi>; jf. nedenfor.</cell></row><row xml:id="txtcmnt-123-10"><cell type="data-term">sensa moccoli</cell><cell type="data-definition"><hi rend="italic">senza moccoli</hi> (italiensk) uden lys, her om det lille lys brugt ved det romerske karneval; jf. ovenfor.</cell></row></cell>
+<pb n="570"/>
+<cell type="page">124</cell><cell><row xml:id="txtcmnt-124-01"><cell type="data-term">Campagnen</cell><cell type="data-definition">den store slette, der omgiver Rom.</cell></row><row xml:id="txtcmnt-124-02"><cell type="data-term">monte cavo</cell><cell type="data-definition">Monte Cavo; det højeste bjerg i Albanerbjergene.</cell></row><row xml:id="txtcmnt-124-03"><cell type="data-term">Küchler og Marstrand, fra Koop og Bravo</cell><cell type="data-definition">malere, som H.C. Andersen mødte under sine rejser til Rom i 1833-1834, 1840-1841 og 1846.</cell></row><row xml:id="txtcmnt-124-04"><cell type="data-term">Eviva la gjoja</cell><cell type="data-definition">evvìva la gi ia (italiensk) leve glæden.</cell></row><row xml:id="txtcmnt-124-05"><cell type="data-term">Addio, addio! felicissima notte</cell><cell type="data-definition">(italiensk) farvel, farvel! god nat.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

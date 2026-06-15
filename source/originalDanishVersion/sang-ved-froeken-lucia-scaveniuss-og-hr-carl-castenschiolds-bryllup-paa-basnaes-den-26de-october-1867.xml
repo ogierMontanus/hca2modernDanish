@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang ved Frøken Lucia Scavenius’s og Hr. Carl Castenschiolds Bryllup paa Basnæs den 26de October 1867</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-ved-froeken-lucia-scaveniuss-og-hr-carl-castenschiolds-bryllup-paa-basnaes-den-26de-october-1867" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>I gammelt Sagn, i Tider mørke, haarde</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00957</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1867</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang ved Frøken Lucia Scavenius’s og Hr. Carl Castenschiolds Bryllup paa Basnæs den 26de October 1867" xml:id="sang-ved-froeken-lucia-scaveniuss-og-hr-carl-castenschiolds-bryllup-paa-basnaes-den-26de-october-1867"><pb n="380"/><head type="part">Sang ved Frøken <hi rend="italic"><seg target="txtcmnt-380-01"><!--DATA-TERM: Lucia--><!--DATA-DEFINITION: Lucie.-->Lucia</seg> Scavenius’s</hi> og Hr. <hi rend="italic">Carl Castenschiolds</hi> Bryllup paa <seg target="txtcmnt-380-02"><!--DATA-TERM: Basnæs--><!--DATA-DEFINITION: familien Scavenius’ hovedgård og gods sydøst for Skælskør, hvor specielt Henriette Scavenius, Lucies mor, var en nær veninde af H.C. Andersen.-->Basnæs</seg> den 26<hi rend="raised">de </hi>October 1867</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-380-03"><!--DATA-TERM: Der er et Land … Norden--><!--DATA-DEFINITION: førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <i>Svend Grathe</i>, 1825, med musik af C.E.F. Weyse, 1826.-->Der er et Land, dets Sted er høit mod Norden.</seg></hi></head>
+<lg xml:id="p_00958">
+<l rend="noIndent" subtype="firstline" corresp="I gammelt Sagn, i Tider mørke, haarde" rendition="i-gammelt-sagn-i-tider-moerke-haarde">I <seg target="txtcmnt-380-04" type="dfnStart"/><!--DATA-TERM: gammelt Sagn … Nabogaarde--><!--DATA-DEFINITION: Borreby, herregård syd for Skælskør, ligger kun få km fra Basnæs; sagnet har ikke kunnet identificeres.-->gammelt Sagn, i Tider mørke, haarde,</l>
+<l rend="noIndent">Trods den besjungne Ridder-Herlighed,</l>
+<l rend="noIndent">Da laae i Strid her disse Nabogaarde<seg type="dfnEnd" target="txtcmnt-380-04"/>,</l>
+<l rend="noIndent">Nu anden Slægt og Tid har Kjærlighed.</l>
+<l rend="noIndent">Fra <hi rend="italic">Basnæs</hi> fører <seg target="txtcmnt-380-05"><!--DATA-TERM: Borrebys Besidder--><!--DATA-DEFINITION: Castenschiold var ejer af herregården Borreby.--><hi rend="italic">Borrebys</hi> Besidder</seg></l>
+<l rend="noIndent">Sin glade, unge Brud til Borreby.</l>
+<l rend="noIndent">Og Vinteren sneer Roser; Fugleqvidder</l>
+<l rend="noIndent">Forkynder Lykken i det nye Ly.</l>
+</lg>
+<lg xml:id="p_00959">
+<l rend="noIndent">Vort Hjerteslag bliv Sang ved Bryllupsbordet,</l>
+<l rend="noIndent">Lyd festlig glad til Kirkeklokkens Klang;</l>
+<l rend="noIndent">Som Blomst med Duft og Farve flyver Ordet,</l>
+<l rend="noIndent"><hi rend="italic">Carl</hi> og <hi rend="italic">Lucia</hi> bringe vi vor Sang;</l>
+<l rend="noIndent">Som kjærlig Datter hende vi bekrandse</l>
+<l rend="noIndent">I Barndomshjemmet, det hun nu gaaer fra,</l>
+<l rend="noIndent">Hans Navn i Danmark lød fra <seg target="txtcmnt-380-06"><!--DATA-TERM: Dyppels Skandse--><!--DATA-DEFINITION: Dybbøl Skanse; hentydning til brudgommens deltagelse som premierløjtnant i artilleriet i anden slesvigske krig, 1864; han var kendt som »Helten fra Skanse II«.-->Dyppels Skandse</seg>,</l>
+<l rend="noIndent">Den tappre Landsoldat et glad Hurra!</l>
+</lg>
+<lg xml:id="p_00960">
+<l rend="noIndent">I hvad Vorherre Eder ogsaa sender,</l>
+<l rend="noIndent">Hold fast i Glæde, Prøvelse og Tro;</l>
+<l rend="noIndent">Husk, hvor i Troskab holde fast to Hænder,</l>
+<l rend="noIndent">Alkjærligheden slipper ei de To.</l>
+<l rend="noIndent">Et Lykkens Hjem er reist paa Dannevangen,</l>
+<l rend="noIndent">Og Solskin strømmer fra det Indre ud.</l>
+<l rend="noIndent">Vort Hjertes Bøn, løft Dig igjennem Sangen,</l>
+<l rend="noIndent"><seg target="txtcmnt-380-07"><!--DATA-TERM: Henfarne--><!--DATA-DEFINITION: afdøde.-->Henfarne</seg> Kjære synge med hos Gud.</l>
+</lg>
+<lg xml:id="p_00961">
+<l rend="noIndent">Mens Brud og Brudgom læse Sangen dæmpet,</l>
+<l rend="noIndent">I Bryllupsfryd er Alvors-Tanken Gjest,</l>
+<l rend="noIndent">Udfold Dig, Dannebrog, for Dig han kjæmped’,</l>
+<l rend="noIndent"><seg target="txtcmnt-380-08"><!--DATA-TERM: Prang (Blomsterflor)--><!--DATA-DEFINITION: her: udfold din pragt.-->Prang Blomsterflor</seg> ved Eders Søsters Fest,</l>
+<l rend="noIndent">Saa dansk, som <seg target="txtcmnt-380-09"><!--DATA-TERM: »Skjold« og »Skagen«--><!--DATA-DEFINITION: måske hentydning til henholdsvis brudgom og brud: <i>Skjold</i> var et af de linjeskibe, der deltog i kampene 1864, og brudens familie stammer fra Skagen.-->»Skjold« og »<seg target="txtcmnt-380-10">Skagen</seg>«</seg> er i Sproget,</l>
+<pb n="381"/>
+<l rend="noIndent">Saa hjertedansk er ogsaa disse To.</l>
+<l rend="noIndent">Følg dem med Sang, følg dem med Dannebroget,</l>
+<l rend="noIndent">Paa <hi rend="italic">Borreby</hi> nu Lykkeblomsten groe.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang ved Frøken Lucia Scavenius’s og Hr. Carl Castenschiolds Bryllup paa Basnæs den 26de October 1867" synch="sang-ved-froeken-lucia-scaveniuss-og-hr-carl-castenschiolds-bryllup-paa-basnaes-den-26de-october-1867">
+<head type="section-comments">Sang ved Frøken <hi rend="italic">Lucia Scavenius’s</hi> og Hr. <hi rend="italic">Carl Castenschiolds</hi> Bryllup paa Basnæs den 26<hi rend="raised">de </hi>October 1867</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 931</p>
+<table rend="textcomments">
+<cell type="page">380</cell><cell><row xml:id="txtcmnt-380-01"><cell type="data-term">Lucia</cell><cell type="data-definition">Lucie.</cell></row><row xml:id="txtcmnt-380-02"><cell type="data-term">Basnæs</cell><cell type="data-definition">familien Scavenius’ hovedgård og gods sydøst for Skælskør, hvor specielt Henriette Scavenius, Lucies mor, var en nær veninde af H.C. Andersen.</cell></row><row xml:id="txtcmnt-380-03"><cell type="data-term">Der er et Land … Norden</cell><cell type="data-definition">førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <hi rend="italic">Svend Grathe</hi>, 1825, med musik af C.E.F. Weyse, 1826.</cell></row><row xml:id="txtcmnt-380-04"><cell type="data-term">gammelt Sagn … Nabogaarde</cell><cell type="data-definition">Borreby, herregård syd for Skælskør, ligger kun få km fra Basnæs; sagnet har ikke kunnet identificeres.</cell></row><row xml:id="txtcmnt-380-05"><cell type="data-term">Borrebys Besidder</cell><cell type="data-definition">Castenschiold var ejer af herregården Borreby.</cell></row><row xml:id="txtcmnt-380-06"><cell type="data-term">Dyppels Skandse</cell><cell type="data-definition">Dybbøl Skanse; hentydning til brudgommens deltagelse som premierløjtnant i artilleriet i anden slesvigske krig, 1864; han var kendt som »Helten fra Skanse II«.</cell></row><row xml:id="txtcmnt-380-07"><cell type="data-term">Henfarne</cell><cell type="data-definition">afdøde.</cell></row><row xml:id="txtcmnt-380-08"><cell type="data-term">Prang (Blomsterflor)</cell><cell type="data-definition">her: udfold din pragt.</cell></row><row xml:id="txtcmnt-380-09"><cell type="data-term">»Skjold« og »Skagen«</cell><cell type="data-definition">måske hentydning til henholdsvis brudgom og brud: <hi rend="italic">Skjold</hi> var et af de linjeskibe, der deltog i kampene 1864, og brudens familie stammer fra Skagen.</cell></row><row xml:id="txtcmnt-380-10"><cell type="data-term">Skage(n)</cell><cell type="data-definition">odde.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

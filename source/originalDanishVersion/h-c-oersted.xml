@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>† H. C. Ørsted</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="h-c-oersted" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Han var saa sand, han var saa eiegod</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00399</section>
+                                                                 <date>1851</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1851</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="† H. C. Ørsted" xml:id="h-c-oersted"><pb n="176"/><head type="part">† H. C. Ørsted</head>
+<lg xml:id="p_00400">
+<l rend="noIndent" subtype="firstline" corresp="Han var saa sand, han var saa eiegod" rendition="han-var-saa-sand-han-var-saa-eiegod">Han var saa sand, han var saa eiegod,</l>
+<l rend="noIndent">Et Barne-Sind og dog den dybe Tænker,</l>
+<l rend="noIndent">For ham i denne Verden klart det stod</l>
+<l rend="noIndent">Hvad Gud til Mængden først bag Døden skjænker.</l>
+<l rend="noIndent">Han var et Fjeld i Danmark, seet vidt om,</l>
+<l rend="noIndent"><seg target="txtcmnt-176-01"><!--DATA-TERM: De Vises Sten--><!--DATA-DEFINITION: forestillingen om de vises sten, der kan forvandle uægte metaller til guld, stammer fra alkymien.-->De Vises Sten</seg> i dette Fjeld var inde!</l>
+<l rend="noIndent">Hvor var han kjærlig, ligefrem og from,</l>
+<l rend="noIndent">Og dog saa stor! han glemmes ingensinde,</l>
+<l rend="noIndent">Thi ved hans <seg target="txtcmnt-176-02"><!--DATA-TERM: Tankelyn--><!--DATA-DEFINITION: hentydning til H.C. Ørsteds opdagelse af elektromagnetismen i 1820.-->Tankelyn</seg> et Lys blev tændt,</l>
+<l rend="noIndent">Der viser Skatte, saa umaalelige!</l>
+<l rend="noIndent">Og han var Danmarks Søn fra Ringhed sendt,</l>
+<l rend="noIndent">En Konge dog, og det i Aandens Rige.</l>
+<l rend="noIndent">Hans Liv er sluttet her, saa godt, saa smukt,</l>
+<l rend="noIndent">Hans Navn, den Stjerne bliver aldrig slukt!</l>
+<l rend="noIndent">For os, som stod ham nær, ham voxed’ fast,</l>
+<l rend="noIndent">En Del af Verden med hans Hjerte brast.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="† H. C. Ørsted" synch="h-c-oersted">
+<head type="section-comments">† H. C. Ørsted</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Fædrelandet</hi>, nr. 59, 11. marts 1851. BFN 588</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">176,10</cell><cell type="deviation">blev tændt, &lt; blev tændt.</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">176</cell><cell><row xml:id="txtcmnt-176-01"><cell type="data-term">De Vises Sten</cell><cell type="data-definition">forestillingen om de vises sten, der kan forvandle uægte metaller til guld, stammer fra alkymien.</cell></row><row xml:id="txtcmnt-176-02"><cell type="data-term">Tankelyn</cell><cell type="data-definition">hentydning til H.C. Ørsteds opdagelse af elektromagnetismen i 1820.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

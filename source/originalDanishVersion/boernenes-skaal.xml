@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Børnenes Skaal</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="boernenes-skaal" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Vi har fra Østerland et Eventyr</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01039</section>
+                                                                 <date>1871</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1871</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Børnenes Skaal" xml:id="boernenes-skaal"><pb n="420"/><head type="part">Børnenes Skaal</head>
+<head type="part">Ved <hi rend="italic">Moritz</hi> og <hi rend="italic">Dorothea Melchiors</hi> Sølvbryllup, den 17de Juni 1871</head>
+
+<lg xml:id="p_01040">
+<l rend="noIndent" subtype="firstline" corresp="Vi har fra Østerland et Eventyr" rendition="vi-har-fra-oesterland-et-eventyr">Vi har fra Østerland et Eventyr</l>
+<l rend="noIndent">Om <seg target="txtcmnt-420-01"><!--DATA-TERM: Abdallah som fandt Fiirkløveren--><!--DATA-DEFINITION: jf. É. Laboulaye <i>Abdallah ou Le trèfle à quatre feuilles. Conte Arabe</i>, 1859 (dansk <i>Abdallah eller Firkløveren. En arabisk Fortælling</i>, 1871).--><hi rend="italic">Abdallah</hi> som fandt Fiirkløveren</seg>,</l>
+<l rend="noIndent">Livslykkens rige, underfulde Kløver.</l>
+<l rend="noIndent">Det første Blad er Kobber, Sølv det andet,</l>
+<l rend="noIndent">Det tredie Guld, det fjerde en Juveel.</l>
+<l rend="noIndent">Den Lykke-Kløver groer endnu og findes,</l>
+<l rend="noIndent">Og det er deiligt, Mange finde den.</l>
+<l rend="noIndent">Det første Blad <seg target="txtcmnt-420-02"><!--DATA-TERM: (blev) alt--><!--DATA-DEFINITION: allerede.-->blev alt</seg> paa Vuggen lagt</l>
+<l rend="noIndent">Som Faddergave for den Lykkefødte</l>
+<l rend="noIndent">I gode Kaar hos kjærlige Forældre.</l>
+<l rend="noIndent">Det andet Blad har Ungdoms-Sindets Indskrift,</l>
+<l rend="noIndent">Dets <seg target="txtcmnt-420-03"><!--DATA-TERM: Sølvklang--><!--DATA-DEFINITION: egentlig fin, lys klang.-->Sølvklang</seg> svinder ei i Prøvelsen,</l>
+<l rend="noIndent">I Alvors-Dage og i Solskins-Dage,</l>
+<l rend="noIndent">Hvor Mand og Hustru trofast følges ad.</l>
+<l rend="noIndent">Det tredie Blad er Guld, Forældres Skat,</l>
+<l rend="noIndent">Den Rigdom, som de har i Børnene.</l>
+<l rend="noIndent">Som Fremtids Syn sees fjerde Blad – Juvelen.</l>
+</lg>
+<lg xml:id="p_01041">
+<l rend="noIndent">Ved Festen her man kommer let paa Tanken</l>
+<l rend="noIndent">Om Abdallah, som fandt Fiirkløveren.</l>
+<l rend="noIndent">Den eies ogsaa her af Brudeparret.</l>
+<l rend="noIndent">Ved Vuggen <seg target="txtcmnt-420-04"><!--DATA-TERM: (fik de) alt--><!--DATA-DEFINITION: allerede.-->fik de alt</seg> det første Blad,</l>
+<l rend="noIndent">Bragt i det lyse, sorgfri’ Barndomshjem.</l>
+<l rend="noIndent">Og da de mødtes, troe i Sind og Tanke,</l>
+<l rend="noIndent">I Alvors Dage og i Glædes Dage,</l>
+<l rend="noIndent">Udfolded sig det andet Blad, Sølvbladet,</l>
+<l rend="noIndent">Med Ægtekjærlighedens glade Qvad:</l>
+</lg>
+<lg xml:id="p_01042">
+<?oxy_attributes rend="&lt;change type=&quot;modified&quot; oldValue=&quot;noIndent&quot; author=&quot;revar&quot; timestamp=&quot;20240622T124647+0200&quot; /&gt;"?><l rend="firstIndent">»<seg target="txtcmnt-420-05" type="dfnStart"/><!--DATA-TERM: Hvad bittert … sin Ret!--><!--DATA-DEFINITION: denne strofe har tidligere været trykt som de første fire verslinjer i anden strofe af »Sang paa Sölvbryllupsfesten. Den 24 October 1858« (BFN 778; se side 308).-->Hvad bittert er, forsvinder,</l>
+<?oxy_attributes rend="&lt;change type=&quot;modified&quot; oldValue=&quot;noIndent&quot; author=&quot;revar&quot; timestamp=&quot;20240622T124700+0200&quot; /&gt;"?><l rend="firstIndent">Hvad tungt er, bliver let,</l>
+<?oxy_attributes rend="&lt;change type=&quot;modified&quot; oldValue=&quot;noIndent&quot; author=&quot;revar&quot; timestamp=&quot;20240622T124709+0200&quot; /&gt;"?><l rend="firstIndent">Man faaer en Skat af Minder,</l>
+<?oxy_attributes rend="&lt;change type=&quot;modified&quot; oldValue=&quot;noIndent&quot; author=&quot;revar&quot; timestamp=&quot;20240622T124713+0200&quot; /&gt;"?><l rend="firstIndent">Og Livet skeer sin Ret!<seg type="dfnEnd" target="txtcmnt-420-05"/>«</l>
+</lg>
+<lg xml:id="p_01043">
+<l rend="noIndent">Det tredie Blad paa Lykkekløveren,</l>
+<l rend="noIndent">Det Blad af Guld, det Hjertets bedste Guld,</l>
+<pb n="421"/>
+<l rend="noIndent">Blev ogsaa deres: det er Børneflokken.</l>
+<l rend="noIndent">Gud skjærme og velsigne den for dem!</l>
+<l rend="noIndent">Den groe i Sundhed, Sjælefred og Lykke!</l>
+<l rend="noIndent">– En Skaal for »Hjerte-Guldet«: Børnene!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Børnenes Skaal" synch="boernenes-skaal">
+<head type="section-comments">Børnenes Skaal</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget ved Moritz og Dorothea Melchiors sølvbryllup 16. Februar 1871. BFN 1009. Førstetrykket har ikke kunnet lokaliseres, hvorfor digtet her gengives efter <hi rend="italic">Samlede Skrifter. Tre og Tredivte Bind</hi>, 1879, s. 154-155.</p>
+<table rend="textcomments">
+<cell type="page">420</cell><cell><row xml:id="txtcmnt-420-01"><cell type="data-term">Abdallah som fandt Fiirkløveren</cell><cell type="data-definition">jf. É. Laboulaye <hi rend="italic">Abdallah ou Le trèfle à quatre feuilles. Conte Arabe</hi>, 1859 (dansk <hi rend="italic">Abdallah eller <pb n="626"/>Firkløveren. En arabisk Fortælling</hi>, 1871).</cell></row><row xml:id="txtcmnt-420-02"><cell type="data-term">(blev) alt</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-420-03"><cell type="data-term">Sølvklang</cell><cell type="data-definition">egentlig fin, lys klang.</cell></row><row xml:id="txtcmnt-420-04"><cell type="data-term">(fik de) alt</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-420-05"><cell type="data-term">Hvad bittert … sin Ret!</cell><cell type="data-definition">denne strofe har tidligere været trykt som de første fire verslinjer i anden strofe af »Sang paa Sölvbryllupsfesten. Den 24 October 1858« (BFN 778; se side 308).</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

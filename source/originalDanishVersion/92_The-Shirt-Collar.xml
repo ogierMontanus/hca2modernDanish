@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Shirt Collar</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="flipperne">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="flipperne_modern.xml">moderniseret version</note>
+                                                       <note target="92_The-Shirt-Collar.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a fine gentleman whose entire personal effects consisted of a boo...</incipit><idno type="image">Flipperne_01_2022-03-09.png</idno><popularity>946</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Shirt Collar. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>livsforloeb</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-11" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-11">formatting</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Shirt Collar">
+               <head type="main" rend="The Shirt Collar">The Shirt Collar</head>                <p rend="noIndent" xml:id="p_00001">There was once a fine gentleman whose entire personal effects consisted of a bootjack and a comb, but he had the loveliest shirt collar in the world and this is a story about that shirt collar. – It was now so old that it was thinking of getting married, and it so happened that it ended up in the wash along with a garter.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Oh!’ the shirt collar said, ‘I have never before set eyes on anyone so slim and so fine, so soft and so dainty. May I make so bold as to ask you your name?’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘I won’t tell you!’ the garter said.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Where do you come from?’ the collar asked.</p>
+          <p rend="firstIndent" xml:id="p_00005">But the garter was extremely bashful by nature and thought that was a strange thing to be asked to reply to.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘You must surely be a girdle!’ the collar said, ‘some sort of underneath girdle! I can clearly see that you combine utility and adornment, my little miss!’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘You’re not allowed to speak to me!’ the garter said, ‘I’m sure I have not in any way given you occasion to!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Oh yes, when you are as pretty as you are!’ the collar said, ‘that’s occasion enough!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Don’t come so close to me!’ the garter said. ‘You look so masculine!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘I’m also a fine gentleman!’ the shirt collar said, ‘I own a bootjack and a comb!’ and that wasn’t strictly true, for it was his master that owned them, but it was boasting.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Don’t come close to me!’ the garter said, ‘I’m not used to that sort of thing!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Prude!’ the shirt collar said and then it was taken up out of the wash; it was starched and hung over the chair in the sunshine and then placed on the ironing board; there, the hot iron came.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Madam!’, the collar said, ‘little widowed lady! I’m getting quite hot! I’m becoming someone else, I’m taking leave of my folds, you’re burning a hole in me! oh! – I ask you to marry me!’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Ragamuffin!’ the iron said and proudly flattened the collar, for it imagined it was a steam engine that was to be used on the railway to pull carriages.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘Ragamuffin!’ it said.</p>
+          <p rend="firstIndent" xml:id="p_00016">The shirt collar frayed a bit at the edges, and so the paper scissors came along to cut off the frayed ends.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Oh!’ the shirt collar said! ‘You must be a prima ballerina! how you can stretch your legs! You are the most elegant thing I have ever seen! No human being can possibly emulate you!’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘I know,’ the scissors said.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘You deserve to be a countess!’ the shirt collar said, ‘All I have is a fine gentlemen, a bootjack and a comb! – If only I had a shire of my own!’</p>
+          <p rend="firstIndent" xml:id="p_00020">‘Proposing, is he!’ the scissors said, got very angry and gave the collar a hefty snip, and that was him rejected.</p>
+          <p rend="firstIndent" xml:id="p_00021">‘It looks like I’ll have to propose to the comb! It’s remarkable how you manage to keep all your teeth, my little miss!’ the shirt collar said. ‘Have you never considered becoming engaged!’</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Yes, I have!’ the comb said, ‘you know I am engaged to the bootjack!’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘Engaged!’ the shirt collar said; now there was no one left to proposed to and so he despised it.</p>
+          <p rend="firstIndent" xml:id="p_00024">A long time passed, and eventually the shirt collar ended up in a box at the paper mill; there was a whole community of rags there, the fine ones separated from the coarse ones, as it should be. They all had a great deal to tell, but the shirt collar most of all, for it was a proper boaster.</p>
+          <p rend="firstIndent" xml:id="p_00025">‘I’ve had such a vast number of sweethearts!’ the shirt collar said, ‘I was never left in peace! But I was also a fine gentleman, complete with starch! I had both a bootjack and a comb that I never made use of! – You should have seen me back then, when I lay on my side! I’ll never forget my first sweetheart, she was a garter, so fine, so soft and so delicate, she plunged into a tub of water for my sake! – There was also a widowed lady that was white-hot for me, but I left her standing to get black! There was the prima ballerina, she was the one who gave me the gash I bear to this day, she was so ferocious! my own comb was in love with me, she lost all her teeth because I broke her heart. Oh yes, I’ve experienced a great deal of that sort of thing! but what pains me most is the garter, I mean the girdle that ended up in the tub of water. I have a lot on my conscience, I could well do with being turned into white paper!’</p>
+          <p rend="firstIndent" xml:id="p_00026">Which they all were, all the rags were turned into white paper, but the shirt collar became precisely the sheet of white paper we see here, on which the story has been printed, and that was because it boasted so terribly afterwards about what never had happened in the first place; and we should remember not to behave in the same way, for indeed we can never be sure that we don’t end up too in the rag box and are turned into white paper and have our whole story printed on it, even our deepest secrets and afterwards have to run around telling others about them, like the shirt collar.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>What the Thistle Experienced</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hvad-tidselen-oplevede">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hvad-tidselen-oplevede_modern.xml">moderniseret version</note>
+                                                       <note target="185_What-the-Thistle-Came-to-Experience.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Close to the lordly manor there lay a beautiful well-kept garden with rare trees...</incipit><idno type="image">Hvad_Tidselen_oplevede_hca_ill_0142.png</idno><popularity>885</popularity><cite>&lt;p&gt;Hans Christian Andersen: What the Thistle Experienced. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>kunst</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-29" who="NHB">formatted</change><change who="NHB" when="2022-10-29">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="What the Thistle Experienced">
+               <head type="main" rend="What the Thistle Experienced">What the Thistle Experienced</head>                <p rend="noIndent" xml:id="p_00001">Close to the lordly manor there lay a beautiful well-kept garden with rare trees and flowers; visitors to the estate expressed their delight at them, local people from the countryside and market towns came on Sundays and public holidays and asked for permission to see the garden, and even entire schools came to pay similar visits.</p>
+               <p rend="firstIndent" xml:id="p_00002">Outside the garden, next to the palings facing the gravel road, there was a huge <hi rend="italic">thistle</hi>; it was so large, with several branches stretching out from its root so that it spread out and well could be called a thistle bush. Nobody looked at it, except the old <hi rend="italic">donkey</hi> that pulled the milkmaid’s milk-cart. It stretched its neck out towards the thistle and said: ‘You’re lovely, I could eat you!’ but the tether wasn’t long enough for the donkey to be able to reach out and eat it.</p>
+               <p rend="firstIndent" xml:id="p_00003">A large party was held at the manor, with distinguished relatives from the capital, fine young girls, and among them was one from a long way off; she came from <hi rend="italic">Scotland</hi>, was of noble birth, rich in money and possessions, a bride well worth having, more than one young man said and likewise their mothers.</p>
+               <p rend="firstIndent" xml:id="p_00004">The young guests romped around on the lawn and played croquet; they went walking among the flowers, and each of the young girls picked a flower and put it in the buttonhole of one of the young gentlemen; but the young Scottish lady searched for a long time, rejected one flower after the other, none of them seemed to appeal to her; then she looked out over the palings, outside stood the large thistle bush with its red-blue, hardy flowers. She saw them, she smiled and asked the son of the house to pick her one of these.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘It is the flower of Scotland!’ she said; ‘resplendent in the country’s coat of arms, give it to me!’</p>
+               <p rend="firstIndent" xml:id="p_00006">And he fetched the loveliest one and in doing so pricked his fingers, as if it had been growing on the thorniest of roses.</p>
+               <p rend="firstIndent" xml:id="p_00007">She placed the <hi rend="italic">thistle flower</hi> in the young man’s buttonhole, and he felt highly honoured. Every one of the other young gentlemen would gladly have exchanged their own magnificent flower to be able to wear this one, personally presented by the young Scottish lady. And if the son of the house felt honoured, how much more did the <hi rend="italic">thistle bush</hi>, it was as if dew and sunshine went through it.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘I’m something more than I’ve always thought!’ it said to itself. ‘I really belong inside the palings and not outside. One can be most strangely placed in this world! but now I have one of my own inside the palings, and in a buttonhole, no less!’</p>
+               <p rend="firstIndent" xml:id="p_00009">It told every bud that sprouted and unfolded about this event, and it did not take many days before the <hi rend="italic">thistle bush</hi> heard – not from humans, or chirruping birds, but from the air itself that stores and spreads sounds far and wide, right from the innermost paths and the garden and rooms of the manor where windows and doors stood open – that the young gentleman who got the thistle flower from the hand of the fine young Scottish lady now owned her hand and heart as well. They made a fine pair, were a good match.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘I’m the one who brought them together!’ the <hi rend="italic">thistle bush</hi> felt, thinking of the flower it had given for the buttonhole. Every flower that bloomed was told of the event.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘I’m sure to be planted in the garden!’ the <hi rend="italic">thistle</hi> thought, ‘perhaps in a pot which pinches, that’s the greatest honour of all!’</p>
+               <p rend="firstIndent" xml:id="p_00012">And the <hi rend="italic">thistle bush</hi> thought so intensely about this that it said with utter conviction: ‘I’ll end up in a pot!’</p>
+               <p rend="firstIndent" xml:id="p_00013">It promised every little thistle flower that came out that it too would end up in a pot, perhaps in a buttonhole: the highest thing that could be achieved; but none of them ended up in a pot, let alone a buttonhole; they drank air and light, basked in sunshine during the day and bathed in dew at night, flowered, were visited by bee and botfly that were searching for a dowry, the honey in the flower, and they took the honey and left the flower where it was: ‘Pack of thieves!’ the <hi rend="italic">thistle bush</hi> said. ‘If only I could impale them on my spikes! but I can’t.’</p>
+               <p rend="firstIndent" xml:id="p_00014">The flowers hung their heads, wilted, but new ones came instead.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘You come as if called for!’ the <hi rend="italic">thistle bush</hi> said, ‘at any moment I expect us to move inside of the palings.’</p>
+               <p rend="firstIndent" xml:id="p_00016">A pair of innocent mayweeds and a long, slender plantain stood and listened to this in great admiration and believed everything the thistle said.</p>
+               <p rend="firstIndent" xml:id="p_00017">The old donkey from the milk-cart looked out of the corner of its eye at the thistle bush from the roadside, but its tether was too short for it to be able to reach it.</p>
+               <p rend="firstIndent" xml:id="p_00018">And the <hi rend="italic">thistle</hi> thought hard and long about <hi rend="italic">Scotland’s</hi> thistle, to whose family it felt it belonged, and finally it believed itself to have come from <hi rend="italic">Scotland</hi> and that its parents themselves had grown their way into the national coat of arms. It was a grand thought, but a grand thistle is certainly entitled to have grand thoughts.</p>
+               <p rend="firstIndent" xml:id="p_00019">‘One often comes from so fine a family that one doesn’t dare acknowledge it!’ the <hi rend="italic">nettle</hi> that grew close by said, it too had a kind of vague idea that it could become a ‘nettle cloth’ if treated in the right way.</p>
+               <p rend="firstIndent" xml:id="p_00020">And the summer passed, and the autumn passed; the leaves fell off the trees, the flowers got brighter coloured and their scent grew weaker. The <hi rend="italic">gardener’s boy</hi> sang in the garden, over the palings:</p>
+               <lg xml:id="p_00021">
+                    <l>‘Uphill, downhill, so it goes,</l>
+               <l>That’s life, everybody knows!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00022">The young fir-trees in the forest were beginning to long for Christmas, but there was still a long way to go.</p>
+               <p rend="firstIndent" xml:id="p_00023">‘I’m still standing here!’ the <hi rend="italic">thistle</hi> said. ‘It’s as if no one has a thought for me, even though I brought the pair together; they became engaged, and they’ve held their wedding, a week ago now. Well, I won’t make a move, for I’m unable to.’</p>
+               <p rend="firstIndent" xml:id="p_00024">Several more weeks passed; the <hi rend="italic">thistle</hi> stood with it last, single flower, large and full-bodied. It had sprouted down close to the root, the wind blew chill over it, its colours faded, its glory faded, its calyx, the size of an artichoke, stood out like a sunflower all in silver.</p>
+               <p rend="firstIndent" xml:id="p_00025">Then out into the garden came the young couple, now man and wife; they walked alongside the palings, the young lady looked out over them.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘The large thistle’s still standing there!’ she said. ‘Now it hasn’t any more flowers!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘Yes, it has, there is the ghost of the final one!’ he said and pointed to the silver-gleaming remains of the flower, though itself a flower.</p>
+               <p rend="firstIndent" xml:id="p_00028">‘It’s lovely, isn’t it!’ she said. ‘Such a flower must be carved into the frame around our picture!’</p>
+               <p rend="firstIndent" xml:id="p_00029">And once more the young man had to climb over the palings and break off the calyx of the thistle. It pricked his fingers; after all he had called it ‘the ghost’. And it came inside the garden, up to the manor and into the hall; there a picture stood: ‘The young Married Couple’. A thistle flower had been painted in the bridegroom’s buttonhole. There was much talk of this, and of the flower calyx they brought in, the last thistle-flower that now gleamed like silver, it was to be used to make the carving in the frame.</p>
+               <p rend="firstIndent" xml:id="p_00030">And the air spread this talk, far and wide.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘What one can come to experience in this life!’ the <hi rend="italic">thistle bush</hi> said. ‘My first-born ended up in a buttonhole, my last-born ended up in a frame! What will become of me?’</p>
+               <p rend="firstIndent" xml:id="p_00032">And the <hi rend="italic">donkey</hi> at the roadside looked at it out the corner of its eye.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘Come to me, my luscious lovely! I can’t come over to you, my tether’s not long enough!’</p>
+               <p rend="firstIndent" xml:id="p_00034">But the <hi rend="italic">thistle bush</hi> didn’t answer; it stood there more and more thoughtful; it thought and it thought, right up until Christmas, and then its thinking produced its own flower.</p>
+               <p rend="firstIndent" xml:id="p_00035">‘When one’s children are well inside, a mother can make do with standing outside the palings!’</p>
+               <p rend="firstIndent" xml:id="p_00036">‘That’s an honest thought!’ the <hi rend="italic">sun’s ray</hi> said. ‘You too shall find a good place!’</p>
+               <p rend="firstIndent" xml:id="p_00037">‘In a pot or a frame?’ the <hi rend="italic">thistle</hi> asked.</p>
+               <p rend="firstIndent" xml:id="p_00038">‘In a fairy tale!’ the <hi rend="italic">sun’s ray</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00039">Here it is!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

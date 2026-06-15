@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Hidden is not Forgotten </title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="gjemt-er-ikke-glemt">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="gjemt-er-ikke-glemt_modern.xml">moderniseret version</note>
+                                                       <note target="167_Hidden-is-not-Forgotten.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There lay an old manor with mud-filled moats and drawbridge; it was more raised ...</incipit><idno type="image">Gjemt_er_ikke_glemt_hca_ill_0114.png</idno><popularity>889</popularity><cite>&lt;p&gt;Hans Christian Andersen: Hidden is not Forgotten . Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>remser</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-27" who="NHB">formatted</change><change who="NHB" when="2022-10-27">ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Hidden is not Forgotten ">
+               <head type="main" rend="Hidden is not Forgotten ">Hidden is not Forgotten </head>                <p rend="noIndent" xml:id="p_00001">There lay an old manor with mud-filled moats and drawbridge; it was more raised than lowered: not all guests that pay a visit are welcome. Under the eaves were holes for shooting out of and for pouring down boiling water, even molten lead over the enemy, if it got too close. Inside, there were high-beamed ceilings, and that was good considering the much smoke that rose from the open fire where the large, damp logs lay. On the walls hung pictures of men clad in armour and proud ladies in heavy gowns; the most bolt upright of them walked about the place very much alive – she was called<hi rend="italic"> Mette Mogens</hi>, and was the lady of the manor.</p>
+               <p rend="firstIndent" xml:id="p_00002">One evening robbers came; they killed three of her servants, the watchdog as well, and then they bound Mistress <hi rend="italic">Mette</hi> by the dog-chain attached to the kennel, and sat up in the great hall drinking wine from her cellars and all the fine beer.</p>
+               <p rend="firstIndent" xml:id="p_00003">Mistress <hi rend="italic">Mette</hi> was on the dog-chain – she couldn’t even bark.</p>
+               <p rend="firstIndent" xml:id="p_00004">Then the robber’s boy came, he slid in ever so quietly so as not to be noticed, for otherwise they would have killed him.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Mistress <hi rend="italic">Mette Mogens</hi>!’ the boy said, ‘can you remember when my father was made to ride the wooden horse during your husband’s time; you prayed for him then, but it didn’t help; he had to sit there till he was a cripple; but you crept out to him, just as I’m doing now; you placed a small stone under each of his feet, so he could find rest. Nobody saw it, or they pretended not to see it, as you were the young lady. My father has told me this, and I have kept it hidden but not forgotten it! Now I’m going to set you free, Mistress <hi rend="italic">Mette Mogens</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00006">And then they took horses from the stable and rode through the wild weather to fetch help from friends.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘That was generous repayment for a small act of kindness towards the old man!’ <hi rend="italic">Mette Mogens</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Hidden is not forgotten!’ the <hi rend="italic">boy</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00009">The robbers were hanged.</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00010">There once lay an old manor – it still lies there – it was not that of Mistress <hi rend="italic">Mette Mogens</hi>, it belongs to another aristocratic family.</p>
+               <p rend="firstIndent" xml:id="p_00011">This is in our own time. The sun shines on the gilt spire of the tower, small islets lie like bouquets on the water, and around them the wild swans swim. In the garden roses grow – and the lady of the manor is herself the finest rose petal, gleaming with joy, the joy of good deeds, not out in the great wide world but within human hearts, where it is hidden but not forgotten.</p>
+               <p rend="firstIndent" xml:id="p_00012">She is now going from the manor to the small remote cottage out in the fields. There lives a poor palsied girl; the window of the small room faces north, no sunlight enters; all she has to look at is a piece of land that ends at the high ditch. Today, though, there is sunshine, the lovely warmth of the Lord God is inside; it comes from the south through the new window that previously was a wall.</p>
+               <p rend="firstIndent" xml:id="p_00013">The palsied girl is sitting in the warm sunshine, looking at woodland and shore, the world has become so large and so delightful, and that because of a single word spoken by the kindly lady of the manor.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘The word was so easy, the deed so small!’ she says, ‘The joy I was given was endlessly great and wonderful.’</p>
+               <p rend="firstIndent" xml:id="p_00015">And for that reason she does so many a good deed, thinks of all those living in poor houses and in rich houses, where also people live who are sad. This is hidden and concealed but not forgotten by the <hi rend="italic">Lord God</hi>!</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00016">There was once an old house within the large, busy town. In it were rooms and halls, those we do not intend to enter, we will stay in the kitchen, where there is plenty of warmth and light, where it is nice and tidy everywhere: the copperware gleams, the table is as if polished, the sink is like a newly scrubbed chopping board; all this has been done by the maid-of-all-work, and despite this she has found time to dress in fine clothes as if about to go to church. She is wearing a bow on her coat, a black bow; this means mourning. She has no one to mourn though, neither father nor mother, neither family nor sweetheart; she is a poor girl. She was once betrothed, that was with a poor young fellow; they were so intensely fond of each other. One day he came to her.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘We two own nothing!’ he said. ‘The rich widow, the one in the basement, has spoken warm words to me; she wishes to make a prosperous man of me, but you are the one in my heart. What do you advise me to do?’</p>
+               <p rend="firstIndent" xml:id="p_00018">‘That which you believe will mean your good fortune!’ the girl said. ‘Be good and kind towards her, but remember that from the moment we part, the two of us cannot see each other anymore!’</p>
+               <p rend="firstIndent" xml:id="p_00019">– And a couple of years passed. And then she met her former friend and sweetheart in the street; he looked so ill and wretched and so she couldn’t help asking: ‘How are things with you?’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Fine and well in all respects!’ he said, ‘my wife is honest and good, but you are in my heart. I have fought my battle, soon it will be over! Now we will not meet again before in Heaven.’</p>
+               <p rend="firstIndent" xml:id="p_00021">A week has passed. In the morning paper it says that he is dead; that is why the girl is wearing a mark of mourning. Her sweetheart has died, leaving behind his wife and three stepchildren, the newspaper states. It sounds cracked, but the ore is nevertheless pure.</p>
+               <p rend="firstIndent" xml:id="p_00022">The black bow shows mourning, the girl’s face shows it even more; it is hidden in the heart, will never be forgotten!</p>
+               <p rend="firstIndent" xml:id="p_00023">Well, those were three stories, three leaves on one stalk. Would you like more clover leaves? There are many in the book of the heart, <hi rend="italic">hidden but not forgotten</hi>.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

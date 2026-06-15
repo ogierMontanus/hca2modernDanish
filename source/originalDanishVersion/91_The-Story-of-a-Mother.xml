@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Story of a Mother</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="historien-om-en-moder">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="historien-om-en-moder_modern.xml">moderniseret version</note>
+                                                       <note target="91_The-Story-of-a-Mother.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A mother was sitting by her small child, she was so sorrowful, so afraid that it...</incipit><idno type="image">Historien_om_en_Moder_03_2022-03-09.png</idno><popularity>986</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Story of a Mother. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>trylleeventyr</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-11" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-11">formatted</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body><div rend="The Story of a Mother">
+          <head type="main" rend="The Story of a Mother">The Story of a Mother</head>
+          <img src="0091_HCA-1971-209-0001.jpg" ref="p_00001" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="noIndent" xml:id="p_00001">A mother was sitting by her small child, she was so sorrowful, so afraid that it was going to die. It was so pale, its small eyes had closed, its breathing was so shallow, and occasionally it gave a deep heave as if sighing; and the mother looked even more mournfully at the little soul.</p>
+          <img src="0091_HCA-1971-209-0002.jpg" ref="p_00002" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00002">There was a knock at the door, and a poor old man stood there, wrapped in something rather like a large horse blanket, for it keeps you warm, and warmth was what he needed in the winter’s cold. Everything outside was covered in ice and snow, and the wind cut like a knife in your face.</p>
+          <img src="0091_HCA-1971-209-0003.jpg" ref="p_00003" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">And since the old man was shivering with cold, and the small child had dozed off for a moment, the mother poured some beer into a small pot and placed it on the stove so it could be warmed and given him, and the old man sat there rocking and the mother sat down on the chair next to him, gazed at her sick child that was breathing so deeply and she lifted its tiny hand.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Don’t you think I’ll be able to keep him?’ she said, ‘the <hi rend="italic">Good Lord</hi> won’t take him away from me!’</p>
+          <img src="0091_HCA-1971-209-0004.jpg" ref="p_00005" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00005">And the old man, who was Death himself, he nodded in such a strange way – it could just as easily mean yes as no. And the mother gazed down into her lap and the tears streamed down her cheeks; – her head felt so heavy, she hadn’t slept a wink for three days and three nights, and now she dozed off, but only for an instant, then she gave a start and shivered with cold: ‘What’s this?’ she said and looked around her everywhere, but the old man was gone and her little child was gone, he had taken it with him; and over in the corner the old clock whirred and whirred, the great lead clockweight slid straight down to the floor, boom! and the clock too stood silent.</p>
+          <p rend="firstIndent" xml:id="p_00006">But the poor mother ran out of the house and called for her child.</p>
+          <img src="0091_HCA-1971-209-0005.jpg" ref="p_00007" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00007">Out there, in all the snow, sat a woman in long, black clothes, and she said: ‘Death has been in your house, I saw him hurry off with your small child; he travels faster than the wind, he will never return what he has taken!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Just tell me which way he went!’ the mother said, ‘tell me which way and I will find him!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘I know the way!’ the woman in the black clothes said, ‘but before I tell you, you must first sing to me all the songs you have sung to your child! I am fond of them, I have heard them before, I am Night, I saw your tears while you sang them!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘I’ll sing all of them, all of them!’ the mother said, ‘but don’t hold me back, so I can reach him, so I can find my child!’</p>
+          <img src="0091_HCA-1971-209-0006.jpg" ref="p_00011" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00011">But Night sat there, silent and still, then the mother wrung her hands, sang and wept, and there were many songs, but even more tears; and then Night said: ‘take to the right, into the dark pine forest, that is where I saw Death go with your small child!’</p>
+          <p rend="firstIndent" xml:id="p_00012">Deep in the forest the paths crossed each other and she no longer knew which way to go; there a thorn bush stood that had neither leaves nor flowers on it, for it was winter now and cold, and its branches were glazed with ice.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Haven’t you seen Death pass by with my small child?’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Yes, I have!’ the thorn bush said, ‘but I won’t tell you which way he went until you warm me up close to your heart! I am freezing to death and will turn completely to ice!’</p>
+          <img src="0091_HCA-1971-209-0007.jpg" ref="p_00015" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00015">And she clasped the thorn bush to her breast, so tightly, so that it could get really warm, and the thorns went right into her flesh and her blood flowed in large drops, but the thorn bush grew fresh green leaves and came into flower on that cold winter’s night, there was so much warmth in a sorrowful mother’s heart ;and the thorn bush told her which way to take.</p>
+          <img src="0091_HCA-1971-209-0008.jpg" ref="p_00016" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00016">Then she came to a big lake where there were neither ship nor boat. The lake was not frozen over enough to be able to bear her, and not open and shallow enough for her to be able to wade through it, but she had to get across it if she wanted to find her child; so she lay down so as to drink the lake dry, and that is impossible for a human being, but the sorrowful mother thought that a miracle could happen.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘No, that will never work!’ the lake said, ‘let’s try to reach some agreement, the two of us! I love to collect pearls and your eyes are the clearest ones I have seen, if you will cry them out to me, I will carry you over to the large greenhouse where Death lives and tends flowers and trees; each of them is a human life!’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Oh, what wouldn’t I give to get to my child!’ the mother said, red-eyed with weeping, and she cried even more and her eyes sank to the bottom of the lake and became two precious pearls, but the lake lifted her up, as if she had been sitting on a swing, and she flew in one swing over to the far shore where a strange house stood that was miles wide, it was impossible to know if it was a mountain with forests and caves or had been made out of wood, but the poor mother couldn’t see it, for she had cried out her eyes.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Where am I to find Death, who took my small child!’ she said.</p>
+          <p rend="firstIndent" xml:id="p_00020">‘He hasn’t arrived yet!’ the old grave-woman said, who tended Death’s great greenhouse. ‘How have you been able to find your way here and who has helped you?’</p>
+          <img src="0091_HCA-1971-209-0009.jpg" ref="p_00021" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00021">‘The <hi rend="italic">Good Lord </hi>has helped me!’ she said, ‘he is merciful and you will be too! Where can I find my small child?’</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Well, I don’t know it,’ the woman said, ‘and you are unable to see! – Many flowers and trees have withered during the night, Death will soon come and replant them! You know of course that each human being either has a life-tree or a flower, according to its nature; they look like other plants, but they have a heartbeat; a child’s heart can also beat! go after that, perhaps you can recognise your own child’s heartbeat; but what will you give me to say what else you must do?’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘I haven’t anything to give,’ the sorrowful mother said, ‘but I will go for you to the ends of the earth!’</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Well, I’ve no business there!’ the woman said, ‘but you can give me your long black hair, you know yourself how beautiful it is, and that I like! You can have my white hair in return, that’s always something!’</p>
+          <img src="0091_HCA-1971-209-0010.jpg" ref="p_00025" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00025">‘If that is all you are asking for,’ she said, ‘I will gladly part with it!’ And she gave the woman her beautiful hair and got the old woman’s snow-white hair in return.</p>
+          <img src="0091_HCA-1971-209-0011.jpg" ref="p_00026" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00026">And then they entered Death’s great greenhouse, where flowers and trees grew among each other in a strange way. There were fine hyacinths beneath bell-jars, and there were large, hardy peonies; water plants grew there, some bursting with health, others sickly, grass snakes lay on them and black crabs nipped their stems. There were lovely palm trees, oaks and plane trees, there was parsley and flowering thyme; every tree and flower had its own name, each of them was a human life and that human was still alive: one in China, one in Greenland, all over the world. There were large trees in small pots and they were so confined and ready to burst out of them, and in many places there stood a small, drab flower in rich soil, with moss round it, that had been fussed over and tended. But the sorrowful mother bent down over all the smallest plants and could hear how a human heart beat inside them, and among the millions she recognised that of her child.</p>
+          <img src="0091_HCA-1971-209-0012.jpg" ref="p_00027" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00027">‘There it is!’ she cried out, and stretched her hand out over a small blue crocus that was drooping down on one side, very unwell.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘Don’t touch the flower!’ the old woman said, ‘but place yourself here, and when Death comes – I’m expecting him at any moment – don’t let him pull up the plant, and if you threaten to do the same with all the others, he will be scared! he has to answer for them to the <hi rend="italic">Lord God</hi>. None of them may be uprooted before he gives permission.’</p>
+          <p rend="firstIndent" xml:id="p_00029">Suddenly, an ice-cold wind went through the vast hall, and the blind mother could feel it was Death arriving.</p>
+          <p rend="firstIndent" xml:id="p_00030">‘How have you been able to find your way here?’ he asked, ‘how have you been able to get here faster than I have?’</p>
+          <p rend="firstIndent" xml:id="p_00031">‘I am a mother,’ she said.</p>
+          <img src="0091_HCA-1971-209-0013.jpg" ref="p_00032" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00032">And Death stretched out his long hand towards the small fine flower, but she kept her hands tightly, so tightly, round it, yet still she was afraid of touching one of the petals. Then Death blew on her hands and she felt it was colder than the cold wind, and her hands dropped weakly down.</p>
+          <p rend="firstIndent" xml:id="p_00033">‘You can’t do anything against me!’ Death said.</p>
+          <p rend="firstIndent" xml:id="p_00034">‘But the <hi rend="italic">Good Lord</hi> can!’ she said.</p>
+          <p rend="firstIndent" xml:id="p_00035">‘I only do what he wants me to,’ Death said. ‘I am his gardener! I take all his flowers and trees and plant them out in the great Paradise in the unknown land, but how they grow there and what it is like there I dare not tell you.’</p>
+          <p rend="firstIndent" xml:id="p_00036">‘Give me back my child!’ the mother said and wept and pleaded; suddenly she grasped with each hand two of the beautiful flowers close by, and cried out to Death: ‘I will pull up all your flowers, for I am in despair!’</p>
+          <p rend="firstIndent" xml:id="p_00037">‘Don’t touch them!’ Death said. ‘You say that you are unhappy, and now you want to make some other mother just as unhappy –!’</p>
+          <p rend="firstIndent" xml:id="p_00038">‘Some other mother!’ the poor woman said, and immediately let go of the flowers.</p>
+          <p rend="firstIndent" xml:id="p_00039">‘Here are your eyes,’ Death said, ‘I have fished them up from the lake, they gleamed so brightly, I didn’t know they were yours, take them back, they are even clearer than before, look down into the deep well beside you, I will tell you the names of the two flowers you wanted to pull up and you will see all their future, their entire human life, will see what you wanted to disturb and destroy!’</p>
+          <img src="0091_HCA-1971-209-0014.jpg" ref="p_00040" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00040">And she looked down into the well; and it was bliss to see how one of them became a blessing to the world, to see how much happiness and joy unfolded around it. And she saw the other life and it was one of sorrow and need, fright and misery.</p>
+          <p rend="firstIndent" xml:id="p_00041">‘Both of these are God’s will!’ Death said.</p>
+          <p rend="firstIndent" xml:id="p_00042">‘Which of them is the flower of misery and which that of blessing?’ she asked.</p>
+          <p rend="firstIndent" xml:id="p_00043">‘I will not tell you that,’ Death said, ‘but this I will tell you, that one of the flowers was that of your child, it was your child’s destiny you saw, your own child’s future!’</p>
+          <p rend="firstIndent" xml:id="p_00044">Then the mother cried out in terror, ‘which of them was my child! tell me! save the innocent one! save my child from all that misery! I’d rather you take it away! take it to God’s kingdom! forget my tears, forget my entreaties and everything that I have said and done!’</p>
+          <img src="0091_HCA-1971-209-0015.jpg" ref="p_00045" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00045">‘I don’t understand you,’ Death said. ‘Do you want your child back, or shall I go with it into the place you know nothing of?’</p>
+          <img src="0091_HCA-1971-209-0016.jpg" ref="p_00046" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00046">Then the mother wrung her hands, fell to her knees and prayed to the Lord God: ‘Do not listen to me if what I ask is against your will, which is always the best! Do not listen! Do not listen!’</p>
+          <p rend="firstIndent" xml:id="p_00047">And she bowed her head in her lap.</p>
+          <p rend="firstIndent" xml:id="p_00048">And Death went with her child into the unknown land.</p>
+     </div>
+          </body>
+                         </text>
+                    </TEI>

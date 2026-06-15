@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Reisekammeraten</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Eventyr, fortalte for Børn</i>. <i>Andet Hefte</i>, som udkom den 16. december 1835. Omarbejdet version af »Dödningen«.<br/>
+BFN 279/I,67-84/VII,33-36.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="reisekammeraten" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="reisekammeraten_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="12_The-Travelling-Companion">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Den stakkels Johannes var saa bedrøvet, for hans Fader var meget syg og kunde ik...</incipit><readingTime>27</readingTime><popularity>955</popularity><cite>&lt;p&gt;H.C. Andersen: Reisekammeraten. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Reisekammeraten_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1835</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><!--<term>steder</term>--><!--<term>fortiden</term>--><term>trylleeventyr</term><term>humor</term><term>kaerlighed</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Reisekammeraten" xml:id="reisekammeraten">
+<pb n="123"/><head type="main">Reisekammeraten</head>
+
+<p rend="noIndent" xml:id="p_00001">Den stakkels <hi rend="italic">Johannes</hi> var saa bedrøvet, for hans Fader var meget syg og kunde ikke leve. Der var slet ingen uden de to inde i den lille Stue; Lampen paa Bordet var ved at brænde ud, og det var ganske <seg target="txtcmnt-123-01"><!--DATA-TERM: sildigt--><!--DATA-DEFINITION: sent.-->sildigt</seg> paa Aftenen. –</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Du var en god Søn, <hi rend="italic">Johannes</hi>!« sagde den syge Fader, »vor Herre vil nok hjælpe Dig frem i Verden!« og han saae med alvorlige milde Øine paa ham, trak Veiret ganske dybt og døde; det var ligesom om han sov. Men <hi rend="italic">Johannes</hi> græd, nu havde han slet ingen i hele Verden, hverken Fader eller Moder, Søster eller Broder. Den stakkels <hi rend="italic">Johannes</hi>! Han laae paa sine Knæ foran Sengen og kyssede den døde Faders Haand, græd saa mange salte Taarer, men tilsidst lukkede hans Øine sig og han sov ind med Hovedet paa den haarde <seg target="txtcmnt-123-02"><!--DATA-TERM: Sengefjæl--><!--DATA-DEFINITION: sidestykke på en seng.-->Sengefjæl</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Da drømte han <seg target="txtcmnt-123-03"><!--DATA-TERM: en underlig Drøm--><!--DATA-DEFINITION: jf. Josefs anden drøm i 1. Mosebog 37,9.-->en underlig Drøm</seg>; han saae, hvor Sol og Maane neiede for ham, og han saae sin Fader frisk og sund igjen og hørte ham lee, som han altid loe naar han var rigtig fornøiet. En deilig Pige, med Guldkrone paa sit lange smukke Haar, rakte <hi rend="italic">Johannes</hi> Haanden, og hans Fader sagde, »seer Du, hvilken Brud Du har faaet? Hun er den deiligste i hele Verden.« Saa vaagnede han, og alt det Smukke var borte, hans Fader laae død og kold i Sengen, der var slet ingen hos dem; den stakkels <hi rend="italic">Johannes</hi>!</p>
+
+<p rend="firstIndent" xml:id="p_00004">Ugen derefter blev den Døde begravet; <hi rend="italic">Johannes</hi> gik tæt bag Kisten, kunde nu ikke mere faae den gode Fader at see, som havde holdt saa meget af ham; han hørte, hvor de kastede Jorden ned paa Kisten, saae nu det sidste Hjørne af den, men ved den næste <seg target="txtcmnt-123-04"><!--DATA-TERM: Skuffe--><!--DATA-DEFINITION: dyb, bredbladet skovl.-->Skuffe</seg> Jord, der blev kastet ned, var det ogsaa borte; da var det ligesom hans Hjerte vilde gaae i Stykker, saa bedrøvet var han. Rundt om sang de en Psalme, det klang saa smukt og Taarerne kom <hi rend="italic">Johannes</hi> i Øinene, han græd og det gjorde godt i hans Sorg. Solen skinnede deiligt paa de grønne Træer, ligesom den vilde sige: »Du skal ikke være saa bedrøvet <hi rend="italic">Johannes</hi>! kan Du see, hvor smuk blaa Himmelen er; deroppe er nu Din Fader og beder den gode Gud, at det altid maa gaae Dig vel!«</p>
+
+<pb n="124"/><p rend="firstIndent" xml:id="p_00005">»Jeg vil altid være god!« sagde <hi rend="italic">Johannes</hi>, »saa kommer jeg ogsaa op i Himlen til min Fader, og hvor det vil blive en Glæde, naar vi see hinanden igjen! hvor der vil være meget, jeg kan fortælle ham, og han vil igjen vise mig saa mange Ting, lære mig saa meget af alt det Deilige i Himlen, ligesom han lærte mig her paa Jorden. O hvor det vil blive en Glæde!«</p>
+
+<p rend="firstIndent" xml:id="p_00006"><hi rend="italic">Johannes</hi> tænkte sig det saa tydeligt, at han smilede derved, medens Taarerne endnu løb ham ned over Kinderne. De smaa Fugle sad oppe i Kastanietræerne og qviddrede »qvi vit, qui vit!« de vare saa fornøiede, skjøndt de jo vare med ved Begravelsen, men de vidste nok, at den døde Mand nu var oppe i Himlen, havde Vinger, langt smukkere og større end deres, var nu lykkelig, fordi han havde været god her paa Jorden, og derover vare de fornøiede. <hi rend="italic">Johannes</hi> saae, hvor de fløi fra de grønne Træer, langt ud i Verden, og han fik da ogsaa saadan Lyst til at flyve med. Men først skar han et stort Trækors til at sætte paa sin Faders Grav, og da han om Aftenen bragte det der hen, var Graven pyntet med Sand og Blomster; det havde fremmede Folk gjort, for de holdt allesammen saa meget af den kjære Fader, som nu var død.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Tidlig næste Morgen pakkede <hi rend="italic">Johannes</hi> sin lille Byldt sammen, gjemte i sit Belte hele sin Arvepart, der var 50 Rdlr. og et Par Sølvskillinger, dermed vilde han vandre ud i Verden. Men først gik han hen paa Kirkegaarden til sin Faders Grav, læste sit »<hi rend="italic">Fader vor</hi>«, og sagde: »Farvel Du kjære Fader! Jeg vil altid være et godt Menneske, og saa <seg target="txtcmnt-124-01"><!--DATA-TERM: tør Du nok--><!--DATA-DEFINITION: må du nok.-->tør Du nok</seg> bede den gode Gud, at det maa gaae mig godt!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Ude paa Marken, hvor <hi rend="italic">Johannes</hi> gik, stode alle Blomsterne saa friske og deilige i det varme Solskin, og de nikkede i Vinden ligesom om de vilde sige: »Velkommen i det Grønne! Er her ikke nydeligt?« Men <hi rend="italic">Johannes</hi> dreiede sig endnu engang om, for at see den gamle Kirke, hvor han, som lille Barn, var døbt, hvor han hver Søndag med sin gamle Fader havde været i Kirke og sjunget sin Psalme; da saae han høit oppe i et af Hullerne i Taarnet, Kirke-Nissen staae med sin lille røde, spidse Hue, han skyggede for sit Ansigt med den bøiede Arm, da ellers Solen skar ham i Øinene. <hi rend="italic">Johannes</hi> nikkede Farvel til ham, og den lille Nisse svingede sin røde Hue, lagde Haanden paa Hjertet og kyssede mange Gange paa Fingrene, for at vise, hvor godt han ønskede ham det, og at han ret maatte gjøre en lykkelig Reise.</p>
+
+<p rend="firstIndent" xml:id="p_00009"><hi rend="italic">Johannes</hi> tænkte paa hvor meget smukt han nu skulde faae at see i den store prægtige Verden, og gik længer og længer bort, <pb n="125"/>saa langt som han aldrig før havde været; han kjendte slet ikke de Byer, han kom igjennem, eller de Mennesker, han mødte, nu var han langt ude mellem Fremmede.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Den første Nat maatte han lægge sig at sove i en Høstak paa Marken, anden Seng havde han ikke. Men det var just nydeligt, syntes han, Kongen kunde ikke have det pænere. Den hele Mark med Aaen, Høstakken og saa den blaa Himmel oven over, var just et smukt Sovekammer. Det grønne Græs med de smaa røde og hvide Blomster var Gulvtæppe, Hyldebuskene og de vilde Rosenhækker vare Blomsterbouquetter, og som Vandfad havde han hele Aaen med det klare, friske Vand, hvor Sivene neiede, og sagde baade god Aften og god Morgen. Maanen var en rigtig stor <seg target="txtcmnt-125-01"><!--DATA-TERM: Natlampe--><!--DATA-DEFINITION: bestående af et glas med olie forsynet med en lille rund træ- eller metalplade med en væge stukket igennem.-->Natlampe</seg>, høit oppe under det blaa Loft, og den stak ikke Ild i Gardinerne; <hi rend="italic">Johannes</hi> kunde sove ganske roligt, og han gjorde det ogsaa, vaagnede først igjen, da Solen stod op og alle de smaa Fugle rundt omkring, sang: »god Morgen! god Morgen! Er Du ikke oppe?«</p>
+
+<p rend="firstIndent" xml:id="p_00011">Klokkerne ringede til Kirke, det var Søndag, Folk gik hen at høre Præsten og <hi rend="italic">Johannes</hi> fulgte med dem, sang en Psalme og hørte Guds Ord, og det var ham ligesom han var i sin egen Kirke, hvor han var døbt, og havde sjunget Psalmer med sin Fader.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Ude paa Kirkegaarden var der saa mange Grave, og paa nogle voxte der høit Græs. Da tænkte <hi rend="italic">Johannes</hi> paa sin Faders Grav, der ogsaa maatte komme til at see ud som disse, nu han ikke kunde luge og pynte den. Han satte sig da ned og rykkede Græsset af, reiste Trækorsene op, der vare faldne om, og lagde Krandsene, som Vinden havde revet bort fra Gravene, igjen paa deres Sted, idet han tænkte, maaskee at En gjør det samme ved min Faders Grav, nu jeg ikke kan gjøre det!</p>
+
+<p rend="firstIndent" xml:id="p_00013">Uden for Kirkegaardsporten stod en gammel Tigger og støttede sig paa sin Krykke, <hi rend="italic">Johannes</hi> gav ham de Sølvskillinger han havde og gik saa lykkelig og fornøiet længer frem, ud i den vide Verden.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Mod Aften blev det et skrækkeligt ondt Veir, <hi rend="italic">Johannes</hi> skyndte sig for at komme under Tag, men det blev snart mørk Nat; da naaede han endelig en lille Kirke, der laae ganske eensom oppe paa en Høi, Døren stod til Lykke paa Klem, og han smuttede ind; her vilde han blive, til det onde Veir lagde sig.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Her vil jeg sætte mig i en Krog!« sagde han, »jeg er ganske træt, og kan nok trænge til at hvile mig lidt,« saa satte han sig ned, foldede sine Hænder, og læste sin Aftenbøn og, inden han <pb n="126"/>vidste af det, sov og drømte han, mens det lynede og tordnede udenfor.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Da han vaagnede igjen, var det midt ud paa Natten, men det onde Veir var trukket over, og Maanen skinnede ind af Vinduerne til ham. Midt paa Kirkegulvet stod der en aaben Liigkiste med en død Mand i, for han var endnu ikke begravet. <hi rend="italic">Johannes</hi> var slet ikke bange, for han havde en god Samvittighed, og han vidste nok, at de Døde gjør ingen noget; det er levende, onde Mennesker, der gjør Fortræd. Saadanne to levende, slemme Folk stod tæt ved den døde Mand, der var sat herind i Kirken, før han blev lagt ned i Graven, de vilde gjøre ham Fortræd, ikke lade ham ligge i sin Liigkiste, men kaste ham uden for Kirkedøren, den stakkels døde Mand.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Hvorfor vil I gjøre det!« spurgte <hi rend="italic">Johannes</hi>, »det er ondt og slemt, lad ham sove i Jesu Navn!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»O, Sniksnak!« sagde de to fæle Mennesker, »han har narret os! han skylder os Penge, dem kunde han ikke betale, og nu er han ovenikjøbet død, saa faae vi ikke en Skilling, derfor vil vi rigtig hævne os, han skal ligge som en Hund udenfor Kirkedøren!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Jeg har ikke meer end 50 Rdlr.!« sagde <hi rend="italic">Johannes</hi>, »det er hele min Arvepart, men den vil jeg gjerne give Eder, naar I vil ærligt love mig, at lade den stakkels døde Mand i Fred. Jeg skal nok komme ud af det, uden de Penge; jeg har sunde stærke Lemmer, og vor Herre vil altid hjælpe mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Ja,« sagde de hæslige Mennesker, »naar Du saaledes vil betale hans Gjæld, skal vi saamæn ikke gjøre ham noget, det kan Du være vis paa!« og saa tog de Pengene, <hi rend="italic">Johannes</hi> gav dem, loe ordentligt ganske høit over hans Godhed, og gik deres Vei; men <hi rend="italic">Johannes</hi> lagde Liget tilrette igjen i Kisten, foldede Hænderne paa det, sagde Farvel, og gik nok saa tilfreds videre gjennem den store Skov.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Rundtomkring, hvor Maanen kunde skinne ind i mellem Træerne, saae han de nydelige smaa Alfer lege nok saa lystigt; de lode sig ikke forstyrre, de vidste nok, han var et godt uskyldigt Menneske, og det er kun de onde Folk, der ikke maae faae Alferne at see. Nogle af dem vare ikke større end en Finger og havde deres lange gule Haar heftet op med Guldkamme, to og to gyngede de paa de store Dugdraaber, der laae paa Bladene og det høie Græs; sommetider trillede Draaben, saa faldt de ned mellem de lange Græsstraa og der blev en Latter og Støi af de andre Smaapuslinger. Det var uhyre morsomt! De sang og <pb n="127"/><hi rend="italic">Johannes</hi> kjendte ganske tydeligt alle de smukke Viser, han havde lært som lille Dreng. Store brogede Ædderkoppe med Sølvkroner paa Hovedet, maatte fra den ene Hæk til den anden spinde lange Hængebroer og Palladser, der, da den fine Dug faldt paa, saae ud som skinnende Glas i det klare Maaneskin. Saaledes varede det ved, lige til Solen stod op. De smaa Alfer krøb da ind i Blomsterknoppene og Vinden tog i deres Broer og Slotte, der da fløi hen i Luften, som store Spindelvæv.</p>
+
+<p rend="firstIndent" xml:id="p_00022"><hi rend="italic">Johannes</hi> var nu kommet ud af Skoven, da en stærk Mandsstemme raabte bag ved ham! »Holla, Kammerat! hvorhen gjælder Reisen?«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Ud i den vide Verden!« sagde <hi rend="italic">Johannes</hi>. »Jeg har hverken Fader eller Moder, er en fattig Knøs, men vor Herre hjælper mig nok!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Jeg vil ogsaa ud i den vide Verden!« sagde den fremmede Mand. »Skal vi to gjøre Følgeskab!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Ja nok!« sagde <hi rend="italic">Johannes</hi>, og saa fulgtes de ad. De kom snart til at holde meget af hinanden, for de vare gode Mennesker begge to. Men <hi rend="italic">Johannes</hi> mærkede nok, at den Fremmede var meget klogere end han, han havde været næsten hele Verden rundt, og vidste at fortælle om alt det Muelige, der er til.</p>
+
+<p rend="firstIndent" xml:id="p_00026">Solen var allerede høit oppe, da de satte dem under et stort Træ, for at spise deres Frokost; i det samme kom der en gammel Kone. O, hun var saa gammel og gik ganske krum, støttede sig paa en Krykkestok, og havde paa sin Ryg et Knippe Brænde, som hun havde samlet sig i Skoven. Hendes Forklæde var hæftet op, og <hi rend="italic">Johannes</hi> saae at tre store <seg target="txtcmnt-127-01"><!--DATA-TERM: Riis af Bregner--><!--DATA-DEFINITION: bundt bregner; ifølge folketroen stod bregnen i forbindelse med overnaturlige kræfter, fordi den kunne formere sig uden almindelige blomster og frø.-->Riis af Bregner</seg> og Pileqviste stak ud fra det. I det hun var ganske nær ved dem, gleed hendes ene Fod, hun faldt om og gav et høit Skrig, for hun havde brækket sit Been, den stakkels gamle Kone.</p>
+
+<p rend="firstIndent" xml:id="p_00027"><hi rend="italic">Johannes</hi> vilde strax, at de skulde bære hende hjem, hvor hun boede, men den Fremmede lukkede sin <seg target="txtcmnt-127-02"><!--DATA-TERM: Randsel--><!--DATA-DEFINITION: rygsæk.-->Randsel</seg> op, tog en Krukke frem, og sagde, at han havde her en Salve, der strax kunde gjøre hendes Been heelt og raskt, saa at hun selv kunde gaae hjem, og det som om hun aldrig havde brækket Benet. Men derfor vilde han ogsaa, at hun skulde forære ham de tre Riis, hun havde i sit Forklæde.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Det er godt betalt!« sagde den Gamle og nikkede ganske underligt med Hovedet; hun vilde ikke saameget gjerne af med sine Riis, men det var heller ikke saa rart, at ligge med Benet brækket; saa gav hun ham Risene, og ligesaa snart han havde gnedet Salven paa Benet, reiste ogsaa den gamle Mutter sig op, <pb n="128"/>og gik meget bedre end før. Det kunde den Salve gjøre. Men den var heller ikke at faae paa Apotheket.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Hvad vil Du med de Riis?« spurgte <hi rend="italic">Johannes</hi> nu sin Reisekammerat.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Det er tre pæne <seg target="txtcmnt-128-01"><!--DATA-TERM: Urtekoste--><!--DATA-DEFINITION: buketter.-->Urtekoste</seg>!« sagde han, »dem kan jeg just lide, for jeg er en løierlig Fyr!«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Saa gik de endnu et godt Stykke.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Nei, hvor det trækker op!« sagde <hi rend="italic">Johannes</hi>, og pegede ligefrem; »det er nogle forskrækkelige tykke Skyer!«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Nei,« sagde Reisekammeraten, »det er ikke Skyer, det er Bjergene. De deilige store Bjerge, hvor man kommer heelt op over Skyen i den friske Luft! Det er herligt, kan Du troe! Imorgen ere vi vist saalangt ude i Verden!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">Det var ikke saa nær ved, som det saae ud, de brugte en heel Dag at gaae, før de kom til Bjergene, hvor de sorte Skove voxte lige op mod Himmelen, og hvor der vare Stene ligesaa store som en heel By; det vilde rigtignok blive en svær Tour at komme der heelt over, men derfor gik ogsaa <hi rend="italic">Johannes</hi> og Reisekammeraten ind i Vertshuset, for at hvile sig godt og samle Kræfter til Marschen imorgen.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Nede i den store Skjænkestue i Vertshuset vare saa mange Mennesker samlede, for der var en Mand, som gjorde Dukke-Comedie; han havde just stillet sit lille Theater op, og Folk sad rundt omkring for at see den Comedie, men allerforrest havde en gammel tyk Slagter taget Plads, og det den allerbedste; hans store <seg target="txtcmnt-128-02"><!--DATA-TERM: Bulbider--><!--DATA-DEFINITION: bidsk hund.-->Bulbider</seg>, uh, den saae saa glubsk ud! sad ved Siden af ham og gjorde Øine, ligesom alle de andre.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Nu begyndte Comedien, og det var en pæn Comedie med en Konge og en Dronning, de sad paa den deiligste Throne, havde Guldkroner paa Hovedet og lange Slæb paa Kjolerne, for det havde de Raad til. De nydeligste Trædukker med Glas-Øine og store <seg target="txtcmnt-128-03"><!--DATA-TERM: Knebelsbart(er)--><!--DATA-DEFINITION: nedhængende overskæg.-->Knebelsbarter</seg> stode ved alle Døre, og lukkede op og i for at der kunde komme frisk Luft i Stuen! Det var just en nydelig Komedie, og den var slet ikke sørgelig, men lige idet Dronningen reiste sig op og gik hen ad Gulvet, saa – ja Gud maa vide, hvad den store Bulbider tænkte; men da den tykke Slagter ikke holdt paa ham, gjorde han et Spring lige ind paa Theatret, tog Dronningen midt i hendes <seg target="txtcmnt-128-04"><!--DATA-TERM: tynde Liv--><!--DATA-DEFINITION: talje.-->tynde Liv</seg>, saa det sagde »knik, knak!« Det var ganske forskrækkeligt!</p>
+
+<p rend="firstIndent" xml:id="p_00037">Den stakkels Mand, som gjorde den hele Comedie, blev saa forskrækket og saa bedrøvet for sin Dronning, for det var den allernydeligste Dukke, han havde, og nu havde den ækle <pb n="129"/>Bulbider bidt Hovedet af hende; men da Folk siden gik bort, sagde den Fremmede, han som var kommet med Johannes, at han nok skulde gjøre hende istand; og saa tog han sin Krukke frem og smurte Dukken med den Salve, han hjalp den stakkels gamle Kone med, da hun havde brækket sit Been. Ligesaa snart Dukken var smurt, blev den strax heel igjen, ja den kunde endogsaa selv røre alle sine Lemmer, man behøvede slet ikke at trække i Snoren; Dukken var som et levende Menneske, paa det nær at den ikke kunde tale. Manden, som havde det lille Dukketheater, blev saa fornøiet, nu behøvede han slet ikke at holde paa den Dukke, den kunde jo dandse af sig selv. Det var der ingen af de andre der kunde.</p>
+
+<p rend="firstIndent" xml:id="p_00038">Da det siden blev Nat, og alle Folk i Vertshuset vare gaaet i Seng, var der een, der sukkede saa forskrækkelig dybt, og blev saa længe ved, saa de allesammen stod op, for at see hvem det kunde være. Manden, der havde gjort Comedien, gik hen til sit lille Theater, for det var der inde, at nogen sukkede. Alle Trædukkerne laae imellem hinanden, Kongen og alle <seg target="txtcmnt-129-01"><!--DATA-TERM: Drabanterne--><!--DATA-DEFINITION: livvagterne.-->Drabanterne</seg>, og det var dem, som sukkede saa ynkeligt og stirrede med deres store Glas-Øine, for de vilde saa gjerne blive smurt lidt ligesom Dronningen, at de ogsaa kunde komme til at røre sig af sig selv. Dronningen lagde sig lige ned paa sine Knæ, og rakte sin deilige Guldkrone i Veiret, mens hun bad; »tag kun den, men smør min Gemal og mine Hoffolk!« da kunde den stakkels Mand, der eiede Comedien og alle Dukkerne, ikke lade være at græde, for det gjorde ham virkelig saa ondt for dem; han lovede strax Reisekammeraten, at han vilde give ham alle de Penge, han fik for sin Comedie næste Aften, naar han bare vilde smøre fire, fem af hans pæneste Dukker; men Reisekammeraten sagde, at han forlangte slet ikke andet, end den store Sabel, han havde ved sin Side, og da han fik den, smurte han sex Dukker, der strax dandsede og det saa nydeligt, at alle Pigerne, de levende Menneske-Piger, som saae derpaa, gav sig til at dandse med. Kudsken og Kokkepigen dandsede, Tjeneren og Stuepigen, alle de Fremmede, og <seg target="txtcmnt-129-02"><!--DATA-TERM: Ildskuffe(n)--><!--DATA-DEFINITION: skovl til at fjerne gløder og aske fra ilden med.-->Ildskuffen</seg> og <seg target="txtcmnt-129-03"><!--DATA-TERM: Ildklemme(n)--><!--DATA-DEFINITION: jerntang, hvormed man kan tage noget ud af ilden eller rage op i den.-->Ildklemmen</seg>; men de to faldt om, lige i det de gjorde de første Spring, – jo det var en lystig Nat. –</p>
+
+<p rend="firstIndent" xml:id="p_00039">Næste Morgen gik <hi rend="italic">Johannes</hi> med sin Reisekammerat bort fra dem allesammen, og opad de høie Bjerge, og igjennem de store Granskove. De kom saa høit op, at Kirketaarnene dybt under dem tilsidst saae ud som smaa røde Bær, nede i alt det Grønne, og de kunde see saa langt bort, mange, mange Mile, hvor de <pb n="130"/>aldrig havde været! saameget smukt af den deilige Verden havde <hi rend="italic">Johannes</hi> aldrig før seet paa eengang, og Solen skinnede saa varmt fra den friske blaa Luft, han hørte ogsaa Jægerne blæse paa Valdhorn inde mellem Bjergene, saa smukt og velsignet, at han fik Vandet i Øinene af Glæde, og kunde ikke lade være at sige: »Du gode vor Herre! jeg kunde kysse Dig, fordi Du er saa god mod os allesammen, og har givet os al den Deilighed, der er i Verden!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">Reisekammeraten stod ogsaa med foldede Hænder, og saae ud over Skoven og Byerne, i det varme Solskin. I det samme klang det forunderligt deiligt over deres Hoveder, de saae op i Veiret: en stor hvid Svane svævede i Luften; den var saa smuk, og sang, som de aldrig før havde hørt nogen Fugl synge; men det blev mere og mere svagt, den bøiede sit Hoved og sank, ganske langsomt ned for deres Fødder, hvor den laae død, den smukke Fugl.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»To saa deilige Vinger,« sagde Reisekammeraten, »saa hvide og store, som de, Fuglen har, ere Penge værd, dem vil jeg tage med mig! kan du nu see, at det var godt, jeg fik en Sabel!« og saa hug han med eet Slag begge Vingerne af den døde Svane, dem vilde han beholde.</p>
+
+<p rend="firstIndent" xml:id="p_00042">De reiste nu mange, mange Mile frem over Bjergene, til de tilsidst foran dem saae en stor Stad, med over hundrede Taarne, der skinnede som Sølv i Solskinnet; midt i Byen var et prægtigt Marmorslot, tækket med det røde Guld, og her boede Kongen.</p>
+
+<p rend="firstIndent" xml:id="p_00043"><hi rend="italic">Johannes</hi> og Reisekammeraten vilde ikke strax gaae ind i Byen, men bleve i Vertshuset udenfor, at de kunde pynte sig, thi de vilde see pæne ud, naar de kom paa Gaden. Verten fortalte dem, at Kongen var saadan en god Mand, der aldrig gjorde noget Menneske noget, hverken det ene eller det andet, men at hans Datter, ja Gud bevare os! det var en slem Prindsesse. Deilighed havde hun nok af, ingen kunde være saa smuk og nydelig, som hun, men hvad hjalp det, hun var en slem, ond Hex, der var Skyld i, at saa mange deilige Prindser havde mistet deres Liv. – Alle Mennesker havde hun givet Lov at frie til hende; enhver kunde komme, enten han var en Prinds, eller en Staadder, det kunde være lige eet og det samme; han skulde bare gjætte tre Ting, hun spurgte ham om, kunde han det, saa vilde hun gifte sig med ham, og han skulde være Konge over det hele Land, naar hendes Fader døde; men kunde han ikke gjætte de tre Ting, saa lod hun ham hænge eller halshugge, saa slem og ond var den deilige Prindsesse. Hendes Fader, den <pb n="131"/>gamle Konge, var saa bedrøvet derover, men han kunde ikke forbyde hende, at være saa ond, for han havde eengang sagt, han vilde aldrig have det mindste at gjøre med hendes Kjærester, hun kunde selv gjøre, ligesom hun vilde. Hver engang der kom en Prinds og skulde gjætte, for at faae Prindsessen, saa kunde han ikke <seg target="txtcmnt-131-01"><!--DATA-TERM: komme ud af det--><!--DATA-DEFINITION: finde ud af det.-->komme ud af det</seg>, og saa blev han hængt eller halshugget; de havde jo <seg target="txtcmnt-131-02"><!--DATA-TERM: varet--><!--DATA-DEFINITION: advaret.-->varet</seg> ham i Tide, han kunde lade være at frie. Den gamle Konge var saa bedrøvet over al den Sorg og Elendighed, at han en heel Dag om Aaret laae paa Knæ, med alle sine Soldater, og bad, at Prindsessen maatte blive god, men det vilde hun slet ikke. De gamle Koner, som drak Brændeviin, farvede det ganske sort, før de drak det, saaledes sørgede de, og mere kunde de ikke gjøre.</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Den hæslige Prindsesse!« sagde <hi rend="italic">Johannes</hi>, »hun skulde virkelig <seg target="txtcmnt-131-03"><!--DATA-TERM: have Riis--><!--DATA-DEFINITION: have prygl.-->have Riis</seg>, det kunde hun have godt af. Bare jeg var den gamle Konge, hun skulde nok komme til at <seg target="txtcmnt-131-04"><!--DATA-TERM: spytte røde Grise--><!--DATA-DEFINITION: bløde.-->spytte røde Grise</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">I det samme hørte de Folk udenfor raabe Hurra! Prindsessen kom forbi, og hun var virkelig saa deilig, at alle Folk glemte, hvor ond hun var, derfor raabte de Hurra. Tolv deilige Jomfruer, allesammen i hvide Silkekjoler, og med en Guldtullipan i Haanden, reed paa kulsorte Heste, ved Siden af hende; Prindsessen selv havde en kridhvid Hest, pyntet med Diamanter og Rubiner, hendes Ridedragt var af det pure Guld, og Pidsken, hun havde i Haanden, saae ud, som den var en Solstraale; Guldkronen paa Hovedet var ligesom smaa Stjerner oppe fra Himlen, og Kaaben var syet af over tusinde deilige Sommerfuglevinger; alligevel var hun meget smukkere, end alle hendes Klæder.</p>
+
+<p rend="firstIndent" xml:id="p_00046">Da <hi rend="italic">Johannes</hi> fik hende at see, blev han saa rød i sit Ansigt, som et dryppende Blod, og han kunde knap sige et eneste Ord; Prindsessen saae jo ganske ud, som den deilige Pige med Guldkrone paa, han havde drømt om den Nat, hans Fader var død. Han fandt hende saa smuk, og kunde ikke lade være at holde saa meget af hende. Det var bestemt ikke sandt, sagde han, at hun kunde være en ond Hex, der lod Folk hænge eller halshugge, naar de ikke kunde gjætte, hvad hun forlangte af dem. »Enhver har jo Lov at frie til hende, endogsaa den fattigste Staadder, jeg vil virkelig gaae op paa Slottet! for jeg kan ikke lade være!«</p>
+
+<p rend="firstIndent" xml:id="p_00047">De sagde allesammen, at det skulde han ikke gjøre, det vilde bestemt gaae ham, ligesom alle de andre. <hi rend="italic">Reisekammeraten</hi> raadede ham ogsaa derfra, men <hi rend="italic">Johannes</hi> meente, det gik nok godt, børstede sine Skoe og sin Kjole, vaskede Ansigt og Hænder, <pb n="132"/>kæmmede sit smukke, gule Haar, og gik saa ganske alene ind til Byen, og op paa Slottet.</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Kom ind!« sagde den gamle Konge, da <hi rend="italic">Johannes</hi> bankede paa Døren. – Johannes lukkede op, og den gamle Konge, i Slaabrok og broderede Tøfler, kom ham imøde, Guldkronen havde han paa Hovedet, Scepteret i den ene Haand og Guldæblet i den anden. »<seg target="txtcmnt-132-01"><!--DATA-TERM: Bi--><!--DATA-DEFINITION: vent.-->Bi</seg> lidt!« sagde han, og fik Æblet op under Armen, for at kunne række <hi rend="italic">Johannes</hi> Haanden. Men saasnart han fik at høre, det var en Frier, begyndte han saaledes at græde, at baade Scepter og Æble faldt paa Gulvet, og han maatte tørre Øinene i sin Slaabrok. Den stakkels gamle Konge.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Lad være!« sagde han, »det gaaer Dig galt, ligesom alle de Andre. Nu skal Du bare see!« saa førte han <hi rend="italic">Johannes</hi> ud i Prindsessens Lysthave, der saae forskrækkeligt ud! Oppe i hvert Træ hang tre, fire Kongesønner, der havde friet til Prindsessen, men ikke kunde gjætte de Ting, hun havde sagt dem. Hver Gang det blæste, ranglede alle Knoklerne, saa de smaa Fugle bleve forskrækkede, og turde aldrig komme ind i den Have; alle Blomsterne vare bundne op med Menneskebeen, og i Urtepotterne stode Dødningehoveder og grinte. Det var rigtignok en Have for en Prindsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Her kan Du see!« sagde den gamle Konge, »det vil gaae Dig, ligesom alle de Andre, Du her seer, lad derfor heller være; Du gjør mig virkelig ulykkelig, for jeg tager mig det saa nær!«</p>
+
+<p rend="firstIndent" xml:id="p_00051"><hi rend="italic">Johannes</hi> kyssede den gode gamle Konge paa Haanden, og sagde, det gik nok godt, for han holdt saa meget af den deilige Prindsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00052">I det samme kom Prindsessen selv, med alle sine Damer, ridende ind i Slotsgaarden, de gik derfor ud til hende, og sagde god Dag. Hun var saa nydelig, rakte <hi rend="italic">Johannes</hi> Haanden, og han holdt endnu meget mere af hende end før, hun kunde bestemt ikke være en slem ond Hex, som alle Folk sagde om hende. – De gik op i Salen, og de smaa <seg target="txtcmnt-132-02"><!--DATA-TERM: Page(r)--><!--DATA-DEFINITION: tjener.-->Pager</seg> <seg target="txtcmnt-132-03"><!--DATA-TERM: præsenterede--><!--DATA-DEFINITION: serverede.-->præsenterede</seg> Syltetøi og Pebernødder for dem, men den gamle Konge var saa bedrøvet, han kunde slet ikke spise noget, og Pebernødderne vare ham ogsaa for haarde.</p>
+
+<p rend="firstIndent" xml:id="p_00053">Det blev nu bestemt, at <hi rend="italic">Johannes</hi> skulde komme igjen op paa Slottet næste Morgen, da vilde Dommerne og hele Raadet være forsamlede, og høre, hvorledes han kom ud af det med at gjætte. Kom han godt ud af det, saa skulde han endnu komme to Gange til, men der var endnu aldrig nogen, som havde gjættet den første Gang, og saa maatte de miste Livet.</p>
+
+<pb n="133"/><p rend="firstIndent" xml:id="p_00054"><hi rend="italic">Johannes</hi> var slet ikke bedrøvet for, hvorledes det vilde gaae ham, han var just fornøiet, tænkte kun paa den deilige Prindsesse, og troede ganske vist, at den gode Gud nok hjalp ham, men hvorledes, det vidste han slet ikke, og vilde heller ikke tænke derpaa. Han dandsede hen ad Landeveien, da han gik tilbage til Vertshuset, hvor Reisekammeraten ventede paa ham.</p>
+
+<p rend="firstIndent" xml:id="p_00055"><hi rend="italic">Johannes</hi> kunde ikke blive færdig med at fortælle, hvor <seg target="txtcmnt-133-01"><!--DATA-TERM: nydelig--><!--DATA-DEFINITION: venlig, behagelig.-->nydelig</seg> Prindsessen havde været imod ham, og hvor deilig hun var; han længtes allerede saameget efter den næste Dag, han skulde derind paa Slottet, og forsøge sin Lykke med at gjætte.</p>
+
+<p rend="firstIndent" xml:id="p_00056">Men Reisekammeraten rystede med Hovedet, og var ganske bedrøvet. »Jeg holder saa meget af Dig!« sagde han, »vi kunde endnu have været længe sammen, og nu skal jeg allerede miste Dig! Du stakkels, kjære <hi rend="italic">Johannes</hi>, jeg kunde gjerne græde, men jeg vil ikke forstyrre din Glæde den sidste Aften maaskee, vi ere sammen. Vi ville være lystige, rigtig lystige; imorgen, naar Du er borte, har jeg Lov til at græde!«</p>
+
+<p rend="firstIndent" xml:id="p_00057">Alle Folk inde i Byen havde strax faaet at vide, at der var kommet en nye Frier til Prindsessen, og der var derfor en stor Bedrøvelse. Comediehuset blev lukket, alle <seg target="txtcmnt-133-02"><!--DATA-TERM: Kagekoner(ne)--><!--DATA-DEFINITION: kvinder, som solgte kager og konfekture på gaden eller fra særlige boder.-->Kagekonerne</seg> bandt <seg target="txtcmnt-133-03"><!--DATA-TERM: sort Flor--><!--DATA-DEFINITION: sørgeslør.-->sort Flor</seg> om deres Sukkergrise, Kongen og Præsterne laae paa Knæ i Kirken, der var saadan en Bedrøvelse, for det kunde jo ikke gaae <hi rend="italic">Johannes</hi> bedre, end det var gaaet alle de andre Friere.</p>
+
+<p rend="firstIndent" xml:id="p_00058">Ud paa Aftenen lavede Reisekammeraten en stor <seg target="txtcmnt-133-04"><!--DATA-TERM: Bolle--><!--DATA-DEFINITION: bowle.-->Bolle</seg> Punsch, og sagde til <hi rend="italic">Johannes</hi>, at nu skulde de være rigtig lystige, og drikke Prindsessens Skaal. Men da <hi rend="italic">Johannes</hi> havde drukket to Glas, blev han saa søvnig, det var ham ikke mueligt at holde Øinene oppe, han maatte falde i Søvn. Reisekammeraten løftede ham ganske sagte op fra Stolen, og lagde ham hen i Sengen, og da det saa blev mørk Nat, tog han de to store Vinger, han havde hugget af Svanen, bandt dem fast paa sine Skuldre, det største Riis, han havde faaet af den gamle Kone, der faldt og brak Benene, stak han i sin Lomme, lukkede Vinduet op, og fløi saa ind over Byen, lige hen til Slottet, hvor han satte sig i en Krog, oppe under det Vindue, der gik ind til Prindsessens Sovekammer.</p>
+
+<p rend="firstIndent" xml:id="p_00059">Det var ganske stille i hele Byen; nu slog Klokken tre Qvarteer til Tolv, Vinduet gik op, og Prindsessen fløi i en stor hvid Kaabe og med lange sorte Vinger, hen over Byen, ud til et stort Bjerg; men Reisekammeraten gjorde sig usynlig, saaledes at hun slet ikke kunde see ham, fløi bagefter, og pidskede paa Prindsessen med sit Riis, saa at der ordentlig kom Blod, hvor <pb n="134"/>han slog. Uh, det var en Fart heelt igjennem Luften, Vinden tog i hendes Kaabe, der bredte sig ud til alle Sider, ligesom et stort Skibsseil, og Maanen skinnede igjennem den.</p>
+
+<p rend="firstIndent" xml:id="p_00060">»Hvor det hagler! hvor det hagler!« sagde Prindsessen ved hvert Slag, hun fik af Riset, og det kunde hun have godt af. Endelig kom hun da ud til Bjerget og bankede paa. Det rullede ligesom Torden, idet Bjerget aabnede sig, og Prindsessen gik der ind, Reisekammeraten fulgte med, for slet ingen kunde see ham, han var usynlig. De gik igjennem en stor, lang Gang, hvor Væggene gnistrede ganske forunderligt, det var over tusinde gloende Ædderkoppe, der løb op og ned af Muren, og lyste ligesom Ild. Nu kom de i en stor Sal, bygget af Sølv og Guld, Blomster, saa store som Solsikker, røde og blaae, skinnede fra Væggene; men ingen kunde plukke de Blomster, for Stilken var fæle, giftige Slanger, og Blomsterne var Ild, der stod dem ud af Munden. Hele Loftet var besat med skinnende Sanct Hans-Orme og himmelblaa Flaggermuus, der sloge med de tynde Vinger, det saae ganske forunderligt ud. Midt paa Gulvet var en Throne, den blev baaret af fire <seg target="txtcmnt-134-01"><!--DATA-TERM: Hestebeenrade--><!--DATA-DEFINITION: hesteskeletter.-->Hestebeenrade</seg>, der havde Seletøi af de røde Ild-Ædderkoppe, Thronen selv var af mælkehvidt Glas, og Puderne til at sidde paa var smaa sorte Muus, der beed hinanden i Halen. Ovenover den var et Tag af rosenrødt Spindelvæv, besat med de nydeligste smaa grønne Fluer, der skinnede som Ædelstene. Midt paa Thronen sad en gammel Trold, med Krone paa det stygge Hoved, og et Scepter i Haanden. Han kyssede Prindsessen paa hendes Pande, lod hende sidde ved Siden af sig paa den kostbare Throne, og nu begyndte Musikken. Store, sorte Græshopper spillede paa Mundharpe, og Uglen slog sig selv paa Maven, for den havde ingen Tromme. Det var en løierlig Concert. Smaa sorte Nisser, med en <seg target="txtcmnt-134-02"><!--DATA-TERM: Lygtemand--><!--DATA-DEFINITION: lysfænomen over moser o.l.; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som menes at frembringe dette lys med en lygte for at lede eller lokke nogen i en bestemt retning. (jf. Thiele II, 298-299).-->Lygtemand</seg> paa Huen, dandsede rundt i Salen. Ingen kunde see Reisekammeraten, han havde stillet sig lige bagved Thronen, og hørte og saae alle Ting. Hoffolkene, som nu ogsaa kom ind, vare saa pæne og fornemme, men den, der rigtigt kunde see, mærkede nok, hvorledes de havde det. Det var ikke andet, end Kosteskafter med Kaalhoveder paa, som Trolden havde hexet Liv i, og givet de broderede Klæder. Men det kunde jo ogsaa være det samme, de brugtes kun <seg target="txtcmnt-134-03"><!--DATA-TERM: til Stads--><!--DATA-DEFINITION: i festlig anledning.-->til Stads</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00061">Da der nu var dandset noget, fortalte Prindsessen til Trolden, at hun havde faaet en ny Frier, og spurgte derfor, hvad hun vel skulde tænke paa at spørge ham om næste Morgen, naar han kom op paa Slottet.</p>
+
+<pb n="135"/><p rend="firstIndent" xml:id="p_00062">»Hør!« sagde Trolden, »nu skal jeg sige Dig noget! Du skal tage noget meget let, for saa falder han slet ikke paa det. Tænk Du paa din ene Sko. Det gjætter han ikke. Lad saa Hovedet hugge af ham, men glem ikke, naar Du imorgen Nat kommer herud igjen til mig, at bringe mig hans Øine, for dem vil jeg spise!«</p>
+
+<p rend="firstIndent" xml:id="p_00063">Prindsessen neiede ganske dybt, og sagde, hun skulde ikke glemme Øinene. Trolden lukkede nu Bjerget op, og hun fløi hjem igjen, men Reisekammeraten fulgte med, og pryglede hende saa stærkt med Riset, at hun sukkede ganske dybt over det stærke Haglveir, og skyndte sig alt hvad hun kunde, med at komme igjennem Vinduet ind i sit Sovekammer; men Reisekammeraten fløi tilbage til Kroen, hvor <hi rend="italic">Johannes</hi> endnu sov, løste sine Vinger af, og lagde sig saa ogsaa paa Sengen, for han kunde sagtens være træt.</p>
+
+<p rend="firstIndent" xml:id="p_00064">Det var ganske tidligt paa Morgenen, da <hi rend="italic">Johannes</hi> vaagnede, Reisekammeraten stod ogsaa op, og fortalte, at han i Nat havde drømt en meget underlig Drøm om Prindsessen og hendes Sko, og bad ham derfor endelig at spørge, om Prindsessen ikke skulde have tænkt paa sin Sko! For det var jo det, han havde hørt af Trolden inde i Bjerget, men han vilde ikke fortælle <hi rend="italic">Johannes</hi> noget derom, bad ham bare at spørge, om hun havde tænkt paa sin Sko.</p>
+
+<p rend="firstIndent" xml:id="p_00065">»Jeg kan ligesaa godt spørge om det ene, som om det andet,« sagde <hi rend="italic">Johannes</hi>, »maaskee kan det være ganske rigtigt, hvad Du har drømt, for jeg troer nu alletider, vor Herre hjelper mig nok! Men jeg vil dog sige Dig Farvel, for gjætter jeg galt, faaer jeg Dig aldrig meer at see!«</p>
+
+<p rend="firstIndent" xml:id="p_00066">Saa kyssede de hinanden, og <hi rend="italic">Johannes</hi> gik ind til Byen og op paa Slottet. Hele Salen var ganske fyldt med Mennesker, Dommerne sad i deres Lænestole, og havde Edderduuns Dyner under Hovedet, for de havde saa meget at tænke paa. Den gamle Konge stod op og tørrede sine Øine i et hvidt Lommetørklæde. Nu traadte Prindsessen ind, hun var endnu meget deiligere, end igaar, og hilsede saa kjærligt til dem allesammen, men <hi rend="italic">Johannes</hi> gav hun Haanden, og sagde: »God Morgen, Du!«</p>
+<p rend="firstIndent" xml:id="p_00067">Nu skulde <hi rend="italic">Johannes</hi> til at gjætte, hvad hun havde tænkt paa. Gud hvor hun saae venligt paa ham, men lige idet hun hørte ham sige det ene Ord: <hi rend="italic">Sko</hi>, blev hun kridhvid i Ansigtet, og rystede over sin hele Krop, men det kunde ikke hjælpe hende noget, for han havde gjættet rigtigt!</p>
+
+<p rend="firstIndent" xml:id="p_00068">Hille den! hvor den gamle Konge blev glad; han slog en Kaalbøtte, saa det stod efter, og alle Folk klappede i Hænderne <pb n="136"/>for ham og for <hi rend="italic">Johannes</hi>, der nu havde gjættet rigtigt den første Gang.</p>
+
+<p rend="firstIndent" xml:id="p_00069">Reisekammeraten blev ogsaa fornøiet, da han fik at vide, hvor godt det var gaaet af; men <hi rend="italic">Johannes</hi> lukkede sine Hænder sammen og takkede den gode Gud, der vistnok vilde hjælpe ham igjen de to andre Gange. Næste Dag skulde der allerede gjættes igjen.</p>
+
+<p rend="firstIndent" xml:id="p_00070">Aftenen gik ligesom den igaar. Da <hi rend="italic">Johannes</hi> sov, fløi Reisekammeraten efter Prindsessen ud til Bjerget, og pryglede hende endnu stærkere, end forrige Gang, for nu havde han taget to Riis; ingen fik ham at see, og han hørte alle Ting. Prindsessen vilde tænke paa sin Handske, og det fortalte han til <hi rend="italic">Johannes</hi>, ligesom om det var en Drøm; <hi rend="italic">Johannes</hi> kunde da nok gjætte rigtigt, og der blev saadan en Glæde paa Slottet. Hele Hoffet slog Kaalbøtter, ligesom de havde seet Kongen gjøre den første Gang; men Prindsessen laae paa Sophaen og vilde ikke sige et eneste Ord. Nu kom det an paa, om <hi rend="italic">Johannes</hi> kunde gjætte den tredie Gang. Gik det godt, skulde han jo have den deilige Prindsesse, og arve det hele Kongerige, naar den gamle Konge døde; gjættede han galt, saa skulde han miste sit Liv, og Trolden vilde spise hans smukke blaa Øine.</p>
+
+<p rend="firstIndent" xml:id="p_00071">Aftenen iforveien gik <hi rend="italic">Johannes</hi> tidlig i sin Seng, læste sin Aftenbøn, og sov saa ganske roligt; men Reisekammeraten spændte Vingerne paa sin Ryg, bandt Sabelen ved sin Side og tog alle tre Riis med sig, og fløi saa til Slottet.</p>
+
+<p rend="firstIndent" xml:id="p_00072">Det var ganske bælmørk Nat, det stormede saa Tagstenene fløi af Husene, og Træerne inde i Haven, hvor Beenradene hang, sveiede ligesom Siv, naar det blæste; det lynede hvert Øieblik, og Tordenen rullede ligesom om det kun var et eneste Skrald, der varede hele Natten. Nu slog Vinduet op, og Prindsessen fløi ud; hun var saa bleg, som en Død, men hun loe af det onde Veir, syntes det var ikke stærkt nok, hendes hvide Kaabe hvirvlede rundt i Luften, ligesom et stort Skibsseil, men Reisekammeraten pidskede hende saadan med sine tre Riis, saa Blodet dryppede ned paa Jorden, og hun tilsidst neppe kunde flyve længer. Endelig kom hun da ud til Bjerget.</p>
+
+<p rend="firstIndent" xml:id="p_00073">»Det hagler og stormer,« sagde hun; »aldrig har jeg været ude i saadant et Veir.«</p>
+
+<p rend="firstIndent" xml:id="p_00074">»Man kan ogsaa faae for meget af det Gode,« sagde Trolden. Nu fortalte hun ham, at <hi rend="italic">Johannes</hi> ogsaa havde gjættet rigtigt anden Gang; gjorde han nu det samme i Morgen, da havde han vundet, og hun kunde aldrig mere komme ud i Bjerget, skulde <pb n="137"/>aldrig kunne gjøre saadanne Troldkunster, som før; derfor var hun ganske bedrøvet.</p>
+
+<p rend="firstIndent" xml:id="p_00075">»Han skal ikke kunne gjætte!« sagde Trolden, »jeg skal nok finde paa noget, han aldrig har tænkt paa! eller ogsaa maa han være en større Troldmand, end jeg. Men nu ville vi være lystige!« og saa tog han Prindsessen i begge Hænder og de dandsede rundt med alle de smaae Nisser og Lygtemænd, der vare i Stuen; de røde Ædderkoppe sprang ligesaa lystigt op og ned af Væggen, det saae ud som Ildblomsterne gnistrede. Uglen slog paa Tromme, <seg target="txtcmnt-137-01"><!--DATA-TERM: Faarekyllingerne peb--><!--DATA-DEFINITION: dødsvarsel ifølge folketroen; jf. Thiele III, 168.-->Faarekyllingerne peb</seg> og de sorte Græshopper blæste paa Mundharpe. Det var et lystigt Bal! –</p>
+
+<p rend="firstIndent" xml:id="p_00076">Da de nu havde dandset længe nok, maatte Prindsessen hjem, for ellers kunde hun blive savnet paa Slottet; Trolden sagde, han nok vilde følge hende, saa var de dog saalænge sammen endnu.</p>
+
+<p rend="firstIndent" xml:id="p_00077">De fløi da afsted i det onde Veir, og Reisekammeraten sled sine tre Riis op paa deres Rygstykker; aldrig havde Trolden været ude i saadan et Haglveir. Udenfor Slottet sagde han Farvel til Prindsessen, og hvidskede i det samme til hende: »tænk paa mit Hoved,« men Reisekammeraten hørte det nok, og lige i det Øieblik Prindsessen smuttede igjennem Vinduet ind i sit Sovekammer, og Trolden vilde vende om igjen, greb han ham i hans lange sorte Skjæg, og hug med Sablen hans ækle Troldhoved af lige ved Skuldrene, saa Trolden ikke engang fik det selv at see; Kroppen kastede han ud i Søen til Fiskene, men Hovedet dykkede han kun ned i Vandet, og bandt det saa ind i sit Silkelommetørklæde, tog det med hjem i Vertshuset, og lagde sig saa til at sove.</p>
+
+<p rend="firstIndent" xml:id="p_00078">Næste Morgen gav han <hi rend="italic">Johannes</hi> Lommetørklædet, men sagde, han ikke maatte løse det op, før Prindsessen spurgte, hvad det var, hun havde tænkt paa.</p>
+
+<p rend="firstIndent" xml:id="p_00079">Der vare saa mange Mennesker i den store Sal paa Slottet, at de stode op paa hinanden, ligesom Radiser, der ere bundne i et Knippe. Raadet sad i deres Stole med de bløde Hovedpuder, og den gamle Konge havde nye Klæder paa, Guldkronen og Scepteret var poleret, det saae ganske nydeligt ud; men Prindsessen var ganske bleg, og havde en kulsort Kjole paa, ligesom hun skulde til Begravelse.</p>
+
+<p rend="firstIndent" xml:id="p_00080">»Hvad har jeg tænkt paa?« sagde hun til <hi rend="italic">Johannes</hi>, og strax løste han Lommetørklædet op, og blev selv ganske forskrækket, da han saae det fæle Troldhoved. Det gjøs i alle Mennesker, for det var forskrækkeligt at see, men Prindsessen sad ligesom <pb n="138"/>et Steenbillede, og kunde ikke sige et eneste Ord; tilsidst reiste hun sig op, og gav <hi rend="italic">Johannes</hi> Haanden, for han havde jo gjættet rigtigt; hun saae hverken paa den ene eller den anden, men sukkede ganske dybt: »nu er Du min Herre! Iaften vil vi holde Bryllup!«</p>
+
+<p rend="firstIndent" xml:id="p_00081">»Det kan jeg lide!« sagde den gamle Konge, »saaledes skal vi have det!« Alle Folk raabte Hurra, Vagtparaden gjorde Musik i Gaderne, Klokkerne ringede, og Kagekonerne tog det sorte Flor af deres Sukkergrise, for nu var der Glæde. Tre hele stegte Oxer, fyldte med Ænder og Høns, bleve satte midt paa Torvet, enhver kunde der skære sig et Stykke; i Vandspringene sprang den deiligste Viin, og kjøbte man en Skillings-Kringle hos Bageren, fik man sex store Boller i Tilgift, og det Boller med Rosiner i.</p>
+
+<p rend="firstIndent" xml:id="p_00082">Om Aftenen var hele Byen <seg target="txtcmnt-138-01"><!--DATA-TERM: illumineret--><!--DATA-DEFINITION: oplyst (i festlig anledning).-->illumineret</seg>, og Soldaterne skjød med Kanoner, og Drengene med Knaldperler, og der blev spist og drukket, <seg target="txtcmnt-138-02"><!--DATA-TERM: klinket--><!--DATA-DEFINITION: skålet.-->klinket</seg> og sprunget oppe paa Slottet, alle de fornemme Herrer og deilige Frøkener dandsede med hinanden; man kunde langt borte høre, hvor de sang:</p>
+
+<lg xml:id="p_00083">
+<l>»<seg target="txtcmnt-138-03" type="dfnStart"/><!--DATA-TERM: Her er’ … faldera--><!--DATA-DEFINITION: verset stammer fra mottoet til H.C. Andersens »En splinterny Dandse-Vise«, udateret lejlighedstryk (BFN 1055); siden optaget i <i>Samlede Digte</i>, 1833.-->Her er’ saamange smukke Piger,</l>
+<l>Som vil ha’ dem en Svingom,</l>
+<l>De begjære <seg target="txtcmnt-138-04"><!--DATA-TERM: Tambourmarschen--><!--DATA-DEFINITION: march med kraftig brug af trommer (og en dans, der ledsager musikken).-->Tambourmarschen</seg>,</l>
+<l>Smukke Pige, vend Dig om.</l>
+<l>Dandser og tramper,</l>
+<l>Saa Skoesaallerne <seg target="txtcmnt-138-05">faldera</seg><seg type="dfnEnd" target="txtcmnt-138-03"/>!«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00084">Men Prindsessen var jo en Hex endnu, og holdt slet ikke noget af <hi rend="italic">Johannes</hi>; det huskede Reisekammeraten paa, og derfor gav han <hi rend="italic">Johannes</hi> tre Fjer af Svanevingerne, og en lille Flaske med nogle Draaber i, sagde til ham, at han skulde lade sætte ved Brudesengen et stort Kar, fyldt med Vand, og naar da Prindsessen vilde stige op i Sengen, skulde han give hende et lille Stød, saa hun faldt ned i Vandet, hvor han skulde dykke hende tre Gange, efter først at have kastet Fjerene og Draaberne deri, saa vilde hun blive fri for sin Trolddom, og komme til at holde saa meget af ham.</p>
+
+<p rend="firstIndent" xml:id="p_00085"><hi rend="italic">Johannes</hi> gjorde alt, hvad Reisekammeraten havde raadet ham; Prindsessen skreg ganske høit, idet han dykkede hende ned under Vandet, og sprællede ham under Hænderne, som en stor, kulsort Svane, med gnistrende Øine; da hun anden Gang kom op over Vandet igjen, var Svanen hvid, paa en eneste sort Ring nær, den havde om Halsen. <hi rend="italic">Johannes</hi> bad fromt til vor <pb n="139"/>Herre, og lod Vandet tredie Gang spille hen over Fuglen, og i samme Øieblik forvandledes den til den deiligste Prindsesse. Hun var endnu smukkere end før, og takkede ham med Taarer i sine deilige Øine, fordi han havde hævet hendes Fortryllelse.</p>
+
+<p rend="firstIndent" xml:id="p_00086">Næste Morgen kom den gamle Konge med hele sin <seg target="txtcmnt-139-01"><!--DATA-TERM: Hofstat--><!--DATA-DEFINITION: hofstab.-->Hofstat</seg>, og der var en Gratuleren til langt op paa Dagen; til allersidst kom da Reisekammeraten, han havde sin Stok i Haanden og Randselen paa Nakken. <hi rend="italic">Johannes</hi> kyssede ham saa mange Gange, sagde, han maatte ikke reise bort, han skulde blive hos ham, thi han var jo Skyld i hele hans Lykke. Men Reisekammeraten rystede med Hovedet, og sagde saa mildt og venligt: »Nei, nu er min Tid omme. Jeg har kun betalt min Gjæld. Kan Du huske den døde Mand, de onde Mennesker vilde gjøre Fortræd. Du gav alt, hvad Du eiede, for at han kunde have Ro i sin Grav. Den Døde er jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00087">I det samme var han borte. –</p>
+
+<p rend="firstIndent" xml:id="p_00088">Brylluppet varede nu en heel Maaned, <hi rend="italic">Johannes</hi> og Prindsessen holdt saa meget af hinanden, og den gamle Konge levede mange fornøiede Dage og lod deres smaa bitte Børn ride Ranke paa sit Knæ og lege med sit Scepter; men <hi rend="italic">Johannes</hi> var Konge over hele Riget.</p>
+
+
+
+<pb n="140"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Reisekammeraten" xml:id="reisekammeraten">
+<head type="section-comments">Reisekammeraten</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Eventyr, fortalte for Børn</hi>. <hi rend="italic">Andet Hefte</hi>, som udkom den 16. december 1835. Omarbejdet version af »Dödningen«.<br/>
+BFN 279/I,67-84/VII,33-36.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">125,40</cell><cell type="deviation">Krog!« &lt; Krog!</cell></row>
+<row><cell type="position">126,21</cell><cell type="deviation">Rdlr.!« &lt; Rdlr.!</cell></row>
+<row><cell type="position">126,21</cell><cell type="deviation">»det &lt; det</cell></row>
+<row><cell type="position">126,25</cell><cell type="deviation">mig!« &lt; mig!</cell></row>
+<row><cell type="position">128,5</cell><cell type="deviation">han, »dem &lt; han,« dem</cell></row>
+<row><cell type="position">128,9</cell><cell type="deviation">»det &lt; det</cell></row>
+<row><cell type="position">128,10</cell><cell type="deviation">»Nei &lt; Nei</cell></row>
+<row><cell type="position">131,20</cell><cell type="deviation">med en &lt; en</cell></row>
+<row><cell type="position">132,33</cell><cell type="deviation">Pager &lt; Piger</cell></row>
+<row><cell type="position">133,17</cell><cell type="deviation">græde!« &lt; græde!</cell></row>
+<row><cell type="position">135,27</cell><cell type="deviation">see!« &lt; see!</cell></row>
+<row><cell type="position">138,5</cell><cell type="deviation">Bryllup!« &lt; Bryllup!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">123</cell><row xml:id="txtcmnt-123-01"><cell type="data-term">sildigt</cell><cell type="data-definition">sent.</cell></row><row xml:id="txtcmnt-123-02"><cell type="data-term">Sengefjæl</cell><cell type="data-definition">sidestykke på en seng.</cell></row><row xml:id="txtcmnt-123-03"><cell type="data-term">en underlig Drøm</cell><cell type="data-definition">jf. Josefs anden drøm i 1. Mosebog 37,9.</cell></row><row xml:id="txtcmnt-123-04"><cell type="data-term">Skuffe</cell><cell type="data-definition">dyb, bredbladet skovl.</cell></row>
+<cell type="page">124</cell><row xml:id="txtcmnt-124-01"><cell type="data-term">tør Du nok</cell><cell type="data-definition">må du nok.</cell></row>
+<cell type="page">125</cell><row xml:id="txtcmnt-125-01"><cell type="data-term">Natlampe</cell><cell type="data-definition">bestående af et glas med olie forsynet med en lille rund træ- eller metalplade med en væge stukket igennem.</cell></row>
+<cell type="page">127</cell><row xml:id="txtcmnt-127-01"><cell type="data-term">Riis af Bregner</cell><cell type="data-definition">bundt bregner; ifølge folketroen stod bregnen i forbindelse med overnaturlige kræfter, fordi den kunne formere sig uden almindelige blomster og frø.</cell></row><row xml:id="txtcmnt-127-02"><cell type="data-term">Randsel</cell><cell type="data-definition">rygsæk.</cell></row>
+<cell type="page">128</cell><row xml:id="txtcmnt-128-01"><cell type="data-term">Urtekoste</cell><cell type="data-definition">buketter.</cell></row><row xml:id="txtcmnt-128-02"><cell type="data-term">Bulbider</cell><cell type="data-definition">bidsk hund.</cell></row><row xml:id="txtcmnt-128-03"><cell type="data-term">Knebelsbart(er)</cell><cell type="data-definition">nedhængende overskæg.</cell></row><row xml:id="txtcmnt-128-04"><cell type="data-term">tynde Liv</cell><cell type="data-definition">talje.</cell></row>
+<cell type="page">129</cell><row xml:id="txtcmnt-129-01"><cell type="data-term">Drabanterne</cell><cell type="data-definition">livvagterne.</cell></row><row xml:id="txtcmnt-129-02"><cell type="data-term">Ildskuffe(n)</cell><cell type="data-definition">skovl til at fjerne gløder og aske fra ilden med.</cell></row><row xml:id="txtcmnt-129-03"><cell type="data-term">Ildklemme(n)</cell><cell type="data-definition">jerntang, hvormed man kan tage noget ud af ilden eller rage op i den.</cell></row>
+<cell type="page">131</cell><row xml:id="txtcmnt-131-01"><cell type="data-term">komme ud af det</cell><cell type="data-definition">finde ud af det.</cell></row><row xml:id="txtcmnt-131-02"><cell type="data-term">varet</cell><cell type="data-definition">advaret.</cell></row><row xml:id="txtcmnt-131-03"><cell type="data-term">have Riis</cell><cell type="data-definition">have prygl.</cell></row><row xml:id="txtcmnt-131-04"><cell type="data-term">spytte røde Grise</cell><cell type="data-definition">bløde.</cell></row>
+<cell type="page">132</cell><row xml:id="txtcmnt-132-01"><cell type="data-term">Bi</cell><cell type="data-definition">vent.</cell></row><row xml:id="txtcmnt-132-02"><cell type="data-term">Page(r)</cell><cell type="data-definition">tjener.</cell></row><row xml:id="txtcmnt-132-03"><cell type="data-term">præsenterede</cell><cell type="data-definition">serverede.</cell></row>
+<cell type="page">133</cell><row xml:id="txtcmnt-133-01"><cell type="data-term">nydelig</cell><cell type="data-definition">venlig, behagelig.</cell></row><row xml:id="txtcmnt-133-02"><cell type="data-term">Kagekoner(ne)</cell><cell type="data-definition">kvinder, som solgte kager og konfekture på gaden eller fra særlige boder.</cell></row><row xml:id="txtcmnt-133-03"><cell type="data-term">sort Flor</cell><cell type="data-definition">sørgeslør.</cell></row><row xml:id="txtcmnt-133-04"><cell type="data-term">Bolle</cell><cell type="data-definition">bowle.</cell></row>
+<cell type="page">134</cell><row xml:id="txtcmnt-134-01"><cell type="data-term">Hestebeenrade</cell><cell type="data-definition">hesteskeletter.</cell></row><row xml:id="txtcmnt-134-02"><cell type="data-term">Lygtemand</cell><cell type="data-definition">lysfænomen over moser o.l.; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som menes at frembringe dette lys med en lygte for at lede eller lokke nogen i en be<pb n="506"/>stemt retning. (jf. Thiele II, 298-299).</cell></row><row xml:id="txtcmnt-134-03"><cell type="data-term">til Stads</cell><cell type="data-definition">i festlig anledning.</cell></row>
+<cell type="page">137</cell><row xml:id="txtcmnt-137-01"><cell type="data-term">Faarekyllingerne peb</cell><cell type="data-definition">dødsvarsel ifølge folketroen; jf. Thiele III, 168.</cell></row>
+<cell type="page">138</cell><row xml:id="txtcmnt-138-01"><cell type="data-term">illumineret</cell><cell type="data-definition">oplyst (i festlig anledning).</cell></row><row xml:id="txtcmnt-138-02"><cell type="data-term">klinket</cell><cell type="data-definition">skålet.</cell></row><row xml:id="txtcmnt-138-03"><cell type="data-term">Her er’ … faldera</cell><cell type="data-definition">verset stammer fra mottoet til H.C. Andersens »En splinterny Dandse-Vise«, udateret lejlighedstryk (BFN 1055); siden optaget i <hi rend="italic">Samlede Digte</hi>, 1833.</cell></row><row xml:id="txtcmnt-138-04"><cell type="data-term">Tambourmarschen</cell><cell type="data-definition">march med kraftig brug af trommer (og en dans, der ledsager musikken).</cell></row>
+<row xml:id="txtcmnt-138-05" wit="HCAC"><cell type="data-term">faldera</cell><cell type="data-definition">formentlig leg med udtrykket ‘falder af’, jf. ordlyden ‘falder-af’ i forlægget »En splinterny Dandse-Vise«.</cell></row>
+<cell type="page">139</cell><row xml:id="txtcmnt-139-01"><cell type="data-term">Hofstat</cell><cell type="data-definition">hofstab.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

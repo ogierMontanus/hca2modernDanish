@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>De røde Skoe</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Tredie Samling</i>, som udkom den 7. april 1845.<br/>
+BFN 469/II,85-90/VII,102-104.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="de-roede-skoe" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="de-roede-skoe_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="72_The-Red-Shoes">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var en lille Pige, saa fiin og saa nydelig, men om Sommeren maatte hun altid...</incipit><readingTime>8</readingTime><popularity>986</popularity><cite>&lt;p&gt;H.C. Andersen: De røde Skoe. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">De_roede_Skoe_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>livsforloeb</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="De røde Skoe" xml:id="de-roede-skoe">
+<pb n="349"/><head type="main">De røde Skoe</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var en lille Pige, saa fiin og saa nydelig, men om Sommeren maatte hun altid gaae med bare Fødder, for hun var fattig, og om Vinteren med store Træskoe, saa at den lille Vrist blev ganske rød og det saa grueligt.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Midt i Bondebyen boede den gamle Moer Skomagers, hun sad og syede, saa godt hun kunde det, af røde, gamle Klæde-Strimler et Par smaa Skoe, ganske kluntede, men godt meente vare de, og dem skulde den lille Pige have. Den lille Pige hedte <hi rend="italic">Karen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Just den Dag hendes Moder blev begravet fik hun de røde Skoe og havde dem første Gang paa; det var jo rigtignok ikke noget at sørge med, men hun havde nu ingen andre og saa gik hun med bare Been i dem, bag efter den fattige <seg target="txtcmnt-349-01"><!--DATA-TERM: Straakiste--><!--DATA-DEFINITION: kiste lavet af halm til de fattige.-->Straakiste</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Da kom der i det samme en stor, gammel Vogn, og i den sad der en stor, gammel Frue, hun saae paa den lille Pige og havde ondt af hende og saa sagde hun til Præsten: »hør, giv mig den lille Pige, saa skal jeg være god imod hende!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Og <hi rend="italic">Karen</hi> troede det var altsammen for de røde Skoe, men den gamle Frue sagde at de vare gruelige, og de bleve brændte, men <hi rend="italic">Karen</hi> selv blev klædt paa reent og net; hun maatte lære at læse og sye, og Folk sagde at hun var nydelig, men Speilet sagde: »Du er meget mere end nydelig, Du er deilig!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Da reiste Dronningen engang igjennem Landet og hun havde med sig sin lille Datter, der var en Prindsesse, og Folk strømmede til udenfor Slottet og der var da <hi rend="italic">Karen</hi> ogsaa, og den lille Prindsesse stod i fine, hvide Klæder i et Vindue og lod sig see paa; hun havde hverken Slæb eller Guldkrone, men deilige røde <seg target="txtcmnt-349-02"><!--DATA-TERM: Saphians-Skoe--><!--DATA-DEFINITION: (dyre) sko af fint gedeskind.-->Saphians-Skoe</seg>; de vare rigtignok anderledens nette, end de Moer Skomagers havde syet til lille <hi rend="italic">Karen</hi>. Intet i Verden kunde dog lignes ved røde Skoe!</p>
+
+<p rend="firstIndent" xml:id="p_00007">Nu var <hi rend="italic">Karen</hi> saa gammel at hun skulde confirmeres, nye Klæder fik hun, og nye Skoe skulde hun ogsaa have. Den rige Skomager inde i Byen tog Maal af hendes lille Fod, det var hjemme i hans egen Stue, og der stode store Glasskabe med <pb n="350"/>yndige Skoe og blanke Støvler. Det saae nydeligt ud, men den gamle Frue saae ikke godt, og saa havde hun ingen Fornøielse deraf; midt imellem Skoene stode et Par røde, ganske som de Prindsessen havde baaret; hvor de vare smukke! Skomageren sagde ogsaa at de vare syede til et Greve-Barn, men de havde ikke passet.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Det er nok <seg target="txtcmnt-350-01"><!--DATA-TERM: Blanklæder--><!--DATA-DEFINITION: læder, som pudses med blanksværte (skosværte), finere end fedtlæder.-->Blanklæder</seg>!« sagde den gamle Frue, »de skinne!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Ja de skinne!« sagde <hi rend="italic">Karen</hi>; og de passede og de bleve kjøbte; men den gamle Frue vidste ikke af at de vare røde, thi hun havde aldrig tilladt <hi rend="italic">Karen</hi> at staae til Confirmation i røde Skoe, men det gjorde hun nu.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Alle Mennesker saae paa hendes Fødder, og da hun gik op ad Kirkegulvet til Chordøren, syntes hun at selv de gamle Billeder paa Begravelserne, disse Portrætter af Præster og Præstekoner med stive Kraver og lange sorte Klæder, hæftede Øinene paa hendes røde Skoe, og kun paa disse tænkte hun, da Præsten lagde sin Haand paa hendes Hoved og talte om den hellige Daab, om Pagten med Gud og at hun nu skulde være et stort christent Menneske; og Orgelet spillede saa høitideligt, de smukke Børnestemmer sang og den gamle <seg target="txtcmnt-350-02"><!--DATA-TERM: Kantor--><!--DATA-DEFINITION: forsanger og leder af koret ved større bykirke.-->Kantor</seg> sang, men <hi rend="italic">Karen</hi> tænkte kun paa de røde Skoe.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Om Eftermiddagen vidste da den gamle Frue af alle Mennesker at Skoene havde været røde og hun sagde at det var stygt, at det passede sig ikke og at <hi rend="italic">Karen</hi> herefter, naar hun gik i Kirke, skulde altid gaae med sorte Skoe, selv om de vare gamle.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Næste Søndag var der <seg target="txtcmnt-350-03"><!--DATA-TERM: Altergang--><!--DATA-DEFINITION: konfirmationen var en betingelse for deltagelse i nadveren. Den første nadvergang for den nykonfirmerede var henlagt til søndagen efter konfirmationen.-->Altergang</seg>, og <hi rend="italic">Karen</hi> saae paa de sorte Skoe, hun saae paa de røde – og saa saae hun paa de røde igjen og tog de røde paa.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Det var deiligt Solskins Veir; <hi rend="italic">Karen</hi> og den gamle Frue gik ad Stien gjennem Kornet; der støvede det lidt.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Ved Kirkedøren stod en gammel Soldat med en Krykkestok og med et underligt langt Skjæg, det var meer rødt end hvidt, for det var rødt; og han bøiede sig lige ned til Jorden og spurgte den gamle Frue, om han maatte tørre hendes Skoe af. Og <hi rend="italic">Karen</hi> strakte ogsaa sin lille Fod ud. »See, hvilke deilige Dandseskoe!« sagde Soldaten, »sid fast naar I dandse!« og saa slog han med Haanden paa Saallerne.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og den gamle Frue gav Soldaten en lille Skilling og saa gik hun med <hi rend="italic">Karen</hi> ind i Kirken.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Og alle Mennesker derinde saae paa <hi rend="italic">Karens</hi> røde Skoe, og alle Billederne saae paa dem og da <hi rend="italic">Karen</hi> knælede for Alteret og satte Guldkalken for sin Mund, tænkte hun kun paa de røde <pb n="351"/>Skoe og det var som om de svømmede om i Kalken for hende; og hun glemte at synge sin Psalme, hun glemte at læse sit <hi rend="italic">»Fader vor«</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00017">Nu gik alle Folk fra Kirke og den gamle Frue steg ind i sin Vogn. <hi rend="italic">Karen</hi> løftede Foden for at stige bag efter, da sagde den gamle Soldat, som stod tætved: »see hvilke deilige Dandseskoe!« og <hi rend="italic">Karen</hi> kunde ikke lade være, hun maatte gjøre nogle Dandsetrin, og da hun begyndte bleve Benene ved at dandse, det var ligesom om Skoene havde faaet Magt over dem; hun dandsede omkring Kirkehjørnet, hun kunde ikke lade være, Kudsken maatte løbe bag efter og tage fat paa hende, og han løftede hende ind i Vognen, men Fødderne bleve ved at dandse, saa hun sparkede saa grueligt den gode gamle Frue. Endelig fik de Skoene af og Benene kom i Ro.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Hjemme bleve Skoene satte op i et Skab, men <hi rend="italic">Karen</hi> kunde ikke lade være at see paa dem.</p>
+
+<p rend="firstIndent" xml:id="p_00019">Nu laae den gamle Frue syg, de sagde at hun kunde ikke leve! pleies og passes skulde hun og ingen var nærmere til det, end <hi rend="italic">Karen</hi>; men henne i Byen var der et stort Bal, <hi rend="italic">Karen</hi> var inviteret; – hun saae paa den gamle Frue, der jo dog ikke kunde leve, hun saae paa de røde Skoe, og det syntes hun der ingen Synd var i; – hun tog de røde Skoe paa, det kunde hun jo ogsaa nok; – men saa gik hun paa Bal og saa begyndte hun at dandse.</p>
+
+<p rend="firstIndent" xml:id="p_00020">Men da hun vilde til Høire, saa dandsede Skoene til Venstre, og da hun vilde op ad Gulvet, saa dandsede Skoene ned ad Gulvet, ned ad Trappen, gjennem Gaden og ud af Byens Port. Dandse gjorde hun og dandse maatte hun, lige ud i den mørke Skov.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Da skinnede det oppe mellem Træerne og hun troede at det var Maanen, for det var et Ansigt, men det var den gamle Soldat med det røde Skjæg, han sad og nikkede og sagde: »see hvilke deilige Dandseskoe!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">Da blev hun forfærdet og vilde kaste de røde Skoe, men de hang fast, og hun flængede sine Strømper af, men Skoene vare voxede fast til hendes Fødder, og dandse gjorde hun og dandse maatte hun over Mark og Eng, i Regn og i Solskin, ved Nat og ved Dag, men om Natten var det grueligst.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Hun dandsede ind paa den aabne Kirkegaard, men de Døde der dandsede ikke, de have noget meget bedre at bestille end at dandse; hun vilde sætte sig paa den Fattiges Grav hvor den bittre <seg target="txtcmnt-351-01"><!--DATA-TERM: Regnfang--><!--DATA-DEFINITION: kurveblomsten Tanacetum.-->Regnfang</seg> groede, men for hende var ikke Ro eller Hvile og da hun dandsede henimod den aabne Kirkedør, saae hun <pb n="352"/>der en Engel i lange hvide Klæder, med Vinger som naaede ham fra Skuldrene ned til Jorden, hans Ansigt var strængt og alvorligt, og i Haanden holdt han et Sværd, saa bredt og skinnende:</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Dandse skal Du!« sagde han, »dandse paa dine røde Skoe, til Du bliver bleg og kold! til din Hud skrumper sammen som en <seg target="txtcmnt-352-01"><!--DATA-TERM: Beenrad(s)--><!--DATA-DEFINITION: skelet, her vel snarere i betydningen mumie.-->Beenrads</seg>! dandse skal Du fra Dør til Dør og hvor der boe stolte forfængelige Børn, skal Du banke paa, saa at de høre Dig og frygte Dig! Dandse skal Du, dandse – –!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Naade!« raabte <hi rend="italic">Karen</hi>. Men hun hørte ikke hvad Engelen svarede, thi Skoene bare hende igjennem Laagen, ud paa Marken, over Vei og over Sti og altid maatte hun dandse.</p>
+
+<p rend="firstIndent" xml:id="p_00026">En Morgenstund dandsede hun forbi en Dør, hun kjendte godt; indenfor lød Psalmesang, de bare en Kiste ud, som var pyntet med Blomster; da vidste hun, at den gamle Frue var død og hun syntes at nu var hun forladt af Alle og forbandet af Guds Engel.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Dandse gjorde hun og dandse maatte hun, dandse i den mørke Nat. Skoene bare hende afsted over Tjørne og Stubbe, hun rev sig til Blods; hun dandsede hen over Heden til et lille eensomt Huus. Her vidste hun at <seg target="txtcmnt-352-02"><!--DATA-TERM: Skarpretteren--><!--DATA-DEFINITION: bødlen.-->Skarpretteren</seg> boede og hun bankede med Fingeren paa Ruden og sagde:</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Kom ud! – kom ud! – Jeg kan ikke komme ind, for jeg dandser!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Og Skarpretteren sagde: »Du veed nok ikke hvem jeg er? Jeg hugger Hovedet af de onde Mennesker, og jeg kan mærke at min Øxe dirrer!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hug ikke Hovedet af mig!« sagde <hi rend="italic">Karen</hi>, »for saa kan jeg ikke angre min Synd! men hug mine Fødder af med de røde Skoe!«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Og saa skriftede hun hele sin Synd, og Skarpretteren huggede af hende Fødderne med de røde Skoe, men Skoene dandsede med de smaa Fødder hen over Marken ind i den dybe Skov.</p>
+
+<img src="0072_HCA-1969-25-S.jpg" ref="p_00032" title="Illustrator: Oskar Klever. 1942. Fra/from: H.C. Andersens Hus/Museum Odense"/>
+<p rend="firstIndent" xml:id="p_00032">Og han snittede hende Træbeen og Krykker, lærte hende en Psalme, den Synderne altid synge, og hun kyssede den Haand, som havde ført Øxen, og gik hen over Heden.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Nu har jeg lidt nok for de røde Skoe!« sagde hun, »nu vil jeg gaae i Kirke at de kunne see mig!« og hun gik nok saa rask mod Kirkedøren, men da hun kom der, dandsede de røde Skoe foran hende og hun blev forfærdet og vendte om.</p>
+
+<p rend="firstIndent" xml:id="p_00034">Hele Ugen igjennem var hun bedrøvet og græd mange tunge Taarer, men da det blev Søndag, sagde hun: »see saa! nu har jeg <pb n="353"/>lidt og stridt nok! jeg skulde troe, at jeg er ligesaa god som Mange af dem der sidde og kneise derinde i Kirken!« og saa gik hun nok saa modig; men hun kom ikke længer end til Laagen, da saae hun de røde Skoe dandse foran sig og hun forfærdedes og vendte om og angrede ret i Hjertet sin Synd.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Og hun gik hen til Præstegaarden og bad om hun maatte komme i Tjeneste der, flittig vilde hun være og gjøre Alt hvad hun kunde, paa Lønnen saae hun ikke, kun at hun maatte faae Tag over Hovedet og være hos gode Mennesker. Og Præstekonen havde ondt af hende og gav hende Tjeneste. Og hun var flittig og tankefuld. Stille sad hun og hørte til naar om Aftenen Præsten læste høit af Bibelen. Alle de Smaa holdt meget af hende, men naar de talte om Pynt og Stads og at være deilig som en Dronning, rystede hun med Hovedet.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Næste Søndag gik de Alle til Kirke og de spurgte hende om hun vilde med, men hun saae bedrøvet, med Taarer i Øinene, paa sine Krykker, og saa gik de andre hen at høre Guds Ord, men hun gik alene ind i sit lille Kammer; det var ikke større, end at der kunde staae Sengen og en Stol, og her satte hun sig med sin Psalmebog; og alt som hun med fromt Sind læste i den, bar Vinden Orgeltonerne fra Kirken over til hende, og hun løftede med Taarer sit Ansigt og sagde: »O, Gud hjælpe mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">Da skinnede Solen saa klart og lige foran hende stod den Guds Engel i de hvide Klæder, ham hun hiin Nat havde seet i Kirkedøren, men han holdt ikke længer det skarpe Sværd, men en deilig grøn Green, der var fuld af <seg target="txtcmnt-353-01"><!--DATA-TERM: Roser--><!--DATA-DEFINITION: almindeligt symbol på Jesu nåde.-->Roser</seg>, og han rørte med den ved Loftet og det hævede sig saa høit og hvor han havde rørt skinnede der en Guldstjerne, og han rørte ved Væggene og de udvidede sig, og hun saae Orgelet, som spillede, hun saae de gamle Billeder med Præster og Præstekoner; Menigheden sad i de pyntede Stole og sang af deres Psalmebog. – For Kirken var selv kommen hjem til den stakkels Pige i det lille snevre Kammer eller ogsaa var hun kommen derhen; hun sad i Stolen hos de andre Præstens Folk og da de havde endt Psalmen og saae op, nikkede de og sagde: »Det var Ret Du kom, <hi rend="italic">Karen</hi>!«</p>
+<p rend="firstIndent" xml:id="p_00038">»Det var Naade!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00039">Og Orgelet klang og Børnestemmerne i Choret løde saa blødt og deiligt! Det klare Solskin strømmede saa varmt gjennem Vinduet ind i Kirkestolen hvor <hi rend="italic">Karen</hi> sad; hendes Hjerte blev saa fuldt af Solskin, af Fred og Glæde, at det brast; hendes Sjæl fløi paa Solskin til Gud, og der var der Ingen som spurgte om <hi rend="italic">de røde Skoe</hi>.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="De røde Skoe" xml:id="de-roede-skoe">
+<head type="section-comments">De røde Skoe</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Tredie Samling</hi>, som udkom den 7. april 1845.<br/>
+BFN 469/II,85-90/VII,102-104.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">350,10</cell><cell type="deviation">staae &lt; gaae</cell></row>
+<row><cell type="position">350,23</cell><cell type="deviation">hun &lt; hun,</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">349</cell><row xml:id="txtcmnt-349-01"><cell type="data-term">Straakiste</cell><cell type="data-definition">kiste lavet af halm til de fattige.</cell></row><row xml:id="txtcmnt-349-02"><cell type="data-term">Saphians-Skoe</cell><cell type="data-definition">(dyre) sko af fint gedeskind.</cell></row>
+<cell type="page">350</cell><row xml:id="txtcmnt-350-01"><cell type="data-term">Blanklæder</cell><cell type="data-definition">læder, som pudses med blanksværte (skosværte), finere end fedtlæder.</cell></row><row xml:id="txtcmnt-350-02"><cell type="data-term">Kantor</cell><cell type="data-definition">forsanger og leder af koret ved større bykirke.</cell></row><row xml:id="txtcmnt-350-03"><cell type="data-term">Altergang</cell><cell type="data-definition">konfirmationen var en betingelse for deltagelse i nadveren. Den første nadvergang for den nykonfirmerede var henlagt til søndagen efter konfirmationen.</cell></row>
+<cell type="page">351</cell><row xml:id="txtcmnt-351-01"><cell type="data-term">Regnfang</cell><cell type="data-definition">kurveblomsten Tanacetum.</cell></row>
+<cell type="page">352</cell><row xml:id="txtcmnt-352-01"><cell type="data-term">Beenrad(s)</cell><cell type="data-definition">skelet, her vel snarere i betydningen mumie.</cell></row><row xml:id="txtcmnt-352-02"><cell type="data-term">Skarpretteren</cell><cell type="data-definition">bødlen.</cell></row>
+<cell type="page">353</cell><row xml:id="txtcmnt-353-01"><cell type="data-term">Roser</cell><cell type="data-definition">almindeligt symbol på Jesu nåde.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

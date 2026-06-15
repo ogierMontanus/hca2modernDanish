@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den gamle Gadeløgte</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Andet Bind. Første Samling</i>, der udkom den 3. april 1847.<br/>
+BFN 517/II,107-112/VII,110-111.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-gamle-gadeloegte" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="den-gamle-gadeloegte_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="82_The-Old-Street-Lamp">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                   <xenoData><incipit>Har Du hørt Historien om den gamle Gadeløgte? Den er slet ikke saa overordentlig...</incipit><readingTime>11</readingTime><popularity>958</popularity><cite>&lt;p&gt;H.C. Andersen: Den gamle Gadeløgte. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Den_gamle_Gadeloegte_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>teknik</term><term>tingseventyr</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den gamle Gadeløgte" xml:id="den-gamle-gadeloegte">
+<pb n="387"/><head type="main">Den gamle <seg target="txtcmnt-387-01"><!--DATA-TERM: Gadeløgte--><!--DATA-DEFINITION: mens selve lygten var af kobber, var pælen en malet træstolpe.-->Gadeløgte</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">Har Du hørt Historien om den gamle Gadeløgte? Den er slet ikke saa overordentlig morsom, men man kan altid høre den een Gang. Det var saadan en skikkelig gammel Gadeløgte, som i mange, mange Aar havde gjort Tjeneste, men nu skulde kasseres. Det var den sidste Aften, den sad paa Pælen og lyste der i Gaden, og den var tilmode ligesom en gammel <seg target="txtcmnt-387-02"><!--DATA-TERM: Balletfigurantinde--><!--DATA-DEFINITION: balletdanserinde.-->Balletfigurantinde</seg>, som dandser den sidste Aften og veed at imorgen skal hun <seg target="txtcmnt-387-03"><!--DATA-TERM: paa Loftet--><!--DATA-DEFINITION: uofficielle og meget billige tilskuerpladser for fattige.-->paa Loftet</seg>. Løgten havde saadan en Skræk for den Dag imorgen, thi da vidste den, at den skulde paa <seg target="txtcmnt-387-04"><!--DATA-TERM: Raadstuen--><!--DATA-DEFINITION: magistraten varetog siden 1771 tilsynet med gadebelysningen, der betaltes af private.-->Raadstuen</seg> for første Gang og synes af <seg target="txtcmnt-387-05"><!--DATA-TERM: Stadens »sex og tredive Mænd«--><!--DATA-DEFINITION: ved forordning af 1. januar 1840 bestod Københavns magistrat af 36 borgerrepræsentanter.-->Stadens »sex og tredive Mænd«</seg>, om den var brugelig eller ikke brugelig. Da vilde det blive bestemt om den skulde sendes ud paa <seg target="txtcmnt-387-06"><!--DATA-TERM: en af Broerne--><!--DATA-DEFINITION: dvs. brokvartererne Nørre-, Vester- eller Østerbro.-->en af Broerne</seg> og lyse der, eller paa Landet i en Fabrik, maaskee gik den lige til en Jernstøber og blev smeltet om, da kunde den jo rigtignok blive til Alting, men det pinte den, at den ikke vidste om den da beholdt Erindringen om, at den havde været Gadeløgte. – Hvorledes det gik eller ikke, den vilde blive skilt fra Vægteren og hans Kone, hvem den betragtede ganske som sin Familie. Den blev Løgte da han blev Vægter. Konen var den Gang fiin paa det, kun om Aftenen naar hun gik forbi Løgten saae hun til den, men aldrig om Dagen. Nu derimod, i de sidste Aar, da de alle tre vare blevne gamle, Vægteren, Konen og Løgten, havde Konen ogsaa pleiet den, pudset Lampen af og skjænket Tran i den. Ærlige Folk var det Ægtepar, de havde <seg target="txtcmnt-387-07"><!--DATA-TERM: ikke bedraget Løgten--><!--DATA-DEFINITION: vægterne havde ord for at beholde den udleverede tran og sælge den.-->ikke bedraget Løgten</seg> for een Draabe. Det var den sidste Aften i Gaden og imorgen skulde den paa Raadstuen, det var to mørke Tanker hos Løgten, og saa kan man nok vide hvorledes den brændte. Men der gik ogsaa andre Tanker igjennem den; der var saameget, den havde seet, saameget, den havde lyst til, maaskee ligesaa meget som »de sex og tredive Mænd,« men det sagde den ikke, for det var en skikkelig gammel Løgte, den vilde Ingen fornærme, allermindst sin Øvrighed. Den huskede saa meget, og <seg target="txtcmnt-387-08"><!--DATA-TERM: imellem--><!--DATA-DEFINITION: indimellem.-->imellem</seg> blussede Flammen op inde i den, det var som havde den en Følelse af: »ja, man husker ogsaa mig! der var nu <pb n="388"/><pb n="389"/>den smukke unge Mand, – ja, det er mange Aar siden! han kom med et Brev, det var paa rosenrødt Papiir, saa fiint, saa fiint og med Guld-Kant, det var saa nydeligt skrevet, det var en Damehaand; han læste det to Gange og han kyssede det og han saae op til mig med sine to Øine, de sagde »jeg er det lykkeligste Menneske!« – Ja kun han og jeg vidste hvad der stod i det første Brev fra Kjæresten. – Jeg husker ogsaa to andre Øine, det er underligt hvor man kan springe med Tankerne! her i Gaden var en prægtig Begravelse, den unge smukke Frue laa i Ligkisten paa den <seg target="txtcmnt-389-01"><!--DATA-TERM: Fløiels-Ligvogn--><!--DATA-DEFINITION: rustvogne var normalt betrukket med sort fløjl.-->Fløiels-Ligvogn</seg>, der vare saa mange Blomster og Krandse, der lyste saa mange Fakler, at <seg target="txtcmnt-389-02"><!--DATA-TERM: jeg blev reent borte--><!--DATA-DEFINITION: jeg blev ude af mig selv.-->jeg blev reent borte</seg> ved det; hele Fortouget var fuldt med Mennesker, de fulgte alle med Ligtoget, men da Faklerne var af Syne og jeg saae mig omkring, stod her endnu En ved Pælen og græd, jeg glemmer aldrig de to Sorgens Øine, der saae ind i mig!« – Saadan gik der mange Tanker gjennem den gamle Gadeløgte, som iaften lyste for sidste Gang. Skildvagten, som løses af, veed dog sin Efterfølger, og kan sige ham et Par Ord, men Løgten vidste ikke sin og den kunde dog givet ham et og andet Vink, om Regn og Rusk, om hvorvidt Maaneskinnet gik paa Fortouget og fra hvad Kant Vinden blæste.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Paa <seg target="txtcmnt-389-03"><!--DATA-TERM: Rendesteensbræt(tet)--><!--DATA-DEFINITION: bræt over datidens brede og dybe rendesten, der gjorde det ud for kloak.-->Rendesteensbrættet</seg> stode tre, som havde fremstillet sig for Løgten, idet de troede at det var den, som gav Embedet bort; den ene af disse var et Sildehoved, for det lyser i Mørke, og det meente at det kunde jo være en sand Tranbesparelse, om det kom paa Løgtepælen. Den anden var et Stykke <seg target="txtcmnt-389-04"><!--DATA-TERM: Trøske--><!--DATA-DEFINITION: råddent træ, der kan virke selvlysende på grund af svampeangreb.-->Trøske</seg>, der ogsaa skinner, og altid meer end en Klipfisk, det sagde den selv, desuden var den det sidste Stykke af et Træ, som engang havde været en Pragt for Skoven. Den tredie var en <seg target="txtcmnt-389-05"><!--DATA-TERM: Sankt Hans Orm--><!--DATA-DEFINITION: lille, brunlig bille, der på lune sommeraftener udsender et gul-grønt lys.-->Sankt Hans Orm</seg>; hvor den var kommet fra, begreb Løgten ikke, men Ormen var der og lyste gjorde den ogsaa, men Trøsken og Sildehovedet gave Eed paa, at det var kun til visse Tider, den lyste, og at den derfor aldrig kunde tages i Betragtning.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Den gamle Løgte sagde at Ingen af dem lyste nok til at være Gadeløgte, men det troede nu ingen af dem, og da de hørte at Løgten selv ikke gav Embedet bort, sagde de, at det var meget glædeligt, thi den var da ogsaa altfor affældig til at den kunde vælge.</p>
+
+<p rend="firstIndent" xml:id="p_00004">I det samme kom Vinden fra Gadehjørnet, den susede gjennem <seg target="txtcmnt-389-06"><!--DATA-TERM: Røghætte(n)--><!--DATA-DEFINITION: den kegleformede, flade hætte øverst på lygten, som beskytter mod regn og sikrer det nødvendige luftindtag.-->Røghætten</seg> paa den gamle Løgte, og sagde til den: »Hvad er det for noget, jeg hører, vil Du bort imorgen? Er det den sidste Aften jeg skal træffe Dig her? Ja saa skal Du have en <seg target="txtcmnt-389-07"><!--DATA-TERM: Present--><!--DATA-DEFINITION: gave.-->Present</seg>! <pb n="390"/>nu lufter jeg op i din Hjernekasse, saa at Du klart og tydeligt ikke alene skal kunne huske hvad Du har hørt og seet, men naar der fortælles eller læses Noget i din Nærværelse, skal Du være saa klarhovedet, at Du ogsaa seer det!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Ja det er grumme meget!« sagde den gamle Gadeløgte, »mange Tak! bliver jeg bare ikke støbt om!« –</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Det skeer ikke endnu!« sagde Vinden, »og nu blæser jeg din Hukommelse op; kan Du faae flere Presenter som den, saa kan Du have en ganske fornøielig Alderdom!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Bliver jeg kun ikke støbt om!« sagde Løgten, »eller kan Du da ogsaa sikkre mig Hukommelsen?« –</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Gamle Løgte, vær fornuftig!« sagde Vinden, og saa blæste den. – I det samme kom Maanen frem. »Hvad giver De?« spurgte Vinden.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Jeg giver ingen Ting!« sagde den, »jeg er jo i Aftagende, og Løgterne have <seg target="txtcmnt-390-01"><!--DATA-TERM: aldrig lyst for mig--><!--DATA-DEFINITION: når det ifølge kalenderen var fuldmåne, blev lygterne ikke tændt, uanset om det var overskyet eller ej, den såkaldte magistratsbelysning.-->aldrig lyst for mig</seg>, men jeg har lyst for Løgterne.« Og saa gik Maanen bag ved Skyerne igjen, for den vilde ikke plages. Da faldt lige paa Røghætten en Vanddraabe, den var som et Tagdryp, men Draaben sagde, den kom fra de graae Skyer og var ogsaa en Present, og maaskee den allerbedste. Jeg trænger ind i Dig, saa at Du faaer den Evne, at Du i een Nat, naar Du ønsker Dig det, kan gaae over i Rust, saa Du falder heelt sammen og bliver til et Støv. Men det syntes Løgten var en daarlig Present og Vinden syntes det samme; »Er der ingen bedre, er der ingen bedre?« blæste den saa høit den kunde; da faldt et skinnende Stjerneskud, det lyste i en lang Stribe.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Hvad var det?« raabte Sildehovedet, »faldt der ikke en Stjerne lige ned? jeg troer den gik i Løgten! – Naa, søges Embedet ogsaa af saa Høitstaaende, saa kunne vi <seg target="txtcmnt-390-02"><!--DATA-TERM: gaae at lægge os--><!--DATA-DEFINITION: opgive (at søge).-->gaae at lægge os</seg>!« og det gjorde det, og de Andre med; men den gamle Løgte lyste med eet saa forunderligt stærkt: »Det var en deilig Present!« sagde den. »De klare Stjerner, som jeg altid har fornøiet mig saa meget over, og som skinne saa deilige, som jeg egentlig aldrig har kunnet skinne, skjøndt det var min hele Stræben og Tragten, de have lagt Mærke til mig fattige gamle Løgte og sendt En ned med en Present til mig, der bestaaer i den Evne, at Alt hvad jeg selv husker og seer rigtig tydeligt, skal ogsaa kunne sees af dem, jeg holder af! og det er først den sande Fornøielse, for naar man ikke kan dele den med Andre, saa er den kun en halv Glæde!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Det er meget agtværdigt tænkt!« sagde Vinden, »men Du veed nok ikke at der hører <seg target="txtcmnt-390-03"><!--DATA-TERM: Voxlys--><!--DATA-DEFINITION: vokslys var dyrere end de almindeligt brugte tællelys.-->Voxlys</seg> til. Uden at der bliver tændt <pb n="391"/>et Voxlys inden i Dig, er der ingen af de Andre, der kunne see noget ved Dig. Det har Stjernerne ikke betænkt, de troe nu at Alt hvad der skinner, har i det mindste et Voxlys i sig. Men nu er jeg træt«! sagde Vinden, »nu vil jeg lægge mig!« og saa lagde den sig.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Næste Dag – – ja næste Dag kunne vi springe over; næste Aften saa laa Løgten i Lænestol, og hvor –? Hos den gamle Vægter. Han havde af »de sex og tredive Mænd« udbedet sig for sin lange tro Tjeneste, at maatte beholde den gamle Løgte; de loe af ham da han bad og saa gav de ham den, og nu laa Løgten i Lænestol tæt ved den varme Kakkelovn, og det var ordentligt ligesom den var blevet større derved, den fyldte næsten hele Stolen. Og de gamle Folk sad alt ved Aftensmaden og kastede milde Øine hen til den gamle Løgte, som de gjerne havde givet Plads ved Bordet med. Det var jo rigtignok i en Kjælder de boede, to Alen nede i Jorden; man maatte gjennem en brolagt Forstue for at komme ind i Stuen, men luunt var her, for der var <seg target="txtcmnt-391-01"><!--DATA-TERM: Klædeslister--><!--DATA-DEFINITION: isoleringslister lavet af strimler af uldklæde.-->Klædeslister</seg> for Døren; reent og net saae her ud; Gardiner om Sengestedet, og over de smaa Vinduer, hvor der oppe paa Karmen stode to underlige Urtepotter; Matros Christian havde bragt dem hjem fra Ostindien eller Vestindien, det var af Leertøi to Elephanter, hvis Ryg manglede, men i dennes Sted blomstrede der ud af Jorden, som var lagt deri, i den ene den deiligste Purløg, det var de gamle Folks Kjøkkenhave, og i den anden en stor blomstrende Geranium, det var deres Blomsterhave. Paa Væggen hang et stort kouleurt Billed, med »<seg target="txtcmnt-391-02"><!--DATA-TERM: Kongressen i Wien--><!--DATA-DEFINITION: blev afholdt fra den 16. september 1814 til den 10. juni 1815 med deltagelse af næsten alle europæiske fyrster og med det formål at ordne de territoriale forhold efter Napoleons 1.s fald.-->Kongressen i Wien</seg>,« der havde de alle Konger og Keisere paa engang! – Et bornholmsk Uhr med tunge Blylodder gik »tik! tak!« og altid for <seg target="txtcmnt-391-03"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg>, men det var bedre end at det skulde gaae for langsomt, sagde de gamle Folk. De spiste deres Aftensmad, og den gamle Gadeløgte laa som sagt i Lænestolen tæt ved den varme Kakkelovn. Det var for Løgten, som om der var vendt op og ned paa hele Verden. – Men da den gamle Vægter saae paa den og talte om hvad de to havde oplevet med hinanden, i Regn og i Rusk, i de klare, korte Sommernætter og naar Sneen fygede saa det var godt at komme i <seg target="txtcmnt-391-04"><!--DATA-TERM: Kjælderskuret--><!--DATA-DEFINITION: overbygning over kælderhals.-->Kjælderskuret</seg>, da var Alt igjen i Orden for den gamle Løgte, den saae det, som om det var endnu, jo, Vinden havde rigtignok godt lyst op inde i den. –</p>
+
+<p rend="firstIndent" xml:id="p_00013">De vare saa flittige og saa flinke, de gamle Folk, ingen Time blev reent døset hen; Søndag Eftermiddag kom der en eller anden Bog frem, helst en Reisebeskrivelse, og den gamle Mand <pb n="392"/>læste høit om Afrika, om de store Skove og Elephanterne, som der gik vilde omkring, og den gamle Kone hørte saadan efter og skottede saa hen til Leer-Elephanterne der vare Urtepotter! – »Jeg kan næsten tænke mig det!« sagde hun. Og Løgten ønskede saa inderligt at der var et Voxlys at tænde og sætte inden i den, saa skulde hun grangivelig see Alt, saaledes som Løgten saae det, de høie Træer, de tætte Grene slyngede i hverandre, de nøgne sorte Mennesker til Hest og hele Skarer af Elephanter, som med deres brede Fødder knuste Rør og Buske.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Hvad kan alle mine Evner hjelpe, naar der ingen Voxlys er!« sukkede Løgten, »de har kun Tran og Tællelys, og det er ikke nok!« –</p>
+
+<p rend="firstIndent" xml:id="p_00015">En Dag kom der et heelt Bundt Voxlysstumper i Kjælderen, de største Stykker bleve brændte og de mindre brugte den gamle Kone til at voxe sin Traad med naar hun syede; Voxlys var der, men de faldt ikke paa at sætte et lille Stykke i Løgten.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Her staaer jeg med mine sjældne Evner!« sagde Løgten, »jeg har Alt indeni mig, men jeg kan ikke dele med Dem! De veed ikke, at jeg kan forvandle de hvide Vægge til de deiligste Tapeter, til rige Skove, til Alt hvad De ville ønske sig! – De veed det ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Løgten stod iøvrigt skuret og net i en Krog hvor den altid faldt i Øinene; Folk sagde rigtig nok at den var et <seg target="txtcmnt-392-01"><!--DATA-TERM: Skrumpel--><!--DATA-DEFINITION: skrummel.-->Skrumpel</seg>, men det brød de Gamle sig ikke om, de holdt af Løgten.</p>
+
+<p rend="firstIndent" xml:id="p_00018">En Dag, det var den gamle Vægters <seg target="txtcmnt-392-02"><!--DATA-TERM: Geburtsdag--><!--DATA-DEFINITION: fødselsdag.-->Geburtsdag</seg>, kom den gamle Kone hen til Løgten, smilede saa smaat og sagde: »Jeg vil <seg target="txtcmnt-392-03"><!--DATA-TERM: illuminere--><!--DATA-DEFINITION: tænde lys (for at festligholde noget), lyse.-->illuminere</seg> for ham!« og Løgten knagede i Blikhætten, thi den tænkte: »nu gaaer Lyset op for dem!« men der kom Tran og ingen Voxlys, den brændte hele Aftenen, men vidste nu at den Gave, Stjernerne havde givet den, den bedste Gave af Alle, blev en død Skat for dette Liv. Da drømte den, – og naar man har slige Evner, kan man nok drømme, – at de gamle Folk vare døde, og at den selv var kommen til en Jernstøber og skulde smeltes om, den var ligesaa angest som da den skulde paa Raadstuen og synes af de »sex og tredive Mænd,« men skjøndt den havde Evnen at kunne falde sammen i Rust og Støv, naar den ønskede sig det, saa gjorde den det dog ikke, og saa kom den i Smeltovnen, og blev til den deiligste Jernlysestage, hvori Nogen vilde sætte et Voxlys; den havde Form af en Engel, der bar en Bouquet og midt i Bouquetten blev Voxlyset sat og Stagen fik Plads paa et grønt Skrivebord, og Værelset var saa hyggeligt, der stode mange Bøger, der hang deilige Billeder, det <pb n="393"/>var hos en Digter, og Alt hvad han tænkte og skrev, det rullede op rundt omkring, Stuen blev til dybe mørke Skove, til solbelyste Enge, hvor Storken gik og spankede, og til Skibsdækket høit paa det svulmende Hav! –</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Hvilke Evner jeg har!« sagde den gamle Løgte idet den vaagnede. »Næsten kunde jeg længes efter at smeltes om! – dog nei, det maa ikke skee saalænge de gamle Folk leve! De holde af mig for min Persons Skyld! Jeg er dem jo, som i Barns Sted og de have skuret mig og de have givet mig Tran! og jeg har det ligesaa godt, som »Kongressen«, der er saadant noget fornemt noget!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">Og fra den Tid havde den mere indvortes Ro, og det fortjente den skikkelige gamle Gadeløgte.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Den gamle Gadeløgte" xml:id="den-gamle-gadeloegte">
+<head type="section-comments">Den gamle Gadeløgte</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Andet Bind. Første Samling</hi>, der udkom den 3. april 1847.<br/>
+BFN 517/II,107-112/VII,110-111.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">387,35</cell><cell type="deviation">»ja, &lt; ja,</cell></row>
+<row><cell type="position">389,40</cell><cell type="deviation">»Hvad &lt; Hvad</cell></row>
+<row><cell type="position">390,7</cell><cell type="deviation">endnu!« &lt; endnu!</cell></row>
+<row><cell type="position">390,7</cell><cell type="deviation">»og &lt; og</cell></row>
+<row><cell type="position">390,10</cell><cell type="deviation">»eller &lt; eller</cell></row>
+<row><cell type="position">390,12</cell><cell type="deviation">vær &lt; var</cell></row>
+<row><cell type="position">391,6</cell><cell type="deviation">næste Aften &lt; næsten Aften</cell></row>
+<row><cell type="position">392,35</cell><cell type="deviation">Raadstuen &lt; Raastuen</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">(386)</cell><row xml:id="txtcmnt-386-01"><cell type="data-definition">Samlingen var tilegnet forfatterinden Thomasine Gyllembourg, f. Buntzen (1773-1856), som anonymt eller under pseudonym udgav en lang række noveller og små romaner, de såkaldte hverdagshistorier. Mor til digteren og kritikeren Johan Ludvig Heiberg (1791-1860).</cell></row>
+<cell type="page">387</cell><row xml:id="txtcmnt-387-01"><cell type="data-term">Gadeløgte</cell><cell type="data-definition">mens selve lygten var af kobber, var pælen en malet træstolpe.</cell></row><row xml:id="txtcmnt-387-02"><cell type="data-term">Balletfigurantinde</cell><cell type="data-definition">balletdanserinde.</cell></row><row xml:id="txtcmnt-387-03"><cell type="data-term">paa Loftet</cell><cell type="data-definition">uofficielle og meget billige tilskuerpladser for fattige.</cell></row><row xml:id="txtcmnt-387-04"><cell type="data-term">Raadstuen</cell><cell type="data-definition">magistraten varetog siden 1771 til<pb n="529"/>synet med gadebelysningen, der betaltes af private.</cell></row><row xml:id="txtcmnt-387-05"><cell type="data-term">Stadens »sex og tredive Mænd«</cell><cell type="data-definition">ved forordning af 1. januar 1840 bestod Københavns magistrat af 36 borgerrepræsentanter.</cell></row><row xml:id="txtcmnt-387-06"><cell type="data-term">en af Broerne</cell><cell type="data-definition">dvs. brokvartererne Nørre-, Vester- eller Østerbro.</cell></row><row xml:id="txtcmnt-387-07"><cell type="data-term">ikke bedraget Løgten</cell><cell type="data-definition">vægterne havde ord for at beholde den udleverede tran og sælge den.</cell></row><row xml:id="txtcmnt-387-08"><cell type="data-term">imellem</cell><cell type="data-definition">indimellem.</cell></row>
+<cell type="page">389</cell><row xml:id="txtcmnt-389-01"><cell type="data-term">Fløiels-Ligvogn</cell><cell type="data-definition">rustvogne var normalt betrukket med sort fløjl.</cell></row><row xml:id="txtcmnt-389-02"><cell type="data-term">jeg blev reent borte</cell><cell type="data-definition">jeg blev ude af mig selv.</cell></row><row xml:id="txtcmnt-389-03"><cell type="data-term">Rendesteensbræt(tet)</cell><cell type="data-definition">bræt over datidens brede og dybe rendesten, der gjorde det ud for kloak.</cell></row><row xml:id="txtcmnt-389-04"><cell type="data-term">Trøske</cell><cell type="data-definition">råddent træ, der kan virke selvlysende på grund af svampeangreb.</cell></row><row xml:id="txtcmnt-389-05"><cell type="data-term">Sankt Hans Orm</cell><cell type="data-definition">lille, brunlig bille, der på lune sommeraftener udsender et gul-grønt lys.</cell></row><row xml:id="txtcmnt-389-06"><cell type="data-term">Røghætte(n)</cell><cell type="data-definition">den kegleformede, flade hætte øverst på lygten, som beskytter mod regn og sikrer det nødvendige luftindtag.</cell></row><row xml:id="txtcmnt-389-07"><cell type="data-term">Present</cell><cell type="data-definition">gave.</cell></row>
+<cell type="page">390</cell><row xml:id="txtcmnt-390-01"><cell type="data-term">aldrig lyst for mig</cell><cell type="data-definition">når det ifølge kalenderen var fuldmåne, blev lygterne ikke tændt, uanset om det var overskyet eller ej, den såkaldte magistratsbelysning.</cell></row><row xml:id="txtcmnt-390-02"><cell type="data-term">gaae at lægge os</cell><cell type="data-definition">opgive (at søge).</cell></row><row xml:id="txtcmnt-390-03"><cell type="data-term">Voxlys</cell><cell type="data-definition">vokslys var dyrere end de almindeligt brugte tællelys.</cell></row>
+<cell type="page">391</cell><row xml:id="txtcmnt-391-01"><cell type="data-term">Klædeslister</cell><cell type="data-definition">isoleringslister lavet af strimler af uldklæde.</cell></row><row xml:id="txtcmnt-391-02"><cell type="data-term">Kongressen i Wien</cell><cell type="data-definition">blev afholdt fra den 16. september 1814 til den 10. juni 1815 med deltagelse af næsten alle europæiske fyrster og med det formål at ordne de territoriale forhold efter Napoleons 1.s fald.</cell></row><row xml:id="txtcmnt-391-03"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-391-04"><cell type="data-term">Kjælderskuret</cell><cell type="data-definition">overbygning over kælderhals.</cell></row>
+<cell type="page">392</cell><row xml:id="txtcmnt-392-01"><cell type="data-term">Skrumpel</cell><cell type="data-definition">skrummel.</cell></row><row xml:id="txtcmnt-392-02"><cell type="data-term">Geburtsdag</cell><cell type="data-definition">fødselsdag.</cell></row><row xml:id="txtcmnt-392-03"><cell type="data-term">illuminere</cell><cell type="data-definition">tænde lys (for at festligholde noget), lyse.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

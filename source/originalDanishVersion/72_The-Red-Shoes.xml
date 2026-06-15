@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Red Shoes</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="de-roede-skoe">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="de-roede-skoe_modern.xml">moderniseret version</note>
+                                                       <note target="72_The-Red-Shoes.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a little girl, so fine and pretty, but in the summer she always h...</incipit><idno type="image">De_roede_Skoe_forside.png</idno><popularity>986</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Red Shoes. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>livsforloeb</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-17" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-17">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Red Shoes">
+          <head type="main" rend="The Red Shoes">The Red Shoes</head>                <p rend="noIndent" xml:id="p_00001">There was once a little girl, so fine and pretty, but in the summer she always had to go barefoot, for she was poor, and in the winter she had to wear large wooden clogs, and these made her little ankles turn bright red, and horribly so.</p>
+          <p rend="firstIndent" xml:id="p_00002">In the middle of the country village lived old Mother Shoemaker, who – as best as she was able – sat sewing a pair of small shoes out of old red strips of cloth. They were rather clumsily made, but well-meant, and those the little girl was to have. The little girl’s name was Karen.</p>
+          <p rend="firstIndent" xml:id="p_00003">On precisely the day her mother was buried she was given the red shoes and wore them for the first time; they were not exactly right for mourning, but she didn’t have any other shoes and she walked bare-legged behind the poor straw coffin with them on.</p>
+          <p rend="firstIndent" xml:id="p_00004">At that moment a large old carriage drove past, and in it there sat a large old lady. She caught sight of the little girl and felt sorry for her and said to the vicar: ‘Listen, give that little girl to me, and I will treat her kindly!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And Karen believed the red shoes had brought all this about, but the old lady said that they were horrible and had them burnt, but Karen herself was nicely dressed in clean clothes; she had to learn to read and sew, and people said that she was pretty, but the mirror said: ‘You’re much more than pretty, you are lovely!’</p>
+          <p rend="firstIndent" xml:id="p_00006">One day the queen was travelling through the country and with her she had her young daughter, who was a princess, and people flocked to the front of the palace and Karen was there too, and the young princess stood in fine, white clothes in a window and let the people gaze at her; she wore neither train nor crown, but had lovely red morocco shoes on; they were certainly much finer than those Mother Shoemaker had sewn for little Karen. Nothing in the world, though, could compare with red shoes!</p>
+          <p rend="firstIndent" xml:id="p_00007">Now Karen was old enough to be confirmed, she was given new clothes, and was also to have new shoes. The rich shoemaker in town measured her small feet, that was done in his own living room, and there large glass-fronted cabinets stood with elegant shoes and gleaming boots. It looked very fine, but the old lady had poor sight, so she got no pleasure out of that; among all the shoes there stood a pair of red ones, exactly like the ones the princess had worn – how beautiful they were! The shoemaker also said that they had been sewn for the child of a count, but had not fitted her.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘They must be patent leather!’ the old lady said, ‘they’re all shiny!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Yes, they’re all shiny!’ Karen said; and they fitted her and were bought; but the old lady didn’t realise they were red, for she would never have allowed Karen to go to her confirmation in red shoes, but that was what she now did.</p>
+          <p rend="firstIndent" xml:id="p_00010">Everyone looked at her feet, and as she walked up the aisle of the church to the chancel doorway it seemed to her that even the old paintings on the funeral monuments, those portraits of vicars and their wives with stiff collars and long black robes, fixed their eyes on her red shoes, and these were all she thought of when the vicar placed his hand on her head and spoke of holy baptism, of the covenant with God and that she was now going to be a grown-up Christian; and the organ played so solemnly, the beautiful children’s voices sang and the old cantor sang, but all Karen could think of was her red shoes.</p>
+          <p rend="firstIndent" xml:id="p_00011">By the afternoon, the old lady had got to know from everyone that the shoes had been red and she said that was horrible and quite out of place and that Karen from now on, whenever she went to church, was always to wear black shoes, even though they were old.</p>
+          <p rend="firstIndent" xml:id="p_00012">The following Sunday there was holy communion, and Karen looked at the black shoes, she looked at the red ones – and then she looked at the red ones once more and put them on.</p>
+          <p rend="firstIndent" xml:id="p_00013">It was lovely sunny weather; Karen and the old lady took the path through the cornfield; it was quite dusty there.</p>
+          <p rend="firstIndent" xml:id="p_00014">At the church door there stood an old soldier with a crutch and a strange, long beard that was more red than white, for red it was; and he bent right down to the ground and asked the old lady if he might wipe her shoes for her. And Karen stuck her little foot out too. ‘Just look, such lovely dancing shoes!’ the soldier said, ‘stick tight when you dance!’ and he tapped the soles with his hand.</p>
+          <p rend="firstIndent" xml:id="p_00015">And the old lady gave the soldier a small coin and then she and Karen went into the church.</p>
+          <p rend="firstIndent" xml:id="p_00016">And everyone inside looked at Karen’s red shoes, and all the pictures looked at them and when Karen knelt at the altar and placed the golden chalice to her lips, all she could think of was the red shoes and it was as if they floated around in the chalice; and she forgot to sing her hymn, she forgot to say the Lord’s Prayer.</p>
+          <p rend="firstIndent" xml:id="p_00017">Then everyone left the church and the old lady got into her carriage. Karen was lifting her foot to get in after her when the old soldier, who was standing close by, said: ‘Just look, what lovely dancing shoes!’ and Karen couldn’t help herself, she had to do a few dance steps, and once she started her legs went on dancing, it was as if the shoes had taken control of them; she danced around the corner of the church, she couldn’t help herself, the coachman had to run after her and catch hold of her, and he lifted her into the coach, but her feet went on dancing, so she came to kick the good old lady hard on the shins. Finally they got the shoes off and her legs quietened down.</p>
+          <p rend="firstIndent" xml:id="p_00018">Back home, the shoes were put away in a cupboard, but Karen couldn’t stop looking at them.</p>
+          <p rend="firstIndent" xml:id="p_00019">Now the old lady lay ill, they said she couldn’t live long! She had to be taken care of all the time and Karen was the nearest person to do so; but down in the town there was a large ball to which Karen was invited – she looked at the old lady, who hadn’t long to live anyway, she looked at the red shoes, and she couldn’t see anything sinful in it – she put on the red shoes, that couldn’t do any harm – but then she went off to the ball and started to dance.</p>
+          <p rend="firstIndent" xml:id="p_00020">But when she wanted to dance to the right, the shoes danced to the left, and when she wanted to dance up the floor, the shoes danced down the floor, down the staircase, through the street and out of the town gate. Dance she did and dance she had to, right out into the dark forest.</p>
+          <p rend="firstIndent" xml:id="p_00021">Then something shone up among the trees and she thought it was the moon, for it was a face, but it was the old soldier with the red beard, he sat there nodding and he said: ‘Just look, what lovely dancing shoes!’</p>
+          <p rend="firstIndent" xml:id="p_00022">Then she was frightened and wanted to throw away the red shoes, but they stayed put, and she ripped off her stockings but the shoes had become glued to her feet, and dance she did and dance she had to, over the fields and meadows, in rain and in sunshine, both night and day, though it was most horrible at night.</p>
+          <p rend="firstIndent" xml:id="p_00023">She danced into the open graveyard, but the dead there didn’t dance, they’ve got something better to do than to dance; she wanted to sit down on the poor man’s grave where the bitter common tansy grew, but she couldn’t calm down or rest and when she danced towards the open church door she caught sight of an angel in long white robes, with wings stretching from his shoulders right down to the ground, his face was serious and grave, and in his hand he held a sword that was so broad and shiny:</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Dance you shall!’ he said, ‘dance in your red shoes until you turn pale and cold! until your skin shrivels up like a skeleton’s! dance you shall from door to door and where proud, vain children live, you shall knock on their door, so that they hear you and fear you! Dance you shall, dance – –!’</p>
+          <p rend="firstIndent" xml:id="p_00025">‘Mercy!’ Karen cried out. But she didn’t hear what the angel replied, for the shoes carried her through the gate, out into the field, along highways and byways – and all the time she had to dance.</p>
+          <p rend="firstIndent" xml:id="p_00026">One early morning she danced past a door she knew well; inside there was hymn-singing, a coffin was borne out that was adorned with flowers; then she realised that the old lady was dead and now she felt that she had been abandoned by everybody and cursed by God’s angel.</p>
+          <p rend="firstIndent" xml:id="p_00027">Dance she did and dance she had to, dance in the dark night. The shoes carried her along through hawthorns and stubble, she was scratched till she bled; she danced over the heath to a small, lonely house. Here she knew that the executioner lived and she tapped on the window with her finger and said:</p>
+          <p rend="firstIndent" xml:id="p_00028">‘Come out! – come out! – I can’t come in because I’m dancing!’</p>
+          <p rend="firstIndent" xml:id="p_00029">And the executioner said: ‘Don’t you know who I am? I chop off evil people’s heads, and I can feel my axe quivering!’</p>
+          <p rend="firstIndent" xml:id="p_00030">‘Don’t chop off my head!’ Karen said, ‘for then I can’t repent my sins! But chop off my feet with the red shoes!’</p>
+          <p rend="firstIndent" xml:id="p_00031">And then she confessed all her sins, and the executioner chopped off her feet with the red shoes, but the shoes danced with the small feet across the field into the deep forest.</p>
+          <img src="0072_HCA-1969-25-S.jpg" ref="p_00032" title="Illustrator: Oskar Klever. 1942. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00032">And he carved wooden legs for her and crutches, taught her a hymn, the one sinners always sing, and she kissed the hand that had swung the axe and went off over the heath.</p>
+          <p rend="firstIndent" xml:id="p_00033">‘Now I’ve suffered enough for the red shoes!’ she said, ‘now I will go to church so they can see me!’ and she walked briskly towards the church door, but when she got there the red shoes danced in front of her and she was frightened and turned away.</p>
+          <p rend="firstIndent" xml:id="p_00034">She was miserable for a whole week and wept many heavy tears, but when Sunday came, she said ‘Right! now I have suffered and struggled enough! I’m sure that I am just as good as many of those sitting holding their heads up high in the church!’ and she set off boldly; but she hadn’t got further than the church gate when she saw the red shoes dancing in front of her and she was frightened and turned away and repented her sins with all her heart.</p>
+          <p rend="firstIndent" xml:id="p_00035">And she went to the vicarage and asked if she could work there. She would be diligent and do all she could, she expected no money, only wished for a roof above her head and to be with good people. And the vicar’s wife felt sorry for her and took her in. And she was both diligent and thoughtful. She sat quietly listening when the vicar read aloud from the Bible in the evening. All the young ones were very fond of her, but when they talked about frills and finery and being lovely like a queen, she shook her head.</p>
+          <p rend="firstIndent" xml:id="p_00036">The following Sunday everyone went to church and they asked her if she would come along with them, but she looked so sorrowful, with tears in her eyes, on her crutches, and so the others went off to hear God’s word, but she went alone into her tiny room; it was so small that there was only room for a bed and a chair, and here she sat down with her hymn book; and as she was devoutly reading in it, the wind bore the sound of the organ from the church across to her, and she lifted her tear-stained face and said: ‘Oh, God help me!’</p>
+          <p rend="firstIndent" xml:id="p_00037">Then the sun shone so bright, and right in front of her stood the angel of God in the white robes, the one she had seen in the church door that night, but he no longer held the sharp sword, but a lovely green branch that was full of roses, and he touched the ceiling with it and it arched up so high and where he had touched it there shone a golden star, and he touched the walls and they widened, and she saw the organ playing, she saw the old pictures with vicars and their wives; the congregation sat in decorated pews and sang from their hymn books. – For the church itself had come home to the poor girl in the tiny, narrow room, or else she had come there instead; she was sitting in a pew among the vicar’s other folk and when they had finished their hymn and looked up, they nodded and said: ‘It was right you came, Karen!’</p>
+          <p rend="firstIndent" xml:id="p_00038">‘It was Grace!’ she said.</p>
+          <img src="0072_HCA-1969-25-U.jpg" ref="p_00039" title="Illustrator: Oskar Klever. 1942. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00039">And the organ rang out and the children’s voices in the choir sang so sweetly and beautifully! The bright sunshine streamed so warmly in through the window down onto the pew where Karen sat; her heart was so filled with sunshine, with peace and joy that it broke; her soul flew on the sunlight to God, and there was nobody there who asked her about <hi rend="italic">the red shoes</hi>.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

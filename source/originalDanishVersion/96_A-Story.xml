@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>A Story</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                                                                 <note type="originalDanish" target="en-historie-1863">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="en-historie-1863_modern.xml">moderniseret version</note>
+            
+<note target="96_A-Story.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In the garden all the apple trees had come out, they had speeded up their blosso...</incipit><idno type="image">Bedstemoder_hca_ill_0170.png</idno><idno type="image">En_Historie_hca_ill_0172.png</idno><popularity>943</popularity><cite>&lt;p&gt;Hans Christian Andersen: A Story. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-25" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-25" who="NHB">formatted</change><change who="NHB" when="2022-10-25">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="A Story">
+               <head type="main" rend="A Story">A Story</head>                <p rend="noIndent" xml:id="p_00001">In the garden all the apple trees had come out, they had speeded up their blossoming so it came before their green leaves, and in the yard all the ducklings were out as well as the cat, he was lapping up sunshine all right, lapping it off his own paw; and if one looked out over the fields, the corn stood there so marvellously green, and all the small birds were chirping and chirruping, as if some major festivity were taking place, and you could say that was the case, for it was Sunday. The bells were ringing, and people were off to church in their Sunday best and they looked so content; yes, there was a contented air about everything; it was definitely a day that was so warm and wonderful that one could say: ‘How infinitely good the Lord God is towards mankind!’</p>
+               <p rend="firstIndent" xml:id="p_00002">But inside the church the vicar was in the pulpit and his voice was loud and wrathful; he said that people were so ungodly, and that God would punish them for this, and that when they died those who were evil would descend into Hell, where they would burn for all eternity, and he said that their gnawing pangs would not cease and their fire never be extinguished; they would never know either rest or peace. It was awful to hear, and he said it with such conviction; he described hell to them as a foetid cave where all kinds of filth flowed together, there was no breath of air only the searing sulphurous flame, there was no solid ground beneath their feet, they sank deeper and deeper into an eternal silence. It was horrible just to hear about it, but the vicar said it all with heartfelt vehemence, and all those in the church were utterly horrified.</p>
+               <p rend="firstIndent" xml:id="p_00003">Outside, though, all the small birds sang so contentedly, and the sun shone so warmly, it was as if every little flower said: God is so marvellously good towards all his creation. Yes, outside things did not resemble what the vicar was preaching one tiny bit.</p>
+               <p rend="firstIndent" xml:id="p_00004">That evening at bedtime the vicar saw his wife sitting quietly and thoughtfully:</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Is something troubling you?’ he asked her.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Troubling me?’ she said, ‘well, what’s troubling me is that I seem unable to collect my thoughts properly, I cannot get the sum to add up, that there were so many ungodly people, and that they would burn for all eternity; all eternity – ah, such a long time! – I am but a sinful mortal, but I could not get my heart to let even the worst sinner burn for all eternity, and if <hi rend="italic">I</hi> can’t, how, then, could <hi rend="italic">Our Lord</hi> ever be able to, he who is so infinitely good, and who knows how evil comes both from without and from within. No, I cannot fathom it, even though you say it is so.’</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00007">It was autumn, the leaves were falling from the trees; the stern, austere vicar was sitting at the bedside of a dying person, a devout believer was about to close her eyes; it was his wife.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘If anyone should be allowed to enjoy peace in the grave and mercy from God, it is you!’ the vicar said, and he folded her hands and read a hymn aloud over the newly departed.</p>
+               <p rend="firstIndent" xml:id="p_00009">And she was laid in the grave; two heavy tears rolled down the cheeks of the austere man; and in the vicarage everything was silent and empty, the sunshine within had been extinguished, she had passed away.</p>
+               <p rend="firstIndent" xml:id="p_00010">It was night, a chill wind blew over the vicar’s head, he opened his eyes, and it was as if the moon was shining into his living room, but the moon wasn’t shining; it was a figure standing in front of his bed; he saw the ghost of the deceased, she looked at him with intense sadness, it was as if she wanted to say something.</p>
+               <p rend="firstIndent" xml:id="p_00011">And the man sat up in bed, stretched his arms out towards her: ‘Have you not been granted eternal peace? Are you still suffering? You, the best and the most devout of all!’</p>
+               <p rend="firstIndent" xml:id="p_00012">And the deceased nodded in affirmation and placed a hand on her breast.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘And am I able to procure peace in the grave for you?’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Yes!’ it was said to hear.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘And how can I do so?’</p>
+               <p rend="firstIndent" xml:id="p_00016">‘By giving me a hair, just a single hair, from the head of the sinner whose fire will never be extinguished, the sinner whom God will thrust down into hell to suffer eternal torment.’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Yes, it must so easily be possible to redeem you, you who are pure and devout!’ he said.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘Follow me!’ the dead wife said. ‘This is granted us. At my side you can hover wherever your thoughts would take you; invisible to humans we stand in their most secret places, but with a sure hand you must point to the one destined to suffer eternal torment, and before cockcrow that person must be found.’</p>
+               <p rend="firstIndent" xml:id="p_00019">And swiftly, as if borne on the wings of thought, they were in the big city; and on the walls of the houses in letters of fire one could read the names of the deadly sins: Pride, Greed, Drunkenness, Lust, – in short, the seven-hued rainbow of sin.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Yes, in there, as I believed, as I knew for sure,’ the vicar said, ‘live those destined to eternal fire.’ And they stood in front of the magnificently illuminated portal, the staircase of which was resplendent with carpets and flowers, and from the festive halls came the sound of music from a ballroom. The doorkeeper stood in silk and velvet with a large, silver-topped cane.</p>
+               <p rend="firstIndent" xml:id="p_00021">‘Our ball can match that of the king!’ he said, and turned towards the crowds out in the street; from top to toe he expressed the thought: ‘miserable riff-raff, gaping in through the door, compared to me you are nothing but rabble, the lot of you!’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Pride!’ said the deceased, ‘do you see him?’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Him!’ the vicar repeated. ‘Yes, but he’s a fool, nothing but an idiot, and he’ll not be condemned to eternal fire and torment!’</p>
+               <p rend="firstIndent" xml:id="p_00024">‘Nothing but an idiot!’ it echoed through the whole House of Pride – all of those inside were exactly that.</p>
+               <p rend="firstIndent" xml:id="p_00025">And they flew through the naked walls of the miser, where, skinny, chattering with cold, hungry and thirsty, the old man clung with all his thoughts to his gold; they saw how, as if in a fever, he leapt out of bed and took a loose brick out of the wall, there his golden coins lay in a stocking, he fingered his ragged coat that had gold coins sewn into its lining, and his clammy fingers quivered.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘He is ill, this is madness, a joyless madness, enveloped in fear and bad dreams!’</p>
+               <p rend="firstIndent" xml:id="p_00027">And they left in haste and stood at the plank bed of incarcerated criminals, where they slept side by side in a long row. Like a wild animal one of them started up from the bed and let out a horrible scream; he dug his elbows into his comrade, who turned round sleepily:</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Belt up, you nitwit, and sleep – you do this every night –!’</p>
+               <p rend="firstIndent" xml:id="p_00029">‘Every night!’ he repeated, ‘yes, every night he comes, howls and smothers me. Out of hot-headedness I once did this and that, I have been hot-tempered since birth, and this has brought me here a second time; but if I have done wrong, this is my punishment. One crime only I have not confessed. When I last got out of here and was passing my master’s house, something boiled over inside me – I struck a match against the wall, it got too close to the thatched roof, everything went up in flames, it flared up just as I do. I helped get the livestock and furniture out. Nothing living burnt to death except a flock of pigeons that flew into the fire, and the watch-dog on a chain. I had forgotten about him. You could hear him howling – and that howl I still always hear when I want to sleep, I fall asleep, and the dog comes too, so large and shaggy; he lies down on top of me, howls, squeezes, smothers me. – Listen to what I’m saying, you can snooze, snooze all night long, but I never get even a quarter of an hour.’ And the blood gleamed in the hot-tempered man’s eyes, he flung himself at his comrade and struck him in the face with a clenched fist.</p>
+               <p rend="firstIndent" xml:id="p_00030">‘Angry Mads has gone bonkers again!’ those around him said, and the other scoundrels grabbed hold of him, wrestled with him, thrust his head down between his legs, and bound him tightly. The blood seemed almost to be bursting out of his eyes and pores.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘You’re killing him,’ the vicar shouted, ‘the unfortunate fellow!’ and while he stretched his hand out over the sinner, the man who was suffering too severely, to prevent this, the scene suddenly changed; they were flying through splendid halls and wretched rooms; Lust, Envy, all the deadly sins rushed past them, an angel of judgment read their sins, their excuses; they were surely of little value in God’s eyes, for God reads people’s hearts, he knows everything there is to be known, the evil that comes from within and without, he who is <hi rend="italic">merciful </hi>and<hi rend="italic"> all-loving.</hi> The vicar’s hand shook, he did not dare stretch it out, to pluck a single hair from the sinner’s head. And the tears streamed down his face, like the waters of mercy and love that extinguishes the eternal fire of hell.</p>
+               <p rend="firstIndent" xml:id="p_00032">Then the cock crowed.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘Merciful God! Please grant her the peace in the grave that I have not been able to redeem.’</p>
+               <p rend="firstIndent" xml:id="p_00034">‘This peace I now have!’ the deceased said, ‘it was your hard words, your sombre human beliefs about God and his creation that drove me to you! know mankind – even in those who are wicked there is a tiny part of God, something that will conquer and extinguish the fire of hell.’</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00035">And a kiss was pressed against the vicar’s mouth, everything grew bright around him; God’s bright sun shone into the room where his wife, alive, mild and loving, was rousing him from a dream sent by God.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

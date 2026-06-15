@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Peter, Petey and Pete</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="peiter-peter-og-peer">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="peiter-peter-og-peer_modern.xml">moderniseret version</note>
+                                                       <note target="174_Peter-Petey-and-Pete.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It’s incredible all the things children know nowadays! one hardly knows what the...</incipit><idno type="image">Peiter_Peter_og_Peer_hca_ill_0112.png</idno><popularity>892</popularity><cite>&lt;p&gt;Hans Christian Andersen: Peter, Petey and Pete. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>fortiden</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">he had laid in a mayweed>he had lain in a mayweed</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Peter, Petey and Pete A Fairy Tale">
+          <head type="main" rend="Peter, Petey and Pete">Peter, Petey and Pete</head>                <head type="part" rend="A Fairy Tale">A Fairy Tale</head>                <p rend="noIndent" xml:id="p_00001">It’s incredible all the things children know nowadays! one hardly knows what they don’t know. That the stork has fetched them from the well or the millpond and brought them as infants to their father and mother is now such an old story that they do not believe it, and yet it’s the only correct one.</p>
+          <p rend="firstIndent" xml:id="p_00002">But how do the infants get to the millpond and well in the first place? Well, not everyone knows that, although some do. Have you ever gazed closely at the sky on a starry night, seen the many shooting stars, it’s as if a star fell and disappeared! Those most learned are unable to explain what they themselves do not know; but it can be explained when one knows it. It’s as if a tiny Christmas candle fell from heaven and went out; it is a soul-spark from the Lord God that travels down towards the earth, and as it enters our denser, heavy atmosphere, its brilliance diminishes, it becomes something our eyes are incapable of seeing, for it is something far finer than our own air, it is a heavenly child that is being sent, a small angel, but one without wings, for the small creature is to become a human being; quietly it glides through the air, and the wind carries it down into a flower; maybe into a dame’s violet, a dandelion, a rose or a catchfly; it lies there to rest and recover. It is airy and light, a fly can carry it, a bee certainly, and they come in turns to look for sweetness in the flower; if the child of the air happens to lie in the way, they do not eject it – they do not have the heart to do so – they place it out in the sunshine in a water-lily, and from there it creeps and crawls down into the water, where it sleeps and grows until the stork can see it and fetch it to a human family that wishes to have such a sweet little one; but just how sweet depends on what the little one has drunk of the clear spring or whether mud and duck-food has gone down the wrong way – that makes one so earthy. The stork takes indiscriminately the first one it sees. One comes to a good home with wonderful parents, another to nasty people in great misery, it would have been better to stay in the millpond.</p>
+          <p rend="firstIndent" xml:id="p_00003">The little ones recollect nothing of what they dreamt while under the water-lily, where at eventide the frogs used to sing ‘Croak, croak! soak, soak!’, which in human language means: ‘Just see if you can sleep and dream!’ Nor could they recall in which flower they had originally lain, or what its scent was like, and yet, when they later become adults, there will be something in them that says: ‘that flower we like most!’ and that is the one they lay in as children of the air.</p>
+          <p rend="firstIndent" xml:id="p_00004">The stork gets to a grand old age, and he always pays great attention to how the little ones it has brought get on, and how they conduct themselves in the world; he can admittedly not do anything for them or change their human condition, he has his own family to take care of, but they are never out of his thoughts.</p>
+          <p rend="firstIndent" xml:id="p_00005">I know an old, very respectable stork that has a sure foundation of knowledge and has fetched a number of little ones and knows their history, in which there is always a little mud and duck-food from the millpond. I asked him to give me a brief biography of one of them, and he said that I could have three for the price of one from the <hi rend="italic">Peytersen</hi> home.</p>
+          <p rend="firstIndent" xml:id="p_00006">It was a particularly agreeable family, the <hi rend="italic">Peytersens</hi>. The man was one of the town’s thirty-two councillors, and that was a distinction; he lived for the Thirty-Two and was deeply involved in the Thirty-Two. The stork came here with a little <hi rend="italic">Peter</hi>, that was what the child was called. The following year the stork came again with one more, he was called <hi rend="italic">Petey</hi>, and when a third one was brought, it was given the name <hi rend="italic">Pete</hi>, for all three names – <hi rend="italic">Peter</hi>, <hi rend="italic">Petey</hi> and <hi rend="italic">Pete</hi> – are contained in the name <hi rend="italic">Peytersen</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00007">So they were three brothers, three shooting stars, rocked in their three separate flowers, laid under a water-lily in the millpond and taken from there by the stork to the <hi rend="italic">Peytersen</hi> family, whose house lies on the corner, as you know.</p>
+          <p rend="firstIndent" xml:id="p_00008">They grew in body and mind, and wanted to be something even grander than the thirty-two men.</p>
+          <p rend="firstIndent" xml:id="p_00009"><hi rend="italic">Peter</hi> said that he wanted to be a robber. He had seen the play ‘<hi rend="italic">Fra Diavolo</hi>’ and decided that the robber profession was the nicest in the world.</p>
+          <p rend="firstIndent" xml:id="p_00010"><hi rend="italic">Petey</hi> wanted to be a dustman, and <hi rend="italic">Pete</hi>, who was such a good and well-behaved boy, plump and chubby, though he bit his nails – that was his only fault – <hi rend="italic">Pete</hi> wanted to be ‘<hi rend="italic">dad’</hi>. That is what he always replied when asked what he wanted to become in the world.</p>
+          <p rend="firstIndent" xml:id="p_00011">And then they started school. One was top of the class, one was bottom, and one was half-way in between, but that didn’t mean they couldn’t be equally good and equally clever, and that is what they were, according to their highly perceptive parents.</p>
+          <p rend="firstIndent" xml:id="p_00012">They went to children’s parties; they smoked cigars when no one saw them; they gained greater command of facts and knowledge.</p>
+          <p rend="firstIndent" xml:id="p_00013"><hi rend="italic">Peter</hi> was headstrong from the start, just as a robber has to be; he was a very naughty boy, but that, said his mother, was because he had worms; naughty children always have worms: mud in the stomach. One day his mother’s new silk dress was at the receiving end of his stiffness and stubbornness.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Don’t bump into the coffee table, God’s lamb of mine!’ she had said. ‘You could easily upset the cream jug, and get my new silk dress splashed!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And the ‘God’s lamb’ took a firm hold of the cream jug, and with a steady hand he poured the cream straight into his mother’s lap, who could not refrain from saying: ‘Little dear! little dear! that was inconsiderate of you, dear!’ The child was wilful, she had to admit that. A strong will was a sign of character, and that seems so promising to a mother.</p>
+          <p rend="firstIndent" xml:id="p_00016">He could easily have become a robber, but didn’t do so literally; he just came to look like a robber: wore a dented hat, went open-necked and with long, unkempt hair; he wanted to be an artist, but only had the right clothes, and he looked more like a hollyhock; all the people he tried to draw looked like hollyhocks, they were that tall. He was very fond of that flower, he had also lain in a hollyhock, the stork said.</p>
+          <p rend="firstIndent" xml:id="p_00017"><hi rend="italic">Petey</hi> had lain in a buttercup. He looked so buttery round the corners of his mouth, his skin was yellowish, one would almost believe that if he got cut on the cheek, butter would come out. He seemed destined from birth to become a dairyman, and could have been his very own shop sign, but inside, really deep inside, he was a ‘<hi rend="italic">dustman</hi>’: he was the musical part of the <hi rend="italic">Peytersen</hi> family, ‘but sufficient for the entire family!’ the neighbours said. He composed seventeen new polkas in one week and made them into an opera complete with trumpets and rattles; ugh! how delightful it was!</p>
+          <p rend="firstIndent" xml:id="p_00018"><hi rend="italic">Pete</hi> was white and red, small and ordinary; he had lain<!--laid--> in a mayweed. He never fought back when the other boys hit him, he said that he was the most sensible one, and the most sensible always gives way. First he collected slate pencils, then letter seals, then he got a small specimen cabinet in which there was the skeleton of a stickleback, three young rats born blind and preserved in alcohol, and a stuffed mole. <hi rend="italic">Pete</hi> had a flair for the scientific and an eye for nature, and that was nice for his parents, and for <hi rend="italic">Pete</hi> as well. He would rather explore the woods than attend school, rather be in nature than have a formal education; his brothers were already engaged when he was still busy completing his aquatic bird egg collection. He soon knew far more about animals than he did about human beings, and in fact believed that we were inferior to them when it comes to what we place highest: <hi rend="italic">love</hi>. He noted that when the female nightingale lay on her eggs, the male nightingale sat singing all night long for his little wife: ‘Chuck! chuck! zit zit! lululee!’ <hi rend="italic">Pete</hi> could never have done that or taken the time to do it. When the mother stork lay in the nest with her young, the father stork would stand on the ridge of the roof on one leg all night – <hi rend="italic">Pete</hi> couldn’t have managed that for more than an hour. And when one day he observed the spider’s web and what had been caught in it, he abandoned the idea of marriage altogether. Mr Spider weaves in order to catch careless flies, young and old, full of blood and dry as dust, he lives in order to weave and provide for his family, while Mrs Spider lives solely for her old man. She devours him out of sheer love, she eats his heart, his head, his stomach, only his long, thin legs are left behind in the web where he had sat worrying about how to feed the whole family. That is the pure truth, straight from natural history. <hi rend="italic">Pete</hi> saw this, thought about <hi rend="italic">it</hi>, ‘to be loved like that by one’s wife, to be devoured by her out of violent love. No! no human being would take things that far; and would it be desirable?’</p>
+          <p rend="firstIndent" xml:id="p_00019"><hi rend="italic">Pete</hi> decided never to get married! never to give or receive a kiss, for that might look like the first step towards matrimony. But he did get a kiss even so, the one we all get, Death’s great kiss. When we have lived long enough, Death gets the order: ‘kiss away!’ and then that person is gone; a glint of the sun shoots out from the <hi rend="italic">Lord God</hi> that is so strong that everything goes black before one’s eyes; the human soul, which arrived like a shooting star, flies back home like a shooting star, but not in order to rest in a flower or dream under a water-lily; it has more important business; it flies into the great land of Eternity, but how it is there and what it looks like no one is able to say. No one has ever seen it, not even the <hi rend="italic">stork</hi>, no matter how far he can see and how much he knows; nor did he know anything more about <hi rend="italic">Pete</hi>, but he did know more about <hi rend="italic">Peter</hi> and <hi rend="italic">Petey</hi> on the other hand, though I’ve heard enough about them, and you probably have too; so I’ve thanked the stork for the time being; but now he insists on having three frogs and a baby grass snake for this small, ordinary story, he charges a provision fee. Are you willing to pay? I’m not! I have neither frogs nor baby grass snakes.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

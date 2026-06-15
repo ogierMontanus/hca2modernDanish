@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Princess on the Pea</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="prindsessen-paa-aerten">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="prindsessen-paa-aerten_modern.xml">moderniseret version</note>
+                                                       <note target="8_The-Princess-on-the-Pea.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a prince; he wanted a princess for himself, but she had to be a r...</incipit><idno type="image">Prindsessen_paa_Aerten_forside.png</idno><popularity>995</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Princess on the Pea. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-04-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-04-27" who="NHB">formatting</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Princess on the Pea">
+          <head type="main" rend="The Princess on the Pea">The Princess on the Pea</head>                <p rend="noIndent" xml:id="p_00001">There was once a prince; he wanted a princess for himself, but she had to be a <hi rend="italic">real</hi> princess. He then travelled all over the world to try and find one, but everywhere there was something wrong – there were plenty of princesses, but he couldn’t quite make out if they were <hi rend="italic">real</hi> princesses or not; there was always something that wasn’t quite right. So he went back home, but he felt so miserable because he wanted so much to have a true princess.</p>
+          <p rend="firstIndent" xml:id="p_00002">One evening a terrible storm blew up, thunder rolled and lightning flashed, the rain came pouring down, it was really dreadful! Then there came a knock at the city gate, and the old king went to open it.</p>
+          <img src="0008_HCA-1973-57-0001.jpg" ref="p_00003" title="Illustrator: Else Hasselriis. 1904. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">A princess was standing outside. But good gracious me, what a state she was in from the rain and the awful weather! The water streamed down from her hair and her clothes, ran in at the toes of her shoes and out at the heels – and then she said she was a real princess.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘We’ll soon find out about that!’ the old queen thought, but she didn’t say anything, just went into the bedroom, took off all the bedclothes and placed a pea at the bottom of the bed, then took twenty mattresses, placed them on top of the pea, and a further twenty eiderdowns on top of the mattresses.</p>
+          <p rend="firstIndent" xml:id="p_00005">It was there the princess was to sleep for the night.</p>
+          <p rend="firstIndent" xml:id="p_00006">In the morning, they asked her how she had slept.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Oh, awfully badly!’ the princess replied. ‘I’ve hardly slept a wink all night! Goodness only knows what there must have been in the bed. I’ve been lying on something hard and am absolutely black and blue all over! It’s simply awful!’</p>
+          <img src="0008_HCA-1973-57-0003.jpg" ref="p_00008" title="Illustrator: Else Hasselriis. 1904. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00008">Then they could see that she was a real princess, for she had noticed the pea through the twenty mattresses and the twenty eiderdowns. Nobody could be that tender-skinned unless she was a real princess.</p>
+          <p rend="firstIndent" xml:id="p_00009">So the prince made her his wife, for now he knew that he had a real princess, and the pea ended up in the cabinet of curiosities, where it can still be seen, providing no one has taken it.</p>
+          <p rend="firstIndent" xml:id="p_00010">Now, that was a real story!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

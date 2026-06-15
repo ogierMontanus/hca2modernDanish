@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Buckwheat</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="boghveden">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="boghveden_modern.xml">moderniseret version</note>
+                                                       <note target="59_The-Buckwheat.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Time and again after a storm, when one passes a field where buckwheat is growing...</incipit><idno type="image">Boghveden_forside.png</idno><popularity>940</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Buckwheat. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Buckwheat">
+          <head type="main" rend="The Buckwheat">The Buckwheat</head>                <p rend="noIndent" xml:id="p_00001">Time and again after a storm, when one passes a field where buckwheat is growing, one sees that it has become quite black and scorched, it is as if a fire had passed over it, and then the farmer says: ‘it’s been struck by lightning!’ but why? – I’ll tell you what the house sparrow has told me, and the house sparrow has heard it from an old willow tree that stood next to a field of buckwheat and is still standing there to this day. It is such a venerable great willow, but wrinkled and old, there is a crack right down the middle of it and grass and brambles grow out of the crack, the tree leans forwards and its branches come right down to the ground, almost as if it was long, green hair.</p>
+          <p rend="firstIndent" xml:id="p_00002">In all the surrounding fields corn grew, rye, barley as well as oats, yes, the lovely oats that when ripe looks like a host of small yellow canaries on a branch. The corn stood there in all its beauty and the heavier it grew, the more it bowed its head in devout humility.</p>
+          <p rend="firstIndent" xml:id="p_00003">But there was also a field of buckwheat, and that field was right next to the old willow tree – the buckwheat did not incline its head the slightest as the corn in the other fields did – it towered up, proud and stiff!</p>
+          <p rend="firstIndent" xml:id="p_00004">‘I’m just as fine as any corn,’ it said, ‘besides which I am much handsomer; my flowers are as lovely as apple blossom, it’s a delight to see me and mine! Do you know of anything more magnificent than us, you old willow?!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And the willow tree nodded its head, as if it wanted to say: ‘Well, yes, I do actually!’ but the buckwheat was bursting with sheer conceit and said: ‘the stupid tree, it’s so old there’s grass growing out of its stomach!’</p>
+          <p rend="firstIndent" xml:id="p_00006">A terrible storm now started to blow up; all the flowers of the field folded their petals, or bowed their fine heads while the storm passed over them, but the buckwheat towered up full of pride.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Bow your head down like us,’ the flowers said.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘I’ve no need of that whatsoever,’ the buckwheat said.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Bow your head down like us,’ the corn cried, ‘now the angel of the storm is about to fly over us! He has wings that reach from the tips of the clouds right down to the ground, and he will chop you in two before you can beg for mercy!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes, but I’ve no intention of bowing my head!’ the buckwheat said.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Close your flowers and bend your leaves!’ the old willow said, ‘do not look up towards the lightning when the cloud bursts, even humans dare not do so, for in the lightning one can see into God’s heaven, but such a sight can turn even humans blind, so just think what would happen to us plants of the earth were we to dare to, we who are so much more lowly.’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘So much more lowly!’ the buckwheat said. ‘Now I really want to gaze into God’s heaven!’ and it did so out of arrogance and pride. It was as if the whole world was ablaze, such was the lightning.</p>
+          <p rend="firstIndent" xml:id="p_00013">When the bad weather was at last over, the flowers and corn stood in the still, pure air, so refreshed by the rain, but the buckwheat had been scorched jet-black by the lightning, it was now a dead, useless plant in the field.</p>
+          <p rend="firstIndent" xml:id="p_00014">And the old willow tree let its branches sway in the wind and large drops of water fell from its green leaves, as if the tree was weeping, and the sparrows asked it: ‘Why are you crying? it is so delightful here! see how the sun is shining, the how the clouds move across the sky, just smell the scent of the flowers and bushes! why are you weeping, you old willow tree?’</p>
+          <p rend="firstIndent" xml:id="p_00015">And the willow told them of the buckwheat’s pride, arrogance and punishment – for that always comes! I who am telling the story have heard it from the sparrows – they told it to me one evening when I asked them for a fairy tale.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>In the Duckyard</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="i-andegaarden">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="i-andegaarden_modern.xml">moderniseret version</note>
+                                                       <note target="152_In-the-Duckyard.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A duck arrived from Portugal, some said from Spain, no matter which, she was cal...</incipit><idno type="image">I_Andegaarden_hca_ill_0096.png</idno><popularity>914</popularity><cite>&lt;p&gt;Hans Christian Andersen: In the Duckyard. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-17" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-17" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="In the Duckyard">
+               <head type="main" rend="In the Duckyard">In the Duckyard</head>                <p rend="noIndent" xml:id="p_00001">A duck arrived from <hi rend="italic">Portugal</hi>, some said from <hi rend="italic">Spain</hi>, no matter which, she was called ‘The Portuguese One’, she laid eggs, was slaughtered and made a meal of; that’s the course of her life. All those that crawled out of her eggs were called the Portuguese and that meant something; now there was only one left of her entire line in the duckyard, a yard the hens also had admittance to and where the cock paraded with endless arrogance.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘He insults me with his clamorous crowing!’ the <hi rend="italic">Portuguese</hi> said. ‘But he’s a handsome sight, you can’t deny him that, even though he isn’t a drake. He ought to learn how to restrain himself, but it is a form of art to restrain oneself, it is a sign of better breeding, something the small songbirds up in the linden tree in the next-door garden possess! how delightfully they sing! there is something so moving about their song; I call it Portugal! If I had such a little songbird, I would be a mother to him, loving and kind, it’s in my blood, in my Portuguese blood!’</p>
+               <p rend="firstIndent" xml:id="p_00003">And just as she said this, a small songbird appeared; it tumbled down headlong from the roof. A cat was after it, but the bird escaped with a broken wing and fell down into the duckyard.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘That is just like the cat, that scum of the earth!’ the <hi rend="italic">Portuguese</hi> said; ‘I know him from the time I had ducklings myself! That such a creature is allowed to live and roam around on the rooftops! I don’t think that occurs in Portugal!</p>
+               <p rend="firstIndent" xml:id="p_00005">And she pitied the little songbird, and the other ducks, which weren’t Portuguese, also did likewise.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Poor little dear!’ they said, and then one after the other came by. ‘We are admittedly no songsters,’ they said, ‘but we have an inner sounding board or something similar; we feel this, even though we don’t talk about it!’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Then I will talk about it!’ the <hi rend="italic">Portuguese</hi> duck said, ‘and I will do something for it, for that is one’s duty!’ and she climbed up into the water trough and flapped around in the water, almost drowning the little songbird in the sudden shower it got, though the intention was good.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘That is a good deed,’ she said, ‘one that the others can observe and take example by!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Cheep!’ the little bird said, its one wing was broken; it was difficult for it to shake itself, but it perfectly understood the well-meant splashing. ‘You are so good-hearted, Madam!’ it said, but refrained from asking for more.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘I have never considered the kindness of my heart!’ the <hi rend="italic">Portuguese</hi> said, ‘but I know that I love all my fellow-creatures except the cat, but that no one can expect of me! he has eaten two of my offspring; but make yourself at home here, that’s quite possible; I myself am from a foreign region, as you can see from my bearing and plumage! my drake is a native, does not have my blood, but I am not haughty on account of that! – if anyone here understands you, I dare say it is me!’</p>
+               <p rend="firstIndent" xml:id="p_00011">‘She’s got <hi rend="italic">portulaca</hi> in her crop! a little common duckling said that was witty, and the other common ones found ‘portulaca’ quite excellent, for it sounded a bit like ‘Portugal’, and they nudged each other and said quack! the duckling was so exceptionally witty! and then they struck up a conversation with the little songbird.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘The Portuguese really has a way with words!’ they said. ‘We don’t have big words in our beaks, but our concern is just as great even so; if we don’t do anything for you, we’re discreet about it; and that we feel is the best way to do things!’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘You have a delightful voice!’ one of the oldest ones said. ‘It must be lovely to know one brings pleasure to as many as you do! I really don’t understand it at all! so I keep my mouth shut, and that is always better than saying something stupid, as so many others do to you!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Don’t pester it!’ the <hi rend="italic">Portuguese</hi> said, ‘it needs rest and care. Little songbird, shall I give you another splashing?’</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Oh no, let me stay dry!’ he begged.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘The water cure is the only thing that helps me,’ the <hi rend="italic">Portuguese</hi> said; ‘diversion is also excellent! now the neighbouring hens will soon be paying a visit, they are two Chinese hens, they wear bloomers, have much breeding, and have been imported, which raises them in my estimation!’</p>
+               <p rend="firstIndent" xml:id="p_00017">And the hens came and the cock came, today he was so polite that he wasn’t coarse at all.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘You are truly a songbird!’ he said, ‘and you make the most of your little voice that can possibly be made of such a little voice. But one needs a bit more locomotion, more driving force, if anyone is to hear that one is a male bird!’</p>
+               <p rend="firstIndent" xml:id="p_00019">The two Chinese hens stood entranced at the sight of the songbird, it looked so ruffled from the splashing it had been subjected to that they felt it resembled a Chinese chicken. ‘It’s quite delightful!’ and they began to converse with it, speaking in whispers and secret P-sounds in refined Chinese.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘We happen to belong to your species. The ducks, even the Portuguese one, belong to the web-footed birds, as you have probably noticed. They do not know us yet, but how many do know us or take the trouble, no one, not even among the hens, despite the fact that we were born to sit on a higher perch than most of the others. But that is no matter, we mingle unobtrusively among the others, whose principles are not the same as ours, but we only look on the positive side, only speak of what is good, although it’s difficult to find something where there is nothing. With the exception of us two and the cock there are none in the henhouse who are intelligent but seemly! that cannot be said about those who live in the duckyard. We warn you, little songbird! do not believe her with the stumpy tail, she is treacherous! the speckled one there, with the diagonal wing-bays, she is cantankerous and never lets anyone have the last word, and what’s more she is always in the wrong! – the fat duck says bad things about everyone, and that is against our nature, if one cannot say something good, then one should keep one’s beak shut. The Portuguese is the only one with a little breeding and possible to associate with, but she is passionate and talks too much about Portugal!’</p>
+               <p rend="firstIndent" xml:id="p_00021">‘What a lot the two Chinese have to whisper about!’ a couple of the ducks said, ‘I find them boring; I’ve never spoken to them!’</p>
+               <p rend="firstIndent" xml:id="p_00022">Now the drake came! he thought that the songbird was a house sparrow. ‘Well, I cannot tell them apart!’ he said, ‘and it’s the same either way! It belongs to the music-making machines, and if one’s one of those, that’s the way it is!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Don’t take any notice of what he says!’ the <hi rend="italic">Portuguese</hi> whispered. ‘He’s a respected businessman and business comes first. But now I’m going to have a rest! one owes it to oneself if one’s to become nice and plump, for the time when one’s to be embalmed with apples and prunes!’</p>
+               <p rend="firstIndent" xml:id="p_00024">And she lay down in the sun, blinked with one eye; she lay so well, she was so well-meaning, and so she slept well too. The little songbird pecked at its broken wing, lay down close to its protector, the sun shone warmly and delightfully, it was a good place to be.</p>
+               <p rend="firstIndent" xml:id="p_00025">The neighbouring hens went around scratching, they basically only came because of the food; the Chinese were the first to leave, followed by the others; the witty duckling said about the Portuguese that the old bird would soon be in its ‘ducklingage’, and the other ducks laughed, ‘ducklingage! he’s so exceptionally witty!’ and then they repeated the previous joke ‘portulaca!’ that was very funny; and then they lay down.</p>
+               <p rend="firstIndent" xml:id="p_00026">They lay there for a while, when suddenly some old leavings were thrown into the duckyard, it landed with a smack that woke up all the birds, who leapt up and flapped their wings, the <hi rend="italic">Portuguese</hi> woke up too, rolled over and squashed the little songbird terribly.</p>
+               <p rend="firstIndent" xml:id="p_00027">‘Cheep!’ it said, ‘you came down very hard on me, Madam!’</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Why were you lying in the way!’ she said, ‘you mustn’t be so touchy! I have nerves too, but I’ve never said cheep!’</p>
+               <p rend="firstIndent" xml:id="p_00029">‘Don’t be angry!’ the little bird said, ‘the cheep just slipped out of my beak!’</p>
+               <p rend="firstIndent" xml:id="p_00030">The <hi rend="italic">Portuguese</hi> didn’t listen to this, but dived into the leavings and had herself a good meal, and when that was over and she had lain down, the little songbird came up and wanted to be amiable:</p>
+               <lg xml:id="p_00031">
+                    <l>‘Tweety-tweet-tweet!</l>
+               <l>Of your heart so sweet</l>
+               <l>I’ll sing as a treat</l>
+               <l>At every wingbeat!’</l></lg>
+               <p rend="noIndent" xml:id="p_00032">‘I’m resting after my meal!’ she said, ‘you must learn house manners in here! I’m having a sleep!’</p>
+               <p rend="firstIndent" xml:id="p_00033">The little songbird was quite surprised, for it had only meant well. When Madam woke up later, it was standing in front of her with a small grain it had found; it placed it in front of her; but she hadn’t slept well, so naturally she was surly.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘That you can give to a chicken!’ she said; ‘don’t stand there hanging over me!’</p>
+               <p rend="firstIndent" xml:id="p_00035">‘But you’re angry with me!’ he said. ‘What have I done?’</p>
+               <p rend="firstIndent" xml:id="p_00036">‘Done!’ the <hi rend="italic">Portuguese</hi> said, ‘that expression is not in the right tone, I have to tell you!’</p>
+               <p rend="firstIndent" xml:id="p_00037">‘Yesterday there was sunshine,’ the little bird said, ‘today it is dark and grey! I feel so terribly sad!’</p>
+               <p rend="firstIndent" xml:id="p_00038">‘You’re no good at telling the time!’ the <hi rend="italic">Portuguese</hi> said, ‘the day isn’t over yet, don’t just stand there looking stupid!’</p>
+               <p rend="firstIndent" xml:id="p_00039">‘You’re looking at me just as angrily as the two horrid eyes did when I fell down into the yard!’</p>
+               <p rend="firstIndent" xml:id="p_00040">‘What impertinence!’ the <hi rend="italic">Portuguese</hi> said, ‘are you comparing me to the cat, that predator! there is not a drop of evil blood in my veins; I have taken care of you, and now I shall teach you some manners!’</p>
+               <p rend="firstIndent" xml:id="p_00041">And she bit off the songbird’s head, it lay there dead.</p>
+               <p rend="firstIndent" xml:id="p_00042">‘What’s all this!’ she said, ‘couldn’t he even stand that? in that case it was no good for this world! I’ve been like a mother to it, that I know! for I am tender-hearted!’</p>
+               <p rend="firstIndent" xml:id="p_00043">And the neighbour’s cock stuck its head into the yard and crowed with full locomotion.</p>
+               <p rend="firstIndent" xml:id="p_00044">‘You’ll be the death of one with that crowing of yours!’ she said, ‘the whole thing’s your fault; it lost its head and I almost lost mine.’</p>
+               <p rend="firstIndent" xml:id="p_00045">‘He doesn’t take up much space lying there!’ the <hi rend="italic">cock</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00046">‘Speak of him with respect!’ the <hi rend="italic">Portuguese</hi> said, ‘he had tone, he had melody and he had breeding! he was loving and gentle and that suits animals, just as it does so-called human beings.’</p>
+               <p rend="firstIndent" xml:id="p_00047">And all the ducks gathered around the dead little songbird; the ducks have strong passions, they either feel envy or compassion, and since there was nothing to be envious of here, they were compassionate, as were the two Chinese hens.</p>
+               <p rend="firstIndent" xml:id="p_00048">‘We will never have such a songbird again! he was almost Chinese,’ and they wept till they clucked, and all the hens clucked, but the ducks were the ones whose eyes were more red-rimmed than all the rest.</p>
+               <p rend="firstIndent" xml:id="p_00049">‘We have a heart!’ they said, that nobody can deny!’</p>
+               <p rend="firstIndent" xml:id="p_00050">‘A heart!’ the <hi rend="italic">Portuguese</hi> said, ‘yes, indeed – almost as much as in Portugal!’</p>
+               <p rend="firstIndent" xml:id="p_00051">‘Let’s concentrate now on having a good feed!’ the <hi rend="italic">drake</hi> said, ‘that’s more important! If one of the music-making machines stops working, we’ve plenty left even so!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

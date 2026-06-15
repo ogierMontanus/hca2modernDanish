@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Deilig!«</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Folkekalender for Danmark 1852, der udkom i november 1851 (BFN 595). Optaget i Historier, som udkom den 5. april 1852. Sidstnævnte udgave følges her.</p><p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Fjerde Samling, der udkom den 9. december 1859 med årstallet 1860 på titelbladet.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="deilig"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="deilig">
+<head type="main">»Dejlig!«</head>
+
+<p rend="noIndent" xml:id="p_00003">Billedhuggeren Alfred, ja, du kender ham vel? Vi kender ham allesammen: Han fik <seg><!--DATA-TERM: Guldmedaillen--><anchor target="txtcmnt-297-01"/><!--Det Kgl. Danske Akademis guldmedalje indebar et rejsestipendium.-->guldmedaljen</seg>, rejste til Italien og kom hjem igen. Da var han ung, ja, det er han da endnu, men dog altid en halv snes år ældre end dengang.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Han kom hjem, kom i besøg i en af Sjællands småstæder, hele byen vidste om den fremmede, vidste hvem han var. For hans skyld var selskab hos en af de rigeste familier, alt hvad der var noget eller havde noget, var indbudt, det var en begivenhed, byen vidste det uden <seg><!--DATA-TERM: Trommeslag--><anchor target="txtcmnt-297-02"/><!--officielle bekendtgørelser og nyheder af almen interesse blev meddelt af trommeslagere.-->trommeslag</seg>. Håndværksdrenge og småfolks børn, et par af forældrene med, stod udenfor og så på de nedrullede, belyste gardiner, vægteren kunne bilde sig ind han gjorde selskab, så mange folk stod der i hans <seg><!--DATA-TERM: Boldgade--><anchor target="txtcmnt-297-03"/><!--distrikt.-->boldgade</seg>. Det smagte af fornøjelse, og indenfor var rigtignok fornøjelse til huse, der var hr. Alfred, billedhuggeren.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Han talte, han fortalte, og alle derinde hørte på ham med glæde, <seg><!--DATA-TERM: med Salvelse--><anchor target="txtcmnt-297-04"/><!--andægtigt.-->med salvelse</seg>, men ingen mere end en ældre enkefrue af embedsstanden, og hun var for alt hvad hr. Alfred sagde, et ubeskrevet gråt papir der sugede det sagte straks i sig og bad om mere, højst modtagelig, utrolig uvidende, en kvindelig <seg><!--DATA-TERM: Caspar Hauser--><anchor target="txtcmnt-297-05"/><!--(1812-1833), tysk hittebarn, der i 1828 dukkede op i Nürnberg efter angiveligt at have levet indespærret i mørke. Man antog, at han var af fornem slægt. Forskellige embedsmænd og pædagoger tog sig herefter af ham, indtil han i 1833 omkom ved et gådefuldt giftattentat.-->Caspar Hauser</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Rom gad jeg nok se!« sagde hun, »det må være en yndig by med alle de mange fremmede som kommer der, beskriv os nu Rom! Hvorledes ser der nu ud idet man kommer ind ad <seg><!--DATA-TERM: Porten--><anchor target="txtcmnt-297-06"/><!--Porta del Popolo ved pladsen (piazzaen) af samme navn.-->porten</seg>?«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Det er ikke let at beskrive!« sagde den unge billedhugger. »Der er en stor plads, midt på den står en <seg><!--DATA-TERM: Obelisk--><anchor target="txtcmnt-297-07"/><!--den ægyptiske obelisk blev hjemført af kejser Augustus (63 f.Kr.-14 e.Kr.) og blev først opstillet i Circus Maximus i Rom, men i 1589 flyttet til Piazza del Popolo på foranledning af pave Sixtus 5.-->obelisk</seg>, som er fire tusinde år gammel!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»En organist!« udbrød fruen, hun havde aldrig før hørt ordet obelisk. Nogle var nær ved at le, billedhuggeren med, men det smil som kom, gled hen i beskuelse, thi han så tæt ved fruen et par store, havblå øjne, det var datteren af hende der talte, og når man har en sådan datter, kan man ikke være enfoldig! Moren var et øsende spørgsmåls-væld, datteren vældets skønheds <seg><!--DATA-TERM: Najade--><anchor target="txtcmnt-297-08"/><!--det rindende vands nymfer i græskromersk mytologi.-->najade</seg> der hørte til. Hvor <pb n="298"/>var hun dejlig! Hun var noget for en billedhugger at se på, men ikke tale med, og hun talte intet, i det mindste meget lidt.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Har paven en stor familie?« spurgte fruen.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Og den unge mand svarede som spørgsmålet bedre kunne have været stillet: »Nej, han er ikke af stor familie!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Det mener jeg ikke!« sagde fruen, »jeg mener, har han kone og børn?«</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Paven <seg><!--DATA-TERM: tør ikke gifte sig--><anchor target="txtcmnt-298-01"/><!--må ikke gifte sig.-->tør ikke gifte sig</seg>!« svarede han.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Det holder jeg ikke af!« sagde fruen.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Kløgtigere kunne hun vel have spurgt og talt, men om hun ikke havde spurgt og talt som hun gjorde det, mon da vel datteren således havde hældet sig op til hendes skulder og set med dette næsten rørende smil?</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og hr. Alfred talte, talte om Italiens farvepragt, de blånende bjerge, det blå Middelhav, sydens blå, en dejlighed som man i Norden kun fandt overtruffen i den nordiske kvindes blå øjne. Og det blev her sagt med hentydning, men hun som skulle forstå det, hun lod sig ikke mærke med at hun forstod det, og det var jo nu også dejligt!</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Italien!« sukkede nogle, »rejse!« sukkede andre. »Dejlig! Dejlig!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Ja, når jeg nu vinder de halvtredsindstyve tusinde rigsdaler i lotteriet,« sagde enkefruen, »så rejser vi! Jeg og min datter, og De, hr. Alfred, skal føre os an! Vi rejser alle tre! Og et par andre gode venner med!« og så nikkede hun fornøjeligt til dem allesammen, enhver havde lov at tro: Det er mig der skal med. »Til Italien vil vi! Men vi vil ikke hvor der er røvere, vi bliver i Rom og på de store landeveje, hvor man er sikker!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">Og datteren drog et lille suk. Hvor meget kan der ikke ligge i et lille suk, eller lægges deri? Den unge mand lagde meget deri; de to blå øjne denne aften belyste for ham, skjulte skatte, åndens og hjertets skatte, rige som alle Roms herligheder, og da han forlod selskabet – ja, så var han væk – væk i frøkenen.</p>
+
+<p rend="firstIndent" xml:id="p_00019">Enkefruens hus blev af alle huse det hr. Alfred, billedhuggeren, besøgte. Man indså at det ikke kunne være for morens skyld, uagtet han og hun altid var de talende, det måtte være for datterens skyld han kom. Kala blev hun kaldt, hun hed Karen Malene, de to navne var trukket sammen til det ene navn Kala. Dejlig var hun, men lidt dvask, sagde en og anden; hun lå gerne lidt længe om morgenen.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Det er hun vant til fra sin barndom,« sagde moren, »hun <pb n="299"/>har altid været en <seg><!--DATA-TERM: Venus-Unge--><anchor target="txtcmnt-299-01"/><!--Venus er i den romerske mytologi skønhedens og kærlighedens gudinde.-->Venusunge</seg>, og de bliver så let trætte. Hun ligger lidt længe, men deraf har hun sine klare øjne.«</p>
+
+<p rend="firstIndent" xml:id="p_00021">Hvilken magt var der ikke i disse klare øjne! Disse havblå vande, det stille vand med den dybe grund, det fornemmede den unge mand, han sad fast på den dybe grund. Han talte og fortalte, og mama spurgte altid lige levende, frejdigt og flot som ved første møde.</p>
+
+<p rend="firstIndent" xml:id="p_00022">Det var en fornøjelse at høre hr. Alfred fortælle. Han fortalte om Napoli, om vandringerne på Vesuv og fremviste dertil i farvede billeder flere af <seg><!--DATA-TERM: Eruptionerne--><anchor target="txtcmnt-299-02"/><!--vulkanudbruddene.-->eruptionerne</seg>. Og enkefruen havde aldrig før hørt om det eller fået det i overvejelse.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Bevar os!« sagde hun, »det er da et ildsprudendes bjerg! Kan der ingen komme til skade ved det?«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Hele byer er gået til grunde!« svarede han, »<seg><!--DATA-TERM:  Pompeji  og  Herculanum--><anchor target="txtcmnt-299-03"/><!--de to romerske byer blev ødelagt ved Vesuvs udbrud 79 e.Kr.-->Pompeji og Herculanum</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Men de ulykkelige mennesker! Og alt det har De selv set?«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Nej, ingen af de udbrud jeg her har i billeder, men jeg skal vise Dem i en tegning af mig selv, hvorledes udbruddet var da jeg så det!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">Og han tog frem en skitse gjort med blyant, og mama, der sad opfyldt i beskuelsen af de stærkt kolorerede billeder, så på den blege blyantsskitse og udbrød i overraskelse:</p>
+
+<p rend="firstIndent" xml:id="p_00028">»De har set det sprude hvidt!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Det blev et øjeblik sort i hr. Alfreds højagtelse for mama, men snart, i Kalas belysning, forstod han at hendes mor ikke havde farvesans, det var det hele, hun havde det bedste, det skønneste, hun havde Kala.</p>
+
+<p rend="firstIndent" xml:id="p_00030">Og med Kala blev Alfred forlovet, det var så rimeligt, og forlovelsen stod i byens avis. Mama fik sig tredive eksemplarer af den for at klippe det stykke ud og lægge i breve til venner og bekendte. Og de forlovede var lykkelige og svigermama med, hun var ligesom kommet i familie med <seg><!--DATA-TERM: Thorvaldsen--><anchor target="txtcmnt-299-04"/><!--Bertel Thorvaldsen (1770-1844), dansk billedhugger.-->Thorvaldsen</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00031">»De er dog hans fortsættelse!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Og Alfred syntes at hun sagde noget åndrigt. Kala sagde ikke noget, men hendes øjne lyste, smilet sad om munden, hver bevægelse var dejlig; og dejlig var hun, det kan ikke siges for tit.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Alfred formede Kalas og svigermamas buste. De sad for ham og så hvorledes han med fingeren glattede og bøjede det bløde ler.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Det er nu for vor skyld,« sagde svigermama, »at De selv gør det simple arbejde og ikke lader Deres karl klatte det sammen!« <pb n="300"/>»Det er just nødvendigt at jeg former det i leret!« sagde han.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Ja, De er nu altid så overordentlig galant!« sagde mama, og Kala trykkede stille hans hånd, som leret sad på.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Og han udviklede for dem begge to naturens herlighed i det skabte, hvorledes det levende stod over det døde, planten over <seg><!--DATA-TERM: Mineraliet--><!--mineralet.-->mineralet</seg>, dyret over planten, mennesket over dyret; hvorledes ånd og skønhed åbenbarede sig gennem formen, og at billedhuggeren gav den jordiske skikkelse af det herligste i dets åbenbarelse.</p>
+
+<p rend="firstIndent" xml:id="p_00037">Kala stod tavs, vuggende hans udtalte tanke. Svigermama tilstod:</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Det er svært at følge med! Men jeg går langsomt efter med tankerne, og de surrer ved det, men jeg har fast!«</p>
+
+<p rend="firstIndent" xml:id="p_00039">Og dejligheden havde ham fast, den fyldte ham, betog og beherskede ham. Dejligheden lyste ud af hele Kalas skikkelse, ud af hendes blik, fra mundvigene, fra selv fingrenes bevægelse, det udtalte Alfred, og han, billedhuggeren, forstod sig på det, han talte kun om hende, tænkte kun på hende, de to blev ét, og således talte hun også meget, for han talte særdeles meget.</p>
+
+<p rend="firstIndent" xml:id="p_00040">Det var forlovelsesdagen, nu kom brylluppet med brudepiger og brudegaver, og de blev nævnt i brudetalen.</p>
+
+<p rend="firstIndent" xml:id="p_00041">Svigermama havde i brudehuset stillet op for bordenden Thorvaldsens buste med slåbrok om, han skulle være gæst, det var hendes idé. Der blev sunget viser, og der blev drukket skåler, det var et fornøjeligt bryllup, et dejligt par: »<seg><!--DATA-TERM: Pygmalion … Galathea--><anchor target="txtcmnt-300-02"/><!--ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) <i>Metamorfoser</i>, 10, 243 ff., lavede den cypriotiske konge Pygmalion et elfenbensbillede af en ung kvinde og forelskede sig i billedet. Da Afrodite på hans bøn gav statuen liv, giftede han sig med den.-->Pygmalion fik sin Galathea</seg>«, stod der i en af sangene: »Det er nu sådan mytologi!« sagde svigermama.</p>
+
+<p rend="firstIndent" xml:id="p_00042">Dagen derpå rejste det unge par til København for der at bo og bygge. Svigermama fulgte med for at tage sig af det grove, sagde hun, det vil sige styre husvæsenet. Kala skulle sidde i dukkeskab! Alt var nyt, blankt og dejligt! Der sad de alle tre – og Alfred, ja, for at bruge et ordsprog der belyser hvorledes han sad, han sad som en <seg><!--DATA-TERM: Bisp i en Gaaserede--><anchor target="txtcmnt-300-03"/><!--sigter egentlig til Skt. Martin af Tours (ca. 315-397). Da udsendinge kom for at tilbyde ham bispestolen i Tours, fandt han sig uværdig dertil og gemte sig i gåsestien, men blev røbet af gæssenes skræppen.-->bisp i en gåserede</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00043">Formens trolddom havde dåret ham, han havde set på foderalet og ikke på hvad der stak i foderalet, og det er uheld, meget uheld i ægtestanden. Går foderalet op i limningerne, og glimmerguldet falder af, så fortryder man handelen. I stort selskab er det højst ubehageligt at mærke at man har mistet begge sine seleknapper og vide at man ikke kan stole på sit spænde, for man har intet spænde, men endnu værre er det i stort selskab at fornemme at kone og svigermama taler dumt, <pb n="301"/>og da ikke at kunne stole på selv at få et vittigt indfald der bortvejrer dumheden.</p>
+
+<p rend="firstIndent" xml:id="p_00044">Så tit sad det unge ægtepar hånd i hånd, og han talte, og hun dryppede et ord, samme melodi, samme to-tre klokketoner. Det var en åndsluftning når Sophie, en af veninderne, kom.</p>
+
+<p rend="firstIndent" xml:id="p_00045">Sophie var meget lidt køn; ja, hun var uden skavank, lidt skæv var hun rigtignok, sagde Kala, men det var visselig ikke mere end kun veninder kunne se det. Hun var en meget fornuftig pige, dog det faldt hende ikke ind at hun her kunne blive farlig. Hun var en forfriskende luftning i dukkeskabet, og frisk luftning trængte man til, det indså de allesammen. Luftes måtte der, og så kom de ud at luftes, svigermama og det unge ægtepar rejste til Italien.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Gudskelov vi er hjemme i vort eget igen!« sagde mor og datter da de året efter med Alfred, alle tre, kom tilbage.</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Det er ingen fornøjelse at rejse!« sagde svigermama, »det er egentlig kedeligt! Undskyld at jeg siger det. Jeg kedede mig, uagtet jeg havde mine børn med, og det er dyrt, meget dyrt at rejse! Alle de gallerier man skal se! Alt det man skal løbe efter! Man kan jo ikke være andet bekendt når man kommer hjem og bliver spurgt ud! Og så må man dog høre at det er det dejligste det man fik glemt at se. Mig kedede i længden disse evige madonnaer, man bliver selv bare madonna!«</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Og den mad man får!« sagde Kala.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Ikke en ærlig kødsuppe!« sagde mama. »Det er dårligdom med deres madlavning!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">Og Kala var blevet <seg><!--DATA-TERM: fatigueret--><anchor target="txtcmnt-301-02"/><!--trættet, udmattet.-->fatigueret</seg> af rejsen, vedvarende fatigueret, det var det værste. Sophie kom der i huset, og gavn gjorde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00051">Det måtte man erkende, sagde svigermama, at Sophie forstod sig på husvæsen og kunstvæsen og alt hvad hun efter sin formue ikke havde råd til, og så var hun dertil meget agtbar, inderlig trofast. Det viste hun ret da Kala lå syg og tabte sig.</p>
+
+<p rend="firstIndent" xml:id="p_00052">Hvor foderalet er det hele, der må foderalet holde ud, ellers er det forbi med foderalet – og det var forbi med foderalet – Kala døde.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Hun var dejlig!« sagde moren, »hun var rigtignok noget andet end <seg><!--DATA-TERM: Antikkerne--><anchor target="txtcmnt-301-03"/><!--statuerne fra antikken.-->antikkerne</seg>, de er så ramponerede! Kala var hel, og det skal en skønhed være!«</p>
+
+<p rend="firstIndent" xml:id="p_00054">Alfred græd, og moren græd, og de gik begge i sorte klæ<pb n="302"/>der, mama klædte sort især, og hun gik længst i sort, bar længst sorg, og hun fik den sorg til at Alfred giftede sig igen, tog Sophie, der ikke havde udvortes.</p>
+
+<p rend="firstIndent" xml:id="p_00055">»Han er gået til yderligheder!« sagde svigermama, »gået fra det dejligste til det grimmeste, han har kunnet glemme sin første kone. Der er ikke udholdenhed hos mandfolk! Min mand var anderledes! Han døde også før jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Pygmalion fik sin Galathea!« sagde Alfred, »ja, det stod i brudevisen. Jeg havde også virkelig forelsket mig i den dejlige statue der fik liv i mine arme! Men den beslægtede sjæl som himlen sender os, en af dens engle der kan føle med os, tænke med os, løfte os hvor vi bøjes, har jeg nu først fundet og vundet. Du kom, Sophie! Ikke i formskønhed, i stråleglans – men god nok, mere smuk end det behøves! Hovedsagen er hovedsagen! Du kom og lærte billedhuggeren at hans værk kun er ler, støv, kun et aftryk i dette af den indre kerne, den vi skal søge. Stakkels Kala! Vort jordeliv var som et rejseliv! Deroppe, hvor man samles i sympati, er vi hinanden måske halvt fremmede!«</p>
+
+<p rend="firstIndent" xml:id="p_00057">»Det var ikke kærligt sagt,« sagde Sophie, »det var ikke kristeligt! <seg><!--DATA-TERM: hist oppe … tilægte--><anchor target="txtcmnt-302-01"/><!--Matthæus 22,30.-->Hist oppe hvor der ikke skal tages til ægte</seg>, men, som du siger, sjælene mødes ved sympati, der hvor alt herligt udfolder og løfter sig, vil hendes sjæl måske klinge i så fuldelig kraft at den overklinger min, og du – du vil da igen udbryde i dit første forelskelsesudbrud: Dejlig, dejlig!«</p>
+
+<pb n="303"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="verdens-deiligste-rose">
+<head type="section-comments">Verdens dejligste Rose</head>
+
+<p rend="noIndent">Trykt første gang i Folkekalender for Danmark 1852, der udkom i november 1851 (BFN 595). Optaget i Historier, som udkom den 5. april 1852. Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">BFN 606/II,225-227/VII,140-141.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">35,13</cell><cell type="deviation">»Bring &lt; Bring</cell></row>
+<row><cell type="position">36,17</cell><cell type="deviation">»Jeg &lt; Jeg</cell></row>
+</table>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">35</cell><cell type="deviation">2: en &lt; engang en – 28: fra &lt; af</cell></row>
+<row><cell type="position">36</cell><cell type="deviation">1: Den &lt; den – 2: og &lt; og den – 13: Angstens &lt; Angestens – 17: <pb n="466"/>som &lt; som om – 29: O &lt; o – 31: Menneskene &lt; alle Mennesker – 35: løfte &lt; løftede – Under teksten: H. C. Andersen.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">35</cell><row xml:id="txtcmnt-035-01"><cell type="data-term">Sotteseng</cell><cell type="data-definition">dødsleje.</cell></row><row xml:id="txtcmnt-035-02"><cell type="data-term">Urtegaard</cell><cell type="data-definition">have.</cell></row><row xml:id="txtcmnt-035-03"><cell type="data-term">Romeo og Julie(s)</cell><cell type="data-definition">middelalderlige sagnfigurer; titelpersonerne i William Shakespeares (1564-1616) kærlighedstragedie fra ca. 1595.</cell></row><row xml:id="txtcmnt-035-04"><cell type="data-term">Valborg(s)</cell><cell type="data-definition">folkeviseskikkelse (DgF 475: »Aslag Tordsøn og skøn Valborg«) og hovedperson i Oehlenschlägers (1779-1850) tragedie Axel og Valborg fra 1810.</cell></row><row xml:id="txtcmnt-035-05"><cell type="data-term">Winkelried(s)</cell><cell type="data-definition">ifølge overleveringen skaffede schweizeren Arnold Winkelried Schweiz uafhængighed af habsburgerne i slaget ved Sempach 1386. De angribende schweizere forsøgte forgæves at bryde gennem de østrigske ridderes rækker, som stod med fældede lanser. Winkelried slog armene om en favnfuld lanser, som han trak til sig for at skabe hul i slagordenen, og gennemborede derved sig selv.</cell></row>
+</table></div><div type="work-comments" xml:id="deilig">
+<head type="section-comments">»Deilig!«</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Fjerde Samling, der udkom den 9. december 1859 med årstallet 1860 på titelbladet.</p>
+<p rend="noIndent">BFN 797/III,162-168/VII,213-214.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">299,25</cell><cell type="deviation">hendes Moder &lt; hendes, Moder</cell></row>
+<row><cell type="position">301,9</cell><cell type="deviation">kun Veninder &lt; veninder</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">297</cell><row xml:id="txtcmnt-297-01"><cell type="data-term">Guldmedaljen</cell><cell type="data-definition">Det Kgl. Danske Akademis guldmedalje indebar et rejsestipendium.</cell></row><row xml:id="txtcmnt-297-02"><cell type="data-term">Trommeslag</cell><cell type="data-definition">officielle bekendtgørelser og nyheder af almen interesse blev meddelt af trommeslagere.</cell></row><row xml:id="txtcmnt-297-03"><cell type="data-term">Boldgade</cell><cell type="data-definition">distrikt.</cell></row><row xml:id="txtcmnt-297-04"><cell type="data-term">med Salvelse</cell><cell type="data-definition">andægtigt.</cell></row><row xml:id="txtcmnt-297-05"><cell type="data-term">Caspar Hauser</cell><cell type="data-definition">(1812-1833), tysk hittebarn, der i 1828 dukkede op i Nürnberg efter angiveligt at have <pb n="500"/>levet indespærret i mørke. Man antog, at han var af fornem slægt. Forskellige embedsmænd og pædagoger tog sig herefter af ham, indtil han i 1833 omkom ved et gådefuldt giftattentat.</cell></row><row xml:id="txtcmnt-297-06"><cell type="data-term">Porten</cell><cell type="data-definition">Porta del Popolo ved pladsen (piazzaen) af samme navn.</cell></row><row xml:id="txtcmnt-297-07"><cell type="data-term">Obelisk</cell><cell type="data-definition">den ægyptiske obelisk blev hjemført af kejser Augustus (63 f.Kr.-14 e.Kr.) og blev først opstillet i Circus Maximus i Rom, men i 1589 flyttet til Piazza del Popolo på foranledning af pave Sixtus 5.</cell></row><row xml:id="txtcmnt-297-08"><cell type="data-term">Najade</cell><cell type="data-definition">det rindende vands nymfer i græskromersk mytologi.</cell></row>
+<cell type="page">298</cell><row xml:id="txtcmnt-298-01"><cell type="data-term">tør ikke gifte sig</cell><cell type="data-definition">må ikke gifte sig.</cell></row><row xml:id="txtcmnt-298-02"><cell type="data-term">Kala</cell><cell type="data-definition">navn på en i tiden meget populær stueplante (Kal(l)a).</cell></row>
+<cell type="page">299</cell><row xml:id="txtcmnt-299-01"><cell type="data-term">Venus-Unge</cell><cell type="data-definition">Venus er i den romerske mytologi skønhedens og kærlighedens gudinde.</cell></row><row xml:id="txtcmnt-299-02"><cell type="data-term">Eruptionerne</cell><cell type="data-definition">vulkanudbruddene.</cell></row><row xml:id="txtcmnt-299-03"><cell type="data-term">Pompeji og Herculanum</cell><cell type="data-definition">de to romerske byer blev ødelagt ved Vesuvs udbrud 79 e.Kr.</cell></row><row xml:id="txtcmnt-299-04"><cell type="data-term">Thorvaldsen</cell><cell type="data-definition">Bertel Thorvaldsen (1770-1844), dansk billedhugger.</cell></row>
+<cell type="page">300</cell><row xml:id="txtcmnt-300-01"><cell type="data-term">Mineraliet</cell><cell type="data-definition">mineralet.</cell></row><row xml:id="txtcmnt-300-02"><cell type="data-term">Pygmalion … Galathea</cell><cell type="data-definition">ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) Metamorfoser, 10, 243 ff., lavede den cypriotiske konge Pygmalion et elfenbensbillede af en ung kvinde og forelskede sig i billedet. Da Afrodite på hans bøn gav statuen liv, giftede han sig med den.</cell></row><row xml:id="txtcmnt-300-03"><cell type="data-term">Bisp i en Gåserede</cell><cell type="data-definition">sigter egentlig til Skt. Martin af Tours (ca. 315-397). Da udsendinge kom for at tilbyde ham bispestolen i Tours, fandt han sig uværdig dertil og gemte sig i gåsestien, men blev røbet af gæssenes skræppen.</cell></row>
+<cell type="page">301</cell><row xml:id="txtcmnt-301-01"><cell type="data-term">Sophie</cell><cell type="data-definition">navnet kommer af græsk sofia: visdom.</cell></row><row xml:id="txtcmnt-301-02"><cell type="data-term">fatigueret</cell><cell type="data-definition">trættet, udmattet.</cell></row><row xml:id="txtcmnt-301-03"><cell type="data-term">Antikkerne</cell><cell type="data-definition">statuerne fra antikken.</cell></row>
+<cell type="page">302</cell><row xml:id="txtcmnt-302-01"><cell type="data-term">hist oppe … tilægte</cell><cell type="data-definition">Matthæus 22,30.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

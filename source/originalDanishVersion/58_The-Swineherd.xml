@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Swineherd</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="svinedrengen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="svinedrengen_modern.xml">moderniseret version</note>
+                                                       <note target="58_The-Swineherd.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a poor prince; he had a kingdom that was quite small, though it w...</incipit><idno type="image">Svinedrengen_forside.png</idno><popularity>993</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Swineherd. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Swineherd">
+          <head type="main" rend="The Swineherd">The Swineherd</head>                <p rend="noIndent" xml:id="p_00001">There was once a poor prince; he had a kingdom that was quite small, though it was of course always large enough to marry on, and marriage was exactly what he had in mind.</p>
+          <p rend="firstIndent" xml:id="p_00002">It was fairly audacious of him even so to dare ask the emperor’s daughter ‘Will you marry me?’ but he dared to all right, for his name was famous far and wide, there were a hundred princesses who would have gladly said ‘Yes’, but just see if this one did.</p>
+          <p rend="firstIndent" xml:id="p_00003">Here’s our story, then:</p>
+          <p rend="firstIndent" xml:id="p_00004">On the grave of the prince’s father there grew a rosebush, – oh such a lovely rosebush; it only blossomed every fifth year and only bore a single rose, but it was a rose with such a sweet fragrance that just smelling it made one forget all one’s sorrows and worries, and then he also had a nightingale that could sing as if all the beautiful melodies of the world resided in its tiny throat. The princess was to have the rose and the nightingale, so they were both packed in large silver cases and then sent to her.</p>
+          <p rend="firstIndent" xml:id="p_00005">The emperor had them carried in front of him into the great hall where the princess was playing ‘Guess the Stranger’ with her ladies-in-waiting; and when she saw the large cases with the presents, she clapped her hands with joy.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘I only hope it’s a small pussy cat!’ she said – but out came the rosebush with its beautiful rose.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Oh, how well-fashioned!’ all the ladies-in-waiting said.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘It’s more than well-fashioned,’ the emperor said, ‘it’s lovely.’</p>
+          <p rend="firstIndent" xml:id="p_00009">But the princess touched it and almost started to cry.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Ugh, papa!’ she said, ‘it’s not artificial, it’s <hi rend="italic">real</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Ugh!’ all the ladies-in-waiting said, ‘it’s real!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Let’s have a look and see what’s in the other case first, before we get upset!’ was the emperor’s opinion about it, and then the nightingale emerged – and it sang so beautifully that at first no one could say anything bad about it.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘<hi rend="italic">Superbe, charmant!</hi>’ the ladies-in-waiting said, for all of them spoke French, though each one worse than the next.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘That bird reminds me so much of the late empress’s musical box,’ an old courtier said, ‘ah yes! precisely the same timbre, the same execution!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘Yes!’ the emperor said, and then he wept like a small child.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘I can hardly believe it’s real!’ the princess said.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Oh yes, it’s a real bird!’ those who had brought it said.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘In that case, let the bird fly away,’ the princess said, and in no way was she willing to receive the prince.</p>
+          <p rend="firstIndent" xml:id="p_00019">But he refused to lose heart; he smeared his face brown and black, pulled a cap well down over his forehead and knocked at the door.</p>
+          <p rend="firstIndent" xml:id="p_00020">‘Good day, Emperor!’ he said, ‘is there perhaps a job for me anywhere here at the palace?’</p>
+          <p rend="firstIndent" xml:id="p_00021">‘Yes, I think there might be!’ the emperor said, ‘I need someone to look after the pigs! for we’ve lots of them!’</p>
+          <img src="0020_HCA-1982-345-0024.jpg" ref="p_00022" title="Illustrator: Louis Moe. 1925. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00022">And so the prince was given a job as imperial swineherd. He was given a wretched cubbyhole of a room down by the pigsty and that was where he was to stay; but he sat there working all day long and when evening came he had made a lovely small cooking pot with small bells around the rim and as soon as the pot came to the boil, they all tinkled so delightfully and played the old tune:</p>
+          <lg xml:id="p_00023">
+               <l><hi rend="italic">‘Ach, du lieber Augustin</hi></l>
+               <l><hi rend="italic">Everything’s gone, gone, gone!’</hi></l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00024">but the most remarkable thing of all was that when you held your fingers in the steam from the pot, you could immediately smell what food was being cooked in every chimney in the town; now that was certainly something else than that rose of his.</p>
+          <p rend="firstIndent" xml:id="p_00025">The princess came walking by with her ladies-in-waiting, and when she heard the tune she stopped and looked very pleased indeed, for she could also play ‘Ach, du lieber Augustin’, it was the only tune she could play, but she played it with one finger.</p>
+          <p rend="firstIndent" xml:id="p_00026">‘That’s the one I can play!’ she said, ‘so it must be quite a cultivated swineherd! Listen! Go in and ask him what the instrument costs!’</p>
+          <p rend="firstIndent" xml:id="p_00027">And so one of the ladies-in-waiting had to go into the pigsty, but she put some clogs on first.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘What do you want for that cooking pot?’ the lady-in-waiting asked.</p>
+          <p rend="firstIndent" xml:id="p_00029">‘I want ten kisses from the princess!’ the swineherd said.</p>
+          <p rend="firstIndent" xml:id="p_00030">‘God forbid!’ the lady-in-waiting said.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘Yes, nothing less will do!’ the swineherd replied.</p>
+          <p rend="firstIndent" xml:id="p_00032">‘He really is naughty!’ the princess said, and started to walk away – but when she had gone a little way, the bells started to tinkle so delightfully:</p>
+          <lg xml:id="p_00033">
+               <l><hi rend="italic">‘Ach, du lieber Augustin</hi></l>
+               <l><hi rend="italic">Everything’s gone, gone, gone!’</hi></l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00034">‘Listen,’ the princess said, ‘ask him if he’ll accept ten kisses from my ladies-in-waiting!’</p>
+          <p rend="firstIndent" xml:id="p_00035">‘Oh no!’ the swineherd said, ‘ten kisses from the princess, or I keep the pot.’</p>
+          <p rend="firstIndent" xml:id="p_00036">‘How tiresome!’ the princess said, ‘but then you must stand in front of me, so that nobody sees anything!’</p>
+          <p rend="firstIndent" xml:id="p_00037">And the ladies-in-waiting stood in front of her, and spread their skirts out wide, and then the swineherd got his ten kisses and she got the cooking pot.</p>
+          <p rend="firstIndent" xml:id="p_00038">Well, now the fun started! all evening and all day long the pot had to cook, there wasn’t a chimney in the town that didn’t tell them what was being prepared there, at the chamberlain’s and at the cobbler’s. The ladies-in-waiting danced and clapped their hands.</p>
+          <p rend="firstIndent" xml:id="p_00039">‘We know who’s going to have sweet soup and pancakes! We know who’s going to have porridge and cutlets! How interesting!’</p>
+          <p rend="firstIndent" xml:id="p_00040">‘Yes, but keep it quiet, for I’m the emperor’s daughter!’</p>
+          <p rend="firstIndent" xml:id="p_00041">‘God forbid!’ they all said.</p>
+          <p rend="firstIndent" xml:id="p_00042">The swineherd – the prince, that is, but they only thought that he was a real swineherd – didn’t let the next day pass without making something else, this time it was a musical rattle – when you swung it round, all the waltzes and dance tunes since the world began came out of it.</p>
+          <p rend="firstIndent" xml:id="p_00043">‘But it’s quite <hi rend="italic">superbe</hi>!’ the princess said, as she passed by, ‘I’ve never heard a more delightful composition! Listen! go in and ask him what that instrument costs: but I’m not giving any more kisses!’</p>
+          <p rend="firstIndent" xml:id="p_00044">‘He wants to have a hundred kisses from the princess!’ the lady-in-waiting said when she’d been in and asked.</p>
+          <p rend="firstIndent" xml:id="p_00045">‘I think he is mad!’ the princess said, and started to walk away; but when she had gone a little way, she stopped.</p>
+          <p rend="firstIndent" xml:id="p_00046">‘One must encourage the arts!’ she said. ‘I am the emperor’s daughter! Tell him, he can have ten kisses like yesterday – the rest he can have from my ladies-in-waiting!’</p>
+          <p rend="firstIndent" xml:id="p_00047">‘Yes, but we’re not at all keen on that!’ the ladies-in-waiting said.</p>
+          <p rend="firstIndent" xml:id="p_00048">‘Nonsense!’ the princess said, ‘and if I can kiss him, so can you! Remember, I’m the one who pays you and gives you board and lodging!’ and so the lady-in-waiting had to go back in once more.</p>
+          <p rend="firstIndent" xml:id="p_00049">‘A hundred kisses from the princess,’ he said, ‘or there’s nothing doing.’</p>
+          <p rend="firstIndent" xml:id="p_00050">‘Stand in front of me!!!’ she said, and all the ladies-in-waiting stood round her and the kissing started.</p>
+          <p rend="firstIndent" xml:id="p_00051">‘I wonder what all that commotion is down there at the pigsty!’ the emperor said when he had come out onto the balcony; he rubbed his eyes and put on his spectacles. ‘It seems that the ladies-in-waiting are involved! I must go down to them!’ – and he pulled up the heels of his slippers, for he had trodden them down.</p>
+          <p rend="firstIndent" xml:id="p_00052">Goodness gracious! How he hurried!</p>
+          <p rend="firstIndent" xml:id="p_00053">As soon as he got down to the courtyard, he started to move quite slowly, and the ladies-in-waiting were so busy counting the kisses to make sure that it was properly done that they didn’t notice the emperor at all. He stood up on tiptoe.</p>
+          <p rend="firstIndent" xml:id="p_00054">‘What’s all this?!’ he said, when he saw that they were kissing, and he beat them over the head with his slipper, just as the swineherd got his eighty-sixth kiss. ‘<hi rend="italic">Heraus</hi>!’ the emperor said, for he was angry, and both the princess and swineherd were banished from his empire.</p>
+          <img src="0020_HCA-1982-345-0025.jpg" ref="p_00055" title="Illustrator: Louis Moe. 1925. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00055">There she now stood in tears, the swineherd scolded her, and the rain poured down.</p>
+          <p rend="firstIndent" xml:id="p_00056">‘Oh, how wretched I now am!’ the princess said, ‘if only I had taken that handsome prince! Oh, how miserable I am!’</p>
+          <p rend="firstIndent" xml:id="p_00057">And the swineherd went behind a tree, wiped all the black and brown off his face, threw away the horrid clothes and reappeared in his princely costume, so handsome that the princess couldn’t help curtseying.</p>
+          <p rend="firstIndent" xml:id="p_00058">‘I have come to despise you, you know!’ he said. ‘You didn’t want to have an honest prince! You didn’t understand anything about the rose and the nightingale, but you were quite prepared to kiss the swineherd for a toy bird that could sing! Farewell and goodbye to you!’ – And he went back to his kingdom and shut the door on her, so now she could certainly sing:</p>
+          <lg xml:id="p_00059">
+               <l><hi rend="italic">‘Ach, du lieber Augustin,</hi></l>
+               <l><hi rend="italic">Everything’s gone, gone, gone!’</hi></l>
+          </lg>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

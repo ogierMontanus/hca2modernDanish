@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Pengegrisen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1855</hi>, der udkom i december 1854.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1855</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Pengegrisen" xml:id="pengegrisen">
+<head type="main">Pengegrisen</head>
+
+<p rend="noIndent" xml:id="p_00455">Der var så meget Legetøj i Børnenes Stue, og øverst på Skabet stod Sparebøssen; den var af Lertøj i Skikkelse af en Gris; den havde naturlig Sprække i Ryggen, og Sprækken var med en Kniv gjort større, at der også kunde gå Sølvdalere ind, og der var gået to foruden mange andre Skillinger. Pengegrisen var så proppet, at han ikke længere kunde rasle, og det er det Højeste, en Pengegris kan bringe det til. Der stod han nu øverst på Hylden og så ned på Alt i Stuen, han vidste nok, at med hvad han havde i Maven, kunde han købe det Hele, og det er at have en god Bevidsthed!</p>
+
+<p rend="firstIndent" xml:id="p_00456">Det tænkte de Andre også på, om de ikke sagde det; der var Andet at tale om. Commodeskuffen stod på klem; der rejste sig en stor Dukke, noget gammel var hun, og <seg><!--DATA-TERM: klinke(t)--><anchor target="txtcmnt-114-01"/><!--reparere ituslået porcelæn med metalkramper.-->klinket</seg> i Halsen, hun så ud og sagde: »Skal vi lege Mennesker? Det er jo altid Noget!« Og så blev der et Røre! Selv <seg><!--DATA-TERM: Skilderierne--><anchor target="txtcmnt-114-02"/><!--malerierne.-->Skilderierne</seg> vendte sig på Væggen; de viste, at de også havde Bagside, men det var ikke for at sige imod.</p>
+
+<p rend="firstIndent" xml:id="p_00457">Det var midt om Natten; Månen skinnede ind af Vinduet og gav <seg><!--DATA-TERM: fri Belysning--><anchor target="txtcmnt-114-03"/><!--når kalenderen viste fuldmåne, blev gadelygterne ikke tændt uanset vejret, den såkaldte magistratsbelysning.-->fri Belysning</seg>. Nu skulde Legen begynde, og Alle var indbudne, selv Barnevognen, der dog hørte til det grovere Legetøj. »Enhver er god for sig!« sagde den; »man kan ikke Alle være af Adel!«</p>
+
+<p rend="firstIndent" xml:id="p_00458">Pengegrisen var den Eneste, som fik Indbydelsen skriftligt; han stod for højt, til at han, troede de, kunde høre den mundtligt, og han gav heller ikke Svar, om han kom, for han kom ikke! Skulde han med, måtte han nyde det hjemme fra; det kunde de rette sig efter, og det gjorde de.</p>
+
+<p rend="firstIndent" xml:id="p_00459">Det lille Dukketheater blev straks stillet således, at han kunde se lige ind i det. De vilde begynde med Comedie, og så skulde der være The og <seg><!--DATA-TERM: Forstandsøvelse--><anchor target="txtcmnt-114-04"/><!--selskabsleg, der også anvendtes i undervisningen af småbørn. Eleven skulle eftergøre, hvad læreren udførte, og læreren brugte ting og billeder som anskuelsesmidler. Man bestræbte sig på at bruge materiale kendt fra elevens egen erfaringsverden.-->Forstandsøvelse</seg>, og med den begyndte de straks. Gyngehesten talte om Training og Fuldblod, Barnevognen om Jernbaner og Dampkraft; det var jo Noget, de forstod sig på, og de kunde tale om. Stueuret talte Politik – tik – tik! det vidste, hvad Klokken var slået, men man sagde, <pb n="115"/>at det gik ikke rigtigt. – Spanskrøret stod og var stolt af sin Dupsko og sin Sølvknap; han var jo <seg><!--DATA-TERM: beslaaet--><anchor target="txtcmnt-115-01"/><!--ordspil på betydningen: velhavende.-->beslaaet</seg> foroven og forneden; i Sophaen lå to broderede Puder; de var nydelige og dumme – – og så kunde Comedien begynde.</p>
+
+<p rend="firstIndent" xml:id="p_00460">Alle sad de og så til, og man havde bedet om, at man vilde smælde, knalde og rumle, ligesom man var fornøjet til. Men Ridepisken sagde, at han aldrig smældede for de Gamle, men kun for de Uforlovede. »Jeg knalder for Alt!« sagde Knaldperlen. »Et Sted skal man jo være!« mente <seg><!--DATA-TERM: Spyttebakken--><anchor target="txtcmnt-115-02"/><!--beholder med sand eller desinficerende væske til at spytte i.-->Spyttebakken</seg>; det var nu sådan Enhvers Tanke ved at være på Comedie der.</p>
+
+<p rend="firstIndent" xml:id="p_00461">Stykket duede ikke, men det blev godt spillet, og alle de Spillende vendte naturligvis den malede Side udad; de var kun til at se på én Led, ikke på Vrangen. Alle spillede udmærket, helt forud af Theatret; Tråden var for lang i dem, men så blev de mere mærkbare! den klinkede Dukke blev løs i Klinken ved det og Pengegrisen blev så betaget, at han besluttede at gøre Noget for Een af dem, sætte ham i sit Testament, som den, der skulde ligge i <seg><!--DATA-TERM: aaben Begravelse--><anchor target="txtcmnt-115-03"/><!--gravkapel, hvor kisterne står fremme.-->åben Begravelse</seg> med ham, når den Tid kom.</p>
+
+<p rend="firstIndent" xml:id="p_00462">Det var en sand Nydelse, så at man opgav Thevandet og blev ved Forstandsøvelsen. Det kaldte de at lege Mennesker, og der var ingen Ondskab deri, for de legede kun; og hver tænkte på sig og på hvad Pengegrisen tænkte, og Pengegrisen tænkte længst, han tænkte jo på Testament og Begravelse – – og <seg><!--DATA-TERM: naar kom det--><anchor target="txtcmnt-115-04"/><!--hvornår kom det.-->når kom det</seg> istand –! Altid før man venter det. – Knak! der lå han fra Skabet, lå på Gulvet, i Stumper og Stykker; men Skillingerne dansede og sprang, de mindste snurrede, de store rullede, især den ene Sølvdaler; han vilde ordentlig ud i Verden, og det kom han og det kom de Allesammen; og Skårene af Pengegrisen kom i <seg><!--DATA-TERM: Bøtten--><anchor target="txtcmnt-115-05"/><!--skraldebøtten.-->Bøtten</seg>. – –</p>
+
+<p rend="firstIndent" xml:id="p_00463">Men på Skabet selv stod igen næste Dag en ny Pengegris af Lertøj; der var endnu ikke en Skilling i ham, derfor kunde han heller ikke rasle, og deri lignede han den anden; det var altid en Begyndelse, – og med den vil vi ende!</p>
+
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Pengegrisen" xml:id="pengegrisen">
+<head type="section-comments">Pengegrisen</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1855</hi>, der udkom i december 1854.</p>
+<p rend="noIndent">BFN 668/II,323-326/VII,170.</p>
+
+<table rend="textcomments">
+<cell type="page">114</cell><row xml:id="txtcmnt-114-01"><cell type="data-term">klinke(t)</cell><cell type="data-definition">reparere ituslået porcelæn med metalkramper.</cell></row><row xml:id="txtcmnt-114-02"><cell type="data-term">Skilderierne</cell><cell type="data-definition">malerierne.</cell></row><row xml:id="txtcmnt-114-03"><cell type="data-term">fri Belysning</cell><cell type="data-definition">når kalenderen viste fuldmåne, blev gadelygterne ikke tændt uanset vej<pb n="476"/>ret, den såkaldte magistratsbelysning.</cell></row><row xml:id="txtcmnt-114-04"><cell type="data-term">Forstandsøvelse</cell><cell type="data-definition">selskabsleg, der også anvendtes i undervisningen af småbørn. Eleven skulle eftergøre, hvad læreren udførte, og læreren brugte ting og billeder som anskuelsesmidler. Man bestræbte sig på at bruge materiale kendt fra elevens egen erfaringsverden.</cell></row>
+<cell type="page">115</cell><row xml:id="txtcmnt-115-01"><cell type="data-term">beslaaet</cell><cell type="data-definition">ordspil på betydningen: velhavende.</cell></row><row xml:id="txtcmnt-115-02"><cell type="data-term">Spyttebakken</cell><cell type="data-definition">beholder med sand eller desinficerende væske til at spytte i.</cell></row><row xml:id="txtcmnt-115-03"><cell type="data-term">åben Begravelse</cell><cell type="data-definition">gravkapel, hvor kisterne står fremme.</cell></row><row xml:id="txtcmnt-115-04"><cell type="data-term">når kom det</cell><cell type="data-definition">hvornår kom det.</cell></row><row xml:id="txtcmnt-115-05"><cell type="data-term">Bøtten</cell><cell type="data-definition">skraldebøtten.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

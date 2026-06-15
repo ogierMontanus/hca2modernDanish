@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Børnesnak</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Tredie Samling, som udkom den 24. marts 1859.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="boernesnak"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1859</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="børnesnak">
+<head type="main">Børnesnak</head>
+
+<p rend="noIndent" xml:id="p_00001">Inde hos grossererens var stort børneselskab, rige folks børn og fornemme folks børn. Grossereren <seg><!--DATA-TERM: stod--><anchor target="txtcmnt-278-01"/><!--klarede.-->stod</seg> sig godt, var en mand med lærdom. Han havde engang taget studentereksamen, det blev han holdt til af sin skikkelige far, der fra først af kun var <seg><!--DATA-TERM: Studepranger--><anchor target="txtcmnt-278-02"/><!--studehandler.-->studepranger</seg>, men ærlig og driftig. Det havde givet penge, dem grossereren siden fik til at vokse. Forstand havde han og hjerte med, men om det blev der mindre talt end om hans mange penge.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Der gik ud og ind hos ham fornemme folk, både dem af blod, som de kalder det, og dem af ånd, som de kalder det, dem af begge dele og dem af ingen af delene. Der var nu børneselskab, børnetale, og børn taler rent ud af posen. Der var en yndig lille pige, men så gruelig stolt. Det havde tjenestefolkene kysset i hende, ikke forældrene, dertil var de alt for fornuftige. Hendes far var kammerjunker, og det er forfærdeligt meget, vidste hun.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Jeg er et kammerbarn!« sagde hun. Hun kunne nu også have været et kælderbarn, lige meget kan man selv gøre for det. Og så fortalte hun de andre børn at hun var »født!« og sagde at når man ikke var født, så kunne man ikke blive til. Det hjalp ikke at læse, at være nok så flittig, når man ikke var født, så kunne man ikke blive til.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Og dem hvis navn ender på <hi rend="italic">-sen</hi>,« sagde hun, »dem kan der nu aldrig i verden blive noget af! Man skal sætte sine arme i siden og holde dem langt borte fra sig, disse <hi rend="italic">-sen</hi>! <hi rend="italic">-sen</hi>!« og så satte hun sine små, nydelige arme i siden med albuen spids for at vise hvorledes man skulle bære sig ad. Og de små arme var så nydelige. Sød var hun.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Men grossererens lille datter blev så vred; hendes far hed Madsen, og det navn vidste hun ender på »<hi rend="italic">-sen</hi>!« og så sagde hun lige så stolt hun kunne:</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Men min far kan købe for hundrede rigsdaler <seg><!--DATA-TERM: Brystsukker--><anchor target="txtcmnt-278-04"/><!--bolsjer.-->brystsukker</seg> og <seg><!--DATA-TERM: kaste i Grams--><anchor target="txtcmnt-278-05"/><!--kaste noget ud til flere, så de må kappes om det.-->kaste i grams</seg>! Kan din far det?«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Ja, men min far,« sagde en skribents lille datter, »kan <pb n="279"/>sætte både din far og din far og alle »fadere« i avisen! Alle mennesker er bange for ham, siger mor, for det er min far der regerer i avisen!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Og den lille pige knejsede derved ligesom om hun kunne være en virkelig prinsesse der skal knejse.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Men uden for den halvåbne dør stod og kiggede ind ad sprækken en fattig dreng. Den lille kunne ikke engang komme med ind i stuen, så ringe var han. Spiddet havde han drejet for kokkepigen og nu fået lov at se bag døren ind til de stadselige børn som fornøjede sig, og det var grumme meget for ham.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Hvem der dog var en af dem!« tænkte han, og så hørte han hvad der blev sagt, det var rigtignok til at blive meget mismodig over. Ikke en skilling havde forældrene hjemme at lægge på kistebunden, og ikke havde de råd til at holde en avis, endsige at skrive den, og så kom nu det allerværste til, hans fars navn, og altså også hans navn, endte aldeles på »<hi rend="italic">sen</hi>«! Ham kunne der da aldrig i verden blive noget af. Det var så sørgeligt! Dog født var han, syntes han, rigtig født, det var ikke muligt andet.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Se, det var den aften.</p>
+
+<graphic type="blank"/>
+
+
+<p rend="noIndent" xml:id="p_00012">Nu gik der hen mange år, og i dem bliver børn til voksne mennesker.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Der stod i byen et prægtigt hus. Det var fuldt af herligheder, alle folk ville se det, selv folk uden for byen kom ind for at se det. Hvem monstro af de børn vi har fortalt om, kunne kalde det hus sit? Ja, det er da let at vide! Nej, det er ikke så let endda. Det hus var den lille fattige drengs; ham blev der dog noget af, skønt hans navn endte på »<hi rend="italic">sen</hi>« – – Thorvaldsen.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og de tre andre børn? – <hi rend="italic">Blodets</hi>, <hi rend="italic">pengenes</hi> og <hi rend="italic">åndshovmodets</hi> børn, ja, den ene har ikke at lade den anden noget høre, de er lige børn – der blev af dem alt godt og velsignet, der var en god grund i dem. Hvad de dengang havde tænkt og talt, var kun – <hi rend="italic">børnesnak</hi>.</p>
+
+<pb n="280"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="børnesnak">
+<head type="section-comments">Børnesnak</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Tredie Samling, som udkom den 24. marts 1859.</p>
+<p rend="noIndent">BFN 787/III,137-139/VII,204-205.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">278,26</cell><cell type="deviation">-sen! -sen!« &lt; »-sen! -sen!«</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">278</cell><row xml:id="txtcmnt-278-01"><cell type="data-term">stod</cell><cell type="data-definition">klarede.</cell></row><row xml:id="txtcmnt-278-02"><cell type="data-term">Studepranger</cell><cell type="data-definition">studehandler.</cell></row><row xml:id="txtcmnt-278-03"><cell type="data-term">født</cell><cell type="data-definition">adelig.</cell></row><row xml:id="txtcmnt-278-04"><cell type="data-term">Brystsukker</cell><cell type="data-definition">bolsjer.</cell></row><row xml:id="txtcmnt-278-05"><cell type="data-term">kaste i Grams</cell><cell type="data-definition">kaste noget ud til flere, så de må kappes om det.</cell></row>
+<cell type="page">279</cell><row xml:id="txtcmnt-279-01"><cell type="data-term">Thorvaldsen</cell><cell type="data-definition">billedhuggeren Bertel Thorvaldsen (1770-1844).</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>On the Last Day</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="paa-den-yderste-dag">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="paa-den-yderste-dag_modern.xml">moderniseret version</note>
+                                                       <note target="105_On-the-Last-Day.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The most sacred day among all of life’s days is the one on which we die; it is o...</incipit><idno type="image">Paa_den_yderste_Dag_01_2022-03-09.png</idno><popularity>946</popularity><cite>&lt;p&gt;Hans Christian Andersen: On the Last Day. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-12" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-12" who="NHB">formatted</change><change who="NHB" when="2022-11-02">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body><div rend="On the Last Day">
+             <head type="main" rend="On the Last Day">On the Last Day</head>                <p rend="noIndent" xml:id="p_00001">The most sacred day among all of life’s days is the one on which we die; it is our last day, the sacred great day of transformation. Have you given proper, serious thought to this paramount, certain, final hour here on earth?</p>
+          <p rend="firstIndent" xml:id="p_00002">There was a man, a strict believer, as he was called, a champion of God’s Word, which to him was Law, a jealous servant of a jealous God. – Death was now standing at his bedside, Death with its stern, heavenly countenance.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Your hour has come, you are to follow me!’ Death said and touched the feet of the man with his icy-cold finger, and they felt like ice, Death touched his forehead and then his heart, which caused it to break, and his soul then followed the Angel of Death.</p>
+          <p rend="firstIndent" xml:id="p_00004">But a few seconds before this, between the initiation from foot to forehead and heart, everything that life had brought and given rise to passed before the dying man like the great, heavy waves of some ocean. So, at a single gaze does one look down into the dizzying abyss, and so, in a flash of thought, does one, comprehend the enormous way; so, at one gaze, does one grasp the countless teeming stars as a totality, recognise planets and worlds in the vastness of space.</p>
+          <p rend="firstIndent" xml:id="p_00005">At such a moment, the terrified sinner shudders and has nothing against which he can lean, it is as if he sank down into a never-ending void! – But the devout man leans his head against God Almighty and, like the child, surrenders himself in a ‘Thy will be done with me!’</p>
+          <p rend="firstIndent" xml:id="p_00006">This dying man, however, did not have the mind of a child, he felt himself a man; he did not shudder, as does the sinner, he knew that he was a true believer. He had adhered to all the forms of religion in all their strictness; millions, he knew, would have to take the broad path to damnation; with sword and with fire he could have destroyed their bodies here, as their souls already were and would always remain –! his path was the strait and narrow one to heaven, where Mercy would open the gate, Mercy, the promised one.</p>
+          <p rend="firstIndent" xml:id="p_00007">And his soul went with the Angel of Death, though one last time it looked over to the bed where his mortal husk lay in its shroud, a foreign imprint of its Self. – And they flew, and they walked – it was as if they were in some huge hall and yet in a forest; nature had been cut back, spread out, bound up and placed in rows, made artificial, as in the old French gardens – this was a masquerade.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘This is human life!’ the Angel of Death said.</p>
+          <p rend="firstIndent" xml:id="p_00009">All the figures appeared to be more or less disguised; it was not precisely the noblest or most powerful, all those who wore velvet and gold, it was not the lowest or most humble, all those who wore the garb of poor people. – It was a strange masquerade, and in particular it was most odd to see how all of them sought carefully to conceal something from each other under their clothing; but they tore at each other, so that this might become visible, and then one saw the head of a beast sticking out; one had that of a grinning ape, the next that of an ugly billy-goat, a clammy snake or a lustreless fish.</p>
+          <p rend="firstIndent" xml:id="p_00010">It was the beast all of us bear within us, the beast that is deep-rooted in man, and it jumped and it leapt and sought to get out, and everyone held their clothes tightly around them, but the others tore the clothes aside and cried out: ‘See! Look! It’s him! it’s her’ and the one laid bare the wretchedness of the other.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘And what was the beast in me?’ the travelling soul asked; and the Angel of Death pointed ahead of him at a proud figure, and round its head a many-coloured halo with gleaming colours could be seen, but close to the man’s heart the beast’s feet were hidden, the feet of a peacock; the halo was merely the many-coloured tail of the bird.</p>
+          <p rend="firstIndent" xml:id="p_00012">And as they continued their journey, large bird screamed horribly from the branches of the trees; with audibly human voices they screamed: ‘You Death-Wanderer, do you remember me!’ – it was all the evil thoughts and desires from the days of his life that were calling out to him: ‘do you remember me!’ –</p>
+          <p rend="firstIndent" xml:id="p_00013">And his soul shuddered for a moment, for it recognised the voices, the evil thoughts and desires that were now appearing as witnesses.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘In our flesh, in our evil nature, no good resides!’ the soul said, ‘but my thoughts did not become deeds, the world has not seen their evil fruit!’ and he hurried on even more than before, so as to get away from the horrible screams, but the large black birds circled above him and went on screaming and screaming, as if to be heard all over the world; and he leapt like the hunted hind, and at every step his feet struck sharp flintstones, and they cut his feet, causing him pain. ‘Where have these sharp stones come from? They lie like withered leaves over the earth!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘They are every careless word you let fall, and that wounded the heart of your neighbour far more than the stones now hurt your feet!’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘That I never considered!’ the soul said.	</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Judge not, that Ye be not judged!’ rang out through the air.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘All of us have sinned!’ the soul said and raised himself once more. ‘I have adhered to the Law and the Gospel, I have done what I could, I am not like the others!’</p>
+          <p rend="firstIndent" xml:id="p_00019">And now they were standing at Heaven’s Gate, and the angel, the guardian of the entrance, asked: ‘Who are you? Speak your faith and show me your deeds!’</p>
+          <p rend="firstIndent" xml:id="p_00020">‘I have strictly observed all the Commandments! I have humbled myself in the eyes of the world, I have hated and pursued evil and those who are evil, those who take the broad path to eternal damnation, and I will still do so, with fire and sword, to the extent I am able!’</p>
+          <p rend="firstIndent" xml:id="p_00021">‘You are, then, one of followers of Mohammed!’ the angel said.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘I! – Never!’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘“Those who live by the sword shall die by the sword,” says the Son of Man! his faith you do not have. Are you perhaps a son of Israel, who along with Moses says: “An eye for an eye, and a tooth for a tooth!” a son of Israel whose jealous God is only the God of your people!’</p>
+          <p rend="firstIndent" xml:id="p_00024">‘I am a Christian!’</p>
+          <p rend="firstIndent" xml:id="p_00025">‘I do not recognise this from your faith and your deeds. The teaching of Christ is forgiveness, love and mercy!’</p>
+          <p rend="firstIndent" xml:id="p_00026">‘Mercy!’ it sounded throughout the endless realms of space, and Heaven’s Gate opened, and the soul floated towards the open glory.</p>
+          <p rend="firstIndent" xml:id="p_00027">But the light which streamed out was so blinding, so penetrating, that the soul recoiled, as if from a drawn sword; and the music sounded so softly and stirringly that no human tongue can express is, and the soul trembled and bowed down ever more deeply, but the divine brightness penetrated it, and then it felt and sensed what it had never felt before, the burden of its arrogance, its hardness and sin. – It all became so clear within it.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘Whatever I did of good in the world, I did because I could do no other, but the evil – that was of myself alone!’</p>
+          <p rend="firstIndent" xml:id="p_00029">And the soul felt itself blinded by the pure divine light, it sank down, helplessly, it seemed to be deeply rolled up into itself; weighed down, unready for the Kingdom of Heaven, and, recalling the strict, just God, it did not dare to utter: ‘<hi rend="italic">Mercy</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00030">– And, <hi rend="italic">suddenly</hi>, <hi rend="italic">Mercy</hi> was there, the unexpected mercy. –</p>
+          <p rend="firstIndent" xml:id="p_00031">God’s heaven filled the infinity of space, God’s love pervaded it in inexhaustible fulness.</p>
+          <p rend="firstIndent" xml:id="p_00032">‘Holy, glorious, loving and eternal may you be, oh human soul!’ it sounded and resounded. And all, all of us, on the last day of our earthly life, shall, like the soul here, tremble in fear at the glory and magnificence of the Heavenly Kingdom, bow down deep, sink in humility and yet be borne upwards by his love, his mercy, floating in new orbits, purified, nobler and better, drawing closer and closer to the glory of the light, and strengthened by Him be able to ascend into eternal brightness.</p>
+        </div>
+               
+        </body>
+                         </text>
+                    </TEI>

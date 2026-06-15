@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tunge Timer</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="tunge-timer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Vor Tid skriver nu paa sin Viisdoms Bog</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01114</section>
+                                                                 <date>1874</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1874</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Tunge Timer" xml:id="tunge-timer"><pb n="449"/><head type="part">Tunge Timer</head>
+<lg xml:id="p_01115">
+<l rend="noIndent" subtype="firstline" corresp="Vor Tid skriver nu paa sin Viisdoms Bog" rendition="vor-tid-skriver-nu-paa-sin-viisdoms-bog">Vor Tid skriver nu paa sin Viisdoms Bog,</l>
+<l rend="noIndent">Er det til Godt eller til det Værre?</l>
+<l rend="noIndent">Det er forfærdeligt at blive saa klog</l>
+<l rend="noIndent">At man ikke troer paa Vorherre!</l>
+</lg>
+<lg xml:id="p_01116">
+<l rend="noIndent">O det var bedre for Hver og Een,</l>
+<l rend="noIndent">Der <seg target="txtcmnt-449-01" type="dfnStart"/><!--DATA-TERM: forarger … Havet--><!--DATA-DEFINITION: jf. Matthæus 18,6, og Markus 9,42.-->forarger hver fattig Begavet,</l>
+<l rend="noIndent">At om hans Hals hang en Møllesten,</l>
+<l rend="noIndent">Og han laa dybest i Havet<seg type="dfnEnd" target="txtcmnt-449-01"/>.</l>
+</lg>
+<lg xml:id="p_01117">
+<l rend="noIndent">Nu alle Overmaals Kloge veed,</l>
+<l rend="noIndent">Gud skabtes ved Menneskets Snille.</l>
+<l rend="noIndent">Og Mennesket er »Ufeilbarlighed«,</l>
+<l rend="noIndent">Et Grundstof er Livets Kilde.</l>
+</lg>
+<lg xml:id="p_01118">
+<l rend="noIndent">Alt hvad vi stræbte og leved’ og led</l>
+<l rend="noIndent">Udslukkes med Livets Flamme.</l>
+<l rend="noIndent">I et bundløst Intet synke vi ned,</l>
+<l rend="noIndent">Ondt og Godt er Et og det Samme.</l>
+</lg>
+<lg xml:id="p_01119">
+<l rend="noIndent">O evige Gud, bliv hos os! Bliv!</l>
+<l rend="noIndent">I Dig og ved Dig Alt er givet.</l>
+<l rend="noIndent">Forund os i Naade »det evige Liv«</l>
+<l rend="noIndent">Og Erindring om Jordelivet!</l>
+</lg>
+<pb n="450"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Tunge Timer" synch="tunge-timer">
+<head type="section-comments">Tunge Timer</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Illustreret Tidende</hi>, nr. 820, 13. juni 1875. BFN 1053</p>
+<table rend="textcomments">
+<cell type="page">449</cell><cell><row xml:id="txtcmnt-449-01"><cell type="data-term">forarger … Havet</cell><cell type="data-definition">jf. Matthæus 18,6, og Markus 9,42.</cell></row></cell>
+</table>
+<pb n="632"/><p rend="noIndent">Udaterede lejlighedstryk</p></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

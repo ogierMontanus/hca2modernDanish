@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>`In the Uttermost Parts of the Sea´</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="ved-det-yderste-hav">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="ved-det-yderste-hav_modern.xml">moderniseret version</note>
+                                                       <note target="117_In-the-Uttermost-Parts-of-the-Sea.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A couple of large vessels were sent way up towards the North Pole to find the bo...</incipit><idno type="image">Ved_det_yderste_Hav_forside1.png</idno><popularity>908</popularity><cite>&lt;p&gt;Hans Christian Andersen: `In the Uttermost Parts of the Sea´. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>steder</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">adjusted contents, especially quotation marks</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="`In the Uttermost Parts of the Sea´ (A Picture)">
+          <head type="main" rend="`In the Uttermost Parts of the Sea´">`In the Uttermost Parts of the Sea´</head>                <head type="part" rend="(A Picture)">(A Picture)</head>                <p rend="noIndent" xml:id="p_00001">A couple of large vessels were sent way up towards the North Pole to find the boundaries of land and sea and to test the extent to which humans could penetrate them. They had already made their way up there through fog and ice for days and years and experienced great difficulties; now winter had begun, the sun had set, for many, many weeks there would be but one long night here; everything around them was just a single expanse of ice; each ship was solidly moored to it; the snow lay high, and bee-hive-shaped houses had risen out of the snow itself, some large, like our great barrows, others not large enough to accommodate more than two or four men; but it was not dark, the Northern Lights shone red and blue, it was a never-ending, great firework display and the snow gleamed, the night here was one long, glimmering twilight; when the weather was clearest hosts of indigenous people came, a strange sight in their thick-piled furs, and on their sledges, which were fashioned out of pieces of ice; they brought great heaps of hides and from these the igloos got their warm carpets; skins became rugs and duvets that the sailors made beds out of under the snow dome, while outside there was a sparkling frost unlike anything we know even when winter is at its most severe. Back home it was still autumn, they thought of that up there; they remembered the sun’s rays in the home and the reddish-yellow leaves hanging on the trees. Their watches indicated that it was evening and time to go to bed, and in one of the igloos two men had already lain down to rest; the younger of these had with him his best, richest treasure from home, that which his grandmother had given him prior to his departure, it was the Bible Every night it lay under his bedhead, from his childhood years he knew what was written in it; every day he read a passage, and on his bed he often found comfort when thinking of the holy words: <hi rend="italic">‘If I take the wings of the morning, and dwell in the uttermost parts of the sea; even there shall thy hand lead me, and thy right hand shall hold me!’</hi></p>
+          <p rend="firstIndent" xml:id="p_00002">And with the words and belief of truth he closed his eyes, sleep came and dreams came, the revelation of the spirit in God; the soul was alive while the body rested; he sensed it, it was like the melodies of old, dear, well-known songs; it breathed so gently, with the warmth of summer, and from his bed he saw it shining above him, as if the igloo was being irradiated from the outside; he lifted his head, the glittering white was neither walls nor ceiling, it was the great wings from an angel’s shoulders, and he gazed up into his mild, gleaming face. Out of the leaves of the Bible, as from the calyx of a lily, the angel rose up, spread his arms wide and the walls of the igloo sank around him, like an airy, light veil of mist – – the green fields and hills of his home with their russet woods lay around him in quiet sunlight on a lovely autumn day; the stork’s nest stood empty, but apples were still hanging on the wild apple tree though the leaves had fallen; the red rose hips gleamed and the starling sang in the small green cage above the cottage window, where his home of homes was; the starling sang as it had been taught and grandmother hung chickweed around the cage, as her grandson had always done; and the smith’s daughter, so young and so beautiful, stood by the well and drew up water, nodded to grandmother, and grandmother waved, showed her a letter from afar; this morning it had come from the cold lands, high up from the North Pole itself, where her grandson was – in God’s hand. – And they laughed and they cried, and he, under ice and snow, who in the world of the spirit, under the angel’s wings, saw and heard all of this, laughed with them and cried with them. And the letter was read out loud, also the words from the Bible: – <hi rend="italic">‘In the uttermost parts of the sea his right hand shall hold me!’</hi></p>
+          <p rend="firstIndent" xml:id="p_00003">Like the delightful singing of psalms it sounded round about him, and the angel let his wings, like a veil, cover the sleeper, – the dream was over – it was dark in the igloo, but the Bible lay under his head, faith and hope lay in his heart. God was with him and his home was with him – <hi rend="italic">‘in the uttermost parts of the sea!’</hi></p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

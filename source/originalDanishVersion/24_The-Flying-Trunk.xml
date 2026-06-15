@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Flying Trunk</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-flyvende-kuffert">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-flyvende-kuffert_modern.xml">moderniseret version</note>
+                                                       <note target="24_The-Flying-Trunk.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a merchant who was so rich that he could pave the whole street an...</incipit><idno type="image">Den_flyvende_Kuffert_2022-03-09.png</idno><popularity>960</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Flying Trunk. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>trylleeventyr</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Flying Trunk">
+          <head type="main" rend="The Flying Trunk">The Flying Trunk</head>                <p rend="noIndent" xml:id="p_00001">There was once a merchant who was so rich that he could pave the whole street and almost another small one as well with silver coins, but he didn’t do so: he had a different way of using his money, and if he spent a shilling he would get a florin in return; that was the sort of merchant he was – and then he died.</p>
+          <p rend="firstIndent" xml:id="p_00002">His son now got all this money, and he led a merry life, went to costume balls every night, made paper dragons out of pound notes and played ducks-and-drakes across the lake with gold coins instead of a flat stone, and off the money could fly, and it did – finally, all he had left was four shillings, and all he had left to wear was a pair of slippers and an old dressing gown. Now his friends were no longer interested in him, since they couldn’t be seen on the street together any more, but one of them, who was kind, sent him an old trunk and said: ‘Start packing!’ well, that was all very well, but he didn’t have anything to pack, so he took a seat in the trunk himself.</p>
+          <p rend="firstIndent" xml:id="p_00003">It was a queer trunk. As soon as one pressed the lock, the trunk could fly; and it did, in a trice it flew with him up the chimney, high up above the clouds, farther and farther away; the bottom creaked and he was scared that it would fall to pieces, for then he would have turned some quite impressive somersaults! God forbid! and then he came to the land of the Turks. He hid the trunk in the forest under some withered leaves and then went into the city – he was able to do that perfectly well, for among the Turks everyone wore dressing gowns and slippers. There he met a woman who was a nurse for a little child. ‘Tell me, Turkish nurse!’ he said, what is that large castle close to the city – its windows are so high up!’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘That is where the king’s daughter lives!’ she said, ‘it has been predicted that she will have a most unhappy love affair, so no one is allowed to come to her without the king and queen being there too!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘Thank you for telling me!’ the merchant’s son said, and he went back into the forest, sat down in his trunk, flew up onto the roof and crept through the window to the princess.</p>
+          <p rend="firstIndent" xml:id="p_00006">She was lying asleep on the sofa – she was so beautiful that the merchant’s son couldn’t help kissing her; she woke up and was very frightened, but he said he was the god of the Turks who had come down through the air to her, and she rather liked what she heard.</p>
+          <p rend="firstIndent" xml:id="p_00007">They then sat next to each other, and he told her stories about her eyes: They were the loveliest, dark lakes, and thoughts swam there like mermaids; and he told her about her forehead: It was a snow-capped mountain with the most magnificent halls and pictures, and he told her about the stork that comes with the sweet little babies.</p>
+          <p rend="firstIndent" xml:id="p_00008">Yes, they were the loveliest of stories! then he proposed to the princess, and she said yes at once!</p>
+          <p rend="firstIndent" xml:id="p_00009">‘But you must come here on Saturday,’ she said,’ then the king and queen are here with me to drink tea! they will be very proud that I am marrying the god of the Turks, but make sure you can tell a really fine fairy tale, for my parents are extremely fond of them – my mother likes one that is lofty and has a moral, and my father likes an amusing tale that makes one laugh!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes, the only bridal gift I will have with me will be a fairy tale!’ he said, and they parted, but the princess gave him a sabre that was ornamented with gold coins – and that he found particularly useful.</p>
+          <p rend="firstIndent" xml:id="p_00011">Now he flew off, bought himself a new dressing gown and sat in the forest making up a fairy tale – it had to be ready by Saturday, and that is no easy task.</p>
+          <p rend="firstIndent" xml:id="p_00012">Then he had it ready, and then came Saturday.</p>
+          <p rend="firstIndent" xml:id="p_00013">The king, the queen and the whole court were waiting with the princess to drink tea. He was extremely well received! ‘Now would you tell us a fairy tale!’ the queen said, ‘one that is profound and instructive!’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘But one that can make you laugh!’ the king said.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘I will indeed!’ he said and started to tell – and one must listen carefully.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘There was once a bundle of matchsticks, they were exceptionally proud of themselves for they were of high birth: their family tree, the tall pine tree they each were a tiny piece of, had been a great old tree in the forest. The matches now lay on the shelf between a tinderbox and an old iron pot, and they told these two about their youth. ‘Well, before we branched out we were sitting pretty!’ they said. ‘Every morning and evening there was diamond tea – that was the dew – all day long we had sunshine, when the sun shone, and all the small birds had to tell us stories. We couldn’t help noticing that we were rich as well, for the hardwood trees only wore clothes in the summer, but our family could afford green clothes both summer and winter. But then the woodcutters came – that was the great revolution – and our family was split up: the trunk became a main mast on a magnificent ship that could sail the seven seas, if it wanted to, and the other branches ended up elsewhere, and our job is to provide light for common folk, which is why we of noble ancestry have ended up here in the kitchen.’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Well, I have led a different sort of life!’ the iron pot that lay next to the matchsticks said. ‘Ever since I came into the world I’ve been scoured and have cooked many times! I take care of what’s substantial, so I am really number one in the house here. My only pleasure is, when the meal’s over, to lie nice and clean on the shelf and conduct a sensible conversation with my companions; but, with the exception of the water-bucket that occasionally comes down to the garden, we always live indoors. Our only source of news is the market-basket, but it talks so disturbingly about the government and the people; well, recently there was an old pot that fell down out of sheer fright and dashed itself to pieces, what’s more! it’s very liberal, let me tell you!’ –</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Now you’re talking too much!’ the tinderbox said, and the steel struck the flintstone so the sparks flew. ‘Wasn’t the idea to have a cheerful evening?’</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Yes, let’s talk about who is finest!’ the matchsticks said.</p>
+          <p rend="firstIndent" xml:id="p_00020">‘No, I don’t like talking about myself,’ the clay pot said, ‘let’s have some evening entertainment! I’ll start, I’ll tell you about something everyone has experienced that makes it so nice and easy to get the picture, and it is so enjoyable: “Down by the Baltic where the Danish beech trees grow!”’</p>
+          <p rend="firstIndent" xml:id="p_00021">‘That’s a lovely beginning!’ all the plates said, ‘it’s sure to be a story I like!’</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Yes, that’s where I spent my youth with a quiet family; the furniture was polished, the floor washed, and clean curtains were hung up every fortnight!’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘How interestingly you tell the story!’ the feather duster said. ‘One can immediately hear it is a woman who is telling the story – there’s a touch of cleanliness about the whole of it!’</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Yes, that’s the feeling one gets!’ the water-bucket said, and gave a little jump of joy, so some water sploshed onto the floor. And the pot went on telling, and the end of the story was just as good as the beginning.</p>
+          <p rend="firstIndent" xml:id="p_00025">All the plates rattled with pleasure, and the feather duster took some green parsley out of the sand-hole and garlanded the pot, for it knew that would annoy the others, and: ‘If I garland her today,’ he thought, ‘she will garland me tomorrow.’</p>
+          <p rend="firstIndent" xml:id="p_00026">‘Now I want to dance!’ the fire-tongs said, and did so; good heavens, how it could fling one of its legs into the air. The old chair cover in the corner split just by looking at it! ‘May I be garlanded now!’ the fire-tongs asked, and she was.</p>
+          <p rend="firstIndent" xml:id="p_00027">‘They are just riffraff!’ the matches thought to themselves.</p>
+          <p rend="firstIndent" xml:id="p_00028">Now the tea urn was to sing, but it had a cold, it said, it couldn’t unless it had come to the boil; but it was out of sheer snobbery – it refused to sing except when it stood on the table where the master and mistress sat.</p>
+          <p rend="firstIndent" xml:id="p_00029">Over in the window sat an old quill that the maid used to write with; there was nothing remarkable about it, except that it had dipped too deep into the ink-well, but that had made it all high and mighty. ‘If the tea urn won’t sing,’ it said, ‘it doesn’t have to! outside there’s a cage hanging with a nightingale in it, it can sing – it hasn’t learnt anything yet admittedly, but we don’t want to criticise it for that this evening!’</p>
+          <p rend="firstIndent" xml:id="p_00030">‘I find it highly inappropriate,’ said the tea-kettle, who was a lead-singer in the kitchen and half-sister of the tea urn, ‘that such an alien bird should be heard! Is that patriotic? I will let the market-basket pass judgment!’</p>
+          <p rend="firstIndent" xml:id="p_00031">‘I am simply vexed,’ the market-basket said, ‘I am as extremely vexed as anyone could imagine! Is this a proper way of spending an evening – wouldn’t it be more correct to tidy up the whole house? Then everything would be in its proper place, and I will keep tabs on the whole lot. That would be something different!’</p>
+          <p rend="firstIndent" xml:id="p_00032">‘Yes, let’s kick up a shindy!’ they all said. At that moment the door opened. It was the servant maid, and now they stood still, were as quiet as church mice; but there was not a single pot that didn’t know what it could do, and how fine it was; ‘Yes, if I’d had my way,’ they thought, ‘ it would really have been a merry evening!’</p>
+          <p rend="firstIndent" xml:id="p_00033">The servant-maid took the matches and struck them – goodness gracious, how they sputtered and flared.</p>
+          <p rend="firstIndent" xml:id="p_00034">‘Now everyone can see,’ they thought, ‘that we are the finest! what a gleam we have! what light!’ – and then they went out.”</p>
+          <p rend="firstIndent" xml:id="p_00035">‘That was a delightful fairy tale!’ the queen said, ‘I felt I was there myself in the kitchen with the matches, yes, now you shall have our daughter.’</p>
+          <p rend="firstIndent" xml:id="p_00036">‘Yes, indeed!’ the king said, ‘you shall have our daughter on Monday, my son!’ They called him ‘my son’ because he was going to be one of the family.</p>
+          <p rend="firstIndent" xml:id="p_00037">The wedding was now decided on, and the evening before the whole city was illuminated, buns and pastries flew in all directions; the street urchins stood on their toes, shouted hurrah and whistled through their fingers – it was simply marvellous.</p>
+          <p rend="firstIndent" xml:id="p_00038">‘Well, time for me to make my contribution!’ the merchant’s son thought, and so he bought rockets, toy percussion bombs and all conceivable kinds of fireworks, lay them in his trunk and flew with them high up into the sky.</p>
+          <p rend="firstIndent" xml:id="p_00039">Woosh, woosh – how it flashed and sparked!</p>
+          <p rend="firstIndent" xml:id="p_00040">All the Turks leapt in the air, so their slippers flew past their ears – they had never seen the sky lit up like this before. Now they really understood that it was the god of the Turks himself that was to have the princess.</p>
+          <p rend="firstIndent" xml:id="p_00041">As soon as the merchant’s son had come down into the forest once more, he thought: ‘I really must go into the city even so and hear what sort of an impression it all made!’ and it was fair enough he wanted to do so.</p>
+          <p rend="firstIndent" xml:id="p_00042">Oh, how eager people were to tell him about it! Every single one he asked had seen it in his or her own way, but all of them had found it most delightful.</p>
+          <p rend="firstIndent" xml:id="p_00043">‘I saw the god of the Turks himself,’ one of them said, ‘he had eyes like blazing stars and a beard like foaming waters!’</p>
+          <p rend="firstIndent" xml:id="p_00044">‘He flew in a cloak of fire,’ another one said. ‘The loveliest small angels peeped out of its folds!’</p>
+          <p rend="firstIndent" xml:id="p_00045">Yes, he heard the finest things – and the following day he was going to be wed.</p>
+          <p rend="firstIndent" xml:id="p_00046">He now went back into the forest to sit in his trunk – but where was it? The trunk had been destroyed by fire. A spark from the fireworks had not gone out, it had set the trunk alight and now it was nothing but ashes. He couldn’t fly any more, couldn’t get to his bride.</p>
+          <p rend="firstIndent" xml:id="p_00047">She stood all the next day up on the roof and waited for him – she is still waiting – but he travels all over the world telling fairy tales, though they are not as cheerful as the one he told about the matchsticks.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

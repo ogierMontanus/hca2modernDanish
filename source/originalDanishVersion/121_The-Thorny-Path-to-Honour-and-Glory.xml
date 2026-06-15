@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>‘The Thorny Path to Honour and Glory’</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="aerens-tornevei">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="aerens-tornevei_modern.xml">moderniseret version</note>
+                                                       <note target="121_The-Thorny-Path-to-Honour-and-Glory.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There is an old tale ‘The Thorny Path of a Gamekeeper, namely Bryde, who though ...</incipit><idno type="image">aerens-Tornevei_01_2022-03-14.png</idno><popularity>906</popularity><cite>&lt;p&gt;Hans Christian Andersen: ‘The Thorny Path to Honour and Glory’. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term><term>fortiden</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">added quotation marks</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="‘The Thorny Path to Honour and Glory’">
+               <head type="main" rend="‘The Thorny Path to Honour and Glory’">‘The Thorny Path to Honour and Glory’</head>                <p rend="noIndent" xml:id="p_00001">There is an old tale <hi rend="italic">‘The Thorny Path of a Gamekeeper, namely Bryde, who though he rose to honour and glory, only did so after much, long-lasting adversity and the hazards of life’</hi>. Many of us have surely heard it when we were children, perhaps read it later on in life and thought about our own personal and unnoticed thorny path and ‘much adversity’. Fairy tales and reality often lie so close to each other, but the fairy tale has its harmonious resolution here on earth, whereas reality usually shifts it beyond earthly life into time and eternity.</p>
+               <p rend="firstIndent" xml:id="p_00002">The history of the world is a <hi rend="italic">laterna magica</hi> that shows us in illuminated images – against the black background of our own age – how the benefactors of mankind, martyrs of ingenuity, tread the <hi rend="italic">thorny path to honour and glory</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00003">From all ages, from all countries these glittering images appear, each for but a moment, but even so a whole life, a lifespan with its battles and victories; let us take a look, here and there, at a few of those in the long line of martyrs that will only be completed when the earth comes to an end.</p>
+               <p rend="firstIndent" xml:id="p_00004">We see a filled amphitheatre, Aristophanes’ clouds send streams of mockery and mirth to the audience; from the stage one of Athens’ most remarkable men is ridiculed in mind and body, the man who shielded the people from the thirty tyrants: <hi rend="italic">Socrates</hi>, he who in the turmoil of battle rescued Alcibiades and Xenophon, he whose spirit vaulted over the gods of Antiquity; he himself is present here, he has stood up from among those in the audience and stepped forward, so that the laughing Athenians can see if he and the distorted representation on the stage resemble each other or not; there he stands erect in front of them, raised high above them all.</p>
+               <p rend="firstIndent" xml:id="p_00005">You juicy, green, poisonous hemlock and not the olive tree, may you here be the emblem of <hi rend="italic">Athens</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00006">Seven towns quarrelled about which of them was Homer’s birthplace, well, after he was dead! – just look him during his lifetime! – there he walks through these towns, reciting his verses in order to live; the thought of the morrow turns his hair grey; – he, the mightiest visionary, is blind and lonely; the sharp thorn tears the king of poetry’s robe to tatters. –</p>
+               <p rend="firstIndent" xml:id="p_00007">His songs live on, and only through them do the gods and heroes of Antiquity still live.</p>
+               <p rend="firstIndent" xml:id="p_00008">Image upon image wells forth from the Orient and Occident, so far removed from each other in place and time and yet the same piece of the thorny path to honour and glory where the thistle only flowers when the grave is to be decked.</p>
+               <p rend="firstIndent" xml:id="p_00009">Beneath the palms come camels, richly laden with indigo and other costly treasures; they are being sent from the country’s ruler to the man whose songs are the people’s delight, the country’s honour; the man who was forced into exile because of envy and lies has been found – the caravan draws near to the small town where he found a place of refuge; a poor corpse is brought out of the gate, causing the caravan to stop. The deceased is none other than the one they are seeking: <hi rend="italic">Ferdowsi</hi> – the thorny path to honour and glory is completed!</p>
+               <p rend="firstIndent" xml:id="p_00010">The African, with his coarse features, thick lips, black woolly hair, sits on the palace marble staircase in Portugal’s capital and begs – it is <hi rend="italic">Camões</hi>’ faithful slave, without him and the small coins tossed to him his master, the writer of ‘<hi rend="italic">The Lusiads</hi>’ would starve to death.</p>
+               <p rend="firstIndent" xml:id="p_00011">Now there is a costly monument on <hi rend="italic">Camões</hi>’ grave. Another image!</p>
+               <p rend="firstIndent" xml:id="p_00012">Behind iron bars is seen a man, deathly pale, with a long, tangled beard: ‘I have made a discovery, the greatest in centuries!’ he cries out, ‘and for over twenty years I have been held a prisoner here!’ ‘Who is he?’ ‘A madman!’ the gaoler says: ‘What ideas though people can have! he believes one can move forwards with the aid of steam!’ It is <hi rend="italic">Salomon de Caus</hi>, the discoverer of steam power, whose tentative words were not understood by Richelieu and who dies, interned in a madhouse.</p>
+               <p rend="firstIndent" xml:id="p_00013">Here stands <hi rend="italic">Columbus</hi>! who the street urchins once followed and mocked because he wanted to discover a new world – he has discovered it: the jubilant bells ring out on his victorious return, but soon the bells of envy ring out even louder; the discoverer of a continent, the man who lifted up the golden land of America up from the ocean and gave it to his sovereign, is rewarded with iron chains, those which he asked to be buried with him in his coffin bear witness to the world and to the judgment of his own age.</p>
+               <p rend="firstIndent" xml:id="p_00014">Image upon image wells forth – rich is the thorny path to honour and glory!</p>
+               <p rend="firstIndent" xml:id="p_00015">In pitch darkness sits the man who measured the height of the mountains on the moon, the man who reached out in space to planets and stars, the great man who heard and saw the spirit of nature, sensed that the earth span beneath him: <hi rend="italic">Galileo</hi>. Blind and deaf he sits in his old age, impaled on the thorn of suffering in the torment of denial, hardly able to lift his foot, which he once, in mental anguish when the word of truth was erased, stamped against the ground and exclaimed: ‘And yet it moves!’</p>
+               <p rend="firstIndent" xml:id="p_00016">Here stands a woman with a childlike mind, enthusiasm and faith – she carries the banner at the head of a fighting army, and brings victory and deliverance to her mother country. There is a roar from the crowd – and the bonfire is lit: <hi rend="italic">Jeanne d’Arc</hi>, the witch, is burnt. – Yes, future centuries spit on the white lily: Voltaire, satyr of wit, sings of <hi rend="italic">‘La Pucelle’</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00017">At the thing in Viborg, Danish nobles burn The King’s Law – it flares in the flames, lighting up both age and lawgiver, casting a halo of glory into the dark dungeon where the grey-haired, bowed figure sits, scoring deep furrows into the stone table with his fingers, the man who was once ruler over three kingdoms, the king of the people, the friend of citizen and peasant alike: <hi rend="italic">Christian II</hi>. The man of steely mind in a steely age. Foes wrote his history. – Twenty-seven years of incarceration we will remember while we recall his capital crime.</p>
+               <p rend="firstIndent" xml:id="p_00018">A ship sets sail from Denmark, a man is standing at the mainmast, he looks out towards the island of Hven for the last time: <hi rend="italic">Tycho Brahe</hi>, who lifted Denmark’s name to the stars and was rewarded for this with insult and injury – he travels to a foreign land: “The heavens are everywhere, what more do I need!” are his words; there he sails away, our most famous man, in a foreign country honoured and free!’</p>
+               <p rend="firstIndent" xml:id="p_00019">‘Ah yes, free! if only just from the intolerable pain of this body!’ comes the sigh down to us through the ages. What image? – <hi rend="italic">Griffenfeldt</hi>, a Danish Prometheus, chained to the rocky island of Munkholm.</p>
+               <p rend="firstIndent" xml:id="p_00020">We are in America down by one of its great rivers, a great crowd has assembled, a ship is to attempt to brave wind and weather, to defy the elements: <hi rend="italic">Robert Fulton</hi> is the man who believes he is able. The ship starts out on its journey; suddenly it stands still – the mob laughs and whistles, even his own father joins in: ‘Pride! Madness! Just desserts! the madman ought to be under lock and key!’ – Then a small nail that has stopped the machinery for a moment snaps, the wheels turn, the paddles push away the resistance of the water, the ship sails – –! The spool of steam transforms hours into minutes between the countries of the world.</p>
+               <p rend="firstIndent" xml:id="p_00021">Humanity! do you comprehend the bliss of such a minute of consciousness, the understanding of the spirit of its mission, the moment in which all the ripping and rending of the thorny path to honour and glory – even that which is self-inflicted – is resolved in recovery, health, strength and clarity, when disharmony becomes harmony, people glimpse the revelation of the Grace of God which has been bestowed upon the individual, and by him passed on to each and everyone!</p>
+               <p rend="firstIndent" xml:id="p_00022">The thorny path to honour and glory reveals itself as a halo round the Earth; blessed is the one elected to be a wanderer here and to be, without reward, counted among the builders of bridges between mankind and God.</p>
+               <p rend="firstIndent" xml:id="p_00023">On powerful wings, the spirit of history soars through the ages and shows, instilling courage and consolation, a contemplative gentleness, in gleaming images against a pitch-black background – the <hi rend="italic">thorny path to honour and glory</hi>, which sometimes does not, as in fairy tales, end in fame and happiness here on earth, but points <hi rend="italic">further</hi> into time and eternity.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

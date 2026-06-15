@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>De danske Qvinder</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="de-danske-qvinder" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Den danske Qvinde har fra Oldtids Dage</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00773</section>
+                                                                 <date>1859</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1859</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="De danske Qvinder" xml:id="de-danske-qvinder"><head type="part">De danske Qvinder</head>
+<head type="sub">(Tohundredeaarsfesten den 11. Februar 1859)</head>
+<head type="melody"><hi rend="italic">Mel.: »<seg target="txtcmnt-310-01"><!--DATA-TERM: Der er et Land … Norden--><!--DATA-DEFINITION: førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <i>Svend Grathe</i>, 1825, med musik af C.E.F. Weyse, 1826.-->Der er et Land, dets Sted er höit mod Norden.«</seg></hi></head>
+<lg xml:id="p_00774">
+<l rend="noIndent" subtype="firstline" corresp="Den danske Qvinde har fra Oldtids Dage" rendition="den-danske-qvinde-har-fra-oldtids-dage">Den danske Qvinde har fra Oldtids Dage</l>
+<l rend="noIndent">Med Hjertets Guld sin Hæders Indskrift sat,</l>
+<l rend="noIndent"><seg target="txtcmnt-310-02" type="dfnStart"/><!--DATA-TERM: Med sine Smykker … Nat--><!--DATA-DEFINITION: formodentlig hentydning til løskøbelsen af Valdemar 2. Sejr, der i 1223 blev taget til fange med sin søn og ført til den vendiske borg Schwerin, hvorfra han i 1226 blev løskøbt for 60.000 (lybske) mark; B.S. Ingemann gengav ligeledes begivenhederne i den historiske roman <i>Valdemar Seier</i>, 1826.-->Med sine Smykker kjøbte hun tilbage</l>
+<l rend="noIndent">Dankongen, der laae dybt i Fængsels Nat<seg type="dfnEnd" target="txtcmnt-310-02"/>.</l>
+<l rend="noIndent">End lyser Troskabs Blusset, <seg target="txtcmnt-310-03"><!--DATA-TERM: Signe--><!--DATA-DEFINITION: hentydning til sagnet om Hagbard og Signe, som kendes fra <i>Saxos Danmarkshistorie</i>, 7. bog, kap. 7, og folkevisen »Hagbard og Signe« (DgF 20). Hagbard elsker og genelskes af sin fjende Sigers datter, Signe, som sværger, at Hagbards dødsdag også skal blive hendes. Da Hagbard pågribes og dømmes til døden, beder han, for at prøve Signes troskab, om, at hans kappe bliver hængt op i galgen, hvorefter Signe lader sig brænde inde.--><hi rend="italic">Signe</hi></seg> tændte,</l>
+<l rend="noIndent">Det fulgte <seg target="txtcmnt-310-04"><!--DATA-TERM: Egede--><!--DATA-DEFINITION: den norske præst Hans Egede blev på sin 16 år lange mission til Grønland 1721 fulgt af sin hustru, der døde 1735, kort før Egede i 1736 vendte tilbage.--><hi rend="italic">Egede</hi></seg> til Grønlands Iis.</l>
+<l rend="noIndent">Ja, ædle, store Qvinder Danmark kjendte,</l>
+<l rend="noIndent"><seg target="txtcmnt-310-05"><!--DATA-TERM: Thi (lyde)--><!--DATA-DEFINITION: derfor.-->Thi lyde</seg> høit de danske Qvinders Priis!</l>
+</lg>
+<lg xml:id="p_00775">
+<l rend="noIndent"><seg target="txtcmnt-310-06" type="dfnStart"/><!--DATA-TERM: Da Vintren … danske Skjold--><!--DATA-DEFINITION: i isvinteren 1658-1659 var isen så tyk i Øresund, at de svenske tropper kunne marchere over sundet.-->Da Vintren slog sin Bro for Svenskens Skare,</l>
+<l rend="noIndent"><seg target="txtcmnt-310-07">Liigskjorteklædt</seg> den nærmed’ sig vor Vold,</l>
+<l rend="noIndent">De danske Qvinder med paa Volden vare,</l>
+<l rend="noIndent">Som danske Hjerter i det danske Skjold<seg type="dfnEnd" target="txtcmnt-310-06"/>.</l>
+<l rend="noIndent"><seg target="txtcmnt-310-08" type="dfnStart"/><!--DATA-TERM: Hvor Borger … Qvinders Priis--><!--DATA-DEFINITION: de svenske tropper indledte stormen på København den 10 og 11. februar 1659; allerede under Københavns belejring, der blev indledt i august 1658, blev borgere, håndværkere og studenter bevæbnet og inddraget i byens forsvar, og kvinderne tog aktivt del.-->Hvor Borger og Student for <seg target="txtcmnt-310-09">»Reden«</seg> strede,</l>
+<l rend="noIndent">Hjalp Qvinden med og hjalp paa mandig Viis;</l>
+<l rend="noIndent">Ja, da sang Kugler om den gamle Rede,</l>
+<l rend="noIndent">De slog den Streng: de danske Qvinders Priis<seg type="dfnEnd" target="txtcmnt-310-08"/>!</l>
+</lg>
+<lg xml:id="p_00776">
+<l rend="noIndent">I Danmark Kornet groer om Kæmpehøie,</l>
+<l rend="noIndent">En Deel af <hi rend="italic">Holbergs</hi> Lune Folket fik,</l>
+<l rend="noIndent">Af Havet baaret staae skovklædte Høie,</l>
+<l rend="noIndent">Og Hav og Himmel sees i Qvindens Blik.</l>
+<l rend="noIndent">Frisk som Skovmærken er den unge Pige,</l>
+<l rend="noIndent">Og Hjertet blødt og stærkt, paa Havets <seg target="txtcmnt-310-10"><!--DATA-TERM: Viis--><!--DATA-DEFINITION: måde.-->Viis</seg>,</l>
+<l rend="noIndent">Og Hustruen, et Solskin fra Guds Rige!</l>
+<l rend="noIndent">Nævn hende først i danske Qvinders Priis!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="De danske Qvinder (Tohundredeaarsfesten den 11. Februar 1859)" synch="de-danske-qvinder-tohundredeaarsfesten-den-11-februar-1859">
+<head type="section-comments">De danske Qvinder (Tohundredeaarsfesten den 11. Februar 1859)</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget ved mindefesten i Casino i anledning af tohundredeåret for stormen på København, 11. februar 1659, hvor danskerne nedkæmpede svenskernes angreb. BFN 781</p>
+<table rend="textcomments">
+<cell type="page">310</cell><cell><row xml:id="txtcmnt-310-01"><cell type="data-term">Der er et Land … Norden</cell><cell type="data-definition">førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <hi rend="italic">Svend Grathe</hi>, 1825, med musik af C.E.F. Weyse, 1826.</cell></row><row xml:id="txtcmnt-310-02"><cell type="data-term">Med sine Smykker … Nat</cell><cell type="data-definition">formodentlig hentydning til løskøbelsen af Valdemar 2. Sejr, der i 1223 blev taget til fange med sin søn og ført til den vendiske borg Schwerin, hvorfra han i 1226 blev løskøbt for 60.000 (lybske) mark; B.S. Ingemann gengav ligeledes begivenhederne i den historiske roman <hi rend="italic">Valdemar Seier</hi>, 1826.</cell></row><row xml:id="txtcmnt-310-03"><cell type="data-term">Signe</cell><cell type="data-definition">hentydning til sagnet om Hagbard og Signe, som kendes fra <hi rend="italic">Saxos Danmarkshistorie</hi>, 7. bog, kap. 7, og folkevisen »Hagbard og Signe« (DgF 20). Hagbard elsker og genelskes af sin fjende Sigers datter, Signe, som sværger, at Hagbards dødsdag også skal blive hendes. Da Hagbard pågribes og dømmes til døden, beder han, for at prøve Signes troskab, om, at hans kappe bliver hængt op i galgen, hvorefter Signe lader sig brænde inde.</cell></row><row xml:id="txtcmnt-310-04"><cell type="data-term">Egede</cell><cell type="data-definition">den norske præst Hans Egede blev på sin 16 år lange mission til Grønland 1721 fulgt af sin hustru, der døde 1735, kort før Egede i 1736 vendte tilbage.</cell></row><row xml:id="txtcmnt-310-05"><cell type="data-term">Thi (lyde)</cell><cell type="data-definition">derfor.</cell></row><row xml:id="txtcmnt-310-06"><cell type="data-term">Da Vintren … danske Skjold</cell><cell type="data-definition">i isvinteren 1658-1659 var isen så tyk i Øresund, at de svenske tropper kunne marchere over sundet.</cell></row><row xml:id="txtcmnt-310-07"><cell type="data-term">Liigskjorteklædt</cell><cell type="data-definition">nogle af tropperne var iført hvide kapper.</cell></row><row xml:id="txtcmnt-310-08"><cell type="data-term">Hvor Borger … Qvinders Priis</cell><cell type="data-definition">de svenske tropper indledte stor<pb n="604"/>men på København den 10 og 11. februar 1659; allerede under Københavns belejring, der blev indledt i august 1658, blev borgere, håndværkere og studenter bevæbnet og inddraget i byens forsvar, og kvinderne tog aktivt del.</cell></row><row xml:id="txtcmnt-310-09"><cell type="data-term">»Reden«</cell><cell type="data-definition">hentydning til Frederik 3.s legendariske ord ved belejringens indledning, da han blev rådet til at flygte til Norge eller Holland: »Jeg vil dø i min rede«.</cell></row><row xml:id="txtcmnt-310-10"><cell type="data-term">Viis</cell><cell type="data-definition">måde.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

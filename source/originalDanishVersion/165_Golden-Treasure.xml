@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Golden Treasure</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="guldskat">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="guldskat_modern.xml">moderniseret version</note>
+                                                       <note target="165_Golden-Treasure.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The drummer’s wife went to church; she saw the new altar with its paintings and ...</incipit><idno type="image">Guldskat_hca_ill_0107.png</idno><popularity>915</popularity><cite>&lt;p&gt;Hans Christian Andersen: Golden Treasure. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-26" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-26" who="NHB">formatted</change><change who="NHB" when="2022-10-26">Add quotation marks “Lotte ist tot! Lotte ist tot!”. Ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Golden Treasure">
+               <head type="main" rend="Golden Treasure">Golden Treasure</head>                <p rend="noIndent" xml:id="p_00001">The drummer’s wife went to church; she saw the new altar with its paintings and carved angels; they were so beautiful, both those on the canvas with all their colours and haloes and those that had been carved out of wood and then painted and gilded. Their hair gleamed like gold and sunshine, a delight to behold; but god’s sunshine was even more delightful; it was brighter, even redder among the dark trees at sunset. What delight to gaze into the countenance of God! and she gazed into the red sun, and she thought so fervently as she did so, thought of the baby the stork was going to bring, and the drummer’s wife was so glad at the thought, she gazed and gazed and she wished that the child might gain something of that gleam, at least resemble one of the radiant angels in the altarpiece.</p>
+               <p rend="firstIndent" xml:id="p_00002">And when she actually held her baby in her arms and held it up towards its father, it was like looking at one of the angels in the church, its hair was like gold, the gleam of the setting sun was present in it.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘My golden treasure, my crock of gold, my day of sunshine!’ the <hi rend="italic">mother</hi> said and kissed the gleaming locks; and it sounded like music and singing in the drummer’s living room; there was joy, life and a flutter of excitement. The <hi rend="italic">drummer</hi> beat a roll on his drum, a roll of joy. The drum sounded, the alarm drum sounded:</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Red hair! The infant’s got red hair! believe the drumskin and not what your mother says! drummalum! drummalum!’</p>
+               <p rend="firstIndent" xml:id="p_00005">And the town spoke as the alarm drum spoke.</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00006">The boy came to church, the boy was baptised. There was nothing wrong with the name given him: he was called <hi rend="italic">Peter</hi>. The whole town, the drum too, called him: <hi rend="italic">Peter</hi>, the drummer’s boy with the red hair; but his mother kissed his red hair and called him <hi rend="italic">Golden Treasure</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00007">Into the clay of the slope on the sunken road, many people had scored their names so as to be remembered.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Fame!’ the <hi rend="italic">drummer</hi> said, ‘that’s always something!’ and so he scored his name and that of his young son there too.</p>
+               <p rend="firstIndent" xml:id="p_00009">And the swallows came; on their long journeys they had seen more lasting inscriptions carved into the rockface, on the wall of the temple in <hi rend="italic">Hindustan</hi>: great feats by mighty kings, immortal names, so ancient that no one could read or name them.</p>
+               <p rend="firstIndent" xml:id="p_00010">A name’s face value! Fame!</p>
+               <p rend="firstIndent" xml:id="p_00011">The swallows built their nests in the sunken road; they bored holes into the slope, rain and foul weather caused the names to crumble and be washed away, also those of the drummer and his young son.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Though <hi rend="italic">Peter’s</hi> lasted for a year and a half!’ his <hi rend="italic">father</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Fools!’ the <hi rend="italic">alarm drum</hi> thought, but all it said was: ‘Dumb, dumb, dumb! dumbalum!’</p>
+               <p rend="firstIndent" xml:id="p_00014">The boy was full of life and zest: ‘The drummer’s son with the red hair.’ He had a lovely voice; he could sing and sing he did, like the bird in the forest: it was melodious and yet not a melody.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘He ought to become a choirboy!’ his <hi rend="italic">mother</hi> said; ‘sing in the church, stand beneath the lovely, gilded angels he resembles!’</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Fire cat!’ the <hi rend="italic">great wits</hi> of the town said. The drum heard this from the neighbours’ wives.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Don’t go home, <hi rend="italic">Peter</hi>!’ the <hi rend="italic">street urchins</hi> shouted. ‘If you sleep up in the garret, the thatch will catch fire, and then the alarm drum will sound!’</p>
+               <p rend="firstIndent" xml:id="p_00018">‘Just watch out for the drumsticks!’ <hi rend="italic">Peter</hi> said; and although he was very small, he attacked fearlessly, sinking his fist into the nearest stomach, so that the boy’s legs buckled and the rest of them shifted their own fast – they took to their heels.</p>
+               <p rend="firstIndent" xml:id="p_00019">The town musician was so stately and dignified, he was the son of a keeper of the royal silver plate; he liked <hi rend="italic">Peter</hi>, took him home for hours on end, gave him a violin and taught him how to play; it was as if the boy had the knack of playing in his fingers, he would become more than a drummer, he would become a town musician.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘I want to be a soldier!’ <hi rend="italic">Peter</hi> said, for he was still quite a little fellow, and felt it was the finest thing in all the world to carry a rifle and be able to go ‘Left, right! left, right!’ and wear a uniform and a sword.</p>
+               <p rend="firstIndent" xml:id="p_00021">‘You must learn to obey the drumskin! drummalum! come, come!’ the <hi rend="italic">drum</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Yes, if only he could march all the way to becoming a general!’ his <hi rend="italic">father</hi> said; ‘but then there has to be war!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘God preserve us from such!’ his <hi rend="italic">mother</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘We haven’t got anything to lose!’ his <hi rend="italic">father</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00025">‘Yes, of course we have, we’ve got my son!’ she said.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘But what if he comes home as a general!’ his <hi rend="italic">father</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00027">‘Without arms and legs!’ his <hi rend="italic">mother</hi> said; ‘no, let me keep my golden treasure safe and sound!’</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Drum! drum! drum!’ the alarm drum went, all the drums went. There was war. The soldiers all set out and the drummer’s boy was among them: ‘, top! Golden treasure!’ His mother wept; his father, in his mind’s eye, saw him ‘famous’, the town musician felt he ought not to go to war, but remain a musician back home.</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00029">‘Red-top!’ the <hi rend="italic">soldiers</hi> said, and <hi rend="italic">Peter</hi> laughed; but one or two said: ‘Fox fur!’ then he pressed his lips tight together, looked forward into the great wide world; that insult had nothing to do with him.</p>
+               <p rend="firstIndent" xml:id="p_00030">The boy was a decent sort; dauntless, good-humoured – and that is the best canteen to a soldier to have, his old comrades said.</p>
+               <p rend="firstIndent" xml:id="p_00031">In foul weather, soaked to the skin, under an open sky, he had to lie many a night, but his good humour never left him, the drumsticks beat: ‘Drummalum! Up everyone!’ Oh yes, he certainly was a born drummer.</p>
+               <p rend="firstIndent" xml:id="p_00032">It was a day of battle; the sun had not yet risen but it was already morning: the air cold, the fighting fierce; there was fog in the air, but more vapour from the gunpowder. Bullets and grenades flew over the soldiers’ heads and into them, into bodies and limbs; but they continued to advance. Here and there a soldier or two sank to their knees, their temples bloody, their faces chalk white. The little drummer still had his healthy colour, he had not suffered any injury; he looked with pleasure written on his face at the regimental dog that leap ahead of him, truly glad, as if all of it was just a game, as if the bullets only landed in order to play with it.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘March, forward march!’ were the commander’s words, conveyed by the drum; and those words were not to be taken back; but they could be taken back and there may be a good reason for doing so; and now the word was ‘<hi rend="italic">retreat</hi>!’, but the little drummer beat: ‘<hi rend="italic">Forward</hi> march!’ he understood that to be the order, and the soldiers obeyed the drumskin. They turned out to be good drumbeats, for they sounded victory for those who were otherwise retreating.</p>
+               <p rend="firstIndent" xml:id="p_00034">Lives and limbs were lost in that battle. The grenade rips off bloody chunks of flesh; the grenade sets light to the pile of straw the wounded soldier has dragged himself over to, only to lie there abandoned for many hours, abandoned for the rest of his earthly life perhaps. Thinking about it doesn’t help! and yet one cannot help but think about it, even far away in the peaceful town; there the drummer and his wife thought about it: for <hi rend="italic">Peter</hi> was in the war.</p>
+               <p rend="firstIndent" xml:id="p_00035">‘I’m tired of all that whining and wailing!’ the <hi rend="italic">alarm drum</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00036">It was a day of battle; the sun had not yet risen, but it was morning. The drummer and his wife were asleep, they had hardly slept the whole night; they had talked about their son, for he was out there – ‘under God’s hand’. And his father dreamt that the war was over, that the soldiers came home, and <hi rend="italic">Peter</hi> had the silver cross on his chest; but his mother dreamt that she went into the church, looked at the paintings and the carved angels with the gilded hair; and her own dear boy, the golden treasure of her heart, stood there in white raiment among the angels and sang so beautifully, as surely only angels could sing, and rose up into the sunlight with them and nodded so lovingly to his mother.</p>
+               <p rend="firstIndent" xml:id="p_00037">‘My golden treasure!’ she cried out and woke instantly. ‘Now the <hi rend="italic">Good Lord</hi> has taken him!’ she said, folded her hands, leant her head against the calico bed curtains and wept. ‘Where is he resting now, among the many in the common grave, the grave for the dead?’ Perhaps in the deep waters of the bog! Nobody knows his grave! no sacred words will be read over it!’ And the <hi rend="italic">Lord’s Prayer</hi> passed silently over her lips; her head drooped, she was so tired, fell asleep for a while.</p>
+               <p rend="firstIndent" xml:id="p_00038">The days pass away, in life and in dreams!</p>
+               <p rend="firstIndent" xml:id="p_00039">It was almost evening; a rainbow arched over the battlefield, it touched the edge of the forest and the deep bog. According to popular belief: where the rainbow touches the earth a treasure lies buried, a golden treasure; here one also lay; no one thought about the little drummer except his mother, and therefore she dreamt it.</p>
+               <p rend="firstIndent" xml:id="p_00040">And the days pass, in life and in dreams!</p>
+               <p rend="firstIndent" xml:id="p_00041">Not a hair on his head had been harmed, not a single golden hair. ‘Drimmerim, drimmerim, it is him! it is him!’ the drum could have said and his mother sung, had she seen or dreamt it.</p>
+               <p rend="firstIndent" xml:id="p_00042">With singing and cries of hurrah, wearing the green leaves of victory, the soldiers returned home, since the war was over, since there was peace once more. The regimental dog rushed around in large circles ahead of everyone, as if to make the return journey three times longer.</p>
+               <p rend="firstIndent" xml:id="p_00043">And days and weeks passed, and <hi rend="italic">Peter</hi> walked into his parents’ living room; he was as brown as a savage, his eyes were bright, his face gleamed like the sun’s rays. And his mother held him in her arms, kissed him on the lips, kissed his eyes, his red hair. Now she had her boy back once more; he did not have a silver cross on his chest, as his father had dreamt, but he was sound in body and limb, as his mother had not dreamt. And there was great joy; they laughed and they cried. And <hi rend="italic">Peter</hi> gave the old alarm drum a hug:</p>
+               <p rend="firstIndent" xml:id="p_00044">‘It’s still here, the old carcass!’ he said. And his father gave a roll on it.</p>
+               <p rend="firstIndent" xml:id="p_00045">‘It’s as if there was a great fire here!’ the <hi rend="italic">alarm drum</hi> said. ‘Fire in the roof, fire in people’s hearts, a golden treasure at that! rat-a-tat, rat-a-tat!’</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00046">And then? Yes, what then? Just ask the town musician.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘<hi rend="italic">Peter</hi> will far exceed the drum,’ he said; ‘<hi rend="italic">Peter</hi> will become greater than I am!’ and he was, after all, the son of a keeper of the royal silver plate; but everything <hi rend="italic">he</hi> had managed to learn in the course of his whole life, <hi rend="italic">Peter</hi> learnt in six months.</p>
+               <p rend="firstIndent" xml:id="p_00048">There was something about him, he was so confident, so utterly good-natured. His eyes gleamed and his hair gleamed, – there was no denying it.</p>
+               <p rend="firstIndent" xml:id="p_00049">‘He ought to have his hair dyed!’ the <hi rend="italic">woman next door</hi> said. ‘It worked well for the policeman’s daughter! and she got engaged.’</p>
+               <p rend="firstIndent" xml:id="p_00050">‘But immediately afterwards it turned as green as duckweed, and now it always has to be redone!’</p>
+               <p rend="firstIndent" xml:id="p_00051">‘She can afford that!’ the <hi rend="italic">woman next door</hi> said, ‘and so can <hi rend="italic">Peter</hi>. He visits the finest houses, even the mayor’s, teaches Miss <hi rend="italic">Lotte</hi> to play the piano!’</p>
+               <p rend="firstIndent" xml:id="p_00052">And how he could play! Spontaneously improvise from his heart the loveliest of pieces, ones that had never been committed to paper. He played in the short, light summer nights and the long winter nights too. It was impossible to put up with all his music, the neighbours said – as did the alarm drum.</p>
+               <p rend="firstIndent" xml:id="p_00053">He played so his thoughts rose higher and higher, bubbling over with plans for the future: Fame!</p>
+               <p rend="firstIndent" xml:id="p_00054">And the mayor’s <hi rend="italic">Lotte</hi> sat at the piano; her slender fingers danced over the keys, and the music re-echoed in <hi rend="italic">Peter’s</hi> heart; it was as if it became much too large for him, and it didn’t happen just once but many times, and one day he took hold of her slender fingers and her beautifully shaped hand, and he kissed it and looked straight into her large, brown eyes; <hi rend="italic">Lord</hi> knows what he said; the rest of us are allowed to guess. <hi rend="italic">Lotte</hi> blushed crimson all the way down her neck to her shoulders, she answered not a word; – just then visitors arrived and one of them entered the room, the councillor of state’s son, who had a high, shiny forehead, all the way back, down to the nape of his neck. And <hi rend="italic">Peter</hi> sat with them for a long time, and <hi rend="italic">Lotte’s</hi> fondest look was for him.</p>
+               <p rend="firstIndent" xml:id="p_00055">That evening, back home, he talked about the great, wide world and about the golden treasure that lay for him in the violin.</p>
+               <p rend="firstIndent" xml:id="p_00056">Fame!</p>
+               <p rend="firstIndent" xml:id="p_00057">‘Drummalum, drummalum, drummarumrumrum!’ the <hi rend="italic">alarm drum</hi> said. ‘Now there’s something completely wrong with <hi rend="italic">Peter</hi>! he’s a house on fire, I think.’</p>
+               <p rend="firstIndent" xml:id="p_00058">His <hi rend="italic">mother</hi> went to the market the following day.</p>
+               <p rend="firstIndent" xml:id="p_00059">‘Here’s a piece of news, <hi rend="italic">Peter</hi>!’ she said when she returned, ‘wonderful news! The mayor’s <hi rend="italic">Lotte</hi> has got engaged with the councillor of state’s son – it happened yesterday evening!’</p>
+               <p rend="firstIndent" xml:id="p_00060">‘No!’ <hi rend="italic">Peter</hi> cried out and leapt up from his chair. But his <hi rend="italic">mother</hi> said ‘Oh yes!’; she had heard it from the barber’s wife, and her husband had heard it directly from mayor’s own lips.</p>
+               <p rend="firstIndent" xml:id="p_00061">And <hi rend="italic">Peter</hi> turned as white as a corpse, and sat down again.</p>
+               <p rend="firstIndent" xml:id="p_00062">‘Good Lord, whatever’s the matter with you!’ his <hi rend="italic">mother</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00063">‘Just, just let me be!’ he said, and the tears poured down his cheeks.</p>
+               <p rend="firstIndent" xml:id="p_00064">‘My sweet child! my golden treasure!’ his <hi rend="italic">mother</hi> said, and she wept too; but the <hi rend="italic">alarm drum</hi> sang, only to itself, not to the outside world:</p>
+               <p rend="firstIndent" xml:id="p_00065">‘“Lotte ist tot! Lotte ist tot!” and that’s the end of the song!’</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00066">That was not the end of the song, there were still many verses, long verses, to come – the loveliest of all, a whole life’s <hi rend="italic">golden treasure</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00067">‘How she gallivants about and carries on!’ the <hi rend="italic">woman next door</hi> said. ‘The whole world has to read the letters she gets from her golden treasure, hear what the papers say about him and his violin. He sends money to her, and she certainly needs it, now that she’s a widow!’</p>
+               <p rend="firstIndent" xml:id="p_00068">‘He plays for kings and emperors!’ the <hi rend="italic">town musician</hi> said. ‘That was never my lot; but he is my pupil and does not forget his former teacher!’</p>
+               <p rend="firstIndent" xml:id="p_00069">‘His father once actually dreamt,’ his <hi rend="italic">mother</hi> said, ‘that <hi rend="italic">Peter</hi> came home from the war with a silver cross on his chest, he did not get one in the war, there it is more difficult to come by! Now he wears a knight’s cross. If only his father had lived to see the day!’</p>
+               <p rend="firstIndent" xml:id="p_00070">‘Famous!’ the <hi rend="italic">fire-drum</hi> said, as did his native town: the drummer’s son, <hi rend="italic">Peter</hi> with the red hair, <hi rend="italic">Peter</hi>, who they had seen as a young boy with clogs on his feet, seen as a drummer striking up the dance, <hi rend="italic">famous</hi>!</p>
+               <p rend="firstIndent" xml:id="p_00071">‘He played for us before he played for all the kings!’ the mayor’s <hi rend="italic">wife</hi> said. ‘He was completely besotted with <hi rend="italic">Lotte</hi> back then! he always set his sights high! back then it was impertinence and mere fantasy! My husband laughed when he heard about such nonsense! Now <hi rend="italic">Lotte</hi> is married to a councillor of state!’</p>
+               <p rend="firstIndent" xml:id="p_00072">A golden treasure had been laid in the heart and soul of the poor child who, as a young drummer, beat a ‘Forward, march!’ that led to victory for those who were retreating. In his breast there lay a golden treasure, the never-ending stream of music; it welled up out of his violin as if there were a whole organ inside it, as if all the elves of a summer’s night were dancing over its strings; one could hear the trilling of the thrush and the clear resonance of the human voice: that was why it echoed through hearts and enraptured them, and carried his name through the countries of the world. It was a great fire, the fire of enthusiasm.</p>
+               <p rend="firstIndent" xml:id="p_00073">‘And he’s so handsome too!’ the young ladies said, as did the older ones; and the oldest of them bought herself an album exclusively for locks of famous hair, simply so she could ask for a lock from the young violinist’s beautiful, abundant crop of hair, a treasure, a golden treasure.</p>
+               <p rend="firstIndent" xml:id="p_00074">And into the drummer’s humble living room the son entered, as fine as a prince, happier than a king. His eyes were so bright, his face like sunshine. And he held his mother in his arms, and she kissed his warm lips and wept as blissfully as one does out of joy; and he nodded to each old piece of furniture in the room, to the dresser with its tea cups and flower glasses; he nodded to the bed-settee where he had slept as a young boy; but he took out the old alarm drum and placed it on the middle of the floor, and said, both to his mother and the drum:</p>
+               <p rend="firstIndent" xml:id="p_00075">‘Today father would have given a drum roll! now I will have to do it!’ And he rolled a whole thunderstorm on it, and it felt so honoured at this that it split its drumskin.</p>
+               <p rend="firstIndent" xml:id="p_00076">‘He packs quite a punch!’ the <hi rend="italic">drum</hi> said. ‘Now I have something to always remember him by! I expect his missus will also split herself with joy over her <hi rend="italic">golden treasure</hi>!’</p>
+               <graphic type="blank"/>       
+               <p rend="noIndent" xml:id="p_00077">That then was the story of the <hi rend="italic">golden treasure</hi>.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

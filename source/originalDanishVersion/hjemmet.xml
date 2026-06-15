@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Hjemmet«</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="hjemmet" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Naar hjemme man paa Gadens Bræt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00421</section>
+                                                                 <date>1852</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1852</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="»Hjemmet«" xml:id="hjemmet"><head type="part">»Hjemmet«</head>
+<head type="part">Sang ved Festen for Maleren F. L. Storch den <seg target="txtcmnt-186-01"><!--DATA-TERM: 14. Januar 1852--><!--DATA-DEFINITION: Storch opholdt sig i München fra 1835-1852, kun afbrudt af et ophold i Italien 1845-1846; sangen er sandsynligvis sunget i forbindelse med hans hjemkomst til Danmark.-->14. Januar 1852</seg></head>
+<head type="melody"><hi rend="italic">Mel.: <seg target="txtcmnt-186-02"><!--DATA-TERM: Menuetten af »Elverhøi.«--><!--DATA-DEFINITION: fra J.L. Heibergs romantiske skuespil <i>Elverhøi</i>, V,1, 1828, med musik af Fr. Kuhlau.-->Menuetten af »Elverhøi.«</seg></hi></head>
+<lg xml:id="p_00422">
+<l rend="noIndent" subtype="firstline" corresp="Naar hjemme man paa Gadens Bræt" rendition="naar-hjemme-man-paa-gadens-braet">Naar hjemme man paa <seg target="txtcmnt-186-03"><!--DATA-TERM: Gadens Bræt--><!--DATA-DEFINITION: datidens rendesten, som var dybe og brede, var med mellemrum forsynet med brædder for at lette passagen.-->Gadens Bræt</seg></l>
+<l rend="noIndent">Faaer <seg target="txtcmnt-186-04"><!--DATA-TERM: Saugspaan--><!--DATA-DEFINITION: savspån, savsmuld.-->Saugspaan</seg> blæst i Øiet,</l>
+<l rend="noIndent">Forstyrres i sin <seg target="txtcmnt-186-05"><!--DATA-TERM: Fortougsret--><!--DATA-DEFINITION: fortovsret; giver den, der går med kantstenen på sin højre hånd, ret til at blive gående, således at modgående må vige til side; indført 1810.-->Fortougsret</seg>,</l>
+<l rend="noIndent">Saa er man misfornøiet;</l>
+<l rend="noIndent">Man finder Meget ferskt og tamt</l>
+<l rend="noIndent">Og smaaligt, reent forbandet,</l>
+<l rend="noIndent">Sit Trappe-Rækværk vaadt og klamt,</l>
+<l rend="noIndent">– Uh! det er Fødelandet!</l>
+</lg>
+<lg xml:id="p_00423">
+<l rend="noIndent">Man reiser – og som det gaaer frem,</l>
+<l rend="noIndent">Erindrings-Englen kommer,</l>
+<l rend="noIndent">Han synger om det kjære Hjem,</l>
+<l rend="noIndent">Om Solskin der og Sommer,</l>
+<l rend="noIndent">Om Vintertid med Stjerners Pragt;</l>
+<l rend="noIndent">Hvad Bittert er vi glemme;</l>
+<l rend="noIndent">Og i vort Modersmaal er lagt</l>
+<l rend="noIndent">Et Kys fra Moder hjemme!</l>
+</lg>
+<lg xml:id="p_00424">
+<l rend="noIndent">Flyv Verden rundt paa <seg target="txtcmnt-186-06"><!--DATA-TERM: (damp)snel--><!--DATA-DEFINITION: hurtig.-->dampsnel</seg> Baad,</l>
+<l rend="noIndent">Vor Fart er længselsblandet,</l>
+<l rend="noIndent">Os binder en <seg target="txtcmnt-186-07"><!--DATA-TERM: electrisk Traad--><!--DATA-DEFINITION: telegraf.-->electrisk Traad</seg></l>
+<l rend="noIndent">Altid til Fædrelandet;</l>
+<l rend="noIndent">Jo længer bort, desmere fiin</l>
+<l rend="noIndent">Vil Traaden blive spundet;</l>
+<l rend="noIndent">Du Blodets Hjem, den Magt er din,</l>
+<l rend="noIndent">Dybt i Naturen grundet!</l>
+</lg>
+<lg xml:id="p_00425">
+<l rend="noIndent">Ja, Hjemmets Jordbund har en Magt</l>
+<l rend="noIndent">For Syden, som for Norden;</l>
+<l rend="noIndent">Det er, som var en Rav-Bund lagt,</l>
+<l rend="noIndent">Der drog, selv gjennem Jorden!</l>
+<l rend="noIndent">Og denne Hjemvee, sund og sand,</l>
+<pb n="187"/>
+<l rend="noIndent">Engang, paa større Vinger,</l>
+<l rend="noIndent">Os op til Aandens Fædreland,</l>
+<l rend="noIndent">Til Gud, vor Fader, bringer!</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_00426">
+<l rend="noIndent">Saa føle vi og synge det,</l>
+<l rend="noIndent">Det er Dit Hjertes Tanker.</l>
+<l rend="noIndent">Hvor Du blev født, har leet og grædt,</l>
+<l rend="noIndent">Og Venners Hjerte banker,</l>
+<l rend="noIndent">Du Kunstens Søn, Du danske Mand,</l>
+<l rend="noIndent">Her Dig »Velkommen« gives</l>
+<l rend="noIndent">I Landsoldatens stolte Land,</l>
+<l rend="noIndent">Hvor Aands <seg target="txtcmnt-187-01"><!--DATA-TERM: Guld-Æbler--><!--DATA-DEFINITION: bruges som symbol på fx rigdom, lykke, magt el. evig ungdom.-->Guld-Æbler</seg> trives!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="»Hjemmet«. Sang ved Festen for Maleren F. L. Storch den 14. Januar 1852" synch="hjemmet-sang-ved-festen-for-maleren-f-l-storch-den-14-januar-1852">
+<head type="section-comments">»Hjemmet«. Sang ved Festen for Maleren F. L. Storch den 14. Januar 1852</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 598</p>
+<table rend="textcomments">
+<cell type="page">186</cell><cell><row xml:id="txtcmnt-186-01"><cell type="data-term">14. Januar 1852</cell><cell type="data-definition">Storch opholdt sig i München fra 1835-1852, kun afbrudt af et ophold i Italien 1845-1846; sangen er sandsynligvis sunget i forbindelse med hans hjemkomst til Danmark.</cell></row><row xml:id="txtcmnt-186-02"><cell type="data-term">Menuetten af »Elverhøi.«</cell><cell type="data-definition">fra J.L. Heibergs romantiske skuespil <hi rend="italic">Elverhøi</hi>, V,1, 1828, med musik af Fr. Kuhlau.</cell></row><row xml:id="txtcmnt-186-03"><cell type="data-term">Gadens Bræt</cell><cell type="data-definition">datidens rendesten, som var dybe og brede, var med mellemrum forsynet med brædder for at lette passagen.</cell></row><row xml:id="txtcmnt-186-04"><cell type="data-term">Saugspaan</cell><cell type="data-definition">savspån, savsmuld.</cell></row><row xml:id="txtcmnt-186-05"><cell type="data-term">Fortougsret</cell><cell type="data-definition">fortovsret; giver den, der går med kantstenen på sin højre hånd, ret til at blive gående, således at mod<pb n="582"/>gående må vige til side; indført 1810.</cell></row><row xml:id="txtcmnt-186-06"><cell type="data-term">(damp)snel</cell><cell type="data-definition">hurtig.</cell></row><row xml:id="txtcmnt-186-07"><cell type="data-term">electrisk Traad</cell><cell type="data-definition">telegraf.</cell></row></cell>
+<cell type="page">187</cell><cell><row xml:id="txtcmnt-187-01"><cell type="data-term">Guld-Æbler</cell><cell type="data-definition">bruges som symbol på fx rigdom, lykke, magt el. evig ungdom.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

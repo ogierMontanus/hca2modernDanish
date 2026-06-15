@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Swan’s Nest</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="svanereden">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="svanereden_modern.xml">moderniseret version</note>
+                                                       <note target="102_The-Swans-Nest.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Between the Baltic and the North Sea lies an old swan’s nest and it is called De...</incipit><idno type="image">Svanereden_forside163.png</idno><popularity>937</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Swan’s Nest. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>fortiden</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-12" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-12" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body><div rend="The Swan’s Nest">
+             <head type="main" rend="The Swan’s Nest">The Swan’s Nest</head>                <p rend="noIndent" xml:id="p_00001">Between the Baltic and the North Sea lies an old swan’s nest and it is called <hi rend="italic">Denmark</hi>; in it swans were and are born whose names will never die.</p>
+          <p rend="firstIndent" xml:id="p_00002">In olden times a flock of swans flew from here over the Alps down to Milan’s green plains where it was a wonderful place to live; the flock of swans was called <hi rend="italic">Lombards</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00003">A second flock, with gleaming feathers and faithful eyes soared down towards Byzantium, placed itself round the Emperor’s throne there and spread out its large wings as shields to protect him. It was given the name <hi rend="italic">Varangians</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00004">From the coast of France a cry of fear could be heard for the bloody swans that with fire under their wings came from the North and the people prayed: ‘Deliver us from the wild <hi rend="italic">Normans</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00005">On the meadow-fresh sward of England down by the open shore stood the Danish swan with a triple crown on its head, it stretched out its golden sceptre over the land.</p>
+          <p rend="firstIndent" xml:id="p_00006">On the coasts of Pomerania the heathens bent the knee, and the Danish swans came with the flag of the cross and with drawn sword.</p>
+          <p rend="firstIndent" xml:id="p_00007">All that was in ancient times! you say.</p>
+          <p rend="firstIndent" xml:id="p_00008">Closer to our time mighty swans were seen flying from the nest.</p>
+          <p rend="firstIndent" xml:id="p_00009">There was a gleam through the air, a gleam over the countries of the world, the swan scattered the dawning mist with the powerful beating of its wings, and the starry vault of the sky became more visible, it was as if it came closer to the earth; this was the swan <hi rend="italic">Tycho Brahe</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes, back then!’ you say, ‘but in our own times!’ Then we saw swan fly with swan in a glorious great flight. One let its wing sweep over the golden harp’s strings and it sounded throughout the North, Norway’s mountains raised themselves higher in the light of the olden times; there was a sighing in pine and birch; the gods, heroes and noble women of the North stood out against the deep, dark forest floor.</p>
+          <p rend="firstIndent" xml:id="p_00011">We saw a swan beat with its wing against the marble rock, so that it broke and figures of beauty bound within the stone were revealed in broad daylight, and people in countries round the world craned their necks to see these mighty figures.</p>
+          <p rend="firstIndent" xml:id="p_00012">We saw a third swan spin threads of thought that are now linked from country to country round the world, so that words fly at lightning speed between them.</p>
+          <p rend="firstIndent" xml:id="p_00013"><hi rend="italic">The Lord God</hi> holds dear the old swan’s nest between the Baltic and the North Sea. Just let mighty birds come through the air to tear it asunder: ‘This shall never be!’ Even the downless young form a circle on the edge of the nest, this we have seen, they let their young breasts be hacked till the blood flows, they fight with beak and claw.</p>
+          <p rend="firstIndent" xml:id="p_00014">Centuries will yet pass, swans fly from the nest, be seen and heard around the world, before the time comes when in spirit and truth it can be said ‘this is the last swan, the last song from the swan’s nest!’</p></div>
+          </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Poesien</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="poesien" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Der er et herligt Land</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00315</section>
+                                                                 <date>1849</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Vor Junker kom i Skoven, der Grethe han saae</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00320</section>
+                                                                 <date>1849</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>See Sørgetoget gjennem Gyden gaaer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00323</section>
+                                                                 <date>1849</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>See, Hørren staaer saa slank og fri</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00326</section>
+                                                                 <date>1849</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1849</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#uden-faelles-titel-1849">[uden fælles titel]</cell>
+                                                       
+                                                            <cell ref="#rosen">Rosen</cell>
+                                                       
+                                                            <cell ref="#see-hoerren-staaer-saa-slank-og-fri">See, Hørren staaer saa slank og fri</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Poesien" xml:id="poesien"><pb n="140"/><head type="part">Poesien</head>
+<head type="melody"><hi rend="italic">Mel. »<seg target="txtcmnt-140-01"><!--DATA-TERM: Der er et yndigt Land--><!--DATA-DEFINITION: Oehlenschlägers nationalsang fra 1819 med melodi fra ca. 1835 af H.E. Krøyer.-->Der er et yndigt Land.«</seg></hi></head>
+<lg xml:id="p_00316">
+<l rend="noIndent" subtype="firstline" corresp="Der er et herligt Land" rendition="der-er-et-herligt-land">Der er et herligt Land,</l>
+<l rend="noIndent">Det kaldes <hi rend="italic">Poesien</hi>;</l>
+<l rend="noIndent">:|: Det naaer i Himlen op, :|:</l>
+<l rend="noIndent">Det rummes i en Rosenknop,</l>
+<l rend="noIndent">Og Hjerte-Melodien</l>
+<l rend="noIndent">:|: Boer paa dets grönne Strand. :|:</l>
+</lg>
+<lg xml:id="p_00317">
+<l rend="noIndent">Der faaes det rige Guld,</l>
+<l rend="noIndent">Hvorved Du Verdner vinder;</l>
+<l rend="noIndent">Der bliver Hjertet ungt;</l>
+<l rend="noIndent">Og er Dig Livet altfor tungt,</l>
+<l rend="noIndent">Du <seg target="txtcmnt-140-02"><!--DATA-TERM: Jacobsstigen--><!--DATA-DEFINITION: jf. 1. Mosebog 28,12.-->Jacobsstigen</seg> finder</l>
+<l rend="noIndent">Til Himlen underfuld.</l>
+</lg>
+<lg xml:id="p_00318">
+<l rend="noIndent">Der til et Skjönheds Digt</l>
+<l rend="noIndent">Sig Hverdags-Livet hæver;</l>
+<l rend="noIndent">Du föler, Gud er nær.</l>
+<l rend="noIndent">Det Forbigangne lever der;</l>
+<l rend="noIndent">Den stærke Tænker bæver,</l>
+<l rend="noIndent">Saa stort er her, saa rigt!</l>
+</lg>
+<lg xml:id="p_00319">
+<l rend="noIndent">Hvor Verden savner Ord,</l>
+<l rend="noIndent">Her liden Fugl har Sange;</l>
+<l rend="noIndent"><seg target="txtcmnt-140-03"><!--DATA-TERM: Held (Dig)--><!--DATA-DEFINITION: her brugt som ønske om held og lykke.-->Held <hi rend="italic">Dig</hi></seg>, som der blev <seg target="txtcmnt-140-04"><!--DATA-TERM: Drot--><!--DATA-DEFINITION: konge, hersker.-->Drot</seg>!</l>
+<l rend="noIndent">Ved Dig, alt Sandt og Skjönt og Godt,</l>
+<l rend="noIndent">– Trods <seg target="txtcmnt-140-05"><!--DATA-TERM: Paradisets Slange--><!--DATA-DEFINITION: 1. Mosebog 3,1 ff.-->Paradisets Slange</seg> –</l>
+<l rend="noIndent">Slaaer Glorie om vor Jord!</l>
+</lg>
+<lg xml:id="p_00320">
+<l rend="noIndent">Det Aandens <seg target="txtcmnt-140-06"><!--DATA-TERM: Hindostan--><!--DATA-DEFINITION: Hindustan; egentlig oprindelig betegnelse for Nordindien, landområdet mellem Vindhyabjergene og Himalaya; her: vidunderlige, eventyrlige rige.-->Hindostan</seg>,</l>
+<l rend="noIndent">Det Hjem for Melodien,</l>
+<l rend="noIndent">Det Pagtens Land med Gud,</l>
+<l rend="noIndent">Som staaer, naar Verdner slettes ud,</l>
+<l rend="noIndent">Det kaldes <hi rend="italic">Poesien</hi>,</l>
+<l rend="noIndent">Det Lysets Fædreland!</l>
+</lg>
+<pb n="141"/>
+<div type="work" subtype="poem" rendition="verse" rend="[uden fælles titel]" xml:id="uden-faelles-titel-1849"><head type="main" rendition="1849"><source subtype="foreign">[uden fælles titel]</source></head>
+<head type="part"><seg target="txtcmnt-141-01"><!--DATA-TERM: Slaaentjörnen--><!--DATA-DEFINITION: slåenbusken.-->Slaaentjörnen</seg></head>
+<lg xml:id="p_00321">
+<l rend="noIndent" subtype="firstline" corresp="Vor Junker kom i Skoven, der Grethe han saae" rendition="vor-junker-kom-i-skoven-der-grethe-han-saae">Vor <seg target="txtcmnt-141-02"><!--DATA-TERM: Junker--><!--DATA-DEFINITION: ung adelsmand, herremandssøn.-->Junker</seg> kom i Skoven, der Grethe han saae,</l>
+<l rend="noIndent">hun gik og samled’ Jordbær, hun trak dem paa Straae,</l>
+<l rend="noIndent">de modneste, de bedste, hvert friskt sødt,</l>
+<l rend="noIndent">»ei Grethelil!« saa talte han, »det var jo heldigt mødt,</l>
+<l rend="noIndent">jeg vil hjælpe med at plukke!«</l>
+</lg>
+<lg xml:id="p_00322">
+<l rend="noIndent">»Det rødeste, det bedste, jeg fandt denne Stund,</l>
+<l rend="noIndent">det sødeste, meest friske, det groer paa din Mund,</l>
+<l rend="noIndent">du veed ei selv din Rigdom, jeg seer den,</l>
+<l rend="noIndent">og derfor vil jeg hjælpe dig, jeg er en ærlig Ven,</l>
+<l rend="noIndent">jeg vil hjælpe med at plukke!«</l>
+</lg>
+<lg xml:id="p_00323">
+<l rend="noIndent">I Skoven stod en Slaaentjørn, den hørte derpaa,</l>
+<l rend="noIndent">før Junkeren det vidste, i Tjørnen han laae,</l>
+<l rend="noIndent">og Grethe løb, hun smiilte: »jo, jo Tak!«</l>
+<l rend="noIndent">den Slaaentjørn havde tornet Green, og alle Torne stak:</l>
+<l rend="noIndent">»jeg vil hjælpe med at plukke!«</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="work" subtype="poem" rendition="verse" rend="Rosen" xml:id="rosen"><head type="part">Rosen</head>
+<lg xml:id="p_00324">
+<l rend="noIndent" subtype="firstline" corresp="See Sørgetoget gjennem Gyden gaaer" rendition="see-soergetoget-gjennem-gyden-gaaer">See Sørgetoget gjennem Gyden gaaer,</l>
+<l rend="noIndent">det er et deiligt Solskin, Lærken slaaer,</l>
+<l rend="noIndent">paa Kistelaaget er en Rose lagt,</l>
+<l rend="noIndent">den unge Brud til Graven bliver bragt.</l>
+</lg>
+<lg xml:id="p_00325">
+<l rend="noIndent">I Gyden her, som Barn hun leged glad,</l>
+<l rend="noIndent">ved Hyldetræet hist som Brud hun sad,</l>
+<l rend="noIndent">ved <seg target="txtcmnt-141-03"><!--DATA-TERM: Stenten--><!--DATA-DEFINITION: overgangen over et gærde.-->Stenten</seg> der de skildtes, da han gik,</l>
+<l rend="noIndent">ved Stenten der om ham hun Dødsbud fik.</l>
+</lg>
+<lg xml:id="p_00326">
+<l rend="noIndent">Hvad drømte Rosen vel i Knoppen nys,</l>
+<l rend="noIndent">hvad drømte den ved Solens første Kys,</l>
+<l rend="noIndent">og ved det sidste glødende Farvel?</l>
+<l rend="noIndent">hvad drømmer den paa Kistens sorte <seg target="txtcmnt-141-04"><!--DATA-TERM: Fjel--><!--DATA-DEFINITION: fjæl; bræt.-->Fjel</seg>?</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="work" subtype="poem" rendition="verse" rend="See, Hørren staaer saa slank og fri" xml:id="see-hoerren-staaer-saa-slank-og-fri"><pb n="142"/><head type="part"><source subtype="foreign">See, Hørren staaer saa slank og fri</source></head>
+<lg xml:id="p_00327">
+<l rend="noIndent" subtype="firstline" corresp="See, Hørren staaer saa slank og fri" rendition="see-hoerren-staaer-saa-slank-og-fri">See, Hørren staaer saa slank og fri,</l>
+<l rend="noIndent">Hvor blomstrer hele Flokken!</l>
+<l rend="noIndent">Hver Klokke der har Melodi,</l>
+<l rend="noIndent">Men uden <seg target="txtcmnt-142-01"><!--DATA-TERM: Knevl--><!--DATA-DEFINITION: knebel; den bevægelige metalstang, som er ophængt indvendig i en klokke, og som får klokken til at ringe, når den slår mod dens side.-->Knevl</seg> er Klokken;</l>
+<l rend="noIndent">Du hører ei dens »ding, ding, dang!«</l>
+<l rend="noIndent">Nei, ikke nu – men først engang,</l>
+<l rend="noIndent">Naar Hørren ret har lidt og stridt,</l>
+<l rend="noIndent">Og ligger som Papiret hvidt; –</l>
+<l rend="noIndent">En Tonemester paa det slaaer,</l>
+<l rend="noIndent">En Fjer er Troldomsstaven,</l>
+<l rend="noIndent">Hvad Blomsten følte, synligt staaer,</l>
+<l rend="noIndent">I Klang det fra Papiret gaaer,</l>
+<l rend="noIndent">Liv svinger sig fra Graven.</l>
+</lg>
+</div>
+               
+               
+               
+               
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Poesien" synch="poesien">
+<head type="section-comments">Poesien</head>
+<p rend="noIndent">Først kendte tryk: den femte af ni sange i lejlighedstrykket <hi rend="italic">Festen for Adam Oehlenschläger. Den 14. November 1849</hi>, Oehlenschlägers 70-års fødselsdag. BFN 555</p>
+<table rend="textcomments">
+<cell type="page">140</cell><cell><row xml:id="txtcmnt-140-01"><cell type="data-term">Der er et yndigt Land</cell><cell type="data-definition">Oehlenschlägers nationalsang fra 1819 med melodi fra ca. 1835 af H.E. Krøyer.</cell></row><row xml:id="txtcmnt-140-02"><cell type="data-term">Jacobsstigen</cell><cell type="data-definition">jf. 1. Mosebog 28,12.</cell></row><row xml:id="txtcmnt-140-03"><cell type="data-term">Held (Dig)</cell><cell type="data-definition">her brugt som ønske om held og lykke.</cell></row><row xml:id="txtcmnt-140-04"><cell type="data-term">Drot</cell><cell type="data-definition">konge, hersker.</cell></row><row xml:id="txtcmnt-140-05"><cell type="data-term">Paradisets Slange</cell><cell type="data-definition">1. Mosebog 3,1 ff.</cell></row><row xml:id="txtcmnt-140-06"><cell type="data-term">Hindostan</cell><cell type="data-definition">Hindustan; egentlig oprindelig betegnelse for Nordindien, lan<pb n="573"/>dområdet mellem Vindhyabjergene og Himalaya; her: vidunderlige, eventyrlige rige.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

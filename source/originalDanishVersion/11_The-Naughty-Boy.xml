@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Naughty Boy</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-uartige-dreng">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-uartige-dreng_modern.xml">moderniseret version</note>
+                                                       <note target="11_The-Naughty-Boy.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once an old writer, a really kind old writer. One evening he was sitti...</incipit><idno type="image">Den_uartige_Dreng_forside.png</idno><popularity>945</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Naughty Boy. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kunst</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-04-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-04-27" xml:id="NHB">formatting</change><change who="NHB" when="2022-07-27">added italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Naughty Boy">
+          <head type="main" rend="The Naughty Boy">The Naughty Boy</head>                <p rend="noIndent" xml:id="p_00001">There was once an old writer, a really kind old writer. One evening he was sitting at home, a terrible storm blew up outside; the rain poured down, but the old writer sat warm and cosy beside his stove, where the fire was burning and the apples turning.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Any poor person out in this weather won’t have a stitch of dry clothing left on him!’ he said, for he was such a kind writer.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Oh, open your door to me! I’m freezing cold and so wet!’ a small child outside called out. He was crying and knocking on the door while the rain was pouring down and the wind shaking all the windows.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Oh, you poor little thing!’ the old writer said, and went over to open the door. There a small boy stood; he was completely naked and the water was streaming down his long blond hair. He was trembling with the cold and if he hadn’t been allowed in, he would surely have died in that awful weather.</p>
+          <p rend="firstIndent" xml:id="p_00005">‘You poor little thing!’ the old writer said and took him by the hand. ‘Come inside, I’ll get you nice and warm! I’ll give you some wine and an apple, for you’re a lovely boy!’</p>
+          <p rend="firstIndent" xml:id="p_00006">And he certainly was. His eyes looked like two bright stars, and although the water was running down his yellow hair, it had beautiful curls even so. He looked like a little angel, but was so pale with the cold and his whole body was shaking. In his hand he had a fine bow, but it had been completely spoilt by the rain; all the colours on the beautiful arrows had started to run in the downpour.</p>
+          <p rend="firstIndent" xml:id="p_00007">The old writer sat down beside the stove, took the small boy on his lap, wrung the water out of his hair, warmed his hands in his own, and heated sweet wine for him; then he recovered, his cheeks were rosy once more, he leapt down onto the floor and danced round the old writer.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘You’re a merry lad!’ the old man said. ‘What’s your name?’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘My name is <hi rend="italic">Cupid</hi>!’ he answered, ‘don’t you know me? There lies my bow! I shoot with it, believe you me! look, now the weather’s clearing up outside – the moon’s shining!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘But your bow is all spoilt!’ the old writer said.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘That’s bad!’ the little boy said, picked it up and looked at it. ‘Oh, it’s perfectly dry, no harm has come to it! the string is quite taut! now I’ll try it out!’ Then he pulled back the string, placed an arrow in position, aimed and shot the kind old writer right in the heart: ‘See, my bow wasn’t spoilt at all!’ he said, laughed out loud and ran off. The naughty boy! to shoot at the old writer like that, after he had let him inside his warm living room, been so kind to him and given him the delicious wine and the very best apple.</p>
+          <p rend="firstIndent" xml:id="p_00012">The good writer lay on the floor and wept, he really had been shot right in the heart, and then he said: Shame on him! What a naughty boy that <hi rend="italic">Cupid</hi> is! I’ll tell all good children to make sure never to play with him, for he will do them great mischief!’</p>
+          <p rend="firstIndent" xml:id="p_00013">All the good children, girls and boys, he told about this, were on their guard against that bad boy <hi rend="italic">Cupid</hi>, but he fooled them nevertheless, for he is so cunning! When students leave their lectures, he runs alongside them, with a book under his arm and a black frock coat on. They completely fail to recognise him, and they take him by the arm and believe he is a student too, but then he fires an arrow into their breast. When the girls leave the vicar, and when they are standing on the church floor, he’s after them as well. Yes, he’s after people all the time! He sits up in the great chandelier at the theatre and blazes brightly, so people think he is a lamp – but they feel something completely different later. He walks around in the Royal Gardens and on the Embankment! yes, he’s even shot your father and mother right in the heart once! Just ask them, and listen to what they say. Oh yes, he’s a bad boy, that <hi rend="italic">Cupid</hi> – never have anything to do with him! He’s after everyone. Just think, he even shot an arrow at old grandmother, but that’s a long time ago, she’s over it by now, though she’s never forgotten a thing like that. Shame on him, that bad <hi rend="italic">Cupid</hi>! But now you know him! know what a naughty boy he is!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den lille Idas blomster</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Eventyr, fortalte for Børn</i>. <i>Første Hefte</i>, som udkom den 8. maj 1835.<br/>
+BFN 270/I,43-49/VII,26-29.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-lille-idas-blomster" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="den-lille-idas-blomster_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="9_Little-Idas-Flowers">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>»Mine stakkels Blomster ere ganske døde!« sagde den lille Ida. »De vare saa smuk...</incipit><readingTime>14</readingTime><popularity>970</popularity><cite>&lt;p&gt;H.C. Andersen: Den lille Idas blomster. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Den_lille_Idas_Blomster_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1835</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tingseventyr</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den lille Idas blomster" xml:id="den-lille-idas-blomster">
+<pb n="100"/><head type="main">Den lille <hi rend="italic">Ida</hi>s blomster</head>
+
+<p rend="noIndent" xml:id="p_00001">»Mine stakkels Blomster ere ganske døde!« sagde den lille <hi rend="italic">Ida</hi>. »De vare saa smukke iaftes, og nu hænge alle Bladene visne! Hvorfor gjøre de det?« spurgte hun Studenten, der sad i Sophaen; for ham holdt hun saa meget af, han kunde de allerdeiligste Historier og klippede saadanne morsomme Billeder: Hjerter med smaa Madammer i, der dandsede; Blomster og store Slotte, hvor Dørene kunde lukkes op; det var en lystig Student! »Hvorfor see Blomsterne saa daarlige ud i Dag?« spurgte hun igjen, og viste ham en heel Bouquet, der var ganske vissen.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Ja veed Du, hvad de feile!« sagde Studenten. »Blomsterne have været paa Bal i Nat, og derfor hænge de med Hovedet!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Men Blomsterne kunne jo ikke dandse!« sagde den lille <hi rend="italic">Ida</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Jo,« sagde Studenten, »naar det bliver mørkt og vi andre sove, saa springe de lystigt omkring; næsten hver evige Nat har de Bal!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Kan der ingen Børn komme med paa det Bal?«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Jo,« sagde Studenten, »smaabitte <seg target="txtcmnt-100-01"><!--DATA-TERM: Gaaseurt(er)--><!--DATA-DEFINITION: tusindfryd, bellis.-->Gaaseurter</seg> og Lillieconvaller!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Hvor dandse de pæneste Blomster,« spurgte lille <hi rend="italic">Ida</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Har Du ikke tidt været ude af Porten ved det store Slot, hvor Kongen boer om Sommeren, hvor den deilige Have er med de mange Blomster? Du har jo seet Svanerne, der svømme hen til dig, naar Du vil give dem Brødkrummer. Derude er rigtigt Bal, kan Du troe!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Jeg var der ude i Haven igaar med min Moder!« sagde <hi rend="italic">Ida</hi>, »men alle Bladene vare af Træerne, og der var slet ingen Blomster meer! hvor ere de? I Sommer saae jeg saa mange!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">»De ere inde paa Slottet!« sagde Studenten. »Du maa vide, at ligesaa snart Kongen og alle Hoffolkene flytte herind til Byen, saa løbe Blomsterne strax fra Haven op paa Slottet og ere lystige. Det skulde Du see! De to allersmukkeste Roser sætte sig paa Thronen, og saa ere de Konge og Dronning. Alle de røde <seg target="txtcmnt-100-02"><!--DATA-TERM: Hanekamme--><!--DATA-DEFINITION: kodrivere.-->Hanekamme</seg> stille sig op ved Siden, og staae og bukke, de ere <pb n="101"/>Kammerjunkere. – Saa komme alle de nydeligste Blomster, og saa er der stort Bal, de blaa Violer forestille smaa <seg target="txtcmnt-101-01"><!--DATA-TERM: Søcadet(ter)--><!--DATA-DEFINITION: elev ved søværnets officersskole.-->Søcadetter</seg>, de dandse med Hyazinter og Crocus, som de kalde Frøkener! Tulipanerne og de store gule Lillier, det er gamle Fruer, de passe paa, at der bliver dandset net, og at det gaaer <seg target="txtcmnt-101-02"><!--DATA-TERM: pænt--><!--DATA-DEFINITION: korrekt, anstændigt.-->pænt</seg> til!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Men,« spurgte lille <hi rend="italic">Ida</hi>, »er der ingen, som gjør Blomsterne noget, fordi de dandse paa Kongens Slot?«</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Der er Ingen, som rigtigt veed af det!« sagde Studenten. »Sommetider, om Natten, kommer rigtignok den gamle Slotsforvalter, der skal passe paa derude, han har et stort Knippe Nøgler med sig, men saasnart Blomsterne høre Nøglerne rasle, saa blive de ganske stille, skjule sig bag ved de lange Gardiner og stikke Hovedet frem. »Jeg kan lugte, her ere nogle Blomster inde,« siger den gamle Slotsforvalter, men han kan ikke see dem.«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Det er morsomt!« sagde den lille <hi rend="italic">Ida</hi> og klappede i Hænderne. »Men kunde jeg heller ikke see Blomsterne?«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jo,« sagde Studenten, »husk bare paa, naar du kommer der ud igjen, at kige ind af Vinduet, saa seer Du dem nok. Det gjorde jeg i Dag, der laae en lang guul Paaskelillie i Sophaen og strakte sig, det var en Hofdame!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Kan ogsaa Blomsterne i den botaniske Have komme der ud? Kan de komme den lange Vei?«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Ja, det kan Du troe!« sagde Studenten, »for naar de ville, saa kunne de flyve. Har Du ikke nok seet de smukke Sommerfugle, de røde, gule og hvide, de see næsten ud som Blomster, det have de ogsaa været, de ere sprungne af Stilken høit op i Luften, og har da slaaet med Bladene, ligesom de vare smaa Vinger, og saa fløi de; og da de førte sig godt op, fik de Lov at flyve om ogsaa ved Dagen, skulde ikke hjem igjen, og sidde stille paa Stilken, og saa blev Bladene tilsidst til virkelige Vinger. Det har Du jo selv seet! Det kan ellers gjerne være, at Blomsterne inde i den botaniske Have aldrig have været ude paa Kongens Slot, eller veed, at der er saa lystigt der om Natten. Nu skal jeg derfor sige dig noget! saa vil han blive saa forbauset, den botaniske Professor, der boer ved Siden af, Du kjender ham jo nok? Naar Du kommer ind i hans Have, skal Du fortælle en af Blomsterne, at der er stort Bal ude paa Slottet, saa siger den det igjen til alle de andre, og da flyve de afsted; kommer da Professoren ud i Haven, saa er der ikke en eneste Blomst, og han kan slet ikke forstaae, hvor de ere henne.«</p>
+
+<pb n="102"/><p rend="firstIndent" xml:id="p_00017">»Men <seg target="txtcmnt-102-01"><!--DATA-TERM: hvor kan Blomsten--><!--DATA-DEFINITION: hvordan kan blomsten.-->hvor kan Blomsten</seg> fortælle det til de andre? Blomsterne kunne jo ikke tale!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Nei, det kunne de rigtignok ikke!« svarede Studenten; »men saa gjøre de Pantomime! Har Du ikke nok seet, at naar det blæser lidt, saa nikke Blomsterne, og bevæge alle de grønne Blade, det er ligesaa tydeligt, som om de talte!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Kan Professoren da forstaae Pantomime?« spurgte <hi rend="italic">Ida</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Ja, det kan Du troe! Han kom en Morgen ned i sin Have og saae en stor Brændenelde staae at gjøre Pantomime med Bladene til en deilig rød Nellike; den sagde, du er saa nydelig og jeg holder saa meget af dig! men saadan noget kan Professoren nu slet ikke lide, og slog strax Brændenelden over Bladene, for de ere dens Fingre, men saa brændte han sig, og fra den Tid tør han aldrig røre ved en Brændenelde.«</p>
+<p rend="firstIndent" xml:id="p_00021">»Det var morsomt!« sagde den lille <hi rend="italic">Ida</hi> og loe.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Er det at bilde Barnet saadan noget ind!« sagde den kjedelige Cancellieraad, der var kommen i Visit og sad i Sophaen; han kunde slet ikke lide Studenten og <seg target="txtcmnt-102-02"><!--DATA-TERM: gnavede--><!--DATA-DEFINITION: surmulede.-->gnavede</seg> alletider, naar han saae ham klippe de løierlige, moersomme Billeder: snart en Mand, der hang i en Galge og holdt et Hjerte i Haanden, for han var en Hjertetyv, snart en gammel Hex, der red paa en Kost og havde sin Mand paa Næsen; det kunde Cancellieraaden ikke lide, og saa sagde han, ligesom nu, »er det noget, at bilde Barnet ind! det er den dumme Phantasie!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">Men den lille <hi rend="italic">Ida</hi> syntes dog, det var saa morsomt, hvad Studenten fortalte om hendes Blomster, og hun tænkte saa meget derpaa. Blomsterne hang med Hovedet, fordi de vare trætte af at dandse hele Natten, de vare bestemt syge. Saa gik hun med dem hen til alt sit andet Legetøi, der stod paa et pænt lille Bord, og hele Skuffen var fuld af Stads. I Dukkesengen laae hendes Dukke, <hi rend="italic">Sophie</hi>, og sov, men den lille <hi rend="italic">Ida</hi> sagde til hende: »Du maa virkelig staae op, Sophie, og tage til Takke med at ligge i Skuffen i Nat, de stakkels Blomster ere syge, og saa maa de ligge i din Seng, maaskee de da blive raske!« og saa tog hun Dukken op, men den saae saa tvær ud og sagde ikke et eneste Ord, for den var vred, fordi den ikke maatte beholde sin Seng.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Saa lagde <hi rend="italic">Ida</hi> Blomsterne i Dukkesengen, trak det lille Teppe heelt op om dem og sagde, nu skulde de ligge smukt stille, saa vilde hun koge Theevand til dem, at de kunde blive raske og komme op imorgen, og hun trak Gardinerne tæt om den lille Seng, for at Solen ikke skulde skinne dem ind i Øinene.</p>
+
+<pb n="103"/>
+
+<pb n="104"/><p rend="firstIndent" xml:id="p_00025">Hele Aftenen igjennem kunde hun ikke lade være at tænke paa, hvad Studenten havde fortalt hende, og da hun nu selv skulde i Seng, maatte hun først hen bag Gardinerne, der hang ned for Vinduerne, hvor hendes Moders deilige Blomster stod, baade Hyacinther og Tulipaner, og saa hvidskede hun ganske sagte: Jeg veed nok, I skal paa Bal i Nat! men Blomsterne lod, som om de ingenting forstod og rørte ikke et Blad, men lille <hi rend="italic">Ida</hi> vidste nok, hvad hun vidste.</p>
+
+<p rend="firstIndent" xml:id="p_00026">Da hun var kommet i Seng, laae hun længe og tænkte paa, hvor nydeligt det kunde være at see de deilige Blomster dandse derude paa Kongens Slot. »Mon mine Blomster virkelig have været med?« Men saa faldt hun i Søvn. Ud paa Natten vaagnede hun igjen, hun havde drømt om Blomsterne og Studenten, som Cancellieraaden skjændte paa og sagde vilde bilde hende noget ind. Der var ganske stille i Sovekammeret, hvor <hi rend="italic">Ida</hi> laae; Natlampen brændte henne paa Bordet, og hendes Fader og Moder sov.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Mon mine Blomster nu ligge i <hi rend="italic">Sophies</hi> Seng?« sagde hun ved sig selv, »hvor jeg dog gjerne vilde vide det!« Hun reiste sig lidt og saae hen til Døren, der stod halv paa Klem, derinde laae Blomsterne og alt hendes Legetøi. Hun lyttede efter, og da var det ligesom om hun hørte, at der blev spillet paa Claveer inde i Stuen, men ganske sagte, og saa nydeligt, som hun aldrig før havde hørt det.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Nu dandse vist alle Blomsterne derinde!« sagde hun, »o Gud, hvor jeg dog gjerne vilde see det!« men hun turde ikke staae op, for saa vækkede hun sin Fader og Moder. »Bare de dog vilde komme herind,« sagde hun; men Blomsterne kom ikke og Musiken vedblev at spille saa nydeligt, da kunde hun slet ikke lade være, for det var altfor deiligt, hun krøb ud af sin lille Seng og gik ganske sagte hen til Døren og kigede ind i Stuen. Nei, hvor det var moersomt, hvad hun fik at see!</p>
+
+<p rend="firstIndent" xml:id="p_00029">Der var slet ingen Natlampe derinde, men alligevel ganske lyst, Maanen skinnede gjennem Vinduet midt ind paa Gulvet! det var næsten ligesom det kunde være Dag. Alle Hyacintherne og Tulipanerne stode i to lange Rækker paa Gulvet, der vare slet ingen flere i Vinduet, der stode tomme Potter, nede paa Gulvet dandsede alle Blomsterne saa nydeligt rundt om hinanden, gjorde ordentlig Kjæde og holdt hverandre i de lange grønne Blade, naar de svingede rundt. Men henne ved Claveret sad en stor guul Lillie, som lille Ida bestemt havde seet i Sommer, for hun huskede godt, Studenten havde sagt: »nei, <pb n="105"/>hvor den ligner Frøken Line!« men da loe de Allesammen af ham; men nu syntes virkelig Ida ogsaa, at den lange gule Blomst lignede Frøkenen, og den bar sig ogsaa ligesaadan ad med at spille, snart lagde den sit aflange gule Ansigt paa den ene Side, snart paa den anden, og nikkede Takten til den deilige Musik! Slet ingen mærkede den lille <hi rend="italic">Ida</hi>. Nu saae hun en stor blaa <hi rend="italic">Crocus</hi> hoppe midt op paa Bordet, hvor Legetøiet stod, gaae lige hen til Dukkesengen og trække Gardinerne til Side, der laae de syge Blomster, men de reiste sig strax op og nikkede ned til de andre at de ogsaa vilde med at dandse. Den gamle <seg target="txtcmnt-105-01"><!--DATA-TERM: Røgmand--><!--DATA-DEFINITION: lille figur med hul i munden til en røgelsespind.-->Røgmand</seg>, som Underlæben var brækket af, stod op og bukkede for de pæne Blomster, de saae slet ikke syge ud, de hoppede ned mellem de andre og vare saa fornøiede.</p>
+
+<p rend="firstIndent" xml:id="p_00030">Det var ligesom om noget faldt ned af Bordet, Ida saae derhen, det var Fastelavns-Riset, der sprang ned, det syntes ogsaa, at det hørte med til Blomsterne. Det var ogsaa meget nydeligt, og oveni sad en lille Voxdukke, der havde just saadan en bred Hat paa Hovedet, som den Cancellieraaden gik med. Fastelavns-Riset hoppede paa sine tre røde Træbeen midt ind imellem Blomsterne, og trampede ganske stærkt, for det dandsede <seg target="txtcmnt-105-02"><!--DATA-TERM: Masurka--><!--DATA-DEFINITION: livlig polsk pardans.-->Masurka</seg>, og den Dands kunde de andre Blomster ikke, fordi de vare saa lette og kunde ikke trampe.</p>
+
+<p rend="firstIndent" xml:id="p_00031">Voxdukken paa Fastelavnsriset blev lige med eet stor og lang, snurrede sig rundt ovenover Papirsblomsterne og raabte ganske høit: »Er det at bilde Barnet saadan noget ind! det er den dumme Phantasie!« og saa lignede Voxdukken ganske accurat Cancellieraaden med den brede Hat, saae ligesaa guul og gnaven ud, men Papirsblomsterne slog ham om de tynde Been, og saa krøb han sammen igjen og blev en lille bitte Voxdukke. Det var saa moersomt at see! den lille <hi rend="italic">Ida</hi> kunde ikke lade være at lee. Fastelavnsriset blev ved at dandse, og Cancellieraaden maatte dandse med, det hjalp ikke, enten han gjorde sig stor og lang eller blev den lille gule Voxdukke med den store, sorte Hat. Da bad de andre Blomster for ham, især de, der havde ligget i Dukkesengen, og saa lod Fastelavnsriset være. I det samme bankede det ganske stærkt inde i Skuffen, hvor Idas Dukke, <hi rend="italic">Sophie</hi>, laae ved saa meget andet Legetøi; Røgmanden løb hen til Kanten af Bordet, lagde sig langs ud paa sin Mave og fik Skuffen en lille Smule trukket ud. Der reiste Sophie sig op, og saae ganske forundret rundtomkring. »Her er nok Bal!« sagde hun; »hvorfor er der ingen, der har sagt mig det!«</p>
+<p rend="firstIndent" xml:id="p_00032">»Vil Du dandse med mig?« sagde Røgmanden.</p>
+
+<pb n="106"/><p rend="firstIndent" xml:id="p_00033">»Jo, Du er en pæn En at dandse med!« sagde hun og vendte ham Ryggen. Saa satte hun sig paa Skuffen og tænkte, at nok en af Blomsterne vilde komme at <seg target="txtcmnt-106-01"><!--DATA-TERM: engagere--><!--DATA-DEFINITION: byde op til dans.-->engagere</seg> hende, men der kom ingen, saa hostede hun, hm, hm, hm! men alligevel kom der ikke Een. Røgmanden dandsede saa ganske alene, og det var ikke saa daarligt!</p>
+
+<p rend="firstIndent" xml:id="p_00034">Da nu ingen af Blomsterne syntes at see <hi rend="italic">Sophie</hi>, lod hun sig dumpe fra Skuffen lige ned paa Gulvet, saa det gav en stor Alarm; alle Blomsterne kom ogsaa løbende hen rundt omkring hende og spurgte, om hun ikke havde slaaet sig, og de vare alle saa <seg target="txtcmnt-106-02"><!--DATA-TERM: nydelige--><!--DATA-DEFINITION: venlige, betænksomme.-->nydelige</seg> imod hende, især Blomsterne, der havde ligget i hendes Seng; men hun havde slet ikke slaaet sig, og alle Idas Blomster sagde Tak for den deilige Seng og holdt saa meget af hende, tog hende midt hen paa Gulvet hvor Maanen skinnede, dandsede med hende, og alle de andre Blomster gjorde en Kreds udenom; nu var <hi rend="italic">Sophie</hi> fornøiet! og hun sagde, de maatte gjerne beholde hendes Seng, hun <seg target="txtcmnt-106-03"><!--DATA-TERM: brød sig slet ikke om--><!--DATA-DEFINITION: havde ikke noget imod.-->brød sig slet ikke om</seg> at ligge i Skuffen.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Men Blomsterne sagde: »Du skal have saa mange Tak, men vi kan ikke leve saa længe! imorgen ere vi ganske døde; men siig til den lille <hi rend="italic">Ida</hi>, at hun skal begrave os ude i Haven, hvor Kanarifuglen ligger, saa voxe vi op igjen til Sommer og blive meget smukkere!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Nei, I maae ikke døe!« sagde <hi rend="italic">Sophie</hi>, og saa kyssede hun Blomsterne; i det samme gik <seg target="txtcmnt-106-04"><!--DATA-TERM: Salsdøren--><!--DATA-DEFINITION: døren til den store stue, stadsestuen.-->Salsdøren</seg> op, og en heel Mængde deilige Blomster kom dandsende ind, <hi rend="italic">Ida</hi> kunde slet ikke begribe, hvor de vare komne fra, det var bestemt alle Blomsterne ude fra Kongens Slot. Allerforrest gik to deilige Roser, og de havde smaa Guldkroner paa, det var en Konge og en Dronning, saa kom de nydeligste Levkøier og Nelliker og de hilste til alle Sider. De havde Musik med, store Valmuer og <seg target="txtcmnt-106-05"><!--DATA-TERM: Pioner--><!--DATA-DEFINITION: pæoner, bonderoser.-->Pioner</seg> blæste i Ærtebælge saa de vare ganske røde i Hovedet. De blaa Klokker og de smaa hvide <seg target="txtcmnt-106-06"><!--DATA-TERM: Sommergjække--><!--DATA-DEFINITION: vintergækker.-->Sommergjække</seg> klingede, ligesom de havde Bjelder paa. Det var en morsom Musik. Saa kom der saa mange andre Blomster, og de dandsede allesammen, de blaa Violer og de røde Bellis, Gaaseurterne og Lillieconvallerne. Og alle Blomsterne kyssede hinanden, det var nydeligt at see!</p>
+
+<p rend="firstIndent" xml:id="p_00037">Tilsidst sagde Blomsterne hinanden god Nat, saa listede ogsaa den lille <hi rend="italic">Ida</hi> sig hen i Sengen, hvor hun drømte om alt, hvad hun havde seet.</p>
+
+<p rend="firstIndent" xml:id="p_00038">Da hun næste Morgen kom op, gik hun <seg target="txtcmnt-106-07"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg> hen til det lille Bord, for at see om Blomsterne vare der endnu, hun trak <pb n="107"/>Gardinet til Side fra den lille Seng, ja, der laae de allesammen, men de vare ganske visne, meget meer end igaar. <hi rend="italic">Sophie</hi> laae i Skuffen, hvor hun havde lagt hende, hun saae meget søvnig ud.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Kan Du huske, hvad Du skulde sige til mig,« sagde den lille <hi rend="italic">Ida</hi>, men <hi rend="italic">Sophie</hi> saae ganske dum ud og sagde ikke et eneste Ord.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Du er slet ikke god,« sagde Ida, »og de dandsede dog allesammen med Dig.« Saa tog hun en lille Papirsæske, der var tegnet nydelige Fugle paa, den lukkede hun op og lagde de døde Blomster i den. »Det skal være Eders nydelige Liigkiste,« sagde hun, »og naar siden de norske Fættere komme herhen, saa skal de være med at begrave Eder ude i Haven, at I til Sommer kan voxe op og blive endnu meget smukkere!«</p>
+
+<p rend="firstIndent" xml:id="p_00041">De norske Fættere vare to raske Drenge, de hed <hi rend="italic">Jonas</hi> og <hi rend="italic">Adolph</hi>; deres Fader havde foræret dem to nye Flitsbuer, og disse havde de med at vise Ida. Hun fortalte dem om de stakkels Blomster, der vare døde, og saa fik de Lov at begrave dem. Begge Drengene gik foran med Flitsbuerne paa Skuldren, og den lille <hi rend="italic">Ida</hi> bagefter med de døde Blomster i den nydelige Æske; ude i Haven blev gravet en lille Grav; Ida kyssede først Blomsterne, satte dem saa med Æsken ned i Jorden, og <hi rend="italic">Adolph</hi> og <hi rend="italic">Jonas</hi> skjød med Flitsbuer over Graven, for de havde ingen Geværer eller Kanoner.</p>
+
+
+
+<pb n="108"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Den lille Idas Blomster" xml:id="den-lille-idas-blomster">
+<head type="section-comments">Den lille <hi rend="italic">Idas</hi> Blomster</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Eventyr, fortalte for Børn</hi>. <hi rend="italic">Første Hefte</hi>, som udkom den 8. maj 1835.<br/>
+BFN 270/I,43-49/VII,26-29.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">101,15</cell><cell type="deviation">dem.« &lt; dem.</cell></row>
+<row><cell type="position">105,28</cell><cell type="deviation">ud, &lt; ud.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">100</cell><row xml:id="txtcmnt-100-01"><cell type="data-term">Gaaseurt(er)</cell><cell type="data-definition">tusindfryd, bellis.</cell></row><row xml:id="txtcmnt-100-02"><cell type="data-term">Hanekamme</cell><cell type="data-definition">kodrivere.</cell></row>
+<cell type="page">101</cell><row xml:id="txtcmnt-101-01"><cell type="data-term">Søcadet(ter)</cell><cell type="data-definition">elev ved søværnets officersskole.</cell></row><row xml:id="txtcmnt-101-02"><cell type="data-term">pænt</cell><cell type="data-definition">korrekt, anstændigt.</cell></row>
+<cell type="page">102</cell><row xml:id="txtcmnt-102-01"><cell type="data-term">hvor kan Blomsten</cell><cell type="data-definition">hvordan kan blomsten.</cell></row><row xml:id="txtcmnt-102-02"><cell type="data-term">gnavede</cell><cell type="data-definition">surmulede.</cell></row>
+<cell type="page">105</cell><row xml:id="txtcmnt-105-01"><cell type="data-term">Røgmand</cell><cell type="data-definition">lille figur med hul i munden til en røgelsespind.</cell></row><row xml:id="txtcmnt-105-02"><cell type="data-term">Masurka</cell><cell type="data-definition">livlig polsk pardans.</cell></row>
+<cell type="page">106</cell><row xml:id="txtcmnt-106-01"><cell type="data-term">engagere</cell><cell type="data-definition">byde op til dans.</cell></row><row xml:id="txtcmnt-106-02"><cell type="data-term">nydelige</cell><cell type="data-definition">venlige, betænksomme.</cell></row><row xml:id="txtcmnt-106-03"><cell type="data-term">brød sig slet ikke om</cell><cell type="data-definition">havde ikke noget imod.</cell></row><row xml:id="txtcmnt-106-04"><cell type="data-term">Salsdøren</cell><cell type="data-definition">døren til den store stue, stadsestuen.</cell></row><row xml:id="txtcmnt-106-05"><cell type="data-term">Pioner</cell><cell type="data-definition">pæoner, bonderoser.</cell></row><row xml:id="txtcmnt-106-06"><cell type="data-term">Sommergjække</cell><cell type="data-definition">vintergækker.</cell></row><row xml:id="txtcmnt-106-07"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row>
+</table>
+
+<pb n="504"/>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Twelve by Mail Coach</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="tolv-med-posten">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="tolv-med-posten_modern.xml">moderniseret version</note>
+                                                       <note target="148_Twelve-by-Mail-Coach.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was a crunching frost underfoot, a starry sky, dead calm. ‘Thud!’ a pot wa...</incipit><idno type="image">Tolv_med_Posten_hca_ill_0089.png</idno><popularity>904</popularity><cite>&lt;p&gt;Hans Christian Andersen: Twelve by Mail Coach. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-03" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-03" who="NHB">formatted</change><change who="NHB" when="2022-10-03" status="approved">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Twelve by Mail Coach">
+               <head type="main" rend="Twelve by Mail Coach">Twelve by Mail Coach</head>                <p rend="noIndent" xml:id="p_00001">There was a crunching frost underfoot, a starry sky, dead calm. ‘Thud!’ a pot was broken against the door, ‘Bang!’ the New Year was getting off to a noisy start; it was New Year’s Eve; now twelve o’clock struck.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘Tantantera!’ that was the mail coach arriving. The large coach had stopped outside the city gate, it had twelve passengers on board, there was no room for more, all the seats were taken.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Hurrah! Hurrah!’ was being sung inside the houses, where people were celebrating New Year’s Eve and had just risen to their feet, their glasses filled, and were toasting the New Year:</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Good health in the New Year!’ they said, ‘a nice wife! lots of money! An end to all troubles!’</p>
+               <p rend="firstIndent" xml:id="p_00005">Yes, that was what they wished each other and glasses were chinked and – the mail coach had stopped outside the city gate with the unknown visitors, the twelve travellers.</p>
+               <p rend="firstIndent" xml:id="p_00006">What sort of people were they? They had their passports and luggage with them, yes, gifts to you and me and everyone in the city. Who were the strangers? What did they want and what were they bringing with them?</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Good morning!’ they said to the sentry at the gate.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Good morning!’ he said, for the clock had struck twelve.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Your name? Your occupation?’ the <hi rend="italic">sentry</hi> asked the one who alighted from the coach first.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Look in my passport!’ the man said. ‘I am who I am!’ He was also a strapping fellow, clad in bearskin furs and wearing boots with runners. ‘I am the man who a very great many people put their trust in. Come tomorrow and get a real New Year! I throw shillings and thalers left and right, give away presents, I give balls, no less than thirty-one balls, I have no more nights to give away than that. My ships lie ice-bound, but it is warm inside my office. I am a merchant and my name is <hi rend="italic">January</hi>. I have nothing but bills with me!’</p>
+               <p rend="firstIndent" xml:id="p_00011">Out came the next one, he was a joker, a director of comedies, masquerades and all conceivable types of entertainment. His luggage consisted of a large barrel.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘We’ll beat a lot more than the cat out of the barrel at Shrovetide!’ he said. ‘I will amuse others and myself too, for I have the shortest lifespan of the entire family – I only live to be twenty-eight well, perhaps I get an extra day, but that makes little difference. Hurrah!’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘You mustn’t shout so loud!’ the <hi rend="italic">sentry</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Oh yes, I certainly must!’ the man said, ‘I am Prince Carnival and travel under the name of <hi rend="italic">Februarius</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00015">Now the third one appeared; he looked exactly like Lent, but held his head up high, for he was related to ‘the forty knights’ and was a weather prophet; but that is not a plum job, so he praised the season of Lent. His adornment was a sprig of violets in his buttonhole, although they were very small.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘<hi rend="italic">March</hi>, quick march!’ the fourth one shouted and gave the third one a shove.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘<hi rend="italic">March</hi>, quick march! Into the guardhouse, here there’s punch! I can smell it!’ but this wasn’t true, April wanted to fool him, that was how the fourth fellow began. He seemed pretty jaunty, but didn’t really do all that much, had plenty of holidays! ‘Seesawing spirits!’ he said, ‘rain and sunshine, moving out and moving in! I am also quarter-day commissar, I am an undertaker, I can both laugh and cry. I have summer clothes in my suitcase, but it would be quite stupid to put it on. Here I am! For show I wear silk stockings and a muff!’</p>
+               <p rend="firstIndent" xml:id="p_00018">And now a lady emerged from the coach.</p>
+               <p rend="firstIndent" xml:id="p_00019">‘Miss <hi rend="italic">May</hi>!’ she said. In summer clothes and galoshes; she was clad in a beech-leaf-green silken dress, with anemones in her hair, and she also had a strong scent of woodruff, which caused the <hi rend="italic">sentry</hi> to sneeze. ‘God bless you!’ she said, that was her greeting. She was so pretty! and she was a singer; not in the theatre but out in the woods; not in tents, no, she walked out in the fresh, green woods and sang for her own pleasure; in her workbag she had <hi rend="italic">Christian Winther’s</hi> ‘Woodcuts’, for they are like the beechwood itself, and <hi rend="italic">‘Little Poems by Richardt’</hi>, they are like woodruff.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Now the lady’s coming, the young lady!’ they cried out from inside the coach, and out the lady came, young and fine, proud and pretty. She was born to be a ‘<hi rend="italic">lie-a-bed’</hi>, that one could see at once. She threw a party out of the longest day of the year, so that one could have time to eat all the many dishes; she could afford to journey in her own coach, but came with the mail coach just like the others, she wanted to demonstrate that she was not at all haughty; nor was she travelling alone, she had her younger brother <hi rend="italic">Julius</hi> with her.</p>
+               <p rend="firstIndent" xml:id="p_00021">He was stout, in summer clothes and wearing a panama hat. He had but little luggage, it was so troublesome in the hot weather. He only had a bathing cap and swimming trunks, and that is not very much.</p>
+               <p rend="firstIndent" xml:id="p_00022">Now the missus came, Madam <hi rend="italic">August</hi>, fruit dealer by the barrel, the owner of many well-boxes, farmer in a large crinoline; she was fat and warm, took part in everything, even went out to people in the fields with a keg of beer. ‘In the sweat of thy face shalt thou eat bread,’ she said, ‘it says so in the Bible; afterwards one can have a woodland ball and a harvest feast!’ She was the missus.</p>
+               <p rend="firstIndent" xml:id="p_00023">Now it was a man’s turn again, a painter by profession, a master of colour, the woods were soon to learn, their leaves had to change colour, but delightfully, at his bidding; soon the woods were clad in red, yellow and brown. The master whistled like the black starling, was a good worker and draped the brown-green hopbines round his beer tankard, most decorative, and he had an eye for decoration. There he now stood with his paint pot – that was his entire luggage.</p>
+               <p rend="firstIndent" xml:id="p_00024">Now came the <hi rend="italic">proprietor</hi>, who was mindful of the month of sowing, of the ploughing and tending of the soil, yes, and a little of the pleasures of hunting; he had a hound and a gun, nuts in his bag, crick, crack! a fearful amount of stuff with him, and an English plough; he talked of agricultural matters, but it was difficult to hear him for all the rasping and gasping – it was <hi rend="italic">November</hi> on his way.</p>
+               <p rend="firstIndent" xml:id="p_00025">He had a cold, a violent cold, so he used sheets and not handkerchiefs, and yet he was meant to accompany the servant girls in getting a job! he said, but the cold would probably pass once he started to chop firewood, which he was eager to do, for he was the guild’s master sawyer. He spent his evenings sharpening skates, he knew that in a few weeks’ time there would be a need of such entertaining footwear.</p>
+               <p rend="firstIndent" xml:id="p_00026">Now the last of the twelve came, old granny with her foot-warmer; she felt the cold, but her eyes gleamed like two bright stars. She was carrying a flowerpot with a small fir tree. ‘I will tend it and take care of it so that by Christmas Eve it will be tall, rich from floor to ceiling, and grow with lit candles, gold-painted apples and papercuts. The foot-warmer is as hot as a tiled stove, I take out my book of fairytales and read aloud, so all the children in the room fall silent, but the dolls on the tree come to life and the little wax angel at the very top of the tree shakes her gold-tinsel wings, flies down from the green tree-top and kisses both great and small in the room, yes, also the poor children who stand outside and sing the carol about the Star over Bethlehem!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘And now the coach can set off once more!’ the <hi rend="italic">sentry</hi> said, ‘now we’ve got our dozen. Let a new coach drive up!’</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Allow the twelve of them to come properly inside first!’ the <hi rend="italic">captain</hi> on duty said. ‘One at a time! I will keep the passports; each one is valid for one month; when the time is over, I will make a note in each as to how they have behaved. Mr. <hi rend="italic">January</hi>, step inside, if you please!’</p>
+               <p rend="firstIndent" xml:id="p_00029">And he went inside.–</p>
+               <p rend="firstIndent" xml:id="p_00030">– When a year is past, I will tell you what the twelve have brought you, me and all of us. Right now I do not know, and they themselves most likely do not know either – for we live in strange times!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

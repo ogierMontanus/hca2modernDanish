@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Old Oak Tree’s Last Dream</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-gamle-egetraees-sidste-droem">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-gamle-egetraees-sidste-droem_modern.xml">moderniseret version</note>
+                                                       <note target="129_The-Old-Oak-Trees-Last-Dream.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In a forest, high up on a hillside sloping down to the open shore, there stood a...</incipit><idno type="image">Det_gamle_Egetraees_sidste_Droem_forside.png</idno><popularity>916</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Old Oak Tree’s Last Dream. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-29" who="NHB">formatted</change><change who="NHB" when="2022-09-29">changed one full stop to colon</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Old Oak Tree’s Last Dream (A Christmas Tale)">
+               <head type="main" rend="The Old Oak Tree’s Last Dream">The Old Oak Tree’s Last Dream</head>                <head type="part" rend="(A Christmas Tale)">(A Christmas Tale)</head>                <p rend="noIndent" xml:id="p_00001">In a forest, high up on a hillside sloping down to the open shore, there stood an extremely old oak tree, three hundred and sixty-five years old to be precise, but that long a time was nothing more to the tree than the same number of days to humans – we are awake in the daytime, sleep at night, and have our dreams of course, but for the tree it was different – it is awake for three seasons, does not sleep until it is winter, winter is its time for sleeping, and is its night after the long day that is called spring, summer and autumn.</p>
+               <p rend="firstIndent" xml:id="p_00002">Many a warm summer’s day the May fly had danced round its top, lived, hovered and been happy, and if the little creature rested for a moment in silent bliss on one of the large, fresh oak leaves, the tree always said: ‘Poor little thing! just one single day is your entire lifetime! how short though! it is so sad!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Sad!’ the May fly always answered, ‘what do you mean by that? Everything is so wonderfully bright, so warm and delightful, and I am so happy!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘But only one day, and then everything is over!’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Over!’ the May fly said. ‘What is over? Are you also over?’</p>
+               <p rend="firstIndent" xml:id="p_00006">‘No, I live for perhaps a thousand of your days, and whole seasons make up my day! That is something so long you can’t even figure it out!’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘No, for I don’t understand you! You have a thousand of my days, but I have thousands of moments to be happy and glad in! Does all the delightfulness of this world cease when you die?’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘No,’ the tree said, ‘I’m sure it continues much longer, infinitely longer than I can conceive!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘But then we have an equal amount, it’s just that we calculate things differently!’</p>
+               <p rend="firstIndent" xml:id="p_00010">And the May fly danced and cavorted in the air, took delight in its fine, exquisite wings, its gossamer and velvet, took delight in the warm air that was so spiced with scents from the fields of clover and the stone wall’s wild roses, elder and honeysuckle, not to mention woodruff, primrose and wild curled mint; there was so strong a scent there that the May fly felt slightly intoxicated by it. The day was long and delightful, full of gladness and a sweet sensation, and when the sun started to set, the little fly always felt so pleasantly tired from all the gaiety. Its wings could no longer bear it and ever so slowly is slipped down onto the soft, rocking blade of grass, nodded its head, as it can nod, and fell into a welcome sleep that was death.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Poor little May fly!’ the oak tree said, ‘that really was far too short a life!’; it took place for whole generations of May flies, and all of them were equally happy, equally glad. The oak tree stood there awake throughout its spring morning, summer noon and autumn afternoon, now its time to sleep was approaching, its night, the winter would soon be there.</p>
+               <p rend="firstIndent" xml:id="p_00012">Already the autumn storms were singing ‘Good night, good night, there’s a leaf falling, there’s a leaf falling! we pick them, we pick them! make sure that you can sleep! we sing you to sleep, we shake you to sleep, but it makes your old branches feel good, doesn’t it! they creak from sheer pleasure at it! sleep tight, sleep tight! this is your three hundred and sixty-fifth night, you’re only a yearling when it comes to it! sleep tight! the cloud sprinkles snow, it will be a whole sheet, a warm blanket around your feet! sleep tight and pleasant dreams!’</p>
+               <p rend="firstIndent" xml:id="p_00013">And the oak tree stood there disrobed of all its leaves, so as to settle down for the long winter and dream many a dream, always of something experienced, as in human dreams. It had also once been small, yes, had an acorn as its cradle; according to the human way of counting, it was now in its fourth century and was the largest and finest tree in the forest, its crown soared high above all the other trees and could be seen from far out at sea, was a landmark for ships; it never thought about how many eyes had gazed in search of it. High up in its green top the wood pigeons built their nests and the cuckoos called, and in the autumn, when the leaves looked like plates of beaten copper, the migrating birds came and rested there before flying away across the sea; but now it was winter, the tree stood there leafless, one could clearly see how winding and crooked its branches were; crows and jackdaws came and took turns at sitting there and spoke of the hard times that now lay ahead, and how difficult it was to find food during the winter.</p>
+               <p rend="firstIndent" xml:id="p_00014">It was just around the holy time of Christmas that the tree dreamt its loveliest dream, the one that now follows.</p>
+               <p rend="firstIndent" xml:id="p_00015">The tree had a distinct sense of it being a special festive time of year, it felt it could hear church bells ringing all around it; furthermore, it was like a lovely summer’s day, mild and warm; it spread out its mighty crown, so fresh and green, the sun’s rays played between the leaves and branches, the air was full of the scent of plants and bushes; many-coloured butterflies played tag and the May flies danced, as if everything was there so that they could dance and enjoy themselves. Everything that the tree had experienced and seen around it over the years now passed by, as in one long procession. It saw knights and ladies on horseback from times long ago, with feathers in their hats and a falcon on their wrist, riding through the forest; the hunting horn sounded and the hounds bayed; it saw enemy soldiers with gleaming weapons and in clothes of many different colours, with spears and halberds, putting up and taking down tents; the watch fire flared up and songs were sung and people slept under the tree’s outstretched branches; it saw loving couples meet here in quiet bliss in the moonlight and carve their initials into its grey-green bark. Zithers and aeolian harps had – at intervals of many years – been hung up in the oak’s branches by travellers, merry fellows, and now they hung there again, once more they made such beautiful sounds. The wood pigeons cooed, as if they wanted to express what the tree felt when it heard them, and the cuckoo called out how many a summer’s day it would live.</p>
+               <p rend="firstIndent" xml:id="p_00016">Then it was as if a new flow of life rustled all the way down through it to its smallest roots and up to the highest extent of its branches, right out into the very highest leaves; the tree felt that it was stretching itself as this took place, it could sense with its roots how there was also life and warmth down in the soil; it felt its strength increase, it grew taller and taller; its trunk shot up without a pause, it grew and grew, its crown became fuller, spread out, lifted up – and all the time that the tree grew, so did its sense of well-being, its blissful longing to reach ever higher, right up to the shining warm sun.</p>
+               <p rend="firstIndent" xml:id="p_00017">It had already grown high up above the clouds, which drifted past below it like dark flights of migrating birds, or large white flocks of swans.</p>
+               <p rend="firstIndent" xml:id="p_00018">And every one of its leaves could see, as if it had eyes to see with; the stars became visible during the daytime, so large and gleaming; each sparkled like a pair of eyes, so gentle, so bright; they reminded one of known, loving eyes, children’s eyes, those of sweethearts when they met under the tree.</p>
+               <p rend="firstIndent" xml:id="p_00019">It was a blissful moment, so peaceful! and yet, in all this joy, it felt a longing and a desire for all the other trees of the forest down below it, all the bushes, plants and flowers to rise up too, to feel and sense this brightness and joy. The majestic oak in all the magnificence of its dream was even so not completely happy unless it could be joined by all the others, both great and small, and this feeling quivered through its branches and leaves, so intensely, so strongly as in the breast of a human.</p>
+               <p rend="firstIndent" xml:id="p_00020">The crown of the tree moved as if it was seeking and lacking something and looked back. Then it sensed the fragrance of woodruff and the even stronger scent of honeysuckle and violets, it thought it could hear the cuckoo answering it.</p>
+               <p rend="firstIndent" xml:id="p_00021">Yes, through the clouds the green treetops of the forest started to peep, it saw beneath it the other trees growing and lifting up as it had done; bushes and plants shot up into the air; some of them pulled themselves up by the roots and flew more swiftly. The birch was quickest; like a white streak of lightning its slender trunk rustled upwards, its branches swayed like green blooms and banners, the whole of nature in the forest, even the brown-plumed reed, also grew, and the birds followed suit and sang, and on the blade of grass, which fluttered and flew like a long, green silk ribbon, the grasshopper sat and played with his wing against his shin-bone; the cockchafers droned and the bees hummed, every bird trilled, everything was singing and joy right up into the sky.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘But the little blue flower down by the water, it should join in too!’ the oak tree said; ‘and the red harebell! and the little camomile!’ – yes, the oak tree wanted to have them all along!</p>
+               <p rend="firstIndent" xml:id="p_00023">‘We’re here, we’re here!’ they sang and they rang.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘But the lovely woodruff from last summer – and the year before there was a riot of lily of the valley here – and the wild apple tree that stood so fine – and all the splendour of the forest for years, for many years – if it had managed to survive until now, it would also have been able to join in!’</p>
+               <p rend="firstIndent" xml:id="p_00025">‘We’re here, we’re here!’ they all sang and rang even higher up, it was as if they had flown on in advance.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘Oh, it’s all too incredibly wonderful!’ the old oak tree rejoiced. ‘I have all of them with me! great and small! not a single one’s been forgotten! how can all this bliss be possible and conceivable!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘In God’s heaven it is possible and conceivable!’ they sang.</p>
+               <p rend="firstIndent" xml:id="p_00028">And the tree, ever growing, could feel that its roots were loosening from the soil.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘This is the very best of all!’ the tree said, ‘nothing holds me back! I can fly up to what is highest of all in light and brightness! and all my dear ones I have with me! Great and small! All with me!’</p>
+               <p rend="firstIndent" xml:id="p_00030">‘All of them!’</p>
+               <p rend="firstIndent" xml:id="p_00031">That was the oak tree’s dream, and while it was dreaming, a violent storm passed over sea and land that holy Christmas Eve; the sea’s great waves crashed against the shore, the tree creaked, cracked and was pulled up by the root, just at the moment it was dreaming its roots were loosening. It fell. Its three hundred and sixty-five years were now as a day for the May fly.</p>
+               <p rend="firstIndent" xml:id="p_00032">On Christmas morning, when the sun came out, the storm had subsided; all the church bells rang out in celebration, and from every chimney, even the smallest on the crofter’s roof, the bluish smoke rose as from the altar of a druid’s feast, the thanksgiving smoke of sacrifice. The sea grew calmer and calmer, and out there, on board a large vessel that had managed to survive the terrible weather, all flags were now hoisted, Christmas-like and beautiful.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘The tree’s gone! The old oak tree, our landmark!’ the seafarers said. ‘It has fallen in last night’s storm! What can replace it; nothing can!’</p>
+               <p rend="firstIndent" xml:id="p_00034">Such a funeral oration – short, but well-meant – the tree received as it lay stretched out on the carpet of snow by the shore; and above it wafted the hymn-singing from the ship, the song of Christmas joy and the salvation of man’s soul in Christ and eternal life:</p>
+               <lg xml:id="p_00035">
+                    <l>Sing to the skies, God’s flock in Christ!</l>
+               <l>Hallelujah, our cup runs over,</l>
+               <l>Such joy all else surpasses!</l>
+               <l>Hallelujah, hallelujah!</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00036">So sounded the old hymn, and everyone out there on board the ship was lifted up by it and by prayer, just as the old tree lifted itself up in its last, its loveliest dream on Christmas night.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

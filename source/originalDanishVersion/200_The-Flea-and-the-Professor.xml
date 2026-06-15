@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Flea and the Professor</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="loppen-og-professoren">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="loppen-og-professoren_modern.xml">moderniseret version</note>
+                                                       <note target="200_The-Flea-and-the-Professor.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a balloonist, things went badly wrong for him, the balloon burst,...</incipit><idno type="image">Loppen_og_Professoren_01_2022-03-09.png</idno><popularity>909</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Flea and the Professor. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>kunst</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-08" who="NHB">formatted</change><change who="NHB" when="2022-11-08">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Flea and the Professor A Fairy Tale">
+               <head type="main" rend="The Flea and the Professor">The Flea and the Professor</head>                <head type="part" rend="A Fairy Tale">A Fairy Tale</head>                <p rend="noIndent" xml:id="p_00001">There was once a balloonist, things went badly wrong for him, the balloon burst, the man fell down and was smashed to pieces. He had sent his son down by parachute a couple of minutes before, that was the boy’s good fortune; he was unhurt and went around with plenty of knowledge about how to become a balloonist, but he didn’t have a balloon, or any money to get hold of one.</p>
+               <p rend="firstIndent" xml:id="p_00002">He had to earn a living, though, so he went in for conjuring tricks, and he could throw his voice, which is called being a ventriloquist. He was young, good-looking too, and when he grew a moustache and put on good clothes he could be taken for the son of a count. The ladies found him handsome, indeed, one young lady was so taken with his handsomeness and his conjuring tricks that she accompanied him to foreign towns and countries, there he used to call himself professor, for nothing less would do.</p>
+               <p rend="firstIndent" xml:id="p_00003">His constant thought was to procure a balloon and soar into the sky with his little wife, but they still did not have the means to buy one.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘The money will come!’ he said.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘If only it would!’ she said.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘We’re still young! and now I’m a professor. Half a loaf’s better than no bread!’</p>
+               <p rend="firstIndent" xml:id="p_00007">She helped him faithfully, sat at the door and sold tickets for the performances, and that was a cold affair in the winter. She also helped him with one particular trick. He placed his wife in the table drawer, a large table drawer; she would creep into the back drawer, and then nobody could see her in the front drawer, it was like something that deceives the eye.</p>
+               <p rend="firstIndent" xml:id="p_00008">But one evening when he pulled the drawer out she had vanished for him as well, she wasn’t in the front drawer, not in the back drawer, not anywhere in the house, couldn’t be seen, couldn’t be heard. That was her conjuring trick. She never turned up again; she was sad about it and he became sad because of it, lost his good spirits, couldn’t laugh or make fun of people any more, and so no one came to see him, he earned very little, his clothes wore out, and finally all he owned was a large flea, inherited from his wife, which was why he was so fond of it. Then he trained it, taught it conjuring tricks, taught it to present arms and fire a cannon, just a small one.</p>
+               <p rend="firstIndent" xml:id="p_00009">The professor was proud of the flea, and it was proud of itself; it had learnt things, had human blood in its veins and been in the largest cities, had been seen by princes and princesses, had met with their high approval. It stood printed in newspapers and on posters. It knew that it was a celebrity and could support a professor, an entire family if it came to it.</p>
+               <p rend="firstIndent" xml:id="p_00010">Proud and famous it was, and yet, when it and the professor were on their travels, they would travel fourth class on the railway; it arrives just as quickly as first class does. There was an unspoken agreement that they would never part, never get married, the flea would remain a bachelor and the professor a widower. That made them quits.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Where one is most successful,’ the professor said, ‘one should never come a second time!’ He was a connoisseur of the human heart and that is also a form of knowledge.</p>
+               <p rend="firstIndent" xml:id="p_00012">Finally, he had travelled to every country except the Land of the Wild Folk, so that was where he wanted to travel; admittedly they ate Christian people there, the professor knew that, but he wasn’t a proper Christian and the flea wasn’t a proper person, so he felt they dared travel there and make plenty of money.</p>
+               <p rend="firstIndent" xml:id="p_00013">They travelled by steamship and by sailing ship; the flea performed his tricks, and so they travelled free of charge and came to the Land of the Wild Folk.</p>
+               <p rend="firstIndent" xml:id="p_00014">Here a little princess ruled, she was only eight years old, but she was ruler; she had seized power from her father and mother, for she had a strong will and was so exceedingly lovely and naughty.</p>
+               <p rend="firstIndent" xml:id="p_00015">Immediately, when the flea presented arms and fired the cannon, she was so taken by the flea that she said: ‘Him or no one!’ She fell wildly in love and was of course wild in advance.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Sweet little sensible child!’ her own father said to her, ‘if one could first make a human being out of it!’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘You leave that to me, old man!’ she said, and that was not a nice thing for a princess to say when speaking to her father, but she was wild.</p>
+               <p rend="firstIndent" xml:id="p_00018">She placed the flea on her tiny hand.</p>
+               <p rend="firstIndent" xml:id="p_00019">‘Now you are a human being and you rule with me, but you must do as I say, otherwise I will kill you and eat the professor.’</p>
+               <p rend="firstIndent" xml:id="p_00020">The professor was given a large room to live in. The walls were of sugar cane, he could lick them if he felt like it, but he didn’t have a sweet tooth. He was given a hammock to sleep in, it was as if he was lying in a balloon, the one he had always wished for and was constantly in his thoughts.</p>
+               <p rend="firstIndent" xml:id="p_00021">The flea stayed with the princess, sat on her tiny hand and on her fine neck. From her locks she had taken a hair that the professor had to bind round the leg of the flea, and then she kept it tied to the large piece of coral she wore in her ear-lobe.</p>
+               <p rend="firstIndent" xml:id="p_00022">What a delightful time it was for the princess – and for the flea, she thought; but the professor was discontented, he was a traveller, fond of moving from town to town, of reading in the newspapers about his perseverance and ingenuity at teaching a flea all sorts of human behaviour. Day in and day out he lay in his hammock, led a life of idleness and was given fine food: fresh birds’ eggs, elephant eyes and roasted leg of giraffe; cannibals do not only feed on human flesh, it is more of a delicacy; ‘shoulder of child in a spicy sauce,’ the princess-mother said, ‘is the most exquisite of all.’</p>
+               <p rend="firstIndent" xml:id="p_00023">The professor was bored and wanted to get away from the Land of the Wild Folk, but he had to have the flea with him, it was his prodigy and livelihood. How was he to capture it and get hold of it? It was not going to be easy.</p>
+               <p rend="firstIndent" xml:id="p_00024">He concentrated all his powers of thought on the matter, and then he said: ‘Got it!’</p>
+               <p rend="firstIndent" xml:id="p_00025">‘Princess-father: allow me to occupy myself with something! May I train the country’s inhabitants to present themselves to you – <hi rend="italic">that</hi> is what we call cultivated behaviour in the greatest countries in the world.’</p>
+               <p rend="firstIndent" xml:id="p_00026">‘And what can you teach me?’ the princess-father asked.</p>
+               <p rend="firstIndent" xml:id="p_00027">‘My greatest trick,’ the professor said, ‘is to fire a cannon so that the whole earth shakes and all the most delicious birds in the sky fall down roasted! That’ll go off with a bang!’</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Fetch the cannon!’ the princess-father said.</p>
+               <p rend="firstIndent" xml:id="p_00029">But there wasn’t a cannon anywhere in the kingdom except the one the flea had brought along, and it was too small.</p>
+               <p rend="firstIndent" xml:id="p_00030">‘I’ll cast a bigger one!’ the professor said. ‘Just give me everything I need! I must have fine silk, a needle and thread, rope and cord, as well as stomach mixture for balloons – they swell up, lift from the ground and try to rise: they make the bang in the cannon’s stomach.’</p>
+               <p rend="firstIndent" xml:id="p_00031">Everything he wished for was provided.</p>
+               <p rend="firstIndent" xml:id="p_00032">All those in the country gathered to see the big cannon. The professor didn’t call them until he had the balloon completely ready to be filled and go up.</p>
+               <p rend="firstIndent" xml:id="p_00033">The flea sat on the princess’s hand and watched. The balloon was inflated, it bellied out and could hardly be held down, it was that wild.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘I must have it up in the air, so it can cool down,’ the professor said and sat down in the basket hanging beneath it. ‘I can’t manage to steer it on my own. I must have an experienced companion to assist me. Nobody here can do it except the flea!’</p>
+               <p rend="firstIndent" xml:id="p_00035">‘I’m not so keen about that,’ the princess said, but nevertheless she handed over the flea to the professor, who placed it on his hand.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘Cast off the cords and the rope!’ he said. ‘Off goes the balloon!’</p>
+               <p rend="firstIndent" xml:id="p_00037">They thought he said: ‘Cannon!’</p>
+               <p rend="firstIndent" xml:id="p_00038">And the balloon rose higher and higher, up above the clouds, away from the Land of the Wild Folk.</p>
+               <p rend="firstIndent" xml:id="p_00039">The little princess, her father and mother, the entire people too, stood there waiting. They still are, and if you don’t believe me, then travel to the Land of the Wild Folk, there every child talks about the flea and the professor, believes that they will come back when the cannon has cooled off, but they won’t, they’re back with us, they’re in their native country, travelling by rail, first class, not fourth; they make a great deal of money, have a big balloon. Nobody asks how they came to own the balloon and where they got it from, they are well-to-do and highly esteemed, <hi rend="italic">the flea and the professor</hi>.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

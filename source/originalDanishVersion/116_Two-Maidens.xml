@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Two Maidens</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="to-jomfruer">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="to-jomfruer_modern.xml">moderniseret version</note>
+                                                       <note target="116_Two-Maidens.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Have you ever seen a maiden? I mean, what pavers call a maiden – something for r...</incipit><idno type="image">To_Jomfruer_forside3.png</idno><popularity>910</popularity><cite>&lt;p&gt;Hans Christian Andersen: Two Maidens. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>tingseventyr</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">reviewed</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Two Maidens">
+          <head type="main" rend="Two Maidens">Two Maidens</head>                <p rend="noIndent" xml:id="p_00001">Have you ever seen a maiden? I mean, what pavers call a maiden – something for ramming down cobbles with. She’s made entirely of wood, broad at the base with an iron ring round her, and narrower at the top, with a pole stuck through her: it is her arms.</p>
+          <p rend="firstIndent" xml:id="p_00002">In the large tool shed there were two such maidens, they stood there among shovels, rods that measured in fathoms and wheelbarrows, and this was where the rumour started that <hi rend="italic">‘maidens’</hi> weren’t going to be called <hi rend="italic">‘maidens’ </hi>any longer but <hi rend="italic">‘rammers’</hi>, and that’s the most recent and only correct term among pavers for what we all in the old days used to call maidens.</p>
+          <p rend="firstIndent" xml:id="p_00003">Among us human beings there are now what are referred to as ‘emancipated women’, which include principals of institutions, midwives, female dancers that can stand on one leg while at work, female fashion retailers and night nurses, and the ranks of these ‘emancipated women’ were now swelled by the two <hi rend="italic">maidens</hi> in the tool shed; they were maidens of the highway authority and in no way were they prepared to give up their good, old name and allow themselves to be called <hi rend="italic">‘rammers’</hi>!</p>
+          <p rend="firstIndent" xml:id="p_00004"><hi rend="italic">‘Maiden’</hi> is a human name,’ they said, ‘but a rammer is a thing, and we’re not going to let ourselves be called a thing, that’s an insult!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘My fiancé is capable of breaking off our relationship!’ the younger one said, who was engaged to a <hi rend="italic">pile-driver</hi>, that is one of those big machines that drives piles down into the ground, those, that is, who do the heavy work while the maidens take care of the more delicate but similar tasks. ‘He wants to have me as a <hi rend="italic">maiden</hi>, but possibly not as a rammer, and so I simply can’t let them give me a new name!’</p>
+          <p rend="firstIndent" xml:id="p_00006">‘I’d rather have both my arms snapped off!’ the older one said.</p>
+          <p rend="firstIndent" xml:id="p_00007">The <hi rend="italic">wheelbarrow</hi>, though, was of a different opinion, and the wheelbarrow was quite something – he regarded himself as the quarter of a coach, since he went on one wheel.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘I feel I must point out to you, however, that what is called a <hi rend="italic">maiden</hi> is something fairly common and not nearly as fine as being called a <hi rend="italic">rammer</hi>, for by having <hi rend="italic">such</hi> a name one joins the ranks of such stampers as signets, and just think of the signet of the law, the stamp used for legal seals. If I were you, I would give up the name of maiden!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Never! I’m too old for that!’ the older one said.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘You’ve probably never heard of something known as the European necessity!’ said the honest old <hi rend="italic">measuring rod</hi>. ‘One must be prepared to limit oneself, to knuckle under, to adapt oneself to time and circumstance, and if there’s a law that says a maiden is to be called a rammer, then she <hi rend="italic">must </hi>be called a rammer. Everything has its allotted measure.’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘In that case I’d rather,’ said the young one, ‘allow myself to be called Miss, if the worst comes to worst; at least Miss always has a hint of maiden about it.’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘But I’d rather be chopped up into kindling wood!’ the older maiden said.</p>
+          <p rend="firstIndent" xml:id="p_00013">Now it was time for work; the maidens were given a ride, they were laid on the wheelbarrow, and were most properly treated – but they were called rammers.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Mai-!’ they said as they kicked against the cobblestones, ‘Mai-!’ and were just about to say the whole word ‘maiden’, but they bit the last part of the word off, took it back, for they felt they shouldn’t even try to reply. But when on their own they always addressed each other by the name maiden, and they praised the good old days when everything was called by its proper name, and one was called a maiden when one was a maiden; and they remained as they were, for the <hi rend="italic">pile-driver</hi>, the big machine, really did break off his engagement with the younger one – he wouldn’t have anything to do with a <hi rend="italic">rammer</hi>.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Emperor’s New Clothes</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="keiserens-nye-klaeder">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="keiserens-nye-klaeder_modern.xml">moderniseret version</note>
+                                                       <note target="17_The-Emperors-New-Clothes.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Many years ago there lived an emperor who was so terribly fond of beautiful new ...</incipit><idno type="image">Keiserens_nye_Klaeder_01_2022-03-09.png</idno><popularity>998</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Emperor’s New Clothes. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-05-09" xml:id="XX" who="XX">enter your initials @xml:id and keep a protocol of revisions</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Emperor’s New Clothes">
+          <head type="main" rend="The Emperor’s New Clothes">The Emperor’s New Clothes</head>                <p rend="noIndent" xml:id="p_00001">Many years ago there lived an emperor who was so terribly fond of beautiful new clothes that he spent all his money on being elegantly dressed. Only if he got the chance to show off his new clothes did he show any interest in his soldiers, the theatre or going for a coach ride in the woods. He had a dress coat for every hour of the day, and just as one says about a king that he is in council, one always said in his case: ‘The emperor’s in the wardrobes!’</p>
+          <p rend="firstIndent" xml:id="p_00002">Life was most enjoyable in the great city where he lived, every day many strangers came – and one day two swindlers did; they pretended to be weavers and said they were able to weave the loveliest cloth one could imagine. Not only were the colours and pattern exceptionally beautiful but the clothes sewn from the cloth had the remarkable ability to become invisible to each and every person who was unfit for his office, or who was inadmissibly stupid.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘A fine sort of clothes to have,’ the emperor thought; ‘ by wearing them I could find out which men in my empire were unfit for the office they hold and I would be able to distinguish between clever and stupid people! Yes, that cloth must be woven for me at once!’ and he gave the two swindlers a great deal of money in advance to begin their work.</p>
+          <p rend="firstIndent" xml:id="p_00004">They set up two looms and pretended to be working, but they hadn’t anything at all on them. Without more ado, they demanded the finest silk, and the most magnificent gold – this they kept for themselves and they worked away at the empty looms until late at night.</p>
+          <img src="0017_HCA-1969-223-0002.jpg" ref="p_00005" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00005">‘I wonder how they’re getting on with the cloth!’ the emperor thought to himself, but he had a distinctly uneasy feeling when he recalled that anyone who was stupid or unfit for his office wouldn’t be able to see it – he didn’t think that he really needed to worry about himself, but he decided even so to send someone first to see how things were progressing. Everyone in the whole city knew what a strange power the cloth had, and everyone was eager to find out how incompetent or stupid his neighbour was.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘I’ll send my honest old minister to the weavers!’ the emperor thought, ‘he’s best able to see what the cloth looks like, for he’s an intelligent man, and no one attends to his office better than he does!’</p>
+          <img src="0017_HCA-1969-223-0003.jpg" ref="p_00007" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00007">Now the worthy old minister entered the room where the two swindlers were working at the empty looms. ‘Good gracious me!’ the old minister thought, opening his eyes wide: ‘I can’t see anything!’ But he didn’t say that.</p>
+          <p rend="firstIndent" xml:id="p_00008">Both swindlers asked him to be so kind as to step closer and asked him if he didn’t think it was a lovely pattern and delightful colours they were weaving. They pointed to the empty loom, and the poor minister’s eyes were as wide-open as ever, but he couldn’t see anything, for there wasn’t anything to see. ‘Good lord!’ he thought, ‘Am I stupid, perhaps! I’ve never believed so, and no one must ever know about it! am I unfit for my office perhaps? No, it will never do for me to say that I can’t see the cloth!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Well, have you nothing to say about it?’ said the one who was weaving.</p>
+          <img src="0017_HCA-1969-223-0004.jpg" ref="p_00010" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00010">‘Oh, it’s splendid! ever so delightful!’ the old minister said, peering through his glasses, ‘this pattern and those colours! oh yes, I shall certainly tell the emperor it appeals to me exceedingly well!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘A pleasure to hear it!’ both weavers said, and they now named the colours by name as well as the quite exceptional pattern. The old minister listened carefully, for he would have to be able to say the same when he got back to the emperor, and he did just that.</p>
+          <p rend="firstIndent" xml:id="p_00012">Now the swindlers asked for more money, more silk and gold – they needed it for the weaving. They stuffed everything into their own pockets, not a single thread ended up on the loom, but they continued to weave on the empty loom as before.</p>
+          <p rend="firstIndent" xml:id="p_00013">After a short while, the emperor sent another worthy official to them to see how the weaving was coming along, and if the cloth would soon be ready. Exactly the same thing happened as with the former one: he looked and looked, but since there was nothing apart from the empty loom, he couldn’t see anything.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Yes, isn’t it an exquisite piece of cloth!’ both the swindlers said, and they showed and explained to him the delightful patterns that were not there at all.</p>
+          <img src="0017_HCA-1969-223-0005.jpg" ref="p_00015" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00015">‘I’m not stupid!’ the man thought, ‘so is it my office that I’m unfit for? That’s odd enough! but I mustn’t let anybody notice that!’ and he praised the cloth he couldn’t see, and assured them how pleased he was with the lovely colours and the wonderful pattern. ‘It’s simply ever so delightful!’ he said to the emperor.</p>
+          <p rend="firstIndent" xml:id="p_00016">Everyone in the city talked about the magnificent cloth.</p>
+          <p rend="firstIndent" xml:id="p_00017">Now the emperor wanted to see for himself while it was still on the loom. With a whole host of distinguished men, which included the two worthy officials who had been there before, he went to both of the cunning swindlers who were now weaving with all their might, but without a single thread.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Yes, is it not <hi rend="italic">magnifique</hi>!’ both the worthy officials said. ‘Perhaps His Majesty would look at what patterns, what colours we have here!’ and they pointed at the empty loom, for they believed that the others could surely see the cloth.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘What’s all this?!’ the emperor thought, ‘I can’t see a thing! but this is terrible! am I stupid? am I unfit to be emperor? that would be the worst possible thing that could befall me!’ ‘Oh, it’s extremely beautiful!,’ the emperor said, ‘it has my highest approval!’ and he nodded contentedly and gazed at the empty loom – he didn’t want to say that he couldn’t see anything. The whole retinue he had with him looked and looked, but they got nothing more out of it than all the others, although they said, just like the emperor, ‘oh, it’s very beautiful!’ and they advised him to wear these wonderful new clothes for the first time at the great procession that was about to take place. ‘It’s <hi rend="italic">magnifique</hi>! exquisite, excellent!’ went from mouth to mouth, and everyone was extremely pleased about it. The emperor gave each of the swindlers a cross of the order of chivalry to hang in his buttonhole and the title of squire of the loom.</p>
+          <p rend="firstIndent" xml:id="p_00020">The whole night before the morning of the procession the swindlers sat up and had more than sixteen candles lit. People could see they were busy getting the emperor’s new clothes finished. They pretended to take the cloth from the weave, they snipped in the air with large scissors, they sewed with sewing needles without thread and finally said: ‘Just look, now the clothes are ready!’</p>
+          <p rend="firstIndent" xml:id="p_00021">The emperor, with his gentlemen in waiting, came to see for himself and both the swindlers raised one arm in the air as if they were holding something and said: ‘Look, here are the trousers! here is the dress coat! here the cloak!’ and so on and so forth. ‘It’s as light as gossamer! one would almost think one was wearing nothing at all, but that of course is its special virtue!’</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Yes,’ all the gentlemen in waiting said, but they couldn’t see anything because there wasn’t anything to see.</p>
+          <p rend="firstIndent" xml:id="p_00023">‘If His Imperial Majesty would now be kind enough to remove His clothes, we will put on His new ones over here in front of the great mirror!’</p>
+          <p rend="firstIndent" xml:id="p_00024">The emperor took off all his clothes, and the swindlers behaved as if they were putting on each item of the new clothes they said had been sewn, and the emperor turned this way and that in front of the mirror.</p>
+          <p rend="firstIndent" xml:id="p_00025">‘Good heavens, how well they suit Your Majesty! what a perfect fit they are!’ they all said. ‘What a pattern! what colours! it is a gorgeous costume!’</p>
+          <img src="0017_HCA-1969-223-0006.jpg" ref="p_00026" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00026">‘They are standing outside with the royal canopy to be borne above Your Majesty in the procession,’ the head master of ceremonies said.</p>
+          <p rend="firstIndent" xml:id="p_00027">‘Yes, well, now I’m really dressed for it!’ the emperor said. ‘Don’t they sit well on me?’ and turned an extra time in front of the mirror! for now it was to seem as if he really was contemplating his finery.</p>
+          <p rend="firstIndent" xml:id="p_00028">His chamberlains, who were to bear his train, groped along the floor with their hands, as if they were picking up the train, they walked forward holding the air, they didn’t dare let anyone notice that they couldn’t see anything.</p>
+          <p rend="firstIndent" xml:id="p_00029">Then the emperor walked in procession under the lovely canopy and everyone in the street and at the windows said: ‘Good heavens, how incomparable the emperor’s clothes are! what a delightful train his dress coat has! what a marvellous fit!’ No one wanted anyone to notice that he couldn’t see anything, for then he would have been unfit for his office, or have been very stupid. None of the emperor’s previous clothes had ever been such a success.</p>
+          <img src="0017_HCA-1969-223-0007.jpg" ref="p_00030" title="Illustrator: Alexander &amp; Valery Traugott. 1962. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00030">‘But he hasn’t got anything on!’ a small child said. ‘Good gracious, just listen to the innocent child,’ his father said; and each person whispered to the next one what the child had said.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘But he hasn’t got anything on,’ all his people finally cried out. This gave the emperor the shivers, for he sensed they were right, but he reasoned: ‘Now I’ll have to stick the procession out.’ And the chamberlains walked on bearing the train that wasn’t there.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

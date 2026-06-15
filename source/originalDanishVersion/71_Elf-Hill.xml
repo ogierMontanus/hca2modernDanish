@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Elf Hill</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor">Jacob Bøggild</editor><editor role="editor">Mads Sohl Jessen</editor><editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="elverhoei">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="elverhoei_modern.xml">moderniseret version</note>
+                                                       <note target="71_Elf-Hill.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Some large lizards scuttled nimbly in the cracks of an old tree; they were well ...</incipit><idno type="image">Elverhoei_01_2022-03-09.png</idno><popularity>976</popularity><cite>&lt;p&gt;Hans Christian Andersen: Elf Hill. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>trylleeventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-17" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-17">formatting</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Elf Hill">
+          <head type="main" rend="Elf Hill">Elf Hill</head>                <p rend="noIndent" xml:id="p_00001">Some large lizards scuttled nimbly in the cracks of an old tree; they were well able to understand each other, for they spoke lizard language.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘What a great rumbling and grumbling’s going on in the old Elf Hill!’ one of the lizards said; ‘because of all that commotion, I haven’t slept a wink for two nights, I could just as well have been in bed with toothache, for I don’t sleep then either!’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Something’s afoot in there!’ the second one said, ‘they’re letting the hill stand on four red posts right up until cockcrow, giving it a good airing and the elf-maidens have learnt new dances that involve stamping. There’s something afoot!’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘I’ve spoken to an earthworm of my acquaintance,’ the third lizard said; ‘the worm had just come up from the hill where, for days and nights, it had been rummaging around in the earth; it had heard quite a bit, it can’t see of course, the wretched creature, but feeling its way and listening, those are things it understands. They’re expecting strangers at Elf Hill, distinguished strangers, but who these were the earthworm wouldn’t say, or maybe he didn’t know. All the jack o’lanterns have been called in to form a torchlight procession, as it’s called, and silver and gold, which there’s plenty of in the hill, is being polished and placed out in the moonlight!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘Who on earth can these strangers be?’ all the lizards said. ‘What can it be that’s afoot? Just listen to the humming! listen to the drumming!’</p>
+          <p rend="firstIndent" xml:id="p_00006">Just at that moment the Elf Hill divided, and an old elf-maid, backless but otherwise very respectably dressed, came tripping out, it was the housekeeper for the old elf-king, she was a very distant relation, and had an amber heart on her forehead. Her legs went at great speed: trip, trip! goodness gracious, how she could trip and straight down to the bog to the nightjar.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘You are invited to Elf Hill, this very night!’ she said, ‘but will you not first do us a great favour and take care of the invitations! You must be useful in some way, since you don’t keep house yourself! We’re going to have some highly distinguished strangers, trolls of importance, and therefore the old elf-king wishes to put in an appearance!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Who’s to be invited?’ the nightjar asked.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Well, anyone in the world can come to the great ball, even humans, as long as they can talk in their sleep or do just a little of what complies with our species. But for the first festive occasion there is to be strict selection, we only want to have those who are top-drawer. I have had a disagreement with the elf-king, for I think that not even ghosts ought to be admitted. The merman and his daughters must first be invited, they’re not all that keen on being on dry land, but they’ll each be given a wet stone to sit on or something better, and so I don’t think they will decline this time. All the old first-class trolls with tails, the river man and the pixies we must invite, and then I don’t think we could leave out the grave-sow, the three-legged ghost horse and the church spectre; they are admittedly connected to the clergy, who are not of our folk, but that happens to be their occupation, they are closely related to us even so and often pay us visits!’ –</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Caw!’ the nightjar said and flew off to do the inviting. The elf-maidens were already dancing on Elf Hill, and they were dancing with gossamer shawls made of mist and moonlight, which looks exquisite for those who like that sort of thing. Deep down inside Elf Hill the large hall had been given a good refurbish; the floor had been washed with moonlight and the walls rubbed with witch–grease so that they gleamed like tulip petals in front of the light. The kitchen was full of skewered frogs, snakeskin with small children’s fingers inside and salads of toadstool seeds, wet mouse-snouts and hemlock, beer from the bog crone’s brew, sparkling saltpetre wine from the burial vault, all extremely substantial; rusty nails and shards of stained-glass windows were among the crunchy snacks.</p>
+          <p rend="firstIndent" xml:id="p_00011">The old elf-king had his golden crown polished with ground slate pencil, it was a teacher’s pet pencil and very difficult for the elf-king to procure! In the bed chamber curtains were hung up and starched with grass-snake spit. Oh yes, there was certainly humming and drumming.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Once I’ve burnt some horsehair and pig’s bristles for incense here, I think I’ll have done my bit!’ the old elf-maid said.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Dearest father!’ the smallest of his daughters said; ‘can’t you tell me who the distinguished guests are?’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Oh well!’ he said, ‘I suppose I’ll have to say it! Two of my daughters must be prepared to get married! two are going to be married off. The greybeard troll from up north in Norway, the one that lives in old Dovre Mountain and who has many rock castles of fieldstone and a goldmine that is better that folk believe, is coming down with his two sons, who are to choose themselves a wife. The old troll is a real, old honest Norwegian greybeard, full of fun and forthright, I know him from the old days when we toasted each other and got on first-name terms, he was down here to fetch his wife, she’s dead now, she was a daughter of the chalk-cliff king on Møen. He chalked up his wife there, you could say! Oh how I long for the Norwegian greybeard troll! His boys are said to be a pair of ill-mannered, cocky young fellows, but it could be one is doing them an injustice, and that they will improve with age. Let’s see if you can’t lick them into shape!’’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘And when will they arrive?’ the one daughter asked.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘That depends on the wind and the weather!’ the elf-king said. ‘They’re travelling most economically! They’ll come on the first available ship. I suggested they travel via Sweden, but the old man isn’t so keen on that! He doesn’t keep up with the times, which doesn’t please me!’</p>
+          <p rend="firstIndent" xml:id="p_00017">Just then two jack o’lanterns came leaping along, the one faster than the other and therefore one of them came first.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘They’re coming, they’re coming!’ they shouted.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Give me my crown, and let me stand in the moonlight!’ the elf-king said.</p>
+          <p rend="firstIndent" xml:id="p_00020">The daughters lifted up their gossamer shawls and gave a deep curtsey.</p>
+          <p rend="firstIndent" xml:id="p_00021">There stood the greybeard troll from Dovre, with a crown of tempered icicles and polished pine cones, as well as a bearskin coat and sleigh-boots; his sons, on the other hand, were bare at the neck and without braces, for they were burly young blades.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Is this a hill?’ the smaller of the two boys asked, pointing at Elf Hill. ‘Back in Norway we would call it a hole!’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘Lads!’ the greybeard said. ‘Holes goes inwards, hills go upwards! haven’t you eyes in your heads!’</p>
+          <p rend="firstIndent" xml:id="p_00024">The only thing that surprised them down here, they said, was that they could understand the language without further ado!</p>
+          <p rend="firstIndent" xml:id="p_00025">‘Don’t give yourself airs!’ the old man said, ‘people will get the impression you’re only half-baked!’</p>
+          <p rend="firstIndent" xml:id="p_00026">And then they entered Elf Hill, where indeed there was distinguished company, and with such haste that one would think they had been blown together, and everything was nicely and tidily arranged for everyone. The sea folk were at table in large vats, they said it was like being at home. Everyone observed table manners except for the two small Norwegian trolls, who put their feet up on the table, but they of course thought that everything they did was fine!</p>
+          <p rend="firstIndent" xml:id="p_00027">‘Feet out of the food!’ the old troll said and they obeyed, though not without a moment’s hesitation. They tickled their dinner partners with pine cones which they had in their pockets and then they pulled off their boots to sit more comfortably and gave them their boots to hold, but their father, the greybeard Dovre troll, he was completely different; he talked so delightfully about the proud Norwegian mountains, and about waterfalls that plunged down in white foam, with a roar like a thunderclap and the sound of an organ; he talked about the salmon that leapt up towards the plunging waters when the water-elf played on his golden harp. He talked about the shimmering winter nights when the sleigh bells jingled and the young men ran with lit torches over the glittering ice that was so transparent that they saw the fish take fright beneath their feet. Yes indeed, he was a great storyteller, one could see and hear what he talked about, it was as if the sawmills whined, as if the young man and women sang songs and danced the Halling; hurrah! suddenly the greybeard troll gave the old elf-maid a real avuncular smack of a kiss – and they weren’t even remotely related.</p>
+          <p rend="firstIndent" xml:id="p_00028">Now the elf-maidens had to dance and both the simple and the stamping kind, and it became them well, then came the art-dance, or ‘stepping outside the dance’ as it is called, good gracious, how they could stretch their legs, one didn’t know what was the end and what was the beginning, one didn’t know what were arms and what were legs, they interlaced like sawdust and twirled round so fast that the three-legged ghost horse felt ill and had to leave the table.</p>
+          <p rend="firstIndent" xml:id="p_00029">‘Prrrrr!’ the old troll said, ‘they’re really shaking a leg! But what else can they do besides dance, stretch their legs and cause a whirlwind?’</p>
+          <p rend="firstIndent" xml:id="p_00030">‘You’ll soon find out!’ the elf-king said and called out the youngest of his daughters; she was as slight and clear as moonlight, she was the finest of all the sisters; she put a white wand in her mouth and simply vanished – that was her special skill.</p>
+          <p rend="firstIndent" xml:id="p_00031">But the greybeard troll said that he wouldn’t like his wife to have such a skill and didn’t believe his sons would either.</p>
+          <p rend="firstIndent" xml:id="p_00032">The second could walk alongside herself as if she had a shadow, which troll folk don’t have.</p>
+          <p rend="firstIndent" xml:id="p_00033">The third was a completely different type of elf, she had been taught in the bog crone’s brewery and she was the one who knew how to lard alder stumps with glow worms.</p>
+          <p rend="firstIndent" xml:id="p_00034">‘She’ll make a good housewife!’ the greybeard troll said and toasted with his eyes; for he didn’t want to drink all that much.</p>
+          <p rend="firstIndent" xml:id="p_00035">Now the fourth elf-maid came forward, she had a large golden harp to play on, and when she played the first string, everyone lifted their left leg, for troll folk are left-legged, and when she played the second string, everyone had to do as she wished.</p>
+          <p rend="firstIndent" xml:id="p_00036">‘That’s a dangerous piece of womankind!’ the greybeard troll said, but both sons left the hill, for they felt bored.</p>
+          <p rend="firstIndent" xml:id="p_00037">‘And what can the next daughter do?’ the greybeard troll asked.</p>
+          <p rend="firstIndent" xml:id="p_00038">‘I’ve learnt to love the Norwegians!’ she said, ‘and I will never marry unless I can live in Norway!’</p>
+          <p rend="firstIndent" xml:id="p_00039">But the youngest of the sisters whispered to the greybeard troll: ‘That’s just because she’s heard in a Norwegian song that when the world passes away, the Norwegian rocks will still stand like menhirs, and she’s so afraid of passing away.’</p>
+          <p rend="firstIndent" xml:id="p_00040">‘Ho, ho!’ the greybeard troll said, ‘that let the cat out of the bag. But what can the seventh and last one do?’</p>
+          <p rend="firstIndent" xml:id="p_00041">‘The sixth comes before the seventh!’ the elf-king said, for he could count, but the sixth daughter was not all that eager to come forward.</p>
+          <p rend="firstIndent" xml:id="p_00042">‘I can only tell people the truth!’ she said, ‘nobody likes me, and I’ve got plenty to do to finish sewing my grave clothes!’</p>
+          <p rend="firstIndent" xml:id="p_00043">Then the seventh and last daughter came forward, and what could she do? Well, she could tell fairy tales, as many as she wanted to.</p>
+          <p rend="firstIndent" xml:id="p_00044">‘Here are all my five fingers!’ the greybeard troll said, ‘tell me one about each of them!’</p>
+          <p rend="firstIndent" xml:id="p_00045">And the elf-maiden took him by the wrist, and he laughed till he chuckled, and when she got to the finger called Guldbrand, which had a gold ring round its waist as if it knew there was going to be a betrothal, the greybeard troll said, ‘hold on to what you have, the hand is yours! You are the one I myself want to have as my wife!’</p>
+          <p rend="firstIndent" xml:id="p_00046">And the elf-maiden said that she had yet to tell the tales of ring-finger Guldbrand and little-finger Peer Spillemand!</p>
+          <p rend="firstIndent" xml:id="p_00047">‘We can hear those when winter comes!’ the greybeard troll said, ‘and hear about the pine and the birch and the wood-spirit gifts and the tinkling frost! You’ll have plenty of tales to tell, for no one else up there does much telling! – and then we’ll sit in the stone living room with a pine-chip fire burning, and drink mead out of the golden horn of the old Norwegian kings; the water-elf has given me a couple, and while we’re sitting there, the farm-pixie will pay us a visit and sing all the mountain pasture dairymaid songs for you. What fun that will be! The salmon will leap in the waterfall and strike the rockface, but it won’t get in! – Yes, believe me, things are fine in dear old Norway! But where are the lads?’</p>
+          <p rend="firstIndent" xml:id="p_00048">Yes, where were the lads! They were running about in the fields blowing out the jack o’lanterns who had come in good order and wanted to make a torchlight procession.</p>
+          <p rend="firstIndent" xml:id="p_00049">‘Stop gallivanting about!’ the greybeard troll said, ‘I’ve already found a mother for you, now you can find yourselves an aunt!’</p>
+          <p rend="firstIndent" xml:id="p_00050">But the sons said they preferred to hold speeches and toast new friendships, they had no inclination at all to get married. – And so they held speeches, toasted new friendships and turned their glasses upside-down to show that they had drained them; then they took their coats off and lay down on the table to sleep, for they were not the least bit shy. But the greybeard troll danced around the room with his young bride and exchanged boots with her, for that is finer than exchanging rings.</p>
+          <p rend="firstIndent" xml:id="p_00051">‘Now the cock’s crowing!’ the old elf-maid who kept house said. ‘We must put up the shutters so that the sun doesn’t burn us to death!’</p>
+          <p rend="firstIndent" xml:id="p_00052">And so the hill was shut.</p>
+          <p rend="firstIndent" xml:id="p_00053">But outside the lizards scuttled up and down the cracked tree and one of them said to the other:</p>
+          <p rend="firstIndent" xml:id="p_00054">‘Oh, I really did like the Norwegian greybeard troll!’</p>
+          <p rend="firstIndent" xml:id="p_00055">‘I preferred the lads!’ the earthworm said, but then it couldn’t see anything, the wretched creature.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

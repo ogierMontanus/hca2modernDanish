@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Tolv med Posten</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Anden Række, som udkom den 2. marts 1861.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="tolv-med-posten"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1861</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="tolv-med-posten">
+<head type="main">Tolv med posten</head>
+
+<p rend="noIndent" xml:id="p_00001">Det var knagende frost, stjerneklart vejr, blikstille. »Bums!« der <seg><!--DATA-TERM: sloge … Døren--><anchor target="txtcmnt-341-01"/><!--som led i nytårshalløjet; oprindelig for at skræmme de onde ånder væk.-->slog de en potte på døren</seg>, »pjaf!« der skød de nytår ind. Det var nytårsaften, nu slog klokken tolv.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Trateratra!« der kom posten. Den store postkaret holdt uden for byens port, den bragte tolv personer, ikke flere kunne der rummes, alle pladser var besatte.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Hurra! Hurra!« blev der sunget inde i husene hvor folk holdt nytårsaften og just nu havde rejst sig med det fyldte glas og drak det nye års skål:</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Sundhed og <seg><!--DATA-TERM: Helsen--><anchor target="txtcmnt-341-02"/><!--godt helbred.-->helsen</seg> i det nye år!« sagde de, »en lille kone! Mange penge! Ende på vrøvlet!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Ja, således ønskede man, og der blev <seg><!--DATA-TERM: klinket--><anchor target="txtcmnt-341-03"/><!--skålet.-->klinket</seg>, og – posten holdt for byens port med de fremmede gæster, de tolv rejsende.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Hvad var det for personer? De havde <seg><!--DATA-TERM: Pas--><anchor target="txtcmnt-341-04"/><!--der var pastvang mellem landsdelene i Danmark.-->pas</seg> og rejsegods med, ja, foræringer til dig og mig og alle mennesker i byen. Hvem var de fremmede? Hvad ville de, og hvad bragte de?</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Godmorgen!« sagde de til skildvagten ved porten.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Godmorgen!« sagde han, for klokken var jo slået tolv.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Deres navn? Deres stand?« spurgte skildvagten den der først trådte ud af vognen.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Se i passet!« sagde manden. »Jeg er jeg!« Det var også en hel karl, klædt i bjørneskindspels og med kanestøvler. »Jeg er den mand hvem grumme mange sætter sit håb til. Kom i morgen, skal du få nytår! Jeg <seg><!--DATA-TERM: kaste(r) … igrams--><anchor target="txtcmnt-341-05"/><!--kaste ud i flæng til de forsamlede.-->kaster skillinger og dalere i grams</seg>, giver <seg><!--DATA-TERM: Presenter--><anchor target="txtcmnt-341-06"/><!--gaver.-->presenter</seg>, ja, jeg giver baller, hele enogtredive baller, flere nætter har jeg ikke at give bort. Mine skibe er indefrosset, men der er varmt på mit kontor. Jeg er grosserer og hedder Januar. Jeg har kun regninger med mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">Så kom den næste, han var lystigmager, han var direktør for komedierne, maskeraderne og al den fornøjelse der kan findes på. Hans rejsegods var en stor tønde.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Den skal vi til fastelavn slå meget mere af end katten!« sagde han. »Jeg vil fornøje andre og mig selv med, for jeg har <pb n="342"/>den korteste levetid af hele familien; jeg bliver kun otte og tyve! Ja, måske skyder man en dag til, men det gør lige meget. Hurra!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»De må ikke skrige så højt!« sagde skildvagten.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jovist må jeg så!« sagde manden, »jeg er prins Karneval og rejser under navnet Februarius!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">Nu kom den tredje. Han så ud som bare faste, men knejsede, for <seg><!--DATA-TERM: han var i Familie … Veir-Prophet--><anchor target="txtcmnt-342-01"/><!--jf. Thiele III, 4: »Som Veiret er <i>de fyrretyve Ridderes Dag</i>, (d. 9de Marts) vil det blive i fyrretyve Dage«.-->han var i familie med »<seg><!--DATA-TERM: de fyrgetyve Riddere--><anchor target="txtcmnt-342-02"/><!--ifølge sagnet 40 kristne romerske soldater, som i Lillearmenien år 320 led martyrdøden, da de nægtede at ofre til guderne.-->de fyrretyve riddere</seg>« og var vejrprofet</seg>, men det er ikke noget fedt embede, derfor priste han fastetiden. Hans pynt var en dusk violer i knaphullet, men de var meget små.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Marts, march!« råbte den fjerde og stødte til den tredje. »Marts, march! Ind i vagten, her er punch! Jeg kan lugte den!« men det var ikke sandt, han ville narre ham April, dermed begyndte den fjerde fyr. Han så ud til at være rask på det. Han bestilte nok ikke meget, men holdt mange helligdage! »Op og ned er det med humøret!« sagde han, »regn og solskin, flytten ud og flytten ind! Jeg er også <seg><!--DATA-TERM: Flyttedag(s-Commissair)--><anchor target="txtcmnt-342-03"/><!--ifølge plakat (opslået offentlig bekendtgørelse) af 1. juli 1799 var til- og fraflytninger i forbindelse med lejemål normalt sat til 3. tirsdag i april og oktober.-->flyttedagskommissær</seg>, jeg er bedemand, jeg kan både le og græde. Jeg har sommertøj i kufferten, men det ville være meget galt at tage det i brug. Her er jeg! Til stads går jeg i silkestrømper og med muffe!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Nu kom der en dame ud af vognen.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Frøken Maj!« sagde hun. I sommertøj med galocher. Hun havde en bøgebladegrøn silkekjole på, anemoner i håret, og hun duftede dertil sådan af skovmærker så skildvagten måtte nyse. »Gud velsigne Dem!« sagde hun, det var hendes hilsen. Hun var nydelig! Og sangerinde var hun, ikke på teatrene, men inde i skoven, ikke i teltene, nej, i den friske grønne skov gik hun og sang for sin egen fornøjelse. Hun havde i sin sypose <seg><!--DATA-TERM:  Christian Winthers  »Træsnit«--><anchor target="txtcmnt-342-04"/><!--Chr. Winthers (1796-1876) »Træsnit«, som oprindelig var en del af <i>Digte</i>, 1828, forelå i <i>Samlede Digtninger</i>, julen 1860.-->Christian Winthers »Træsnit«</seg>, for de er som bøgeskoven selv, og »Smådigte af Richardt«, de er ligesom skovmærker.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Nu kommer fruen, den unge frue!« råbte de inde i vognen, og så kom fruen, ung og fin, stolt og nydelig. Hun var født til at holde »syvsovere«, kunne man straks se. Hun gjorde gilde på den længste dag i året for at man kunne få tid til at spise de mange retter mad. Hun havde råd til at køre i egen vogn, men kom dog med posten som de andre, hun ville derved vise at hun ikke var hovmodig. Alene rejste hun heller ikke, hun var fulgt af sin yngre bror Julius.</p>
+
+<p rend="firstIndent" xml:id="p_00020">Han var <seg><!--DATA-TERM: vel ved Magt--><anchor target="txtcmnt-342-07"/><!--kraftigt bygget.-->vel ved magt</seg>, sommerklædt og med <seg><!--DATA-TERM: Panama-Hat--><anchor target="txtcmnt-342-08"/><!--stråhat, oprindelig flettet af palmeblade fra Brasilien og Ecuador.-->panamahat</seg>. Kun lidt rejsetøj førte han med, det var så besværligt i var<pb n="343"/>men. Han havde kun badehætte og svømmebukser, det er ikke meget.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Nu kom mutter, madam August, frugthandlerske i tøndevis, ejerinde af mange hyttefade, landmand i stor <seg><!--DATA-TERM: Crinoline--><anchor target="txtcmnt-343-01"/><!--kurveformet skelet af fiskeben eller stålfjedre båret under skørterne for at holde dem ude. På mode omkring 1860.-->krinoline</seg>. Hun var fed og varm, tog del i alt, gik selv med <seg><!--DATA-TERM: (Øl)bimpel--><anchor target="txtcmnt-343-02"/><!--lille trætønde.-->ølbimpel</seg> til folkene ude på marken. »<seg><!--DATA-TERM: Æde … Sved--><anchor target="txtcmnt-343-03"/><!--1. Mosebog 3,19.-->Æde sit brød i sit ansigts sved</seg>, skal man,« sagde hun, »det står i Bibelen. Bagefter kan man holde skovbal og høstgilde!« Hun var mutter.</p>
+
+<p rend="firstIndent" xml:id="p_00022">Nu kom igen et mandfolk, maler af profession, kulørmesteren, det fik skoven at vide, bladene måtte skifte kulør, men dejligt når han ville det. Rød, gul, brun kom skoven snart til at se ud. Mester fløjtede som den sorte stær, var en flink arbejder og hang den brungrønne humleranke om sit ølkrus, det pyntede, og pynt havde han øje for. Her stod han nu med sin farvepotte, den var hele hans rejsegods.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Nu fulgte proprietæren der tænkte på <seg><!--DATA-TERM: Sædemaaned--><anchor target="txtcmnt-343-05"/><!--gammel betegnelse for oktober.-->sædemåned</seg>, på jordens pløjning og behandling, ja, også lidt på jagtens fornøjelse. Han havde hund og gevær, han havde nødder i sin taske, knik knak! Rædsomt meget gods førte han med, og <seg><!--DATA-TERM: en engelsk Plov--><anchor target="txtcmnt-343-06"/><!--den oprindelig engelsk-fremstillede svingplov afløste i løbet af første halvdel af 1800-tallet gradvis den middelalderlige hjulplov.-->en engelsk plov</seg>. Han talte landøkonomisk, men man fik ikke meget at høre for hosten og hiven – det var November som kom.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Han havde snue, voldsom snue, så at han brugte lagen og ikke lommetørklæde, og dog skulle han følge pigerne i <seg><!--DATA-TERM: Condition--><anchor target="txtcmnt-343-07"/><!--tjenesteplads. Den 1. november var skiftedag for tjenestefolk, der fæstedes for det næste halvår.-->kondition</seg>, sagde han, men forkølelsen gik nok over når han kom til at hugge brænde, og det ville han, for han var savskærermester for lavet. Aftenerne tilbragte han med at <seg><!--DATA-TERM: skære Skøiter--><anchor target="txtcmnt-343-08"/><!--før stålskøjtens opfindelse bestod skøjten af et aflangt træstykke, på oversiden plant, tilpasset til en støvlesål og -hæl, på undersiden bådformet og afrundet med indfældet skøjtejern; blev fastspændt til støvlen med læderremme.-->skære skøjter</seg>, han vidste at om ikke mange uger havde man brug for det fornøjelige skotøj.</p>
+
+<p rend="firstIndent" xml:id="p_00025">Nu kom den sidste, den gamle morlille med <seg><!--DATA-TERM: Ildpotten--><anchor target="txtcmnt-343-09"/><!--lerpotte med gløder til at varme fødderne ved, opvarme senge o.l.-->ildpotten</seg>. Hun frøs, men hendes øjne strålede som to klare stjerner. Hun bar en urtepotte med et lille grantræ. »Det vil jeg pleje, og det vil jeg passe så at det bliver stort til juleaften, når fra gulvet lige op til loftet og gror med tændte lys, forgyldte æbler og udklipninger. Ildpotten varmer som en kakkelovn, jeg tager eventyrbogen op af lommen og læser højt så at alle børnene i stuen bliver stille, men dukkerne på træet bliver levende, og den lille engel af voks øverst oppe i træet ryster med <seg><!--DATA-TERM: Knittergulds-Vingerne--><anchor target="txtcmnt-343-10"/><!--vinger af flitterguld, dvs. tyndt messingblik.-->knitterguldsvingerne</seg>, flyver fra den grønne top og kysser små og store inde i stuen, ja, de fattige børn med som står udenfor og synger julesangen om stjernen over Bethlehem.«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Og så kan kareten køre igen!« sagde skildvagten, »nu har vi <seg><!--DATA-TERM: Tylt(en)--><anchor target="txtcmnt-343-11"/><!--egentlig tylvt; 12 personer hørende til samme gruppe.-->tylten</seg>. Lad en ny rejsevogn køre frem!«</p>
+
+<pb n="344"/><p rend="firstIndent" xml:id="p_00027">»Lad først de tolv komme vel ind!« sagde kaptajnen som havde vagt. »En ad gangen! Passet beholder jeg, det gælder for hver, én måned. Når den er omme, skal jeg skrive på det hvorledes hver har opført sig. Vær så god, hr. Januar, vil De behage at træde ind!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">Og så gik han ind.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Når et år er omme, skal jeg sige dig hvad de tolv har bragt dig, mig og os allesammen. Nu ved jeg det ikke, og de ved det nok heller ikke selv – for det er en underlig tid vi lever i!</p>
+
+<pb n="345"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="tolv-med-posten">
+<head type="section-comments">Tolv med Posten</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Anden Række, som udkom den 2. marts 1861.</p>
+<p rend="noIndent">BFN 818/IV,71-74/VII,244-246.</p>
+
+<table rend="textcomments">
+<cell type="page">(340)</cell><row xml:id="txtcmnt-340-01"><cell type="data-definition">Samlingen var tilegnet biskop D.G. Monrad (1811-1887), politiker, kultusminister 1848 og 1859, konsejlspræsident 1863-1864, rejste til New Zealand 1865-1869, i 1871 atter biskop.
+</cell></row><cell type="page">341</cell><row xml:id="txtcmnt-341-01"><cell type="data-term">sloge … Døren</cell><cell type="data-definition">som led i nytårshalløjet; oprindelig for at skræmme de onde ånder væk.</cell></row><row xml:id="txtcmnt-341-02"><cell type="data-term">Helsen</cell><cell type="data-definition">godt helbred.</cell></row><row xml:id="txtcmnt-341-03"><cell type="data-term">klinket</cell><cell type="data-definition">skålet.</cell></row><row xml:id="txtcmnt-341-04"><cell type="data-term">Pas</cell><cell type="data-definition">der var pastvang mellem landsdelene i Danmark.</cell></row><row xml:id="txtcmnt-341-05"><cell type="data-term">kaste(r) … igrams</cell><cell type="data-definition">kaste ud i flæng til de forsamlede.</cell></row><row xml:id="txtcmnt-341-06"><cell type="data-term">Presenter</cell><cell type="data-definition">gaver.</cell></row>
+<cell type="page">342</cell><row xml:id="txtcmnt-342-01"><cell type="data-term">han var i Familie … Vejr-Prophet</cell><cell type="data-definition">jf. Thiele III, 4: »Som Vejret er de fyrretyve Ridderes Dag, (d. 9de Marts) vil det blive i fyrretyve Dage«.</cell></row><row xml:id="txtcmnt-342-02"><cell type="data-term">de fyrgetyve Riddere</cell><cell type="data-definition">ifølge sagnet 40 kristne romerske soldater, som i Lillearmenien år 320 led martyrdøden, da de nægtede at ofre til guderne.</cell></row><row xml:id="txtcmnt-342-03"><cell type="data-term">Flyttedag(s-Commissair)</cell><cell type="data-definition">ifølge plakat (opslået offentlig bekendtgørelse) af 1. juli 1799 var til- og fraflytninger i forbindelse med lejemål normalt sat til 3. tirsdag i april og oktober.</cell></row><row xml:id="txtcmnt-342-04"><cell type="data-term">Christian Winthers »Træsnit«</cell><cell type="data-definition">Chr. Winthers (1796-1876) »Træsnit«, som oprindelig var en del af Digte, 1828, forelå i Samlede Digtninger, julen 1860.</cell></row><row xml:id="txtcmnt-342-05"><cell type="data-term">Smådigte af Richardt</cell><cell type="data-definition">Chr. Richardts (1831-1892) debutsamling Smådigte udkom julen 1860 med årstallet 1861 på titelbladet.</cell></row><row xml:id="txtcmnt-342-06"><cell type="data-term">Syvsover(e)</cell><cell type="data-definition">person, som står sent op, er doven, dvs. fruen holder dovne tjenestefolk. Udtrykket sigter oprindeligt til beretningen om de syv kristne unge mænd, som under kristenforfølgelser i 251 skjulte sig i en <pb n="505"/>hule, som forfølgerne murede til, og de unge mænd sov så til året 447.</cell></row><row xml:id="txtcmnt-342-07"><cell type="data-term">vel ved Magt</cell><cell type="data-definition">kraftigt bygget.</cell></row><row xml:id="txtcmnt-342-08"><cell type="data-term">Panama-Hat</cell><cell type="data-definition">stråhat, oprindelig flettet af palmeblade fra Brasilien og Ecuador.</cell></row>
+<cell type="page">343</cell><row xml:id="txtcmnt-343-01"><cell type="data-term">Crinoline</cell><cell type="data-definition">kurveformet skelet af fiskeben eller stålfjedre båret under skørterne for at holde dem ude. På mode omkring 1860.</cell></row><row xml:id="txtcmnt-343-02"><cell type="data-term">(Øl)bimpel</cell><cell type="data-definition">lille trætønde.</cell></row><row xml:id="txtcmnt-343-03"><cell type="data-term">Æde … Sved</cell><cell type="data-definition">1. Mosebog 3,19.</cell></row><row xml:id="txtcmnt-343-04"><cell type="data-term">Proprietair(en)</cell><cell type="data-definition">ejer af større landejendom.</cell></row><row xml:id="txtcmnt-343-05"><cell type="data-term">Sædemåned</cell><cell type="data-definition">gammel betegnelse for oktober.</cell></row><row xml:id="txtcmnt-343-06"><cell type="data-term">en engelsk Plov</cell><cell type="data-definition">den oprindelig engelsk-fremstillede svingplov afløste i løbet af første halvdel af 1800-tallet gradvis den middelalderlige hjulplov.</cell></row><row xml:id="txtcmnt-343-07"><cell type="data-term">Condition</cell><cell type="data-definition">tjenesteplads. Den 1. november var skiftedag for tjenestefolk, der fæstedes for det næste halvår.</cell></row><row xml:id="txtcmnt-343-08"><cell type="data-term">skære Skøjter</cell><cell type="data-definition">før stålskøjtens opfindelse bestod skøjten af et aflangt træstykke, på oversiden plant, tilpasset til en støvlesål og -hæl, på undersiden bådformet og afrundet med indfældet skøjtejern; blev fastspændt til støvlen med læderremme.</cell></row><row xml:id="txtcmnt-343-09"><cell type="data-term">Ildpotten</cell><cell type="data-definition">lerpotte med gløder til at varme fødderne ved, opvarme senge o.l.</cell></row><row xml:id="txtcmnt-343-10"><cell type="data-term">Knittergulds-Vingerne</cell><cell type="data-definition">vinger af flitterguld, dvs. tyndt messingblik.</cell></row><row xml:id="txtcmnt-343-11"><cell type="data-term">Tylt(en)</cell><cell type="data-definition">egentlig tylvt; 12 personer hørende til samme gruppe.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

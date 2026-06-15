@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Et lille Huus paa Nysøe staaer</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="et-lille-huus-paa-nysoee-staaer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Et lille Huus paa Nysøe staaer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00040</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Et lille Huus paa Nysøe staaer" xml:id="et-lille-huus-paa-nysoee-staaer"><pb n="28"/><head type="part"><source subtype="foreign">Et lille Huus paa <seg target="txtcmnt-028-01"><!--DATA-TERM: Nysøe--><!--DATA-DEFINITION: Nysø; hovedgård og gods fra 1670 ved Præstø, som på H.C. Andersens tid var ejet af baron Hendrik Stampe; billedhuggeren Thorvaldsen boede efter sin hjemkomst fra Italien 1838 indtil sin død 1844 ofte på Nysø, hvor han fik indrettet et atelier.-->Nysøe</seg> staaer</source></head>
+<lg xml:id="p_00041">
+<l rend="noIndent" subtype="firstline" corresp="Et lille Huus paa Nysøe staaer" rendition="et-lille-huus-paa-nysoee-staaer">Et lille Huus paa Nysøe staaer</l>
+<l rend="noIndent">Midt i den smukke Have;</l>
+<l rend="noIndent">Der Svanen stolt med Vingen slaaer</l>
+<l rend="noIndent">I Gaardens gamle Grave.</l>
+<l rend="noIndent">I Huset er den bedste Skat,</l>
+<l rend="noIndent">Den fik Geniets Mærker,</l>
+<l rend="noIndent">Thi her har Danmarks Stolthed sat</l>
+<l rend="noIndent">Udødelige Værker.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Et lille Huus paa Nysøe staaer" synch="et-lille-huus-paa-nysoee-staaer">
+<head type="section-comments"><source subtype="foreign">Et lille Huus paa Nysøe staaer</source></head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Portefeuillen for 1840</hi>, bind 3, på omslaget til 29. hæfte, 19. juli 1840, som del af en artikel om Thorvaldsens atelier på Nysø; umiddelbart forud for digtet står: »Digteren <hi rend="italic">H. C. Andersen</hi>, som i længere Tid levede her sammen med Kunstneren, har i et Impromtu skildret Stedet saaledes«. BFN 382</p>
+<table rend="textcomments">
+<cell type="page">28</cell><cell><row xml:id="txtcmnt-028-01"><cell type="data-term">Nysøe</cell><cell type="data-definition">Nysø; hovedgård og gods fra 1670 ved Præstø, som på H.C. Andersens tid var ejet af baron Hendrik Stampe; billedhuggeren Thorvaldsen boede efter sin hjemkomst fra Italien 1838 indtil sin død 1844 ofte på Nysø, hvor han fik indrettet et atelier.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

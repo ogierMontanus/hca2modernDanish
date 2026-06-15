@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The old Church Bell</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-gamle-kirkeklokke">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-gamle-kirkeklokke_modern.xml">moderniseret version</note>
+                                                       <note target="157_The-Old-Church-Bell.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In the German state of Würtemberg, where the acacia trees blossom so delightfull...</incipit><idno type="image">Den_gamle_Kirkeklokke_hca_ill_0087.png</idno><popularity>928</popularity><cite>&lt;p&gt;Hans Christian Andersen: The old Church Bell. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>livsforloeb</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-24" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-24" who="NHB">formatted</change><change who="NHB" when="2022-10-24">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The old Church Bell (Written for ‘The Schiller Album’)">
+          <head type="main" rend="The old Church Bell">The old Church Bell</head>                <head type="part" rend="(Written for ‘The Schiller Album’)">(Written for ‘The <hi rend="italic">Schiller</hi> Album’)</head>                <p rend="noIndent" xml:id="p_00001">In the German state of <hi rend="italic">Würtemberg</hi>, where the acacia trees blossom so delightfully at the roadside and the apple and pear trees are laden in autumn with their mature blessing, there lies a small town, <hi rend="italic">Marbach</hi>; it belongs to the more humble settlements, but is beautifully located down by the river <hi rend="italic">Neckar</hi> that flows swiftly past towns, old baronial castles and slopes of green vineyards before mingling with the proud and mighty Rhine.</p>
+          <p rend="firstIndent" xml:id="p_00002">It was late in the year, the vines were decked with russet leaves, showers fell, and the cold wind increased; it was not the pleasantest time of the year for the poor; the days were dark, and it was even darker inside the old, small houses. One of these lay with its gable facing the street, with low windows, poor and inferior to look at, as was the family that lived there, although honest and industrious; and with devoutness in the treasure trove of their hearts. Yet another child <hi rend="italic">Our Lord </hi>was about to grant them; the hour had come, the mother lay in pain and anguish, when in to her came a chiming so deep, so festive from the church tower!, it was a special occasion, and the sound of the bell filled the praying woman with devotion and faith; her thoughts rose fervently towards God, and in that same moment she gave birth to her infant son and felt exceedingly joyful. The bell in the tower seemed to ring out her joy over town and country. Her child’s two bright eyes gazed at her and its hair shone as if it had been gilded; the child was received into the world with the chiming of the bell on that dark November day; mother and father kissed it, and in their Bible they wrote that ‘On the 10th November 1759 God gave us a son’, and later on came the addition that at his christening he was given the names ‘<hi rend="italic">Johan Christoph Friedrich</hi>’.</p>
+          <p rend="firstIndent" xml:id="p_00003">What became of the little fellow, the poor boy from humble <hi rend="italic">Marbach</hi>? Well, nobody knew back then, not even the old church bell, no matter how high up it hung and had rung and sung first for the one who later was to write the most delightful song about ‘<hi rend="italic">The Bell</hi>’.</p>
+          <p rend="firstIndent" xml:id="p_00004">And the little boy grew and his world grew too; his parents admittedly moved to another town, but there were still dear friends in little <hi rend="italic">Marbach</hi>, so mother and son paid it a visit one day; the boy was still only six years old at the time, but he already knew quite something of the Bible and the pious hymns, from his little cane chair he had many an evening heard his father read <hi rend="italic">Gellert</hi>’s Fables and the Song of the <hi rend="italic">Messiah</hi>; and he and his sister, who was two years older, had shed hot tears when reading of <hi rend="italic">him</hi> who suffered death on the cross for us all.</p>
+          <p rend="firstIndent" xml:id="p_00005">When they first revisited <hi rend="italic">Marbach</hi>, the town had not changed very much at all, but then it was not all that long after they had left it; the houses stood as before with pointed gables, sloping walls and low windows; in the cemetery new graves had appeared, and there, right up against the wall, the old bell now lay down in the grass, it had fallen down from a great height, cracked and could no longer ring – a new one had also replaced it.</p>
+          <p rend="firstIndent" xml:id="p_00006">Mother and son had entered the cemetery, they were standing in front of the old bell, and the mother told her little boy how the bell had been of use and benefit for several hundreds of years, had pealed at christenings, weddings and funerals; it had rung out about festive joy and the horrors of fire; indeed, it sang out the length of a human life. And the child never forgot what his mother told him, it resounded in his breast until later, when a man, he had to sing out about it. And his mother told him how the old church bell had rung consolation and joy in to her in her hour of anguish, rung and sung when her little boy was given her. And the child gazed almost with veneration at the large old bell, he bent down and kissed it, even though it lay old, cracked and discarded here among grass and nettles.</p>
+          <p rend="firstIndent" xml:id="p_00007">It remained in the little boy’s memory as he grew up in poverty; tall and thin, with reddish hair, a freckled face – yes, it was – but he also had two bright eyes like clear, deep pools. What became of him? Things went well for him, enviably well! He was quite exceptionally accepted as a pupil at the part of the military school attended by the children of fine folk, and that was an honour, a piece of good fortune; he wore short boots, a stiff cravat and a powdered wig. He was given an education, and it was to the tune of ‘March!’ ‘Halt’ ‘To the Front!’. Something could really come of that.</p>
+          <p rend="firstIndent" xml:id="p_00008">The old church bell, hidden and forgotten, would one day probably end up in a smelting furnace, and what came out of that? Well, it was impossible to say, nor was it possible to say what would come out of the bell inside the young man’s breast, there was bronze in there that rang, that simply had to sound out over the great wide world, and the more constricted it became behind the school walls and the more deafening the ‘March!’ ‘Halt’ ‘To the Front’ resounded, the louder the bell rang in the young man’s breast, and he sang it out to his circle of friends, and the sound could be heard beyond the state’s borders; but it was not for that reason that he had been granted an education, clothing and food; he had the number of the rivet he was going to be in the great clock we are all part of in what is tangible common benefit. – How little we understand ourselves, how then are others, even those best qualified, supposed to understand us! But it is precisely through pressure that a precious stone is created. The pressure was here, would perhaps the world, in the course of time, get to know the precious stone?</p>
+          <p rend="firstIndent" xml:id="p_00009">Great festivities were taking place in the capital of the state ruler. Thousands of lanterns glittered, rockets flared; that brilliance is still remembered by the man who in tears and pain was then attempting unnoticed to escape to foreign soil; he had to leave his fatherland, mother, all his dear ones, or be inundated by the commonplace.</p>
+          <p rend="firstIndent" xml:id="p_00010">The old bell was doing fine, it lay sheltered by the church wall in <hi rend="italic">Marbach</hi>, hidden, forgotten! The wind passed over it and could have told of the one whose birth the church bell had once rung out, told of how coldly it had swept over him, that he had recently, exhausted by fatigue, collapsed in a wood of the neighbouring state, where his entire wealth and hope of the future were written pages about ‘<hi rend="italic">Fiesco’s Conspiracy’</hi>; the wind could have told of his sole protectors, artists all of them, who sneaked away when he was reading it aloud and played skittles instead. The wind could report about the pale refugee who lived for weeks, months in the poor inn where the innkeeper shouted and drank, where there was but coarse merriment, while he strove for the Ideal. Heavy days, dark days! the heart must itself suffer and undergo what it sand about.</p>
+          <p rend="firstIndent" xml:id="p_00011">Dark days, cold nights passed over the old bell; it did not feel it, but the bell in the human breast feels its hard times. How did things go for the young man? How did they go for the old bell? Well, the bell ended up far away, farther than it had been able to be heard in its elevated position in the tower; the young man, well, the bell in his breast sounded farther off than his feet were to wander and his eyes see, it rang out and continues to ring out over the oceans of the world, all round the earth. Hear first about the bell! It came from <hi rend="italic">Marbach</hi>, it was sold as scrap copper and was to be melted down in the state of Bavaria. How did it get there and when? Well, the bell will have to explain that itself, if it can, it is of no great importance; but it is certain that it came to the royal capital of Bavaria; many years had passed since it fell down from the tower, now it was to be melted down, was to be used in casting a great monument, the statue in honour of a great figure for the country of Germany and its people. Just listen to how things turned out, strange and wonderful things happen in this world of ours! Up north in <hi rend="italic">Denmark</hi>, on one of the green islands where the beech tree grows and where there are many large barrows, there was a very poor boy who had worn wooden clogs, carried food in an old cloth to his father who carved figureheads for ships on Holmen in Copenhagen; that poor child had become the pride of his country, he made magnificent statues out of marble at which the whole world marvelled, and he was precisely the one who was given the prestigious task of fashioning in clay a figure of greatness, of beauty that could then be cast in bronze, a statue of the man whose name his father had written in his Bible: <hi rend="italic">Johan Christoph Friedrich</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00012">And the bronze flowed white-hot into the mould, and the old church bell – well, no one thought about its native soil and no longer audible ringing, the bell also flowed into the mould and formed the head and chest of the statue, which was later unveiled and stands in <hi rend="italic">Stuttgart</hi> in front of the former palace, on the square where the one it represents once walked in real life, struggling and striving, pressured by the world around him, the boy from <hi rend="italic">Marbach</hi>, the pupil from the Karlsschule military school, the refugee, Germany’s great, immortal writer who sang of the liberator of Switzerland and the fervently religious Maid of France.</p>
+          <p rend="firstIndent" xml:id="p_00013">It was a lovely sunny day, flags were waving from towers and roofs in the royal city of <hi rend="italic">Stuttgart</hi>, the church bells were ringing out, calling people to festivities and gladness, only one bell was silent, it gleamed in the bright sunlight, gleamed from the head and chest of the figure of honour; precisely a hundred years had passed since the day the bell in the church tower of <hi rend="italic">Marbach</hi> had rung out joy and consolation to the suffering mother giving birth to her child, a poor woman in a poor house, later destined to become the rich man whose treasures the world blesses; the man, the writer of the noble female heart, the singer of all that is great and magnificent – <hi rend="italic">Johan Christoph Friedrich Schiller</hi>.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

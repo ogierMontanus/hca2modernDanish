@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Elder-Mother</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hyldemoer">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hyldemoer_modern.xml">moderniseret version</note>
+                                                       <note target="70_Elder-Mother.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a little boy who had caught a cold; he’d been out walking and got...</incipit><idno type="image">Hyldemoer_01_2022-03-09.png</idno><popularity>968</popularity><cite>&lt;p&gt;Hans Christian Andersen: Elder-Mother. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>livsforloeb</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-16" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-16">formatted</change><change who="NHB" when="2022-11-09">added quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Elder-Mother">
+          <head type="main" rend="Elder-Mother">Elder-Mother</head>                <p rend="noIndent" xml:id="p_00001">There was once a little boy who had caught a cold; he’d been out walking and got his feet wet, no one could make out how he’d got them wet, for the weather was quite dry. His mother undressed him, put him in bed and had the tea urn brought in to make him a good cup of elder tea, for that warms one up! Just then a funny old man, who lived at the very top of the house all alone, entered by the door; he had neither wife nor children, but was extremely fond of children and could tell so many fairy tales and stories that it was a real pleasure.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Now you just drink up your tea!’ his mother said, ‘and maybe you’ll get to hear a fairy tale.’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Yes if only I knew something new!’ the old man said and nodded very gently. ‘But where has the little boy got those wet feet from?’ he asked.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Yes, indeed!’ his mother said, ‘no one can understand it.’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘Do I get to hear a fairy tale?’ the boy asked.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Well, can you tell me pretty exactly, for I have to know that first, just how deep the gutter is round the corner in the little street where you go to school.’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Exactly up to the middle of the shafts,’ the boy said, ‘but only if I go in the deep hole!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Well, that’s where the wet feet come from,’ the old man said. ‘Now I really ought to tell a fairy tale, but I don’t know any more!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘You can make one up just like that,’ the little boy said. ‘Mother says that everything you look at can turn into a fairy tale, and everything you touch you can make a story out of!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes, but those fairy tales and stories are no good! no, the real ones come of their own accord, they knock on my forehead and say: here I am!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Won’t there come a knock soon?’ the little boy asked, and his mother laughed, put elder tea into the pot and poured boiling water over it.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Tell me one! tell me one!’</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Yes, if only a fairy tale would come of its own accord, but such a tale is a bit hoity-toity, it only comes if it feels like it –! stop!’ he suddenly said. ‘There’s one! careful, there’s one on the tea pot right now!’</p>
+          <p rend="firstIndent" xml:id="p_00014">And the little boy looked over at the tea pot, the lid lifted itself higher and higher, and the elderflowers, so fresh and white, came into view, they grew large long branches, even out of the spout they spread out on all sides and grew bigger and bigger, it was the loveliest elder bush, a whole tree, it poked into the bed and pushed the curtains aside; oh, how it blossomed and had a wonderful scent! and in the middle of the tree there sat an old, kind-looking woman in a strange frock, it was completely green, like the leaves of the elder, and studded with large white elderflowers, one couldn’t see at first if it was clothing or live foliage and flowers.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘What’s the name of that woman!?’ the little boy asked.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘Well, those Romans and Greeks,’ the old man said, ‘they used to call her a dryad, but we can’t understand that; out in the Nyboder district they have a better name for her, there she is called <hi rend="italic">Elder-Mother</hi>, and she’s the one you must take note of; just listen, and look at the lovely elder tree:</p>
+          <p rend="firstIndent" xml:id="p_00017">Just such a large, flowering tree stands out there in Nyboder; it grew in the corner of a poor small yard; beneath this tree, in the loveliest sunshine, there sat one afternoon two old persons, a very, very old sailor and his very, very old wife – they were great grandparents and were soon going to celebrate their golden wedding anniversary, but they couldn’t quite remember the date, and elder-mother sat up in the tree and looked so pleased, as she does here. “I know for certain when their golden wedding anniversary is!” she said, but they didn’t hear her, they were talking about the old days.</p>
+          <p rend="firstIndent" xml:id="p_00018">“Remember the time,” the old sailor said, “when we were quite young and used to run and play, it was precisely in the same yard where we’re sitting now, and we used to push twigs into the earth and make a garden.”</p>
+          <p rend="firstIndent" xml:id="p_00019">“Yes,” the old woman said, “I remember it well! and we used to water the twigs, and one of them was an elder twig, it put down roots, put forth green shoots and has now become the big tree under which we the old people are now sitting.”</p>
+          <p rend="firstIndent" xml:id="p_00020">“Ah yes!” he said, “and over there in the corner there was a water tub, where my ship used to float, I’d carved it myself, oh how it could sail! but I soon was really out doing a different sort of sailing!”</p>
+          <p rend="firstIndent" xml:id="p_00021">“Yes, but first we went to school and learnt something!” she said, “and then we were confirmed; we cried the both of us; but in the afternoon we climbed the Round Tower hand in hand and gazed out at the world from above Copenhagen and the water; and then we went to Frederiksberg, where the king and queen sailed around the canals in their magnificent boats.”</p>
+          <p rend="firstIndent" xml:id="p_00022">“I did a different sort of sailing, though, and for many years, far off on long voyages!”</p>
+          <p rend="firstIndent" xml:id="p_00023">“Yes, I often cried over you!” she said, “I thought you were dead and gone and were lying larking around down in the depths of the ocean! many a night I got up to see if the weather vane was turning; yes, it turned all right, but you still didn’t come! I remember so clearly how the rain was pouring down one day, the dustman came along outside where I was in service, I came down with the dustbin and stood there in the doorway, – what foul weather it was! and as I was standing there, the postman at my side gave me a letter: it was from you! Oh, what a journey it had taken! I started reading it at once; I laughed and I cried; I was so happy! it said that you were in the warm countries where the coffee beans grow! what a wonderful country that must be! you wrote so much, and I could see it all, while the rain poured down and I stood with the dustbin. Then all at once someone took me by the waist – –!”</p>
+          <p rend="firstIndent" xml:id="p_00024">“Yes, but you gave him a hefty clout round the ear, a right smack it was.”</p>
+          <p rend="firstIndent" xml:id="p_00025">“Well, I didn’t know it was you! You had arrived just as early as your letter; and you were so handsome! – you still are, of course, you had a long, yellow silk handkerchief in your pocket and a shiny hat on, you were so stylish. Good heavens, what terrible weather it was, and what a state the street was in!” –</p>
+          <p rend="firstIndent" xml:id="p_00026">“Then we got married!” he said, “you remember! and then we had our first little boy and then Marie and Niels and Peter and Hans Christian!”</p>
+          <p rend="firstIndent" xml:id="p_00027">“Yes, and now they have all grown up and become good-natured people that everyone likes!”</p>
+          <p rend="firstIndent" xml:id="p_00028">“And their children in turn have had children!” the old sailor said; “yes and there’s plenty of spark in the great grandchildren! – and I seem to recall that it was this time of year when we held our wedding –!”</p>
+          <p rend="firstIndent" xml:id="p_00029">“Yes, today is the exact day of your golden wedding anniversary!” elder-mother said, sticking her head right in between the old couple, and they thought it was the woman next door nodding; they looked at each other and took hold of each other’s hands; a little later their children and grandchildren came; they knew very well it was the golden wedding anniversary, they had already congratulated them that morning, but the old couple had forgotten that, whereas they could remember everything that had happened many years earlier; and the elder tree was so full of scent and the sun, which was now setting, shone straight into the old couple’s faces; they both began to look quite rosy-cheeked, and the youngest of the grandchildren danced round them and called out so joyfully that there was going to be a great party and they were going to have hot potatoes; and elder-mother nodded up in the tree and shouted Hurrah with all the others. – ”</p>
+          <p rend="firstIndent" xml:id="p_00030">‘But that wasn’t a fairy tale!’ exclaimed the little boy it was told to.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘Well, that’s for you to decide!’ said the one who was telling it, ‘but let’s ask elder-mother!’</p>
+          <p rend="firstIndent" xml:id="p_00032">‘That wasn’t a fairy tale;’ elder-mother said, ‘but here comes one now! For out of real life the most marvellous fairy tales grow; otherwise my lovely elder bush couldn’t have grown out of the tea pot!’ and then she took the little boy out of his bed, laid him to her bosom, and the elder branches, full of blossom, wrapped themselves round them, they sat there as in the thickest bower, and it flew with them through the air, it was so incomparably delightful. Suddenly the elder-mother had turned into a lovely young girl, but her frock was still of the same green, white-flowered material that elder-mother had been wearing; at her breast she had a real elderflower, and round her blond, curly hair a whole garland of elderflowers; her eyes were so big, so blue, oh, she was so wonderful to look at! she and the boy kissed, and now they were of the same age and shared the same wishes.</p>
+          <p rend="firstIndent" xml:id="p_00033">They walked out of the bower hand in hand and were now standing in the home’s lovely flower garden; by the fresh plot of grass father’s walking-stick had been tethered to a post; for the young children there was life in the walking-stick; as soon as they sat astride it, the shiny knob changed into a wonderful neighing head, its flowing, black mane fluttered, four strong, slender legs shot out; the animal was strong and spirited; they rode round the plot of grass at a gallop – hurrah! – ‘Now we’ll ride off many a mile!’ the boy said; ‘we’ll ride to the manor house where we were last year!’ and they rode round and round the plot of grass; and all the time the little girl – who, as we know, was nobody else than elder-mother – cried out: ‘Now we’re out in the country! Can you see the farmer’s house with the large baking oven like a huge egg in the wall facing the road; the elder tree is bending its branches down over it, and the cock is scratching away for the hens, just look at how it’s strutting about! – now we’re by the church! it lies high up on the hill between the great oak trees, one of which is half-dead! – Now we’re at the forge, where the fire is white-hot, and the bare-chested men strike with their hammers so the sparks fly all around them. Off, off to the marvellous manor house!’ and everything the little girl sitting behind on the stick said also flew past; the boy saw it, despite the fact they were only riding round the plot of grass. Then they played in the side path and scratched a small garden in the earth, and she took the elderflower from her hair, planted it, and it grew exactly as had happened for the old couple in Nyboder that time when they were small, and that has already been related. They walked hand in hand, just as the old couple had done as children, but not up the Round Tower or to Frederiksberg Garden, no, the little girl took the boy by the waist, and they flew around all of Denmark, and it was spring and it became summer, and it was autumn and became winter, and a thousand images were reflected in the boy’s eyes and heart, and all the while the little girl sang for him: ‘this you will never forget!’ and throughout their flight the elder tree had such a sweet and lovely scent; he did notice the roses and the fresh beeches, but the elder tree’s fragrance was even more wonderful for its flowers hung close to the little girl’s heart, and as they flew he often leant his head against it.</p>
+          <p rend="firstIndent" xml:id="p_00034">‘It’s lovely here in spring!’ the young girl said, and they are standing in the beech wood that had just come into leaf, with the scent of the green woodruff at their feet, and the pale-red anemones looked so lovely out in the open air. ‘Oh, if only it was always spring in the sweet-smelling Danish beech wood!’</p>
+          <p rend="firstIndent" xml:id="p_00035">‘It’s lovely here in summer!’ she said, and they passed by old manor houses from the age of chivalry, where the red walls and crenelated gables were reflected in the canals, where the swans swam and looked up in the old, cool avenues. In the field the corn was waving as if it was a sea, the waysides were full of red and yellow flowers, the hedgerows with wild hops and flowering bindweed; and in the evening the moon rose large and round, the haystacks in the meadows smelled so sweet. ‘This will never be forgotten!’</p>
+          <p rend="firstIndent" xml:id="p_00036">‘It’s lovely here in autumn!’ the little girl said, and the sky grew twice as tall and blue, the woods took on the loveliest shades of russet, yellow and green, the hunting hounds were let loose, whole hosts of game birds flew up screeching over the barrow where the branches of bramble clung round the ancient stones; the sea was a blackish blue with white sailing ships and in the barn old women, girls and children sat peeling hops into a large vat; the young people sang songs, but the old ones told tales of pixies and trolls. Nothing could be better than this!’ ‘It’s lovely here in winter!’ the little girl said; and all the trees stood coated in hoar frost, they looked like white coral, the snow crunched underfoot, as if one always had new boots on, and from the sky fell one shooting star after the other. In the living room the Christmas tree was lit, there were presents and good spirits; in the country the violin could be heard in the farmer’s living room, mounds of fluffy pancakes were scrambled for, even the poorest child said: ‘But it’s so lovely in winter!’</p>
+          <p rend="firstIndent" xml:id="p_00037">Yes, it was lovely! and the little girl showed everything to the boy, and all the time there was the scent of the elder tree and all the time the red flag with the white cross was waving, the flag under which the old sailor in Nyboder had sailed; – and the boy became a young man, and he was to be off into the great wide world, far away to the warm countries where coffee grows; but when she said goodbye, the little girl took an elderflower from her breast, gave it to him as a keepsake and it was laid in his hymn-book, and whenever he opened the book in foreign climes, it opened precisely there where the flower of remembrance lay, and the more he gazed at it, the fresher it became; it was as if he could sense a scent from Danish woods, and he saw clearly the little girl peeping out among the petals of the flower with her clear blue eyes, and then she would whisper: ‘It’s lovely here in spring, in summer, in autumn and winter!’ and a hundred images would pass through his mind.</p>
+          <p rend="firstIndent" xml:id="p_00038">This was how many years passed, and now he was an old man and sat with his old wife beneath a flowering tree; they were holding hands, just like great-grandfather and great-grandmother were doing out in Nyboder, and talking to each other about the old days, and about their golden wedding anniversary; the little girl with the blue eyes and with the elderflowers in her hair sat up in the tree, nodded to both of them, and said: ‘today the day of the golden wedding anniversary!’ and then she took two flowers from her garland, kissed them, and they gleamed first like silver, then like gold, and when she placed them on the old couple’s heads, each flower became a golden crown; there they both sat like a king and a queen, under the scented tree that looks absolutely like an elder tree, and he told his old wife the story about elder-mother, just as it had been told to him when he was a young boy, and both of them felt that there was so much in the story that was similar to their own, and that which was similar was what they liked best.</p>
+          <p rend="firstIndent" xml:id="p_00039">‘Yes, that’s how it is!’ the little girl in the tree said, ‘Some call me Elder-Mother, others Dryad, but in actual fact my name is Memory, I am the one who sits in the tree that grows and grows, <hi rend="italic">I </hi>can remember, <hi rend="italic">I</hi> can tell stories! Let me see if you still have your flower!’</p>
+          <p rend="firstIndent" xml:id="p_00040">And the old man opened his hymn-book, there lay the elderflower, so fresh as if it had only just been placed there, and Memory nodded, and the old couple wearing the golden crowns sat there in the red evening sun; they closed their eyes, and – and –! well, then the fairy tale was at an end!</p>
+          <p rend="firstIndent" xml:id="p_00041">The little boy lay in his bed, he didn’t know if he had dreamt it or heard it told; the tea pot stood on the table, but no elder tree was growing out of it, and the old man who had told the story was just about to go out through the door, which he did.</p>
+          <p rend="firstIndent" xml:id="p_00042">‘How lovely it was!’ the little boy said. ‘Mother, I have been in the warm countries!’</p>
+          <p rend="firstIndent" xml:id="p_00043">‘Well, that’s hardly a surprise!’ his mother said, when one downs two whole cups of elder tea, one’s sure to get to the warm countries!’ – and she tucked him up well, so that he wouldn’t catch cold. ‘You’ve probably been asleep, while I was arguing with him as to whether it was a story or a fairy tale!’</p>
+          <p rend="firstIndent" xml:id="p_00044">‘And where’s elder-mother?’</p>
+          <p rend="firstIndent" xml:id="p_00045">‘She’s on the tea pot!’ his mother said, ‘And there she can stay!’</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

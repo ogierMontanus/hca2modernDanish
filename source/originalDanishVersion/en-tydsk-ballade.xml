@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En tydsk Ballade</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</licence>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<head type="section-comments">En tydsk Ballade</head><p rend="noIndent">Først kendte tryk i <hi rend="italic">Kjøbenhavns-Posten</hi>, nr. 19, 22. januar 1830. BFN 73</p>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">7:<hi rend="italic"> Digte I 1823-1839</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-tydsk-ballade" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Eengang – men det er nu længe siden</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>en-tydsk-ballade/#eengang-men-det-er-nu-laenge-siden</section>
+                                                                 <date>1830</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1830</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-06-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-06-08" who="NHB">formatted</change><change who="NHB" when="2023-06-23" status="draft">gennemset indtil 10333: 
+               Hr. Mickel i Odense</change><change who="NHB" when="2023-06-25" status="draft">indsat sourceDate. Endnu ikke well-formet</change><change who="NHB" when="2023-06-25" status="draft">wellformet</change><change who="NHB" when="2023-06-25" status="draft">sourceDate og div struktur kontrolleret indtil Phantasier og Skizzer</change><change who="NHB" when="2023-10-27" status="draft">overordnet værkstruktur etableret i works</change><change who="NHB" when="2023-11-03" status="draft">citater m.v. kodet indtil s. 205. Mangler systematiske ændringer og manuelt gennemsyn fra og med 1823</change><change who="NHB" when="2023-11-07" status="draft">indtil s. 315</change><change who="NHB" when="2023-11-08" status="draft">til s. 333</change><change who="NHB" when="2023-11-13" status="draft">autoindsat subtype=firstline</change><change who="NHB" when="2023-11-13" status="draft">gennemset struktur i kommentarer indtil side 178</change><change who="NHB" when="2023-11-17" status="draft">struktur indtil 474</change><change who="NHB" when="2023-11-19" status="draft">gennemset opmærkning indtil s. 66</change><change who="NHB" when="2023-11-24" status="draft">indtil s. 92</change><change who="NHB" when="2023-11-28" status="draft">gennemset indtil s. 344</change><change who="NHB" when="2023-11-30" status="draft">indtil Februar, s. 378</change><change who="NHB" when="2023-12-02" status="draft">til s. 436</change><change who="NHB" when="2023-12-21" status="draft">indsat seg comStart</change><change who="NHB" when="2024-06-14" status="draft">batch changes rend attributes for elements l and stage with stylesheet: resetRendAttributeLetAl.xsl</change>
+                                        <change who="NHB" when="2024-09-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="En tydsk Ballade" xml:id="en-tydsk-ballade">
+<pb n="164"/>
+<head type="main">En tydsk Ballade</head>
+<lg xml:id="p_00302">
+<l rend="noIndent" subtype="firstline" corresp="Eengang – men det er nu længe siden" rendition="eengang-men-det-er-nu-laenge-siden">Eengang – men det er nu længe siden,</l>
+<l rend="noIndent">I en deilig Sommeraften-Stund,</l>
+<l rend="noIndent">Da det saadan var omtrent paa Tiden,</l>
+<l rend="noIndent">At de Fleste fik det første Blund,</l>
+<l rend="noIndent">Sad endnu bag Præstegaardens Linde</l>
+<l rend="noIndent"><hi rend="italic">Christen Peersen</hi> med sin Elskerinde,</l>
+<l rend="noIndent">Talte meget smukt om alle Slags.</l>
+</lg>
+<lg xml:id="p_00303">
+<l rend="noIndent"><seg target="txtcmnt-164-01"><!--DATA-TERM: Nectar--><!--DATA-DEFINITION: nektar; i græsk mytologi den drik, der gjorde guderne udødelige.-->Nectar</seg> drak han af de friske Læber,</l>
+<l rend="noIndent">(Gid jeg ogsaa havde været her!)</l>
+<l rend="noIndent">Nattergalen spilled’ som en <seg target="txtcmnt-164-02"><!--DATA-TERM: Weber--><!--DATA-DEFINITION: den tyske komponist C.M. v. Weber.--><hi rend="italic">Weber</hi></seg>,</l>
+<l rend="noIndent">Alting var saa grumme deiligt der.</l>
+<l rend="noIndent">Men med Eet – midt i den bedste Trille –</l>
+<l rend="noIndent">Hvad har ikke Fanden at bestille!</l>
+<l rend="noIndent">Paa Minutten han i Helten sprang.</l>
+</lg>
+<lg xml:id="p_00304">
+<l rend="noIndent"><hi rend="italic">Christen Peersen</hi> fløi fra <hi rend="italic">Karens</hi> Side</l>
+<l rend="noIndent">(I sin Skræk slog Nattergalen Klik);</l>
+<l rend="noIndent">I hans Øine viste sig det Hvide,</l>
+<l rend="noIndent">Knap han disse Ord fra Læben fik:</l>
+<l rend="noIndent">»Ak, jeg frygter – ja, jeg <seg target="txtcmnt-164-03"><!--DATA-TERM: grant--><!--DATA-DEFINITION: klart, tydeligt.-->grant</seg> fornemmer,</l>
+<l rend="noIndent">Naar jeg reiser, du din <hi rend="italic">Christen</hi> glemmer –</l>
+<l rend="noIndent">Derfor sværg med Haanden paa Dit Bryst ...!«</l>
+</lg>
+<lg xml:id="p_00305">
+<l rend="noIndent">Hvad hun svoer med Troskabs stærke Stemme,</l>
+<l rend="noIndent">Vil jeg her poetisk pynte ud:</l>
+<l rend="noIndent">»Kunde Dig jeg for en Anden glemme,</l>
+<l rend="noIndent">Da maa Dybet hente mig som Brud!</l>
+<l rend="noIndent">Ak hvor kan Du tvivle om Din Karen,</l>
+<l rend="noIndent">Dig jeg trofast er, som Engleskaren,</l>
+<l rend="noIndent">Der beskytter vores Kjærlighed!«</l>
+</lg>
+<lg xml:id="p_00306">
+<l rend="noIndent">Det var <hi rend="italic">det</hi> – Nu blev vel talt lidt mere;</l>
+<l rend="noIndent">Maanen og Smaa-Stjernerne saae til,</l>
+<l rend="noIndent">Sligt jeg ikke gider repetere,</l>
+<pb n="165"/>
+<l rend="noIndent"><seg target="txtcmnt-165-01"><!--DATA-TERM: In natura--><!--DATA-DEFINITION: (latin) i naturlig tilstand; her: i virkeligheden.--><hi rend="italic">In natura</hi></seg> jeg det prøve vil.</l>
+<l rend="noIndent">Hjertet slog bag hans og hendes Trøie,</l>
+<l rend="noIndent">Og en Taare stod i Pigens Øie,</l>
+<l rend="noIndent">Da de begge maatte skilles ad.</l>
+</lg>
+<lg xml:id="p_00307">
+<l rend="noIndent">Længe laae hun nu i Sengens Puder,</l>
+<l rend="noIndent">Tænkte paa – hvad Piger tænke paa;</l>
+<l rend="noIndent">Rundt omkring fløi sære Drømme-Guder,</l>
+<l rend="noIndent">Nogle store, Andre bitte smaae.</l>
+<l rend="noIndent">– Venner! ak, jeg bliver kold i Nakken;</l>
+<l rend="noIndent">Dog her er ei megen Tid til Snakken,</l>
+<l rend="noIndent">Hør hvordan det nu med Pigen gaaer.</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_00308">
+<l rend="noIndent">Stille dog! – ha, hvad er det som klinger?</l>
+<l rend="noIndent">Det er jo Musik og Klokke-Klang.</l>
+<l rend="noIndent">Ak, jeg troer man til et Bryllup ringer!</l>
+<l rend="noIndent">Ja, nu kan jeg høre Brudesang.</l>
+<l rend="noIndent"><hi rend="italic">Christen Peersen</hi> sidder fjernt paa <hi rend="italic">Skagen</hi>,</l>
+<l rend="noIndent">Drømmer ei et Ord om hele Sagen,</l>
+<l rend="noIndent"><hi rend="italic">Karen</hi> ægter nu en Corporal.</l>
+</lg>
+<lg xml:id="p_00309">
+<l rend="noIndent"><seg target="txtcmnt-165-02"><!--DATA-TERM: Tællelys--><!--DATA-DEFINITION: lys af talg.-->Tællelys</seg> man seer i Lysekroner</l>
+<l rend="noIndent">Straale fra den store Dandsesal,</l>
+<l rend="noIndent">Og Musikens stærke Trylletoner</l>
+<l rend="noIndent">Fjernt forkynder Bryllups-Fest og Bal.</l>
+<l rend="noIndent">Maanen med sit gamle Ansigt titter</l>
+<l rend="noIndent">Ind i Salen gjennem Vindvets Gitter,</l>
+<l rend="noIndent">Seer dem lystigt dandse Wienervals.</l>
+</lg>
+<lg xml:id="p_00310">
+<l rend="noIndent">Hestetrampen høres nu ved Huset,</l>
+<l rend="noIndent">Og en fornem Herre træder ind;</l>
+<l rend="noIndent">Strax til Velkomst rækker man ham Kruset,</l>
+<l rend="noIndent">Sorte Lokker bølge om hans Kind,</l>
+<l rend="noIndent">Øiets Ild let kunde gjøre bange ...</l>
+<l rend="noIndent">Han for Bruden bukker mange Gange:</l>
+<l rend="noIndent">»Tør jeg bede om en Wienervals!«</l>
+</lg>
+<lg xml:id="p_00311">
+<l rend="noIndent">Som bevinged’ fløi de gjennem Salen,</l>
+<l rend="noIndent">Bruden svimled’ i hans stærke Arm;</l>
+<l rend="noIndent">Udenfor lød Griin og Hanegalen;</l>
+<l rend="noIndent">Rosen visnede paa Brudens Barm.</l>
+<pb n="166"/>
+<l rend="noIndent">Ei hun veed hvad hende saa forskrækker,</l>
+<l rend="noIndent">Da den <hi rend="italic">Stærke</hi> gjennem Dandsens Rækker</l>
+<l rend="noIndent">Fører hende ud i Mulm og Nat.</l>
+</lg>
+<lg xml:id="p_00312">
+<l rend="noIndent">Det var ham – jeg tør ei Navnet sige –</l>
+<l rend="noIndent">Vildt det brændte bag hans lodne Barm;</l>
+<l rend="noIndent">Fast han holdt den dødningblege Pige</l>
+<l rend="noIndent">I sin stærke, senefulde Arm;</l>
+<l rend="noIndent">Svang sig dristigt over Bjerg og Dale;</l>
+<l rend="noIndent">Uglen skreeg i Skovens skumle Sale,</l>
+<l rend="noIndent">Men paa <seg target="txtcmnt-166-01"><!--DATA-TERM: Steilen--><!--DATA-DEFINITION: stejlen; en opretstående pæl med et hjul hvilende vandret på toppen; her anbragtes den radbrækkede el. henrettede til spot.-->Steilen</seg> fælt et Hoved loe.</l>
+</lg>
+<lg xml:id="p_00313">
+<l rend="noIndent">Hist, hvor sig den dybe <seg target="txtcmnt-166-02"><!--DATA-TERM: Huulvei--><!--DATA-DEFINITION: vej mellem høje skrænter.-->Huulvei</seg> bugter,</l>
+<l rend="noIndent">Standser han ved Bondehuset brat;</l>
+<l rend="noIndent"><seg target="txtcmnt-166-03"><!--DATA-TERM: Haugen--><!--DATA-DEFINITION: haven.-->Haugen</seg> staaer med skjønne modne Frugter,</l>
+<l rend="noIndent">Hylden dufter i den friske Nat.</l>
+<l rend="noIndent">Søvnen dækker Alt med sine Vinger,</l>
+<l rend="noIndent">Men han banker paa, saa Ruden klinger,</l>
+<l rend="noIndent">Bonden kommer frem i Nat-Habit.</l>
+</lg>
+<lg xml:id="p_00314">
+<l rend="noIndent">»<seg target="txtcmnt-166-04"><!--DATA-TERM: Brudekrandsen--><!--DATA-DEFINITION: den krans, som bruden bærer oven på sløret.-->Brudekrandsen</seg> tag Du mig af hende,</l>
+<l rend="noIndent">Og med Tak jeg kommer Dig ihu.« –</l>
+<l rend="noIndent">»Giv os alle Gud en salig Ende!«</l>
+<l rend="noIndent">Siger <hi rend="italic">Bonden</hi>, <seg target="txtcmnt-166-05"><!--DATA-TERM: korser sig--><!--DATA-DEFINITION: slår korsets tegn.-->korser sig</seg> med Gru.</l>
+<l rend="noIndent"><hi rend="italic">Satan</hi> taber hele <seg target="txtcmnt-166-06"><!--DATA-TERM: Contenansen--><!--DATA-DEFINITION: kontenancen; fatningen, selvbeherskelsen.-->Contenansen</seg>,</l>
+<l rend="noIndent">Gjør en <seg target="txtcmnt-166-07"><!--DATA-TERM: Pirouette--><!--DATA-DEFINITION: piruet.-->Pirouette</seg> trods <seg target="txtcmnt-166-08"><!--DATA-TERM: Hans Frandsen--><!--DATA-DEFINITION: Holbergs komedie <i>Jean de France eller Hans Frandsen</i> (<i>Comoedier. Sammenskrevne for Den nye oprettede Danske Skue-Plads</i>, bind 1, 1723); opført første gang på Det Kgl. Teater 1722.--><hi rend="italic">Hans Frandsen</hi></seg>,</l>
+<l rend="noIndent">Flyver saa igjen med Pigen bort.</l>
+</lg>
+<lg xml:id="p_00315">
+<l rend="noIndent">Maanen hænger som en blodig Kugle,</l>
+<l rend="noIndent">Stjernerne som Djævle-Øine staae;</l>
+<l rend="noIndent">Der er stor Concert af Nattens Fugle,</l>
+<l rend="noIndent">Bange lukke sig de Blomster smaae.</l>
+<l rend="noIndent">Dybets Konge paa de stærke Vinger</l>
+<l rend="noIndent">Over Havets Flade let sig svinger,</l>
+<l rend="noIndent">Bølgen syder naar han rører den.</l>
+</lg>
+<lg xml:id="p_00316">
+<l rend="noIndent">Først ved Dag-Gry naae de atter Landet,</l>
+<l rend="noIndent">Høit paa Skrænten græsse unge Faar;</l>
+<l rend="noIndent">Drengen sidder paa en Steen ved Vandet,</l>
+<l rend="noIndent">Bølgen om hans nøgne Fødder slaaer.</l>
+<l rend="noIndent">»Tag mig Krandsen flux af denne Pige,</l>
+<l rend="noIndent">Og jeg skjænker Dig et Kongerige,</l>
+<l rend="noIndent">Dine Faar jeg gjør til Frøkener.«</l>
+</lg>
+<pb n="167"/>
+<lg xml:id="p_00317">
+<l rend="noIndent">Drengen skotter til den store Herre:</l>
+<l rend="noIndent">»Blive Konge? O Du narrer mig!</l>
+<l rend="noIndent">Dog, da Du forlanger intet værre,</l>
+<l rend="noIndent">Krandsen vil jeg gjerne tage Dig!«</l>
+<l rend="noIndent">Og nu hæver flux han sine Hænder;</l>
+<l rend="noIndent">Luft og Himmel, Alt om Karen brænder;</l>
+<l rend="noIndent">Høit hun skriger, saa – – hun vaagner op.</l>
+</lg>
+<lg xml:id="p_00318">
+<l rend="noIndent">Der var hverken <hi rend="italic">Satan</hi> eller <hi rend="italic">Drengen</hi>;</l>
+<l rend="noIndent">Solen skinner gjennem Ruden klart.</l>
+<l rend="noIndent">Gud skee Lov, hun ligger jo i Sengen,</l>
+<l rend="noIndent">Kun i Drømme gjorde hun sin Fart.</l>
+<l rend="noIndent">Men endnu saa hæftigt Hjertet banker,</l>
+<l rend="noIndent">Og hun har saa mange sære Tanker;</l>
+<l rend="noIndent">Slig en Drøm ei glemmes kan saa let.</l>
+</lg>
+<lg xml:id="p_00319">
+<l rend="noIndent">Med sig selv hun længe <seg target="txtcmnt-167-01"><!--DATA-TERM: raisonerer--><!--DATA-DEFINITION: diskuterer.-->raisonerer</seg>:</l>
+<l rend="noIndent">»Det var dog en farlig <seg target="txtcmnt-167-02"><!--DATA-TERM: Eed jeg svoer--><!--DATA-DEFINITION: løfte, jeg afgav.-->Eed jeg svoer</seg>!</l>
+<l rend="noIndent"><hi rend="italic">Christen</hi> reiser – meget varierer –</l>
+<l rend="noIndent"><hi rend="italic">Satans</hi> Magt er her paa Jorden stor.</l>
+<l rend="noIndent">Nu vel an! den kjære <hi rend="italic">Christen</hi> <seg target="txtcmnt-167-03"><!--DATA-TERM: smægter--><!--DATA-DEFINITION: har en stærk længsel el. kærlige følelser.-->smægter</seg>;</l>
+<l rend="noIndent">Det er bedst jeg <seg target="txtcmnt-167-04"><!--DATA-TERM: alt i Dag--><!--DATA-DEFINITION: allerede i dag.-->alt i Dag</seg> ham ægter,</l>
+<l rend="noIndent">Saa er jeg dog sikker, kan jeg troe!«</l>
+</lg>
+<lg xml:id="p_00320">
+<l rend="noIndent">Der er Fryd i <hi rend="italic">Christen Peersens</hi> Hjerte,</l>
+<l rend="noIndent">Med sin <hi rend="italic">Karen</hi> han ved Altret staaer,</l>
+<l rend="noIndent">Glemt er Livets Skygge, Livets Smerte;</l>
+<l rend="noIndent">Ægteparret hjem fra Kirken gaaer.</l>
+<l rend="noIndent">Rundtom synge Fuglene saa glade:</l>
+<l rend="noIndent">»Give Gud, at hver en tydsk Ballade,</l>
+<l rend="noIndent">Maatte slig en deilig Ende faae!« – –</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_00321">
+<l rend="noIndent">Som jeg troer, Balladen bedst fornøier,</l>
+<l rend="noIndent">Træder der en Mand med Briller frem:</l>
+<l rend="noIndent">»De med Alt i Livet gjør mig Løier,</l>
+<l rend="noIndent"><hi rend="italic">Christen</hi> kan ei føre Bruden hjem!«</l>
+<l rend="noIndent">Det er <hi rend="italic">Satan</hi>, tænkte jeg bedrøvet,</l>
+<l rend="noIndent">Mig han ta’er for Bruden, jeg ham røved;</l>
+<l rend="noIndent">Men det var dog kun – en <seg target="txtcmnt-167-05"><!--DATA-TERM: Recensent--><!--DATA-DEFINITION: kritiker, anmelder.-->Recensent</seg>.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="En tydsk Ballade" synch="en-tydsk-ballade">
+<argument type="sourceData">
+<head type="section-comments">En tydsk Ballade</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Kjøbenhavns-Posten</hi>, nr. 19, 22. januar 1830. BFN 73</p></argument>
+<table rend="textcomments">
+<cell type="page">164</cell><row xml:id="txtcmnt-164-01"><cell type="data-term">Nectar</cell><cell type="data-definition">nektar; i græsk mytologi den drik, der gjorde guderne udødelige.</cell></row><row xml:id="txtcmnt-164-02"><cell type="data-term">Weber</cell><cell type="data-definition">den tyske komponist C.M. v. Weber.</cell></row><row xml:id="txtcmnt-164-03"><cell type="data-term">grant</cell><cell type="data-definition">klart, tydeligt.</cell></row>
+<cell type="page">165</cell><row xml:id="txtcmnt-165-01"><cell type="data-term">In natura</cell><cell type="data-definition">(latin) i naturlig tilstand; her: i virkeligheden.</cell></row><row xml:id="txtcmnt-165-02"><cell type="data-term">Tællelys</cell><cell type="data-definition">lys af talg.</cell></row>
+<cell type="page">166</cell><row xml:id="txtcmnt-166-01"><cell type="data-term">Steilen</cell><cell type="data-definition">stejlen; en opretstående pæl med et hjul hvilende vandret på toppen; her anbragtes den radbrækkede el. henrettede til spot.</cell></row><row xml:id="txtcmnt-166-02"><cell type="data-term">Huulvei</cell><cell type="data-definition">vej mellem høje skrænter.</cell></row><row xml:id="txtcmnt-166-03"><cell type="data-term">Haugen</cell><cell type="data-definition">haven.</cell></row><row xml:id="txtcmnt-166-04"><cell type="data-term">Brudekrandsen</cell><cell type="data-definition">den krans, som bruden bærer oven på sløret.</cell></row><row xml:id="txtcmnt-166-05"><cell type="data-term">korser sig</cell><cell type="data-definition">slår korsets tegn.</cell></row><row xml:id="txtcmnt-166-06"><cell type="data-term">Contenansen</cell><cell type="data-definition">kontenancen; fatningen, selvbe<pb n="612"/>herskelsen.</cell></row><row xml:id="txtcmnt-166-07"><cell type="data-term">Pirouette</cell><cell type="data-definition">piruet.</cell></row><row xml:id="txtcmnt-166-08"><cell type="data-term">Hans Frandsen</cell><cell type="data-definition">Holbergs komedie <hi rend="italic">Jean de France eller Hans Frandsen</hi> (<hi rend="italic">Comoedier. Sammenskrevne for Den nye oprettede Danske Skue-Plads</hi>, bind 1, 1723); opført første gang på Det Kgl. Teater 1722.</cell></row>
+<cell type="page">167</cell><row xml:id="txtcmnt-167-01"><cell type="data-term">raisonerer</cell><cell type="data-definition">diskuterer.</cell></row><row xml:id="txtcmnt-167-02"><cell type="data-term">Eed jeg svoer</cell><cell type="data-definition">løfte, jeg afgav.</cell></row><row xml:id="txtcmnt-167-03"><cell type="data-term">smægter</cell><cell type="data-definition">har en stærk længsel el. kærlige følelser.</cell></row><row xml:id="txtcmnt-167-04"><cell type="data-term">alt i Dag</cell><cell type="data-definition">allerede i dag.</cell></row><row xml:id="txtcmnt-167-05"><cell type="data-term">Recensent</cell><cell type="data-definition">kritiker, anmelder.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

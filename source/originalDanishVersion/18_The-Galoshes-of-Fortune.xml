@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Galoshes of Fortune</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="lykkens-kalosker">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="lykkens-kalosker_modern.xml">moderniseret version</note>
+                                                       <note target="18_The-Galoshes-of-Fortune.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It was in Copenhagen, the street of Østergade, in one of the houses not far from...</incipit><idno type="image">Lykkens_Kalosker_forside.png</idno><popularity>939</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Galoshes of Fortune. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0.1. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0001">I. A beginning</cell>
+                                                       
+                                                            <cell ref="#div0002">II. How things went for the counsellor</cell>
+                                                       
+                                                            <cell ref="#div0003">III. The night-watchman’s adventure</cell>
+                                                       
+                                                            <cell ref="#div0004">IV. A heady moment. A recital piece. A most extraordinary journey</cell>
+                                                       
+                                                            <cell ref="#div0005">V. The Copyist’s Transformation</cell>
+                                                       
+                                                            <cell ref="#div0006">VI. The best thing the galoshes brought about</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-09" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-09">formatted</change><change who="NHB" when="2022-10-15">revised italics</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-12" status="draft">added wrapper div, updated version number (idno)</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">c/oncerned!’>concerned!’</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Galoshes of Fortune">
+<head type="main" rend="The Galoshes of Fortune">The Galoshes of Fortune</head>          
+     <div type="chapter" rend="I. A beginning" xml:id="div0001">
+          
+
+<head rend="I">I</head>
+          <head rend="A beginning">A beginning</head>
+          <p rend="noIndent" xml:id="p_00001">It was in <hi rend="italic">Copenhagen</hi>, the street of Østergade, in one of the houses not far from Kongens Nytorv, that a large party was being held, for one has to do so from time to time, then it’s over and done with and one can be invited to another in return. Half of those present were already at the card tables, and the other half were waiting for what would result from the lady of the house’s: ‘Well, let’s see what we can come up with, then!’ That was how far things had got, and conversation progressed as best it could. Among the topics mentioned was the Middle Ages, a few of the guests regarded the period as better than our own time, indeed, Counsellor <hi rend="italic">Knap</hi> so eagerly defended this opinion that the lady of the house immediately agreed with him, and both then enthusiastically opposed <hi rend="italic">Ørsted’s</hi> words in the calendar about times past and present, where our age in all essentials was placed highest. The counsellor regarded the age of King <hi rend="italic">Hans</hi> as the most attractive and happiest of all.</p>
+          <p rend="firstIndent" xml:id="p_00002">During all this discussion for and against, which went on uninterrupted except for a moment when the newspaper arrived, though there was nothing worth reading in it, let us go out into the front room where outdoor garments, sticks, umbrellas and galoshes were kept. Here two maids sat, one young the other old; one might imagine that they were there in attendance of their employer, some old spinster or widow, but if one took a closer look, one could immediately see that they were not ordinary domestic servants, their hands were too fine for that, their posture and all their movements too regal, for this was the case, and their clothing also had quite a bold cut to it. They were two fairies, the younger was not Fortune itself, but one of her lady-in-waiting’s chambermaids that distribute the lesser gifts of fortune; the elder looked so intensely serious, it was <hi rend="italic">Sorrow</hi>, she always does her errands in person, so she can be sure that they are properly carried out.</p>
+          <p rend="firstIndent" xml:id="p_00003">They were telling each other how their day had been; the one who was Fortune’s lady-in-waiting’s chambermaid had so far only taken care of a few unimportant errands, she had, she said, saved a new hat from a shower of rain, procured an honest man a greeting from a fine nonentity and similar things, but what she still had left to do was something quite out of the ordinary.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘I really must tell you,’ she said, ‘that it’s my birthday today, and in honour of the occasion I have been entrusted with a pair of galoshes that I am to bring to humanity. These galoshes have the unique characteristic that whoever puts them on is instantly transported to the place or time he would most like to be, every wish regarding time and place is immediately fulfilled, and humanity is thus at last happy for once down on earth!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘You may very well think that!’ Sorrow said, ‘but he will become extremely unhappy and bless the moment he is free of the galoshes once more!’</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Whatever do you mean by that?’ the other said, ‘now I’ll place them here by the door, someone will put them on by mistake and become the lucky one!’</p>
+          <p rend="firstIndent" xml:id="p_00007">And that was the end of that conversation.</p>
+     </div>
+               
+     <div type="chapter" rend="II. How things went for the counsellor" xml:id="div0002">
+          <head rend="II">II</head>
+          <head rend="How things went for the counsellor">How things went for the counsellor</head>
+          <p rend="noIndent" xml:id="p_00008">It was late. Counsellor <hi rend="italic">Knap</hi>, engrossed in the age of King <hi rend="italic">Hans</hi>, wanted to return home and it transpired that instead of his own galoshes he put on those of Fortune and stepped out into Østergade; but, because of the magic power of the galoshes he was back in the age of King <hi rend="italic">Hans</hi>, so his foot came straight down into the mire and mud in the street, since cobblestones did not exist for paving back then.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘How terribly dirty the street is here!’ the counsellor said. ‘The entire pavement’s gone and all the lamps are extinguished!’</p>
+          <p rend="firstIndent" xml:id="p_00010">The moon was not yet sufficiently high in the sky, the air also rather thick, so everything around him swirled in darkness. At the nearest corner, however, there hung a lantern in front of a picture of the Madonna, but the light it gave was no better than no light at all, he only noticed it when he was standing under it and his eyes fell on the painted picture of the Mother and Child.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘It’s probably,’ he thought to himself, ‘a cabinet of curiosities and they’ve forgotten to take the sign in!’</p>
+          <p rend="firstIndent" xml:id="p_00012">A couple of persons, wearing the costumes of the time, passed him.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘How strange they looked! they’re probably on their way home from a masked ball!’</p>
+          <p rend="firstIndent" xml:id="p_00014">Suddenly there was the sound of drums and pipes, the blaze of large torches; the counsellor stopped up and looked at a strange procession that passed by. It was headed by a whole detachment of drummers who treated their instruments with considerable dexterity; they were followed by halberdiers with bows and crossbows. The finest figure in the procession was a clergyman. Amazed, the counsellor inquired what the meaning of all this was and who the man was.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘That is the Bishop of Zealand!’ was the reply.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘Good Lord, what’s the bishop up to?’ the counsellor sighed, shaking his head, it couldn’t possibly be the bishop. Pondering the matter, and without looking to either left or right, the counsellor walked along Østergade and across the square of Høibroplads. The bridge to Slotspladsen was nowhere to be found, he could make out a swampy stretch of water and finally came across two men down by a boat.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Would you like to be taken over to Holmen, Sir?’ they asked.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Over to Holmen?’ the counsellor said, who didn’t know what age he was in, ‘I want to get out to Lille Torvegade in Christianshavn!’</p>
+          <p rend="firstIndent" xml:id="p_00019">The men looked at him.</p>
+          <p rend="firstIndent" xml:id="p_00020">‘Just tell me where the bridge is!’ he said. ‘It’s disgraceful that no lights have been lit, and there is so much mud it’s like walking in a bog!’</p>
+          <p rend="firstIndent" xml:id="p_00021">The more he spoke with the boatmen, the more unintelligible they became to him.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘I can’t understand your Bornholm dialect!’ he finally said angrily, and turned his back on them. He was unable to find the bridge; the railings weren’t there either! ‘How things are here is quite scandalous!’ he said. He had never found his own age more wretched than this evening. ‘I think I will take a cab!’ he thought, but where were the cabs? Not a single one was to be seen. ‘I’ll have to walk back to Kongens Nytorv, there are sure to be cabs there, otherwise I’ll never get out to Christianshavn!’</p>
+          <p rend="firstIndent" xml:id="p_00023">So he walked to Østergade and had almost passed along it when the moon came out.</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Good Lord, what’s all the scaffolding they have erected there!’ he said, when catching sight of Østerport city gate, which back then was located at the end of Østergade.</p>
+          <p rend="firstIndent" xml:id="p_00025">Finally, however, he found a gate and through it he came out onto our present-day Nytorv, but it was simply a large meadow; a few bushes stuck up here and there and across the meadow flowed a broad channel or watercourse.</p>
+          <p rend="firstIndent" xml:id="p_00026">Some wooden hovels for the Dutch skippers, after whom the place was named Hallandsaas, lay on the far bank.</p>
+          <p rend="firstIndent" xml:id="p_00027">‘Either I’m seeing a <hi rend="italic">Fata Morgana</hi>, as it’s called, or I’m drunk!’ the counsellor moaned. ‘What is all this! what is all this!’</p>
+          <p rend="firstIndent" xml:id="p_00028">He turned back in the firm belief that he was ill; as he entered the street, he took a slightly closer look at the houses, most of them were half-timbered and many of them only had straw roofs.</p>
+          <p rend="firstIndent" xml:id="p_00029">‘No, I’m not well at all!’ he sighed, ‘and I only drank one glass of punch! but I clearly can’t stomach it! and it was also quite insane to serve us punch and warm salmon! I’ll also tell the merchant’s wife about it! Maybe I ought to go back and let them know how ill I feel! but it’s so embarrassing! and I wonder if they’re still up at this time of night!’</p>
+          <p rend="firstIndent" xml:id="p_00030">He looked for the town house, but it was nowhere to be found.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘That’s terrible! I can’t even recognise Østergade again! there’s not a single shop there! miserable old hovels are all I can see, as if I was in Roskilde or Ringsted! Ah, I’m ill! It doesn’t do to be self-conscious about it! But where in the world is the merchant’s house? It’s not itself any more! but inside people are still up; ah! I’m surely ill!’</p>
+          <p rend="firstIndent" xml:id="p_00032">Now he came across a door that was ajar, where the light fell out through the chink. It was one of the inns of the time, a kind of beer house. The room looked rather like the Holstein halls; some good people – skippers, Copenhagen citizens and a couple of scholars – sat here in deep discussion by their tankards and took little notice of the man who entered.</p>
+          <p rend="firstIndent" xml:id="p_00033">‘Excuse me,’ the counsellor said to the hostess who approached him, ‘I am suffering from a bad malaise! would you procure a cab to Christianshavn for me!’</p>
+          <p rend="firstIndent" xml:id="p_00034">The woman looked at him and shook her head; after which she addressed him in the German language. The counsellor assumed that she did not know Danish and therefore made his request in German; this, combined with his attire, strengthened the woman in her belief that he was a foreigner; that he felt unwell she was quick to realise and therefore gave him a tankard of water, admittedly somewhat brackish, it had been fetched from the well.</p>
+          <p rend="firstIndent" xml:id="p_00035">The counsellor supported his head on his hand, took a deep breath and cogitated on all the strange things around him.</p>
+          <p rend="firstIndent" xml:id="p_00036">‘Is it “The <hi rend="italic">Day</hi>” for this evening?’ he asked, in order to say something, as he watched the woman moved a large sheet of paper.</p>
+          <p rend="firstIndent" xml:id="p_00037">She didn’t understand what he meant, but handed him the sheet of paper, it was a woodcut that showed a mirage seen from the city of <hi rend="italic">Cologne</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00038">‘It’s very old!’ the counsellor said and was quite elated at coming across such an old print. ‘Where have you got hold of such a rare paper? It is very interesting, though all of it is a fable! such a mirage is explained by the Northern lights; it is probably produced by electricity!’</p>
+          <p rend="firstIndent" xml:id="p_00039">Those sitting closest to him and who heard his statement, looked at him in surprise and one of them stood up, respectfully took off his hat and said, with an extremely serious expression: ‘You appear to be a very learned man, Monsieur!’</p>
+          <p rend="firstIndent" xml:id="p_00040">‘Oh no,’ the counsellor replied, ‘I can join in talking about this and that, as one should be able!’</p>
+          <p rend="firstIndent" xml:id="p_00041">‘<hi rend="italic">Modestia</hi> is a fine virtue!’ the man said, ‘furthermore I must say of your speech, <hi rend="italic">mihi secus videtur</hi>, though in this instance I am willing to suspend my <hi rend="italic">judicium</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00042">‘Might I ask with whom I have the pleasure of speaking?’ the counsellor asked.</p>
+          <p rend="firstIndent" xml:id="p_00043">‘I am Baccalaureus in Holy Scripture!’ the man replied.</p>
+          <p rend="firstIndent" xml:id="p_00044">This answer was sufficient for the counsellor, the title corresponded to the raiment; it is surely, he thought to himself, an old village school master, an odd fellow, such as one can still to this day come across in Jutland.</p>
+          <p rend="firstIndent" xml:id="p_00045">‘This is hardly a <hi rend="italic">locus docendi</hi>,’ the man began, ‘though I would entreat you to take the trouble to speak. You have surely profound reading in the Ancients!’</p>
+          <p rend="firstIndent" xml:id="p_00046">‘Well, yes, of course!’ the counsellor answered, ‘I like to read old useful writings, but I also like more recent ones, not though Everyday Stories, for we have enough of them in reality!’</p>
+          <p rend="firstIndent" xml:id="p_00047">‘Everyday Stories?’ inquired our Baccalaureus.</p>
+          <p rend="firstIndent" xml:id="p_00048">‘Yes, I refer to these new novels that one has.’</p>
+          <p rend="firstIndent" xml:id="p_00049">‘Oh,’ said the man with a smile, ‘there is great ingenuity in them, and they are read at court; the king is particularly fond of the novel about Mr. <hi rend="italic">Iffven</hi> and Mr. <hi rend="italic">Gaudian</hi>, which deals with King <hi rend="italic">Arthur</hi> and his knights of the Round Table, he has joked about it with his noble lords.’</p><!--<p rend="firstIndent"><hi>* </hi><hi rendition="italic">Holberg </hi><hi>fortæller i sin Danmarks Riges Historie, at Kong Hans en Dag, da han havde læst i Romanen om Kong Artus, skjemtede med den bekjendte  </hi><hi rendition="italic">Otto Rud </hi><hi>som han holdt meget af: »Hr. Ivent og Hr. Gaudian som jeg finder  ud i denne Bog, have været mærkelige Riddere, saadanne Riddere finder   man nu omstunder ikke mere!« hvortil </hi><hi rendition="italic">Otto Rud </hi><hi>svarede, »hvis der vare saadanne Kæmper, som Kong Artus, skulde der vel ogsaa findes mange   Riddere, som Hr. Ivent og Hr. Gaudian!« <pb ed="SV" n="464+1"/>»Nei,« svarede Manden, »den er ikke udkommet ved </hi><hi rendition="italic">Heiberg</hi>, men ved <hi rendition="italic">Godfred von Gehmen</hi>!«</p>-->
+          <p rend="firstIndent" xml:id="p_00050">‘Well, I haven’t read that one yet!’ the counsellor said, ‘it must be quite a new one that <hi rend="italic">Heiberg</hi> has had published!’</p>
+          <p rend="firstIndent" xml:id="p_00051">‘No, it is not published by Heiberg, but by <hi rend="italic">Godfried von Gehmen</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00052">‘So that is the author!’ the counsellor said, ‘it is a very old name! is that the very first printer there has been in Denmark?’</p>
+          <p rend="firstIndent" xml:id="p_00053">‘Yes, he is our first book printer!’ the man said. Now things went quite well; one of the fine citizens spoke of the particular plague that had raged a couple of years earlier, and meant the one in 1484, the counsellor assumed that he was talking about cholera, and so the conversation went quite well. The Freebooter War of 1490 was so recent that it had to be mentioned, the English freebooters had taken the ships at anchor, they said, and the counsellor, who was well-versed in the events of 1801, joined in excellently in railing against the English. The rest of the conversation, on the other hand, did not go all that well, every moment it resulted in mutual misunderstandings; either the good Baccalaureus was far too ignorant, or the simplest utterances of the counsellor sounded far too bold and fanciful to him. They looked at each other, and if things went far too wrong, the Baccalaureus spoke Latin, since he thought that would make it easier for him to be understood, but it was to little avail.</p>
+          <p rend="firstIndent" xml:id="p_00054">‘How are things with you!’ the hostess asked, and tugged the counsellor’s sleeve; now his presence of mind returned, for while he was speaking he had completely forgotten everything that had taken place before.</p>
+          <p rend="firstIndent" xml:id="p_00055">‘Good Lord, where am I!’ he said and almost fainted at the thought.</p>
+          <p rend="firstIndent" xml:id="p_00056">‘We want to drink mulled claret, mead and beer from Bremen,’ one of the guests shouted out, ‘and you are to drink with us!’</p>
+          <p rend="firstIndent" xml:id="p_00057">Two serving maids came in, one of them had a two-coloured cap on. They poured out and curtseyed; cold shivers ran down the counsellor’s back.</p>
+          <p rend="firstIndent" xml:id="p_00058">‘What’s all this! what’s all this!’ he said, but he had to drink with them; they plied him vigorously with drink in their friendly way, and he greatly despaired, and when one of them said that he was drunk, he did not doubt the man’s word at all, just asked them to get hold of a cab for him, and then they thought he was speaking Russian.</p>
+          <p rend="firstIndent" xml:id="p_00059">He had never been in such uncouth and simple company before; one would have thought the country had regressed into heathendom, he thought, ‘this is the most terrible moment of my life!’ but all of a sudden the idea occurred to him of ducking down under the table, crawling over to the door and escaping, but when he had reached the way out, the others noticed what he was up to, caught hold of his legs, and, luckily for him, the galoshes came off and – with this – all the magic was over.</p>
+          <p rend="firstIndent" xml:id="p_00060">Quite clearly in front of him the counsellor could see a bright lamp burning, and behind this lay a large town house, he knew it and the adjacent houses too, it was Østergade, such as all of us are familiar with it, he was lying with the legs towards a door, and right opposite sat the night watchman, asleep.</p>
+          <p rend="firstIndent" xml:id="p_00061">‘Great heavens, I’ve been lying here in the street dreaming!’ he said. ‘Yes, that’s Østergade! how wonderfully bright and many-coloured! It’s terrible what effect that glass of punch must have had on me!’</p>
+          <p rend="firstIndent" xml:id="p_00062">Two minutes later he was sitting in a cab that was taking him to Christianshavn; he thought of all the fear and distress he had been through, and praised with all his heart the fortunate reality, our own age, which despite all its shortcomings was far better than where he had been just recently, and that, of course, was very sensible of the counsellor.</p>          
+     </div>
+               
+     <div type="chapter" rend="III. The night-watchman’s adventure" xml:id="div0003">
+          <head rend="III">III</head>
+          <head rend="The night-watchman’s adventure">The night-watchman’s adventure</head>
+          <p rend="noIndent" xml:id="p_00063">‘Well, if that isn’t a pair of galoshes!’ the watchman said. ‘They’re probably the lieutenant’s who lives up there. They’re lying right by the doorway!’</p>
+          <p rend="firstIndent" xml:id="p_00064">The honest fellow would have liked to have rung the bell and handed them over, for there was light inside, but he didn’t want to wake up the others in the house, so he refrained from doing so.</p>
+          <p rend="firstIndent" xml:id="p_00065">‘It must be quite nice and warm with a pair of such things on!’ he said. ‘The leather is so smooth!’ They fitted his feet snugly. ‘What a strange place the world is! now he could be lying in his comfortable bed, but is he, no! he’s padding back and forth over the floor! he is a fortunate man! he’s neither a missus nor kids! he can socialise every evening, I wish I were him, then I’d be a happy man!’</p>
+          <p rend="firstIndent" xml:id="p_00066">As he uttered his wish, the galoshes he had put on worked their magic, the watchman shifted over into the lieutenant’s entire personality and way of thinking. There he stood up in the room and between his fingers he held a small piece of pink paper on which there was a poem, a poem by Mr. Lieutenant himself; for who in his life has not been in the mood to compose a poem, and if one writes down the thoughts one has, there the poem is. This is what it said:</p>
+          
+          <lg rend="" xml:id="p_00067">
+               <head rend="‘Were I but rich!’">‘Were I but rich!’</head>
+               <l>‘Were I but rich!’ I often used to call,</l>
+               <l>When I was scarcely two foot tall.</l>
+               <l>Were I but rich! an officer I’d be,</l>
+               <l>With sword and uniform and plume for me!</l>
+               <l>Was later such a one for all to see,	</l>
+               <l>But riches did evade me, </l>
+               <l>Though <hi rend="italic">God</hi> did aid me!</l>
+               <l>One evening as I sat there young and gay,</l>
+               <l>A girl of seven kissed me straight away,</l>
+               <l>For rich I was in legends and in tales,</l>
+               <l>Though money I did seek to no avail,</l>
+               <l>The child though only thought of tales,</l>
+               <l>So I was rich, though not in gold,</l>
+               <l>God knows of old.</l>
+               <l>‘Were I but rich!’ is still to God my prayer,</l>
+               <l>The girl of seven’s grown, is tall and fair,</l>
+               <l>She is so lovely, so kind-hearted, wise.</l>
+               <l>If she my heart’s tale did surmise,</l>
+               <l>If she – as once before – for me had eyes!</l>
+               <l>But I am poor and so my lips are still,</l>
+               <l>It is God’s will!</l>
+               <l>Were I but rich in solace, mind and friend,</l>
+               <l>On paper I’d my sorrows not have penned!</l>
+               <l>You, whom I love, if me you understand,</l>
+               <l>This <hi rend="italic">poem</hi> take as one that youth’s flame fanned,</l>
+               <l>Though it is better that you do not understand</l>
+               <l>That I am poor, my future dark, alas.</l>
+               <l>May God you bless!</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00068">Yes, one writes such verses when one is in love, but a sensible man does not let them appear in print. Lieutenant, love and poverty are a triangle or, to put it another way, are half of the broken dice of good fortune. This is what the lieutenant also felt, so he lay his head against the window sill and sighed deeply:</p>
+          <p rend="firstIndent" xml:id="p_00069">‘The poor watchman out in the street is far happier than I am! he does not know what I call lack! He has a home, a wife and children that cry when he is sad and rejoice when he is happy! oh I would be happier than I am if I could simply change places with him, for he is more fortunate than I am!’</p>
+          <p rend="firstIndent" xml:id="p_00070">At the same moment, the watchman was a watchman once more, for it was via the galoshes of fortune that he had become the lieutenant, but as we have seen, as such he was even less satisfied and wanted to be what he actually was. So, the watchman was once more a watchman.</p>
+          <p rend="firstIndent" xml:id="p_00071">‘That was a terrible dream!’ he said, ‘but it was a pretty odd one as well. It seemed to me that I was the lieutenant up there and that was not all that enjoyable. I missed the missus and the kids who almost kiss my eyes out!’</p>
+          <p rend="firstIndent" xml:id="p_00072">He sat down again and his head started to nod, he couldn’t quite get the dream out of his thoughts, he was still wearing the galoshes. A shooting star suddenly shot across the sky.</p>
+          <p rend="firstIndent" xml:id="p_00073">‘There it goes!’ he said, ‘though there are enough of them even so! I would like to see such things a bit closer, especially the moon, for it doesn’t slip through your fingers. When we die, said the student for whom my wife does the washing, we fly from the one to the other. That is untrue, but it would be rather nice. If only I could take a little jump up to it, then my body could stay here on the steps as far as I’m concerned!’<!--c/oncerned!’--></p>
+          <p rend="firstIndent" xml:id="p_00074">Now there are certain things in the world one must be very cautious about making statements about, but one ought to be even more cautious if one is wearing the galoshes of Fortune. Just listen to how things went for the watchman.</p>
+          <p rend="firstIndent" xml:id="p_00075">Most of us humans are familiar with the speed of steam, we have tried it either on the railways or in a ship across the sea; but such flight is like the plodding of the sloth or the advance of the snail compared to the speed of light, it flies nineteen million times faster than the best race horse, and yet electricity is even faster. Death is an electric shock we get in the heart; on the wings of electricity the liberated soul flies off. Eight minutes and a few seconds is what sunlight takes to travel more than 150 million kilometres; with the express post of electricity it takes the soul fewer minutes to complete the same journey. The space between the planets is no greater for it that it is for us between our friends’ houses in one and the same town, even if these lie fairly close to each other. Despite this, this electric shock to the heart costs us the use of our body here below, unless, like the watchman here, we are wearing the galoshes of fortune.</p>
+          <p rend="firstIndent" xml:id="p_00076">In just a few seconds the watchman has travelled the 390,000 kilometres to the moon, which, as is known, is made of a material far lighter than our Earth, and is what we would call soft, like new-fallen snow. He found himself on one of the countless crater mountains which we know from <hi rend="italic">Dr. Mädler’s</hi> large lunar map – you are familiar with it, are you not? On the inside, the crater descended steeply into a kettle, seven or so kilometres; at the bottom there lay a town which looked like the white of an egg in a glass of water, just as soft and similar, with towers and domes and sail-shaped balconies, transparent and swaying in the thin air; and with our Earth floating like a large, fiery-red globe above his head.</p>
+          <p rend="firstIndent" xml:id="p_00077">There were a great many creatures, all of whom we would call human, but with a completely different appearance than ours; they also had a language, but no one can expect the watchman’s soul to be able to understand it, but it could even so.</p>
+          <p rend="firstIndent" xml:id="p_00078">The watchman was well able to understand the moon-dwellers’ language. They were discussing our Earth and doubted if it could be inhabited, the air there must be too thick for any sensible moon-creature to be able to live in it. They regarded the moon as the only planet that had living beings on it, it was the real planet where the old planet people lived.</p>
+          <p rend="firstIndent" xml:id="p_00079">But let us return to Østergade and see how the watchman’s body was getting on.</p>
+          <p rend="firstIndent" xml:id="p_00080">It sat there on the steps, lifeless, the watchman’s spiked mace had fallen out of his hand and he was gazing up towards the moon for the honest soul walking around up there.</p>
+          <p rend="firstIndent" xml:id="p_00081">‘What time is it, watchman?‘ a passer-by asked. But no reply came from the watchman; so he gently tweaked his nose and this tipped the balance; the body lay there at full stretch – for the man was dead. The man who had tweaked the watchman’s nose was scared out of his wits. The watchman was dead and dead he remained; it was reported and talked about, and in the early morning hours his body was taken out to the hospital.</p>
+          <p rend="firstIndent" xml:id="p_00082">It could be a pretty how-do-you-do for the soul if it were to return and, in all probability, look for its body in Østergade but not find anything; most likely it would first hurry to the police station, then to the address office, so that from there it could be looked for among lost property, and finally go to the hospital; but we can console ourselves with the thought that the soul is cleverest when it is carrying out things for itself, it is only its body that makes it stupid.</p>
+          <p rend="firstIndent" xml:id="p_00083">As mentioned, the watchman’s body ended up at the hospital, was borne into the room where it was to be washed, and the first thing that was done was of course to remove the galoshes, which meant that the soul had to return; it immediately made for the body and suddenly the man came to life again. He assured everyone that it had been the most terrible night of his life; not for a thousand pounds would he experience something like this again – but now it was all over.</p>
+          <p rend="firstIndent" xml:id="p_00084">That same day he was discharged, but the galoshes remained at the hospital.</p>
+     </div>
+               
+     <div type="chapter" rend="IV. A heady moment. A recital piece. A most extraordinary journey" xml:id="div0004">
+          <head rend="IV">IV</head>
+          <head rend="A heady moment. A recital piece. A most extraordinary journey">A heady moment. A recital piece. A most extraordinary journey</head>
+          <p rend="noIndent" xml:id="p_00085">Every inhabitant of Copenhagen knows of course what the entrance to Frederiks Hospital looks like, but since it is reasonable to assume that some readers of this tale come from elsewhere, here is a brief description.</p>
+          <p rend="firstIndent" xml:id="p_00086">The hospital is separated from the street by quite high railings with iron bars so widely spaced it is said that extremely thin trainee doctors were able to squeeze through and make small visits outside. The part of the body which made it most difficult to practise this was the head; here, as often in the world, the smallest heads were the luckiest. That is sufficient as an introduction.</p>
+          <p rend="firstIndent" xml:id="p_00087">One of the young trainees, who only physically speaking could be said to have a thick head, was on duty precisely that evening; the rain was pouring down; yet despite both obstacles he had to get out, only for fifteen minutes, which was not something, he felt, worth mentioning to the doorman when one could slip out between the iron bars. There the galoshes lay that the watchman had left behind; least of all did he think that they were those of fortune, they could be extremely useful in such weather, he put them on, so now it was a question of whether he could squeeze his way through – he had never tried to before. And there he now stood.</p>
+          <p rend="firstIndent" xml:id="p_00088">‘God grant that I had my head outside!’ he said, and immediately, although it was very thick and large, it slid through lightly and easily, thanks to the galoshes; but now his body was to follow suit. It stood here, on this side.</p>
+          <p rend="firstIndent" xml:id="p_00089">‘Oh dear, I’m too fat!’ he said, ‘I though my head was the worst! I can’t get through.’</p>
+          <p rend="firstIndent" xml:id="p_00090">Now he wanted to pull his head back through, but that proved impossible. He could easily waggle his neck, but that was all. His first emotion was anger, his second that his spirits plummeted. The galoshes of fortune had placed him in the most terrible position, and unfortunately the idea did not occur to him to wish to be free again, no, he chose action and so was stuck where he was. The rain poured down, there was not a soul to be seen in the street. He was unable to reach the gate bell, how on earth could he escape? He foresaw having to stand like this until morning, when they would have to send for a smith so that the iron bars could be filed through, but that wouldn’t happen all that quickly, by that time the entire blue boys’ school directly opposite would be up and about, all the people of Nyboder would arrive to see him standing in the stocks, there would be a great attraction, quite different from the Giant Agave the previous year. ‘Oooh! The blood will rise to my head, and I’ll go mad! – yes, I’ll go mad! Oh, if only I were free once more, it would probably go over!’</p>
+          <p rend="firstIndent" xml:id="p_00091">Well, he should have said that a bit earlier, immediately, once the thought had been expressed, his head was free again, and he rushed in, quite confused by the fear the galoshes of fortune had caused him.</p>
+          <p rend="firstIndent" xml:id="p_00092">But we must not at all assume that this marked the end of it all, no – things will get even worse.</p>
+          <p rend="firstIndent" xml:id="p_00093">The night passed and the following day likewise, no one sent for the galoshes.</p>
+          <p rend="firstIndent" xml:id="p_00094">In the evening there was to be a performance at the small theatre in Kannike Alley. There was a more than full house; in between the recital pieces there was a new poem. Let’s hear it. The title was:</p>
+           
+          <lg rend="" xml:id="p_00095">
+               <head rend="Grannie’s Specs">Grannie’s Specs</head>
+               <l>My grandmother, whose wisdom is well-known,</l>
+               <l>One would have torched in ‘days past’ as a crone.</l>
+               <l>She knows what will take place, just everything,</l>
+               <l>And knows already what next year will bring,</l>
+               <l>Can even at ‘the forties’ take a peek.</l>
+               <l>But it’s so very hard to make her speak.</l>
+               <l>I wonder what next year’s events will be!</l>
+               <l>Unusual things? Yes, I’d so like to see</l>
+               <l>That which for me, art, country lies ahead,</l>
+               <l>But grandmother wants such things left unsaid</l>
+               <l>I pestered her, and this had its effect,</l>
+               <l>She first kept quiet, then scolded me unchecked,</l>
+               <l>A sermon gave me that I’ll not forget,</l>
+               <l>Because she likes me, I am grannie’s pet! </l>
+               <l>‘This once I’ll grant your wish, you little wretch,’</l>
+               <l>She said, then handed me her pair of specs,</l>
+               <l>‘Now go off to some spot that you select,</l>
+               <l>Somewhere where people frequently collect,</l>
+               <l>Then find a place where you’ve a perfect view,</l>
+               <l>And use my specs to look at them anew,</l>
+               <l>And they at once – believe me you’ll be able –</l>
+               <l>Will seem like open cards laid on a table;</l>
+               <l>And you’ll foresee what later must ensue!’</l>
+               <l>I wished at once to check if this was true,</l>
+               <l>But where, I wondered, do most people meet?</l>
+               <l>In Langelinie? There you’ll get cold feet.</l>
+               <l>In Østergade? Thick mud fills the street!</l>
+               <l>But in the theatre? Where folk have a fling?</l>
+               <l>The evening entertainment’s just the thing –</l>
+               <l>–Let me present myself to you today;</l>
+               <l>Allow me to use grannie’s specs, I pray,</l>
+               <l>So as to see – no, do not leave your chair – </l>
+               <l>If you resemble playing cards laid bare,</l>
+               <l>And if I can predict what will occur.</l>
+               <l>– Your silence means, I take it, you concur;</l>
+               <l>To thank you I will say just what I find </l>
+               <l>In this small game we’re all the same in kind.</l>
+               <l>That which for you, me, country I’ll foretell,</l>
+               <l>Let’s see now what the open cards forespell.</l>
+               <l rend="firstIndent"><hi rend="italic">(He then put on the spectacles.)</hi></l>
+               <l>Yes, it’s quite true! no, it just cannot be!</l>
+               <l>If only you could come up here and see!</l>
+               <l>A host of court cards seem assembled here,</l>
+               <l>And everywhere do Queens of Hearts appear.</l>
+               <l>The black cards over there are clubs and spades.</l>
+               <l>– I clear can see many different shades.</l>
+               <l>The Queen of Spades is simply in a daze,</l>
+               <l>The Jack of Diamonds’ set her heart ablaze.</l>
+               <l>Oh, all this gazing, makes my head quite spin!</l>
+               <l>The house from this much money could cash in,</l>
+               <l>And people from abroad would stream and flow.</l>
+               <l>But that was not what we would like to know.</l>
+               <l>Of people of high rank know in advance?</l>
+               <l>To read of them though one can get the chance;</l>
+               <l>The newspapers will suffer if I tell,</l>
+               <l>They need their titbits, I don’t have to sell.</l>
+               <l>The theatre then? – its news, its tone and taste?</l>
+               <l>The management could see I lose my place.</l>
+               <l>My future then? Ah, each of us well knows</l>
+               <l>It’s private, something we will not disclose!</l>
+               <l>I see! – But what I see I cannot say,</l>
+               <l>I’ll tell you though what happens straight away.</l>
+               <l>Who’s the most fortunate of all in here?</l>
+               <l>Most fortunate? That person’s oh so near!</l>
+               <l>It’s – no, that easily could irk someone,</l>
+               <l>Yes, sadden a great many more if done!</l>
+               <l>Who’ll live the longest? That lady, that gent?</l>
+               <l>No, saying who would cause much discontent!</l>
+               <l>So finally I don’t know what to say;</l>
+               <l>I’m sure if I offend there’s no reprieve:</l>
+               <l>So I will ask you just what you believe</l>
+               <l>That I by my predictions can achieve.</l>
+               <l>You what? No, really? All around I hear</l>
+               <l>It will bring nothing new is what you fear,</l>
+               <l>You know for sure mere words will reach your ear.</l>
+               <l>I’ll hold my tongue and bow to your dominion –</l>
+               <l>You have the right to have your own opinion!</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00096">The poem was superbly recited and its declaimer was a great success. Among the audience was the young trainee doctor from the hospital who seemed to have forgotten his adventure the previous night. He was still wearing the galoshes, for they had not been fetched, and since it was muddy in the streets, they could of course be of great use to him.</p>
+          <p rend="firstIndent" xml:id="p_00097">He much liked the poem.</p>
+          <p rend="firstIndent" xml:id="p_00098">The idea preoccupied him a great deal, he would have liked to own such glasses, perhaps, for if rightly used, one could look right into people’s hearts, that was really more interesting, he felt, than to see what was going to happen the following year, for that one would eventually know, whereas the other would be hidden for ever. ‘I can imagine to myself an entire front row – if one could look directly inside them, well, there must be an opening somewhere, a kind of shop and there my eyes could go shopping! in that lady, for example, I would find a large fashion shop! the shop in that lady, on the other hand, is empty, though it could do with a clean; but there would also be trustworthy shops! ah yes!’ he sighed, ‘I know one where everything is trustworthy, but there is already a shop-assistant there, which is the only bad thing about the shop! Someone or other would call out: ‘Please enter!’ Yes, I wish I could enter, like a nice little thought can pass through people’s hearts!’</p>
+          <p rend="firstIndent" xml:id="p_00099">Now that was enough to set the galoshes going – the entire trainee doctor shrank in size and a highly unusual journey began among the hearts of those in the first row of the audience. The first heart he passed through was that of a lady, but immediately he thought he was in the orthopaedic department, which is what people call the place where the doctor removes human tumours and enables people to stand up straight, he was now in the room where the plaster casts of the deformed limbs hang on the walls; though here the difference was that at the institute they are made when the patient is admitted, while here in the heart they had been taken and stored after the good people have left. It was the casts of female friends, their physical and mental defects, that were preserved here.</p>
+          <p rend="firstIndent" xml:id="p_00100">In no time at all he was in another female heart, but this one seemed like a large, holy church to him. The white dove of innocence fluttered above the high altar, where he would have liked to fall to his knees, but he had to move on to the next heart, though he could still hear the strains of the organ, and felt that he himself had become a new and better person, that he was not unworthy to enter the next shrine, which proved to be a poor attic room, with a sick mother; but through the open window God’s warm sun shone, lovely roses nodded from the small wooden box on the roof, and two sky-blue birds sang of childhood happiness while the sick mother invoked a blessing on her daughter.</p>
+          <p rend="firstIndent" xml:id="p_00101">Now he crawled on hands and feet through a brimful butcher’s shop, it was meat and nothing but meat he bumped into, it was the heart of a rich, respectable man whose name must surely be included in a reference book.</p>
+          <p rend="firstIndent" xml:id="p_00102">Now he was in this man’s wife’s heart, it was an old, dilapidated pigeon-hole; the husband’s portrait was used as a weather vane and it was connected to the doors, and these then opened as soon as the man turned.</p>
+          <p rend="firstIndent" xml:id="p_00103">After that he entered a hall of mirrors, such as is found at the palace of Rosenborg, but the mirrors magnified to an incredible extent. In the middle of the floor, like a Dalai Lama, sat the person’s insignificant ego, amazed at seeing its own greatness.</p>
+          <p rend="firstIndent" xml:id="p_00104">He then thought he must be in a cramped needle case, full of pointed needles, it must surely be ‘the heart of an old unmarried spinster!’ he imagined, but this was not the case, it was a quite young soldier with several orders, just like one says: a man of heart and spirit.</p>
+          <p rend="firstIndent" xml:id="p_00105">Quite dazed, the erring trainee doctor came out of the last heart in the front row, he was unable to collect his thoughts, but believed it was his all too vivid imagination that had run away with him.</p>
+          <p rend="firstIndent" xml:id="p_00106">‘Good Lord,’ he sighed, ‘I show all the signs of going insane! and it’s also unforgivably hot in here! The blood’s going to my head!’ and now he recalled the great event the previous evening, how his head had got stuck between the iron bars at the hospital. ‘That’s where I must have got it!’ he thought. ‘I must deal with it in time. A Russian bath might help. If only I were already lying on the top shelf!’</p>
+          <p rend="firstIndent" xml:id="p_00107">And there he was, lying on the top shelf in the steam bath, but he still had all his clothes on, boots, galoshes and all; the hot drops of water were dripping down onto his face.</p>
+          <p rend="firstIndent" xml:id="p_00108">‘Ow!’ he screamed and rushed down to have a shower bath. The man on duty also let out a high-pitched scream at seeing a fully dressed man in there.</p>
+          <p rend="firstIndent" xml:id="p_00109">The trainee doctor had, however, recovered enough composure to whisper to him: ‘It is a wager!’ but the first thing he did when he got back to his own room was to place a large Spanish fly blister on the back of his neck and another one down his back, so that they could draw out the insanity.</p>
+          <p rend="firstIndent" xml:id="p_00110">The next morning he had a bloody back, that was all he got out of the galoshes of Fortune.</p>
+     </div>
+               
+     <div type="chapter" rend="V. The Copyist’s Transformation" xml:id="div0005">
+          <head rend="V">V</head>
+          <head rend="The Copyist’s Transformation">The Copyist’s Transformation</head>
+          <p rend="noIndent" xml:id="p_00111">The night-watchman, who I’m sure we haven’t forgotten, now recalled the galoshes he had found and taken with him out to the hospital; he fetched them, but as neither the lieutenant nor anyone else would have anything to do with them, they were handed over at the police station.</p>
+          <p rend="firstIndent" xml:id="p_00112">‘They look as if they were my own galoshes!’ one of the copyists said when examining the lost property and placed them beside his own. ‘It would take more than the eye of a shoemaker to tell the difference between them!’</p>
+          <p rend="firstIndent" xml:id="p_00113">‘Mr Copyist!’ said a policeman, who entered with some papers.</p>
+          <p rend="firstIndent" xml:id="p_00114">The copyist turned round, spoke to the man, but when that was done and he looked at the galoshes, he was completely at a loss as to which pair of them, those to the left or to the right, belonged to him. ‘It must be the ones that are wet!’ he thought; but that was the wrong thing to think, for that was those of Fortune – but why shouldn’t the police also be able to make a mistake! – he put them on, stuffed some papers into his pocket, others under his arm; when back home he would read them through and copy them, but right now it was Sunday morning and the weather fine, a trip to Frederiksberg, he thought, would do me good! and so that was where he went.</p>
+          <p rend="firstIndent" xml:id="p_00115">No one could be a quieter, more industrious person than this young man, we do not begrudge him this little walk, it would surely be good for him after so much sitting down; to begin with he just walked without thinking about anything in particular, so the galoshes had no opportunity of displaying their magic powers.</p>
+          <p rend="firstIndent" xml:id="p_00116">In the avenue he met an acquaintance, a young poet, who told him that the following day he was to begin his summer travels.</p>
+          <p rend="firstIndent" xml:id="p_00117">‘Oh, you’re off again, are you!’ the copyist said. ‘You are also a fortunate, free person. You can fly wherever you want to, whereas the rest of us have a chain round our leg!’</p>
+          <p rend="firstIndent" xml:id="p_00118">‘But it’s fastened to the bread-tree!’ the poet replied ‘You don’t have to worry about the day that lies ahead, and when you are old, you will get a pension!’</p>
+          <p rend="firstIndent" xml:id="p_00119">‘You’ve done best though!’ the copyist said, ‘to sit and write poetry, that’s sheer pleasure! the whole world says nice things to you, and you are your own master! You should try wading through tedious court cases!’</p>
+          <p rend="firstIndent" xml:id="p_00120">The poet shook his head, the copyist also shook his, each kept his own opinion and on that note they parted.</p>
+          <p rend="firstIndent" xml:id="p_00121">‘They’re a race of their own, those poets!’ the copyist said, ‘I’d like to try and enter into such a nature, to become a poet myself, I’m sure that I wouldn’t write such plaintive stuff as the others do! –– It’s a perfect spring day for a poet! the air is so unusually clear, the clouds so beautiful, and outdoors there is such a lovely smell! yes, I haven’t felt like I do right now for many years.’</p>
+          <p rend="firstIndent" xml:id="p_00122">We have already noticed that he has become a poet; it wasn’t all that obvious, for it is a stupid idea to suppose that a poet is any different from other people, and there can be many people among ordinary folk who possess a far more poetic nature than many a recognised poet does; the difference is only that the poet has a more finely tuned memory, he can retain the idea and the emotion until it has been clearly and distinctly transposed into words, while others are unable to. But to shift from an everyday nature into a gifted one is always a transition – and this the copyist had now done.</p>
+          <p rend="firstIndent" xml:id="p_00123">‘The lovely scent!’ he said, ‘oh, how it reminds me of the violets at Aunt Lone’s! Yes, it was when I was a young boy! Great heavens, I haven’t thought about that for ages! the kind old lady! she used to live behind the stock exchange. She always had some small branches or a couple of green shoots in water, the winter could do its worst. The violets gave off their scent while I placed heated copper coins on the frozen window pane and made peepholes. That gave me a fine view. Outside in the canals, the ships lay frozen in the ice, abandoned by all the men, a screeching crow was then the entire crew; but when spring was once more in the air, things got busy; to singing and shouts of hurrah the ice would be sawn through, the ships were tarred and rigged, and then they set sail to foreign lands; I have stayed here and must always do so, always sit at the police station and watch the others get passports to travel abroad, that is my lot! Ah yes!’ he sighed deeply, but suddenly stopped. ‘Great heavens, whatever’s the matter with me? I’ve never thought or felt like this before! It must be the spring air! it’s both alarming and agreeable!’ He took hold of the papers in his pocket. ‘These will give me something else to think about!’ he said and let his eyes glide down the first page. ‘<hi rend="italic">Mrs Sigbrith</hi>, original tragedy in five acts’, he read, ‘what’s this? and it’s in my own handwriting. Have I written this tragedy? <hi rend="italic">The Intrigue on the Ramparts, or Great Prayer Day</hi>, Vaudeville. – But where have I got this from? Someone must have put it in my pocket, is there a letter here?’ Yes, it was from the theatre management, the plays had been turned down and the letter itself was not at all politely couched. ‘Hm! hm!’ the copyist said, and sat down on a bench; his thoughts were so alive, his heart so sensitive; without thinking, he seized one of the flowers closest to him, it was a common mayweed; what it takes the botanist many lectures to tell us it announced in a single minute; it told the myth of its birth, told of the power of sunlight which stretched out its fine petals and made them give off scent, and then he thought of the struggles of life, which in a similar way evoke feelings in our breast. Air and light were the flower’s suitors, but light was the preferred one, after the light it bowed down, if light disappeared, it would fold its petals together and fall asleep in the air’s embrace. ‘It is light that adorns me,’ the flower said; ‘but the air that allows you to breathe!’ his poet’s voice whispered.</p>
+          <p rend="firstIndent" xml:id="p_00124">Close by stood a boy, beating in a muddy ditch with his stick, the drops of water splashed up among the green branches, and the copyist thought of the millions of invisible creatures that were flung aloft in the drops, to a height which, in relation to their size, would be like us being whirled up above the clouds. As the copyist thought about this and about the complete change that had taken place in him, he smiled: ‘I’m asleep and dreaming! though it’s strange even so that one can dream naturally and know at the same time that it is only a dream. If only I could remember all of this when I wake up, right now I feel unusually in the mood! I have a clear view of everything, feel myself to be wide-awake, yet am sure that when I recall some of it tomorrow, it will just be nonsense, I’ve tried that before! What happens to all the wise and wonderful things one hears and says in dreams is like the gold of the subterraneans: when one finds it, it is rich and marvellous, but seen in the light of day, nothing but stones and withered leaves: Ah,’ he sighed so sadly and gazed at the birds singing, cheerfully hopping from branch to branch. ‘They’re much better off than I am! flying, that must be a delightful art, how fortunate to be born with that ability! if I were to be something else, then I would like to be such a little lark!’</p>
+          <p rend="firstIndent" xml:id="p_00125">Immediately, his coattails and sleeves folded into wings, his clothes became feathers and the galoshes claws; he felt this most distinctly and laughed inwardly: ‘well, now I can see that I’m dreaming again! but I’ve never done this so absurdly before,’ and he flew up into the green branches and sang, but there was no poetry in the song, for his poet’s nature had vanished; the galoshes, like anything that can do something thoroughly, can only do one thing at a time – he wanted to be a poet, he became a poet; now he wanted to be a small bird, but by becoming one, the previous peculiarity ceased to exist.</p>
+          <p rend="firstIndent" xml:id="p_00126">‘It’s not bad at all,’ he said, ‘in the daytime I sit at the police station among all those weighty documents, at night I can dream of flying like a lark in Frederiksberg Gardens, a whole damn popular comedy would be written about it!’</p>
+          <p rend="firstIndent" xml:id="p_00127">He flew down to the grass, turned his head in all directions and pecked at the pliant blades of grass, which, in relation to his present size, seemed as large as the branches of a North African palm tree.</p>
+          <p rend="firstIndent" xml:id="p_00128">It took only an instant for everything to go pitch-black around him: it seemed to him as if some huge object had been thrown over him. It was a large cap that a boy from Nyboder threw over the bird, a hand came in under it and seized the copyist by the back and wings, so that he gave a cheep; in his first moment of fear he shouted out: ‘You impudent puppy! I am a copyist at the police station!’ but to the boy it sounded like cheepicheep! he struck the bird on the beak and walked off.</p>
+          <p rend="firstIndent" xml:id="p_00129">In the avenue this boy met two schoolboys of the educated class who, considered as human beings, as intellects, were among the lowest in the school; they bought the bird for eight pence, and in this way the copyist came to Copenhagen, to the home of a family in Gothersgade.</p>
+          <p rend="firstIndent" xml:id="p_00130">‘It’s a good thing I’m dreaming!’ the copyist said, ‘otherwise I would be damned angry! first I was a poet, now I’m a lark! it was my poetic nature that caused me to become this small creature! It’s a pitiable thing to fall into the hands of some boys. I wonder how all this is going to finish!’</p>
+          <p rend="firstIndent" xml:id="p_00131">The boys took him into a very elegant drawing room; a portly, smiling lady received them, but she was not at all pleased with the unassuming field-bird, as she called it, they came in with, but this time she would accept it, and they were to place the bird in the empty cage that stood by the window! ‘that can perhaps please Polly!’ she added and smiled at a large green parrot that was swinging away finely on its ring in its magnificent brass cage. ‘It’s Polly’s birthday!’ she said utterly naively, ‘so the little field-bird wants to wish it many happy returns!’</p>
+          <p rend="firstIndent" xml:id="p_00132">Poppy did not answer a single word, just swung finely back and forth, although a beautiful canary that had been brought here the previous summer from its warm, fragrant native land started to sing aloud.</p>
+          <p rend="firstIndent" xml:id="p_00133">‘Loudmouth!’ the lady said and threw a white handkerchief over the cage.</p>
+          <p rend="firstIndent" xml:id="p_00134">‘Cheepcheep!’ it sighed, ‘that was terrible snowy weather!’ and with that sigh it fell silent.</p>
+          <p rend="firstIndent" xml:id="p_00135">The copyist, or, as the lady of the house called it, the field-bird, was placed in a small cage close to that of the canary, not far from the parrot. The only human tirade Polly was capable of reeling off, which often had a quite comic effect, was: ‘<hi rend="italic">no, let’s be human!</hi>’ All the rest of what it shrieked was just as unintelligible as the canary’s chirping, except for the copyist, who was now a bird himself, he understood his comrades fervently well.</p>
+          <p rend="firstIndent" xml:id="p_00136">‘I flew beneath the green palm tree and the flowering almond tree!’ the canary sang, ‘I flew with my brothers and sisters over the wonderful flowers and across the glassy sea, where the plants nodded from the sea-bed. I also saw so many delightful parrots that told amusing stories, so long and so many!’</p>
+          <p rend="firstIndent" xml:id="p_00137">‘They must have been wild birds,’ the parrot answered, ‘they had no breeding. No, let’s be human! – Why don’t you laugh? When the lady and all the strangers can do so, you can too. It is a great lack, not to be able to savour what is amusing. No, let’s be human!’</p>
+          <p rend="firstIndent" xml:id="p_00138">‘Oh, do you remember the beautiful girls who used to dance under the raised tent close to the blossoming trees? Do you remember the sweet-tasting fruit and the cooling juice from the wild-growing plants?’</p>
+          <p rend="firstIndent" xml:id="p_00139">‘Indeed I do!’ the parrot answered, ‘but I’m a lot better off here! I have good food and intimate treatment; I know I’ve a good head, and that’s enough for me. Let’s be human! You have a poetic soul, as people call it, and I have solid knowledge and wit, you have that genius, but no restraint, get carried off in all these high-pitched sounds of nature, which is why they cover you over. They don’t subject me to that, oh no, because I’ve cost them a bit more! I impress with my beak, I can let out a ‘<hi rend="italic">Witz! Witz! Witz!</hi> no, let’s be human!’</p>
+          <p rend="firstIndent" xml:id="p_00140">‘Oh, my warm, flowering native land!’ the canary sang, ‘I will sing of your dark-green trees, of your tranquil bays, where the branches kiss the clear surface of the water, sing of all the rejoicing of my sparkling brothers and sisters, where “The Desert’s Plant-Springs” grow!’</p>
+          <p rend="firstIndent" xml:id="p_00141">‘Oh, stop all that plaintive stuff,’ the parrot said. ‘Say something one can laugh at! Laughter is a sign of the highest intellectual position. See if a dog or horse can laugh! no, they can cry, but laughter is given to mankind alone. Ho, ho, ho!’ the Polly laughed, and added his <hi rend="italic">Witz</hi>: ‘Let’s be human.’</p>
+          <p rend="firstIndent" xml:id="p_00142">‘You little grey Danish bird,’ the canary said, ‘you too have been taken captive! it is sure to be cold in your forests, but there at least there is freedom, fly out! They have forgotten to close your cage completely – the top window is open. Fly, fly!’</p>
+          <p rend="firstIndent" xml:id="p_00143">Which the copyist then did, in a trice he was out of the cage; at that moment the door ajar to the next room creaked, and nimbly, with green, gleaming eyes, the house cat slipped in and started to chase him. The canary fluttered in its cage, the parrot flapped its wings and shouted: ‘Let’s be human!’ The copyist was scared to death and flew off through the window, above houses and streets – finally he had to take a rest.</p>
+          <p rend="firstIndent" xml:id="p_00144">The neighbour’s house opposite had something familiar about it; a window stood open, he flew in, it was his own room; he sat down at the table.</p>
+          <p rend="firstIndent" xml:id="p_00145">‘Let’s be human!’ he said and, without thinking about what he said, he was imitating the parrot, and in the same instant he was the copyist, but was sitting on his table.</p>
+          <p rend="firstIndent" xml:id="p_00146">‘Good grief!’ he said, ‘how have I got up here and then fallen asleep! it was also a restless dream I was in. A load of nonsense, the whole story!’</p>
+     </div>
+               
+     <div type="chapter" rend="VI. The best thing the galoshes brought about" xml:id="div0006">
+          <head rend="VI">VI</head>
+          <head rend="The best thing the galoshes brought about">The best thing the galoshes brought about</head>
+          <p rend="noIndent" xml:id="p_00147">The next day, early in the morning, when the copyist was still lying in bed, there was a knock on his door, it was his neighbour from the same floor, a student who was studying to become a clergyman; he entered.</p>
+          <p rend="firstIndent" xml:id="p_00148">‘May I borrow your galoshes,’ he asked, ‘it’s so wet in the garden, but the sun is shining so beautifully, I would like to smoke my pipe down there.’</p>
+          <p rend="firstIndent" xml:id="p_00149">He put on the galoshes and was soon down in the garden, which boasted a plum tree and a pear tree. Even a small garden like this one is regarded in Copenhagen as being a great luxury.</p>
+          <p rend="firstIndent" xml:id="p_00150">The student walked up and down the path; it was only six o’clock; from the street a coach horn could be heard.</p>
+          <p rend="firstIndent" xml:id="p_00151">‘Oh, to travel! travel!’ he exclaimed, ‘that is the best thing in all the world! it is the highest wish I could have! for then this inner unrest that I feel would calm down. But it would have to be to places far away! I would like to see wonderful Switzerland, travel in Italy and – ’</p>
+          <p rend="firstIndent" xml:id="p_00152">Well, it was a good thing that the galoshes worked at once, otherwise he would have travelled around far too much for both himself and others. He was travelling. He was in the heart of Switzerland, but with eight others, crammed inside a stagecoach; he had a headache, an ache in the back of his neck, and his blood had sunk down into his legs, which swelled up and were squeezed by his boots. He hovered between being awake and dropping off. In his right pocket he had his letter of credit, in his left pocket his passport and in a small leather purse close to his chest some <hi rend="italic">louis d’or</hi> that had been sewn fast; every dream announced that one or other of these treasures had been lost, and therefore he started as if in a fever, and the first movement his hand made was a triangle from right to left and up to his chest, in order to check if he still had them or not. Umbrellas, sticks and hats swayed in the net above him, and blocked to quite an extent the view, which was highly impressive, he glanced at it while his heart sang what at least one poet we know has sung in Switzerland, but so far not had published:</p>
+          <lg rend="" xml:id="p_00153">
+               <l>The beauty outdoes one’s heart’s desire,</l>
+               <l>Mont Blanc I can glimpse, my dearest.</l>
+               <l>If I’ve the money that I require,</l>
+               <l>The best is that which is nearest!</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00154">All of nature around him was grand, serious and dark. The pine forests looked like flowering heather on the high rock faces, whose summits were hidden in cloud-mist; now it started to snow and a cold wind blew.</p>
+          <p rend="firstIndent" xml:id="p_00155">‘Oh!’ he signed, ‘if only we were on the other side of the Alps, then it would be summer and I could draw money on my letter of credit; the anxiety I feel because of this means that I cannot enjoy Switzerland, oh, if only I was on the other side!’</p>
+          <p rend="firstIndent" xml:id="p_00156">And at once he was. He was deep in Italy, between Florence and Rome. <hi rend="italic">Tracimeno</hi> lake, in the evening light, lay like flaming gold between the dark-blue mountains; here where <hi rend="italic">Hannibal</hi> defeated <hi rend="italic">Flaminius</hi>, the rows of vines intertwined their green fingers in peace; lovely, half-naked children watched over a herd of jet-black pigs under a cluster of fragrant laurel trees by the roadside. If we could adequately paint the scene, everyone would cry out: ‘Beautiful Italy!’ but this neither the theology student nor a single one of his travelling companions said inside the coachman’s carriage.</p>
+          <p rend="firstIndent" xml:id="p_00157"><hi rend="italic">Noxious</hi> flies and mosquitoes flew in their thousands at them from outside; in vain did they wave their sprigs of myrtle, they got bitten even so; there was not a single person in the carriage whose face was not swollen and bloodied from the bites. The poor horses looked as if they were carcasses, the flies sat in large clumps on them, and it only helped for a moment when the coachman got down and scraped the creatures off them. Now the sun was setting, a brief but icy cold passed through all of nature, it was not in the slightest bit pleasant; but around them the mountains and clouds assumed the loveliest shade of green, so clear, so gleaming – well, go and see for yourself, it is much better than reading the description! it was wonderful! this the travellers also felt, but – their stomachs were empty, their bodies tired, all that their hearts desired was focused on their overnight accommodation; but where would this be? Their gaze was fixed more fervently on this than on the beauty of the scenery.</p>
+          <p rend="firstIndent" xml:id="p_00158">The road passed through a wood of olive trees, it was as if he was riding back home among gnarled willow trees, here lay a solitary inn. Ten or so crippled beggars had encamped outside, the healthiest-looking of them looked like ‘Hunger’s eldest son who had reached the age of maturity’, the others were either blind, had withered legs and crawled on their hands, or shrunken arms with fingerless hands. It was pure misery made of rags and tatters. ‘<hi rend="italic">Eccellenza, miserabili!</hi>’ they moaned and stretched out their sick limbs. The innkeeper’s wife herself, barefoot, with unkempt hair and dressed in a dirty blouse, received the guests. The doors were bound together with twine; the floor in the rooms offered a half churned-up layer of bricks; bats flew up by the ceiling, and the stench inside – –</p>
+          <p rend="firstIndent" xml:id="p_00159">‘Yes, it would better if she laid the table in the stable!’ one of the travellers said, ‘down there one at least knows what one is breathing in!’</p>
+          <p rend="firstIndent" xml:id="p_00160">The windows were opened to let in some fresh air, but more quickly than that the withered arms came in and the never-ending moaning: <hi rend="italic">miserabili, Eccellenza</hi>! There were many inscriptions on the walls, half of them were against <hi rend="italic">bella Italia.</hi></p>
+          <p rend="firstIndent" xml:id="p_00161">The food was brought in: it was a soup made of water, spiced with pepper and rancid oil, and the same oil was also on the salad; dubious eggs and fried cockscombs were the main courses; even the wine had a disagreeable taste, it was a right mixture.</p>
+          <p rend="firstIndent" xml:id="p_00162">For the night, the suitcases were brought up to the door; one of the travellers kept watch while the others slept; the theology student was on duty; oh how stuffy it was inside there! The heat was oppressive, the mosquitoes buzzed and bit, the <hi rend="italic">miserabili</hi> outside moaned in their sleep.</p>
+          <p rend="firstIndent" xml:id="p_00163">‘Yes, travelling’s all very well!’ the student sighed, ‘as long as one does not have a body! if this could only rest and one’s spirit fly instead. Wherever I come, there is a deep sense of something lacking that burdens the heart; something better than what is momentary is what I am searching for; yes, something better, the best, but where and what is it! I basically know what I want, I want to reach a fortunate goal, the most fortunate of all!’</p>
+          <p rend="firstIndent" xml:id="p_00164">As soon as he had spoken these words, he was back home; the long, white curtains hung at the window and on the middle of the floor there stood a black coffin, in it he lay in the quiet sleep of death – his wish had been fulfilled, his body was resting, his spirit travelling. ‘Call no man happy until he is dead,’ <hi rend="italic">Solon</hi> once said, which is hereby confirmed.</p>
+          <p rend="firstIndent" xml:id="p_00165">Every corpse is the sphinx of eternity; nor could the sphinx here in the black coffin give us an answer to what the living man had written down two days earlier:</p>
+          <lg rend="" xml:id="p_00166">
+               <l>Oh mighty Death, your silence makes one quake;</l>
+               <l>Your track does only to the graveyard pass.</l>
+               <l>Will thought’s high Jacob’s ladder snap and break?</l>
+               <l>Will in Death’s garden I rise but as grass?</l>
+          </lg>
+          <lg rend="" xml:id="p_00167">
+               <l>On earth great suffering goes oft unseen!</l>
+               <l>You who until the end were on your own,</l>
+               <l>While here on earth much greater pain did glean</l>
+               <l>Than all the earth that’s on your coffin thrown!</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00168">Two figures moved in the room. We know them both: it was the Fairy of <hi rend="italic">Sorrow</hi> and the Emissary of <hi rend="italic">Fortune</hi>; they bent down over the dead man.</p>
+          <p rend="firstIndent" xml:id="p_00169">‘Well then,’ <hi rend="italic">Sorrow</hi> said, ‘what good fortune did your galoshes bring humanity?’</p>
+          <p rend="firstIndent" xml:id="p_00170">‘To the man sleeping here at least they brought him something everlastingly good!’ <hi rend="italic">Happiness</hi> replied.</p>
+          <p rend="firstIndent" xml:id="p_00171">‘Oh no!’ <hi rend="italic">Sorrow</hi> replied; ‘Even he passed away, he was not called! his spiritual strength here was not sufficient to raise the treasure to where, according to his destiny, it must be raised! I will do him a favour!’</p>
+          <p rend="firstIndent" xml:id="p_00172">And she took the galoshes off his feet; then his sleep of death was ended, the revived man rose up once more. <hi rend="italic">Sorrow</hi> disappeared, but so did the galoshes; she probably regarded them as her own property.</p>
+     </div>
+               
+     </div></body>
+                         </text>
+                    </TEI>

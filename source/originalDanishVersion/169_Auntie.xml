@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Auntie</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="moster">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="moster_modern.xml">moderniseret version</note>
+                                                       <note target="169_Auntie.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>You should have known Auntie! she was delightful! well, she wasn’t delightful in...</incipit><idno type="image">Moster_hca_ill_0178.png</idno><popularity>916</popularity><cite>&lt;p&gt;Hans Christian Andersen: Auntie. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kunst</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Auntie">
+          <head type="main" rend="Auntie">Auntie</head>                <p rend="noIndent" xml:id="p_00001">You should have known <hi rend="italic">Auntie</hi>! she was delightful! well, she wasn’t delightful in the sense of being delightful to look at, but she was sweet and kind, amusing in her own way, just the sort of person to talk about when someone is to be gently poked fun at, she would have fitted perfectly in a play, and that quite simply because she lived for the theatre and everything that took place there. She was so honest, but Agent <hi rend="italic">Fab</hi>, who Auntie called <hi rend="italic">Blab</hi>, called her stage-struck.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘The theatre is my education!’ she said, ‘my source of knowledge, the place from where I have my brushed-up biblical history: ‘<hi rend="italic">Moses’</hi>, ‘<hi rend="italic">Joseph and his Brothers</hi>’ – now those are operas! From the theatre I have my world history, geography and knowledge of the human race! From the French plays I know about Parisian life – salacious, but highly interesting! oh, how I have wept over ‘<hi rend="italic">The Riquebourg Family</hi>’, that the husband has to drink himself to death so his wife can get her young sweetheart! – Yes, and how many tears have I not spilt in the fifty years I have had a box there!’</p>
+          <p rend="firstIndent" xml:id="p_00003">Auntie knew every single play, every stage set, every person who performed or who had done so. She really only lived during the nine months of the theatre season. A summer without a summer play was a time that made her grow old, whereas a theatre evening that went on until past midnight was an extension of life. She did not say like other people: ‘spring’s on the way, the stork has arrived!’ ‘the newspapers state that the first strawberries have come.’ She would announce the coming of autumn thus: ‘Have you seen, the boxes in the theatre are to be auctioned off? now the performances will soon begin.’</p>
+          <p rend="firstIndent" xml:id="p_00004">She rated the value and desirable location of a property by the distance it lay from the theatre. It was a sad day for her when she had to leave the little alley behind the theatre and move to the wide street a little further away and live in a house that had no opposite neighbour.</p>
+          <p rend="firstIndent" xml:id="p_00005">‘At home my window will have to be my box at the theatre! one can’t just sit there thinking about oneself, one must see people! but now I live as if I had moved out into the country. If I want to see people, I have to go out into my kitchen and climb up and sit beside the sink, only there can I see the neighbours opposite. No, when I lived in my alley, I could look straight into the chandler’s, and then it was only three hundred steps to the theatre, now I have three thousand marching paces.’</p>
+          <p rend="firstIndent" xml:id="p_00006"><hi rend="italic">Auntie</hi> could sometimes fall ill, but no matter how poorly she felt, she never missed going to the theatre. One evening her doctor prescribed that she should have a poultice of sour dough under her feet, she did as he said, but rode to the theatre and sat there with the sour dough under her feet. If she had died there, it would have pleased her. <hi rend="italic">Thorvaldsen</hi> died while at the theatre, that she referred to as a ‘<hi rend="italic">blessèd death</hi>’.</p>
+          <p rend="firstIndent" xml:id="p_00007">She could certainty not conceive the heavenly realm without <hi rend="italic">there</hi> also being a theatre, it had not been promised us, but it was quite imaginable; that the many excellent actors and actresses that had gone before must still have their sphere of activity.</p>
+          <p rend="firstIndent" xml:id="p_00008"><hi rend="italic">Auntie</hi> had her own ‘telegraph-wire connection’ from the theatre to her own living room; the telegram would come every Sunday at coffee time. Her telegraph wire was ‘Mr <hi rend="italic">Sivertsen</hi> the theatre technician’. The man who gave the signals for up and down, in and out with curtains and stage sets.</p>
+          <p rend="firstIndent" xml:id="p_00009">From him she obtained a brief, pithy review of the plays. <hi rend="italic">Shakespeare’s</hi> ‘The Tempest’ he called ‘infernal rubbish! there is so much needed, and it starts with water as far as the first side-drop!’, in other words, so far forward were the rolling waves supposed to go. If, on the other hand, the very same living room decoration was used for all five acts, he said it was sensibly and well written, it was an effortless play that acted itself without any work behind the scenes.</p>
+          <p rend="firstIndent" xml:id="p_00010">In former times, which is what <hi rend="italic">Auntie</hi> called the time thirty or so years earlier, she and the recently mentioned Mr <hi rend="italic">Sivertsen</hi> were younger; he was already one of the technical staff and, as she referred to him, her ‘benefactor’. For it was customary back then at the evening performance of the town’s only, large theatre, to have some of the audience ‘up in the cockloft’; every technician had a seat or two at his disposal. It was often crammed up there and extremely good company, it was said that there had been wives of both generals and rank-ranking commercial advisers there: it was so interesting to look down behind the wings and know how people moved and stood when the curtain was down.</p>
+          <p rend="firstIndent" xml:id="p_00011"><hi rend="italic">Auntie</hi> had been there on several occasions, both to tragedies and ballets, for the plays that involved the most performers were the most interesting to watch from the cockloft. It was quite dark up there, most people had some supper with them; once three apples and a few open sandwiches with pressed belly of pork fell straight down into <hi rend="italic">Ugolino’s</hi> prison, where the man was supposed to be dying of hunger, which made the audience laugh. Those pressed belly of pork sandwiches were one of the most telling reasons why the managers decided to completely do away with the seats up in the cockloft.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘But I was up there thirty-seven times!’ <hi rend="italic">Auntie</hi> said, ‘and I will never forget Mr <hi rend="italic">Sivertsen</hi> because of that.’</p>
+          <p rend="firstIndent" xml:id="p_00013">Precisely the last time that the cockloft was open to the public, there was a performance of ‘<hi rend="italic">The Judgment of Solomon</hi>’, Auntie recalled it well; she had, thanks to her benefactor Mr <hi rend="italic">Sivertsen</hi>, managed to get a ticket for Agent <hi rend="italic">Fab</hi>, in spite of the fact that he hadn’t deserved it, since he constantly made fun of the theatre and used to tease people; but now she had managed to fix it for him. He wanted to see the theatre inside-out – those were his own words, and they were typical of him, <hi rend="italic">Auntie</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00014">And he saw ‘<hi rend="italic">The Judgment of Solomon</hi>’ from above and fell asleep; one would definitely have thought he had come from a large dinner with plenty to drink. He slept and got locked in, sat there and slept in the dark up in the cockloft, and when he woke up, he told me – although <hi rend="italic">Auntie</hi> didn’t believe him – <hi rend="italic">The Judgment of Solomon</hi> was over, all the lamps and lights were out, everybody was outside, from the stalls and balconies; but it was then that the play really began, the ‘Nachspiel’, which was the best part,’ the agent said. It was not <hi rend="italic">The Judgment of Solomon</hi> that was passed, no, it was the <hi rend="italic">Day of Judgment</hi> at the theatre. And all this Agent <hi rend="italic">Fab</hi> had the cheek to try to delude <hi rend="italic">Auntie</hi> into believing; that was the thanks she got for having procured him a seat up in the loft.</p>
+          <p rend="firstIndent" xml:id="p_00015">So what did the <hi rend="italic">agent</hi> relate, well, it was funny enough to hear, but underneath it all there was malice and teasing.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘It was so dark up there!’ the <hi rend="italic">agent</hi> said, ‘but then the spooky stuff started, a large-scale performance: ‘<hi rend="italic">Day of Judgment at the Theatre</hi>’. The ticket controllers were at the doors, and every spectator had to show his moral conduct book, to determine whether he was to be allowed in with his hands untied or tied, with or without a muzzle. Fine folk who came too late, when the performance had already started, as well as young people who were of course incapable of coming on time, were tethered outside, given felt soles under the feet to enter with when the next act began, and in addition a muzzle. And then the Day of Judgment began at the theatre!’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Mere wickedness, of which Our Lord knows nothing!’ <hi rend="italic">Auntie</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00018">The painter, if he wanted to enter heaven, had to ascend a ladder he himself had painted, but which no human being could possible clamber up. That was of course only a transgression against perspective. All the plants and buildings that the technician, at great inconvenience, had placed in countries where they did not rightly belong, the poor man had to move to the right place and do so before the cock crew, if he wanted to be admitted to heaven. Mr <hi rend="italic">Fab</hi> should only care about whether he got inside himself; and what he related about the players, in both comedies and tragedies, in singing and dancing, was the blackest humour of Mr <hi rend="italic">Fab</hi>, Blab! he didn’t deserve to be admitted to the loft, <hi rend="italic">Auntie</hi> refused to repeat what he had said. All of it had been written down, he had said, Blabbermouth! it would be printed when he was dead and gone, not before; he didn’t want to be flayed alive.</p>
+          <p rend="firstIndent" xml:id="p_00019"><hi rend="italic">Auntie</hi> had only once been in fear and dread in her temple of bliss, the theatre. It was on a winter’s day, one of those days when there are but two hours and daylight and all is grey. It was cold and there was snow, but <hi rend="italic">Auntie</hi> insisted on going to the theatre; they were performing ‘<hi rend="italic">Herman von Unna</hi>’, plus a small opera and a large ballet, a prologue and an epilogue; it would go on until late at night. <hi rend="italic">Auntie</hi> simply had to go; her lodger had lent her a pair of boots with runners, well-lined both inside and out; they reached well up her legs.</p>
+          <p rend="firstIndent" xml:id="p_00020">She arrived at the theatre, went into her box; the boots were warm, she kept them on. Suddenly there was a cry of Fire!; smoke starting coming out of one of the wings, smoke came from the cockloft; there was a great commotion. People stormed out; <hi rend="italic">Auntie</hi> was the last person left in the box – ‘second floor on the left, that is where the decorations look their best!’ she used to say, ‘they are always positioned so as to look most beautiful from the royal side!’ – <hi rend="italic">Auntie</hi> wanted to get out, those in front of her, in their fear and thoughtlessness <hi rend="italic">they</hi> had slammed the door; there sat <hi rend="italic">Auntie</hi>, she could not get out, nor in either; into the neighbour’s box, that is, the balustrade was too high. She shouted, no one heard her, she looked down at the tier below here, it was empty, it was low, it was close by; in her fear <hi rend="italic">Auntie</hi> felt so young and light, wanted to jump down, also managed to get one leg over the balustrade, the other off the seat; there she sat straddled, well covered by her flower-patterned skirt, with one long leg dangling in the open air, a leg wearing a large boot complete with runner; what a sight to see! and when it was seen, <hi rend="italic">Auntie</hi> was also heard, and saved from perishing in there, for the theatre was not on fire.</p>
+          <p rend="firstIndent" xml:id="p_00021">It was the most memorable evening of her life, she said, and was happy she hadn’t been able to see herself, for then she would have died of shame.</p>
+          <p rend="firstIndent" xml:id="p_00022">Her benefactor from the technical staff, Mr <hi rend="italic">Sivertsen</hi>, still came to visit her every Sunday, but it was a long time from Sunday to Sunday; in recent times she therefore used to invite a young child to some ‘scraps’ mid-week, in other words, to eat what had been left over from her midday meal. This was a small child from the ballet who needed some food. She used to appear on stage both as an elf and a page; her most difficult role was the back half of the lion in ‘<hi rend="italic">The Magic Flute</hi>’, but she advanced to the front legs of the lion; for this she was only paid three marks, while the back legs only gave her a thaler, but that meant walking bent double and having no fresh air. That was most interesting to learn, in <hi rend="italic">Auntie’s</hi> opinion.</p>
+          <p rend="firstIndent" xml:id="p_00023">She would have deserved to live as long as the theatre stood there, but she couldn’t hold out that long; nor did she die there, but properly and respectably in her own bed; her last words incidentally were quite significant, she asked: ‘what are they putting on tomorrow?’</p>
+          <p rend="firstIndent" xml:id="p_00024">After her death, there remained around five hundred thalers; we deduce this from the interest, which was twenty thalers. Those <hi rend="italic">Auntie</hi> had earmarked for a legacy to some deserving old spinster without any family; they were to be used annually to reserve a seat on the second tier, the left-hand side, and on Saturdays, for it was then that the best plays were performed. The one condition was that anyone who gained pleasure from the grant was, every Saturday in the theatre, to think of Auntie, lying in her grave.</p>
+          <p rend="firstIndent" xml:id="p_00025">That was Auntie’s religion.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

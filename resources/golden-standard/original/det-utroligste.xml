@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Det Utroligste</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i engelsk oversættelse med titlen »The Most Extraordinary Thing« i <i>Riverside Magazine</i>, der udkom i september 1870. Oversætteren er ikke identificeret. Trykt første gang på dansk i <i>Nyt dansk Maanedsskrift</i>, 1. bind, 1871, der udkom i oktober 1870 (BFN 1004). Optaget i <i>Eventyr og Historier. Ny Samling</i>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="det-utroligste" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="det-utroligste_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="190_The-Most-Incredible-Thing">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Den som kunde gjøre det Utroligste skulde have Kongens Datter og det halve Rige....</incipit><readingTime>8</readingTime><popularity>894</popularity><cite>&lt;p&gt;H.C. Andersen: Det Utroligste. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Det_Utroligste_hca_ill_0157.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Det Utroligste" xml:id="det-utroligste">
+<head type="main">Det Utroligste</head>
+
+<p rend="noIndent" xml:id="p_00001">Den som kunde gjøre det <hi rend="italic">Utroligste</hi> skulde have Kongens Datter og det halve Rige.</p>
+
+<p rend="firstIndent" xml:id="p_00002">De unge Mennesker, ja de gamle med, anspændte alle deres Tanker, Sener og Muskler; To spiste sig til Døde og Een drak sig ihjel for at gjøre det Utroligste efter deres Smag, men det var ikke paa den Maade, det skulde gjøres. Smaa Gadedrenge øvede sig hver i at spytte sig selv paa Ryggen, det ansaae de for det <hi rend="italic">Utroligste</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Paa en bestemt Dag skulde det fremvises, hvad Enhver havde at fremvise som det Utroligste. Der var ansat som Dommere Børn fra tre Aar til Folk op i de halvfems. Der blev en heel Udstilling af utrolige Ting, men Alle vare snart enige om at det Utroligste var her et stort Stue-Uhr i <seg target="txtcmnt-276-01"><!--DATA-TERM: Foderal--><anchor target="txtcmnt-276-01"/><!--hylster.-->Foderal</seg>, mærkværdigt udspeculeret <seg target="txtcmnt-276-02"><!--DATA-TERM: uden og inden--><anchor target="txtcmnt-276-02"/><!--udenpå og indeni.-->uden og inden</seg>. Ved hvert Klokkeslet kom der levende Billeder, som viste hvad Klokken var slaaet; det var hele tolv Forestillinger med bevægelige Figurer og med Sang og Tale.</p>
+
+<p rend="noIndent" xml:id="p_00004">»Det var det <hi rend="italic">Utroligste</hi>!« sagde Folk.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Klokken slog <hi rend="italic">eet</hi>, og <seg target="txtcmnt-276-03"><!--DATA-TERM:  Moses  … Gud--><anchor target="txtcmnt-276-03"/><!--jf. 2. Mosebog 19-20.--><hi rend="italic">Moses</hi> stod paa Bjerget og nedskrev paa Lovens Tavler det første Troens Bud: »der er kun een eneste sand Gud</seg>.«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Klokken slog <hi rend="italic">to</hi>, da viste sig Paradisets Have hvor <hi rend="italic">Adam</hi> og <hi rend="italic">Eva</hi> mødtes, lykkelige begge To, uden at eie saa Meget som et Klædeskab; de behøvede det heller ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Ved Slaget <hi rend="italic">tre</hi> viste sig <hi rend="italic"><seg target="txtcmnt-276-04"><!--DATA-TERM: de hellige tre Konger--><anchor target="txtcmnt-276-04"/><!--de tre vise mænd fra Østerland, som ifølge evangelierne tilbeder det nyfødte jesusbarn. Den ene af dem afbildes i den maleriske tradition som sort.-->de hellige tre Konger</seg></hi>, den Ene kulsort, det han ikke kunde gjøre ved, Solen havde sværtet ham. De kom med Røgelse og Kostbarheder.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Paa Slaget <hi rend="italic">fire</hi> kom <hi rend="italic">Aarstiderne</hi>: <hi rend="italic">Foraaret</hi> med <seg target="txtcmnt-276-05"><!--DATA-TERM: Kukkeren--><anchor target="txtcmnt-276-05"/><!--gøgen.-->Kukkeren</seg> paa en udsprungen Bøgegreen, <hi rend="italic">Sommeren</hi> med en Græshoppe paa det modne Kornax, <hi rend="italic">Efteraaret</hi> med en tom Storkerede, Fuglen var fløien bort, <hi rend="italic">Vinteren</hi> med en gammel Krage, der kunde fortælle Historier i Kakkelovnskrogen, gamle Minder.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Slog Klokken <hi rend="italic">fem</hi> viste sig <hi rend="italic">de fem Sandser</hi>: <hi rend="italic">Synet</hi> kom som Brillemager, <hi rend="italic">Hørelsen</hi> som Kobbersmed, <hi rend="italic">Lugten</hi> solgte Violer og <pb n="277"/>Skovmærker, <hi rend="italic">Smagen</hi> var Kok og <hi rend="italic">Følelsen</hi> Bedemand med Sørgeflor ned til Hælene.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Klokken slog <hi rend="italic">sex</hi>: der sad en Spiller, han kastede Tærning og denne vendte den høieste Side op, og der stod <hi rend="italic">sex</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Saa kom de <hi rend="italic">syv Ugedage</hi> eller <hi rend="italic"><seg target="txtcmnt-277-01"><!--DATA-TERM: de syv Dødssynder--><anchor target="txtcmnt-277-01"/><!--de synder, som ikke kan tilgives, og som derfor fører til den evige død. Den skolastiske tradition opregner følgende syv: hovmod, griskhed, vellevned, misundelse, frådseri (herunder drukkenskab), vrede og dovenskab.-->de syv Dødssynder</seg></hi>, det vare Folk ikke enige om, de hørte jo sammen og vare ikke let at skille.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Saa kom et Munkechor og sang <hi rend="italic"><seg target="txtcmnt-277-02"><!--DATA-TERM: Ottesang--><anchor target="txtcmnt-277-02"/><!--gudstjeneste før daggry kl. 3 (matutina) i den katolske kirke.-->Ottesang</seg></hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Paa Slaget <hi rend="italic">ni</hi> fulgte <hi rend="italic"><seg target="txtcmnt-277-03"><!--DATA-TERM: de ni Muser--><anchor target="txtcmnt-277-03"/><!--i græsk mytologi skytsgudinder for kunst og videnskab, døtre af Zeus og Mnemosyne.-->de ni Muser</seg></hi>; <seg target="txtcmnt-277-04"><!--DATA-TERM: een … Astronomien--><anchor target="txtcmnt-277-04"/><!--Urania.-->een var ansat ved Astronomien</seg>, <seg target="txtcmnt-277-05"><!--DATA-TERM: Een … Archiv--><anchor target="txtcmnt-277-05"/><!--Kleio (historieskrivningens muse).-->Een ved det historiske Archiv</seg>, <seg target="txtcmnt-277-06"><!--DATA-TERM: Resten … Theatret--><anchor target="txtcmnt-277-06"/><!--Melpomene (tragedien), Thaleia (komedien), Terpsichore (dansen, lyren), Erato (elskovsdigtningen), Kalliope (den episke digtning), Euterpe (sangen til fløjteledsagelse), Polyhymnia (hymnedigtningen). -->Resten hørte til Theatret</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Paa Slaget <hi rend="italic">ti</hi> traadte atter <hi rend="italic">Moses</hi> frem med Lovens Tavler, der stode alle Guds Bud og de vare <hi rend="italic">ti</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Klokken slog igjen, da hoppede og sprang smaa Drenge og Piger, de legede en Leg og sang dertil: »<seg target="txtcmnt-277-07"><!--DATA-TERM: Bro, bro, brille …  elleve--><anchor target="txtcmnt-277-07"/><!--gammel børneleg; jf. S. Tvermose Thyregod <i>Danmarks Sanglege</i>, 1931, s. 220 ff.-->Bro, bro, brille, Klokken er slaaet <hi rend="italic">elleve</hi></seg>!« og det var den slaaet.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Nu slog den <hi rend="italic">tolv</hi>, da traadte frem Vægteren med <seg target="txtcmnt-277-08"><!--DATA-TERM: Kabuds--><anchor target="txtcmnt-277-08"/><!--hue med øreklapper eller slag, der kan knappes foran munden eller smøges ned over nakken.-->Kabuds</seg> og <seg target="txtcmnt-277-09"><!--DATA-TERM: Morgenstjerne--><anchor target="txtcmnt-277-09"/><!--våben bestående af et skaft med en kugle besat med pigge.-->Morgenstjerne</seg>, han sang det gamle Vægtervers:</p>
+<lg xml:id="p_00017">
+<l rend="noIndent">»Det var ved Midnatstide,</l>
+<l>Vor Frelser han blev født!«</l>
+</lg>
+<p rend="noIndent" xml:id="p_00018">og idet han sang, voxte Roser, og de bleve til Englehoveder, baarne af regnbuefarvede Vinger.</p>
+
+<p rend="firstIndent" xml:id="p_00019">Det var yndigt at høre, det var deiligt at see. Det Hele var et mageløst Konstværk, det Utroligste, sagde alle Mennesker.</p>
+
+<p rend="firstIndent" xml:id="p_00020">Konstneren var en ung Mand, hjertensgod, barneglad, tro Ven og hjelpsom mod sine fattige Forældre; han fortjente Prindsessen og det halve Rige.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Afgjørelsens Dag var kommen, hele Byen stod i Stads og Prindsessen sad paa Landets Throne, der havde faaet nye Krølhaar, men dog ikke var blevet mere magelig og behagelig. Dommerne rundt om saae saa <seg target="txtcmnt-277-10"><!--DATA-TERM: poliske--><anchor target="txtcmnt-277-10"/><!--snedige, snu.-->poliske</seg> hen til ham der skulde vinde, og han stod freidig og glad, hans Lykke var vis, han havde gjort det Utroligste.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Nei, det skal nu jeg gjøre!« raabte lige i det Samme en lang knoklet Kraftkarl. »Jeg er Manden for det Utroligste!« og saa svingede han en stor Øxe mod Konstværket.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Krisk! krask! qvas!« der laae det Hele. Hjul og Fjedre foer rundt om, Alt var ødelagt!</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Det kunde <hi rend="italic">jeg</hi>!« sagde Manden; »<hi rend="italic">min</hi> Gjerning har slaaet hans og slaaet Eder Allesammen; jeg har gjort det Utroligste!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Ødelægge et saadant Konstværk!« sagde Dommerne. »Ja det var det Utroligste!«</p>
+
+<pb n="278"/><p rend="firstIndent" xml:id="p_00026">Hele Folket sagde det Samme, og saa skulde han have Prindsessen og det halve Rige, for en Lov er en Lov, selv om den er det Utroligste.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Der blæses fra Volden og fra alle Byens Taarne: »Brylluppet skal feires!« Prindsessen var slet ikke fornøiet for det, men yndig saae hun ud og <seg target="txtcmnt-278-01"><!--DATA-TERM: kostelig--><anchor target="txtcmnt-278-01"/><!--kostbart, herligt.-->kostelig</seg> var hun klædt paa. Kirken straalede med Lys, seent paa Aftenen, det tager sig bedst ud. Byens adelige Jomfruer sang og førte Bruden frem, Ridderskabet sang og fulgte Brudgommen; han kneisede som om han aldrig kunde knækkes over.</p>
+
+<p rend="firstIndent" xml:id="p_00028">Nu holdt Sangen op, der blev saa stille at man kunde have hørt en Knappenaal falde til Jorden, men midt i den Stilhed fløi med Bulder og Brag den store Kirkedør op og – »bum! bum!« der kom hele Uhrværket marscherende midt igjennem Kirkegangen og stillede sig mellem Brud og Brudgom. Døde Mennesker kunne ikke gaae igjen, det vide vi meget godt, men et Konstværk kan gaae igjen, Legemet var slaaet i Stykker, men ikke Aanden, Konstaanden spøgede, og det var ingen Spøg.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Konstværket stod der livagtigt som da det var heelt og urørt. Klokkeslagene lød, det ene paa det andet, lige til tolv, og Skikkelserne der mylrede frem; først <hi rend="italic">Moses</hi>; der lyste ligesom Ildsluer ud af hans Pande, han kastede Lovens tunge Steentavler paa Brudgommens Fødder og bandt dem til Kirkegulvet.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Jeg kan ikke løfte dem igjen!« sagde <hi rend="italic">Moses</hi>. »Du har slaaet Armene af mig! staa som Du staaer!«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Nu kom <hi rend="italic">Adam</hi> og <hi rend="italic">Eva</hi>, <hi rend="italic">de Vise fra Østerland</hi> og <hi rend="italic">de fire Aarstider</hi>, hver sagde ham ubehagelige Sandheder, »skam Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00032">Men han skammede sig ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Alle de Skikkelser, hvert Klokkeslet havde at fremvise, traadte ud af Uhret, og alle voxte de i forfærdelig Størrelse, det var som om der ikke blev Plads for de virkelige Mennesker. Og da ved tolvte Slag Vægteren traadte ud med Kabuds og Morgenstjerne blev der et underligt Røre; <hi rend="italic">Vægteren</hi> gik lige ind paa Brudgommen og slog ham for Panden med Morgenstjernen.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Lig der!« sagde han, »Lige for Lige! Vi ere hevnede og Mester med! vi forsvinde!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">Og saa forsvandt hele Konstværket; men Lysene rundt om i Kirken blev til store Lysblomster, og de forgyldte Stjerner under Loftet sendte lange, klare Straaler, Orgelet klang af sig selv. Alle Mennesker sagde at det var det <hi rend="italic">Utroligste</hi>, de havde oplevet.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Vil De saa tilsige den Rigtige!« sagde Prindsessen. »Han, <pb n="279"/>som gjorde Konstværket, han være min Ægtemand og Herre!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">Og han stod i Kirken, det hele Folk var hans Følgeskab, Alle glædede sig, Alle velsignede ham; der var ikke Een, der var misundelig, – ja det var det <hi rend="italic">Utroligste</hi>!</p>
+
+<pb n="280"/>
+
+<pb n="281"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Det Utroligste" xml:id="det-utroligste">
+<head type="section-comments">Det Utroligste</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse med titlen »The Most Extraordinary Thing« i <hi rend="italic">Riverside Magazine</hi>, der udkom i september 1870. Oversætteren er ikke identificeret. Trykt første gang på dansk i <hi rend="italic">Nyt dansk Maanedsskrift</hi>, 1. bind, 1871, der udkom i oktober 1870 (BFN 1004). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p>
+<p>BFN 1017/V,148-153/VII,358-360.</p>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til det danske førstetryk</p>
+
+<table rend="textdeviations">
+<row><cell type="position">276</cell><cell type="deviation"><hi rend="italic">under titlen med mindre skrift:</hi> (Et Eventyr). – 2: Den &lt; Den, – <hi rend="italic">Utroligste</hi> &lt; Utroligste – 3: <hi rend="italic">ikke linjeskift efter</hi> Rige – 5: til Døde &lt; tildøde, – Een &lt; En – 8: hver i &lt; i hver – 9: <hi rend="italic">Utroligste</hi> &lt; Utroligste – 12: Børn fra tre Aar &lt; fra Børn paa tre Aar – 13: snart &lt; de – om &lt; om, – 16: slaaet; det &lt; slaaet. Det – 18: <hi rend="italic">ikke linjeskift efter</hi> Tale – 19: <hi rend="italic">Utroligste</hi> &lt; Utroligste – 21: »der &lt; »Der – 22: <hi rend="italic">ikke linjeskift efter</hi> Gud.« – 25: <hi rend="italic">ikke linjeskift efter</hi> ikke – 26: Ene &lt; ene – 27: han ikke kunde &lt; kunde han ikke – 28: <hi rend="italic">ikke linjeskift efter</hi> Kostbarheder – 29: <hi rend="italic">Aarstiderne</hi> &lt; Aarstiderne – 30: Bøgegreen, &lt; Bøgegreen; – 31: Kornax, &lt; Kornax; – 32: fløien &lt; fløiet – bort, &lt; bort; – 33: <hi rend="italic">ikke linjeskift efter</hi> Minder – 34: <hi rend="italic">fem</hi> viste &lt; <hi rend="italic">fem</hi>, viste</cell></row>
+<row><cell type="position">277</cell><cell type="deviation">2: <hi rend="italic">ikke linjeskift efter</hi> Hælene – 3: Tærning &lt; Tærning, – 4: <hi rend="italic">ikke linjeskift efter sex</hi> – 5: vare &lt; var – 6: <hi rend="italic">ikke linjeskift efter</hi> skille – 7: Munkechor &lt; Munke-Kor – <hi rend="italic">ikke linjeskift efter Ottesang</hi> – <hi rend="italic">Ottesang. &lt; Ottesang</hi>; – 8: Paa &lt; paa – een &lt; en – 9: Een &lt; en – Archiv &lt; Arkiv – <hi rend="italic">ikke linjeskift efter</hi> Theatret – 11: <hi rend="italic">ikke linjeskift efter ti</hi> – 12: Drenge og Piger &lt; Piger og Drenge – 13: brille, &lt; brille! – 14: <hi rend="italic">ikke linjeskift efter</hi> slaaet – 20: regnebuefarvede &lt; regnbufarvede – 22: Konstværk &lt; Kunstværk – <hi rend="italic">ikke linjeskift efter</hi> Mennesker – 23: Konstneren &lt; Kunstneren – 24: Ven &lt; Ven, – hjelpsom &lt; hjælpsom – 25: <hi rend="italic">ikke linjeskift efter</hi> Rige – 26: kommen &lt; kommet – Stads &lt; Stads, – 29: poliske &lt; polisk – 32: raabte lige i det Samme en &lt; raabte en – 34: Konstværket. &lt; Kunstværket: – <hi rend="italic">ikke linjeskift efter</hi> Konstværket – 37: <hi rend="italic">jeg</hi> &lt; jeg – Manden; &lt; Manden. – <hi rend="italic">min</hi> &lt; Min – 38: Allesammen; jeg &lt; Allesammen. Jeg – 39: Konstværk &lt; Kunstværk</cell></row>
+<row><cell type="position">278</cell><cell type="deviation">2: om &lt; om ogsaa – 4: blæses &lt; blæstes – 7: Lys, seent &lt; Lys seent – tager &lt; tog – 8: frem, &lt; frem; – 11: stille at &lt; stille, at – 12: fløi &lt; fløi, – 13: Brag &lt; Brag, – op &lt; op, – 14: midt igjennem &lt; igjennem – 17: Konstværk &lt; Kunstværk – igjen, &lt; igjen; – i Stykker &lt; istykker – 18: Konstaanden &lt; Kunstaanden – 19: Konstværket &lt; Kunstværket – 20: paa &lt; efter – andet, &lt; andet – <pb n="451"/>21: Skikkelserne der &lt; Skikkelserne – 22: Ildsluer &lt; Ildslue – 24: igjen!« &lt; igjen,« – 26: <hi rend="italic">de … de</hi> &lt; de ... de – 27: <hi rend="italic">ikke linjeskift efter</hi> Dig!« – 28: Men &lt; men – 29: Alle de &lt; Alle – 31: som om &lt; som – ikke blev &lt; blev neppe – Mennesker. Og &lt; Mennesker; og – 32: Morgenstjerne &lt; Morgenstjerne, – 33: Røre; &lt; Røre. – <hi rend="italic">Vægteren</hi> &lt; Vægteren – 35: Lige for ... hevnede &lt; Nu ere vi hævnede – 36: <hi rend="italic">ikke linjeskift efter</hi> forsvinde!« – 37: Og &lt; og – Konstværket &lt; Kunstværket – 38: blev &lt; bleve – 40: selv. Alle &lt; selv; alle – sagde &lt; sagde, – <hi rend="italic">Utroligste</hi> &lt; Utroligste – 42: Prindsessen. »Han &lt; Prindsessen, »han</cell></row>
+<row><cell type="position">279</cell><cell type="deviation">1: Konstværket &lt; Kunstværket – 2: det &lt; <hi rend="italic">det –</hi> Følgeskab, &lt; Følgeskab;  – 4: det var det <hi rend="italic">Utroligste</hi> &lt; <hi rend="italic">det var det Utroligste</hi> – <hi rend="italic">Under teksten:</hi> H. C. Andersen.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">276</cell><row xml:id="txtcmnt-276-01"><cell type="data-term">Foderal</cell><cell type="data-definition">hylster.</cell></row><row xml:id="txtcmnt-276-02"><cell type="data-term">uden og inden</cell><cell type="data-definition">udenpå og indeni.</cell></row><row xml:id="txtcmnt-276-03"><cell type="data-term"><hi rend="italic">Moses</hi> … Gud</cell><cell type="data-definition">jf. 2. Mosebog 19-20.</cell></row><row xml:id="txtcmnt-276-04"><cell type="data-term">de hellige tre Konger</cell><cell type="data-definition">de tre vise mænd fra Østerland, som ifølge evangelierne tilbeder det nyfødte jesusbarn. Den ene af dem afbildes i den maleriske tradition som sort.</cell></row><row xml:id="txtcmnt-276-05"><cell type="data-term">Kukkeren</cell><cell type="data-definition">gøgen.</cell></row>
+<cell type="page">277</cell><row xml:id="txtcmnt-277-01"><cell type="data-term">de syv Dødssynder</cell><cell type="data-definition">de synder, som ikke kan tilgives, og som derfor fører til den evige død. Den skolastiske tradition opregner følgende syv: hovmod, griskhed, vellevned, misundelse, frådseri (herunder drukkenskab), vrede og dovenskab.</cell></row><row xml:id="txtcmnt-277-02"><cell type="data-term">Ottesang</cell><cell type="data-definition">gudstjeneste før daggry kl. 3 (matutina) i den katolske kirke.</cell></row><row xml:id="txtcmnt-277-03"><cell type="data-term">de ni Muser</cell><cell type="data-definition">i græsk mytologi skytsgudinder for kunst og videnskab, døtre af Zeus og Mnemosyne.</cell></row><row xml:id="txtcmnt-277-04"><cell type="data-term">een … Astronomien</cell><cell type="data-definition">Urania.</cell></row><row xml:id="txtcmnt-277-05"><cell type="data-term">Een … Archiv</cell><cell type="data-definition">Kleio (historieskrivningens muse).</cell></row><row xml:id="txtcmnt-277-06"><cell type="data-term">Resten … Theatret</cell><cell type="data-definition">Melpomene (tragedien), Thaleia (komedien), Terpsichore (dansen, lyren), Erato (elskovsdigtningen), Kalliope (den episke digtning), Euterpe (sangen til fløjteledsagelse), Polyhymnia (hymnedigtningen). </cell></row><row xml:id="txtcmnt-277-07"><cell type="data-term">Bro, bro, brille … <hi rend="italic">elleve</hi></cell><cell type="data-definition">gammel børneleg; jf. S. Tvermose Thyregod <hi rend="italic">Danmarks Sanglege</hi>, 1931, s. 220 ff.</cell></row><row xml:id="txtcmnt-277-08"><cell type="data-term">Kabuds</cell><cell type="data-definition">hue med øreklapper eller slag, der kan knappes foran munden eller smøges ned over nakken.</cell></row><row xml:id="txtcmnt-277-09"><cell type="data-term">Morgenstjerne</cell><cell type="data-definition">våben bestående af et skaft med en kugle besat med pigge.</cell></row><row xml:id="txtcmnt-277-10"><cell type="data-term">poliske</cell><cell type="data-definition">snedige, snu.</cell></row>
+<cell type="page">278</cell><row xml:id="txtcmnt-278-01"><cell type="data-term">kostelig</cell><cell type="data-definition">kostbart, herligt.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

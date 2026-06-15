@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Court Cards</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="herrebladene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="herrebladene_modern.xml">moderniseret version</note>
+                                                       <note target="180_The-Court-Cards.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>What delightful things one can cut and paste out of paper! This time a castle ha...</incipit><idno type="image">Court-Cards_Dal_2022-03-17.png</idno><popularity>883</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Court Cards. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>tingseventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-29" who="NHB">formatted</change><change who="NHB" when="2022-10-29">ready for publication</change><change who="NHB" when="2022-11-09">corrected quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Court Cards">
+               <head type="main" rend="The Court Cards">The Court Cards</head>                <p rend="noIndent" xml:id="p_00001">What delightful things one can cut and paste out of paper! This time a castle had been cut and pasted, one so big that it filled a whole table, and it had been painted to look as if it had been built of red bricks, it had gleaming copper roofs, it had towers and drawbridge, water in its canals like mirror glass, for it was mirror glass. Up in the tallest tower there stood a watchman carved out of wood, he had a trumpet to blow on, but he didn’t blow!</p>
+               <p rend="firstIndent" xml:id="p_00002">All of this belonged to a little boy by the name of <hi rend="italic">William</hi>, and he raised the drawbridge himself and let it come down again, got his soldiers to march over it, then opened the castle gate and looked into the large baronial hall, where on the walls there hung in frames all the court cards from a pack of cards, <hi rend="italic">Hearts</hi>, <hi rend="italic">Diamonds</hi>, <hi rend="italic">Clubs</hi> and <hi rend="italic">Spades</hi> – just like the pictures in real baronial halls: the Kings with their crown and sceptre, the Queens with veils down over their shoulders and a flower or fan in their hand, the Jacks with halberds and swaying plumes.</p>
+               <p rend="firstIndent" xml:id="p_00003">One evening the little boy was lying looking in through the open castle gate at the court cards in the baronial hall and it seemed to him that the kings greeted him with their sceptres, and yes, the <hi rend="italic">Queen of Spades</hi> moved the golden tulip she was holding in her hand and the <hi rend="italic">Queen of Hearts</hi> raised her fan, all four queens indicated graciously that they had noticed him. He shifted even closer to get a better look, but in doing so his head bumped against the castle, causing it to shake. Then all the four Jacks – <hi rend="italic">Clubs</hi>, <hi rend="italic">Spades</hi>, <hi rend="italic">Diamonds</hi> and <hi rend="italic">Hearts</hi> – thrust out their halberds, to warn him that such an intrusion would not be tolerated.</p>
+               <p rend="firstIndent" xml:id="p_00004">The little boy understood this and nodded in friendly fashion; he nodded once more and then he said: ‘Say something!’ but the court cards said not a word; though when he nodded a third time to the <hi rend="italic">Jack of Hearts</hi>, he leapt out of his court card and lined up on the middle of the floor.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘What’s your name?’ he asked the little boy. ‘You’ve got clear eyes and good teeth, but you don’t wash your hands often enough!’ and that wasn’t a very nice thing to say.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘My name’s William!’ the little boy said, ‘and this is my castle and you are my Jack of Hearts!’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘I am the Jack of my own king and queen, not yours!’ the <hi rend="italic">Jack of Hearts</hi> said. ‘I can come out of my card and the frame as well! and high nobility can do so even better. We can go out into the wide world, but we are tired of it; it’s much cushier and cosier to sit in a court card and be oneself!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Have all of you really once been humans?’ the little boy asked.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Humans,’ the <hi rend="italic">Jack of Hearts</hi> said, ‘but not as good as we ought to have been! light a small wax-candle in front of me, a red one preferably, for that is the colour of my royal family, and I will tell the lord of the castle – for lord of the castle is what you say you are – our entire story, but do not interrupt me, for if I am to speak, it will have to be at one swoop! – Can you see him, my king, The King of Hearts; he is the oldest of the four there, for he was born first, born with a golden crown and a golden orb. He reigned immediately. His queen was born with a golden fan, she still has it. They had such a nice time of it from the word go, didn’t have to go to school, could play all day long, build castles and pull them down, do battle with tin soldiers and play with dolls; if they demanded open sandwiches, there was butter on both sides of the bread and soft brown sugar on top. That was the good old time, the Golden Age as it is called, but I too grew tired of it. That was way back, – and then came the King of Diamonds.’</p>
+               <p rend="firstIndent" xml:id="p_00010">That was all the Jack said; the little boy waited something more to listen to, but not a word was said; and so the little boy asked:</p>
+               <p rend="firstIndent" xml:id="p_00011">‘And then what?’</p>
+               <p rend="firstIndent" xml:id="p_00012">The <hi rend="italic">Jack of Hearts</hi> didn’t answer, stood there stiff and straight with his eyes fixed on the lit wax-candle. The little boy nodded, nodded again but received no reply; then he turned to the Jack of Diamonds, and when he nodded to him for a third time, he leapt out of the card, lined up and uttered a single word: ‘Wax-candle’, the little boy immediately lit a red candle and placed it in front of him; then the <hi rend="italic">Jack of Diamonds</hi> presented arms with his lance and said:</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Then came the <hi rend="italic">King of Diamonds</hi>! a king with a pane of glass on his chest; one could look inside the queen too, and they were formed like other humans. It was so agreeable that a monument was raised for them, it stood for no less than seven years, but it had also been raised to last for ever!’ And then the <hi rend="italic">Jack of Diamonds</hi> presented arms once more and gazed at his red wax-candle.</p>
+               <p rend="firstIndent" xml:id="p_00014">And, without a nod from little <hi rend="italic">William</hi>, suddenly, quite ponderously, like the stork can move when it stalks across the field, out strode the <hi rend="italic">Jack of Clubs</hi>. The black trefoil in the corner of the court card flew above him like a bird and then back again to where it had previously been sitting. And the <hi rend="italic">Jack of Clubs</hi> spoke, without, like the others, first having had a wax-candle lit.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Not everyone gets butter on both sides of their bread and sugar on top! neither my king nor queen did; they had to go to school and learn what they previously had not learnt. They also went with a pane of glass on their chest, but no one looked inside except to query if there was something wrong with the works inside, so that they could be scolded that warranted scolding. I know this; I have served my king and queen all my life, know them to this day and obey their will. And now they do not wish me to speak any more this evening, and I will be silent and present arms!’</p>
+               <p rend="firstIndent" xml:id="p_00016">But <hi rend="italic">William</hi> also lit a candle for him, one that was gleaming white.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Whoosh–!’ faster than the candle could be lit the <hi rend="italic">Jack of Spades</hi> stood in the middle of the baronial hall, he came at great speed even though he limped as if he had a bad leg; he gave no greeting; he creaked, he had been bashed and broken; been through so much; now he spoke.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘They have each got a candle and I will get one too, I know; but if we jacks are to have one, our royal couples must have three times as many. My <hi rend="italic">King of Spades</hi> and his Queen deserve to have four candles! Their story and tribulations are so pitiful that they have every reason to dress in black and have a spade for digging graves in their coat of arms; I too! I have been given a derisory name in the pack of cards! I am called “Black Jack”; indeed, I have been given worse names, ones that it is not fitting to mention aloud!’ and then he whispered: ‘I am called “<hi rend="italic">Mucky Max</hi>” and yet once <hi rend="italic">I</hi> was first cavalier for the <hi rend="italic">King of Spades</hi> and now I am the last. I refuse to tell the story of my royal couple, they do not wish it! The little lord of the castle can make of it what he will, but it is pitiful! things have gone from bad to worse and will not get any better before all of us ride on the red horse higher than there are clouds!’</p>
+               <p rend="firstIndent" xml:id="p_00019">And little <hi rend="italic">William</hi> lit three candles for each of the kings and three for each of the queens, but those of the <hi rend="italic">House of Spades</hi> were given four each. The whole baronial hall was ablaze with light, as bright as the palace of the richest emperor; and the noble families greeted kindly and graciously; the <hi rend="italic">Queen of Hearts</hi> let her golden fan nod, the <hi rend="italic">Queen of Spades</hi> waved her golden tulip so that it had a trail of flame in its wake. The noble couples stepped out of the cards and frames, trod a minuet down the floor and up again, they danced in a blaze of light as did the jacks, it was as if the whole hall was in flames; it crinkled and crackled, the flames shot out of windows and walls, the whole castle was flaming and flaring. <hi rend="italic">William</hi> leapt aside in fear, called for his father and mother: ‘The castle’s burning!’ – it spattered and sputtered; but in the fire it soughed and sang:</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Now on the red horse we ride aloft, yet higher than clouds are found. As is fitting for men of chivalry and their consorts – and jacks too!’</p>
+               <p rend="firstIndent" xml:id="p_00021">Yes, that was the end of <hi rend="italic">William’s</hi> castle and the court cards. William is still alive and washes his hands: It wasn’t his fault that the castle burnt down.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

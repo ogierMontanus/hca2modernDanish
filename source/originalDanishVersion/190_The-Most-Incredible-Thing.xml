@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Most Incredible Thing</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-utroligste">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-utroligste_modern.xml">moderniseret version</note>
+                                                       <note target="190_The-Most-Incredible-Thing.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The one who could do the most incredible thing was to have the king’s daughter a...</incipit><idno type="image">Det_Utroligste_hca_ill_0157.png</idno><popularity>894</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Most Incredible Thing. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">changed Three Wise Men to upper case, in line with Hen-House Grethe. Same change applied to the Nine Muses and the Four Seasons. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Most Incredible Thing">
+               <head type="main" rend="The Most Incredible Thing">The Most Incredible Thing</head>                <p rend="noIndent" xml:id="p_00001">The one who could do the<hi rend="italic"> most incredible thing</hi> was to have the king’s daughter and half the kingdom.</p>
+               <p rend="firstIndent" xml:id="p_00002">Young people, even old people too, strained all their thinking powers, sinews and muscles; two ate themselves to death and one drank himself to death to do the most incredible thing to their liking, but that was not the way it was to be done. Small street urchins practised spitting on their own backs, that was what they regarded as the <hi rend="italic">most incredible thing</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00003">What each person was to present as the most incredible thing had to be presented on an agreed day. Appointed as judges were children from the age of three up to people in their nineties. There was a whole exhibition of incredible things, but everyone soon agreed that the most incredible thing there was a large clock in a casing, remarkably cleverly conceived both from the outside and the inside. At every hour lifelike figures portrayed which hour had been struck; there were no less than twelve such tableaux with moving figures as well as singing and speaking.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘That was the <hi rend="italic">most incredible thing </hi>!’ people said.</p>
+               <p rend="firstIndent" xml:id="p_00005">The clock struck<hi rend="italic"> one</hi>, and <hi rend="italic">Moses</hi> stood on the mount and wrote down on the tablets of the law the First Commandment: ‘Thou shalt have no other gods before me.’</p>
+               <p rend="firstIndent" xml:id="p_00006">At <hi rend="italic">two </hi>o’clock the Garden of Eden was shown where <hi rend="italic">Adam</hi> and <hi rend="italic">Eve</hi> met, happy the two of them, without any personal wardrobe whatsoever; they didn’t need it either.</p>
+               <p rend="firstIndent" xml:id="p_00007">At the stroke of <hi rend="italic">three the Three Wise Men</hi> appeared, one of them black as coal, he couldn’t do anything about that, the sun had blackened him. They came with incense and precious gifts.</p>
+               <p rend="firstIndent" xml:id="p_00008">At the stroke of <hi rend="italic">four</hi> the seasons showed themselves: <hi rend="italic">Spring</hi> with the cuckoo on a beech branch in leaf, <hi rend="italic">Summer</hi> with a grasshopper on a ripe ear of corn, <hi rend="italic">Autumn</hi> with an empty stork’s nest, the bird had flown away, <hi rend="italic">Winter</hi> with an old crow that could tell stories in the nook of the tiled stove, old memories.</p>
+               <p rend="firstIndent" xml:id="p_00009">When the clock struck <hi rend="italic">five the five senses</hi> appeared: <hi rend="italic">Sight</hi> came as an optician, <hi rend="italic">Hearing</hi> as a coppersmith, <hi rend="italic">Smell</hi> sold violets and woodruff, <hi rend="italic">Taste</hi> was a cook and <hi rend="italic">Feeling</hi> an undertaker with black mourning crape down to his heels.</p>
+               <p rend="firstIndent" xml:id="p_00010"><hi rend="italic">Six</hi> o’clock struck: there sat a gambler throwing dice and he turned the uppermost side up, and it was a <hi rend="italic">six.</hi></p>
+               <p rend="firstIndent" xml:id="p_00011">Then came the <hi rend="italic">seven</hi> days of the week or the <hi rend="italic">seven</hi> deadly sins, people disagreed about this, for they belonged together after all and were difficult to distinguish from each other.</p>
+               <p rend="firstIndent" xml:id="p_00012">Then came a choir of <hi rend="italic">eight</hi> monks and sang matins.</p>
+               <p rend="firstIndent" xml:id="p_00013">On the stroke of <hi rend="italic">nine</hi> the <hi rend="italic">Nine</hi> Muses followed, one was employed in astronomy, one at the historical archives and the rest belonged to the theatre.</p>
+               <p rend="firstIndent" xml:id="p_00014">On the stroke of <hi rend="italic">ten</hi>, <hi rend="italic">Moses</hi> reappeared with the tablets of the law on which God’s Commandments stood and they were <hi rend="italic">ten</hi> in number.</p>
+               <p rend="firstIndent" xml:id="p_00015">The clock struck again, and then small boys and girls came jumping and leaping, they played a game and sang to it: ‘Oranges and Lemons, the bell’s struck<hi rend="italic"> eleven!’</hi> and that it had just done.</p>
+               <p rend="firstIndent" xml:id="p_00016">Now it struck <hi rend="italic">twelve</hi>, and out came the night watchman with fur cap and spiked mace known as his ‘morning star’, he sang the old watchman’s verse:</p>
+               <lg xml:id="p_00017">
+                    <l>‘It was at the midnight hour,</l>
+                    <l>Our Saviour he was born!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00018">and as he sang, roses grew and turned into angels’ heads, borne on rainbow-coloured wings.</p>
+               <p rend="firstIndent" xml:id="p_00019">It was lovely to listen to, delightful to see. All of it was an unrivalled work of art, the most incredible thing, everyone said.</p>
+               <p rend="firstIndent" xml:id="p_00020">The artist was a young man, tender-hearted, fond of children, a faithful friend and a great help to his poor parents; he deserved the princess and half the kingdom.</p>
+               <p rend="firstIndent" xml:id="p_00021">The day of adjudication had arrived, the whole city was dressed up to the nines and the princess sat on the country’s throne, which had been reupholstered with curled horse hair, not that this had made it any more pleasant or comfortable to sit in. The judges round about looked slyly at the one who was going to win, and he stood there confident and cheerful, his good fortune was assured, he had done the most incredible thing.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘No, I’m about to do that!’ a tall, bony strapping fellow suddenly shouted out. ‘I’m the man for the most incredible thing!’ and he swung a large axe at the work of art.</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Smish! smash! crash!’ there it all lay. Gears and springs shot all over the place, everything was ruined!</p>
+               <p rend="firstIndent" xml:id="p_00024">‘<hi rend="italic">I</hi> took care of that!’ the man said; ‘<hi rend="italic">my</hi> deed has outdone his and the whole lot of you; I have done the most incredible thing!’</p>
+               <p rend="firstIndent" xml:id="p_00025">‘To destroy such a work of art!’ the judges said. ‘Yes, that’s the most incredible thing!’</p>
+               <p rend="firstIndent" xml:id="p_00026">The whole people said the same, and so he was to have the princess and half the kingdom, for a law is a law, even if it is the most incredible thing.</p>
+               <p rend="firstIndent" xml:id="p_00027">It was trumpeted out from the ramparts and all the towers of the city: ‘The wedding is to be celebrated!’ The princess wasn’t the slightest bit happy about this, but she looked exquisite and was dressed in the costliest clothes. The church glittered with candles, late at evening, that is when it looks its best. Noble gentlewomen from the city’s convent sang and led the bride to the altar, the landed aristocracy sang and followed the bridegroom; he towered up as if he could never be broken in two.</p>
+               <p rend="firstIndent" xml:id="p_00028">Then the singing stopped, and everything fell so silent you could have heard a pin drop, but in the midst of all this silence the church door flew open with a mighty crash and – ‘boom! boom!’ the entire clock marched up the central aisle and placed itself between the bride and bridegroom. The dead are unable to walk again, we know that very well, but a work of art can walk again, the outer form was smashed but not the spirit, the spirit of art can walk again and that is no joke.</p>
+               <p rend="firstIndent" xml:id="p_00029">The work of art stood there true-to-life, just like when it was whole and untouched. The hours struck, one after the other, all the way to twelve, and the figures crowded forward; first <hi rend="italic">Moses</hi>, it was as if flames were gleaming from his forehead, he flung the heavy tablets of the law at the bridegroom’s feet, binding them to the church floor.</p>
+               <p rend="firstIndent" xml:id="p_00030">‘I can’t pick them up again!’ <hi rend="italic">Moses</hi> said. ‘You have knocked off my arms! You’ll have to stay put!’</p>
+               <p rend="firstIndent" xml:id="p_00031">Then came <hi rend="italic">Adam</hi> and <hi rend="italic">Eve</hi>, <hi rend="italic">the Three Wise Men from the East</hi> and <hi rend="italic">the Four Seasons,</hi> each of which told him some unpleasant truths, ‘Shame on you!’</p>
+               <p rend="firstIndent" xml:id="p_00032">But he wasn’t ashamed.</p>
+               <p rend="firstIndent" xml:id="p_00033">All the figures each striking of the hour brought into view stepped out of the clock and all of them grew to a terrible size, it was as if there wasn’t any room left for the real people. And when, on the stroke of twelve, the night watchman stepped out with his fur cap and spiked mace a strange commotion arose; the <hi rend="italic">watchman</hi> went straight up to the bridegroom and struck him on the forehead with his ‘morning star’.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘You can lie there!’ he said, ‘We’re quits! We’ve got our revenge and so has our master! Now we’ll vanish!’</p>
+               <p rend="firstIndent" xml:id="p_00035">And the whole work of art vanished; but the candles everywhere in the church changed into large flowers of light, and the gilded stars under the ceiling emitted long, clear rays, the organ played of its own accord. Everyone said that this was <hi rend="italic">the most incredible thing</hi> they had ever experienced.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘Will you now summon the right man!’ the princess said. ‘The one who made the work of art, he is to be my husband and master!’</p>
+               <p rend="firstIndent" xml:id="p_00037">And he stood there in the church, the whole people accompanied him, everyone rejoiced, everyone blessed him; there was no one at all who was envious – yes, and that was <hi rend="italic">the most incredible thing</hi>!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

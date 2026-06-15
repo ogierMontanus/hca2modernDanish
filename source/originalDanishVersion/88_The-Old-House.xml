@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Old House</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-gamle-huus">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-gamle-huus_modern.xml">moderniseret version</note>
+                                                       <note target="88_The-Old-House.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>At some point in the street there was an old, old house that was almost three hu...</incipit><idno type="image">Det_gamle_Huus_01_2022-03-09.png</idno><popularity>957</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Old House. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-09" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-09">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Old House">
+          <head type="main" rend="The Old House">The Old House</head>                <p rend="noIndent" xml:id="p_00001">At some point in the street there was an old, old house that was almost three hundred years old, you could see that from the beam where the date had been carved, along with tulips and hopbines; whole lines of verse had been written there as in the old days, and above every window a grimacing face had been chiselled; one storey stuck a lot further out than the other, and right under the roof there was a lead gutter with a dragon’s head; the rain was meant to run out of its open jaws, but instead it ran out of its stomach, for there was a hole in the gutter.</p>
+          <p rend="firstIndent" xml:id="p_00002">All the other houses in the street were so new and so spruce, with large window panes and smooth walls, it was easy to see that they didn’t want to have anything to do with the old house; they probably thought: ‘how long is that monstrosity going to deface the street; and the oriel sticks out so much that no one can see from our windows what is happening in that direction! The flight of steps is as broad as that of a castle and a high as in a church tower. The iron railings look just like the entrance to an old family vault, and what’s more they’re studded with brass buttons. It’s embarrassing!’</p>
+          <p rend="firstIndent" xml:id="p_00003">Directly opposite in the street there were also new, spruce houses, and they thought likewise, but at the window here sat a little boy with fresh rosy cheeks, with bright sparkling eyes, he liked the old house best, in both sunshine and moonlight. And if he looked at the wall where some of the plaster had fallen off, he could imagine all kinds of wonderful pictures of just how the street had once looked with flights of steps, oriels and pointed gables; he could see soldiers with halberds, and gutters like dragons and wyverns that ran about. – It really was a house worth looking at! and over there an old man lived who went around in plush trousers, wore a dress coat with brass buttons and a wig that one could see was a real wig. Every morning an old labourer came who tidied up and ran errands for him, but apart from that the old man in the plush trousers was quite alone in the old house; from time to time he came over to the window and looked out, and the little boy nodded to him, and the old man nodded back, and then they were acquaintances and then they were friends, although they had never spoken to each other, but that didn’t make any difference.</p>
+          <p rend="firstIndent" xml:id="p_00004">The little boy heard his parents say: ‘the old man over there gets on fine, but he is so terribly lonely!’</p>
+          <p rend="firstIndent" xml:id="p_00005">The following Sunday, the little boy wrapped something up in a piece of paper, went down to the gate and when the old servant who ran errands passed by he said to him ‘I say! would you give the old man over there this from me? I’ve got two tin soldiers, this is one of them; I want him to have it, for I know that he’s so terribly lonely!’</p>
+          <p rend="firstIndent" xml:id="p_00006">And the old servant looked quite pleased, nodded and carried the tin soldier over to the old house. Later the little boy received a message asking whether he would like to come over himself and pay a visit, and his parents gave him permission, and so he went over to the old house.</p>
+          <p rend="firstIndent" xml:id="p_00007">And the brass buttons on the staircase railings shone much more brightly than usual, one could almost believe they had been polished especially for the occasion, and it was as if the carved trumpeters – for trumpeters had been carved standing among the tulips in the door – blew with all their might, their cheeks were puffed out much more than before. Yes indeed, they sounded: ‘the little boy’s coming! tantantera!’ – and then the door opened. The whole passage was full of old portraits, knights in armour and ladies in silken dresses; and the armour rattled and the silken dresses rustled! – And then there was a staircase, it went a great way up and then a little way down – and then one was on a balcony that was admittedly quite rickety, with large holes and long cracks, but out of them all there grew grass and leaves, for all of the balcony outside, the courtyard and the wall had so much greenery that it all looked like a garden, but it was only a balcony. Here old flowerpots stood that had faces and handles like donkey’s ears; the flowers there now grew however they pleased. One of the pots was overflowing with carnations, the greenery that is, shoot by shoot, and it said quite distinctly: ‘the air has caressed me, the sun has kissed me and promised me a small flower on Sunday, a small flower on Sunday!’</p>
+          <p rend="firstIndent" xml:id="p_00008">And then they entered a room where the walls were lined with gilt leather with gold flowers printed on it.</p>
+          <lg xml:id="p_00009">
+               <l>‘Gilt’s soon past,</l>
+          <l>but gilt leather will last!’ </l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00010">the walls said.</p>
+          <p rend="firstIndent" xml:id="p_00011">And there were easy chairs with backs so high, so finely carved, and with arm-rests on both sides. ‘Sit yourself down! sit yourself down!’ they said. ‘Oh, my creaking joints! Am I getting rheumatics just like the old cupboard? Rheumatics in my back, oh!’</p>
+          <p rend="firstIndent" xml:id="p_00012">And then the little boy entered the living room, where the oriel was and where the old man was sitting.</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Thank you for the tin soldier, my young friend!’ the old man said. ‘And thanks too for coming over to me!’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Crranks! crranks!’ all the furniture said, echoing the old man’s thanks; there was so much of it that the pieces got in each other’s way trying to get a glimpse of the little boy.</p>
+          <p rend="firstIndent" xml:id="p_00015">And in the middle of the wall hung a painting of a lovely lady, so young, so happy, but dressed exactly as in the old days, with powder in her hair and clothes stiffly starched; she said neither ‘thanks’ nor ‘crranks’, but looked down kindly at the little boy, who immediately asked: ‘where did you get her from?’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘Down at the second-hand dealer’s!’ the old man said. ‘There are so many pictures hanging there; no one knows or cares about them, for they’re all buried now, but in the old days I used to know her and now she has been dead and gone for half a century!’</p>
+          <p rend="firstIndent" xml:id="p_00017">And under the painting, behind glass, there hung a bouquet of withered flowers; they were definitely half a century old too, judging by the look of them. And the pendulum of the grandfather clock went to and fro and the hands moved and everything in the room became even older, but they didn’t notice that.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Back home,’ the little boy said, ‘they say that you are so terribly lonely!’</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Really?’ he said, ‘all my old thoughts and what they bring along with them, come and visit me, and now you’ve come too!’ – I get along really fine!’</p>
+          <p rend="firstIndent" xml:id="p_00020">And then he took down a book with illustrations – there was a great long procession, the most marvellous coaches that one does not see any more nowadays, soldiers like the jack of clubs and citizens with fluttering banners; the tailors had theirs with them showing a pair of shears held by two lions and the shoemakers theirs, not with a boot but with an eagle that had two heads, for shoemakers must always organise things in such a way that they can say: they are a pair. – Yes, it was a real picture book!</p>
+          <p rend="firstIndent" xml:id="p_00021">And the old man went into the other living room to fetch confectionery, apples and nuts; – there really was something wonderful about the old house.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘I can’t stand it!’ the tin soldier said, who was standing on the chest of drawers; ‘it’s so lonely here! and so sad; no, when one once has enjoyed family life, one cannot get used to this sort of thing! – I can’t stand it! The days are so long and the evenings even longer! it’s not a bit like over at your place, where your father and mother spoke so cheerfully, and where you and all you sweet children made such a delightful noise. Oh, how lonely the old man’s life is!! do you think he is ever kissed! do you think anyone looks kindly at him, or he has a Christmas tree! He doesn’t get anything at all, except a funeral! – I can’t stand it!’</p>
+          <p rend="firstIndent" xml:id="p_00023">‘Don’t be so dismal about it!’ the little boy said; ‘I think it’s so delightful here, and all the old thoughts and what they bring along with them will pay visits, what’s more!’</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Well. I can’t see them and I don’t know them!’ the tin soldier said, ‘I can’t stand it!’</p>
+          <p rend="firstIndent" xml:id="p_00025">‘You’ve got to!’ the little boy said.</p>
+          <p rend="firstIndent" xml:id="p_00026">And the old man came back with the merriest of faces, the most delicious confectionery, apples and nuts, and then the little boy didn’t think about the tin soldier.</p>
+          <p rend="firstIndent" xml:id="p_00027">Happy and contented the little boy returned home, and days and weeks passed and nods were passed to the old house and from the old house, and then the little boy went across again.</p>
+          <p rend="firstIndent" xml:id="p_00028">And the carved trumpeters sounded: ‘tantantera! there’s the little boy! tantantera!’ and the swords and armour in the knight pictures rattled and the silken dresses rustled, the pigskin talked and the old chairs had rheumatics in their backs: ‘ow!’ it was precisely like the first time, for over there one hour and day was just like the other.</p>
+          <p rend="firstIndent" xml:id="p_00029">‘I can’t stand it!’ the tin soldier said, ‘I’ve wept tin! it’s all too dismal here! let me go to war instead and lose arms and legs! that would at least make a change. I can’t stand it! – now I know what it means to be visited by one’s old thoughts, with what they can bring along with them! I have been visited by mine and let me tell you it’s no pleasure in the long run, I finally almost leapt off the chest of drawers. All of you over in the house I could see so clearly as if you really were here; it was that Sunday morning again – you know the one I mean! All you children were standing at table and singing your hymn as you do every morning; you were standing devoutly there with folded hands, and father and mother had that sort of solemn look, and then the door opened and little sister Maria, who isn’t two years old yet and who always dances when she hears music or singing, whatever type it is, was brought in – she was not supposed to – and then she began to dance, but couldn’t find the keep in time with the music, for the notes were so long, and first she stood on one leg and leant her head far forward, and then on the other leg and leant her head far forward, but it refused to work. You stood there absolutely straight-faced, all of you, though it was very difficult to do so, but I laughed to myself and so I fell off the table and got a dent that I still go around with, for it was wrong for me to laugh. But all of this takes place again inside me, and everything that I have ever experienced; and these must be all the old thoughts with what they can bring with them! – Tell me, do you still sing on Sundays? Tell me something about little Maria! and how is my comrade, the other tin soldier! Yes, he is he truly happy! – I can’t stand it!’</p>
+          <p rend="firstIndent" xml:id="p_00030">‘You’ve been given away as a present!’ the little boy said, ‘you’ve got to stay. Can’t you see that?’</p>
+          <p rend="firstIndent" xml:id="p_00031">And the old man came with a drawer in which there were lots of things to see, a ‘chalk-holder’ and a ‘pomander’, and old cards much larger and more gilt-edged than you ever see them nowadays. And more drawers were opened and the piano was opened, there was a landscape on the inside of the lid, and it was so wheezy when the old man played on it; and then he hummed a song.</p>
+          <p rend="firstIndent" xml:id="p_00032">‘Yes, she could sing that one all right!’ he said and nodded to the portrait that he had bought from the second-hand dealer, and the old man’s eyes glittered so brightly.</p>
+          <p rend="firstIndent" xml:id="p_00033">‘I want to go to war! I want to go to war!’ the tin soldier shouted as loud as he could and crashed right down onto the floor. –</p>
+          <p rend="firstIndent" xml:id="p_00034">And what became of him? The old man searched, the little boy searched, he was gone and gone he remained. ‘I’m sure to find him!’ the old man said, but he never did; the floor was too loosely planked and full of holes; – the tin soldier had fallen down through a crack and lay there as in an open coffin.</p>
+          <p rend="firstIndent" xml:id="p_00035">And the day passed and the little boy went back home, and a week passed and several weeks passed. The window panes were quite frosted over, the little boy had to sit and breathe on them to make a peephole across to the old house, and snow had swept into all the scrolls and inscriptions, it lay right up over the flight of steps as if there was no one at home, nor was there, the old man had died!</p>
+          <p rend="firstIndent" xml:id="p_00036">That evening a hearse stopped outside, and down into it his coffin was carried, he was to be taken out into the countryside to be buried. There he was driven off to, but no one followed, for all his friends were of course dead already. And the little boy blew a kiss after the coffin as it was being driven away.</p>
+          <p rend="firstIndent" xml:id="p_00037">Some days later the old house was auctioned, and the little boy saw from his window as things were carried off: the old knights and the old ladies, the flower pots with long handles like donkey’s ears, the old chairs and the old cupboards; some ended up here, some there; the portrait of the woman that had been found at the second-hand dealer’s was returned to him once more and there it hung for ever, for no one knew her any more, no one cared about the old picture.</p>
+          <p rend="firstIndent" xml:id="p_00038">The following spring the house itself was pulled down, for it was a monstrosity, people said. One could look straight into the living room to the pigskin covering that was torn and ripped; and all the greenery around the balcony hung there in a tangle around the falling beams. – And then the tidying up began.</p>
+          <p rend="firstIndent" xml:id="p_00039">‘That made a difference!’ the neighbouring houses said.</p>
+               <figure type="blank"/>
+          <p rend="noIndent" xml:id="p_00040">And a fine house was built there with large windows and white, smooth walls, but in front of it, where the old house had actually stood, a small garden was planted and up against the neighbour’s walls wild vines twined; in front of the garden iron railings was put up with an iron gate – it looked stylish, people stopped there and looked inside. And scores of sparrows hung there on the vines, all chattering away as fast as they could at the same time, but they didn’t go on about the old house, for they had no memory of it, so many years had passed that the little boy had grown up into a man, and a fine one as well, one his parents were highly pleased with; and he had just got married and moved in with his young wife into the house here where the garden was; and he was standing next to her there as she planted a field flower that she thought so enchanting. She was planting it with her fine little hand, patting the earth into place with her fingers. – Ow! what was that? She had pricked herself. There was something sharp sticking out of the soft earth.</p>
+          <p rend="firstIndent" xml:id="p_00041">It was – yes, just imagine! – it was the tin soldier, the one who had got lost up there in the old man’s living room, that had tottered and tumbled between timber and gravel and finally come to lie in the soil for many years.</p>
+          <p rend="firstIndent" xml:id="p_00042">And the young wife wiped the soldier down, first with a green leaf and then with her fine handkerchief that had such a lovely scent! and it seemed to the tin soldier as if he was waking up from some winter sleep.</p>
+          <p rend="firstIndent" xml:id="p_00043">‘Let me see him!’ the young man said, laughed and then shook his head. ‘Well, it can hardly be him, but he reminds me of a story about a tin soldier I once had when I was a little boy!’ and then he told his wife about the old house, and the old man, and about the tin soldier he sent over to him because he was so terribly alone, and he told the story precisely as it had actually taken place, so that tears came to the young wife’s eyes, thinking about the old house and the old man.</p>
+          <p rend="firstIndent" xml:id="p_00044">‘But it could possibly be the self-same tin soldier,’ she said, ‘I will keep it and remember everything you have told me; but you really must show me the grave of the old man!’</p>
+          <p rend="firstIndent" xml:id="p_00045">‘Ah well, I don’t know where it is,’ he said, ‘and nobody knows! all his friends were dead, no one tended it and I was only a little boy!’</p>
+          <p rend="firstIndent" xml:id="p_00046">‘How terribly lonely he must have been!’ she said.</p>
+          <p rend="firstIndent" xml:id="p_00047">‘Terribly lonely!’ the tin soldier said, ‘but it’s wonderful not to be forgotten!’</p>
+          <p rend="firstIndent" xml:id="p_00048">‘Wonderful!’ something close by cried out, but no one except the tin soldier saw that it was a small piece of the gilt leather – with all its gilt now gone it looked like wet earth, but it had its own opinion, which it stated clearly:</p>
+          <lg xml:id="p_00049">
+               <l>‘Gilt’s soon past,</l>
+               <l>but gilt leather will last.’</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00050">But the tin soldier wasn’t prepared to believe that.</p></div>
+          </body>
+                         </text>
+                    </TEI>

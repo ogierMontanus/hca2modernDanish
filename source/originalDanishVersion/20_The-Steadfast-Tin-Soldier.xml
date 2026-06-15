@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Steadfast Tin-Soldier</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-standhaftige-tinsoldat">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-standhaftige-tinsoldat_modern.xml">moderniseret version</note>
+                                                       <note target="20_The-Steadfast-Tin-Soldier.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There were once twenty-five tin-soldiers – they were brothers every one of them,...</incipit><idno type="image">Den_standhaftige_Tinsoldat_01_2022-03-09.png</idno><popularity>998</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Steadfast Tin-Soldier. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-12" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-12">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">removed "the plank ended in "</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Steadfast Tin-Soldier">
+          <head type="main" rend="The Steadfast Tin-Soldier">The Steadfast Tin-Soldier</head>                <p rend="noIndent" xml:id="p_00001">There were once twenty-five tin-soldiers – they were brothers every one of them, all born from the same old tin spoon. Their rifles were shouldered and their gaze was straight ahead; red and blue – such a fine uniform they had. The very first thing they heard in this world, when the lid was taken off the box in which they lay was: ‘Tin-soldiers!’ That’s what a young boy cried and clapped his hands; he’d been given them because it was his birthday, and he now placed them up on the table. Each soldier was the spitting image of the next, only one of them was a bit different – he had one leg, for he’d been the last to be cast, and there wasn’t enough tin left; even so, he stood just as steadily on his one leg as the others did on their two – and he’s precisely the one who is going to prove remarkable.</p>
+          <p rend="firstIndent" xml:id="p_00002">On the table where they were set up there were many other toys, but what caught the eye most was an elegant castle made of paper. Through the small windows one could look straight into the rooms. Outside there were small trees that bordered a little mirror, which was meant to look like a lake; wax swans swam on it and mirrored themselves in it. It was all very elegant, though most elegant of all was a young maiden who stood right in the open castle door; she too had been cut out of paper, but wore a skirt of the brightest lawn cloth and a small, narrow blue ribbon over her shoulder rather like a drape; in the middle of it there was a gleaming sequin, as large as her whole face. The young maiden stretched out both her arms, for she was a dancer, and lifted one leg so high in the air that the tin-soldier couldn’t find it at all and thought she only had one leg, just like himself.</p>
+          <img src="0020_HCA-2004-73-0091a.jpg" ref="p_00003" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">‘That’s the sort of wife I’d like!’ he thought, ‘though she’s a bit classier than me, she lives in a castle, and I only have a box, and twenty-five of us share it – that’s no place for her! But I must strike up an acquaintance even so!’ And he lay down at full stretch behind a snuff-box that was standing on the table; from there he could readily see the little lady, who went on standing on one leg without losing her balance.</p>
+          <p rend="firstIndent" xml:id="p_00004">When evening came, all the other tin-soldiers were put back in their box and those in the house went to bed. Now the toys began to play ‘Guess the Stranger’, waging war and holding a ball – the tin-soldiers rattled in their box for they wanted to join in, but they couldn’t get the lid off. The nutcracker did somersaults, and the stylus larked around on its slate – they made such a din that the canary woke up and also started to talk – and in rhyming verse! The only two who stayed put were the tin-soldier and the young dancer – she stayed poised on tiptoe with both her arms stretched out; he was just as steadfast on his one leg, his eyes didn’t leave her for an instant.</p>
+          <p rend="firstIndent" xml:id="p_00005">Now the clock struck twelve, and smack! off came the lid of the snuff-box, but there wasn’t any snuff in it, oh no, just a little black troll – quite an artifact. ‘Tin-soldier!’ the troll said, ‘you just keep your eyes to yourself!’</p>
+          <p rend="firstIndent" xml:id="p_00006">But the tin-soldier pretended not to have heard him.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Well, just you wait till tomorrow!’ the troll said.</p>
+          <p rend="firstIndent" xml:id="p_00008">When morning came and the children had got up, the tin-soldier was placed over in the window, and whether it was due to the troll or a draught, the window suddenly flew open and the soldier fell out head-first from the third floor. He fell at such a frightful speed, his leg straight up in the air, and landed on his cap, with his bayonet stuck between the cobblestones.</p>
+          <p rend="firstIndent" xml:id="p_00009">The servant maid and the little boy came down at once to look for him, but even though they almost trod on him, they couldn’t see him. If the tin-soldier had shouted: ‘I’m here!’ they would probably have found him, but he didn’t feel it was appropriate to cry out loud, as he was in uniform.</p>
+          <p rend="firstIndent" xml:id="p_00010">Now it started to rain, the one drop faster than the other, it was quite a downpour; when it was over, two street urchins came along.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Hey, look at that!’ one of them said,’ there’s a tin-soldier lying there! Time he had a sail!’</p>
+          <p rend="firstIndent" xml:id="p_00012">So they made a boat out of a newspaper, placed the soldier in the middle of it, and off he sailed down the gutter; both boys ran alongside, clapping their hands. Goodness gracious! what big waves there were in that gutter, and how strong the current was – well, it had just been pouring down. The paper boat bobbed up and down, and at times it spun round so fast that the tin-soldier was all of a quiver, but he remained steadfast, didn’t bat an eyelid, gazed straight ahead and held his rifle still shouldered.</p>
+          <img src="0020_HCA-2004-73-0091b.jpg" ref="p_00013" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00013">All at once the boat floated in beneath a long gutter plank, and it went just as dark as if he had been in his box.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘I wonder where I’ll end up now,’ he thought, ‘yes, yes, it’s that troll’s doing! Oh, if only the young maiden was here in the boat, then I wouldn’t mind if it turned even darker!’</p>
+          <p rend="firstIndent" xml:id="p_00015">Suddenly a big water rat that lived under the gutter plank appeared.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘Have you got a passport?’ the rat asked. ‘Hand over your passport!’</p>
+          <p rend="firstIndent" xml:id="p_00017">But the tin-soldier kept quiet and held onto his rifle even tighter. The boat shot off with the rat after it. Oooh! how it gnashed its teeth, and called out to all and sundry:</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Stop him! Stop him! He hasn’t paid customs! He hasn’t shown his passport!’</p>
+          <p rend="firstIndent" xml:id="p_00019">But the current grew stronger and stronger! The tin-soldier could already make out broad daylight ahead where the plank ended, but he also heard a roaring sound that could frighten even a brave man; just think, <!--the plank ended in -->the water from the gutter suddenly dropped straight into a large canal – that would be just as dangerous for him as for us to sail over a large waterfall.</p>
+          <img src="0020_HCA-2004-73-0091c.jpg" ref="p_00020" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00020">He was already so close now that he had no way of stopping. The boat shot out, the poor tin-soldier held himself as stiff as he could – no one was to accuse him of blinking even once. The boat spun round three or four times and filled with water to the brim, it was going to sink; the tin-soldier stood up to his neck in water and the boat sank deeper and deeper, more and more the newspaper fell apart; now the water went over the soldier’s head – then he thought of the dainty little dancer that he would never see again – and in his ear he could hear:</p>
+          <lg xml:id="p_00021">
+               <l>‘Danger, danger, soldier!</l>
+               <l>Death is ready waiting!’</l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00022">Now the paper disintegrated, and the tin-soldier fell through, but at that instant he was swallowed by a large fish.</p>
+          <p rend="firstIndent" xml:id="p_00023">Oh, how dark it was in there! It was even worse than beneath the gutter plank, and it was so cramped; but the tin-soldier was steadfast, and lay at full stretch with his rifle still shouldered.</p>
+          <img src="0020_HCA-2004-73-0091d.jpg" ref="p_00024" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00024">The fish darted about, it made the most horrific of movements; finally it was completely still – and something like a ray of lightning shot through it. The light was clear and bright and someone shouted out: ‘Tin-soldier!’ The fish had been caught, taken to market, sold and ended up in the kitchen, where the maid slit it open with a large knife. She grasped the soldier round the waist with her two fingers and carried him into the living room, where everyone wanted to see such a remarkable man who had travelled in the belly of a fish – but the tin-soldier wasn’t the slightest bit proud. They placed him up on the table and there – well, how strangely things can turn out in the world! The tin-soldier was in the very same room he had been in before, he saw the very same children and the toys were lying there on the table: the lovely castle with the charming little dancer; she was still standing on one leg and had the other one high in the air – she too was steadfast; this moved the tin-soldier, he was ready to cry tears of tin, but that would have been inappropriate. He gazed at her and she gazed at him, but they didn’t say anything.</p>
+          <p rend="firstIndent" xml:id="p_00025">All at once, one of the small boys took the soldier and threw him straight into the tiled stove, and he gave no reason for doing so – it was definitely the troll in the box who was the cause of it.</p>
+          <img src="0020_HCA-2004-73-0144a.jpg" ref="p_00026" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00026">The tin-soldier stood completely lit-up and felt a heat that was terrible, but if it came from the real heat, or from love he didn’t know. His colours had all gone – if this had come from his travels or was from grief no one could say. He gazed at the young maiden, she gazed at him, and he could feel himself melting, but he still stood steadfast with his rifle shouldered. Then a door went up, the wind caught hold of the dancer and she flew like a sylph into the tiled stove to the tin-soldier, flared up and was gone; then the tin-soldier melted into a lump, and when the maid took the ashes out afterwards she found him as a small tin-heart; all that was left of the dancer, though, was the sequin, and it had been burnt black as coal.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

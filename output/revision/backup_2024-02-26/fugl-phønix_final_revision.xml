@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fugl Phønix</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Den nye Børneven, illustreret Tidsskrift for Børn, II, 1. hefte, udgivet af Julius Chr. Gerson, maj 1850.<br/>
+BFN 567/IV,50-51/VII,234-235.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fugl-phønix" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1835 1835 1836 1837 1847 1850</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0027"/>
+                                                       
+                                                  </row>
+                                             </table>
+                                             <floatingTextsRankedAsWorks>
+                                                  
+                                                  
+                                             </floatingTextsRankedAsWorks>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work"  xml:id="fugl-phønix">
+<div type="source" rend="" xml:id="div0027"><pb n="487"/><sourceTitle type="main"><source>Fra</source> Den nye Børneven</sourceTitle> <sourceTitle type="sub">Illustreret Tidsskrift for Børn</sourceTitle> <sourceDate>1850</sourceDate></div>
+               
+<pb n="488"/><head type="main"><seg target="txtcmnt-488-01"><!--DATA-TERM: Fugl Phønix--><!--DATA-DEFINITION: ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.-->Fugl Føniks</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">I Paradisets Have under kundskabstræet stod en rosenhæk. Her, i den første rose, fødtes en fugl, dens flugt var som lysets, dejlig dens farve, herlig dens sang!</p>
+
+<p rend="firstIndent" xml:id="p_00002">Men da Eva brød kundskabens frugt, da hun og Adam joges fra Paradisets Have, faldt fra <seg target="txtcmnt-488-02"><!--DATA-TERM: Straffe-Englen(s)--><!--DATA-DEFINITION: hentydning til ærkeengelen Gabriel, som uddrev Adam og Eva fra Paradisets Have efter syndefaldet.-->straffeenglens</seg> flammesværd en gnist i fuglens rede og antændte den. Fuglen døde i flammerne, men fra det røde æg fløj en ny, den eneste, den altid eneste Fugl Føniks. Sagnet melder at den bygger i Arabien og hvert hundrede år brænder sig selv op i sin rede, og at en ny Føniks, den eneste i verden, flyver ud fra det røde æg.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Fuglen omflagrer os, hurtig som lyset, dejlig i farve, herlig i sang. Når moren sidder ved barnets vugge, er den ved hovedpuden og slår med vingerne en glorie om barnets hoved. Den flyver gennem nøjsomhedens stue, og der er solglans derinde, den fattige <seg target="txtcmnt-488-03"><!--DATA-TERM: Dragkiste--><!--DATA-DEFINITION: kommode eller kiste med store skuffer.-->dragkiste</seg> dufter med violer.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Men Fugl Føniks er ikke alene Arabiens fugl, den flagrer i nordlysskær på Laplands issletter, den hopper imellem de gule blomster i Grønlands korte sommer. Under <seg target="txtcmnt-488-04"><!--DATA-TERM: Fahlun(s)--><!--DATA-DEFINITION: by i Dalarne, Sverige.-->Faluns</seg> kobberklipper, i Englands kulgruber flyver den som et pudret møl hen over sangbogen i den fromme arbejders hænder. Den sejler på lotusbladet ned ad <seg target="txtcmnt-488-05"><!--DATA-TERM: Ganges--><!--DATA-DEFINITION: indisk flod.-->Ganges’</seg> hellige vande og hindupigens øje lyser ved at se den.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Fugl Føniks! Kender du ham ikke? Paradisets fugl, sangens hellige svane! På <seg target="txtcmnt-488-06"><!--DATA-TERM: Thesbiskarren--><!--DATA-DEFINITION: thespiskærren. Thespis fra Ikaria regnes for grundlæggeren af den græske tragedie og skal ifølge sagnet have kørt landet rundt og opført tragedier med alt tilbehøret læsset på en kærre.-->Thespis-kærren</seg> sad den som en sladrende ravn og slog med de <seg target="txtcmnt-488-07"><!--DATA-TERM: bærme(besmurte)--><!--DATA-DEFINITION: bundfald i gærede drikke.-->bærmebesmurte</seg> vinger; over Islands sangerharpe gled svanens røde, klingende næb; på Shakespeares skulder sad den som <seg target="txtcmnt-488-08"><!--DATA-TERM: Odins Ravn--><!--DATA-DEFINITION: ifølge nordisk mytologi sidder ravnene Hugin og Munin på Odins skuldre. Hver dag flyver ravnene ud i verden og hvisker ved deres hjemkomst Odin i øret, hvad de har erfaret.-->Odins ravn</seg> og hviskede ham i øret: Udødelighed; den fløj ved <seg target="txtcmnt-488-09"><!--DATA-TERM: Sangerfesten … Riddersal--><!--DATA-DEFINITION: hentydning til digterkappestriden, der ifølge sagnet fandt sted på Wartburg i 1207 på foranstaltning af landgreve Hermann af Thüringen.-->sangerfesten gennem Wartburgs riddersal</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Fugl Føniks! Kender du ham ikke? Han sang dig <seg target="txtcmnt-488-10"><!--DATA-TERM: Marseillaisen--><!--DATA-DEFINITION: oprindelig krigssang, med melodi og tekst af Claude-Joseph Rouget de Lisle, 1792; siden 1795 Frankrigs nationalsang.-->Marseillaisen</seg>, og du kyssede fjeren der faldt fra hans vinge. Han kom i paradisglans, og du vendte dig måske bort til spurven der sad med <seg target="txtcmnt-488-11"><!--DATA-TERM: Bog-Guld--><!--DATA-DEFINITION: bladguld, guld udhamret i tynde plader.-->bogguld</seg> på vingerne.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Paradisets fugl! Fornyet hvert århundrede, født i flammer, <pb n="489"/>død i flammer, dit billede indfattet i guld hænger i de riges sale, selv flyver du tit vildfaren og ensom – et sagn kun: »Fugl Føniks i Arabien«.</p>
+
+<p rend="firstIndent" xml:id="p_00008">I Paradisets Have da du fødtes under kundskabstræet i den første rose, kyssede Vorherre dig og gav dig dit rette navn – Poesien.</p>
+
+
+
+<pb n="490"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments"  xml:id="fugl-phønix">
+<head type="section-comments">Fugl Phønix</head>
+
+<p rend="noIndent">Trykt første gang i Den nye Børneven, illustreret Tidsskrift for Børn, II, 1. hefte, udgivet af Julius Chr. Gerson, maj 1850.<br/>
+BFN 567/IV,50-51/VII,234-235.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">488,28</cell><cell type="deviation">Ravn &lt; Svane</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">488</cell><row xml:id="txtcmnt-488-01"><cell type="data-term">Fugl Phønix</cell><cell type="data-definition">ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.</cell></row><row xml:id="txtcmnt-488-02"><cell type="data-term">Straffe-Englen(s)</cell><cell type="data-definition">hentydning til ærkengelen Gabriel, som uddrev Adam og Eva fra Paradisets Have efter syndefaldet.</cell></row><row xml:id="txtcmnt-488-03"><cell type="data-term">Dragkiste</cell><cell type="data-definition">kommode eller kiste med store skuffer.</cell></row><row xml:id="txtcmnt-488-04"><cell type="data-term">Fahlun(s)</cell><cell type="data-definition">by i Dalarne, Sverige.</cell></row><row xml:id="txtcmnt-488-05"><cell type="data-term">Ganges</cell><cell type="data-definition">indisk flod.</cell></row><row xml:id="txtcmnt-488-06"><cell type="data-term">Thesbiskarren</cell><cell type="data-definition">thespiskærren. Thespis fra Ikaria regnes for grundlæggeren af den græske tragedie og skal ifølge sagnet have kørt landet rundt og opført tragedier med alt tilbehøret læsset på en kærre.</cell></row><row xml:id="txtcmnt-488-07"><cell type="data-term">bærme(besmurte)</cell><cell type="data-definition">bundfald i gærede drikke.</cell></row><row xml:id="txtcmnt-488-08"><cell type="data-term">Odins Ravn</cell><cell type="data-definition">ifølge nordisk mytologi sidder ravnene Hugin og Munin på Odins skuldre. Hver dag flyver ravnene ud i verden og hvisker ved deres hjemkomst Odin i øret, hvad de har erfaret.</cell></row><row xml:id="txtcmnt-488-09"><cell type="data-term">Sangerfesten … Riddersal</cell><cell type="data-definition">hentydning til digterkappestriden, der ifølge sagnet fandt sted på Wartburg i 1207 på foranstaltning af landgreve Hermann af Thüringen.</cell></row><row xml:id="txtcmnt-488-10"><cell type="data-term">Marsejllaisen</cell><cell type="data-definition">oprindelig krigssang, med melodi og tekst af Claude-Joseph Rovet de Lisle, 1792; siden 1795 Frankrigs nationalsang.</cell></row><row xml:id="txtcmnt-488-11"><cell type="data-term">Bog-Guld</cell><cell type="data-definition">bladguld, guld udhamret i tynde plader.</cell></row>
+</table>
+
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+<?oxy_options track_changes="on"?>

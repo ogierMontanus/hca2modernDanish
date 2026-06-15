@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Candles</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="lysene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="lysene_modern.xml">moderniseret version</note>
+                                                       <note target="188_The-Candles.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a large wax candle, extremely well aware of what it was....</incipit><idno type="image">Lysene_hca_ill_0156.png</idno><popularity>893</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Candles. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>kunst</term><term>kaerlighed</term><term>remser</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Candles">
+               <head type="main" rend="The Candles">The Candles</head>                <p rend="noIndent" xml:id="p_00001">There was once a large <hi rend="italic">wax candle</hi>, extremely well aware of what it was.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘I was born in wax and made in a mould!’ it said. ‘I provide better light and burn longer than other candles; my rightful place is a chandelier or a silver candlestick!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘That must be a delightful existence!’ the <hi rend="italic">tallow candle</hi> said. ‘I’m just made of tallow, am only a hand-dipped candle, but I console myself with the fact that this is a bit more than being just a taper; it is only dipped twice, while I have been dipped eight times to acquire a decent thickness. I am satisfied! it is of course finer and more fortunate to have been born in wax and not in tallow, but one doesn’t decide things for oneself in this world. You will end up in fine rooms in a glass chandelier, I will remain in the kitchen, but that is also a good place, from here food is supplied to the whole house!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘But there is something that is more important than food!’ the <hi rend="italic">wax candle</hi> said: ‘The sparkle of high society! To see such a sparkle and to sparkle oneself! There is to be a ball here this evening, I and my entire family will soon be fetched!’</p>
+               <p rend="firstIndent" xml:id="p_00005">Hardly had this been said before all the wax candles were fetched, but the tallow candle was not left out. The lady of the house held it herself and carried it out of the kitchen; there stood a young boy with a basket, it was filled with potatoes, even a few apples were added. All this the kind lady gave to the poor boy.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Here’s a candle for you too, my little friend!’ she said. ‘Your mother works away until late at night, she can make good use of it!’</p>
+               <p rend="firstIndent" xml:id="p_00007">The young daughter of the house stood close by and when she heard the words ‘<hi rend="italic">until late at night</hi>’ she said with intense joy: ‘I too am going to be up until late at night! we’re going to have a ball, and I will be wearing my great big red ribbons!’</p>
+               <p rend="firstIndent" xml:id="p_00008">How her face shone! now that was joy! No wax candle can shine as brightly as the eyes of a child!</p>
+               <p rend="firstIndent" xml:id="p_00009">‘What a wonderful sight!’ the <hi rend="italic">tallow light</hi> thought, ‘I’ll never forget it, and I’ll probably never see such a thing ever again!’</p>
+               <p rend="firstIndent" xml:id="p_00010">And then it was laid in the basket under the lid, and the boy left with it.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Where am I off to now!’ the candle wondered; ‘I am to go to poor people, perhaps I will not even get a brass candlestick, while the wax candle will sit in silver and see the finest people. How lovely it must be to shine for the finest people! but my lot was to be of tallow and not of wax!’</p>
+               <p rend="firstIndent" xml:id="p_00012">And the candle came to poor people, a widow with three children in a small, low-ceilinged room right opposite the rich house.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘God bless the good lady for what she gave!’ the mother said, ‘it’s a lovely candle! it can burn until late at night.’</p>
+               <p rend="firstIndent" xml:id="p_00014">And the candle was lit.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Ugh!’ it said. ‘That was a foul-smelling sulphur match she lit me with! Hardly something a wax candle would have to put up with in the rich house!’</p>
+               <p rend="firstIndent" xml:id="p_00016">There too the candles were lit; they shone out over the street; the carriages rumbled up with the ball guests in all their finery, the music rang out.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Now they’re starting over there!’ the <hi rend="italic">tallow candle</hi> realised and thought of the young rich girl’s shining face, more radiant than all the wax candles. ‘Such a sight I will never see again!’</p>
+               <p rend="firstIndent" xml:id="p_00018">Now the youngest child of the poor family came in, a little girl; she put her arms round the necks of her brother and sister, she had something important to tell them, it had to be whispered: ‘This evening – just think! – we’re going to have hot potatoes!’</p>
+               <p rend="firstIndent" xml:id="p_00019">And her face was lit up with pure bliss; the candle shone directly into it, it saw a happiness, a joy just as great as over in the rich house, where the young girl said: ‘We’re going to have a ball this evening, and I will be wearing my great big red ribbons!’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Is getting hot potatoes just as fine a treat!’ the candle thought. ‘The young people here are just as happy!’ And it then sneezed; well, it sputtered – a tallow candle can’t do more than that.</p>
+               <p rend="firstIndent" xml:id="p_00021">The table was laid, the potatoes eaten. Oh, how delicious they tasted! It was a proper banquet, and then each of them had an apple afterwards, and the youngest child said a short grace:</p>
+               <lg xml:id="p_00022">
+                    <l>‘Dear Lord above, my thanks to thee</l>
+                    <l>For generously feeding me!</l>
+                    <l>Amen.’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00023">‘Didn’t I say that nicely, mother!’ she exclaimed afterwards.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘You’re not to ask me that or say that!’ her mother said. ‘You are only to think of the Good Lord who has provided you with enough to eat!’</p>
+               <p rend="firstIndent" xml:id="p_00025">The young ones were put to bed, given a kiss and fell asleep immediately, and their mother sat sewing until late at night so as to earn a living for them and herself. And from the rich house opposite the candles gleamed and the music rang out. The stars sparkled above all the houses, those of rich and poor alike, equally bright, equally magnificent.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘All in all it was a nice evening!’ was the <hi rend="italic">tallow candle’s</hi> opinion. ‘I wonder if the wax candles had a better one in their silver candlesticks? I’d like to know that before I burn down!’</p>
+               <p rend="firstIndent" xml:id="p_00027">And it thought of the two equally happy faces, the one lit by a wax candle, the other by a tallow candle!</p>
+               <p rend="firstIndent" xml:id="p_00028">And that’s the whole story!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

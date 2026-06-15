@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Little Matchstick Girl</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-lille-pige-med-svovlstikkerne">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-lille-pige-med-svovlstikkerne_modern.xml">moderniseret version</note>
+                                                       <note target="79_The-Little-Matchstick-Girl.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It was so terribly cold; it was snowing and night was falling; it was also the l...</incipit><idno type="image">Den_lille_Pige_med_Svovlstikkerne_forside2.png</idno><popularity>988</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Little Matchstick Girl. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-10" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-10">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change>
+<change who="NHB" when="2024-03-22" status="draft">There she went, on her bare small feet, *the little girl*>There she went*, the little girl,* on her bare small feet,</change>
+
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Little Matchstick Girl">
+               <head type="main" rend="The Little Matchstick Girl">The Little Matchstick Girl</head>
+               <img src="0079_HCA-2017-13-0151.jpg" ref="p_00001" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="noIndent" xml:id="p_00001">It was so terribly cold; it was snowing and night was falling; it was also the last night of the year, New Year’s Eve. In this cold and darkness, a poor little girl was out in the street with nothing on her head and bare feet; she had admittedly had open clogs on when she left home, but what help was that! they had been far too big, her mother had last used them, they were that big, and the little girl lost them as she hurried across the street when two carriages rushed past at such a frightful speed: one of the clogs couldn’t be found again, and the other a boy ran off with; he said he could use it as a cradle when he had children of his own.</p>
+          <img src="0079_HCA-2017-13-0150.jpg" ref="p_00002" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00002">There she went, the little girl, on her bare small feet, <!--went, on her bare small feet, the little girl-->they were red and blue with the cold. In an old apron she carried a host of matches, and one bundle she held in her hand; no one had bought anything from her all day long, no one had given her a penny! She traipsed along, hungry and freezing cold, and looked so downtrodden, the poor dear! The snowflakes fell onto her long blond hair that curled so beautifully round the nape of her neck, but she wasn’t really thinking about such fripperies. The lit lamps shone out of all the windows and there was such a delicious smell of fried goose wafting through the street, for it was New Year’s Eve; yes, this is what she was thinking about!</p>
+          <img src="0079_HCA-2017-13-0146.jpg" ref="p_00003" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">In a corner between two houses, one of them stuck further out into the street than the other, she tucked and huddled herself; she had pulled her small legs up under her, but she froze even more and didn’t dare think of making for home, she hadn’t sold any matches, not earned a single penny, and her father would beat her, besides which it was cold back home, all they had was a roof above their heads and the wind whistled in, even though they had stuffed straw and cloths into the largest cracks. Her small hands were almost completely dead with the cold. Ah! a lit match would be a good thing! If only she dared pull one out of the bundle, strike it against the wall and warm her fingers. She pulled one out, ‘scrratch!’, how it flared, how it burnt! it was a warm, clear gleam, like a little light when she cupped her hand around it; it was a strange light! The little girl thought she was sitting in front of a large iron stove with shiny brass balls and brass drums; the fire burnt so wonderfully, warmed her so well! no, what was that! – the little girl was already stretching her feet out to warm them too – when the flame went out, the stove disappeared – she was sitting with a small charred end of the burnt-out match in her hand.</p>
+          <img src="0079_HCA-2017-13-0145.jpg" ref="p_00004" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00004">Another one was struck, it burnt, it gleamed, and how the gleam fell on the wall, it became quite transparent, like gauze: she was looking straight into the living room where the table was covered with a dazzling white cloth, with fine porcelain, and there the roast goose stood steaming wonderfully, stuffed full of prunes and apples! and what was even more marvellous, the goose leapt from the dish, waddled across the floor with knife and fork in its back; straight over to the poor girl it came; then the match went out and all she could see was the thick, cold wall.</p>
+          <p rend="firstIndent" xml:id="p_00005">She lit another one. Now she was sitting under the loveliest of Christmas trees; it was even bigger and more adorned than the one she had seen through the glass door of the rich merchant on what was now last Christmas; thousands of candles were burning on its green branches and many-coloured pictures, like those used to decorate shop-windows, gazed down at her. The little girl stretched both her hands in the air – then the match went out: the many Christmas lights rose higher and higher, she saw they were now bright stars, one of them fell making a long streak of fire in the sky.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Now someone’s dying!’ the little girl said, for her grandmother, who was the only person who had been good to her, but who now was dead, had said: When a star falls, a soul goes up to God.</p>
+          <img src="0079_HCA-2017-13-0144.jpg" ref="p_00007" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00007">She struck another match against the wall, it lit up everything around, and in its gleam stood her old grandmother, so bright, so radiant, so mild and delightful.</p>
+          <img src="0079_HCA-2017-13-0143.jpg" ref="p_00008" title="Illustrator: Svend Otto S. . 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00008">‘Grandma!’ the little girl cried out. ‘Oh, take me with you, do! I know you’ll be gone when the match goes out; gone just like the warm stove, the lovely roast goose and the wonderful big Christmas tree!’ – and she hurriedly struck all the remaining matches in the bundle, she wanted to keep grandmother there as long as possible; and the matches lit up everything with such a glow that it was brighter than broad daylight. Grandmother had never been so beautiful before, so large; she lifted the little girl up on her arm and they flew, happy and bright, so high, so high. And there was no cold, no hunger, no fear – they were with God!</p>
+          <p rend="firstIndent" xml:id="p_00009">But in the corner of the two houses in the cold morning sat the little girl with red cheeks, with a smile on her lips – dead, frozen to death on the last evening of the old year. New Year’s dawn rose over the small corpse sitting there with the matches, a bunch of which had almost been burnt. She wanted to warm herself! people said; no one knew the beautiful things she had seen, in what a great gleam she, with her old grandmother, had entered the joys of the New Year!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

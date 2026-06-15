@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>‘There is a Difference’</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="der-er-forskjel">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="der-er-forskjel_modern.xml">moderniseret version</note>
+                                                       <note target="99_There-is-a-Difference.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It was in the month of May, the wind was still chill; but the bushes and trees, ...</incipit><idno type="image">Der_er_Forskjel_02_2022-03-09.png</idno><popularity>938</popularity><cite>&lt;p&gt;Hans Christian Andersen: ‘There is a Difference’. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>samfundsforhold</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2022-11-09">corrected quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="‘There is a Difference’">
+               <head type="main" rend="‘There is a Difference’">‘There is a Difference’</head>                <p rend="noIndent" xml:id="p_00001">It was in the month of May, the wind was still chill; but the bushes and trees, field and meadow said that spring had come; there was a profusion of flowers right up to the hedgerows, and precisely there spring was stating its case, it was speaking from a small apple tree where there hung a single branch, so fresh, so full of blossom, inundated with fine, rosy buds that were just about to open; it surely knew just how lovely it was, for it is with the bud as with the blood, and so it was not surprised when the fine carriage stopped on the road in front of it, and the young countess said that the apple branch was the loveliest thing one could possibly see, it was spring itself in its most delightful form. And the branch was broken off, and she held it in her dainty hand and shaded it with her silk parasol – and then they drove to the castle, where there were high-ceilinged halls and elegant rooms; light white curtains fluttered at the open windows and lovely flowers stood in gleaming, transparent vases, and in one of these, which appeared to be carved out of newly fallen snow, the apple branch was placed among fresh, light beech branches; a sight that was sheer delight!</p>
+               <p rend="firstIndent" xml:id="p_00002">And then the branch felt proud, and that was quite human after all!</p>
+               <p rend="firstIndent" xml:id="p_00003">Many different kinds of people came through the rooms and, according to their rank, they ventured their admiration, with some saying nothing at all, and others saying far too much, and the apple branch realised that there was a difference between humans just as there is between plants. ‘Some are for adornment and others for utility, and there are also those that could be done without completely,’ the apple branch thought, and as it had just been placed at the open window, from where it could both gaze down over the garden and out across the field, it had flowers and plants enough to look at and think about! there stood rich and poor, some far too poor.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Poor rejected plants!’ the apple branch said, ‘a difference has definitely been made! and how unhappy they must feel, to the extent that such plants are as capable of feeling as I and the likes of me are able; a difference has certainly been made, but it had to be made, for otherwise all would be exactly the same!’</p>
+               <p rend="firstIndent" xml:id="p_00005">And the apple branch gazed in particular with a sort of pity at a kind of flower that grew everywhere in the fields and ditches; no one made bouquets of such flowers, they were much too common, indeed, one could even find them between the paving stones, they shot up like the worst weeds, and what is more they had the ugly name of <hi rend="italic">the devil’s dandelion</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Poor, despised plant!’ the apple branch said, ‘you can’t help having become what you have become, that you are so commonplace, and that you were given that horrible name! But the same applies to plants as to humans, there has to be a difference!’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘A difference!’ the sun’s ray said and kissed the blossoming apple branch, but it also kissed the yellow devil’s dandelions out in the field, all the brothers of the sun’s ray also kissed them, the poor flowers along with the rich.</p>
+               <p rend="firstIndent" xml:id="p_00008">The apple branch had never thought about Our Lord’s endless love towards everything that lives and moves in him, it had never thought about how much that is beautiful and good can lie hidden but not forgotten, – but that was also quite human after all!</p>
+               <p rend="firstIndent" xml:id="p_00009">The sun’s ray, the shaft of light, knew better: ‘You do not look very far, you do not see clearly! – Where is the rejected plant you feel so particularly sorry for?’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Devil’s dandelions!’ the apple branch said. ‘They are never made into bouquets, they are trodden underfoot, there are too many of them and when they turn into puffballs, the seeds fly like finely chopped wool across the road and get caught on people’s clothing. They are weeds! but there has to be a place for them too! – I really am extremely grateful I have not become one of them!’</p>
+               <p rend="firstIndent" xml:id="p_00011">And across the field came a <hi rend="italic">whole</hi> host of children; the youngest of these was so tiny that he was carried by the others; and when he was put down in the grass among the yellow flowers, he laughed aloud with joy, kicked out with his small legs, rolled around, picked only the yellow flowers and kissed them in his sweet innocence. The slightly older children broke off the flower from the hollow stalk, wound it round itself, link by link, until they formed a whole chain; first one for the neck, then one for hanging round the shoulder and the waist, on their chest and on their head; they made a splendid show of green links and chains; but the oldest children carefully took the flower that had finished blooming, the stalk that bore its down-like composite seed crown, this loose, airy, woolly flower that is a tiny piece of art in itself, as if made of the finest plumes, fluff or down; they held them up to their mouths so as to blow off all the seeds at one go; the one who could do that would receive new clothes before the year was out, grandmother had said.</p>
+               <p rend="firstIndent" xml:id="p_00012">The despised flower was considered nothing less than a prophet on this occasion.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘You see!’ the sun’s ray said, ‘you see its beauty, you see its power!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘For children, yes!’ the apple branch said.</p>
+               <p rend="firstIndent" xml:id="p_00015">And out onto the field came an old woman and she dug down with her stumpy, shaftless knife around the root of the flower and pulled it up; some of the roots she wanted to boil coffee with, others she would get money for when she took them to the chemist’s for medicinal use.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Beauty, though, is something higher!’ the apple branch said. ‘Only the chosen ones enter the kingdom of the beautiful! there is a difference between plants, just as there is a difference between human beings!’</p>
+               <p rend="firstIndent" xml:id="p_00017">And the sun’s ray spoke about the infinite love of God through everything that has been created and for everything that has life, and about the equal distribution of everything for all eternity!</p>
+               <p rend="firstIndent" xml:id="p_00018">‘Yes, well, that happens to be your opinion!’ the apple branch said.</p>
+               <p rend="firstIndent" xml:id="p_00019">And people came into the room, and the young countess came, the one who had placed the apple branch so beautifully in the transparent vase through which the sunlight streamed; and she brought with her a flower or whatever it was, it was hidden by three, four large leaves which, like a sheath, were held round it, so that no draught or gust of air might harm it and it was carried more carefully than ever the fine apple branch had been. Very gently the large leaves were removed and one saw the fine, downy crown of seeds of the yellow, despised <hi rend="italic">devil’s dandelion</hi>. It was that which she had so carefully picked, was so solicitously carrying. so that not one of the fine plumed arrows that make up its hazy appearance and sit so loosely would blow off. She had kept it whole and marvellous; and she admired its beautiful form, its airy clarity, its utterly distinctive composition, its beauty since it was to waft away on the wind.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Just see how remarkably lovely <hi rend="italic">Our Lord</hi> has made it!’ she said. ‘I will paint it together with the apple branch; <hi rend="italic">it</hi> is of course so endlessly lovely for everyone, but even this poor flower has received just as much from <hi rend="italic">Our Lord</hi> in a different way! they differ so much from each other and yet both are children in the kingdom of beauty.’</p>
+               <p rend="firstIndent" xml:id="p_00021">And the sun’s ray kissed the poor flower, and it kissed the blossoming apple branch, which seemed to make its petals blush.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

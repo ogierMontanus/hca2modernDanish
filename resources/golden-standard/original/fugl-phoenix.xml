@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fugl Phønix</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Den nye Børneven, illustreret Tidsskrift for Børn</i>, II, 1. hefte, udgivet af Julius Chr. Gerson, maj 1850.<br/>
+BFN 567/IV,50-51/VII,234-235.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fugl-phoenix" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="fugl-phoenix_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="94_The-Phoenix">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>I Paradisets Have, under Kundskabstræet stod en Rosenhæk; her, i den første Rose...</incipit><readingTime>6</readingTime><popularity>921</popularity><cite>&lt;p&gt;H.C. Andersen: Fugl Phønix. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Fugl_Phoenix_hca_ill_0171.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1835 1835 1836 1837 1847 1850</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><!--<term>fortiden</term>--><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                             <milestone type="noTOC"/>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Fugl Phønix" xml:id="fugl-phoenix">
+<div type="source"><pb n="487"/><sourceTitle type="main"><source>Fra </source>Den nye Børneven</sourceTitle> <sourceTitle type="sub">Illustreret Tidsskrift for Børn</sourceTitle> <sourceDate>1850</sourceDate></div>
+               
+<pb n="488"/><head type="main"><seg target="txtcmnt-488-01"><!--DATA-TERM: Fugl Phønix--><!--DATA-DEFINITION: ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.-->Fugl Phønix</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">I Paradisets Have, under Kundskabstræet stod en Rosenhæk; her, i den første Rose, fødtes en Fugl, dens Flugt var som Lysets, deilig dens Farve, herlig dens Sang!</p>
+
+<p rend="firstIndent" xml:id="p_00002">Men da <hi rend="italic">Eva</hi> brød Kundskabens Frugt, da hun og <hi rend="italic">Adam</hi> joges fra Paradisets Have, faldt fra <seg target="txtcmnt-488-02"><!--DATA-TERM: Straffe-Englen(s)--><!--DATA-DEFINITION: hentydning til ærkeengelen Gabriel, som uddrev Adam og Eva fra Paradisets Have efter syndefaldet.-->Straffe-Englens</seg> Flammesværd en Gnist i Fuglens Rede og antændte den. Fuglen døde i Flammerne, men fra det røde Æg fløi en ny, den eneste, den altid eneste <hi rend="italic">Fugl Phønix</hi>. Sagnet melder, at den bygger i Arabien, og hvert hundred Aar brænder sig selv op i sin Rede, og at en ny Phønix, den eneste i Verden, flyver ud fra det røde Æg.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Fuglen omflagrer os, hurtig som Lyset, deilig i Farve, herlig i Sang. Naar Moderen sidder ved Barnets Vugge, er den ved Hovedpuden og slaaer med Vingerne en Glorie om Barnets Hoved. Den flyver gjennem Nøisomhedens Stue, og der er Solglands derinde, den fattige <seg target="txtcmnt-488-03"><!--DATA-TERM: Dragkiste--><!--DATA-DEFINITION: kommode eller kiste med store skuffer.-->Dragkiste</seg> dufter med Violer.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Men Fugl Phønix er ikke alene Arabiens Fugl, den flagrer i Nordlys-Skjær paa Laplands Iissletter, den hopper imellem de gule Blomster i Grønlands korte Sommer. Under <seg target="txtcmnt-488-04"><!--DATA-TERM: Fahlun(s)--><!--DATA-DEFINITION: by i Dalarne, Sverige.-->Fahluns</seg> Kobberklipper, i Englands Kulgruber flyver den, som et pudret Møl hen over Sangbogen i den fromme Arbeiders Hænder. Den seiler paa Lotusbladet ned ad <seg target="txtcmnt-488-05"><!--DATA-TERM: Ganges--><!--DATA-DEFINITION: indisk flod.-->Ganges</seg> hellige Vande og Hindupigens Øie lyser ved at see den. –</p>
+
+<p rend="firstIndent" xml:id="p_00005">Fugl Phønix! Kjender du ham ikke? Paradisets Fugl, Sangens hellige Svane! Paa <seg target="txtcmnt-488-06"><!--DATA-TERM: Thesbiskarren--><!--DATA-DEFINITION: thespiskærren. Thespis fra Ikaria regnes for grundlæggeren af den græske tragedie og skal ifølge sagnet have kørt landet rundt og opført tragedier med alt tilbehøret læsset på en kærre.-->Thesbiskarren</seg> sad den som en sladdrende Ravn og slog med de <seg target="txtcmnt-488-07"><!--DATA-TERM: bærme(besmurte)--><!--DATA-DEFINITION: bundfald i gærede drikke.-->bærmebesmurte</seg> Vinger; over Islands Sanger-Harpe gled Svanens røde, klingende Næb; paa Shakspears Skulder sad den som <seg target="txtcmnt-488-08"><!--DATA-TERM: Odins Ravn--><!--DATA-DEFINITION: ifølge nordisk mytologi sidder ravnene Hugin og Munin på Odins skuldre. Hver dag flyver ravnene ud i verden og hvisker ved deres hjemkomst Odin i øret, hvad de har erfaret.-->Odins Ravn</seg> og hvidskede ham i Øret: Udødelighed; den fløi ved <seg target="txtcmnt-488-09"><!--DATA-TERM: Sangerfesten … Riddersal--><!--DATA-DEFINITION: hentydning til digterkappestriden, der ifølge sagnet fandt sted på Wartburg i 1207 på foranstaltning af landgreve Hermann af Thüringen.-->Sangerfesten gjennem Wartburgs Riddersal</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Fugl Phønix! Kjender du ham ikke? Han sang dig <seg target="txtcmnt-488-10"><!--DATA-TERM: Marseillaisen--><!--DATA-DEFINITION: oprindelig krigssang, med melodi og tekst af Claude-Joseph Rouget de Lisle, 1792; siden 1795 Frankrigs nationalsang.-->Marseillaisen</seg> og du kyssede Fjæren, der faldt fra hans Vinge; han kom i Paradiisglands og du vendte dig maaskee bort til Spurven, der sad med <seg target="txtcmnt-488-11"><!--DATA-TERM: Bog-Guld--><!--DATA-DEFINITION: bladguld, guld udhamret i tynde plader.-->Bog-Guld</seg> paa Vingerne.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Paradisets Fugl! fornyet hvert Aarhundred, født i Flammer, <pb n="489"/>død i Flammer, dit Billed indfattet i Guld hænger i de Riges Sale, selv flyver du tidt vildfaren og eensom, – et Sagn kun: »Fugl Phønix i Arabien.« –</p>
+
+<p rend="firstIndent" xml:id="p_00008">– I Paradisets Have, da du fødtes under Kundskabstræet, i den første Rose, kyssede <hi rend="italic">vor Herre</hi> dig og gav dig dit rette Navn – <hi rend="italic">Poesien</hi>.</p>
+
+
+
+<pb n="490"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Fugl Phønix" xml:id="fugl-phoenix">
+<head type="section-comments">Fugl Phønix</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Den nye Børneven, illustreret Tidsskrift for Børn</hi>, II, 1. hefte, udgivet af Julius Chr. Gerson, maj 1850.<br/>
+BFN 567/IV,50-51/VII,234-235.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">488,28</cell><cell type="deviation">Ravn &lt; Svane</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">488</cell><row xml:id="txtcmnt-488-01"><cell type="data-term">Fugl Phønix</cell><cell type="data-definition">ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.</cell></row><row xml:id="txtcmnt-488-02"><cell type="data-term">Straffe-Englen(s)</cell><cell type="data-definition">hentydning til ærkeengelen Gabriel, som uddrev Adam og Eva fra Paradisets Have efter syndefaldet.</cell></row><row xml:id="txtcmnt-488-03"><cell type="data-term">Dragkiste</cell><cell type="data-definition">kommode eller kiste med store skuffer.</cell></row><row xml:id="txtcmnt-488-04"><cell type="data-term">Fahlun(s)</cell><cell type="data-definition">by i Dalarne, Sverige.</cell></row><row xml:id="txtcmnt-488-05"><cell type="data-term">Ganges</cell><cell type="data-definition">indisk flod.</cell></row><row xml:id="txtcmnt-488-06"><cell type="data-term">Thesbiskarren</cell><cell type="data-definition">thespiskærren. Thespis fra Ikaria regnes for grundlæggeren af den græske tragedie og skal ifølge sagnet have kørt landet rundt og opført tragedier med alt tilbehøret læsset på en kærre.</cell></row><row xml:id="txtcmnt-488-07"><cell type="data-term">bærme(besmurte)</cell><cell type="data-definition">bundfald i gærede drikke.</cell></row><row xml:id="txtcmnt-488-08"><cell type="data-term">Odins Ravn</cell><cell type="data-definition">ifølge nordisk mytologi sidder ravnene Hugin og Munin på Odins skuldre. Hver dag flyver ravnene ud i verden og hvisker ved deres hjemkomst Odin i øret, hvad de har erfaret.</cell></row><row xml:id="txtcmnt-488-09"><cell type="data-term">Sangerfesten … Riddersal</cell><cell type="data-definition">hentydning til digterkappestriden, der ifølge sagnet fandt sted på Wartburg i 1207 på foranstaltning af landgreve Hermann af Thüringen.</cell></row><row xml:id="txtcmnt-488-10"><cell type="data-term">Marseillaisen</cell><cell type="data-definition">oprindelig krigssang, med melodi og tekst af Claude-Joseph Rouget de Lisle, 1792; siden 1795 Frankrigs nationalsang.</cell></row><row xml:id="txtcmnt-488-11"><cell type="data-term">Bog-Guld</cell><cell type="data-definition">bladguld, guld udhamret i tynde plader.</cell></row>
+</table>
+
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

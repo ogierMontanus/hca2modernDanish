@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Bell</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="klokken">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="klokken_modern.xml">moderniseret version</note>
+                                                       <note target="76_The-Bell.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>At evening time, in the narrow streets of the large city, when the sun was setti...</incipit><idno type="image">Klokken_02_2022-03-09.png</idno><popularity>977</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Bell. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-06" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-06">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body><div rend="The Bell">
+          <head type="main" rend="The Bell">The Bell</head>                <p rend="noIndent" xml:id="p_00001">At evening time, in the narrow streets of the large city, when the sun was setting and the clouds were gleaming like gold up among the chimneys, first one person then another would often hear a strange sound, like the ringing of a church bell, but it was only audible for a moment, for there was such a rumbling of carriages and such shouting in the streets – and that is distracting. ‘Now the evening-bell’s ringing!’ people said, ‘now the sun’s setting!’</p>
+          <p rend="firstIndent" xml:id="p_00002">Those walking outside the city, where the houses were further apart, with gardens and small fields, saw the evening sky in greater magnificence and heard a far louder chiming of the bell, it was as if the sound came from a church deep within the quiet, sweet-smelling forest; and people looked towards it, and became quite solemn. –</p>
+          <p rend="firstIndent" xml:id="p_00003">After many years of this, one person would say to the other: ‘Can there possibly be a church out there in the forest? That bell really has such a strange, delightful sound, perhaps we should go and take a closer look at it.’ And the rich people rode in carriages and the poor people walked on foot, but it seemed to them that the road was so remarkably long, and when they came to where quite a few willow trees grew on the edge of the forest, they sat down and looked up at the long branches and thought they really were out in the country; the confectioner from inside the city came out there and put up his tent, and another confectioner came and hung up a bell right over this tent, and it was a bell that had been tarred, so it could withstand the rain, and the clapper was missing. And when people set off homewards again, they said it had been so romantic, and this means something quite unlike ordinary afternoon tea. Three people swore that they had forced their way right through the forest to where it ended, and all the time they had heard the strange sound of the bell, but to them it almost seemed to have come from inside the city; one of them wrote a whole song about it and said that the bell sounded like a mother’s voice to a much-loved, wise child, that no melody was more beautiful than the sound of the bell.</p>
+          <p rend="firstIndent" xml:id="p_00004">It came to the notice of the emperor of the country and he promised that the person who could ascertain for sure where the sound came from would be granted the title of ‘The World’s Bell-Ringer’, even if it turned out not to be from a bell.</p>
+          <p rend="firstIndent" xml:id="p_00005">Now many people went off to the forest for the sake of a good livelihood, but there was only one person who came back with a sort of explanation, no one had been deep enough into the forest, himself included, but he said even so that the bell-sound came from a very large owl in a hollow tree, it was a kind of wisdom-owl that constantly hit its head against the tree, but if the sound came from its head or from the hollow trunk he was unable to state categorically as yet, and so he was given the title of ‘The World’s Bell-Ringer’ and every year he wrote a small dissertation about the owl; but no one was any the wiser.</p>
+          <p rend="firstIndent" xml:id="p_00006">It was now a church confirmation day, the vicar had spoken so beautifully and fervently; those to be confirmed had been so moved, it was an important day for them, all of a sudden they changed from being children to adults, their childlike soul was, so to speak, to fly over into a more sensible person. There was the loveliest sunshine, the confirmands went out of the city, and from the forest the great unknown bell chimed remarkably loudly. Immediately, they felt this strong urge to enter the forest, all of them but three: one wanted to go home and try out her ball gown, for it was precisely because of that gown and that ball that she had been confirmed this time, for otherwise she would not have participated; the second was a poor boy who had borrowed his confirmation jacket and boots from his landlord’s son and they had to be handed back at an agreed time; the third said that he never went to any unknown place without having his parents with him, and that he had always been a dutiful child and intended to remain so, even as a confirmand, and that was not to be made fun of! – but they did.</p>
+          <p rend="firstIndent" xml:id="p_00007">Three of them, then, did not go along with the others, who set off at a good pace; the sun shone and the birds sang and the confirmands sang too and held each other by the hand, for none of them had yet held a position in society and all of them were confirmands in the eyes of <hi rend="italic">Our Lord</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00008">Soon, however, two of the smallest grew tired and turned back towards the city; two small girls sat down and wove garlands, they did not come along either, and when the others reached the willow trees where the confectioner lived, they said: ‘well, now we’ve arrived; the bell doesn’t really exist, it’s just something one imagines!’</p>
+          <p rend="firstIndent" xml:id="p_00009">At that very moment, the bell sounded from deep in the forest, so sweetly and solemnly that four or five decided even so to go further into the forest. It was so dense, so thick with foliage, it was extremely difficult to force a path through it, woodruff and anemones grew almost too tall, flowering bindweed and brambles hung in long garlands from tree to tree, where the nightingale sang and the sunbeams played; oh it was so wonderful, but it was no path for the girls to take, their dresses would get torn to shreds. There were large boulders covered with moss of every colour, the fresh spring-water welled up and made a strange sound, rather like ‘glug, glug!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘That can’t be the bell, can it?’ one of the confirmands said, and lay down to listen. ‘That’s got to be studied more closely!’ and he stayed there and let the others move on.</p>
+          <p rend="firstIndent" xml:id="p_00011">They came to a house of bark and branches, a large tree with wild apples leant down over it as if it wanted to shake all its blessings out over the roof where roses bloomed; the long branches lay close around the gable, on which there hung a small bell. Could it possibly be the one they had heard. Well, everyone agreed, except for one person who said that this bell was too small and fine to be audible at as great a distance as they had heard it, and it would take quite different tones to touch a human heart in such a way; the one who spoke was a king’s son, and then the others said ‘people like him always want to sound cleverer than the rest’.</p>
+          <p rend="firstIndent" xml:id="p_00012">So they let him go off on his own, and the further he went, the more his breast felt full of <hi rend="italic">Waldeinsamkeit</hi>; but he could still hear the little bell that the other were so satisfied with, and when the wind came from the direction of the confectioner, he could also hear how there was tea-time afternoon singing; but the deep chiming of the bell sounded even more strongly, soon it was as if an organ was accompanying it, the sound came from the left, from the side where the heart sits.</p>
+          <p rend="firstIndent" xml:id="p_00013">There was a rustling in the bushes, and there a young boy stood before the king’s son, a boy in wooden clogs and with a shirt so short that one could see just how long his wrists were. The two knew each other, the boy was precisely one of the confirmands who couldn’t come because he had to go home and hand back the jacket and boots to the landlord’s son; that he had done and, now wearing his clogs and poor clothes, he had gone off on his own, for the bell chimed so loudly and deeply that he simply had to go.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘So now we can go and look together!’ the king’s son said. But the poor confirmand with clogs on was rather shy about this, tugged at his short sleeves and said: he was afraid he couldn’t keep up, besides which he thought the bell should be sought on the right, for that side had everything that was fine and splendid.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘Well, in that case we won’t meet up!’ the king’s son said and nodded to the poor boy, who entered the darkest, densest part of the forest where the thorns tore his poor clothes to shreds and scratched his face, hands and feet till they bled. The king’s son also got some hefty scratches, but the sun did at least light up his path, and he is the one we will now follow, for he was a strapping young man.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘I simply will and must find the bell!’ he said, ‘even if I have to go to the world’s end!’</p>
+          <p rend="firstIndent" xml:id="p_00017">The ugly monkeys sat up in the trees and grinned, showing all their teeth. ‘Let’s pelt him!’ they said; ‘let’s pelt him; he’s a king’s son!’</p>
+          <p rend="firstIndent" xml:id="p_00018">But he pushed on undaunted, deeper and deeper into the forest, where the strangest of flowers grew, there were white camases with blood-red filaments, sky-blue tulips that sparkled in the wind, and trees with apples that looked exactly like large, iridescent soap-bubbles, just think how those trees must gleam when the sun shines on them. Fringing the loveliest of green fields, where hart and hind played in the grass, grew magnificent oak and beech trees, and if one of the trees had a rift in its bark, grass and vines grew in long strands in the rift; there were also large expanses of forest with still lakes where white swans swam and flapped their wings. The king’s son frequently stood still and listened, often he believed that the bell chimed up to him from one of these deep lakes, but then he noticed that it was not from them, but even deeper in the forest that the bell sounded.</p>
+          <p rend="firstIndent" xml:id="p_00019">Now the sun began to set, the air gleamed red, like fire, it became so still, so still in the forest, and he sank to his knees, sang his evening hymn and said: ‘I will never find what I am seeking! now the sun is setting, night is coming, the dark night; though I may perhaps be able to see the round, red sun just once more before it sinks completely behind the earth; I will climb up onto those rocks there that soar up to the height of the tallest trees!’</p>
+          <p rend="firstIndent" xml:id="p_00020">And he grabbed hold of vines and roots, clambered up the slippery stones where the water snakes twisted and turned, where the toad seemed to bark at him; - but he nevertheless managed to get to the top before the sun had completely set, seen from this height; oh, what magnificence! The sea, the great marvellous sea that rolled long waves towards the shore, was stretched out before him, and the sun stood like a huge gleaming altar out there where the sea and sky met, everything merged and melted in glowing colours, the forest sang and the sea sang and his heart joined in their singing; all of nature was one great holy church in which trees and floating clouds were the columns, flowers and grass the cloth of woven velvet and the sky itself was the huge dome; up there the red colours were extinguished as the sun disappeared, but millions of stars were lit, millions of diamond lamps then gleamed, and the king’s son spread out his arms towards the sky, towards the sea and the forest, and at that moment, from the right aisle, came in his short sleeves and wooden clogs the poor confirmand; he had reached this place just as quickly, having followed his own path, and they ran towards each other and held hands in the great church of nature and poetry, and above them sounded the invisible holy bell, blessed spirits floated in an airy dance around it to a joyous hallelujah!</p>
+     </div>
+               
+     </body>
+                         </text>
+                    </TEI>

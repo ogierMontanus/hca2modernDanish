@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En Rose fra Homers Grav</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang som kapitel III i afsnittet om Orienten i rejseskildringen <i>En Digters Bazar</i>, der udkom den 30. april 1842 (BNF 417). Udskilt som særskilt tekst og optaget med enkelte ændringer i <i>Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen</i>, 3. hefte, der udkom den 15. december 1862. Udgaven udkom i heftesubskription på i alt 6 hefter: 1.-3. hefte udgjorde Første Bind (1862), 4.-6. hefte udgjorde Andet Bind (1863).</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-rose-fra-homers-grav" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="en-rose-fra-homers-grav_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="62_A-Rose-from-Homers-Grave">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>I alle Orientens Sange klinger Nattergalens Kjærlighed til Rosen; i de tause, st...</incipit><readingTime>3</readingTime><popularity>909</popularity><cite>&lt;p&gt;H.C. Andersen: En Rose fra Homers Grav. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">En_Rose_fra_Homers_Grav_hca_ill_0169.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1862</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>steder</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="En Rose fra Homers Grav" xml:id="en-rose-fra-homers-grav">
+<head type="main">En Rose fra <seg target="txtcmnt-036-01"><!--DATA-TERM: Homer(s)--><anchor target="txtcmnt-036-01"/><!--tilskrives ifølge gammel tradition de to store græske eposer <i>Iliaden</i> og <i>Odysseen</i>, der med stor usikkerhed dateres til 700-tallet f.Kr.-->Homers</seg> Grav</head>
+
+<p rend="noIndent" xml:id="p_00001">I alle Orientens Sange klinger Nattergalens Kjærlighed til Rosen; i de tause, stjerneklare Nætter bringer den bevingede Sanger sin duftende Blomst en Serenade.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Ikke langt fra <hi rend="italic">Smyrna</hi>, under de høie Plataner, hvor Kjøbmanden driver sine belæssede Kameler, der hæve stolt deres lange Hals og træde klodset paa en Jord, som er hellig, saae jeg en blomstrende Rosenhæk, vilde Duer fløi mellem de høie Træers Grene, og deres Vinger skinnede, idet en Solstraale gled hen over dem, som vare de et Perlemor.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Paa Rosenhækken var een Blomst blandt dem alle skjønnest, og for den sang Nattergalen sin Kjærligheds Smerte; men Rosen var taus, ikke en Dugdraabe laae, som en Medlidenheds Taare, paa dens Blade, den bøiede sig med Grenen hen over nogle store Stene.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Her hviler Jordens største Sanger!« sagde Rosen, »over hans Grav vil jeg dufte, paa den vil jeg strøe mine Blade, naar Stormen river dem af! <hi rend="italic">Iliadens</hi> Sanger blev Jord i denne Jord, hvorfra jeg spirer! – jeg, en Rose fra <hi rend="italic">Homers</hi> Grav, er for hellig til at blomstre for den fattige Nattergal!« 
+
+</p><p rend="firstIndent" xml:id="p_00005">Og Nattergalen sang sig tildøde.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Kameeldriveren kom med sine belæssede Kameler og sine sorte Slaver; hans lille Dreng fandt den døde Fugl, den lille Sanger jordede han i den store <hi rend="italic">Homers</hi> Grav; og Rosen bævede i Vinden. Aftenen kom, Rosen foldede sine Blade tættere og drømte – at det var en deilig Solskins-Dag; en Skare fremmede, <seg target="txtcmnt-036-02"><!--DATA-TERM: frankiske--><anchor target="txtcmnt-036-02"/><!--den orientalske betegnelse for europæere, specielt vesteuropæere.-->frankiske</seg> Mænd kom, en Pilgrimsreise havde de gjort til <hi rend="italic">Homers</hi> Grav; blandt de Fremmede var en Sanger fra Norden, fra Taagernes og Nordlysenes Hjem; han brød Rosen af, pressede den fast i en Bog og førte den saaledes med sig til en anden Verdensdeel, til sit fjerne Fædreland. Og Rosen visnede af Sorg og laae i den snevre Bog, som han aabnede i sit Hjem, og han sagde: »her er en Rose fra <hi rend="italic">Homers</hi> Grav.«</p>
+
+<p rend="firstIndent" xml:id="p_00007">See det drømte Blomsten, og den vaagnede og gøs i Vinden; en Dugdraabe faldt fra dens Blade paa Sangerens Grav, og <pb n="37"/>Solen stod op, Dagen blev hed, og Rosen blussede skjønnere end før, den var i sit varme Asien. Da lød Fodtrin, der kom fremmede Franker, som Rosen havde seet dem i sin Drøm, og mellem de Fremmede var en Digter fra Norden; han brød Rosen af, trykkede et Kys paa dens friske Mund og førte den med sig til Taagernes og Nordlysenes Hjem.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Som en Mumie hviler nu Blomsterliget i hans <hi rend="italic">Iliade</hi>, og som i Drømme hører den ham aabne Bogen og sige: »Her er en Rose fra <hi rend="italic">Homers</hi> Grav!«</p>
+
+
+
+<pb n="38"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="En Rose fra Homers Grav" xml:id="en-rose-fra-homers-grav">
+<head type="section-comments">En Rose fra Homers Grav</head>
+
+<p rend="noIndent">Trykt første gang som kapitel III i afsnittet om Orienten i rejseskildringen <hi rend="italic">En Digters Bazar</hi>, der udkom den 30. april 1842 (BNF 417). Udskilt som særskilt tekst og optaget med enkelte ændringer i <hi rend="italic">Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen</hi>, 3. hefte, der udkom den 15. december 1862. Udgaven udkom i heftesubskription på i alt 6 hefter: 1.-3. hefte udgjorde Første Bind (1862), 4.-6. hefte udgjorde Andet Bind (1863).</p>
+
+<pb n="412"/>
+
+<p rend="noIndent">Sidstnævnte udgave følges her.</p>
+<p>BFN 846/IV,43-45/VII,232.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">36,33</cell><cell type="deviation">Grav.« &lt; Grav.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">36</cell><row xml:id="txtcmnt-036-01"><cell type="data-term">Homer(s)</cell><cell type="data-definition">tilskrives ifølge gammel tradition de to store græske eposer <hi rend="italic">Iliaden</hi> og <hi rend="italic">Odysseen</hi>, der med stor usikkerhed dateres til 700-tallet f.Kr.</cell></row><row xml:id="txtcmnt-036-02"><cell type="data-term">frankiske</cell><cell type="data-definition">den orientalske betegnelse for europæere, specielt vesteuropæere.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

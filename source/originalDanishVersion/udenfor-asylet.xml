@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Udenfor Asylet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="udenfor-asylet" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>»Spillemand spiller paa Strænge</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>boen</section>
+                                                                 <date>1844</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1844</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Udenfor Asylet" xml:id="udenfor-asylet"><pb n="80"/><head type="part">Udenfor <seg target="txtcmnt-080-01"><!--DATA-TERM: Asylet--><!--DATA-DEFINITION: institution, hvor nødlidende, især børn og gamle, fik pleje (og bolig).-->Asylet</seg><note type="footnote"><!--* --><p rend="noIndent"><!--* -->Fremsagt som Prolog ved en privat Forestilling til Indtægt for eet af Asylerne.</p></note></head>
+<lg xml:id="p_00168">
+<l rend="noIndent" subtype="firstline" corresp="»Spillemand spiller paa Strænge" rendition="spillemand-spiller-paa-straenge">»Spillemand spiller paa Strænge,«</l>
+<l rend="noIndent">Spiller om Maane og Sol,</l>
+<l rend="noIndent">Spiller om Urter paa Enge</l>
+<l rend="noIndent">Alt paa sin fattige <seg target="txtcmnt-080-02"><!--DATA-TERM: Viol--><!--DATA-DEFINITION: violin.-->Viol</seg>!</l>
+<l rend="noIndent">Spiller med ærlig Villie,</l>
+<l rend="noIndent">Og man forstaaer hans Sang,</l>
+<l rend="noIndent">Selv den kongelige Lillie</l>
+<l rend="noIndent">Bæver ved Strængens Klang;</l>
+<l rend="noIndent">Hver en Stand og hver Alder</l>
+<l rend="noIndent">Offrer til ham sin Skat,</l>
+<l rend="noIndent">Taksigelsens Guldmønt falder</l>
+<l rend="noIndent">I Spillemandens Hat.</l>
+</lg>
+<lg xml:id="p_00169">
+<l rend="noIndent">»Spillemand spiller paa Strænge,«</l>
+<l rend="noIndent">Nordvinden blæser saa koldt,</l>
+<l rend="noIndent">Bitterlig Nød den længe</l>
+<l rend="noIndent">Har fattigt Barn forvoldt.</l>
+<l rend="noIndent">Men nu et Huus er <seg target="txtcmnt-080-03"><!--DATA-TERM: klinet--><!--DATA-DEFINITION: bygget af ler; især om primitive huse.-->klinet</seg></l>
+<l rend="noIndent">Hyggeligt, luunt især,</l>
+<l rend="noIndent">Vor Herre har det velsignet,</l>
+<l rend="noIndent">Han har de Smaae saa kjær!</l>
+<l rend="noIndent">Der kan de juble og bygge,</l>
+<l rend="noIndent">Ude nu Veiret er raat, –</l>
+<l rend="noIndent">Fader og Moder gaae trygge –</l>
+<l rend="noIndent">De Smaae, de have det godt!</l>
+</lg>
+<lg xml:id="p_00170">
+<l rend="noIndent">»Spillemand spiller paa Strænge«,</l>
+<l rend="noIndent">Strømmer kun Alle til,</l>
+<l rend="noIndent">Om endogsaa ei længe</l>
+<l rend="noIndent">Violen just more vil!</l>
+<l rend="noIndent">Ikke Spillet I dømme,</l>
+<l rend="noIndent">Men kun dets Hensigt her,</l>
+<pb n="81"/>
+<l rend="noIndent">Fattigt Barn lad I drømme</l>
+<l rend="noIndent">Sig Eders Hjerte nær,</l>
+<l rend="noIndent">Barnet vil huske det længe;</l>
+<l rend="noIndent">Tak at herhid I kom!</l>
+<l rend="noIndent">»Spillemand spiller paa Strænge,«</l>
+<l rend="noIndent">– Mild er Tilhørernes Dom.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Udenfor Asylet" synch="udenfor-asylet">
+<head type="section-comments">Udenfor Asylet</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Ny Portefeuille</hi>, bind 4, nr. 5, 3. november 1844. BFN 453</p>
+<table rend="textcomments">
+<cell type="page">80</cell><cell><row xml:id="txtcmnt-080-01"><cell type="data-term">Asylet</cell><cell type="data-definition">institution, hvor nødlidende, især børn og gamle, fik pleje (og bolig).</cell></row><row xml:id="txtcmnt-080-02"><cell type="data-term">Viol</cell><cell type="data-definition">violin.</cell></row><row xml:id="txtcmnt-080-03"><cell type="data-term">klinet</cell><cell type="data-definition">bygget af ler; især om primitive huse.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

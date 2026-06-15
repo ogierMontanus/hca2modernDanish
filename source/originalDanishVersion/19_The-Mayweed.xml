@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Mayweed</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="gaaseurten">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="gaaseurten_modern.xml">moderniseret version</note>
+                                                       <note target="19_The-Mayweed.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Just listen to this! –...</incipit><idno type="image">Gaaseurten_01_2022-03-09.png</idno><popularity>980</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Mayweed. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-09" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-09">formatting</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Mayweed">
+          <head type="main" rend="The Mayweed">The Mayweed</head>                <p rend="noIndent" xml:id="p_00001">Just listen to this! –</p>
+          <p rend="firstIndent" xml:id="p_00002">Out in the country, by the roadside, lay a summer cottage – you’re sure to have seen it yourself sometime! – in front of it there was a small garden with flowers and a painted trellis fence; close by in the ditch, in the midst of the loveliest green grass, grew a little mayweed; the sun shone just as warmly and beautifully on it as on the profusion of large, magnificent flowers inside the garden, and so it grew by the hour. One morning it stood there in full bloom with its small, gleaming white petals that cluster like rays round the small yellow sun at its centre. It never thought of the fact that no one saw it there in the grass and that it was a poor, disdained flower; no, it was so content, it turned straight towards the warm sun, looked up at it and listened to the lark singing in the sky.</p>
+          <p rend="firstIndent" xml:id="p_00003">The little mayweed was as happy as if it was a grand festive day, and yet it was only a Monday; all the children were in school; while they sat on their benches learning things, it sat on its little green stem and also learnt things from the warm sun and everything around it, how good God is, and it seemed just as if the small lark sang so clearly and beautifully all that it silently felt; and the mayweed gazed up with a kind of reverence at the happy bird that could sing and fly, though it was not sad at all that it was unable to itself. ‘I see and hear things after all!’ it thought, ‘the sun shines on me and the wind kisses me! Oh, how much has been bestowed on me!’</p>
+          <p rend="firstIndent" xml:id="p_00004">Inside the fence stood so many stiff, fine flowers; the less their fragrance, the higher they held their heads. The peonies gave themselves airs, so as to be bigger than a rose, but size is not what really matters! The tulips had the most beautiful colours, and they were well aware of this and held themselves so straight and tall that everyone could see this better. They didn’t notice the little mayweed outside one bit, but it looked all the more at them and thought: ‘how fine and lovely they are! the magnificent bird is sure to fly down and visit them! God be praised that I am standing so close by, so that I can see all that finery! and just as it was thinking that, ‘chirrup, chirrup!’, down came the lark, but not to the peonies and the tulips, no, down into the grass to the poor mayweed, which was so overcome by sheer joy that it no longer knew what to think.</p>
+          <p rend="firstIndent" xml:id="p_00005">The little bird danced around it and sang: ‘oh, how soft the grass is! and look, what a sweet little flower with gold in its heart and silver on its dress!’ the gold dot of the mayweed looked just like gold too, and the small petals round it were a gleaming silvery-white.</p>
+          <p rend="firstIndent" xml:id="p_00006">Just how happy the little mayweed was, well, no one can possibly comprehend! The bird kissed it with its beak, sang for it and then flew up once more into the blue sky. It must have lasted a whole fifteen minutes or more before the flower could get over it all. Somewhat shyly and yet with intense delight it gazed at the flowers inside the garden; for they had seen the honour and bliss that she had experienced, they must of course realise what a great joy it was; but the tulips stood there just as stiff as before, and their faces were so pinched and so red, for they were very annoyed. The peonies were quite thick-headed, ooh! it was a good thing that they couldn’t talk, for otherwise the mayweed would have got a good dressing down. The poor little flower could very well see that they were not in a good mood, and that pained it a great deal. At that very moment, a girl came into the garden with a large knife that was so sharp and gleaming; she walked among the tulips cutting them off, one after the other. ‘Uh!’ the little mayweed sighed, ‘that’s terrible, now it’s all over with them!’ Then the girl left with the tulips. The mayweed was glad that it grew in the grass and was a poor small flower; it felt extremely grateful, and when the sun went down, it folded its petals, fell asleep and dreamt all night long about the sun and the small bird.</p>
+          <p rend="firstIndent" xml:id="p_00007">The next morning, when the flower happily stretched all its white petals like small arms out towards the sky and the light, it recognised the bird’s voice, but what it sang was so sad. Yes, the poor lark had every reason for this, for it had been caught and now sat in a cage close to the open window. It sang about flying around freely and happily, sang about the young, green corn in the fields and about the wonderful trip it could make on its wings high up into the sky. The poor bird was not in a good mood, it sat there a prisoner in its cage.</p>
+          <p rend="firstIndent" xml:id="p_00008">The little mayweed wanted so much to help it, but how was it to set about that – yes, it was hard to come up with something. It completely forgot how beautiful everything was around it, how warmly the sun shone, and how beautiful and white its petals looked; ah, all it could think of was the imprisoned bird that it had been unable to do anything for.</p>
+          <p rend="firstIndent" xml:id="p_00009">At that moment, two small boys came out of the garden; one of them had a knife in his hand that was as large and sharp as the one the girl had used to cut the tulips. They went straight towards the little mayweed, who was completely unable to understand what they wanted.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Here we can cut out a nice piece of turf for the lark!’ one of the boys said and started to cut out a deep square around the mayweed, so that it ended up in the middle of the piece of turf.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Pull up the flower!’ the other boy said, and the mayweed shuddered with fright, for to be pulled up meant losing one’s life, and now it wanted so much to live as it would then be taken with the turf into the cage with the captured lark.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘No, leave it where it is!’ the other boy said, ‘it’s so pretty there!’ and so it was allowed to stay put and ended up in the cage with the lark.</p>
+          <p rend="firstIndent" xml:id="p_00013">But the poor bird moaned aloud about its lost freedom and beat its wings against the iron rods of the cage; the little mayweed was unable to speak, to say a comforting word, no matter how much it wanted to. So were things all that morning.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘There’s no water here!’ the imprisoned lark said, ‘they’ve all gone off and forgotten to leave me with a drop to drink! my throat is so parched and burning! there is fire and ice inside me and the air is so stifling! Ah, I must die, lose the warm sunshine, the fresh greenness, all the beauty that God has created!’ and then it bored its beak down into the cool piece of turf to gain some refreshment. And its eye fell on the mayweed, and the bird nodded to it, kissed it with its beak and said: ‘You are also going to have to wither inside here, you poor little flower! You and the small green patch of grass they have given me for the entire world I had outside! every little blade of grass will be a green tree for me, each of your white petals a fragrant flower! ah, just tell me how much I have lost!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘If only I could console him!’ the mayweed thought, but it was unable to move a petal; although the scent that streamed out of its fine petals was far stronger that it otherwise is in this flower; the bird also noticed this, and despite the fact that it was dying of thirst and in its anguish tore up the blades of green grass, it did not touch the flower at all.</p>
+          <p rend="firstIndent" xml:id="p_00016">Evening fell, and still no one came and brought the bird a drop of water; then it stretched out its beautiful wings, shook them convulsively, its song was no more than a melancholy cheep; its small head bent down towards the flower and the bird’s heart broke from loss and longing; then the flower was unable, as the previous evening, to fold its petals and sleep – ill and grieving it drooped down towards the earth.</p>
+          <p rend="firstIndent" xml:id="p_00017">The boys did not return before the following morning, and when they saw the bird dead, they cried, shed many tears and dug a fine grave for it which they decorated with flower petals. They placed the bird’s body in a lovely red box, it was to be given a royal burial, the poor bird! When he was alive and sang they had forgotten him, let him sit in the cage and suffer loss, now he was given much ceremony and many tears.</p>
+          <p rend="firstIndent" xml:id="p_00018">But the piece of turf with the mayweed was thrown out into the dust on the road, no one thought about it, even though it had felt most for the small bird and so much wished to console it!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

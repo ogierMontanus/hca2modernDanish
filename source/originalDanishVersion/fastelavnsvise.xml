@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fastelavnsvise</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</licence>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<head type="section-comments">Fastelavnsvise</head><p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget 18. februar 1833 i Studenterforeningen. BFN 221</p>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">7:<hi rend="italic"> Digte I 1823-1839</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fastelavnsvise" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Her flammer Glædens Kjerte</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>fastelavnsvise/#her-flammer-glaedens-kjerte</section>
+                                                                 <date>1833</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1831 1832 1833</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-06-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-06-08" who="NHB">formatted</change><change who="NHB" when="2023-06-23" status="draft">gennemset indtil 10333: 
+               Hr. Mickel i Odense</change><change who="NHB" when="2023-06-25" status="draft">indsat sourceDate. Endnu ikke well-formet</change><change who="NHB" when="2023-06-25" status="draft">wellformet</change><change who="NHB" when="2023-06-25" status="draft">sourceDate og div struktur kontrolleret indtil Phantasier og Skizzer</change><change who="NHB" when="2023-10-27" status="draft">overordnet værkstruktur etableret i works</change><change who="NHB" when="2023-11-03" status="draft">citater m.v. kodet indtil s. 205. Mangler systematiske ændringer og manuelt gennemsyn fra og med 1823</change><change who="NHB" when="2023-11-07" status="draft">indtil s. 315</change><change who="NHB" when="2023-11-08" status="draft">til s. 333</change><change who="NHB" when="2023-11-13" status="draft">autoindsat subtype=firstline</change><change who="NHB" when="2023-11-13" status="draft">gennemset struktur i kommentarer indtil side 178</change><change who="NHB" when="2023-11-17" status="draft">struktur indtil 474</change><change who="NHB" when="2023-11-19" status="draft">gennemset opmærkning indtil s. 66</change><change who="NHB" when="2023-11-24" status="draft">indtil s. 92</change><change who="NHB" when="2023-11-28" status="draft">gennemset indtil s. 344</change><change who="NHB" when="2023-11-30" status="draft">indtil Februar, s. 378</change><change who="NHB" when="2023-12-02" status="draft">til s. 436</change><change who="NHB" when="2023-12-21" status="draft">indsat seg comStart</change><change who="NHB" when="2024-06-14" status="draft">batch changes rend attributes for elements l and stage with stylesheet: resetRendAttributeLetAl.xsl</change>
+                                        <change who="NHB" when="2024-09-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Fastelavnsvise" xml:id="fastelavnsvise">
+<pb n="449"/>
+<head type="main">Fastelavnsvise</head>
+<head type="melody"><hi rend="italic">Mel.</hi> <seg target="txtcmnt-449-01">Mozarts: »<hi rend="italic">Kom lieber Mai.</hi>«</seg></head>
+<lg xml:id="p_01130">
+<l rend="noIndent" subtype="firstline" corresp="Her flammer Glædens Kjerte" rendition="her-flammer-glaedens-kjerte">Her flammer Glædens <seg target="txtcmnt-449-02"><!--DATA-TERM: Kjerte--><!--DATA-DEFINITION: kerte; stearin- el. vokslys.-->Kjerte</seg>,</l>
+<l rend="noIndent">Viin er paa Bordet sat,</l>
+<l rend="noIndent"><seg target="txtcmnt-449-03"><!--DATA-TERM: Thi (rask)--><!--DATA-DEFINITION: derfor.-->Thi rask</seg> slaae af Dit Hjerte</l>
+<l rend="noIndent">Hver Sorgens <seg target="txtcmnt-449-04"><!--DATA-TERM: Marekat--><!--DATA-DEFINITION: egentlig afrikansk abe med lille hoved og meget lang hale; her formentlig brugt i tilknytning folketroens skræmmende væsen maren, der hjemsøger sovende om natten og sidder (‘rider’) på deres bryst, hvilket giver åndenød og onde drømme (jf. udtrykket mareridt).-->Marekat</seg>!</l>
+<l rend="noIndent">:|: Ved hvert et Glas vi drikke,</l>
+<l rend="noIndent">Faaer den et dygtigt Slag;</l>
+<l rend="noIndent">Ja, fölg de gamle Skikke,</l>
+<l rend="noIndent"><seg target="txtcmnt-449-05"><!--DATA-TERM: Slaae Katten af--><!--DATA-DEFINITION: slå katten af tønden.-->Slaae Katten af</seg> i Dag! :|:</l>
+</lg>
+<lg xml:id="p_01131">
+<l rend="noIndent">Vi Glæden vil omfatte</l>
+<l rend="noIndent">Med Tanke, Sjæl og Ord,</l>
+<l rend="noIndent">Trods alle slemme Katte</l>
+<l rend="noIndent">Paa denne smukke Jord!</l>
+<l rend="noIndent">:|: I Dag jo Blomster smykke</l>
+<l rend="noIndent">Selv <seg target="txtcmnt-449-06"><!--DATA-TERM: Kjældermanden(s)--><!--DATA-DEFINITION: egentlig person, der driver restauration el. detailforretning i en kælder; bruges også i overført betydning om vittigheder.-->Kjældermandens</seg> Riis;</l>
+<l rend="noIndent">Send Sorg og hver Ulykke</l>
+<l rend="noIndent">Til <seg target="txtcmnt-449-07"><!--DATA-TERM: Mariboe-Avis--><!--DATA-DEFINITION: måske <i>Lollands og Falsters Stifts Kongelig alene privilegerede Addressecontoirs-Efterretninger</i>; nævnt i <i>Kjøbenhavns flyvende Post</i> nr. 99, 12. december 1828 som eksempel på en kuriøs og lidt komisk provinsavis.-->Mariboe-Avis</seg>! :|:</l>
+</lg>
+<lg xml:id="p_01132">
+<l rend="noIndent">Til Hest! til Hest! i Aften;</l>
+<l rend="noIndent">Flyv bort fra Sorg og Savn,</l>
+<l rend="noIndent">Vi vil paa <seg target="txtcmnt-449-08"><!--DATA-TERM: Druesaften--><!--DATA-DEFINITION: ugæret saft af (vin)druer.-->Druesaften</seg></l>
+<l rend="noIndent">Stolt <seg target="txtcmnt-449-09"><!--DATA-TERM: ride Fastelavn--><!--DATA-DEFINITION: deltage i et fastelavnsoptog til hest.-->ride Fastelavn</seg>!</l>
+<l rend="noIndent">:|: Ei spörge saa om Resten,</l>
+<l rend="noIndent">Det er jo Carneval!</l>
+<l rend="noIndent">Fald bare ei af Hesten,</l>
+<l rend="noIndent">Gjör den sig lidt for gal! :|:</l>
+</lg>
+<lg xml:id="p_01133">
+<l rend="noIndent">Fra Vesten eller Sönden</l>
+<l rend="noIndent"><seg target="txtcmnt-449-10"><!--DATA-TERM: Cometen--><!--DATA-DEFINITION: Halleys komet, passerede jorden i 1835.-->Cometen</seg> kommer snart,</l>
+<l rend="noIndent">Maaskee den slaaer af Tönden</l>
+<l rend="noIndent">Os alle, med en Fart!</l>
+<l rend="noIndent">:|: Vi faae ei Druesaften,</l>
+<l rend="noIndent">Vildt gaaer det, uden Navn,</l>
+<l rend="noIndent">Thi öv Dig vel i Aften</l>
+<l rend="noIndent">At ride Fastelavn! :|:</l>
+</lg>
+
+<pb n="450"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Fastelavnsvise" synch="fastelavnsvise">
+<argument type="sourceData">
+<head type="section-comments">Fastelavnsvise</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget 18. februar 1833 i Studenterforeningen. BFN 221</p></argument>
+<table rend="textcomments">
+<cell type="page">449</cell><row xml:id="txtcmnt-449-01"><cell type="data-term">Mozarts: »Kom lieber Mai.«</cell><cell type="data-definition">C.A. Overbecks vise »Komm, lieber Mai, und mache« fra 1775 (dansk »Kom maj, du søde, milde«) med melodi af Mozart fra 1791.</cell></row><row xml:id="txtcmnt-449-02"><cell type="data-term">Kjerte</cell><cell type="data-definition">kerte; stearin- el. vokslys.</cell></row><row xml:id="txtcmnt-449-03"><cell type="data-term">Thi (rask)</cell><cell type="data-definition">derfor.</cell></row><row xml:id="txtcmnt-449-04"><cell type="data-term">Marekat</cell><cell type="data-definition">egentlig afrikansk abe med lille <pb n="661"/>hoved og meget lang hale; her formentlig brugt i tilknytning folketroens skræmmende væsen maren, der hjemsøger sovende om natten og sidder (‘rider’) på deres bryst, hvilket giver åndenød og onde drømme (jf. udtrykket mareridt).</cell></row><row xml:id="txtcmnt-449-05"><cell type="data-term">Slaae Katten af</cell><cell type="data-definition">slå katten af tønden.</cell></row><row xml:id="txtcmnt-449-06"><cell type="data-term">Kjældermanden(s)</cell><cell type="data-definition">egentlig person, der driver restauration el. detailforretning i en kælder; bruges også i overført betydning om vittigheder.</cell></row><row xml:id="txtcmnt-449-07"><cell type="data-term">Mariboe-Avis</cell><cell type="data-definition">måske <hi rend="italic">Lollands og Falsters Stifts Kongelig alene privilegerede Addressecontoirs-Efterretninger</hi>; nævnt i <hi rend="italic">Kjøbenhavns flyvende Post</hi> nr. 99, 12. december 1828 som eksempel på en kuriøs og lidt komisk provinsavis.</cell></row><row xml:id="txtcmnt-449-08"><cell type="data-term">Druesaften</cell><cell type="data-definition">ugæret saft af (vin)druer.</cell></row><row xml:id="txtcmnt-449-09"><cell type="data-term">ride Fastelavn</cell><cell type="data-definition">deltage i et fastelavnsoptog til hest.</cell></row><row xml:id="txtcmnt-449-10"><cell type="data-term">Cometen</cell><cell type="data-definition">Halleys komet, passerede jorden i 1835.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

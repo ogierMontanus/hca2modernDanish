@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Klokkedybet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1857</hi>, der udkom i december 1856 (BFN 774). Optaget i <hi rend="italic">Nye Eventyr og Historier. Anden Samling</hi>, som udkom 15. maj 1858. Sidstnævnte udgave følges her.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1858</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Klokkedybet" xml:id="klokkedybet">
+<head type="main"><seg><!--DATA-TERM: Klokkedybet--><anchor target="txtcmnt-239-01"/><!--i »Bemærkninger«, 1868, skriver H.C. Andersen om klokkedybet: »<i>Klokkedybet</i> er udsprunget af Folketroen om Aamanden i Odense Aa og Sagnet om Kirkeklokken, der svang sig ud fra Albani Kirketaarn.« (denne udgave bind 3, s. 383). Sagnet kendes fra J.M. Thieles <i>Danske Folkesagn</i>, bind I, 1818, s. 29, hvor det dog er klokkerne i Skt. Knuds Kirke, der fløj, fordi man ringede for stærkt med dem.-->Klokkedybet</seg></head>
+
+<p rend="noIndent" xml:id="p_01105">»Ding-dang! ding-dang!« klinger det fra Klokkedybet i Odense Aa. – Hvad er det for en Aa? – Den kender hvert Barn i Odense-By, den løber nedenom Haverne, fra Slusen til Vandmøllen hen under Træbroerne. I Aaen vokse gule <seg><!--DATA-TERM: Aaknappe--><anchor target="txtcmnt-239-02"/><!--åkande.-->Aaknappe</seg>, <seg><!--DATA-TERM: brunfjedrede Rør--><anchor target="txtcmnt-239-03"/><!--brunfjerede rør.-->brunfjædrede Rør</seg> og den sorte, fløjelsagtige Dunhammer, så høj og så stor; gamle, revnede Piletræer, svejede og drejede, hænge langt ud i Vandet på <seg><!--DATA-TERM: Munkemose--><anchor target="txtcmnt-239-04"/><!--mosedrag syd for Odense Å, nu omdannet til park.-->Munkemose</seg> Side og ved <seg><!--DATA-TERM: Blegmandens Eng--><anchor target="txtcmnt-239-05"/><!--lokalitet på åens sydside, nu del af byen.-->Blegmandens Eng</seg>, men ligeoverfor er Have ved Have, den ene anderledes end den anden, snart med dejlige Blomster og Lysthuse, glatte og pene, ligesom småt Dukkestads, snart stå de kun med Kål eller der er slet ingen Have at se, thi de store Hyldebuske brede sig der og hænge langt ud over det rindende Vand, som hist og her er dybere, end man kan nå med Aaren. Ud for <seg><!--DATA-TERM: det gamle Frøken-Kloster--><anchor target="txtcmnt-239-06"/><!--Odense Adelige Jomfrukloster ved Albani Torv, oprettet i 1716 i den gamle bispegård, som blev opført 1504-1508.-->det gamle Frøken-Kloster</seg> er det dybeste Sted, det kaldes <hi rend="italic">Klokkedybet</hi>, og der bor <hi rend="italic"><seg><!--DATA-TERM: Aamanden--><anchor target="txtcmnt-239-07"/><!--i folketroen kræver åmanden eller nøkken, et overnaturligt væsen i menneskeeller hesteskikkelse, med mellemrum et menneskeliv.-->Aamanden</seg></hi>; han sover om Dagen, når Solen skinner gennem Vandet, men kommer frem ved stjerneklare Nætter og Måneskin. Han er meget gammel; Mo’ermo’er har hørt om ham af sin Mo’ermo’er, siger hun, han lever et ensomt Liv, har slet Ingen at tale med uden den store, gamle Kirkeklokke. Engang hang den i Kirketårnet, ja nu er der ingen Spor hverken af Tårn eller Kirke, den, der kaldtes <seg><!--DATA-TERM: Sanct Albani--><anchor target="txtcmnt-239-08"/><!--kvaderstenskirke, indviet til Vor Frue og senere til den engelske helgen Sankt Albanus; placeret ved det sydvestlige hjørne af Albani Torv, nedrevet 1539.-->Sanct Albani</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_01106">»Ding-dang! ding-dang!« klang Klokken, da Tårnet stod, og en Aften, da Sol gik ned og Klokken var i sit stærkeste Sving, rev den sig løs og fløj gennem Luften; det blanke Malm skinnede gloende i de røde Stråler.</p>
+
+<p rend="firstIndent" xml:id="p_01107">»Ding-dang! ding-dang! nu går jeg i Seng!« sang Klokken og fløj ud i Odense-Aa, hvor der var dybest, og derfor kaldes nu det Sted <hi rend="italic">Klokkedybet</hi>; men ikke fik den Søvn eller Hvile der! hos <hi rend="italic">Aamanden</hi> ringer og klinger den, så at det stundom høres herop igennem Vandet, og mange Folk sige, at det betyder: nu skal der Nogen dø, men det er ikke derfor, nej den ringer og fortæller for <hi rend="italic">Aamanden</hi>, som nu ikke længere er alene.</p>
+
+<p rend="firstIndent" xml:id="p_01108">Og hvad fortæller Klokken? Den er så gammel, så gammel, <pb n="240"/>er der sagt, den var til, længe før Mo’ermo’ers Mo’ermo’er blev født, og dog er den i Alder et Barn kun imod <hi rend="italic">Aamanden</hi>, der er en gammel, en stille, en underlig Een med Aaleskinds Buxer og Skælfiskes Trøje med gule Aaknappe i, Siv om Håret og Andemad på Skægget og det er just ikke kønt.</p>
+
+<p rend="firstIndent" xml:id="p_01109">Hvad Klokken fortæller, skal der Aar og Dage til at give igen; den fortæller ud og ind, tit og ofte det samme, snart kort, snart langt, ligesom den lyster; den fortæller om gamle Tider, de hårde, de mørke Tider.</p>
+
+<p rend="firstIndent" xml:id="p_01110">»Ved Sankt Albani Kirke deroppe i Tårnet, hvor Klokken hang, kom Munken, han var både ung og smuk, men tankefuld som ingen Anden; han så fra Lugen ud over Odense-Aa, da dens Leje var bredt og Mosen en Sø, han så over den og den grønne Vold, »<seg><!--DATA-TERM: Nonnebakken--><anchor target="txtcmnt-240-01"/><!--bakke syd for Odense Å.-->Nonnebakken</seg>« derovre, hvor Klostret lå, hvor Lyset skinnede fra Nonnens Celle; han havde kendt hende vel – og han huskede derpå, og hans Hjerte slog stærkt derved – ding-dang! ding-dang! –«</p>
+
+<p rend="firstIndent" xml:id="p_01111">Ja, sådan fortæller Klokken.</p>
+
+<p rend="firstIndent" xml:id="p_01112">»Der kom i Tårnet Bispens <seg><!--DATA-TERM: fjollede--><anchor target="txtcmnt-240-02"/><!--her: sindssyge.-->fjollede</seg> Svend, og når jeg, Klokken, der er støbt af Malm, hård og tung, svingede og svang, kunde jeg have knust hans Pande; han satte sig tæt under mig og legede med to Pinde, ret som om de var et <seg><!--DATA-TERM: Strængespil--><anchor target="txtcmnt-240-03"/><!--strengeinstrument, lyre eller cither.-->Strængespil</seg>, og han sang dertil: »Nu tør jeg synge højt, hvad jeg ellers ikke tør hviske, synge om Alt, hvad der gemmes bag Lås og Lem! der er koldt og vådt! Rotterne æde dem levende op! Ingen ved derom, Ingen hører derom! heller ikke nu, thi Klokken ringer så højt ding-dang! ding-dang!«</p>
+
+<p rend="firstIndent" xml:id="p_01113">»Der var en Konge, de kaldte ham <hi rend="italic"><seg><!--DATA-TERM: Knud--><anchor target="txtcmnt-240-04"/><!--Knud den Hellige, dræbt den 10. juli 1086 i Albani Kirke som afslutning på en opstand i Jylland, der måske var foranlediget af kongens store donationer til kirken og de høje skatter.-->Knud</seg></hi>, han nejede både for Bisp og Munk, men da han kom Vendelboerne alt for nær med svære Skatter og hårde Ord, tog de Våben og Stænger, joge ham af sted, som var han et Vildt; han tyede ind i Kirken, låsede Port og Dør; den voldsomme Skare lå udenfor, jeg hørte derom: både Skader og Krager, Alliken med, blev skræmte ved Skrig og Skrål; de fløj ind i Tårnet og ud igen, de så på Mængden dernede, de så også ind ad Kirkens Vinduer, og skreg højt, hvad de så. Kong Knud lå foran Alteret og bad, hans Brødre <hi rend="italic"><seg><!--DATA-TERM: Erik--><anchor target="txtcmnt-240-05"/><!--Erik Ejegod (ca. 1056-1103, konge fra 1095), deltog i de kampe, der førte til Knud den Helliges død, men undslap.-->Erik</seg></hi> og <hi rend="italic"><seg><!--DATA-TERM: Benedikt--><anchor target="txtcmnt-240-06"/><!--dræbt i Albani kirke 1086.-->Benedikt</seg></hi> stod som Vagt med dragne Sværd, men Kongens Tjener, <seg><!--DATA-TERM: den falske  Blake--><anchor target="txtcmnt-240-07"/><!--ifølge <i>Saxos Danmarkshistorie</i> (11. bog, kap. 14) var Blakke Knuds forræderiske fortrolige, der selv måtte lade livet ved kongemordet.-->den falske <hi rend="italic">Blake</hi></seg>, forrådte sin Herre; de vidste derude, hvor han var at ramme, og Een smed en Sten gennem Ruden, og Kongen lå død! – der var Skrig og Råb af den vilde Hob og af Fuglenes Flok, og jeg råbte med, jeg sang, og jeg klang: ding-dang! ding-dang!«</p>
+
+<pb n="241"/><p rend="firstIndent" xml:id="p_01114">»Kirkeklokken hænger højt, ser vidt omkring, får Besøg af Fuglene og forstår deres Sprog, til den suser Vinden ind af Låge og <seg><!--DATA-TERM: Lydhuller--><anchor target="txtcmnt-241-01"/><!--glamhuller (så lyden fra klokkerne kan sprede sig fra tårnet).-->Lydhuller</seg>, af hver Revne, og Vinden ved Alt, den har det fra Luften, og den omslutter Alt, hvad levende er, den trænger ind i Menneskets Lunger, ved Alt, hvad der får Lyd, hvert Ord og hvert Suk –! Luften ved det, Vinden fortæller det, Kirkeklokken forstår dens Mæle og ringer det ud for den hele Verden, ding-dang! ding-dang!«</p>
+
+<p rend="firstIndent" xml:id="p_01115">»Men det blev mig for meget at høre og vide, jeg <seg><!--DATA-TERM: mægtede--><anchor target="txtcmnt-241-02"/><!--magtede.-->mægtede</seg> ikke at ringe det ud! jeg blev så træt, jeg blev så tung, at Bjælken knak og jeg fløj ud i den skinnende Luft, ned der hvor Aaen er dybest, hvor <hi rend="italic">Aamanden</hi> bor, ensom og ene og der fortæller jeg, Aar ud og Aar ind, hvad jeg har hørt og hvad jeg ved: ding-dang! ding-dang!«</p>
+
+<p rend="firstIndent" xml:id="p_01116">Således lyder det fra Klokkedybet i Odense-Aa, det har Mo’ermo’er fortalt.</p>
+
+<p rend="firstIndent" xml:id="p_01117">Men vor Skolemester siger: »der er ingen Klokke, der kan ringe dernede, for den kan ikke! – og der er ingen <hi rend="italic">Aamand</hi> dernede, for der er ingen <hi rend="italic">Aamand</hi>!« og når alle Kirkeklokker klinge så lysteligt, så siger han, at det ikke er Klokkerne, men at det egentligt er Luften, der klinger, Luften er det, der giver Lyd – det sagde også Mo’ermo’er, at Klokken havde sagt – deri er de enige og så er det vist! »Vær agtsom, vær agtsom, vogt nøje Dig selv!« sige de begge To.</p>
+
+<p rend="firstIndent" xml:id="p_01118">Luften ved Alt! den er om os, den er i os, den mæler om vor Tanke og vor Gjerning, og den mæler det længere end Klokken nede i Dybet i Odense-Aa, hvor <hi rend="italic">Aamanden</hi> bor, den mæler det ud i det store Himmel-Dyb, så langt, så langt, evigt og altid, til Himmeriges Klokker klinge: »ding-dang! ding-dang!«</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Klokkedybet" xml:id="klokkedybet">
+<head type="section-comments">Klokkedybet</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1857</hi>, der udkom i december 1856 (BFN 774). Optaget i <hi rend="italic">Nye Eventyr og Historier. Anden Samling</hi>, som udkom 15. maj 1858. Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">BFN 761/III,98-100/VII,191-193.</p>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">239</cell><cell type="deviation">32: derfor &lt; det</cell></row>
+<row><cell type="position">241</cell><cell type="deviation">13: og Aar &lt; Aar – <hi rend="italic">Under teksten:</hi> H. C. Andersen</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">239</cell><row xml:id="txtcmnt-239-01"><cell type="data-term">Klokkedybet</cell><cell type="data-definition">i »Bemærkninger«, 1868, skriver H.C. <pb n="490"/>Andersen om klokkedybet: »<hi rend="italic">Klokkedybet</hi> er udsprunget af Folketroen om Aamanden i Odense Aa og Sagnet om Kirkeklokken, der svang sig ud fra Albani Kirketårn.« (denne udgave bind 3, s. 383). Sagnet kendes fra J.M. Thieles <hi rend="italic">Danske Folkesagn</hi>, bind I, 1818, s. 29, hvor det dog er klokkerne i Skt. Knuds Kirke, der fløj, fordi man ringede for stærkt med dem.</cell></row><row xml:id="txtcmnt-239-02"><cell type="data-term">Aaknappe</cell><cell type="data-definition">åkande.</cell></row><row xml:id="txtcmnt-239-03"><cell type="data-term">brunfjedrede Rør</cell><cell type="data-definition">brunfjerede rør.</cell></row><row xml:id="txtcmnt-239-04"><cell type="data-term">Munkemose</cell><cell type="data-definition">mosedrag syd for Odense Å, nu omdannet til park.</cell></row><row xml:id="txtcmnt-239-05"><cell type="data-term">Blegmandens Eng</cell><cell type="data-definition">lokalitet på åens sydside, nu del af byen.</cell></row><row xml:id="txtcmnt-239-06"><cell type="data-term">det gamle Frøken-Kloster</cell><cell type="data-definition">Odense Adelige Jomfrukloster ved Albani Torv, oprettet i 1716 i den gamle bispegård, som blev opført 1504-1508.</cell></row><row xml:id="txtcmnt-239-07"><cell type="data-term">Aamanden</cell><cell type="data-definition">i folketroen kræver åmanden eller nøkken, et overnaturligt væsen i menneskeller hesteskikkelse, med mellemrum et menneskeliv.</cell></row><row xml:id="txtcmnt-239-08"><cell type="data-term">Sanct Albani</cell><cell type="data-definition">kvaderstenskirke, indviet til Vor Frue og senere til den engelske helgen Sankt Albanus; placeret ved det sydvestlige hjørne af Albani Torv, nedrevet 1539.</cell></row>
+<cell type="page">240</cell><row xml:id="txtcmnt-240-01"><cell type="data-term">Nonnebakken</cell><cell type="data-definition">bakke syd for Odense Å.</cell></row><row xml:id="txtcmnt-240-02"><cell type="data-term">fjollede</cell><cell type="data-definition">her: sindssyge.</cell></row><row xml:id="txtcmnt-240-03"><cell type="data-term">Strængespil</cell><cell type="data-definition">strengeinstrument, lyre eller cither.</cell></row><row xml:id="txtcmnt-240-04"><cell type="data-term">Knud</cell><cell type="data-definition">Knud den Hellige, dræbt den 10. juli 1086 i Albani Kirke som afslutning på en opstand i Jylland, der måske var foranlediget af kongens store donationer til kirken og de høje skatter.</cell></row><row xml:id="txtcmnt-240-05"><cell type="data-term">Erik</cell><cell type="data-definition">Erik Ejegod (ca. 1056-1103, konge fra 1095), deltog i de kampe, der førte til Knud den Helliges død, men undslap.</cell></row><row xml:id="txtcmnt-240-06"><cell type="data-term">Benedikt</cell><cell type="data-definition">dræbt i Albani kirke 1086.</cell></row><row xml:id="txtcmnt-240-07"><cell type="data-term">den falske <hi rend="italic">Blake</hi></cell><cell type="data-definition">ifølge <hi rend="italic">Saxos Danmarkshistorie</hi> (11. bog, kap. 14) var Blakke Knuds forræderiske fortrolige, der selv måtte lade livet ved kongemordet.</cell></row>
+<cell type="page">241</cell><row xml:id="txtcmnt-241-01"><cell type="data-term">Lydhuller</cell><cell type="data-definition">glamhuller (så lyden fra klokkerne kan sprede sig fra tårnet).</cell></row><row xml:id="txtcmnt-241-02"><cell type="data-term">mægtede</cell><cell type="data-definition">magtede.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

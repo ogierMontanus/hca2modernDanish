@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Lykkens Kalosker</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Tre Digtninger</i>, som udkom 19. maj 1838 <pb n="537"/>(BFN 321; se denne udgaves bind 9). Optaget i revideret form i <i>Eventyr. Med 125 Illustrationer efter Originaltegninger af V. Pedersen</i>, <i>skaarne i Træ af Ed. Kretzschmar</i>, 1850, hefte 2 og 3, der udkom henholdsvis den 10. september og 9. november 1849.<br/>
+Sidstnævnte udgave følges her.<br/>
+BFN 551/II,178-203/VII,132 samt 70-82.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="lykkens-kalosker" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="lykkens-kalosker_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="18_The-Galoshes-of-Fortune">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Det var i Kjøbenhavn, paa Østergade i eet af Husene, ikke langt fra Kongens Nyto...</incipit><readingTime>41</readingTime><popularity>939</popularity><cite>&lt;p&gt;H.C. Andersen: Lykkens Kalosker. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Lykkens_Kalosker_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1850</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0030">I. En Begyndelse</cell>
+                                                       
+                                                            <cell ref="#div0031">II. Hvorledes det gik Justitsraaden</cell>
+                                                       
+                                                            <cell ref="#div0032">III. Vægterens Eventyr</cell>
+                                                       
+                                                            <cell ref="#div0033">IV. Et Hoved-Moment. Et Deklamations-Nummer. En høist usædvanlig Reise</cell>
+                                                       
+                                                            <cell ref="#div0034">V. Copistens Forvandling</cell>
+                                                       
+                                                            <cell ref="#div0035">VI. Det Bedste Kaloskerne bragte</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Lykkens Kalosker" xml:id="lykkens-kalosker">
+<pb n="460"/><head type="main">Lykkens <seg target="txtcmnt-460-01"><!--DATA-TERM: Kalosker--><!--DATA-DEFINITION: galoscher, vandtætte overtrækssko.-->Kalosker</seg></head>
+
+
+<div type="chapter" rend="I. En Begyndelse" xml:id="div0030"><head type="section">I</head>
+<head type="section">En Begyndelse</head>
+
+<p rend="noIndent" xml:id="p_00001">Det var i <hi rend="italic">Kjøbenhavn</hi>, paa Østergade i eet af Husene, ikke langt fra Kongens Nytorv, at der var stort Selskab, for det maa man have <seg target="txtcmnt-460-02"><!--DATA-TERM: imellem--><!--DATA-DEFINITION: indimellem.-->imellem</seg>, saa er det gjort og saa kan man blive inviteret igjen. Den ene Halvdeel af Selskabet sad allerede ved Spillebordene, og den anden Halvdeel ventede paa hvad der vilde komme ud af Fruens: »ja, nu skulde vi see til at finde paa noget!« Saavidt var man og Samtalen gik, som den kunde. Blandt andet faldt ogsaa Talen paa Middelalderen, Enkelte ansaae denne for langt bedre end vor Tid, ja <seg target="txtcmnt-460-03"><!--DATA-TERM: Justitsraad--><!--DATA-DEFINITION: embedsmand af middelrang.-->Justitsraad</seg> <hi rend="italic">Knap</hi> forsvarede saa ivrig denne Mening, at Fruen strax holdt med ham, og begge <seg target="txtcmnt-460-04"><!--DATA-TERM: ivrede … mod--><!--DATA-DEFINITION: hidsede sig op over.-->ivrede da mod</seg> <hi rend="italic"><seg target="txtcmnt-460-05"><!--DATA-TERM: Ørsted(s)--><!--DATA-DEFINITION: fysikeren H.C. Ørsted (1777-1851) udgav artiklen »Gamle og nye Tider« i <i>Almanak for 1835</i>.-->Ørsteds</seg></hi> Ord i Almanaken om gamle og nye Tider, hvori vor Tidsalder i det Væsentlige sættes øverst. Justitsraaden ansaae <seg target="txtcmnt-460-06"><!--DATA-TERM: Kong <i>Hans’s</i>--><!--DATA-DEFINITION: Hans (1455-1513), konge af Danmark og Norge fra 1482, af Sverige fra 1497.-->Kong <hi rend="italic">Hans’s</hi></seg> Tid for den deiligste og allerlykkeligste.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Under al den Snak for og imod, der ikke blev afbrudt uden et Øieblik ved Avisen der kom, men i den stod der ikke noget der var værd at læse, ville vi gaae ud i det forreste Værelse, hvor Overtøi, Stokke, Paraplyer og Kalosker havde Plads. Her sad to <seg target="txtcmnt-460-07"><!--DATA-TERM: Piger--><!--DATA-DEFINITION: tjenestepiger.-->Piger</seg>, en ung og en gammel; man skulde troe, at de vare komne for at følge deres Herskab, en eller anden gammel Frøken eller Enkefrue, men saae man lidt nøiere paa dem, saa begreb man snart, at de ikke vare almindelige Tjenestepiger, dertil vare deres Hænder for fine, deres Holdning og hele Bevægelse for kongelig, for det var den, og Klæderne havde ogsaa et ganske eget dristigt Snit. Det var to Feer, den yngste var vel ikke Lykken selv, men een af hendes Kammerjomfruers Kammerpiger, der bringe de mindre Lykkens Gaver omkring, den ældre saae saa inderlig alvorlig ud, det var <hi rend="italic">Sorgen</hi>, hun gaaer altid selv i egen høie Person sine Ærinder, saa veed hun, at de blive vel udførte.</p>
+
+<p rend="firstIndent" xml:id="p_00003">De fortalte hinanden, hvor de denne Dag havde været; hun, <pb n="461"/>som var Kammerjomfruens Kammerpige hos Lykken, havde endnu kun besørget nogle ubetydelige Ærinder, hun havde, sagde hun, frelst en ny Hat fra Regnskyl, skaffet en ærlig Mand en Hilsen af et fornemt Nul og saadant noget, men hvad hun endnu havde tilbage var noget ganske Ualmindeligt.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Jeg maa da fortælle,« sagde hun, »at det er min <seg target="txtcmnt-461-01"><!--DATA-TERM: Geburtsdag--><!--DATA-DEFINITION: fødselsdag.-->Geburtsdag</seg> idag, og til Ære for denne er mig betroet et Par Kalosker, som jeg skal bringe Menneskeheden. Disse Kalosker have den Egenskab, at Enhver, som faaer dem paa, øieblikkelig er paa det Sted eller i den Tid, hvor han helst vil være, ethvert Ønske med Hensyn til Tid eller Sted bliver strax opfyldt, og Mennesket saaledes endelig engang lykkelig herneden!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Jo, det kan Du troe!« sagde Sorgen, »han bliver saare ulykkelig og velsigner det Øieblik, han igjen er fri for Kaloskerne!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Hvor vil Du hen!« sagde den Anden, »nu stiller jeg dem her ved Døren, Een tager Feil og bliver den Lykkelige!« See det var den Samtale.</p>
+
+</div>
+
+<div type="chapter" rend="II. Hvorledes det gik Justitsraaden" xml:id="div0031"><head type="section">II</head>
+<head type="section">Hvorledes det gik Justitsraaden</head>
+
+<p rend="noIndent" xml:id="p_00007">Det var sildigt; Justitsraad <hi rend="italic">Knap</hi>, fordybet i Kong <hi rend="italic">Hans’s</hi> Tid, vilde hjem og nu var det ham styret saa, at han, istedet for sine Kalosker, fik Lykkens paa og traadte ud paa Østergade; men han var ved Kaloskernes Tryllekraft traadt tilbage i Kong <hi rend="italic">Hans’s</hi> Tid, og derfor satte han Foden lige ud i Dynd og Mudder paa Gaden, eftersom der i de Tider endnu ikke fandtes Brolægning.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Det er jo forfærdeligt, hvor sølet her er!« sagde Justitsraaden. »Hele Fortouget er væk og alle Lygterne slukkede!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">Maanen var endnu ikke kommet høit nok op, Luften desuden temmelig <seg target="txtcmnt-461-02"><!--DATA-TERM: tyk--><!--DATA-DEFINITION: uklar, mørk, tåget.-->tyk</seg>, saa Alt rundtom flød hen i Mørke. Paa det nærmeste Hjørne hang imidlertid en <seg target="txtcmnt-461-03"><!--DATA-TERM: Laterne--><!--DATA-DEFINITION: lanterne.-->Laterne</seg> foran et <seg target="txtcmnt-461-04"><!--DATA-TERM: Madonnabillede--><!--DATA-DEFINITION: billede af jomfru Maria, som er genstand for dyrkelse i den katolske kirke.-->Madonnabillede</seg>, men den Lysning var saa godt som ingen, han bemærkede den først, i det han stod lige derunder og hans Øine faldt paa det malede Billede med Moderen og Barnet.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Det er nok,« tænkte han, »et <seg target="txtcmnt-461-05"><!--DATA-TERM: Kunstkabinet--><!--DATA-DEFINITION: kunstsamling.-->Kunstkabinet</seg>, hvor de have glemt at tage Skildtet ind!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">Et Par Mennesker, i Tidsalderens Dragt, gik ham forbi.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Hvordan var det de saae ud! de kom nok fra Maskerade!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">Med eet lød Trommer og <seg target="txtcmnt-461-06"><!--DATA-TERM: Piber--><!--DATA-DEFINITION: fløjtelignende blæseinstrument.-->Piber</seg>, stærke Blus lyste; Justitsraaden standsede og saae nu et forunderligt <seg target="txtcmnt-461-07"><!--DATA-TERM: Tog--><!--DATA-DEFINITION: optog.-->Tog</seg> komme forbi. <pb n="462"/>Allerforrest gik en heel Trop Trommeslagere, som ret <seg target="txtcmnt-462-01"><!--DATA-TERM: artigt--><!--DATA-DEFINITION: godt, fortræffeligt.-->artigt</seg> behandlede deres Instrument, dem fulgte <seg target="txtcmnt-462-02"><!--DATA-TERM: Drabanter--><!--DATA-DEFINITION: livvagter.-->Drabanter</seg> med Buer og <seg target="txtcmnt-462-03"><!--DATA-TERM: Armbøsse(r)--><!--DATA-DEFINITION: armbrøst.-->Armbøsser</seg>. Den Fornemste i Toget var en geistlig Mand. Forbauset spurgte Justitsraaden, hvad dette havde at betyde og <seg target="txtcmnt-462-04"><!--DATA-TERM: hvo denne Mand var--><!--DATA-DEFINITION: hvem denne mand var.-->hvo denne Mand var</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Det er <seg target="txtcmnt-462-05"><!--DATA-TERM: Sjællands Biskop--><!--DATA-DEFINITION: på dette tidspunkt den danske kirkes leder.-->Sjællands Biskop</seg>!« svarede man.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Herre Gud, hvad gaaer der af Bispen?« sukkede Justitsraaden og rystede med Hovedet, Bispen kunde det dog umuligt være. Grundende herover og uden at see til Høire eller Venstre gik Justitsraaden gjennem Østergade og over Høibroplads. Broen til <seg target="txtcmnt-462-06"><!--DATA-TERM: Slotspladsen--><!--DATA-DEFINITION: pladsen ved Christiansborg.-->Slotspladsen</seg> var ikke at finde, han skimtede en <seg target="txtcmnt-462-07"><!--DATA-TERM: sid--><!--DATA-DEFINITION: sumpet.-->sid</seg> Aabred og stødte endelig her paa to Karle, der laae med en Baad.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Vil Herren sættes over paa <seg target="txtcmnt-462-08"><!--DATA-TERM: Holmen--><!--DATA-DEFINITION: Slotsholmen. -->Holmen</seg>?« spurgte de.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Over paa Holmen?« sagde Justitsraaden, der jo ikke vidste i hvilken Tidsalder han vandrede, »jeg vil ud paa Christianshavn i lille Torvegade!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">Karlene saae paa ham.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Siig mig bare, hvor Broen er!« sagde han. »Det er skjændigt, her ingen Lygter ere tændte, og saa er det et Søle, som om man gik i en Mose!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">Jo længer han talte med Baadsmændene, des uforstaaeligere bleve de ham.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Jeg forstaaer ikke jeres bornholmsk!« sagde han tilsidst vred, og vendte dem Ryggen. Broen kunde han ikke finde; Rækværk var der heller ikke! »Det er en Skandale, som her seer ud!« sagde han. Aldrig havde han fundet sin Tidsalder elendigere, end denne Aften. »Jeg troer, jeg vil tage en Droske!« tænkte han, men hvor vare Droskerne? Ingen var at see. »Jeg faaer gaae tilbage til Kongens Nytorv, der holde vel Vogne, ellers kommer jeg nok aldrig ud paa Christianshavn!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">Nu gik han da til Østergade og var næsten igjennem den, idet Maanen kom frem.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Herre Gud, hvad er det for et Stillads de har stillet op!« sagde han, ved at see Østerport, som paa den Tid havde Plads for Enden af Østergade.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Endelig fandt han dog en Laage, og gjennem denne kom han ud paa vort Nytorv, men det var en stor Enggrund; enkelte Buske struttede frem og tvers over Engen gik en bred Kanal eller Strøm. Nogle usle Træboder for de hollandske Skippere, efter hvilke Stedet havde Navnet <seg target="txtcmnt-462-09"><!--DATA-TERM: Hallandsaas--><!--DATA-DEFINITION: folkelig betegnelse for det vanskeligt farbare sted i middelalderbyen, hvor nutidens Kgs. Nytorv ligger.-->Hallandsaas</seg>, laae paa den modsatte Bred.</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Enten seer jeg <hi rend="italic"><seg target="txtcmnt-462-10"><!--DATA-TERM: fata morgana--><!--DATA-DEFINITION: synsbedrag, luftspejling.-->fata morgana</seg></hi>, som man kalder det, eller jeg er <pb n="463"/>fuld!« jamrede Justitsraaden. »Hvad er dog dette! hvad er dog dette?«</p>
+
+<p rend="firstIndent" xml:id="p_00026">Han vendte om igjen i den faste Tro, at han var syg; i det han kom ind i Gaden, saae han lidt nøiere paa Husene, de fleste vare Bindingsværk og mange havde kun Straatag.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Nei, jeg er slet ikke vel!« sukkede han, »og jeg drak dog kun eet Glas Punsch! men jeg kan ikke taale det! og det var ogsaa inderligt galt, at give os Punsch og varm Lax! det skal jeg ogsaa sige <seg target="txtcmnt-463-01"><!--DATA-TERM: Agent(inden)--><!--DATA-DEFINITION: egentlig kommisionær, der udførte forretninger for andre; her vel snarere større selvstændig købmand.-->Agentinden</seg>! Skulde jeg gaae tilbage igjen og lade dem vide, hvorledes jeg har det! men det er saa flaut! og mon de ere oppe endnu!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">Han søgte efter Gaarden, men den var ikke til at finde.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Det er dog forfærdeligt! jeg kan ikke kjende Østergade igjen! <seg target="txtcmnt-463-02"><!--DATA-TERM: ikke een Boutik--><!--DATA-DEFINITION: butikkerne på Østergade (og andre steder) var en nydannelse i 1800-tallet.-->ikke een Boutik</seg> er der! gamle, elendige Rønner seer jeg, som om jeg var i Roeskilde eller Ringsted! Ak jeg er syg! det kan ikke hjælpe at <seg target="txtcmnt-463-03"><!--DATA-TERM: genere--><!--DATA-DEFINITION: skamme.-->genere</seg> sig! Men hvor i Verden er dog Agentens Gaard? Den er ikke sig selv mere! men derinde ere dog Folk oppe; ak! jeg er ganske vist syg!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">Nu stødte han paa en halvaaben Dør, hvor Lyset faldt ud gjennem Sprækken. Det var et af den Tids Herbergeersteder, en Art Ølhuus. Stuen havde Udseende af de holsteenske <seg target="txtcmnt-463-04"><!--DATA-TERM: Dile(r)--><!--DATA-DEFINITION: forstue i de holstenske gårde.-->Diler</seg>; endeel Godtfolk, bestaaende af Skippere, kjøbenhavnske Borgere og et Par Lærde sad her i dyb <seg target="txtcmnt-463-05"><!--DATA-TERM: Diskurs--><!--DATA-DEFINITION: diskussion.-->Diskurs</seg> ved deres Kruus og gav kun liden Agt paa ham som traadte ind.</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Om Forladelse,« sagde Justitsraaden til Vertinden, som kom hen imod ham »jeg har faaet saa inderlig ondt! vil De ikke skaffe mig en Droske ud til Christianshavn!«</p>
+
+<p rend="firstIndent" xml:id="p_00032">Konen saae paa ham og rystede med Hovedet; derpaa tiltalte hun ham i det tydske Sprog. Justitsraaden antog, at hun ikke kunde den danske Tunge og fremførte derfor sit Ønske i Tydsk; dette tilligemed hans Dragt bestyrkede Konen i, at han var en Udlænding; at han befandt sig ilde, begreb hun snart og gav ham derfor et Kruus Vand, rigtignok noget <seg target="txtcmnt-463-06"><!--DATA-TERM: brak--><!--DATA-DEFINITION: brakvand er en blanding af fersk- og saltvand.-->brak</seg>, det var hentet ude fra Brønden.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Justitsraaden støttede sit Hoved paa sin Haand, trak Veiret dybt og grundede over alt det Sælsomme omkring sig.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Er det »<hi rend="italic"><seg target="txtcmnt-463-07"><!--DATA-TERM: Dagen--><!--DATA-DEFINITION: avis, udkom 1803-1843.-->Dagen</seg></hi>« for iaften,« spurgte han for at sige noget, idet han saae Konen flytte et stort Papir.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Hun forstod ikke, hvad han meente, men rakte ham Bladet, det var et Træsnit, der viste et <seg target="txtcmnt-463-08"><!--DATA-TERM: Luftsyn--><!--DATA-DEFINITION: opsigtsvækkende fremtoning på himlen, fx meteor, ildkugle o.l.-->Luftsyn</seg>, seet udi den Stad <hi rend="italic">Cøln</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Det er meget gammelt!« sagde Justitsraaden og blev ganske oprømt ved at træffe paa saadant et gammelt Stykke. »Hvor er <pb n="464"/>De dog kommet over det sjeldne Blad? Det er meget interessant, skjøndt det Hele er en <seg target="txtcmnt-464-01"><!--DATA-TERM: Fabel--><!--DATA-DEFINITION: opspind, ren fantasi.-->Fabel</seg>! man forklarer slige Luftsyn ved at det er Nordlys, man har seet; rimeligviis fremkomme de ved Electriciteten!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">De som sad nærmest og hørte hans Tale, saae forundrede paa ham og Een af dem reiste sig, tog ærbødigt Hatten af og sagde med den alvorligste Mine: »I er vist en meget lærd Mand, Monsieur!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»O, nei!« svarede Justitsraaden, »jeg kan tale med om et og andet, som man jo skal kunne det!«</p>
+
+<p rend="firstIndent" xml:id="p_00039">»<hi rend="italic"><seg target="txtcmnt-464-02"><!--DATA-TERM: Modestia--><!--DATA-DEFINITION: (latin) mådehold.-->Modestia</seg></hi> er en skjønne Dyd!« sagde Manden, »iøvrigt maa jeg sige til Eders Tale, <hi rend="italic"><seg target="txtcmnt-464-03"><!--DATA-TERM: mihi secus videtur--><!--DATA-DEFINITION: (latin) det synes mig anderledes.-->mihi secus videtur</seg></hi>, dog <seg target="txtcmnt-464-04"><!--DATA-TERM: suspenderer … mit <i>Judicium</i>--><!--DATA-DEFINITION: sætter min dømmekraft ud af spil; vending ofte brugt af Ludvig Holberg (1684-1754), bl.a. i <i>Dannemarks Riges Historie</i>, bind I,  1733, s. 826.-->suspenderer jeg gjerne her mit <hi rend="italic">Judicium</hi></seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Tør jeg ikke spørge, hvem jeg har den Fornøielse at tale med?« spurgte Justitsraaden.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Jeg er <seg target="txtcmnt-464-05"><!--DATA-TERM: Baccalaureus--><!--DATA-DEFINITION: indtil 1775 den laveste akademiske grad.-->Baccalaureus</seg> udi den hellige Skrift!« svarede Manden.</p>
+
+<p rend="firstIndent" xml:id="p_00042">Dette Svar var Justitsraaden nok, Titelen svarede her til Dragten; det er vist, tænkte han, en gammel Landsbyskolemester, en <seg target="txtcmnt-464-06"><!--DATA-TERM: aparte Fyr--><!--DATA-DEFINITION: mærkelig fyr.-->aparte Fyr</seg>, som man endnu kan træffe dem oppe i Jylland.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Her er vel ikke <hi rend="italic"><seg target="txtcmnt-464-07"><!--DATA-TERM: locus docendi--><!--DATA-DEFINITION: (latin) stedet at belære.-->locus docendi</seg></hi>,« begyndte Manden, »dog beder jeg, I vil <seg target="txtcmnt-464-08"><!--DATA-TERM: bemøie--><!--DATA-DEFINITION: besvære.-->bemøie</seg> Eder med at tale! I har en stor Læsning vist i <seg target="txtcmnt-464-09"><!--DATA-TERM: de Gamle--><!--DATA-DEFINITION: de antikke græske og romerske forfattere.-->de Gamle</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">»O, ja saamæn!« svarede Justitsraaden, »jeg læser gjerne gamle nyttige Skrifter, men jeg kan ogsaa godt lide de nyere, kun ikke »<seg target="txtcmnt-464-10"><!--DATA-TERM: Hverdagshistorierne--><!--DATA-DEFINITION: Thomasine Gyllembourg (1773-1856) udgav 1828 anonymt <i>En Hverdags-Historie</i> (trykt i <i>Kjøbenhavns flyvende Post</i>), som siden gav navn til genren: den københavnske samtidsfortælling og til hendes pseudonym: Forfatteren af En Hverdags-Historie.-->Hverdagshistorierne</seg>,« dem have vi nok af i Virligheden!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Hverdagshistorier?« spurgte vor Baccalaureus.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Ja, jeg mener disse nye Romaner man har.«</p>
+
+<p rend="firstIndent" xml:id="p_00047">»O,« smilede Manden, »der er dog et stort Snille i dem og de læses ved Hoffet; Kongen ynder særdeles <seg target="txtcmnt-464-11"><!--DATA-TERM: Romanen om Hr. <i>Iffven</i> og Hr. <i>Gaudian</i>--><!--DATA-DEFINITION: Chrestien (Chrétien) de Troyes’ ridderroman <i>Yvain ou le chevalier au lion</i>, 1177-1179/81, oversat via svensk forlæg i 1400-tallets anden halvdel med titlen <i>Ivan Løveridder</i>.-->Romanen om Hr. <hi rend="italic">Iffven</hi> og Hr. <hi rend="italic">Gaudian</hi></seg>, der handler om Kong <hi rend="italic">Artus</hi> og hans Kjæmper ved det runde Bord, han har skjæmtet derover med sine høie Herrer!«<note type="footnote"><!--* --><p rend="noIndent">* <seg target="txtcmnt-464-13"><!--DATA-TERM: <i>Holberg</i> … Danmarks Riges Historie--><!--DATA-DEFINITION: Ludvig Holberg <i>Dannemarks Riges Historie</i> I-III, 1732-1735; historien om kong Hans findes i bind I, s. 824.--><hi rend="italic">Holberg</hi> fortæller i sin Danmarks Riges Historie</seg>, at Kong Hans en Dag, da han havde læst i Romanen om <seg target="txtcmnt-464-12"><!--DATA-TERM: Kong Artus--><!--DATA-DEFINITION: hentydning til sagnet om kong Arthur og hans riddere af det runde bord, som bl.a. fortællingen om Ivan Løveridder knytter an til.-->Kong Artus</seg>, skjemtede med den bekjendte <hi rend="italic"><seg target="txtcmnt-464-14"><!--DATA-TERM: Otto Rud--><!--DATA-DEFINITION: dansk adelsmand (død 1510).-->Otto Rud</seg></hi> som han holdt meget af: »Hr. Ivent og Hr. Gaudian som jeg finder ud i denne Bog, have været <seg target="txtcmnt-464-15"><!--DATA-TERM: mærkelige--><!--DATA-DEFINITION: bemærkelsesværdige.-->mærkelige</seg> Riddere, saadanne Riddere finder man nu omstunder ikke mere!« hvortil <hi rend="italic">Otto Rud</hi> svarede, »hvis der vare saadanne Kæmper, som Kong Artus, skulde der vel ogsaa findes mange Riddere, som Hr. Ivent og Hr. Gaudian!«</p></note></p>
+
+<p rend="firstIndent" xml:id="p_00048">»Ja, den har jeg ikke læst endnu!« sagde Justitsraaden, »det maa være en ganske ny en, <hi rend="italic"><seg target="txtcmnt-464-16"><!--DATA-TERM: Heiberg--><!--DATA-DEFINITION: digteren og kritikeren Johan Ludvig Heiberg (1791-1860), søn af Thomasine Gyllembourg, stod bl.a. som udgiver af moderens fortællinger.-->Heiberg</seg></hi> har ladet udkomme!«</p>
+
+<pb n="465"/><p rend="firstIndent" xml:id="p_00049">»Nei,« svarede Manden, »den er ikke udkommet ved <hi rend="italic">Heiberg</hi>, men ved <seg target="txtcmnt-465-01"><!--DATA-TERM: <i>Godfred von Gehmen</i>--><!--DATA-DEFINITION: Gotfred von Ghemen (død ca. 1510), bogtrykker, har ikke trykt nogen dansk <i>Ivan Løveridder</i>.--><hi rend="italic">Godfred von Gehmen</hi></seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Saa det er Forfatteren!« sagde Justitsraaden, »det er et meget gammelt Navn! det er jo den første Bogtrykker, der har været i Danmark?«</p>
+
+<p rend="firstIndent" xml:id="p_00051">»Ja, det er vor første Bogtrykker!« sagde Manden. Saaledes gik det ganske godt; nu talte en af de gode Borgermænd om <seg target="txtcmnt-465-02"><!--DATA-TERM: den særdeles Pestilense--><!--DATA-DEFINITION: den voldsomme pest; jf. Ludvig Holberg <i>Dannemarks Riges Historie</i>, bind I, 1732, s. 757: »Udi dette Aar [1484] regierede ellers en særdeeles Pestilentze over heele Dannemark«.-->den særdeles Pestilense</seg>, der havde <seg target="txtcmnt-465-03"><!--DATA-TERM: regjeret--><!--DATA-DEFINITION: huseret.-->regjeret</seg> for et Par Aar siden, og meente den i 1484, Justitsraaden antog, at det var <seg target="txtcmnt-465-04"><!--DATA-TERM: Cholera--><!--DATA-DEFINITION: hærgede i perioden 1830-1837 det meste af Europa, men ikke Danmark.-->Cholera</seg> Talen var om, og saa gik Diskursen ret godt. <seg target="txtcmnt-465-05"><!--DATA-TERM: Fribytterkrigen--><!--DATA-DEFINITION: justitsråden tror, at der hentydes til Slaget på Reden den 2. april 1801. I virkeligheden er der tale om et frit citat efter Holberg <i>Dannemarks Riges Historie</i>, bind I, 1732, s. 758, hvor det under året 1484 hedder, at franske og engelske sørøvere »løbe ind udi Sundet for Helsingøer, som er Rigets Toldsted, og der bortsnappede Skibe, som laae paa Reeden.«-->Fribytterkrigen</seg> 1490 laae saa nær, at den maatte berøres, de engelske Fribyttere havde taget Skibene paa Rheden, sagde de; og Justitsraaden, der ret havde levet ind i Begivenheden 1801, stemte fortræffeligt i med mod Engelskmanden. Den øvrige Tale derimod gik ikke saa vel, hvert Øieblik blev det gjensidig <seg target="txtcmnt-465-06"><!--DATA-TERM: Bedemands-Stiil--><!--DATA-DEFINITION: udtryk fra Holbergs komedie <i>Den Stundesløse. Comoedie udi tre Acter</i>, 1731, om uigennemskuelig sprogbrug, oftest som følge af, at to personer taler ud fra helt forskellige forudsætninger og derfor taler forbi hinanden.-->Bedemands-Stiil</seg>; den gode Baccalaureus var altfor uvidende, og Justitsraadens simpleste Yttringer klang ham igjen for dristige og for phantastiske. De saae paa hinanden, og blev det altfor galt, saa talte Baccalaureus Latin, idet han saa troede bedre at blive forstaaet, men det hjalp dog ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00052">»Hvorledes er det med Dem!« spurgte Vertinden, og trak Justitsraaden i Ærmet; nu kom hans Besindelse tilbage, for imedens han talte havde han reent glemt Alt hvad der var gaaet forud.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Herre Gud, hvor er jeg!« sagde han og svimlede ved at betænke det.</p>
+
+<p rend="firstIndent" xml:id="p_00054">»<seg target="txtcmnt-465-07"><!--DATA-TERM: Klaret--><!--DATA-DEFINITION: (rød)vin med sukker og krydderier.-->Klaret</seg> ville vi drikke! <seg target="txtcmnt-465-08"><!--DATA-TERM: Mjød--><!--DATA-DEFINITION: drik af vand, gæret honning og krydderier.-->Mjød</seg> og <seg target="txtcmnt-465-09"><!--DATA-TERM: Bremer-Øl--><!--DATA-DEFINITION: dansk øl var indtil 1847 af væsentlig ringere kvalitet end tysk.-->Bremer-Øl</seg>«, raabte En af Gjæsterne, »og I skal drikke med!«</p>
+
+<p rend="firstIndent" xml:id="p_00055">To Piger kom ind, den ene havde <seg target="txtcmnt-465-10"><!--DATA-TERM: to Couleurer--><!--DATA-DEFINITION: prostituerede skulle ved kgl. Forordning af 1496 bære halvt røde, halvt sorte huer for, som det hedder i <i>Dannemarks Riges Historie</i>, »at giøre dem kiendelige fra andre Qvinder« (bind I, s. 782).-->to Couleurer</seg> i Huen. De skjænkede og neiede; Justitsraaden løb det iiskoldt ned af Ryggen.</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Hvad er dog dette! hvad er dog dette!« sagde han, men han maatte drikke med dem; de toge ganske artigt fat paa den gode Mand, han var meget fortvivlet, og da En af dem sagde, at han var drukken, tvivlede han aldeles ikke paa Mandens Ord, bad dem bare om at skaffe sig en Droske, og saa troede de, han talte <seg target="txtcmnt-465-11"><!--DATA-TERM: moskovitisk--><!--DATA-DEFINITION: russisk, her: uforståeligt.-->moskovitisk</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00057">Aldrig havde han været i saa raat og simpelt Selskab; man skulde troe, Landet var gaaet tilbage i <seg target="txtcmnt-465-12"><!--DATA-TERM: Hedendømmet--><!--DATA-DEFINITION: hedenskabet.-->Hedendømmet</seg>, meente han, »det er det skrækkeligste Øieblik i mit Liv!« men i det samme fik han den Tanke, at han vilde bukke sig ned under Bordet, krybe hen til Døren og saa see til at slippe ud, men i det han var ved Udgangen, mærkede de Andre, hvad han havde <pb n="466"/><pb n="467"/>for, de grebe ham ved Benene, og da, til hans gode Lykke, gik Kaloskerne af og – med disse, hele Trylleriet.</p>
+
+<p rend="firstIndent" xml:id="p_00058">Justitsraaden saae ganske tydeligt foran sig en klar Lygte brænde, og bag denne laae en stor Gaard; han kjendte den og Nabogaardene, det var paa Østergade, saaledes som vi Alle kjende den, han laae med Benene hen imod en Port, og lige overfor sad Vægteren og sov.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»Du min Skaber, har jeg ligget her paa Gaden og drømt!« sagde han. »Ja, det er Østergade! hvor velsignet lys og broget! Det er dog skrækkeligt, hvor det Glas Punsch maa have virket paa mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00060">To Minuter efter sad han i en Droske, som kjørte til Christianshavn med ham; han tænkte paa den Angst og Nød, han havde overstaaet, og priste af Hjertet den lykkelige Virkelighed, vor Tid, der med alle sine Mangler dog var langt bedre, end den han nylig havde været i, og see det var fornuftigt af Justitsraaden!</p>
+
+</div>
+
+<div type="chapter" rend="III. Vægterens Eventyr" xml:id="div0032"><head type="section">III</head>
+<head type="section">Vægterens Eventyr</head>
+
+<p rend="noIndent" xml:id="p_00061">»Der ligger saamæn et Par Kalosker!« sagde Vægteren. »Det er vistnok Lieutenantens, som boer deroppe. De ligge lige ved Porten!«</p>
+
+<p rend="firstIndent" xml:id="p_00062">Gjerne havde den ærlige Mand ringet paa og afleveret dem, thi der var Lys endnu, men han vilde ikke vække de andre Folk i Huset og derfor lod han være.</p>
+
+<p rend="firstIndent" xml:id="p_00063">»Det maa være ganske luunt, at have et saadant Par Tingester paa!« sagde han. »De er saa <seg target="txtcmnt-467-01"><!--DATA-TERM: linde--><!--DATA-DEFINITION: bløde.-->linde</seg> i Læderet!« De sluttede om hans Fødder. »Hvor det dog er løierligt i Verden! nu kunde han gaae i sin gode Seng, men see, om han gjør det! op og ned af Gulvet tridser han! det er et lykkeligt Menneske! han har hverken Mutter eller Rollingerne! hver Aften er han i Selskab, gid at jeg var ham, ja saa var jeg en lykkelig Mand!«</p>
+
+<p rend="firstIndent" xml:id="p_00064">I det han sagde sit Ønske, virkede Kaloskerne, han havde taget paa, Vægteren gik over i Lieutenantens hele Person og Tænkning. Der stod han oppe i Værelset og holdt mellem Fingrene et lille rosenrødt Papir, hvorpaa var et Digt, et Digt af Hr. Lieutenanten selv; for <seg target="txtcmnt-467-02"><!--DATA-TERM: hvo--><!--DATA-DEFINITION: hvem.-->hvo</seg> har ikke engang i sit Liv været stemt til at digte, og nedskriver man da Tanken, saa har man Verset. Her stod skrevet:</p>
+
+<pb n="468"/><p rend="firstIndent" xml:id="p_00065">»Gid jeg var riig!«</p>
+
+<lg xml:id="p_00066">
+<l>»Gid jeg var riig!« det bad jeg mangen Gang,</l>
+<l><seg target="txtcmnt-468-01"><!--DATA-TERM: Da jeg endnu var knap en Alen lang--><!--DATA-DEFINITION: spiller på Jens Baggesens (1764-1826) digt »Da jeg var lille«, 1785, hvor det hedder: »Der var en Tid, da jeg var meget lille; / Min heele Krop var kun en Alen lang;« (<i>Poesier. Førte samling</i>, 1785, s.1). -->Da jeg endnu var knap en Alen lang</seg>.</l>
+<l>Gid jeg var riig! saa blev jeg Officeer,</l>
+<l>Fik mig en Sabel, Uniform og Fjer.</l>
+<l>Den Tid dog kom, at jeg blev Officeer,</l>
+<l>Men ingensinde var jeg riig, desværre!</l>
+<l>Mig hjalp <hi rend="italic">vor Herre</hi>!</l>
+</lg>
+
+<lg xml:id="p_00067">
+<l>Livsglad og ung, jeg sad en Aftenstund,</l>
+<l>En syvaars Pige kyssede min Mund,</l>
+<l>Thi jeg var riig paa Sagn og Eventyr,</l>
+<l>I Penge derimod en fattig Fyr,</l>
+<l>Men Barnet brød sig kun om Eventyr,</l>
+<l>Da var jeg riig, men ei paa Guld desværre,</l>
+<l>Det veed vor Herre!</l>
+</lg>
+
+<lg xml:id="p_00068">
+<l>»Gid jeg var riig!« er end min Bøn til Gud,</l>
+<l>Nu er den syvaars Pige voxet ud,</l>
+<l>Hun er saa smuk, saa klog, saa eiegod.</l>
+<l>Hvis hun mit Hjertes Eventyr forstod,</l>
+<l>Hvis hun, som før – jeg mener, var mig god,</l>
+<l>Dog jeg er fattig, derfor taus desværre,</l>
+<l>Saa vil vor Herre!</l>
+</lg>
+
+<lg xml:id="p_00069">
+<l>Gid jeg var riig paa Trøst og Rolighed,</l>
+<l>Da kom min Sorg ei paa Papiret ned!</l>
+<l>Du, som jeg elsker, hvis Du mig forstaaer,</l>
+<l>Læs dette, som et <hi rend="italic">Digt</hi> fra Ungdoms Aar!</l>
+<l>Det er dog bedst, hvis Du det ei forstaaer,</l>
+<l>Jeg fattig er, min Fremtid mørk desværre,</l>
+<l>Dig <seg target="txtcmnt-468-02"><!--DATA-TERM: signe--><!--DATA-DEFINITION: velsigne.-->signe</seg> vil vor Herre!</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00070">Ja, saadanne Vers skriver man, naar man er forelsket, men en besindig Mand lader dem ikke trykke. Lieutenant, Kjærlighed og Trang, det er en Trekant eller ligesaagodt, det er Halvparten af Lykkens sønderbrudte Terning. Dette følte Lieutenanten ogsaa, og derfor lagde han Hovedet mod Vindueskarmen og sukkede ganske dybt:</p>
+
+<p rend="firstIndent" xml:id="p_00071">»Den fattige Vægter ude paa Gaden er langt lykkeligere end jeg! han kjender ikke hvad jeg kalder Savn! han har et Hjem, en <pb n="469"/>Kone og Børn, der græde ved hans Sorg, glæde sig ved hans Glæde! o jeg var lykkeligere, end jeg er, kunde jeg gaae lige lukt over i ham, for han er lykkeligere end jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00072">I samme Øieblik var Vægteren igjen Vægter, thi det var ved Lykkens Kalosker han var blevet Lieutenanten, men som vi saae, følte han sig da endnu langt mindre tilfreds og vilde dog helst være hvad han egentlig var. Altsaa Vægteren var igjen Vægter.</p>
+
+<p rend="firstIndent" xml:id="p_00073">»Det var en fæl Drøm!« sagde han, »men løierlig nok var den. Jeg syntes, at jeg var Lieutenant deroppe og det var slet ingen Fornøielse. Jeg savnede Mutter og Rollingerne, som ere <seg target="txtcmnt-469-01"><!--DATA-TERM: færdige ved--><!--DATA-DEFINITION: lige ved, på nippet til.-->færdige ved</seg> at kysse mig Øinene ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00074">Han sad igjen og nikkede, Drømmen vilde ham ikke ret ud af Tankerne, Kaloskerne havde han endnu paa Fødderne. Et Stjerneskud spillede lige hen ad Himmelen.</p>
+
+<p rend="firstIndent" xml:id="p_00075">»Der gik den!« sagde han, »der ere nok alligevel! jeg havde nok Lyst til at see de Tingester lidt nærmere, især Maanen, for den bliver da ikke borte mellem Hænderne. Naar vi døe, sagde Studenten, som min Kone <seg target="txtcmnt-469-02"><!--DATA-TERM: vasker grovt--><!--DATA-DEFINITION: vasker storvask, dvs. linned o.l. -->vasker grovt</seg> for, flyve vi fra den ene til den anden. Det er en Løgn, men artigt nok kunde det være. Gid jeg maatte gjøre et lille Hop derop, saa kunde Kroppen gjerne blive her paa Trappen!«</p>
+
+<p rend="firstIndent" xml:id="p_00076">See, der ere nu visse Ting i Verden, man maa være meget forsigtig med at udtale, men endnu mere forsigtig bør man især være, dersom man har Lykkens Kalosker paa Fødderne. Hør bare, hvorledes det gik Vægteren.</p>
+
+<p rend="firstIndent" xml:id="p_00077">Hvad os Mennesker angaaer, da kjende vi jo næsten Alle Hurtigheden ved Damp, vi have prøvet den enten paa Jernbaner eller med Skibet henover Havet; dog denne Flugt er ligesom Dovendyrets Vandring eller Sneglens Marsch mod den Hurtighed, Lyset tager; det flyver nitten Millioner Gange hurtigere end den bedste Veddeløber, og dog er Electriciteten endnu hurtigere. Døden er et electrisk Stød, vi faae i Hjertet; paa Electricitetens Vinger flyver den frigjorte Sjæl. <seg target="txtcmnt-469-03"><!--DATA-TERM: Otte Minuter … nysfalden Snee--><!--DATA-DEFINITION: H.C. Andersens kilde er den engelske astronom <i>J.F.W. Herschel’s Populaire Astronomie</i>, oversat af P. Pedersen, 1836.-->Otte Minuter og nogle Secunder er Sollyset om en Reise af over tyve Millioner Mile; med Electricitetens Hurtigpost behøver Sjælen færre Minuter, for at gjøre samme Flugt. Rummet mellem Kloderne er for den ei større, end det i een og samme By er for os mellem vore Venners Huse, selv om disse ligge temmeligt nær ved hinanden, imidlertid koster dette electriske Hjertestød os Legemets Brug hernede, dersom vi ikke, ligesom Vægteren her, have Lykkens Kalosker paa.</seg></p>
+
+<pb n="470"/>
+
+<p rend="firstIndent" xml:id="p_00078"><seg target="txtcmnt-469-03"><!--DATA-TERM: Otte Minuter … nysfalden Snee--><!--DATA-DEFINITION: H.C. Andersens kilde er den engelske astronom <i>J.F.W. Herschel’s Populaire Astronomie</i>, oversat af P. Pedersen, 1836.-->I nogle Secunder var Vægteren faret de 52,000 Mile til Maanen, der, som man veed, er skabt af et Stof, langt lettere end vor Jord, og er hvad vi ville kalde blød, som nysfalden Snee</seg>. Han befandt sig paa et af de utallige mange Ringbjerge, som vi kjende af <seg target="txtcmnt-470-01"><!--DATA-TERM: <i>Dr. Mädlers</i> … Maanen--><!--DATA-DEFINITION: den tyske astronom J.H. von Mädlers (1794-1874) <i>Mappa Selenographica</i>, Berlin 1834-1836, hvori han sammen med Wilhelm Beer havde udarbejdet detaljerede kort over månen.--><hi rend="italic">Dr. Mädlers</hi> store Kort over Maanen</seg>; for det kjender du da? indvendigt gik Ringbjerget lige steilt ned i en Kiedel, en heel dansk Miil; dernede laae en By, der havde et Udseende som Æggehvide i et Glas Vand, ligesaa blød og ligesaadan med Taarne og Kupler og seilformede Altaner, gjennemsigtige og svaiende i den tynde Luft; vor Jord svævede, som en stor ildrød Kugle over hans Hoved.</p>
+
+<p rend="firstIndent" xml:id="p_00079">Der vare saamange Skabninger, og Alle vistnok hvad vi ville kalde Mennesker, men de saae ganske anderledes ud, end vi; de havde ogsaa et Sprog, men ingen kan jo forlange, at Vægterens Sjæl skulde forstaae det, alligevel kunde den det.</p>
+
+<p rend="firstIndent" xml:id="p_00080">Vægterens Sjæl forstod meget godt Maanebeboernes Sprog. De disputerede om vor Jord og betvivlede, at den kunde være beboet, Luften maatte der være for tyk til at nogen fornuftig Maane-Skabning kunde leve i den. De ansaae alene Maanen for at have levende Væsener, den var den egentlige Klode, hvor de gamle Klodefolk boede.</p>
+
+<p rend="firstIndent" xml:id="p_00081">Men vi søge ned igjen til Østergade og see der, hvorledes Vægterens Legeme har det.</p>
+
+<p rend="firstIndent" xml:id="p_00082">Livløst sad det paa Trappen, <seg target="txtcmnt-470-02"><!--DATA-TERM: Morgenstjerne(n)--><!--DATA-DEFINITION: våben bestående af et langt skaft, hvorpå der sidder et med pigge besat hoved; en del af vægterens udstyr.-->Morgenstjernen</seg> var faldet det ud af Haanden og Øinene saae op imod Maanen efter den ærlige Sjæl, som gik om deroppe.</p>
+
+<p rend="firstIndent" xml:id="p_00083">»Hvad er Klokken Vægter?« spurgte en Forbigaaende. Men hvo der ikke svarte var Vægteren; saa knipsede han ham ganske sagte paa Næsen, og der gik Balancen; Kroppen laae saa lang den var, Mennesket var jo dødt. Der kom en stor Forskrækkelse over ham der knipsede; Vægteren var død og død blev han; det blev meldt og det blev omtalt, og i Morgenstunden bar man Kroppen ud paa Hospitalet.</p>
+
+<p rend="firstIndent" xml:id="p_00084">Det kunde nu blive en ganske <seg target="txtcmnt-470-03"><!--DATA-TERM: artig--><!--DATA-DEFINITION: morsom.-->artig</seg> Spads for Sjælen, dersom den kom tilbage og efter al Sandsynlighed søgte Kroppen paa Østergade, men ingen fandt; rimeligviis vilde den vel først løbe op paa <seg target="txtcmnt-470-04"><!--DATA-TERM: Politikammer(et)--><!--DATA-DEFINITION: politistation.-->Politikammeret</seg>, senere hen paa <seg target="txtcmnt-470-05"><!--DATA-TERM: Adresse-Contoiret--><!--DATA-DEFINITION: kontor, der videregav oplysninger af den type, som nu typisk findes i rubrikannoncer.-->Adresse-Contoiret</seg>, at den derfra kunde efterlyses mellem bortkomne Sager, og tilsidst ud paa Hospitalet; dog vi kunne trøste os med, at Sjælen er snildest, naar den er paa sin egen Haand, Legemet gjør den kun dum.</p>
+
+<p rend="firstIndent" xml:id="p_00085">Som sagt, Vægterens Krop kom paa Hospitalet, blev der bragt ind paa Renselses-Stuen, og det første man her gjorde var <pb n="471"/>naturligviis at tage Kaloskerne af, og da maatte Sjælen tilbage; den tog strax Retning lige efter Legemet, og med eet kom der Liv i Manden. Han forsikkrede, at det havde været den skrækkeligste Nat i hans Liv; ikke for to Mark vilde han have saadanne Fornemmelser igjen, men nu var jo det overstaaet.</p>
+
+<p rend="firstIndent" xml:id="p_00086">Samme Dag blev han udskrevet igjen, men Kaloskerne bleve paa Hospitalet.</p>
+
+</div>
+
+<div type="chapter" rend="IV. Et Hoved-Moment. Et Deklamations-Nummer. En høist usædvanlig Reise" xml:id="div0033"><head type="section">IV</head>
+<head type="section">Et Hoved-Moment. Et <seg target="txtcmnt-471-01"><!--DATA-TERM: Deklamations-Nummer--><!--DATA-DEFINITION: oplæsningsindslag.-->Deklamations-Nummer</seg>. En høist usædvanlig Reise</head>
+
+<p rend="noIndent" xml:id="p_00087">Enhver Kjøbenhavner veed nu, hvorledes Indgangen til <seg target="txtcmnt-471-02"><!--DATA-TERM: Frederiks Hospital--><!--DATA-DEFINITION: det nuværende kunstindustrimuseum i Bredgade; opført 1752-1757 som Danmarks første egentlige sygehus, ved oprettelsen af Rigshospitalet 1910 ophørte sygehusfunktionen.-->Frederiks Hospital</seg> i Kjøbenhavn seer ud, men da rimeligviis ogsaa nogle Ikke-Kjøbenhavnere læse denne Historie, maae vi give en kort Beskrivelse.</p>
+
+<p rend="firstIndent" xml:id="p_00088">Hospitalet er skilt fra Gaden ved et temmeligt høit Gitter, i hvilket de tykke Jernstænger staae saa vidt fra hinanden, at der fortælles, at meget tynde <seg target="txtcmnt-471-03"><!--DATA-TERM: Candidat(er)--><!--DATA-DEFINITION: kan både betyde medicinsk kandidat, læge, og patient; sammenhængen taler for det første.-->Candidater</seg> skulle have klemt sig igjennem og saaledes gjort deres smaa Visiter ude. Den Deel af Legemet, der faldt vanskeligst at practisere ud, blev Hovedet; her, som tidt i Verden, vare altsaa de smaa Hoveder de lykkeligste. Dette vil være nok, som Indledning.</p>
+
+<p rend="firstIndent" xml:id="p_00089">En af de unge <seg target="txtcmnt-471-04"><!--DATA-TERM: Volonteurer--><!--DATA-DEFINITION: medicinske studerende, der gør gratis tjeneste på hospital som led i uddannelsen.-->Volonteurer</seg>, om hvem man kun i legemlig Henseende kunde sige, at han havde et tykt Hoved, havde just Vagt denne Aften; det var en skyllende Regn; dog uagtet begge disse Hindringer maatte han ud, kun et Qvarteer, det var ikke noget, syntes han, der var værd at betroe til Portneren, naar man kunde smutte mellem Jernstængerne. Der laae de Kalosker, Vægteren havde glemt; mindst tænkte han paa, at de vare Lykkens, de kunde være meget gode i dette Veir, han tog dem paa, nu var det, om han kunde klemme sig igjennem, aldrig før havde han forsøgt det. Der stod han nu.</p>
+
+<p rend="firstIndent" xml:id="p_00090">»Gud give jeg havde Hovedet udenfor!« sagde han, og strax, skjøndt det var meget tykt og stort, gled det let og lykkeligt igjennem, det maatte Kaloskerne forstaae; men nu skulde da Kroppen ud med, her stod han.</p>
+
+<p rend="firstIndent" xml:id="p_00091">»Uh, jeg er for tyk!« sagde han, »Hovedet havde jeg tænkt, var det Værste! jeg kommer ikke igjennem.«</p>
+
+<p rend="firstIndent" xml:id="p_00092">Nu vilde han rask tage Hovedet tilbage, men det gik ikke. Halsen kunde han beqvemt bevæge, men det var ogsaa Alt. Den første Følelse var, at han blev vred, den anden, at Hu<pb n="472"/>meuret sank lige ned under Nul. Lykkens Kalosker havde bragt ham i den skrækkeligste Stilling, og ulykkeligviis faldt det ham ikke ind, at ønske sig fri, nei, han handlede og kom saa ikke af Stedet. Regnen skyllede ned, ikke et Menneske var at see paa Gaden. Portklokken kunde han ikke naae, hvorledes skulde han dog slippe løs. Han forudsaae, at her kunde han komme til at staae til Morgenstunden, saa maatte man da sende Bud efter en Smed, for at Jernstængerne kunde files over, men det gik ikke saa <seg target="txtcmnt-472-01"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg>, hele <seg target="txtcmnt-472-02"><!--DATA-TERM: den blaa Drengeskole--><!--DATA-DEFINITION: Det Kgl. Opfostringshus, som lå i St. Kongensgade med udgang til Bredgade.-->den blaa Drengeskole</seg> ligeoverfor vilde komme paa Benene, hele Nyboder <seg target="txtcmnt-472-03"><!--DATA-TERM: arrivere--><!--DATA-DEFINITION: ankomme.-->arrivere</seg>, for at see ham staae i Gabestokken, der vilde blive Tilløb, ganske anderledes, end til <seg target="txtcmnt-472-04"><!--DATA-TERM: Kjæmpe-Agaven--><!--DATA-DEFINITION: Agave americana (Mexico) blomstrer efter 6-10 års forløb, i danske drivhuse dog først efter 40-60 år. I 1836 blomstrede en 60-årig, 6 m høj agave i København.-->Kjæmpe-Agaven</seg> ifjor. »Hu! Blodet stiger mig til Hovedet, saa jeg maa blive gal! – ja jeg bliver gal! o gid jeg var vel løs igjen, saa gik det vel over!«</p>
+
+<p rend="firstIndent" xml:id="p_00093">See, det skulde han have sagt noget før, øieblikkelig, som Tanken var udtalt, havde han Hovedet frit, og styrtede nu ind, ganske forstyrret over den Skræk, Lykkens Kalosker havde bragt ham i.</p>
+
+<p rend="firstIndent" xml:id="p_00094">Hermed maae vi slet ikke troe, at det Hele var forbi, nei – det bliver værre endnu.</p>
+
+<p rend="firstIndent" xml:id="p_00095">Natten gik og den følgende Dag med, der kom ingen Bud efter Kaloskerne.</p>
+
+<p rend="firstIndent" xml:id="p_00096">Om Aftenen skulde gives en Forestilling paa <seg target="txtcmnt-472-05"><!--DATA-TERM: det lille Theater--><!--DATA-DEFINITION: <i>Kalkeballen</i> på hjørnet af Store og Lille Kannikestræde, nedrevet 1918.-->det lille Theater</seg> i Kannikestrædet. Huset var propfuldt; mellem Declamations-Numerne blev givet et nyt Digt. Vi skulle høre det. Titelen var:</p>
+
+
+
+<lg xml:id="p_00097">
+     <head>Mosters Briller</head>
+<l>Min Bedstemoders Klogskab er bekjendt,</l>
+<l>Var man i »gammel Tid,« blev hun vist brændt.</l>
+<l>Hun veed Alt hvad der skeer, ja meget meer,</l>
+<l>Hun lige ind i næste Aargang seer,</l>
+<l>Ja ind i »fyrgetyve«, det er noget,</l>
+<l>Men hun vil aldrig rigtig ud med Sproget.</l>
+<l>Hvad mon vel i det næste Aar vil skee?</l>
+<l>Hvad mærkeligt? Ja, jeg gad gjerne see</l>
+<l>Min egen Skjæbne, Kunstens, Land og Riges,</l>
+<l>Men Bedstemoder vil, sligt skal ei siges.</l>
+<l>Jeg plaged’ hende da, og det gik godt,</l>
+<l>Først var hun taus, saa skjændte hun saa smaat,</l>
+<l>Det var for mig en Præd’ken opad Vægge,</l>
+<l>Jeg er jo hendes egen Kjæledægge!</l>
+<l><pb n="473"/>»For denne ene Gang din Lyst jeg stiller,«</l>
+<l>Begyndte hun og gav mig sine Briller,</l>
+<l>»Nu gaaer Du hen et Sted, hvor selv Du vil,</l>
+<l>Et Sted, hvor mange Godtfolk strømme til,</l>
+<l>Hvor bedst Du <seg target="txtcmnt-473-01"><!--DATA-TERM: overseer--><!--DATA-DEFINITION: overskuer.-->overseer</seg> dem, Du dig stiller,</l>
+<l>Og seer paa Mængden gjennem mine Briller,</l>
+<l>Strax vil de Alle, tro Du mig paa Ordet,</l>
+<l>See ud, som et Spil Kort, lagt op paa Bordet;</l>
+<l>Af disse kan Du spaae, hvad der skal skee!«</l>
+</lg>
+
+<lg xml:id="p_00098"><l>Jeg sagde Tak og løb afsted og vilde see,</l>
+<l>Men, tænkte jeg, hvor mon de Fleste komme?</l>
+<l>Paa <seg target="txtcmnt-473-02"><!--DATA-TERM: Langelinie--><!--DATA-DEFINITION: før den nuværende havnepromenade navn på en spadseresti ved Kastelsvolden.-->Langelinie</seg>? Der man bli’er forkjølet.</l>
+<l>Paa Østergade? Bah! der er saa sølet!</l>
+<l>Men i Theatret? det var ganske deiligt,</l>
+<l>Den Aftenunderholdning falder just beleiligt –</l>
+<l>– Her er jeg da! mig selv jeg forestiller;</l>
+<l>Tillader De, jeg bruger Mosters Briller,</l>
+<l>Alene for at see – gaae dog ei bort!</l>
+<l>At see, om De see ud, som et Spil Kort,</l>
+<l>Af hvilket jeg kan spaae, hvad Tiden skjænker.</l>
+<l>– Jeg deres Taushed som et Ja mig tænker;</l>
+<l>Til Tak skal De da blive med indviet.</l>
+<l>Her er’ vi allesammen paa Partiet.</l>
+<l>Jeg spaaer for Dem, for mig, for Land og Rige,</l>
+<l>Nu vil vi see, hvad Kortene kan sige.</l>
+<l><hi rend="italic">(Og saa satte han Brillerne paa.)</hi></l>
+<l>Jo, det er rigtigt! nei, nu maa jeg lee!</l>
+<l>O, gid De kunde komme op at see!</l>
+<l>Hvor her er grumme mange <seg target="txtcmnt-473-03"><!--DATA-TERM: Herreblade--><!--DATA-DEFINITION: billedkortene i et kortspil.-->Herreblade</seg>,</l>
+<l>Og Hjerter Damer, her er’ hele Rade.</l>
+<l>Det Sorte der, ja det er Klø’er og Spa’er.</l>
+<l>– Nu snart et rigtigt Overblik jeg ha’er.</l>
+<l>Spa’erdame seer jeg der med megen Vægt</l>
+<l>Har sine Tanker vendt til Ruderknægt.</l>
+<l>O, denne Skuen gjør mig halv beruset!</l>
+<l>Der ligge mange Penge her til Huset,</l>
+<l>Og Fremmede fra Verdens anden Side.</l>
+<l>Men det var ikke det vi vilde vide.</l>
+<l>Om <seg target="txtcmnt-473-04"><!--DATA-TERM: Stænderne--><!--DATA-DEFINITION: rådgivende stænderforsamlinger var indført i 1834.-->Stænderne</seg>? Lad see! – ja hen i <hi rend="italic"><seg target="txtcmnt-473-05"><!--DATA-TERM: Tiden--><!--DATA-DEFINITION: tidsskrift, udgivet af T.G. Repp 1848-1849.-->Tiden</seg></hi>!</l>
+<l>Men derom er det man skal læse siden;</l>
+<l>Hvis nu jeg sladdrer, skader jeg jo Bladet,</l>
+<l><pb n="474"/>Jeg vil ei tage bort det bedste Been af Fadet.</l>
+<l>Theatret da? – Hver Nyhed? Smagen? Tonen?</l>
+<l>Nei, jeg vil staae mig godt med Directionen.</l>
+<l>Min egen Fremtid? Ja, De veed, eens eget,</l>
+<l>Det ligger os paa Hjertet grumme meget!</l>
+<l>Jeg seer! –</l>
+<l>Jeg kan ei sige, hvad jeg seer,</l>
+<l>Men De vil høre det, saasnart det skeer.</l>
+<l>Hvo er vel lykkeligst af os herinde?</l>
+<l>Den Lykkeligste? Let jeg den skal finde!</l>
+<l>Det er jo, – nei, det kan saa let genere,</l>
+<l>Ja muligtviis vil det bedrøve Flere!</l>
+<l>Hvo lever længst? Den Dame der, den Herre?</l>
+<l>Nei, sige Sligt, er endnu meget værre!</l>
+<l>Om –? Ja tilsidst saa veed jeg selv det ei;</l>
+<l>Jeg er genert, saa let man En kan krænke:</l>
+<l>Nu, jeg vil see da, hvad de troe og tænke</l>
+<l>Jeg ved min hele Spaadoms Kraft skal skjænke.</l>
+<l>De troe? Nei, hvad behager? Rundtomkring</l>
+<l>De troe, det ende vil med Ingenting,</l>
+<l>De veed for vist de faae kun Klang og Kling.</l>
+<l>Saa tier jeg, høistærede Forening,</l>
+<l>Jeg skylder Dem at have deres Mening!</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00099">Digtet blev ypperligt fremsagt og Declamatoren gjorde stor Lykke. Mellem Tilskuerne var Volonteuren fra Hospitalet, der syntes at have forglemt sit Eventyr Natten forud, Kaloskerne havde han paa, thi de vare ikke blevne afhentede, og da der var sølet paa Gaden, kunde de jo gjøre ham god Tjeneste.</p>
+
+<p rend="firstIndent" xml:id="p_00100">Digtet syntes han godt om.</p>
+
+<p rend="firstIndent" xml:id="p_00101">Ideen beskjæftigede ham meget, han gad nok have saadanne Briller, maaskee, naar man rigtigt brugte dem, kunde man see Folk lige ind i Hjerterne, det var egentligt interessantere, meente han, end at see, hvad der skulde skee næste Aar, for det fik man nok at vide, men derimod det andet aldrig. »Jeg kan tænke mig nu hele den Række af Herrer og Damer der paa første Bænk, – kunde man see dem lige ind i Brystet, ja, der maatte da være en Aabning, en Slags Boutik; naa, hvor mine Øine skulde gaae i Boutikker! hos den Dame der vilde jeg vist finde en stor Modehandel! hos hende der er Boutikken tom, dog kan den trænge til at reengjøres; men der vilde ogsaa være solide <pb n="475"/>Boutikker! ak ja!« sukkede han, »jeg veed een, i den er Alting solidt, men der er allerede en <seg target="txtcmnt-475-01"><!--DATA-TERM: Bodsvend--><!--DATA-DEFINITION: ekspedient.-->Bodsvend</seg>, det er det eneste daarlige i hele Boutikken! Fra en og anden vilde det raabe: »Vær saa god og træd indenfor!« Ja, gid jeg kunde træde indenfor, som en net lille Tanke gaae gjennem Hjerterne!«</p>
+
+<p rend="firstIndent" xml:id="p_00102">See, det var nok for Kaloskerne, hele Volonteuren svandt sammen og en høist usædvanlig Reise begyndte midt igjennem Hjerterne paa den forreste Række Tilskuere. Det første Hjerte, han kom igjennem, var en Dames; men øieblikkelig troede han at være paa <seg target="txtcmnt-475-02"><!--DATA-TERM: det orthopædiske Institut--><!--DATA-DEFINITION: havde til huse i Store Tuborg på Strandvejen. Oprettet i 1834 af mekanikeren J.P. Langgaard (1811-1890) til behandling af lidelser i kroppens bevægelsesorganer.-->det orthopædiske Institut</seg>, som man kalder det Huus, hvor Doktoren tager Menneske-Knuder bort og faaer Folk til at blive ranke, der var han i det Værelse, hvor Gips-Afstøbningerne af de forvoxne Lemmer hænge paa Væggen; dog her var Forskjellen denne, at ude paa Institutet tages de, i det Patienten kommer ind, men her i Hjertet vare de tagne og opbevarede, i det de gode Personer vare gaaet ud. Det var Afstøbninger af Veninder, deres legemlige og aandelige Feil, som her opbevaredes.</p>
+
+<p rend="firstIndent" xml:id="p_00103">Hurtigt var han i et andet qvindeligt Hjerte, men dette syntes ham en stor hellig Kirke. Uskyldighedens hvide Due flagrede over Høi-Altret; hvor gjerne var han ikke sjunket paa Knæ, men <seg target="txtcmnt-475-03"><!--DATA-TERM: fort--><!--DATA-DEFINITION: videre.-->fort</seg> maatte han ind i det næste Hjerte, men endnu hørte han Orgeltonerne, og selv, syntes han, at være blevet et nyt og bedre Menneske, følte sig ikke uværdig til at betræde den næste Helligdom, der viste et fattigt Tagkammer, med en syg Moder; men gjennem det aabne Vindue straalede Guds varme Sol, deilige Roser nikkede fra den lille Trækasse paa Taget, og to himmelblaa Fugle sang om barnlig Glæde, medens den syge Moder nedbad Velsignelse over Datteren.</p>
+
+<p rend="firstIndent" xml:id="p_00104">Nu krøb han paa Hænder og Fødder gjennem en overfyldt Slagterbod, det var Kjød og kun Kjød han stødte paa, det var Hjertet i en riig, respectabel Mand, hvis Navn vist maa findes i Veiviseren.</p>
+
+<p rend="firstIndent" xml:id="p_00105">Nu var han i hans Gemalindes Hjerte, det var et gammelt forfaldet <seg target="txtcmnt-475-04"><!--DATA-TERM: Dueslag--><!--DATA-DEFINITION: her i overført betydning om opholdssted for unge kvinder, evt. bordel.-->Dueslag</seg>; Mandens Portrait blev brugt som Veirhane, denne stod i Forbindelse med Dørene, og saaledes gik disse op og i, saasnart som Manden dreiede sig.</p>
+
+<p rend="firstIndent" xml:id="p_00106">Derpaa kom han i et Speilkabinet, som det vi have paa Slottet Rosenborg, men Speilene forstørrede i en utrolig Grad. Midt paa Gulvet sad, som en <seg target="txtcmnt-475-05"><!--DATA-TERM: Dalai-Lama--><!--DATA-DEFINITION: overhoved for de tibetanske buddhister.-->Dalai-Lama</seg>, Personens ubetydelige Jeg, forbauset ved at see sin egen Storhed.</p>
+
+<p rend="firstIndent" xml:id="p_00107">Herefter troede han sig i et snevert Naalehuus, fuldt af spid<pb n="476"/>se Naale, det er bestemt »Hjertet af en gammel ugift Jomfru!« maatte han tænke, men det var ikke Tilfældet, det var en ganske ung Militair med flere Ordener, just, som man sagde, en Mand med Aand og Hjerte.</p>
+
+<p rend="firstIndent" xml:id="p_00108">Ganske fortumlet kom den <seg target="txtcmnt-476-01"><!--DATA-TERM: syndige--><!--DATA-DEFINITION: stakkels.-->syndige</seg> Volonteur ud af det sidste Hjerte i Rækken, han formaaede ikke at ordne sine Tanker, men meente, at det var hans alt for stærke Phantasie, der var løbet af med ham.</p>
+
+<p rend="firstIndent" xml:id="p_00109">»Herre Gud,« sukkede han, »jeg har bestemt Ansats til at blive gal! her er ogsaa utilgiveligt hedt herinde! Blodet stiger mig til Hovedet!« og nu erindrede han sig den store Begivenhed Aftenen forud, hvorledes hans Hoved havde siddet fast mellem Jernstængerne ved Hospitalet. »Der har jeg bestemt faaet det!« meente han. »Jeg maae tage den Ting itide. Et <seg target="txtcmnt-476-02"><!--DATA-TERM: russisk Bad--><!--DATA-DEFINITION: dampbad.-->russisk Bad</seg> kunde være godt. Gid jeg allerede laae paa den øverste Hylde!«</p>
+
+<p rend="firstIndent" xml:id="p_00110">Og saa laae han paa den øverste Hylde i Dampbadet, men han laae med alle Klæderne, med Støvler og Kalosker paa; de hede Vanddraaber fra Loftet dryppede ham i Ansigtet.</p>
+
+<p rend="firstIndent" xml:id="p_00111">»Hu!« skreeg han og foer ned for at faae et Styrtebad. Den opvartende Karl gav ogsaa et høit Skrig ved at see det paaklædte Menneske derinde.</p>
+
+<p rend="firstIndent" xml:id="p_00112">Volonteuren havde imidlertid saamegen Fatning, at han hvidskede til ham: »Det er et Væddemaal!« men det første han gjorde, da han kom paa sit eget Værelse, var at faae et stort <seg target="txtcmnt-476-03"><!--DATA-TERM: spansk Flueplaster--><!--DATA-DEFINITION: plaster med bl.a. pulveriseret spansk flue, hvis blod indeholder et ætsende, blæredannende stof, cantharidin, der anvendtes medicinsk som afledende middel, dvs. et middel, der skulle påvirke én del af legemet for at indvirke positivt på en anden, sygelig del; blandt andet anvendt mod sindsforvirring.-->spansk Flueplaster</seg> i Nakken og et ned af Ryggen, for at Galskaben kunde trække ud.</p>
+
+<p rend="firstIndent" xml:id="p_00113">Næste Morgen havde han da en blodig Ryg, det var det han vandt ved Lykkens Kalosker.</p>
+
+</div>
+
+<div type="chapter" rend="V. Copistens Forvandling" xml:id="div0034"><head type="section">V</head>
+<head type="section"><seg target="txtcmnt-476-04"><!--DATA-TERM: Copist(ens)--><!--DATA-DEFINITION: skriver, underordnet embedsmand.-->Copistens</seg> Forvandling</head>
+
+<p rend="noIndent" xml:id="p_00114">Vægteren, som vi vistnok ikke have glemt, huskede imidlertid paa Kaloskerne, som han havde fundet og bragt med ud paa Hospitalet; han afhentede dem, men da hverken Lieutenanten eller nogen anden i Gaden vilde kjendes ved dem, bleve de afleverede paa Politikammeret.</p>
+
+<p rend="firstIndent" xml:id="p_00115">»Det seer ud, som det var mine egne Kalosker!« sagde en at de Herrer Copister, idet han betragtede Hittegodset og stillede dem om ved Siden af sine. »Der maa mere, end et Skomager-Øie, til at skille dem fra hverandre!«</p>
+
+<pb n="477"/><p rend="firstIndent" xml:id="p_00116">»Herr Copist!« sagde en Betjent, som traadte ind med nogle Papirer.</p>
+
+<p rend="firstIndent" xml:id="p_00117">Copisten vendte sig om, talte med Manden, men da det var forbi og han saae paa Kaloskerne, var han i stor Vilderede med, om det var dem til Venstre, eller dem til Høire, som tilhørte ham. »Det maa være dem, som ere vaade!« tænkte han; men det var just feil tænkt, thi det var Lykkens, men hvorfor skulde ikke ogsaa Politiet kunne feile! han tog dem paa, fik nogle Papirer i Lommen, andre under Armen, hjemme skulde de gjennemlæses og afskrives; men nu var det just Søndagformiddag og Veiret godt, en Tour til Frederiksberg, tænkte han, kunde jeg have godt af! og saa gik han derud.</p>
+
+<p rend="firstIndent" xml:id="p_00118">Ingen kunde være et mere stille og flittigt Menneske, end denne unge Mand, vi unde ham ret denne lille Spadseretour, den vilde vistnok være saare velgjørende for ham oven paa den megen Sidden; i Begyndelsen gik han kun, uden at tænke paa nogen Ting, derfor havde Kaloskerne ikke Leilighed til at vise deres Tryllekraft.</p>
+
+<p rend="firstIndent" xml:id="p_00119">I Alleen mødte han en Bekjendt, en ung Digter, der fortalte ham, at han Dagen efter vilde begynde sin Sommerreise.</p>
+
+<p rend="firstIndent" xml:id="p_00120">»Naa, skal De nu afsted igjen!« sagde Copisten. »De er da ogsaa et lykkeligt, frit Menneske. De kan flyve hvorhen De vil, vi Andre har en Lænke om Benet!«</p>
+
+<p rend="firstIndent" xml:id="p_00121">»Men den sidder fast til Brødtræet!« svarede Digteren. »De behøver ikke at sørge for den Dag i Morgen, og bliver De gammel, saa faaer De Pension!«</p>
+
+<p rend="firstIndent" xml:id="p_00122">»De har det dog bedst!« sagde Copisten, »at sidde og digte, det er jo en Fornøielse! hele Verden siger Dem Behageligheder, og saa er De Deres egen Herre! jo, De skulde prøve, at sidde i Retten med de trivielle Sager!«</p>
+
+<p rend="firstIndent" xml:id="p_00123">Digteren rystede med Hovedet, Copisten rystede ogsaa med Hovedet, hver beholdt sin Mening og saa skiltes de ad.</p>
+
+<p rend="firstIndent" xml:id="p_00124">»Det er et eget Folkefærd, de Poeter!« sagde Copisten, »jeg gad nok prøve paa at gaae ind i saadan en Natur, selv blive en Poet, jeg er vis paa, at jeg ikke skulde skrive saadanne Klynkevers, som de andre! – – Det er ret en Foraarsdag for en Digter! Luften er saa usædvanlig klar, Skyerne saa smukke, og der er en Duft ved det Grønne! ja, i mange Aar har jeg ikke følt det, som i dette Øieblik.«</p>
+
+<p rend="firstIndent" xml:id="p_00125">Vi mærke allerede, at han er blevet Digter; iøinefaldende var det vel ikke, thi det er en taabelig Forestilling, at tænke sig en Digter anderledes end andre Mennesker, der kan mellem disse <pb n="478"/>være langt mere poetiske Naturer, end mangen stor <seg target="txtcmnt-478-01"><!--DATA-TERM: erkjendt Digter--><!--DATA-DEFINITION: anerkendt digter.-->erkjendt Digter</seg> er det; Forskjellen bliver kun, at Digteren har en bedre aandelig Hukommelse, han kan holde paa Ideen og Følelsen til den klart og tydeligt er gaaet over i Ordet, det kunne de Andre ikke. Men at gaae over fra en hverdags Natur til en begavet er altid en Overgang, og den havde Copisten nu gjort.</p>
+
+<p rend="firstIndent" xml:id="p_00126">»Den deilige Duft!« sagde han, »hvor minder den mig ikke om Violerne hos Tante Lone! Ja, det var da jeg var en lille Dreng! Herre Gud, det har jeg i mange Tider ikke tænkt paa! den gode gamle Pige! hun boede der omme bag Børsen. Altid havde hun en Qvist eller et Par grønne Skud i Vand, Vinteren maatte være saa stræng den vilde. Violerne duftede, mens jeg lagde de opvarmede Kobberskillinger paa den frosne Rude og gjorde Kighuller. Det var et <seg target="txtcmnt-478-02"><!--DATA-TERM: artigt Perspectiv--><!--DATA-DEFINITION: kønt syn eller billede (som man kunne se det i en perspektiveller kikkasse).-->artigt Perspectiv</seg>. Udenfor i Canalen laae Skibene indefrosne, forladte af hele Mandskabet, en skrigende Krage var da hele Besætningen; men naar saa Foraaret luftede, saa blev der travlt; under Sang og Hurraraab saugede man Isen itu, Skibene bleve tjærede og <seg target="txtcmnt-478-03"><!--DATA-TERM: takle(de)--><!--DATA-DEFINITION: udstyre med tovværk, dvs. gøre sejlklar.-->taklede</seg>, saa foer de til fremmede Lande; jeg er blevet her, og maa altid blive, altid sidde paa Politikammeret og see de Andre tage Pas til at reise udenlands, det er min Lod! O, ja!« sukkede han dybt, men standsede i det samme pludselig. »Herre Gud, hvad gaaer der dog af mig! saadan har jeg aldrig før tænkt eller følt! Det maa være Foraarsluften! det er baade ængsteligt og behageligt!« Han greb i Lommen til sine Papirer. »Disse give mig andet at tænke paa!« sagde han og lod Øinene glide hen over det første Blad. »<hi rend="italic">Fru Sigbrith</hi>, original Tragedie i fem Acter,« læste han, »hvad er det! og det er jo min egen <seg target="txtcmnt-478-05"><!--DATA-TERM: Haand--><!--DATA-DEFINITION: (hånd-)skrift.-->Haand</seg>. Har jeg skrevet den Tragedie? <hi rend="italic">Intriguen paa Volden eller store Bededag</hi>, <seg target="txtcmnt-478-04"><!--DATA-TERM: Vaudeville--><!--DATA-DEFINITION: (muntert, let) skuespil med indlagte sange.-->Vaudeville</seg>. – Men hvor har jeg faaet den? Man maa have puttet mig det i Lommen, her er et Brev?« ja, det var fra Theater-Directionen, Stykkerne vare forkastede og Brevet selv var slet ikke høfligt stilet. »Hm! hm!« sagde Copisten, og satte sig ned paa en Bænk; hans Tanke var saa levende, hans Hjerte saa blødt; uvilkaarligt greb han en af de nærmeste Blomster, det var en simpel lille <seg target="txtcmnt-478-06"><!--DATA-TERM: Gaaseurt--><!--DATA-DEFINITION: tusindfryd, bellis.-->Gaaseurt</seg>; hvad Botanikeren først gjennem mange Forelæsninger siger os, forkyndte den i eet Minut; den fortalte Mythen om sin Fødsel, den fortalte om Sollysets Magt, der udspændte de fine Blade og tvang dem til at dufte, da tænkte han paa Livets Kampe, der ligedan vække Følelserne i vort Bryst. Luft og Lys var Blomstens Beilere, men Lyset var den begunstigede, efter Lyset bøiede den sig, forsvandt dette, da rullede den sine Blade <pb n="479"/>sammen og sov ind under Luftens <seg target="txtcmnt-479-01"><!--DATA-TERM: Omarmelse--><!--DATA-DEFINITION: omfavnelse.-->Omarmelse</seg>. »Det er Lyset, der smykker mig!« sagde Blomsten; »men Luften lader dig aande!« hviskede Digterstemmen.</p>
+
+<p rend="firstIndent" xml:id="p_00127">Tæt ved stod en Dreng og slog med sin Stok i en muddret Grøft, Vanddraaberne stænkede op imellem de grønne Grene, og Copisten tænkte paa de Millioner usynlige Dyr, der i Draaberne bleve kastede i en Høide, der efter deres Størrelse var for dem, som det vilde være for os at hvirvles høit over Skyerne. Idet Copisten tænkte herpaa og paa hele den Forandring, der var foregaaet med ham, smilte han: »jeg sover og drømmer! mærkværdigt er det alligevel, hvor man dog kan drømme naturligt og selv vide, at det kun er en Drøm. Gid jeg imorgen kunde huske det, naar jeg vaagner; nu synes jeg at være ganske usædvanlig oplagt! jeg har et klart Blik over Alting, føler mig saa opvakt, men jeg er vis paa, at naar jeg imorgen husker noget af det, saa er det Vrøvl, det har jeg prøvet før! Det gaaer med alt det Kloge og Prægtige, man hører og siger i Drømme, som med de Underjordiskes Guld: idet man faaer det, er det rigt og herligt, men seet ved Dagen, kun Stene og visne Blade: Ak,« sukkede han ganske veemodig og saae paa de syngende Fugle, der nok saa fornøiede hoppede fra Green til Green. »De har det meget bedre end jeg! flyve, det er en deilig Kunst, lykkelig den, som er født med den! ja skulde jeg gaae over i noget, saa skulde det være saadan en lille Lærke!«</p>
+
+<p rend="firstIndent" xml:id="p_00128">I det samme slog Kjoleskjøder og Ærmer sammen i Vinger, Klæderne bleve Fjer og Kaloskerne Kløer; han mærkede det meget godt og loe indvortes: »saa, nu kan jeg da see, jeg drømmer! men saa naragtigt har jeg aldrig gjort det før;« og han fløi op i de grønne Grene og sang, men der var ikke Poesie i Sangen, thi Digternaturen var borte; Kaloskerne kunde, som enhver der gjør noget til Gavns, kun gjøre een Ting af Gangen, han vilde være Digter, det blev han, nu vilde han være en lille Fugl, men ved at blive denne, ophørte den forrige Eiendommelighed.</p>
+
+<p rend="firstIndent" xml:id="p_00129">»Det er <seg target="txtcmnt-479-02"><!--DATA-TERM: artigt nok--><!--DATA-DEFINITION: her: fint nok, passende.-->artigt nok</seg>,« sagde han, »om Dagen sidder jeg paa Politikammeret mellem de solideste <seg target="txtcmnt-479-03"><!--DATA-TERM: Afhandlinger--><!--DATA-DEFINITION: drøftelser.-->Afhandlinger</seg>, om Natten kan jeg drømme at flyve som Lærke i Frederiksberghave, der kunde s’gu’ skrives en heel Folkecomedie derom!«</p>
+
+<p rend="firstIndent" xml:id="p_00130">Nu fløi han ned i Græsset, dreiede Hovedet om til alle Sider og slog med Næbet paa de smidige Græsstraae, der i Forhold til hans nærværende Størrelse syntes store, som Nord-Afrikas Palmegrene.</p>
+
+<p rend="firstIndent" xml:id="p_00131">Det var kun et Øieblik og det blev kulsort Nat omkring ham; <pb n="480"/>en, som han syntes, uhyre Gjenstand, blev kastet hen over ham, det var en stor Kasket, som en Dreng fra Nyboder kastede over Fuglen, en Haand kom ind og greb Copisten om Ryg og Vinger, saa han peeb; i første Forskrækkelse raabte han høit: »Din uforskammede Hvalp! Jeg er Copist i Politikamret!« men det lød for Drengen som et pipipi! han slog Fuglen paa Næbet og vandrede afsted.</p>
+
+<p rend="firstIndent" xml:id="p_00132">I Alleen mødte han to Skoledrenge af <seg target="txtcmnt-480-01"><!--DATA-TERM: den dannede Classe--><!--DATA-DEFINITION: her: det bedre borgerskab.-->den dannede Classe</seg>, det vil sige, som Mennesker betragtet, som Aander vare de i Skolens nederste; de kjøbte Fuglen for otte Skilling, og saaledes kom Copisten til Kjøbenhavn, hjem til en Familie i Gothersgaden.</p>
+
+<p rend="firstIndent" xml:id="p_00133">»Det er godt, jeg drømmer!« sagde Copisten, »ellers blev jeg s’gu’ vred! først var jeg Poet, nu en Lærke! ja det var da Poet-Naturen, der fik mig over i det lille Dyr! Det er dog en ynkelig Ting, især naar man falder i Hænderne paa nogle Drenge. Jeg gad nok vide, hvorledes dette løber af!«</p>
+
+<p rend="firstIndent" xml:id="p_00134">Drengene førte ham ind i en meget elegant Stue; en tyk leende Frue tog imod dem, men hun var slet ikke fornøiet med, at den simple Markfugl, som hun kaldte Lærken, kom med ind, dog for i Dag vilde hun lade det gaae, og de maatte sætte den i det tomme Buur, som stod ved Vinduet! »det kan maaskee fornøie Poppedreng!« tilføiede hun og loe hen til en stor grøn Papegøie, der gyngede fornemt i sin Ring i det prægtige Messingbuur. »Det er Poppedrengs Geburtsdag!« sagde hun dum naiv, »derfor vil den lille Markfugl gratulere!«</p>
+
+<p rend="firstIndent" xml:id="p_00135">Poppedreng svarede ikke et eneste Ord, men gyngede fornemt frem og tilbage, derimod begyndte en smuk Canarifugl, der sidste Sommer var bragt hertil fra sit varme, duftende Fædreland, høit at synge.</p>
+
+<p rend="firstIndent" xml:id="p_00136">»Skraalhans!« sagde Fruen og kastede et hvidt Lommetørklæde over Buret.</p>
+
+<p rend="firstIndent" xml:id="p_00137">»Pipi!« sukkede den, »det var et skrækkeligt Sneeveir!« og med dette Suk taug den.</p>
+
+<p rend="firstIndent" xml:id="p_00138">Copisten, eller, som Fruen sagde, Markfuglen, kom i et lille Buur tæt op til Canarifuglen, ikke langt fra Papegøien. Den eneste menneskelige <seg target="txtcmnt-480-02"><!--DATA-TERM: Tirade--><!--DATA-DEFINITION: højtravende ordflom; her: replik.-->Tirade</seg>, Poppedreng kunde frempluddre, og som tidt faldt ret <seg target="txtcmnt-480-03"><!--DATA-TERM: komik--><!--DATA-DEFINITION: komisk.-->komik</seg>, var den: »<hi rend="italic">nei, lad os nu være Mennesker!</hi>« Alt det øvrige den skreg, var ligesaa uforstaaeligt, som Kanarifuglens Qviddren, kun ikke for Copisten, der nu selv var en Fugl; han forstod inderligt godt Kammeraterne.</p>
+
+<p rend="firstIndent" xml:id="p_00139">»Jeg fløi under den grønne Palme og det blomstrende <pb n="481"/>Mandeltræ!« sang Canarifuglen, »jeg fløi med mine Brødre og Søstre henover de prægtige Blomster og over den glasklare Sø, hvor Planterne nikkede paa Bunden. Jeg saae ogsaa mange deilige Papegøier, der fortalte de morsomste Historier, saa lange og saa mange!«</p>
+
+<p rend="firstIndent" xml:id="p_00140">»Det var vilde Fugle;« svarede Papegøien, »de havde ingen Dannelse. Nei, lad os nu være Mennesker! – Hvorfor leer Du ikke? Naar Fruen og alle de Fremmede kan lee deraf, saa kan Du ogsaa. Det er en stor Mangel, ikke at kunne <seg target="txtcmnt-481-01"><!--DATA-TERM: goutere--><!--DATA-DEFINITION: værdsætte.-->goutere</seg> det Moersomme. Nei, lad os nu være Mennesker!«</p>
+
+<p rend="firstIndent" xml:id="p_00141">»O husker Du de smukke Piger, som dandsede under det udspændte Telt ved de blomstrende Træer? Husker Du de søde Frugter og den kjølende Saft i de vildt voxende Urter?«</p>
+
+<p rend="firstIndent" xml:id="p_00142">»O ja!« sagde Papegøien, »men her har jeg det langt bedre! jeg har god Mad og en <seg target="txtcmnt-481-02"><!--DATA-TERM: intim--><!--DATA-DEFINITION: kærlig, familiær.-->intim</seg> Behandling; jeg veed, jeg er et godt Hoved, og mere forlanger jeg ikke. Lad os nu være Mennesker! Du er en Digtersjæl, som de kalde det, jeg har grundige Kundskaber og <seg target="txtcmnt-481-03"><!--DATA-TERM: Vittighed--><!--DATA-DEFINITION: kløgt.-->Vittighed</seg>, Du har dette Genie, men ingen Besindighed, gaaer op i disse høie Naturtoner, og derfor dække de Dig til. Det byde de ikke mig, nei, for jeg har kostet dem noget mere! jeg imponerer med Næbet og kan <seg target="txtcmnt-481-04"><!--DATA-TERM: slaae en »Witz--><!--DATA-DEFINITION: fortælle en vittighed.-->slaae en »Witz</seg>! Witz! Witz!« nei lad os nu være Mennesker!«</p>
+
+<p rend="firstIndent" xml:id="p_00143">»O mit varme, blomstrende Fædreneland!« sang Canarifuglen, »jeg vil synge om dine mørkegrønne Træer, om dine stille Havbugter, hvor Grenene kysse den klare Vandflade, synge om alle mine glimrende Brødres og Søstres Jubel, hvor »Ørkenens Plantekilder« groe!«<note type="footnote"><!--* --><p rend="noIndent">* <hi rend="italic">Cactus.</hi></p></note></p>
+
+<p rend="firstIndent" xml:id="p_00144">»Lad dog bare være med de Klynke-Toner« sagde Papegøien. »Siig noget, man kan lee af! Latter er Tegn paa det høieste aandelige Standpunkt. See om en Hund eller Hest kan lee! nei, græde kan den, men lee, det er alene givet Menneskene. Ho, ho, ho!« loe Poppedreng og tilføiede sin Witz: »Lad os nu være Mennesker.«</p>
+
+<p rend="firstIndent" xml:id="p_00145">»Du lille graa danske Fugl,« sagde Canarifuglen, »Du er ogsaa blevet Fange! der er vist koldt i dine Skove, men der er dog Frihed, flyv ud! De har glemt at lukke for dig; det øverste Vindue staaer aabent. Flyv, flyv!«</p>
+
+<p rend="firstIndent" xml:id="p_00146">Og det gjorde Copisten, vips var han ude af Buret; i det samme knagede den halvaabne Dør ind til det næste Værelse, og smidig, med grønne, skinnende Øine, sneg Huuskatten sig ind og gjorde Jagt paa ham. Canarifuglen flagrede i Buret,
+
+<pb n="482"/>Papegøien slog med Vingerne og raabte: »Lad os nu være Mennesker!« Copisten følte den dødeligste Skræk og fløi afsted igjennem Vinduet, over Huse og Gader; tilsidst maatte han hvile sig lidt.</p>
+
+<p rend="firstIndent" xml:id="p_00147">Gjenboens Huus havde noget hjemligt; et Vindue stod aabent, han fløi derind, det var hans eget Værelse; han satte sig paa Bordet.</p>
+
+<p rend="firstIndent" xml:id="p_00148">»Lad os nu være Mennesker!« sagde han uden selv at tænke paa hvad han sagde, det var efter Papegøien, og i samme Øieblik var han Copisten, men han sad paa Bordet.</p>
+
+<p rend="firstIndent" xml:id="p_00149">»Gud bevar’os!« sagde han, »hvor er jeg kommet her op og saaledes faldet i Søvn! det var ogsaa en urolig Drøm jeg havde. Noget dumt <seg target="txtcmnt-482-01"><!--DATA-TERM: Tøi--><!--DATA-DEFINITION: vås.-->Tøi</seg> var den hele Historie!«</p>
+
+</div>
+
+<div type="chapter" rend="VI. Det Bedste Kaloskerne bragte" xml:id="div0035"><head type="section">VI</head>
+<head type="section">Det Bedste Kaloskerne bragte</head>
+
+<p rend="noIndent" xml:id="p_00150">Dagen efter, i den tidlige Morgenstund, da Copisten endnu laae i Sengen, bankede det paa hans Dør, det var Naboen i samme Etage, en Student, der læste til at blive Præst; han traadte ind.</p>
+
+<p rend="firstIndent" xml:id="p_00151">»Laan mig dine Kalosker,« sagde han, »der er saa vaadt i Haven, men Solen skinner deiligt, jeg vilde nok ryge en Pibe dernede.«</p>
+
+<p rend="firstIndent" xml:id="p_00152">Kaloskerne fik han paa og var snart nede i Haven, der eiede et Blomme- og et Pæretræ. Selv en saa lille Have, som denne var, gjelder inde i Kjøbenhavn for en stor Herlighed.</p>
+
+<p rend="firstIndent" xml:id="p_00153">Studenten gik op og ned i Gangen; Klokken var kun sex; ude fra Gaden klang et Posthorn.</p>
+
+<p rend="firstIndent" xml:id="p_00154">»O, reise! reise!« udbrød han, »det er dog det lykkeligste i Verden! det er mine Ønskers høieste Maal! da vilde denne Uro, jeg føler, stilles. Men langt bort skulde det være! jeg vilde see det herlige Schweitz, reise i Italien og –«</p>
+
+<p rend="firstIndent" xml:id="p_00155">Ja, godt var det at Kaloskerne virkede lige strax, ellers var han kommet omkring alt for meget baade for sig selv og os Andre. Han reiste. Han var midt inde i Schweitz, men med otte Andre pakket ind i det Inderste af en Diligence; ondt i Hovedet havde han, træt i Nakken følte han sig, og Blodet var sjunket ham ned i Benene, der ophovnede og klemtes af Støvlerne. Han svævede mellem en blundende og en vaagen Tilstand. I sin Lomme til Høire havde han <seg target="txtcmnt-482-02"><!--DATA-TERM: Creditiv(et)--><!--DATA-DEFINITION: fuldmagt, anvisning på et beløb. -->Creditivet</seg>, i sin Lomme til Venstre Passet og i en lille Skindpung paa Brystet nogle fastsyede <seg target="txtcmnt-482-03"><!--DATA-TERM: Louisd’orer--><!--DATA-DEFINITION: franske guldmønter.-->Louisd’orer</seg>; hver Drøm forkyndte, at en eller anden af disse <pb n="483"/>Kostbarheder var tabt, og derfor foer han feberagtig op, og den første Bevægelse, Haanden gjorde, var en Trekant fra Høire til Venstre og op mod Brystet, for at føle, om han havde dem eller ei. Parapluier, Stokke og Hatte gyngede i Nættet oven over, og forhindrede saa temmeligt Udsigten, der var høist imponerende, han skottede til den, medens Hjertet sang, hvad i det mindste een Digter, vi kjende, har sjunget i Schweitz, men ikke til Dato ladet trykke:</p>
+
+<lg xml:id="p_00156">
+<l><seg target="txtcmnt-483-01" type="dfnStart"/><!--DATA-TERM: Ja, her er … at være--><!--DATA-DEFINITION: verset stammer fra H.C. Andersens dagbog den 16. august 1833.-->Ja, her er saa smukt, som Hjertet vil,</l>
+<l>Jeg øiner Montblanc, min Kjære.</l>
+<l>Gid bare Pengene vil slaae til,</l>
+<l>Ak, saa var her godt at være<seg target="txtcmnt-483-01" type="dfnEnd"/>!</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00157">Stor, alvorlig og mørk var den hele Natur rundt om. Granskovene syntes Lyngtoppe paa de høie Klipper, hvis Top skjultes i Skytaagen; nu begyndte det at snee; den kolde Vind blæste.</p>
+
+<p rend="firstIndent" xml:id="p_00158">»Uh!« sukkede han, »gid vi vare paa den anden Side af Alperne, saa var det Sommer og saa havde jeg hævet Penge paa mit Creditiv; den Angst, jeg er i for disse, gjør at jeg ikke nyder Schweitz, o, gid jeg var paa den anden Side!«</p>
+
+<p rend="firstIndent" xml:id="p_00159">Og saa var han paa den anden Side; dybt inde i Italien var han, mellem <seg target="txtcmnt-483-02"><!--DATA-TERM: Florents--><!--DATA-DEFINITION: Firenze.-->Florents</seg> og Rom. Søen <hi rend="italic"><seg target="txtcmnt-483-03"><!--DATA-TERM: Tracymenes--><!--DATA-DEFINITION: Lago Trasimeno, Trasimenersøen.-->Tracymenes</seg></hi> laae i Aftenbelysning, som et flammende Guld, mellem de mørkeblaa Bjerge; her, hvor <seg target="txtcmnt-483-04"><!--DATA-TERM: <i>Hannibal</i> slog <i>Flaminius</i>--><!--DATA-DEFINITION: den kartagiske feltherre Hannibal (247-183 f.Kr.) slog romerne under ledelse af Gaius Flaminius (død 217 f.Kr.) ved Trasimenersøen under den 2. puniske krig i 217 f.Kr.--><hi rend="italic">Hannibal</hi> slog <hi rend="italic">Flaminius</hi></seg>, holdt nu Viinrankerne hinanden fredeligt i de grønne Fingre; yndige halvnøgne Børn vogtede en Flok kulsorte Sviin under en Gruppe duftende Laurbærtræer ved Veien. Kunde vi ret give dette Malerie, Alle vilde juble: »Deilige Italien!« men det sagde slet ikke Theologen eller een eneste af hans Reisefæller inde i <seg target="txtcmnt-483-05"><!--DATA-TERM: Veturin(ens)--><!--DATA-DEFINITION: hyrekusk.-->Veturinens</seg> Vogn.</p>
+
+<p rend="firstIndent" xml:id="p_00160">I tusindeviis fløi giftige Fluer og Myg ind til dem, forgjæves pidskede de omkring sig med en Myrthegren, Fluerne stak alligevel; ikke eet Menneske var der i Vognen, uden at jo hans Ansigt var opsvulmet og blodigt af Bid. De stakkels Heste saae ud som Aadsler, Fluerne sad i store Kager paa dem, og kun øieblikkelig hjalp det, at Kudsken steg ned og skrabede Dyrene af. Nu sank Solen, en kort, men isnende Kulde gik igjennem hele Naturen, det var slet ikke behageligt; men rundt om fik Bjerge og Skyer den deiligste grønne Farve, saa klar, saa skinnende – ja gaae selv hen at see, det er bedre end at læse Beskrivelsen! det var mageløst! det fandt de Reisende ogsaa, men – Maven var tom, Legemet træt, al Hjertets Længsel dreiede sig efter et <pb n="484"/>Natteqvarteer; men hvorledes vilde dette blive? Man saae langt inderligere efter dette, end efter den skjønne Natur.</p>
+
+<p rend="firstIndent" xml:id="p_00161">Veien gik gjennem en Olivenskov, det var som kjørte han i Hjemmet mellem knudrede Pile, her laae det eensomme Vertshuus. En halvsnees tiggende Krøblinger havde leiret sig udenfor, den raskeste af dem saae ud som »<seg target="txtcmnt-484-01"><!--DATA-TERM: Hungerens ældste Søn … Myndigheds-Alder--><!--DATA-DEFINITION: hentydning til den historiske roman i to bind med titlen <i>Snarleyyow, or the Dog Fiend</i>, 1837 (dansk oversættelse <i>Snarleyyaw eller Den djævelske Hund</i>, oversat af H. Ipsen, april og juni 1838) af den engelske forfatter Frederick (Capitain) Marryat (1792-1848). H.C. Andersen havde oversat romanens sange. I første bind (s. 11) præsenteres Smallbones, en af fortællingens centrale figurer: »Han lignede Hungerens ældste Søn, der just havde naaet sin Myndigheds-Alder«.-->Hungerens ældste Søn, der havde naaet sin Myndigheds-Alder</seg>«,<note type="footnote"><!--* --><p rend="noIndent">* <hi rend="italic">Snarleyyaw.</hi></p></note> de Andre vare enten blinde, havde visne Been og krøb paa Hænderne, eller indsvundne Arme med fingerløse Hænder. Det var ret Elendigheden trukket frem af Pjalterne. »<hi rend="italic"><seg target="txtcmnt-484-02"><!--DATA-TERM: Eccellenza, miserabili--><!--DATA-DEFINITION: (italiensk) nådige Herre, vi er nødlidende.-->Eccellenza, miserabili</seg>!</hi>« sukkede de og strakte de syge Lemmer frem. Vertinden selv med bare Fødder, uredt Haar og kun iført en smudsig Bluse, tog imod Gjæsterne. Dørene vare bundne sammen med Seglgarn; Gulvet i Værelserne frembød en halv oprodet Brolægning med Muurstene; Flagermuus fløi hen under Loftet, og Stanken herinde – –</p>
+
+<p rend="firstIndent" xml:id="p_00162">»Ja, vil hun dække nede i Stalden!« sagde een af de Reisende, »dernede veed man dog hvad det er man indaander!«</p>
+
+<p rend="firstIndent" xml:id="p_00163">Vinduerne bleve aabnede, for at der kunde komme lidt frisk Luft, men hurtigere end denne kom de visne Arme ind og den evige Klynken: <hi rend="italic">miserabili, Eccellenza!</hi> Paa Væggene stode mange Inskriptioner, Halvdelen var imod <hi rend="italic"><seg target="txtcmnt-484-03"><!--DATA-TERM: bella Italia--><!--DATA-DEFINITION: (italiensk) det smukke Italien.-->bella Italia</seg></hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00164">Maden blev bragt frem; der var en Suppe af Vand, kryddret med Peber og harsk Olie, og saa nok engang den samme Olie paa Salaten; fordærvede Æg og stegte Hanekamme vare Pragtretterne; selv Vinen havde Afsmag, det var en sand <seg target="txtcmnt-484-04"><!--DATA-TERM: Mixtur--><!--DATA-DEFINITION: besk medicin.-->Mixtur</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00165">Til Natten bleve Kufferterne stillede op for Døren; een af de Reisende havde Vagt, medens de Andre sov; Theologen var den Vagthavende; o hvor kvalmt var der ikke herinde! Heden trykkede, Myggene surrede og stak, <hi rend="italic">miserabili</hi> udenfor klynkede i Søvne.</p>
+
+<p rend="firstIndent" xml:id="p_00166">»Ja, reise er godt nok!« sukkede Studenten, »havde man bare intet Legeme! kunde dette hvile og Aanden derimod flyve. Hvor jeg kommer, er der et Savn, der trykker Hjertet; noget bedre, end det Øieblikkelige, er det jeg vil have; ja noget bedre, det Bedste, men hvor og hvad er det! jeg veed i Grunden nok, hvad jeg vil, jeg vil til et lykkeligt Maal, det Lykkeligste af Alle!«</p>
+
+<p rend="firstIndent" xml:id="p_00167">Og i det Ordet var udtalt, var han i Hjemmet; de lange hvide Gardiner hang ned for Vinduet og midt paa Gulvet stod den <pb n="485"/>sorte Liigkiste, i den laae han i sin stille Dødssøvn, hans Ønske var opfyldt, Legemet hvilte, Aanden reiste. Priis Ingen lykkelig, før han er i sin Grav, var <seg target="txtcmnt-485-01"><!--DATA-TERM: <i>Solons</i> Ord--><!--DATA-DEFINITION: Solon, græsk statsmand og digter, en af oldtidens syv vise (ca. 640-560 f.Kr.), svarede ifølge den græske historiker Herodot kong Kroisos (Krøsus) på spørgsmålet om hans postulerede lykke med et udsagn om, at før døden er ingen lykkelig (sml. <i>Herodots historie</i>, 1. bog, kap. 32, oversat af Thure Hastrup og Leo Hjortsø, 1979, bind 1, s. 32).--><hi rend="italic">Solons</hi> Ord</seg>, her fornyedes Bekræftelsen.</p>
+
+<p rend="firstIndent" xml:id="p_00168">Ethvert Liig er Udødelighedens <seg target="txtcmnt-485-02"><!--DATA-TERM: Sphinx--><!--DATA-DEFINITION: her: gåde; egentlig fabelvæsen med menneskehoved og dyrekrop.-->Sphinx</seg>; heller ikke Sphinxen her i den sorte Kiste besvarede for os, hvad den Levende to Dage forud havde nedskrevet:</p>
+
+<lg xml:id="p_00169">
+<l>Du stærke Død, din Taushed vækker Gru;</l>
+<l>Dit Spor er jo kun Kirkegaardens Grave.</l>
+<l>Skal Tankens <seg target="txtcmnt-485-03"><!--DATA-TERM: Jakobs-Stige--><!--DATA-DEFINITION: jf. 1. Mosebog 28,12.-->Jakobs-Stige</seg> gaae itu?</l>
+<l>Staaer jeg kun op, som Græs i Dødens Have?</l>
+</lg>
+
+<lg xml:id="p_00170">
+<l>Vor største Liden tidt ei Verden seer!</l>
+<l>Du, som var ene, lige til det sidste,</l>
+<l>I Verden meget trykker Hjertet meer,</l>
+<l>End Jorden, som de kaste paa din Kiste!</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00171">To Skikkelser bevægede sig i Værelset; vi kjende dem begge: det var <hi rend="italic">Sorgens</hi> Fee og <hi rend="italic">Lykkens</hi> Udsendte; de bøiede sig over den Døde.</p>
+
+<p rend="firstIndent" xml:id="p_00172">»Seer Du,« sagde <hi rend="italic">Sorgen</hi>, »hvad Lykke bragte vel dine Kalosker Menneskeheden?«</p>
+
+<p rend="firstIndent" xml:id="p_00173">»De bragte i det mindste ham, som sover her, et varigt Gode!« svarede <hi rend="italic">Glæden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00174">»O nei!« sagde <hi rend="italic">Sorgen</hi>; »Selv gik han bort, han blev ikke kaldet! hans aandelige Kraft her var ikke stærk nok til at hæve de Skatte hist, som han efter sin Bestemmelse maa hæve! Jeg vil vise ham en Velgjerning!«</p>
+
+<p rend="firstIndent" xml:id="p_00175">Og hun tog Kaloskerne af hans Fødder; da var Dødssøvnen endt, den <seg target="txtcmnt-485-04"><!--DATA-TERM: Gjenoplevede--><!--DATA-DEFINITION: genoplivede.-->Gjenoplevede</seg> reiste sig. <hi rend="italic">Sorgen</hi> forsvandt, men ogsaa Kaloskerne; hun har vist betragtet dem som sin Eiendom.</p>
+
+
+
+<pb n="486"/>
+</div>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Lykkens Kalosker" xml:id="lykkens-kalosker">
+<head type="section-comments">Lykkens Kalosker</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Tre Digtninger</hi>, som udkom 19. maj 1838 <pb n="537"/>(BFN 321; se denne udgaves bind 9). Optaget i revideret form i <hi rend="italic">Eventyr. Med 125 Illustrationer efter Originaltegninger af V. Pedersen</hi>, <hi rend="italic">skaarne i Træ af Ed. Kretzschmar</hi>, 1850, hefte 2 og 3, der udkom henholdsvis den 10. september og 9. november 1849.<br/>
+Sidstnævnte udgave følges her.<br/>
+BFN 551/II,178-203/VII,132 samt 70-82.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">460,2</cell><cell type="deviation"><hi rend="italic">Kapitelangivelse</hi> I <hi rend="italic">suppleres, findes ikke i forlægget</hi></cell></row>
+<row><cell type="position">464,26</cell><cell type="deviation">Hverdagshistorierne,« &lt; Hverdagshistorierne.«</cell></row>
+<row><cell type="position">465,27</cell><cell type="deviation">»og &lt; »Og</cell></row>
+<row><cell type="position">467,39</cell><cell type="deviation">skrevet: &lt; skrevet.</cell></row>
+<row><cell type="position">470,4</cell><cell type="deviation">Ringbjerge, &lt; Ringbjerge.</cell></row>
+<row><cell type="position">473,26</cell><cell type="deviation"><hi rend="italic">saa</hi> &lt; <hi rend="italic">faa</hi></cell></row>
+<row><cell type="position">477,9</cell><cell type="deviation">hjemme skulde &lt; hjemme, skulde</cell></row>
+<row><cell type="position">479,20</cell><cell type="deviation">Ak,« &lt; »Ak,«</cell></row>
+<row><cell type="position">479,28</cell><cell type="deviation">før;« &lt; før;</cell></row>
+<row><cell type="position">482,30</cell><cell type="deviation">og –« &lt; og –</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">460</cell><row xml:id="txtcmnt-460-01"><cell type="data-term">Kalosker</cell><cell type="data-definition">galoscher, vandtætte overtrækssko.</cell></row><row xml:id="txtcmnt-460-02"><cell type="data-term">imellem</cell><cell type="data-definition">indimellem.</cell></row><row xml:id="txtcmnt-460-03"><cell type="data-term">Justitsraad</cell><cell type="data-definition">embedsmand af middelrang.</cell></row><row xml:id="txtcmnt-460-04"><cell type="data-term">ivrede … mod</cell><cell type="data-definition">hidsede sig op over.</cell></row><row xml:id="txtcmnt-460-05"><cell type="data-term">Ørsted(s)</cell><cell type="data-definition">fysikeren H.C. Ørsted (1777-1851) udgav artiklen »Gamle og nye Tider« i <hi rend="italic">Almanak for 1835</hi>.</cell></row><row xml:id="txtcmnt-460-06"><cell type="data-term">Kong <hi rend="italic">Hans’s</hi></cell><cell type="data-definition">Hans (1455-1513), konge af Danmark og Norge fra 1482, af Sverige fra 1497.</cell></row><row xml:id="txtcmnt-460-07"><cell type="data-term">Piger</cell><cell type="data-definition">tjenestepiger.</cell></row>
+<cell type="page">461</cell><row xml:id="txtcmnt-461-01"><cell type="data-term">Geburtsdag</cell><cell type="data-definition">fødselsdag.</cell></row><row xml:id="txtcmnt-461-02"><cell type="data-term">tyk</cell><cell type="data-definition">uklar, mørk, tåget.</cell></row><row xml:id="txtcmnt-461-03"><cell type="data-term">Laterne</cell><cell type="data-definition">lanterne.</cell></row><row xml:id="txtcmnt-461-04"><cell type="data-term">Madonnabillede</cell><cell type="data-definition">billede af jomfru Maria, som er genstand for dyrkelse i den katolske kirke.</cell></row><row xml:id="txtcmnt-461-05"><cell type="data-term">Kunstkabinet</cell><cell type="data-definition">kunstsamling.</cell></row><row xml:id="txtcmnt-461-06"><cell type="data-term">Piber</cell><cell type="data-definition">fløjtelignende blæseinstrument.</cell></row><row xml:id="txtcmnt-461-07"><cell type="data-term">Tog</cell><cell type="data-definition">optog.</cell></row>
+<cell type="page">462</cell><row xml:id="txtcmnt-462-01"><cell type="data-term">artigt</cell><cell type="data-definition">godt, fortræffeligt.</cell></row><row xml:id="txtcmnt-462-02"><cell type="data-term">Drabanter</cell><cell type="data-definition">livvagter.</cell></row><row xml:id="txtcmnt-462-03"><cell type="data-term">Armbøsse(r)</cell><cell type="data-definition">armbrøst.</cell></row><row xml:id="txtcmnt-462-04"><cell type="data-term">hvo denne Mand var</cell><cell type="data-definition">hvem denne mand var.</cell></row><row xml:id="txtcmnt-462-05"><cell type="data-term">Sjællands Biskop</cell><cell type="data-definition">på dette tidspunkt den danske kirkes leder.</cell></row><row xml:id="txtcmnt-462-06"><cell type="data-term">Slotspladsen</cell><cell type="data-definition">pladsen ved Christiansborg.</cell></row><row xml:id="txtcmnt-462-07"><cell type="data-term">sid</cell><cell type="data-definition">sumpet.</cell></row><row xml:id="txtcmnt-462-08"><cell type="data-term">Holmen</cell><cell type="data-definition">Slotsholmen. </cell></row><row xml:id="txtcmnt-462-09"><cell type="data-term">Hallandsaas</cell><cell type="data-definition">folkelig betegnelse for det vanskeligt farbare sted i middelalderbyen, hvor nutidens Kgs. Nytorv ligger.</cell></row><row xml:id="txtcmnt-462-10"><cell type="data-term">fata morgana</cell><cell type="data-definition">synsbedrag, luftspejling.</cell></row>
+<cell type="page">463</cell><row xml:id="txtcmnt-463-01"><cell type="data-term">Agent(inden)</cell><cell type="data-definition">egentlig kommisionær, der udførte forretninger for andre; her vel snarere større selvstændig købmand.</cell></row><row xml:id="txtcmnt-463-02"><cell type="data-term">ikke een Boutik</cell><cell type="data-definition">butikkerne på Østergade (og andre steder) var en nydannelse i 1800-tallet.</cell></row><row xml:id="txtcmnt-463-03"><cell type="data-term">genere</cell><cell type="data-definition">skamme.</cell></row><row xml:id="txtcmnt-463-04"><cell type="data-term">Dile(r)</cell><cell type="data-definition">forstue i de holstenske gårde.</cell></row><row xml:id="txtcmnt-463-05"><cell type="data-term">Diskurs</cell><cell type="data-definition">diskussion.</cell></row><row xml:id="txtcmnt-463-06"><cell type="data-term">brak</cell><cell type="data-definition">brakvand er en blanding af fersk- og saltvand.</cell></row><row xml:id="txtcmnt-463-07"><cell type="data-term">Dagen</cell><cell type="data-definition">avis, udkom 1803-1843.</cell></row><row xml:id="txtcmnt-463-08"><cell type="data-term">Luftsyn</cell><cell type="data-definition">opsigtsvækkende fremtoning på himlen, fx meteor, ildkugle o.l.</cell></row>
+<pb n="538"/>
+<cell type="page">464</cell><row xml:id="txtcmnt-464-01"><cell type="data-term">Fabel</cell><cell type="data-definition">opspind, ren fantasi.</cell></row><row xml:id="txtcmnt-464-02"><cell type="data-term">Modestia</cell><cell type="data-definition">(latin) mådehold.</cell></row><row xml:id="txtcmnt-464-03"><cell type="data-term">mihi secus videtur</cell><cell type="data-definition">(latin) det synes mig anderledes.</cell></row><row xml:id="txtcmnt-464-04"><cell type="data-term">suspenderer … mit <hi rend="italic">Judicium</hi></cell><cell type="data-definition">sætter min dømmekraft ud af spil; vending ofte brugt af Ludvig Holberg (1684-1754), bl.a. i <hi rend="italic">Dannemarks Riges Historie</hi>, bind I,  1733, s. 826.</cell></row><row xml:id="txtcmnt-464-05"><cell type="data-term">Baccalaureus</cell><cell type="data-definition">indtil 1775 den laveste akademiske grad.</cell></row><row xml:id="txtcmnt-464-06"><cell type="data-term">aparte Fyr</cell><cell type="data-definition">mærkelig fyr.</cell></row><row xml:id="txtcmnt-464-07"><cell type="data-term">locus docendi</cell><cell type="data-definition">(latin) stedet at belære.</cell></row><row xml:id="txtcmnt-464-08"><cell type="data-term">bemøie</cell><cell type="data-definition">besvære.</cell></row><row xml:id="txtcmnt-464-09"><cell type="data-term">de Gamle</cell><cell type="data-definition">de antikke græske og romerske forfattere.</cell></row><row xml:id="txtcmnt-464-10"><cell type="data-term">Hverdagshistorierne</cell><cell type="data-definition">Thomasine Gyllembourg (1773-1856) udgav 1828 anonymt <hi rend="italic">En Hverdags-Historie</hi> (trykt i <hi rend="italic">Kjøbenhavns flyvende Post</hi>), som siden gav navn til genren: den københavnske samtidsfortælling og til hendes pseudonym: Forfatteren af En Hverdags-Historie.</cell></row><row xml:id="txtcmnt-464-11"><cell type="data-term">Romanen om Hr. <hi rend="italic">Iffven</hi> og Hr. <hi rend="italic">Gaudian</hi></cell><cell type="data-definition">Chrestien (Chrétien) de Troyes’ ridderroman <hi rend="italic">Yvain ou le chevalier au lion</hi>, 1177-1179/81, oversat via svensk forlæg i 1400-tallets anden halvdel med titlen <hi rend="italic">Ivan Løveridder</hi>.</cell></row><row xml:id="txtcmnt-464-12"><cell type="data-term">Kong Artus</cell><cell type="data-definition">hentydning til sagnet om kong Arthur og hans riddere af det runde bord, som bl.a. fortællingen om Ivan Løveridder knytter an til.</cell></row><row xml:id="txtcmnt-464-13"><cell type="data-term"><hi rend="italic">Holberg</hi> … Danmarks Riges Historie</cell><cell type="data-definition">Ludvig Holberg <hi rend="italic">Dannemarks Riges Historie</hi> I-III, 1732-1735; historien om kong Hans findes i bind I, s. 824.</cell></row><row xml:id="txtcmnt-464-14"><cell type="data-term">Otto Rud</cell><cell type="data-definition">dansk adelsmand (død 1510).</cell></row><row xml:id="txtcmnt-464-15"><cell type="data-term">mærkelige</cell><cell type="data-definition">bemærkelsesværdige.</cell></row><row xml:id="txtcmnt-464-16"><cell type="data-term">Heiberg</cell><cell type="data-definition">digteren og kritikeren Johan Ludvig Heiberg (1791-1860), søn af Thomasine Gyllembourg, stod bl.a. som udgiver af moderens fortællinger.</cell></row>
+<cell type="page">465</cell><row xml:id="txtcmnt-465-01"><cell type="data-term"><hi rend="italic">Godfred von Gehmen</hi></cell><cell type="data-definition">Gotfred von Ghemen (død ca. 1510), bogtrykker, har ikke trykt nogen dansk <hi rend="italic">Ivan Løveridder</hi>.</cell></row><row xml:id="txtcmnt-465-02"><cell type="data-term">den særdeles Pestilense</cell><cell type="data-definition">den voldsomme pest; jf. Ludvig Holberg <hi rend="italic">Dannemarks Riges Historie</hi>, bind I, 1732, s. 757: »Udi dette Aar [1484] regierede ellers en særdeeles Pestilentze over heele Dannemark«.</cell></row><row xml:id="txtcmnt-465-03"><cell type="data-term">regjeret</cell><cell type="data-definition">huseret.</cell></row><row xml:id="txtcmnt-465-04"><cell type="data-term">Cholera</cell><cell type="data-definition">hærgede i perioden 1830-1837 det meste af Europa, men ikke Danmark.</cell></row><row xml:id="txtcmnt-465-05"><cell type="data-term">Fribytterkrigen</cell><cell type="data-definition">justitsråden tror, at der hentydes til Slaget på Reden den 2. april 1801. I virkeligheden er der tale om et frit citat efter Holberg <hi rend="italic">Dannemarks Riges Historie</hi>, bind I, 1732, s. 758, hvor det under året 1484 hedder, at franske og engelske sørøvere »løbe ind udi Sundet for Helsingøer, som er Rigets Toldsted, og der bortsnappede Skibe, som laae paa Reeden.«</cell></row><row xml:id="txtcmnt-465-06"><cell type="data-term">Bedemands-Stiil</cell><cell type="data-definition">udtryk fra Holbergs komedie <hi rend="italic">Den Stundesløse. Comoedie udi tre Acter</hi>, 1731, om uigennemskuelig sprogbrug, oftest som følge af, at to personer taler ud fra helt forskellige forudsætninger og derfor taler forbi hinanden.</cell></row><row xml:id="txtcmnt-465-07"><cell type="data-term">Klaret</cell><cell type="data-definition">(rød)vin med sukker og krydderier.</cell></row><row xml:id="txtcmnt-465-08"><cell type="data-term">Mjød</cell><cell type="data-definition">drik af vand, gæret honning og kryd<pb n="539"/>derier.</cell></row><row xml:id="txtcmnt-465-09"><cell type="data-term">Bremer-Øl</cell><cell type="data-definition">dansk øl var indtil 1847 af væsentlig ringere kvalitet end tysk.</cell></row><row xml:id="txtcmnt-465-10"><cell type="data-term">to Couleurer</cell><cell type="data-definition">prostituerede skulle ved kgl. Forordning af 1496 bære halvt røde, halvt sorte huer for, som det hedder i <hi rend="italic">Dannemarks Riges Historie</hi>, »at giøre dem kiendelige fra andre Qvinder« (bind I, s. 782).</cell></row><row xml:id="txtcmnt-465-11"><cell type="data-term">moskovitisk</cell><cell type="data-definition">russisk, her: uforståeligt.</cell></row><row xml:id="txtcmnt-465-12"><cell type="data-term">Hedendømmet</cell><cell type="data-definition">hedenskabet.</cell></row>
+<cell type="page">467</cell><row xml:id="txtcmnt-467-01"><cell type="data-term">linde</cell><cell type="data-definition">bløde.</cell></row><row xml:id="txtcmnt-467-02"><cell type="data-term">hvo</cell><cell type="data-definition">hvem.</cell></row>
+<cell type="page">468</cell><row xml:id="txtcmnt-468-01"><cell type="data-term">Da jeg endnu var knap en Alen lang</cell><cell type="data-definition">spiller på Jens Baggesens (1764-1826) digt »Da jeg var lille«, 1785, hvor det hedder: »Der var en Tid, da jeg var meget lille; / Min heele Krop var kun en Alen lang;« (<hi rend="italic">Poesier. Førte samling</hi>, 1785, s.1). </cell></row><row xml:id="txtcmnt-468-02"><cell type="data-term">signe</cell><cell type="data-definition">velsigne.</cell></row>
+<cell type="page">469</cell><row xml:id="txtcmnt-469-01"><cell type="data-term">færdige ved</cell><cell type="data-definition">lige ved, på nippet til.</cell></row><row xml:id="txtcmnt-469-02"><cell type="data-term">vasker grovt</cell><cell type="data-definition">vasker storvask, dvs. linned o.l. </cell></row><row xml:id="txtcmnt-469-03"><cell type="data-term">Otte Minuter … nysfalden Snee</cell><cell type="data-definition">H.C. Andersens kilde er den engelske astronom <hi rend="italic">J.F.W. Herschel’s Populaire Astronomie</hi>, oversat af P. Pedersen, 1836.</cell></row>
+<cell type="page">470</cell><row xml:id="txtcmnt-470-01"><cell type="data-term"><hi rend="italic">Dr. Mädlers</hi> … Maanen</cell><cell type="data-definition">den tyske astronom J.H. von Mädlers (1794-1874) <hi rend="italic">Mappa Selenographica</hi>, Berlin 1834-1836, hvori han sammen med Wilhelm Beer havde udarbejdet detaljerede kort over månen.</cell></row><row xml:id="txtcmnt-470-02"><cell type="data-term">Morgenstjerne(n)</cell><cell type="data-definition">våben bestående af et langt skaft, hvorpå der sidder et med pigge besat hoved; en del af vægterens udstyr.</cell></row><row xml:id="txtcmnt-470-03"><cell type="data-term">artig</cell><cell type="data-definition">morsom.</cell></row><row xml:id="txtcmnt-470-04"><cell type="data-term">Politikammer(et)</cell><cell type="data-definition">politistation.</cell></row><row xml:id="txtcmnt-470-05"><cell type="data-term">Adresse-Contoiret</cell><cell type="data-definition">kontor, der videregav oplysninger af den type, som nu typisk findes i rubrikannoncer.</cell></row>
+<cell type="page">471</cell><row xml:id="txtcmnt-471-01"><cell type="data-term">Deklamations-Nummer</cell><cell type="data-definition">oplæsningsindslag.</cell></row><row xml:id="txtcmnt-471-02"><cell type="data-term">Frederiks Hospital</cell><cell type="data-definition">det nuværende kunstindustrimuseum i Bredgade; opført 1752-1757 som Danmarks første egentlige sygehus, ved oprettelsen af Rigshospitalet 1910 ophørte sygehusfunktionen.</cell></row><row xml:id="txtcmnt-471-03"><cell type="data-term">Candidat(er)</cell><cell type="data-definition">kan både betyde medicinsk kandidat, læge, og patient; sammenhængen taler for det første.</cell></row><row xml:id="txtcmnt-471-04"><cell type="data-term">Volonteurer</cell><cell type="data-definition">medicinske studerende, der gør gratis tjeneste på hospital som led i uddannelsen.</cell></row>
+<cell type="page">472</cell><row xml:id="txtcmnt-472-01"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-472-02"><cell type="data-term">den blaa Drengeskole</cell><cell type="data-definition">Det Kgl. Opfostringshus, som lå i St. Kongensgade med udgang til Bredgade.</cell></row><row xml:id="txtcmnt-472-03"><cell type="data-term">arrivere</cell><cell type="data-definition">ankomme.</cell></row><row xml:id="txtcmnt-472-04"><cell type="data-term">Kjæmpe-Agaven</cell><cell type="data-definition">Agave americana (Mexico) blomstrer efter 6-10 års forløb, i danske drivhuse dog først efter 40-60 år. I 1836 blomstrede en 60-årig, 6 m høj agave i København.</cell></row><row xml:id="txtcmnt-472-05"><cell type="data-term">det lille Theater</cell><cell type="data-definition"><hi rend="italic">Kalkeballen</hi> på hjørnet af Store og Lille Kannikestræde, nedrevet 1918.</cell></row>
+<cell type="page">473</cell><row xml:id="txtcmnt-473-01"><cell type="data-term">overseer</cell><cell type="data-definition">overskuer.</cell></row><row xml:id="txtcmnt-473-02"><cell type="data-term">Langelinie</cell><cell type="data-definition">før den nuværende havnepromenade navn på en spadseresti ved Kastelsvolden.</cell></row><row xml:id="txtcmnt-473-03"><cell type="data-term">Herreblade</cell><cell type="data-definition">billedkortene i et kortspil.</cell></row><row xml:id="txtcmnt-473-04"><cell type="data-term">Stænderne</cell><cell type="data-definition">råd<pb n="540"/>givende stænderforsamlinger var indført i 1834.</cell></row><row xml:id="txtcmnt-473-05"><cell type="data-term">Tiden</cell><cell type="data-definition">tidsskrift, udgivet af T.G. Repp 1848-1849.</cell></row>
+<cell type="page">475</cell><row xml:id="txtcmnt-475-01"><cell type="data-term">Bodsvend</cell><cell type="data-definition">ekspedient.</cell></row><row xml:id="txtcmnt-475-02"><cell type="data-term">det orthopædiske Institut</cell><cell type="data-definition">havde til huse i Store Tuborg på Strandvejen. Oprettet i 1834 af mekanikeren J.P. Langgaard (1811-1890) til behandling af lidelser i kroppens bevægelsesorganer.</cell></row><row xml:id="txtcmnt-475-03"><cell type="data-term">fort</cell><cell type="data-definition">videre.</cell></row><row xml:id="txtcmnt-475-04"><cell type="data-term">Dueslag</cell><cell type="data-definition">her i overført betydning om opholdssted for unge kvinder, evt. bordel.</cell></row><row xml:id="txtcmnt-475-05"><cell type="data-term">Dalai-Lama</cell><cell type="data-definition">overhoved for de tibetanske buddhister.</cell></row>
+<cell type="page">476</cell><row xml:id="txtcmnt-476-01"><cell type="data-term">syndige</cell><cell type="data-definition">stakkels.</cell></row><row xml:id="txtcmnt-476-02"><cell type="data-term">russisk Bad</cell><cell type="data-definition">dampbad.</cell></row><row xml:id="txtcmnt-476-03"><cell type="data-term">spansk Flueplaster</cell><cell type="data-definition">plaster med bl.a. pulveriseret spansk flue, hvis blod indeholder et ætsende, blæredannende stof, cantharidin, der anvendtes medicinsk som afledende middel, dvs. et middel, der skulle påvirke én del af legemet for at indvirke positivt på en anden, sygelig del; blandt andet anvendt mod sindsforvirring.</cell></row><row xml:id="txtcmnt-476-04"><cell type="data-term">Copist(ens)</cell><cell type="data-definition">skriver, underordnet embedsmand.</cell></row>
+<cell type="page">478</cell><row xml:id="txtcmnt-478-01"><cell type="data-term">erkjendt Digter</cell><cell type="data-definition">anerkendt digter.</cell></row><row xml:id="txtcmnt-478-02"><cell type="data-term">artigt Perspectiv</cell><cell type="data-definition">kønt syn eller billede (som man kunne se det i en perspektiveller kikkasse).</cell></row><row xml:id="txtcmnt-478-03"><cell type="data-term">takle(de)</cell><cell type="data-definition">udstyre med tovværk, dvs. gøre sejlklar.</cell></row><row xml:id="txtcmnt-478-04"><cell type="data-term">Vaudeville</cell><cell type="data-definition">(muntert, let) skuespil med indlagte sange.</cell></row><row xml:id="txtcmnt-478-05"><cell type="data-term">Haand</cell><cell type="data-definition">(hånd-)skrift.</cell></row><row xml:id="txtcmnt-478-06"><cell type="data-term">Gaaseurt</cell><cell type="data-definition">tusindfryd, bellis.</cell></row>
+<cell type="page">479</cell><row xml:id="txtcmnt-479-01"><cell type="data-term">Omarmelse</cell><cell type="data-definition">omfavnelse.</cell></row><row xml:id="txtcmnt-479-02"><cell type="data-term">artigt nok</cell><cell type="data-definition">her: fint nok, passende.</cell></row><row xml:id="txtcmnt-479-03"><cell type="data-term">Afhandlinger</cell><cell type="data-definition">drøftelser.</cell></row>
+<cell type="page">480</cell><row xml:id="txtcmnt-480-01"><cell type="data-term">den dannede Classe</cell><cell type="data-definition">her: det bedre borgerskab.</cell></row><row xml:id="txtcmnt-480-02"><cell type="data-term">Tirade</cell><cell type="data-definition">højtravende ordflom; her: replik.</cell></row><row xml:id="txtcmnt-480-03"><cell type="data-term">komik</cell><cell type="data-definition">komisk.</cell></row>
+<cell type="page">481</cell><row xml:id="txtcmnt-481-01"><cell type="data-term">goutere</cell><cell type="data-definition">værdsætte.</cell></row><row xml:id="txtcmnt-481-02"><cell type="data-term">intim</cell><cell type="data-definition">kærlig, familiær.</cell></row><row xml:id="txtcmnt-481-03"><cell type="data-term">Vittighed</cell><cell type="data-definition">kløgt.</cell></row><row xml:id="txtcmnt-481-04"><cell type="data-term">slaae en »Witz</cell><cell type="data-definition">fortælle en vittighed.</cell></row>
+<cell type="page">482</cell><row xml:id="txtcmnt-482-01"><cell type="data-term">Tøi</cell><cell type="data-definition">vås.</cell></row><row xml:id="txtcmnt-482-02"><cell type="data-term">Creditiv(et)</cell><cell type="data-definition">fuldmagt, anvisning på et beløb. </cell></row><row xml:id="txtcmnt-482-03"><cell type="data-term">Louisd’orer</cell><cell type="data-definition">franske guldmønter.</cell></row>
+<cell type="page">483</cell><row xml:id="txtcmnt-483-01"><cell type="data-term">Ja, her er … at være</cell><cell type="data-definition">verset stammer fra H.C. Andersens dagbog den 16. august 1833.</cell></row><row xml:id="txtcmnt-483-02"><cell type="data-term">Florents</cell><cell type="data-definition">Firenze.</cell></row><row xml:id="txtcmnt-483-03"><cell type="data-term">Tracymenes</cell><cell type="data-definition">Lago Trasimeno, Trasimenersøen.</cell></row><row xml:id="txtcmnt-483-04"><cell type="data-term"><hi rend="italic">Hannibal</hi> slog <hi rend="italic">Flaminius</hi></cell><cell type="data-definition">den kartagiske feltherre Hannibal (247-183 f.Kr.) slog romerne under ledelse af Gaius Flaminius (død 217 f.Kr.) ved Trasimenersøen under den 2. puniske krig i 217 f.Kr.</cell></row><row xml:id="txtcmnt-483-05"><cell type="data-term">Veturin(ens)</cell><cell type="data-definition">hyrekusk.</cell></row>
+<cell type="page">484</cell><row xml:id="txtcmnt-484-01"><cell type="data-term">Hungerens ældste Søn … Myndigheds-Alder</cell><cell type="data-definition">hentydning til den historiske roman i to bind med titlen <hi rend="italic">Snarleyyow, or the Dog Fiend</hi>, 1837 (dansk oversættelse <hi rend="italic">Snarleyyaw eller Den djævelske Hund</hi>, oversat af H. Ipsen, april og juni 1838) af den engelske forfatter Frederick (Capitain) Marryat (1792-1848). H.C. Andersen havde oversat romanens sange. I første bind (s. 11) præsenteres Smallbones, en af fortællingens centrale figurer: »Han lignede Hungerens ældste Søn, der just havde naaet sin <pb n="541"/>Myndigheds-Alder«.</cell></row><row xml:id="txtcmnt-484-02"><cell type="data-term">Eccellenza, miserabili</cell><cell type="data-definition">(italiensk) nådige Herre, vi er nødlidende.</cell></row><row xml:id="txtcmnt-484-03"><cell type="data-term">bella Italia</cell><cell type="data-definition">(italiensk) det smukke Italien.</cell></row><row xml:id="txtcmnt-484-04"><cell type="data-term">Mixtur</cell><cell type="data-definition">besk medicin.</cell></row>
+<cell type="page">485</cell><row xml:id="txtcmnt-485-01"><cell type="data-term"><hi rend="italic">Solons</hi> Ord</cell><cell type="data-definition">Solon, græsk statsmand og digter, en af oldtidens syv vise (ca. 640-560 f.Kr.), svarede ifølge den græske historiker Herodot kong Kroisos (Krøsus) på spørgsmålet om hans postulerede lykke med et udsagn om, at før døden er ingen lykkelig (sml. <hi rend="italic">Herodots historie</hi>, 1. bog, kap. 32, oversat af Thure Hastrup og Leo Hjortsø, 1979, bind 1, s. 32).</cell></row><row xml:id="txtcmnt-485-02"><cell type="data-term">Sphinx</cell><cell type="data-definition">her: gåde; egentlig fabelvæsen med menneskehoved og dyrekrop.</cell></row><row xml:id="txtcmnt-485-03"><cell type="data-term">Jakobs-Stige</cell><cell type="data-definition">jf. 1. Mosebog 28,12.</cell></row><row xml:id="txtcmnt-485-04"><cell type="data-term">Gjenoplevede</cell><cell type="data-definition">genoplivede.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

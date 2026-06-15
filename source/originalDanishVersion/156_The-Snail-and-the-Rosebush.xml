@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Snail and the Rosebush</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="sneglen-og-rosenhaekken">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="sneglen-og-rosenhaekken_modern.xml">moderniseret version</note>
+                                                       <note target="156_The-Snail-and-the-Rosebush.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>All round the garden ran a row of hazel shrubs, and outside there were fields an...</incipit><idno type="image">Sneglen_og_Rosenhaekken_hca_ill_0103.png</idno><popularity>952</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Snail and the Rosebush. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-24" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-24" who="NHB">formatted</change><change who="NHB" when="2022-10-24">added italic to one occurence of the snail. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Snail and the Rosebush">
+          <head type="main" rend="The Snail and the Rosebush">The Snail and the Rosebush</head>                <p rend="noIndent" xml:id="p_00001">All round the garden ran a row of hazel shrubs, and outside there were fields and meadows with cows and sheep, but in the middle of the garden stood a flowering rosebush, and under it sat a snail, it had a lot to offer – namely itself.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Wait till my time comes!’ it said, ‘I’m going to achieve something more than just grow roses, bear nuts, or give milk like the cows and sheep!’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘I’ll expect an awful lot, then!’ the <hi rend="italic">rosebush</hi> said. ‘May I dare ask when all this is going to come about?’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘I give myself plenty of time,’ the <hi rend="italic">snail</hi> said. ‘You’re always in such a hurry; you can’t rush expectations!</p>
+          <p rend="firstIndent" xml:id="p_00005">The following year the <hi rend="italic">snail</hi> lay in roughly the same spot in the sunshine under the rosebush, which budded and unfolded its roses, always fresh, always new. And the <hi rend="italic">snail</hi> crept half out, stuck out its horns, and pulled them back in again.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Everything looks like it did last year! no progress whatsoever; the rosebush insists on growing its roses, it’s not got any further!’</p>
+          <p rend="firstIndent" xml:id="p_00007">The summer passed, the autumn passed, the rosebush still had flowers and buds right up until the snow fell, the weather turned raw and wet, the rosebush bowed down to the ground, the <hi rend="italic">snail</hi> crept underground.</p>
+          <p rend="firstIndent" xml:id="p_00008">Now a new year started, and the roses came out, and the <hi rend="italic">snail</hi> came out.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘You’ve become an old rose-tree,’ it said. ‘You might just as well start withering. You’ve given the world everything you had in you; whether it meant anything or not is a question I haven’t had time to think about, but it is quite obvious that you haven’t done a thing for your inner development, otherwise you would have produced something else. Can you defend that? Soon you’ll be nothing but a stick! Do you understand what I’m saying?’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘You frighten me!’ the <hi rend="italic">rosebush</hi> said. ‘I’ve never thought about that!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘No, you’ve never been much of a one for thinking! Have you ever considered why you put forth flowers, and how this flowering took place? Why this way and not some other way?’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘No!’ the <hi rend="italic">rosebush</hi> said. ‘I flowered out of sheer joy, because I couldn’t do anything else. The sun was so warm, the air so refreshing, I drank the clear dew, and the strong rain; I breathed, I was alive! A force came up into me from the earth, a force came from above, I felt a happiness – ever new, ever strong – and so I always had to bloom, it was my life, I simply couldn’t do anything else.’</p>
+          <p rend="firstIndent" xml:id="p_00013">‘You’ve led a very cushy life!’ the <hi rend="italic">snail</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Yes, I grant you that! I’ve been given everything!’ the <hi rend="italic">rosebush</hi> said. ‘But you’ve been given even more! You are one of those profound, thoughtful natures, one of the highly gifted that will astonish the world!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘That’s not my intention at all!’ the <hi rend="italic">snail</hi> said. ‘The world is no concern of mine! what have I got to do with the world, I’ve got enough with myself and enough in myself!’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘But shouldn’t all of us here on earth give what is best in us to others, come with what we are able? I have admittedly only given roses! – but you? You who received so much, what have you given the world? What do you give it?’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘What have I given? What do I give? I spit on it! It’s no good at all! It’s of no concern to me. Just you go on producing roses, you’ll never get any further than that! let the hazel bush bear its nuts! let the cows and sheep give milk; they each have their own particular clientèle, whereas mine is within myself! I go into myself, and that’s where I stay. The world is no concern of mine!’</p>
+          <p rend="firstIndent" xml:id="p_00018">And the <hi rend="italic">snail</hi> went into its shell and sealed off the entrance.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘It’s so sad,’ the <hi rend="italic">rosebush</hi> said. ‘I can’t, no matter how much I would like to, creep in, I always have to burst out, burst out into roses. My leaves fall off, the wind carries them away! although one of the roses I saw being placed in the housewife’s hymn-book, one of my roses was pinned onto a delightful young girl’s breast and another one was kissed by a child’s mouth out of sheer bliss! It made me feel so good, it was a real blessing. That is my memory, my life!’</p>
+          <p rend="firstIndent" xml:id="p_00020">And the <hi rend="italic">rosebush</hi> bloomed in its innocence, and the <hi rend="italic">snail</hi> lazed in its shell, the world was no concern of his.</p>
+          <p rend="firstIndent" xml:id="p_00021">And years passed by.</p>
+          <p rend="firstIndent" xml:id="p_00022">The <hi rend="italic">snail</hi> was earth in the earth, the <hi rend="italic">rosebush</hi> was earth in the earth – even the keepsake rose in the hymnbook had wafted away – – but in the garden new <hi rend="italic">rosebushes</hi> came into flower, in the garden new <hi rend="italic">snails</hi> grew that crept into their shells and spat – the world was no concern of theirs.</p>
+          <graphic type="blank"/>
+          <p rend="noIndent" xml:id="p_00023">Shall we read the story from the beginning again? – it will still be the same.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

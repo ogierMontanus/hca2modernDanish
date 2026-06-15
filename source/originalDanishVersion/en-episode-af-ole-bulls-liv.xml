@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En Episode af Ole Bulls Liv</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-episode-af-ole-bulls-liv" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1836</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="En Episode af Ole Bulls Liv" xml:id="en-episode-af-ole-bulls-liv">
+<div type="source"><source>Fra</source> <sourceTitle>Portefeuillen for 1839</sourceTitle></div>
+<pb n="406"/>
+<pb n="407"/>
+<head type="part">En Episode af <seg target="txtcmnt-407-01"><!--DATA-TERM: Ole Bull(s)--><!--DATA-DEFINITION: Ole Bornemann Bull (1810-1880), norsk violinvirtuos; fik i perioden 1831-1837 sit store europæiske gennembrud ved koncerter bl.a. i Frankrig, Italien og England; specielt den beskrevne koncert i Bologna 25. april 1834 gjorde ham berømt. H.C. Andersen oplevede Ole Bull første gang ved en koncert 4. november 1838 og stiftede i løbet af november 1838 nærmere bekendtskab med ham.-->Ole Bulls</seg> Liv</head>
+<head type="sub">Fortalt efter Kunstnerens egen mundtlige Meddelelse</head>
+<p rend="noIndent" xml:id="p_00962">Bag Alperne ligger Miraklernes Land, Eventyrernes Verden; vi ville ikke tro paa Mirakler, ikke høre om disse, Eventyret derimod er os kjært, til det lytte vi gjerne; et saadant, som det kun gives for Geniet, fandt Sted i <hi rend="italic">Bologna</hi> Aaret 1834.</p>
+<p rend="firstIndent" xml:id="p_00963">Den fattige Nordmand <hi rend="italic">Ole Bull</hi>, som Ingen den Gang kjendte, var kommet saa langt Syd paa. I Hjemmet havde vel Enkelte troet, at der rørte sig noget hos ham, men de Fleste, som det altid gaaer, forudsagde, der bliver ikke noget af <hi rend="italic">Ole</hi>. Selv følte han, jeg maa ud i Verden, for at bringe Gnisten til Flamme, eller ogsaa reent gaae til Grunde; at dette sidste snarest vilde skee, tydede nu Alt hen paa.</p>
+<p rend="firstIndent" xml:id="p_00964">Han var kommet til <hi rend="italic">Bologna</hi>, men her vare hans Penge slupne og intet Sted havde han Udsigt til at faae nogen fra, ingen Ven, ingen Landsmand rakte ham Haanden, eensom sad han oppe paa et fattigt Tagkammer i en af Smaagaderne. Det var allerede den anden Dag, han næsten Intet havde nydt; Vandflasken og Violinen vare de to eneste, som <seg target="txtcmnt-407-02"><!--DATA-TERM: vederqvægede--><!--DATA-DEFINITION: styrkede, forfriskede.-->vederqvægede</seg> den unge lidende Kunstner.</p>
+<p rend="firstIndent" xml:id="p_00965">Da mistvivlede han selv om at eie det ham af Gud Givne, og ubevidst indaandede han i Violinen de Toner, som nu saa forunderligt gribe vort Hjerte, disse Toner, som sige os, hvor dybt han selv har lidt og følt.</p>
+<p rend="firstIndent" xml:id="p_00966">Just denne Aften blev i det store Theater givet en Concert; Huset var næsten overfyldt, Hertugen af Toscana var i Besøg i den kongelige Loge, <seg target="txtcmnt-407-03">Madame <hi rend="italic">Malibran</hi> og Hr. <hi rend="italic">Beriot</hi></seg> vilde understøtte Concertgiveren med et Par Nummere. Forestillingen skulde begynde, men det saae ængsteligt ud dermed: Hr. <hi rend="italic">Beriot</hi> var bleven fornærmet, og nægtede at spille. Alt var derfor i stor Forvirring oppe paa Theatret. Da kom Componisten <seg target="txtcmnt-407-04"><!--DATA-TERM: Rossini(s)--><!--DATA-DEFINITION: Gioacchino Rossini (1792-1868), italiensk (opera)komponist.--><hi rend="italic">Rossinis</hi></seg> Kone til, og i den Nød man var, fortalte hun, at Aftenen forud var hun gaaet gjennem en af Smaagaderne, og der pludseligt standset ved forunderlige Toner af et Instrument, som vel lignede en Violin, men dog syntes forskjelligt fra denne. Hun havde spurgt Værten der i Huset <seg target="txtcmnt-407-05"><!--DATA-TERM: hvo--><!--DATA-DEFINITION: hvem.-->hvo</seg> der boede <pb n="408"/>oppe i Qvisten, hvorfra Musikken klang, og han havde svaret, at det var en ung Mand fra Norden, og at Instrumentet vist var en <seg target="txtcmnt-408-01"><!--DATA-TERM: Lire--><!--DATA-DEFINITION: strengeinstrument, hvis strenge sættes i svingning ved hjælp af et hjul med et håndtag, der drejes med den ene hånd, mens den anden hånd passer tangenterne.-->Lire</seg>; dog dette indsaae hun at det ikke kunde være, det var enten et nyt Slags Instrument, eller en Kunstner, der paa en usædvanlig Maade vidste at behandle Violinen, man skulde dog sende Bud efter ham, meente hun, maaskee kunde han udfylde de ved <hi rend="italic">Beriot</hi> manglende Nummere.</p>
+<p rend="firstIndent" xml:id="p_00967">I den Nød man var, greb man det givne Raad, og et Bud sendtes hen i den lille Gade, hvor <hi rend="italic">Bull</hi> sad paa sit Tagkammer. For ham var dette som en Sendelse fra Himlen; nu eller aldrig! tænkte han, og skjøndt syg og afkræftet, tog han Violinen under Armen og gik til Theatret.</p>
+<p rend="firstIndent" xml:id="p_00968">To Minutter derefter blev af Regisseuren anmældt, for det forsamlede Publicum, at en ung Nordmand, altsaa »en ung Vild,« vilde i <hi rend="italic">Beriots</hi> Sted lade sig høre paa Violinen.</p>
+<p rend="firstIndent" xml:id="p_00969"><hi rend="italic">Ole Bull</hi> traadte frem; Theatret var blændende oplyst. Han saae de nærmeste Damers mønstrende Blik; Een af Disse, der ret betragtede ham igjennem Kikkerten, hviskede smilende til sin Naboerske lidt Spot over Kunstnerens forlegne Manerer. Han saae paa sine Klæder, og i den stærke Belysning toge de sig høist fattige ud. Damen gjorde vist ogsaa sin Bemærkning derover, og hendes Smiil gik ham skarpt gjennem Hjertet.</p>
+<p rend="firstIndent" xml:id="p_00970">Ingen Noder førte han med, som han kunde give Orchesteret, han maatte altsaa spille uden Acompagnement, men hvad skulde han spille? »Jeg vil give dem de Phantasier, som i dette Øieblik gjennemstrømme mig!« og improvisatorisk gav han da <seg target="txtcmnt-408-02"><!--DATA-TERM: Erindringen om sit eget Liv … Uro--><!--DATA-DEFINITION: ved koncerten i Bologna spillede Ole Bull øjensynligt for første gang sin <i>Concerto per il Violino in tre parte</i>, der ifølge datering på originalpartituret er færdiggjort den 22. april 1834; det skulle siden blive et af Ole Bulls kendetegn, at han som ekstranummer improviserede over kendte operamelodier.-->Erindringen om sit eget Liv, Melodier fra Hjemmets Bjerge, hans Kamp i Verden, og hans hele Sjæls Uro</seg>; det var, som om hver Tanke, hver Følelse gik over i Violinen og derfra aabenbarede sig for Mængden. Den meest stormende Bifalds-Jubel gjenlød i Huset. <hi rend="italic">Bull</hi> blev fremkaldt og atter fremkaldt. Man forlangte endnu et Nummer, en ny Improvisation.</p>
+<p rend="firstIndent" xml:id="p_00971">Han henvendte sig da til den Dame, hvis spottende Smiil havde hilset ham ved hans Indtrædelse, og udbad sig af hende et Thema til at variere. Hun gav ham eet af <seg target="txtcmnt-408-03"><!--DATA-TERM: »Norma«--><!--DATA-DEFINITION: opera fra 1831 af den italienske komponist Vicenzo Bellini (1801-1835).-->»<hi rend="italic">Norma</hi>«</seg>, han gik endnu til to andre Damer og hver af disse opgave ham eet af <seg target="txtcmnt-408-04"><!--DATA-TERM: »Othello«--><!--DATA-DEFINITION: opera fra 1816 af Gioacchino Rossini.-->»<hi rend="italic">Othello</hi>«</seg> og af »<hi rend="italic"><seg target="txtcmnt-408-05">Moses</seg></hi>.«</p>
+<p rend="firstIndent" xml:id="p_00972">»Hvad, om jeg tog alle tre Themaer,« tænkte <hi rend="italic">Bull</hi>, »lod dem omflagre hinanden, danne sig til eet Tonestykke, da vilde jeg derved smigre enhver af Damerne og ved Compositionen maaskee gjøre Virkning.«</p>
+<p rend="firstIndent" xml:id="p_00973">Som tænkt, saa gjort. Han spillede; mægtig, som <seg target="txtcmnt-408-06"><!--DATA-TERM: Magieren(s)--><!--DATA-DEFINITION: magikeren, troldmanden.-->Magierens</seg><pb n="409"/>Stav gleed Buen hen over Strængene, medens de kolde Vanddraaber stode paa hans Pande; der var Feber i hans Blod, det var, som det Sjælelige vilde rive sig løs fra Legemet; Ildflammer funklede fra hans Øine, han følte sig nær ved at synke om; endnu et Par kjække Buestrøg, de vare den sidste legemlige Kraft. Blomster og Krandse fra den henrevne Mængde omflagrede ham, der udmattet af Sjæle-Kamp og Hunger var nærved at segne.</p>
+<p rend="firstIndent" xml:id="p_00974">Han gik til sit Hjem, ledsaget med Musik. Udenfor Huset tonede Serenaden for Aftenens <seg target="txtcmnt-409-01"><!--DATA-TERM: Heros--><!--DATA-DEFINITION: helt.-->Heros</seg>, der imidlertid ene sneg sig op af den snevre mørke Trappe, høiere og høiere, ind paa det fattige Tagkammer, hvor han greb efter Vandflasken, for at vederqvæge sig. Det er et Eventyr for vor Tid, et Eventyr, som kun Geniet oplever.</p>
+<p rend="firstIndent" xml:id="p_00975">Da Alt igjen blev stille, kom Værten op til ham, bragte ham Spise og Drikke, og <seg target="txtcmnt-409-02"><!--DATA-TERM: indrømmede--><!--DATA-DEFINITION: overlod til benyttelse.-->indrømmede</seg> ham et bedre Værelse. Næste Morgen underrettedes han om, at Theatret stod til hans Afbenyttelse, og at en Concert skulde blive arangeret for ham. En Indbydelse fra Fyrsten af Toscana fulgte, og fra dette Øieblik var Navn og Hæder grundet for <hi rend="italic">Ole Bull</hi>.</p>
+<pb n="410"/>
+<pb n="411"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="En Episode af Ole Bulls Liv. " synch="en-episode-af-ole-bulls-liv">
+<head type="section-comments">En Episode af Ole Bulls Liv.</head>
+<head type="section-comments">Fortalt efter Kunstnerens egen mundtlige Meddelelse</head>
+<p rend="noIndent">Trykt første gang trykt i <hi rend="italic">Portefeuillen for 1839</hi>, bind 1, 5. hæfte, 3. februar 1839. BFN 338</p>
+<table rend="textcomments">
+<cell type="page">407</cell><cell><row xml:id="txtcmnt-407-01"><cell type="data-term">Ole Bull(s)</cell><cell type="data-definition">Ole Bornemann Bull (1810-1880), norsk violinvirtuos; fik i perioden 1831-1837 sit store europæiske gennembrud ved koncerter bl.a. i Frankrig, Italien og England; specielt den beskrevne koncert i Bologna 25. april 1834 gjorde ham berømt. H.C. Andersen oplevede Ole Bull første gang ved en koncert 4. november 1838 og stiftede i løbet af november 1838 nærmere bekendtskab med ham.</cell></row><row xml:id="txtcmnt-407-02"><cell type="data-term">vederqvægede</cell><cell type="data-definition">styrkede, forfriskede.</cell></row><row xml:id="txtcmnt-407-03"><cell type="data-term">Madame Malibran og Hr. Beriot</cell><cell type="data-definition">Maria-Felicia Malibran (1808-1836), feteret spansk sangerinde, og Charles-Auguste de Bériot (1802-1870), belgisk violinist og komponist; også privat dannede de to par, Maria-Felicia Malibran fødte deres barn 1833, og da hun 1836 fik ophævet sit tidligere ægteskab, blev de gift.</cell></row><row xml:id="txtcmnt-407-04"><cell type="data-term">Rossini(s)</cell><cell type="data-definition">Gioacchino Rossini (1792-1868), italiensk (opera)komponist.</cell></row><row xml:id="txtcmnt-407-05"><cell type="data-term">hvo</cell><cell type="data-definition">hvem.</cell></row></cell>
+<cell type="page">408</cell><cell><row xml:id="txtcmnt-408-01"><cell type="data-term">Lire</cell><cell type="data-definition">strengeinstrument, hvis strenge sættes i svingning ved hjælp af et hjul med et håndtag, der drejes med den ene hånd, mens den anden hånd passer tangenterne.</cell></row><row xml:id="txtcmnt-408-02"><cell type="data-term">Erindringen om sit eget Liv … Uro</cell><cell type="data-definition">ved koncerten i Bologna spillede Ole Bull øjensynligt for første gang sin <hi rend="italic">Concerto per il Violino in tre parte</hi>, der ifølge datering på originalpartituret er færdiggjort den 22. april 1834; det skulle siden blive et af Ole Bulls kendetegn, at han som ekstranummer improviserede over kendte operamelodier.</cell></row><row xml:id="txtcmnt-408-03"><cell type="data-term">»Norma«</cell><cell type="data-definition">opera fra 1831 af den italienske komponist Vicenzo Bellini (1801-1835).</cell></row><row xml:id="txtcmnt-408-04"><cell type="data-term">»Othello«</cell><cell type="data-definition">opera fra 1816 af Gioacchino Rossini.</cell></row><row xml:id="txtcmnt-408-05"><cell type="data-term">»Moses«</cell><cell type="data-definition">Gioacchino Rossinis opera <hi rend="italic">Mosè in Egitto</hi> (dansk <hi rend="italic">Moses</hi>) fra 1818.</cell></row><row xml:id="txtcmnt-408-06"><cell type="data-term">Magieren(s)</cell><cell type="data-definition">magikeren, troldmanden.</cell></row></cell>
+<cell type="page">409</cell><cell><row xml:id="txtcmnt-409-01"><cell type="data-term">Heros</cell><cell type="data-definition">helt.</cell></row><row xml:id="txtcmnt-409-02"><cell type="data-term">indrømmede</cell><cell type="data-definition">overlod til benyttelse.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Elverhøi</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Tredie Samling</i>, som udkom den 7. april 1845.<br/>
+BFN 468/II,79-84/VII,99-102.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="elverhoei" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="elverhoei_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="71_Elf-Hill">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der løb saa vims nogle store Fiirbeen i Sprækkerne paa et gammelt Træ; de kunde ...</incipit><readingTime>9</readingTime><popularity>976</popularity><cite>&lt;p&gt;H.C. Andersen: Elverhøi. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Elverhoei_01_2022-03-09.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>trylleeventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Elverhøi" xml:id="elverhoei">
+<pb n="343"/><head type="main">Elverhøi</head>
+
+<p rend="noIndent" xml:id="p_00001">Der løb saa vims nogle store Fiirbeen i Sprækkerne paa et gammelt Træ; de kunde godt forstaae hinanden, for de talte Fiirbene-Sproget.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Nei, hvor det rumler og <seg target="txtcmnt-343-01"><!--DATA-TERM: brumler--><!--DATA-DEFINITION: buldrer, larmer.-->brumler</seg> i den gamle Elverhøi!« sagde den ene Fiirbeen; »jeg har, for det Spectakel, nu ikke i to Nætter lukket mine Øine, jeg kunde ligesaa godt ligge og have Tandpine, for saa sover jeg heller ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Der er noget paa Færde derinde!« sagde den anden Fiirbeen, »Høien lade de staae paa fire røde Pæle lige til Hanegal, der bliver ordenlig luftet ud og Elverpigerne have lært nye Dandse, som der trampes i. Der er noget paa Færde!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Ja, jeg har talt med en Regnorm af mit Bekjendtskab«, sagde den tredie Fiirbeen; »Regnormen kom lige op af Høien hvor den, Nætter og Dage, havde rodet i Jorden; den havde hørt en heel Deel, see kan den jo ikke, det elendige Dyr, men føle sig for og høre efter, det forstaaer den. De vente Fremmede i Elverhøi, fornemme Fremmede, men hvem, vilde Regnormen ikke sige, eller han vidste det nok ikke. Alle <seg target="txtcmnt-343-02"><!--DATA-TERM: Lygtemænd(ene)--><!--DATA-DEFINITION: lysfænomen over moser o.l.; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som menes at frembringe dette lys med en lygte for at lede eller lokke nogen i en bestemt retning (jf. Thiele II, 298-299).-->Lygtemændene</seg> ere sagte til for at gjøre Fakkeltog, som man kalder det, og Sølv og Guld, hvoraf der er nok i Høien, bliver poleret og stillet ud i Maaneskin!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Hvem kan dog de Fremmede være!« sagde alle Fiirbenene. »Hvad mon der er paa Færde? Hør, hvor det summer! hør hvor det brummer!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Lige i det samme skiltes Elverhøi ad, og en gammel Elverpige, <seg target="txtcmnt-343-03"><!--DATA-TERM: rygløs--><!--DATA-DEFINITION: ifølge folketroen er elverpiger hule i ryggen.-->rygløs</seg> var hun, men ellers meget anstændigt klædt paa, kom trippende ud, det var den gamle Elverkonges Huusholderske, hun var langt ude af Familien, og havde Ravhjerte paa Panden. Benene gik saa <seg target="txtcmnt-343-04"><!--DATA-TERM: flinke--><!--DATA-DEFINITION: hurtigt.-->flinke</seg> paa hende: trip, trip! hille den, hvor hun kunde trippe og det lige ned i Mosen til <hi rend="italic"><seg target="txtcmnt-343-05"><!--DATA-TERM: Natravnen--><!--DATA-DEFINITION: ifølge folketroen blev et genfærd, som man ved besværgelser e.l. havde fået til at synke i jorden, efter nogen tid til en natravn.-->Natravnen</seg></hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»De bliver inviteret til Elverhøi, og det i Nat!« sagde hun, »men vil De ikke først gjøre os en stor Tjeneste og tage Dem af Indbydelserne! Gavn maa De gjøre, da De ikke selv holder <pb n="344"/>Huus! Vi faae nogle høi-fornemme Fremmede, Troldfolk der have noget at sige, og derfor vil den gamle Elverkonge vise sig!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Hvem skal inviteres?« spurgte <hi rend="italic">Natravnen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Ja, til det store Bal kan Alverden komme, selv Mennesker, naar de bare kunne tale i Søvne eller gjøre saadan en lille Smule af hvad der <seg target="txtcmnt-344-01"><!--DATA-TERM: falder i vor Art--><!--DATA-DEFINITION: stemmer overens med vores væsen.-->falder i vor Art</seg>. Men til det første Gilde skal der være strængt Udvalg, vi ville kun have de Allerfornemste. Jeg har stridt med Elverkongen, thi jeg <seg target="txtcmnt-344-02"><!--DATA-TERM: holder for--><!--DATA-DEFINITION: mener.-->holder for</seg>, vi kunne ikke engang have Spøgelser med. <hi rend="italic">Havmanden</hi> og hans Døttre maae først inviteres, de holde vel ikke meget af at komme paa det Tørre, men de skal nok hver faae en vaad Steen at sidde paa eller noget bedre, og saa tænker jeg nok de <seg target="txtcmnt-344-03"><!--DATA-TERM: sige ikke af--><!--DATA-DEFINITION: ikke siger nej.-->sige ikke af</seg> denne Gang. Alle gamle <hi rend="italic">Trolde</hi> <seg target="txtcmnt-344-04"><!--DATA-TERM: af første Classe--><!--DATA-DEFINITION: sigter til tidens rangsystem.-->af første Classe</seg> med Hale, <hi rend="italic">Aamanden</hi> og <hi rend="italic">Nisserne</hi> maa vi have, og saa tænker jeg at vi kunne ikke forbigaae <seg target="txtcmnt-344-05"><!--DATA-TERM: <i>Gravsoen</i>, <i>Helhesten</i> og <i>Kirkegrimen</i>--><!--DATA-DEFINITION: henholdsvis ulykkesvarslende genfærd af so, der er blevet levende begravet; trebenet, hovedløs hest, som varsler død (jf. Thiele III, 293-295); nisse, der holder til i kirker, hvor den holder orden og straffer enhver utilbørlig opførsel.--><hi rend="italic">Gravsoen</hi>, <hi rend="italic">Helhesten</hi> og <hi rend="italic">Kirkegrimen</hi></seg>; de høre jo rigtignok med til Geistligheden, <seg target="txtcmnt-344-06"><!--DATA-TERM: som ikke ere af vore Folk--><!--DATA-DEFINITION: dvs. som ikke er hedninge. Som levn fra hedenskabet kunne elverfolk ikke lide den kristne præstestand.-->som ikke ere af vore Folk</seg>, men det er nu deres Embede, de ere os nær i Familie og de gjøre stadigen Visiter!« –</p>
+
+<p rend="firstIndent" xml:id="p_00010">»<seg target="txtcmnt-344-07"><!--DATA-TERM: Bra--><!--DATA-DEFINITION: godt.-->Bra</seg>!« sagde <hi rend="italic">Natravnen</hi> og fløi afsted for at invitere.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Elverpigerne dandsede allerede paa Elverhøi, og de dandsede med Langschawl vævet af Taage og Maaneskin, og det seer nydelig ud for dem, der synes om den Slags. Midt inde i Elverhøi var den store Sal ordenligt pudset op; Gulvet var vadsket med Maaneskin og Væggene vare gnedne med Hexefedt, saa at de skinnede som Tulipanblade foran Lyset. I Kjøkkenet var der fuldt op med Frøer paa Spid, Snogeskind med smaa Børnefingere i og Salater af Padehatte-Frø, vaade Musesnuder og Skarntyde, Øl fra <seg target="txtcmnt-344-08"><!--DATA-TERM: Mosekonens Bryg--><!--DATA-DEFINITION: ifølge folketroen den tåge, der efter varme dage stiger op fra moser og enge ved aftenstid.-->Mosekonens Bryg</seg>, skinnende <seg target="txtcmnt-344-09"><!--DATA-TERM: Salpeterviin--><!--DATA-DEFINITION: saltpeterudskillelse på fugtige mure.-->Salpeterviin</seg> fra Gravkjælderen, Alt meget solidt; rustne Søm og Kirkerude-Glas hørte til Knaset.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Den gamle Elverkonge lod sin Guldkrone polere i stødt Griffel, det var <seg target="txtcmnt-344-10"><!--DATA-TERM: Duxe-Griffel--><!--DATA-DEFINITION: sammensat af duks: den øverste, dygtigste elev i en klasse, og griffel: tynd pind af skifer til at skrive på tavle med.-->Duxe-Griffel</seg> og det er meget vanskeligt for Elverkongen at faae Duxe-Griffel! I Sovekammeret hang de Gardiner op, og hæftede dem fast med Snogespyt. Jo, der var rigtignok en Summen og Brummen.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Nu skal her ryges med <seg target="txtcmnt-344-11"><!--DATA-TERM: Krølhaar--><!--DATA-DEFINITION: elastiske hår fra heste (hale og manke) og køer, der bruges som polstringsmateriale.-->Krølhaar</seg> og Svinebørster, saa troer jeg at jeg har gjort mit!« sagde den gamle Elverpige.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Søde Fader!« sagde den mindste af Døttrene; »faaer jeg saa at vide hvem de fornemme Fremmede ere?«</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Naa da!« sagde han, »saa maa jeg vel sige det! To af mine Døttre maae holde sig parate til Giftermaal! to blive vist gifte <pb n="345"/>bort. Trold-Gubben oppe fra Norge, ham der boer i det gamle <seg target="txtcmnt-345-01"><!--DATA-TERM: Dovre-Fjeld--><!--DATA-DEFINITION: fjeldkæde syd for Trondheim.-->Dovre-Fjeld</seg> og har mange Klippe-Slotte af Kampesteen, og et <seg target="txtcmnt-345-02"><!--DATA-TERM: Guld-Værk--><!--DATA-DEFINITION: guldmine.-->Guld-Værk</seg>, som er bedre end man troer, kommer herned med sine to Drenge, de skulle søge sig en Kone ud. Trold-Gubben er saadan en rigtig, gammel ærlig norsk Gubbe, lystig og ligefrem, jeg kjender ham fra gamle Dage, da vi drak <hi rend="italic">Duus</hi>, han var her nede at hente sin Kone, nu er hun død, hun var en Datter af <seg target="txtcmnt-345-03"><!--DATA-TERM: Klintekongen paa Møen--><!--DATA-DEFINITION: bor ifølge folketroen inde i kridtklinten; jf. Thiele II, 190-193.-->Klintekongen paa Møen</seg>. Han <seg target="txtcmnt-345-04"><!--DATA-TERM: tog sin Kone paa Kridt--><!--DATA-DEFINITION: ordspil på talemåden »at tage på kridt«, dvs. på kredit.-->tog sin Kone paa Kridt</seg>, som man siger! O hvor jeg længes efter den norske Trold-Gubbe! Drengene, siger man, skulle være nogle uvorne, kjæphøie Unger, men man kan jo ogsaa gjøre dem Uret, og <seg target="txtcmnt-345-05"><!--DATA-TERM: de blive nok gode … gjemte--><!--DATA-DEFINITION: talemåde: De udvikler sig nok i en god retning med tiden.-->de blive nok gode naar de blive gjemte</seg>. Lad mig see at I sætte Skik paa dem!«</p>
+<p rend="firstIndent" xml:id="p_00016">»Og naar komme de?« spurgte den ene Datter.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Det kommer an paa Vind og Veir!« sagde <hi rend="italic">Elverkongen</hi>. »De reise oeconomisk! De komme herned med Skibsleilighed. <seg target="txtcmnt-345-06"><!--DATA-TERM: Jeg vilde … den Side--><!--DATA-DEFINITION: politisk hentydning til den norske modvilje mod personalunionen med Sverige siden 1814.-->Jeg vilde at de skulde gaae over Sverrige, men den Gamle hælder endnu ikke til den Side</seg>! Han følger ikke med Tiderne, og det kan jeg ikke lide!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">I det samme kom der to <hi rend="italic">Lygtemænd</hi> hoppende, den ene hurtigere end den anden og derfor kom den ene først.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»De komme! de komme!« raabte de.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Giv mig min Krone, og lad mig staae i Maaneskinnet!« sagde <hi rend="italic">Elverkongen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Døttrene løftede paa <seg target="txtcmnt-345-07"><!--DATA-TERM: Langschawlerne--><!--DATA-DEFINITION: de lange sjaler, slør.-->Langschawlerne</seg> og neiede lige til Jorden.</p>
+
+<p rend="firstIndent" xml:id="p_00022">Der stod <hi rend="italic">Trold-Gubben</hi> fra <hi rend="italic">Dovre</hi>, med Krone af hærdede Iistappe og polerede Grankogler, iøvrigt havde han Bjørnepels og Kane-Støvler; Sønnerne derimod gik barhalset og uden Seler, for de vare <seg target="txtcmnt-345-08"><!--DATA-TERM: Kraftmænd--><!--DATA-DEFINITION: kraftkarle.-->Kraftmænd</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Er det en Høi?« spurgte den mindste af Drengene og pegede paa Elverhøi. »Det kalde vi oppe i Norge et Hul!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Gutter!« sagde den Gamle. »Hul gaaer indad, Høi gaaer opad! har I ikke Øine i Hovedet!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">Det eneste der undrede dem hernede, sagde de, var at de saaledes uden videre kunde forstaae Sproget!</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Skab Jer nu ikke!« sagde den Gamle, »man kunde troe at I var ikke rigtig <seg target="txtcmnt-345-09"><!--DATA-TERM: gjennembagte--><!--DATA-DEFINITION: voksne, modne.-->gjennembagte</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">Og saa gik de ind i Elverhøi, hvor der rigtignok var fiint Selskab, og det i en Hast, man skulde troe at de vare blæste sammen og nydelig og net var der indrettet for enhver. <hi rend="italic">Havfolkene</hi> sade til Bords i store Vandkar, de sagde, det var ligesom om de vare hjemme. Alle holdt de Bordskik <seg target="txtcmnt-345-10"><!--DATA-TERM: uden de to smaa--><!--DATA-DEFINITION: på nær de to små.-->uden de to <pb n="346"/>smaa</seg> norske Trolde, de lagde Benene op paa Bordet, men de troede nu at Alting klædte dem!</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Fødderne af Fadet!« sagde den gamle Trold og saa lystrede de, men de gjorde det da ikke lige strax. Deres Bord-Dame kildrede de med Grankogler, som de havde med i Lommen og saa trak de deres Støvler af for at sidde mageligt og gav hende Støvlerne at holde, men Faderen, den gamle Dovre-Trold, han var rigtignok ganske anderledes; han fortalte saa deiligt om de stolte norske Fjelde, og om Fosser der styrtede skumhvide ned, med et Bulder som Tordenskrald og Orgelklang; han fortalte om Laxen der sprang op mod de styrtende Vande naar <seg target="txtcmnt-346-01"><!--DATA-TERM: Nøkken--><!--DATA-DEFINITION: ifølge folketroen et overnaturligt væsen i menneske- eller hesteskikkelse, der holder til i elve, åer og søer, hvor det lokker mennesker til sig med sit spil.-->Nøkken</seg> spillede paa Guldharpe. Han fortalte om de skinnende Vinternætter, naar Kanebjælderne klang og Knøsene løb med brændende Blus hen over den blanke Iis, der var saa gjennemsigtig at de saae Fiskene blive bange under deres Fødder. Jo han kunde fortælle, saa at man saae og hørte hvad han sagde, det var ligesom <seg target="txtcmnt-346-02"><!--DATA-TERM: Saugmøller(ne)--><!--DATA-DEFINITION: savmøller drevet af vandkraft.-->Saugmøllerne</seg> gik, som om Karle og Piger sang Viser og dandsede <seg target="txtcmnt-346-03"><!--DATA-TERM: Hallingedands--><!--DATA-DEFINITION: folkedans fra Hallingdalen, Norge.-->Hallingedands</seg>; hussa! lige med Eet gav Trold-Gubben den gamle Elverpige et Morbroder-Smadsk, det var et ordenligt Kys og de vare dog slet ikke i Familie.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Nu maatte Elverpigerne dandse og det baade <seg target="txtcmnt-346-04"><!--DATA-TERM: simpelt--><!--DATA-DEFINITION: i roligt tempo og takt.-->simpelt</seg> og det med at trampe, og det klædte dem godt, saa kom Kunstdandsen eller som det kaldtes: »at træde udenfor Dandsen«, hille den, hvor de kunde strække Been, man vidste ikke hvad der var Ende og hvad der var Begyndelse, man vidste ikke hvad der var Arme og hvad der var Been, det gik imellem hinanden ligesom Saugspaaner og saa snurrede de rundt saa Helhesten fik ondt og maatte gaae fra Bordet.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Prrrrr!« sagde Trold-Gubben, »det er <seg target="txtcmnt-346-05"><!--DATA-TERM: Commers--><!--DATA-DEFINITION: sjov, morskab.-->Commers</seg> med Beentøiet! Men hvad kan de mere end dandse, strække Been og gjøre Hvirvelvind?«</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Det skal Du faae at vide!« sagde Elverkongen og saa kaldte han den yngste af sine Døttre frem; hun var saa spinkel og klar, som Maaneskin, hun var den fineste af alle Søstrene; hun <seg target="txtcmnt-346-06"><!--DATA-TERM: tog en hvid Pind i Munden--><!--DATA-DEFINITION: ifølge folketroen blev man usynlig ved at tage en afbarket pind i munden.-->tog en hvid Pind i Munden</seg>, og saa var hun reent borte, det var hendes Kunst.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Men Trold-Gubben sagde, at den Kunst kunde han ikke lide hos sin Kone og han troede heller ikke at hans Drenge holdt af den.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Den anden kunde gaae ved Siden af sig selv ligesom om hun havde Skygge, og det har nu Troldfolk ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00034">Den tredie var af en ganske anden Slags, hun havde lært i <pb n="347"/>Mosekonens Bryggerhuus og det var hende som forstod at spække <seg target="txtcmnt-347-01"><!--DATA-TERM: (Elle)trunter--><!--DATA-DEFINITION: udgåede hule træstammer uden grene.-->Elletrunter</seg> med <seg target="txtcmnt-347-02"><!--DATA-TERM: Sanct Hans Orme--><!--DATA-DEFINITION: små, brunlige biller, der på lune sommerftener udsender et gul-grønt lys.-->Sanct Hans Orme</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Hun bliver en god Huusmoder!« sagde Trold-Gubben og saa klinkede han med Øinene; for han vilde ikke drikke saa meget.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Nu kom den fjerde Elverpige, hun havde en stor Guldharpe at spille paa, og da hun slog paa den første Stræng løftede Alle det venstre Been, for Troldfolk er keitbenede, og da hun slog den anden Stræng maatte de Alle gjøre hvad hun vilde.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Det er et farligt Fruentimmer!« sagde Trold-Gubben, men begge Sønnerne gik ud af Høien, for nu <seg target="txtcmnt-347-03"><!--DATA-TERM: vare de kjede af det--><!--DATA-DEFINITION: kedede de sig.-->vare de kjede af det</seg>.</p>
+<p rend="firstIndent" xml:id="p_00038">»Og hvad kan den næste Datter?« spurgte Trold-Gubben.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Jeg har lært at holde af de Norske!« sagde hun, »og aldrig gifter jeg mig uden at jeg kan komme til Norge!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">Men den mindste af Søstrene hvidskede til Trold-Gubben: »Det er bare fordi hun har hørt af en <seg target="txtcmnt-347-04"><!--DATA-TERM: norsk Vise--><!--DATA-DEFINITION: hentydning til S.O. Wolffs (1796-1859) »Hvor herligt er mit Fødeland«, 1822, med slutningen: »Om Kloden rokkes, end dets Fjelde / – Skal Stormen dog ei kunne fælde. / :|:Som Bauta end de skulle staae. / Og vise, hvor vort Norge laae. :|: «.-->norsk Vise</seg>, at naar Verden forgaaer, saa vil dog de norske Klipper staae som <seg target="txtcmnt-347-05"><!--DATA-TERM: Bauta--><!--DATA-DEFINITION: bautasten, mindesten fra oldtiden.-->Bauta</seg>, og derfor vil hun derop for hun er saa bange for at forgaae.«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Ho, ho!« sagde Trold-Gubben, »slap det derud. Men hvad kan den syvende og sidste?«</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Den sjette kommer før den syvende!« sagde Elverkongen, for han kunde regne, men den Sjette vilde ikke rigtig komme frem.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Jeg kan kun sige Folk Sandhed!« sagde hun, »mig bryder Ingen sig om, og jeg har nok at gjøre med at sye paa mit Liigtøi!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">Nu kom den syvende og sidste, og hvad kunde hun? Ja hun kunde fortælle Eventyr og det saa mange hun vilde.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Her er alle mine fem Fingre!« sagde Trold-Gubben, »fortæl mig et om hver!«</p>
+
+<p rend="firstIndent" xml:id="p_00046">Og Elverpigen tog ham om Haandleddet, og han loe saa det klukkede i ham, og da hun kom til <hi rend="italic"><seg target="txtcmnt-347-06"><!--DATA-TERM: Guldbrand--><!--DATA-DEFINITION: ringfingeren.-->Guldbrand</seg></hi>, der havde Guldring om Livet, ligesom den vidste at der skulde være Forlovelse, sagde Trold-Gubben, »hold fast hvad Du har, Haanden er Din! Dig vil jeg selv have til Kone!«</p>
+
+<p rend="firstIndent" xml:id="p_00047">Og <seg target="txtcmnt-347-07"><!--DATA-TERM: Ellepigen--><!--DATA-DEFINITION: elverpigen.-->Ellepigen</seg> sagde, at der var endnu tilbage om <hi rend="italic">Guldbrand</hi> og <seg target="txtcmnt-347-08"><!--DATA-TERM: lille <i>Peer Spillemand</i>--><!--DATA-DEFINITION: lillefingeren.-->lille <hi rend="italic">Peer Spillemand</hi></seg>!</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Dem skulle vi høre til Vinter!« sagde Trold-Gubben, »og om Granen skulle vi høre og om Birken og om <seg target="txtcmnt-347-09"><!--DATA-TERM: Huldregaverne--><!--DATA-DEFINITION: B.S. Ingemanns (1789-1862) <i>Huldre-Gaverne eller Ole Navnløses Levnets-Eventyr, fortalt af ham selv</i>, 1831; gaver fra huldrefolket, overnaturlige væsner med magisk kraft, som holder til i de norske fjelde.-->Huldregaverne</seg> og den klingrende Frost! Du skal nok komme til at fortælle, for det gjør endnu Ingen rigtig deroppe! – og saa skulle vi sidde i <seg target="txtcmnt-347-10"><!--DATA-TERM: Steenstuen--><!--DATA-DEFINITION: hus bygget af sten; her: troldgubbens hule i Dovrefjeld.-->Steenstuen</seg> hvor Fyrrespaanen brænder, og drikke <seg target="txtcmnt-347-11"><!--DATA-TERM: Mjød--><!--DATA-DEFINITION: drik af vand, gæret honning og krydderier.-->Mjød</seg> af de <pb n="348"/>gamle norske Kongers Guldhorn; Nøkken har skjænket mig et Par Stykker, og naar vi saa sidde, saa kommer <seg target="txtcmnt-348-01"><!--DATA-TERM: Garboen--><!--DATA-DEFINITION: ifølge norsk folketro en gårdnisse, som beskytter kvæg.-->Garboen</seg> og gjør Visit, han synger Dig alle <seg target="txtcmnt-348-02"><!--DATA-TERM: Sæterpige(ns)--><!--DATA-DEFINITION: pige, der vogter kvæget på sæteren, dvs. græsgangene i fjeldet.-->Sæterpigens</seg> Sange. Det skal blive lystigt! Laxen vil springe i Fossen og slaae mod Steenvæggen, men den kommer dog ikke ind! – Ja Du kan troe der er godt i det kjære gamle Norge! Men hvor ere Gutterne?«</p>
+
+<p rend="firstIndent" xml:id="p_00049">Ja, hvor vare Gutterne. De løb omkring paa Marken og blæste Lygtemændene ud, der kom saa skikkeligt og vilde gjøre Fakkeltog.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»<seg target="txtcmnt-348-03"><!--DATA-TERM: Er det at føite om--><!--DATA-DEFINITION: sikke I føjter omkring.-->Er det at føite om</seg>!« sagde Trold-Gubben, »nu har jeg taget en Moder til Eder, nu kunne I tage en Moster!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">Men Gutterne sagde at de vilde helst holde en Tale og drikke Duus, gifte sig det havde de ingen Lyst til. – Og saa holdt de Tale, drak Duus og <seg target="txtcmnt-348-04"><!--DATA-TERM: satte Glasset paa Neglen--><!--DATA-DEFINITION: satte randen af glasset på neglen efter at have vendt bunden i vejret på det. Forblev neglen tør, var glasset helt tømt.-->satte Glasset paa Neglen</seg> for at vise at de havde drukket ud; trak saa Kjolerne af og lagde sig paa Bordet at sove, for de generede sig ikke. Men Trold-Gubben dandsede Stuen rundt med sin unge Brud og byttede Støvler med hende, for det er finere end at bytte Ring.</p>
+
+<p rend="firstIndent" xml:id="p_00052">»<seg target="txtcmnt-348-05"><!--DATA-TERM: Nu galer Hanen--><!--DATA-DEFINITION: ifølge folketroen må de overnaturlige væsner forsvinde ved daggry, når hanen galer.-->Nu galer Hanen</seg>!« sagde den gamle Elverpige, som holdt Huus. »Nu maa vi lukke Vindueskudderne at ikke Solen brænder os inde!«</p>
+
+<p rend="firstIndent" xml:id="p_00053">Og saa lukkede Høien sig.</p>
+
+<p rend="firstIndent" xml:id="p_00054">Men udenfor løb Fiirbenene op og ned af det revnede Træ og den ene sagde til den anden:</p>
+
+<p rend="firstIndent" xml:id="p_00055">»O hvor jeg godt kunde lide den norske Trold-Gubbe!«</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Jeg holder mere af Drengene!« sagde Regnormen, men den kunde jo ikke see, det elendige Dyr.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Elverhøi" xml:id="elverhoei">
+<head type="section-comments">Elverhøi</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Tredie Samling</hi>, som udkom den 7. april 1845.<br/>
+BFN 468/II,79-84/VII,99-102.</p>
+
+<table rend="textcomments">
+<cell type="page">(342)</cell><row xml:id="txtcmnt-343-01"><cell type="data-definition">Samlingen var tilegnet digteren Henrik Hertz (1798-1870), som forholdt sig kritisk til den unge H.C. Andersen i sine <hi rend="italic">Gjenganger-Breve</hi>, 1830, hvori han karakteriseredes som »Poesiens mindre Kræ« (s. 33). Men da de to mødtes i Rom i 1834, blev de venner.</cell></row>
+<cell type="page">343</cell><row xml:id="txtcmnt-343-01"><cell type="data-term">brumler</cell><cell type="data-definition">buldrer, larmer.</cell></row><row xml:id="txtcmnt-343-02"><cell type="data-term">Lygtemænd(ene)</cell><cell type="data-definition">lysfænomen over moser o.l.; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som menes at frembringe dette lys med en lygte for at lede eller lokke nogen i en bestemt retning (jf. Thiele II, 298-299).</cell></row><row xml:id="txtcmnt-343-03"><cell type="data-term">rygløs</cell><cell type="data-definition">ifølge folketroen er elverpiger hule i ryggen.</cell></row><row xml:id="txtcmnt-343-04"><cell type="data-term">flinke</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-343-05"><cell type="data-term">Natravnen</cell><cell type="data-definition">ifølge folketroen blev et genfærd, som man ved besværgelser e.l. havde fået til at synke i jorden, efter nogen tid til en natravn.</cell></row>
+<cell type="page">344</cell><row xml:id="txtcmnt-344-01"><cell type="data-term">falder i vor Art</cell><cell type="data-definition">stemmer overens med vores væsen.</cell></row><row xml:id="txtcmnt-344-02"><cell type="data-term">holder for</cell><cell type="data-definition">mener.</cell></row><row xml:id="txtcmnt-344-03"><cell type="data-term">sige ikke af</cell><cell type="data-definition">ikke siger nej.</cell></row><row xml:id="txtcmnt-344-04"><cell type="data-term">af første Classe</cell><cell type="data-definition">sigter til tidens rangsystem.</cell></row><row xml:id="txtcmnt-344-05"><cell type="data-term"><hi rend="italic">Gravsoen</hi>, <hi rend="italic">Helhesten</hi> og <hi rend="italic">Kirkegrimen</hi></cell><cell type="data-definition">henholdsvis ulykkesvarslende genfærd <pb n="523"/>af so, der er blevet levende begravet; trebenet, hovedløs hest, som varsler død (jf. Thiele III, 293-295); nisse, der holder til i kirker, hvor den holder orden og straffer enhver utilbørlig opførsel.</cell></row><row xml:id="txtcmnt-344-06"><cell type="data-term">som ikke ere af vore Folk</cell><cell type="data-definition">dvs. som ikke er hedninge. Som levn fra hedenskabet kunne elverfolk ikke lide den kristne præstestand.</cell></row><row xml:id="txtcmnt-344-07"><cell type="data-term">Bra</cell><cell type="data-definition">godt.</cell></row><row xml:id="txtcmnt-344-08"><cell type="data-term">Mosekonens Bryg</cell><cell type="data-definition">ifølge folketroen den tåge, der efter varme dage stiger op fra moser og enge ved aftenstid.</cell></row><row xml:id="txtcmnt-344-09"><cell type="data-term">Salpeterviin</cell><cell type="data-definition">saltpeterudskillelse på fugtige mure.</cell></row><row xml:id="txtcmnt-344-10"><cell type="data-term">Duxe-Griffel</cell><cell type="data-definition">sammensat af duks: den øverste, dygtigste elev i en klasse, og griffel: tynd pind af skifer til at skrive på tavle med.</cell></row><row xml:id="txtcmnt-344-11"><cell type="data-term">Krølhaar</cell><cell type="data-definition">elastiske hår fra heste (hale og manke) og køer, der bruges som polstringsmateriale.</cell></row>
+<cell type="page">345</cell><row xml:id="txtcmnt-345-01"><cell type="data-term">Dovre-Fjeld</cell><cell type="data-definition">fjeldkæde syd for Trondheim.</cell></row><row xml:id="txtcmnt-345-02"><cell type="data-term">Guld-Værk</cell><cell type="data-definition">guldmine.</cell></row><row xml:id="txtcmnt-345-03"><cell type="data-term">Klintekongen paa Møen</cell><cell type="data-definition">bor ifølge folketroen inde i kridtklinten; jf. Thiele II, 190-193.</cell></row><row xml:id="txtcmnt-345-04"><cell type="data-term">tog sin Kone paa Kridt</cell><cell type="data-definition">ordspil på talemåden »at tage på kridt«, dvs. på kredit.</cell></row><row xml:id="txtcmnt-345-05"><cell type="data-term">de blive nok gode … gjemte</cell><cell type="data-definition">talemåde: De udvikler sig nok i en god retning med tiden.</cell></row><row xml:id="txtcmnt-345-06"><cell type="data-term">Jeg vilde … den Side</cell><cell type="data-definition">politisk hentydning til den norske modvilje mod personalunionen med Sverige siden 1814.</cell></row><row xml:id="txtcmnt-345-07"><cell type="data-term">Langschawlerne</cell><cell type="data-definition">de lange sjaler, slør.</cell></row><row xml:id="txtcmnt-345-08"><cell type="data-term">Kraftmænd</cell><cell type="data-definition">kraftkarle.</cell></row><row xml:id="txtcmnt-345-09"><cell type="data-term">gjennembagte</cell><cell type="data-definition">voksne, modne.</cell></row><row xml:id="txtcmnt-345-10"><cell type="data-term">uden de to smaa</cell><cell type="data-definition">på nær de to små.</cell></row>
+<cell type="page">346</cell><row xml:id="txtcmnt-346-01"><cell type="data-term">Nøkken</cell><cell type="data-definition">ifølge folketroen et overnaturligt væsen i menneske- eller hesteskikkelse, der holder til i elve, åer og søer, hvor det lokker mennesker til sig med sit spil.</cell></row><row xml:id="txtcmnt-346-02"><cell type="data-term">Saugmøller(ne)</cell><cell type="data-definition">savmøller drevet af vandkraft.</cell></row><row xml:id="txtcmnt-346-03"><cell type="data-term">Hallingedands</cell><cell type="data-definition">folkedans fra Hallingdalen, Norge.</cell></row><row xml:id="txtcmnt-346-04"><cell type="data-term">simpelt</cell><cell type="data-definition">i roligt tempo og takt.</cell></row><row xml:id="txtcmnt-346-05"><cell type="data-term">Commers</cell><cell type="data-definition">sjov, morskab.</cell></row><row xml:id="txtcmnt-346-06"><cell type="data-term">tog en hvid Pind i Munden</cell><cell type="data-definition">ifølge folketroen blev man usynlig ved at tage en afbarket pind i munden.</cell></row>
+<cell type="page">347</cell><row xml:id="txtcmnt-347-01"><cell type="data-term">(Elle)trunter</cell><cell type="data-definition">udgåede hule træstammer uden grene.</cell></row><row xml:id="txtcmnt-347-02"><cell type="data-term">Sanct Hans Orme</cell><cell type="data-definition">små, brunlige biller, der på lune sommerftener udsender et gul-grønt lys.</cell></row><row xml:id="txtcmnt-347-03"><cell type="data-term">vare de kjede af det</cell><cell type="data-definition">kedede de sig.</cell></row><row xml:id="txtcmnt-347-04"><cell type="data-term">norsk Vise</cell><cell type="data-definition">hentydning til S.O. Wolffs (1796-1859) »Hvor herligt er mit Fødeland«, 1822, med slutningen: »Om Kloden rokkes, end dets Fjelde / – Skal Stormen dog ei kunne fælde. / :|:Som Bauta end de skulle staae. / Og vise, hvor vort Norge laae. :|: «.</cell></row><row xml:id="txtcmnt-347-05"><cell type="data-term">Bauta</cell><cell type="data-definition">bautasten, mindesten fra oldtiden.</cell></row><row xml:id="txtcmnt-347-06"><cell type="data-term">Guldbrand</cell><cell type="data-definition">ringfingeren.</cell></row><row xml:id="txtcmnt-347-07"><cell type="data-term">Ellepigen</cell><cell type="data-definition">elverpigen.</cell></row><row xml:id="txtcmnt-347-08"><cell type="data-term">lille <hi rend="italic">Peer Spillemand</hi></cell><cell type="data-definition">lillefingeren.</cell></row><row xml:id="txtcmnt-347-09"><cell type="data-term">Huldregaverne</cell><cell type="data-definition">B.S. Ingemanns (1789-1862) <hi rend="italic">Huldre-Gaverne eller Ole Navnløses Levnets-Eventyr, fortalt af ham selv</hi>, 1831; gaver fra huldrefolket, overnaturlige væsner med magisk kraft, som holder til i de norske fjelde.</cell></row><row xml:id="txtcmnt-347-10"><cell type="data-term">Steenstuen</cell><cell type="data-definition">hus bygget af sten; her: troldgubbens <pb n="524"/>hule i Dovrefjeld.</cell></row><row xml:id="txtcmnt-347-11"><cell type="data-term">Mjød</cell><cell type="data-definition">drik af vand, gæret honning og krydderier.</cell></row>
+<cell type="page">348</cell><row xml:id="txtcmnt-348-01"><cell type="data-term">Garboen</cell><cell type="data-definition">ifølge norsk folketro en gårdnisse, som beskytter kvæg.</cell></row><row xml:id="txtcmnt-348-02"><cell type="data-term">Sæterpige(ns)</cell><cell type="data-definition">pige, der vogter kvæget på sæteren, dvs. græsgangene i fjeldet.</cell></row><row xml:id="txtcmnt-348-03"><cell type="data-term">Er det at føite om</cell><cell type="data-definition">sikke I føjter omkring.</cell></row><row xml:id="txtcmnt-348-04"><cell type="data-term">satte Glasset paa Neglen</cell><cell type="data-definition">satte randen af glasset på neglen efter at have vendt bunden i vejret på det. Forblev neglen tør, var glasset helt tømt.</cell></row><row xml:id="txtcmnt-348-05"><cell type="data-term">Nu galer Hanen</cell><cell type="data-definition">ifølge folketroen må de overnaturlige væsner forsvinde ved daggry, når hanen galer.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

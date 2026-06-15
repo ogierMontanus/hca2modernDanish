@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Snowdrop</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="sommergjaekken">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="sommergjaekken_modern.xml">moderniseret version</note>
+                                                       <note target="159_The-Snowdrop.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It was wintertime, the air cold, the wind sharp, but indoors all was warm and we...</incipit><idno type="image">Sommergjaekken_hca_ill_0119.png</idno><popularity>924</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Snowdrop. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-10-28">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Snowdrop">
+               <head type="main" rend="The Snowdrop">The Snowdrop</head>                <p rend="noIndent" xml:id="p_00001">It was wintertime, the air cold, the wind sharp, but indoors all was warm and well, indoors the flower lay, it lay in its bulb under earth and snow.</p>
+               <p rend="firstIndent" xml:id="p_00002">One day rain fell; the drops forced their way through the layer of snow down into the earth, touched the flower bulb, told of the world of light above, soon the sun’s ray so fine and piercing forced its way through the snow, down to the bulb and pricked it.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Enter!’ the flower said.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘I can’t!’ the sun’s ray said; ‘I’m not strong enough to open up! I’ll be stronger when summer comes.’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘When will it be summer?’ the flower queried, and repeated this each time a new sun’s ray forced its way down. But summertime was a long way away; the snow still lay there, ice froze on the water every single night.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘What a time it takes! what a time it takes!’ the flower said. ‘I can feel this tickling and tingling, I must stritch and stretch myself, I must open up, I must be out! nod good morning to the summer, it will be a wonderful time!’</p>
+               <p rend="firstIndent" xml:id="p_00007">And the flower inside stritched and stretched against the thin shell that the water outside had softened, the snow and earth warmed, the sun’s ray pricked; it started to grow upwards under the snow, with a white-green bud on its green stem, with slender, thick leaves that seemed to want to shield it. The snow was cold, but was shone through with light and so easy to break through, and here the sun’s ray came with more might.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Welcome! welcome!’ each ray rang and sang, and the flower raised itself above the snow out into the world of light. The sun’s rays caressed and kissed it, so that it opened out completely, as white as snow and adorned with green stripes. It bowed its head in joy and humility.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Oh lovely flower!’ the sun’s rays sang. ‘How fresh and pure you are! You are the first one, the only one! You are our love! You announce summer, lovely summer, over town and country! All the snow shall melt! the cold winds be chased away! We shall reign! All will turn green! And then you will have companionship, lilacs and laburnum and finally the roses, but you are the first one, so fine and pure!’</p>
+               <p rend="firstIndent" xml:id="p_00010">It was sheer pleasure. It was as if the air rang and sang, as if the rays of light penetrated its leaves and stem; there it stood so fine and fragile and yet so vital, in young loveliness; it stood there in a white coat with green ribbons and sang summer’s praise. But summertime was still far away, the clouds hid the sun, keen winds raked it.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘You have come a bit too soon!’ the wind and weather said. ‘We are still in power! We will make you feel this and you will have to put up with it! You should have stayed indoors, not gone decking yourself out, it’s not time yet!’</p>
+               <p rend="firstIndent" xml:id="p_00012">It was bitterly cold! The days that arrived brought not a sun’s ray with them. It was the sort of weather to freeze to pieces in for such a small, frail flower. But there was greater strength inside it that it itself knew; it was strong in happiness and belief in the summer that was sure to come, that had been announced in its deep desire and confirmed by the warm sunlight, and so it stood there confidently in its white dress, in the white snow, bowing its head when the snowflakes fell thick and heavy, while the icy winds swept over it.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘You’ll snap!’ they said. ‘Wither, freeze! What on earth did you want to be out here for! Why did you let yourself be tempted, the sun’s ray has made a fool of you! Now you must manage for yourself, <hi rend="italic">snowdrop</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Snowdrop,’ it repeated in the early morning cold.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Snowdrop,’ some children shouted happily when they came down into the garden, ‘there’s one, so lovely, so delightful, the first one, the only one!’</p>
+               <p rend="firstIndent" xml:id="p_00016">And those words made the flower feel so good, they were words like warm sun’s rays. In its happiness, the flower did not even notice that it had been picked; it lay in a child’s hand, was kissed by a child’s mouth, was brought into the warm living room, gazed at by kind eyes, placed in water, so strengthening and so invigorating. The flower thought that all of a sudden it had arrived in the summer.</p>
+               <p rend="firstIndent" xml:id="p_00017">The daughter of the house, a lovely little girl, just confirmed, had a dear little friend, and he too had been confirmed and was preparing himself to earn a livelihood. ‘He is to be my summer’s fool!’ she said; then took the fine flower, placed it in a sweet-smelling piece of paper on which a verse had been written, a verse about the flower that began with summer’s fool and ended with summer’s fool, “little friend, be a <hi rend="italic">winter’s fool</hi>!” – she had fooled him with the talk of summer. Yes, all of this was stated in the verse, and it was made into a letter, the flower lay inside, and all was dark around it, dark, as if it lay in its bulb. The flower went on a journey, lay in a mail bag, was seized and squeezed, it was most uncomfortable; but all this also came to an end.</p>
+               <p rend="firstIndent" xml:id="p_00018">The journey was over, the letter was opened and read by the dear friend; he was so delighted, he kissed the flower and, with its verse around it, it was laid in a drawer where several other lovely letters lay, but all of them without a flower, it was the first one, the only one, as the sun’s rays had called it, and that was a pleasure to think about.</p>
+               <p rend="firstIndent" xml:id="p_00019">It was also given plenty of time to think about it, it thought while the summer passed, and the long winter passed, and summer came round again, when it was taken out of the drawer. But then the man was not at all happy, he seized the paper roughly, flung the verse away, so that the flower fell onto the floor, flat and withered it was now, but it should not be thrown to the floor on that account; although it was better to lie there than in the fire, <hi rend="italic">there</hi> the verses and letters were burnt. What had happened? What so often happens. The flower had fooled him, it was a joke; the young girl had fooled him, that was no joke, she had chosen another friend at midsummer.</p>
+               <p rend="firstIndent" xml:id="p_00020">When morning came, the sun shone down on the small, flattened snowdrop, it looked as if it had been painted on the floor. The girl who did the sweeping picked it up, placed it in one of the books on the table, since she thought it must have fallen out when she was tidying up and ordering things. And once more the flower now lay among verses, printed verses, and they are finer than the handwritten ones – well, more has been spent on them at any rate.</p>
+               <p rend="firstIndent" xml:id="p_00021">The years passed, the book stood on the shelf: now it was taken out, opened and read in; it was a good book; verses and songs by the Danish poet <hi rend="italic">Ambrosius Stub</hi>, who is well worth knowing. And the man reading the book turned the page. ‘Oh, there’s a flower lying here!’ he said, ‘a snowdrop! it must have been put here for a purpose; poor <hi rend="italic">Ambrosius Stub</hi>! he too was a snowdrop, a snowdrop of poetry! He came too early, and was exposed to slush and keen winds, did the tour of the Funen manor lords, like a flower in a glass of water, a flower in a rhyming letter! Summer’s fool, winter’s fool, someone to deride and make fun of, fun and games, and yet the first one, the only one, the youthfully fresh Danish poet. Yes, lie there like a bookmarker, you little snowdrop! You have been placed there for a purpose.’</p>
+               <p rend="firstIndent" xml:id="p_00022">And the snowdrop was replaced in the book, and it felt both honoured and pleased at knowing that it was a marker in that lovely songbook, and that the one who had first sung and written about it had also been a <hi rend="italic">summer’s fool</hi>, a winter’s fool. The flower understood that now in its own way, just as we do everything in our own way.</p>
+               <p rend="firstIndent" xml:id="p_00023">That is the tale of the <hi rend="italic">snowdrop</hi>!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den fattige Dreng paa Frankerigs Throne</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-fattige-dreng-paa-frankerigs-throne" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1836</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den fattige Dreng paa Frankerigs Throne" xml:id="den-fattige-dreng-paa-frankerigs-throne">
+<pb n="291"/>
+<div rend="" xml:id="div0050"><source>Fra</source> <sourceTitle>Iris. Et literair-belletristisk Blad</sourceTitle>
+<sourceDate>1836</sourceDate>
+</div>
+<pb n="292"/>
+<head type="part">Den fattige Dreng paa Frankerigs Throne</head>
+<p rend="noIndent" xml:id="p_00649">Under mit Ophold i Paris 1833 førte en af mine Venner, en ung Pariser, mig hen paa en Udstilling af Malerier. Mellem disse var eet, som især greb os. <seg target="txtcmnt-292-01"><!--DATA-TERM: Det fremstillede et Moment … poetiskt--><!--DATA-DEFINITION: billedet ikke identificeret; en lignende episode omtaler Alexandre Dumas den ældre (1802-1870) i sine erindringer <i>Mes Mémoires</i>, kap. CL, 1852-1854; her er det dog stormen på Louvre, der beskrives, og en polyteknisk student, der bliver båret op på første sal og lagt på tronen; et stik på Bibliothèque Nationale i Paris gengiver episoden (se Poul Høybye »H.C. Andersen og de franske Billeder« i <i>Anderseniana</i>, 2. række, bind 4, 1961, s. 390-394).-->Det fremstillede et Moment fra Julidagene, et historisk Træk, stort og poetiskt</seg>. Min Ledsager fortalte mig det med faa Ord.</p>
+<p rend="firstIndent" xml:id="p_00650">I <seg target="txtcmnt-292-02"><!--DATA-TERM: Juli-Revolutionen--><!--DATA-DEFINITION: fransk revolution, der fandt sted i Paris i dagene 27.-29. juli 1830; revolutionen resulterede i, at den sidste Bourbon (fransk kongeslægt, der regerede 1589-1792 og 1814/1815-1830), Karl 10. (1757-1836; konge fra 1824), blev forjaget og erstattet af Ludvig-Filip af Orléans (1773-1850), der regerede frem til 1848, hvor han blev afsat ved Februarrevolutionen. Ludvig-Filips regeringstid kaldes Julikongedømmet.-->Juli-Revolutionen</seg>, paa Seirens meest glimrende Dag, da hvert Huus var en Fæstning, hvert Vindue en Skandse, blev <seg target="txtcmnt-292-03"><!--DATA-TERM: Tuillerierne--><!--DATA-DEFINITION: Palais des Tuileries, opført 1564, senere bygget sammen med Louvre med tilhørende have, Jardin des Tuileries (anlagt i 1600-tallet).-->Tuillerierne</seg> stormet. Selv Qvinder og Børn strede mellem de Kjæmpende; de trængte ind gjennem Slottets Gemakker og Sale. En fattig, halvvoxet Dreng i Pjalter kæmpede modig mellem de ældre Krigere; dødeligt saaret af flere Bajonetstik sank han til Jorden. Det skete i Thronsalen, og man lagde den Blødende paa Frankerigs Throne, svøbte Fløielet om hans <seg target="txtcmnt-292-04"><!--DATA-TERM: Vunder--><!--DATA-DEFINITION: sår.-->Vunder</seg>, Blodet strømmede ud over det kongelige Purpur.</p>
+<p rend="firstIndent" xml:id="p_00651">Dette Moment havde Maleren givet os. Drengens blege Ansigt syntes forklaret, Øiet saae begeistret mod Himlen, de andre Lemmer bøiede sig i Døden. Det nøgne Bryst, den fattige Dragt og det rige Fløiels <seg target="txtcmnt-292-05"><!--DATA-TERM: Drapperie--><!--DATA-DEFINITION: draperi; (tykt) stof, der hænger ned i folder som forhæng.-->Drapperie</seg> havde stor Virkning. Var der spaaet ved Barnets Vugge: »Du skal døe paa Frankerigs Throne!« Moderhjertet havde da maaskee tænkt paa <seg target="txtcmnt-292-06"><!--DATA-TERM: Sneebatterierne ved Brienne … Frankerigs Keiser--><!--DATA-DEFINITION: Napoleon 1. Bonaparte (1769-1821), fransk kejser 1804-1814 og igen 1815; Napoleon var elev på militærskolen i Brienne 1779-1784.-->Sneebatterierne ved <hi rend="italic">Brienne</hi>, Drengen der, som blev Frankerigs Keiser</seg>, og drømt om en lignende Skjæbne for sin Søn. Dog aldrig har Frankerigs Konger talt dybere til vort Hjerte, end denne døende Dreng i Pjalter og Purpur.</p>
+<p rend="firstIndent" xml:id="p_00652">Nogle Dage efterat vi havde seet dette Malerie, var det <seg target="txtcmnt-292-07"><!--DATA-TERM: Julifesten--><!--DATA-DEFINITION: parisernes fejring af mindet om Julirevolutionen.-->Julifesten</seg>. <seg target="txtcmnt-292-08"><!--DATA-TERM: Napoleons Støtte skulde afsløres--><!--DATA-DEFINITION: Napoleonsstatuen på Vendôme-Søjlen, sejrsmonument for Napoleons sejr ved Austerlitz 1805 på Place Vendôme, rejstes 1806-1810 og blev fjernet igen 1814, og en ny statue, udarbejdet af Gabriel Seurre l’aîné (1798-1858), blev præsenteret 28. juli 1833; 1863 fjernedes statuen igen og har siden 1911 været placeret ved L’Hôtel National des Invalides.--><hi rend="italic">Napoleons</hi> Støtte skulde afsløres</seg>, Folkeforlystelser afvexle med hverandre; men den første Dag var viet Sorgen over de Faldne. Paa flere Pladse vare opreiste Sørgealtare, beklædte med Sort og decorerede med <seg target="txtcmnt-292-09"><!--DATA-TERM: trefarvede Baand og Faner--><!--DATA-DEFINITION: jf. Tricoloren, revolutionens blå-hvid-røde flag, brugt første gang 1794.-->trefarvede Baand og Faner</seg>. I Gaderne lød <seg target="txtcmnt-292-10"><!--DATA-TERM: Choral(-Musik)--><!--DATA-DEFINITION: højtidelig (salme)melodi.-->Choral-Musik</seg>, og fra adskillige Huse <seg target="txtcmnt-292-11"><!--DATA-TERM: veiede--><!--DATA-DEFINITION: vajede.-->veiede</seg> Sørgeflor og Faner. Et Altar var reist paa den lille Kirkegaard ved <seg target="txtcmnt-292-12"><!--DATA-TERM: Louvre--><!--DATA-DEFINITION: tidligere kongeligt residensslot fra omkring 1200, fra 1682 anvendt som kongeligt kunstkammer og fra 1793 offentligt tilgængeligt kunstmuseum.-->Louvre</seg>; Enhver, som gik forbi, gav man en Haandfuld Smaa-Bouquetter af gule Evighedsblomster omvundne med Flor, og man kastede disse paa Gravene. Foran en af dem knæ<pb n="293"/>lede en gammel Kone med et blegt, markeret Ansigt. »Det er Bedstemoderen!« hvidskede tæt ved mig to Franskmænd, og saae med stille Alvor paa den Gamle; de gik, hun reiste sig ogsaa, men det var mig umueligt at vende Blikket fra hende. Jeg maatte tænke mig hende som Drengens Bedstemoder. Siden spurgte jeg en af mine Venner, der havde seet Maleriet, og selv taget Deel i Julikampen, hvor Drengens Liig var bragt hen. »Paa Pladsen ved <hi rend="italic">Louvre</hi>,« svarede han; Stedet blev mig betegnet, min første Forestilling blev til Tro.</p>
+<p rend="firstIndent" xml:id="p_00653">Om Aftenen gik jeg igjen hen til Graven. En uhyre Menneskevrimmel bevægede sig med sælsom Taushed forbi. Paa alle Grave brændte blaae Flammer. Den dybe Stilhed havde en gribende Virkning. Jeg lagde min Bouquet paa Graven, kun een Blomst af dem gjemte jeg. Den erindrer mig om Ungdoms Hjertet, som brast for Fædreland og Frihed.</p>
+<pb n="294"/>
+<pb n="295"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Den fattige Dreng paa Frankerigs Throne" synch="den-fattige-dreng-paa-frankerigs-throne">
+<head type="section-comments">Den fattige Dreng paa Frankerigs Throne</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Iris. Et literair-belletristisk Blad</hi>, nr. 2, 10. januar 1836. Historien indgår i omarbejdet skikkelse som »Femte Aften« i <hi rend="italic">Billedbog uden Billeder</hi> (BFN 360; se side 369-370), som udkom den 20. december 1839 med årstallet 1840 på titelbladet. BFN 284</p>
+<table rend="textcomments">
+<cell type="page">292</cell><cell><row xml:id="txtcmnt-292-01"><cell type="data-term">Det fremstillede et Moment … poetiskt</cell><cell type="data-definition">billedet ikke identificeret; en lignende episode omtaler Alexandre Dumas den ældre (1802-1870) i sine erindringer <hi rend="italic">Mes Mémoires</hi>, kap. CL, 1852-1854; her er det dog stormen på Louvre, der beskrives, og en polyteknisk student, der bliver båret op på første sal og lagt på tronen; et stik på Bibliothèque Nationale i Paris gengiver episoden (se Poul Høybye »H.C. Andersen og de franske Billeder« i <hi rend="italic">Anderseniana</hi>, 2. række, bind 4, 1961, s. 390-394).</cell></row><row xml:id="txtcmnt-292-02"><cell type="data-term">Juli-Revolutionen</cell><cell type="data-definition">fransk revolution, der fandt sted i Paris i dagene 27.-29. juli 1830; revolutionen resulterede i, at den sidste Bourbon (fransk kongeslægt, der regerede 1589-1792 og 1814/1815-1830), Karl 10. (1757-1836; konge fra 1824), blev forjaget og erstattet af Ludvig-Filip af Orléans (1773-1850), der regerede frem til 1848, hvor han blev afsat ved Februarrevolutionen. Ludvig-Filips regeringstid kaldes Julikongedømmet.</cell></row><row xml:id="txtcmnt-292-03"><cell type="data-term">Tuillerierne</cell><cell type="data-definition">Palais des Tuileries, opført 1564, senere bygget sammen med Louvre med tilhørende have, Jardin des Tuileries (anlagt i 1600-tallet).</cell></row><row xml:id="txtcmnt-292-04"><cell type="data-term">Vunder</cell><cell type="data-definition">sår.</cell></row><row xml:id="txtcmnt-292-05"><cell type="data-term">Drapperie</cell><cell type="data-definition">draperi; (tykt) stof, der hænger ned i folder som forhæng.</cell></row><row xml:id="txtcmnt-292-06"><cell type="data-term">Sneebatterierne ved Brienne … Frankerigs Keiser</cell><cell type="data-definition">Napoleon 1. Bonaparte (1769-1821), fransk kejser 1804-1814 og igen 1815; Napoleon var elev på militærskolen i Brienne 1779-1784.</cell></row><row xml:id="txtcmnt-292-07"><cell type="data-term">Julifesten</cell><cell type="data-definition">parisernes fejring af mindet om <pb n="648"/>Julirevolutionen.</cell></row><row xml:id="txtcmnt-292-08"><cell type="data-term">Napoleons Støtte skulde afsløres</cell><cell type="data-definition">Napoleonsstatuen på Vendôme-Søjlen, sejrsmonument for Napoleons sejr ved Austerlitz 1805 på Place Vendôme, rejstes 1806-1810 og blev fjernet igen 1814, og en ny statue, udarbejdet af Gabriel Seurre l’aîné (1798-1858), blev præsenteret 28. juli 1833; 1863 fjernedes statuen igen og har siden 1911 været placeret ved L’Hôtel National des Invalides.</cell></row><row xml:id="txtcmnt-292-09"><cell type="data-term">trefarvede Baand og Faner</cell><cell type="data-definition">jf. Tricoloren, revolutionens blå-hvid-røde flag, brugt første gang 1794.</cell></row><row xml:id="txtcmnt-292-10"><cell type="data-term">Choral(-Musik)</cell><cell type="data-definition">højtidelig (salme)melodi.</cell></row><row xml:id="txtcmnt-292-11"><cell type="data-term">veiede</cell><cell type="data-definition">vajede.</cell></row><row xml:id="txtcmnt-292-12"><cell type="data-term">Louvre</cell><cell type="data-definition">tidligere kongeligt residensslot fra omkring 1200, fra 1682 anvendt som kongeligt kunstkammer og fra 1793 offentligt tilgængeligt kunstmuseum.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

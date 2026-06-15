@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Heartache</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hjertesorg">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hjertesorg_modern.xml">moderniseret version</note>
+                                                       <note target="108_Heartache.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The story we’ve got for you here really falls into two parts; the first part mig...</incipit><idno type="image">Hjertesorg_forside165.png</idno><popularity>956</popularity><cite>&lt;p&gt;Hans Christian Andersen: Heartache. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-12" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-12" who="NHB">formatted</change><change who="NHB" when="2022-08-12">added one italic, second paragraph</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2022-11-09">added missing quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+             <div rend="Heartache">
+                  <head type="main" rend="Heartache">Heartache</head>                <p rend="noIndent" xml:id="p_00001">The story we’ve got for you here really falls into two parts; the first part might as well have been done without, but it provides prior knowledge – and that is useful!</p>
+          <p rend="firstIndent" xml:id="p_00002">We were staying in the countryside at a manor house, and it so happened that those living there went away for the day. From the nearest market town there came a missus with her pug-dog with her and she came, so she said, in order to sell ‘shares’ in her tannery. She had her papers with her, and we advised her to put them inside an envelope and on it to write the address of the owner of the manor: ‘<hi rend="italic">General War Commissioner, Sir, etc. etc.</hi>’</p>
+          <p rend="firstIndent" xml:id="p_00003">She listened to us, she took a pen, paused, and asked us to repeat the address, but slowly. We did so, and she wrote, but right in the middle of ‘Sir General War Commissioner…’ she came to a halt, sighed and said: ‘I’m only a woman!’ She had put her pug down on the floor while she wrote, and he growled; he had been brought along for the sake of his own amusement and his health, and in that case one shouldn’t be put down on the floor. A pug nose and roly-poly back made up his outward appearance.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘He doesn’t bite!’ the woman said, ‘he hasn’t any teeth. He’s almost a member of the family, faithful and bad-tempered, though the latter is because he’s been so provoked by my grandchildren; they play at weddings and want him to be a bridesmaid, and that’s too much a of strain for him, the poor old chap!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And she handed over her papers and took the pug under her arm. That’s the first part – which could easily have been left out!</p>
+          <p rend="firstIndent" xml:id="p_00006">‘<hi rend="italic">The pug died!</hi>’ that’s the second part.</p>
+          <p rend="firstIndent" xml:id="p_00007">It was a week later, we came to the market town and put up at the inn. Our windows were facing the courtyard divided in two by a wooden fence: in the one half all the skins and hides hung, raw and rough, and here stood all the materials for a tannery, and it was the widow’s. – The pug had died that morning and been buried here in the yard; the widow’s grandchildren – the widow of the tanner, that is, for the pug had not been married – had patted the ground flat and it was a lovely grave, it must be a pleasure to lie there.</p>
+          <p rend="firstIndent" xml:id="p_00008">The grave had been bordered with potsherds and strewn with sand; on top they had placed half a beer-bottle with its neck pointing upwards and that wasn’t allegorical in the slightest.</p>
+          <p rend="firstIndent" xml:id="p_00009">The children danced round the grave, and the oldest of the boys – a practical lad who was seven years old – suggested that there ought to be an exhibition on the pug’s grave, one for everyone from the lane, admission to be paid for with a braces button – something every boy had and the boys could also supply them to the young girls – and this suggestion was unanimously approved.</p>
+          <p rend="firstIndent" xml:id="p_00010">And all the children from the lane, and the back lane too, came and handed over their buttons, many boys had to go around with only one of their braces fastened that afternoon, but that meant one had seen the pug’s grave, and that was worth a great deal.</p>
+          <p rend="firstIndent" xml:id="p_00011">But outside the tannery, close to the gate, there stood a young girl in rags, so delightful to look at, with the loveliest of curls and eyes so blue and clear that it was a joy; she didn’t say a word, she didn’t cry either, but gazed as long as she could every time the gate was opened. She didn’t possess a button, she knew that, and therefore she remained standing sadly outside, stood there until everyone had taken a look and everyone had gone away; then she sat down, held her small brown hands to her face and burst into tears; she was the only one who hadn’t seen the pug’s grave. It was a heartache, one so great as that of an adult often can be.</p>
+          <p rend="firstIndent" xml:id="p_00012">We saw it from above – and seen from above – this and many of our own and other people’s sorrows, – well, then we could laugh at them! – that is the story, and anyone who doesn’t understand it can buy shares in the widow’s tannery.</p></div>
+          </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Levvel til Jenny Lind</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="levvel-til-jenny-lind" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Natur og Hjerte blev</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00119</section>
+                                                                 <date>1843</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1843</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Levvel til Jenny Lind" xml:id="levvel-til-jenny-lind"><pb n="62"/><head type="part">Levvel til <seg target="txtcmnt-062-01" type="dfnStart"><!--DATA-TERM: Jenny Lind … 1843--><!--DATA-DEFINITION: den svenske sangerinde Jenny Lind opholdt sig i København fra 9. til 20. september 1843.--></seg>Jenny Lind</head>
+<head type="part">Den 19. September 1843<seg target="txtcmnt-062-01" type="dfnEnd"><!--DATA-TERM: Jenny Lind … 1843--><!--DATA-DEFINITION: den svenske sangerinde Jenny Lind opholdt sig i København fra 9. til 20. september 1843.--></seg></head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-062-02"><!--DATA-TERM: Der er et yndigt Land etc.--><!--DATA-DEFINITION: Oehlenschlägers nationalsang fra 1819 med melodi fra ca. 1835 af H.E. Krøyer.-->Der er et yndigt Land etc.</seg></hi></head>
+<lg xml:id="p_00120">
+<l rend="noIndent" subtype="firstline" corresp="Natur og Hjerte blev" rendition="natur-og-hjerte-blev">Natur og Hjerte blev</l>
+<l rend="noIndent">De To, af hvem Du lærte,</l>
+<l rend="noIndent">Derfor Du södt henrev.</l>
+<l rend="noIndent">Af Gud Du Aandens Flamme fik,</l>
+<l rend="noIndent">Den sidder i Dit Hjerte,</l>
+<l rend="noIndent">Den lyser fra Dit Blik.</l>
+</lg>
+<lg xml:id="p_00121">
+<l rend="noIndent">Med Guld paa Templets Muur</l>
+<l rend="noIndent"><seg target="txtcmnt-062-03"><!--DATA-TERM: Dit Kunstnernavn--><!--DATA-DEFINITION: Jenny Lind blev kaldt »den svenske nattergal«.-->Dit Kunstnernavn</seg> skal prange,</l>
+<l rend="noIndent">Din Storhed er Natur!</l>
+<l rend="noIndent">Du har som liden Fugl paa Qvist</l>
+<l rend="noIndent">En Magt i Dine Sange,</l>
+<l rend="noIndent">En Ynde ubevidst.</l>
+</lg>
+<lg xml:id="p_00122">
+<l rend="noIndent">Med Granskov staaer Dit Land,</l>
+<l rend="noIndent">Med klare, dybe Söer;</l>
+<l rend="noIndent">Dig vinker Hjemmets Strand.</l>
+<l rend="noIndent">Men Danmark ligger den saa nær,</l>
+<l rend="noIndent">Glem ei de grönne Öer, –</l>
+<l rend="noIndent"><hi rend="italic">Du</hi> glemmes aldrig her. –</l>
+</lg>
+<pb n="63"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Levvel til Jenny Lind. Den 19. September 1843" synch="levvel-til-jenny-lind-den-19-september-1843">
+<head type="section-comments">Levvel til Jenny Lind. Den 19. September 1843</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 427</p>
+<table rend="textcomments">
+<cell type="page">62</cell><cell><row xml:id="txtcmnt-062-01"><cell type="data-term">Jenny Lind … 1843</cell><cell type="data-definition">den svenske sangerinde Jenny Lind opholdt sig i København fra 9. til 20. september 1843.</cell></row><row xml:id="txtcmnt-062-02"><cell type="data-term">Der er et yndigt Land etc.</cell><cell type="data-definition">Oehlenschlägers nationalsang fra 1819 med melodi fra ca. 1835 af H.E. Krøyer.</cell></row><row xml:id="txtcmnt-062-03"><cell type="data-term">Dit Kunstnernavn</cell><cell type="data-definition">Jenny Lind blev kaldt »den svenske nattergal«.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

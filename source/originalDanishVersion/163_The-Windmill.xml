@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Windmill</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="veirmoellen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="veirmoellen_modern.xml">moderniseret version</note>
+                                                       <note target="163_The-Windmill.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>On a hill there stood a windmill, a proud sight and proud of itself:...</incipit><idno type="image">Veirmoellen_hca_ill_0126.png</idno><popularity>912</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Windmill. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term><term>tingseventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-26" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-26" who="NHB">formatted</change><change who="NHB" when="2022-10-26">added missing inverted comma. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Windmill">
+          <head type="main" rend="The Windmill">The Windmill</head>                <p rend="noIndent" xml:id="p_00001">On a hill there stood a windmill, a proud sight and proud of itself:</p>
+          <p rend="firstIndent" xml:id="p_00002">‘I’m not really proud!’ it said, ‘but I am very enlightened, both outside and in. I have the sun and moon for both outer and inner use, and then I also have wax candles, a train-oil lamp and tallows; so I can justly claim to be enlightened; I am a thinking being and so shapely that I am a joy to behold. I have a fine grinder in my chest, I have four wings that sit high up on my head, just under my cap; birds only have two wings and have to carry them on their backs. I am Dutch by birth, as can be seen from my form; a Flying Dutchman, considered to be supernatural, I know, yet I myself am most natural. I have a gallery round my midriff and living quarters below; that is where my thoughts reside. My most powerful thought, the one that rules and governs, is referred to by the other thoughts as: the <hi rend="italic">The Guv at the Mill</hi>. He knows what he wants, he stands high above flour and grain, although he has a spouse and she’s called the Missus; she has a kind heart, does not do things in a hare-brained fashion; she too knows what she wants, she knows what she is able to do, she is as mild as a breath of air, she is as strong as a gale; she understands how to feel her way forward, to get what she wants. She is the softer side of my nature, the Guv is my harder side; they are two and yet two of a kind – they also refer to each other as ‘my better half’. The two of them have youngsters: small thoughts capable of growing. These youngsters make such a racket! The other day, I wisely let the ‘Guv’ and his assistants take a look at the grinder and wheel in my chest, I wanted to know what was wrong, for there was something wrong inside me, and one must search within oneself, the youngsters made such a racket, which is not at all in order when, like me, one stands high up on a hill; one must always remember that one is illuminated: one’s reputation is also a form of illumination. But what I wanted to say was that the youngsters were making such a racket. The smallest of them climbed right up into my cap and sang away so much that it tickled. Small thoughts are capable of growing, I have sensed that, and thoughts also come from outside that are not of my kith and kin, for I can see none of them as far as I gaze, none except myself; but the wingless houses, where the grinder cannot be heard, they too have thoughts, they come to my thoughts and strike up a relationship with them, as they call it. Strangely enough, yes, there are lots of strange things. Something strange has come over me or inside me, a change to the millwork, it is as if the Guv had exchanged his better half, acquired an even gentler mind, an even more loving spouse, so young and pious and yet the same, but more gentle, more devout as time goes on. All that was bitter has evaporated; it is all most agreeable. Days come and go, always moving forwards in clarity and happiness, and then, yes it’s been both said and written, then a day will come when things are over and done with for me, and yet not at all so! I am to be pulled down so as to rise up new and better; I am to cease to be and yet continue to exist! become someone completely different and yet remain the same! it is hard to understand, no matter how enlightened I am, thanks to sun, moon, candles, oil lamp and tallows! my old timber and brickwork will rise again from the gravel. I hope that I will retain the same old thoughts: the Guv at the mill, the Missus, the older and younger ones, the family – that is what I call the whole of it, one and yet so many, the entire company of thoughts, for I cannot do without them! and I am also to remain myself, with a grinder in my chest, wings on my head, a gallery round my midriff, otherwise I will not be able to recognise myself, and nor will the others know me and say, ah, there’s the mill on the hill, a proud sight and yet not proud at all!’</p>
+          <p rend="firstIndent" xml:id="p_00003">So said the mill, and a lot more besides, but this was the most important.</p>
+          <p rend="firstIndent" xml:id="p_00004">And the days came and went, and the final day was the Last Day.</p>
+          <p rend="firstIndent" xml:id="p_00005">The mill caught fire – the flames soared up, shot out, shot in, licked beams and planks, devoured them completely. The mill collapsed, there was only a heap of ashes left; the smoke drifted over the scene of the fire, the wind carried it away.</p>
+          <p rend="firstIndent" xml:id="p_00006">What had been alive at the mill was still there, nothing happened to <hi rend="italic">that</hi> as a result of the incident, in fact it gained from it. The miller’s family, one soul, many thoughts and yet only one, acquired a lovely new mill that served them well, it, completely resembled the old one. People said: look, there stands the mill on the hill, a proud sight! but this one was better equipped, more up to date, for things move forwards. The old timber, which was worm-eaten and spongy, lay in the dust and ashes; there was no resurrection of the body for the mill as it had thought; it had taken things completely literally, and one should not take everything completely literally!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

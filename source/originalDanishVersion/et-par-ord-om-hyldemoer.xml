@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Et Par Ord om »Hyldemoer«</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="et-par-ord-om-hyldemoer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1851</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Et Par Ord om »Hyldemoer«" xml:id="et-par-ord-om-hyldemoer">
+<div type="source"><source>Fra</source> <sourceTitle>Fædrelandet</sourceTitle>
+<sourceDate>1851</sourceDate></div>
+<pb n="496"/>
+<pb n="497"/>
+<head type="part">Et Par Ord om »<hi rend="italic">Hyldemoer</hi>«</head>
+<p rend="noIndent" xml:id="p_01189">Naar <seg target="txtcmnt-497-01"><!--DATA-TERM: »Flyveposten«--><!--DATA-DEFINITION: anmeldelsen af <i>Hyldemoer</i>. <i>Phantasiespil i een Act</i> bragtes i <i>Flyveposten</i>, nr. 283, 2. december 1851; i <i>Flyveposten</i>, nr. 290, 6. december 1851, bragtes H.C. Andersens her trykte replik med følgende indledende kommentar: »Hr. Prof. <i>Andersen</i> har i »Fædrelandet« for i Torsdags ladet indføre »Et Par Ord om »Hyldemoer«[«] med den Opfordring, at de maatte finde Optagelse i »Flyvep.« og »Brl. Td.«. Idet vi for vort Vedkommende ikke ville negte Hr. Professoren denne Billighed, skylde vi os dog selv at ledsage dem med et Par Bemærkninger. Naar der nemlig strax i Begyndelsen yttres, at »Enhver med Smag og Billighed«, der vil gjøre sig bekjendt med Arbeidet, vil fælde en billigere Dom over »Hyldemoer« end »Flyveposten« har gjort, saa kunde det let faae Udseende af at Hr. Professoren dermed vilde frakjende os de nævnte Egenskaber. At en Forfatter af det almindelige Slags i sin krænkede Forfatterstolthed kunde falde paa Sligt, vilde ikke være forunderligt; men i Hr. Professorens Mund tager dette sig noget besynderligt ud, eftersom det umuligt kan være ham ubekjendt, hvor ofte og gjerne vi ikke alene have ladet ham vederfares fuld Retfærdighed, men endogsaa taget ham i Forsvar mod smagløse og ubillige Domme andetstedsfra, saa det kun er en slet Tak han nu yder os. Hvad »Hyldemoer« angaaer, da have vi sandelig, efter nu ogsaa at have »gjort os bekjendt« med det gjennem Læsningen deraf, ikke fundet mindste Anledning til at modificere vor tidligere udtalte Mening derom, i hvilken desuden en mindre ømfindtlig Forf. end Hr. Professoren sikkert vilde finde alle de Hensyn iagttagne, der skyldes Agtelsen for hans tidligere Forfattervirksomhed. Forøvrigt kunne vi ikke tilbageholde vor Forundring over, at det vort Blad tiltænkte Manuskript leveres os trykt i »Fædrelandet«, et Sted, hvor vi for Fremtiden ikke agte at søge det; men dette skal, som sagt, ikke afholde os fra at føie Hr. Professoren i Optagelsen af hans Inserat, der lyder saaledes:«.-->»Flyveposten«</seg> i sin Anmeldelse af min Digtning »Hyldemoer« siger, at <seg target="txtcmnt-497-02"><!--DATA-TERM: »Humor og Friskhed … Trivialiteter«--><!--DATA-DEFINITION: i anmeldelsen i <i>Flyveposten</i> lyder sætningen således: »(...) at den Humor og Friskhed, man ellers sjelden pleier at savne hos Andersen, og som saa godt egner sig til at forsone Tilskueren med hans Muses utallige Capricer, i dette Arbeide kun dukker saare sparsomt op mellem et Hav af Trivialiteter«.-->»Humor og Friskhed i dette Arbeide kun dukker saare sparsomt op imellem et Hav af Trivialiteter«</seg>, da kan jeg, som Digtets Forfatter, Intet svare herpaa, men kun henvise til Digtningen selv, og da haabe en mildere Dom hos Enhver af Smag og <seg target="txtcmnt-497-03"><!--DATA-TERM: Billighed--><!--DATA-DEFINITION: rimelighed, retfærdighed.-->Billighed</seg>, der vil gjøre sig bekjendt med mit Arbeide; derimod kan jeg friere tale min Sag mod Anmelderen i den »Berl. Tid.« og, ved ganske simpelt at fortælle Handlingens Gang i det hele Digt, idet jeg her aldeles udelader <seg target="txtcmnt-497-04"><!--DATA-TERM: Phantasus--><!--DATA-DEFINITION: personifikation af fantasien; ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) <i>Metamorfoser</i> 11,641 ff., en af drømmeguderne, der tager skikkelse af alle mulige livløse genstande; figur i <i>Hyldemoer. Phantasiespil i een Act</i>.-->Phantasus</seg>, vise, hvor urigtigt det er, naar Anmelderen siger: »<hi rend="italic">i Stedet for Handling giver Forfatteren os en Række isolerede Scener, som han selv, da de mangle al indre Forbindelse, har seet sig nødsaget til at lime sammen ved Hjælp af Phantasus</hi>.«</p>
+<p rend="firstIndent" xml:id="p_01190">Indholdet af min Eventyr-Digtning er dette:</p>
+<p rend="firstIndent" xml:id="p_01191">En smuk Sommernat mødes paa aaben Mark Repræsentanterne for <seg target="txtcmnt-497-05"><!--DATA-TERM: de fire Elementer--><!--DATA-DEFINITION: vand, luft, ild og jord; i oldtiden regnet for de fire grundstoffer, hvoraf alt andet var sammensat.-->de fire Elementer</seg>, den ene af disse, Jordaanden, der viser sig i Muldvarpens Skind, vil have sig en Kone, og, da der inde i Kjøbenhavn er en Barbers meget smukke Datter, beslutte de alle fire at drage derhen paa Eventyr og forsøge deres Lykke, men, for at blive forstaaede, ville de træde op i menneskelige Skikkelser, Luft-Repræsentanten vil komme som Luftskipper, <seg target="txtcmnt-497-06"><!--DATA-TERM: Lygtemand(en)--><!--DATA-DEFINITION: lysfænomen over moser og enge; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som mentes at frembringe dette lys med en lygte for at lede eller lokke nogen ud i det farlige dynd; jf. Thiele 2, II, s. 298 f.-->Lygtemanden</seg> som Handlende med <seg target="txtcmnt-497-07"><!--DATA-TERM: chemiske Svovlstikker--><!--DATA-DEFINITION: friktionstændstikker; blev almindelige i 1830’erne.-->chemiske Svovlstikker</seg>, Havmanden som Dykker, og Jordaanden eller Muldvarpen som <seg target="txtcmnt-497-08"><!--DATA-TERM: Kjældermand--><!--DATA-DEFINITION: person, der driver butik i kælder; også om uoplyst, uvidende person.-->Kjældermand</seg>. Vi flyttes nu til Barberens Have, hvor Svenden Peter er ifærd med at spænde sin <seg target="txtcmnt-497-09"><!--DATA-TERM: Randsel--><!--DATA-DEFINITION: rygsæk.-->Randsel</seg> for at drage paa Vandring; Marie, Barberens Datter, siger ham Farvel ved det gamle Hyldetræ, under hvilket de ere voxede op sammen, og her tager han det Løfte af hende, at, medens han er paa Reise, maa Ingen omhugge det gamle Træ, som han har saa kjært og har digtet en Vise om; denne synger han, og snart bliver det klart for dem begge To, at de holde af hinanden, og nu vil den unge Svend ikke paa Vandring, men blive hos Mester, af hvem han ogsaa, efter nogen Modstand, <seg target="txtcmnt-497-10"><!--DATA-TERM: erholde(r)--><!--DATA-DEFINITION: få.-->erholder</seg> Tilladelse dertil. – Nu komme en Mængde Folk, som ville barberes, og <pb n="498"/>mellem disse ere, i borgerlig Klædning, de fire Element-Repræsentanter; de frie til Pigen, og, da den unge Barbersvend bliver for heftig herover, jages han paa Døren af Mester; men under denne Larm og Forvirring, som herved fremkommer, lister Jordaanden sig hen til den unge Pige, og, uden at det sees af hans Omgivelse, skyder han hende ned i Jorden. Snart savnes hun, og Hver løber afsted for at finde hende; Peter kommer tilbage, han vil tale sindigt med Mester, og, idet de mødes, træde frem for dem de tre Element-Repræsentanter, der give dem Besked om, at det er Jordaanden, Muldvarpen, der har røvet Marie, at de ingen Magt have i hans Rige; Kjærlighed er derimod stærkere end al Trolddom; Kjærlighed maa hjælpe og lede den stakkels Svend, og, bliver han den Seirende, da ville de altid være hans Venner. Mester finder det fornuftigst at søge Hjælp hos Politiet; den unge Knøs staaer ene og bedrøvet under det gamle Hyldetræ, da aabner det sine Grene, og Hyldemoer, Træets <seg target="txtcmnt-498-01"><!--DATA-TERM: Dryade--><!--DATA-DEFINITION: i græsk mytologi en skovnymfe, hvis liv tænkes knyttet til det levende træ.-->Dryade</seg>, taknemlig fordi han bad, at Træet ikke maatte hugges om, lover ham sin Beskyttelse og giver ham en blomstrende Hyldegren, der eier alle de gamle, kjære Minders Kraft og Velsignelse: ved den vil han gjenfinde og tilbageføre sin Marie. Grenen bøier sig mod Jorden, hvor hun er, og han synker derned. Her træffe vi nu Jordaanden og erfare, at han, efter at have fanget den unge Pige, førte hende til Glemsels Land og lod hende drikke af Glemsels Kilde, saa at hun nu har mistet enhver Erindring om Livet ovenfor; nu skal Brylluppet hernede staae, men under Muldvarpens Samtale herom med sin gamle Husholderske kommer Peter med den magiske Gren: Erindringens Magt virker ogsaa paa de to Gamle, de leve pludseligt tilbage i Tankerne om deres Ungdoms Kjærlighed og fortabe sig og forsvinde i den. Marie vækkes af sin Slummer, men hun kjender ikke mere Barndomsvennen, hun forstaaer ikke, hvad han fortæller om tidligere Dage; da synger han sin Vise om det gamle Hyldetræ, trykker hende den blomstrende Gren i Haanden, hun kommer til at græde og nynner nu sagte Sangen med: da brister Hulens Hvælving, Solen skinner til dem, og det gamle Hyldetræ sænker sine Grene ned og bærer dem op til Hjemmet, hvor de frelste sidde under Træet, beskyttede af dets Dryade.</p>
+<p rend="firstIndent" xml:id="p_01192">Dette er Indholdet, og det kan ikke kaldes: »<hi rend="italic">en Række isolerede Scener, der mangle al indre Forbindelse</hi>«.</p>
+<p rend="firstIndent" xml:id="p_01193">At Phantasus træder op og <seg target="txtcmnt-498-02"><!--DATA-TERM: imellem--><!--DATA-DEFINITION: indimellem.-->imellem</seg> taler et Par Ord til Publicum, er en Spøg, som jeg troede Enhver kunde forstaae; <pb n="499"/>han er den lystige lille Kudsk, der har taget dem Allesammen med i sin <seg target="txtcmnt-499-01"><!--DATA-TERM: Omnibus--><!--DATA-DEFINITION: hestetrukket, offentligt transportmiddel.-->Omnibus</seg> og fører dem ind i Phantasiens Rige.</p>
+<p rend="firstIndent" xml:id="p_01194">Jeg opfordrer herved Redacteurerne af »den Berl. Tid.«, og af »Flyveposten« til, at de med den samme Hurtighed, som de have viist i at forkaste mit Arbeide, ville vise mig den Retfærdighed at optage i deres respective Blade dette mit Indlæg i Sagen; jeg tør troe, de ville det, som Mænd, der agte Sandheden.</p>
+<pb n="500"/>
+<pb n="501"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Et Par Ord om »Hyldemoer«" synch="et-par-ord-om-hyldemoer">
+<head type="section-comments">Et Par Ord om »<hi rend="italic">Hyldemoer</hi>«</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Fædrelandet</hi>, nr. 283, 4. december 1851, som svar på anmeldelsen af førsteopførelsen den 1. december 1851 af <hi rend="italic">Hyldemoer. Phantasiespil i een Act</hi> (BFN 596) i <hi rend="italic">Berlingske politiske og Avertissements-Tidende</hi>, nr. 281, 2. december 1851. BFN 597</p>
+<pb n="701"/>
+<table rend="textcomments">
+<cell type="page">497</cell><cell><row xml:id="txtcmnt-497-01"><cell type="data-term">»Flyveposten«</cell><cell type="data-definition">anmeldelsen af <hi rend="italic">Hyldemoer</hi>. <hi rend="italic">Phantasiespil i een Act</hi> bragtes i <hi rend="italic">Flyveposten</hi>, nr. 283, 2. december 1851; i <hi rend="italic">Flyveposten</hi>, nr. 290, 6. december 1851, bragtes H.C. Andersens her trykte replik med følgende indledende kommentar: »Hr. Prof. <hi rend="italic">Andersen</hi> har i »Fædrelandet« for i Torsdags ladet indføre »Et Par Ord om »Hyldemoer«[«] med den Opfordring, at de maatte finde Optagelse i »Flyvep.« og »Brl. Td.«. Idet vi for vort Vedkommende ikke ville negte Hr. Professoren denne Billighed, skylde vi os dog selv at ledsage dem med et Par Bemærkninger. Naar der nemlig strax i Begyndelsen yttres, at »Enhver med Smag og Billighed«, der vil gjøre sig bekjendt med Arbeidet, vil fælde en billigere Dom over »Hyldemoer« end »Flyveposten« har gjort, saa kunde det let faae Udseende af at Hr. Professoren dermed vilde frakjende os de nævnte Egenskaber. At en Forfatter af det almindelige Slags i sin krænkede Forfatterstolthed kunde falde paa Sligt, vilde ikke være forunderligt; men i Hr. Professorens Mund tager dette sig noget besynderligt ud, eftersom det umuligt kan være ham ubekjendt, hvor ofte og gjerne vi ikke alene have ladet ham vederfares fuld Retfærdighed, men endogsaa taget ham i Forsvar mod smagløse og ubillige Domme andetstedsfra, saa det kun er en slet Tak han nu yder os. Hvad »Hyldemoer« angaaer, da have vi sandelig, efter nu ogsaa at have »gjort os bekjendt« med det gjennem Læsningen deraf, ikke fundet mindste Anledning til at modificere vor tidligere udtalte Mening derom, i hvilken desuden en mindre ømfindtlig Forf. end Hr. Professoren sikkert vilde finde alle de Hensyn iagttagne, der skyldes Agtelsen for hans tidligere Forfattervirksomhed. Forøvrigt kunne vi ikke tilbageholde vor Forundring over, at det vort Blad tiltænkte Manuskript leveres os trykt i »Fædrelandet«, et Sted, hvor vi for Fremtiden ikke agte at søge det; men dette skal, som sagt, ikke afholde os fra at føie Hr. Professoren i Optagelsen af hans Inserat, der lyder saaledes:«.</cell></row><row xml:id="txtcmnt-497-02"><cell type="data-term">»Humor og Friskhed … Trivialiteter«</cell><cell type="data-definition">i anmeldelsen i <hi rend="italic">Flyveposten</hi> lyder sætningen således: »(...) at den Humor og Friskhed, man ellers sjelden pleier at savne hos Andersen, og som saa godt egner sig til at forsone Tilskueren med hans Muses utallige Capricer, i dette Arbeide kun dukker saare sparsomt op mellem et Hav af Trivialiteter«.</cell></row><row xml:id="txtcmnt-497-03"><cell type="data-term">Billighed</cell><cell type="data-definition">rimelighed, retfærdighed.</cell></row><row xml:id="txtcmnt-497-04"><cell type="data-term">Phantasus</cell><cell type="data-definition">personifikation af fantasien; ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) <hi rend="italic">Metamorfoser</hi> 11,641 ff., en af drømmeguderne, der tager skikkelse af alle mulige livløse genstande; figur i <hi rend="italic">Hyldemoer. Phantasiespil i een Act</hi>.</cell></row><row xml:id="txtcmnt-497-05"><cell type="data-term">de fire Elementer</cell><cell type="data-definition">vand, luft, ild og jord; i oldtiden regnet for de fire grundstoffer, hvoraf alt andet var sammensat.</cell></row><row xml:id="txtcmnt-497-06"><cell type="data-term">Lygtemand(en)</cell><cell type="data-definition">lysfænomen over moser og enge; ifølge folketroen et overnaturligt væsen (undertiden genfærd), som mentes at frembringe dette lys med en lygte for at lede eller lokke nogen ud i det farlige dynd; jf. Thiele 2, II, s. 298 f.</cell></row><row xml:id="txtcmnt-497-07"><cell type="data-term">chemiske Svovlstikker</cell><cell type="data-definition">friktionstændstikker; blev almindelige i 1830’erne.</cell></row><row xml:id="txtcmnt-497-08"><cell type="data-term">Kjældermand</cell><cell type="data-definition">person, der driver butik i kælder; også om uoplyst, uvidende person.</cell></row><row xml:id="txtcmnt-497-09"><cell type="data-term">Randsel</cell><cell type="data-definition">rygsæk.</cell></row><row xml:id="txtcmnt-497-10"><cell type="data-term">erholde(r)</cell><cell type="data-definition">få.</cell></row></cell>
+<pb n="702"/>
+<cell type="page">498</cell><cell><row xml:id="txtcmnt-498-01"><cell type="data-term">Dryade</cell><cell type="data-definition">i græsk mytologi en skovnymfe, hvis liv tænkes knyttet til det levende træ.</cell></row><row xml:id="txtcmnt-498-02"><cell type="data-term">imellem</cell><cell type="data-definition">indimellem.</cell></row></cell>
+<cell type="page">499</cell><cell><row xml:id="txtcmnt-499-01"><cell type="data-term">Omnibus</cell><cell type="data-definition">hestetrukket, offentligt transportmiddel.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

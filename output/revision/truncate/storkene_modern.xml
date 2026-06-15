@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Storkene</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Andet Hefte, som udkom den 19. oktober 1839.<br/>
+BFN 355/I,160-164/VII,54-55.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="storkene" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1838 1839</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="storkene">
+<pb n="231"/><head type="main">Storkene</head>
+
+<p rend="noIndent" xml:id="p_00001">På det sidste hus i en lille by stod der en storkerede. Storkemoren sad i reden hos sine fire små unger, der stak hovedet frem med det lille sorte næb, for det var ikke blevet rødt endnu. Et lille stykke derfra på tagryggen stod så strunk og stiv storkefaren, han havde trukket det ene ben op under sig, for dog at have nogen ulejlighed idet han stod skildvagt. Man skulle tro han var hugget ud af træ, så stille stod han; »det ser vist nok så fornemt ud at min kone har en skildvagt ved reden,« tænkte han, »de kan jo ikke vide at jeg er hendes mand. De tror vist jeg er kommanderet til at stå her. Det ser så raskt ud!« og så blev han ved at stå på det ene ben.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Nede på gaden legede en hel flok børn, og da de så storkene, så sang en af de modigste drenge, og siden de allesammen, det gamle vers om storkene, men de sang det nu som han kunne huske det:</p>
+
+<lg xml:id="p_00003">
+<l>»<seg target="txtcmnt-231-01" type="dfnStart"/><!--DATA-TERM: Storke, … endevendes--><!--DATA-DEFINITION: jf. gammel dansk børneremse (Tang 657-659).-->Storke, storke <seg target="txtcmnt-231-02"><!--DATA-TERM: Steie--><!--DATA-DEFINITION: stang, stage; jf. udtrykket: stork langeben.-->steje,</seg></l>
+<l>flyv hjem til <seg target="txtcmnt-231-03"><!--DATA-TERM: dit Eie--><!--DATA-DEFINITION: din ejendom, dvs. rede.-->dit eje</seg>!</l>
+<l>Din kone ligger i reden sin</l>
+<l>med fire store unger.</l>
+<l>Den ene skal hænges,</l>
+<l>den anden skal <seg target="txtcmnt-231-04"><!--DATA-TERM: stænges--><!--DATA-DEFINITION: spiddes.-->stænges</seg>,</l>
+<l>den tredje skal brændes,</l>
+<l>den fjerde endevendes<seg type="dfnEnd" target="txtcmnt-231-01"/>!«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00004">»Hør dog hvad drengene synger!« sagde de små storkeunger, »de siger vi skal hænges og brændes!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Det skal I ikke bryde eder om!« sagde storkemoren, »hør bare ikke efter, så gør det ikke noget.«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Men drengene blev ved at synge, og de pegede fingre af storkene. Kun én dreng, han hed Peter, sagde at det var synd at gøre nar af dyrene, og ville slet ikke være med. Storkemoren trøstede også sine unger: »Bryd jer ikke derom,« <pb n="232"/>sagde hun, »se bare hvor rolig jeres far står, og det på ét ben!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Vi er så angst!« sagde ungerne og trak hovederne dybt ned i reden.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Næste dag da børnene kom sammen igen for at lege, og de så storkene, begyndte de deres vise:</p>
+
+<lg xml:id="p_00009">
+<l>»Den ene skal hænges,</l>
+<l>den anden skal brændes!«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00010">»Skal vi vel hænges og brændes?« spurgte storkeungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Nej, vist ikke!« sagde moren, »I skal lære at flyve. Jeg skal nok <seg target="txtcmnt-232-01"><!--DATA-TERM: exercere--><!--DATA-DEFINITION: opøve bestemte (fysiske) færdigheder under streng (militær) disciplin.-->eksercere</seg> jer! Så tager vi ud på engen og gør visit hos frøerne, de nejer i vandet for os, de synger »koax, koax!« og så spiser vi dem op. Det kan rigtig blive en fornøjelse!«</p>
+<p rend="firstIndent" xml:id="p_00012">»Og hvad så?« spurgte storkeungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Så samles alle de storke her er i hele landet, og så begynder høstmanøvren. Da må man flyve godt, det er af stor vigtighed, thi den som ikke kan flyve, stikker generalen ihjel med sit næb. Derfor pas vel på at lære noget når eksercitsen begynder!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Så bliver vi jo dog stænget som drengene sagde! Og hør, nu synger de det igen!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Hør på mig og ikke på dem,« sagde storkemoren. »Efter den store manøvre flyver vi til de varme lande, o, så langt herfra, over bjerge og skove. Til Egypten flyver vi hvor der er trekantede stenhuse der går i en spids op over skyerne; de kaldes pyramider og er ældre end nogen stork kan tænke sig. Der er en flod som løber over så landet bliver til mudder. Man går i mudder og spiser frøer.«</p>
+<p rend="firstIndent" xml:id="p_00016">»O!« sagde alle ungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Ja! Der er så dejligt! Man gør ikke andet end spise hele dagen, og imens vi har det så godt, er i dette land ikke et grønt blad på træerne. Her er så koldt så skyerne fryser i stykker og falder ned i små hvide lapper!« Det var sneen hun mente, men hun kunne jo ikke forklare det tydeligere.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Fryser så også de uartige drenge i stykker?« spurgte storkeungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Nej, i stykker fryser de ikke! Men de er nær ved det og må sidde inde i den mørke stue og kukkelure. I kan derimod flyve om i fremmed land hvor der er blomster og varmt solskin.«</p>
+
+<pb n="233"/><p rend="firstIndent" xml:id="p_00020">Nu var der allerede gået nogen tid, og ungerne var så store at de kunne stå op i reden og se vidt omkring, og storkefaren kom flyvende hver dag med pæne frøer, små snoge og alt det storkeslikkeri han kunne finde. O, det så morsomt ud hvor han gjorde kunster for dem. Hovedet lagde han lige om på halen, næbbet knebrede han med som var det en lille <seg target="txtcmnt-233-01"><!--DATA-TERM: Skralde--><!--DATA-DEFINITION: træinstrument, der frembringer en høj, skraldende lyd, når det svinges.-->skralde</seg>, og så fortalte han dem historier, allesammen fra sumpen.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Hør, nu må I lære at flyve!« sagde en dag storkemoren, og så måtte alle fire unger ud på tagryggen. O, hvor de dinglede! Hvor de balancerede med vingerne og var dog <seg target="txtcmnt-233-02"><!--DATA-TERM: færdig ved--><!--DATA-DEFINITION: lige ved.-->færdig ved</seg> at falde ned!</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Se nu på mig!« sagde moren, »sådan skal I holde hovedet! Sådan skal I sætte benene! En, to! En, to! Det er det som skal hjælpe jer frem i verden!« Så fløj hun et lille stykke, og ungerne de gjorde et lille kluntet hop, bums! Der lå de, for de var tunge i livet.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Jeg vil ikke flyve!« sagde den ene unge og krøb op i reden igen, »jeg bryder mig ikke om at komme til de varme lande!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Vil du da fryse ihjel her, når det bliver vinter? Skal drengene komme og hænge og brænde og stege dig? Nu kalder jeg på dem!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»O, nej!« sagde storkeungen, og så hoppede den igen på taget ligesom de andre. Den tredje dag kunne de ordentlig flyve lidt, og så troede de at de kunne også sidde og hvile på luften; det ville de, men bums! Der dumpede de, så måtte de til at røre vingerne igen. Nu kom drengene nede på gaden og sang deres vise:</p>
+
+<lg xml:id="p_00026"><l>»Storke, storke steje!«</l></lg>
+
+<p rend="noIndent" xml:id="p_00027">»Skal  vi ikke flyve ned og hugge deres øjne ud?« sagde ungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Nej, lad være med det!« sagde moren, »hør bare efter mig, det er meget vigtigere! En, to, tre! Nu flyver vi højre om! En, to, tre! Nu venstre om skorstenen! – Se, det var meget godt! Det sidste slag med vingerne var så nydeligt og rigtigt at I skal få lov at komme i sumpen med mig i morgen! Der kommer flere nette storkefamilier med deres børn. Lad mig nu se at mine er de pæneste, og så at I knejser, Det ser godt ud, og det giver anseelse!«</p>
+
+<pb n="234"/><p rend="firstIndent" xml:id="p_00029">»Men skal vi da ikke have hævn over de uartige drenge?« spurgte storkeungerne.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Lad dem skrige hvad de vil! I flyver dog mod skyerne, kommer til pyramidernes land når de må fryse og ikke have et grønt blad eller et sødt æble.«</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Ja, hævnes vil vi!« hviskede de til hinanden, og så blev der igen ekserceret.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Af alle drengene på gaden var ingen værre til at synge spottevisen end just han som havde begyndt, og det var en ganske lille en, han var nok ikke mere end seks år. Storkeungerne troede rigtignok at han var hundrede år, for han var jo så meget større end deres mor og far, og hvad vidste de om hvor gamle børn og store mennesker kan være. Hele deres hævn skulle gå ud over den dreng, han havde jo først begyndt, og han blev altid ved. Storkeungerne var så irriterede, og alt som de blev større, ville de mindre tåle det. Moren måtte til sidst love dem at de nok skulle få hævn, men hun ville ikke tage den før på den sidste dag de var der i landet.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Vi må jo først se hvorledes I bærer jer ad ved den store manøvre. Kommer I galt fra det så generalen jager jer næbbet i brystet, så har jo drengene dog ret, i det mindste på en måde! Lad os nu se!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Ja, det skal du!« sagde ungerne, og så gjorde de sig just umage. De øvede sig hver dag, og fløj så nydeligt og let så det var en lyst.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Nu kom høsten, alle storkene begyndte at samles for at flyve bort til de varme lande mens vi har vinter. Det var en manøvre! Over skove og byer måtte de bare for at se hvor godt de kunne flyve. Det var jo en stor rejse som forestod. Storkeungerne gjorde deres ting så nydeligt at de fik <seg target="txtcmnt-234-01"><!--DATA-TERM: Udmærket Godt med Frø og Slange--><!--DATA-DEFINITION: spiller dels på datidens karaktersystem, hvor udmærket godt (ug) var den højeste karakter, dels på talemåden »ug med kryds og slange« om den suveræne præstation.-->udmærket godt med frø og slange</seg>. Det var den allerbedste karakter, og frøen og slangen kunne de spise. Det gjorde de også.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Nu skulle vi hævnes!« sagde de.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Javist!« sagde storkemoren. »Hvad jeg har udtænkt, det er just det rigtige! Jeg ved hvor den dam er hvor alle de små menneskebørn ligger til storken kommer og henter dem til forældrene. De nydelige små børn sover og drømmer så dejligt som de aldrig siden kommer til at drømme. Alle forældre vil gerne have sådan et lille barn, og alle børn vil have en søster eller bror. Nu vil vi flyve hen til dammen, hente en <pb n="235"/>til hver af de børn som ikke har sunget den onde vise og gjort nar af storkene, for de børn skal slet ingen have!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Men han som begyndte med at synge, den slemme, hæslige dreng!« skreg de unge storke, »hvad gør vi ved ham?«</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Der ligger i dammen et lille dødt barn, det har drømt sig ihjel, det vil vi tage til ham. Så må han græde fordi vi har bragt ham en død lille bror, men den gode dreng, ham har I dog ikke glemt, han som sagde: »Det er synd at gøre nar af dyrene!« Ham vil vi bringe både en bror og en søster, og da den dreng hed <seg target="txtcmnt-235-01"><!--DATA-TERM: Peter--><!--DATA-DEFINITION: almindeligt navn for storken på H.C. Andersens tid.-->Peter</seg>, så skal I også allesammen kaldes Peter!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">Og det skete hvad hun sagde, og så hed alle storkene Peter, og det kaldes de endnu.</p>
+
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="storkene">
+<head type="section-comments">Storkene</head>
+
+<p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Andet Hefte, som udkom den 19. oktober 1839.<br/>
+BFN 355/I,160-164/VII,54-55.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">232,29</cell><cell type="deviation">Ungerne. &lt; Ungerne,</cell></row>
+<row><cell type="position">234,5</cell><cell type="deviation">Æble!« &lt; Æble!</cell></row>
+<row><cell type="position">234,35</cell><cell type="deviation">hævnes!« &lt; hævnes!</cell></row>
+<row><cell type="position">235,2</cell><cell type="deviation">have!« &lt; have!</cell></row>
+<row><cell type="position">235,8</cell><cell type="deviation">sagde: &lt; sagde!</cell></row>
+<row><cell type="position">235,11</cell><cell type="deviation">Peter!« &lt; Peter!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">231</cell><row xml:id="txtcmnt-231-01"><cell type="data-term">Storke, … endevendes</cell><cell type="data-definition">jf. gammel dansk børneremse (Tang 657-659).</cell></row><row xml:id="txtcmnt-231-02"><cell type="data-term">Steie</cell><cell type="data-definition">stang, stage; jf. udtrykket: stork langeben.</cell></row><row xml:id="txtcmnt-231-03"><cell type="data-term">dit Eie</cell><cell type="data-definition">din ejendom, dvs. rede.</cell></row><row xml:id="txtcmnt-231-04"><cell type="data-term">stænges</cell><cell type="data-definition">spiddes.</cell></row>
+<cell type="page">232</cell><row xml:id="txtcmnt-232-01"><cell type="data-term">exercere</cell><cell type="data-definition">opøve bestemte (fysiske) færdigheder under streng (militær) disciplin.</cell></row>
+<pb n="514"/>
+<cell type="page">233</cell><row xml:id="txtcmnt-233-01"><cell type="data-term">Skralde</cell><cell type="data-definition">træinstrument, der frembringer en høj, skraldende lyd, når det svinges.</cell></row><row xml:id="txtcmnt-233-02"><cell type="data-term">færdig ved</cell><cell type="data-definition">lige ved.</cell></row>
+<cell type="page">234</cell><row xml:id="txtcmnt-234-01"><cell type="data-term">Udmærket Godt med Frø og Slange</cell><cell type="data-definition">spiller dels på datidens karaktersystem, hvor udmærket godt (ug) var den højeste karakter, dels på talemåden »ug med kryds og slange« om den suveræne præstation.</cell></row>
+<cell type="page">235</cell><row xml:id="txtcmnt-235-01"><cell type="data-term">Peter</cell><cell type="data-definition">almindeligt navn for storken på H.C. Andersens tid.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

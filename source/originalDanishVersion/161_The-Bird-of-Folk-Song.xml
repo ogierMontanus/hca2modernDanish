@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Bird of Folk-Song. A Mood Piece</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="folkesangens-fugl">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="folkesangens-fugl_modern.xml">moderniseret version</note>
+                                                       <note target="161_The-Bird-of-Folk-Song.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>It is wintertime; the earth has a covering of snow like marble hewn from the roc...</incipit><idno type="image">Folkesangens_Fugl_hca_ill_0111.png</idno><popularity>905</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Bird of Folk-Song. A Mood Piece. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>fortiden</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-25" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-25" who="NHB">formatted</change><change who="NHB" when="2022-10-26">quotation marks to inverted commas</change><change who="NHB" when="2022-10-26">ready for publication</change><change who="NHB" when="2022-11-09">removed full stop from main title</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Bird of Folk-Song A Mood Piece">
+               <head type="main" rend="The Bird of Folk-Song">The Bird of Folk-Song</head>                <head type="part" rend="A Mood Piece">A Mood Piece</head>                <p rend="noIndent" xml:id="p_00001">It is wintertime; the earth has a covering of snow like marble hewn from the rock: the sky is tall and clear, the wind keen as a dwarf-forged sword, the trees stand like white corals, like blossoming branches of almond trees, the air is as fresh as in the high Alps. The nights are beautiful with shimmering northern lights and countless glittering stars.</p>
+               <p rend="firstIndent" xml:id="p_00002">The storms come, the clouds lift themselves up, shake out swan’s down; the snowflakes swirl, covering sunken roads and houses, the open field and the closed streets. But we are sitting inside in a warm room, close to the blazing tile stove, and tales are being told of days past, we are listening to a saga:</p>
+               <p rend="firstIndent" xml:id="p_00003">Down by the open sea there lay a barrow. On top of it, at the midnight hour, the ghost of the buried hero used to sit, a former king; the gold circlet gleamed round his brow, his hair fluttered in the wind, he was clad in iron and steel; he bowed his head in sorrow and sighed deeply in pain like some ill-fated spirit.</p>
+               <p rend="firstIndent" xml:id="p_00004">And then a ship came by. The crew cast anchor and went ashore. There was a skald among them; he went forward to the royal figure and asked: ‘Why are you grieving and suffering?’</p>
+               <p rend="firstIndent" xml:id="p_00005">The dead man then answered: ‘No one has sung of the legend of my life; it is dead and gone. Songs did not spread it out over the countries of the world and into the hearts of men. Because of that, I have no peace of mind, no rest.’</p>
+               <p rend="firstIndent" xml:id="p_00006">And he spoke of his deeds and great feats, those which his own age had known but of which they had not sung, for there was no skald among them.</p>
+               <p rend="firstIndent" xml:id="p_00007">Then the old skald plucked the strings of his harp and sang of the courage of the hero’s youth, the strength of his manhood and the greatness of his good deeds. The face of the dead man lit up at this, like the linings of clouds in moonlight: full of delight and bliss the figure rose up in gleaming rays that vanished like a shimmer of northern light; all that was now visible was the grass-covered barrow with the rune-less stones; but over it, at the last strains from the strings, exactly as if it had come out of the harp, there flitted a small bird, the loveliest songster with the resonant beat of the thrush, with the soul-filled beat of the human heart, the sound of the homeland as heard by birds of passage. The songbird flew over mountain, over valley, over field and forest, it was the <hi rend="italic">Bird of Folk-Song</hi> that never dies.</p>
+               <p rend="firstIndent" xml:id="p_00008">We hear the song; we hear it now in the cosy room, in the winter evening, while the white bees swarm outside and the storm takes tight hold. The bird not only sings to us the hero’s <hi rend="italic">drápa</hi>, it sings sweet, gentle love songs, so rich and so plentiful, about loyalty in the North; it has tales in music and words; it has sayings and singings which, like runes placed under the tongue of the dead man, cause him to speak and one knows his homeland, the bird of folk-song!</p>
+               <p rend="firstIndent" xml:id="p_00009">In old heathen times, those of the Vikings, its nest hung in the bard’s harp. In the days of knights and fortified castles, when the fist held the scales of justice, when only might was right, and a peasant and a dog were considered of equal worth, where then did the song-bird find concealment and shelter? Coarseness and small-mindedness paid no heed to it. In the bay window of the castle, where the lady sat at her parchment, writing down the old memories in songs and legends that the old woman from the turf cottage and the itinerant pedlar told her when sitting on the bench; there, fluttering and flying above them, chirruped and sang the bird that never dies, as long as the earth has a tuft of grass for its foot, the bird of folk-song.</p>
+               <p rend="firstIndent" xml:id="p_00010">Now it sings for us here indoors. Outside are snowstorm and night; it places runes under our tongues, we know our homeland; God speaks to us in our mother tongue in the notes of the bird of folk-song; the old memories rise up, the faded colours are refreshed, legend and song give us a drink of blessing that lifts mind and thought, so that the evening becomes a Christmas feast. The snow drifts, the ice creaks, the storm rages, it has the power, it is the lord, but not Our Lord!</p>
+               <p rend="firstIndent" xml:id="p_00011">It is wintertime, the wind keen as a dwarf-forged sword, the snow swirls – it swirled, it seemed to us, for days and weeks, and lies like some vast mountain of snow over the large city; a heavy dream in the winter night. Everything down there concealed and gone, only the golden cross of the church, the symbol of faith, rises up out of the snowy grave and gleams in the blue sky, in the bright sunshine.</p>
+               <p rend="firstIndent" xml:id="p_00012">And above the buried city fly the sky’s birds, both great and small; they cheep and they sing as best they can, each with its distinctive voice.</p>
+               <p rend="firstIndent" xml:id="p_00013">First come the flock of sparrows, they chirrup about all small matters in street and alley, in nest and in house, they know stories from all houses front and back. ‘We know the buried city,’ they say. ‘Everything alive in there has Cheep! Cheep! Cheep!’</p>
+               <p rend="firstIndent" xml:id="p_00014">The black ravens and crows fly over the white snow. ‘Claw! claw!’ they screech. ‘Down there there’s still something to be had, something for the belly, which is most important thing; that’s the opinion of most people down there and it’s braw! braw! braw!’</p>
+               <p rend="firstIndent" xml:id="p_00015">The wild swans come on their swishing wings, and sing about what is great and glorious, that is still sprouting in human thoughts and hearts in there in the resting city buried in snow.</p>
+               <p rend="firstIndent" xml:id="p_00016">Death is not there, life reigns; we sense this in the notes that ring out from the church’s organ, gripping us like the sound from elf-hill, like the songs of Ossian, like the swishing wing beats of the Valkyries. What a harmonious sound! It speaks to our hearts, lifts our thoughts, it is the bird of folk-song that we hear! And at this very moment: God’s warm breath from above, the mountain of snow starts to crack, the sun shines down inside, spring comes, the birds come, new generations, with the familiar, same notes as ever. Listen to the year’s <hi rend="italic">drápa</hi>: the might of the snowstorm, the heavy dream of winter! Everything is released, everything rises up in sweet song from the bird of folk-song, the bird that never dies.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>
