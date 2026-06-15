@@ -20,7 +20,7 @@ untouched (they were already correctly classified).
 
 Usage:
   python reclassify_ne.py [--tsv ../../resources/ordlister/wordlist_ne_scored.tsv]
-                          [--ddo ../../resources/ordbøger/ddo-dsl/ddo_DDO.dic]
+                          [--ddo ../../resources/ordbøger/aaTilÅ/ddo_DDO.dic]
                           [--ne-list ../rules/named_entities.txt]
                           [--rules ../rules/rules.tsv]
                           [--out wordlist_ne_scored.tsv]   # overwrites by default
@@ -67,8 +67,14 @@ def _person_pattern(word: str) -> bool:
 
 
 def _is_all_caps(word: str) -> bool:
-    """All-alphabetic ALL-CAPS word (drama character stage direction)."""
     return word.isalpha() and word == word.upper() and len(word) > 1
+
+
+def _caps_to_initial(word: str) -> str:
+    """FREDERIK → Frederik: normalize ALL-CAPS to initial-cap for scoring."""
+    if _is_all_caps(word):
+        return word[0] + word[1:].lower()
+    return word
 
 
 def _conservative_score(word: str, total: int) -> tuple[float, str]:
@@ -183,6 +189,14 @@ def in_ddo(word: str, ddo_set: set[str], rules) -> bool:
     return False
 
 
+def _compound_all_in_ddo(word: str, ddo_set: set[str], rules) -> bool:
+    """Træ-Altan → ['Træ', 'Altan']: noun if ALL parts are in DDO."""
+    parts = [p for p in word.split("-") if len(p) > 1]
+    if len(parts) < 2:
+        return False
+    return all(in_ddo(p, ddo_set, rules) for p in parts)
+
+
 # ---------------------------------------------------------------------------
 # Main reclassification
 # ---------------------------------------------------------------------------
@@ -216,21 +230,23 @@ def reclassify(rows: list[dict], ddo_set: set[str],
             out.append(r)
             continue
 
-        # Tier 2: ALL-CAPS drama characters
+        # Tier 2: ALL-CAPS → evaluate as initial-cap (not auto-NE)
+        eval_word = _caps_to_initial(word)   # FREDERIK → Frederik; others unchanged
         if _is_all_caps(word):
-            r = {**r, "ne_score": "0.85", "ne_label": "namedEntity"}
             stats["all_caps"] += 1
-            out.append(r)
-            continue
 
         total = int(r["total"])
 
-        # Tier 3: DDO lookup
-        if in_ddo(word, ddo_set, rules):
+        # Tier 3: DDO lookup (uses eval_word so ALL-CAPS is scored as initial-cap)
+        ddo_hit = (
+            in_ddo(eval_word, ddo_set, rules)
+            or _compound_all_in_ddo(eval_word, ddo_set, rules)
+        )
+        if ddo_hit:
             r = {**r, "ne_score": "0.10", "ne_label": "noun"}
             stats["ddo_hit"] += 1
         else:
-            score, new_label = _conservative_score(word, total)
+            score, new_label = _conservative_score(eval_word, total)
             r = {**r, "ne_score": str(score), "ne_label": new_label}
             stats["ddo_miss"] += 1
 
@@ -245,13 +261,16 @@ def main() -> None:
     ap.add_argument("--tsv", type=Path,
                     default=_ROOT / "resources" / "ordlister" / "wordlist_ne_scored.tsv")
     ap.add_argument("--ddo", type=Path,
-                    default=_ROOT / "resources" / "ordbøger" / "ddo-dsl" / "ddo_DDO.dic")
+                    default=_ROOT / "resources" / "ordbøger" / "aaTilÅ" / "ddo_DDO.dic")
     ap.add_argument("--ne-list", type=Path,
                     default=_NORM / "rules" / "named_entities.txt")
     ap.add_argument("--rules", type=Path,
                     default=_NORM / "rules" / "rules.tsv")
     ap.add_argument("--out", type=Path, default=None,
                     help="Output path (default: overwrite --tsv)")
+    ap.add_argument("--write-capitals", action="store_true",
+                    help="Append pronoun_capital words to --ne-list so they are "
+                         "protected from toLowerCase in normalize_xml.py")
     args = ap.parse_args()
 
     out_path = args.out or args.tsv
@@ -276,6 +295,20 @@ def main() -> None:
         rows = list(reader)
     print(f"Input rows: {len(rows):,}")
 
+    # Preserve capital pronouns: append pronoun_capital words to named_entities.txt
+    if args.write_capitals:
+        cap_words = [r["word"] for r in rows if r["ne_label"] == "pronoun_capital"]
+        existing = args.ne_list.read_text(encoding="utf-8") if args.ne_list.exists() else ""
+        existing_entries = {line.strip() for line in existing.splitlines() if line.strip()}
+        new_entries = [w for w in cap_words if w not in existing_entries]
+        if new_entries:
+            with open(args.ne_list, "a", encoding="utf-8") as f:
+                f.write("\n# Capital pronouns (formal address: De, Dem, Deres, I, Vi…)\n")
+                f.write("\n".join(new_entries) + "\n")
+            print(f"Appended {len(new_entries)} pronoun_capital entries to {args.ne_list}")
+        else:
+            print("All pronoun_capital words already in ne-list — nothing added")
+
     out_rows, stats = reclassify(rows, ddo_set, ne_whitelist, rules)
 
     with open(out_path, "w", encoding="utf-8", newline="") as f:
@@ -287,16 +320,16 @@ def main() -> None:
     total_ne_before = sum(1 for r in rows if r["ne_label"] in _NE_TARGETS)
     total_ne_after = sum(1 for r in out_rows if r["ne_label"] in _NE_TARGETS)
 
-    print(f"\nReclassification complete → {out_path}")
+    print(f"\nReclassification complete -> {out_path}")
     print(f"  NE candidates before: {total_ne_before:,}")
     print(f"  NE candidates after:  {total_ne_after:,}")
     print(f"  Reduction:            {total_ne_before - total_ne_after:,} "
           f"({(total_ne_before - total_ne_after) / total_ne_before:.0%})")
     print(f"\n  Tier breakdown:")
     print(f"    NE whitelist kept:         {stats['whitelist']:,}")
-    print(f"    ALL-CAPS drama chars:      {stats['all_caps']:,}")
-    print(f"    DDO hit → noun:            {stats['ddo_hit']:,}")
-    print(f"    DDO miss → NE candidate:   {stats['ddo_miss']:,}")
+    print(f"    ALL-CAPS (scored as init-cap): {stats['all_caps']:,}")
+    print(f"    DDO hit -> noun:            {stats['ddo_hit']:,}")
+    print(f"    DDO miss -> NE candidate:   {stats['ddo_miss']:,}")
     print(f"    Unchanged (other labels):  {stats['unchanged']:,}")
 
     # Label distribution after
