@@ -120,6 +120,22 @@ def _ods_candidates(lw: str) -> list[str]:
     return out
 
 
+def _compound_all_in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
+                          rules) -> str | None:
+    """Træ-Altan → ['Træ', 'Altan']: noun if ALL hyphen-parts are in ODS.
+
+    Mirrors reclassify_ne._compound_all_in_ddo() but uses the ODS set.
+    Returns 'noun' if every part matches, else None.
+    """
+    parts = [p for p in word.split("-") if len(p) > 1]
+    if len(parts) < 2:
+        return None
+    for part in parts:
+        if in_ods(part, ods_nouns, ods_adjs, rules) is None:
+            return None
+    return "noun"
+
+
 def in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
            rules) -> str | None:
     """Return ODS class ('noun'|'adj') if matched, else None.
@@ -127,6 +143,7 @@ def in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
     1. Normalize ALL-CAPS → initial-cap.
     2. Apply Loop 1 rules to get modern form.
     3. Try ODS candidates (direct + suffix-stripped).
+    4. Try hyphen-compound splitting (all parts must match).
     """
     eval_w = _caps_to_initial(word)
     norm, _, _ = normalize(eval_w.lower(), rules)
@@ -136,7 +153,9 @@ def in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
             return "noun"
         if cand in ods_adjs:
             return "adj"
-    return None
+
+    # Hyphen-compound: Træ-Altan → Træ + Altan (both in ODS → noun)
+    return _compound_all_in_ods(eval_w, ods_nouns, ods_adjs, rules)
 
 
 # ---------------------------------------------------------------------------
