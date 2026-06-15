@@ -5,26 +5,18 @@
     "change_caseonly": 59646,
     "change_orthographic": 52472,
     "structural_changes": 8589,
-    "loop1_orth_correct": 21197,
-    "loop1_orth_missed": 26896,
-    "loop1_orth_wrong": 4379,
-    "loop1_recall_pct": 40.4,
-    "loop1_precision_pct": 82.9,
-    "overnormalizations_on_kept": 102,
-    "loop2_flagged_types": 16
+    "loop1_orth_correct": 33106,
+    "loop1_orth_missed": 14848,
+    "loop1_orth_wrong": 4518,
+    "loop1_recall_pct": 63.1,
+    "loop1_precision_pct": 88.0,
+    "overnormalizations_on_kept": 265,
+    "loop2_flagged_types": 42
   },
   "top_missed_patterns": [
     [
-      "i→j",
-      5293
-    ],
-    [
-      "j→∅",
-      3625
-    ],
-    [
       "e→∅",
-      3099
+      2819
     ],
     [
       "d→l",
@@ -35,40 +27,28 @@
       1322
     ],
     [
-      "d→∅",
-      1120
-    ],
-    [
       "∅→r",
       1095
     ],
     [
       "de→∅",
-      1021
+      1019
     ],
     [
-      "i→∅",
-      712
-    ],
-    [
-      "u→∅",
-      546
-    ],
-    [
-      "x→ks",
-      537
+      "d→∅",
+      761
     ],
     [
       "-→∅",
       527
     ],
     [
-      "e→æ",
-      367
-    ],
-    [
       "c→k",
       333
+    ],
+    [
+      "e→æ",
+      312
     ],
     [
       "∅→e",
@@ -93,31 +73,91 @@
     [
       "ch→k",
       185
+    ],
+    [
+      "h→∅",
+      183
+    ],
+    [
+      "u→a,ne→∅",
+      164
+    ],
+    [
+      "de→t",
+      161
+    ],
+    [
+      "t→∅",
+      155
+    ],
+    [
+      "e→é",
+      153
     ]
   ],
   "loop2_by_rule": [
     [
       "R0027",
       16
+    ],
+    [
+      "R0072",
+      9
+    ],
+    [
+      "R0097",
+      4
+    ],
+    [
+      "R0047",
+      3
+    ],
+    [
+      "R0120",
+      3
+    ],
+    [
+      "R0098",
+      2
+    ],
+    [
+      "R0116",
+      1
+    ],
+    [
+      "R0063",
+      1
+    ],
+    [
+      "R0088",
+      1
+    ],
+    [
+      "R0091",
+      1
+    ],
+    [
+      "R0104",
+      1
     ]
   ],
   "examples": {
     "correct": [
       "Aarets→Årets",
       "Sneestorm→Snestorm",
+      "fløi→fløj",
+      "gjennem→gennem",
       "udenpaa→udenpå",
       "Snee→Sne",
       "saa→så",
+      "fløi→fløj",
+      "Øieblik→Øjeblik",
+      "kjørte→kørte",
+      "Fodgjængeren→Fodgængeren",
       "Snee→Sne",
       "saa→så",
       "naar→når",
-      "Snee→Sne",
-      "Overeenskomst→Overenskomst",
-      "eet→et",
-      "Been→Ben",
-      "Sneedyngen→Snedyngen",
-      "saa→så",
-      "blaa→blå"
+      "gjøre→gøre"
     ],
     "wrong": [
       "Karreeten→Karreten (gold kareten)",
@@ -126,49 +166,49 @@
       "faae→fåe (gold få)",
       "gaae→gåe (gold gå)",
       "slaae→slåe (gold slå)",
+      "fløine→fløjne (gold fløjet)",
+      "skjøndt→skøndt (gold Skønt)",
       "faae→fåe (gold få)",
       "laae→låe (gold lå)",
       "saamæn→såmæn (gold såmænd)",
       "Menneske-Paafund→Menneske-Påfund (gold menneskepåfund)",
       "laae→låe (gold lå)",
       "saae→såe (gold så)",
-      "faae→fåe (gold får)",
-      "saae→såe (gold så)",
-      "meer→mer (gold mere)"
+      "voxte→vokste (gold voksede)"
     ],
     "overnorm": [
       "Sneen→snen (R0013,R0027,R0027)",
       "Vaaren→Våren (R0033)",
+      "igjennem→igennem (R0051)",
       "Aarhundreder→Århundreder (R0034)",
       "Odysseen→Odyssen (R0027)",
+      "Oxes→Okses (R0063)",
+      "koaxede→koaksede (R0063)",
       "Aalborg→Ålborg (R0034)",
+      "Mannheim→Mannhejm (R0047)",
+      "Meiningen→Mejningen (R0047)",
+      "Schweitz→Schwejtz (R0047)",
       "undseelig→undselig (R0027)",
       "sneede→snede (R0027)",
       "Pharmacopoea→Farmacopoea (R0030)",
-      "Beethovens→Bethovens (R0027)",
-      "Philosophen→Filosofen (R0030,R0032)",
-      "saaledes→således (R0033)",
-      "paa→på (R0033)",
-      "Odysseen→Odyssen (R0027)",
-      "Sancta→Sankta (R0001)",
-      "Henseende→Hensende (R0027)"
+      "aux→auks (R0063)"
     ],
     "loop2": [
       "Sneen→snen (fix sneen, R0027)",
       "Odysseen→Odyssen (fix Odysseen, R0027)",
       "Feen→Fen (fix Feen, R0027)",
       "Ideen→iden (fix ideen, R0027)",
+      "Naboer→Nabor (fix Naboer, R0072)",
+      "Menneskeverdenen→Menneskæverdenen (fix Menneskeverdenen, R0097)",
       "sneede→snede (fix sneede, R0027)",
       "Feens→Fens (fix Feens, R0027)",
-      "Fatteevne→Fattevne (fix Fatteevne, R0027)",
-      "Feernes→Fernes (fix Feernes, R0027)",
-      "besneede→tilsnede (fix tilsneede, R0027)",
-      "Forseelse→Forselse (fix Forseelse, R0027)",
-      "Ideer→Ider (fix Ideer, R0027)",
-      "Udseendet→Udsendet (fix Udseendet, R0027)",
-      "Anseelse→Anselse (fix Anseelse, R0027)",
-      "Skeen→Sken (fix Skeen, R0027)",
-      "reelle→relle (fix reelle, R0027)"
+      "Beboere→Bebore (fix Beboere, R0072)",
+      "Naboerske→Naborske (fix Naboerske, R0072)",
+      "uudgrundelige→udgrundelige (fix uudgrundelige, R0116)",
+      "Menneskevrimlen→Menneskævrimlen (fix Menneskevrimlen, R0097)",
+      "Stepperne→Stæpperne (fix Stepperne, R0098)",
+      "Menneskevrimmel→Menneskævrimmel (fix Menneskevrimmel, R0097)",
+      "Feernes→Fernes (fix Feernes, R0027)"
     ]
   }
 }
