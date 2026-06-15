@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Program</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="program" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Det er Carnevale! – – I Kjøbenhavn</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01063</section>
+                                                                 <date>1873</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1873</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Program" xml:id="program"><pb n="433"/><head type="part">Program</head>
+<lg xml:id="p_01064">
+<l rend="noIndent" subtype="firstline" corresp="Det er Carnevale! – – I Kjøbenhavn" rendition="det-er-carnevale-i-kjoebenhavn">Det er Carnevale! – – I Kjøbenhavn</l>
+<l rend="noIndent">Det kaldes at <seg target="txtcmnt-433-01"><!--DATA-TERM: løbe til (Fastelavn)--><!--DATA-DEFINITION: fejre.-->løbe til Fastelavn</seg>,</l>
+<l rend="noIndent">Slaae Katten af Tønden og <seg target="txtcmnt-433-02"><!--DATA-TERM: bide til Bolle--><!--DATA-DEFINITION: selskabsleg, hvor man forsøger at spise en bolle ophængt i en snor uden at tage hændernes til hjælp.-->bide til Bolle</seg>,</l>
+<l rend="noIndent">I Byen og udenfor Byens Volde.</l>
+<l rend="noIndent">Man <seg target="txtcmnt-433-03"><!--DATA-TERM: (stikker til) Straamand--><!--DATA-DEFINITION: figur udstoppet med strå, som brugtes i kultisk øjemed; her til at stikke til måls efter.-->stikker til Straamand</seg>, man <seg target="txtcmnt-433-04"><!--DATA-TERM: knuser en Potte--><!--DATA-DEFINITION: potteknusning var led i både nytårs- og fastelavnsfester.-->knuser en Potte</seg>,</l>
+<l rend="noIndent">Slaaer Gjækken løs, er aldeles den Flotte.</l>
+<l rend="noIndent">Iaften er Festen privat og lille,</l>
+<l rend="noIndent">Derfor tør Ingen den Tause spille,</l>
+<l rend="noIndent">Nei, Hver, som kommer paa dette Sted,</l>
+<l rend="noIndent">Maa komme med Liv og med Lystighed,</l>
+<l rend="noIndent">Det er den bedste, skummende Viin,</l>
+<l rend="noIndent">Til Klang af Fløite og Violin. –</l>
+<l rend="noIndent">Paa Tonernes Strøm hver Grille jo døer,</l>
+<l rend="noIndent">Da raade alene det gode Humeur,</l>
+<l rend="noIndent">Det slaaer af Tønde Alt, hvad der piner,</l>
+<l rend="noIndent">Hver Sorg bliver søde Appelsiner,</l>
+<l rend="noIndent">Og Den, som slaaer rigtigt Tønden i Qvas,</l>
+<l rend="noIndent">Faaer strax en Gevinst, som er ikke Fjas.</l>
+<l rend="noIndent">De skal da ogsaa til Straamanden stikke</l>
+<l rend="noIndent">Og faae en Gevinst, men jeg nævner den ikke;</l>
+<l rend="noIndent">Herpaa promenere de Alle lidt</l>
+<l rend="noIndent">Og komme da snart ind i Dandsetrit.</l>
+<l rend="noIndent">Den Dands gaaer livlig og let gjennem Lunden</l>
+<l rend="noIndent">Med Smiil i Øiet og Smiil om Munden!</l>
+<l rend="noIndent">Erindringen selv er Aftenens Gjæst</l>
+<l rend="noIndent">Og kalder i Minde en Hjertets Fest,</l>
+<l rend="noIndent">En af de kjæreste, Huset har.</l>
+<l rend="noIndent">Velsignet <hi rend="italic">den sextende Februar</hi>!</l>
+<l rend="noIndent">Og Glæden voxer i Stuer og Sale.</l>
+<l rend="noIndent">– Ja, det er Program til vort Carnevale!</l>
+</lg>
+<pb n="434"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Program" synch="program">
+<head type="section-comments">Program</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk som program for fastelavnsfesten hos familien Melchior 16. februar 1874, Dorothea Melchiors 51-års fødselsdag, under mærket »x.«. BFN 1033</p>
+<table rend="textcomments">
+<cell type="page">433</cell><cell><row xml:id="txtcmnt-433-01"><cell type="data-term">løbe til (Fastelavn)</cell><cell type="data-definition">fejre.</cell></row><row xml:id="txtcmnt-433-02"><cell type="data-term">bide til Bolle</cell><cell type="data-definition">selskabsleg, hvor man forsøger at spise en bolle ophængt i en snor uden at tage hændernes til hjælp.</cell></row><row xml:id="txtcmnt-433-03"><cell type="data-term">(stikker til) Straamand</cell><cell type="data-definition">figur udstoppet med strå, som brugtes i kultisk øjemed; her til at stikke til måls efter.</cell></row><row xml:id="txtcmnt-433-04"><cell type="data-term">knuser en Potte</cell><cell type="data-definition">potteknusning var led i både nytårs- og fastelavnsfester.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

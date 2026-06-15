@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Wicked Prince</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-onde-fyrste">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-onde-fyrste_modern.xml">moderniseret version</note>
+                                                       <note target="50_The-Wicked-Prince.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a wicked and presumptuous prince, whose sole thought was to conqu...</incipit><idno type="image">Den_onde_Fyrste_01_2022-03-09.png</idno><popularity>955</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Wicked Prince. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Wicked Prince">
+          <head type="main" rend="The Wicked Prince">The Wicked Prince</head>                <p rend="noIndent" xml:id="p_00001">There was once a wicked and presumptuous prince, whose sole thought was to conquer all the countries of the world and to cause dread at the sound of his name; he wreaked havoc with fire and sword; his soldiers trampled down the corn in the fields, they torched the farmer’s house so the red flames licked the leaves from the trees and the fruit hung roasted on the black, charred branches. Many a poor mother hid herself with her naked baby at her breast behind the smoking wall, and the soldiers searched for her, and if they found her and the child, then their devilish glee was unleashed. Wicked spirits could do no worse, but the prince felt that everything was proceeding as it should; day by day his power increased, his name was feared by all, and he was successful in all he undertook. From the cities he had conquered he took gold and great treasure; amassed in his royal city was wealth the like of which was found nowhere else in the world. He now had magnificent palaces, churches and archways built, and everyone who saw these wonders said: ‘what a mighty prince!’ they did not stop to think of the distress he had caused other lands, did not hear the sighing and moaning that came from the burnt-out cities.</p>
+          <p rend="firstIndent" xml:id="p_00002">The prince looked at his gold, looked at his magnificent buildings and, like his subjects, thought ‘what a mighty prince! but I must have more! much more! No might must be able to be called my equal, let alone greater than mine!’ and he went to war with all of his neighbours and defeated all of them. He had the conquered kings fettered to his carriage with golden chains when he drove through the streets; and when he sat at table, they had to lie at his feet and those of his courtiers and accept the morsels of bread that were cast down to them.</p>
+          <p rend="firstIndent" xml:id="p_00003">The prince now had statues of himself raised on the market squares and in the royal palaces; he even wanted a statue of himself in the churches in front of the Lord’s altar, but the clergymen said: ‘Sire, you are great, but God is greater – this we dare not do.’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘In that case,’ the wicked prince said, ‘I will vanquish God as well!’ and in the hubris of his heart and his utter stupidity he had an ingenious ship built that could travel through the air; it was multicoloured like the tail of a peacock and seemed to be studded with thousands of eyes, though each eye was a gun barrel; the prince sat in the middle of the ship, he only needed to press a spring and thousands of cannonballs shot out and the guns were automatically reloaded. Hundreds of strong eagles were harnessed to the ship, and thus he now flew towards the sun. The earth lay far below him. At first, with its mountains and forests, it only seemed to be a ploughed field where the green shoots start to appear out of the turned turf, then it looked like a flat map, and soon after it was completely concealed in mist and clouds. Higher and higher the eagles flew; then God dispatched just one of his countless angels, and the evil prince fired thousands of cannonballs at him, but they bounced like hail off the angel’s gleaming wings; a drop of blood, just a single one, dripped from a white wing-feather, and this drop fell onto the ship where the prince was sitting; it burnt onto the ship, weighing it down like hundreds of tons of lead and causing the ship to plunge down at great speed towards the earth. The strong wings of the eagles snapped, the wind roared round the prince’s head, and the surrounding clouds – caused by the smoke from the razed cities – formed menacing shapes such as vast crayfish stretching out their strong claws, like rolling boulders and fire-spewing dragons; he lay there in the ship half-dead till it finally ended up hanging in the thick boughs of the forest trees.</p>
+          <p rend="noIndent" xml:id="p_00005">‘I will conquer God!’ he said, ‘I have sworn to do so, and my will shall prevail!’ and he spent seven years having ingenious ships built that could sail through the air, and had lightning flashes made of the most tempered steel, for he wanted to blast the fortifications of heaven. From all his lands he gathered huge armies; they covered a radius of many miles when placed man to man. They went on board the ingenious ships, the king approached his own. Then God dispatched a swarm of mosquitoes, one single little swarm, it buzzed around the king and bit his face and hands; he angrily drew his sword, but all he struck was the empty air, he was unable to hit the mosquitoes. He then ordered costly carpets to be brought to him, which were to be wrapped around him so that no mosquito could penetrate it, and they did as he ordered them, but one single mosquito landed on the innermost carpet, crept into the king’s ear and bit him there; it burnt like fire, the poison went to his brain, he tore himself loose, rid himself of the carpets, tore his clothes to shreds and danced naked in the presence of the rough, wild soldiers, who now mocked the mad prince that wanted to storm God’s citadel and was immediately vanquished by one single tiny mosquito.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

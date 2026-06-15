@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En lille Vise</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-lille-vise" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Den største Lykke, hei faldera!</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00021</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="En lille Vise" xml:id="en-lille-vise"><pb n="20"/><head type="part">En lille Vise</head>
+<head type="sub">(Paa en Faders Fødselsdag afsjungen af hans voxne Børn)</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-020-01"><!--DATA-TERM: At kjøre Vatten og kjøre Veed--><!--DATA-DEFINITION: »Å kjøre vatten å kjøre ve’«, norsk folkemelodi.-->At kjøre Vatten og kjøre Veed</seg></hi></head>
+<lg xml:id="p_00022">
+<l rend="noIndent" subtype="firstline" corresp="Den største Lykke, hei faldera!" rendition="den-stoerste-lykke-hei-faldera">Den største Lykke, hei faldera!</l>
+<l rend="noIndent">Ja vist, den kommer ned fra oven.</l>
+<l rend="noIndent"><seg target="txtcmnt-020-02"><!--DATA-TERM: Held (Elephanten)--><!--DATA-DEFINITION: hvilket held for.-->Held Elephanten</seg> i Africa,</l>
+<l rend="noIndent">Den gaaer paa Palmer op til Boven,</l>
+<l rend="noIndent">Paa røde Roser og paa <seg target="txtcmnt-020-03"><!--DATA-TERM: Tamerinth--><!--DATA-DEFINITION: tamarinde; stort tropisk træ; her sigtes vel blot til blomsten.-->Tamerinth</seg>,</l>
+<l rend="noIndent">I Foden træder den sig ei en Splindt,</l>
+<l rend="firstIndent">Dog, det er sandt,</l>
+<l rend="firstIndent">Ingen Elephant</l>
+<l rend="noIndent">Fik sig en Fader, som vor Fader!</l>
+</lg>
+<lg xml:id="p_00023">
+<l rend="noIndent">En Hvalros har det saa mageligt,</l>
+<l rend="noIndent">Han lider ei af Solens Hede,</l>
+<l rend="noIndent">Paa Iis han sover behageligt,</l>
+<l rend="noIndent">Om han er oppe eller nede.</l>
+<l rend="noIndent">Ved <seg target="txtcmnt-020-04"><!--DATA-TERM: Spitsberg(s)--><!--DATA-DEFINITION: Spitsbergen; den største ø i øgruppen Svalbard i Barentshavet.-->Spitsbergs</seg> Klipper han faaer et Blund,</l>
+<l rend="noIndent">Ja lægger Hoved tidt paa Edderduun:</l>
+<l rend="firstIndent">Det os ærgrer ei,</l>
+<l rend="firstIndent">Ingen Hvalros, nei,</l>
+<l rend="noIndent">Fik sig en Fader, som vor Fader!</l>
+</lg>
+<lg xml:id="p_00024">
+<l rend="noIndent">Paa <seg target="txtcmnt-020-05"><!--DATA-TERM: Ararat, der hvor Arken stod--><!--DATA-DEFINITION: jf. 1. Mosebog 8,4, hvor Noas ark strander på bjerget Ararat i det nuværende Tyrkiet.-->Ararat, der hvor Arken stod</seg>,</l>
+<l rend="noIndent">Tør Konge-Ørnen frit sig svinge,</l>
+<l rend="noIndent">Mod Skyen peger den med sin Fod,</l>
+<l rend="noIndent">Jo, Ørnen den er ei saa ringe!</l>
+<l rend="noIndent">De røde Roser og de Øine blaae</l>
+<l rend="noIndent">I Dalen dybt sig for ham neie maa,</l>
+<l rend="firstIndent">Dog tør vi Børn</l>
+<l rend="firstIndent">Sige, ingen Ørn</l>
+<l rend="noIndent">Fik sig en Fader, som vor Fader!</l>
+</lg>
+<lg xml:id="p_00025">
+<l rend="noIndent">Nei, Elephant, Hvalros og Ørn,</l>
+<l rend="noIndent">Jo, de maa smøre sig om Munden!</l>
+<l rend="noIndent">Tænk! de fik heller ei slige Børn,</l>
+<pb n="21"/>
+<l rend="noIndent">Som os, det ærgrer dem i Grunden!</l>
+<l rend="noIndent">Som Torn i Øiet vi dem Alle staae,</l>
+<l rend="noIndent">Men Dig vi er en Torn med Roser paa.</l>
+<l rend="firstIndent">Rosens Duft er Sang,</l>
+<l rend="firstIndent">Fader, see en Gang</l>
+<l rend="noIndent">Ved Din Skaal hver en Rose nikker!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="En lille Vise (Paa en Faders Fødselsdag afsjungen af hans voxne Børn)" synch="en-lille-vise-paa-en-faders-foedselsdag-afsjungen-af-hans-voxne-boern">
+<head type="section-comments">En lille Vise (Paa en Faders Fødselsdag afsjungen af hans voxne Børn)</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Kjöbenhavns Morgenblad</hi>, nr. 8, 23. februar 1840. BFN 373</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">20,4</cell><cell type="deviation">hei faldera &lt; hei daldera</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">20</cell><cell><row xml:id="txtcmnt-020-01"><cell type="data-term">At kjøre Vatten og kjøre Veed</cell><cell type="data-definition">»Å kjøre vatten å kjøre ve’«, norsk folkemelodi.</cell></row><row xml:id="txtcmnt-020-02"><cell type="data-term">Held (Elephanten)</cell><cell type="data-definition">hvilket held for.</cell></row><row xml:id="txtcmnt-020-03"><cell type="data-term">Tamerinth</cell><cell type="data-definition">tamarinde; stort tropisk træ; her sigtes vel blot til blomsten.</cell></row><row xml:id="txtcmnt-020-04"><cell type="data-term">Spitsberg(s)</cell><cell type="data-definition">Spitsbergen; den største ø i øgruppen Svalbard i Barentshavet.</cell></row><row xml:id="txtcmnt-020-05"><cell type="data-term">Ararat, der hvor Arken stod</cell><cell type="data-definition">jf. 1. Mosebog 8,4, hvor Noas ark strander på bjerget Ararat i det nuværende Tyrkiet.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

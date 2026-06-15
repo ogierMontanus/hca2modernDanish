@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Two Brothers</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="to-broedre">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="to-broedre_modern.xml">moderniseret version</note>
+                                                       <note target="144_Two-Brothers.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>On one of the Danish islands, where ancient thingsteads rise in the cornfields a...</incipit><idno type="image">To_Broedre_hca_ill_0085.png</idno><popularity>905</popularity><cite>&lt;p&gt;Hans Christian Andersen: Two Brothers. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-30" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-30" who="NHB">formatted</change><change who="NHB" when="2022-09-30">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Two Brothers">
+               <head type="main" rend="Two Brothers">Two Brothers</head>                <p rend="noIndent" xml:id="p_00001">On one of the Danish islands, where ancient thingsteads rise in the cornfields and great trees in the beechwoods, there lies a small town with red roofs on the low houses; inside one of these, over live coals and embers in the fireplace strange things were being carried out: substances were being heated in glasses, mixed and distilled, herbs were being crushed in mortars. An elderly man was in charge of all of this.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘One must take care to do the right thing!’ he said, ‘yes, the right thing, the correct thing, the truth in each created part one has to know and adhere to.’</p>
+               <p rend="firstIndent" xml:id="p_00003">In the living room along with the worthy mistress of the house sat two of their sons, still young but with full-grown thoughts. Their mother had also spoken to them of right and wrong, of keeping to the truth, that was the <hi rend="italic">Lord’s</hi> countenance in this world.</p>
+               <p rend="firstIndent" xml:id="p_00004">The elder of the boys looked mischievous and spirited, his delight was to read about the forces of nature, about the sun and stars – no fairy tale was more pleasing to him. Oh, how lucky he would be if he could go on voyages of discovery, or find out how one could imitate bird’s wings and then be able to fly! yes, <hi rend="italic">it</hi> was a question of finding the right thing! father was right and mother was right – it was truth that held the world together.</p>
+               <p rend="firstIndent" xml:id="p_00005">The younger brother was quieter and devoted himself completely to books; when he read about <hi rend="italic">Jacob</hi> who covered his hands with goatskins so as to resemble <hi rend="italic">Esau</hi> and thereby fraudulently obtain a birthright, then he clenched his small hands in indignation, angry with the deceivers; when he read about tyrants and all the injustice and evil that was committed in the world, then his eyes filled with tears. The thought of what was right, of the truth that ought and must be victorious filled his mind. One evening, the young boy was already in bed, but the curtains round it had not been completely drawn, the light shone in, he lay there with his book and simply had to finish reading the story of <hi rend="italic">Solon</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00006">And his thought lifted him and carried him so mysteriously far away; it was as if his bed became no less than a boat with all sails set; was he dreaming, or what was it? He was gliding over rolling waters, the great seas of time, he could hear <hi rend="italic">Solon’s</hi> voice, comprehensible although in a foreign tongue was heard the Danish motto: ‘With Law shall the Land be built!’</p>
+               <p rend="firstIndent" xml:id="p_00007">And the genius of the human race was there in the humble living room, bent down over the bed and pressed a kiss on the boy’s forehead: ‘Be strong in honour and strong in life’s battle! with truth in your breast, fly towards the land of truth!’</p>
+               <p rend="firstIndent" xml:id="p_00008">The elder brother was not yet in bed, he was standing by the window, looking at the mists rising from the meadow; it was not the elf maidens who were dancing there, as an old farmhand had told him, but he knew better than that, it was the vapours, warmer than the air, and the fact that they were now rising. A shooting star suddenly gleamed, and the boy’s thoughts were immediately far removed from the earth’s vapours, were right up there with the gleaming meteor. The stars in the sky sparkled, it was as if long golden threads were hanging down from them to our Earth.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Fly with me!’ it sounded and resounded in the boy’s heart; and the mighty genius of human generations, swifter than a bird, than an arrow, than anything terrestrial can fly, bore him out into space, where rays from star to star bound the heavenly bodies together; our Earth revolved in the thin air, town seemed close to town. Through the spheres could be heard:</p>
+               <p rend="firstIndent" xml:id="p_00010">‘What is near, what is far away when the mighty genius of the spirit lifts you up!’</p>
+               <p rend="firstIndent" xml:id="p_00011">And the young child was once more standing at the window looking out, the younger brother lay in his bed, their mother called them by their names: ‘<hi rend="italic">Anders</hi> and <hi rend="italic">Hans Christian</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00012"><hi rend="italic">Denmark</hi> knows them, the world knows the two brothers – <hi rend="italic">Ørsted</hi>.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Portnerens Søn</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr og Historier. Anden Række. Fjerde Samling</i>, der udkom den 11. december 1866.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="portnerens-soen" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="portnerens-soen_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="168_The-Doorkeepers-Son">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Generalens boede paa første Sal, Portnerens boede i Kjælderen; der var stor Afst...</incipit><readingTime>26</readingTime><popularity>915</popularity><cite>&lt;p&gt;H.C. Andersen: Portnerens Søn. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Portnerens_Soen_hca_ill_0115.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1866</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>livsforloeb</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Portnerens Søn" xml:id="portnerens-soen">
+<head type="main">Portnerens Søn</head>
+
+<p rend="noIndent" xml:id="p_00001"><hi rend="italic">Generalens</hi> boede paa første Sal, <hi rend="italic">Portnerens</hi> boede i Kjælderen; der var stor Afstand mellem de to Familier, hele Stue-Etagen og Rangforordningen; men under samme Tag boede de med Udsigt til Gaden og til Gaarden; i denne var en Græsplet med et blomstrende Akasietræ, naar det blomstrede, og under det sad sommetider den pyntede Amme med det endnu mere pyntede General-Barn, »lille <hi rend="italic">Emilie</hi>«. Foran dem dandsede paa sine bare Been Portnerens lille Dreng med de store brune Øine og det mørke Haar, og Barnet loe til ham, strakte sine smaa Hænder ud til ham, og saae <hi rend="italic">Generalen</hi> det fra sit Vindue, saa nikkede han ned og sagde: »<seg target="txtcmnt-108-01"><!--DATA-TERM: Charmant--><anchor target="txtcmnt-108-01"/><!--charmerende.-->Charmant</seg>!« <hi rend="italic">Generalinden</hi> selv, der var saa ung, at hun næsten kunde være sin Mands Datter af tidligt Ægteskab, saae aldrig ud ad Vinduet til Gaarden, men sin Ordre havde hun givet, at Kjælderfolkenes lille Dreng nok maatte lege for Barnet, men ikke røre ved det. Ammen <seg target="txtcmnt-108-02"><!--DATA-TERM: lød--><anchor target="txtcmnt-108-02"/><!--adlød.-->lød</seg> nøiagtigt Fruens Ordre.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Og Solen skinnede ind til dem paa første Sal, og ind til dem i Kjælderen, Akasietræet satte Blomster, de faldt af, og der kom nye igjen næste Aar; Træet blomstrede og <hi rend="italic">Portnerens</hi> lille Dreng blomstrede, han saae ud som en frisk Tulipan.</p>
+
+<p rend="firstIndent" xml:id="p_00003"><hi rend="italic">Generalens</hi> lille Datter blev fiin og bleg, som det lyserøde Blad paa Akasieblomsten. Nu kom hun sjelden ned under Træet; hun fik sin friske Luft i Karreet. Hun kjørte ud med Mama, og altid nikkede hun da til Portnerens <hi rend="italic">Georg</hi>, ja kyssede paa Fingeren ad ham, indtil hendes Moder sagde hende, at nu var hun for stor dertil.</p>
+
+<p rend="firstIndent" xml:id="p_00004">En Formiddag skulde han bringe <hi rend="italic">Generalens</hi> de Breve og Aviser, som i Morgenstunden vare lagte ind i Portnerstuen. Idet han kom op ad Trappen, forbi Døren ved <seg target="txtcmnt-108-03"><!--DATA-TERM: Sandhullet--><anchor target="txtcmnt-108-03"/><!--rum under trappen til gulvsand.-->Sandhullet</seg>, hørte han Noget pippe derinde; han troede, at det var en Kylling, som klynkede, og saa var det <hi rend="italic">Generalens</hi> lille Datter i Knipling og <seg target="txtcmnt-108-04"><!--DATA-TERM: Flor--><anchor target="txtcmnt-108-04"/><!--let, tyndt vævet stof.-->Flor</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Siig det ikke til Papa og Mama! for saa blive de vrede.«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Hvad er det? lille Frøken!« spurgte <hi rend="italic">Georg</hi>.</p>
+
+<pb n="109"/><p rend="firstIndent" xml:id="p_00007">»Det brænder Altsammen!« sagde hun. »Det brænder i lys Lue!«</p>
+
+<p rend="firstIndent" xml:id="p_00008"><hi rend="italic">Georg</hi> aabnede Døren til den lille Barnestue; Vinduesgardinet var næsten afbrændt, Gardinstokken stod i Glød og Flamme. <hi rend="italic">Georg</hi> sprang op, rev ned, kaldte paa Folk; uden ham var der blevet Huusild.</p>
+
+<p rend="firstIndent" xml:id="p_00009"><hi rend="italic">Generalen</hi> og <hi rend="italic">Generalinden</hi> examinerede lille <hi rend="italic">Emilie</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Jeg tog kun en eneste <seg target="txtcmnt-109-01"><!--DATA-TERM: Svovlstikke--><anchor target="txtcmnt-109-01"/><!--tændstik.-->Svovlstikke</seg>,« sagde hun, »saa brændte den strax, og Gardinet brændte strax. Jeg spyttede for at slukke, jeg spyttede Alt hvad jeg kunde, men jeg havde ikke Spyt nok, og saa løb jeg ud og gjemte mig, thi Papa og Mama vilde blive vrede.«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Spyttede!« sagde <hi rend="italic">Generalen</hi>, »hvad er det for et Ord? <seg target="txtcmnt-109-02"><!--DATA-TERM: Naar har Du hørt--><anchor target="txtcmnt-109-02"/><!--hvornår har du hørt.-->Naar har Du hørt</seg> Papa og Mama sige spyttede? Det har Du nede fra!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Men lille <hi rend="italic">Georg</hi> fik en Fiirskilling. Denne gik ikke til Bageren, den gik i Sparebøssen, og snart var der saa mange Skillinger, at han kunde kjøbe sig en Farvelade og sætte Couleur paa sine Tegninger, og dem havde han mange af; de kom ligesom ud af Blyanten og Fingrene. De første farvede Billeder foræredes til lille <hi rend="italic">Emilie</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Charmant!« sagde <hi rend="italic">Generalen</hi>; <hi rend="italic">Generalinden</hi> selv indrømmede, at man tydeligt saae, hvad den Lille havde tænkt sig. »<seg target="txtcmnt-109-03"><!--DATA-TERM: Genius--><anchor target="txtcmnt-109-03"/><!--ånd, geni.-->Genius</seg> har han!« Det var Ordene, som af Portnerkonen bleve bragte ned i Kjælderen.</p>
+
+<p rend="firstIndent" xml:id="p_00014"><hi rend="italic">Generalen</hi> og hans Frue vare fornemme Folk; de havde to Vaabener paa deres Vogn; eet for hver af dem; Fruen havde det paa hvert sit Stykke Tøi, ude og inde, paa sin Natkappe og sin <seg target="txtcmnt-109-04"><!--DATA-TERM: Natsæk--><anchor target="txtcmnt-109-04"/><!--vadsæk til rejsesager som nattøj, toiletsager o.l.-->Natsæk</seg>; hendes, det ene, var et kostbart Vaaben, kjøbt af hendes Fader for blanke Dalere, for han var ikke født med det, hun ikke heller, hun var kommen for tidlig, syv Aar før Vaabenet; det kunde de fleste Folk huske, men ikke Familien. <hi rend="italic">Generalens</hi> Vaaben var gammelt og stort; det kunde nok knage i En at bære dette, endsige bære to Vaabenmærker, og det knagede i <hi rend="italic">Generalinden</hi>, naar hun <seg target="txtcmnt-109-05"><!--DATA-TERM: strunk--><anchor target="txtcmnt-109-05"/><!--stiv, fornem, stolt.-->strunk</seg> og stadselig kjørte til Hofbal.</p>
+
+<p rend="firstIndent" xml:id="p_00015"><hi rend="italic">Generalen</hi> var gammel og graa, men sad godt tilhest, det vidste han, og red hver Dag ud med Rideknegt, i passende Afstand efter sig; kom han i Selskab, var det, som om han kom ridende ind paa sin høie Hest, og Ordener havde han paa, saa mange, at det var ubegribeligt, men det var slet ikke hans Skyld. Som ganske ung havde han fungeret ved det Militaire, været med ved de store Høst-Manoeuvrer, som da i Fredens Dage holdtes over Tropperne. Fra den Tid havde han en Anecdote, den eneste han havde at fortælle: hans Underofficeer afskar og tog til<pb n="110"/>fange en af Prindserne, og denne maatte nu, med sin lille Trop fangne Soldater, selv som Fange, ride ind i Byen, bagefter <hi rend="italic">Generalen</hi>. Det var en uforglemmelig Begivenhed, der altid, gjennem alle Aaringer blev gjenfortalt af <hi rend="italic">Generalen</hi>, netop med de samme mindeværdige Ord, han havde sagt, idet han igjen overrakte Prindsen Sablen: »Kun min Underofficeer kunde tage Deres Høihed tilfange, jeg aldrig!« og Prindsen svarede: »De er uforlignelig!« I virkelig Krig havde <hi rend="italic">Generalen</hi> aldrig været; da denne gik gjennem Landet, gik <hi rend="italic">han</hi> den diplomatiske Vei, gjennem tre udenlandske Hoffer. Han talte det franske Sprog, saa at han næsten glemte sit eget; han dandsede godt, han red godt, der groede Ordener paa hans Kjole i det Ubegribelige, Skildvagterne præsenterede for ham; en af de smukkeste unge Piger præsenterede for ham og blev Generalinde, og de fik et lille yndigt Barn, det kom som faldet ned fra Himlen, saa yndigt var det, og Portnerens Søn dandsede i Gaarden for det, saa snart det kunde skjønne, og forærede det alle sine tegnede, farvede Billeder, og hun saae paa dem og hun glædede sig ved dem og rev dem istykker. Hun var saa fiin og saa nydelig.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Mit Rosenblad!« sagde <hi rend="italic">Generalinden</hi>. »Født for en Prinds er Du!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Prindsen stod allerede udenfor Døren; men man vidste det ikke. Menneskene see ikke langt ud over Dørtrinet.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Forleden deelte saamænd vor Dreng Smørrebrød med hende!« sagde <hi rend="italic">Portnerkonen</hi>; »der var hverken Ost eller Kjød paa, men det smagte hende, som om det havde været en Oxesteg. Der vilde <seg target="txtcmnt-110-01"><!--DATA-TERM: have ligget et Huus--><anchor target="txtcmnt-110-01"/><!--blevet en forfærdelig ballade.-->have ligget et Huus</seg>, havde Generalens seet det Maaltid, men de saae det ikke.«</p>
+
+<p rend="firstIndent" xml:id="p_00019"><hi rend="italic">Georg</hi> havde deelt Smørrebrød med lille <hi rend="italic">Emilie</hi>, gjerne havde han deelt sit Hjerte med hende, naar det bare havde kunnet fornøie hende. Han var en god Dreng, han var opvakt og klog, han gik nu i Aftenskole paa <seg target="txtcmnt-110-02"><!--DATA-TERM: Akademiet--><anchor target="txtcmnt-110-02"/><!--Det kgl. Akademie for de skjønne Kunster på Charlottenborg, stiftet 1754 af Frederik 5. som efterfølger af to tidligere akademier fra henholdsvis 1738 og 1748.-->Akademiet</seg>, for der at lære rigtigt at tegne. Lille <hi rend="italic">Emilie</hi> gik ogsaa frem i Kundskaber; hun talte Fransk med sin »<seg target="txtcmnt-110-03"><!--DATA-TERM: Bonne--><anchor target="txtcmnt-110-03"/><!--fremmedsprogstalende barnepige.-->Bonne</seg>« og havde Dandsemester.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00020">»<hi rend="italic">Georg</hi> <seg target="txtcmnt-110-04"><!--DATA-TERM: skal staae til Paaske--><anchor target="txtcmnt-110-04"/><!--skal konfirmeres til påske.-->skal staae til Paaske</seg>!« sagde <hi rend="italic">Portnerkonen</hi>; saa vidt var <hi rend="italic">Georg</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Fornuftigt blev det vel om han saa kom i Lære!« sagde Faderen. »En peen Profession skulde det være! og saa havde vi ham ude af Huset!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Han kommer dog til at ligge hjemme om Natten!« sagde Moderen; »det er ikke let at finde en Mester, som har Plads! <pb n="111"/>Klæder maae vi jo ogsaa give ham! den Smule Mad, han spiser, bliver der vel Raad til! han er jo lyksalig ved et Par kogte Kartofler! fri Lærdom har han. Lad ham bare gaae <hi rend="italic">sin</hi> Gang, Du skal see at vi faae Glæde af ham, det sagde ogsaa Professoren!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">Confirmationsklæderne vare istand, Mo’er havde selv syet dem, men de vare tilskaarne af <seg target="txtcmnt-111-01"><!--DATA-TERM: Lappeskrædderen--><anchor target="txtcmnt-111-01"/><!--skrædder, som kun foretager reparationer.-->Lappeskrædderen</seg>, og han skar godt; var han bleven anderledes stillet og havde kunnet holde Værksted med Svende, sagde Portnerkonen, saa kunde den Mand godt være bleven Hofskrædder.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Klæderne vare istand og Confirmanden var istand. <hi rend="italic">Georg</hi> fik paa sin Confirmationsdag et stort <seg target="txtcmnt-111-02"><!--DATA-TERM: Tombaksuhr--><anchor target="txtcmnt-111-02"/><!--messingur.-->Tombaksuhr</seg> af sin Gudfader, Hørkræmmerens gamle Svend, den rigeste af <hi rend="italic">Georgs</hi> Faddere. Uhret var gammelt og <seg target="txtcmnt-111-03"><!--DATA-TERM: prøvet--><anchor target="txtcmnt-111-03"/><!--slidt.-->prøvet</seg>, det gik altid forud, men det er bedre, end at gaae bagefter. Det var en kostbar Gave; og fra <hi rend="italic">Generalens</hi> kom en Psalmebog i <seg target="txtcmnt-111-04"><!--DATA-TERM: Safian--><anchor target="txtcmnt-111-04"/><!--fint tyndt gede- eller fåreskind.-->Safian</seg>, sendt fra den lille Frøken, som <hi rend="italic">Georg</hi> havde foræret Billeder. Foran i Bogen stod hans Navn og hendes Navn og »bevaagne Velynderinde«; det var skrevet efter <hi rend="italic">Generalindens</hi> Dictat, og Generalen havde læst det igjennem og sagt »Charmant!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Det var virkelig en stor Opmærksomhed af et saa fornemt Herskab,« sagde <hi rend="italic">Portnerkonen</hi>; og <hi rend="italic">Georg</hi> maatte i Confirmationsklæderne og med Psalmebogen op at vise sig og takke.</p>
+
+<p rend="firstIndent" xml:id="p_00026"><hi rend="italic">Generalinden</hi> sad meget indsvøbt og havde sin store Hovedpine, som hun altid havde, naar hun kjedede sig. Hun saae meget venlig paa <hi rend="italic">Georg</hi> og ønskede ham alt Godt og aldrig hendes Hovedpine. <hi rend="italic">Generalen</hi> gik i Slobrok, bar dusket Hue og rødskaftede russiske Støvler; han gik tre Gange op og ned ad Gulvet i egne Tanker og Erindringer, standsede og sagde:</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Lille <hi rend="italic">Georg</hi> er altsaa nu en christnet Mand! Vær ogsaa en brav Mand og ær sin <seg target="txtcmnt-111-05"><!--DATA-TERM: Øvrighed--><anchor target="txtcmnt-111-05"/><!--overordnede, foresatte.-->Øvrighed</seg>! Den <seg target="txtcmnt-111-06"><!--DATA-TERM: Sentents--><anchor target="txtcmnt-111-06"/><!--læresætning.-->Sentents</seg>, kan Du engang, som gammel Mand, sige, har Generalen lært Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">Det var en længere Tale, end <hi rend="italic">Generalen</hi> ellers holdt; og han vendte igjen tilbage til sin Indadvendthed og saae fornem ud. Dog af Alt heroppe, hvad <hi rend="italic">Georg</hi> hørte og saae, beholdt han klarest i Tanke den lille Frøken <hi rend="italic">Emilie</hi>; hvor var hun yndig, hvor var hun mild, hvor var hun svævende, hvor var hun fiin! skulde hun tegnes af, maatte det være i en Sæbeboble. Der var en Duft ved hendes Klæder, ved hendes krøllede, gule Haar, som var hun et nys udsprunget Rosentræ; og med hende havde han engang deelt Smørrebrød; hun havde spiist det med voldsom Appetit, og nikket til ham ved hveranden Mundfuld. Mon hun huskede det endnu? Jo, tilvisse: hun havde »i Erindring« herom <pb n="112"/>givet ham den smukke Psalmebog; og da første Gang derefter <seg target="txtcmnt-112-01"><!--DATA-TERM: Nytaars-Ny--><anchor target="txtcmnt-112-01"/><!--første nymåne efter nytår eller helligtrekongersdag.-->Nytaars-Ny</seg> tændtes, gik han udenfor med Brød og en Skilling, slog op i Bogen, for at see hvilken Psalme han fik. Det var en Lov- og Takke-Psalme; og han slog op for at see, hvad der skulde forundes lille <hi rend="italic">Emilie</hi>; han tog sig just iagt for ikke at gribe ind i Bogen, hvor Liig-Psalmerne stode, og saa greb han alligevel ind imellem Død og Grav; det var jo ikke Noget at troe paa! dog angest blev han, da den yndige lille Pige snart laae tilsengs; og udenfor Porten holdt hver Middag Doctorens Vogn.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»De beholde hende ikke!« sagde <hi rend="italic">Portnerkonen</hi>, »Vorherre veed nok, hvem han vil have!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">Men de beholdt hende; og <hi rend="italic">Georg</hi> tegnede Billeder og sendte hende; han tegnede Czarens Slot, det gamle <hi rend="italic">Kreml</hi> i <hi rend="italic">Moskau</hi>; accurat som det stod, med Taarne og Kupler, de saae ud som kæmpestore, grønne og forgyldte Agurker, idetmindste paa <hi rend="italic">Georgs</hi> Tegning. Det fornøiede saameget den lille <hi rend="italic">Emilie</hi>, og derfor i Ugens Løb sendte <hi rend="italic">Georg</hi> endnu et Par Billeder, allesammen Bygninger, thi ved dem kunde hun selv tænke sig saa Meget indenfor Porten og Vinduerne.</p>
+
+<p rend="firstIndent" xml:id="p_00031">Han tegnede et chinesisk Huus med Klokkespil gjennem alle sexten Etager; han tegnede to græske Templer med slanke Marmorsøiler og Trappe rundt om; han tegnede en Kirke fra Norge; man kunde see, at den var ganske af Bjælker, huggede ud og underligt stillede, hver Etage saae ud, som om den havde <seg target="txtcmnt-112-02"><!--DATA-TERM: Vugge-Gænge(r)--><anchor target="txtcmnt-112-02"/><!--buet træstykke, som sættes under vuggens for- og bagende, så barnet kan vugges.-->Vugge-Gænger</seg>; deiligst var dog paa et Blad det Slot, som han kaldte »lille <hi rend="italic">Emilies</hi>«. Saaledes skulde hun boe; det havde <hi rend="italic">Georg</hi> heelt udtænkt og taget til dette Slot Alt, hvad han fandt deiligst ved enhver af de andre Bygninger. Det havde udskaarne Bjælker, som den norske Kirke, Marmor-Søiler, som det græske Tempel, Klokkespil i hver Etage og allerøverst Kupler, grønne og forgyldte, som paa Czarens <hi rend="italic">Kreml</hi>. Det var et rigtigt Barneslot! og under hvert Vindue stod skrevet, hvad den Sal eller den Stue indenfor skulde være til: »her sover <hi rend="italic">Emilie</hi>, her dandser <hi rend="italic">Emilie</hi>« og her leger hun »<seg target="txtcmnt-112-03"><!--DATA-TERM: komme Fremmede--><anchor target="txtcmnt-112-03"/><!--almindelig børneleg i 1800-tallet på H.C. Andersens tid.-->komme Fremmede</seg>«. Det var fornøieligt at see paa, og der blev rigtignok seet paa det.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Charmant!« sagde <hi rend="italic">Generalen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Men den gamle <hi rend="italic">Greve</hi>, for der var en gammel Greve, som endnu var fornemmere end <hi rend="italic">Generalen</hi>, og selv havde Slot og Herregaard, sagde Ingenting; han hørte, at det var tænkt og tegnet af Portnerens lille Søn. Nu, saa lille var han da ikke, han var confirmeret. Den gamle <hi rend="italic">Greve</hi> saae paa Billederne og havde sine egne stille Tanker herved.</p>
+
+<pb n="113"/>
+
+<pb n="114"/><p rend="firstIndent" xml:id="p_00034">En Dag, da Veiret var rigtig graat, vaadt, forfærdeligt, den Dag var en af de lyseste og bedste for lille <hi rend="italic">Georg</hi>. Professoren ved Konstakademiet kaldte ham ind til sig.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Hør, min Ven,« sagde han, »lad os tale lidt sammen! Vorherre har været Dig ganske god med Evner, han er Dig ogsaa god med gode Mennesker. Den gamle Greve paa Hjørnet har talt til mig om Dig; jeg har ogsaa seet dine Billeder, dem ville vi slaae en Streg over, i dem er meget at rette! nu kan Du to Gange om Ugen komme paa min Tegneskole, saa kommer Du nok efter at gjøre det bedre. Jeg troer at der er Mere i Dig til en Bygmester, end til en Maler; det kan Du selv have Tid til at overveie! men gaa endnu idag hen til den gamle Greve paa Hjørnet, og tak Du Vorherre for den Mand!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">Der var en stor Gaard paa Hjørnet; der var udhugget om Vinduerne baade Elephanter og Dromedarer, Altsammen fra gammel Tid; men den gamle Greve holdt meest af den nye Tid med hvad Godt den bragte, enten det kom fra første Sal, Kjælderen eller Qvisten.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Jeg troer,« sagde <hi rend="italic">Portnerkonen</hi>, »at jo fornemmere Folk virkelig er, desmindre <seg target="txtcmnt-114-01"><!--DATA-TERM: stille … sig--><anchor target="txtcmnt-114-01"/><!--forstiller sig.-->stille de sig</seg>. Hvor den gamle <hi rend="italic">Greve</hi> er yndig og ligefrem! Og han taler saamænd lige som Du og jeg; det kan ikke <hi rend="italic">Generalens</hi>! Var ikke ogsaa <hi rend="italic">Georg</hi> igaar reent fortumlet af Henrykkelse over den yndige Medfart, han fik hos Greven; og idag er jeg det, efter at have talt med den mægtige Mand. Var det nu ikke godt, at vi ikke satte <hi rend="italic">Georg</hi> i Haandværkslære! Evner har han.«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Men de maae have Hjelp udenfra!« sagde Faderen.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Den har han nu faaet,« sagde Moderen; »Greven talte med klare, tydelige Ord!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Det er dog fra <hi rend="italic">Generalens</hi>, det er gaaet ud!« sagde Faderen. »Dem maae vi ogsaa takke.«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Det kunne vi gjerne!« sagde Moderen; »men jeg troer ikke der er Meget at takke for; Vorherre vil jeg takke, og ham vil jeg ogsaa takke, fordi den lille <hi rend="italic">Emilie</hi> kommer sig!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">Det gik fremad med hende, det gik fremad med <hi rend="italic">Georg</hi>; i Aarets Løb fik han <seg target="txtcmnt-114-02"><!--DATA-TERM: den lille Sølvmedaille … den større--><anchor target="txtcmnt-114-02"/><!--uddeltes af Akademiet for de skjønne Kunster til akademiets elever.-->den lille Sølvmedaille og senere den større</seg>.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00043">»Det var dog bedre, om han var kommen i Haandværkslære!« sagde <hi rend="italic">Portnerkonen</hi> og græd; »saa havde vi nu beholdt ham. Hvad skal han i <hi rend="italic">Rom</hi>? Jeg faaer ham aldrig mere at see, selv om han kommer hjem igjen, men det gjør han ikke, det søde Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Men det er hans Lykke og hans Hæder!« sagde Faderen.</p>
+
+<pb n="115"/><p rend="firstIndent" xml:id="p_00045">»Ja, Tak skal Du have, min Ven!« sagde Moderen, »Du snakker, hvad Du ikke mener; Du er ligesaa bedrøvet, som jeg.«</p>
+
+<p rend="firstIndent" xml:id="p_00046">Og det havde sin Rigtighed baade med Bedrøvelsen og med Afreisen. Det var en stor Lykke for det unge Menneske, sagde alle Folk.</p>
+
+<p rend="firstIndent" xml:id="p_00047">Og der blev taget Afsked, ogsaa hos <hi rend="italic">Generalens</hi>; men Fruen viste sig ikke, hun havde sin store Hovedpine. <hi rend="italic">Generalen</hi> fortalte til Afsked sin eneste Anecdote, hvad han havde sagt til Prindsen, og hvad Prindsen havde sagt til ham: »De er uforlignelig!« og saa rakte han <hi rend="italic">Georg</hi> sin Haand, <seg target="txtcmnt-115-01"><!--DATA-TERM: slat--><anchor target="txtcmnt-115-01"/><!--slatten.-->slat</seg> Haand.</p>
+
+<p rend="firstIndent" xml:id="p_00048"><hi rend="italic">Emilie</hi> rakte ogsaa <hi rend="italic">Georg</hi> sin Haand, og saae næsten bedrøvet ud, men <hi rend="italic">Georg</hi> var dog den meest Bedrøvede.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00049">Tiden gaaer, naar man bestiller Noget, den gaaer ogsaa, naar man ikke bestiller Noget. Tiden er lige lang, men ikke lige nyttig. For <hi rend="italic">Georg</hi> var den nyttig og slet ikke lang, uden naar han tænkte paa dem hjemme. Hvorledes stod det vel til oppe og nede? Ja, derom blev der skrevet; og man kan lægge saa Meget ind i et Brev, det lyse Solskin og de mørke, tunge Dage. <hi rend="italic">De</hi> laae i Brevet, der meldte, at Fader var død, Moder var alene tilbage; <hi rend="italic">Emilie</hi> havde været som en Trøstens Engel, hun var kommen ned til hende, ja, det skrev Moder, og tilføiede om sig selv, at hun havde faaet Lov at beholde Embedet i Porten.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00050"><hi rend="italic">Generalinden</hi> holdt Dagbog; deri stod hvert Selskab, hvert Bal, hun havde besøgt, og alle de Fremmedes Besøg. Dagbogen blev illustreret med Diplomaternes og de meest Høiadeliges Visitkort, hun var stolt af sin Dagbog; den voxede i lange Tider, i mange Tider, under mange store Hovedpiner, men ogsaa under mange lyse Nætter, det vil sige Hofballer. <hi rend="italic">Emilie</hi> havde første Gang været paa Hofbal; Moderen var i Lyserødt med sorte Kniplinger: Spansk; Datteren i Hvidt, saa klart, saa fiint; grønne Silkebaand flagrede som Siv mellem de krøllede, gule Haar, der bar en Krands af hvide Aakander; Øinene vare saa blaae og klare, Munden saa fiin og rød, hun lignede en lille Havfrue, saa deilig, som den kan tænkes. Tre Prindser dandsede med hende, det vil sige først den Ene, og saa den Anden; <hi rend="italic">Generalinden</hi> havde ikke Hovedpine i otte Dage.</p>
+
+<p rend="firstIndent" xml:id="p_00051">Men det første Bal var ikke det sidste, det holdt <hi rend="italic">Emilie</hi> ikke ud; det var derfor godt at Sommeren kom med Hvile, med Luft i det Frie. Til den gamle Greves Slot var Familien indbuden.</p>
+
+<pb n="116"/><p rend="firstIndent" xml:id="p_00052">Det var et Slot med en Have, værd at see. En Deel af den var aldeles som i gamle Dage, med stive, grønne Hækker, som gik man imellem grønne <seg target="txtcmnt-116-01"><!--DATA-TERM: Skjermbrætter--><anchor target="txtcmnt-116-01"/><!--som man brugte som værn mod træk, stærkt lys o.l.-->Skjermbrætter</seg>, hvori vare Kighuller. Buxbom og Taxus stode klippede i Stjerner og Pyramider, Vandet sprang fra store Grotter, besatte med Muslingskaller; rundt om stode Steenfigurer af den allertungeste Steen, det kunde man see baade paa Klæderne og paa Ansigterne; hvert Blomsterbed havde sin Skikkelse, som Fisk, Vaabenskjold eller Navnetræk, det var <seg target="txtcmnt-116-02"><!--DATA-TERM: den franske Deel af Haven--><anchor target="txtcmnt-116-02"/><!--den del af haven, der var holdt i den strenge, geometriske franske stil, modsat den engelske stil, der søgte at arrangere haven »naturligt«.-->den franske Deel af Haven</seg>; fra den kom man ind ligesom i den frie, friske Skov, hvor Træerne turde groe, som de vilde, og derfor vare saa store og saa prægtige; Græsset var grønt, og til at gaae paa, det blev ogsaa tromlet, klippet, pleiet og passet; det var den engelske Deel af Haven.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Gammel Tid og ny Tid!« sagde <hi rend="italic">Greven</hi>; »her glide de jo ogsaa godt i hinanden! om to Aar vil Gaarden selv faae sit rigtige Udseende, det vil blive en heel Forvandling til noget Smukt og Bedre; jeg skal vise Tegningerne, og jeg skal vise Bygmesteren, han er her idag til Middag!« 
+
+</p><p rend="firstIndent" xml:id="p_00054">»Charmant!« sagde <hi rend="italic">Generalen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00055">»Her er paradisisk!« sagde <hi rend="italic">Generalinden</hi>; »og der har De en Ridderborg!«</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Det er mit Hønsehuus!« sagde <hi rend="italic">Greven</hi>; »Duerne boe i Taarnet, Kalkunerne i første Etage, men i Stuen regjerer gamle <hi rend="italic">Else</hi>. Hun har Gjesteværelser til alle Sider: Liggehønsene for sig, Hønen med Kyllinger for sig, og Ænderne have egen Udgang til Vandet!«</p>
+
+<p rend="firstIndent" xml:id="p_00057">»Charmant!« gjentog <hi rend="italic">Generalen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00058">Og de gik Alle at see denne Herlighed.</p>
+
+<p rend="firstIndent" xml:id="p_00059">Gamle <hi rend="italic">Else</hi> stod midt i Stuen og ved Siden af hende Bygmesteren <hi rend="italic">Georg</hi>; han og lille <hi rend="italic">Emilie</hi> mødtes efter flere Aar, mødtes i Hønsehuset.</p>
+
+<p rend="firstIndent" xml:id="p_00060">Ja her stod han, og han var kjøn nok at see paa: hans Ansigt aabent og bestemt, et sort glindsende Haar, og ved Munden et Smiil, som sagde: der sidder en Skjelm bag mit Øre, han kjender Eder ud og ind. Gamle <hi rend="italic">Else</hi> havde taget sine Træskoe af og stod paa Hosesokker, til Ære for de høifornemme Gjester. Og Hønsene klukkede og Hanen galede, Ænderne vraltede afsted »rap! rap!« Men den fine, blege Pige, Barndomsveninden, <hi rend="italic">Generalens</hi> Datter, stod med Rosenskjær paa de ellers saa blege Kinder, hendes Øine bleve saa store, om hendes Mund talte det, uden at Munden selv sagde et eneste Ord, og den Hilsen han fik, det var den nydeligste Hilsen noget ungt Menneske <pb n="117"/>kunde ønske sig af en ung Dame, naar de ikke vare i Familie eller tidt havde dandset sammen; hun og Bygmesteren havde aldrig dandset sammen.</p>
+
+<p rend="firstIndent" xml:id="p_00061">Hr. <hi rend="italic">Greven</hi> trykkede hans Haand og præsenterede ham: »Ganske Fremmed er han ikke, vor unge Ven, Hr. <hi rend="italic">Georg</hi>!«</p>
+
+<p rend="firstIndent" xml:id="p_00062"><hi rend="italic">Generalinden</hi> neiede, Datteren var ved at række ham Haanden, men hun rakte ham den ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00063">»Vor lille Hr. <hi rend="italic">Georg</hi>!« sagde <hi rend="italic">Generalen</hi>. »Gamle Huusvenner. Charmant!«</p>
+
+<p rend="firstIndent" xml:id="p_00064">»De er ganske bleven Italiener!« sagde <hi rend="italic">Generalinden</hi>, »og De taler vel Sproget som en Indfødt?«</p>
+
+<p rend="firstIndent" xml:id="p_00065">Generalinden sang Sproget, men talte det ikke, sagde <hi rend="italic">Generalen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00066">Ved Bordet sad <hi rend="italic">Georg</hi> ved høire Side af <hi rend="italic">Emilie</hi>, <hi rend="italic">Generalen</hi> førte hende, <hi rend="italic">Greven</hi> førte <hi rend="italic">Generalinden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00067">Hr. <hi rend="italic">Georg</hi> talte og fortalte og han fortalte godt, han var Ordet og Aanden ved Bordet, uagtet den gamle <hi rend="italic">Greve</hi> ogsaa kunde være det. <hi rend="italic">Emilie</hi> sad taus, Ørene hørte, Øinene lyste.</p>
+
+<p rend="firstIndent" xml:id="p_00068">Men hun sagde Intet.</p>
+
+<p rend="firstIndent" xml:id="p_00069">I Verandaen mellem Blomsterne stod hun og <hi rend="italic">Georg</hi>, Rosenhækken skjulte dem. <hi rend="italic">Georg</hi> havde igjen Ordet, havde det først.</p>
+
+<p rend="firstIndent" xml:id="p_00070">»Tak for Deres venlige Sind mod min gamle Moder!« sagde han; »jeg veed det, den Nat min Fader døde kom De ned til hende, var hos hende til hans Øine lukkedes, Tak!« Han greb <hi rend="italic">Emilies</hi> Haand og kyssede paa den, det kunde han nok ved den Leilighed; hun blev blussende rød, men trykkede hans igjen og saae med sine blaae velsignede Øine paa ham.</p>
+
+<p rend="firstIndent" xml:id="p_00071">»Deres Moder var en kjærlig Sjæl! hvor holdt hun af Dem! Og alle Deres Breve lod hun mig læse, jeg troer næsten jeg kjender Dem! hvor var De venlig mod mig, da jeg var lille, De gav mig Billeder –!«</p>
+
+<p rend="firstIndent" xml:id="p_00072">»Som De rev itu!« sagde <hi rend="italic">Georg</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00073">»Nei! jeg har mit Slot endnu, Tegningen.«</p>
+
+<p rend="firstIndent" xml:id="p_00074">»Nu maa jeg bygge det i Virkeligheden!« sagde <hi rend="italic">Georg</hi> og blev selv ganske varm ved hvad han sagde.</p>
+
+<p rend="firstIndent" xml:id="p_00075"><hi rend="italic">Generalen</hi> og <hi rend="italic">Generalinden</hi> talte i deres egne Stuer om Portnerens Søn, han vidste jo at bevæge sig og udtrykke sig med et Kjendskab, en Kundskab. »Han kunde være <seg target="txtcmnt-117-01"><!--DATA-TERM: Informator--><anchor target="txtcmnt-117-01"/><!--huslærer.-->Informator</seg>!« sagde <hi rend="italic">Generalen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00076">»Aand!« sagde <hi rend="italic">Generalinden</hi>, og saa sagde hun ikke meer.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00077">Oftere i den smukke Sommertid kom Hr. <hi rend="italic">Georg</hi> paa Grevens Slot. Han blev savnet, naar han ikke kom.</p>
+
+<pb n="118"/>
+
+<pb n="119"/><p rend="firstIndent" xml:id="p_00078">»Hvor dog Vorherre har givet Dem Meget fremfor os andre stakkels Mennesker!« sagde <hi rend="italic">Emilie</hi> til ham. »Skjønner De nu ret derpaa?«</p>
+
+<p rend="firstIndent" xml:id="p_00079">Det smigrede <hi rend="italic">Georg</hi>, at den smukke unge Pige saae op til ham, han fandt hende da ualmindelig begavet.</p>
+
+<p rend="firstIndent" xml:id="p_00080">Og <hi rend="italic">Generalen</hi> følte sig meer og meer forvisset om, at Hr. <hi rend="italic">Georg</hi> umuligt kunde være et Kjælderbarn. »Moderen var forresten en meget brav Kone!« sagde han, »det skylder jeg hendes <seg target="txtcmnt-119-01"><!--DATA-TERM: Gravmæle--><anchor target="txtcmnt-119-01"/><!--eftermæle.-->Gravmæle</seg>!«</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00081">Sommeren gik, Vinteren kom, der taltes igjen om Hr. <hi rend="italic">Georg</hi>; han var vel seet og vel optaget selv paa de høieste Steder, <hi rend="italic">Generalen</hi> havde mødt ham paa Hofbal.</p>
+
+<p rend="firstIndent" xml:id="p_00082">Nu skulde der i Huset være Bal for lille <hi rend="italic">Emilie</hi>, kunde Hr. <hi rend="italic">Georg</hi> indbydes?</p>
+
+<p rend="firstIndent" xml:id="p_00083">»Hvem Kongen indbyder, kan ogsaa <hi rend="italic">Generalen</hi> indbyde!« sagde <hi rend="italic">Generalen</hi>, og løftede sig en heel Tomme fra Gulvet.</p>
+
+<p rend="firstIndent" xml:id="p_00084">Hr. <hi rend="italic">Georg</hi> blev indbudt, og han kom; og Prindser og Grever kom, og den Ene dandsede bedre end den Anden; men <hi rend="italic">Emilie</hi> fik kun dandset den første Dands; i den traadte hun feil paa Foden, ikke farligt, men til at fornemme, og saa maatte man være forsigtig, holde op med at dandse, see paa de Andre, og hun sad og saae, og Bygmesteren stod ved Siden af hende.</p>
+
+<p rend="firstIndent" xml:id="p_00085">»De giver hende nok hele Peterskirken!« sagde <hi rend="italic">Generalen</hi>, idet han gik forbi og smilede som Velvilligheden selv.</p>
+
+<p rend="firstIndent" xml:id="p_00086">Med samme Velvillighedens Smiil modtog han Hr. <hi rend="italic">Georg</hi>, nogle Dage efter. Den unge Mand kom vistnok for at takke for Ballet, hvad Andet? Jo det meest Overraskende, det meest Forbausende: vanvittige Ord kom han med, <hi rend="italic">Generalen</hi> troede ikke sine egne Øren; »<seg target="txtcmnt-119-02"><!--DATA-TERM: pyramidal--><anchor target="txtcmnt-119-02"/><!--kolossal, enorm.-->pyramidal</seg> Declamation«, et <seg target="txtcmnt-119-03"><!--DATA-TERM: Andragende--><anchor target="txtcmnt-119-03"/><!--egentlig ansøgning, her: frieri.-->Andragende</seg>, der var utænkeligt: Hr. <hi rend="italic">Georg</hi> bad om at <seg target="txtcmnt-119-04"><!--DATA-TERM: erholde--><anchor target="txtcmnt-119-04"/><!--få.-->erholde</seg> lille <hi rend="italic">Emilie</hi> til Kone.</p>
+
+<p rend="firstIndent" xml:id="p_00087">»Mand!« sagde <hi rend="italic">Generalen</hi> og blev kogt i Hovedet. »Jeg forstaaer Dem aldeles ikke! Hvad siger De? Hvad vil De? Jeg kjender Dem ikke! Herre! Menneske! det falder Dem ind at falde ind i mit Huus! maa jeg være her, eller maa jeg ikke være her?« og han gik baglænds ind i sit Soveværelse, dreiede Nøglen om og lod Hr. <hi rend="italic">Georg</hi> staae alene, han stod nogle Minuter, dreiede saa om. I Corridoren stod <hi rend="italic">Emilie</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00088">»Min Fader svarede –?« spurgte hun og Stemmen rystede.</p>
+
+<p rend="firstIndent" xml:id="p_00089"><hi rend="italic">Georg</hi> trykkede hendes Haand: »han løb fra mig! – der kommer en bedre Tid!«</p>
+
+<pb n="120"/><p rend="firstIndent" xml:id="p_00090">Der var Taarer i <hi rend="italic">Emilies</hi> Øine; der var Forvisning og Mod i den unge Mands Øine, og Solen skinnede ind paa de To og gav dem sin Velsignelse.</p>
+
+<p rend="firstIndent" xml:id="p_00091">I sin Stue sad <hi rend="italic">Generalen</hi> aldeles henkogt; ja det kogte endnu, det løb over i Ord og Udbrud: »Vanvid! Portner-Galskab!« –</p>
+
+<p rend="firstIndent" xml:id="p_00092">Der var ikke gaaet en Time, da <hi rend="italic">Generalinden</hi> havde det af <hi rend="italic">Generalens</hi> egen Mund, og hun kaldte paa <hi rend="italic">Emilie</hi> og sad alene med hende.</p>
+
+<p rend="firstIndent" xml:id="p_00093">»Du stakkels Barn! saaledes at fornærme Dig! fornærme os! Du har ogsaa Taarer i Øinene, men de klæde Dig! Du er yndig i Taarer! Du ligner mig paa min Bryllupsdag. Græd kun, lille <hi rend="italic">Emilie</hi>!«</p>
+
+<p rend="firstIndent" xml:id="p_00094">»Ja det maa jeg!« sagde <hi rend="italic">Emilie</hi>, »dersom ikke Du og Fader siger Ja!«</p>
+
+<p rend="firstIndent" xml:id="p_00095">»Barn!« raabte <hi rend="italic">Generalinden</hi>; »Du er syg! taler i Vildelse, og jeg faaer min forfærdelige Hovedpine! al den Ulykke, der kommer over vort Huus! Lad ikke din Moder døe, <hi rend="italic">Emilie</hi>, saa har Du ingen Moder!«</p>
+
+<p rend="firstIndent" xml:id="p_00096">Og <hi rend="italic">Generalinden</hi> fik vaade Øine, hun kunde ikke taale at tænke paa sin egen Død.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00097">I Avisen stod at læse iblandt Udnævnelserne: Hr. <hi rend="italic">Georg</hi> udnævnt til Professor, femte Classe Nummer otte.</p>
+
+<p rend="firstIndent" xml:id="p_00098">»Det er Skade, at hans Forældre ere i Graven og ikke kunne læse det!« sagde de nye Portnerfolk, der nu boede i Kjælderen under <hi rend="italic">Generalens</hi>: de vidste, at Professoren var født og voxet op indenfor deres fire Vægge.</p>
+
+<p rend="firstIndent" xml:id="p_00099">»Nu kommer han ind i <seg target="txtcmnt-120-01"><!--DATA-TERM: Rangskatten--><anchor target="txtcmnt-120-01"/><!--blev betalt af folk med rang undtagen embedsmænd, der havde rang i kraft af deres embede. Der er derfor tale om, at Georg udnævnes til titulær professor, dvs. professor uden embede.-->Rangskatten</seg>!« sagde Manden.</p>
+
+<p rend="firstIndent" xml:id="p_00100">»Ja er det ikke grumme Meget for et fattigt Barn,« sagde Konen.</p>
+
+<p rend="firstIndent" xml:id="p_00101">»Atten Rigsdaler om Aaret!« sagde Manden; »ja, det er mange Penge!«</p>
+
+<p rend="firstIndent" xml:id="p_00102">»Nei Høiheden mener jeg!« sagde Konen. »Hvad troer Du han bryder sig om de Penge, dem kan han fortjene mange Gange! og han faaer vel en rig Kone til. Havde vi Børn, Mand, saa skulde vort Barn ogsaa være Bygmester og Professor!«</p>
+
+<p rend="firstIndent" xml:id="p_00103"><hi rend="italic">Georg</hi> blev vel omtalt i Kjælderen, han blev vel omtalt paa første Sal; den gamle Greve tillod sig det.</p>
+
+<p rend="firstIndent" xml:id="p_00104">Det var de tegnede Billeder fra Barndomstiden, som gave Anledning. Men hvorfor omtaltes de? Man talte om <hi rend="italic">Rusland</hi>, om <hi rend="italic">Moskau</hi>, og saa var man jo ved <hi rend="italic">Kreml</hi>, som lille <hi rend="italic">Georg</hi> engang havde tegnet til Frøken <hi rend="italic">Emilie</hi>; han havde tegnet saamange Billeder, eet især erindrede <hi rend="italic">Greven</hi>: »lille <hi rend="italic">Emilies</hi> Slot«, hvor hun <pb n="121"/>sov, hvor hun dandsede og legede »komme Fremmede«; Professoren havde megen Dygtighed, han vilde vist døe som gammel Conferentsraad, det var ikke umuligt, og forud virkelig have bygget et Slot for den nu saa unge Dame; hvorfor ikke?</p>
+
+<p rend="firstIndent" xml:id="p_00105">»Det var en besynderlig Munterhed«, bemærkede <hi rend="italic">Generalinden</hi>, da <hi rend="italic">Greven</hi> var borte. <hi rend="italic">Generalen</hi> rystede betænksom paa Hovedet, red ud med Rideknegt i tilbørlig Afstand og sad stoltere end før paa sin høie Hest.</p>
+
+<p rend="firstIndent" xml:id="p_00106">Det var lille <hi rend="italic">Emilies</hi> Fødselsdag, Blomster og Bøger, Breve og Visitkort bleve bragte; <hi rend="italic">Generalinden</hi> kyssede hende paa Munden, <hi rend="italic">Generalen</hi> paa Panden; det var kjærlige Forældre, og baade hun og de fik høie Besøg, to af Prindserne. Der taltes om Baller og Theatre, om diplomatiske <seg target="txtcmnt-121-01"><!--DATA-TERM: Sendelser--><anchor target="txtcmnt-121-01"/><!--missioner.-->Sendelser</seg>, Riger og Landes Styrelse. Der taltes om Dygtighed, eget Lands Dygtighed, og derved kom den unge Professor paa Tale, Hr. Bygmesteren.</p>
+
+<p rend="firstIndent" xml:id="p_00107">»Han bygger for sin Udødelighed!« blev der sagt, »han bygger sig vist ogsaa ind i en af de <seg target="txtcmnt-121-02"><!--DATA-TERM: første Familier--><anchor target="txtcmnt-121-02"/><!--fineste familier.-->første Familier</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00108">»En af de første Familier!« gjentog siden <hi rend="italic">Generalen</hi> for <hi rend="italic">Generalinden</hi>. »Hvem er en af vore første Familier?«</p>
+
+<p rend="firstIndent" xml:id="p_00109">»Jeg veed hvem der <seg target="txtcmnt-121-03"><!--DATA-TERM: tydedes til--><anchor target="txtcmnt-121-03"/><!--hentydedes til.-->tydedes til</seg>!« sagde <hi rend="italic">Generalinden</hi>, »men jeg udtaler det ikke! jeg tænker det ikke! Gud raader! men forbauses vil jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00110">»Lad mig ogsaa forbauses!« sagde <hi rend="italic">Generalen</hi>, »jeg har ikke Idee i mit Hoved!« og han sank hen i Tanke-Forventning.</p>
+
+<p rend="firstIndent" xml:id="p_00111">Der er en Magt, en unævnelig Magt i Naadens Væld fra oven, Hoffets Gunst, Guds Gunst; – og al den Naadens Gunst havde lille <hi rend="italic">Georg</hi>. Men vi glemme Fødselsdagen.</p>
+
+<p rend="firstIndent" xml:id="p_00112"><hi rend="italic">Emilies</hi> Stue duftede af Blomster fra Venner og Veninder, paa Bordet laae smukke Gaver til Hilsen og Erindring, men ikke en eneste fra <hi rend="italic">Georg</hi>, den kunde ikke komme, men behøvedes ikke heller, hele Huset var en Erindring om ham. Selv fra Sandhullet under Trappen pippede Mindeblomsten frem; der havde <hi rend="italic">Emilie</hi> pippet, da Gardinet brændte og <hi rend="italic">Georg</hi> kom som første Sprøite. Et Blik ud ad Vinduet, og Akasietræet mindede om Barndomstiden. Blomster og Blade vare faldne af, men Træet stod med Riimfrost, som var det en uhyre Koralgreen; og Maanen skinnede klar og stor mellem Grenene, uforandret i al sin Foranderlighed, som da <hi rend="italic">Georg</hi> deelte Smørrebrød med lille <hi rend="italic">Emilie</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00113">Fra Skuffen tog hun frem Tegningerne med Czarens Slot, med hendes eget Slot; Mindegaverne fra <hi rend="italic">Georg</hi>; de bleve seet paa og tænkt ved, og der løftede sig mange Tanker; hun huskede den Dag, hun, ubemærket af Fader og Moder, gik ned til <pb n="122"/>Portnerkonen som laae paa sit Yderste; hun sad hos hende, holdt hendes Haand, hørte hendes sidste Ord: »Velsignelse! – <hi rend="italic">Georg</hi>!« Moderen tænkte paa sin Søn. – Nu lagde <hi rend="italic">Emilie</hi> sin Betydning heri. Jo, <hi rend="italic">Georg</hi> var med paa Fødselsdagen, rigtig med!</p>
+
+<p rend="firstIndent" xml:id="p_00114">Næste Dag, det traf sig saa, var igjen en Fødselsdag der i Huset: <hi rend="italic">Generalens</hi> Fødselsdag; han var født Dagen efter sin Datter, naturligviis tidligere end hun, mange Aar tidligere. Nu kom igjen Foræringer og mellem disse en Sadel, udmærket af Udseende, beqvem og kostelig, der var kun en af Prindserne, der havde Mage til den. Hvem kom den fra? <hi rend="italic">Generalen</hi> var henrykt. En lille Seddel fulgte med; havde der staaet paa den: »Tak for igaar!« saa kunde vi Andre nok have gjettet fra hvem den kom, men der stod skrevet: »Fra En, Hr. Generalen ikke kjender.«</p>
+
+<p rend="firstIndent" xml:id="p_00115">»Hvem i Verden kjender jeg ikke!« sagde <hi rend="italic">Generalen</hi>. »Alle Mennesker kjender jeg!« og hans Tanke gik i stort Selskab; han kjendte dem Allesammen. »Det er fra min Kone!« sagde han tilsidst. »Hun smaaskjelmer mig! charmant!«</p>
+
+<p rend="firstIndent" xml:id="p_00116">Men hun smaaskjelmede ikke, den Tid var forbi.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00117">Og nu var der Fest, atter Fest, men ikke hos <hi rend="italic">Generalens</hi>, Costumebal hos en af Prindserne; ogsaa Maske var tilladt.</p>
+
+<p rend="firstIndent" xml:id="p_00118"><hi rend="italic">Generalen</hi> mødte som <hi rend="italic"><seg target="txtcmnt-122-01"><!--DATA-TERM: Rubens--><anchor target="txtcmnt-122-01"/><!--Peter Paul Rubens (1577-1640), flamsk maler.-->Rubens</seg></hi>, i spansk Dragt med lille Pibekrave, Kaarde og god Holdning, <hi rend="italic">Generalinden</hi> var Madame <hi rend="italic">Rubens</hi>, i sort Fløiel, høihalset, forfærdelig varm, med Møllesteen om Halsen, det vil naturligviis sige stor Pibekrave, aldeles efter et hollandsk Maleri, <hi rend="italic">Generalens</hi> eiede; og hvor især Hænderne beundredes! de lignede aldeles <hi rend="italic">Generalindens</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00119"><hi rend="italic">Emilie</hi> var <hi rend="italic"><seg target="txtcmnt-122-02"><!--DATA-TERM: Psyche--><anchor target="txtcmnt-122-02"/><!--græsk: sjæl; i den romerske forfatter Apuleius’ (ca. 125-180) roman <i>Metamorfoser</i>, også kaldet <i>Det gyldne Æsel</i>, findes myten om Amor og Psyche. Guden Amor forelsker sig i den underdejlige kongedatter Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor. Psyche er et yndet motiv i billedkunst og skulptur og afbildes ofte med sommerfuglevinger.-->Psyche</seg></hi>, i Flor og Knipling. Hun var som et svævende Svaneduun, hun behøvede slet ikke Vingerne, hun bar dem kun som et Psyche-Mærke.</p>
+
+<p rend="firstIndent" xml:id="p_00120">Der var en Glands, en Pragt, Lys og Blomster, en Rigdom og Smag; der var saa Meget at see, man ikke fik lagt Mærke til Madame <hi rend="italic">Rubens</hi> smukke Hænder.</p>
+
+<p rend="firstIndent" xml:id="p_00121">En sort <seg target="txtcmnt-122-03"><!--DATA-TERM: Domino--><anchor target="txtcmnt-122-03"/><!--lang sort kappe med hætte og vide ærmer.-->Domino</seg>, med Akasieblomst paa Hætten, dandsede med <hi rend="italic">Psyche</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00122">»Hvem er han?« spurgte <hi rend="italic">Generalinden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00123">»Hans kongelige Høihed!« sagde <hi rend="italic">Generalen</hi>, »jeg er ganske sikker paa det, jeg kjendte ham strax paa Haandtrykket!«</p>
+
+<p rend="firstIndent" xml:id="p_00124"><hi rend="italic">Generalinden</hi> tvivlede.</p>
+
+<p rend="firstIndent" xml:id="p_00125">General <hi rend="italic">Rubens</hi> tvivlede ikke, nærmede sig den sorte Domi<pb n="123"/>no og skrev kongelige Bogstaver i Haanden, de benegtedes, men et Fingerpeg blev givet:</p>
+
+<p rend="firstIndent" xml:id="p_00126">»Sadelens <seg target="txtcmnt-123-01"><!--DATA-TERM: Devise--><anchor target="txtcmnt-123-01"/><!--kort sætning, der indeholder en (moralsk) sandhed, sentens, ofte vedlagt en gave.-->Devise</seg>! En, Hr. <hi rend="italic">Generalen</hi> ikke kjender.«</p>
+
+<p rend="firstIndent" xml:id="p_00127">»Men saa kjender jeg Dem jo!« sagde <hi rend="italic">Generalen</hi>. »<hi rend="italic">De</hi> har sendt mig Sadelen!«</p>
+
+<p rend="firstIndent" xml:id="p_00128">Dominoen løftede Haanden, og forsvandt imellem de Andre.</p>
+
+<p rend="firstIndent" xml:id="p_00129">»Hvem er den sorte Domino, <hi rend="italic">Emilie</hi>, Du dandsede med?« spurgte <hi rend="italic">Generalinden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00130">»Jeg har ikke spurgt om hans Navn!« svarede hun.</p>
+
+<p rend="firstIndent" xml:id="p_00131">»For Du vidste det! Det er Professoren! Deres <seg target="txtcmnt-123-02"><!--DATA-TERM: Protegé--><anchor target="txtcmnt-123-02"/><!--person, der nyder en indflydelsesrig persons gunst, beskyttelse.-->Protegé</seg>, Hr. Greve, er her!« vedblev hun og vendte sig til <hi rend="italic">Greven</hi>, som stod tæt ved. »Sort Domino med Akasieblomst!«</p>
+
+<p rend="firstIndent" xml:id="p_00132">»Meget muligt, min Naadige!« svarede han. »Men en af Prindserne er iøvrigt ogsaa saaledes costumeret!«</p>
+
+<p rend="firstIndent" xml:id="p_00133">»Jeg kjender Haandtrykket!« sagde <hi rend="italic">Generalen</hi>. »Fra Prindsen har jeg Sadelen! jeg er saa vis i min Sag, at jeg kan indbyde ham til vort Bord!«</p>
+
+<p rend="firstIndent" xml:id="p_00134">»Gjør det! Er det Prindsen, kommer han vist –!« sagde <hi rend="italic">Greven</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00135">»Og er det den Anden, saa kommer han ikke!« sagde <hi rend="italic">Generalen</hi> og nærmede sig den sorte Domino, der just stod og talte med Kongen. <hi rend="italic">Generalen</hi> forebragte en særdeles ærbødig Indbydelse, at de kunde lære at kjende hinanden; <hi rend="italic">Generalen</hi> smilede saa sikker i sin Vished om hvem han indbød; han talte høit og lydeligt.</p>
+
+<p rend="firstIndent" xml:id="p_00136">Dominoen løftede sin Maske: det var <hi rend="italic">Georg</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00137">»Gjentager Hr. Generalen Indbydelsen?« spurgte han.</p>
+
+<p rend="firstIndent" xml:id="p_00138"><hi rend="italic">Generalen</hi> blev ganske vist en Tomme høiere, fik en fastere Holdning, gjorde to Trin tilbage, og eet Trin frem som til en <seg target="txtcmnt-123-03"><!--DATA-TERM: Menuet--><anchor target="txtcmnt-123-03"/><!--pardans, der danses med små trin og i langsomt tempo.-->Menuet</seg>, og der var Alvor og Udtryk, saa meget der kunde lægges af <hi rend="italic">Generalen</hi> i <hi rend="italic">Generalens</hi> fine Ansigt.</p>
+
+<p rend="firstIndent" xml:id="p_00139">»Jeg tager aldrig mit Ord tilbage! Professoren er indbudt!« og han bøiede sig med et Blik mod Kongen, der vistnok kunde have hørt det Hele.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00140">Og saa var der Middag hos <hi rend="italic">Generalen</hi>s, og der var kun indbudt den gamle <hi rend="italic">Greve</hi> og hans Protegé.</p>
+
+<p rend="firstIndent" xml:id="p_00141">»Foden under Bordet,« meente <hi rend="italic">Georg</hi>, »saa er Grundstenen lagt!« og Grundstenen blev virkelig lagt under stor Høitidelighed hos <hi rend="italic">Generalen</hi> og <hi rend="italic">Generalinden</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00142">Mennesket var kommet, og som jo Generalen kjendte og vidste, havde talt, aldeles som en Mand af det gode Selskab, været høist interessant, <hi rend="italic">Generalen</hi> maatte mange Gange sige sit »Char<pb n="124"/>mant«. <hi rend="italic">Generalinden</hi> talte om sin Middag, talte om den endogsaa til en af Hoffets Damer, og denne, en af de meest aandrige, udbad sig Indbydelse til næste Gang Professoren kom. Saa maatte han jo indbydes, og han blev indbudt og kom, og var igjen charmant, kunde endogsaa spille Skak.</p>
+
+<p rend="firstIndent" xml:id="p_00143">»Han er ikke fra Kjælderen!« sagde <hi rend="italic">Generalen</hi>, »han er ganske vist en fornem Søn! der er mange fornemme Sønner, og det er den unge Mand aldeles uskyldig i.«</p>
+
+<p rend="firstIndent" xml:id="p_00144">Hr. Professoren, der kom i Kongens Huus, kunde godt komme i <hi rend="italic">Generalens</hi>, men groe fast var der ikke Tale om, uden i hele Byen.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00145">Han groede. Naadens Dug faldt fra oven!</p>
+
+<p rend="firstIndent" xml:id="p_00146">Det var derfor slet ingen Overraskelse, at da Professoren blev Etatsraad, blev <hi rend="italic">Emilie</hi> Etatsraadinde.</p>
+
+<p rend="firstIndent" xml:id="p_00147">»Livet er Tragedie eller Komedie,« sagde <hi rend="italic">Generalen</hi>, »i Tragedien døe de, i Komedien faae de hinanden.«</p>
+
+<p rend="firstIndent" xml:id="p_00148">Her fik de hinanden. Og de fik tre raske Drenge, men ikke lige strax.</p>
+
+<p rend="firstIndent" xml:id="p_00149">De søde Børn rede paa Kjephest gjennem Stuer og Sale, naar de vare hos Bedstefader og Bedstemoder. Og <hi rend="italic">Generalen</hi> red ogsaa paa Kjephest, red bag efter dem: »Som Jockey for de smaa Etatsraader!«</p>
+
+<p rend="firstIndent" xml:id="p_00150"><hi rend="italic">Generalinden</hi> sad i Sophaen og smilede, selv om hun havde sin store Hovedpine.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00151">Saavidt bragte <hi rend="italic">Georg</hi> det, og endnu meget videre, ellers havde det ikke været Umagen værd at fortælle om <hi rend="italic">Portnerens Søn</hi>.</p>
+
+<pb n="125"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Portnerens Søn" xml:id="portnerens-soen">
+<head type="section-comments">Portnerens Søn</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Anden Række. Fjerde Samling</hi>, der udkom den 11. december 1866.</p>
+<p>BFN 912/IV,230-245/VII,295-298.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">114,31</cell><cell type="deviation">»Dem &lt; Dem</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">108</cell><row xml:id="txtcmnt-108-01"><cell type="data-term">Charmant</cell><cell type="data-definition">charmerende.</cell></row><row xml:id="txtcmnt-108-02"><cell type="data-term">lød</cell><cell type="data-definition">adlød.</cell></row><row xml:id="txtcmnt-108-03"><cell type="data-term">Sandhullet</cell><cell type="data-definition">rum under trappen til gulvsand.</cell></row><row xml:id="txtcmnt-108-04"><cell type="data-term">Flor</cell><cell type="data-definition">let, tyndt vævet stof.</cell></row>
+<cell type="page">109</cell><row xml:id="txtcmnt-109-01"><cell type="data-term">Svovlstikke</cell><cell type="data-definition">tændstik.</cell></row><row xml:id="txtcmnt-109-02"><cell type="data-term">Naar har Du hørt</cell><cell type="data-definition">hvornår har du hørt.</cell></row><row xml:id="txtcmnt-109-03"><cell type="data-term">Genius</cell><cell type="data-definition">ånd, geni.</cell></row><row xml:id="txtcmnt-109-04"><cell type="data-term">Natsæk</cell><cell type="data-definition">vadsæk til rejsesager som nattøj, toiletsager o.l.</cell></row><row xml:id="txtcmnt-109-05"><cell type="data-term">strunk</cell><cell type="data-definition">stiv, fornem, stolt.</cell></row>
+<cell type="page">110</cell><row xml:id="txtcmnt-110-01"><cell type="data-term">have ligget et Huus</cell><cell type="data-definition">blevet en forfærdelig ballade.</cell></row><row xml:id="txtcmnt-110-02"><cell type="data-term">Akademiet</cell><cell type="data-definition">Det kgl. Akademie for de skjønne Kunster på Charlottenborg, stiftet 1754 af Frederik 5. som efterfølger af to tidligere akademier fra henholdsvis 1738 og 1748.</cell></row><row xml:id="txtcmnt-110-03"><cell type="data-term">Bonne</cell><cell type="data-definition">fremmedsprogstalende barnepige.</cell></row><row xml:id="txtcmnt-110-04"><cell type="data-term">skal staae til Paaske</cell><cell type="data-definition">skal konfirmeres til påske.</cell></row>
+<cell type="page">111</cell><row xml:id="txtcmnt-111-01"><cell type="data-term">Lappeskrædderen</cell><cell type="data-definition">skrædder, som kun foretager reparationer.</cell></row><row xml:id="txtcmnt-111-02"><cell type="data-term">Tombaksuhr</cell><cell type="data-definition">messingur.</cell></row><row xml:id="txtcmnt-111-03"><cell type="data-term">prøvet</cell><cell type="data-definition">slidt.</cell></row><row xml:id="txtcmnt-111-04"><cell type="data-term">Safian</cell><cell type="data-definition">fint tyndt gede- eller fåreskind.</cell></row><row xml:id="txtcmnt-111-05"><cell type="data-term">Øvrighed</cell><cell type="data-definition">overordnede, foresatte.</cell></row><row xml:id="txtcmnt-111-06"><cell type="data-term">Sentents</cell><cell type="data-definition">læresætning.</cell></row>
+<cell type="page">112</cell><row xml:id="txtcmnt-112-01"><cell type="data-term">Nytaars-Ny</cell><cell type="data-definition">første nymåne efter nytår eller helligtrekongersdag.</cell></row><row xml:id="txtcmnt-112-02"><cell type="data-term">Vugge-Gænge(r)</cell><cell type="data-definition">buet træstykke, som sættes under vuggens for- og bagende, så barnet kan vugges.</cell></row><row xml:id="txtcmnt-112-03"><cell type="data-term">komme Fremmede</cell><cell type="data-definition">almindelig børneleg i 1800-tallet på H.C. Andersens tid.</cell></row>
+<cell type="page">114</cell><row xml:id="txtcmnt-114-01"><cell type="data-term">stille … sig</cell><cell type="data-definition">forstiller sig.</cell></row><row xml:id="txtcmnt-114-02"><cell type="data-term">den lille Sølvmedaille … den større</cell><cell type="data-definition">uddeltes af Akademiet for de skjønne Kunster til akademiets elever.</cell></row>
+<cell type="page">115</cell><row xml:id="txtcmnt-115-01"><cell type="data-term">slat</cell><cell type="data-definition">slatten.</cell></row>
+<cell type="page">116</cell><row xml:id="txtcmnt-116-01"><cell type="data-term">Skjermbrætter</cell><cell type="data-definition">som man brugte som værn mod træk, stærkt lys o.l.</cell></row><row xml:id="txtcmnt-116-02"><cell type="data-term">den franske Deel af Haven</cell><cell type="data-definition">den del af haven, der var holdt i den strenge, geometriske franske stil, modsat den engelske stil, der søgte at arrangere haven »naturligt«.</cell></row>
+<cell type="page">117</cell><row xml:id="txtcmnt-117-01"><cell type="data-term">Informator</cell><cell type="data-definition">huslærer.</cell></row>
+<cell type="page">119</cell><row xml:id="txtcmnt-119-01"><cell type="data-term">Gravmæle</cell><cell type="data-definition">eftermæle.</cell></row><row xml:id="txtcmnt-119-02"><cell type="data-term">pyramidal</cell><cell type="data-definition">kolossal, enorm.</cell></row><row xml:id="txtcmnt-119-03"><cell type="data-term">Andragende</cell><cell type="data-definition">egentlig ansøgning, her: frieri.</cell></row><row xml:id="txtcmnt-119-04"><cell type="data-term">erholde</cell><cell type="data-definition">få.</cell></row>
+<pb n="421"/>
+<cell type="page">120</cell><row xml:id="txtcmnt-120-01"><cell type="data-term">Rangskatten</cell><cell type="data-definition">blev betalt af folk med rang undtagen embedsmænd, der havde rang i kraft af deres embede. Der er derfor tale om, at Georg udnævnes til titulær professor, dvs. professor uden embede.</cell></row>
+<cell type="page">121</cell><row xml:id="txtcmnt-121-01"><cell type="data-term">Sendelser</cell><cell type="data-definition">missioner.</cell></row><row xml:id="txtcmnt-121-02"><cell type="data-term">første Familier</cell><cell type="data-definition">fineste familier.</cell></row><row xml:id="txtcmnt-121-03"><cell type="data-term">tydedes til</cell><cell type="data-definition">hentydedes til.</cell></row>
+<cell type="page">122</cell><row xml:id="txtcmnt-122-01"><cell type="data-term">Rubens</cell><cell type="data-definition">Peter Paul Rubens (1577-1640), flamsk maler.</cell></row><row xml:id="txtcmnt-122-02"><cell type="data-term">Psyche</cell><cell type="data-definition">græsk: sjæl; i den romerske forfatter Apuleius’ (ca. 125-180) roman <hi rend="italic">Metamorfoser</hi>, også kaldet <hi rend="italic">Det gyldne Æsel</hi>, findes myten om Amor og Psyche. Guden Amor forelsker sig i den underdejlige kongedatter Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor. Psyche er et yndet motiv i billedkunst og skulptur og afbildes ofte med sommerfuglevinger.</cell></row><row xml:id="txtcmnt-122-03"><cell type="data-term">Domino</cell><cell type="data-definition">lang sort kappe med hætte og vide ærmer.</cell></row>
+<cell type="page">123</cell><row xml:id="txtcmnt-123-01"><cell type="data-term">Devise</cell><cell type="data-definition">kort sætning, der indeholder en (moralsk) sandhed, sentens, ofte vedlagt en gave.</cell></row><row xml:id="txtcmnt-123-02"><cell type="data-term">Protegé</cell><cell type="data-definition">person, der nyder en indflydelsesrig persons gunst, beskyttelse.</cell></row><row xml:id="txtcmnt-123-03"><cell type="data-term">Menuet</cell><cell type="data-definition">pardans, der danses med små trin og i langsomt tempo.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

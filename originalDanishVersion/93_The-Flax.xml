@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Flax</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hoerren">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hoerren_modern.xml">moderniseret version</note>
+                                                       <note target="93_The-Flax.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The flax was in flower. It has such lovely blue flowers, as soft as the wings of...</incipit><idno type="image">Hoerren_01_2022-03-09.png</idno><popularity>954</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Flax. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term><term>tingseventyr</term><term>livsforloeb</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-11" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-11" xml:id="XX" who="XX">enter your initials @xml:id and keep a protocol of revisions</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Flax">
+               <head type="main" rend="The Flax">The Flax</head>                <p rend="noIndent" xml:id="p_00001">The flax was in flower. It has such lovely blue flowers, as soft as the wings of a moth and yet even more delicate. – The sun shone on the flax and the rain-clouds watered it, and it was just as good for it as it is for small children to be washed and then get a kiss from mother; and this makes them all the lovelier. As it did the flax too.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘People say how splendidly I stand,’ the flax said, ‘and that I will grow so nice and tall that a magnificent piece of linen will be made of me! Oh, how happy I am! I must certainly be the happiest alive! I feel so good, and I will turn into something fine! How the sun enlivens me and how good the rain tastes and how refreshing! I am incomparably happy – I am the happiest in the whole world!’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Yes, yes, yes!’ the fence pickets said, ‘you don’t know anything about the world, but we do and are full of knots!’ and then they creaked so pitifully:</p>
+          <lg xml:id="p_00004">
+               <l><hi rend="italic">Snip snap whirr</hi></l>
+               <l><hi rend="italic">skittle scuttle churr</hi></l>
+               <l><hi rend="italic">Our song’s sung and done!</hi></l>
+          </lg>
+               <p rend="noIndent" xml:id="p_00005">‘No, it isn’t!’ the flax replied, ‘the sun will shine tomorrow, the rain does me good, I can hear myself growing, I can feel I’m in flower! I’m the happiest in the whole world!’</p>
+          <p rend="firstIndent" xml:id="p_00006">	But one day folk came and took the flax by its tops and shook it up by its roots , and that hurt, and then it was laid in water as if it was to be drowned, and placed over the fire as if it was to be roasted – it was frightful!</p>
+          <p rend="firstIndent" xml:id="p_00007">‘One can’t always have a good time!’ the flax said, ‘one has to try out something to know anything!’</p>
+          <p rend="firstIndent" xml:id="p_00008">But it really got pretty bad. The flax was snapped and broken, was scutched and hackled – all sorts of things it didn’t even know the name of – and then it was put on the wheel, whirr blur! it was impossible to hold one’s thoughts together.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘I’ve been exceptionally happy!’ it thought in the midst of all its pain. ‘One must be happy for the good things one has had! Happy, happy, oh!’ – and it was still saying this when it came up on the loom, where became a lovely large piece of linen. All the flax, every single plant, became that one single piece.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Ah, this is so wonderful! I’d never have believed it! Oh, how good fortune follows me! The fence pickets may have thought they knew everything with their</p>
+          <lg xml:id="p_00011">
+               <l><hi rend="italic">Snip snap whirr</hi></l>
+               <l><hi rend="italic">skittle scuttle churr</hi></l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00012">But the song’s not sung and done at all! It’s only just beginning! This is wonderful! Well, I may have suffered a bit, but that has helped me become something – I’m the happiest in the whole world!; I’m so strong and so soft, so white and so long! This is something else than just being plants, even though one has flowers! One is not taken care of, and only gets water when it rains. Now I’m waited on hand and foot! The girl turns me every morning, and with her jug of water I’m given a rain-bath every evening; even the vicar’s wife has made a speech for me and said I was the best piece of cloth in the whole parish. I couldn’t be any happier!’</p>
+          <p rend="firstIndent" xml:id="p_00013">Now the flax was taken into the house, now it was the turn of the scissors. How they clipped, how they cut, how they pricked with sewing needles, for that’s what they did! It was no great pleasure. But the linen was turned into twelve items of clothing, the unmentionable type that everyone has to have, it made twelve such items.</p>
+          <p rend="firstIndent" xml:id="p_00014">Oh look, I wasn’t really anything until now! This is then what I was destined to become! Well, that’s quite marvellous! now I will be of use in the world, and that is as it should be, that is a proper source of pleasure! We have become twelve items of clothing, and yet we are all one and the same, we are a dozen! What incomparable happiness!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And the years passed – and the twelve of them finally wore out.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘The end has to come sooner or later!’ each garment said, ‘I’d have liked to have lasted a bit longer, but one can’t ask for the impossible!’ And then they were torn into shreds and tatters, they thought it was all over with them, for they were chopped and squashed and boiled, they didn’t even know what was happening to them – and finally they became lovely fine white paper!</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Oh, if this isn’t a surprise! And what a lovely surprise!’ the paper said. ‘Now I am finer than ever, and now I shall be written on! Just think what can be written! What incomparable happiness!’ And things were written on it, the loveliest of stories, and people heard what was written on it, and it was so good and true, it made people much wiser and better, it was a great blessing given the sheets of paper in the form of words.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘This is more than I ever dreamt of when I was a tiny blue flower in the field! How could I possible have imagined that I would end up carrying joy and knowledge to people. I still cannot understand it! But it just happens to be so! <hi rend="italic">The Lord God</hi> knows that I myself have done nothing except what I, to the best of my poor ability, had to in order to stay alive! And now he is taking me from one joy and honour to the next; every time I think: “Our song’s sung and done!” things change into something much higher and better; now I’m sure to travel, to be sent all round the world, so that all people can read me! That’s the most reasonable thing to do! Before I had blue flowers, now for every flower I have the loveliest of thoughts. I’m the happiest in the whole world!’</p>
+          <p rend="firstIndent" xml:id="p_00019">But the paper did not get to travel, it ended up at the printer’s, and there everything that was written on it was set up in type for a book, yes, many hundreds of books, for in that way infinitely more people could benefit and derive pleasure from it than if the one piece of paper on which it was written had travelled the whole world and got worn out half-way round.</p>
+          <p rend="firstIndent" xml:id="p_00020">‘Yes, this is of course the most sensible thing!’ the written-on paper thought. ‘I simply hadn’t thought of that! I can stay at home and be revered like some old grandfather! I’m the one it’s all written on, the words flowed from the pen straight onto me. I stay put and the books do all the gadding about! Now things can really get a move on! Oh, how glad I am, how happy I am!’</p>
+          <p rend="firstIndent" xml:id="p_00021">Then the paper was collected into a pile and placed on a shelf. ‘It’s a good thing to rest when the deed’s well done!’ the paper said. ‘It’s very right and proper than one collects oneself and reflects on what there is inside one. Only now do I fully know what is written in me! And to know oneself, that is what really marks an advance. I wonder what will now happen now, a step forward, for sure, things always move forward!’ –</p>
+          <p rend="firstIndent" xml:id="p_00022">One day all the paper was placed by the fireplace to be burnt, for it was not to be sold to the grocer and end up round butter and brown sugar. And all the children in the house stood around, they wanted to see it blaze, they wanted to see the many red sparks of fire in the ashes that seem to run and go out, one after the other, so quickly – they’re the children leaving school, and the very last spark is the schoolmaster; often one thinks he’s already gone, but then he comes a little later than all the others.</p>
+          <p rend="firstIndent" xml:id="p_00023">And all the paper lay in a bundle on the fire. Ooh! how it suddenly was ablaze. ‘Ooh!’ it said, and suddenly was one big flame, it rose much higher than the flax had ever been able to lift up its tiny blue flower and gleamed more than the white linen had ever been able to gleam; all the written letters turned quite red in an instant, and all the words and thoughts flared up.</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Now I’m going straight up into the sun!’ it said inside the flame, and it was as if thousands of voices said it all together, and the flame shot up right through the chimney and upwards – – and finer than the flame, completely invisible to human eyes, there floated tiny beings just as many as there had been flowers on the flax. They were even lighter than the flame that bore them, and when it went out and there was nothing left of the paper except black ash, they danced yet again above it and wherever they came in touch one could see their footprints, those of the red sparks: ‘The children left school and the very last one was the schoolmaster’! it was a pleasure to look at, and the children of the house stood by the dead ashes and sang:</p>
+          <lg xml:id="p_00025">
+               <l><hi rend="italic">Snip snap whirr</hi></l>
+               <l><hi rend="italic">skittle scuttle churr</hi></l>
+               <l><hi rend="italic">Our song’s sung and done!</hi></l>
+          </lg>
+          <p rend="noIndent" xml:id="p_00026">But the small invisible beings each said: ‘The song’s never sung and done! That’s the most wonderful thing of all! I know this, which is why I am the happiest in the whole world!’</p>
+          <p rend="firstIndent" xml:id="p_00027">But that the children could neither hear nor understand, nor were they meant to, for children are not supposed to know everything.</p></div>
+               
+     </body>
+                         </text>
+                    </TEI>

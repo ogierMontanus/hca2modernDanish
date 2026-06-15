@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Et Stykke Perlesnor</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Første del (I) trykt i <hi rend="italic">Folkekalender for Danmark 1857</hi>, der udkom i december 1856 (BFN 760). Trykt i sin helhed i <hi rend="italic">Nye Eventyr og Historier. Tredie Samling</hi>, som udkom den 24. marts 1859.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1859</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Et Stykke Perlesnor" xml:id="et-stykke-perlesnor">
+<head type="main">Et Stykke Perlesnor</head>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Et Stykke Perlesnor" xml:id="et-stykke-perlesnor">
+<head type="section-comments">Et Stykke Perlesnor</head>
+
+<p rend="noIndent">Første del (I) trykt i <hi rend="italic">Folkekalender for Danmark 1857</hi>, der udkom i december 1856 (BFN 760). Trykt i sin helhed i <hi rend="italic">Nye Eventyr og Historier. Tredie Samling</hi>, som udkom den 24. marts 1859.</p>
+<p rend="noIndent">Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">BFN 782/III,140-145/VII,205-209.</p>
+
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">280</cell><cell type="deviation">10: et Punkt, der flyver hen &lt; et forsvindende Punkt – jager &lt; flyver – 12: må lægge Mærke til, gamle Minder og Poesien selv &lt; <pb n="496"/>må bemærke, Erindringen og Poesien – 17: kaldte &lt; har kaldt – 18: det vilde sige: to elskelige Gamles Hjem &lt; <hi rend="italic">mangler</hi> – 19: sin Hustru &lt; sin – deres &lt; det – 26: Verden rundt om Stråler ind gennem Øinene i Sjælens ugranskelige Dybde &lt; Omverdenen sender sin talende Vækker gennem Øiets Spejl ind i Sjælen – 34: Hroars &lt; Rhoars</cell></row>
+<row><cell type="position">281</cell><cell type="deviation">2: hvis hvide Mur vi tæt ved &lt; som vi – 5: Melodier i vor Sjæl blev de gamle Sagn, vi fornemmede hvor: »de klare Bølger rulled,« »det boede en Konge i Lejre!« &lt; <hi rend="italic">mangler</hi> – 11: Sagnet &lt; Sangen – 17: flyver &lt; flyver forbi – 19: Skovsø &lt; Sø – 25: således &lt; således også – 31: båren &lt; båret – 37: Solen &lt; Sol – Skygger &lt; Skygge</cell></row>
+<row><cell type="position">282</cell><cell type="deviation">6: Barndoms &lt; fordums – 8: kaste &lt; kaster – <hi rend="italic">Under teksten:</hi> H. C. Andersen.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">280</cell><row xml:id="txtcmnt-280-01"><cell type="data-term">Jernbanen … <hi rend="italic">Korsør</hi></cell><cell type="data-definition">den 27. juni 1847 indviedes strækningen København-Roskilde og den 27. april 1856 fortsættelsen til Korsør.</cell></row><row xml:id="txtcmnt-280-02"><cell type="data-term">Bakken</cell><cell type="data-definition">Valby bakke.</cell></row><row xml:id="txtcmnt-280-03"><cell type="data-term"><hi rend="italic">Frederik den Sjettes</hi> Slot</cell><cell type="data-definition">Frederiksberg Slot, opført 1699-1709 af Frederik 4.</cell></row><row xml:id="txtcmnt-280-04"><cell type="data-term"><hi rend="italic">Oehlenschlägers</hi> Barndoms Hjem</cell><cell type="data-definition">digteren Adam Oehlenschläger (1779-1850); faderen var slotsforvalterfuldmægtig ved Frederiksberg Slot fra 1781.</cell></row><row xml:id="txtcmnt-280-05"><cell type="data-term">Philemon og Baucis Hytte</cell><cell type="data-definition">Bakkehuset var gennem mange år mødested for tidens forfattere og intellektuelle; allusion til K.L. Rahbeks digt »Til mit Bakkehus« i <hi rend="italic">Poetiske Forsøg</hi>, 2. del, 1802. Philemon og Baucis var ifølge Ovids <hi rend="italic">Metamorfoser</hi> (8, 621 ff.) et gammelt, fromt ægtepar, der gæstfrit tog imod guderne Zeus og Hermes i deres tarvelige hytte. Som tak blev hytten forvandlet til et tempel.</cell></row><row xml:id="txtcmnt-280-06"><cell type="data-term">Rahbek</cell><cell type="data-definition">Knud Lyne Rakbek (1760-1830), forfatter, litteraturhistoriker, udgiver og kritiker.</cell></row><row xml:id="txtcmnt-280-07"><cell type="data-term">Camma</cell><cell type="data-definition">Karen Margrethe Rahbek, f. Heger (1775-1829).</cell></row><row xml:id="txtcmnt-280-08"><cell type="data-term">ak, hvor forandret</cell><cell type="data-definition">hentydning til St. St. Blichers (1782-1848) novelle med samme titel fra 1828.</cell></row><row xml:id="txtcmnt-280-09"><cell type="data-term">Idiotens Hjem</cell><cell type="data-definition">i 1855 blev Bakkehuset hjemsted for »Helbredelsesanstalten for idiotiske Børn«.</cell></row><row xml:id="txtcmnt-280-10"><cell type="data-term">Guds Urtegård</cell><cell type="data-definition">Guds natur, Guds have.</cell></row><row xml:id="txtcmnt-280-11"><cell type="data-term">Kongegravenes By</cell><cell type="data-definition">siden 1536 er alle danske konger og dronninger (med undtagelse af Caroline Mathilde) begravet i Roskilde Domkirke.</cell></row><row xml:id="txtcmnt-280-12"><cell type="data-term">Hroar(s)</cell><cell type="data-definition">sagnkonge, som skal have grundlagt Roskilde.</cell></row>
+<cell type="page">281</cell><row xml:id="txtcmnt-281-01"><cell type="data-term">Glar</cell><cell type="data-definition">glas.</cell></row><row xml:id="txtcmnt-281-02"><cell type="data-term">Margrethe(s)</cell><cell type="data-definition">Margrete 1. (1353-1412), regerede over Danmark-Norge fra 1387, Sverige 1388; formelt anerkendt som dronning over alle tre lande ved Kalmarunionen, 1397.</cell></row><row xml:id="txtcmnt-281-03"><cell type="data-term">Kirkegården</cell><cell type="data-definition">Gråbrødre kirkegård.</cell></row><row xml:id="txtcmnt-281-04"><cell type="data-term">Drot</cell><cell type="data-definition">Konge , hersker.</cell></row><row xml:id="txtcmnt-281-05"><cell type="data-term">de klare Bølger rulled</cell><cell type="data-definition">første linje af Charlottes romance i Oehlenschlägers <hi rend="italic">Sovedrikken</hi>. <hi rend="italic">Et Syngestykke i to Akter</hi>, 1808 (1. akt), en omarbejdning efter C.F. Bretzners tyske original, sat i musik af Weyse; opført første gang på Det Kgl. Teater 21. <pb n="497"/>april 1809.</cell></row><row xml:id="txtcmnt-281-06"><cell type="data-term">der boede en Konge i Lejre</cell><cell type="data-definition">frit citat efter førstelinjen »Der var en Konning i Lejre« fra Oehlenschlägers digt »Kongen i Lejre«, <hi rend="italic">Digte</hi>, 1803.</cell></row><row xml:id="txtcmnt-281-07"><cell type="data-term">Weyse</cell><cell type="data-definition">C.E.F. Weyse (1774-1842), komponist og organist ved Vor Frue Kirke i København‚ især hans romancer, ballader, nød stor popularitet i samtiden.</cell></row><row xml:id="txtcmnt-281-08"><cell type="data-term">Hagbarth(s)</cell><cell type="data-definition">sagnet om Hagbard kendes fra <hi rend="italic">Saxos Danmarkshistorie</hi> (7. bog, kap. 7) og folkevisen »Hagbard og Signe« (DgF 20). Hagbard elsker og genelskes af sin fjende Sigers datter, Signe, som sværger, at Hagbards dødsdag også skal blive hendes. Da Hagbard pågribes og dømmes til døden, beder han, for at prøve Signes troskab, om, at hans kappe bliver hængt op i galgen, hvorefter Signe brænder sig inde.</cell></row><row xml:id="txtcmnt-281-09"><cell type="data-term">Hvo</cell><cell type="data-definition">hvem.</cell></row><row xml:id="txtcmnt-281-10"><cell type="data-term">Klosterby</cell><cell type="data-definition">ca. 1150 anlagdes et benediktinerkloster i Sorø, af Absalon kort tid efter omdannet til cistercienserkloster.</cell></row><row xml:id="txtcmnt-281-11"><cell type="data-term"><hi rend="italic">Holbergs</hi> Støv</cell><cell type="data-definition">forfatteren Ludvig Holberg (1684-1754) ligger begravet i Sorø Klosterkirke.</cell></row><row xml:id="txtcmnt-281-12"><cell type="data-term">hvid Svane</cell><cell type="data-definition">indtil ca. 1900 var Sorø Akademis hovedbygning og digteren Ingemanns hus hvidkalkede.</cell></row><row xml:id="txtcmnt-281-13"><cell type="data-term">et lille Hus</cell><cell type="data-definition">digteren B.S. Ingemann (1789-1862) var fra 1822 lektor ved Sorø Akademi og boede i en pavillon ved siden af hovedbygningen.</cell></row><row xml:id="txtcmnt-281-14"><cell type="data-term">Psalmer … i Danmark</cell><cell type="data-definition">Ingemann udgav blandt andet en række salmesamlinger og historiske romaner.</cell></row><row xml:id="txtcmnt-281-15"><cell type="data-term">Antvorskov Kloster</cell><cell type="data-definition">johanitterkloster fra ca. 1164, ombygget til kongeslot 1580-1584. Nord- og vestfløjen blev nedrevet 1814-1816 og østfløjen i 1830’erne.</cell></row><row xml:id="txtcmnt-281-16"><cell type="data-term">dog et gammelt Tegn … Jerusalem</cell><cell type="data-definition">Hellig-Anders (død 1205) var præst ved Skt. Peders kirke i Slagelse og skal ifølge sagnet under en pilgrimsrejse være blevet bragt hjem af en rytter på få timer, så han kunne vågne op på Hvilehøj uden for Slagelse.</cell></row><row xml:id="txtcmnt-281-17"><cell type="data-term">Du, der gav os … Sjællandsfar</cell><cell type="data-definition">digteren Jens Baggesen (1764-1826) skrev under pseudonymet Knud Sjællandsfar (sjællænder).</cell></row><row xml:id="txtcmnt-281-18"><cell type="data-term">Skæmt … Sjællandsfar</cell><cell type="data-definition">citat fra Jens Baggesens digt »Den danske Matros eller Flaskebrevet«, 1808: »Tre Flasker Skemt med Alvor blandet, / I Viser af Knud Sjællandsfar«.</cell></row><row xml:id="txtcmnt-281-19"><cell type="data-term">den forladte Befæstning … Barndoms-Hjem</cell><cell type="data-definition">Korsør søbatteri, Baggesens fødested, blev nedlagt i 1857.</cell></row><row xml:id="txtcmnt-281-20"><cell type="data-term">var lille</cell><cell type="data-definition">citat fra Baggesens digt »Da jeg var lille«, 1785. I 4. strofe hedder det: »Da så jeg Månen ned på Øen glide, / Og tænkte: gid jeg var på Øen der!« (<hi rend="italic">Poesien. Første samling</hi>, 1785, s.2).</cell></row>
+<cell type="page">282</cell><row xml:id="txtcmnt-282-01"><cell type="data-term">Verdens Labyrinth</cell><cell type="data-definition">hentydning til Baggesens rejsebog <hi rend="italic">Labyrinten eller Rejse giennem Tydskland, Schweitz og Frankerig</hi> I-II, 1792-1793.</cell></row><row xml:id="txtcmnt-282-02"><cell type="data-term">ingensteds … Uskyld hvilte på</cell><cell type="data-definition">6. strofe af Jens Baggesens digt »Til mit Fædreneland«, 1796. Hos Baggesen indledes linje 2 dog med et »Ak!«</cell></row><pb n="498"/><row xml:id="txtcmnt-282-03"><cell type="data-term">Kielerfjord … er lagt</cell><cell type="data-definition">Jens Baggesen er begravet på Skt. Jørgens kirkegård i Kiel.</cell></row><row xml:id="txtcmnt-282-04"><cell type="data-term">holstensk(e) Vogn</cell><cell type="data-definition">åben vogn med kurvefading (overdel) og agestole, der hang i læderstropper.</cell></row><row xml:id="txtcmnt-282-05"><cell type="data-term">Børt-Fartøjet</cell><cell type="data-definition">smakken (færgebåden) over Storebælt.</cell></row>
+<cell type="page">284</cell><row xml:id="txtcmnt-284-01"><cell type="data-term">Birckner</cell><cell type="data-definition">M.G. Birckner (1756-1798), præst i Korsør og forfatter, forkæmper for trykkefriheden.</cell></row><row xml:id="txtcmnt-284-02"><cell type="data-term">Krebsehuset</cell><cell type="data-definition">kro 2 km nordøst for Sorø.</cell></row><row xml:id="txtcmnt-284-03"><cell type="data-term">anden Examen</cell><cell type="data-definition">eksamen i forskellige fag, som studenterne i perioden 1788-1850 indstillede sig til på universitetet et år efter studentereksamen; indtil 1849 kunne denne eksamen også aflægges ved Sorø Akademi.</cell></row><row xml:id="txtcmnt-284-04"><cell type="data-term">galant</cell><cell type="data-definition">elegant, fint.</cell></row><row xml:id="txtcmnt-284-05"><cell type="data-term">Madam <hi rend="italic">Plambek</hi></cell><cell type="data-definition">Anna Nielsdatter Rosbjerg (1755-1838), gift med skovrider Martin Plamböck, havde fra 1781 bevilling til krohold i Krebsehuset.</cell></row><row xml:id="txtcmnt-284-06"><cell type="data-term"><hi rend="italic">Baggesens</hi> Brev</cell><cell type="data-definition">den 18. oktober 1790 overnattede Baggesen og hans hustru i Krebsehuset. I vrede over regningens størrelse forløb Baggesen sig ved afrejsen over for madam Plamböck, men sendte fra Ringsted en skriftlig undskyldning, der samtidig havde karakter af anbefaling af kroen (jf. Aage Weblund og Arthur G. Hassø <hi rend="italic">Gamle Landevejskroer fra København til Korsør</hi>, 1946, s. 281).</cell></row><row xml:id="txtcmnt-284-07"><cell type="data-term">Absalon(s)</cell><cell type="data-definition">(ca.1128-1201), ærkebiskop og statsmand.</cell></row><row xml:id="txtcmnt-284-08"><cell type="data-term">Parnasset</cell><cell type="data-definition">udflugtsmål ved Sorø Sø; egentlig Apollons og musernes bjerg i græsk mytologi.</cell></row><row xml:id="txtcmnt-284-09"><cell type="data-term">Philosofgangen</cell><cell type="data-definition">spadseresti i udkanten af Sorø.</cell></row><row xml:id="txtcmnt-284-10"><cell type="data-term">Flommen</cell><cell type="data-definition">udtørret moseområde ved Sorø.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

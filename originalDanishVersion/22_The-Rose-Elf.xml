@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Rose-Elf</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="rosen-alfen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="rosen-alfen_modern.xml">moderniseret version</note>
+                                                       <note target="22_The-Rose-Elf.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In the middle of a garden there grew a rose bush that was a mass of roses, and i...</incipit><idno type="image">Rosenalfen_01_2022-03-09.png</idno><popularity>960</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Rose-Elf. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>trylleeventyr</term><term>kaerlighed</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Rose-Elf">
+          <head type="main" rend="The Rose-Elf">The Rose-Elf</head>                <p rend="noIndent" xml:id="p_00001">In the middle of a garden there grew a rose bush that was a mass of roses, and in one of these, the most beautiful of them all, lived an elf; he was so tiny that no human eye was able to see him; behind each petal of the rose he had a bed chamber; he was as healthy and well-proportioned as any child could be and had wings from his shoulders right down to his feet. Oh, what a wonderful fragrance there was in his rooms, and how bright and beautiful the walls were! for after all they were fine, pale-red rose petals.</p>
+          <p rend="firstIndent" xml:id="p_00002">All day long he amused himself in the warm sunshine, flew from flower to flower, danced on the wings of a passing butterfly and measured how many steps he had to take to run over all the country roads and paths there were on every single lime-tree leaf. These are what we call the veins of the leaf, but to him they were country roads and paths; yes, to him they were endless roads! before he had finished the sun had set; he had also started so late in the day.</p>
+          <p rend="firstIndent" xml:id="p_00003">It grew very cold, the dew fell and the wind blew; now it was probably best to make for home; he hurried as much as he could, but the rose had closed, he couldn’t enter – not a single rose was still open; the poor elf was so frightened, he had never been out at night before, always slept so soundly behind the warm rose petals – oh, this was sure to be the death of him!</p>
+          <p rend="firstIndent" xml:id="p_00004">He knew that at the far end of the garden there was a bower with lovely honeysuckle, the flowers looked like large painted horns: he would climb down into one of these and sleep there till morning came.</p>
+          <p rend="firstIndent" xml:id="p_00005">He flew over to it. Hush! there were two people inside it: a handsome young man and the loveliest of maidens; they were sitting next to each other and wishing they might never ever be parted; they were so fond of each other, far more than the very best child can be fond of its mother and father.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘We must be parted, nevertheless!’ the young man said, ‘your brother is not favourably disposed towards us and that is why he is sending me away on business far beyond mountains and oceans! Farewell, my sweet bride, for that is what you are to me!’</p>
+          <p rend="firstIndent" xml:id="p_00007">And then they kissed each other, and the young girl wept and gave him a rose; but before she reached out with it to him, she planted a kiss on it, so firm and fervent that the flower opened; then the little elf flew into it, and leant his head up against the fragrant walls; but he was well able to hear that goodbyes were being said and he felt the rose gaining a place at the young man’s breast – oh, how his heart throbbed within him! the little elf was completely unable to fall asleep for all that throbbing.</p>
+          <p rend="firstIndent" xml:id="p_00008">For a long time, the rose could not rest quietly on his breast, the man took hold of it, and while he went on his lonesome way through the dark wood, he kissed the flower, oh, so often and so passionately that the small elf was almost squashed to death; he could feel through the petal how the man’s lips burned, and the rose itself had opened as if the strongest midday sun were shining down on it.</p>
+          <p rend="firstIndent" xml:id="p_00009">Then another man came along, dark and irate, he was the lovely girl’s wicked brother; he took out a knife so large and keen, and while the other man was kissing the rose, the evil man stabbed him to death, cut off his head and buried it with his body in the soft earth under the lime tree.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Now he is gone and forgotten,’ the wicked brother thought, ‘he will never come back again. He was to undertake a long journey, over mountains and oceans, and there one can easily lose one’s life, and that he has done. He will not come back again, and my sister will never dare ask me about him.’</p>
+          <p rend="firstIndent" xml:id="p_00011">Then he raked withered leaves over the newly dug grave with his foot and walked home once more in the dark night; but he did not walk alone, as he thought he did: the little elf accompanied him, it sat in a withered, curled-up lime-tree leaf that had fallen into the wicked man’s hair as he dug the grave. He had put his hat on since then, it was so dark inside that the elf shuddered with fear and with anger at the foul deed.</p>
+          <p rend="firstIndent" xml:id="p_00012">Early the next morning, the wicked man arrived home. He took off his hat and went into his sister’s bedroom, there the lovely, blooming maiden lay dreaming of the one she was so fond of and who she believed was now travelling over mountains and through forests, and the wicked brother bent down over her, and gave a wicked laugh, just as a devil can; then the withered leaf fell out of his hair onto the quilt, but he didn’t notice any of this and went out again, to sleep in the early hours of the morning. But the elf slipped out of the withered leaf, entered the ear of the sleeping girl and told her, as if in a dream, of the horrible murder, described the place to her where her brother had killed him and laid his body, told her of the blossoming lime tree close by and said: ‘So as to convince you that it is not merely a dream I have told you, you will find a withered leaf on your bed!’ and this she did when she woke up.</p>
+          <p rend="firstIndent" xml:id="p_00013">Oh, what salt tears she cried! and she did not dare tell anyone of her sorrow. The window stood open all day long, the little elf could easily go out into the garden to the roses and all the other flowers, but he could not bring himself to leave the mournful girl. In the window there stood a bush with monthly roses, he sat down in one of the flowers there and gazed at the poor girl. Her brother entered the room on many occasions, and he was so merry and wicked, but she did not dare say a word about her deep-felt grief.</p>
+          <p rend="firstIndent" xml:id="p_00014">As soon as it became night, she slipped out of the house, went to the spot in the wood where the lime tree stood, raked the leaves away from the ground, dug down in the earth and immediately found the one who had been killed, oh, how she wept and begged the Lord God to let her die soon too. –</p>
+          <p rend="firstIndent" xml:id="p_00015">She greatly wanted to take the body with her home but was unable to do so; she then took the pale head with the closed eyes, kissed the cold mouth and shook the earth out of the lovely hair. ‘This I will have as mine!’ she said, and when she had replaced earth and leaves on the corpse, she took the head home with her and a small sprig of the jasmine tree that flowered in the wood where he had been killed.</p>
+          <p rend="firstIndent" xml:id="p_00016">As soon as she was back in her room, she fetched the largest flower pot that could be found, in it she placed the dead man’s head, heaped earth on top of it and then planted the sprig of jasmine in the pot.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Farewell! farewell!’ the little elf whispered, he could no longer stand seeing all that grief, and so he flew out into the garden to his rose; but it had withered, there were only a few pale petals hanging by the green rose hip.</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Ah, how quickly all that is beautiful and good passes!’ the elf sighed. Finally he found a rose once more, it became his home, behind its fine, fragrant petals he was able to build a place to live.</p>
+          <p rend="firstIndent" xml:id="p_00019">Every morning he flew over to the poor girl’s window, and there she always stood by her flower pot and wept; the salt tears fell onto the jasmine branch, and as every day she grew paler and paler, the branch became healthier and greener, one shoot after the other began to grow, soon there were small white buds of flowers and she kissed them, but the wicked brother scolded her and asked if she had lost her senses? he didn’t like or understand why she was always crying over the flower pot. He didn’t know what eyes <hi rend="italic">there </hi>lay closed and what red lips <hi rend="italic">there </hi>had become earth; and she put her head up close to the flower pot and the little elf from the rose found her as if dozing there; then he climbed into her ear, told her about the evening in the bower, about the rose’s scent and the elves’ love; she dreamt so sweetly, and while she was dreaming her life ebbed away: she had died a quiet death, she was in heaven with the one she loved so dearly.</p>
+          <p rend="firstIndent" xml:id="p_00020">And the jasmine blossoms opened their large white bells, they smelt so wonderfully sweet: they could not weep for the dead girl in any other way.</p>
+          <p rend="firstIndent" xml:id="p_00021">But the wicked brother looked at the beautifully blossoming bush, took possession of it as his inheritance and placed it in his bedroom, close to his bed, for it was lovely to look at and its scent was so sweet and fragrant. The little rose-elf followed too, flew from flower to flower, for in each of them there lived a small soul, and this he told about the young man who had been killed, whose head was now earth under the earth, told the tale of the wicked brother and the poor sister.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘We know so well!’ each of the souls in the flowers said, ‘we know so well! haven’t we grown out of the eyes and lips of the murdered man! we know so well! we know so well’ and they all nodded their heads quite strangely.</p>
+          <p rend="firstIndent" xml:id="p_00023">The rose-elf failed to understand how they could be so calm, and he flew out to the bees who were collecting honey, told them the story of the wicked brother, and the bees passed it on to their queen, who ordered them all to kill the murderer the following day.</p>
+          <p rend="firstIndent" xml:id="p_00024">But during the night before this, it was the first one after the sister’s death, while the brother was asleep in his bed close to the scented jasmine, every calyx opened, and invisible, but with poisonous spears, all the souls of the flowers rose up and started by sitting at his ear and telling him bad dreams, then they flew across his lips and pricked his tongue with their poisonous spears. ‘Now we have avenged the dead man!’ they said and returned to the white bells of the jasmine.</p>
+          <p rend="firstIndent" xml:id="p_00025">When morning came, the window of the bedroom was suddenly flung open, and in stormed the rose-elf with the queen bee and the whole swarm of bees to kill him.</p>
+          <p rend="firstIndent" xml:id="p_00026">But he was already dead; there were people standing round the bed and they said: ‘the scent of the jasmine has killed him!’</p>
+          <p rend="firstIndent" xml:id="p_00027">Then the rose-elf understood the revenge taken by the flowers, and told the queen bee of this, and she buzzed with her entire swarm round the flower pot; the bees could not be chased off; then a man took away the flower pot and one of the bees stung him on the hand, he dropped the pot and it broke.</p>
+          <p rend="firstIndent" xml:id="p_00028">Then they saw the white skull, and knew that the dead man in the bed was a murderer.</p>
+          <p rend="firstIndent" xml:id="p_00029">And the queen bee hummed in the air and sang of the flowers’ revenge and of the rose-elf, and that behind the tiniest petal there dwells someone who can uncover and avenge evil!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

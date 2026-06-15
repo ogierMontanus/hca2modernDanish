@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Jagtherrens Skaal</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="jagtherrens-skaal" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Diana selv med Falk paa Haand</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01122</section>
+                                                                 <date>1876</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1876</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Jagtherrens Skaal" xml:id="jagtherrens-skaal"><pb n="453"/><head type="part">Jagtherrens Skaal</head>
+<head type="melody"><hi rend="italic">MEL. <seg target="txtcmnt-453-01"><!--DATA-TERM: Velkommen varme Purpurskaal--><!--DATA-DEFINITION: førstelinjen af Oehlenschlägers drikkevise fra syngespillet <i>Røverborgen</i>, med musik af Fr. Kuhlau, opført første gang på Det Kgl. Teater 1814.-->Velkommen varme Purpurskaal!</seg></hi></head>
+<lg xml:id="p_01123">
+<l rend="noIndent" subtype="firstline" corresp="Diana selv med Falk paa Haand" rendition="diana-selv-med-falk-paa-haand"><seg target="txtcmnt-453-02"><!--DATA-TERM: Diana--><!--DATA-DEFINITION: i romersk mytologi gudinde for jagten og månen.-->Diana</seg> selv med Falk paa Haand,</l>
+<l rend="noIndent"><seg target="txtcmnt-453-03"><!--DATA-TERM: Kom … Endymion--><!--DATA-DEFINITION: i græsk mytologi gribes gudinden for månen, Selenes, af kærlighed til Endymion og opsøger med mellemrum den sovende yngling, som efter eget ønske blev skænket evig søvn i skønhed og ungdom af Zeus; sagnet er senere overført til den romerske gudinde Diana.-->Kom, som til sin Endymion</seg>,</l>
+<l rend="noIndent">Men ei hun sig bag Skyen <seg target="txtcmnt-453-04"><!--DATA-TERM: dulgte--><!--DATA-DEFINITION: skjulte.-->dulgte</seg>,</l>
+<l rend="noIndent">Jagtherren hun i Skoven fulgte,</l>
+<l rend="noIndent">Höit Bössen knalded’, Dyret faldt,</l>
+<l rend="noIndent">Og <seg target="txtcmnt-453-05"><!--DATA-TERM: Eccho--><!--DATA-DEFINITION: egentlig nymfen Echo, som hentæres af ubesvaret kærlighed til Narkissos indtil kun hendes stemme er tilbage; her: ekkoet.-->Eccho</seg> gjentog overalt:</l>
+<l rend="noIndent">:|: »Hör Jagtgudindens stolte Bud:</l>
+<l rend="noIndent">Jagtherrens Skud er Lykkeskud!« :|:</l>
+</lg>
+<lg xml:id="p_01124">
+<l rend="noIndent">Den stolte Hjort sank for vor Fod,</l>
+<l rend="noIndent">Den gav, som Druen her, sit Blod,</l>
+<l rend="noIndent">Nu Skaalen tömmes maa til Bunden,</l>
+<l rend="noIndent">Lyd höit vor Sang i Aftenstunden,</l>
+<l rend="noIndent"><seg target="txtcmnt-453-06"><!--DATA-TERM: Banlyst--><!--DATA-DEFINITION: bandlyst; udelukket el. forbudt.-->Banlyst</seg> er evig Savn og Sorg,</l>
+<l rend="noIndent">De komme ei til <seg target="txtcmnt-453-07"><!--DATA-TERM: Fredensborg--><!--DATA-DEFINITION: Fredensborg Slot eller by.--><hi rend="italic">Fredensborg</hi></seg>.</l>
+<l rend="noIndent">:|: Jagtherrens Skaal, end mangen Gang</l>
+<l rend="noIndent">Til Jægersang, til Hjertets Sang.:|:</l>
+</lg>
+<lg xml:id="p_01125">
+<l rend="noIndent">Naar Vint’ren isner Blad og Siv,</l>
+<l rend="noIndent">En Dröm er da <seg target="txtcmnt-453-08"><!--DATA-TERM: Dryaden(s)--><!--DATA-DEFINITION: i græsk mytologi en trænymfe, der lever og dør med træet.-->Dryadens</seg> Liv,</l>
+<l rend="noIndent">I Drömme Hornets Klang hun hörer,</l>
+<l rend="noIndent">Hun veed, hvad sig i Skoven rörer,</l>
+<l rend="noIndent">Og vil til Sommer, saligt vakt,</l>
+<l rend="noIndent">Fortælle om vor muntre Jagt,</l>
+<l rend="noIndent">:|: Höit Blad og Luftning vifter da:</l>
+<l rend="noIndent"><seg target="txtcmnt-453-09"><!--DATA-TERM: (Jagtherren) Held--><!--DATA-DEFINITION: her brugt som ønske om held og lykke.-->Jagtherren Held</seg>! Hurra! Hurra! :|:</l>
+</lg>
+<pb n="454"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Jagtherrens Skaal" synch="jagtherrens-skaal">
+<head type="section-comments">Jagtherrens Skaal</head>
+<p rend="noIndent">BFN 1056</p>
+<table rend="textcomments">
+<cell type="page">453</cell><cell><row xml:id="txtcmnt-453-01"><cell type="data-term">Velkommen varme Purpurskaal</cell><cell type="data-definition">førstelinjen af Oehlenschlägers drikkevise fra syngespillet <hi rend="italic">Røverborgen</hi>, med musik af Fr. Kuhlau, opført første gang på Det Kgl. Teater 1814.</cell></row><row xml:id="txtcmnt-453-02"><cell type="data-term">Diana</cell><cell type="data-definition">i romersk mytologi gudinde for jagten og månen.</cell></row><row xml:id="txtcmnt-453-03"><cell type="data-term">Kom … Endymion</cell><cell type="data-definition">i græsk mytologi gribes gudinden for månen, Selenes, af kærlighed til Endymion og opsøger med mellemrum den sovende yngling, som efter eget ønske blev skænket evig søvn i skønhed og ungdom af Zeus; sagnet er senere overført til den romerske gudinde Diana.</cell></row><row xml:id="txtcmnt-453-04"><cell type="data-term">dulgte</cell><cell type="data-definition">skjulte.</cell></row><row xml:id="txtcmnt-453-05"><cell type="data-term">Eccho</cell><cell type="data-definition">egentlig nymfen Echo, som hentæres af ubesvaret kærlighed til Narkissos indtil kun hendes stemme er tilbage; her: ekkoet.</cell></row><row xml:id="txtcmnt-453-06"><cell type="data-term">Banlyst</cell><cell type="data-definition">bandlyst; udelukket el. forbudt.</cell></row><row xml:id="txtcmnt-453-07"><cell type="data-term">Fredensborg</cell><cell type="data-definition">Fredensborg Slot eller by.</cell></row><row xml:id="txtcmnt-453-08"><cell type="data-term">Dryaden(s)</cell><cell type="data-definition">i græsk mytologi en trænymfe, der lever og dør med træet.</cell></row><row xml:id="txtcmnt-453-09"><cell type="data-term">(Jagtherren) Held</cell><cell type="data-definition">her brugt som ønske om held og lykke.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

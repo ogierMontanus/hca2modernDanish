@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Fast Runners</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hurtigloeberne">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hurtigloeberne_modern.xml">moderniseret version</note>
+                                                       <note target="132_The-Fast-Runners.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A prize was offered, well, two actually – a small one and a big one – for the fa...</incipit><idno type="image">Hurtigloeberne_forside.png</idno><popularity>903</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Fast Runners. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-29" who="NHB">formatted</change><change who="NHB" when="2022-09-29">formatting</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Fast Runners">
+               <head type="main" rend="The Fast Runners">The Fast Runners</head>                <p rend="noIndent" xml:id="p_00001">A prize was offered, well, two actually – a small one and a big one – for the fastest anyone could run, not in a single race but in a whole year.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘I won first prize of course!’ the <hi rend="italic">hare</hi> said; ‘there has to be some justice when one’s own family and good friends are among the judges; but that the <hi rend="italic">snail</hi> was awarded second prize is practically an insult to me!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Oh no,’ the <hi rend="italic">gatepost</hi>, who had been at the prize-giving ceremony, assured him, ‘account must also be taken of diligence and good will, that was said by several worthy persons, and that is how I see it too. The <hi rend="italic">snail</hi> has admittedly taken half a year to get over the threshold, but he fractured his thighbone in what was a very fast pace by his standards. He has lived and breathed for his running – and he runs with a house on his back! – All of that is highly commendable! – and then he got second prize!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘I could also have come into consideration!’ the <hi rend="italic">swallow</hi> said; ‘I don’t think anyone has displayed greater swiftness in flight and turning, and where haven’t I been: far and wide, wide, wide! –’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Yes, that is your misfortune!’ the <hi rend="italic">gatepost</hi> said; ‘you gad about too much! You’re always off somewhere, out of the country when it starts to freeze here; you have no love of your fatherland! You cannot be taken into account!’</p>
+               <p rend="firstIndent" xml:id="p_00006">‘But if I were to spend the winter here in the bog?’ the <hi rend="italic">swallow</hi> said, ‘slept the whole time, would I then come into consideration?’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Get an affidavit from the bog-woman that you have slept half the year here in your fatherland and you can come into consideration!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘I really deserved to have been awarded first prize and not second!’ the <hi rend="italic">snail</hi> said. ‘For I know that the <hi rend="italic">hare</hi> has only run off out of cowardice every time he thought there was danger about; I on the other hand, have made my running a lifetime assignment, and have become a cripple in the line of duty! If anyone is to have first prize, it ought to be me! – but I don’t kick up a fuss about it, I despise that sort of behaviour!’</p>
+               <p rend="firstIndent" xml:id="p_00009">And then it spat.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘I must be able in word and speech to defend the position that every prize, the vote I have cast at least, has been awarded when all just consideration has been taken!’ said the old <hi rend="italic">surveyor’s mark </hi>in the forest, which was a member of the adjudicating panel of judges. ‘I always proceed with order, deliberation and calculation. Seven times previously I have enjoyed the honour of participating in awarding the prize; but not until today have I managed to have my way. At every awarding of the prize I have based myself on something reliable. I have always started from the beginning of the alphabet to decide the first prize, and from the end to decide the second. And as you can see, if one starts from the beginning: The eighth letter from <hi rend="italic">A</hi> is <hi rend="italic">H</hi>, where we have the <hi rend="italic">Hare</hi>, and that is why I voted that the <hi rend="italic">Hare</hi> should have first prize, and the eighth letter from the end, though I hardly like including <hi rend="italic">Z</hi> because it has such an unsuitable sound – I always leave out what is unsuitable – is <hi rend="italic">S,</hi> which is why I voted that the <hi rend="italic">Snail</hi> should have second prize. Next time it will be <hi rend="italic">I</hi> for the first prize and <hi rend="italic">R</hi> for the second! – There must always be order in everything! one must have something solid to hold onto!’</p>
+               <p rend="firstIndent" xml:id="p_00011">‘I’d have voted for myself, if I hadn’t been one of the judges,’ the <hi rend="italic">mule</hi> said, who was also a co-adjudicator. ‘One has not only to take into account how fast one gets somewhere but what else can be involved, such as how much one is pulling; although <hi rend="italic">I</hi> wouldn’t have emphasised that on this occasion, nor the cleverness of the <hi rend="italic">hare</hi> in his flight, his shrewdness in suddenly leaping to one side to throw people off the track as to where he is hiding; no, there’s another thing many people notice and that ought not to be left out of consideration, and that is what is referred to as <hi rend="italic">the beautiful</hi>; that I have also included here, I looked at the <hi rend="italic">hare’s </hi>beautifully formed ears – they are a joy to behold – how long they are! I felt I was looking at myself when young, and so I voted for him!’</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Hush!’ the <hi rend="italic">fly</hi> said, ‘well, I don’t want to make a speech, just to say something! I know of more than one <hi rend="italic">hare</hi> I have managed to catch up with. Recently I crushed the hind legs of one of the youngest; I was sitting on the locomotive in front of the train, I often do that, for that is the best way of observing one’s own speed. A young <hi rend="italic">hare</hi> was running a long way ahead, he didn’t know that I was there; finally he had to move over, but then his hind legs were crushed by the locomotive, for <hi rend="italic">I</hi> was sitting on it. The <hi rend="italic">hare</hi> was left lying there, but I kept on going. That must surely be outrunning him? But I’m in no need of the prize!’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘I feel,’ <hi rend="italic">the wild rose</hi> thought – but it didn’t say it, it is not in its nature to express itself, although it might have been a good thing if it had done so – ‘I feel that the sunbeam ought to have had the first prize of honour, and the second one too! in a trice it flies the immeasurable distance from the sun down to us and with such a strength that all of nature is thereby woken up; it has a beauty that makes all of us roses blush and give off a sweet scent too! I don’t feel that the high, adjudicating authority has noticed it! If I were a sunbeam, I would give each of them sunstroke – but that would only make them angry, and they could always grow angry anyway! I’m not saying a word!’ <hi rend="italic">the wild rose</hi> thought; ‘Peace in the forest! it is delightful to blossom, be fragrant and refresh others, to live in story and song! The sunbeam will outlive us all even so!’</p>
+               <graphic type="blank"/>
+               <p rend="noIndent" xml:id="p_00014">‘What is first prize!’ asked the <hi rend="italic">worm</hi>, who had overslept and only just arrived.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Free admission to a cabbage patch!’ the <hi rend="italic">mule</hi> said; ‘I suggested the prize! The <hi rend="italic">hare</hi> definitely had to get it, and, as a thinking, active member, I took all due consideration of <hi rend="italic">its</hi> usefulness to the one winning it, so the <hi rend="italic">hare</hi> has been taken care of. The <hi rend="italic">snail</hi> may now sit on the stone wall and lap up moss and sunshine, after which it will be made one of the top judges of the fast race. It is such a good thing to have someone with expert practical knowledge included on what human beings refer to as <hi rend="italic">a committee</hi>! I must say that I expect a great deal of the future – we have already got off to such a fine start!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

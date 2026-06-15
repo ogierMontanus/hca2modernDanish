@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Psychen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr og Historier. Anden Række. Anden <pb n="515"/>Samling</i>, der udkom den 25. november 1861 med årstallet 1862 på titelbladet.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">2:<i> Eventyr og Historier II 1852-1862</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="psychen" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="psychen_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="155_The-Psyche">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>I Dagningen, i den røde Luft, skinner en stor Stjerne, Morgenens klareste Stjern...</incipit><readingTime>17</readingTime><popularity>931</popularity><cite>&lt;p&gt;H.C. Andersen: Psychen. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Psychen_hca_ill_0102.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1862</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>steder</term><term>livsforloeb</term><term>fortiden</term><term>kunst</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2024-02-23" status="draft">minor changes in div-structure</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Psychen" xml:id="psychen">
+<head type="main"><seg target="txtcmnt-437-01"><!--DATA-TERM: Psyche(n)--><anchor target="txtcmnt-437-01"/><!--græsk: sjæl; i den romerske forfatter Apuleius’ (ca. 125-180) roman <i>Metamorfoser</i>, også kaldet <i>Det gyldne Æsel</i>, findes myten om Amor og Psyche. Guden Amor forelsker sig i kongedatteren Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor. Psyche er et yndet motiv i billedkunst og skulptur.-->Psychen</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">I Dagningen, i den røde Luft, skinner en stor Stjerne, Morgenens klareste Stjerne; dens Straale zittrer mod den hvide Væg, som om den vilde der nedskrive, hvad den veed at fortælle, hvad den i Aartusinder saae her og der paa vor omdreiende Jord.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Hør een af dens Historier.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Nu nyligt, dens nyligt er os Mennesker for Aarhundreder siden, fulgte mine Straaler en ung Kunstner; det var i <hi rend="italic">Pavestaten</hi>, i Verdensbyen <hi rend="italic">Rom</hi>. Meget <hi rend="italic">der</hi> har i Tidernes Løb forandret sig, men ikke saa hurtigt, som Menneskeskikkelsen gaaer over fra Barn til Olding. <seg target="txtcmnt-437-02"><!--DATA-TERM: Keiserborgen--><anchor target="txtcmnt-437-02"/><!--opført på Palatinerhøjen i Rom af kejser Domitian (51-96 e.Kr.), som regerede fra 81-96.-->Keiserborgen</seg> var, som endnu i Dag, Ruiner; Figentræet og Laurbærtræet voxte mellem de omstyrtede Marmorsøiler og hen over de ødelagte, med Guld i Væggen prangende Badekamre; Colossæum var en Ruin; Kirkeklokkerne ringede, Røgelsen duftede, Processioner gik med Lys og straalende Baldachiner gjennem Gaderne. Der var kirkehelligt, og Kunsten var høi og hellig. I <hi rend="italic">Rom</hi> levede Verdens største Maler <hi rend="italic"><seg target="txtcmnt-437-03"><!--DATA-TERM: Raphael--><anchor target="txtcmnt-437-03"/><!--egentlig Raffaello Santi da Urbino (1483-1520; flere navneformer), italiensk maler og arkitekt.-->Raphael</seg></hi>; her levede Tidsalderens <seg target="txtcmnt-437-04"><!--DATA-TERM: første Billedhugger--><anchor target="txtcmnt-437-04"/><!--største billedhugger.-->første Billedhugger</seg> <hi rend="italic"><seg target="txtcmnt-437-05"><!--DATA-TERM: Michel Angelo--><anchor target="txtcmnt-437-05"/><!--Michelangelo Buonarotti (1475-1564), italiensk billedhugger, maler og arkitekt.-->Michel Angelo</seg></hi>; selv Paven hyldede de To, beærede dem med Besøg; Kunsten var <seg target="txtcmnt-437-06"><!--DATA-TERM: erkjendt--><anchor target="txtcmnt-437-06"/><!--anerkendt.-->erkjendt</seg>, hædret og lønnet. Men ikke alt Stort og Dygtigt er derfor seet og kjendt.</p>
+
+<p rend="firstIndent" xml:id="p_00004">I en lille, snever Gade stod et gammelt Huus, det havde engang været et Tempel; her boede en ung Kunstner; fattig var han, ubekjendt var han; ja, han havde jo nok unge Venner, ogsaa Kunstnere, unge i Sind, i Haab og Tanke; de sagde ham, at han var rig paa Talent og Dygtighed, men han var en Nar, at han aldrig selv kunde troe paa det. Han brød jo altid itu, hvad han havde formet i Leret, han blev aldrig tilfreds, fik aldrig Noget færdigt, og det maa man, for at det kan sees, erkjendes og skaffe Penge.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Du er en Drømmer!« sagde de, »og det er din Ulykke! men det kommer af, at Du ikke har levet endnu, ikke smagt Livet, nydt det i store, sunde Drag, som det skal nydes. I Ungdommen just, kan og skal man gjøre Det og sig til Eet! see den <pb n="438"/>store Mester <hi rend="italic">Raphael</hi>, som Paven hædrer, og Verden beundrer, han tager for sig af Vinen og Brødet!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Han spiser Bagerkonen med, den nydelige <hi rend="italic"><seg target="txtcmnt-438-01"><!--DATA-TERM: Fornarina--><anchor target="txtcmnt-438-01"/><!--<i>La Fornarina</i>, 1519, titlen på et af Rafaels verdslige portrætter. Ifølge en udbredt, men aldrig dokumenteret tradition, forestiller det én af Rafaels elskerinder og modeller, som øjensynligt var enten bagerkone, bagerdatter eller bagerjomfru: (italiensk) fornaro: bager.-->Fornarina</seg></hi>!« sagde <hi rend="italic">Angelo</hi>, een af de lystigste, unge Venner.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Ja, de sagde Alle saa Meget, efter deres Ungdom og Forstand. De vilde have den unge Kunstner med paa Lystighed, paa Vildskab, Galskab kan det ogsaa kaldes; og dertil følte han ogsaa i Øieblikke Lyst; hans Blod var varmt, Phantasien stærk; han kunde slaae med ind i den lystige Tale, lee høit med de Andre; og dog, <hi rend="italic">Det</hi> de kaldte »<hi rend="italic">Raphaels muntre Liv</hi>«, sank hen for ham som Morgentaagen, saae han den Guds Glands, der lyste ud fra den store Mesters Billeder; og stod han i Vaticanet foran Skjønhedsskikkelserne, Mestre for Aartusinder siden havde formet af Marmorblokken, da svulmede hans Bryst, han følte i sig Noget saa høit, saa helligt, opløftende, stort og godt, og han ønskede at skabe, at meisle ud af Marmorblokken saadanne Skikkelser. Han vilde give et Billede af, hvad der svang sig fra hans Hjerte op mod det Uendelige, men hvorledes, og i hvilken Skikkelse. Det bløde Leer bøiede sig i Skjønhedsformer for hans Fingre, men Dagen efter, som altid, brød han itu, hvad han havde skabt.</p>
+
+<p rend="firstIndent" xml:id="p_00008">En Dag gik han forbi eet af de rige Paladser, af hvilke <hi rend="italic">Rom</hi> har mange, han standsede der ved den store, aabne Indgangsport, og saae billedsmykkede Buegange omslutte en lille Have, der var overfyldt af de skjønneste Roser. Store, hvide Callaer med deres grønne, saftige Blade skøde op i Marmorkummen, hvor det klare Vand pladskede; og her forbi svævede en Skikkelse, en ung Pige, Datteren af dette fyrstelige Huus; saa fiin, saa let, saa deilig! saaledes havde han ingen Qvinde seet, jo! malet af <hi rend="italic">Raphael</hi>, malet som <hi rend="italic">Psyche</hi>, i eet af <hi rend="italic">Roms</hi> Paladser. Ja, <hi rend="italic">der</hi> var hun <hi rend="italic">malet</hi>, <hi rend="italic">her</hi> gik hun <hi rend="italic">levende</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00009">I hans Tanke og Hjerte var hun levende; og han gik hjem i sin fattige Stue og formede i Leret <hi rend="italic">Psyche</hi>; det var den rige, unge Romerinde, den <seg target="txtcmnt-438-02"><!--DATA-TERM: adelsbaarne--><anchor target="txtcmnt-438-02"/><!--adeligt fødte.-->adelsbaarne</seg> Qvinde; og for første Gang saae han tilfreds paa sit Værk. Det havde Betydning, det var hende. Og Vennerne, som saae det, jublede høit i Glæde; dette Arbeide var en Aabenbarelse af hans Kunstner-Storhed, den, de havde forud erkjendt, Verden skulde nu erkjende den.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Leret er vel kjødfuldt og levende, men det har ikke Marmorets Hvidhed og Varighed; i Marmorblokken maatte <hi rend="italic">Psychen</hi> her faae Liv, og det kostbare Stykke Marmor havde han; det laae allerede i mange Aar, som Forældrenes Eiendom, i <pb n="439"/>Gaarden; Flaskeskaar, <seg target="txtcmnt-439-01"><!--DATA-TERM: Finochi--><anchor target="txtcmnt-439-01"/><!--(italiensk) fennikel.-->Finochi</seg> Top, Levninger af Artiskokker dyngede sig hen over og tilsølede det, men indeni var det som Bjergets Snee; herfra skulde <hi rend="italic">Psychen</hi> løfte sig.</p>
+
+<p rend="firstIndent" xml:id="p_00011">En Dag traf det sig saa, ja, den klare Stjerne fortæller Intet derom, den saae det ikke, men vi vide det: et fornemt romersk Selskab kom i den snevre, ringe Gade. Vognen holdt noget derfra, Selskabet kom for at see den unge Kunstners Arbeide, ved et Tilfælde havde det hørt derom. Og hvem vare de fornemme Besøgende. Stakkels unge Mand! altfor lykkelige unge Mand, kunde han ogsaa kaldes. Den unge Pige selv, stod her i Stuen, og med hvilket Smiil, da hendes Fader sagde de Ord: »Det er jo Dig lyslevende!« det Smiil kan ikke formes, det Blik kan ikke gjengives, det forunderlige Blik, hvormed hun saae paa den unge Kunstner, det var et Blik som løftede, adlede og – knuste.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»<hi rend="italic">Psychen</hi> maa fuldføres i Marmor!« sagde den rige Herre. Og det var Livsens Ord for det døde Leer og for den tunge Marmorblok, som det var Livsens Ord for den betagne unge Mand. »Naar Arbeidet er fuldført, kjøber jeg det!« sagde den fyrstelige Herre.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Det var som en ny Tid rullede op i det fattige Værksted; Liv og Munterhed lyste derinde, Travlhed blev der. Den lysende Morgenstjerne saae, hvorledes Arbeidet skred frem. Leret selv var blevet som beaandet, fra hun var her, det bøiede sig i forhøiet Skjønhed til de kjendte Træk.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Nu veed jeg, hvad Livet er!« jublede han, »det er Kjærlighed! det er Opløftelse i det Herlige, Henrykkelse i det Skjønne! hvad Vennerne kalde Liv og Nyden, er Forkrænkelse, er Bobler i den gjærende <seg target="txtcmnt-439-02"><!--DATA-TERM: Bærme--><anchor target="txtcmnt-439-02"/><!--bundfald i gærede drikkevarer; her med bibetydningen: uren.-->Bærme</seg>, ikke den rene, himmelske Alterviin, Indvielsen i Livet!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">Marmorblokken blev reist, Meislen hug store Stykker bort; der blev maalt, sat Punkter og Mærker, det Haandværksmæssige gjort, til lidt efter lidt Stenen blev Legeme, Skjønhedsskikkelse, <hi rend="italic">Psychen</hi>, deilig som Guds Billede i den unge Qvinde. Den tunge Steen blev svævende, dandsende, luftiglet, en yndig <hi rend="italic">Psyche</hi>, med Smilet, himmelsk uskyldigt, som det havde speilet sig i den unge Billedhuggers Hjerte.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Stjernen i den rosenfarvede Morgen saae det og forstod tilvisse, hvad der rørte sig hos den unge Mand, forstod den vexlende Farve paa hans Kinder, Blinket fra hans Øine, idet han skabte, gjengav, hvad Gud havde givet.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Du er en Mester, som hine i Grækernes Tid!« sagde de henrykte Venner. »Snart vil hele Verden beundre din <hi rend="italic">Psyche</hi>!«</p>
+
+<pb n="440"/><p rend="firstIndent" xml:id="p_00018">»<hi rend="italic">Min Psyche</hi>!« gjentog han. »Min! ja, det maa hun være! ogsaa jeg er Kunstner, som hine store Henfarne! Gud har forundt mig Naadegaven, løftet mig høit, som den Adelsbaarne!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">Og han sank paa sine Knæ, græd i Tak til Gud – og glemte igjen ham for <hi rend="italic">hende</hi>, for hendes Billed i Marmor, <hi rend="italic">Psyche</hi>-Skikkelsen, der stod, som skaaren af Snee, rødmende i Morgensolen.</p>
+
+<p rend="firstIndent" xml:id="p_00020">I Virkeligheden skulde han see hende, den Levende, Svævende, hende, hvis Ord klang som Musik. I det rige Palads kunde han bringe Efterretningen om, at Marmor-<hi rend="italic">Psychen</hi> var fuldført. Han kom derind, gik gjennem den aabne Gaard, hvor Vandet pladskede fra Delphinerne i Marmorkummen, hvor Callaerne blomstrede og de friske Roser vældede frem. Han traadte ind i den store, høie Forhal, hvis Vægge og Loft prangede i Farver med Vaabenmærker og Billeder. Pyntede Tjenere, stolte, kneisende som Kaneheste med Bjælder, gik op og ned, Nogle havde ogsaa strakt sig magelige, overmodige paa de udskaarne Træbænke; de syntes Husets Herrer. Han sagde sit Ærende og blev nu ført op ad den blanke Marmortrappes bløde Tæpper. Statuer stode paa begge Sider; han kom gjennem rige Stuer med Billeder og skinnende Mosaikgulve. Den Pragt og Glands gjorde Aandedraget noget tungt, men snart igjen blev det let; den gamle fyrstelige Herre modtog ham saa mildt, næsten hjerteligt, og da de havde talt, bad han ham ved Afskeden at træde over til den unge Signora, hun vilde ogsaa see ham. Tjenerne førte ham gjennem pragtfulde Stuer og Sale til hendes Kammer, hvor hun var Pragten og Herligheden.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Hun talte til ham; intet <seg target="txtcmnt-440-01"><!--DATA-TERM: Miserere--><anchor target="txtcmnt-440-01"/><!--bøn med tekst fra Salmernes Bog 51, der anvendes i den katolske kirke ved bods- og passionsfester.-->Miserere</seg>, ingen Kirkesang havde mere kunnet smelte Hjertet, løfte Sjælen. Han greb hendes Haand, trykkede den til sine Læber; ingen Rose er saa blød, men der gik en Ild fra denne Rose, en Ild igjennem ham, en Opløftelse; der fløi Ord fra hans Tunge, han vidste det ikke selv; veed Krateret, at det kaster glødende Lava? Han sagde hende sin Kjærlighed. Hun stod overrasket, fornærmet, stolt, og med en Haan, ja, et Udtryk, som havde hun pludselig berørt den vaade, klamme Frø; hendes Kinder rødmede, Læberne bleve blege; hendes Øine vare Ild, og dog sorte, som Nattens Mulm.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Afsindige!« sagde hun. »Bort! ned!« og hun vendte ham Ryggen. Skjønhedsansigtet havde et Udtryk af <seg target="txtcmnt-440-02"><!--DATA-TERM: hiint forstenende Ansigt med Slangehaarene--><anchor target="txtcmnt-440-02"/><!--Medusahovedet; Medusa er i græsk mytologi den ene af tre skrækindjagende gorgoner, hvis blik forstenede alle. Perseus dræbte hende og gav det afhuggede hoved til Athene, der satte det i sit skjold, Ægiden.-->hiint forstenende Ansigt med Slangehaarene</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Som en synkende, livløs Ting kom han ned paa Gaden, som en Søvngænger naaede han hjem og opvaagnede i Raseri og <pb n="441"/>Smerte, greb sin Hammer, løftede den høit i Veiret og vilde sønderslaae det smukke Marmorbilled; men i sin Tilstand mærkede han ikke, at Vennen <hi rend="italic">Angelo</hi> stod tæt ved ham, greb ham med kraftigt Tag i Armen.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Er Du bleven gal? hvad har Du for?«</p>
+
+<p rend="firstIndent" xml:id="p_00025">De brødes med hinanden; <hi rend="italic">Angelo</hi> var stærkere, og med dybe Aandedræt kastede den unge Kunstner sig ned over en Stol.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Hvad er der skeet?« spurgte <hi rend="italic">Angelo</hi>. »Tag Dig dog sammen! tal!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">Men hvad kunde han tale? Hvad kunde han sige. Og da <hi rend="italic">Angelo</hi> ikke kunde faae fat i Taletraaden, lod han den være gjemt.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Du faaer tykt Blod i det evige Drømmeri! vær dog Menneske, som vi Andre, og lev ikke i Idealer, saa knækker man over! faae Dig en lille Ruus af Vinen, saa sover Du deiligt ovenpaa! lad en smuk Pige være din Doctor! Pigen fra <seg target="txtcmnt-441-01"><!--DATA-TERM: Campagnen--><anchor target="txtcmnt-441-01"/><!--flodslette uden for Rom og Tiberens nedre løb.-->Campagnen</seg> er deilig, som Prindsessen i Marmorslottet, Begge ere Evadøttre og ikke at skjelne fra hinanden i Paradiis! Følg Du din <hi rend="italic">Angelo</hi>! Din Engel er jeg, Livsens Engel! Der kommer en Tid, Du bliver gammel, Legemet falder sammen, og saa en smuk Solskinsdag, naar Alting leer og jubler, ligger Du som et vissent Straa, der ikke mere groer! jeg troer ikke, hvad Præsterne sige, at der er et Liv bag Graven! det er en smuk Indbildning, et Eventyr for Børn, fornøielig nok, naar man kan bilde sig det ind, jeg lever ikke i Indbildninger, men i Virkeligheden! kom med! bliv Menneske!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Og han drog ham med sig, han kunde det i dette Øieblik; der var en Ild i den unge Kunstners Blod, en Forandring i hans Sjæl, en Trang efter at rive sig løs fra alt det Gamle, alt Det, han var vant til, rive sig ud af sit eget gamle <hi rend="italic">Jeg</hi>, og han fulgte i Dag <hi rend="italic">Angelo</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00030">I en Udkant af <hi rend="italic">Rom</hi> laae et af Kunstnere besøgt <seg target="txtcmnt-441-02"><!--DATA-TERM: Osterie--><anchor target="txtcmnt-441-02"/><!--gæstgiveri.-->Osterie</seg>, bygget ind i Ruinen af et gammelt Badekammer; de store, gule Citroner hang mellem det mørke, glindsende Løv og dækkede en Deel af de gamle, rødgule Mure; Osteriet var en dyb Hvælving, næsten som en Hule ind i Ruinen; en Lampe brændte derinde foran Madonna-Billedet; en stor Ild blussede paa Skorstenen, her blev stegt, kogt og braset; udenfor, under Citron- og Laurbærtræer, stode et Par dækkede Borde.</p>
+
+<p rend="firstIndent" xml:id="p_00031">Lystigt og jublende bleve de To modtagne af Vennerne; Lidt spiste man, Meget drak man, det gav Munterhed; sjunget blev der og spillet Guitar; <seg target="txtcmnt-441-03"><!--DATA-TERM: Saltarello--><anchor target="txtcmnt-441-03"/><!--italiensk folkedans.-->Saltarello</seg> klang, og den lystige Dands <pb n="442"/><pb n="443"/>begyndte. Et Par unge Romerpiger, Modeller for de unge Kunstnere, traadte med i Dandsen, blandede sig med i Lystigheden; to nydelige <seg target="txtcmnt-443-01"><!--DATA-TERM: Bacchantinder--><anchor target="txtcmnt-443-01"/><!--egentlig vinguden Bacchus’ vilde ledsagere.-->Bacchantinder</seg>! ja, de havde ikke <hi rend="italic">Psyche</hi>-Skikkelse, vare ikke fine, smukke Roser, men friske, kraftige, blussende Nelliker.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Hvor var det varmt paa denne Dag, varmt selv ved Solnedgang; Ild i Blodet, Ild i Luften, Ild i hvert et Blik. Luften svømmede i Guld og Roser, Livet var Guld og Roser.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Nu endelig engang er Du med! lad Dig bære af Strømmen om Dig og i Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Aldrig før var jeg saa sund og glad!« sagde den unge Kunstner. »Du har Ret, I have Alle Ret, jeg var en Nar, en Drømmer, Mennesket hører til Virkeligheden og ikke til Phantasien!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">Med Sang og klingende Guitarrer drog de unge Mænd i den klare, stjernelyse Aften fra Osteriet gjennem Smaagaderne; de to blussende Nelliker, Campagnens Døttre, vare med i Toget.</p>
+
+<p rend="firstIndent" xml:id="p_00036">I <hi rend="italic">Angelos</hi> Stue, mellem omstrøede Skizzer, henslængte <seg target="txtcmnt-443-02"><!--DATA-TERM: Foglietter--><anchor target="txtcmnt-443-02"/><!--vinkarafler.-->Foglietter</seg> og glødende, yppige Billeder, klang Stemmerne mere dæmpede, men ikke mindre ildfulde; paa Gulvet laae i Tegning mangt et Blad, Campagnens Døttre i vexlende, kraftig Deilighed saa lig, og dog vare de selv langt skjønnere. Den sexarmede Lampestage lod alle sine Væger brænde og lyse; og indenfra brændte og lyste frem Menneskeskikkelsen som Guddom.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»<seg target="txtcmnt-443-03"><!--DATA-TERM: Apollo--><anchor target="txtcmnt-443-03"/><!--Apollon, i græsk og romersk mytologi solgud og musernes fører.-->Apollo</seg>! <seg target="txtcmnt-443-04"><!--DATA-TERM: Jupiter--><anchor target="txtcmnt-443-04"/><!--den romerske pendant til gudernes hersker i græsk mytologi, Zeus.-->Jupiter</seg>! ind i Eders Himmel og Herlighed løftes jeg! det er som Livsens Blomst i dette Minut sprang ud i mit Hjerte!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">Ja, den sprang ud – knækkede, faldt, og en bedøvende, hæslig <seg target="txtcmnt-443-05"><!--DATA-TERM: Dunst--><anchor target="txtcmnt-443-05"/><!--damp, røg, tåge.-->Dunst</seg> hvirvlede ud, blendede Synet, bedøvede Tankerne, Sandsernes Fyrværkeri slukkedes, og det blev mørkt.</p>
+
+<p rend="firstIndent" xml:id="p_00039">Han naaede sit Hjem, satte sig paa sin Seng, samlede sig. »Fy!« klang det fra hans egen Mund, fra hans Hjertegrund. »Elendige! bort! ned –!« Og han drog et Suk saa smertefuldt.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Bort! ned!« disse hendes Ord, den levende <hi rend="italic">Psyches</hi> Ord lød i hans Bryst, lød fra hans Læber. Han heldede sit Hoved til Puderne, uklar blev Tanken, og han sov.</p>
+
+<p rend="firstIndent" xml:id="p_00041">I Dagningen foer han op, samlede sig paany. Hvad var det? Havde han drømt det Hele? drømt <hi rend="italic">hendes</hi> Ord, Besøget i Osteriet, Aftenen med Campagnens purpurrøde Nelliker? – Nei, Alt var Virkeligheden, den han ikke før havde kjendt.</p>
+
+<p rend="firstIndent" xml:id="p_00042">I den purpurfarvede Luft skinnede den klare Stjerne, dens Straale faldt paa ham og Marmor-<hi rend="italic">Psychen</hi>, han selv zittrede ved <pb n="444"/>at betragte Uforkrænkelighedens Billede, ureent var hans Blik, syntes han. Klædet kastede han hen over den, endnu engang berørte han det for at afsløre Skikkelsen, men han kunde ikke betragte sit Værk.</p>
+
+<p rend="firstIndent" xml:id="p_00043">Stille, mørk, <seg target="txtcmnt-444-01"><!--DATA-TERM: rullet i sig selv--><anchor target="txtcmnt-444-01"/><!--indadvendt, lukket inde i sig selv.-->rullet i sig selv</seg>, sad han den lange Dag, ikke fornam han, hvad der rørte sig udenfor, Ingen vidste, hvad der rørte sig indenfor i dette Menneskehjerte.</p>
+
+<p rend="firstIndent" xml:id="p_00044">Der gik Dage, der gik Uger; Nætterne vare de længste. Den blinkende Stjerne saae ham en Morgen bleg, feberskjælvende, reise sig fra Sengen, gaae hen til Marmorbilledet, løfte Klædet tilside, see med et Blik saa smerteligt, saa inderligt paa sit Værk og derpaa, næsten segnende under Vægten, slæbe Statuen ud i Haven. Der var en forfalden, udtørret Brønd, et Hul kunde det kaldes, i det sænkede han <hi rend="italic">Psychen</hi>, kastede Jord hen over den, smed Qvas og Nelder over den friske Gravning.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Bort! ned!« var den korte Gravtale.</p>
+
+<p rend="firstIndent" xml:id="p_00046">Stjernen saae det fra den rosenrøde Luft og zittrede i to tunge Taarer paa den unge Mands dødblege Kinder, han, den Febersyge, – den Dødsyge, kaldte de ham paa Sygeleiet.</p>
+
+<p rend="firstIndent" xml:id="p_00047">Klosterbroderen <hi rend="italic">Ignatius</hi> kom som Ven og Læge, kom med Religionens Trøsteord, talte om Kirkens Fred og Lykke, Menneskenes Synd, Naaden og Freden i Gud.</p>
+
+<p rend="firstIndent" xml:id="p_00048">Og Ordene faldt som varme Solstraaler paa den vaade, gjærende Grund; den dampede, og løftede Taageskyer, Tankebilleder, Billeder, som havde deres Virkelighed; og fra disse svømmende Øer saae han ned over Menneskelivet: Feilgreb, Skuffelser var det, havde det været for ham. Kunsten var en Troldqvinde, der bar os ind i Forfængelighed, ind i jordiske Lyster. Falske vare vi mod os selv, falske mod vore Venner, falske mod Gud. <seg target="txtcmnt-444-02"><!--DATA-TERM: Slangen talte … Gud--><anchor target="txtcmnt-444-02"/><!--jf. 1. Mosebog 3, 4-5.-->Slangen talte altid i os: »smag og Du skal blive som Gud</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00049">Nu først syntes han at have forstaaet sig, fundet Veien til Sandheden og Freden. I Kirken var Guds Lys og Klarhed, i Munkecellen den Ro, hvor Mennesketræet kunde voxe op gjennem Evigheden.</p>
+
+<p rend="firstIndent" xml:id="p_00050">Broder <hi rend="italic">Ignatius</hi> støttede hans Tanke, og Beslutningen stod fast. Et Verdensbarn blev en Kirkens Tjener, den unge Kunstner gav Afkald paa Verden, gik i Kloster.</p>
+
+<p rend="firstIndent" xml:id="p_00051">Hvor kjærligt, hvor glad hilsedes han af Brødrene; hvor søndagsfestligt var Indvielsen. Gud, syntes han, var i Kirkens Solskin, straalede i det fra de hellige Billeder og fra det blanke Kors. Og da han nu i Aftenstunden, ved Solnedgang, stod i sin lille Celle og aabnede Vinduet, saae ud over det gamle <hi rend="italic">Rom</hi>, de <pb n="445"/>sønderbrudte Templer, det mægtige, men døde, <hi rend="italic">Colossæum</hi>, saae det i Foraarstiden, da Akasierne blomstrede, det Evigtgrønne var friskt, Roserne mylrede frem, Citroner og Oranger skinnede, Palmerne viftede, følte han sig greben og opfyldt, som aldrig før. Den aabne, stille Campagne strakte sig mod de blaanende, sneebedækkede Bjerge, de syntes malede paa Luften; Alt sammensmeltende, aandende Fred og Skjønhed, saa svømmende, saa drømmende, – en Drøm det Hele!</p>
+
+<p rend="firstIndent" xml:id="p_00052">Ja, en Drøm var Verden her, og Drømmen raader i Timer og kan komme igjen i Timer, men Klosterlivet er et Liv af Aaringer, lange, mange.</p>
+
+<p rend="firstIndent" xml:id="p_00053">Indenfra kommer Meget, der gjør Mennesket ureent, maatte han sande! hvad var det for Flammer, der stundom gjennemblussede ham? Hvad var det for et Væld af det Onde, Det, som han ikke vilde, der bestandigt vældede frem. Han straffede sit Legeme, men indenfra kom det Onde. Hvad var det for en Aandens Deel i ham, der saa smidig, som Slangen, bøiede sig om sig selv og krøb med hans Samvittighed ind under Alkjærlighedens Kaabe og trøstede: de Hellige bede for os, Moderen beder for os, Jesus selv har givet sit Blod for os. Var det Barnesind eller Ungdoms lette Sind, der gjorde, at han gav sig hen i Naaden og syntes at føle sig løftet ved den, løftet over saa Mange; thi <hi rend="italic">han</hi> havde jo stødt fra sig Verdens Forfængelighed, han var en Kirkens Søn.</p>
+
+<p rend="firstIndent" xml:id="p_00054">En Dag, efter mange Aar, mødte han <hi rend="italic">Angelo</hi>, der <seg target="txtcmnt-445-01"><!--DATA-TERM: kjendte ham--><anchor target="txtcmnt-445-01"/><!--genkendte ham.-->kjendte ham</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00055">»Menneske!« sagde han, »ja, det er Dig! Er Du nu lykkelig? – Du har syndet mod Gud og kastet hans Naadegave fra Dig, forspildt din <seg target="txtcmnt-445-02"><!--DATA-TERM: Sendelse--><anchor target="txtcmnt-445-02"/><!--mission.-->Sendelse</seg> i denne Verden. Læs <seg target="txtcmnt-445-03"><!--DATA-TERM: Parablen--><anchor target="txtcmnt-445-03"/><!--lignelsen; Matthæus 25,14-30.-->Parablen</seg> om de betroede Penge! den Mester som fortalte den, han gav Sandhed! Hvad har Du nu vundet og fundet! Laver Du Dig ikke et Drømmeliv! laver Dig en Religion efter <hi rend="italic">dit</hi> Hoved, som de nok Alle gjøre det. Om nu Alt var en Drøm, en Phantasie, smukke Tanker kun!«</p>
+
+<p rend="firstIndent" xml:id="p_00056">»<seg target="txtcmnt-445-04"><!--DATA-TERM: Viig fra mig, Satan--><anchor target="txtcmnt-445-04"/><!--Jesu ord, da Satan frister ham i ørkenen; jf. Matthæus 4,10.-->Viig fra mig, Satan</seg>!« sagde Munken og gik fra <hi rend="italic">Angelo</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00057">»Der er en Djævel, en personlig Djævel! jeg saae ham i Dag!« mumlede Munken. »Jeg rakte ham engang en Finger, han greb min hele Haand –! Nei«, sukkede han, »i mig selv er det Onde, og i dette Menneske er det Onde, men han knuges ikke af det, han gaaer med opreist Pande, har sin Velværen; – og jeg griber efter min Velværen i Religionens Trøst –! om den kun var Trøst! om Alt her, som Verden, jeg slap, var smukke Tanker kun! <pb n="446"/>Bedrag, som de røde Aftenskyers Deilighed er det, som det bølgeblaanende Skjønne i de fjerne Bjerge! nærved ere de anderledes! Evighed, Du er som det store, uendelige, blikstille Ocean, der vinker, kalder, fylder os med Anelser, og stige vi derud, da synke vi, vi forsvinde, – døe, – høre op at være til! – Bedrag! bort! ned!«</p>
+
+<p rend="firstIndent" xml:id="p_00058">Og uden Taarer, sjunken i sig selv, sad han paa sit haarde Leie, knælende – for hvem? Steenkorset, der sad i Muren? Nei, Vanen lod Legemet synke i denne Bøining.</p>
+
+<p rend="firstIndent" xml:id="p_00059">Jo dybere han saae ind i sig selv, desmørkere syntes det ham. »Intet derinde, Intet derude! forspildt dette Liv!« Og denne Tankesneebold rullede, voxte, knuste ham – slettede ham ud.</p>
+
+<p rend="firstIndent" xml:id="p_00060">»Ingen tør jeg betroe om den nagende Orm herinde! min Hemmelighed er min Fange, slipper jeg den, er jeg <hi rend="italic">dens</hi>!«</p>
+
+<p rend="firstIndent" xml:id="p_00061">Og Gudskraften i ham led og stred.</p>
+
+<p rend="firstIndent" xml:id="p_00062">»Herre! Herre!« udbrød han i sin Fortvivlelse, »vær barmhjertig, giv mig Tro! – Din Naadegave kastede jeg fra mig, min Sendelse i denne Verden! jeg manglede Kraften, Du gav mig den ikke. Udødeligheden, <hi rend="italic">Psychen</hi> i mit Bryst, – bort, ned! – begraves skal den som hiin <hi rend="italic">Psyche</hi>, mit bedste Livsblink! – aldrig opstaaer den af Graven!«</p>
+
+<p rend="firstIndent" xml:id="p_00063">Stjernen i den rosenrøde Luft lyste, Stjernen, der tilvisse skal udslukkes og <seg target="txtcmnt-446-01"><!--DATA-TERM: henveires--><anchor target="txtcmnt-446-01"/><!--fordufter, forsvinder.-->henveires</seg>, medens Sjælene leve og lyse; dens zittrende Straale faldt paa den hvide Væg, men ingen Skrift satte den der om Herligheden i Gud, om Naaden, om Alkjærligheden, den der klinger i den Troendes Bryst.</p>
+
+<p rend="firstIndent" xml:id="p_00064">»<hi rend="italic">Psychen</hi> herinde aldrig døe! – Leve i Bevidsthed? – kan det Ufattelige skee? – <hi rend="italic">Ja</hi>! ja! ufattelig er mit <hi rend="italic">Jeg</hi>. Ufattelig Du, o Herre! hele din Verden ufattelig; – et Underværk af Magt, Herlighed – <hi rend="italic">Kjærlighed</hi>!« –</p>
+
+<p rend="firstIndent" xml:id="p_00065">Hans Øine lyste, hans Øine brast. Kirkeklokkens Klang var den sidste Lyd over ham, den Døde; og han kom i Jord, hentet fra <hi rend="italic">Jerusalem</hi>, blandet med Støv af fromme Døde.</p>
+
+<p rend="firstIndent" xml:id="p_00066">Efter Aaringer toges <seg target="txtcmnt-446-02"><!--DATA-TERM: Beenraden--><anchor target="txtcmnt-446-02"/><!--skelettet.-->Beenraden</seg> frem, som de døde Munkes før ham, den iførtes den brune Kutte, fik en <seg target="txtcmnt-446-03"><!--DATA-TERM: Perlesnor--><anchor target="txtcmnt-446-03"/><!--rosenkrans.-->Perlesnor</seg> i Haanden og stilledes i Niche af Menneskeknogler, som de fandtes her i Klostrets <seg target="txtcmnt-446-04"><!--DATA-TERM: Begravelse--><anchor target="txtcmnt-446-04"/><!--gravplads, kirkegård.-->Begravelse</seg>. Og Solen skinnede udenfor, og Røgelsen duftede derinde, Messerne læstes.</p>
+
+<p rend="firstIndent" xml:id="p_00067">Aaringer gik.</p>
+
+<p rend="firstIndent" xml:id="p_00068">Knogler og Been faldt fra hinanden, mellem hinanden; Dødninghoveder stilledes op, de dannede en heel Kirkens ydre Muur; der stod ogsaa hans i det brændende Solskin, der vare <pb n="447"/>saa mange, mange Døde, Ingen kjendte nu Navnene paa dem, heller ikke paa ham. Og see, i Solskinnet rørte sig noget Levende inde i de to Øiehuler, hvad var det! et broget Fiirbeen sprang derinde i den hule Pandeskal, smuttede ud og ind af de tomme, store Øiehuler. Den var nu Livet derinde i det Hoved, hvor eengang de store Tanker, lyse Drømme, Kjærlighed til Kunsten og det Herlige havde løftet sig, hvorfra hede Taarer vare trillede, og hvor Haabet levede for en Udødelighed. Fiirbenet sprang, forsvandt; Pandeskallen smuldrede, blev Støv i Støvet.</p>
+
+<p rend="firstIndent" xml:id="p_00069">Det var Aarhundreder efter. Den klare Stjerne skinnede uforandret, klar og stor, som i Aartusinder, Luften lyste i Rødt, frisk som Roser, blussende som Blod.</p>
+
+<p rend="firstIndent" xml:id="p_00070">Hvor eengang var en snever Gade med Levninger af et gammelt Tempel, laae nu ud til Pladsen et Nonnekloster; her i Haven blev gravet en Grav, en ung Nonne var død og skulde i denne Morgenstund sænkes i Jorden. Spaden stødte mod en Steen; blendende hvid skinnede den; det hvide Marmor var at see, det rundede sig til en Skulder, den kom mere frem; forsigtigere førtes Spaden; et Qvindehoved blev at see, – <seg target="txtcmnt-447-01"><!--DATA-TERM: Sommerfuglevinger--><anchor target="txtcmnt-447-01"/><!--Psyche er ofte afbildet med sommerfuglevinger, som symboliserer den udødelige sjæl.-->Sommerfuglevinger</seg>. Fra Graven, hvori den unge Nonne skulde nedlægges, løftede man i den rosenrøde, blussende Morgen en deilig Psycheskikkelse, meislet af det hvide Marmor. »Hvor er den deilig! fuldendt, et Kunstværk fra den bedste Tid!« sagde man. Hvo kunde være Mesteren? Ingen vidste det, Ingen kjendte ham uden den klare i Aartusinder lysende Stjerne; den kjendte hans Jordlivs Gang, hans Prøve, hans Svaghed, hans <hi rend="italic">dette</hi>: »kun Mennesket!« – men det var dødt, veiret hen, som Støvet maa og skal, men Udbyttet af hans bedste Stræben, det Herligste, som viste det Guddommelige i ham, <hi rend="italic">Psychen</hi>, der aldrig døer, der overstraaler Eftermælet, Blinket fra den her paa Jorden, selv dette blev her, blev seet, erkjendt, beundret og elsket.</p>
+
+<p rend="firstIndent" xml:id="p_00071">Den klare Morgenstjerne i den rosenfarvede Luft sendte sin blinkende Straale paa <hi rend="italic">Psychen</hi> og paa de Lyksaligheds Smiil om Mund og i Øie hos de Beundrende, der saae Sjælen meislet af Marmorblokken.</p>
+
+<p rend="firstIndent" xml:id="p_00072">Hvad Jordisk er, veires hen, forglemmes, kun Stjernen i det Uendelige veed det. Hvad Himmelsk er, straaler selv i Eftermælet, og naar Eftermælet slukkes – da lever endnu <hi rend="italic">Psychen</hi>!</p>
+
+<pb n="448"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Psychen" xml:id="psychen">
+<head type="section-comments">Psychen</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Anden Række. Anden <pb n="515"/>Samling</hi>, der udkom den 25. november 1861 med årstallet 1862 på titelbladet.</p>
+<p rend="noIndent">BFN 830/IV,166-176/VII,273-277.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">446,10</cell><cell type="deviation">ham. &lt; ham</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">437</cell><row xml:id="txtcmnt-437-01"><cell type="data-term">Psyche(n)</cell><cell type="data-definition">græsk: sjæl; i den romerske forfatter Apuleius’ (ca. 125-180) roman <hi rend="italic">Metamorfoser</hi>, også kaldet <hi rend="italic">Det gyldne Æsel</hi>, findes myten om Amor og Psyche. Guden Amor forelsker sig i kongedatteren Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor. Psyche er et yndet motiv i billedkunst og skulptur.</cell></row><row xml:id="txtcmnt-437-02"><cell type="data-term">Keiserborgen</cell><cell type="data-definition">opført på Palatinerhøjen i Rom af kejser Domitian (51-96 e.Kr.), som regerede fra 81-96.</cell></row><row xml:id="txtcmnt-437-03"><cell type="data-term">Raphael</cell><cell type="data-definition">egentlig Raffaello Santi da Urbino (1483-1520; flere navneformer), italiensk maler og arkitekt.</cell></row><row xml:id="txtcmnt-437-04"><cell type="data-term">første Billedhugger</cell><cell type="data-definition">største billedhugger.</cell></row><row xml:id="txtcmnt-437-05"><cell type="data-term">Michel Angelo</cell><cell type="data-definition">Michelangelo Buonarotti (1475-1564), italiensk billedhugger, maler og arkitekt.</cell></row><row xml:id="txtcmnt-437-06"><cell type="data-term">erkjendt</cell><cell type="data-definition">anerkendt.</cell></row>
+<cell type="page">438</cell><row xml:id="txtcmnt-438-01"><cell type="data-term">Fornarina</cell><cell type="data-definition"><hi rend="italic">La Fornarina</hi>, 1519, titlen på et af Rafaels verdslige portrætter. Ifølge en udbredt, men aldrig dokumenteret tradition, forestiller det én af Rafaels elskerinder og modeller, som øjensynligt var enten bagerkone, bagerdatter eller bagerjomfru: (italiensk) fornaro: bager.</cell></row><row xml:id="txtcmnt-438-02"><cell type="data-term">adelsbaarne</cell><cell type="data-definition">adeligt fødte.</cell></row>
+<cell type="page">439</cell><row xml:id="txtcmnt-439-01"><cell type="data-term">Finochi</cell><cell type="data-definition">(italiensk) fennikel.</cell></row><row xml:id="txtcmnt-439-02"><cell type="data-term">Bærme</cell><cell type="data-definition">bundfald i gærede drikkevarer; her med bibetydningen: uren.</cell></row>
+<cell type="page">440</cell><row xml:id="txtcmnt-440-01"><cell type="data-term">Miserere</cell><cell type="data-definition">bøn med tekst fra Salmernes Bog 51, der anvendes i den katolske kirke ved bods- og passionsfester.</cell></row><row xml:id="txtcmnt-440-02"><cell type="data-term">hiint forstenende Ansigt med Slangehaarene</cell><cell type="data-definition">Medusahovedet; Medusa er i græsk mytologi den ene af tre skrækindjagende gorgoner, hvis blik forstenede alle. Perseus dræbte hende og gav det afhuggede hoved til Athene, der satte det i sit skjold, Ægiden.</cell></row>
+<cell type="page">441</cell><row xml:id="txtcmnt-441-01"><cell type="data-term">Campagnen</cell><cell type="data-definition">flodslette uden for Rom og Tiberens nedre løb.</cell></row><row xml:id="txtcmnt-441-02"><cell type="data-term">Osterie</cell><cell type="data-definition">gæstgiveri.</cell></row><row xml:id="txtcmnt-441-03"><cell type="data-term">Saltarello</cell><cell type="data-definition">italiensk folkedans.</cell></row>
+<cell type="page">443</cell><row xml:id="txtcmnt-443-01"><cell type="data-term">Bacchantinder</cell><cell type="data-definition">egentlig vinguden Bacchus’ vilde ledsagere.</cell></row><row xml:id="txtcmnt-443-02"><cell type="data-term">Foglietter</cell><cell type="data-definition">vinkarafler.</cell></row><row xml:id="txtcmnt-443-03"><cell type="data-term">Apollo</cell><cell type="data-definition">Apollon, i græsk og <pb n="516"/>romersk mytologi solgud og musernes fører.</cell></row><row xml:id="txtcmnt-443-04"><cell type="data-term">Jupiter</cell><cell type="data-definition">den romerske pendant til gudernes hersker i græsk mytologi, Zeus.</cell></row><row xml:id="txtcmnt-443-05"><cell type="data-term">Dunst</cell><cell type="data-definition">damp, røg, tåge.</cell></row>
+<cell type="page">444</cell><row xml:id="txtcmnt-444-01"><cell type="data-term">rullet i sig selv</cell><cell type="data-definition">indadvendt, lukket inde i sig selv.</cell></row><row xml:id="txtcmnt-444-02"><cell type="data-term">Slangen talte … Gud</cell><cell type="data-definition">jf. 1. Mosebog 3, 4-5.</cell></row>
+<cell type="page">445</cell><row xml:id="txtcmnt-445-01"><cell type="data-term">kjendte ham</cell><cell type="data-definition">genkendte ham.</cell></row><row xml:id="txtcmnt-445-02"><cell type="data-term">Sendelse</cell><cell type="data-definition">mission.</cell></row><row xml:id="txtcmnt-445-03"><cell type="data-term">Parablen</cell><cell type="data-definition">lignelsen; Matthæus 25,14-30.</cell></row><row xml:id="txtcmnt-445-04"><cell type="data-term">Viig fra mig, Satan</cell><cell type="data-definition">Jesu ord, da Satan frister ham i ørkenen; jf. Matthæus 4,10.</cell></row>
+<cell type="page">446</cell><row xml:id="txtcmnt-446-01"><cell type="data-term">henveires</cell><cell type="data-definition">fordufter, forsvinder.</cell></row><row xml:id="txtcmnt-446-02"><cell type="data-term">Beenraden</cell><cell type="data-definition">skelettet.</cell></row><row xml:id="txtcmnt-446-03"><cell type="data-term">Perlesnor</cell><cell type="data-definition">rosenkrans.</cell></row><row xml:id="txtcmnt-446-04"><cell type="data-term">Begravelse</cell><cell type="data-definition">gravplads, kirkegård.</cell></row>
+<cell type="page">447</cell><row xml:id="txtcmnt-447-01"><cell type="data-term">Sommerfuglevinger</cell><cell type="data-definition">Psyche er ofte afbildet med sommerfuglevinger, som symboliserer den udødelige sjæl.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

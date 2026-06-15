@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Two Pictures from Copenhagen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version2.0">2.0</idno>
+                                             <date>2024-04-01</date>
+<!--                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+-->                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="to-billeder-fra-kjoebenhavn">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="to-billeder-fra-kjoebenhavn_modern.xml">moderniseret version</note>
+                                                       <note target="80-81_Two-Pictures-from-Copenhagen.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Out close to the green ramparts that surround Copenhagen lies a large, red house...</incipit><idno type="image">Fra_et_Vindue_i_Vartov_01_2022-03-09.png</idno><popularity>922</popularity><cite>&lt;p&gt;Hans Christian Andersen: Two Pictures from Copenhagen. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 2.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-06" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-06">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change who="NHB" when="2023-05-16" status="draft">combined 80 and 81 into one file. Changed numbering from 1.0 to 2.0</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Two Pictures from Copenhagen">
+          <head type="main" rend="Two Pictures from Copenhagen">Two Pictures from Copenhagen</head>
+               <div type="chapter" rend="I [A View from Vartov's Window]">
+                    
+          <head rend="I">I</head>
+<head>[A View from Vartov's Window]</head>
+          <p rend="noIndent" xml:id="p_00001">Out close to the green ramparts that surround Copenhagen lies a large, red house with many windows where balsam and sandalwood grow; poor is how it looks inside, and poor old people live there.</p>
+          <p rend="firstIndent" xml:id="p_00002">Look! against the window ledge an old maid is leaning, she is picking off a withered leaf from the balsam and looking out at the green ramparts where children are merrily frisking; what is she thinking about? The drama of a lifetime unfolds in her mind.</p>
+          <p rend="firstIndent" xml:id="p_00003">The poor small children, how happily they are playing! what rosy cheeks, what vivacious eyes, but they have neither stockings nor shoes! they are dancing on the green ramparts where, according to legend, an innocent child many years ago – when the earth there always used to cave in – was lured by flowers and toys down into the open pit, which was walled up while the young one was still playing and eating down there. The ramparts were built on top and soon a fine greensward grew there. The young children know nothing of the legend, otherwise they would hear the child still weeping underground, and the dew on the grass would seem to them to be scalding tears. They know nothing of the story about the king of Denmark who, when the enemy was outside the city, rode past here and swore he would die in his own stronghold; then women and men came who poured boiling water down over the white-clad foes who were crawling up the outside of the ramparts in the snow.</p>
+          <p rend="firstIndent" xml:id="p_00004">Merrily the poor children play.</p>
+          <p rend="firstIndent" xml:id="p_00005">Play on, little girl! soon the years will come – yes, those wonderful years: those to be confirmed walk hand in hand, you are wearing a white dress that cost your mother plenty, even though it has been altered from a larger, old one! You get a red shawl that dangles too far down, but then people can see how large, how far too large it is! You are thinking of your finery and the Good Lord. How lovely a walk along the ramparts is! And the years pass with many dark days, but with the spirit of youth, and you gain a friend, but do not know this! you meet; you walk together along the ramparts in the early spring while all the church bells ring on General Prayer Day. No violets are as yet to be found, but outside Rosenborg Castle there stands a tree with its first green buds, where you both pause. Every year the tree puts forth fresh green branches, something the human heart does not do, for through it glide more dark clouds that northern climes know. Poor child, your bridegroom’s bridal chamber becomes a coffin, and you become an old maid; from <hi rend="italic">Vartou</hi> you gaze from behind the balsam at the playing children, see your own story be repeated.</p>
+          <p rend="firstIndent" xml:id="p_00006">And it is precisely this drama of a lifetime that unfolds in the mind of the old maid gazing out at the ramparts, where the sun is shining, where the children with rosy cheeks and no stockings or shoes are rejoicing, as are all the other birds of the air.</p>
+     </div>
+               <div type="chapter" rend="II [A Picture from the Citadel Ramparts]">
+                    <head rend="II">II</head>
+               <head rend="[A Picture from the Citadel Ramparts]">[A Picture from the Citadel Ramparts]</head><!--A Picture from Castelsvolden-->
+          <p rend="noIndent" xml:id="p_00007">It is autumn, we are standing on the Citadel Ramparts looking out across the sea at the many ships and at the Swedish coast that rises high in the evening sunshine; behind us the ramparts fall sharply; there magnificent trees stand, the yellow leaves are falling from the branches; at the bottom lie dismal hovels with wooden palisades, and inside, where the sentry goes up and down, it is both cramped and cheerless, but yet gloomier behind the bars of the dungeon – there the captured prisoners sit, the worst of their kind.</p>
+          <p rend="firstIndent" xml:id="p_00008">A ray of the setting sun slants down into the bare chamber. The sun shines alike on both wicked and good! The grim, swarthy prisoner gazes with a horrible look at the cold ray of the sun. A small bird flies up to the bars. The bird sings alike for both wicked and good! it sings a short ‘chirrup!’, but stays sitting there, shakes a wing, pecks a feather out of it, ruffles the feathers round its neck – and the wicked man in chains watches this; a milder expression passes over his horrid face; a thought that he cannot quite grasp gleams in his breast, it is akin to the sun’s ray through the bars, akin to the scent of the violets that grow so profusely outside in spring. Now the music of the huntsmen rings out, vibrant and strong. The bird flies from the bars of the dungeon, the sun’s ray disappears and it is dark inside the chamber, dark in the wicked man’s heart, but even so the sun has shone within, the bird sung within.</p>
+          <p rend="firstIndent" xml:id="p_00009">Play on, you beautiful notes of the hunting horn! The evening is beautiful, the sea still and calm.</p></div>
+     </div>
+               
+     </body>
+                         </text>
+                    </TEI>

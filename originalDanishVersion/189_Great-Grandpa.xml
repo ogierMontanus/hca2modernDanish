@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Great-Grandpa</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="oldefaer">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="oldefaer_modern.xml">moderniseret version</note>
+                                                       <note target="189_Great-Grandpa.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Great-Grandpa was such a splendid, wise and good-natured old man, all of us look...</incipit><idno type="image">Oldefaer_hca_ill_0153.png</idno><popularity>891</popularity><cite>&lt;p&gt;Hans Christian Andersen: Great-Grandpa. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Great-Grandpa">
+               <head type="main" rend="Great-Grandpa">Great-Grandpa</head>                <p rend="noIndent" xml:id="p_00001"><hi rend="italic">Great-Grandpa</hi> was such a splendid, wise and good-natured old man, all of us looked up to him; in actual fact, as far back as I can remember, he was called Grandpa, or sometimes Grandad, but when my brother <hi rend="italic">Frederik’s</hi> little son came into the family, he advanced to Great-Grandpa; higher than that was impossible to get! He was so very fond of all of us, but he did not seem to be that fond of our present age: ‘The old days were the good old days!’ he used to say; ‘they were slow and steady! now everything goes at such a gallop and turns everything topsy-turvy. The young people hold forth on everything, speak even about monarchs as if they were their equals. Everyone from the street can sop his cloth in stagnant water and wring it out over the head of an honourable man!’</p>
+               <p rend="firstIndent" xml:id="p_00002">When talking about such things, <hi rend="italic">Great-Grandpa</hi> would go quite red in the face; but soon afterwards his friendly smile would return, with the words: ‘Well, well! perhaps I’m completely wrong about that! I still stand with my feet in the old age and can’t get a proper foothold in the new one, may the Good Lord lead and guide it!’</p>
+               <p rend="firstIndent" xml:id="p_00003">When <hi rend="italic">Great-Grandpa</hi> talked about the old days, it was as if they came back to me. In my mind’s eye I saw myself riding in a golden coach with footmen, saw the guilds moving their signboards in processions with music and banners, took part in the amusing celebrations before Christmas where one played forfeits and dressed up. Admittedly, there was also a great deal that was ugly and cruel back then: people broken on the wheel and the shedding of blood, though all that horrible stuff somehow had something enticing and exciting about it. But I also got to know about the Danish noblemen who had liberated the peasants, and the Danish crown prince who had abolished slave trading.</p>
+               <p rend="firstIndent" xml:id="p_00004">It was lovely to hear <hi rend="italic">Great-Grandpa</hi> talk about all this, to hear about his days as a young man; but it was the times even before that which were the most delightful of all, so powerful and glorious.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘They were brutal!’ my brother <hi rend="italic">Frederik</hi> said, ‘thank God they are over and done with!’ and he said that straight out to <hi rend="italic">Great-Grandpa</hi>. That was unseemly, but I had great respect even so for <hi rend="italic">Frederik</hi>; he was my eldest brother, he could have been my father, he said; he said so many queer things. He had passed his university exam with top marks and was so proficient in my father’s office that he would soon be able to become a partner in the business. He was the one that <hi rend="italic">Grand-Grandpa</hi> most entered into discussions with, although they always ended up arguing with each other. The two of them never understood each other and never would do, the whole family said, but no matter how young I was, I soon noticed that the two of them could not do without each other.</p>
+               <p rend="firstIndent" xml:id="p_00006"><hi rend="italic">Great-Grandpa</hi> used to listen with shining eyes when <hi rend="italic">Frederik</hi> spoke or read aloud about progress in science, discoveries of the forces of nature, and all the remarkable things of our age.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘People get cleverer but not any better!’ <hi rend="italic">Great-Grandpa</hi> would say. ‘They invent the most terrible weapons of destruction against each other!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘That makes wars end much faster!’ <hi rend="italic">Frederik</hi> would say, ‘you don’t have to wait seven years for the blessings of peace! The world is full-blooded, there must be some bloodletting from time to time, it is necessary!’</p>
+               <p rend="firstIndent" xml:id="p_00009">One day <hi rend="italic">Frederik</hi> told him about something that had actually taken place in our age in a small country. The mayor’s clock, the large clock at the city hall, indicated the time to the city and its population; the clock did not keep perfect time, but the city went by it even so. Now railways also came to the country, and they were connected to those of all other countries, and for this reason one had to know the exact time, otherwise the trains might collide. The railway was provided with its own chronometer, which kept the exact time, which the mayor’s clock did not, and now all those in the city went by the railway clock.</p>
+               <p rend="firstIndent" xml:id="p_00010">I laughed and thought this was an amusing story, but <hi rend="italic">Great-Grandpa</hi> did not laugh, he became quite solemn.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘There’s a great deal in what you say!’ he said, ‘and I also understand the reason behind your telling me it. Your story about the clocks contains a moral. It causes me to think of another clock, my parents’ old, simple grandfather clock with leaden weights; it was their measurer of time as well as the one of my childhood; it didn’t keep absolutely perfect time, but it worked, and we looked at the clock face, believed what we saw and didn’t think about all the cogwheels inside. That was also the case with the machinery of government, we looked trustingly at it and believed what we saw. Now the machinery of the state has become a glass clock, one where one can see all the works inside, see the wheels spinning and turning, it makes you get all anxious about this pivot, that cogwheel! how can all this end up with exactly the right time, I think to myself, and no longer have my childlike trust. That is the precarious nature of the present age!’</p>
+               <p rend="firstIndent" xml:id="p_00012">And all this made <hi rend="italic">Great-Grandpa</hi> get quite worked up. He and <hi rend="italic">Frederik</hi> couldn’t get on with each other, but they couldn’t do without each other either, ‘just like the old age and the new age’! – both of them sensed this, as did the whole family, when <hi rend="italic">Frederik</hi> was to travel far away, to <hi rend="italic">America</hi>. It was on business matters that the trip had to be made. This was a hard separation for <hi rend="italic">Great-Grandpa</hi>, and the journey was such a long one, over the entire ocean to another part of the earth.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘I’ll send you a letter every fortnight!’ <hi rend="italic">Frederik</hi> said, ‘and you will be able to hear from me faster than all my letters via the telegraph wire; the days will become hours, the hours minutes!’</p>
+               <p rend="firstIndent" xml:id="p_00014">A telegraph greeting came when <hi rend="italic">Frederik</hi> went on board in <hi rend="italic">England</hi>. Earlier than a letter would have done, even if the clouds up above had been the postman, came the greeting from <hi rend="italic">America</hi> when <hi rend="italic">Frederik</hi> had stepped ashore; that had been only a few hours earlier.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘What divine consideration has been shown our age!’ <hi rend="italic">Great-Grandpa</hi> said; ‘a blessing to mankind!’</p>
+               <p rend="firstIndent" xml:id="p_00016">‘And it was in our country that such natural forces were first understood and expressed, <hi rend="italic">Frederik</hi> has told me.’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Yes,’ said <hi rend="italic">Great-Grandpa</hi>, and gave me a kiss. ‘Yes, and I have looked into the two mild eyes that first saw and understood this natural force, they were the eyes of a child, like yours! and I have shaken his hand!’ And then he kissed me once more.</p>
+               <p rend="firstIndent" xml:id="p_00018">More than a month had passed when <hi rend="italic">Frederik</hi> mentioned in a letter that he had become engaged to a young, beautiful girl that the whole family were sure to be delighted with. Her photograph was enclosed and scrutinised both with the naked eye and with a magnifying glass, for it is only such images that can stand being closely observed with the very sharpest glass, indeed, that it actually brings out the likeness even more. No painter has ever been able to achieve that, not even the great masters of earlier times.</p>
+               <p rend="firstIndent" xml:id="p_00019">‘If only one had known of that invention back then!’ <hi rend="italic">Great-Grandpa</hi> said, ‘we would have been able to look face to face at the benefactors and great men of the world! – How gentle and good the young girl looks!’ he said and stared through the glass. ‘Now I will know her when she comes in through the door!’</p>
+               <p rend="firstIndent" xml:id="p_00020">But this almost never happened; fortunately we did not hear all that much about the danger back home before it was over.</p>
+               <p rend="firstIndent" xml:id="p_00021">The newlyweds reached <hi rend="italic">England</hi> safe and sound, from there they were to travel by steamship to <hi rend="italic">Copenhagen</hi>. They could see the Danish coast, the white sand-dunes of West Jutland; then a storm blew up, the ship struck one of the sand bars and was stuck; a raging sea pounded the vessel and sought to destroy it; none of the lifeboats could be used; night came, but in the midst of the darkness a gleaming rocket from the shore shot up over the ship that had run aground; the rocket dropped a rope over it, a link was established between those on board and those on land, and soon in a rescue basket a beautiful, young woman was being pulled alive through the heavy waves; and she was ecstatically glad and happy when, soon afterwards, her young husband stood by her side on dry land. Everyone on board was rescued; and it was not yet dawn.</p>
+               <p rend="firstIndent" xml:id="p_00022">We lay sweetly sleeping in our beds in Copenhagen, with not a thought of sorrow or danger. As we all were sitting round the breakfast table, a report came via a telegram of the loss of a British steamship off the west coast of Jutland. We were all seized with anxiety and dread, but within an hour a telegram arrived from those rescued, the safely returned <hi rend="italic">Frederik</hi> and his young wife, who would soon be with us.</p>
+               <p rend="firstIndent" xml:id="p_00023">They all wept; I did too, and so did <hi rend="italic">Great-Grandpa</hi>, he folded his hands and – I am quite sure – blessed the new age.</p>
+               <p rend="firstIndent" xml:id="p_00024">On that day <hi rend="italic">Great-Grandpa</hi> donated two hundred thalers to the monument to <hi rend="italic">Hans Christian Ørsted</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00025">When <hi rend="italic">Frederik</hi> arrived home with his young wife and heard of this, he said: ‘That was well done, <hi rend="italic">Great-Grandpa</hi>! and now I will read for you what <hi rend="italic">Ørsted</hi> already wrote some years ago about the old age and our own age!’</p>
+               <p rend="firstIndent" xml:id="p_00026">‘He agreed with you, I suppose?’ <hi rend="italic">Great-Grandpa</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00027">‘Yes, you can be sure of that!’ <hi rend="italic">Frederik</hi> said, ‘and this you must certainly agree with, for you have donated to his monument!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Cripple</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="kroeblingen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="kroeblingen_modern.xml">moderniseret version</note>
+                                                       <note target="198_The-Cripple.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once an old manor with fine, young gentry. They enjoyed wealth and man...</incipit><idno type="image">Kroeblingen_hca_ill_0165.png</idno><popularity>910</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Cripple. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>kunst</term><term>humor</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-08" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-08" who="NHB">formatted</change><change who="NHB" when="2022-11-08">added many italics and linebreaks. Added a hyphen, exchanged Karen with Kirsten. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">fairytales>fairy tales</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Cripple">
+               <head type="main" rend="The Cripple">The Cripple</head>                <p rend="noIndent" xml:id="p_00001">There was once an old manor with fine, young gentry. They enjoyed wealth and many blessings, wished to enjoy life and did good. They wanted to make everybody as happy as they were themselves.</p>
+               <p rend="firstIndent" xml:id="p_00002">On Christmas Eve a beautifully decorated Christmas tree stood in the old banqueting hall, where there were fires blazing in the hearths and sprigs of fir hung round the old paintings. It was here the family gathered with their guests, and there was singing and dancing.</p>
+               <p rend="firstIndent" xml:id="p_00003">Earlier in the evening, there had already been plenty of Christmas cheer in the servants’ hall. Here too there stood a large fir tree with lit red and white candles, small Danish flags, swans and fishing net cut out of many-coloured paper filled with ‘sweeties’. The poor children of the parish had been invited; each of them accompanied by his or her mother. She did not look all that much at the tree, more in the direction of the decked Christmas tables, where there lay items of wool and linen, dresses and trousers. Yes, that was where the mothers and the older children were gazing, only the youngest children were stretching their hands out towards the candles, the tinsel and the small flags.</p>
+               <p rend="firstIndent" xml:id="p_00004">Everyone came early in the afternoon, were served Christmas porridge and roast goose with red cabbage. And when the Christmas tree had been looked at and the presents handed out, everyone was given a small glass of punch and small batter cakes filled with sliced apple.</p>
+               <p rend="firstIndent" xml:id="p_00005">They went home to their own poor living rooms, and there was much talk of ‘the good way of life’ – all the food, in other words – and the presents were now given another proper look.</p>
+               <p rend="firstIndent" xml:id="p_00006">Two such were <hi rend="italic">Garden-Kirsten</hi> and <hi rend="italic">Garden-Ole</hi>. Married to each other, they had a house and daily bread from weeding and digging in the manor garden. At every Christmas party they got their fair share of presents; they also had five children, all of them dressed in clothes from the family at the manor.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘They are people who do a lot of good, our family at the manor!’ they said.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘But they can afford it, and get due pleasure from it!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘We have got good clothes from them for four of the children to wear out!’ <hi rend="italic">Garden-Ole</hi> said. ‘But why hasn’t there been anything for the cripple? They normally remember him too, even though he isn’t at the party!’</p>
+               <p rend="firstIndent" xml:id="p_00010">It was their eldest child they called ‘the cripple’, though his real name was <hi rend="italic">Hans</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00011">When he was small, he had been the healthiest and liveliest child, but then he suddenly he ‘lost the use of his legs’ as people called it, he could neither stand nor walk and now he had been bedridden for nearly five years.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Well, I did get something for him as well!’ the mother said.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘But that’s nothing special, it’s just a book for him to read in!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘That won’t put the flesh on him!’ the father said.</p>
+               <p rend="firstIndent" xml:id="p_00015">But <hi rend="italic">Hans</hi> was very pleased with it. He was a very bright child who was fond of reading but who also spent his time working, to the extent he was able, as he always had to lie in bed. He was adroit, clever with his hands, knitted woollen socks – even whole bedspreads; the lady at the manor had praised and bought them.</p>
+            <p rend="firstIndent" xml:id="p_00016">It was a book of fairy tales <hi rend="italic">Hans</hi> had been given; there was a great deal in it to read, a great deal to think about.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘It’s of no use here in the house!’ his parents said. ‘It’ll pass the time, too. He can’t always be making stockings!’</p>
+               <p rend="firstIndent" xml:id="p_00018">Spring came, the flowers and green plants began to come out – the weeds as well, as one can also call nettles, despite nice words being said about them in the hymn:</p>
+               <lg xml:id="p_00019">
+                    <l><hi rend="italic">Though earth’s great kings came forward, clad</hi></l>
+               <l><hi rend="italic">In all their might and mettle,</hi></l>
+               <l><hi rend="italic">The smallest leaf they could not add</hi></l>
+               <l><hi rend="italic">To but a single nettle.</hi></l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00020">There was plenty to do in the manor garden, not only for the gardener and his apprentices but also for <hi rend="italic">Garden-Kirsten</hi> and <hi rend="italic">Garden-Ole</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00021">‘It’s sheer hard work!’ they said, ‘and no sooner have raked the paths than they are trodden down again. There’s a constant stream of visitors at the manor. It must cost a vast amount! but the family has lots of money!’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘It’s an absurd distribution of wealth!’ <hi rend="italic">Ole</hi> said. ‘We’re all God’s children, says the vicar. So why is there such a difference?’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘That comes from the Fall!’ <hi rend="italic">Kirsten</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00024">They talked about it again that evening, with Cripple-<hi rend="italic">Hans</hi> lying there with his book of fairy tales.</p>
+               <p rend="firstIndent" xml:id="p_00025">Straitened circumstances and endless toil had made his parents’ hands hard, but also their judgments and opinions; they couldn’t manage it, cope with it, and now their words started to become and angrier and more disgruntled.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘Some people get wealth and happiness, others only poverty! Why should we have to suffer for the disobedience and curiosity of our first parents. We haven’t behaved like those two did!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘Oh yes, we have!’ Cripple-<hi rend="italic">Hans</hi> suddenly said. ‘It says everything about it here in this book!’</p>
+               <p rend="firstIndent" xml:id="p_00028">‘What does it say in the book?’ his parents asked.</p>
+               <p rend="firstIndent" xml:id="p_00029">And <hi rend="italic">Hans</hi> read aloud for them the old story of <hi rend="italic">the Woodcutter and his Wife</hi>: They also argued about Adam and Eve’s curiosity that was responsible for their own misfortune. Then the king of the land happened to pass by. ‘Come home with me!’ he said, ‘and you will have a life just like mine, seven-course meals and a show dish. It’s in a lidded tureen, you mustn’t touch it, for that will put an end to living like a lord!’ – ‘What can there be in the tureen?’ the wife asked. ‘That’s none of our business!’ the man said. ‘Yes, well, I’m not curious!’ said the wife, ‘I just wondered why we’re not allowed to lift the lid – it’s sure to be something quite delicious!’ – ‘Just as long as there isn’t some mechanism involved!’ the man said, ‘like a pistol shot that goes off and wakes the whole household!’ – ‘Oh dear, no!’ the woman said and didn’t touch the tureen. But that night she dreamt that the lid lifted itself, and out wafted the smell of the most delicious punch that it only served at weddings and funerals. There was a large silver coin with the inscription: ‘If you drink of this punch, you will be the two richest people in the world and everyone else will be paupers!’ – And then the woman woke up and told her husband the dream. ‘You spend too much time thinking about that thing!’ he said. ‘We could lift the lid very cautiously!’ the wife said. ‘Very cautiously, then!’ the man said. And the woman very gently lifted the lid. Then out sprang two agile small mice and in a trice they disappeared down a mousehole. ‘Goodnight to you!’ the king said. ‘Now you can go back home and lie down where you belong. Don’t blame <hi rend="italic">Adam</hi> and <hi rend="italic">Eve</hi> any longer, you yourselves have been just as curious and ungrateful! – –</p>
+               <p rend="firstIndent" xml:id="p_00030">‘How has that story ended up in the book?’ <hi rend="italic">Garden-Ole</hi> said. ‘It’s as if it had us in mind. It gives one a lot to think about!’</p>
+               <p rend="firstIndent" xml:id="p_00031">The next day they went back to their work once more; they were roasted by the sun and drenched to the skin by the rain; inside them were disgruntled thoughts, and they brooded on them.</p>
+               <p rend="firstIndent" xml:id="p_00032">It was still light that evening at home when they had eaten their milk porridge.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘Read us that story of the woodcutter again,’ <hi rend="italic">Garden-Ole</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘There are so many lovely stories in that book!’ <hi rend="italic">Hans</hi> said. ‘So many that you do not know!’</p>
+               <p rend="firstIndent" xml:id="p_00035">‘I’m not interested in them,’ <hi rend="italic">Garden-Ole</hi> said. ‘I want to hear the one I know!’</p>
+               <p rend="firstIndent" xml:id="p_00036">And he and his wife heard it once more.</p>
+               <p rend="firstIndent" xml:id="p_00037">More than one evening they returned to that particular story.</p>
+               <p rend="firstIndent" xml:id="p_00038">‘It can’t quite explain everything, though!’ <hi rend="italic">Garden-Ole</hi> said. ‘People are a bit like creamy milk that curdles; some of it becomes fine curds, and the rest thin, watery whey! some people have good fortune in every respect – sit at high table every day and never met with sorrow or lack!’</p>
+               <p rend="firstIndent" xml:id="p_00039">Cripple-<hi rend="italic">Hans</hi> heard that. He might be weak in the legs, but there was nothing wrong with his head. He read aloud to them from the book of fairy tales, read about ‘<hi rend="italic">The Man without Sorrow and Lack</hi>’. Where now was the story to be found, for found it had to be:</p>
+               <p rend="firstIndent" xml:id="p_00040">The king lay ill and could not be cured unless he could be dressed in the shirt that had been borne and worn on the body of someone who one could truly say had never known sorrow or lack.</p>
+               <p rend="firstIndent" xml:id="p_00041">Messages were sent to all the countries in the world, to all the castles and manor houses, to all wealthy and happy people, but when questioned closely, it turned out that every one of them had experienced sorrow and lack.</p>
+               <p rend="firstIndent" xml:id="p_00042">‘I haven’t,’ said the swineherd who sat at the roadside, laughed and sang. ‘I am the happiest person in the world!’</p>
+               <p rend="firstIndent" xml:id="p_00043">‘Then give us your shirt,’ the messenger said, ‘you will be paid half a kingdom for it.’</p>
+               <p rend="firstIndent" xml:id="p_00044">But he didn’t have a shirt, yet he called himself the happiest person in the world.</p>
+               <p rend="firstIndent" xml:id="p_00045">‘That was a fine fellow!’ <hi rend="italic">Garden-Ole</hi> exclaimed, and he and his wife laughed as they hadn’t laughed for a year and a day.</p>
+               <p rend="firstIndent" xml:id="p_00046">Then the schoolmaster came past.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘How contented you are!’ he said, ‘that’s a rare sight in this house. Have you won a prize in the lottery?’</p>
+               <p rend="firstIndent" xml:id="p_00048">‘No, it’s nothing like that!’ <hi rend="italic">Garden-Ole</hi> said. ‘It’s <hi rend="italic">Hans</hi> who’s been reading for us out of his <hi rend="italic">book of fairy tales<!--fairytales--></hi>, he’s been reading about “<hi rend="italic">The Man without Sorrow and Lack</hi>”, and that fellow didn’t have a shirt to his name. It opens your eyes when you hear such a thing – and from a printed book, too! Everyone has a burden to bear – one is not the only one. That is always a consolation!’</p>
+               <p rend="firstIndent" xml:id="p_00049">‘Where have you got that book from?’ the schoolmaster asked.</p>
+               <p rend="firstIndent" xml:id="p_00050">‘Our <hi rend="italic">Hans</hi> was given it for Christmas over a year ago. The family at the manor gave it to him. They know he is so fond of reading and of course that he’s a cripple! At the time, we would have preferred him to have been given two blue canvas shirts. But the book is remarkable – it almost seems able to answer one’s thoughts!’</p>
+               <p rend="firstIndent" xml:id="p_00051">The schoolmaster took the book and opened it.</p>
+               <p rend="firstIndent" xml:id="p_00052">‘Let’s hear the same story again!’ <hi rend="italic">Garden-Ole</hi> said, ‘I haven’t completely grasped it yet. Then he can also read the other one about the <hi rend="italic">woodcutter</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00053">Those two stories were and remained enough for <hi rend="italic">Ole</hi>. They were like two rays of the sun shining into the humble living room, into the downtrodden thought that made them stubborn and disgruntled.</p>
+               <p rend="firstIndent" xml:id="p_00054"><hi rend="italic">Hans</hi> had read the whole book, read it many times. The fairy tales took him out into the world, there where he himself could not go since his legs would not carry him.</p>
+               <p rend="firstIndent" xml:id="p_00055">The schoolmaster sat at his bedside; the talked together and this gave both of them great pleasure.</p>
+               <p rend="firstIndent" xml:id="p_00056">From that day on, the schoolmaster came more often to <hi rend="italic">Hans</hi> when his parents were at work. It was like a party for the boy every time he came. How carefully he listened to what the old man told him – about the size of the earth and the many countries, and that the sun was almost half a million times larger than the earth and so far away that a cannon ball, when fired, would take no less than twenty-five years to reach the earth from the sun, whereas light rays could reach the earth in eight minutes.</p>
+               <p rend="firstIndent" xml:id="p_00057">Every proficient schoolboy knows all this of course, but for <hi rend="italic">Hans</hi> it was new and even more wonderful than everything that stood in his book of fairy tales.</p>
+               <p rend="firstIndent" xml:id="p_00058">The schoolmaster was a guest at the manor table a couple of times a year, and on one such occasion he told them what importance the book of fairy tales had in the poor household, where only two stories in it had woken them up and delighted them. The weak, clever young boy, by his reading, had brought food for thought and happiness into the house.</p>
+               <p rend="firstIndent" xml:id="p_00059">When the schoolmaster was to leave the manor house for home, the lady of the house pressed a couple of shining large silver coins into his hand for little <hi rend="italic">Hans</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00060">‘Father and mother are to have them!’ the boy said when the schoolmaster brought him the money.</p>
+               <p rend="firstIndent" xml:id="p_00061">And <hi rend="italic">Garden-Ole</hi> and <hi rend="italic">Garden-Kirsten</hi> said: ‘Cripple <hi rend="italic">Hans</hi> is a true source of benefit and blessing!’</p>
+               <p rend="firstIndent" xml:id="p_00062">A couple of days later – his parents were away working at the manor – the family’s carriage stopped outside; it was the kind-hearted lady of the manor paying a visit, so glad that her Christmas present had been such a source of consolation and pleasure to the boy and his parents.</p>
+               <p rend="firstIndent" xml:id="p_00063">She had fine white bread with her, fruit and a bottle of sweet juice, but what was even more agreeable, she brought him in a gilt cage a small black bird that could sing quite delightfully. The cage with the bird was placed up on the old chest of drawers a little way from the boy’s bed; he could see the bird and hear it – and even people out on the highway could hear it singing.</p>
+               <p rend="firstIndent" xml:id="p_00064"><hi rend="italic">Garden-Ole</hi> and <hi rend="italic">Garden-Kirsten</hi> didn’t get back home until after the lady of the manor had driven off; the could sense how happy <hi rend="italic">Hans</hi> was, but felt that the gift was going to mean nothing but trouble.</p>
+               <p rend="firstIndent" xml:id="p_00065">‘Rich people don’t stop and think very much!’ they said. ‘Are we to have that too to take care of. Cripple-<hi rend="italic">Hans</hi> can’t do it of course. It will end with the cat taking it!’</p>
+               <p rend="firstIndent" xml:id="p_00066">A week passed, and another one; the cat had been in the living room many times during all that time without frightening the bird, let alone cause it any harm. Then an important event took place. It was afternoon, his parents and the other children were away working, <hi rend="italic">Hans</hi> was all on his own; he had the book of fairy tales in his hand and was reading about the fisherman’s wife who had all her wishes granted; she wanted to be king, she became king; she wanted to become emperor, she became emperor; but then she wanted to be the Lord God himself – and there she was, back in the muddy ditch she had come from.</p>
+               <p rend="firstIndent" xml:id="p_00067">That story had nothing to do with the bird or the cat, but it was precisely that story he was reading when the event took place; he always remembered that afterwards.</p>
+               <p rend="firstIndent" xml:id="p_00068">The cage stood on the chest of drawers, the cat stood on the floor and stared fixedly up at the bird with its green-yellow eyes. There was something in the cat’s face, as if it wanted to say to the bird: ‘How lovely you are! I wouldn’t mind eating you!’</p>
+               <p rend="firstIndent" xml:id="p_00069"><hi rend="italic">Hans</hi> understood this – he could read it straight from the cat’s expression.</p>
+               <p rend="firstIndent" xml:id="p_00070">‘Be off with you, cat!’ he shouted. ‘Get out the room right now!’</p>
+               <p rend="firstIndent" xml:id="p_00071">It was as if it was getting ready to leap.</p>
+               <p rend="firstIndent" xml:id="p_00072"><hi rend="italic">Hans</hi> couldn’t reach it, the only thing he had that he could throw at it was his dearest treasure, his book of fairy tales. He threw it, but the binding was loose – it flew to one side, and the book itself with all its pages flew to the other side. The cat padded slowly back into the living room and looked at <hi rend="italic">Hans</hi>, as if it wanted to say:</p>
+               <p rend="firstIndent" xml:id="p_00073">‘Don’t interfere in any of this, little <hi rend="italic">Hans</hi>! I can walk and I can leap – and you can’t do either!’</p>
+               <p rend="firstIndent" xml:id="p_00074"><hi rend="italic">Hans</hi> kept an eye on the cat and felt very uneasy; the bird got uneasy too. There was no one to call for help; it was as if the cat knew this; it got ready to leap once more. <hi rend="italic">Hans</hi> waved his bedspread at it – he could still use his hands – but the cat took no notice of the bedspread; and when it too had been thrown at it to no avail, in one leap it was up onto the chair and then the window-sill. From here the bird was much closer.</p>
+               <p rend="firstIndent" xml:id="p_00075"><hi rend="italic">Hans</hi> could feel his blood boiling inside him, but he didn’t think about that, all he thought about was the cat and the bird; he couldn’t get out of bed on his own, he couldn’t stand on his legs, walk even less. It was as if his heart turned over inside his chest when he saw the cat leap from the window straight onto the chest of drawers and give the cage a shove, so that it fell. Inside the bird fluttered around in confusion.</p>
+               <p rend="firstIndent" xml:id="p_00076"><hi rend="italic">Hans</hi> gave a scream, his body gave a jerk, and without stopping to think, he leapt out of bed, over to the chest of drawers, pulled down the cat and held onto the cage, where the bird by now was terror-stricken. He held the cage in his hands and ran with it out of the door and out onto the road.</p>
+               <p rend="firstIndent" xml:id="p_00077">Then tears gushed out of his eyes; and he shouted with joy: ‘I can walk! I can walk!’</p>
+               <p rend="firstIndent" xml:id="p_00078">He had recovered the use of his legs again – such a thing can happen, and with him it did.</p>
+               <p rend="firstIndent" xml:id="p_00079">The schoolmaster lived close by; he ran into his house in his bare feet, with onto a shirt and jacket on and carrying the bird in its cage.</p>
+               <p rend="firstIndent" xml:id="p_00080">‘I can walk! he shouted. ‘Oh God, oh God!’ and he sobbed and wept from sheer joy.</p>
+               <p rend="firstIndent" xml:id="p_00081">And there was much joy in <hi rend="italic">Garden-Ole</hi> and <hi rend="italic">Garden-Kirsten’s</hi> house as well. ‘We will never have a happier day than this one!’ both of them said.</p>
+               <p rend="firstIndent" xml:id="p_00082"><hi rend="italic">Hans</hi> was called up to the manor house – he hadn’t walked along that road for many a year; it was as if the trees and hazel shrubs, those he knew so well, nodded to him and said: ‘Hello, <hi rend="italic">Hans</hi>! Welcome out here!’ The sun shone down on his face, right into his heart.</p>
+               <p rend="firstIndent" xml:id="p_00083">Those at the manor, the delightful young gentry, let him sit with them and they looked just as happy as if he could have been one of their own family.</p>
+               <p rend="firstIndent" xml:id="p_00084">Happiest of all, however, was the lady of the manor who had given him the book of fairy tales, given him the little songbird – it was now admittedly dead, had died of fright, but had in a way been the means of his recovery, and the book had roused him and his family and given them plenty to think about; he still had it, he would keep it safe and read it, no matter how old he became. And now he could be of use to those at home. He would learn a trade, most of all would like to be a bookbinder, ‘for,’ as he said, ‘in that way I can get to read all the new books!’</p>
+               <p rend="firstIndent" xml:id="p_00085">Late in the afternoon, the lady of the manor had both the parents come. She and her husband had talked together about <hi rend="italic">Hans</hi>; he was a devout, clever lad, eager to read and quick-minded. The Good Lord always furthers a good cause.</p>
+               <p rend="firstIndent" xml:id="p_00086">That evening, the parents came home quite happy from the manor, especially <hi rend="italic">Kirsten</hi>, but on the next day of the week she cried, for little <hi rend="italic">Hans</hi> was to leave them; he now wore a suit of fine clothes; he was a good boy; but he was to travel across the briny waves, far away, attend a school – a grammar school – and many years would pass before they saw him again.</p>
+               <p rend="firstIndent" xml:id="p_00087">He couldn’t take the book of fairy tales with him; that his parents wanted as a keepsake. And his father often read from it, but only the two stories, for those were the ones he knew.</p>
+               <p rend="firstIndent" xml:id="p_00088">And they received letters from <hi rend="italic">Hans</hi>, the one more joyous than the other. He lived with kind people who were well off; and the best thing of all was to go to school; there was so much to learn and know; he only hoped he could live to be a hundred and become a schoolmaster.</p>
+               <p rend="firstIndent" xml:id="p_00089">‘Just think if we get to see that!’ his parents said, and they clasped each others hands, as at holy communion.</p>
+               <p rend="firstIndent" xml:id="p_00090">‘Just think what has happened to <hi rend="italic">Hans</hi>!’ <hi rend="italic">Ole</hi> said. ‘The Good Lord also cares about the poor man’s child! and show this precisely with a cripple! isn’t it as if <hi rend="italic">Hans</hi> could read it aloud for us out of the book of fairy tales!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Phoenix</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="fugl-phoenix">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="fugl-phoenix_modern.xml">moderniseret version</note>
+                                                       <note target="94_The-Phoenix.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In the Garden of Eden, under the Tree of Knowledge, there stood a rosebush; here...</incipit><idno type="image">Fugl_Phoenix_hca_ill_0171.png</idno><popularity>921</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Phoenix. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>fortiden</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-18" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-18" who="NHB">formatted</change><change who="NHB" when="2022-11-18">Converted, added italics, and uploaded it to the website</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Phoenix">
+               <head type="main" rend="The Phoenix">The Phoenix</head>                <p rend="noIndent" xml:id="p_00001">In the Garden of Eden, under the Tree of Knowledge, there stood a rosebush; here, in the first rose, a bird was born, its flight was as that of light, its colour beautiful, its song magnificent.</p>
+               <p rend="firstIndent" xml:id="p_00002">But when <hi rend="italic">Eve</hi> took of the fruit of the Tree of Knowledge, when she and <hi rend="italic">Adam</hi> were expelled from Paradise, a spark from the punitive angel’s flaming sword fell into the bird’s nest and set light to it. The bird died in the flames, but out of the fiery egg flew a new bird, the only one, the forever one and only <hi rend="italic">Phoenix</hi>. Legend has it that it builds its next in Arabia, and every hundred years destroys itself by fire, and that a new Phoenix, the only one in the world, flies out of the fiery egg.</p>
+               <p rend="firstIndent" xml:id="p_00003">The bird flutters round us, as swift as light, its colour beautiful, its song magnificent. When a mother sits by her infant’s cradle, it is at its pillow, and with its wings it describes a halo round the child’s head. It flies through the living room of contentment and there is sunlight; the humblest dresser has the scent of violets.</p>
+               <p rend="firstIndent" xml:id="p_00004">But the Phoenix is not only the bird of Arabia, it also flutters in the shimmer of the Northern Lights above the icy plains of Lapland and hops among the yellow flowers during Greenland’s brief summer. Beneath the copper-rich mountain of Falun, in the coal mines of England it flies, like a powdered moth, across the songbook in the hands of the pious worker. It sails on the lotus leaf down the holy waters of the Ganges, and the eyes of the Hindu girl light up when she sees it.</p>
+               <p rend="firstIndent" xml:id="p_00005">The Phoenix! Do you not know him? The bird of Paradise, the holy swan of song. It sat on the Thespian waggon like a chattering raven, flapping its black, mire-besmirched wings; he sat as Odin’s raven on Shakespeare’s shoulder and whispered into his ear, over the Icelandic skald’s harp his red, clattering beak glided; he flew through Wartburg’s baronial hall at its choral festival.</p>
+               <p rend="firstIndent" xml:id="p_00006">The Phoenix! Do you not know him? He sang the Marseillaise to you, and you kissed the feather that fell from his wing; he came in the lustre of Paradise, and you perhaps turned to the sparrow who sat with gold leaf on its wings.</p>
+               <p rend="firstIndent" xml:id="p_00007">Bird of Paradise! renewed every hundred years, born in flames, dying in flames, your image, framed in gold, hangs in the halls of the rich, while you yourself often fly astray and alone – a mere legend: the Phoenix of Arabia.</p>
+               <p rend="firstIndent" xml:id="p_00008">- In the Garden of Eden, when you were born under the Tree of Knowledge, in the first rose, the <hi rend="italic">Lord God</hi> kissed you and gave you your true name – <hi rend="italic">Poetry</hi>.</p>
+          </div>
+     </body>
+                         </text>
+                    </TEI>

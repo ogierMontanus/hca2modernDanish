@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Toad</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="skrubtudsen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="skrubtudsen_modern.xml">moderniseret version</note>
+                                                       <note target="170_The-Toad.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The well was deep, so the rope was long; it was hard work winching the bucket fu...</incipit><idno type="image">Skrubtudsen_hca_ill_0121.png</idno><popularity>925</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Toad. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-10-28">added the last set of italics. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Toad">
+               <head type="main" rend="The Toad">The Toad</head>                <p rend="noIndent" xml:id="p_00001">The well was deep, so the rope was long; it was hard work winching the bucket full of water up over the rim of the well. The sun could never get down far enough to be reflected in the water, no matter how clear it was, but as far as the sun could reach, green moss grew between the stones.</p>
+               <p rend="firstIndent" xml:id="p_00002">A family of immigrant toads lived there that had actually arrived headlong in the person of the old toad-mother, who was still alive; the green frogs that had had the well as their home for much longer and that swam around in the water there, acknowledged them as cousins and referred to them as ‘well guests’. The latter seemed intent on staying there; they had a very comfortable existence on ‘dry land’, as they called the wet stones.</p>
+               <p rend="firstIndent" xml:id="p_00003">The <hi rend="italic">frog-mother</hi> had once travelled, been in the water bucket when it made its ascent, but she found the upper reaches too bright, it hurt her eyes, though she fortunately managed to escape from the bucket, fell with a fearful splosh into the water and had to lie still for three days with backache. She wasn’t able to say much about life up there, but one thing she knew, as all of them did, was that the well was not the whole world. The <hi rend="italic">toad-mother </hi>could certainly have related a thing or two, but she never answered any questions, so questions were never asked.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Dumpy and grumpy, chubby and grubby, that’s what she is!’ the young green frogs said. ‘Her offspring will be just as ugly!’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘That may well be!’ the <hi rend="italic">toad-mother</hi> said, ‘but one of them has a head with a precious stone in it, or perhaps I have!’</p>
+               <p rend="firstIndent" xml:id="p_00006">And the green frogs listened and gawped, and since they didn’t like what they had heard, they made wry faces and dived deep down. But the young toads stretched their hind legs out from sheer pride; each one of them believed it had the precious stone; and they sat there with the heads stock still, but finally they asked what they were to be so proud about, and what such a precious stone actually was.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘It’s something so priceless and magnificent,’ the <hi rend="italic">toad-mother</hi> said, ‘that I simply can’t describe it! It is something one wears for one’s own pleasure, and that the others feel envious about. But don’t ask me, I won’t answer!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Well, I haven’t got the stone!’ the smallest toad said; it was as ugly as it could possibly be. ‘Why should I have something so magnificent? And if it makes others envious, then it can’t give me any pleasure! No, all I wish for is to come up to the rim of the well and look out; it must be delightful!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘You’d do better to stay put!’ the old toad said, ‘stick to what you know for sure! Beware of the bucket, it’ll crush you; and should you get into it, you can easily fall out, not everyone falls as luckily as I did, with limbs and spawn all safe and sound!’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Croa-oak!’ the little toad said, and it sounded like when we humans say ‘Oh, oh!’</p>
+               <p rend="firstIndent" xml:id="p_00011">It wanted so much to get up to the rim of the well and look out; it felt such a longing for all that greenness up there; and the next morning, quite by chance, the bucket full of water was being hauled up, and when for a moment it stopped in front of the stone on which the toad was sitting, there was a quivering inside the tiny creature, it jumped into the full bucket, fell to the bottom of the water, which was then heaved up and emptied out.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Ugh, how horrible!’ the young man said when he saw it. ‘That’s the ugliest thing I’ve ever seen!’ and he aimed a kick at the <hi rend="italic">toad</hi> with his clog and almost maimed it, but it managed to hide among the tall nettles. It saw stalk on stalk, and also gazed upwards! The sun was shining on the leaves, making them quite transparent; it was like it is for us humans when we suddenly enter a large wood where the sun is shining through the branches and the foliage.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘It’s much more delightful here than down in the well! Here one could wish to stay for one’s entire life!’ the little toad said. It lay there for an hour, it lay there for two! ‘I wonder what’s outside? Now that I’ve come this far, I might as well explore some more!’ and it crawled out as quickly as it could crawl and came out onto the road, with the sun shining on it and the dust powdering the highway as it set off across it.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Here one really is on dry land!’ the <hi rend="italic">toad</hi> said, ‘it’s almost too much of a good thing, I feel a tickling sensation all over!’</p>
+               <p rend="firstIndent" xml:id="p_00015">It reached the ditch; forget-me-nots and meadowsweet grew there; there were live hedgerows full of elder and hawthorn; cotton-grass, known as ‘The Virgin Mary’s white shift’, grew there like creepers. There were a host of colours everywhere as well as a butterfly which the <hi rend="italic">toad </hi>thought was a flower that had tugged itself free so as to get a better view of the world, which was a perfectly reasonable thing to do.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘If only one could attain such speed,’ the<hi rend="italic"> toad</hi> said, ‘Croa-oak! oh! How splendid!’</p>
+               <p rend="firstIndent" xml:id="p_00017">It stayed here by the ditch for eight nights and days, with never a lack of food. On the ninth day it thought ‘Time to move on!’ – but was there anything more delightful to be found anywhere? Perhaps a small toad or some green frogs. The previous night there were sounds in the wind that seem to suggest there were ‘cousins’ close by.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘It’s wonderful to be alive! to come up from the well, lie in the nettles, crawl along the dusty road and rest in the wet ditch! but it’s time to move on! to find frogs or a small toad, one can’t do without that, nature can’t be everything for one!’ And off it set again on its travels.</p>
+               <p rend="firstIndent" xml:id="p_00019">It came into a field where there was a large pond fringed with reeds, and went in among them.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘It’s perhaps too wet for you here?’ the frogs said, ‘but you are most welcome! – Are you a he or a she? No matter, you are just as welcome either way!’</p>
+               <p rend="firstIndent" xml:id="p_00021">And it was invited to a concert that evening, a family concert: great enthusiasm and thin voices, we all know the sort of thing. There were no refreshments, only free drinks, the entire pond if they could manage it.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Now it’s time for me to move on!’ the little <hi rend="italic">toad</hi> said; it always had an urge for something better.</p>
+               <p rend="firstIndent" xml:id="p_00023">It saw the stars twinkling, so large and so bright, it saw the new moon gleaming, it saw the sun rise, higher and higher.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘I must still be in a well, a larger well, I must get up higher! I have this restlessness and longing inside me!’ and when the moon became full and round, the poor creature thought: ‘I wonder if that is the bucket being lowered, and that I must jump into it if I am to get higher up? or is the sun the great bucket? how huge it is, how brilliant, it can contain us all! I must seize my opportunity! oh, how it gleams inside my head! I don’t think the precious stone can gleam any better! But I don’t have it there and don’t weep for it either, no, higher up into brilliance and joy! I have a conviction, and yet this fear – it is a difficult step to take! but take it I must! Onwards! Straight ahead!’</p>
+               <p rend="firstIndent" xml:id="p_00025">And it set off in leaps and bounds, as such a creature can, and soon came to a public highway where humans lived; there were both flower and cabbage gardens. And it took a long rest near a cabbage garden.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘How many different creatures there are that I never knew about! and how large and wonderful the world is! but one must always keep one’s eyes peeled in it and not stick to one spot.’ And then it hopped into the cabbage garden. ‘How green it is here! how lovely!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘I know all about that!’ the <hi rend="italic">caterpillar</hi> on the leaf said. ‘My leaf is the biggest of all those in here! It hides half the world, but that half I can do without!’</p>
+               <p rend="firstIndent" xml:id="p_00028">A ‘cluck! cluck!’ was heard; hens came tripping into the cabbage patch. The one at the front was long-sighted; it caught sight of the caterpillar on the curly leaf and struck out at it, so that it fell onto the ground, where it wriggled and squirmed. The hen looked at it first with one eye and then with the other, for it didn’t know what could come of all that wriggling and squirming.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘It’s not doing it of its own free will!’ the <hi rend="italic">hen</hi> thought and lifted its head to strike. The <hi rend="italic">toad</hi> was so horrified that it crawled straight towards the <hi rend="italic">hen.</hi></p>
+               <p rend="firstIndent" xml:id="p_00030">‘So it’s got auxiliary troops!’ it said. ‘What a nasty creepy-crawly!’ and the hen turned round. ‘I don’t fancy that little, green mouthful, it will only tickle my gullet!’ The other hens were of the same opinion, and so they left.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘I squirmed my way out of that one!’ the <hi rend="italic">caterpillar</hi> said, ‘it’s a good thing to have presence of mind, but the most difficult thing of all is to get back up onto my cabbage leaf. Where is it?’</p>
+               <p rend="firstIndent" xml:id="p_00032">And the little <hi rend="italic">toad</hi> came and expressed its sympathy. It was glad that its sheer ugliness had frightened off the hens.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘What do you mean by that?’ the <hi rend="italic">caterpilla</hi>r asked. ‘I squirmed my own way out of trouble. You are most unpleasant to look at! May I please be allowed to return to my own world? Now I can smell cabbage! Now I’m back at my leaf! There’s nothing as delightful as that which is one’s own. But I’ve got to get higher up!’</p>
+               <p rend="firstIndent" xml:id="p_00034">‘Yes, higher up!’ the little <hi rend="italic">toad</hi> said, ‘higher up! it feels just as I do! but it’s not in the mood today, that must come from the shock it’s had. All of us want to get higher up!’ and it looked as high up as it could.</p>
+               <p rend="firstIndent" xml:id="p_00035">The <hi rend="italic">stork</hi> was sitting on its nest on the farmhouse roof; it was clacking away with its beak, and so was its wife.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘How high up they live!’ the <hi rend="italic">toad</hi> thought. ‘If only I could get up there!’</p>
+               <p rend="firstIndent" xml:id="p_00037">In the farmhouse two young students lived: one of them was a <hi rend="italic">poet</hi>, the other a <hi rend="italic">naturalist</hi>; one of them sang and wrote out of the joy he felt for everything God had created, and that was mirrored in his heart; he sang of this, concisely, clearly and richly in sonorous verse; the other one dealt directly with things, even taking them apart if the need arose. He viewed the Lord God’s work as some great mathematical task, subtracted, multiplied, wanted to know things from without and within, to talk intelligently about them and understand them completely, and he spoke of them gladly and wisely. Both of them were good, happy human beings.</p>
+               <p rend="firstIndent" xml:id="p_00038">‘There’s a fine specimen of a toad!’ the <hi rend="italic">naturalis</hi>t said, ‘I really must preserve it in alcohol!’</p>
+               <p rend="firstIndent" xml:id="p_00039">‘But you’ve already got two other ones!’ the <hi rend="italic">poet</hi> said. ‘Why not leave this one in peace to enjoy life!’</p>
+               <p rend="firstIndent" xml:id="p_00040">‘But it’s so marvellously ugly!’ the other one said.</p>
+               <p rend="firstIndent" xml:id="p_00041">‘Well, if we can find the precious stone in its head!’ the<hi rend="italic"> poet</hi> said, ‘I would be prepared to join in slitting it open!’</p>
+               <p rend="firstIndent" xml:id="p_00042">‘Precious stone!’ the other one said, ‘You are well-versed in natural history!’</p>
+               <p rend="firstIndent" xml:id="p_00043">‘But isn’t there something rather beautiful about the superstition that the <hi rend="italic">toad</hi>, the ugliest of all creatures, often hides the most magnificent precious stone in its head! Isn’t that the case with humans too? Didn’t <hi rend="italic">Aesop</hi>, and <hi rend="italic">Socrates</hi> too, have such a precious stone?’</p>
+               <p rend="firstIndent" xml:id="p_00044">The <hi rend="italic">toad</hi> didn’t hear any more, and it didn’t understand half of what it had heard either. The two friends moved on, and it escaped ending up preserved in alcohol.</p>
+               <p rend="firstIndent" xml:id="p_00045">‘They too talked about the precious stone!’ the<hi rend="italic"> toad</hi> said to itself. ‘It’s a good thing I haven’t got it, otherwise I would have been in a nasty situation!’</p>
+               <p rend="firstIndent" xml:id="p_00046">There came a great clacking from the farmhouse roof; the <hi rend="italic">stork father</hi> was lecturing to his family, and the latter were gazing obliquely down at the two young men in the cabbage patch.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘Human beings are the most conceited of creatures!’ the <hi rend="italic">stork</hi> said. ‘Just listen to their tongues wagging! and yet they can’t even make a proper clack. They boast about their gift of the gab, their language! and what a pretty language it is to be sure: it becomes incomprehensible for them for every day’s journey we take; those in one land can’t understand those in another. We can speak our language throughout the whole world, both in <hi rend="italic">Denmark</hi> and in <hi rend="italic">Egypt.</hi> They can’t fly either! They get up speed by an invention they called ‘the railway’, but they often break their necks doing so. It gives my beak the shivers when I think of it! The world has no need of humans. We can do very well without them! As long as we can keep frogs and worms!’</p>
+               <p rend="firstIndent" xml:id="p_00048">‘What a powerful speech!’ the little <hi rend="italic">toad</hi> thought. ‘What a great fellow he is! and how high he sits, higher than anyone I have ever seen before! and how he can swim!’ it exclaimed when the stork spread its wings and sped through the air.</p>
+               <p rend="firstIndent" xml:id="p_00049">And the <hi rend="italic">stork mother</hi> talked away in the nest, told of the land of <hi rend="italic">Egypt</hi>, of the waters of the Nile and all the matchless mud there was in foreign lands; it all sounded completely new and delightful to the small <hi rend="italic">toad</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00050">‘I’ve got to go to <hi rend="italic">Egypt</hi>!’ it said. ‘If only the stork would take me along, or one of her young. I would do something in return for it on its wedding day. Yes, I must really get to <hi rend="italic">Egypt</hi>, for I am so fortunate! All the longing and desire I have, it’s certainly better than having a precious stone in one’s head!’</p>
+               <p rend="firstIndent" xml:id="p_00051">And yet it had precisely that precious stone: <hi rend="italic">the eternal longing and desire</hi>, upwards, ever upwards! it shone inside the toad, it gleamed with joy, it was radiant with desire.</p>
+               <p rend="firstIndent" xml:id="p_00052">At that moment the stork arrived. It had seen the toad in the grass, it swooped down and struck, and was not particularly gentle with the small creature. The beak squeezed, the wind swished, it was not at all pleasant, but upwards it came, upwards to<hi rend="italic"> Egypt</hi>, it was sure of that; and therefore its eyes gleamed, it was as if a spark flew out of them:</p>
+               <p rend="firstIndent" xml:id="p_00053">‘Croa-oak! oh!’</p>
+               <p rend="firstIndent" xml:id="p_00054">Its body was dead, the <hi rend="italic">toad</hi> killed. But the spark from its eye, what became of that?</p>
+               <p rend="firstIndent" xml:id="p_00055">The sun’s ray took it, the sun’s rays bore the precious stone from the <hi rend="italic">toad’s</hi> head. Where to?</p>
+               <p rend="firstIndent" xml:id="p_00056">Don’t ask the <hi rend="italic">naturalist</hi>, ask the <hi rend="italic">poet</hi> rather; he will tell you it in the form of a fairytale; and the <hi rend="italic">caterpillar</hi> features in it, as does the <hi rend="italic">stork family</hi>. Just think! the<hi rend="italic"> caterpillar</hi> is transformed into a lovely butterfly! The <hi rend="italic">stork family</hi> fly over mountains and oceans to distant <hi rend="italic">Africa,</hi> and even so find the shortest route back home to Denmark, to precisely the same place, the same roof! Yes, it all sounds almost too much like a fairytale, and yet it is true – you can ask the <hi rend="italic">naturalist</hi> if you like, for he will have to admit it; and you know so yourself, for you have seen it.</p>
+               <p rend="firstIndent" xml:id="p_00057">– But what about the precious stone in the <hi rend="italic">toad’s</hi> head?</p>
+               <p rend="firstIndent" xml:id="p_00058">Seek it in the sun! Glimpse it if you can!</p>
+               <p rend="firstIndent" xml:id="p_00059">The gleam <hi rend="italic">there</hi> is too strong. As yet we do not have eyes that can withstand looking directly into the magnificence God has created, but one day we will have such eyes, and that will be the loveliest fairytale of all, for we ourselves will be a part of it!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

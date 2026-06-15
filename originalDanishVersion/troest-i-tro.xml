@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Trøst i Tro</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="troest-i-tro" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Skal vi ei mere synge igjen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00883</section>
+                                                                 <date>1864</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Jeg har en Angst som aldrig før</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00888</section>
+                                                                 <date>1864</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1864</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Trøst i Tro" xml:id="troest-i-tro"><pb n="353"/><head type="part">Trøst i Tro</head>
+<lg xml:id="p_00884">
+<l rend="noIndent" subtype="firstline" corresp="Skal vi ei mere synge igjen" rendition="skal-vi-ei-mere-synge-igjen">Skal vi ei mere synge igjen:</l>
+<l rend="noIndent">»<seg target="txtcmnt-353-01"><!--DATA-TERM: Danmark deiligst Vang og Vænge--><!--DATA-DEFINITION: førstelinje af L.O. Koks vise »Om Tyre Danebod«, udgivet af Peder Syv i 1695, melodi af P.E. Rasmussen fra 1811.-->Danmark deiligst Vang og Vænge</seg>!«</l>
+<l rend="noIndent">Hjertet bløder, synge vi den;</l>
+<l rend="noIndent">Vinterens Storm har jaget den hen. –</l>
+<l rend="noIndent">Kommer da ikke en eneste Ven?</l>
+<l rend="noIndent">Ham har vi ventet saa længe.</l>
+</lg>
+<lg xml:id="p_00885">
+<l rend="noIndent">Sommeren blæser sin milde <seg target="txtcmnt-353-02"><!--DATA-TERM: Bør--><!--DATA-DEFINITION: vind.-->Bør</seg>,</l>
+<l rend="noIndent">Hvidtjørnen blomstrer og Gjøgen kukker,</l>
+<l rend="noIndent">Alt er saa smilende friskt som før,</l>
+<l rend="noIndent">Fuglene kviddre i vante Humeur,</l>
+<l rend="noIndent">Hver en Blomst har sin gode Couleur,</l>
+<l rend="noIndent">Kun Menneskets Hjerte sukker.</l>
+</lg>
+<lg xml:id="p_00886">
+<l rend="noIndent">Ikke det hjelper, græd selv Du Blod,</l>
+<l rend="noIndent">Jamre og klage ikke Dig <seg target="txtcmnt-353-03"><!--DATA-TERM: baader--><!--DATA-DEFINITION: gavner.-->baader</seg>,</l>
+<l rend="noIndent">Det som skal skee, fra Evighed stod</l>
+<l rend="noIndent">Skrevet hos ham, som er alviis og god,</l>
+<l rend="noIndent">Han, som aldrig sin Skabning forlod,</l>
+<l rend="noIndent">Kongernes Konge, som raader.</l>
+</lg>
+<lg xml:id="p_00887">
+<l rend="noIndent">Ikke endnu er vort Fartøi et Skrog,</l>
+<l rend="noIndent">Alle Mand være paa Dækket!</l>
+<l rend="noIndent">Stykker af Relingen Søen tog,</l>
+<l rend="noIndent">Søen slaaer, som den sjelden slog,</l>
+<l rend="noIndent">Sprøiter sin Fraade mod Danebrog,</l>
+<l rend="noIndent">Gud, hold den uforkrænket!</l>
+</lg>
+<lg xml:id="p_00888">
+<l rend="noIndent">Aldrig Fortrøstningen heelt veirer hen,</l>
+<l rend="noIndent">Før brister Hjertet af Sorgen.</l>
+<l rend="noIndent">Altid Folketroen var den:</l>
+<l rend="noIndent">Danmark har i Vorherre en Ven,</l>
+<l rend="noIndent">Holde vi fast, Han holder igjen,</l>
+<l rend="noIndent">Og Solen vil skinne imorgen!</l>
+</lg>
+<pb n="354"/>
+<div type="work" subtype="poem" rendition="verse" rend="Psalme" xml:id="jeg-har-en-angst-som-aldrig-foer"><pb n="355"/><head type="part">Psalme</head>
+<lg xml:id="p_00889">
+<l rend="noIndent" subtype="firstline" corresp="Jeg har en Angst som aldrig før" rendition="jeg-har-en-angst-som-aldrig-foer">Jeg har en Angst som aldrig før,</l>
+<l rend="noIndent">Som stod jeg foran Dødens Dør</l>
+<l rend="noIndent">Og maatte ind og styrte ned</l>
+<l rend="noIndent">I Mørke og i Eensomhed;</l>
+<l rend="noIndent">Jeg drives frem med Stormens Hast,</l>
+<l rend="noIndent">O Herre, Herre, hold mig fast!</l>
+</lg>
+<lg xml:id="p_00890">
+<l rend="noIndent">Alt Ondt i mig det kom fra mig,</l>
+<l rend="noIndent">Hvad Godt jeg gjorde kom fra Dig;</l>
+<l rend="noIndent">De Andres Skyld jeg nok opskrev</l>
+<l rend="noIndent">Men ei mit eget Skyldner-Brev;</l>
+<l rend="noIndent">Hvor har jeg for mig selv hver Dag</l>
+<l rend="noIndent">Besmykket godt min egen Sag.</l>
+</lg>
+<lg xml:id="p_00891">
+<l rend="noIndent">Jeg trædes skal af Dødens Hæl,</l>
+<l rend="noIndent">Først da sig løfte kan min Sjæl.</l>
+<l rend="noIndent">Læg <hi rend="italic">Fadervor</hi> som <seg target="txtcmnt-355-01"><!--DATA-TERM: Duens Blad--><!--DATA-DEFINITION: jf. 1 Mosebog 8,11.-->Duens Blad</seg></l>
+<l rend="noIndent">Mig paa min Tunge, gjør mig glad.</l>
+<l rend="noIndent">Har jeg ei Gud, hvad har jeg da,</l>
+<l rend="noIndent">Naar hele Verden falder fra!</l>
+</lg>
+</div>
+               
+               
+               
+               
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Trøst i Tro" synch="troest-i-tro">
+<head type="section-comments">Trøst i Tro</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Illustreret Tidende</hi>, nr. 248, 26. juni 1864. BFN 881</p>
+<table rend="textcomments">
+<cell type="page">353</cell><cell><row xml:id="txtcmnt-353-01"><cell type="data-term">Danmark deiligst Vang og Vænge</cell><cell type="data-definition">førstelinje af L.O. Koks vise »Om Tyre Danebod«, udgivet af Peder Syv i 1695, melodi af P.E. Rasmussen fra 1811.</cell></row><row xml:id="txtcmnt-353-02"><cell type="data-term">Bør</cell><cell type="data-definition">vind.</cell></row><row xml:id="txtcmnt-353-03"><cell type="data-term">baader</cell><cell type="data-definition">gavner.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

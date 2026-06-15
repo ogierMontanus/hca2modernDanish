@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Pixie and the Missus</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="nissen-og-madammen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="nissen-og-madammen_modern.xml">moderniseret version</note>
+                                                       <note target="173_The-Pixie-and-the-Missus.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>You already know the pixie, but do you know the missus, the gardener’s missus? S...</incipit><idno type="image">Nissen_og_Madammen_01_2022-03-09.png</idno><popularity>891</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Pixie and the Missus. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>livsforloeb</term><term>barnelogik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-10-28">removed one opening inverted comma. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Pixie and the Missus">
+          <head type="main" rend="The Pixie and the Missus">The Pixie and the Missus</head>                <p rend="noIndent" xml:id="p_00001">You already know the <hi rend="italic">pixie</hi>, but do you know the <hi rend="italic">missus</hi>, the gardener’s missus? She was well-read, knew poems by heart, could write them with ease herself; only the rhymes, ‘the clinchings’ as she called them, caused her a little trouble. She was good at writing and speaking, she could have easily been a vicar, well, a vicar’s wife at least.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘The earth is beautiful, decked in its Sunday gown!’ she said, and that thought she had pleasingly fashioned, complete with ‘clinchings’, in the form of a song, both lovely and long.</p>
+          <p rend="firstIndent" xml:id="p_00003">The fully-trained teacher Mr. <hi rend="italic">Kisserup</hi> – his name is of no bearing here – was a nephew visiting the gardener; he heard her poem and benefited from it, he said, and greatly so. ‘You have soul, Madam!’ he said.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Twiddle-twaddle!’ the gardener said, ‘don’t start putting ideas into her head! a woman should be a body, a respectable body, and mind pots and pans, so that the porridge doesn’t get burnt!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘The taste of burnt bits I remove with an ember!’ the <hi rend="italic">missus</hi> said, ‘and those of yours with a small kiss. Anyone would think your sole interest is cabbage and potatoes, but you love flowers!’ and then she kissed him. ‘And flowers are also spirit!’ she said.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘You just mind your cooking pot!’ he said and went out into the garden, that was his cooking pot, the one he minded.</p>
+          <p rend="firstIndent" xml:id="p_00007">But the <hi rend="italic">teacher</hi> sat with the gardener’s <hi rend="italic">missus</hi> and talked with her, her lovely words ‘The earth is beautiful’ he almost turned into a whole sermon, in his own way.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘The earth is beautiful, “it shall be subject unto you”, it is written, and we became its masters. One is so through the spirit, the other through the body; one human was placed in the world like an exclamation mark of astonishment, the other as a dash, which might lead one to ask what is he doing here? One becomes a bishop, the other just a poor teacher, but everything shows prudence. The earth is beautiful and always decked in its Sunday gown! That was a thought-provoking poem, Madam, full of feeling and geography!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘You have a fine mind, Mr. <hi rend="italic">Kisserup</hi>!<hi rend="italic">’</hi> the <hi rend="italic">missus</hi> said, ‘and plenty of it, I assure you! One realises things about oneself when talking to you.’</p>
+          <p rend="firstIndent" xml:id="p_00010">And they went on talking, just as beautifully and finely; but out in the kitchen there was someone else talking, it was the <hi rend="italic">pixie</hi>, the little grey-clad pixie with his pointed red cap; you know him! The <hi rend="italic">pixie</hi> was sitting in the kitchen and was a pot-watcher, he was talking, but nobody heard him except the large black pussy cat, ‘The Cream Thief’ as the <hi rend="italic">missus</hi> called him.</p>
+          <p rend="firstIndent" xml:id="p_00011">The <hi rend="italic">pixie</hi> was so angry with her, for he knew she did not believe in his existence; she had certainly never seen him, but with all her reading she must surely know that he existed and show him just some degree of attention. It never occurred to her to place as much as a spoonful of porridge out for him on Christmas Eve, his forefathers had always got that, what’s more from missuses who had no reading at all; the porridge had lashings of butter and cream floating around on top. The cat slobbered into his beard at the mere mention of it.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘She refers to me as a concept!’ the <hi rend="italic">pixie</hi> said, ‘and that surpasses all my concepts. She simply denies me! I’ve found this out on the quiet and now I’ve found out some more; she’s sitting prattling away to the boy-whipper, the teacher. I say the same as hubby does: ‘Mind your cooking pot!’ She doesn’t do that; now I’m going to make it boil over!’</p>
+          <p rend="firstIndent" xml:id="p_00013">And the <hi rend="italic">pixie</hi> blew into the fire, so it flared up and burnt more brightly. ‘Shwuu-lup-upp!’ and the pot boiled over.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Now I’m going in there to pick some holes in hubby’s socks!’ the <hi rend="italic">pixie</hi> said. ‘I’ll unravel a big hole in toe and heel, that’ll give her something to darn, should she not be about to compose a poem: mistress of poetry, darn hubby’s socks!’</p>
+          <p rend="firstIndent" xml:id="p_00015">Now the <hi rend="italic">cat</hi> sneezed; he had a cold, although he was always clad in fur.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘I’ve unlocked the door to the larder,’ the <hi rend="italic">pixie</hi> said, ‘there’s some boiled cream in there as thick as pap. If you don’t want to lap the pap up, I will!’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘I’ll get the blame and the beating,’ the <hi rend="italic">cat</hi> said, ‘so let me lap up the cream too!’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘First the lapping, then the slapping!’ the <hi rend="italic">pixie</hi> said. ‘But now I’m going to go into the teacher’s room, hang his braces on the mirror and put his socks in the washbasin, so he’ll think the punch was too strong and he’s a little fuddled. Last night I sat on the woodpile by the dog kennel; I get a lot of pleasure out of riling the watchdog; I let my legs hang down and dangle. The dog couldn’t reach them, no matter how high he leapt; that annoyed him; he barked and barked, I dingled and dangled; it made quite a racket. This woke the teacher up, he got up three times and looked out, but he couldn’t see me, even though he was wearing glasses; he always sleeps with them on.</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Say miauw when the missus comes!’ the <hi rend="italic">cat</hi> said. ‘I don’t hear all that well, I’m sick today.’</p>
+          <p rend="firstIndent" xml:id="p_00020">‘You’re sick for a lick!’ the <hi rend="italic">pixie</hi> said, ‘lick your sickness away! but dry your beard afterwards so it’s not got cream in it! Now I’m off to eavesdrop.’</p>
+          <p rend="firstIndent" xml:id="p_00021">And the <hi rend="italic">pixie</hi> stood by the door and the door was ajar, there was nobody in the room except the <hi rend="italic">missus</hi> and the <hi rend="italic">teacher</hi>; they were talking about what the <hi rend="italic">teacher</hi> so nicely referred to as that which should be placed higher than the pot and pan in every household: <hi rend="italic">the gifts of the mind</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Mr. <hi rend="italic">Kisserup</hi>!’ the <hi rend="italic">missus</hi> said, ‘in that connection I now intend to show you something I have never shown to a living soul, let alone to a male personage, my little poems, some of them are admittedly quite long, I have called them: ‘Clinchings by an Danish Gentlewoman!’ I so much like good, old-fashioned words.</p>
+          <p rend="firstIndent" xml:id="p_00023">‘They should indeed be cherished!’ the <hi rend="italic">teacher</hi> said; ‘one should root the German out of our language.’</p>
+          <p rend="firstIndent" xml:id="p_00024">‘Oh, I do, I do!’ the <hi rend="italic">missus</hi> said; ‘you will never hear me say “Kleiner” or “Butterdeig”, I say <hi rend="italic">cruller</hi> and <hi rend="italic">puff pasty</hi>.’</p>
+          <p rend="firstIndent" xml:id="p_00025">And out of her drawer she took a writing book with a light-green cover and two ink-blots.</p>
+          <p rend="firstIndent" xml:id="p_00026">‘There is much seriousness in this book!’ she said. ‘I have a very keen sense of the sorrowful. Here now we have “The Sigh in the Night”, “My Afterglow”, and “When I claimed <hi rend="italic">Klemmensen</hi>” (my husband); you can skip that one, even though it is deeply felt and conceived. ‘The Duties of a Housewife’ is the best piece; all extremely sorrowful, that is where my true strength lies. Only one piece is jocular, contains some cheerful thoughts, such as one gets occasionally, thoughts about – you mustn’t laugh at me! – thoughts about being a poetess; <hi rend="italic">that</hi> is known only to myself, my drawer, and now also to you, Mr. <hi rend="italic">Kisserup</hi>! I am very fond of poetry, it comes over me, it titillates, takes over and is in charge. I have expressed this by the title “Little <hi rend="italic">Pixie</hi>”. I’m sure you know of the old superstition about the house pixie who is always up to things in the house; I have imagined that I myself was the <hi rend="italic">house</hi>, and that poetry, the feelings in me, were the <hi rend="italic">pixie</hi>, the controlling spirit; I have sung of his power and greatness in “Little <hi rend="italic">Pixie</hi>”, but you must pledge your solemn word never to reveal this to my husband or anyone else. Read it aloud, so I can hear that you can make out my handwriting.’</p>
+          <p rend="firstIndent" xml:id="p_00027">And the <hi rend="italic">teacher</hi> read and the <hi rend="italic">missus</hi> listened and the little <hi rend="italic">pixie</hi> did too; he was eavesdropping, you recall, and had just arrived when the title was being read: <hi rend="italic">Little Pixie</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘It’s to do with me!’ he said. ‘What can she have written about me? Well, I’ll pinch her, pinch her eggs, pinch her chickens, chase the fat off the fatted calf: Just you watch me, missus!’</p>
+          <p rend="firstIndent" xml:id="p_00029">And he listened with pursed lips and was all ears; but everything he heard about the splendour and power of the <hi rend="italic">pixie</hi>, his dominion over the missus, was referring to poetry, you understand, but the pixie went completely by the title, and the little fellow’s smile grew broader and broader, his eyes lit up with joy, there was something almost distinguished about the corners of his mouth, he lifted his heels, stood on his toes, became a whole inch taller than before; he was delighted by what was being said about the <hi rend="italic">Little Pixie</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00030">‘The missus has a noble mind and fine breeding! How unjust I have been towards her! She has placed me in her “clinching”, it will be printed and read! Now the cat won’t be allowed to drink her cream, I shall do it myself! One drinks less than two, which is always a saving, and I will implement that, out of reverence to the missus!’</p>
+          <p rend="firstIndent" xml:id="p_00031">‘How like a human he is, that pixie!’ the old cat said. ‘One sweet miauw from the missus, a miauw about himself, and he changes his mind completely. <!--‘-->She’s a sly character is the missus!’</p>
+          <p rend="firstIndent" xml:id="p_00032">But she wasn’t sly, it was just the <hi rend="italic">pixie</hi> who was human.</p>
+          <p rend="firstIndent" xml:id="p_00033">If you can’t understand this story, just ask, but don’t ask the pixie, or the missus, for that matter.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

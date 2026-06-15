@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Dung Beetle</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="skarnbassen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="skarnbassen_modern.xml">moderniseret version</note>
+                                                       <note target="149_The-Dung-Beetle.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The emperor’s horse was given gold shoes, a gold shoe on each hoof....</incipit><idno type="image">Skarnbassen_hca_ill_0090.png</idno><popularity>932</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Dung Beetle. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-03" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-03" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Dung Beetle">
+               <head type="main" rend="The Dung Beetle">The Dung Beetle</head>                <p rend="noIndent" xml:id="p_00001">The emperor’s horse was given gold shoes, a gold shoe on each hoof.</p>
+               <p rend="firstIndent" xml:id="p_00002">Why was he given gold shoes?</p>
+               <p rend="firstIndent" xml:id="p_00003">He was an extremely handsome animal, had fine legs, such wise eyes and a mane that hung down his neck like a veil of silk. He had carried his master through gun smoke and hails of bullets, heard the bullets whistle and sing past; he had bitten out and lashed out around him, also done battle when enemies thrust in close; leapt with his emperor on his back over the horse of a brought-down foe, saved his emperor’s crown of red gold, saved his emperor’s life, which was worth more than red gold, and that was why the emperor’s horse was given gold shoes, a gold shoe on each hoof.</p>
+               <p rend="firstIndent" xml:id="p_00004">And now out crawled the <hi rend="italic">dung beetle</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Large ones first, then small ones,’ it said, ‘not that size matters in the slightest.’ And it stretched out its spindly legs.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘What do you want?’ the <hi rend="italic">smith</hi> asked.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Gold shoes!’ the <hi rend="italic">dung beetle</hi> answered.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘You can’t be right in the head!’ the <hi rend="italic">smith</hi> said, ‘do you want gold shoes too?’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Gold shoes!’ the <hi rend="italic">dung beetle</hi> said. ‘Aren’t I just as good as that great beast that has to be attended to, currycombed, taken care of, given food and drink? Don’t I belong to the emperor’s stables as well?’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘But why do you think the horse has been given gold shoes?’ the <hi rend="italic">smith</hi> asked, ‘don’t you understand why?’</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Understand? I understand that this is treating me with contempt,’ the <hi rend="italic">dung beetle</hi> said, ‘it’s an insult – and so now I’m off into the great wide world!’</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Be off with you, then,’ the <hi rend="italic">smith</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Coarse fellow!’ the <hi rend="italic">dung beetle</hi> said, and went outside, whistled a little tune, and now it came to a very presentable small flower garden where there was a beautiful scent of roses and lavender.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Isn’t it lovely here!’ said one of the small <hi rend="italic">ladybirds</hi> that flew around with black dots on their red, shield-strong wings. ‘What a sweet fragrance and how beautiful it is here!’</p>
+               <p rend="firstIndent" xml:id="p_00015">‘I’m used to better!’ the <hi rend="italic">dung beetle</hi> said. ‘Do you call this beautiful? There’s not even a dung heap!’</p>
+               <p rend="firstIndent" xml:id="p_00016">And on it went, into the shade of a large stock; a <hi rend="italic">caterpillar</hi> was crawling on it.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘How delightful the world is!’ the <hi rend="italic">caterpillar</hi> said, ‘the sun’s so warm! Everything is so agreeable! and when I one day fall asleep and die, as people refer to it, I will wake up and find myself a butterfly!’</p>
+               <p rend="firstIndent" xml:id="p_00018">‘You’re imagining things!’ the <hi rend="italic">dung beetle</hi> said, ‘now we’re flying around like butterflies! I come from the emperor’s stables, but no one there, not even the emperor’s favourite horse, who goes round with my discarded gold shoes, has such fancies. Get wings! Fly! yes, now we’re flying off!’ and off flew the <hi rend="italic">dung beetle</hi>. ‘I don’t want to get annoyed, but it annoys me even so.’</p>
+               <p rend="firstIndent" xml:id="p_00019">Then it landed on a large patch of grass; here it lay for the while, then it fell asleep.</p>
+               <p rend="firstIndent" xml:id="p_00020">Goodness gracious, what a sudden downpour! the <hi rend="italic">dung beetle</hi> woke up with all the splashing and wanted to get down into the ground at once, but it couldn’t; it turned over, it swam on its stomach and on its back, flying was out of the question, it was sure it would never get away from the spot alive; it lay where it lay and there it would have to stay.</p>
+               <p rend="firstIndent" xml:id="p_00021">When the weather eased a bit, and the <hi rend="italic">dung beetle</hi> had blinked the water out of its eyes, it could just make out something white, it was linen being bleached; it managed to reach it, crept into a fold of the wet linen cloth, it was admittedly not the same as lying in the warm heap in the stables; but there was nothing better to be had here, so it stayed there a whole day, a whole night, and the rainy weather did likewise. Early the next morning the <hi rend="italic">dung beetle</hi> crept out. It was so annoyed with the climate.</p>
+               <p rend="firstIndent" xml:id="p_00022">On the linen two frogs were sitting; their bright eyes gleamed with sheer pleasure. ‘What marvellous weather!’ one of them said. ‘How refreshing it is! and the linen holds the water so well! it tickles my hind legs as if I was swimming!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘I wonder,’ the other one said, ‘if the swallow, who flies about so much, has ever on his many journeys to foreign countries found a better climate than ours; such raw weather, such wetness! it’s as if one was lying in a soggy ditch! if that doesn’t make one happy, one’s no true lover of one’s fatherland!’</p>
+               <p rend="firstIndent" xml:id="p_00024">‘Have you never been in the emperor’s stables?’ the <hi rend="italic">dung beetle</hi> asked. ‘It’s wet there, a wetness that’s both warm and spicy! that’s what I’m used to, that is my climate, but one can’t take it along when travelling. Isn’t there any hotbed in the garden where people of rank such as myself can put up and feel themselves at home?’</p>
+               <p rend="firstIndent" xml:id="p_00025">But the frogs didn’t understand him, or didn’t want to understand him.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘I never ask a second time!’ the <hi rend="italic">dung beetle</hi> said, after it had asked three times without getting an answer.</p>
+               <p rend="firstIndent" xml:id="p_00027">It went on a bit further, to where a potsherd lay; it wasn’t meant to be lying there, but lying as it did, it provided shelter. Here a number of <hi rend="italic">earwig</hi> families dwelt; they don’t need much space only social life; the females are particularly over-endowed with motherly love, which is why each one’s offspring was the loveliest and cleverest.</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Our son has become engaged!’ one mother said, the sweet, innocent thing! his highest aim is one day to creep into the ear of a clergyman. He is so lovably childlike and the engagement keeps him away from youthful excesses! that’s so gratifying for a mother!’</p>
+               <p rend="firstIndent" xml:id="p_00029">‘Our son,’ another mother said, ‘was on the go the moment he came out of the egg; he’s a bundle of energy, he’s having his youthful fling. That’s so immensely gratifying for a mother! Isn’t it, Mr <hi rend="italic">Dung Beetle</hi>?’ They recognised the stranger by its appearance.</p>
+               <p rend="firstIndent" xml:id="p_00030">‘You are both so right!’ the <hi rend="italic">dung beetle</hi> said, and then it was invited inside, as far as it could manage to fit in under the potsherd.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘You must also see my little earwig!’ a third and fourth mother said, ‘they are most lovable children and so amusing! they never misbehave except when they have a stomach ache, but that’s so frequent among children of their age!’</p>
+               <p rend="firstIndent" xml:id="p_00032">And then every mother talked about her offspring, and the young earwigs joined in and used the little fork they had on their tail to tug at the dung beetle’s whiskers.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘They’re always up to something, the little rascals!’ the mothers said, brimming over with motherly love, but all this bored the <hi rend="italic">dung beetle</hi>, so it asked if it was a long way from there to the hotbed.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘It’s far off in the world, on the other side of the ditch!’ the <hi rend="italic">earwig</hi> said, ‘so far, I hope, none of my children will ever venture, for it would be the death of me!’</p>
+               <p rend="firstIndent" xml:id="p_00035">‘I will try to make it even so!’ the <hi rend="italic">dung beetle</hi> said and left without saying goodbye – that is the most courteous.</p>
+               <p rend="firstIndent" xml:id="p_00036">At the ditch it met several of its own kind, all dung beetles.</p>
+               <p rend="firstIndent" xml:id="p_00037">‘This is where we live,’ they said. ‘We’re nice and warm here! Can’t we invite you to join us down here in our rich mire! Your journey must surely have tired you out!’</p>
+               <p rend="firstIndent" xml:id="p_00038">‘It has!’ the <hi rend="italic">dung beetle</hi> said. ‘I’ve lain on linen in rainy weather, and cleanliness really takes it out of me! I’ve also got rheumatism in my wing-joint from standing in a draught under a potsherd. It’s truly refreshing to come to one’s own kind this time!’</p>
+               <p rend="firstIndent" xml:id="p_00039">‘You’ve come from the hotbed perhaps?’ the oldest one asked.</p>
+               <p rend="firstIndent" xml:id="p_00040">‘Higher up! the <hi rend="italic">dung beetle</hi> said. ‘I come from the emperor’s stables, where I was born with gold shoes; I’m on a secret mission there’s no point in grilling me about, for I won’t say a word!’</p>
+               <p rend="firstIndent" xml:id="p_00041">And then the <hi rend="italic">dung beetle</hi> climbed down into the rich mire; there three young <hi rend="italic">female dung beetles</hi> were sitting, they giggled, for they didn’t know what to say.</p>
+               <p rend="firstIndent" xml:id="p_00042">‘They’re not engaged!’ their mother said, and then they giggled again, but this time out of shyness.</p>
+               <p rend="firstIndent" xml:id="p_00043">‘I have not seen any more beautiful in the emperor’s stables!’ the travelling <hi rend="italic">dung beetle</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00044">‘Please do not lead my young daughters astray! and do not speak to them unless you have honest intentions; – but you have, of course, and I give you my blessing.’</p>
+               <p rend="firstIndent" xml:id="p_00045">‘Hurrah!’ all the others said, and with that the <hi rend="italic">dung beetle</hi> was engaged. First engagement, then wedding, there was no reason to wait.</p>
+               <p rend="firstIndent" xml:id="p_00046">The next day everything went fine, the second day dragged by, but on the third day one had to think about feeding the wife and possibly tiny tots as well.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘I have allowed myself to be surprised!’ it said, ‘so I think I must surprise you in return!’</p>
+               <p rend="firstIndent" xml:id="p_00048">And it did. It was gone; gone the whole day, gone the whole night – and the wife was a widow. The other <hi rend="italic">dung beetles</hi> said that they had taken a real vagabond into the family; they were now saddled with the wife.</p>
+               <p rend="firstIndent" xml:id="p_00049">‘Now she can sit there as a spinster again!’ the <hi rend="italic">mother</hi> said, ‘sit there as my child! Oh, the horrid brute that’s left her!’</p>
+               <p rend="firstIndent" xml:id="p_00050">In the meantime, the dung beetle was on the move, however, had sailed on a cabbage leaf across the ditch; in the early morning two persons came by, they saw the dung beetle, picked it up, turned it over and over and were both very learned, especially the younger one. ‘<hi rend="italic">Allah</hi> sees the black beetle in the black stone in the black mountain! isn’t that what is written in the Quran?’ he asked and translated the dung beetle’s name into Latin and gave an account of its species and characteristics. The older learned one was against taking it back home with them, they had just as fine specimens there, he said, and that was not a very polite thing to say, the <hi rend="italic">dung beetle</hi> felt, so it flew out of his hand, flew quite a long way – its wings had dried out – and reached the hothouse where, since one of the windows was ajar, it was able to squeeze in and bury itself in the fresh manure.</p>
+               <p rend="firstIndent" xml:id="p_00051">‘It’s really nice here!’ it said.</p>
+               <p rend="firstIndent" xml:id="p_00052">Soon it fell asleep and dreamt that the emperor’s horse had fallen and that Mr. Dung Beetle had been given its gold shoes and promised a further two. That was most agreeable and when the <hi rend="italic">dung beetle</hi> woke up, it crawled out and looked up. What magnificence there was in the hothouse! large fan palms spread out high up, the sun made them transparent, and beneath them there was a profusion of greenery and a gleam of flowers, as red as fire, yellow as amber and white as new-fallen snow.</p>
+               <p rend="firstIndent" xml:id="p_00053">‘What sumptuous plant life! just think what it will taste like when it starts to rot!’ the <hi rend="italic">dung beetle</hi> said. ‘This is a good larder; there must be members of the family here; I’ll go on a search to see if I can find anyone I can associate with. I’m proud, and proud of it!’ And it set off, still thinking of its dream of the dead horse and the gold shoes it had gained.</p>
+               <p rend="firstIndent" xml:id="p_00054">Suddenly a hand seized the <hi rend="italic">dung beetle</hi>, it was squeezed and turned over and over.</p>
+               <p rend="firstIndent" xml:id="p_00055">The gardener’s young son and a playmate were in the hothouse, had seen the <hi rend="italic">dung beetle</hi> and wanted to amuse themselves with it; placed in a vine leaf it was put in a warm trouser pocket, it scratched and scrabbled, was given a pinch by the boy, who quickly went over to the large lake at the end of the garden, where it was placed in an old, cracked clog that had lost its instep; a stick was bound to it as a mast, and the <hi rend="italic">dung beetle</hi> was lashed to it with a piece of woollen thread; now it was a skipper and was to set out on a voyage.</p>
+               <p rend="firstIndent" xml:id="p_00056">It was a very large inland lake, the <hi rend="italic">dung beetle</hi> thought it was an ocean and was so surprised that it fell onto its back and kicked away with its legs.</p>
+               <p rend="firstIndent" xml:id="p_00057">The clog sailed off, there was a current, but if the craft got too far out, the boy would immediately roll up his trouser legs and go out and fetch it, but when it started to drift again, the boys were strictly ordered away, so they hurried off and left the clog to its own devices; it drifted further and further from land, always further out, it was terrible for the <hi rend="italic">dung beetle</hi>; it couldn’t fly, it was bound to the mast.</p>
+               <p rend="firstIndent" xml:id="p_00058">It was visited by a <hi rend="italic">fly</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00059">‘Lovely weather we’re having!’ the <hi rend="italic">fly</hi> said. ‘Here’s a good place to rest, to bask in the sun. You’ve a most pleasant spot here!’</p>
+               <p rend="firstIndent" xml:id="p_00060">‘You speak to the extent your reason allows! Can’t you see I’ve been tethered?’</p>
+               <p rend="firstIndent" xml:id="p_00061">‘I’m not!’ the <hi rend="italic">fly</hi> said and off it flew.</p>
+               <p rend="firstIndent" xml:id="p_00062">‘Now I know the world!’ the <hi rend="italic">dung beetle</hi> said, ‘it is a base world! I’m the only honest one in it! First they refuse to give me gold shoes, then I have to lie on wet linen, stand in a draught and finally they foist a wife onto me. If I take a bold step out into the world and see how one can fare and how I would fare, along comes a young human pup and lashes me to the mast out on the wild ocean. And meanwhile the emperor’s horse goes around in gold shoes! that annoys me most of all; but one can’t expect any sympathy in this world! the course of my life is highly interesting, but what use is that when nobody knows about it! The world doesn’t deserve to know about it either, otherwise it would have given me gold shoes in the emperor’s stables when his favourite horse was shoed, I stretched my legs out. If I had been given gold shoes, I would have done honour to the stables, now it has lost me and the world has lost me, it’s all over!’</p>
+               <p rend="firstIndent" xml:id="p_00063">But all wasn’t over yet, for along came a boat with some young girls in it.</p>
+               <p rend="firstIndent" xml:id="p_00064">‘There’s a clog out there on the water!’ one of them said.</p>
+               <p rend="firstIndent" xml:id="p_00065">‘There’s a tiny creature tethered to it!’ another one said.</p>
+               <p rend="firstIndent" xml:id="p_00066">They were right alongside the clog, took it up, and one of the girls took out her small scissors, cut through the woollen thread without harming the <hi rend="italic">dung beetle</hi> and when they came ashore, she placed it in the grass.</p>
+               <p rend="firstIndent" xml:id="p_00067">‘Crawl, crawl! fly, fly if you can!’ she said. ‘Freedom’s a wonderful thing!’</p>
+               <p rend="firstIndent" xml:id="p_00068">And the <hi rend="italic">dung beetle</hi> flew straight through the open window of a large building and sank down into the fine soft, long mane of the emperor’s favourite horse, which was standing in the stables where it and the <hi rend="italic">dung beetle</hi> had their home; it clung to the mane and sat there collecting its thoughts. ‘Here I am, sitting on the emperor’s favourite horse! as a rider! What did I say! yes, now everything is clear to me! it’s a good idea, and a correct one. Why did the horse get gold shoes? That’s what the smith asked me too. Now I realise why! It was given gold shoes because of me!’</p>
+               <p rend="firstIndent" xml:id="p_00069">And this put the <hi rend="italic">dung beetle</hi> in a good mood.</p>
+               <p rend="firstIndent" xml:id="p_00070">‘Travel clears the mind!’ it said.</p>
+               <p rend="firstIndent" xml:id="p_00071">The sun shone down on it, shone so beautifully. ‘The world’s not so bad even so,’ the <hi rend="italic">dung beetle</hi> said, ‘one just needs to know how to take it!’ The world was delightful because the emperor’s favourite horse had been given gold shoes since the <hi rend="italic">dung beetle</hi> was to be its rider.</p>
+               <p rend="firstIndent" xml:id="p_00072">‘Now I’ll climb down to the other <hi rend="italic">beetles</hi> and tell them how much has been done for me; I’ll tell them about all the pleasant things I have experienced on my foreign trip, and I’ll say that I’m staying at home until the horse has worn out its gold shoes!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den gamle Kirkeklokke</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang på tysk i <hi rend="italic">Schiller-Album 1861</hi>. Trykt første gang på dansk i <hi rend="italic">Folkekalender for Danmark 1862</hi>, der udkom i december 1861.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1862</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den gamle Kirkeklokke" xml:id="den-gamle-kirkeklokke">
+<head type="main">Den gamle Kirkeklokke</head>
+<head type="sub">(Skrevet til »<hi rend="italic">Schillers</hi> Album«)</head>
+
+<p rend="noIndent" xml:id="p_02361">I det tydske Land <hi rend="italic"><seg><!--DATA-TERM: Würtemberg--><anchor target="txtcmnt-453-01"/><!--Württemberg i den sydvestlige del af Tyskland; hertugdømme, fra 1806 kongerige.-->Würtemberg</seg></hi>, hvor Akasietræerne så dejligt blomstre ved Landevejen og Æble- og Pæretræerne bugne i Høst ved den modne Velsignelse, ligger en lille By, <hi rend="italic">Marbach</hi>; den hører til de ganske ringe Stæder, men smukt ligger den ved <hi rend="italic">Neckarfloden</hi>, der skynder sig forbi Byer, gamle Ridderborge og grønne Vinbjerge, for at blande sine Vande med den stolte Rhinstrøm.</p>
+
+<p rend="firstIndent" xml:id="p_02362">Det var sent på Aaret, Vinløvet hang med røde Blade, Regnbyger faldt og den kolde Blæst tog til; det var ikke den fornøjeligste Tid for de Fattige; det blev mørke Dage, og mørkere endnu var der inde i de gamle, små Huse. Et af disse lå med Gavlen ud mod Gaden, med lave Vinduer, fattigt og ringe at se til, og det var da også <seg><!--DATA-TERM: Familien--><anchor target="txtcmnt-453-02"/><!--militærlægen Johann Kaspar Schiller og hustru Elisabeth Dorothea, f. Kodweisz.-->Familien</seg>, som boede der, men brav og flittig; dertil med Gudsfrygt i Hjertets Skatkammer. Eet Barn til vilde <hi rend="italic">vor Herre</hi> snart forunde dem; det var Timen, Moderen lå i Smerte og Nød, da lød ind til hende fra Kirketårnet Klokkeklang, så dyb, så festlig, det var en Højtidsstund, og Klokkens Lyd fyldte den Bedende med Andagt og Tro; Tankerne løftede sig så inderligt mod Gud, og i samme Stund fødte hun sin lille Søn og følte sig så uendelig glad. Klokken i Tårnet syntes at ringe hendes Glæde ud over By og Land. To klare Barneøjne så på hende, og den Lilles Hår skinnede, som om det var forgyldt; Barnet blev modtaget i Verden med Klokkeklang på den mørke Novemberdag; Moder og Fader kyssede det, og i deres Bibel skrev de ind, at »den tiende November 1759 gav Gud os en Søn«, og siden blev tilføjet, at han i Dåben fik Navnene »<hi rend="italic"><seg><!--DATA-TERM: Johan Christoph Friedrich--><anchor target="txtcmnt-453-03"/><!--Johann C.F. Schiller (1759-1805), tysk forfatter.-->Johan Christoph Friedrich</seg></hi>«.</p>
+
+<p rend="firstIndent" xml:id="p_02363">Hvad blev der af den lille Fyr, den fattige Dreng fra det ringe <hi rend="italic">Marbach</hi>? Ja, det vidste Ingen dengang, selv ikke den gamle Kirkeklokke, <seg><!--DATA-TERM: ihvor høit den hang--><anchor target="txtcmnt-453-04"/><!--hvor højt den end hang.-->ihvor højt den hang</seg> og havde runget og sunget først for ham, der siden skulde synge den dejligste Sang om »<hi rend="italic">Klokken</hi>«.</p>
+
+<p rend="firstIndent" xml:id="p_02364">Og den Lille voksede og Verden voksede for ham; vel <seg><!--DATA-TERM: flyttede … By--><anchor target="txtcmnt-453-05"/><!--familien flyttede til Ludwigsburg i 1766.-->flyttede Forældrene til en anden By</seg>, men kære Venner blev i det lille <pb n="454"/><hi rend="italic">Marbach</hi>, og derfor kom også Moder og Søn der i Besøg en Dag; Drengen var endnu kun seks Aar, men han kendte allerede endel til Bibelen og de fromme Psalmer, han havde alt mangen Aften fra sin lille Rørstol hørt Fader læse <seg><!--DATA-TERM:  Gellerts  Fabler--><anchor target="txtcmnt-454-01"/><!--Chr. Fürchtegott Gellert (1715-1769), tysk digter, der især kendes for sine <i>Fabeln und Erzählungen</i>, 1746-1748.--><hi rend="italic">Gellerts</hi> Fabler</seg> og <seg><!--DATA-TERM: Sangen om  Messias--><anchor target="txtcmnt-454-02"/><!--F.G. Klopstocks (1724-1803) bibelske epos i 20 sange <i>Der Messias</i>, 1748-1773.-->Sangen om <hi rend="italic">Messias</hi></seg>; hede Tårer havde han og den toårs ældre Søster grædt ved Læsningen om <hi rend="italic">ham</hi>, der led Korsets Død til Frelse for os Alle.</p>
+
+<p rend="firstIndent" xml:id="p_02365">Ved det første Besøg i <hi rend="italic">Marbach</hi> havde Byen ikke stort forandret sig, det var jo heller ikke så meget længe siden, de droge bort; Husene stod som før med spidse Gavle, hældende Mure og lave Vinduer; på Kirkegården var kommet nye Grave til og der, lige op til Muren, stod nu nede i Græsset den gamle Klokke, den var falden fra sin Højde, havde fået en Sprække og kunde ikke ringe mere, en ny var også kommet i dens Sted.</p>
+
+<p rend="firstIndent" xml:id="p_02366">Moder og Søn var trådte ind på Kirkegården, de stod foran den gamle Klokke, og Moderen fortalte sin lille Dreng, hvorledes den Klokke i flere hundrede Aar havde gjort Gavn, ringet til Barnedåb, til Bryllupsglæde og Begravelse; den havde mælet om Festglæde og Ildens Rædsler; ja Klokken sang ud et helt Menneskeliv. Og aldrig glemte Barnet, hvad Moderen fortalte, det klang i hans Bryst, til han som Mand måtte synge det ud. Og Moderen fortalte ham, hvorledes denne gamle Kirkeklokke havde ringet Trøst og Glæde til hende i Angestens Time, runget og sunget, da hendes lille Dreng blev givet hende. Og Barnet så næsten med Andagt på den store gamle Klokke, han bøjede sig ned og kyssede den, ihvor gammel, sprukken og henkastet den end her stod imellem Græs og Nælder.</p>
+
+<p rend="firstIndent" xml:id="p_02367">I Minde blev den hos den lille Dreng, der i Fattigdom skød op; lang og mager, rødlig af Hår, fregnet i Ansigtet, ja det var han, men to klare Øine, som det dybe Vand, havde han i Eie. Hvorledes gik det ham? Det gik ham godt, misundelsesværdigt godt! han var i højeste Nåde taget op i <seg><!--DATA-TERM: den militaire Skole--><anchor target="txtcmnt-454-03"/><!--Schiller, som i 1768 blev sat i byens latinskole, blev i 1773 beordret til at indtræde i civilafdelingen af fyrstens militærakademi. Skolen blev i 1775 flyttet til Stuttgart og under navnet Karlsschule gjort til en slags universitet, hvor Schiller senere studerede medicin og filosofi; han forlod akademiet i 1780 som uddannet læge.-->den militære Skole</seg> i Afdelingen, hvor de finere Folks Børn var, og det var en Hæder, en Lykke; han gik med Støvletter, stivt Halsbind og puddret Paryk. Lærdommen fik han, og den kom under »Marsch!« »Holdt!« »Front!« Det kunde der nok komme Noget ud af.</p>
+
+<p rend="firstIndent" xml:id="p_02368">Den gamle Kirkeklokke, gemt og glemt, vilde vel engang komme i Smelteovnen, hvad kom der så ud af den? Ja det var det umuligt at sige, og det var heller ikke muligt at sige, hvad <pb n="455"/><pb n="456"/>der vilde komme af den Klokke inde i det unge Bryst, der var en Malm derinde, den rungede, den måtte klinge ud i den vide Verden, og jo snævrere der blev bag Skolens Mur og jo mere døvende der lød Marsch! Holdt! Front!, des stærkere klang det i Ungersvendens Bryst, og han sang det for Kammeraternes Kreds, og Klangen lød ud over Landets Grændser; men <seg><!--DATA-TERM: derfor--><anchor target="txtcmnt-456-01"/><!--med det formål.-->derfor</seg> havde han ikke fået Skolegang, Klæder og Føde; Nummeret havde han til den Nagle, han skulde være i det store Uhrværk, vi Alle skulle høre til i den håndgribelige Nytte. – Hvorlidet forstå vi os selv, hvorledes skulde da de Andre, selv de Bedste, altid forstå os? Men det er ved Trykket just, at Ædelstenen skabes. Trykket var her, mon i Tidens Løb Verden skulde kende Ædelstenen?</p>
+
+<p rend="firstIndent" xml:id="p_02369">Der var stor Festlighed i Landsherrens Hovedstad. Tusinde Lamper lyste, Raketterne strålede; den Glands mindes endnu ved ham, der da i Tårer og Smerte uændset søgte at nå fremmed Grund; <seg><!--DATA-TERM: han maatte … Strøm--><anchor target="txtcmnt-456-02"/><!--efter opførelsen af skuespillet <i>Die Räuber</i>, 1782, i Mannheim, flygtede Schiller fra Stuttgart under en fest ved hoffet den 22. september på grund af hertugens indskrænkninger af hans personlige og digteriske frihed og tog ophold på godset Bauerbach i Meiningen.-->han måtte fra Fædreland, Moder, alle sine Kjære, eller forgå i Almindelighedens Strøm</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_02370">Den gamle Klokke havde det godt, den stod i Læ ved <hi rend="italic">Marbachs</hi> Kirkemur, gemt, glemt! Vinden for hen over den og kunde have fortalt om ham, ved hvis Fødsel Klokken ringede, fortalt, hvor koldt den havde blæst hen over ham, nys han udmattet af Træthed sank ned i Nabolandets Skov, hvor hele hans Rigdom og Fremtids Håb kun var skrevne Blade om »<hi rend="italic"><seg><!--DATA-TERM: Fiesko--><anchor target="txtcmnt-456-03"/><!--skuespillet <i>Die Verschwörung des Fiesko zu Genua</i>, 1782 (dansk <i>Fiesko eller Sammensværgelsen i Genua</i>, 1814).-->Fiesko</seg></hi>«; Vinden kunde have fortalt om de eneste Beskyttere, Kunstnere jo Allesammen, der snege sig bort fra Læsningen deraf og legede ved Keglespillet. Vinden kunde melde om den blege Flygtning, der levede Uger, Måneder i det fattige Krohus, hvor Værten støjede og drak, hvor der var rå Lystighed, mens han sang om Idealet. Tunge Dage, mørke Dage! selv må Hjertet lide og prøve hvad det skal synge ud.</p>
+
+<p rend="firstIndent" xml:id="p_02371">Mørke Dage, kolde Nætter gik over den gamle Klokke; den fornemmede det ikke, men Klokken i Menneskets Bryst fornemmer sin trange Tid. <seg><!--DATA-TERM: Hvor gik det--><anchor target="txtcmnt-456-04"/><!--hvorledes gik det.-->Hvor gik det</seg> den unge Mand? Hvor gik det den gamle Klokke? Ja, Klokken kom langvejs bort, længere end den fra sin Højhed i Tårnet havde kunnet høres; den unge Mand, ja Klokken i hans Bryst lød længere bort end hans Fod skulde vandre og hans Øine se, den rungede og ringer endnu ud over Verdenshavet, Jorden rundt. Hør nu først om Klokken! Den kom fra <hi rend="italic">Marbach</hi>, solgt blev den som gammelt Kobber og skulde i Smelteovnen inde i det bayerske Land. Hvorledes kom den derhen og når? Ja, det må Klokken selv fortælle, om den kan, <pb n="457"/>det er ikke af stor Vigtighed; men vist er det, den kom til <seg><!--DATA-TERM: Bayerns Kongestad--><anchor target="txtcmnt-457-01"/><!--München.-->Bayerns Kongestad</seg>; mange Aar var gået, siden den faldt fra Tårnet, nu skulde den smeltes, skulde med i Støbning af et stort Hæders-Monument, Skikkelsen af en Storhed for det tydske Folk og Land. Hør nu, hvorledes det traf, underligt og dejligt går det dog til i denne Verden! Oppe i <hi rend="italic">Danmark</hi>, på en af de grønne Øer, hvor Bøgen gror og hvor der er de mange Kjæmpegrave, var der <seg><!--DATA-TERM: en ganske fattig Dreng--><anchor target="txtcmnt-457-02"/><!--Bertel Thorvaldsen (1770-1844), hvis statue af Schiller opstilledes i Stuttgart i 1836-1839.-->en ganske fattig Dreng</seg>, der havde gået i Træsko, båret Mad i et gammelt Klæde til sin Fader, der gik og snittede på <seg><!--DATA-TERM: Holmen--><anchor target="txtcmnt-457-03"/><!--flådestation og militært skibsværft i København. Bertel Thorvaldsens fader, Gotskalk Thorvaldsen (1740-1806) arbejdede som billedskærer i København.-->Holmen</seg>; det fattige Barn var blevet sit Lands Stolthed, han huggede i Marmor Herligheder, så at Verden undrede sig derover, og ham var det just, der fik det Hædershverv at forme i Leret en Storheds, Skønheds Skikkelse, der kunde støbes i Malm, Billedet af ham, hvis Navn Faderen havde nedskrevet i sin Bibel: <hi rend="italic">Johan Christoph Friedrich</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_02372">Og Malmet flød glødende ind i Formen, den gamle Kirkeklokke – ja, Ingen tænkte på dens Hjemstavn og hendøde Klingen, Klokken flød med i Formen og dannede Hoved og Bryst på Statuen, som den nu afsløret står i <hi rend="italic">Stuttgart</hi> foran det gamle Slot, på Pladsen hvor han, den forestiller, gik lyslevende, i Kamp og Stræben, trykket af Verden udenom, han, Drengen fra <hi rend="italic">Marbach</hi>, Eleven fra Carls Skolen, Flygtningen, Tydsklands store udødelige Digter, der sang om <seg><!--DATA-TERM: Schweitz’s Befrier--><anchor target="txtcmnt-457-04"/><!--der tænkes på skuespillet <i>Wilhelm Tell</i>, 1804.-->Schweitz’s Befrier</seg> og <seg><!--DATA-TERM: Frankrigs gudbegeistrede Jomfru--><anchor target="txtcmnt-457-05"/><!--der tænkes på tragedien <i>Die Jungfrau von Orleans</i>, 1801.-->Frankrigs gudbegejstrede Jomfru</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_02373">Det var en dejlig Solskins Dag, Faner vajede fra Tårn og Tage i det kongelige <hi rend="italic">Stuttgart</hi>, Kirkeklokkerne ringede til Fest og Glæde, kun én Klokke tav, den lyste i det klare Solskin, lyste fra Ansigt og Bryst i Hæders-Skikkelsen; det var netop hundrede Aar fra den Dag, Klokken i <hi rend="italic">Marbachs</hi> Tårn ringede Glæde og Trøst til den lidende Moder, der fødte sit Barn, fattig i det fattige Hus, <seg><!--DATA-TERM: engang--><anchor target="txtcmnt-457-06"/><!--senere.-->engang</seg> den rige Mand, hvis Skatte Verden velsigner; han, <seg><!--DATA-TERM: det ædle Qvindehjertes Digter--><anchor target="txtcmnt-457-07"/><!--der tænkes på tragedierne <i>Maria Stuart</i>, 1800, og <i>Die Jungfrau von Orleans</i>, 1801.-->det ædle Qvindehjertes Digter</seg>, det Stores og Herliges Sanger, <hi rend="italic">Johan Christoph Friedrich Schiller</hi>.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Den gamle Kirkeklokke (Skrevet til »Schillers Album«)" xml:id="den-gamle-kirkeklokke-skrevet-til-schillers-album">
+<head type="section-comments">Den gamle Kirkeklokke (Skrevet til »<hi rend="italic">Schillers</hi> Album«)</head>
+
+<p rend="noIndent">Trykt første gang på tysk i <hi rend="italic">Schiller-Album 1861</hi>. Trykt første gang på dansk i <hi rend="italic">Folkekalender for Danmark 1862</hi>, der udkom i december 1861.</p>
+<p rend="noIndent">BFN 833/V,22-26/VII,310-312.</p>
+
+<table rend="textcomments">
+<cell type="page">453</cell><row xml:id="txtcmnt-453-01"><cell type="data-term">Würtemberg</cell><cell type="data-definition">Württemberg i den sydvestlige del af Tyskland; hertugdømme, fra 1806 kongerige.</cell></row><row xml:id="txtcmnt-453-02"><cell type="data-term">Familien</cell><cell type="data-definition">militærlægen Johann Kaspar Schiller og hustru Elisabeth Dorothea, f. Kodweisz.</cell></row><row xml:id="txtcmnt-453-03"><cell type="data-term">Johan Christoph Friedrich</cell><cell type="data-definition">Johann C.F. Schiller (1759-1805), tysk forfatter.</cell></row><row xml:id="txtcmnt-453-04"><cell type="data-term">ihvor højt den hang</cell><cell type="data-definition">hvor højt den end hang.</cell></row><row xml:id="txtcmnt-453-05"><cell type="data-term">flyttede … By</cell><cell type="data-definition">familien flyttede til Ludwigsburg i 1766.</cell></row>
+<cell type="page">454</cell><row xml:id="txtcmnt-454-01"><cell type="data-term"><hi rend="italic">Gellerts</hi> Fabler</cell><cell type="data-definition">Chr. Fürchtegott Gellert (1715-1769), tysk digter, der især kendes for sine <hi rend="italic">Fabeln und Erzählungen</hi>, 1746-1748.</cell></row><row xml:id="txtcmnt-454-02"><cell type="data-term">Sangen om <hi rend="italic">Messias</hi></cell><cell type="data-definition">F.G. Klopstocks (1724-1803) bibelske epos i 20 sange <hi rend="italic">Der Messias</hi>, 1748-1773.</cell></row><row xml:id="txtcmnt-454-03"><cell type="data-term">den militære Skole</cell><cell type="data-definition">Schiller, som i 1768 blev sat i byens latinskole, blev i 1773 beordret til at indtræde i civilafdelingen af fyrstens militærakademi. Skolen blev i 1775 flyttet til Stuttgart og under navnet Karlsschule gjort til en slags universitet, hvor Schiller senere studerede medicin <pb n="517"/>og filosofi; han forlod akademiet i 1780 som uddannet læge.</cell></row>
+<cell type="page">456</cell><row xml:id="txtcmnt-456-01"><cell type="data-term">derfor</cell><cell type="data-definition">med det formål.</cell></row><row xml:id="txtcmnt-456-02"><cell type="data-term">han måtte … Strøm</cell><cell type="data-definition">efter opførelsen af skuespillet <hi rend="italic">Die Räuber</hi>, 1782, i Mannheim, flygtede Schiller fra Stuttgart under en fest ved hoffet den 22. september på grund af hertugens indskrænkninger af hans personlige og digteriske frihed og tog ophold på godset Bauerbach i Meiningen.</cell></row><row xml:id="txtcmnt-456-03"><cell type="data-term">Fiesko</cell><cell type="data-definition">skuespillet <hi rend="italic">Die Verschwörung des Fiesko zu Genua</hi>, 1782 (dansk <hi rend="italic">Fiesko eller Sammensværgelsen i Genua</hi>, 1814).</cell></row><row xml:id="txtcmnt-456-04"><cell type="data-term">Hvor gik det</cell><cell type="data-definition">hvorledes gik det.</cell></row>
+<cell type="page">457</cell><row xml:id="txtcmnt-457-01"><cell type="data-term">Bayerns Kongestad</cell><cell type="data-definition">München.</cell></row><row xml:id="txtcmnt-457-02"><cell type="data-term">en ganske fattig Dreng</cell><cell type="data-definition">Bertel Thorvaldsen (1770-1844), hvis statue af Schiller opstilledes i Stuttgart i 1836-1839.</cell></row><row xml:id="txtcmnt-457-03"><cell type="data-term">Holmen</cell><cell type="data-definition">flådestation og militært skibsværft i København. Bertel Thorvaldsens fader, Gotskalk Thorvaldsen (1740-1806) arbejdede som billedskærer i København.</cell></row><row xml:id="txtcmnt-457-04"><cell type="data-term">Schweitz’s Befrier</cell><cell type="data-definition">der tænkes på skuespillet <hi rend="italic">Wilhelm Tell</hi>, 1804.</cell></row><row xml:id="txtcmnt-457-05"><cell type="data-term">Frankrigs gudbegejstrede Jomfru</cell><cell type="data-definition">der tænkes på tragedien <hi rend="italic">Die Jungfrau von Orleans</hi>, 1801.</cell></row><row xml:id="txtcmnt-457-06"><cell type="data-term">engang</cell><cell type="data-definition">senere.</cell></row><row xml:id="txtcmnt-457-07"><cell type="data-term">det ædle Qvindehjertes Digter</cell><cell type="data-definition">der tænkes på tragedierne <hi rend="italic">Maria Stuart</hi>, 1800, og <hi rend="italic">Die Jungfrau von Orleans</hi>, 1801.</cell></row>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

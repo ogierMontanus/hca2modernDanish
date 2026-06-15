@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Farvel, Prindsesse Dagmar! Du gaaer til Storhed og Glands</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="farvel-prindsesse-dagmar-du-gaaer-til-storhed-og-glands" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Farvel, Prindsesse Dagmar! Du gaaer til Storhed og Glands.</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00909</section>
+                                                                 <date>1866</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1866</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Farvel, Prindsesse Dagmar! Du gaaer til Storhed og Glands" xml:id="farvel-prindsesse-dagmar-du-gaaer-til-storhed-og-glands"><pb n="365"/><head type="part"><source subtype="foreign">Farvel, <seg target="txtcmnt-365-01"><!--DATA-TERM: Prindsesse Dagmar--><!--DATA-DEFINITION: Maria Sophie Frederikke Dagmar, kong Christian 9.s og Dronning Louises næstældste datter, blev 23. juni 1866 forlovet med storfyrsttronfølger Alexander Alexandrovitsch (den senere zar Alexander 3. af Rusland); hun forlod København 22. september og blev 9. november 1866 gift under navnet Marija Fjodorovna i Vinterpaladset i St. Petersborg.-->Prindsesse Dagmar</seg>! Du gaaer til Storhed og Glands</source></head>
+<lg xml:id="p_00910">
+<l rend="noIndent" subtype="firstline" corresp="Farvel, Prindsesse Dagmar! Du gaaer til Storhed og Glands." rendition="farvel-prindsesse-dagmar-du-gaaer-til-storhed-og-glands">Farvel, Prindsesse <hi rend="italic">Dagmar</hi>! Du gaaer til Storhed og Glands.</l>
+<l rend="noIndent">En Keiserkrone groer der jo i din Brudekrands.</l>
+<l rend="noIndent">Gud lade sit Solskin lyse i Dig og dit nye Hjem,</l>
+<l rend="noIndent">Da blive til Perler de Taarer, som Skilsmissen nu kalder frem.</l>
+</lg>
+<pb n="366"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Farvel, Prindsesse Dagmar! Du gaaer til Storhed og Glands" synch="farvel-prindsesse-dagmar-du-gaaer-til-storhed-og-glands">
+<head type="section-comments"><source subtype="foreign">Farvel, Prindsesse <hi rend="italic">Dagmar</hi>! Du gaaer til Storhed og Glands</source></head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Dagbladet</hi>, nr. 220, 21. september 1866. BFN 908</p>
+<table rend="textcomments">
+<cell type="page">365</cell><cell><row xml:id="txtcmnt-365-01"><cell type="data-term">Prindsesse Dagmar</cell><cell type="data-definition">Maria Sophie Frederikke Dagmar, kong Christian 9.s og Dronning Louises næstældste datter, blev 23. juni 1866 forlovet med storfyrsttronfølger Alexander Alexandrovitsch (den senere zar Alexander 3. af Rusland); hun forlod København 22. september og blev 9. november 1866 gift under navnet Marija Fjodorovna i Vinterpaladset i St. Petersborg.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

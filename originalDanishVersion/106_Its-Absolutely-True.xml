@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>It’s Absolutely True!</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-er-ganske-vist">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-er-ganske-vist_modern.xml">moderniseret version</note>
+                                                       <note target="106_Its-Absolutely-True.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘It’s a terrible story!’ a hen said – and that was down in the part of town wher...</incipit><idno type="image">Det_er_ganske_vist_forside.png</idno><popularity>985</popularity><cite>&lt;p&gt;Hans Christian Andersen: It’s Absolutely True!. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-12" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-12" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+             <div rend="It’s Absolutely True!">
+                  <head type="main" rend="It’s Absolutely True!">It’s Absolutely True!</head>                <p rend="noIndent" xml:id="p_00001">‘It’s a terrible story!’ a hen said – and that was down in the part of town where the story had not taken place. ‘A terrible story in a henhouse! I dare not sleep on my own tonight! it’s a good thing there are so many of us on the perch together!’ Then she repeated the story, and the feathers of the other hens stood on end and the cock let his comb fall. It is absolutely true.</p>
+          <p rend="firstIndent" xml:id="p_00002">But let’s begin at the beginning, and that was at the other end of the town in a henhouse. The sun set and the hens flew up; one of them, she was white-feathered and short-legged, laid her prescribed eggs, for she was a respectable hen in every possible way, and when settling on the perch, she preened herself with her beak, and a small feather fell off her.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘There it went!’ she said, ‘the more I preen myself, the lovelier I’ll probably get!’ And that was only said in jest, for she was the cheeriest among the hens, albeit, as stated, highly respectable; and then she fell asleep.</p>
+          <p rend="firstIndent" xml:id="p_00004">It was dark all around, the hens sat next to each other, and the one closest to her couldn’t sleep; she both heard it and didn’t hear it, as one must in this world to live with any peace of mind; but she couldn’t refrain from telling her other neighbour about it: ‘Did you hear what was said? I’m naming no names, but there is a hen who wants to pluck out her feathers to look more attractive! if I was a cock I would despise her!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And right above the hens sat the owl with her owl-husband and owl-children; they have sharp ears in that family, they heard every word their hen-neighbour said, and they rolled their eyes and mother-owl fanned herself with her wings: ‘Now don’t you listen! but you probably heard what was said, didn’t you? I heard it with my own ears, and it will take a great deal of hearing before they fall off! One of the hens has so forgotten what is appropriate for a hen that she’s pulling out all her feathers and letting the cock watch her do it!’</p>
+          <p rend="firstIndent" xml:id="p_00006">‘<hi rend="italic">Prenez garde aux enfants</hi>!’ the father-owl said, ‘that’s not suitable for children!’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘I’ll just have to tell the owl opposite about it! She’s keeps such highly respectable company!’ and off the missus flew.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Hoohoo! Oohooh!’ they both hooted, right down into the opposite neighbour’s dovecote to the pigeons. ‘Have you heard it! Have you heard it! Oohooh! there’s a hen that’s plucked off all her feathers for the sake of the cock! she’ll freeze to death if she hasn’t already done so, oohooh!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Where? where?’ cooed the pigeons!</p>
+          <p rend="firstIndent" xml:id="p_00010">In the opposite neighbour’s yard! I almost saw it myself! it’s really too indelicate a story to tell! But it is absolutely true!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Yes true, true, ever so true!’ the pigeons said, and cooed down to their henyard: ‘There’s a hen – well, some say that there are two, who have pulled out all their feathers so as not to look like the others and to gain the cock’s attention by doing so. That’s a risky game – one can catch cold and die of a fever – and both of them are dead!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Wake up! wake up!’ the cock crowed and flew up onto the fencing, his eyes still full of sleep, but he crowed even so: ‘Three hens have died of unrequited love for a cock! they’d plucked off all their feathers! it’s a nasty story, I’ll not keep it to myself – pass it on!’</p>
+          <p rend="firstIndent" xml:id="p_00013">‘Pass it on!’ the bats squeaked, and the hens clucked and the cocks crowed: ‘Pass it on! pass it on!’ and so the story passed from henhouse to henhouse and finally came back to the place where it had actually started from.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Five hens,’ the story went, ‘have plucked off all their feathers to show which of them had grown thinnest from unrequited love for the cock, and then they pecked each other till the blood flowed and they fell down dead, to the shame and disgrace of their family and considerable loss for their owner!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And the hen who had lost the little loose feather naturally didn’t recognise her own story, and since she was a respectable hen, she said: ‘I despise those hens! but there are more just like them! Such a thing shouldn’t be hushed up, and I’ll do all I can to make sure the story gets printed in the newspaper and known all over the country, that’s what the hens have deserved, and their families too!’</p>
+          <p rend="firstIndent" xml:id="p_00016">And it got into the newspaper and was printed and it’s absolutely true: <hi rend="italic">A small feather can become five hens!</hi></p></div>
+          </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Henriette Hanck</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="henriette-hanck" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1855</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Henriette Hanck" xml:id="henriette-hanck">
+<source>Af</source> <sourceTitle>Samlede Skrifter. Attende Bind</sourceTitle>
+<sourceDate>1855</sourceDate>
+<pb n="454"/>
+<head type="part"><seg target="txtcmnt-454-01"><!--DATA-TERM: Henriette Hanck--><!--DATA-DEFINITION: Marie Kirstine Henriette Hanck (1807-1846), dansk forfatterinde. Under påvirkning af tidens svenske og tyske kvindeforfattere debuterede hun 1838 anonymt med brevromanen <i>Tante Anna. En Efteraarsskizze</i>, og i 1842 fulgte romanen <i>En Skribentindes Datter</i>; trods positiv omtale fortsatte hun ikke sit forfatterskab. I 1841 flyttede Henriette Hanck til København med sin moder. Hun var siden 1823 bekendt med H.C. Andersen.-->Henriette Hanck</seg></head>
+<head type="sub">Et Par indledende Ord foran i den tydske Udgave af denne Forfatterindes Novelle: <hi rend="italic">Tante Anna</hi>. – Hamburg, <hi rend="italic">Robert Kittler</hi>, 1845.</head>
+<p rend="noIndent" xml:id="p_01108">I de danske historiske Folkesagn lever Navnet <seg target="txtcmnt-454-02" type="dfnStart"/><!--DATA-TERM: Ole Bager … lider bedre--><!--DATA-DEFINITION: Oluf Bager Nielsen (ca. 1521-1602), købmand og rådmand i Odense; jf. Thiele 1, 2, s. 113. Både Thiele 2, I, s. 107, og <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 5, oplyser dog, at episoden med større sandsynlighed har fundet sted mellem den tyske kejser Karl 5. (1500-1558) og de augsburgske handelsfyrster Fuggerne.--><hi rend="italic">Ole Bager</hi>, han var bosiddende i Odense, og nævnes, som en af Landets rigeste Borgere, selv <seg target="txtcmnt-454-03">Kong <hi rend="italic">Frederik</hi></seg> var hans Skyldner, og Sagnet melder, at da Kongen engang besøgte <hi rend="italic">Ole Bager</hi>, brændte denne, til Ære for ham Kaneel i sin Kakkelovn. »Det er en dyr Brændsel!« sagde Kongen, »men den lugter godt!« – »Naar Deres Majestæt atter viser mig den Naade at jeg forundes Deres kongelige Besøg, skal Brændselen endnu lugte bedre!« svarede <hi rend="italic">Ole Bager</hi>, og da Kongen atter kom lagde han alle Forskrivninger for modtagne Summer, Kongen vedkommende, i Ovnen. »Det maa jeg sige,« var da Kongens Ord, »det er en Lugt jeg rigtignok endnu lider bedre<seg target="txtcmnt-454-02" type="dfnEnd"/>.«</p>
+<p rend="firstIndent" xml:id="p_01109"><seg target="txtcmnt-454-04"><!--DATA-TERM: Frederik den Anden … Tolderlund--><!--DATA-DEFINITION: ved et gavebrev af 13. december 1564 skænkede Frederik 2. Oluf Bager »Opreisning for hans lidne Skade ved Afstaaelsen af Magdalene Mickels’s Løcke og <i>Tollelund</i>«; jf. Thiele 2, I, s. 107 og <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 5. Tolderlund og Magdalene Mickels Løcke (løkke, dvs. indelukke eller vænge) er mark- og skovområder nord for Odense centrum (ved kanalen).--><hi rend="italic">Frederik den Anden</hi> skjenkede <hi rend="italic">Ole Bager</hi> det smukke skovbegroede Tolderlund</seg>, tæt udenfor Odense, og skjøndt <seg target="txtcmnt-454-05"><!--DATA-TERM: dette Stykke Land … lille smuk Plet deraf--><!--DATA-DEFINITION: efter Oluf Bagers død 1602 solgtes hans landområder, og den sidste, der ejede det oprindelige Tolderlund udelt, var forfatteren Elias Naur (1650-1728); siden opsplittedes ejendommen og solgtes stykvist. Landstedet Marieshøj opførtes 1786 (ombygget 1802-1803) på disse jorder.-->dette Stykke Land siden solgtes og kom til Forskjellige, beholdtes dog i den Bagerske Familie en lille smuk Plet deraf</seg>, hvor en Sommer-Villa var opført og beboedes af den sidste <seg target="txtcmnt-454-06"><!--DATA-TERM: Descendent--><!--DATA-DEFINITION: efterkommer.-->Descendent</seg>, <seg target="txtcmnt-454-07"><!--DATA-TERM: Redacteur og Bogtrykker Iversen--><!--DATA-DEFINITION: Christian Henrik Iversen (1748-1827), boghandler og avisudgiver, grundlagde 1780 <i>Fyens Stifts-Journal</i> (»Iversens fyenske Avis«); ifølge <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 23-25, hører Christian Iversen til i det ottende led efter Oluf Bager, på den mødrene side efter Oluf Bagers søn, Claus. Christian Iversen var en af H.C. Andersens tidligste velyndere.-->Redacteur og Bogtrykker <hi rend="italic">Iversen</hi></seg>, en af Byens meest anseete Borgere; Søn- og Helligdage vandrede Borgerfolk og Almue ud til dette smukke Sted, hvis Indgang førte den oprigtige Indskrift: »Velkommen!« Haven stod aaben for Enhver, den var efter den Tids Smag rig paa Inskriptioner og skaarne Hækker; paa det høieste Punkt kneisede en Obelisk af Træ og ud mod Canalen, paa hvilken Skibe løbe op til Odense, laae en Fæstning i Miniatur med Trækanoner og Træsoldat. Inde i selve Huset var een Stue velbekjendt, den førte Navn af <hi rend="italic">Ole Bagers</hi> Stue og herinde opbevaredes <seg target="txtcmnt-454-08"><!--DATA-TERM: Epitaphiet over ham … Børn--><!--DATA-DEFINITION: epitafiet, mindetavlen (malet 1576), over Oluf Bager, hans kone Margrethe Clausdatter (1536-1581) og deres 7 sønner og 5 døtre blev 1805 på Christian Iversens foranledning fjernet fra Graabrødre Kirke og anbragt på Marieshøj, jf. <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 21.-->Epitaphiet over ham, hans Kone og Børn</seg>, deres <seg target="txtcmnt-454-09"><!--DATA-TERM: Liigsteen--><!--DATA-DEFINITION: jf. <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 27; J.H. Trützschler Hanck anfører, at gravstenene skulle tilhøre datteren Elisabeth og Oluf Bager selv, men i »Brudstykke af en Udflugt i Sommeren 1829 – Odense og Omegn« (BFN 44), trykt i <i>Kjøbenhavns-Posten</i>, nr. 148-149, 17. og 18. september 1829, hævder H.C. Andersen, at gravstenene tilhører Oluf Bager og hans hustru, jf. også <i>Rasmus Nyerups og Søren Abildgaards Antiqvariske Reiser i Aarhus Stift i Aarene 1771 og 1807. Med et Tillæg indeholdende en halv Snes odenseske Monumenter i Kobber</i>, 1808, s. 107-108.-->Liigsteen</seg>, et Bord og <seg target="txtcmnt-454-10"><!--DATA-TERM: nogle af de Mønter … maatte slaae--><!--DATA-DEFINITION: jf. <i>Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</i>, 1837, s. 20: »Iblandt flere formeentlige Erindringer efter O. Bager opbevares ogsaa hos afg. Chr. <i>Iversens</i> Efterleverske 3de Skillingstykker, som have det Ord paa sig, at være af de Olufbaggerske. De ere slagne 1563 til 1 <i>Skilling dansk</i> og have aldeles det samme Præg som de kongelige til 2 Skilling, men ere <i>større</i> (...)«.-->nogle af de Mønter, han i levende Live havde faaet Lov af Kongen at maatte slaae</seg>. <hi rend="italic">Iversens</hi> Børnebørn, alle unge, livfulde Piger, tilbragte Festdagene i denne Stue, den meest stille af dem var <hi rend="italic">Henriette</hi> – just hende, vi her i de efterfølgende Blade skulde gjøre Bekjendtskab med, som Forfatterinde.</p>
+<pb n="455"/>
+<p rend="firstIndent" xml:id="p_01110"><seg target="txtcmnt-455-01"><!--DATA-TERM: Den smukke Eiendom … fremmede Hænder--><!--DATA-DEFINITION: ejendommen solgtes 1838.-->Den smukke Eiendom er ved Bedsteforældrenes Død kommen i fremmede Hænder</seg>, den nye Slægt er fremmed for <hi rend="italic">Ole Bagers</hi> Stue, og den eiendommelige Skov-Have ved Canalen, Alt har faaet et andet Præg; de unge Piger ere som Voxne bleve spredte ad, den ældste, <hi rend="italic">Henriette</hi>, som pleiede de smukke Blomster udenfor <hi rend="italic">Ole Bagers</hi> Stue, har nu hele sin Blomster-Have i et Par Urtepotter bag de smalle Vinduer i et Huus i Kjøbenhavn, Aandens Have er blevet hendes større <seg target="txtcmnt-455-02"><!--DATA-TERM: Urtegaard--><!--DATA-DEFINITION: have.-->Urtegaard</seg>; for tre Aar siden optraadte hun som Forfatterinde, og Alle, hvem de <seg target="txtcmnt-455-03"><!--DATA-TERM: Frøken Bremerske Romaner--><!--DATA-DEFINITION: Fredrika Bremer (1801-1865), svensk forfatterinde; debuterede 1828 med første del af den anonymt udgivne hverdagsrealistiske række af fortællinger <i>Teckningar utur hvardagslifvet</i>, 1828-1831 (dansk <i>Tegninger af Hverdagslivet</i>, 1836), siden udkommer også <i>Nya Teckninger utur Hvardagslifvet</i>, 1834-1835. Disse fulgtes op af en række romaner i samme genre, bl.a. <i>Presidentens döttrar</i>, 1834, <i>Nina</i>, 1835, <i>Grannarne</i>, 1837 og <i>Hemmet</i>, 1839.-->Frøken Bremerske Romaner</seg> have tiltalt, føle sig grebne af den beslægtede Aand, her aabenbarede sig uden Efterligning.</p>
+<p rend="firstIndent" xml:id="p_01111">Forlægger og Forfatterinde have troet, idet en tydsk Udgave, besørget af hende selv, udkom i Tydskland, det kunde være gavnligt, at et Par indledende Ord fra min Haand fulgte, og uagtet Enkelte vist kunne kalde det Forfængelighed, Overvurderen af min Betydenhed, har jeg været Beredvillig, idet jeg har troet, at selv en løs Skizze af hendes Slægt og Barndoms Forhold, som jeg ovenfor har forsøgt at give den, kunde vække Interesse for hendes Digtning.</p>
+<p rend="firstIndent" xml:id="p_01112">Yndere af de svenske Hverdagshistorier ville vist ved Læsningen af denne danske Forfatterinde blive hende venlig stemt og er dette Tilfældet, da vil hendes større Arbeide, Novellen »<hi rend="italic">En Skribentindes Datter</hi>« følge efter.</p>
+<p rend="firstIndent" xml:id="p_01113"><hi rend="italic">Ole Bagers</hi> Guld og Rigdomme leve kun i Sagnet, hans Afkom har beholdt de – hvorom <seg target="txtcmnt-455-04"><!--DATA-TERM: Bibelen siger … af Møl og af Rust--><!--DATA-DEFINITION: jf. bl.a. Matthæus 6,20.-->Bibelen siger, at de ikke kunne fortæres af Møl og af Rust</seg>!</p>
+<pb n="456"/>
+<pb n="457"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Henriette Hanck" synch="henriette-hanck">
+<head type="section-comments">Henriette Hanck</head>
+<p rend="noIndent">Trykt første gang i tysk oversættelse som indledning til Henriette Hancks roman <hi rend="italic">Tante Anna</hi> i <hi rend="italic">Henriette Hanck’s Schriften. Erster Band</hi>, Verlag von Robert Kittler, Hamborg, 1845. Den danske version med titlen »Henriette Hanck« tryktes i <hi rend="italic">Samlede Skrifter. Attende Bind</hi> (BFN 740), der udkom 18. maj 1855. Sidstnævnte version gengives her. BFN 741</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">454,28</cell><cell type="deviation">hvilken &lt; hvilke</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">454</cell><cell><row xml:id="txtcmnt-454-01"><cell type="data-term">Henriette Hanck</cell><cell type="data-definition">Marie Kirstine Henriette Hanck (1807-1846), dansk forfatterinde. Under påvirkning af tidens svenske og tyske kvindeforfattere debuterede hun 1838 anonymt med brevromanen <hi rend="italic">Tante Anna. En Efteraarsskizze</hi>, og i 1842 fulgte romanen <hi rend="italic">En Skribentindes Datter</hi>; trods positiv omtale fortsatte hun ikke sit forfatterskab. I 1841 flyttede Henriette Hanck til København med sin moder. Hun var siden 1823 bekendt med H.C. Andersen.</cell></row><row xml:id="txtcmnt-454-02"><cell type="data-term">Ole Bager … lider bedre</cell><cell type="data-definition">Oluf Bager Nielsen (ca. 1521-1602), købmand og rådmand i Odense; jf. Thiele 1, 2, s. 113. Både Thiele 2, I, s. 107, og <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 5, oplyser dog, at episoden med større sandsynlighed har fundet sted mellem den tyske kejser Karl 5. (1500-1558) og de augsburgske handelsfyrster Fuggerne.</cell></row><row xml:id="txtcmnt-454-03"><cell type="data-term">Kong Frederik</cell><cell type="data-definition">Frederik 2. (1534-1588), konge fra 1559.</cell></row><row xml:id="txtcmnt-454-04"><cell type="data-term">Frederik den Anden … Tolderlund</cell><cell type="data-definition">ved et gavebrev af 13. december 1564 skænkede Frederik 2. Oluf Bager »Opreisning for hans lidne Skade ved Afstaaelsen af Magdalene Mickels’s Løcke og <hi rend="italic">Tollelund</hi>«; jf. Thiele 2, I, s. 107 og <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 5. Tolderlund og Magdalene Mickels Løcke (løkke, dvs. indelukke eller vænge) er mark- og skovområder nord for Odense centrum (ved kanalen).</cell></row><row xml:id="txtcmnt-454-05"><cell type="data-term">dette Stykke Land … lille smuk Plet deraf</cell><cell type="data-definition">efter Oluf Bagers død 1602 solgtes hans landområder, og den sidste, der ejede det oprindelige Tolderlund udelt, var forfatteren Elias Naur (1650-1728); siden opsplittedes ejendommen og solgtes stykvist. Landstedet Marieshøj opførtes 1786 (ombygget 1802-1803) på disse jorder.</cell></row><row xml:id="txtcmnt-454-06"><cell type="data-term">Descendent</cell><cell type="data-definition">efterkommer.</cell></row><row xml:id="txtcmnt-454-07"><cell type="data-term">Redacteur og Bogtrykker Iversen</cell><cell type="data-definition">Christian Henrik Iversen (1748-1827), boghandler og avisudgiver, grundlagde 1780 <hi rend="italic">Fyens Stifts-Journal</hi> (»Iversens fyenske Avis«); ifølge <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 23-25, hører Christian Iversen til i det ottende led efter Oluf Bager, på den mødrene side efter Oluf Bagers søn, Claus. Christian <pb n="687"/>Iversen var en af H.C. Andersens tidligste velyndere.</cell></row><row xml:id="txtcmnt-454-08"><cell type="data-term">Epitaphiet over ham … Børn</cell><cell type="data-definition">epitafiet, mindetavlen (malet 1576), over Oluf Bager, hans kone Margrethe Clausdatter (1536-1581) og deres 7 sønner og 5 døtre blev 1805 på Christian Iversens foranledning fjernet fra Graabrødre Kirke og anbragt på Marieshøj, jf. <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 21.</cell></row><row xml:id="txtcmnt-454-09"><cell type="data-term">Liigsteen</cell><cell type="data-definition">jf. <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 27; J.H. Trützschler Hanck anfører, at gravstenene skulle tilhøre datteren Elisabeth og Oluf Bager selv, men i »Brudstykke af en Udflugt i Sommeren 1829 – Odense og Omegn« (BFN 44), trykt i <hi rend="italic">Kjøbenhavns-Posten</hi>, nr. 148-149, 17. og 18. september 1829, hævder H.C. Andersen, at gravstenene tilhører Oluf Bager og hans hustru, jf. også <hi rend="italic">Rasmus Nyerups og Søren Abildgaards Antiqvariske Reiser i Aarhus Stift i Aarene 1771 og 1807. Med et Tillæg indeholdende en halv Snes odenseske Monumenter i Kobber</hi>, 1808, s. 107-108.</cell></row><row xml:id="txtcmnt-454-10"><cell type="data-term">nogle af de Mønter … maatte slaae</cell><cell type="data-definition">jf. <hi rend="italic">Kong Frederik den Anden og Oluf Bagger. Indbydelsesskrivt til den offentlige Examen i Odense Kathedralskole, ved Adjunkt J. H. Trützschler Hanck</hi>, 1837, s. 20: »Iblandt flere formeentlige Erindringer efter O. Bager opbevares ogsaa hos afg. Chr. <hi rend="italic">Iversens</hi> Efterleverske 3de Skillingstykker, som have det Ord paa sig, at være af de Olufbaggerske. De ere slagne 1563 til 1 <hi rend="italic">Skilling dansk</hi> og have aldeles det samme Præg som de kongelige til 2 Skilling, men ere <hi rend="italic">større</hi> (...)«.</cell></row></cell>
+<cell type="page">455</cell><cell><row xml:id="txtcmnt-455-01"><cell type="data-term">Den smukke Eiendom … fremmede Hænder</cell><cell type="data-definition">ejendommen solgtes 1838.</cell></row><row xml:id="txtcmnt-455-02"><cell type="data-term">Urtegaard</cell><cell type="data-definition">have.</cell></row><row xml:id="txtcmnt-455-03"><cell type="data-term">Frøken Bremerske Romaner</cell><cell type="data-definition">Fredrika Bremer (1801-1865), svensk forfatterinde; debuterede 1828 med første del af den anonymt udgivne hverdagsrealistiske række af fortællinger <hi rend="italic">Teckningar utur hvardagslifvet</hi>, 1828-1831 (dansk <hi rend="italic">Tegninger af Hverdagslivet</hi>, 1836), siden udkommer også <hi rend="italic">Nya Teckninger utur Hvardagslifvet</hi>, 1834-1835. Disse fulgtes op af en række romaner i samme genre, bl.a. <hi rend="italic">Presidentens döttrar</hi>, 1834, <hi rend="italic">Nina</hi>, 1835, <hi rend="italic">Grannarne</hi>, 1837 og <hi rend="italic">Hemmet</hi>, 1839.</cell></row><row xml:id="txtcmnt-455-04"><cell type="data-term">Bibelen siger … af Møl og af Rust</cell><cell type="data-definition">jf. bl.a. Matthæus 6,20.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

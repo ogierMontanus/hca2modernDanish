@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Fir Tree</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="grantraeet">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="grantraeet_modern.xml">moderniseret version</note>
+                                                       <note target="67_The-Fir-Tree.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Out in the forest there stood such a pretty fir tree; it was in a nice spot, wit...</incipit><idno type="image">Grantraeet_forside.png</idno><popularity>983</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Fir Tree. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2022-11-09">added quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">waslike>was like</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Fir Tree">
+          <head type="main" rend="The Fir Tree">The Fir Tree</head>                <p rend="noIndent" xml:id="p_00001">Out in the forest there stood such a pretty fir tree; it was in a nice spot, with access to sunlight and enough air, and around it grew many larger comrades, both pine and fir, but the little fir tree was so raring to grow; it did not think about the warm sun and the fresh air, it did not care about the farmer’s children that would chat away to each other when they were out collecting wild strawberries or raspberries; they often came with a brimful pot or had threaded the strawberries on stalks, and then they would sit down by the little tree and say: ‘Oh, just look at how small and pretty it is!’ The tree didn’t want to hear that at all.</p>
+          <p rend="firstIndent" xml:id="p_00002">The following year it was a long joint taller, and the year after that another even longer; for you can always see on a fir tree how many years it has been growing from the number of joints it has.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Oh, if only I was as tall a tree as the others!’ the little tree sighed, ‘then I could spread out my branches so wide and with my top gaze out into the wide world! The birds would then build nests among my branches, and when the wind blew I would be able to nod so gracefully, just like the others there!’</p>
+          <p rend="firstIndent" xml:id="p_00004">It got no pleasure out of the sunshine, the birds or the red clouds that sailed over it morning and evening.</p>
+          <p rend="firstIndent" xml:id="p_00005">When it was winter, and the snow around it lay glistening white, a hare would often come and leap right over the little fir tree – oh, it was so annoying! – But two winters passed, and when the third came the tree was so large that the hare had to go round it. Oh, to grow, grow, become large and old, that was the only delightful thing in this world, the tree thought.</p>
+          <p rend="firstIndent" xml:id="p_00006">In autumn the woodcutters always came and felled some of the largest trees, it happened every year, and the young fir tree, who was now quite well-grown, trembled at this, for the large, splendid trees fell with a smash and a crash to the ground; the branches were lopped off, they looked completely naked, long and skinny; they were almost unrecognisable, but then they were laid on wagons and horses pulled them out of the forest.</p>
+          <p rend="firstIndent" xml:id="p_00007">Where were they going to? What was in store for them?</p>
+          <p rend="firstIndent" xml:id="p_00008">In spring, when the swallow and the stork came, the tree asked them: ‘Do you perhaps know where they were being taken? Haven’t you met them?’</p>
+          <p rend="firstIndent" xml:id="p_00009">The swallows didn’t know anything, but the stork looked thoughtful, nodded his head and said: ‘Yes, I think I have! I met many new ships when flying back from Egypt; on the ships were magnificent masts, I’d say these could be them, they smelt of fir; I can send many greetings, they hold their heads high, so high!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Oh, if only I was large enough to fly across the sea! What is this sea exactly, and what does it look like?’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Well, it’s very complicated to explain!’ the stork said, and off he went.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Rejoice in your youth!’ the sun’s rays said; ‘rejoice in your fresh growth, in the young life that is in you!’</p>
+          <p rend="firstIndent" xml:id="p_00013">And the wind kissed the tree, and the dew cried tears over it, but the fir tree did not understand this.</p>
+          <p rend="firstIndent" xml:id="p_00014">When Christmastide was approaching, quite young trees were felled, trees that were often not even as large or old as this fir tree, who knew neither rest nor repose but always wanted to be off; these young trees, and it was precisely the loveliest ones of all, the ones that always kept all their branches, were laid on wagons and hauled by horses out of the forest.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘Where are they going to?’ the fir tree asked. ‘They’re no larger than I am, there was even one that was a lot smaller; why are they allowed to keep all their branches? Where are they being taken?’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘We can tell! we can tell!’ the house sparrows chirruped. Down in the town we have peeped in through the window panes! We know where they are being taken. Oh, they will come to the greatest splendour and magnificence imaginable! We have peeped in through the windows and seen that they are planted in the middle of the warm living room and decorated with the loveliest things, both gilded apples, gingerbread, toys and hundreds and hundreds of candles!’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘And then –?’ the fir tree asked, with every branch trembling. ‘And then? What happens then?’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Well, that was all we saw! It was marvellous!’</p>
+          <p rend="firstIndent" xml:id="p_00019">‘I wonder if I have come into existence to follow that radiant path?’ the tree cried exultantly. ‘It’s even better that crossing the sea! Oh, what longing I suffer! If only it was Christmas! Now I am as tall and outstretched as the others that were taken away last year! – Oh, if only I was already on the wagon! if only I was in the warm living room with all that splendour and magnificence! and then –? Well, there must be something even better in store, even more beautiful, why else should they decorate me! there must be something even greater, even more splendid –! but what? Oh, how I suffer! how I long! I really don’t know how things are with me!’</p>
+          <p rend="firstIndent" xml:id="p_00020">‘Rejoice in me!’ the air and the sunlight said; ‘rejoice in your fresh youth out in the open air!’</p>
+          <p rend="firstIndent" xml:id="p_00021">But it did not rejoice at all; it grew and grew, winter and summer it stood there green – dark-green it stood there; people who saw it said: ‘that’s a lovely tree!’ and when Christmastide came it was the very first to be felled, the axe cut deep into its marrow, the tree fell to the ground with a sigh, it felt a pain, a sense of powerlessness, it could not think of any happiness, it was sad at being separated from its home, from the spot where it had sprung up; it knew of course that it would never see its dear old comrades again, the small bushes and flowers round about – and maybe not even the birds either. The departure was in no way agreeable.</p>
+          <p rend="firstIndent" xml:id="p_00022">The tree first came to its senses when in the courtyard, unloaded with the other trees, it heard a man say: ‘This one is magnificent! No other one will do.’</p>
+          <p rend="firstIndent" xml:id="p_00023">Two servants in full regalia now came and carried the fir tree into a large, pleasant room. On the walls there hung portraits, and beside the large tiled stove stood huge Chinese vases with lions on their lids; there were rocking chairs, silk-upholstered sofas, large tables full of picture books, and with toys for hundreds of hundreds of thalers – well, that at least was what the children said. And the fir tree was stood up in a large firkin filled with sand, but no one could see that it was a firkin, for green fabric had been draped round it, and it stood on a large many-coloured carpet. Oh, how the tree trembled! What was going to happen next? Both the servants and the maids started to decorate it. On one branch they hung small nets cut out of coloured paper; each net was full of sweets; gilded apples and walnuts hung as if they had become part of the tree, and more than a hundred red, blue and white small candles were fixed to the branches. Dolls that looked exactly like humans, – the tree had never seen such figures before – floated in its greenery, and at the very top a large gold-tinselled star was fastened – it was magnificent, quite simply magnificent.</p>
+          <p rend="firstIndent" xml:id="p_00024">‘This evening,’ they all said, ‘this evening it will be radiant!’</p>
+          <p rend="firstIndent" xml:id="p_00025">‘Oh!’ the tree thought, ‘if only it was evening! if only the candles were soon to be lit! and I wonder what happens then? Will trees come from the forest to look at me? Will the common sparrows be at the window pane? Will I take root and stand decorated here both winter and summer?’</p>
+          <p rend="firstIndent" xml:id="p_00026">Well, it really knew quite well; but it had a splitting barkache out of sheer longing, and barkache is as bad for a tree as a headache is for the rest of us.</p>
+          <p rend="firstIndent" xml:id="p_00027">Now the candles were lit. What a gleam, what splendour, the tree quivered in all of its branches at this, so that one of the candles set light to its greenery, causing a painful scorch.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘Goodness gracious!’ the maids cried and hastily put it out.</p>
+          <p rend="firstIndent" xml:id="p_00029">Now the tree did not even dare to quiver. Oh, it was terrible! It was so frightened of losing any of its finery; it was quite dazed by all that gleaming, – – and now both the leaved doors opened, and a crowd of children rushed in as if they wanted to overturn the entire tree; the adults entered more restrainedly after them; the little ones stood there quite silent, – but only for a moment, then they shouted with joy again so that the walls echoed; they danced round the tree, and one present after the other was plucked from it.</p>
+          <p rend="firstIndent" xml:id="p_00030">‘What are they up to?’ the tree thought. ‘What’s going to happen?’ And the candles burnt right down to the branches, and when they did so, they were put out, and then the children were allowed to plunder the tree. Oh, they rushed at it, so that all its branches creaked; if it hadn’t been fastened to the ceiling by its tip and gold star, it would have been overturned.</p>
+          <p rend="firstIndent" xml:id="p_00031">The children danced around it with their marvellous toys, no one looked at the tree except for the old nanny, who went peeking in among the branches, but this was only to see if a fig or apple hadn’t been overlooked.</p>
+          <p rend="firstIndent" xml:id="p_00032">‘A story! a story!’ the children cried, and pulled a small, fat man over towards the tree, and he sat down right beneath it ‘for then we are sitting out of doors,’ he said, ‘and the tree can really benefit from listening along! but I’m only going to tell one story. Do you want to hear the nonsense rhyme about Ivedy-Avedy or the one about Humpty-Dumpty who fell down the stairs but was given pride of place and won the princess!’</p>
+          <p rend="firstIndent" xml:id="p_00033">‘Ivedy-Avedy,’ some shouted, ‘Humpty-Dumpty’, others shouted; there was a lot of shouting and noise, only the fir tree remained completely silent and thought: ‘Aren’t I to be included at all, aren’t I to do anything!’ It had taken part in everything, had done what it was supposed to do.</p>
+          <p rend="firstIndent" xml:id="p_00034">And the man told them about ‘Humpty-Dumpty who fell down the stairs but was given pride of place and won the princess’. And the children clapped their hands and shouted ‘Tell us! tell us!’ they also wanted to hear ‘Ivedy-Avedy’, but all they got was ‘Humpty-Dumpty’. The fir tree stood quite still and lost in thought, the birds in the forest had never told anything like this. ‘Humpty-Dumpty who fell down the stairs, yet won the princess! Yes, yes, that’s how things go in the world!’ the fir tree thought and believed it all to be true, since such a fine man was telling the story. ‘Yes, yes! Who knows! perhaps I too will fall down the stairs and win a princess!’ And it looked forward to the following day, to being adorned once more with candles and toys, gold and various types of fruit.</p>
+          <p rend="firstIndent" xml:id="p_00035">‘Tomorrow I will not shake!’ it thought. ‘I will simply enjoy all my splendour. Tomorrow I will once more hear the story of “Humpty-Dumpty” and maybe even the one about “Ivedy-Avedy”.’ And the tree stood still and lost in thought throughout the night.</p>
+          <p rend="firstIndent" xml:id="p_00036">In the morning the servant and the maid came in.</p>
+          <p rend="firstIndent" xml:id="p_00037">‘Now all the frippery’s to begin again!’ the tree thought, but they dragged it out of the living room, up the stairs, up into the attic, and here, in a dark corner where no daylight came, they left it. ‘What’s all this about?’ the tree thought. ‘What am I meant to do here? What will I ever get to hear up here?’ And it leant up against the wall and thought and thought. – – And it had plenty of time, for days and nights passed; no one came up here, and if at last someone did, it was only to place some large crates away in the corner; the tree was well-hidden; one could even get the idea that it had been completely forgotten.</p>
+          <p rend="firstIndent" xml:id="p_00038">‘Now it’s winter outside!’ the tree thought. ‘The ground is hard and covered with snow, people couldn’t possibly plant me, so that is probably why I am being kept in shelter here until spring comes! what consideration! how kind humans are, to be sure! – If only it wasn’t so dark and so terribly lonely here! – Not even a little hare! – It was so nice out in the forest, when the snow lay there, and the hare hopped past; yes, it even jumped right over me, but I didn’t like that back then. But up here it’s so terribly lonely!’</p>
+          <p rend="firstIndent" xml:id="p_00039">‘Squeak, squeak!’ a little mouse said right then and peeped out; and then one more came. They sniffed at the fir tree and darted among its branches.</p>
+          <p rend="firstIndent" xml:id="p_00040">‘It’s so bitterly cold!’ the small mice said. ‘Otherwise it’s quite delightful to be here! Isn’t it, you old fir tree?’</p>
+          <p rend="firstIndent" xml:id="p_00041">‘I’m not at all old!’ the fir tree said, ‘there are plenty more who are much older than I am!’</p>
+          <p rend="firstIndent" xml:id="p_00042">‘Where do you come from?’ the mice asked, ‘and what do you know?’ They were so terribly inquisitive. ‘Do tell us about the loveliest place on earth! Have you been there? Have you been in the pantry where cheeses lie on the shelves and hams hang from the ceiling, where one dances on tallow candles, and goes in thin and comes out fat!’</p>
+          <p rend="firstIndent" xml:id="p_00043">‘I don’t know anything about that!’ the tree said, ‘but I know the forest, where the sun shines and where the birds sing!’ and then it told them everything about its youth, and the small mice had never heard anything like it before, and they listened and said: ‘Oh, how much you’ve seen! How happy you have been!’</p>
+          <p rend="firstIndent" xml:id="p_00044">‘Me!’ the fir tree said and thought about what it had just related; ‘yes, they were, all in all, quite happy times!’ – but then it told them about Christmas Eve, when it was decorated with small cakes and candles.</p>
+          <p rend="firstIndent" xml:id="p_00045">‘Oh!’ the small mice said, ‘how happy you have been, you old fir tree!’</p>
+          <p rend="firstIndent" xml:id="p_00046">‘I am not the slightest bit old!’ the tree said, ‘I have only come from the forest this very winter! I am in my prime, I’ve just stopped growing!’</p>
+          <p rend="firstIndent" xml:id="p_00047">‘You are such a lovely storyteller!’ the small mice said, and the following night they came with four other small mice who wanted to hear the tree tell stories, and the more it told, the more distinctly it could remember everything too and thought: ‘all in all they were quite happy times! but they can come again, they can come again! Humpty-Dumpty fell down the stairs yet won the princess, perhaps I too can win a princess,’ and then the fir tree thought of such a pretty little birch tree that grew out in the forest – as far as the fir tree was concerned, that was a really lovely princess.</p>
+          <p rend="firstIndent" xml:id="p_00048">‘Who is Humpty-Dumpty?’ the small mice asked. And then the fir tree told them the whole story, it could remember each and every word; and the small mice almost jumped up into the top of the tree from sheer pleasure. The following night many more mice came, and on the Sunday even two rats, but they said that the story wasn’t amusing, and that saddened the poor mice, for now they too thought less of it.</p>
+          <p rend="firstIndent" xml:id="p_00049">‘Do you only know the one story?’ the rats asked.</p>
+          <p rend="firstIndent" xml:id="p_00050">‘Only the one!’ the tree replied, ‘I heard it on my happiest evening, but at the time I didn’t think about how happy I was!’</p>
+          <p rend="firstIndent" xml:id="p_00051">‘It’s an extremely bad story! Don’t you know anything with bacon and tallow candles? No pantry stories?’</p>
+          <p rend="firstIndent" xml:id="p_00052">‘No!’ the tree said.</p>
+          <p rend="firstIndent" xml:id="p_00053">‘Well, thank you and goodbye in that case!’ the rats replied and went back home.</p>
+          <p rend="firstIndent" xml:id="p_00054">Finally the mice also stayed away, and then the tree sighed: ‘It was really rather nice when they all sat round me, the nimble small nice, and listened to what I had to tell them! Now that too is all over! – but I will remember to enjoy myself once I am brought out again!’</p>
+          <p rend="firstIndent" xml:id="p_00055">But when did that happen? – Well, there was one morning when people came and rummaged around in the attic. The crates were moved, the tree was pulled out; they admittedly threw it down somewhat hard against the floor, but immediately a fellow dragged it over the stairs, where the daylight was gleaming.</p>
+          <p rend="firstIndent" xml:id="p_00056">‘Now life begins all over again!’ the tree thought; it could feel the fresh air, the first ray of the sun, – and now it was outside in the courtyard. Everything went so fast, the tree completely forgot to look at itself, there was so much to see all around. The yard adjoined a garden, and everything was blossoming there; the roses hung there fresh and fragrant over the small parapet, the linden trees were in blossom, and the swallows were flitting about saying ‘chirrup, chirrup, my husband has come!’ but it wasn’t the fir tree they were referring to.</p>
+          <p rend="firstIndent" xml:id="p_00057">‘Now I’m going to live! it joyfully cried and spread out its branches; alas, all of them were withered and yellow; it was lying in the corner among the weeds and nettles. The gold-paper star still sat on top of it, glittering in the bright sunshine.</p>
+          <p rend="firstIndent" xml:id="p_00058">In the yard a few of the merry children were playing who at Christmastide had danced round the tree and been so happy with it. One of the youngest went over and pulled off its gold star.</p>
+          <p rend="firstIndent" xml:id="p_00059">‘Just look at what’s still sitting on that ugly old Christmas tree!’ he said and stamped on the branches, so that they crackled under his boots.</p>
+          <p rend="firstIndent" xml:id="p_00060">And the tree looked at the profusion of blossoming and freshness in the garden, it looked at itself, and it wished that it had remained in its dark corner in the attic; it thought of its fresh youth in the forest, of the cheerful Christmas Eve and of the small mice that so happily had listened to the story of Humpty-Dumpty.</p>
+          <p rend="firstIndent" xml:id="p_00061">‘All over! all over!’ the poor tree said. ‘If only I had been happy when I could! all over! all over!’</p>
+          <p rend="firstIndent" xml:id="p_00062">And the servant came and chopped the tree into small pieces, a whole bundle lay there; it flared up so delightfully under the large copper; and it sighed so deeply, every sigh was like<!--waslike--> a tiny shot; that was why the children playing outside ran in and sat down in front of the fire, gazed into it and cried ‘piff! paff!’, but at every bang, which was a deep sigh, the tree was thinking of a summer day in the forest, a winter night out there when the stars were shining; it was thinking of Christmas Eve and Humpty-Dumpty, the only fairy tale it had heard and knew how to tell others –, and then the tree had completely burnt itself out.</p>
+          <p rend="firstIndent" xml:id="p_00063">The boys played in the yard, and the youngest wore on his chest the gold star that the tree had worn on the happiest evening of its life; now it was all over, and the tree and the story too; all over, all over – as all stories eventually are!</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

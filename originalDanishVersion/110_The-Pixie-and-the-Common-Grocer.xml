@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Pixie and the Common Grocer</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="nissen-hos-spekhoekeren">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="nissen-hos-spekhoekeren_modern.xml">moderniseret version</note>
+                                                       <note target="110_The-Pixie-and-the-Common-Grocer.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was a genuine student, he lived up in the attic and owned nothing at all; ...</incipit><idno type="image">Nissen_hos_Spekhoekeren_forside166.png</idno><popularity>926</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Pixie and the Common Grocer. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-12" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-08-12" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+             <div rend="The Pixie and the Common Grocer">
+                  <head type="main" rend="The Pixie and the Common Grocer">The Pixie and the Common Grocer</head>                <p rend="noIndent" xml:id="p_00001">There was a genuine student, he lived up in the attic and owned nothing at all; there was a regular common grocer, he lived on the ground floor and owned the whole house, and the pixie stuck close to him, for every Christmas he got a bowl of porridge with a lovely lump of butter in the middle! that the common grocer could give him; and the pixie stayed in the shop and that was highly educative.</p>
+          <p rend="firstIndent" xml:id="p_00002">One evening the student came in from the back door to buy himself some candles and cheese; he had no one to send for them, so he came himself; he got what he asked for, he paid for it and a ‘good evening’ was nodded him by the common grocer and his missus, and she was a woman who could do more than just nod, she was a chatterbox! – and the student nodded back and stood there for a while busy reading the sheet of paper that the cheese had been wrapped in. It was a page torn out of an old book that ought not to be pulled to pieces, an old book, full of poetry.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘There’s more of it lying here!’ the common grocer said, ‘I gave an old woman some coffee beans for it; if you give me eight pence, you can have the rest!’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Thank you,’ the student said, ‘let me have it instead of the cheese! I can eat my bread as it is! it would be a crying shame if the whole book were to be torn to shreds. You are a splendid man, a practical man, but you have no more idea what poetry is about than that bin over there!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And that was an impolite thing to say, especially to the bin, but the common grocer laughed and the student laughed, for it was said more in jest than anything else. But the pixie was put out that anyone dared address the common grocer like that, for he was his host and sold the best butter.</p>
+          <p rend="firstIndent" xml:id="p_00006">When night came, when the shop was shut up and everyone had gone to bed except the student, the pixie went in and took the missus’ <hi rend="italic">chatter</hi> – she didn’t use it when she slept – and wherever he placed it on some object, its tongue began to wag and it could express its thoughts and feelings just as well as the missus could, but only one object at a time could have it, and that was a blessing, for otherwise they would all have spoken at once.</p>
+          <p rend="firstIndent" xml:id="p_00007">And the pixie placed the chatter on the bin in which the old newspapers lay: ‘Is it really true,’ he asked, ‘that you don’t know what poetry is?’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘I most certainly do,’ the bin said, ‘it’s the sort of stuff that’s printed at the bottom of the newspapers and cut out! I would guess I’ve more of it inside me than the student, and I am only a humble bin compared with the common grocer!’</p>
+          <p rend="firstIndent" xml:id="p_00009">And <hi rend="italic">the pixie</hi> placed the chatter on the coffee grinder, oh, how it whirred round! and he placed it on the quarter of butter and the till; – All of them shared the bin’s opinion, and what most agree on one has to respect.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Now I’ll give the student a workover!’ <hi rend="italic">the pixie</hi> said and tiptoed up the kitchen stairs to the attic, where the student lived. There was light inside, and <hi rend="italic">the pixie</hi> peeped through the keyhole and saw that the student was reading the tattered book from down below. But what a lot of light there was in there! a clear ray streamed out of the book and because a trunk, became a mighty tree that soared up tall and spread its branches far out over the student. Every leaf was so fresh and every blossom was a lovely girl’s head, some with eyes dark and gleaming, others blue and wonderfully bright. Every fruit was a glittering star, and there was such wonderful singing and music!</p>
+          <p rend="firstIndent" xml:id="p_00011">Oh, the little pixie had never imagined such magnificence, let alone seen and sensed it. And so he stood there on tiptoe, gazed and gazed until the light in there went out; the student blew out his lamp and went to bed, but the little pixie kept on standing there nevertheless, for the singing still sounded so soft and delightful, a lovely lullaby for the student who had laid himself down to rest.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘It’s wonderful here!’ the little pixie said, ‘I’d never expected <hi rend="italic">this</hi>! – I think I will stay with the student –!’ – and he thought – and thought carefully, and then he sighed: ‘The student’s got no porridge!’ – and so he left – yes, he went back down to the common grocer; – and it was a good thing that he did, for the bin had used up practically all of the missus’ chatter by reeling off from one side everything it had inside it, and now it was about to turn round and do exactly the same from the other side when the pixie arrived and took the chatter back to the missus; but the whole shop, from the till to the tinderwood, had from that time on the same opinion as the bin, and they revered it to such an extent and felt it was capable of so much that when <hi rend="italic">the common grocer</hi> later read ‘Art and Theatre Reviews’ from his <hi rend="italic">‘Newspaper’</hi>, the evening one, they thought it all came from the bin.</p>
+          <p rend="firstIndent" xml:id="p_00013">But the little pixie no longer sat quietly listening to all the wisdom and reason down there, no, as soon as the light shone from the attic room, it was as if the rays were strong anchor ropes that pulled him up there, and he had to be off and peep in through the keyhole, and there a greatness roared around him like that which we feel at the heaving ocean when God passes over it in the storm, and he burst into tears, he didn’t know himself why he was crying, but in his crying was something so very blissful! – How absolutely wonderful it must be to sit with the student under the tree, but that could never happen, – he was content with the keyhole. There he still stood in the cold passage while the autumn wind blew down from the attic trapdoor and it was so cold, so cold, but the little one did not feel this until the light went out inside the attic room, and the music died away on the wind. O-ooh! then he froze and crept down once more to his cosy nook; there it was cushy and cosy! – And when the Christmas porridge arrived with a large lump of butter, – well, then <hi rend="italic">the common grocer</hi> was his master!</p>
+          <p rend="firstIndent" xml:id="p_00014">But in the middle of the night <hi rend="italic">the pixie</hi> woke up at a terrible racket at the shutters, people outside were hammering away; the night watchman sounded the alarm, there was a great conflagration – the whole street was ablaze. Was it in this house or the neighbour’s? Where? What horror and dismay! The common grocer’s missus was so flurried that she took her gold earrings out of her ears and stuffed them in her pocket so as to save at least something, <hi rend="italic">the common grocer</hi> ran off to fetch his stocks and shares and the servant girl to fetch her silk mantilla, the one she could afford; everyone tried to save the best they had and so did the little pixie, and in a couple of leaps he was up the stairs and inside the room of the student, who was standing quite calmly at the open window looking at the fire, which was in the courtyard of the house opposite. The little pixie grabbed the wonderful book on the table, stuffed it into his red cap and held onto it with both hands, the best treasure of the house was saved! and then off he hurried, right out onto the roof, right up to the chimney and there he sat, lit up by the burning house opposite and held with both hands onto his red cap, in which the treasure lay. Now he knew the true feelings of his heart, who he really belonged to; but when the fire had been put out, he became more level-headed, yes: ‘I will share myself between them!’ he said: ‘I can’t completely give up the common grocer for the sake of the porridge!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And that was no more than human! – The rest of us also go to the common grocer – for his porridge.</p>
+             </div>
+               
+        </body>
+                         </text>
+                    </TEI>

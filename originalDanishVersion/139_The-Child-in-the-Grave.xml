@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Child in the Grave</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="barnet-i-graven">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="barnet-i-graven_modern.xml">moderniseret version</note>
+                                                       <note target="139_The-Child-in-the-Grave.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was grief in the house, there was grief in the hearts, the youngest child,...</incipit><idno type="image">Barnet_i_Graven_forside.png</idno><popularity>908</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Child in the Grave. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-30" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-30" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2022-11-09">removed a quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Child in the Grave">
+               <head type="main" rend="The Child in the Grave">The Child in the Grave</head>                <p rend="noIndent" xml:id="p_00001">There was grief in the house, there was grief in the hearts, the youngest child, a four-year-old boy, the only son, the joy of his parents and their hope of the future, was dead; they admittedly had two elder daughters, the older one was to be confirmed this year, good girls both of them, but the lost child is always the dearest and this was the youngest and a son. It was a sore trial. The sisters grieved as young hearts grieve, particularly affected by their parents’ pain, their father was bowed down, but their mother overwhelmed by profound grief. She had been with the sick child night and day, cared for it, lifted and carried it; it was a part of herself she had felt and sensed, she could not imagine that it was dead, that it was to be laid in a coffin and hidden away in the grave: God could not take this child from her, she felt, and when this happened and was a certainty she said out of her sick pain:</p>
+               <p rend="firstIndent" xml:id="p_00002">‘God did not know about this! he has heartless servants here on earth, they act as they feel like, they do not listen to a mother’s prayers.’</p>
+               <p rend="firstIndent" xml:id="p_00003">In her pain she turned away from the <hi rend="italic">Lord God</hi> and then dark thoughts came to her, thoughts of death, eternal death, that humans became earth in the earth, and that everything then was over. At such a thought she had nothing to cling to and sank into the bottomless void of despair.</p>
+               <p rend="firstIndent" xml:id="p_00004">In her heaviest hours she was unable to cry any more; she did not think of the young daughters she still had, her husband’s tears fell on her forehead, she did not look up at him; her thoughts were with the dead child, all her life and living was spent in seeking to recall every memory of her child, each of its innocent childish words.</p>
+               <p rend="firstIndent" xml:id="p_00005">The day of the funeral arrived, she had not slept the previous nights, in the early morning hours she was overwhelmed by fatigue and rested for a while, while the coffin was taken into a distant room and the lid nailed on where she could not hear the blows of the hammer.</p>
+               <p rend="firstIndent" xml:id="p_00006">When she woke up, got up and wanted to see her child, her husband in tears told her: ‘We have closed the coffin; it had to be done.’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘When God is hard towards me,’ she exclaimed, ‘why should mankind be any better!’ and she wept and sobbed.</p>
+               <p rend="firstIndent" xml:id="p_00008">The coffin was brought to the grave, the inconsolable mother sat with her young daughters, she looked at them, without seeing them, her thoughts no longer had anything to do with the home, she abandoned herself to grief, and it tossed her as the sea tosses the ship that has lost rudder and helmsman. So did the day of the funeral pass and the following days, with the same monotonous, heavy pain. With tear-filled eyes and sorrowful look the mourners back home looked at her, she did not hear their consolation, and what could they say, for they were too full of sorrow to find words.</p>
+               <p rend="firstIndent" xml:id="p_00009">It was as if she no longer knew what sleep was, and only that would be her best friend, strengthen her body, calm her mind; they got her to lie down in her bed, she also lay as still there as if she was asleep. One night, her husband listened for her breathing and was convinced that she had found rest and relief, so he folded his hands, prayed and was soon fast asleep, did not notice that she got up, threw her clothes around her and walked ever so silently out of the house, to go to the place her thoughts sought for night and day, to the grave that held her child. She walked through the house’s garden, out onto the field where the path led outside the town to the cemetery; no one saw her, she saw no one.</p>
+               <p rend="firstIndent" xml:id="p_00010">It was a fine starry night, the air was still mild, it was early September. She entered the cemetery, went over to the small grave, it was one great bouquet of flowers, full of fragrance, she sat down, bowed her head down towards the grave as if she was able to look through the dense layer of earth and see her little boy, whose smile she so vividly recalled; the loving expression in his eyes, even when on his sickbed, was unforgettable, how meaningful his gaze had been when she bent down over him and took the fine hand, the one he did not have the strength to lift himself. As she had sat beside his bed she now sat beside his grave, but here her tears fell without restraint, they fell onto the grave.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘You want to go down to your child!’ a voice close by said, it sounded so clear, so deep, it sounded straight into her heart, she looked up, and there beside her stood a man, wrapped in a large mourning cloak with a hood pulled down over his head, but she looked in under it at his face, it was austere, yet it looked trustworthy, his eyes gleamed as if he was in the prime of youth.</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Down to my child!’ she repeated and a prayer of despair lay in her words.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Do you dare follow me?’ the figure asked. ‘I am Death!’</p>
+               <p rend="firstIndent" xml:id="p_00014">And she nodded in affirmation; then suddenly it was as if all the stars above shone with the gleam of the full moon, she saw the magnificent variety of colours of the flowers on the grave, the covering of earth yielded gently and softly, as if it was a floating cloth, she sank, and the figure spread out its black cloak round her, it became night, the night of Death, she sank deeper than the spade that digs the grave goes down, the cemetery lay like a roof over her head.</p>
+               <p rend="firstIndent" xml:id="p_00015">The corner of the cloak slid to one side, she was standing in a mighty hall which spread out large and friendly; twilight was deepening, but in front of her, and at that very moment, close to her heart, she was holding her child, it smiled at her with a beauty greater than ever before; she let out a cry, though it remained inaudible, for close by, and then far away and again close by, lovely swelling music could be heard, never before had such blissfully harmonious notes reached her ear, they sounded on the far side of the pitch-black dense curtain that divided the hall from the great land of eternity.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘My dearest mother! my own mother!’ she heard her child say. It was that well-known, loved voice; and kiss followed kiss in never-ending bliss; and the child pointed at the dark curtain.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘It is not so delightful up on earth! look, mother! look at all of them! this is bliss!’</p>
+               <p rend="firstIndent" xml:id="p_00018">But his mother saw nothing where the child was pointing, nothing except for the black night; she saw with earthly eyes, did not see as the child did whom God had called unto Himself, she heard the sound, the notes, but could not make out the Word, and that she had to believe in.</p>
+               <p rend="firstIndent" xml:id="p_00019">‘Now I can fly, mother!’ the child said, ‘fly with all the other happy children straight in there to God! I would really like to do so, but when you cry as you are crying now, I cannot leave you, and I would so like to! Can’t you let me do so! For in a short while you will come in there to me too, dearest mother!’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Oh stay, oh stay!’ she said, ‘just one moment more! let me look at you just one more time, kiss you, hold you in my arms!’</p>
+               <p rend="firstIndent" xml:id="p_00021">And she kissed and clasped him. Then her name sounded from up above; so mournful these notes were; what could it be?</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Can you hear that!’ the child said, ‘it’s father calling for you!’</p>
+               <p rend="firstIndent" xml:id="p_00023">And again, after a few seconds, deep sighs could be heard, as from weeping children.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘That is my sisters!’ the child said, ‘mother, you haven’t forgotten them, have you!’</p>
+               <p rend="firstIndent" xml:id="p_00025">And she remembered those left behind, a fear seized her, she looked ahead of her and figures were continually floating past, she thought she knew some of those floating through the Hall of Death, towards the dark curtain, where they disappeared. Would her husband, her daughters possibly come into view? No! their cries, their sighs could still be heard from above; she had almost forgotten them for the dead child.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘Mother, now the bells of heaven are ringing!’ the child said. ‘Mother, now the sun is rising!’</p>
+               <p rend="firstIndent" xml:id="p_00027">And an overwhelming light streamed towards her; – the child was gone, and she was lifted up – it grew cold around her, she raised her head and saw that she was lying in the cemetery on her child’s grave; but in her dream God had become a sure support for her feet, a light for her mind, she went down on both knees and prayed:</p>
+               <p rend="firstIndent" xml:id="p_00028">‘Forgive me, Lord God! that I wanted to keep an eternal soul from its flight, and that I could forget my duties to the living you gave me here!’ And at these words it was as if her heart found relief! Then the sun emerged, a small bird sang above her head, and the church bells rang out for matins. Everything around her became so holy, as holy as in her heart! she knew her God, she knew her duties, and full of longing she hurried home. She bent down over her husband, her warm, fervent kiss woke him, and they spoke heartfelt, intimate words together, and she was strong and gentle as a wife can be, from her came a fount of consolation.</p>
+               <lg xml:id="p_00029">
+                    <l>‘God’s will is always best!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00030">And her husband asked her: ‘Where have you suddenly gained this strength from, this consoling mind?’</p>
+               <p rend="firstIndent" xml:id="p_00031">And she kissed him and kissed her children:</p>
+               <p rend="noIndent" xml:id="p_00032">‘I got it from God, by our child in the grave!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Kong Saul</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Uopført. Trykt første gang i SS bd. 30, 1876, BFN 1067, som her er trykforlæg. II og III akt trykt i <hi rend="italic">Fra danske Forfattere.</hi> Udg. af Chr. Richardt, 1867. BFN 963</p><hi rend="italic">Fra danske Forfattere.</hi><p rend="firstIndent">H.C. Andersen skrev operateksten på J.P.E. Hartmanns opfordring, men denne fik aldrig fuldført musikken til <hi rend="italic">Kong Saul</hi>, som kun omfatter I akts første del til og med koret »Med ham til Striden«. Fragmentet findes som musikhåndskrift på Det Kongelige Biblioteks Center for Musik og Teater (MA ms 0692 mu 8811.0983).</p><hi rend="italic">Kong Saul</hi><p rend="firstIndent">Beretningen om Saul findes i 1. Samuels Bog 9-31, hvortil der henvises i det følgende.</p><p rend="noIndent">Forskningsbibliotekar, cand.phil. Inger Sørensen takkes for faglig hjælp ved udformning af noternes musikoplysninger.</p>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">13:<hi rend="italic"> Skuespil IV 1850-1876</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="kong-saul" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Kong Saul. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 13:&lt;i&gt; Skuespil IV 1850-1876&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Uopført. Trykt første gang i SS bd. 30, 1876, BFN 1067, som her er trykforlæg. II og III akt trykt i &lt;i&gt;Fra danske Forfattere.&lt;/i&gt; Udg. af Chr. Richardt, 1867. BFN 963&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;H.C. Andersen skrev operateksten på J.P.E. Hartmanns opfordring, men denne fik aldrig fuldført musikken til &lt;i&gt;Kong Saul&lt;/i&gt;, som kun omfatter I akts første del til og med koret »Med ham til Striden«. Fragmentet findes som musikhåndskrift på Det Kongelige Biblioteks Center for Musik og Teater (MA ms 0692 mu 8811.0983).&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Beretningen om Saul findes i 1. Samuels Bog 9-31, hvortil der henvises i det følgende.&lt;/p&gt;&lt;p&gt;Forskningsbibliotekar, cand.phil. Inger Sørensen takkes for faglig hjælp ved udformning af noternes musikoplysninger.&lt;/p&gt;
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1876</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0172">Første Act</cell>
+                                                       
+                                                            <cell ref="#div0173" level="2">Kong Sauls Telt</cell>
+                                                       
+                                                            <cell ref="#div0174" level="2">Anden Act. I Kongeborgen</cell>
+                                                       
+                                                            <cell ref="#div0175" level="2">Tredie Act. Klippehule</cell>
+                                                       
+                                                            <cell ref="#div0176" level="2">Fjerde Act. En pragtfuld Sal i Kongeborgen</cell>
+                                                       
+                                                            <cell ref="#div0177" level="2">Femte Act. Klippehule hos Hexen i Endor. Scenen forandres til Leiren.</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-04-22" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-04-22" who="NHB">formatted</change><change who="NHB" when="2024-04-24" status="draft">gennemset indtil s. 22</change><change who="NHB" when="2024-04-25" status="draft">gennemset indtil 93</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Kong Saul" xml:id="kong-saul">
+
+<front>
+<titlePage>
+<pb n="561"/>
+<titlePart type="main"><seg target="txtcmnt-561-01"><!--DATA-TERM: Kong Saul--><!--DATA-DEFINITION: kong Saul var Israels første konge, o. 1000 f.Kr.-->Kong Saul</seg></titlePart>
+
+<titlePart type="part">Opera i fem Acter</titlePart>
+<docImprint><docDate>1876</docDate></docImprint>
+</titlePage>
+<castList>
+<pb n="562"/>
+<head type="act">Personerne</head>
+
+<castItem><role>SAUL, Konge i Israel</role></castItem>
+<castItem><role><seg target="txtcmnt-562-01"><!--DATA-TERM: Jonathan--><!--DATA-DEFINITION: 1. Samuels Bog 14,1 o.a.st.-->JONATHAN</seg>, hans Søn</role></castItem>
+
+<castItem><role><seg target="txtcmnt-562-02"><!--DATA-TERM: Michal--><!--DATA-DEFINITION: 1. Samuels Bog 14,49, 18,20-27 o.a.st.-->MICHAL</seg>, hans Datter</role></castItem>
+
+<castItem>
+<role>SAMUEL, Dommer</role>
+</castItem>
+
+<castItem>
+<role>DAVID</role></castItem>
+
+<castItem><role><seg target="txtcmnt-562-03"><!--DATA-TERM: Abjathar--><!--DATA-DEFINITION: eller Ebjatar, 1. Samuels Bog 22,20-23.-->ABJATHAR</seg></role></castItem>
+
+<castItem><role><seg target="txtcmnt-562-04"><!--DATA-TERM: Isram--><!--DATA-DEFINITION: navnet er ukendt i den bibelske og senere jødiske litteratur og formentlig opdigtet.-->ISRAM</seg>, Sauls Fortrolige</role></castItem>
+
+<castItem>
+<role>ZILLA, en <seg target="txtcmnt-562-05"><!--DATA-TERM: Hexekvinde fra Endor--><!--DATA-DEFINITION: 1. Samuels Bog 28,7-25.-->Hexekvinde fra Endor</seg></role>
+<castItem><role>Tre Hexekvinder</role></castItem>
+
+<castItem><role>Flygtninge</role></castItem>
+</castItem>
+
+<castItem>
+<role>CHOR af Præster, Krigere og Folket</role>
+</castItem>
+
+<pb n="563"/>
+</castList></front>
+<div type="act" rend="Første Act" xml:id="div0172">
+<pb n="564"/>
+<head type="act">Første Act</head>
+<div type="scene" rend="Kong Sauls Telt" xml:id="div0173">
+<head type="set">Kong Sauls Telt</head>
+<stage>Det er aabent i Baggrunden. Offringen begynder, Kongen staaer mellem Præsterne; rundt om er sluttet Kreds af Soldater og Folk.</stage>
+
+<sp>
+<speaker>PRÆSTERNE</speaker>
+<l rend="firstIndent"><hi rend="italic">Jehova</hi>,</l>
+<l rend="firstIndent">Vend dine Øine ikke herfra!</l>
+<l rend="firstIndent">Du har Israels Folk udkaaret!</l>
+<l rend="firstIndent">Ved <seg target="txtcmnt-564-01"><!--DATA-TERM: Moses … Lovenes Bud--><!--DATA-DEFINITION: 2. Mosebog 20-31.-->Moses blev frembaaret</seg>
+<seg target="txtcmnt-564-01">Lovenes Bud</seg>.</l>
+<l rend="firstIndent">Du er Israels Gud.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Du vil os høre,</l>
+<l rend="firstIndent">Du vil os føre</l>
+<l rend="firstIndent">Af Trængslerne ud.</l>
+<l rend="firstIndent">Du i din Vælde</l>
+<l rend="firstIndent">Fjenderne fælde!</l>
+</sp>
+<sp>
+<speaker>FOLKET</speaker>
+<l rend="firstIndent">Offer-Røgen sig svinge</l>
+<l rend="firstIndent">Gjennem Himlens Pauluner!</l>
+<l rend="firstIndent">Mægtigt klinge</l>
+<l rend="firstIndent"><seg target="txtcmnt-564-02"><!--DATA-TERM: Cymbler--><!--DATA-DEFINITION: en slags strengeinstrumenter.-->Cymbler</seg> og Basuner!</l>
+<stage><hi rend="italic">(Under dette Chor er Saul traadt frem i Forgrunden og Teltet blevet lukket.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Nu er det skeet. Her var ei Tid at spørge,</l>
+<l rend="firstIndent">Hvor <seg target="txtcmnt-564-03"><!--DATA-TERM: bliver--><!--DATA-DEFINITION: bliver af.-->bliver</seg> Folkets Dommer,</l>
+<l rend="firstIndent">Offerpræsten. Ei han kommer,</l>
+<l rend="firstIndent">Vil ei komme. Alt syv Dage ere omme;</l>
+<l rend="firstIndent">Ei er Tid til Dvælen.</l>
+</sp>
+<pb n="565"/>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Du i Hæren er Sjælen,</l>
+<l rend="firstIndent">Kraften og Aanden;</l>
+<l rend="firstIndent">Villien har Sværdet i Haanden.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Israels Gud,</l>
+<l rend="firstIndent">Du os høre,</l>
+<l rend="firstIndent">Du os føre</l>
+<l rend="firstIndent">Af Trængslerne ud.</l>
+<stage rend="right"><hi rend="italic">(Isram forlader Teltet.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Er jeg <seg target="txtcmnt-565-01"><!--DATA-TERM: endnu ei--><!--DATA-DEFINITION: ikke stadigvæk.-->endnu ei</seg> kjæk og ung,</l>
+<l rend="firstIndent">Hvi sænker sig en <seg target="txtcmnt-565-02" type="dfnStart"><!--DATA-TERM: Sky saa tung … Hjerte … Harpespil--><!--DATA-DEFINITION: 1. Samuels Bog 16,14-23.--></seg>Sky saa tung</l>
+<l rend="firstIndent">Fra Tanken til mit Hjerte.</l>
+<l rend="firstIndent">Skal ud fra Skyen Kraftens Lyn</l>
+<l rend="firstIndent">Just klare op mit Kongesyn,</l>
+<l rend="firstIndent">Hvad er Minutets Smerte!</l>
+<graphic type="shortLine"/>
+</sp>
+<sp>
+<speaker>DAVID <stage><hi rend="italic">(synger udenfor).</hi></stage></speaker>
+<l rend="firstIndent">Ud i Leiren,</l>
+<l rend="firstIndent">Ud til Seiren!</l>
+<l rend="firstIndent">Og med hver en Fugletunge</l>
+<l rend="firstIndent">Høit at sjunge,</l>
+<l rend="firstIndent">Vingen øve,</l>
+<l rend="firstIndent">Kraften prøve!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Det er Davids Harpespil<seg target="txtcmnt-565-02" type="dfnEnd"><!--DATA-TERM: Sky saa tung … Hjerte … Harpespil--><!--DATA-DEFINITION: 1. Samuels Bog 16,14-23.--></seg>,</l>
+<l rend="firstIndent">Davids Stemme, jeg den hører,</l>
+<l rend="firstIndent">Altid sælsomt den mig rører,</l>
+<l rend="firstIndent">Milde Syner frem den fører,</l>
+<l rend="firstIndent">Syner, som mit Hjerte vil.</l>
+</sp>
+<sp>
+<speaker>DAVID <stage><hi rend="italic">(udenfor).</hi></stage></speaker>
+<l rend="firstIndent">Hos de raske Vaabendrenge</l>
+<l rend="firstIndent">Vil jeg gribe Harpens Strænge;</l>
+<l rend="firstIndent">Kraftigt længe</l>
+<l rend="firstIndent">Toner Klangen.</l>
+<l rend="firstIndent">Der er Lædskedrik i Sangen.</l>
+</sp>
+<pb n="566"/>
+<sp>
+<speaker>SAUL</speaker>
+<stage><hi rend="italic">(idet han lader ham kalde).</hi></stage>
+<l rend="firstIndent">Her i Teltet ved min Side</l>
+<l rend="firstIndent">Sidde han.</l>
+<l rend="firstIndent">Disse Toner bløde, blide</l>
+<l rend="firstIndent">Mildne kan,</l>
+<l rend="firstIndent">Løfte, holde, Kraft gjenføde.</l>
+<stage rend="firstIndent"><hi rend="italic">(Gjentager Ordene i Davids Sang.)</hi></stage>
+<l rend="firstIndent">»Kraftigt længe toner Klangen,</l>
+<l rend="firstIndent">Der er Lædskedrik i Sangen.«</l>
+<stage rend="firstIndent">(Til <hi rend="normal">David</hi>, der træder ind.)</stage>
+<l rend="firstIndent">Du er her med Sangens Magt.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Mine Brødre har jeg bragt</l>
+<l rend="firstIndent"><seg target="txtcmnt-566-01"><!--DATA-TERM: Fødevare--><!--DATA-DEFINITION: fødevarer, jf. 1. Samuels Bog 16,20.-->Fødevare</seg>, Frugt og Viin –!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Krigerens Magt er ei stor som din,</l>
+<l rend="firstIndent">Hjertets Sorg Du veed at dæmpe.</l>
+<l rend="firstIndent">Du kan de truende Syner bekjæmpe,</l>
+<l rend="firstIndent">Grib nu Harpen før Kampens Gang.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Konge, Du vil, og Harpen faaer Klang.</l>
+<stage><hi rend="italic">(David spiller.)</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR af MICHAL og KVINDER</speaker>
+<stage><hi rend="italic">(som komme til.)</hi></stage>
+<l rend="firstIndent">Hvilke Toner, bløde, stærke,</l>
+<l rend="firstIndent">Davids Strængespil.</l>
+<l rend="firstIndent">Jeg mit Hjerteslag kan mærke!</l>
+<l rend="firstIndent">Vi lytte til.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Din Sjæl være ung,</l>
+<l rend="firstIndent">Da er ingen Byrde Dig tung.</l>
+<l rend="firstIndent">Sjung!</l>
+<l rend="firstIndent">Hjertet svulme i Glæde,</l>
+<l rend="firstIndent">Glædes-Taarer Du græde!</l>
+</sp>
+<pb n="567"/>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">I Glæde,</l>
+<l rend="firstIndent">Glædes-Taarer Du græde!</l>
+</sp>
+<sp>
+<speaker>JONATHAN <stage><hi rend="italic">(træder ind).</hi></stage></speaker>
+<l rend="firstIndent">Fra <seg target="txtcmnt-567-01"><!--DATA-TERM: Philisterne(s)--><!--DATA-DEFINITION: Israels vestlige naboer på kyststrækningen fra Gaza til Jaffa (nu Tel-Aviv).-->Philisternes</seg> Hær atter <seg target="txtcmnt-567-02" type="dfnStart"><!--DATA-TERM: Kæmpen … Haan … Enekamp--><!--DATA-DEFINITION: 1. Samuels Bog 17,4-8.--></seg>Kæmpen staaer frem,</l>
+<l rend="firstIndent">Sin Haan og sin Gift kaad slynger han ud.</l>
+<l rend="firstIndent">Han en Enekamp<seg target="txtcmnt-567-02" type="dfnEnd"><!--DATA-TERM: Kæmpen … Haan … Enekamp--><!--DATA-DEFINITION: 1. Samuels Bog 17,4-8.--></seg> vil; Ingen mødte endnu,</l>
+<l rend="firstIndent">Skjøndt din Datter <hi rend="italic">Michal</hi> har Du lovet til den,</l>
+<l rend="firstIndent">Som i Kampen bestaaer; Ingen vovede den.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Ingen vovede den,</l>
+<l rend="firstIndent">Og dog lovede Du den,</l>
+<l rend="firstIndent">Som i Kampen bestod,</l>
+<l rend="firstIndent"><hi rend="italic">Michal</hi>, deilig og god.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Kong Saul, jeg Seirens Priis skal naae,</l>
+<l rend="firstIndent">Jeg vil i Kamp med Kæmpen gaae</l>
+<l rend="firstIndent">Og haaber ham at fælde.</l>
+<l rend="firstIndent">Gud lede vil mit <seg target="txtcmnt-567-03"><!--DATA-TERM: Slyngekast--><!--DATA-DEFINITION: 1. Samuels Bog 17,49.-->Slyngekast</seg>,</l>
+<l rend="firstIndent">Og Kæmpens Haan og Spot i Hast</l>
+<l rend="firstIndent">Er Lyd som af en Bjælde.</l>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Mit Hjerte paa din Lykke troer.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Mod og Villie gjør Dig stor,</l>
+<l rend="firstIndent">Du vil slaae, som Du kan synge.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Tag mit Sværd!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="right">Nei, kun min Slynge;</l>
+<l rend="firstIndent">Jeg med den vil Lykken prøve;</l>
+<l rend="firstIndent">Den har fældet Bjørn og Løve,</l>
+<l rend="firstIndent">Nu den fælde Haan og Spot.</l>
+</sp>
+<pb n="568"/>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Heltens Hjerte Intet skrækker.</l>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Styrk ham, <seg target="txtcmnt-568-01"><!--DATA-TERM: Herre Zebaoth--><!--DATA-DEFINITION: Det Gamle Testamente har betegnelsen Zebaoth for Gud som hærskarers herre, dvs. herre over Israels hære, uvejr, jordskælv osv., den vældige gud, der virker i alt.-->Herre Zebaoth</seg>!</l>
+</sp>
+<sp>
+<speaker>DAVID <stage><hi rend="italic">(til Michal).</hi></stage></speaker>
+<l rend="firstIndent">For din Fod jeg her nedlægger</l>
+<l rend="firstIndent">Harpen, i hvis spændte Strænge</l>
+<l rend="firstIndent">Hjertets Toner bæved’ længe.</l>
+<l rend="firstIndent">Nu til Kamp, nu er det Tiden!</l>
+<stage rend="right"><hi rend="italic">(Iler ud.)</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR af JONATHAN og KRIGERE</speaker>
+<l rend="firstIndent">Med ham til Striden!</l>
+<stage rend="right"><hi rend="italic">(De følge efter.)</hi></stage>
+</sp>
+<sp>
+<speaker>MICHAL og KVINDER</speaker>
+<l rend="firstIndent">Nu er Hjertet af Angst <seg target="txtcmnt-568-02"><!--DATA-TERM: bespændt--><!--DATA-DEFINITION: beklemt.-->bespændt</seg>.</l>
+<stage rend="right"><hi rend="italic">(De gaae til Side.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Kun et Vindstød og Bladet er vendt.</l>
+<l rend="firstIndent">Hvad der vil komme har Ingen kjendt.</l>
+<stage><hi rend="italic">(Træder mod Teltets Udgang og møder Samuel.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAMUEL</speaker>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi>, Du bøier ei dit Hoved ned,</l>
+<l rend="firstIndent">Din Villie lader Du raade,</l>
+<l rend="firstIndent">Din egen Strid Du ei stred!</l>
+<l rend="firstIndent">Jehova vil i sin Naade</l>
+<l rend="firstIndent">Den strengeste Lydighed,</l>
+<l rend="firstIndent">Den er ham bedre</l>
+<l rend="firstIndent">End Offret af <seg target="txtcmnt-568-03"><!--DATA-TERM: Øxner--><!--DATA-DEFINITION: okser.-->Øxner</seg> og Væddre.</l>
+<l rend="firstIndent">Konge, Ypperstepræst tillige vil Du være!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Din Konge Du ære</l>
+<l rend="firstIndent">Er Lovens Bud.</l>
+</sp>
+<sp>
+<speaker>SAMUEL</speaker>
+<l rend="firstIndent">Kongernes Konge er Gud!</l>
+</sp>
+<pb n="569"/>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Som en Ravn herind Du fløi,</l>
+<l rend="firstIndent">Ei dit Skrig skal Angst forvolde.</l>
+<l rend="firstIndent">Jeg er ei dit Legetøi,</l>
+<l rend="firstIndent">Den, Gud kaared’, Gud vil holde.</l>
+</sp>
+<sp>
+<speaker>SAMUEL</speaker>
+<l rend="firstIndent">Hvo gav Dig Kronen,</l>
+<l rend="firstIndent">Fattige Hyrde? –</l>
+<l rend="firstIndent">– Mose Love, Religionen</l>
+<l rend="firstIndent">Vil du omstyrte.</l>
+<l rend="firstIndent">– Snart er Du i Angest stedt,</l>
+<l rend="firstIndent">Ikke Du og ei din Æt</l>
+<l rend="firstIndent">Skal beholde Kongetronen!</l>
+<l rend="firstIndent">– Jeg har intet til din Trøst,</l>
+<l rend="firstIndent">Snart en Anden bærer Kronen,</l>
+<l rend="firstIndent">Hør i mig Gud Herrens Røst!</l>
+</sp>
+<sp>
+<speaker>CHOR <stage><hi rend="italic">(bag Scenen).</hi></stage></speaker>
+<l rend="firstIndent">Han faldt! see det blodige Lig!</l>
+<l rend="firstIndent">Glædesskrig, Jammerens Skrig</l>
+<l rend="firstIndent">Sig blande!</l>
+</sp>
+<sp>
+<speaker>SAUL og SAMUEL</speaker>
+<l rend="firstIndent">Gjennem Hjerte, gjennem Pande</l>
+<l rend="firstIndent">Tanken lyner!</l>
+<l rend="firstIndent">Fremtids-Syner kan jeg skue,</l>
+<l rend="firstIndent">De gaae frem i Glands og Lue.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Heltens Kampdaad vil vi synge,</l>
+<l rend="firstIndent"><seg target="txtcmnt-569-01"><!--DATA-TERM: Isais Søn--><!--DATA-DEFINITION: Davids far hed Isaj.-->Isais Søn</seg>, Du Seiren vandt.</l>
+</sp>
+<sp>
+<speaker>ZILLA og derpaa CHORET</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-569-02"><!--DATA-TERM: Tusinde … Ti Tusinde--><!--DATA-DEFINITION: 1. Samuels Bog 18,7.-->Tusinde dræbtes af <hi rend="italic">Saul</hi>,</seg>
+<seg target="txtcmnt-569-02">Ti Tusinde</seg> dræbtes af David!</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">Kun med Hyrdestav og Slynge</l>
+<l rend="firstIndent"><hi rend="italic">David</hi> frem i Kredsen gik.</l>
+<l rend="firstIndent">Kæmpen faldt ved første Kast;</l>
+<l rend="firstIndent">Sværdet ved hans Lænd i Hast</l>
+<l rend="firstIndent"><pb n="570"/>
+<hi rend="italic">David</hi> greb, dets skarpe Blad</l>
+<l rend="firstIndent">Skilte Krop og Hoved ad.</l>
+</sp>
+<sp>
+<speaker>ZILLA og CHORET</speaker>
+<l rend="firstIndent">Tusinde dræbtes af <hi rend="italic">Saul</hi>,</l>
+<l rend="firstIndent">Ti Tusinde dræbtes af <hi rend="italic">David</hi>.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Er, <hi rend="italic">Michal</hi>, din Haand i min Høire lagt,</l>
+<l rend="firstIndent">O giv saa et Kys mig paa Panden.</l>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Hvorfra denne store, sælsomme Magt,</l>
+<l rend="firstIndent">Der bøier Kvinden for Manden.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Mig ramme de Ord, der i Sangen er lagt,</l>
+<l rend="firstIndent">Man sprænge ei Kronen fra Panden.</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Jeg har i Kong <hi rend="italic">Saul</hi> min Storhed og Magt,</l>
+<l rend="firstIndent">Thi herske han og ingen Anden.</l>
+</sp>
+<sp>
+<speaker>ZILLA <stage><hi rend="italic">(betragtende Saul).</hi></stage></speaker>
+<l rend="firstIndent">Han, som har min Moder paa Baalet bragt,</l>
+<l rend="firstIndent">Der staaer han! nu har jeg ham – Manden!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Tusinde dræbtes af <hi rend="italic">Saul</hi>,</l>
+<l rend="firstIndent">Ti Tusinde dræbtes af <hi rend="italic">David</hi>!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Høit Sangen har meldet,</l>
+<l rend="firstIndent">Ti Tusind Du fælded’,</l>
+<l rend="firstIndent"><seg target="txtcmnt-570-01"><!--DATA-TERM: Fæld Hundrede til--><!--DATA-DEFINITION: 1. Samuels Bog 18,25.-->Fæld Hundrede til</seg>;</l>
+<l rend="firstIndent">De <seg target="txtcmnt-570-02"><!--DATA-TERM: Brude-Skjænk--><!--DATA-DEFINITION: brudegave.-->Brude-Skjænk</seg> være,</l>
+<l rend="firstIndent">Og <hi rend="italic">Michal</hi> i Ære</l>
+<l rend="firstIndent">Da hører Dig til.</l>
+</sp>
+<sp>
+<speaker>ZILLA og MICHAL</speaker>
+<l rend="firstIndent">Han vil, han skal bløde.</l>
+<l rend="firstIndent">Indvies de Døde.</l>
+</sp>
+<pb n="571"/>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Til Kamp skal jeg møde.</l>
+</sp>
+<sp>
+<speaker>SAMUEL</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-571-01"><!--DATA-TERM: Saul … udstøde … David--><!--DATA-DEFINITION: 1. Samuels Bog 16.--><hi rend="italic">Saul</hi> vil jeg udstøde,</seg>
+<seg target="txtcmnt-571-01">Jeg <hi rend="italic">David</hi></seg> indvier.</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">Syng Seirs-Melodier</l>
+<l rend="firstIndent">Ved <hi rend="italic">Goliaths</hi> Fald!</l>
+</sp>
+<sp>
+<speaker>ALLE HOVEDPERSONER</speaker>
+<l rend="firstIndent">Hvilken Flamme i mit Hjerte!</l>
+<l rend="firstIndent">Er det Fryd, <seg target="txtcmnt-571-02"><!--DATA-TERM: hvad eller--><!--DATA-DEFINITION: eller.-->hvad eller</seg> Smerte,</l>
+<l rend="firstIndent">Er det Glæde eller Vee?</l>
+<l rend="firstIndent">Fremtids-Syner kan jeg see.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Tusinde dræbtes af <hi rend="italic">Saul</hi>,</l>
+<l rend="firstIndent">Ti Tusinde dræbtes af <hi rend="italic">David</hi>!</l>
+</sp>
+</div>
+                              
+                              
+                              
+                              
+<div type="act" rend="Anden Act. I Kongeborgen" xml:id="div0174">
+<pb n="572"/>
+<head type="act">Anden Act</head>
+<head type="set">I Kongeborgen</head>
+<stage>JONATHAN med CHORET træde ind for at udsmykke Have, Sale og Gange.</stage>
+<sp>
+<lg xml:id="p_03142">
+<l>Røg med <seg target="txtcmnt-572-01"><!--DATA-TERM: Ambra--><!--DATA-DEFINITION: vellugtende stof.-->Ambra</seg> og med <seg target="txtcmnt-572-02"><!--DATA-TERM: Myrrha--><!--DATA-DEFINITION: røgelse.-->Myrrha</seg>,</l>
+<l>Udbred kostelige Tepper,</l>
+<l>Frembær gyldne, rige Kar!</l>
+<l>Unge Kvinder synge Sange,</l>
+<l>Smukke Børn frembære Vinen,</l>
+<l>Unge Stridsmænd vise Kræfter,</l>
+<l>Sværd og Spyd</l>
+<l>Give Lyd!</l>
+<l>Kong <hi rend="italic">Saul</hi> gav <hi rend="italic">David</hi> sin Datter <hi rend="italic">Michal</hi>!</l></lg>
+<stage><hi rend="italic">(Paa Jonathan nær, der er beskjæftiget med <seg target="txtcmnt-572-03"><!--DATA-TERM: Anordningen--><!--DATA-DEFINITION: forberedelsen, foranstaltningerne.-->Anordningen</seg>, drage de Andre bort fuldførende hans Befalinger. <hi rend="normal">Saul</hi>, fulgt af <hi rend="normal">Isram</hi>, træder ind.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">En Fest, en kongelig Fest paa mit Bud! –</l>
+<l rend="firstIndent">Blomster og Sange,</l>
+<l rend="firstIndent">Og om mit Hjerte <seg target="txtcmnt-572-04"><!--DATA-TERM: Kvalens Slange--><!--DATA-DEFINITION: 1. Samuels Bog 18,8-9.-->Kvalens Slange</seg>.</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Hvad bøier saa din stærke Aand?</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent"><hi rend="italic">Min onde Dæmon!</hi></l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="right">Nat er i dit Øie.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Mit Hjerte er lagt i Lænker og Baand –</l>
+<l rend="firstIndent">Du har ei hørt mit Ord? –</l>
+</sp>
+<pb n="573"/>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="right">Udtal Dig nøie!</l>
+<l rend="firstIndent">Jeg er din Villies høire Haand.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">En Fest! en kongelig Fest. Jeg mit Løfte har holdt,</l>
+<l rend="firstIndent">Men han – han har mig Kvaler forvoldt –</l>
+<l rend="firstIndent">Jeg har Ord fornummet –</l>
+<l rend="firstIndent">De være forstummed’!</l>
+<l rend="firstIndent">Ja, naar hans Legem i Døden er koldt,</l>
+<l rend="firstIndent">Synerne svinde – sprængt er hvert Baand!</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi>!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="right">Du er min Villies høire Haand!</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Ved den jublende Fest</l>
+<l rend="firstIndent">Være Døden Gjest,</l>
+<l rend="firstIndent">Ingen ham kjender,</l>
+<l rend="firstIndent">Dagen ender.</l>
+<stage rend="right"><hi rend="italic">(De forlade Scenen.)</hi></stage>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<stage><hi rend="italic">(som fra Galleriet har hørt dem, iler frem).</hi></stage>
+<l rend="firstIndent">Vee, hvad har jeg hørt! et Lyn i Sjælen.</l>
+<l rend="firstIndent">Her er ei Tid til Dvælen.</l>
+<stage><hi rend="italic">(Iler afsted for at søge <hi rend="normal">David</hi>; denne, uden at sees af Jonathan, kommer fra Høire, <hi rend="normal">Michal</hi> fra Venstre. De flyve hinanden jublende i Møde.)</hi></stage>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Kom Du, min Sanger,</l>
+<l rend="firstIndent">Min Helt og min Brudgom,</l>
+<l rend="firstIndent">Jeg er nu Harpen,</l>
+<l rend="firstIndent">Der klinger ved Dig!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Ingen Blomst pranger</l>
+<l rend="firstIndent">Dig liig i Skjønhed,</l>
+<l rend="firstIndent">Den fik kun Solglands,</l>
+<l rend="firstIndent">Du heelt er Sjæl.</l>
+</sp>
+<pb n="574"/>
+<sp>
+<speaker>MICHAL og DAVID</speaker>
+<l rend="firstIndent">O, hvor livsaligt</l>
+<l rend="firstIndent">Hjerterne bæve,</l>
+<l rend="firstIndent">Det ret at elske,</l>
+<l rend="firstIndent">Det er at leve.</l>
+</sp>
+<sp>
+<speaker>CHOR <stage><hi rend="italic">(bag Scenen).</hi></stage></speaker>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi> gav <hi rend="italic">David</hi> sin Datter <hi rend="italic">Michal</hi>!</l>
+<graphic type="shortLine"/>
+</sp>
+<sp>
+<speaker>JONATHAN <stage><hi rend="italic">(iler ind).</hi></stage></speaker>
+<l rend="firstIndent">Du er her! jeg har Dig fundet!</l>
+<l rend="firstIndent">Vee! min Tunge er som bundet,</l>
+<l rend="firstIndent">Spørg ei, her er Tiden kort,</l>
+<l rend="firstIndent">David, Broder, skynd Dig bort!</l>
+</sp>
+<sp>
+<speaker>MICHAL og DAVID</speaker>
+<l rend="firstIndent">Hvad er skeet?</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="right">Undfly din Fare,</l>
+<l rend="firstIndent">Denne Fest er kun en Snare.</l>
+<l rend="firstIndent">– <seg target="txtcmnt-574-01"><!--DATA-TERM: De vil myrde dig--><!--DATA-DEFINITION: 1. Samuels Bog 19,2.--><hi rend="italic">De vil myrde Dig!</hi></seg></l>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Broder, frels ham! Blodet strømmer</l>
+<l rend="firstIndent">Som en Ild i mine Aarer.</l>
+<l rend="firstIndent">Føl min Angst, see mine Taarer!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Ei jeg dette Sted forlader,</l>
+<l rend="firstIndent">Kongeborgen – hos din Fader!</l>
+<l rend="firstIndent">Og jeg selv har Mod og Sværd.</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">Hos min Fader! Stakkels Fader!</l>
+
+<lg xml:id="p_03143">
+<l rend="secondIndent">Hans Ungdoms-Tid med Straaleskrift</l>
+<l rend="secondIndent">Forkyndte Mildhed, Ædelmod,</l>
+<l rend="secondIndent">En Mand i Tanke og Bedrift!</l>
+<l rend="secondIndent">Hvor var han kjæk og mild og god;</l>
+<pb n="575"/>
+<l rend="secondIndent">Men der har viist sig onde Aander,</l>
+<l rend="secondIndent">Og i Minutet de har Magt,</l>
+<l rend="secondIndent"><hi rend="italic">De</hi> vil din Død! Min Sjæl sig vaander,</l>
+<l rend="secondIndent">Men Alt har jeg nu Vennen sagt.</l></lg>
+</sp>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Snart er’ de herinde,</l>
+<l rend="firstIndent">De tage dit Liv!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Min Brud, min Veninde,</l>
+<l rend="firstIndent">Min yndige Viv.</l>
+</sp>
+<sp>
+<speaker>JONATHAN og MICHAL</speaker>
+<l rend="firstIndent">At blive er Døden,</l>
+<l rend="firstIndent">O skynd Dig, min Ven!</l>
+</sp>
+<sp>
+<speaker>ALLE TRE</speaker>
+<l rend="firstIndent">I glædeligt Møden</l>
+<l rend="firstIndent">Vi samles igjen!</l>
+<stage rend="right"><hi rend="italic">(David iler ud.)</hi></stage>
+</sp>
+<sp>
+<speaker>JONATHAN og MICHAL</speaker>
+<l rend="firstIndent">Gud, Du har ham,</l>
+<l rend="firstIndent">Frels og bevar ham!</l>
+
+</sp>
+<graphic type="shortLine"/>
+<sp>
+<speaker>SAUL <stage><hi rend="italic">(træder ind).</hi></stage></speaker>
+<l rend="firstIndent">Rul Dig, min Tanke, i Dig selv,</l>
+<l rend="firstIndent">Jeg vil Dig ei udgrunde!</l>
+</sp>
+<sp>
+<speaker>JONATHAN og MICHAL</speaker>
+<l rend="firstIndent">Hans mørke Øie raaber: skjælv!</l>
+<l rend="firstIndent">Ei veed jeg, hvad han kunde –!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">I To her sammen!</l>
+<l rend="firstIndent">I To alene!</l>
+<l rend="firstIndent">Og hvor er Festens</l>
+<l rend="firstIndent">Udkaarne Herre</l>
+<l rend="firstIndent">Paa Kongens Borg?</l>
+</sp>
+<pb n="576"/>
+<sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-576-01"><!--DATA-TERM: Forvist--><!--DATA-DEFINITION: utvivlsomt.-->Forvist</seg> han kommer!</l>
+<l rend="firstIndent">– Jeg veed det ikke.</l>
+<l rend="firstIndent">Tilgiv din Datter,</l>
+<l rend="firstIndent">I dine Blikke</l>
+<l rend="firstIndent">Er meer end Sorg.</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">Jeg veed din Tungsind,</l>
+<l rend="firstIndent">Din Sjæle-Smerte;</l>
+<l rend="firstIndent">Men større Hjerte</l>
+<l rend="firstIndent">End dit er ikke</l>
+<l rend="firstIndent">I Kongeborg.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Vil I forraade?</l>
+<l rend="firstIndent">Bag søde Stemmer</l>
+<l rend="firstIndent">Sig Braadden gjemmer –</l>
+<l rend="firstIndent">Ha, hvor er David?</l>
+<l rend="firstIndent">Han kommer ei!</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">Han kommer ei! –</l>
+<lg xml:id="p_03144">
+<l rend="secondIndent">Jeg har ham frelst,</l>
+<l rend="secondIndent">Og hvad jeg vilde helst,</l>
+<l rend="secondIndent">Dig, Fader, har jeg frelst,</l>
+<l rend="secondIndent">Frelst for Dig selv,</l>
+<l rend="secondIndent">For det Onde gjort fri!</l></lg>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Forræderi!</l>
+<l rend="firstIndent">Du skal bøde, bløde,</l>
+<l rend="firstIndent">Blive Orme-Føde,</l>
+<l rend="firstIndent">Gaae til de Døde!</l>
+<stage><hi rend="italic">(Styrter ind paa Jonathan med sit Sværd. Michal og Kvinderne. Isram og Hoffolk komme til.)</hi></stage>
+</sp>
+<span type="unison" spanTo="unison0015"/>     
+     <sp>
+          <speaker>MICHAL</speaker>
+          <l rend="firstIndent">Du, Jehova, hør Fortvivlelsens Bøn!</l>
+     </sp>
+     <pb n="577"/>
+     <sp>
+          <speaker>HOFFOLK og KRIGERE</speaker>
+          <l rend="firstIndent">Faderen løfter Sværd mod sin Søn!</l>
+     </sp>
+     <sp>
+          <speaker>KVINDERNE</speaker>
+          <l rend="firstIndent">Festens Glæde nu kun bliver begrædt!</l>
+     </sp>
+     <sp>
+          <speaker>JONATHAN</speaker>
+          <l rend="firstIndent">Over Sønnen har Faderen Ret.</l>
+     </sp>
+     <sp>
+          <speaker>SAUL <stage><hi rend="italic">(i Raseri).</hi></stage></speaker>
+          <l rend="firstIndent">Bring Davids Hoved! Kongen vil det!</l>
+     </sp>
+     <anchor type="unison" xml:id="unison0015"/>
+     <pb n="578"/>
+</div>
+                              
+                              
+                              
+                              
+<div type="act" rend="Tredie Act. Klippehule" xml:id="div0175">
+<pb n="579"/>
+<head type="act">Tredie Act</head>
+<head type="set">Klippehule</head>
+<stage>ZILLA og andre Hexekvinder træde ind med Blus og <seg target="txtcmnt-579-01"><!--DATA-TERM: veiende--><!--DATA-DEFINITION: vajende, blafrende.-->veiende</seg> <seg target="txtcmnt-579-02"><!--DATA-TERM: Hør--><!--DATA-DEFINITION: her om væger, muligvis fakler.-->Hør</seg>, bundne paa lange Stænger.</stage>
+
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Med Blus og flagrende Hør, saa mange</l>
+<l rend="firstIndent">Vi gaae i Hulens mulmmørke Gange;</l>
+<l rend="firstIndent">Her Kryb og Flagermuus snildt vi fange,</l>
+<l rend="firstIndent">Lydløst de sværme, lyssky og bange.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Ind i Klippedybet</l>
+<l rend="firstIndent">Til Flagermusen og Krybet</l>
+<l rend="firstIndent">Kommer den jagede Hexekvinde,</l>
+<l rend="firstIndent">Menneskets Hjælperinde.</l>
+</sp>
+<sp>
+<speaker>EN DEEL AF CHORET</speaker>
+<l rend="firstIndent">Vi lave til den, som i Sot sig vaander,</l>
+<l rend="firstIndent">En Livsens Drik;</l>
+<l rend="firstIndent">Vi fremkalde Aander</l>
+<l rend="firstIndent">For Menneskenes omtaagede Blik.</l>
+</sp>
+<sp>
+<speaker>EN ANDEN DEL AF CHORET</speaker>
+<l rend="firstIndent">Derfor lønne os de Stærke</l>
+<l rend="firstIndent">Med <seg target="txtcmnt-579-03"><!--DATA-TERM: Kains Mærke--><!--DATA-DEFINITION: 1. Mosebog 4,15.-->Kains Mærke</seg>,</l>
+<l rend="firstIndent">Løfte mod os Staalet,</l>
+<l rend="firstIndent">Dømme os til Baalet.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Den Synd var <hi rend="italic">Sauls</hi> i Ungdoms Overmod.</l>
+<l rend="firstIndent">Jeg var et Barn, men glemmer ingensinde</l>
+<l rend="firstIndent">Det Rædselssyn. Min Moder stod</l>
+<l rend="firstIndent">I Flammerne, blev brændt som Hexekvinde.</l>
+<l rend="firstIndent">Vee Dig, <hi rend="italic">Saul</hi>! det skal hævnes!</l>
+</sp>
+<pb n="580"/>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Det skal hævnes!</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent"><hi rend="italic">Saul</hi>, Du skal stævnes</l>
+<l rend="firstIndent">Til Fortvivlelsens Død.</l>
+<l rend="firstIndent">Alt Ondt han forbrød.</l>
+<l rend="firstIndent"><hi rend="italic">David</hi> bedrog han,</l>
+<l rend="firstIndent">Forjog han,</l>
+<l rend="firstIndent">Myrde ham vilde han.</l>
+<l rend="firstIndent">– Udmattet, hungrende</l>
+<l rend="firstIndent"><hi rend="italic">David</hi> fandt Tilflugt hos</l>
+<l rend="firstIndent">Templets Ypperstepræst <seg target="txtcmnt-580-01" type="dfnStart"><!--DATA-TERM: Abimelek … Skuebrød … Sværd--><!--DATA-DEFINITION: 1. Samuels Bog 21,1-10.--></seg></l>
+<l rend="firstIndent">Abimelek.</l>
+<l rend="firstIndent">Denne gav Flygtningen</l>
+<l rend="firstIndent">Alterets <seg target="txtcmnt-580-02">Skuebrød</seg>, Goliaths Sværd<seg target="txtcmnt-580-01" type="dfnEnd"><!--DATA-TERM: Abimelek … Skuebrød … Sværd--><!--DATA-DEFINITION: 1. Samuels Bog 21,1-10.--></seg>.</l>
+<l rend="firstIndent">Derfor Kong <hi rend="italic">Saul</hi> i</l>
+<l rend="firstIndent">Vrede og Vanvid</l>
+<l rend="firstIndent"><seg target="txtcmnt-580-03" type="dfnStart"/>Nedsabled’ Præsten,</l>
+<l rend="firstIndent">Hans Slægt, alt hvad leved’ –</l>
+<l rend="firstIndent">David er frelst!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Dræbt med Morder-Staalet,</l>
+<l rend="firstIndent">Hundred til Døden<seg target="txtcmnt-580-03" type="dfnEnd"/> henslæbt</l>
+<l rend="firstIndent">Har Kong Saul.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="right">Han min Moder har dræbt.</l>
+<l rend="firstIndent">Hævn hun raaber endnu fra Baalet.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hævntiden kommer!</l>
+<l rend="firstIndent"><hi rend="italic">Saul</hi>! din Blodskyld er din Dommer!</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Tys! vi maa vente, taale og tøve –</l>
+<l rend="firstIndent">Stille! hver sin Gjerning øve.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Med Blus og flagrende Hør</l>
+<pb n="581"/>
+<l rend="firstIndent">Ind fra Sumpens Rør</l>
+<l rend="firstIndent">Vi gaae i de kjølige Huler,</l>
+<l rend="firstIndent">Søge hvad Mørket skjuler.</l>
+<stage rend="right"><hi rend="italic">(De forsvinde.)</hi></stage>
+<stage><hi rend="italic">(<hi rend="normal">David</hi> og <hi rend="normal">Abjathar</hi> træde ind.)</hi></stage>
+</sp>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Her er et Skjulested, kun kjendt af Faa,</l>
+<l rend="firstIndent">Sig vidt og vildsomt strække disse Huler.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">I din Haand, Herre, er vi hvor vi gaae,</l>
+<l rend="firstIndent">I Bønnen til Dig jeg mit Hoved skjuler.</l>
+</sp>
+<sp>
+<speaker>CHOR AF FLYGTNINGE</speaker>
+<l rend="firstIndent">Landflygtige, forstødt’ som Du,</l>
+<l rend="firstIndent">Vi er din Hær og Livvagt nu.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Din Fader, al din Slægt, din Hjemstavns By</l>
+<l rend="firstIndent">For min Skyld ødelagt! <seg target="txtcmnt-581-01"><!--DATA-TERM: Forfulgt vi flye--><!--DATA-DEFINITION: 1. Samuels Bog 23,13-28.-->Forfulgt vi flye</seg>!</l>
+</sp>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Schakalens Hule aabner os sit Ly,</l>
+<l rend="firstIndent">Men Seirens Sol engang gaaer op paany.</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">I tunge Tider,</l>
+<l rend="firstIndent">Naar Hjertet lider</l>
+<l rend="firstIndent">Og Alle slippe,</l>
+<l rend="firstIndent">Er Gud den <seg target="txtcmnt-581-02"><!--DATA-TERM: Klippe--><!--DATA-DEFINITION: jf. 2. Samuels Bog 22,2 og Salmernes Bog 18,3 m.fl.-->Klippe</seg>,</l>
+<l rend="firstIndent">Hvorpaa vi trygge</l>
+<l rend="firstIndent">Kan bo og bygge.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Tys! Noget sig rører,</l>
+<l rend="firstIndent">Fodtrin jeg hører.</l>
+</sp>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Hvo kommer her?</l>
+</sp>
+<pb n="582"/>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">I Skjul Enhver!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hvo nærmer sig fra Bjergets tætte Skove?</l>
+<stage rend="right"><hi rend="italic">(De drage sig tilbage.)</hi></stage>
+<graphic type="shortLine"/>
+<stage><hi rend="italic">(<hi rend="normal">Saul</hi> og <hi rend="normal">Isram</hi> træde ind.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Hvor kjøligt og hvor godt!</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="right">Her kan Du sove,</l>
+<l rend="firstIndent">Hvil tryg, jeg vil staae Vagt.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">I din Haand er mit Hoved nu lagt.</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Det bløde Mos et Leie Dig bereder,</l>
+<l rend="firstIndent">Din kongelige Kappe jeg udbreder,</l>
+<l rend="firstIndent">En Times Søvn Dig styrke og husvale!</l>
+</sp>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">I disse Klippesale</l>
+<l rend="firstIndent">Søvnen dale,</l>
+<l rend="firstIndent">Drømmen tale</l>
+<l rend="firstIndent">Og husvale.</l>
+<stage rend="right"><hi rend="italic">(Isram gaaer mod Udgangen.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Der var en Tid, i Mindet jeg den seer,</l>
+<l rend="firstIndent">Der var en Tid, den kommer aldrig meer!</l>
+<l rend="firstIndent">Jeg hang ved Livet med en saadan Lyst,</l>
+<l rend="firstIndent">Som Barnet hænger ved sin Moders Bryst.</l>
+<l rend="firstIndent">Min Sjæle-Lyst jeg kunde juble ud;</l>
+<l rend="firstIndent">I Lykken ydmyg, takfyldt mod min Gud.</l>
+<l rend="firstIndent">Nu er det skiftet om – min Tanke brænder,</l>
+<l rend="firstIndent">Mig selv jeg ikke kjender –!</l>
+<pb n="583"/>
+<l rend="firstIndent">Brudt er min <seg target="txtcmnt-583-01"><!--DATA-TERM: Barne-Tro--><!--DATA-DEFINITION: ordet er indført i romantikkens tid med Grundtvig og Ingemann.-->Barne-Tro</seg>, min Tro paa Alt,</l>
+<l rend="firstIndent">Men endnu ei min Kongekrone faldt.</l>
+
+<lg xml:id="p_03145">
+<l rend="firstIndent">Her jeg skulde kunne</l>
+<l rend="firstIndent">Stille blunde,</l>
+<l rend="firstIndent">Sove uden Drømme,</l>
+<l rend="firstIndent">Glemsels Bæger tømme!</l>
+<l rend="firstIndent">– Blide Søvn, kom nu,</l>
+<l rend="firstIndent">Konge være Du!</l>
+</lg><stage rend="right"><hi rend="italic">(Sover.)</hi></stage>
+<stage><hi rend="italic">(<hi rend="normal">David</hi> og <hi rend="normal">Abjathar</hi> træde frem.)</hi></stage>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Saul er det! Saul!</l>
+</sp>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="right">Din Dødsens Fjende!</l>
+<l rend="firstIndent">Gud gav ham i din Haand. <seg target="txtcmnt-583-02" type="dfnStart"><!--DATA-TERM: Stød til … det tør ei skee … Flig … Ven--><!--DATA-DEFINITION: 1. Samuels Bog 24,4-20.--></seg>Stød til!</l>
+<l rend="firstIndent">Og med hans Liv din Kval har Ende,</l>
+<l rend="firstIndent">Som Konge Israels Folk Dig hilse vil.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Jeg myrde ham –! Jeg myrde ham, som sover</l>
+<l rend="firstIndent">I Gud og Tryghed! nei, det tør ei skee!</l>
+</sp>
+<sp>
+<speaker>SAUL <stage><hi rend="italic">(i Drømme).</hi></stage></speaker>
+<l rend="firstIndent">O, vee mig! vee!</l>
+</sp>
+<sp>
+<speaker>ABJATHAR og DAVID</speaker>
+<l rend="firstIndent">Han drømmer. –</l>
+<l rend="firstIndent">Søvnens Svane med ham svømmer</l>
+<l rend="firstIndent">Ned ad Rædslers Flod.</l>
+<l rend="firstIndent">Blod!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Hvor er mod ham jeg lykkelig og rig!</l>
+<l rend="firstIndent">Han skal mig kjende.</l>
+<l rend="firstIndent">Jeg skjærer af hans Kappe denne Flig,</l>
+<l rend="firstIndent">Ei <hi rend="italic">David</hi> er hans Fjende.</l>
+</sp>
+<pb n="584"/>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Jeg har min Faders Morder i min Magt.</l>
+<l rend="firstIndent">Min hele Slægt han Undergang har bragt,</l>
+<l rend="firstIndent">Jeg kan mig ei bekjæmpe!</l>
+<l rend="firstIndent">Min Hævnlyst dæmpe!</l>
+<l rend="firstIndent">O <hi rend="italic">Jehova</hi>, Du mine Tanker klare!</l>
+<stage><hi rend="italic">(Træder med draget Sværd hen mod den sovende <hi rend="normal">Saul</hi>).</hi></stage>
+</sp>
+<sp>
+<speaker>DAVID <stage><hi rend="italic">(stiller sig imellem).</hi></stage></speaker>
+<l rend="firstIndent">Vaagn op, Kong <hi rend="italic">Saul</hi>, Du er i Fare!</l>
+</sp>
+<sp>
+<speaker>SAUL <stage><hi rend="italic">(farer op).</hi></stage></speaker>
+<l rend="firstIndent">Ha, hvo kalder!</l>
+<l rend="firstIndent">– Bøddelsværdet falder –</l>
+<l rend="firstIndent"><hi rend="italic">David</hi>! – <hi rend="italic">David</hi> kan jeg kjende!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Jeg er ei din Fjende,</l>
+<l rend="firstIndent">Jeg er uden Svig.</l>
+<l rend="firstIndent">Konge, jeg mig nærmer</l>
+<l rend="firstIndent">Dig som din Beskjærmer.</l>
+<l rend="firstIndent">Jeg stod ved din Side,</l>
+<l rend="firstIndent">Du paa mig kan lide.</l>
+<l rend="firstIndent">At Du det kan vide</l>
+<l rend="firstIndent">Mæle Kappens Flig!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent"><hi rend="italic">David</hi>, jeg troer Dig!</l>
+<l rend="firstIndent">Du er uskyldig –!</l>
+<l rend="firstIndent">Jeg i mit Hjerte</l>
+<l rend="firstIndent">Nærer det Onde.</l>
+<l rend="firstIndent">Kan Du tilgive?</l>
+<l rend="firstIndent">Nu er jeg din!</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Konge, Du lider!</l>
+<l rend="firstIndent">Prøvelsens Aander</l>
+<l rend="firstIndent">Slide Dit Hjerte.</l>
+<l rend="firstIndent">Toner fra Harpen</l>
+<l rend="firstIndent">Kan dem forjage.</l>
+<l rend="firstIndent">Heelt er jeg din!</l>
+</sp>
+<pb n="585"/>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Skrækfyldte Minder,</l>
+<l rend="firstIndent">Blodige Tanker</l>
+<l rend="firstIndent">Gjemmer jeg, bærer jeg;</l>
+<l rend="firstIndent">De sønderslide.</l>
+<l rend="firstIndent">Hvad maa jeg lide!</l>
+<l rend="firstIndent">Hvo har en Kamp vel</l>
+<l rend="firstIndent">At ligne mod min!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Kan Du tilgive?</l>
+<l rend="firstIndent">Vil Du mig følge,</l>
+<l rend="firstIndent">Være en Broder,</l>
+<l rend="firstIndent">Blive en Ven!<seg target="txtcmnt-583-02" type="dfnEnd"><!--DATA-TERM: Stød til … det tør ei skee … Flig … Ven--><!--DATA-DEFINITION: 1. Samuels Bog 24,4-20.--></seg></l>
+<l rend="right"><stage><hi rend="italic">(Omfavner ham.)</hi></stage></l>
+<lg xml:id="p_03146">
+<l rend="firstIndent">Ved Michals Hjerte,</l>
+<l rend="firstIndent">I Kongeborgen,</l>
+<l rend="firstIndent">Nyd Løn for Sorgen</l>
+<l>Og glem hver Smerte.</l></lg>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Min ædle Konge,</l>
+<l rend="firstIndent">Fra dine Øine</l>
+<l rend="firstIndent">De store Taarer</l>
+<l rend="firstIndent">Paa Kinden trille;</l>
+<l rend="firstIndent">Jeg tør Dig troe.</l>
+</sp>
+<sp>
+<speaker>ABJATHAR</speaker>
+<l rend="firstIndent">Som Blink i Natten,</l>
+<l rend="firstIndent">Som Aftnens <seg target="txtcmnt-585-01"><!--DATA-TERM: Kornmod--><!--DATA-DEFINITION: glimt i horisonten af lyn, der er så langt væk, at tordenen ikke høres.-->Kornmod</seg>,</l>
+<l rend="firstIndent">Glimt af det Gode</l>
+<l rend="firstIndent">Snart glemmes vil.</l>
+<stage><hi rend="italic">(Davids Folk komme til; ligeledes Isram og enkelte Krigere.)</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Hør, Lyd af Stemmer!</l>
+<l rend="firstIndent">Hvad skeer her inde?</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<l rend="firstIndent">Hils Eders Konge!</l>
+<pb n="586"/>
+<l rend="firstIndent">Bøi Knæet for ham,</l>
+<l rend="firstIndent"><hi rend="italic">Saul</hi>,Israels Konge!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<stage><hi rend="italic">(idet de synke i Knæ).</hi></stage>
+<l rend="firstIndent">Saul, Israels Konge!</l>
+</sp>
+</div>
+                              
+                              
+                              
+                              
+<div type="act" rend="Fjerde Act. En pragtfuld Sal i Kongeborgen" xml:id="div0176">
+<pb n="587"/>
+<head type="act">Fjerde Act</head>
+<head type="set">En pragtfuld Sal i Kongeborgen</head>
+<sp>
+<speaker>SAUL</speaker>
+<stage><hi rend="italic">(staaer hensunken i dyb Mismod).</hi></stage>
+<l rend="firstIndent">I mig er et Mørke; det knuger mit Sind,</l>
+<l rend="firstIndent">Aldrig Guds Solskin vil lyse derind.</l>
+<l rend="firstIndent">Verdens Deilighed, rundten om,</l>
+<l rend="firstIndent">Skinnende Boble, skjør og tom!</l>
+<l rend="firstIndent">Løgn boer i Smilet, Løgn boer i Taaren,</l>
+<l rend="firstIndent">Breder Klædet paa Vuggen og Baaren.</l>
+<l rend="firstIndent"><hi rend="italic">David</hi>, med Uskyld i Øine og Mund,</l>
+<l rend="firstIndent">Dig bobler Vellyst i Hjertets Grund.</l>
+<l rend="firstIndent">Dig og mig selv og dem Alle jeg kjender,</l>
+<l rend="firstIndent">Kun i os selv vi begynder og ender.</l>
+<l rend="firstIndent"><hi rend="italic">Den</hi> Vished groe:</l>
+<l rend="firstIndent">Der er ei Een, Du heelt kan troe.</l>
+<l rend="firstIndent"><stage><hi rend="italic">(Synker sammen; bryder derpaa ud:)</hi></stage></l>
+<l rend="firstIndent">Løft Dig, mit Mod,</l>
+<l rend="firstIndent">Du stolte Svane!</l>
+<l rend="firstIndent">Vil Du Blod?</l>
+<l rend="firstIndent">Det er din Vane,</l>
+<l rend="firstIndent">At dykke deri de stærke Vinger!</l>
+<l rend="firstIndent">Afgrundens Syn Du da betvinger.</l>
+<stage rend="firstIndent"><hi rend="italic">(Man hører David spille Harpe; Saul lytter og udbryder derpaa i Spot, der gaaer over i Veemod.)</hi></stage>
+<l rend="firstIndent">Slangen hvisler! hør hvor yndigt!</l>
+<l rend="firstIndent">Himmelsk – og dog saa syndigt!</l>
+<l rend="firstIndent">Kildrende, <seg target="txtcmnt-587-01"><!--DATA-TERM: kvægende--><!--DATA-DEFINITION: vederkvægende.-->kvægende</seg>,</l>
+<l rend="firstIndent">Til Taarer bevægende,</l>
+<l rend="firstIndent">Smerten sig stiller.</l>
+</sp>
+<sp>
+<speaker>DAVID</speaker>
+<stage><hi rend="italic">(træder ind med Harpen, som han vedbliver at spille).</hi></stage>
+</sp>
+<pb n="588"/>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent"><hi rend="italic">David</hi>, Harpespiller,</l>
+<l rend="firstIndent">Din Konst gjør Du godt. –</l>
+<l rend="firstIndent">Tonernes Drot,</l>
+<l rend="firstIndent">Troldmand! Du kan forjage</l>
+<l rend="firstIndent">Nattens Syner. Strængens Klage</l>
+<l rend="firstIndent">Kalder Fryd fra Ungdoms Dage,</l>
+<l rend="firstIndent">Svulmende som Stormens Magt.</l>
+<l rend="firstIndent">Trolddom er i Harpen lagt,</l>
+<l rend="firstIndent">Tonerne mig sødt betage – –!</l>
+<l rend="firstIndent">– De bedrage!</l>
+<l rend="firstIndent">Alt er Bedrag!</l>
+<l rend="firstIndent"><stage><hi rend="italic">(River Harpen fra David og sønderhugger den med sit Sværd.)</hi></stage></l>
+<l rend="firstIndent">– Knust i eet Slag.</l>
+</sp>
+<sp>
+<speaker>DAVID <stage><hi rend="italic">(i Lidenskab).</hi></stage></speaker>
+<l rend="firstIndent">Vanvid fører Dig!</l>
+<l rend="firstIndent">Varslende hører jeg</l>
+<l rend="firstIndent">Stemmen, som siger mig:</l>
+<l rend="firstIndent">Tro ei Kong <hi rend="italic">Saul</hi>!</l>
+</sp>
+<sp>
+<speaker>SAUL <stage><hi rend="italic">(i Vildelse).</hi></stage></speaker>
+<l rend="firstIndent">Du staaer i Pagt,</l>
+<l rend="firstIndent">Under skjulte Gaader,</l>
+<l rend="firstIndent">Med Dæmonen, som raader,</l>
+<l rend="firstIndent">Som hos mig tøver,</l>
+<l rend="firstIndent">Som det Onde øver,</l>
+<l rend="firstIndent">Som har i Lænker mig lagt.</l>
+<l rend="firstIndent">Fra ham er din Magt!</l>
+</sp>
+<sp>
+<speaker>MICHAL og JONATHAN <stage><hi rend="italic">(ile til).</hi></stage></speaker>
+<l rend="firstIndent">Hvad Haab er tilbage!</l>
+<l rend="firstIndent">Aldrig gjenkomme de lyse Dage.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Smuldrende, raadnet</l>
+<l rend="firstIndent">Være dit Livs-Træ!</l>
+<l rend="firstIndent">End er jeg Konge,</l>
+<l rend="firstIndent">Min Arm skal Dig naae!</l>
+</sp>
+<pb n="589"/>
+<sp>
+<speaker>CHOR</speaker>
+<stage><hi rend="italic">(af Mænd og Kvinder, som ile til ved den stigende Støi).</hi></stage>
+<l rend="firstIndent">Smerten og Sorgen</l>
+<l rend="firstIndent">Har Kongeborgen</l>
+<l rend="firstIndent">Ligesaa tung som <seg target="txtcmnt-589-01"><!--DATA-TERM: Armods Vraa--><!--DATA-DEFINITION: den fattige hytte.-->Armods Vraa</seg>.</l>
+</sp>
+<sp>
+<speaker>JONATHAN <stage><hi rend="italic">(til Michal).</hi></stage></speaker>
+<l rend="firstIndent">Ei jeg forlader</l>
+<l rend="firstIndent">Den lidende Fader,</l>
+<l rend="firstIndent">Følg Du med Vennen,</l>
+<l rend="firstIndent">Vær Trøst i hans Nød.</l>
+</sp>
+<sp>
+<speaker>MICHAL og DAVID</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-589-02" type="dfnStart"><!--DATA-TERM: Kvinden forlader … Fader--><!--DATA-DEFINITION: jf. Matthæus 19,5 o.a.st.--></seg>Kvinden forlader</l>
+<l rend="firstIndent">Moder og Fader<seg target="txtcmnt-589-02" type="dfnEnd"><!--DATA-TERM: Kvinden forlader … Fader--><!--DATA-DEFINITION: jf. Matthæus 19,5 o.a.st.--></seg>,</l>
+<l rend="firstIndent">Følger sin Husbond</l>
+<l rend="firstIndent">I Fare og Død.</l>
+<stage rend="right"><hi rend="italic">(De gaae bort sammen.)</hi></stage>
+</sp>
+<sp>
+<speaker>ISRAM <stage><hi rend="italic">(iler ind).</hi></stage></speaker>
+<l rend="firstIndent">Det er Tiden</l>
+<l rend="firstIndent">Til Striden</l>
+<l rend="firstIndent">For Liv og Land!</l>
+<l rend="firstIndent">Kong Saul, hold Stand!</l>
+<l rend="firstIndent">Uforfærdet</l>
+<l rend="firstIndent">Grib Sværdet!</l>
+<l rend="firstIndent">Philisternes Hær</l>
+<l rend="firstIndent">Som et uhyre Vand</l>
+<l rend="firstIndent">Overskyller dit Land,</l>
+<l rend="firstIndent">Bølgen er nær.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Er jeg i Nøden <seg target="txtcmnt-589-03"><!--DATA-TERM: bestedt--><!--DATA-DEFINITION: stedt, stillet.-->bestedt</seg>?</l>
+<l rend="firstIndent">Skal jeg døe, jeg og min Æt!</l>
+<l rend="firstIndent">Svaret Du skjuler.</l>
+<stage><hi rend="italic">(Til Isram.)</hi></stage>
+<l rend="firstIndent">Svaret jeg har:</l>
+<l rend="firstIndent">I Endors Huler</l>
+<l rend="firstIndent">Hos Hexen <hi rend="italic">Saul</hi> henter Svar.</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">Min Konge!</l>
+</sp>
+<pb n="590"/>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="right">Forstaae</l>
+<l rend="firstIndent">Mit Vink og følg mig!</l>
+</sp>
+<sp>
+<speaker>ISRAM</speaker>
+<l rend="firstIndent">I Storhed dølg Dig</l>
+<l rend="firstIndent">For Folkets Skare.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Over Israels Folk nu Stormene henfare!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Hexen i Endor skal klare</l>
+<l rend="firstIndent">For mig hvad kommer.</l>
+<stage rend="right"><hi rend="italic">(Iler ud med Isram.)</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Vee os, hvad talte Samuel, Folkets Dommer.</l>
+<stage><hi rend="italic">(De følge efter, og ene tilbage bliver Hexekvinden Zilla.)</hi></stage>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Nu gryer du Hævnens Morgen!</l>
+<stage rend="firstIndent"><hi rend="italic">(Hun træder frem i Forgrunden og udbryder i Lidenskab.)</hi></stage>
+<l rend="firstIndent">Angst herinde, Angst derude,</l>
+<l rend="firstIndent">I Krigsbasunerne de tude –</l>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi> gaaer til Hexen i Endor!</l>
+<l rend="firstIndent">– Hun er i Kongeborgen,</l>
+<l rend="firstIndent">Hun har speidet, hun har hørt.</l>
+<lg xml:id="p_03147">
+<l rend="firstIndent">– Saul, Du er til Maalet ført –</l>
+<l rend="firstIndent">I Angst bestedt. –</l>
+<l>Dø skal Du og al din Æt!</l>
+<l rend="firstIndent">I dit Hjerte trænge Staalet!</l>
+<l rend="firstIndent">Moder! nu staaer Du i Glands paa Baalet!</l></lg>
+<stage><hi rend="italic">(Iler ud. Krigsbulder. Kvinder flygte ind paa Scenen.)</hi></stage>
+</sp>
+<sp>
+<speaker>CHOR af KVINDER</speaker>
+<l rend="firstIndent">Lad os ile til Templet – ydmygt knæle.</l>
+<l rend="firstIndent">Herren styrker de svage Sjæle!</l>
+</sp>
+</div>
+                              
+                              
+                              
+                              
+<div type="act" rend="Femte Act. Klippehule hos Hexen i Endor. Scenen forandres til Leiren." xml:id="div0177">
+<pb n="591"/>
+<head type="act">Femte Act</head>
+<head type="set">Klippehule hos Hexen i Endor</head>
+
+<stage>TRE HEXEKVINDER</stage>
+<sp>
+<speaker>DEN FØRSTE</speaker>
+<l rend="firstIndent"><seg target="txtcmnt-591-01"><!--DATA-TERM: Kong Saul kommer hid forklædt--><!--DATA-DEFINITION: sammenlign 1. Samuels Bog 28,7-25.-->Kong <hi rend="italic">Saul</hi> kommer hid forklædt</seg> –</l>
+</sp>
+<sp>
+<speaker>DEN ANDEN</speaker>
+<l rend="firstIndent">I Angest bestedt.</l>
+</sp>
+<sp>
+<speaker>DEN TREDIE</speaker>
+<l rend="firstIndent">Vee Kong <hi rend="italic">Saul</hi> og hans Æt.</l>
+</sp>
+<sp>
+<speaker>ALLE TRE</speaker>
+<stage><hi rend="italic">(Lidt efter lidt komme flere til; de stemme med i deres Sang, saa at den svulmer i Chor.)</hi></stage>
+<l rend="firstIndent">Taage og Dunster</l>
+<l rend="firstIndent">Sig hæve,</l>
+<l rend="firstIndent">Hexens Konster</l>
+<l rend="firstIndent">Skal ham gjennembæve.</l>
+<l rend="firstIndent">Blændende Lys</l>
+<l rend="firstIndent">Male Skikkelser vilde;</l>
+<l rend="firstIndent">Angestens Gys</l>
+<l rend="firstIndent">Være Dands ved vort Gilde.</l>
+<lg xml:id="p_03148">
+<l rend="secondIndent">Løsner Storm og Vind,</l>
+<l rend="secondIndent">Skift med farvede Flammer,</l>
+<l rend="secondIndent">Blegne skal hans Kind</l>
+<l rend="secondIndent">I Hexens Kammer.</l>
+</lg><stage><hi rend="italic">(Man hører Stormvinden og seer en vexlende Belysning. Hexekvinderne, paa de Tre nær, forsvinde.)</hi></stage>
+</sp>
+<sp>
+<speaker>DE TRE KVINDER</speaker>
+<l rend="firstIndent">Nu træder Kongen ind</l>
+<l rend="firstIndent">I Hulens dæmrende Lysning; –</l>
+<pb n="592"/>
+<l rend="firstIndent">Der gaaer en Gysning</l>
+<l rend="firstIndent">Gjennem Tankens Vildhed.</l>
+<l rend="firstIndent">– – Alt er Stilhed.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<stage><hi rend="italic">(træder hen imod dem og standser).</hi></stage>
+<l rend="firstIndent">Jeg er her nu!</l>
+</sp>
+<sp>
+<speaker>DEN FØRSTE</speaker>
+<l rend="firstIndent">Hvad søger Du?</l>
+</sp>
+<sp>
+<speaker>DEN ANDEN OG TREDIE</speaker>
+<l rend="firstIndent">Hvor gaaer din Vei?</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Jeg veed det ei! –</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<stage><hi rend="italic">(viser sig pludselig i stolt, bydende Stilling høit paa et Klippestykke over ham.)</hi></stage>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi> søger Hexen i Endor!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Du kjender din Konge. Kvinde,</l>
+<l rend="firstIndent">Ansigt til Ansigt staae vi herinde!</l>
+<l rend="firstIndent">Du fik Magt i Aandernes Rige,</l>
+<l rend="firstIndent">Har Fremmanelses-Gaven.</l>
+<l rend="firstIndent">Paa dit Bud de Døde stige</l>
+<l rend="firstIndent">Fra Graven.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Hvem skal jeg kalde?</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="right">Samuels Skygge.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Jeg skal mane de Døde?</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="right">Min Lykke,</l>
+<l rend="firstIndent">Mine Sønners, Kampens Udfald, –</l>
+</sp>
+<pb n="593"/>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="right">Kjende</l>
+<l rend="firstIndent">Vil Du! – Mørket alt sig sænker,</l>
+<l rend="firstIndent">Dødningeblus sig tænde.</l>
+<l rend="firstIndent">Nu briste Gravens Lænker,</l>
+<l rend="firstIndent">Hører Du Aanderne synge.</l>
+<stage rend="right"><hi rend="italic">(Man seer og fornemmer hvad hun siger.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Død er Samuel, Folkets Dommer,</l>
+<l rend="firstIndent">Fra Graven han kommer.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Ord ere lagte paa Prophetens Tunge.</l>
+<stage rend="right"><hi rend="italic">(Stormhyl og Brag gjennemsuse Hulen.)</hi></stage>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Over mig bruser Rædslernes Hav.</l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<stage><hi rend="italic">(hæver sig med bydende Majestæt).</hi></stage>
+<l rend="firstIndent">Ved den Magt, Kræfterne mig gav,</l>
+<l rend="firstIndent"><hi rend="italic">Samuel</hi>, stig af din Grav.</l>
+</sp>
+<stage>(Under vexlende Farvelys stiger marmorhvid Skikkelsen af Samuel.)</stage>
+<sp>
+<speaker>SYNET</speaker>
+<l rend="firstIndent"><hi rend="italic">Saul</hi>, Du er givet</l>
+<l rend="firstIndent">I Philisternes Hænder.</l>
+<l rend="firstIndent">David blev salvet</l>
+<l rend="firstIndent">Til Israels Konge!</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<l rend="firstIndent">Vee mig! <stage><hi rend="italic">(Styrter til Jorden; Spøgelse-Synet forsvinder.)</hi></stage></l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="right">Min Livsdrøm opfyldt jeg seer,</l>
+<l rend="firstIndent">Det skoggerleer</l>
+<l rend="firstIndent">I Hjertet her inde. <stage><hi rend="italic">(Leer vildt.)</hi></stage></l>
+<l rend="firstIndent">Triumph!</l>
+</sp>
+<sp>
+<speaker>CHOR AF KVINDERNE</speaker>
+<l rend="right">Triumph, Du haanede Hexekvinde!</l>
+</sp>
+<pb n="594"/>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Nu først Livet jeg kjender!</l>
+<l rend="firstIndent">– <hi rend="italic">Saul</hi>, vaagn op! dine Fjender</l>
+<l rend="firstIndent">Er’ over dig.</l>
+</sp>
+<sp>
+<speaker>SAUL <stage><hi rend="italic">(farer op).</hi></stage></speaker>
+<l rend="firstIndent">I Fortvivlelse det ender</l>
+<l rend="firstIndent">For mig. <stage><hi rend="italic">(Styrter ud af Hulen.)</hi></stage></l>
+</sp>
+<sp>
+<speaker>ZILLA</speaker>
+<l rend="firstIndent">Jeg er ved Maalet!</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent">Blod-Roser groe fra Baalet.</l>
+</sp>
+
+<head type="set">Scenen forandres til Leiren.</head>
+<stage>Kamp-Bulder; Lyd af Trompeter og <seg target="txtcmnt-594-01"><!--DATA-TERM: Tuber--><!--DATA-DEFINITION: tubaer; lange trompeter.-->Tuber</seg>. Vilde Raab bag Scenen. JONATHAN føres ind døende; DAVID og MICHAL ledsage ham. Michal er i en Slags Vaabendragt.</stage>
+<span type="unison" spanTo="unison0016"/>
+<sp>
+          <speaker>DAVID</speaker>
+          <l rend="firstIndent"><seg target="txtcmnt-594-02" type="dfnStart"><!--DATA-TERM: Han døer … Styrter sig i sit Sværd--><!--DATA-DEFINITION: sammenlign 1. Samuels Bog 31.--></seg>Han døer! ak Vennen døer!</l>
+     </sp>
+     <anchor type="unison" xml:id="unison0016"/>
+     <sp>
+<speaker>MICHAL</speaker>
+<l rend="firstIndent">Han døer! min Broder døer!</l>
+</sp>
+<sp>
+<speaker>JONATHAN</speaker>
+<l rend="firstIndent">End sænker sig ei Nattens Slør,</l>
+<l rend="firstIndent">Jeg Eders milde Aasyn kjender,</l>
+<l rend="firstIndent">Jeg føler Eders varme Hænder,</l>
+<l rend="firstIndent">Trofaste, elskelige To!</l>
+<l rend="firstIndent">– Tak, <hi rend="italic">David</hi>, Du blev tro,</l>
+<l rend="firstIndent">Stred for min Faders Sag.</l>
+<l rend="firstIndent">– Hvor Solen skinner dog paa denne Dag,</l>
+<l rend="firstIndent">Den trænger i mit Hjerte.</l>
+<l rend="firstIndent">Nu døer al Smerte.</l>
+<stage rend="right"><hi rend="italic">(Døer.)</hi></stage>
+</sp>
+<sp>
+<speaker>DAVID og MICHAL</speaker>
+<l rend="firstIndent">Vor Broder, vor Ven!</l>
+<l rend="firstIndent">Det er som om han blunded!</l>
+</sp>
+<pb n="595"/>
+<sp>
+<speaker>CHOR <stage><hi rend="italic">(bag Scenen).</hi></stage></speaker>
+<l rend="firstIndent">Seiren er vundet!</l>
+<l rend="firstIndent">Kampen døer hen.</l>
+</sp>
+<sp>
+<speaker>SAUL</speaker>
+<stage><hi rend="italic">(styrter ind forvildet, med draget Sværd).</hi></stage>
+<l rend="firstIndent">Mit Drømmeslot fra Grund til Gavl I Grus!</l>
+<l rend="firstIndent">Tag mit Sværd! dræb Kong Saul</l>
+<l rend="firstIndent">Og al hans Hus. – –</l>
+<l rend="firstIndent">Alt var en Skuffelse, en broget Drøm!</l>
+<l rend="firstIndent">Nu synker den og jeg i Glemsels Strøm!</l>
+<stage rend="right"><hi rend="italic">(Styrter sig i sit Sværd<seg target="txtcmnt-594-02" type="dfnEnd"><!--DATA-TERM: Han døer … Styrter sig i sit Sværd--><!--DATA-DEFINITION: sammenlign 1. Samuels Bog 31.--></seg>.)</hi></stage>
+</sp>
+<span type="unison" spanTo="unison0017"/>
+     
+     <sp>
+          <speaker>CHOR AF KRIGERE</speaker>
+          <l rend="firstIndent">Seiren er vundet!</l>
+     </sp>
+     <sp>
+          <speaker>DAVID og MICHAL</speaker>
+          <l rend="firstIndent">Angstens Nat forsvundet.</l>
+     </sp>
+     <anchor type="unison" xml:id="unison0017"/>
+     <sp>
+<speaker>KRIGERNE <stage><hi rend="italic">(som komme til).</hi></stage></speaker>
+<l rend="firstIndent">Kong <hi rend="italic">Saul</hi> i sit Blod!</l>
+</sp>
+<sp>
+<speaker>ALMINDELIGT CHOR</speaker>
+<l rend="firstIndent">Vi have Fjenden traadt under Fod,</l>
+<l rend="firstIndent">Seirens Sange vi sjunge!</l>
+</sp>
+<sp>
+<speaker>DAVID og MICHAL</speaker>
+<l rend="firstIndent">Ind i Eden,</l>
+<l rend="firstIndent">Ind til Freden,</l>
+<l rend="firstIndent">Hvor ei Hjerterne bløde,</l>
+<l rend="firstIndent">Vandre de Døde.</l>
+</sp>
+<sp>
+<speaker>CHOR</speaker>
+<l rend="firstIndent"><hi rend="italic">David</hi> er Israels Konge!</l>
+</sp>
+</div>
+
+
+
+
+</div>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Kong Saul. " synch="kong-saul">
+<head type="section-comments">Kong Saul</head>
+<head rend="noIndent" type="section-comments">Opera i fem Acter</head>
+
+<argument type="sourceData"><p rend="noIndent">Uopført. Trykt første gang i SS bd. 30, 1876, BFN 1067, som her er trykforlæg. II og III akt trykt i <hi rend="italic">Fra danske Forfattere.</hi> Udg. af Chr. Richardt, 1867. BFN 963</p>
+<p rend="firstIndent">H.C. Andersen skrev operateksten på J.P.E. Hartmanns opfordring, men denne fik aldrig fuldført musikken til <hi rend="italic">Kong Saul</hi>, som kun omfatter I akts første del til og med koret »Med ham til Striden«. Fragmentet findes som musikhåndskrift på Det Kongelige Biblioteks Center for Musik og Teater (MA ms 0692 mu 8811.0983).</p>
+<p rend="firstIndent">Beretningen om Saul findes i 1. Samuels Bog 9-31, hvortil der henvises i det følgende.</p></argument>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">570,19</cell><cell type="deviation">Moder &lt; Broder</cell></row>
+<row><cell type="position">584,7</cell><cell type="deviation">Saul). &lt; Saul.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">561</cell><cell><row xml:id="txtcmnt-561-01"><cell type="data-term">Kong Saul</cell><cell type="data-definition">kong Saul var Israels første konge, o. 1000 f.Kr.</cell></row></cell>
+<cell type="page">562</cell><cell><row xml:id="txtcmnt-562-01"><cell type="data-term">Jonathan</cell><cell type="data-definition">1. Samuels Bog 14,1 o.a.st.</cell></row><row xml:id="txtcmnt-562-02"><cell type="data-term">Michal</cell><cell type="data-definition">1. Samuels Bog 14,49, 18,20-27 o.a.st.</cell></row><row xml:id="txtcmnt-562-03"><cell type="data-term">Abjathar</cell><cell type="data-definition">eller Ebjatar, 1. Samuels Bog 22,20-23.</cell></row><row xml:id="txtcmnt-562-04"><cell type="data-term">Isram</cell><cell type="data-definition">navnet er ukendt i den bibelske og senere jødiske litteratur og formentlig opdigtet.</cell></row><row xml:id="txtcmnt-562-05"><cell type="data-term">Hexekvinde fra Endor</cell><cell type="data-definition">1. Samuels Bog 28,7-25.</cell></row></cell>
+<cell type="page">564</cell><cell><row xml:id="txtcmnt-564-01"><cell type="data-term">Moses … Lovenes Bud</cell><cell type="data-definition">2. Mosebog 20-31.</cell></row><row xml:id="txtcmnt-564-02"><cell type="data-term">Cymbler</cell><cell type="data-definition">en slags strengeinstrumenter.</cell></row><row xml:id="txtcmnt-564-03"><cell type="data-term">bliver</cell><cell type="data-definition">bliver af.</cell></row></cell>
+<cell type="page">565</cell><cell><row xml:id="txtcmnt-565-01"><cell type="data-term">endnu ei</cell><cell type="data-definition">ikke stadigvæk.</cell></row><row xml:id="txtcmnt-565-02"><cell type="data-term">Sky saa tung … Hjerte … Harpespil</cell><cell type="data-definition">1. Samuels Bog 16,14-23.</cell></row></cell>
+<pb n="653"/>
+<cell type="page">566</cell><cell><row xml:id="txtcmnt-566-01"><cell type="data-term">Fødevare</cell><cell type="data-definition">fødevarer, jf. 1. Samuels Bog 16,20.</cell></row></cell>
+<cell type="page">567</cell><cell><row xml:id="txtcmnt-567-01"><cell type="data-term">Philisterne(s)</cell><cell type="data-definition">Israels vestlige naboer på kyststrækningen fra Gaza til Jaffa (nu Tel-Aviv).</cell></row><row xml:id="txtcmnt-567-02"><cell type="data-term">Kæmpen … Haan … Enekamp</cell><cell type="data-definition">1. Samuels Bog 17,4-8.</cell></row><row xml:id="txtcmnt-567-03"><cell type="data-term">Slyngekast</cell><cell type="data-definition">1. Samuels Bog 17,49.</cell></row></cell>
+<cell type="page">568</cell><cell><row xml:id="txtcmnt-568-01"><cell type="data-term">Herre Zebaoth</cell><cell type="data-definition">Det Gamle Testamente har betegnelsen Zebaoth for Gud som hærskarers herre, dvs. herre over Israels hære, uvejr, jordskælv osv., den vældige gud, der virker i alt.</cell></row><row xml:id="txtcmnt-568-02"><cell type="data-term">bespændt</cell><cell type="data-definition">beklemt.</cell></row><row xml:id="txtcmnt-568-03"><cell type="data-term">Øxner</cell><cell type="data-definition">okser.</cell></row></cell>
+<cell type="page">569</cell><cell><row xml:id="txtcmnt-569-01"><cell type="data-term">Isais Søn</cell><cell type="data-definition">Davids far hed Isaj.</cell></row><row xml:id="txtcmnt-569-02"><cell type="data-term">Tusinde … Ti Tusinde</cell><cell type="data-definition">1. Samuels Bog 18,7.</cell></row></cell>
+<cell type="page">570</cell><cell><row xml:id="txtcmnt-570-01"><cell type="data-term">Fæld Hundrede til</cell><cell type="data-definition">1. Samuels Bog 18,25.</cell></row><row xml:id="txtcmnt-570-02"><cell type="data-term">Brude-Skjænk</cell><cell type="data-definition">brudegave.</cell></row></cell>
+<cell type="page">571</cell><cell><row xml:id="txtcmnt-571-01"><cell type="data-term">Saul … udstøde … David</cell><cell type="data-definition">1. Samuels Bog 16.</cell></row><row xml:id="txtcmnt-571-02"><cell type="data-term">hvad eller</cell><cell type="data-definition">eller.</cell></row></cell>
+<cell type="page">572</cell><cell><row xml:id="txtcmnt-572-01"><cell type="data-term">Ambra</cell><cell type="data-definition">vellugtende stof.</cell></row><row xml:id="txtcmnt-572-02"><cell type="data-term">Myrrha</cell><cell type="data-definition">røgelse.</cell></row><row xml:id="txtcmnt-572-03"><cell type="data-term">Anordningen</cell><cell type="data-definition">forberedelsen, foranstaltningerne.</cell></row><row xml:id="txtcmnt-572-04"><cell type="data-term">Kvalens Slange</cell><cell type="data-definition">1. Samuels Bog 18,8-9.</cell></row></cell>
+<cell type="page">574</cell><cell><row xml:id="txtcmnt-574-01"><cell type="data-term">De vil myrde dig</cell><cell type="data-definition">1. Samuels Bog 19,2.</cell></row></cell>
+<cell type="page">576</cell><cell><row xml:id="txtcmnt-576-01"><cell type="data-term">Forvist</cell><cell type="data-definition">utvivlsomt.</cell></row></cell>
+<cell type="page">579</cell><cell><row xml:id="txtcmnt-579-01"><cell type="data-term">veiende</cell><cell type="data-definition">vajende, blafrende.</cell></row><row xml:id="txtcmnt-579-02"><cell type="data-term">Hør</cell><cell type="data-definition">her om væger, muligvis fakler.</cell></row><row xml:id="txtcmnt-579-03"><cell type="data-term">Kains Mærke</cell><cell type="data-definition">1. Mosebog 4,15.</cell></row></cell>
+<cell type="page">580</cell><cell><row xml:id="txtcmnt-580-01"><cell type="data-term">Abimelek … Skuebrød … Sværd</cell><cell type="data-definition">1. Samuels Bog 21,1-10.</cell></row><row xml:id="txtcmnt-580-02"><cell type="data-term">Skuebrød</cell><cell type="data-definition">de brød, der hver sabbat lagdes »for Herrens ansigt« på et bord ved alteret i jødernes tempel, kaldtes Guds åsyns brød (gengivelse af hebraisk: lehem-ha-panim), men blev ofte opfattet som brød, der var lagt til skue i templet.</cell></row><row xml:id="txtcmnt-580-03"><cell type="data-term">Nedsabled´ Præsten … Hundred til Døden</cell><cell type="data-definition">1. Samuels Bog 22,11-19.</cell></row></cell>
+<cell type="page">581</cell><cell><row xml:id="txtcmnt-581-01"><cell type="data-term">Forfulgt vi flye</cell><cell type="data-definition">1. Samuels Bog 23,13-28.</cell></row><row xml:id="txtcmnt-581-02"><cell type="data-term">Klippe</cell><cell type="data-definition">jf. 2. Samuels Bog 22,2 og Salmernes Bog 18,3 m.fl.</cell></row></cell>
+<cell type="page">583</cell><cell><row xml:id="txtcmnt-583-01"><cell type="data-term">Barne-Tro</cell><cell type="data-definition">ordet er indført i romantikkens tid med Grundtvig og Ingemann.</cell></row><row xml:id="txtcmnt-583-02"><cell type="data-term">Stød til … det tør ei skee … Flig … Ven</cell><cell type="data-definition">1. Samuels Bog 24,4-20.</cell></row></cell>
+<cell type="page">585</cell><cell><row xml:id="txtcmnt-585-01"><cell type="data-term">Kornmod</cell><cell type="data-definition">glimt i horisonten af lyn, der er så langt væk, at tordenen ikke høres.</cell></row></cell>
+<cell type="page">587</cell><cell><row xml:id="txtcmnt-587-01"><cell type="data-term">kvægende</cell><cell type="data-definition">vederkvægende.</cell></row></cell>
+<cell type="page">589</cell><cell><row xml:id="txtcmnt-589-01"><cell type="data-term">Armods Vraa</cell><cell type="data-definition">den fattige hytte.</cell></row><row xml:id="txtcmnt-589-02"><cell type="data-term">Kvinden forlader … Fader</cell><cell type="data-definition">jf. Matthæus 19,5 o.a.st.</cell></row><row xml:id="txtcmnt-589-03"><cell type="data-term">bestedt</cell><cell type="data-definition">stedt, stillet.</cell></row></cell>
+<cell type="page">591</cell><cell><row xml:id="txtcmnt-591-01"><cell type="data-term">Kong Saul kommer hid forklædt</cell><cell type="data-definition">sammenlign 1. Samuels Bog 28,7-25.</cell></row></cell>
+<cell type="page">594</cell><cell><row xml:id="txtcmnt-594-01"><cell type="data-term">Tuber</cell><cell type="data-definition">tubaer; lange trompeter.</cell></row><row xml:id="txtcmnt-594-02"><cell type="data-term">Han døer … Styrter sig i sit Sværd</cell><cell type="data-definition">sammenlign 1. Samuels Bog 31.</cell></row></cell>
+</table>
+
+<argument type="sourceData"><p rend="noIndent">Forskningsbibliotekar, cand.phil. Inger Sørensen takkes for faglig hjælp ved udformning af noternes musikoplysninger.</p></argument>
+<pb n="654"/>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

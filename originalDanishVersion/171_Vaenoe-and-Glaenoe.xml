@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Vænø and Glænø</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="vaenoe-og-glaenoe">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="vaenoe-og-glaenoe_modern.xml">moderniseret version</note>
+                                                       <note target="171_Vaenoe-and-Glaenoe.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Close to the coast of Sealand, off Holsteinborg, there once lay two wooded islan...</incipit><idno type="image">Vaenoe_og_Glaenoe_hca_ill_0137.png</idno><popularity>889</popularity><cite>&lt;p&gt;Hans Christian Andersen: Vænø and Glænø. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>teknik</term><term>steder</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-28" who="NHB">formatted</change><change who="NHB" when="2022-10-28">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Vænø and Glænø">
+               <head type="main" rend="Vænø and Glænø">Vænø and Glænø</head>                <p rend="noIndent" xml:id="p_00001">Close to the coast of Sealand, off <hi rend="italic">Holsteinborg</hi>, there once lay two wooded islands, <hi rend="italic">Vænø</hi> and <hi rend="italic">Glænø</hi>, on them were a village with a church and farms; they lay close to the coast, they lay close to each other, now there is only the one island left.</p>
+               <p rend="firstIndent" xml:id="p_00002">One night there was a terrible gale, the sea rose higher than it had done within living memory; the storm increased in violence; it was doomsday weather, it sounded as if the earth split asunder; the church bells were set ringing and tolled without human assistance.</p>
+               <p rend="firstIndent" xml:id="p_00003">During that night <hi rend="italic">Vænø</hi> disappeared into the depths of the sea; it was as if the island had never existed. But afterwards, on many a summer’s night, at low tide in still, clear water, when the fisherman was out spearing eels by torchlight in the prow of his boat, he saw, with his keen eyesight, deep down beneath him the island of <hi rend="italic">Vænø</hi> with its white church tower and the high church wall. ‘<hi rend="italic">Vænø</hi> is waiting for <hi rend="italic">Glænø</hi>,’ the legend had it; he saw the island, he heard the church bells tolling below, but he was wrong about the latter, it was assuredly the sound of the many wild swans that often lie on the surface here; they cluck and complain, as if one was hearing bells ringing from far off.</p>
+               <p rend="firstIndent" xml:id="p_00004">There was a time when there were still many people on <hi rend="italic">Glænø</hi> who could remember that stormy night and that they, when young, had driven between the two islands at low tide, just as one nowadays can drive across, not far from <hi rend="italic">Holsteinborg</hi>, to <hi rend="italic">Glænø</hi> from the Sealand coast; the water only comes up to the hubs of the wheels. ‘<hi rend="italic">Vænø</hi> is waiting for <hi rend="italic">Glænø</hi>,’ people used to say, and that became a legend and a certainty.</p>
+               <p rend="firstIndent" xml:id="p_00005">Many a young boy and girl lay in in bed on stormy nights and thought: tonight the hour will come when <hi rend="italic">Vænø</hi> fetches <hi rend="italic">Glænø</hi>. Fearfully, they said their <hi rend="italic">Lord’s Prayer</hi>, fell asleep, had sweet dreams – and the following morning <hi rend="italic">Glænø</hi> was still there with its woods and cornfields, its friendly farmsteads and hop gardens; the birds sang; the fallow deer leapt; the mole did not smell any seawater as far as it could tunnel in the earth.</p>
+               <p rend="firstIndent" xml:id="p_00006">Even so, <hi rend="italic">Glænø’s</hi> days are numbered; we are not able to say how many days there still are, but they are numbered, – one fine morning the island will have disappeared.</p>
+               <p rend="firstIndent" xml:id="p_00007">You were perhaps down here by the shore only yesterday, saw the wild swans lying on the water between Sealand and <hi rend="italic">Glænø</hi>, a sailing boat with taut sails glided past the wood thicket, you yourself drove across the shallow ford, there was no other possible route; the horses stomped in the water, it splashed up over the cartwheels.</p>
+               <p rend="firstIndent" xml:id="p_00008">You have travelled from this spot, are perhaps travelling some way out into the great wide world and after some years return once more: now you see the wood here fringing a large green stretch of meadowland where the hay smells sweetly outside decorative farmhouses. Where are you? <hi rend="italic">Holsteinborg</hi> lies there still, resplendent with its gilded spires, but not close to the fjord, it lies higher inland; you walk through the wood, across fields down towards the shore – where is <hi rend="italic">Glænø</hi>? You see no wooded island in front of you, you see open water. Has <hi rend="italic">Vænø</hi> fetched <hi rend="italic">Glænø</hi>, which it had waited for so long? When did that stormy night take place when this came to pass, when the earth shook so that <hi rend="italic">Holsteinborg</hi> was shifted many thousand hands’ breadths inland?</p>
+               <p rend="firstIndent" xml:id="p_00009">There was no stormy night, it was in broad daylight. Human ingenuity built a dike to keep out the sea, human ingenuity blew away the inland waters, linked <hi rend="italic">Glænø</hi> to the mainland. The fjord has become a meadow with lush grass, <hi rend="italic">Glænø</hi> has joined itself to Sealand. The old farm lies where it always did. It was not <hi rend="italic">Vænø</hi> that fetched <hi rend="italic">Glænø</hi>, it was <hi rend="italic">Sealand</hi> that reached out with long dike arms and with the breathing of pumps blew and uttered the magic formula, the nuptial words, and <hi rend="italic">Sealand</hi> received many acres of land as a wedding present. This is the truth, it has been registered, you can see it with your own eyes, the island <hi rend="italic">Glænø</hi> has disappeared.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

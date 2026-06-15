@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Nabofamilierne</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr. Andet Bind. Første Samling, der udkom den 3. april 1847.<br/>
+BFN 518/II,113-121/VII,111-113.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="nabofamilierne.xml" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Nabofamilierne" xml:id="nabofamilierne">
+<pb n="394"/><head type="main">nabofamilierne</head>
+
+<p rend="noIndent" xml:id="p_00001">man skulde rigtignok tro at der var noget på færde i gadekæret, men der var ikke noget på færde! alle ænderne, ligesom de allerbedst lå på vandet, nogle stod på hovedet, for det kunne de, satte med ét lige i land; man kunde se i det våde ler sporene af deres fødder, og man kunde høre et langt stykke borte at de skreg. vandet kom ordentlig i bevægelse, og nylig var det blank, som et spejlglas, man så deri hvert træ, hver busk tæt ved, og det gamle bondehus med hullerne i gavlen og svalereden, men især det store rosentræ fuldt af blomster, der hang fra muren næsten lige ud over vandet, og deri stod det hele, ligesom et <seg target="txtcmnt-394-01"><!--DATA-TERM: Skilderi--><!--DATA-DEFINITION: maleri.-->skilderi</seg>, men alt sammen på hovedet; og da vandet kom i uro, så løb det ene i det andet, hele billedet var væk. to andefjer, der faldt af ænderne, som fløj, vippede ordentlig op og ned, med ét tog de fart, ligesom om der var vind, men der var ingen vind, og så lå de stille, og vandet blev spejlglat igen, man så tydeligt gavlen med svalereden, og rosentræet så man; hver rose spejlede sig; de var så dejlige, men de vidste det ikke selv, for ingen havde sagt dem det. solen skinnede ind imellem de fine blade, der var så fyldte med duft; og det var for hver rose, ligesom for os, når vi er ret lyksalige <seg target="txtcmnt-394-02"><!--DATA-TERM: henne--><!--DATA-DEFINITION: væk, borte.-->henne</seg> i tanker.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»hvor det er dejligt at være til!« sagde hver rose, »det eneste jeg ved at ønske, er at jeg kunde kysse solen, fordi den er så varm og klar. – ja, roserne dernede i vandet vilde jeg også kysse! de ligne os ganske accurat; jeg vilde kysse de søde fugleunger dernede i reden; ja der er også nogle oven over os! de stikke hovederne ud og pippe så småt; de have slet ingen fjer, som deres fader og moder. det er gode nabor, vi har, både dem oven over og neden under. o, hvor det er dejligt at være til!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">De små unger oppe og nede, – ja de nede var kun <seg target="txtcmnt-394-03"><!--DATA-TERM: Skin--><!--DATA-DEFINITION: spejlbillede(r).-->skin</seg> i vandet, – var spurve, fader og moder var spurve; de havde taget den tomme svalerede fra ifjor, i den lå de og var hjemme.</p>
+
+<pb n="395"/><p rend="firstIndent" xml:id="p_00004">»er det ællingebørn, som svømme der?« spurgte spurveungerne, da de så andefjerene drive på vandet.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»gør fornuftige spørgsmål når I spørge,« sagde moderen; »se I ikke, at det er fjer, levende kjoletøj, som jeg har det og I få det, men vort er finere! gid vi ellers havde dem heroppe i reden, for de varme. jeg gad vide hvad det var, som forskrækkede ænderne! der må have været noget i vandet, for mig var det vist ikke! skønt jeg sagde rigtig nok noget stærkt »pip« til jer! De tykhovedede roser burde vide det, men de ved ingenting, de se kun på sig selv og lugte. jeg er inderlig ked af de nabor!« –</p>
+
+<p rend="firstIndent" xml:id="p_00006">»hør de søde små fugle deroppe!« sagde roserne, »de begynde nu også på at ville synge! – De kunne ikke, men det kommer nok! – hvor det må være en stor fornøjelse! det er ganske morsomt at have sådanne lystige nabor!« –</p>
+
+<p rend="firstIndent" xml:id="p_00007">I gallop kom i det samme to heste, de skulde vandes; en bondedreng sad på den ene, og han havde taget alle sine klæder af undtagen sin sorte hat; den var så stor og bred. drengen fløjtede ligesom om han var en lille fugl, og red så ud i det dybeste af gadekæret; og da han kom over mod rosentræet, rev han en af roserne af og stak op i hatten, så troede han at være rigtig pyntet, og red så bort med den. De andre roser så efter deres søster, og spurgte hinanden: »hvor rejste hun hen?« men det vidste ingen.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»jeg gad nok komme ud i verden!« sagde den ene til den anden, »men her hjemme i vort eget grønne er også dejligt! om dagen er solen så varm og om natten skinner himlen endnu smukkere! det kan vi se igennem de mange små huller, der er på den!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">det var stjernerne, som de troede hver var et hul, for roserne vidste det ikke bedre.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»vi live op om huset,« sagde spurvemoderen, »og svalereder bringe lykke,« sige folk; »derfor er de glade ved at have os! men de nabor der, sådan en hel rosenbusk op ad muren, sætter fugtighed; jeg tænker den kommer nok bort, så kan der dog gro et korn. roser er kun at se på og at lugte til, eller i det højeste at stikke i hatten. hvert år, det ved jeg fra <hi rend="italic">min</hi> moder, så falde de af, bondekonen sylter dem med salt, de få <seg target="txtcmnt-395-01"><!--DATA-TERM: et fransk Navn--><!--DATA-DEFINITION: potpourri.-->et fransk navn</seg>, som jeg ikke kan sige, og heller ikke <seg target="txtcmnt-395-02"><!--DATA-TERM: bryder mig om--><!--DATA-DEFINITION: lægger vægt på.-->bryder mig om</seg>; og så lægges de på ilden, når der skal lugte godt. se, det er deres levnedsløb! de er bare for øjne og næse. nu ved I det!«</p>
+
+<pb n="396"/><p rend="firstIndent" xml:id="p_00011">da det blev aften og myggene dansede i den varme luft, hvor skyerne var så røde, kom nattergalen og sang for roserne: at det skønne var som solskinnet i denne verden; og at det skønne levede altid. men roserne troede at nattergalen sang om sig selv og det kunde man jo også tænke. det faldt dem slet ikke ind, at det var dem, der skulde have sangen, men glade var de ved den og tænkte på, om ikke alle de små spurve-unger også kunde blive til nattergaler.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»jeg forstod meget godt hvad den fugl sang!« sagde spurveungerne, »der var bare et ord, jeg ikke forstod: hvad er det skønne?«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»det er ingenting!« sagde spurvemoderen, »det er bare sådanne et udseende. oppe på herregården, hvor duerne har deres eget hus, og hver dag få ærter og korn strøet i gården, – jeg har spist med dem og det skal I også komme til! <seg target="txtcmnt-396-01"><!--DATA-TERM: siig mig … Du er--><!--DATA-DEFINITION: gammelt ordsprog; Mau 7103.-->sig mig, hvem du omgås, så skal jeg sige dig, hvem du er</seg>! – der oppe på herregården har de to fugle med grønne halse og en top på hovedet; halen kan brede sig ud, som var den et stort hjul, og den har alle kulører, så at det gør ondt i øjnene; påfugle kaldes de, og de er det skønne! De skulde pilles lidt, da så de ikke anderledes ud, end vi andre. jeg havde hugget dem, dersom de ikke havde været så store!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»jeg vil hugge dem!« sagde den mindste spurveunge og han havde endnu ikke fjer.</p>
+
+<p rend="firstIndent" xml:id="p_00015">inde i bondehuset boede to unge folk; de holdt så meget af hinanden, de var så flittige og <seg target="txtcmnt-396-02"><!--DATA-TERM: raske--><!--DATA-DEFINITION: dygtige.-->raske</seg>, der var så nydeligt hos dem. søndagmorgen gik den unge kone ud, tog en hel håndfuld af de smukkeste roser, satte dem i vandglasset og stillede det midt på dragkisten.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»nu kan jeg se, det er søndag!« sagde manden, kyssede sin søde, lille kone, og de satte sig ned, læste en salme, holdt hinanden i hænderne, og solen skinnede ind af vinduerne på de friske roser og på de unge folk.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»det er jeg ked af at se på!« sagde gråspurve-moderen, som fra reden kiggede lige ind i stuen; og så fløj hun.</p>
+
+<p rend="firstIndent" xml:id="p_00018">det samme gjorde hun næste søndag, thi hver søndag kom der friske roser i glasset og altid blomstrede rosenhækken lige smukt; spurve-ungerne, der nu havde fået fjer, vilde gerne flyve med, men moderen sagde: »I blive!« og så blev de. – hun fløj, men hvordan hun nu fløj eller ikke, med ét hang hun fast i en <seg target="txtcmnt-396-03"><!--DATA-TERM: Fuglesnare--><!--DATA-DEFINITION: fuglefælde.-->fuglesnare</seg> af hestehår, som nogle drenge havde bundet på en gren. hestehårene trak sig fast om benet, o <pb n="397"/>så fast, som om det skulde skæres over; det var en pine, det var en skræk; drengene sprang lige til og greb fuglen, og de greb så gruelig hårdt. »det er ikke andet, end en spurv!« sagde de, men de lod den dog ikke flyve igen, de gik hjem med den og hver gang den skreg, sloge de den på næbbet.</p>
+
+<p rend="firstIndent" xml:id="p_00019">inde i bondegården stod der en gammel karl, der forstod at lave sæbe til skægget og til hænderne, sæbe i kugler og sæbe i stykker. det var sådan en omvandrende lystig gammel en, og da han så gråspurven, som drengene kom med, og som de sagde at de slet ikke brød sig om, sagde han: »skal vi gøre den <hi rend="italic">skjøn</hi>« og det gøs i spurvemoderen, da han sagde det. og op af sin kasse, hvori der lå de dejligste kulører, tog han en hel mængde skinnende <seg target="txtcmnt-397-01"><!--DATA-TERM: Bogguld--><!--DATA-DEFINITION: bladguld, tyndt udhamret guld.-->bogguld</seg>, og drengene måtte løbe ind at skaffe et æg, og af det tog han hviden og den smurte han hele fuglen over med, og klinede så bogguldet på, så var spurvemoderen forgyldt; men hun tænkte ikke på den stads, hun rystede over alle lemmer. og sæbemanden tog en rød lap, han rev den af foret i sin gamle trøje, klippede lappen til en takket hanekam, og klistrede den på hovedet af fuglen.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»nu skal I se guldfuglen flyve!« sagde han og slap gråspurven, der i den grueligste forfærdelse fløj af sted i det klare solskin. nej, hvor den skinnede! alle gråspurve, selv en stor krage, og det ingen års unge, blev ganske forskrækkede for det syn, men de fløj dog bagefter, for de vilde vide hvad det var for en fremmed fugl.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»hvorfra! hvorfra!« skreg kragen.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»tøv lidt! tøv lidt!« sagde spurvene. men den vilde ikke tøve lidt; i angst og forfærdelse fløj hun hjemad; hun var nærved at synke til jorden og altid kom der flere fugle til, små og store; nogle fløj lige tæt ind på den for at hugge løs. »se’ken en! se’ken en!« skreg de allesammen!</p>
+
+<p rend="firstIndent" xml:id="p_00023">»se’ken en! se’ken en!« skreg ungerne, da hun kom henimod reden. »det er bestemt en påfugle-unge, der er alle kulører, som skære i øjnene, som mor sagde: pip! det er det skønne!« og så huggede de med deres små næb, så at det ikke blev muligt for hende at slippe ind, og hun var således af forfærdelse, at hun ikke længere kunde sige pip, end sige: jeg er eders moder. De andre fugle huggede den nu alle, så hver fjer gik af, og blodig sank spurvemoderen ned i rosenhækken.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»det stakkels dyr!« sagde roserne. »kom vi skulle skjule dig! held dit lille hoved op til os!«</p>
+
+<pb n="398"/><p rend="firstIndent" xml:id="p_00025">spurvemoderen bredte endnu engang vingerne ud, knugede dem så fast til sig igen og var død hos nabofamilien, de friske, smukke roser.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»pip!« sagde spurveungerne i reden, »hvor mutter bliver af, det kan jeg ikke begribe! det skulde dog ikke være et fif af hende, at vi nu må <seg target="txtcmnt-398-01"><!--DATA-TERM: skøtte--><!--DATA-DEFINITION: passe.-->skøtte</seg> os selv. huset har hun ladet os beholde til arvepart! men hvem af os skal have det alene, når vi får familie.«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»ja, jeg kan ikke have jer andre her, når jeg udvider mig med kone og børn!« sagde den mindste.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»jeg får nok flere koner og børn end du!« sagde den anden.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»men jeg er ældst!« sagde en tredje. allesammen kom de op at skændes, de sloge med vingerne, huggede med næbbet, og bums, så blev den ene efter den anden puffet ud af reden. der lå de, og vrede var de; hovedet hældte de helt om på den ene side og så <seg target="txtcmnt-398-02"><!--DATA-TERM: plirrede--><!--DATA-DEFINITION: missede, blinkede.-->plirrede</seg> det øje, som vendte op; det var nu deres måde at <seg target="txtcmnt-398-03"><!--DATA-TERM: mule--><!--DATA-DEFINITION: surmule.-->mule</seg> paa.</p>
+
+<p rend="firstIndent" xml:id="p_00030">lidt kunde de flyve, og så øvede de sig noget mere, og blev til sidst enige om, at for at kunne kende hinanden igen når de mødtes i verden, vilde de sige: pip! og skrabe tre gange med det venstre ben.</p>
+
+<p rend="firstIndent" xml:id="p_00031">den unge, som blev tilbage i reden, gjorde sig så bred den kunde, den var jo nu husejer, men længe varede det ikke. – om natten skinnede den røde ild gennem ruderne, flammerne sloge frem under taget, det tørre strå gik op i lue, hele huset brændte, og spurveungen med, derimod kom de unge folk <seg target="txtcmnt-398-04"><!--DATA-TERM: lykkelig--><!--DATA-DEFINITION: til alt held.-->lykkelig</seg> bort.</p>
+
+<p rend="firstIndent" xml:id="p_00032">da solen næste morgen var oppe og alt syntes så forfrisket som efter en mild nattesøvn, stod der af bondehuset ikke andet tilbage, end nogle sorte, forkullede bjælker, der hældede sig op til skorstenen, som var sin egen herre; det røg stærkt fra grunden, men foran den stod frisk og blomstrende det hele rosentræ, der spejlede hver gren og hver blomst i det stille vand.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»nej hvor dejligt de roser stå der foran det nedbrændte hus!« råbte en mand, som kom forbi. »det er det yndigste lille billede! det må jeg have!« og manden tog op af lommen en lille bog med hvide blade, og han tog sin blyant, for han var en maler, og tegnede så det rygende grus, de forkullede bjælker op til den hældende skorsten, for den hældede mere og mere, men allerforrest stod den store, blomstrende rosenhæk, den var rigtignok dejlig, og var jo også ene skyld i at det hele blev tegnet.</p>
+
+<pb n="399"/><p rend="firstIndent" xml:id="p_00034">op ad dagen kom forbi to af gråspurvene, som var fødte her. »hvor er huset?« sagde de, »hvor er reden? – pip, alting er brændt op og vor stærke broder er brændt med! det fik han fordi han beholdt reden. – roserne er slupne godt fra det! de stå endnu med røde kinder. De <seg target="txtcmnt-399-01"><!--DATA-TERM: sørge da ikke for--><!--DATA-DEFINITION: sørger da ikke over.-->sørge da ikke for</seg> naboens ulykke. ja jeg taler ikke til dem, og grimt er her, det er min mening!« så fløj de.</p>
+
+<p rend="firstIndent" xml:id="p_00035">ud på efteråret var det en dejlig solskinsdag, man kunde <seg target="txtcmnt-399-02"><!--DATA-TERM: ordenlig--><!--DATA-DEFINITION: ligefrem.-->ordenlig</seg> tro, man var midt i sommeren. der var så tørt og rent i gården foran den store trappe hos herremandens, og der gik duerne, både sorte og hvide og violette, de glinsede i solskinnet og de gamle duemødre brusede sig op og sagde til ungerne, »stå i gruppe! stå i gruppe!« – for så tog de sig bedre ud.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»hvad er det små grå, der løber mellem os?« spurgte en gammel due, som havde rødt og grønt igennem øjnene. »små grå! små grå!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»det er spurve! skikkelige dyr! vi har altid haft ord for at være fromme, og så få vi lade dem pille op! – De tale ikke med og skrabe så net med benet!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">ja de skrabede, tre gange skrabede de med det venstre ben, men de sagde også pip og så kendte de hverandre, det var tre spurve fra det afbrændte hus. –</p>
+
+<p rend="firstIndent" xml:id="p_00039">»her er overmåde godt at æde!« sagde spurvene.</p>
+
+<p rend="firstIndent" xml:id="p_00040">og duerne gik rundt om hverandre, brystede sig og havde indvendig mening.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»seer du <seg target="txtcmnt-399-03"><!--DATA-TERM: Brystedue(n)--><!--DATA-DEFINITION: (forædlet) markdue.-->brysteduen</seg>?« sagde den ene om den anden, »og ser du hende, hvor hun sluger ærter? hun får for mange! hun får de bedste! kurr kurr! ser du hvor hun der bliver skaldet i kammen! ser du det søde, det arrige dyr! knurre, knurre!« og så skinnede på dem allesammen øjnene røde af arrighed. »stå i gruppe, stå i gruppe! små grå! små grå! knurre, knurre, kurre!« gik det i et væk og således går det endnu om tusinde år.</p>
+
+<p rend="firstIndent" xml:id="p_00042">gråspurvene spiste godt, og de hørte godt, ja de stillede sig endogså op, men det klædte ikke; mætte var de; så gik de fra duerne og sagde indbyrdes deres mening om dem, hoppede så ind under havestakittet, og da døren der til havestuen stod åben, hoppede den ene op på dørtrinet, han var overmæt og derfor modig: »pip!« sagde han, »det tør jeg!« – »pip!« sagde den anden, »det tør jeg også og lidt til!« og så hoppede han ind i stuen. der var ingen folk derinde, det så den <pb n="400"/>tredje nok, og så fløj han endnu længere op i stuen og sagde: »helt ind, eller slet ikke! det er ellers en løjerlig menneske-rede den! og hvad her er stillet op! nej hvad er det!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">lige foran spurvene blomstrede jo roserne, de spejlede sig der i vandet, og de <seg target="txtcmnt-400-01"><!--DATA-TERM: kullede--><!--DATA-DEFINITION: sodede.-->kullede</seg> bjælker lå op til den faldefærdige skorsten! – nej, hvad var dog dette! <seg target="txtcmnt-400-02"><!--DATA-TERM: hvor kom det ind--><!--DATA-DEFINITION: hvordan kom det ind.-->hvor kom det ind</seg> i herregårds-stuen?</p>
+
+<p rend="firstIndent" xml:id="p_00044">og alle tre spurve vilde flyve hen over roser og skorsten, men det var en flad væg, de fløj imod; det hele var et maleri, et stort, prægtigt stykke, som maleren havde gjort efter sin lille tegning.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»pip!« sagde spurvene, »det er ingenting! det ser bare ud! pip! det er det skønne! kan du begribe det, for jeg kan ikke!« og så fløj de, for der kom mennesker i stuen.</p>
+
+<p rend="firstIndent" xml:id="p_00046">nu gik der både år og dag, duerne havde mange gange kurret, for ikke at sige knurret, de arrige dyr! gråspurvene havde frosset om vinteren og levet højt om sommeren; de var allesammen forlovede eller gifte, eller hvad man nu vil kalde det. unger havde de, og enhvers unge var, naturligvis, den kønneste og den klogeste; en fløj her og en fløj der, og mødtes de, så kendtes de på »pip!« og tre skrab med det venstre ben. den ældste af dem, det var nu sådan en gammel en, hun havde ingen rede og hun havde ingen unger; hun vilde så gerne en gang til en stor by og så fløj hun til Kjøbenhavn. –</p>
+
+<p rend="firstIndent" xml:id="p_00047">der lå et stort hus med mange kulører; det lå lige ved slottet og kanalen, hvor der var skibe med æbler og potter. vinduerne var bredere for neden end for oven, og kiggede spurvene derind, så var hver stue, syntes dem, ligesom om de så ned i en tulipan, alle mulige kulører og snirkler, og midt i tulipanen stod hvide mennesker; de var af marmor, nogle var også af gips, men det kommer ud på ét for spurve-øjne. Oven på huset stod en metalvogn med metalheste for, og sejrens Gudinde, også af metal, kørte dem. det var <seg target="txtcmnt-400-03"><!--DATA-TERM: Thorvaldsens Musæum--><!--DATA-DEFINITION: opført 1839-1848; arkitekt: Gottlieb Bindesbøll. Museet rummer de samlinger af Thorvaldsens egen og andres kunst, som han havde testamenteret til den danske stat. Thorvaldsen selv er begravet i museets indre gård.-->Thorvaldsens musæum</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00048">»hvor det skinner! hvor det skinner!« sagde spurvefrøkenen, »det er nok det skønne! pip! her er det dog større end en påfugl!« hun huskede endnu på fra lille af, hvad der var det største skønne, moderen kendte. og hun fløj lige ned i gården; der var også prægtigt, der var malet palmer og grene op ad væggene, og midt i gården stod en blomstrende stor rosenbusk; den hældede sine friske grene med de mange roser hen over en grav; og hun fløj derhen, for der gik flere <pb n="401"/>spurve, »pip!« og tre skrab med det venstre ben; den hilsen havde hun mange gange gjort i år og dag, og ingen havde forstået den, for de, som er skildte ad, de træffes ikke hver dag; den hilsen var blevet til vane, men i dag var der to gamle spurve og en unge, der sagde »pip!« og skrabede med det venstre ben.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»ih se god dag, god dag!« det var tre gamle fra spurvereden og så en lille en af familien. »skal vi træffes her!« sagde de. »det er et fornemt sted, men her er ikke meget at æde. det er det skønne! pip!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">og der kom mange folk fra sidekamrene, hvor de prægtige marmorskikkelser stod, og de gik hen til graven, der gemte den store mester, som havde formet marmorstøtterne, og alle som kom, stod med lysende ansigter om Thorvaldsens grav, og enkelte opsamlede de affaldne rosenblade og gemte disse. der var folk langvejs fra; de kom fra det store England, fra Tydskland og frankerige; og den skønneste dame tog en af roserne, lagde den ved sit bryst. da troede spurvene at roserne regerede her, at det hele hus var bygget for deres skyld, og det syntes de var rigtignok lidt for meget, men da menneskene allesammen <seg target="txtcmnt-401-01"><!--DATA-TERM: gjorde af--><!--DATA-DEFINITION: beundrede.-->gjorde af</seg> roserne, så vilde de ikke stå tilbage. »pip!« sagde de, fejede gulvet med deres hale, og så med det ene øje på roserne; længe så de ikke, før de var visse på at det var de gamle nabor; og det var det også. maleren, som havde tegnet rosenbusken ved det nedbrændte hus, havde siden ud på året fået lov til at grave den op, og da givet bygmesteren den, thi ingen roser var dejligere; og han havde sat den på Thorvaldsens grav, hvor den, som billedet på det skønne, blomstrede og gav sine røde, duftende blade at bæres som erindring til fjerne lande.</p>
+
+<p rend="firstIndent" xml:id="p_00051">»har I fået ansættelse herinde i byen?« spurgte spurvene. og roserne nikkede; de kendte de grå nabor og blev så glade ved at se dem.</p>
+
+<p rend="firstIndent" xml:id="p_00052">»hvor det er velsignet at leve og blomstre, at se gamle venner og hver dag milde ansigter! her er ligesom om det hver dag var en stor helligdag!«</p>
+
+<p rend="firstIndent" xml:id="p_00053">»pip!« sagde spurvene, »jo det er de gamle nabor! deres herkomst fra gadekæret huske vi! pip! hvor de er kommet til ære! somme komme da også sovende til det. og hvad rart der er ved sådan en rød klat, ved jeg ikke! – og der sidder da et vissent blad, for det kan <hi rend="italic">jeg</hi> see!«</p>
+
+<p rend="firstIndent" xml:id="p_00054">og så nippede de i det, så at bladet faldt af, og friskere og <pb n="402"/>grønnere stod træet, og roserne duftede i solskinnet på Thorvaldsens grav, til hvis udødelige navn deres skønhed sluttede sig.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Nabofamilierne" xml:id="nabofamilierne">
+<head type="section-comments">Nabofamilierne</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr. Andet Bind. Første Samling, der udkom den 3. april 1847.<br/>
+BFN 518/II,113-121/VII,111-113.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">394,21</cell><cell type="deviation">fine &lt; sine</cell></row>
+<row><cell type="position">395,3</cell><cell type="deviation">spørge,« &lt; spørge.«</cell></row>
+<row><cell type="position">396,10</cell><cell type="deviation">»der &lt; der</cell></row>
+<row><cell type="position">398,4</cell><cell type="deviation">»hvor &lt; »Hvor</cell></row>
+<row><cell type="position">398,35</cell><cell type="deviation">forbi. &lt; forbi,</cell></row>
+<row><cell type="position">399,17</cell><cell type="deviation">hun. &lt; hun,</cell></row>
+<row><cell type="position">399,33</cell><cell type="deviation">kurre!« &lt; kurre!</cell></row>
+<row><cell type="position">400,8</cell><cell type="deviation">alle &lt; Alle</cell></row>
+<row><cell type="position">400,24</cell><cell type="deviation">gerne &lt; gerne,</cell></row>
+<pb n="530"/>
+<row><cell type="position">401,30</cell><cell type="deviation">Erindring &lt; Erindring,</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">394</cell><row xml:id="txtcmnt-394-01"><cell type="data-term">Skilderi</cell><cell type="data-definition">maleri.</cell></row><row xml:id="txtcmnt-394-02"><cell type="data-term">henne</cell><cell type="data-definition">væk, borte.</cell></row><row xml:id="txtcmnt-394-03"><cell type="data-term">Skin</cell><cell type="data-definition">spejlbillede(r).</cell></row>
+<cell type="page">395</cell><row xml:id="txtcmnt-395-01"><cell type="data-term">et fransk Navn</cell><cell type="data-definition">potpourri.</cell></row><row xml:id="txtcmnt-395-02"><cell type="data-term">bryder mig om</cell><cell type="data-definition">lægger vægt på.</cell></row>
+<cell type="page">396</cell><row xml:id="txtcmnt-396-01"><cell type="data-term">sig mig … Du er</cell><cell type="data-definition">gammelt ordsprog; Mau 7103.</cell></row><row xml:id="txtcmnt-396-02"><cell type="data-term">raske</cell><cell type="data-definition">dygtige.</cell></row><row xml:id="txtcmnt-396-03"><cell type="data-term">Fuglesnare</cell><cell type="data-definition">fuglefælde.</cell></row>
+<cell type="page">397</cell><row xml:id="txtcmnt-397-01"><cell type="data-term">Bogguld</cell><cell type="data-definition">bladguld, tyndt udhamret guld.</cell></row>
+<cell type="page">398</cell><row xml:id="txtcmnt-398-01"><cell type="data-term">skøtte</cell><cell type="data-definition">passe.</cell></row><row xml:id="txtcmnt-398-02"><cell type="data-term">plirrede</cell><cell type="data-definition">missede, blinkede.</cell></row><row xml:id="txtcmnt-398-03"><cell type="data-term">mule</cell><cell type="data-definition">surmule.</cell></row><row xml:id="txtcmnt-398-04"><cell type="data-term">lykkelig</cell><cell type="data-definition">til alt held.</cell></row>
+<cell type="page">399</cell><row xml:id="txtcmnt-399-01"><cell type="data-term">sørge da ikke for</cell><cell type="data-definition">sørger da ikke over.</cell></row><row xml:id="txtcmnt-399-02"><cell type="data-term">ordenlig</cell><cell type="data-definition">ligefrem.</cell></row><row xml:id="txtcmnt-399-03"><cell type="data-term">Brystedue(n)</cell><cell type="data-definition">(forædlet) markdue.</cell></row>
+<cell type="page">400</cell><row xml:id="txtcmnt-400-01"><cell type="data-term">kullede</cell><cell type="data-definition">sodede.</cell></row><row xml:id="txtcmnt-400-02"><cell type="data-term">hvor kom det ind</cell><cell type="data-definition">hvordan kom det ind.</cell></row><row xml:id="txtcmnt-400-03"><cell type="data-term">Thorvaldsens Musæum</cell><cell type="data-definition">opført 1839-1848; arkitekt: Gottlieb Bindesbøll. Muset rummer de samlinger af Thorvaldsens egen og andres kunst, som han havde testamenteret til den danske stat. Thorvaldsen selv er begravet i musets indre gård.</cell></row>
+<cell type="page">401</cell><row xml:id="txtcmnt-401-01"><cell type="data-term">gjorde af</cell><cell type="data-definition">beundrede.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

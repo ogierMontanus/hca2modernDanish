@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "tales": 161,
+    "gold_changed_tokens": 112118,
+    "change_caseonly": 59646,
+    "change_orthographic": 52472,
+    "structural_changes": 8589,
+    "loop1_orth_correct": 21197,
+    "loop1_orth_missed": 26896,
+    "loop1_orth_wrong": 4379,
+    "loop1_recall_pct": 40.4,
+    "loop1_precision_pct": 82.9,
+    "overnormalizations_on_kept": 102,
+    "loop2_flagged_types": 16
+  },
+  "top_missed_patterns": [
+    [
+      "i→j",
+      5293
+    ],
+    [
+      "j→∅",
+      3625
+    ],
+    [
+      "e→∅",
+      3099
+    ],
+    [
+      "d→l",
+      1471
+    ],
+    [
+      "d→n",
+      1322
+    ],
+    [
+      "d→∅",
+      1120
+    ],
+    [
+      "∅→r",
+      1095
+    ],
+    [
+      "de→∅",
+      1021
+    ],
+    [
+      "i→∅",
+      712
+    ],
+    [
+      "u→∅",
+      546
+    ],
+    [
+      "x→ks",
+      537
+    ],
+    [
+      "-→∅",
+      527
+    ],
+    [
+      "e→æ",
+      367
+    ],
+    [
+      "c→k",
+      333
+    ],
+    [
+      "∅→e",
+      260
+    ],
+    [
+      "n→t",
+      243
+    ],
+    [
+      "ve→r",
+      237
+    ],
+    [
+      "q→k",
+      202
+    ],
+    [
+      "∅→t",
+      185
+    ],
+    [
+      "ch→k",
+      185
+    ]
+  ],
+  "loop2_by_rule": [
+    [
+      "R0027",
+      16
+    ]
+  ],
+  "examples": {
+    "correct": [
+      "Aarets→Årets",
+      "Sneestorm→Snestorm",
+      "udenpaa→udenpå",
+      "Snee→Sne",
+      "saa→så",
+      "Snee→Sne",
+      "saa→så",
+      "naar→når",
+      "Snee→Sne",
+      "Overeenskomst→Overenskomst",
+      "eet→et",
+      "Been→Ben",
+      "Sneedyngen→Snedyngen",
+      "saa→så",
+      "blaa→blå"
+    ],
+    "wrong": [
+      "Karreeten→Karreten (gold kareten)",
+      "gaae→gåe (gold gå)",
+      "saae→såe (gold så)",
+      "faae→fåe (gold få)",
+      "gaae→gåe (gold gå)",
+      "slaae→slåe (gold slå)",
+      "faae→fåe (gold få)",
+      "laae→låe (gold lå)",
+      "saamæn→såmæn (gold såmænd)",
+      "Menneske-Paafund→Menneske-Påfund (gold menneskepåfund)",
+      "laae→låe (gold lå)",
+      "saae→såe (gold så)",
+      "faae→fåe (gold får)",
+      "saae→såe (gold så)",
+      "meer→mer (gold mere)"
+    ],
+    "overnorm": [
+      "Sneen→snen (R0013,R0027,R0027)",
+      "Vaaren→Våren (R0033)",
+      "Aarhundreder→Århundreder (R0034)",
+      "Odysseen→Odyssen (R0027)",
+      "Aalborg→Ålborg (R0034)",
+      "undseelig→undselig (R0027)",
+      "sneede→snede (R0027)",
+      "Pharmacopoea→Farmacopoea (R0030)",
+      "Beethovens→Bethovens (R0027)",
+      "Philosophen→Filosofen (R0030,R0032)",
+      "saaledes→således (R0033)",
+      "paa→på (R0033)",
+      "Odysseen→Odyssen (R0027)",
+      "Sancta→Sankta (R0001)",
+      "Henseende→Hensende (R0027)"
+    ],
+    "loop2": [
+      "Sneen→snen (fix sneen, R0027)",
+      "Odysseen→Odyssen (fix Odysseen, R0027)",
+      "Feen→Fen (fix Feen, R0027)",
+      "Ideen→iden (fix ideen, R0027)",
+      "sneede→snede (fix sneede, R0027)",
+      "Feens→Fens (fix Feens, R0027)",
+      "Fatteevne→Fattevne (fix Fatteevne, R0027)",
+      "Feernes→Fernes (fix Feernes, R0027)",
+      "besneede→tilsnede (fix tilsneede, R0027)",
+      "Forseelse→Forselse (fix Forseelse, R0027)",
+      "Ideer→Ider (fix Ideer, R0027)",
+      "Udseendet→Udsendet (fix Udseendet, R0027)",
+      "Anseelse→Anselse (fix Anseelse, R0027)",
+      "Skeen→Sken (fix Skeen, R0027)",
+      "reelle→relle (fix reelle, R0027)"
+    ]
+  }
+}

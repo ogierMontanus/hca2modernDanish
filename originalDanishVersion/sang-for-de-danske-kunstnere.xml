@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang for de danske Kunstnere</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-for-de-danske-kunstnere" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Eet er der, Eet, som ei forgaaer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00812</section>
+                                                                 <date>1860</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang for de danske Kunstnere" xml:id="sang-for-de-danske-kunstnere"><pb n="325"/><head type="part">Sang for de danske Kunstnere</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-325-01"><!--DATA-TERM: Menuetten af Elverhøi--><!--DATA-DEFINITION: fra J.L. Heibergs romantiske skuespil <i>Elverhøi</i>, V,1, 1828, med musik af Fr. Kuhlau.-->Menuetten af Elverhøi.</seg></hi></head>
+<lg xml:id="p_00813">
+<l rend="noIndent" subtype="firstline" corresp="Eet er der, Eet, som ei forgaaer" rendition="eet-er-der-eet-som-ei-forgaaer">Eet er der, Eet, som ei forgaaer;</l>
+<l rend="noIndent">Det fylde vore Tanker!</l>
+<l rend="noIndent">Det staaer, saalænge Verden staaer,</l>
+<l rend="noIndent">Og her et Hjerte banker!</l>
+<l rend="noIndent"><seg target="txtcmnt-325-02"><!--DATA-TERM: Det Skiønne--><!--DATA-DEFINITION: tidens ideal var foreningen af det gode, det sande og det skønne, hvor kunstarterne repræsenterede det sidste.--><hi rend="italic">Det Skiønne</hi></seg>, – den Guds Herlighed,</l>
+<l rend="noIndent">Hvorefter Alting higer,</l>
+<l rend="noIndent">Det Aftryk af Guds Kiærlighed</l>
+<l rend="noIndent">I alle Livsens Riger.</l>
+</lg>
+<lg xml:id="p_00814">
+<l rend="noIndent">Ved Farver og ved Meiselslag</l>
+<l rend="noIndent"><hi rend="italic">Det Skiønne</hi> give Møde!</l>
+<l rend="noIndent">I Kunst, den klare Solskins Dag,</l>
+<l rend="noIndent">Fremad fra Morgenrøde!</l>
+<l rend="noIndent">Hvor <seg target="txtcmnt-325-03"><!--DATA-TERM: Aandens Pintseflamme--><!--DATA-DEFINITION: jf. Apostlenes Gerninger 2,1-4.-->Aandens Pintseflamme</seg> kom,</l>
+<l rend="noIndent">Vil Aandens Liv sig røre;</l>
+<l rend="noIndent"><seg target="txtcmnt-325-04"><!--DATA-TERM: Der mange Veie er til Rom--><!--DATA-DEFINITION: variant af talemåden eller ordsproget: alle veje fører til Rom (her: idealet, det skønne); dets oprindelse og betydning er ukendt.-->Der mange Veie er til Rom</seg>;</l>
+<l rend="noIndent">Skytsenglen os kan føre!</l>
+</lg>
+<lg xml:id="p_00815">
+<l rend="noIndent">Er der paa Søens Bund nedlagt</l>
+<l rend="noIndent">Et Frø, – det Intet holder!</l>
+<l rend="noIndent">Det spirer, trænger frem med Magt,</l>
+<l rend="noIndent">Og engang Blomst udfolder!</l>
+<l rend="noIndent">Hvad godt og herligt er, vil groe,</l>
+<l rend="noIndent">Det bryder Skal og <seg target="txtcmnt-325-05"><!--DATA-TERM: Skranke--><!--DATA-DEFINITION: afgrænsning, grænse.-->Skranke</seg>.</l>
+<l rend="noIndent">Med Barnesind vi paa det tro</l>
+<l rend="noIndent">Og Gud er i den Tanke.</l>
+</lg>
+<lg xml:id="p_00816">
+<l rend="noIndent">Det er ei om, hvor Vuggen gik,</l>
+<l rend="noIndent">Men om vort Snilles Stade;</l>
+<l rend="noIndent"><seg target="txtcmnt-325-06" type="dfnStart"/><!--DATA-TERM: Sin Phidias … Lille Grønnegade--><!--DATA-DEFINITION: den danske billedhugger Bertel Thorvaldsen voksede op i det daværende Lille Grønnegade.-->Sin <hi rend="italic"><seg target="txtcmnt-325-07">Phidias</seg></hi> jo Norden fik</l>
+<l rend="noIndent">Fra Lille Grønnegade<seg type="dfnEnd" target="txtcmnt-325-06"/>!</l>
+<l rend="noIndent"><hi rend="italic">Det Skiønne</hi> Seiren i sig veed,</l>
+<l rend="noIndent">Men Gud alene Æren!</l>
+<l rend="noIndent"><hi rend="italic">Det Skiønne</hi>, al vor Kiærlighed,</l>
+<l rend="noIndent">Vort Liv, vor hele Væren!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang for de danske Kunstnere" synch="sang-for-de-danske-kunstnere">
+<pb n="607"/><head type="section-comments">Sang for de danske Kunstnere</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget 31. marts 1860 ved kunstakademiets præmieuddeling. BFN 809. (jf. »Sang til Kongen«, sunget ved samme lejlighed (BFN 808; se side 324)).</p>
+<table rend="textcomments">
+<cell type="page">325</cell><cell><row xml:id="txtcmnt-325-01"><cell type="data-term">Menuetten af Elverhøi</cell><cell type="data-definition">fra J.L. Heibergs romantiske skuespil <hi rend="italic">Elverhøi</hi>, V,1, 1828, med musik af Fr. Kuhlau.</cell></row><row xml:id="txtcmnt-325-02"><cell type="data-term">Det Skiønne</cell><cell type="data-definition">tidens ideal var foreningen af det gode, det sande og det skønne, hvor kunstarterne repræsenterede det sidste.</cell></row><row xml:id="txtcmnt-325-03"><cell type="data-term">Aandens Pintseflamme</cell><cell type="data-definition">jf. Apostlenes Gerninger 2,1-4.</cell></row><row xml:id="txtcmnt-325-04"><cell type="data-term">Der mange Veie er til Rom</cell><cell type="data-definition">variant af talemåden eller ordsproget: alle veje fører til Rom (her: idealet, det skønne); dets oprindelse og betydning er ukendt.</cell></row><row xml:id="txtcmnt-325-05"><cell type="data-term">Skranke</cell><cell type="data-definition">afgrænsning, grænse.</cell></row><row xml:id="txtcmnt-325-06"><cell type="data-term">Sin Phidias … Lille Grønnegade</cell><cell type="data-definition">den danske billedhugger Bertel Thorvaldsen voksede op i det daværende Lille Grønnegade.</cell></row><row xml:id="txtcmnt-325-07"><cell type="data-term">Phidias</cell><cell type="data-definition">Fidias; berømt græsk billedhugger fra Athens storhedstid, anden halvdel af 400-tallet f.Kr.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

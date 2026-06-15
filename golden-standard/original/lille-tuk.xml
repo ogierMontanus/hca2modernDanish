@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Lille Tuk</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Andet Bind. Første Samling</i>, som udkom den 3. april 1847.<br/>
+BFN 519/II,125-128/VII,114-117.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="lille-tuk" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="lille-tuk_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="84_Little-Tuk">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Ja, det var den lille Tuk, han hede egentlig ikke Tuk, men dengang han ikke kund...</incipit><readingTime>8</readingTime><popularity>953</popularity><cite>&lt;p&gt;H.C. Andersen: Lille Tuk. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Lille_Tuk_forside1.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>barnelogik</term><!--<term>humor</term>--></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Lille Tuk" xml:id="lille-tuk">
+<pb n="406"/><head type="main">Lille Tuk</head>
+
+<p rend="noIndent" xml:id="p_00001">Ja, det var den <hi rend="italic">lille Tuk</hi>, han hede egentlig ikke <hi rend="italic">Tuk</hi>, men dengang han ikke kunde tale rigtig endnu kaldte han sig selv <hi rend="italic">Tuk</hi>; det skulde betyde <hi rend="italic">Carl</hi>, og det er godt man veed det; han skulde passe sin Søster <hi rend="italic">Gustave</hi>, som var meget mindre, end han, og saa skulde han ogsaa lære sin Lexie, men de to Ting vil ikke gaae paa engang. Den stakkels Dreng sad med sin lille Søster paa Skjødet og sang alle de Viser, han kunde, og imidlertid skottede Øinene til Geographi-Bogen, der laa aaben for ham; han skulde til imorgen kunne udenad alle Byerne i <seg target="txtcmnt-406-01"><!--DATA-TERM: Sjællands Stift--><!--DATA-DEFINITION: indtil 1922 udgjorde Sjælland et stift.-->Sjællands Stift</seg> og vide om dem Alt, hvad der kunde vides.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Nu kom hans Moder hjem, for hun havde været ude, og hun tog den lille <hi rend="italic">Gustave</hi>; <hi rend="italic">Tuk</hi> løb til Vinduet og læste saa at han næsten læste sig Øinene ud, for det var nær ved at blive mørkt og det blev mere, men Moder havde ikke Raad til at kjøbe Lys.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Der gaaer den gamle Vaskerkone omme fra Strædet!« sagde Moderen, idet hun saae ud af Vinduet. »Hun kan knap bære sig selv og saa maa hun bære Spanden fra Posten; spring du ud, <hi rend="italic">lille Tuk</hi>, og vær en velsignet Dreng! hjælp den gamle Kone!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Og <hi rend="italic">Tuk</hi> sprang ligestrax og hjalp, men da han saa kom hjem, var det mørk Aften, Lys var der ikke at snakke om, han skulde i sin Seng; det var en gammel <seg target="txtcmnt-406-02"><!--DATA-TERM: Slagbænk--><!--DATA-DEFINITION: bænk, der kan trækkes ud og bruges som seng.-->Slagbænk</seg>; i den laa han og der tænkte han paa sin Geographi Lexie: Sjællands Stift og Alt hvad Læreren havde fortalt. Der skulde rigtignok have været læst, men det kunde han jo ikke nu. Geographi-Bogen stak han ind under sin Hovedpude, for han havde hørt, at det skulde hjælpe betydeligt til at huske sin Lexie, men det er ikke til at stole paa.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Der laa han nu og tænkte og tænkte, og saa var det lige med eet, som om Nogen kyssede ham paa Øine og Mund, han sov og sov dog ikke; det var ligesom om han saae den gamle Vaskerkones milde Øine see paa ham, og hun sagde: »det vilde være en stor Synd om du ikke skulde kunne din Lexie! du hjalp mig, nu skal jeg hjælpe dig, og <hi rend="italic">vor Herre</hi> vil altid gjøre det!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Og lige med eet saa kriblede og krablede Bogen under Hovedet paa <hi rend="italic">lille Tuk</hi>:</p>
+
+<pb n="407"/><p rend="firstIndent" xml:id="p_00007">»Kykeliky! put! put!« det var en Høne, der kom og det fra Kjøgeby. »Jeg er een af <seg target="txtcmnt-407-01"><!--DATA-TERM: <i>Kjøge</i>høns--><!--DATA-DEFINITION: hentydning til en gammel børneleg, hvor den voksne tager barnet med begge hænder om hovedet og løfter det op for at »se Køgehøns«. Der er egentlig tale om en forvanskning af udtrykket kæge eller køge, dvs. kvæle høns.--><hi rend="italic">Kjøge</hi>høns</seg>!« og saa sagde den hvor mange <seg target="txtcmnt-407-02"><!--DATA-TERM: Indvaanere--><!--DATA-DEFINITION: indbyggere.-->Indvaanere</seg>, og om <seg target="txtcmnt-407-03"><!--DATA-TERM: Slaget--><!--DATA-DEFINITION: Træskoslaget mellem det sjællandske landeværn og de engelske styrker nord for Køge ved Skillingskroen den 29. august 1807, hvor danskerne flygtede.-->Slaget</seg> der havde staaet, og det var nu ikke noget at tale om.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Krible krable, bums!« der dumpede en; det var en Fugl af Træ, som nu kom; det var Poppegøien fra Fugleskydningen i <hi rend="italic">Præstø</hi>. Den sagde, at <hi rend="italic">der</hi> var <seg target="txtcmnt-407-04"><!--DATA-TERM: ligesaa mange … Søm--><!--DATA-DEFINITION: Præstø havde 951 indbyggere i 1850.-->ligesaa mange Indvaanere, som den havde Søm</seg> i Livet; og den var noget stolt: »<hi rend="italic"><seg target="txtcmnt-407-05"><!--DATA-TERM: Thorvaldsen--><!--DATA-DEFINITION: efter sin hjemkomst fra Rom i 1838 var billedhuggeren Bertel Thorvaldsen (1770-1844) en hyppig gæst på herregården Nysø lige uden for Præstø.-->Thorvaldsen</seg></hi> har boet paa Hjørnet af mig. Bums! jeg ligger deiligt!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">Men <hi rend="italic">lille Tuk</hi> laa ikke, han var med eet til Hest. I Gallop, i Gallop gik det. En prægtigklædt Ridder med skinnende Hjelmbusk og vaiende Fjerbusk havde ham foran sig paa Hesten og de rede igjennem Skoven til den gamle By, <hi rend="italic">Vordingborg</hi>, og den var en stor, en levende By; høie Taarne kneisede paa Kongeborgen, og Lysene skinnede langt ud igjennem Vinduerne; derinde var Sang og Dands; Kong <hi rend="italic"><seg target="txtcmnt-407-06"><!--DATA-TERM: Valdemar--><!--DATA-DEFINITION: både Valdemar den Store (1131-1182), Valdemar Sejr (1170-1241) og Valdemar Atterdag (ca. 1320-1375) residerede på Vordingborg Slot.-->Valdemar</seg></hi> og stadselige unge Hoffrøkener gik i Dandsen. – Det blev Morgen, og ligesom Solen kom, sank Byen hen og Kongens Slot, det ene Taarn efter det andet, tilsidst stod kun <seg target="txtcmnt-407-07"><!--DATA-TERM: eet eneste--><!--DATA-DEFINITION: Gåsetårnet, bygget af Valdemar Atterdag 1362-1365.-->eet eneste</seg> paa Banken, hvor Slottet havde staaet, og Byen var saa lille bitte og saa fattig, og Skoledrengene kom med deres Bøger under Armen og sagde »2000 Indvaanere«, men det var ikke sandt, saa mange var der ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Og <hi rend="italic">lille Tuk</hi> laa i sin Seng, han syntes at han drømte og at han ikke drømte; men Nogen var der tæt ved ham:</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Lille Tuk! lille Tuk!« blev der sagt; det var en Sømand, en ganske lille Person, som om det kunde være en <seg target="txtcmnt-407-08"><!--DATA-TERM: Cadet--><!--DATA-DEFINITION: elev på søværnets officersskole.-->Cadet</seg>, men det var ikke en Cadet. »Jeg skal hilse saa meget flittig fra <hi rend="italic">Corsøer</hi>, den er en By, som er i <seg target="txtcmnt-407-09"><!--DATA-TERM: Opkomst--><!--DATA-DEFINITION: på vej op, i fremgang.-->Opkomst</seg>! den er en levende By, den har Dampskib og Postvogn; engang skulde den altid kaldes ækel, men det var gammel Mening. »»Jeg ligger ved Havet,«« siger <hi rend="italic">Corsøer</hi>, »»jeg har Landevei og jeg har Lystskov, og jeg har født <seg target="txtcmnt-407-10"><!--DATA-TERM: en Digter--><!--DATA-DEFINITION: Jens Baggesen (1764-1826).-->en Digter</seg>, som var morsom, og det ere de ikke alle. Jeg har villet sende <seg target="txtcmnt-407-11"><!--DATA-TERM: et Skib rundt om Jorden--><!--DATA-DEFINITION: hentyder til de (aldrig realiserede) planer, som et handelshus i Korsør havde om at sende et nybygget sejlskib på en toårig jordomrejse med 20-30 passagerer.-->et Skib rundt om Jorden</seg>, jeg gjorde det ikke, men kunde have gjort det, og saa lugter jeg saa deilig, lige ved Porten, der blomstre de yndigste Roser!««</p>
+
+<p rend="firstIndent" xml:id="p_00012"><hi rend="italic">Lille Tuk</hi> saae dem, det blev Rødt og Grønt for hans Øine, men da der kom Ro i Couleurerne var det en heel skovgroet Skrænt tæt ved den klare Fjord; og oven over laa en prægtig gammel Kirke med to høie, spidse Kirketaarne: fra Skrænten sprang Kilderne i tykke Vandstraaler, saa at det pladskede efter, og tæt ved sad en gammel Konge med Guldkrone om sit <pb n="408"/>lange Haar; det var Kong <hi rend="italic"><seg target="txtcmnt-408-01"><!--DATA-TERM: Hroar--><!--DATA-DEFINITION: Roar, dansk sagnkonge, som på grund af navneligheden ifølge den folkelige tradition er Roskildes (Roars kilde) grundlægger.-->Hroar</seg></hi> ved Kilderne; det var ved <hi rend="italic">Roeskilde</hi> By, som man kalder den nu. Og hen over Skrænten, ind i den gamle Kirke, gik <seg target="txtcmnt-408-02"><!--DATA-TERM: alle Danmarks Konger og Dronninger--><!--DATA-DEFINITION: siden 1536 er alle danske konger og dronninger (med undtagelse af Caroline Mathilde) begravet i Roskilde Domkirke.-->alle Danmarks Konger og Dronninger</seg> Haand i Haand, alle med Guldkrone paa, og Orglet spillede og Kilderne rislede. Den <hi rend="italic">lille Tuk</hi> saae Alt, hørte Alt. »Glem ikke <seg target="txtcmnt-408-03"><!--DATA-TERM: Stænderne--><!--DATA-DEFINITION: ved indførelsen af de rådgivende stænderforsamlinger i 1834 fik øernes forsamling sæde i Palæet i Roskilde.-->Stænderne</seg>!« sagde Kong <hi rend="italic">Hroar</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Lige med eet var Alting borte igjen; ja, hvor blev det af? det var ligesom man vender et Blad i en Bog. Og nu stod der en gammel Kone, det var en Lugekone, hun kom fra <hi rend="italic">Sorø</hi>, hvor der voxer Græs paa Torvet. Hun havde sit graae Lærreds Forklæde over Hovedet og ned ad Ryggen; det var saa vaadt, det maatte have regnet: »ja, det har det!« sagde hun, og saa kunde hun <seg target="txtcmnt-408-04"><!--DATA-TERM: noget Morsomt af <i>Holbergs</i> Comedier--><!--DATA-DEFINITION: hentydning til Jacobs replik i anden akt, 5. scene, af <i>Erasmus Montanus eller Rasmus Berg. Comoedie udi Fem Acter</i>, 1731, om bondestudenten Rasmus, der er så lærd, at han ikke mærker, at det regner.-->noget Morsomt af <hi rend="italic">Holbergs</hi> Comedier</seg> og hun vidste om <seg target="txtcmnt-408-05"><!--DATA-TERM: <i>Valdemar</i> og <i>Absalon</i>--><!--DATA-DEFINITION: Valdemar den Store og Absalon (ca. 1128-1201) voksede op som fostbrødre i Fjenneslev ved Sorø.--><hi rend="italic">Valdemar</hi> og <hi rend="italic">Absalon</hi></seg>; men lige med eet, saa krøb hun sammen, rokkede med Hovedet, det var ligesom om hun vilde springe: »<seg target="txtcmnt-408-06"><!--DATA-TERM: koax--><!--DATA-DEFINITION: imitation af frøers kvækken; hentydning til Aristofanes’ komedie <i>Frøerne</i>, v. 209 ff.-->koax</seg>!« sagde hun, »det er vaadt, det er vaadt, det er gravstille godt – i Sorø!« hun var lige med eet en Frø, »koax!« og saa var hun den gamle Kone igjen. »Man maa klæde sig efter Veiret!« sagde hun. »Det er vaadt, det er vaadt! min By er <seg target="txtcmnt-408-07"><!--DATA-TERM: ligesom en Flaske--><!--DATA-DEFINITION: digteren Carl Baggers (1807-1846) beskrivelse af Sorø i et brev til H.C. Andersen fra 31. oktober 1827: »O Jammer, o Rædsel, i sit eet og tyvende Flammeaar, med alle sine høitflyvende Længsler og Planer, som <i>figura</i> udviser, levende at nedputtes i en veltiltoldet Tranflaske« (<i>Breve til Hans Christian Andersen</i>, Udgivne af C. St .A. Bille og Nikolaj Bøgh, 1877, s. 597). Der fandtes på dette tidspunkt kun én vej ind og ud af Sorø.-->ligesom en Flaske</seg>; man kommer ind ved Proppen, og der maa man ud igjen! jeg har havt <hi rend="italic"><seg target="txtcmnt-408-08"><!--DATA-TERM: Maller--><!--DATA-DEFINITION: store ferskvandsfisk, levede bl.a. i Sorø Sø, hvor det sidste eksemplar blev fanget i 1799.-->Maller</seg></hi> og nu har jeg <seg target="txtcmnt-408-09"><!--DATA-TERM: friske rødmossede Drenge--><!--DATA-DEFINITION: eleverne ved Sorø Akademi.-->friske rødmossede Drenge</seg> paa Bunden af Flasken; der lære de Viisdom: Græsk! Græsk! koax!« det klang ligesom naar Frøerne synge, eller man gaaer i Mosevand med store Støvler. Det var altid den samme Lyd, saa eens, saa kjedelig, saa kjedelig, at <hi rend="italic">lille Tuk</hi> faldt i en ordentlig Søvn, og <hi rend="italic">den</hi> kunde han have godt af.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Men ogsaa i denne Søvn kom en Drøm, eller hvad det nu var: hans lille Søster <hi rend="italic">Gustave</hi> med de blaae Øine og det gule krøllede Haar var med eet en voxen, deilig Pige, og uden at have Vinger paa kunde hun flyve og de fløi henover Sjælland, over de grønne Skove og de blaae Vande.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Hører du Hanegal, <hi rend="italic">lille Tuk</hi>! kykeleky! Hønsene flyve op fra <hi rend="italic">Kjøgeby</hi>! du faaer en Hønsegaard, saa stor, saa stor, du vil ikke lide Sult og Nød! Poppegøien skal du skyde, som man siger, du bliver en riig og lykkelig Mand! din Gaard skal kneise, som Kong Valdemars Taarn, og rigt skal den bygges med Billedstøtter af Marmor, som dem fra <hi rend="italic">Præstø</hi>-Hjørne, du forstaaer mig nok. Dit Navn skal med Roes flyve vidt ud om Verden, som Skibet, der skulde have gaaet fra Corsøer, og i Roeskilde-By – – »husk paa Stænderne!« sagde Kong <hi rend="italic">Hroar</hi>; der skal du tale godt og klogt, <hi rend="italic">lille Tuk</hi>, og naar du saa kommer engang i din Grav, skal du sove saa stille – –«.</p>
+
+<pb n="409"/><p rend="firstIndent" xml:id="p_00016">»– Som om jeg laae i <hi rend="italic">Sorø</hi>!« sagde <hi rend="italic">Tuk</hi>, og saa vaagnede han; det var klar Morgen, han kunde ikke huske det mindste af sin Drøm, men det skulde han heller ikke, for man maa ikke vide hvad der kommer.</p>
+
+<p rend="firstIndent" xml:id="p_00017">Og han sprang ud af Sengen og læste i sin Bog og kunde saa sin Lexie lige strax. Og den gamle Vaskerkone stak Hovedet ind af Døren, nikkede til ham og sagde:</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Tak for igaar, du velsignede Barn! <hi rend="italic">vor Herre</hi> lade din bedste Drøm blive opfyldt!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">Den <hi rend="italic">lille Tuk</hi> vidste slet ikke hvad han havde drømt, men see, det vidste <hi rend="italic">vor Herre</hi>!</p>
+
+<pb n="410"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Lille Tuk" xml:id="lille-tuk">
+<head type="section-comments">Lille Tuk</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Andet Bind. Første Samling</hi>, som udkom den 3. april 1847.<br/>
+BFN 519/II,125-128/VII,114-117.</p>
+
+<pb n="531"/>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">408,19</cell><cell type="deviation">»Det &lt; Det</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">406</cell><row xml:id="txtcmnt-406-01"><cell type="data-term">Sjællands Stift</cell><cell type="data-definition">indtil 1922 udgjorde Sjælland et stift.</cell></row><row xml:id="txtcmnt-406-02"><cell type="data-term">Slagbænk</cell><cell type="data-definition">bænk, der kan trækkes ud og bruges som seng.</cell></row>
+<cell type="page">407</cell><row xml:id="txtcmnt-407-01"><cell type="data-term"><hi rend="italic">Kjøge</hi>høns</cell><cell type="data-definition">hentydning til en gammel børneleg, hvor den voksne tager barnet med begge hænder om hovedet og løfter det op for at »se Køgehøns«. Der er egentlig tale om en forvanskning af udtrykket kæge eller køge, dvs. kvæle høns.</cell></row><row xml:id="txtcmnt-407-02"><cell type="data-term">Indvaanere</cell><cell type="data-definition">indbyggere.</cell></row><row xml:id="txtcmnt-407-03"><cell type="data-term">Slaget</cell><cell type="data-definition">Træskoslaget mellem det sjællandske landeværn og de engelske styrker nord for Køge ved Skillingskroen den 29. august 1807, hvor danskerne flygtede.</cell></row><row xml:id="txtcmnt-407-04"><cell type="data-term">ligesaa mange … Søm</cell><cell type="data-definition">Præstø havde 951 indbyggere i 1850.</cell></row><row xml:id="txtcmnt-407-05"><cell type="data-term">Thorvaldsen</cell><cell type="data-definition">efter sin hjemkomst fra Rom i 1838 var billedhuggeren Bertel Thorvaldsen (1770-1844) en hyppig gæst på herregården Nysø lige uden for Præstø.</cell></row><row xml:id="txtcmnt-407-06"><cell type="data-term">Valdemar</cell><cell type="data-definition">både Valdemar den Store (1131-1182), Valdemar Sejr (1170-1241) og Valdemar Atterdag (ca. 1320-1375) residerede på Vordingborg Slot.</cell></row><row xml:id="txtcmnt-407-07"><cell type="data-term">eet eneste</cell><cell type="data-definition">Gåsetårnet, bygget af Valdemar Atterdag 1362-1365.</cell></row><row xml:id="txtcmnt-407-08"><cell type="data-term">Cadet</cell><cell type="data-definition">elev på søværnets officersskole.</cell></row><row xml:id="txtcmnt-407-09"><cell type="data-term">Opkomst</cell><cell type="data-definition">på vej op, i fremgang.</cell></row><row xml:id="txtcmnt-407-10"><cell type="data-term">en Digter</cell><cell type="data-definition">Jens Baggesen (1764-1826).</cell></row><row xml:id="txtcmnt-407-11"><cell type="data-term">et Skib rundt om Jorden</cell><cell type="data-definition">hentyder til de (aldrig realiserede) planer, som et handelshus i Korsør havde om at sende et nybygget sejlskib på en toårig jordomrejse med 20-30 passagerer.</cell></row>
+<cell type="page">408</cell><row xml:id="txtcmnt-408-01"><cell type="data-term">Hroar</cell><cell type="data-definition">Roar, dansk sagnkonge, som på grund af navneligheden ifølge den folkelige tradition er Roskildes (Roars kilde) grundlægger.</cell></row><row xml:id="txtcmnt-408-02"><cell type="data-term">alle Danmarks Konger og Dronninger</cell><cell type="data-definition">siden 1536 er alle danske konger og dronninger (med undtagelse af Caroline Mathilde) begravet i Roskilde Domkirke.</cell></row><row xml:id="txtcmnt-408-03"><cell type="data-term">Stænderne</cell><cell type="data-definition">ved indførelsen af de rådgivende stænderforsamlinger i 1834 fik øernes forsamling sæde i Palæet i Roskilde.</cell></row><row xml:id="txtcmnt-408-04"><cell type="data-term">noget Morsomt af <hi rend="italic">Holbergs</hi> Comedier</cell><cell type="data-definition">hentydning til Jacobs replik i anden akt, 5. scene, af <hi rend="italic">Erasmus Montanus eller Rasmus Berg. Comoedie udi Fem Acter</hi>, 1731, om bondestudenten Rasmus, der er så lærd, at han ikke mærker, at det regner.</cell></row><row xml:id="txtcmnt-408-05"><cell type="data-term"><hi rend="italic">Valdemar</hi> og <hi rend="italic">Absalon</hi></cell><cell type="data-definition">Valdemar den Store og Absalon (ca. 1128-1201) voksede op som fostbrødre i Fjenneslev ved Sorø.</cell></row><row xml:id="txtcmnt-408-06"><cell type="data-term">koax</cell><cell type="data-definition">imitation af frøers kvækken; hentydning til Aristofanes’ komedie <hi rend="italic">Frøerne</hi>, v. 209 ff.</cell></row><row xml:id="txtcmnt-408-07"><cell type="data-term">ligesom en Flaske</cell><cell type="data-definition">digteren Carl Baggers (1807-1846) beskrivelse af Sorø i et brev til H.C. Andersen fra 31. oktober 1827: »O Jammer, o Rædsel, i sit eet og tyvende Flammeaar, med alle sine høitflyvende Længsler og <pb n="532"/>Planer, som <hi rend="italic">figura</hi> udviser, levende at nedputtes i en veltiltoldet Tranflaske« (<hi rend="italic">Breve til Hans Christian Andersen</hi>, Udgivne af C. St .A. Bille og Nikolaj Bøgh, 1877, s. 597). Der fandtes på dette tidspunkt kun én vej ind og ud af Sorø.</cell></row><row xml:id="txtcmnt-408-08"><cell type="data-term">Maller</cell><cell type="data-definition">store ferskvandsfisk, levede bl.a. i Sorø Sø, hvor det sidste eksemplar blev fanget i 1799.</cell></row><row xml:id="txtcmnt-408-09"><cell type="data-term">friske rødmossede Drenge</cell><cell type="data-definition">eleverne ved Sorø Akademi.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

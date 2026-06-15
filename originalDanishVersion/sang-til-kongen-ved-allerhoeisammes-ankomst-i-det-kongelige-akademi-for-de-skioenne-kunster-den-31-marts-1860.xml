@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang til Kongen, ved allerhøisammes Ankomst i det kongelige Akademi for de skiønne Kunster den 31. Marts 1860</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-til-kongen-ved-allerhoeisammes-ankomst-i-det-kongelige-akademi-for-de-skioenne-kunster-den-31-marts-1860" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>I Kunstens Hal vi træde ind</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00809</section>
+                                                                 <date>1860</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang til Kongen, ved allerhøisammes Ankomst i det kongelige Akademi for de skiønne Kunster den 31. Marts 1860" xml:id="sang-til-kongen-ved-allerhoeisammes-ankomst-i-det-kongelige-akademi-for-de-skioenne-kunster-den-31-marts-1860"><pb n="324"/><head type="part">Sang til <seg target="txtcmnt-324-01"><!--DATA-TERM: Kongen--><!--DATA-DEFINITION: kong Frederik 7.-->Kongen</seg>, ved allerhøisammes Ankomst i det kongelige Akademi for de skiønne Kunster den <seg target="txtcmnt-324-02"><!--DATA-TERM: 31. Marts 1860--><!--DATA-DEFINITION: af H.C. Andersens almanak for denne dato fremgår det: »Indbudt af Kunstacademien at overvære Uddelingen af Præmierne, fik Plads ved Siden af Prindsen af Danmark, Kongen nikkede venligt hen til mig. Der blev sjunget min »Sang for de danske Kunstenere« [jf. BFN 809; se side 325] og min »Sang til Kongen«.-->31. Marts 1860</seg></head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-324-03"><!--DATA-TERM: Ung Adelsteen … etc.--><!--DATA-DEFINITION: sang fra T. Thaarups syngespil <i>Peters Bryllup</i>, 1793, med musik af J.A.P. Schulz; opført første gang på Det Kgl. Teater samme år.-->Ung Adelsteen paa Thinge stod etc.</seg></hi></head>
+<lg xml:id="p_00810">
+<l rend="noIndent" subtype="firstline" corresp="I Kunstens Hal vi træde ind" rendition="i-kunstens-hal-vi-traede-ind">I Kunstens Hal vi træde ind</l>
+<l rend="noIndent">Med Andagt, som var det i Kirken!</l>
+<l rend="noIndent">Du, Konge! kongelig i Sind,</l>
+<l rend="noIndent">Beskytter, hiertevarm, vor Virken!</l>
+<l rend="noIndent">Saa dansk, saa ligefrem, saa tro!</l>
+<l rend="noIndent">Med Dig i Kjærlighed vi groe!</l>
+</lg>
+<lg xml:id="p_00811">
+<l rend="noIndent">Gid Du, o Konge! frydes maa</l>
+<l rend="noIndent">Ved, at fra Kunstens danske Ager</l>
+<l rend="noIndent"><seg target="txtcmnt-324-04"><!--DATA-TERM: Guldhorn--><!--DATA-DEFINITION: hentydning til Oehlenschlägers romance »Guldhornene«, <i>Digte</i>, 1803, om fundet og tyveriet af de to guldhorn, hvor guldhornene symboliserer de åndelige dimensioner.-->Guldhorn</seg>, med Aandens Indskrift paa,</l>
+<l rend="noIndent">Man frem til Verdens Undren drager.</l>
+<l rend="noIndent">Ved hvert, der lyser frem i Pragt,</l>
+<l rend="noIndent">Er Glands og Magt til Danmark lagt!</l>
+</lg>
+<lg xml:id="p_00812">
+<l rend="noIndent">I Kunsten Sundhed, Kraft og Glød!</l>
+<l rend="noIndent">Den løftes til et <seg target="txtcmnt-324-05"><!--DATA-TERM: Dannevirke--><!--DATA-DEFINITION: fæstningsanlæg i Slesvig, hvis ældste dele stammer fra 650; udbygget i flere omgange. Det mistede sin militære betydning i 1300-tallet, men blev et nationalt symbol under Treårskrigen, 1848-1850.--><hi rend="italic">Dannevirke!</hi></seg></l>
+<l rend="noIndent">Gid Seirens Rose, frisk og rød,</l>
+<l rend="noIndent">Fra Kunstens høitidsfulde Kirke</l>
+<l rend="noIndent">Udfolde for Dig Blad ved Blad,</l>
+<l rend="noIndent">Og giøre <hi rend="italic">Dig</hi> og <hi rend="italic">Danmark</hi> glad!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang til Kongen, ved allerhøisammes Ankomst i det kongelige Akademi for de skiønne Kunster den 31. Marts 1860" synch="sang-til-kongen-ved-allerhoeisammes-ankomst-i-det-kongelige-akademi-for-de-skioenne-kunster-den-31-marts-1860">
+<head type="section-comments">Sang til Kongen, ved allerhøisammes Ankomst i det kongelige Akademi for de skiønne Kunster den 31. Marts 1860</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 808</p>
+<table rend="textcomments">
+<cell type="page">324</cell><cell><row xml:id="txtcmnt-324-01"><cell type="data-term">Kongen</cell><cell type="data-definition">kong Frederik 7.</cell></row><row xml:id="txtcmnt-324-02"><cell type="data-term">31. Marts 1860</cell><cell type="data-definition">af H.C. Andersens almanak for denne dato fremgår det: »Indbudt af Kunstacademien at overvære Uddelingen af Præmierne, fik Plads ved Siden af Prindsen af Danmark, Kongen nikkede venligt hen til mig. Der blev sjunget min »Sang for de danske Kunstenere« [jf. BFN 809; se side 325] og min »Sang til Kongen«.</cell></row><row xml:id="txtcmnt-324-03"><cell type="data-term">Ung Adelsteen … etc.</cell><cell type="data-definition">sang fra T. Thaarups syngespil <hi rend="italic">Peters Bryllup</hi>, 1793, med musik af J.A.P. Schulz; opført første gang på Det Kgl. Teater samme år.</cell></row><row xml:id="txtcmnt-324-04"><cell type="data-term">Guldhorn</cell><cell type="data-definition">hentydning til Oehlenschlägers romance »Guldhornene«, <hi rend="italic">Digte</hi>, 1803, om fundet og tyveriet af de to guldhorn, hvor guldhornene symboliserer de åndelige dimensioner.</cell></row><row xml:id="txtcmnt-324-05"><cell type="data-term">Dannevirke</cell><cell type="data-definition">fæstningsanlæg i Slesvig, hvis ældste dele stammer fra 650; udbygget i flere omgange. Det mistede sin militære betydning i 1300-tallet, men blev et nationalt symbol under Treårskrigen, 1848-1850.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

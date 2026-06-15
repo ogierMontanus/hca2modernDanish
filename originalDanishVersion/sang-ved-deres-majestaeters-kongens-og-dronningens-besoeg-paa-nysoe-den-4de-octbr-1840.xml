@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang ved Deres Majestæters Kongens og Dronningens Besøg paa Nysø, den 4de Octbr. 1840</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-ved-deres-majestaeters-kongens-og-dronningens-besoeg-paa-nysoe-den-4de-octbr-1840" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Fra gammel Tid stod her i Nysø Have</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00048</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang ved Deres Majestæters Kongens og Dronningens Besøg paa Nysø, den 4de Octbr. 1840" xml:id="sang-ved-deres-majestaeters-kongens-og-dronningens-besoeg-paa-nysoe-den-4de-octbr-1840"><pb n="32"/><head type="part">Sang ved Deres Majestæters <seg target="txtcmnt-032-01"><!--DATA-TERM: Kongen(s) og Dronningen(s)--><!--DATA-DEFINITION: kong Christian 8. og dronning Caroline Amalie.--><hi rend="italic">Kongens og Dronningens</hi></seg> Besøg paa <seg target="txtcmnt-032-02"><!--DATA-TERM: Nysø--><!--DATA-DEFINITION: hovedgård og gods fra 1670 ved Præstø, som på H.C. Andersens tid var ejet af baron Hendrik Stampe.-->Nysø</seg>, den 4de Octbr. 1840</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-032-03"><!--DATA-TERM: Hr. Peder kasted’ Runer over Spange--><!--DATA-DEFINITION: sang fra H. Hertz’ tragedie <i>Svend Dyrings Huus</i>, I,8, 1837, med musik af H. Rung.-->Hr. Peder kasted’ Runer over Spange.</seg></hi></head>
+<lg xml:id="p_00049">
+<l rend="noIndent" subtype="firstline" corresp="Fra gammel Tid stod her i Nysø Have" rendition="fra-gammel-tid-stod-her-i-nysoe-have">Fra gammel Tid stod her i Nysø Have</l>
+<l rend="noIndent">En Hyldebusk, tæt ved de dybe Grave;</l>
+<l rend="firstIndent">Ved Maanskin Alfers <seg target="txtcmnt-032-04"><!--DATA-TERM: Konning--><!--DATA-DEFINITION: konge.-->Konning</seg></l>
+<l rend="firstIndent">Der Alfedandsen saae,</l>
+<l rend="firstIndent">Han talte til sin Dronning:</l>
+<l rend="firstIndent">»Vi Stedet hædre maa!</l>
+<l rend="noIndent">Denne Plads et Storheds Navn skal vinde,</l>
+<l rend="noIndent">Og i Tiden Fyrste og Fyrstinde</l>
+<l rend="firstIndent">Gjæste den!«</l>
+</lg>
+<lg xml:id="p_00050">
+<l rend="noIndent">Hvad sjælden Blomst skal der paa Stedet trives?</l>
+<l rend="noIndent">Det <seg target="txtcmnt-032-05"><!--DATA-TERM: (døde) Leer--><!--DATA-DEFINITION: legeme.-->døde Leer</seg> og Stenen vil oplives!</l>
+<l rend="firstIndent">– See, <seg target="txtcmnt-032-06"><!--DATA-TERM: Snillets--><!--DATA-DEFINITION: geniets; her billedhuggeren Thorvaldsen, som efter sin hjemkomst fra Italien 1838 indtil sin død 1844 ofte boede på Nysø, hvor han fik indrettet et atelier.-->Snillets</seg> Værker skjønne</l>
+<l rend="firstIndent">Hvor før kun Hylden var;</l>
+<l rend="firstIndent">Og under Hækkens Grønne</l>
+<l rend="firstIndent">Staaer Landets Fyrste-Par!</l>
+<l rend="noIndent">Kunstens Ven med Hjerte og med <seg target="txtcmnt-032-07"><!--DATA-TERM: Snille--><!--DATA-DEFINITION: klogskab, færdighed.-->Snille</seg>,</l>
+<l rend="noIndent">Mildt Du gjæsted’ denne Plads, den lille,</l>
+<l rend="firstIndent">Havens Pryd!</l>
+</lg>
+<lg xml:id="p_00051">
+<l rend="noIndent">O Dronning! som Du smiler ved hans Side,</l>
+<l rend="noIndent">Staaer Kunstens <seg target="txtcmnt-032-08"><!--DATA-TERM: Musa--><!--DATA-DEFINITION: muse; i græsk mytologi er de ni muser skytsgudinder for kunst og videnskab, døtre af Zeus og Mnemosyne.-->Musa</seg>! hendes Ord Du vide:</l>
+<l rend="firstIndent">»En <seg target="txtcmnt-032-09"><!--DATA-TERM: Funke--><!--DATA-DEFINITION: gnist.-->Funke</seg> fra Guds Øie,</l>
+<l rend="firstIndent">Er Kunsten her paa Jord,</l>
+<l rend="firstIndent">Den luttrer for det Høie,</l>
+<l rend="firstIndent">Som Skriftens rene Ord!«</l>
+<l rend="noIndent">Konge Par! som skatte kan hvert Snille,</l>
+<l rend="noIndent">Eders Navne <seg target="txtcmnt-032-10"><!--DATA-TERM: Secler--><!--DATA-DEFINITION: sekler; århundreder.-->Secler</seg> nævne ville</l>
+<l rend="firstIndent">Kunsten kjær!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang ved Deres Majestæters Kongens og Dronningens Besøg paa Nysø, den 4de Octbr. 1840" synch="sang-ved-deres-majestaeters-kongens-og-dronningens-besoeg-paa-nysoe-den-4de-octbr-1840">
+<head type="section-comments">Sang ved Deres Majestæters <hi rend="italic">Kongens og Dronningens</hi> Besøg paa Nysø, den 4de Octbr. 1840</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Portefeuillen for 1840</hi>, bind 4, 41. hæfte, 11. oktober 1840. BFN 388</p>
+<table rend="textcomments">
+<cell type="page">32</cell><cell><row xml:id="txtcmnt-032-01"><cell type="data-term">Kongen(s) og Dronningen(s)</cell><cell type="data-definition">kong Christian 8. og dronning Caroline Amalie.</cell></row><row xml:id="txtcmnt-032-02"><cell type="data-term">Nysø</cell><cell type="data-definition">hovedgård og gods fra 1670 ved Præstø, som på H.C. Andersens tid var ejet af baron Hendrik Stampe.</cell></row><row xml:id="txtcmnt-032-03"><cell type="data-term">Hr. Peder kasted’ Runer over Spange</cell><cell type="data-definition">sang fra H. Hertz’ tragedie <hi rend="italic">Svend Dyrings Huus</hi>, I,8, 1837, med musik af H. Rung.</cell></row><row xml:id="txtcmnt-032-04"><cell type="data-term">Konning</cell><cell type="data-definition">konge.</cell></row><row xml:id="txtcmnt-032-05"><cell type="data-term">(døde) Leer</cell><cell type="data-definition">legeme.</cell></row><row xml:id="txtcmnt-032-06"><cell type="data-term">Snillets</cell><cell type="data-definition">geniets; her bil<pb n="554"/>ledhuggeren Thorvaldsen, som efter sin hjemkomst fra Italien 1838 indtil sin død 1844 ofte boede på Nysø, hvor han fik indrettet et atelier.</cell></row><row xml:id="txtcmnt-032-07"><cell type="data-term">Snille</cell><cell type="data-definition">klogskab, færdighed.</cell></row><row xml:id="txtcmnt-032-08"><cell type="data-term">Musa</cell><cell type="data-definition">muse; i græsk mytologi er de ni muser skytsgudinder for kunst og videnskab, døtre af Zeus og Mnemosyne.</cell></row><row xml:id="txtcmnt-032-09"><cell type="data-term">Funke</cell><cell type="data-definition">gnist.</cell></row><row xml:id="txtcmnt-032-10"><cell type="data-term">Secler</cell><cell type="data-definition">sekler; århundreder.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

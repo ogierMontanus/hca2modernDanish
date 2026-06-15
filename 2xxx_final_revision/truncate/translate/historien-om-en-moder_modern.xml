@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Historien om en Moder</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Story of a Mother« i A Christmas Greeting to my English Friends, der udkom i december 1847. Trykt første gang på dansk i Nye Eventyr. Andet Bind. Anden Samling, som udkom den 4. marts 1848. BFN 533/II,160-164/VII,126-128.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="historien-om-en-moder"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="historien-om-en-moder">
+<pb n="443"/><head type="main">Historien om en mor</head>
+
+<p rend="noIndent" xml:id="p_00001">Der sad en mor hos sit lille barn, hun var så bedrøvet, så bange for at det skulle dø. Det var så blegt, de små øjne havde lukket sig, det trak så sagte vejret og imellem med et dybt drag ligesom om det sukkede. Og moren så endnu mere <!--DATA-TERM: sorrigfuld--><!--DATA-DEFINITION: sorgfuld.-->sorgfuld på den lille sjæl.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Da bankede det på døren, og der kom en fattig, gammel mand svøbt ligesom i et stort hestedækken, for det varmer, og det trængte han til, det var jo kold vinter; alting udenfor lå med is og sne, og vinden blæste så at det skar i ansigtet.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Og da den gamle mand rystede af kulde, og det lille barn sov et øjeblik, gik moren hen og satte øl i en lille potte ind i kakkelovnen at det kunne varmes til ham. Og den gamle mand sad og vuggede, og moren satte sig på stolen tæt ved ham, så på sit syge barn der trak så dybt vejret og løftede den lille hånd.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Tror du ikke nok at jeg beholder ham?« sagde hun, »Vorherre vil ikke tage ham fra mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Og den gamle mand, det var Døden selv, han nikkede så underligt, det kunne lige så godt betyde ja som nej. Og moren så ned i sit skød, og tårerne løb hende over kinderne. Hendes hoved blev så tungt, i tre nætter og dage havde hun ikke lukket sit øje, og nu sov hun, men kun et øjeblik, så fór hun op og rystede af kulde: »Hvad er det?« sagde hun og så til alle sider, men den gamle mand var borte, og hendes lille barn var borte, han havde taget det med sig. Og henne i krogen snurrede og snurrede det gamle ur, det store blylod løb lige ned til gulvet, bum! Og så stod også uret stille.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Men den stakkels mor løb ud af huset og råbte på sit barn.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Derude, midt i sneen, sad en kone i lange, sorte klæder, og hun sagde: »Døden har været inde i din stue, jeg så han skyndte sig bort med dit lille barn. Han går stærkere til end vinden, han bringer aldrig tilbage hvad han tog!«</p>
+
+<pb n="444"/><p rend="firstIndent" xml:id="p_00008">»Sig mig blot hvad vej han gik!« sagde moren, »sig mig vejen, og jeg skal finde ham!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Jeg ved den!« sagde konen i de sorte klæder, »men før jeg siger den, må du først synge for mig alle de viser du har sunget for dit barn. Jeg holder af dem, jeg har hørt dem før, jeg er Natten, jeg så dine tårer mens du sang dem!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Jeg vil synge dem alle, alle!« sagde moren, »men stands mig ikke at jeg kan nå ham, at jeg kan finde mit barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">Men natten sad stum og stille. Da vred moren sine hænder, sang og græd, og der var mange viser, men endnu flere tårer, og så sagde Natten: »Gå til højre, ind i den mørke granskov, der så jeg Døden tage vej med dit lille barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Dybt inde i skoven krydsede vejene sig, og hun vidste ikke længere hvor hun skulle gå. Da stod der en tornebusk, der var hverken blad eller blomst på den, det var jo også i den kolde vintertid, og der hang isslag på grenene.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Har du ikke set Døden gå forbi med mit lille barn?«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jo!« sagde tornebusken, »men jeg siger dig ikke hvilken vej han tog uden at du først vil varme mig op ved dit hjerte. Jeg fryser ihjel, jeg bliver til bare is!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og hun trykkede tornebusken til sit bryst, så fast for at den ret kunne opvarmes, og tornene gik lige ind i hendes kød, og hendes blod flød i store dråber, men tornebusken skød friske grønne blade, og der kom blomster på i den kolde vinternat, så varmt var der ved en bedrøvet mors hjerte, og tornebusken sagde hende vejen som hun skulle gå.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Da kom hun til en stor sø hvor der hverken var skib eller båd. Søen var ikke frosset nok til at den kunne bære hende, og heller ikke åben og lav nok til at hun kunne vade igennem, og over den måtte hun ville hun finde sit barn. Så lagde hun sig ned for at drikke søen ud, og det var jo umuligt for et menneske, men den bedrøvede mor tænkte at der dog kunne ske et mirakel.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Nej, det går aldrig!« sagde søen, »lad os to heller se at blive enige! Jeg holder af at samle på perler, og dine øjne er de to klareste jeg har set. Vil du græde dem ud til mig, så skal jeg bære dig over til det store drivhus hvor Døden bor og passer blomster og træer; hver af dem er et menneskeliv.«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»O, hvad giver jeg ikke for at komme til mit barn!« sagde den forgrædte mor, og hun græd endnu mere, og hendes øjne sank ned på havets bund og blev to kostbare perler, men <pb n="445"/>søen løftede hende som om hun sad i en gynge, og hun fløj i én svingning til kysten på den anden side hvor der stod et milebredt, underligt hus. Man vidste ikke om det var et bjerg med skov og huler, eller om det var tømret op, men den stakkels mor kunne ikke se det, hun havde jo grædt sine øjne ud.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Hvor skal jeg finde Døden som gik med mit lille barn?« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Her er han ikke kommet endnu!« sagde den gamle gravkone som gik og skulle passe på Dødens store drivhus. »Hvor har du kunnet finde herhen, og hvem har hjulpet dig?«</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Vorherre har hjulpet mig,« sagde hun, »han er barmhjertig, og det vil du også være. Hvor skal jeg finde mit lille barn?«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Ja, jeg kender det ikke,« sagde konen, »og du kan jo ikke se! Mange blomster og træer er visnet i nat, Døden vil snart komme og plante dem om. Du ved vel at hvert menneske har sit livstræ eller sin blomst således som nu enhver er indrettet. De ser ud som andre vækster, men de har hjerteslag; barnehjerte kan også banke! Gå efter det, måske kan du kende dit barns. Men hvad giver du mig for at sige dig hvad du mere skal gøre?«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Jeg har ikke noget at give,« sagde den bedrøvede mor, »men jeg vil gå for dig til verdens ende!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Ja, der har jeg ikke noget at gøre!« sagde konen, »men du kan give mig dit lange sorte hår, du ved nok selv det er kønt, og det kan jeg lide! Du skal få mit hvide igen, det er altid noget!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Forlanger du ikke andet?« sagde hun, »det giver jeg dig med glæde!« Og hun gav hende sit smukke hår og fik den gamles snehvide igen.</p>
+
+<p rend="firstIndent" xml:id="p_00026">Og så gik de ind i Dødens store drivhus hvor blomster og træer voksede underligt imellem hverandre. Der stod fine hyacinter under glasklokker, og der stod store bomstærke <seg target="txtcmnt-445-01"><!--DATA-TERM: Pioner--><!--DATA-DEFINITION: pæoner, bonderoser.-->pæoner</seg>; der voksede vandplanter, nogle så friske, andre halvsyge, vandsnogene lagde sig på dem, og sorte krebs klemte dem om stilken. Der stod dejlige palmetræer, ege og plataner, der stod <!--DATA-TERM: Petersillie--><!--DATA-DEFINITION: persille.-->persille og blomstrende timian. Hvert træ og hver blomst havde sit navn, de var hver et menneskeliv, mennesket levede endnu, en i Kina, en i Grønland, rundt omkring i verden. Der var store træer i små potter så at de stod så <seg target="txtcmnt-445-03"><!--DATA-TERM: forkuede--><!--DATA-DEFINITION: klemte.-->forkuede</seg> og var færdige ved at sprænge potten. Der var også mange steder en lille, kedelig blomst i fed jord med mos rundt om og <seg target="txtcmnt-445-04"><!--DATA-TERM: dægget--><!--DATA-DEFINITION: omhyggelig plejet, kælet for.-->dægget</seg> og plejet. Men den bedrøvede mor <pb n="446"/>bøjede sig over alle de mindste planter og hørte inden i dem hvor menneskehjertet bankede, og imellem millioner <seg target="txtcmnt-446-01"><!--DATA-TERM: kjendte--><!--DATA-DEFINITION: genkendte.-->kendte</seg> hun sit barns.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Der er det!« råbte hun og strakte hånden ud over en lille blå krokus som hang ganske syg til den ene side.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Rør ikke ved blomsten!« sagde den gamle kone, »men stil dig her, og når så Døden kommer, jeg venter ham før jeg ved det, lad ham da ikke rykke planten op, og tru du med at du vil gøre det med de andre blomster, så bliver han bange! Han skal <seg target="txtcmnt-446-02"><!--DATA-TERM: svare … til--><!--DATA-DEFINITION: svare for, stå til ansvar for.-->svare Vorherre til</seg> dem, ingen <seg target="txtcmnt-446-03"><!--DATA-TERM: tør--><!--DATA-DEFINITION: må, har lov til.-->tør</seg> rykkes op før han giver lov.«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Med ét susede det iskoldt igennem salen, og den blinde mor kunne mærke at det var Døden der kom.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hvor har du kunnet finde vej herhen?« spurgte han, »hvor kunne du komme hurtigere end jeg?«</p>
+<p rend="firstIndent" xml:id="p_00031">»Jeg er en mor,« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Og Døden strakte sin lange hånd hen imod den lille fine blomst, men hun holdt sine hænder fast om den, så tæt og dog bange for at hun skulle røre ved et af bladene. Da blæste Døden på hendes hænder, og hun følte at det var koldere end den kolde vind, og hendes hænder faldt matte ned.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Du kan dog ikke gøre noget imod mig!« sagde Døden.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Men det kan Vorherre!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Jeg gør kun hvad han vil!« sagde Døden. »Jeg er hans <seg target="txtcmnt-446-04"><!--DATA-TERM: Urtegaardsmand--><!--DATA-DEFINITION: gartner.-->urtegårdsmand</seg>! Jeg tager alle hans blomster og træer og planter dem ud i den store Paradisets Have i det ubekendte land, men hvorledes de der gror, og hvorledes der er, tør jeg ikke sige dig.«</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Giv mig mit barn tilbage!« sagde moren og græd og bad. Med ét greb hun med hver hånd om to smukke blomster tæt ved og råbte til Døden: »Jeg river alle dine blomster af, for jeg er i fortvivlelse!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Rør dem ikke!« sagde Døden. »Du siger at du er så ulykkelig, og nu vil du gøre en anden mor lige så ulykkelig!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»En anden mor!« sagde den stakkels kone og slap straks begge blomsterne.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Der har du dine øjne,« sagde Døden, »jeg har fisket dem op af søen, de skinnede så stærkt; jeg vidste ikke at det var dine. Tag dem igen, de er nu klarere end før, se så ned i den dybe brønd tæt ved, jeg skal nævne navnene på de to blomster du ville rive op, og du ser deres hele fremtid, deres hele menneskeliv, ser hvad du ville forstyrre og ødelægge!«</p>
+
+<pb n="447"/>
+
+<pb n="448"/><p rend="firstIndent" xml:id="p_00040">Og hun så ned i brønden, og det var en lyksalighed at se hvor den ene blev en velsignelse for verden, se hvor megen lykke og glæde der udfoldede sig rundt om. Og hun så den andens liv, og det var sorg og nød, rædsel og elendighed.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Begge dele er Guds vilje!« sagde Døden.</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Hvilken af dem er ulykkens blomst, og hvilken er velsignelsens?« spurgte hun.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Det siger jeg dig ikke,« sagde Døden, »men det skal du vide af mig at den ene blomst var dit eget barns, det var dit barns skæbne du så, dit eget barns fremtid!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">Da skreg moren af skræk: »Hvilken af dem var mit barn? Sig mig det! Frels den uskyldige! Frels mit barn fra al den elendighed! Bær det heller bort! Bær det ind i Guds rige! Glem mine tårer, glem mine bønner og alt hvad jeg har sagt og gjort!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Jeg forstår dig ikke!« sagde Døden. »Vil du have dit barn tilbage, eller skal jeg gå med det derind hvor du ikke ved?«</p>
+
+<p rend="firstIndent" xml:id="p_00046">Da vred moren sine hænder, faldt på sine knæ og bad til Vorherre: »Hør mig ikke hvor jeg beder imod din vilje som er den bedste! Hør mig ikke! Hør mig ikke!«</p>
+<p rend="firstIndent" xml:id="p_00047">Og hun bøjede sit hoved ned i sit skød.</p>
+
+<p rend="firstIndent" xml:id="p_00048">Og Døden gik med hendes barn ind i det ubekendte land.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="historien-om-en-moder">
+<head type="section-comments">Historien om en Moder</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Story of a Mother« i A Christmas Greting to my English Friends, der udkom i december 1847. Trykt første gang på dansk i Nye Eventyr. Andet Bind. Anden Samling, som udkom den 4. marts 1848. BFN 533/II,160-164/VII,126-128.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">444,3</cell><cell type="deviation">Klæder, »men &lt; Klæder,« men</cell></row>
+<row><cell type="position">444,6</cell><cell type="deviation">dem!« &lt; dem!</cell></row>
+<row><cell type="position">445,21</cell><cell type="deviation">Moder, »men &lt; Moder,« men</cell></row>
+<row><cell type="position">445,40</cell><cell type="deviation">Potten, &lt; Potten</cell></row>
+<row><cell type="position">446,14</cell><cell type="deviation">spurgte &lt; Spurgte</cell></row>
+<row><cell type="position">446,24</cell><cell type="deviation">Døden. &lt; Døden</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">443</cell><row xml:id="txtcmnt-443-01"><cell type="data-term">sorrigfuld</cell><cell type="data-definition">sorgfuld.</cell></row>
+<cell type="page">445</cell><row xml:id="txtcmnt-445-01"><cell type="data-term">Pioner</cell><cell type="data-definition">pæoner, bonderoser.</cell></row><row xml:id="txtcmnt-445-02"><cell type="data-term">Petersillie</cell><cell type="data-definition">persille.</cell></row><row xml:id="txtcmnt-445-03"><cell type="data-term">forkuede</cell><cell type="data-definition">klemte.</cell></row><row xml:id="txtcmnt-445-04"><cell type="data-term">dægget</cell><cell type="data-definition">omhyggelig plejet, kælet for.</cell></row>
+<cell type="page">446</cell><row xml:id="txtcmnt-446-01"><cell type="data-term">kjendte</cell><cell type="data-definition">genkendte.</cell></row><row xml:id="txtcmnt-446-02"><cell type="data-term">svare … til</cell><cell type="data-definition">svare for, stå til ansvar for.</cell></row><row xml:id="txtcmnt-446-03"><cell type="data-term">tør</cell><cell type="data-definition">må, har lov til.</cell></row><row xml:id="txtcmnt-446-04"><cell type="data-term">Urtegårdsmand</cell><cell type="data-definition">gartner.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

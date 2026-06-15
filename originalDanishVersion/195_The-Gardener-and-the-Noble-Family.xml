@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Gardener and the Noble Family</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="gartneren-og-herskabet">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="gartneren-og-herskabet_modern.xml">moderniseret version</note>
+                                                       <note target="195_The-Gardener-and-the-Noble-Family.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A dozen or so miles from the capital there stood an old manor house, with thick ...</incipit><idno type="image">Gartneren_og_Herskabet_hca_ill_0160.png</idno><popularity>936</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Gardener and the Noble Family. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term><term>steder</term><term>livsforloeb</term><term>barnelogik</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-03" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-03" who="NHB">formatted</change><change who="NHB" when="2022-11-03">added one set of italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Gardener and the Noble Family">
+               <head type="main" rend="The Gardener and the Noble Family">The Gardener and the Noble Family</head>                <p rend="noIndent" xml:id="p_00001">A dozen or so miles from the capital there stood an old manor house, with thick walls, towers and crenelated gables.</p>
+               <p rend="firstIndent" xml:id="p_00002">Here, although only during the summer months, there lived a rich, highly aristocratic family; this manor was the finest and handsomest of all those the family owned; its exterior was as if it had just been cast, and inside it was both cosy and comfortable. The family coat of arms had been carved in stone above the gateway, lovely roses twined around the coat of arms and the oriel, a great lawn spread out in front of the manor; there was red hawthorn and white hawthorn, there were rare flowers, even outside the greenhouse.</p>
+               <p rend="firstIndent" xml:id="p_00003">The family also had a highly capable gardener; it was a pleasure to see the flower garden, the orchard and the vegetable garden. Adjoining this was still the remainder of the manor’s original old garden: some boxwood hedges, trimmed so as to form crowns and pyramids. Behind these stood two colossal old trees; they were almost leafless, and one could easily believe that a gale or a waterspout had covered them with large lumps of muck, although each lump was a bird’s nest.</p>
+               <p rend="firstIndent" xml:id="p_00004">Here, from time immemorial, screeching rooks and crows used to build their nests: there was a whole colony of them, and the birds were in fact the nobility, the property-owners, the country estate’s oldest family, the real gentry at the manor. None of the humans down below were any concern of theirs, although they tolerated those lower creatures, despite the fact that they occasionally fired off guns, so that the birds’ backbones shuddered, and every bird shot into the air in fright and screeched: ‘Caw! Caw!’</p>
+               <p rend="firstIndent" xml:id="p_00005">The gardener often spoke to his noble family about having the old trees felled, they were a sorry sight, and if they were cut down, one would probably be free of all the screeching birds, they would look for somewhere else to live. But the family did not want to get rid of either the trees or the teeming birds, they were something the manor could not do without, they were part of former times, and they should not be completely done away with.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Those trees happen to be the birds’ inheritance, let them retain it, <hi rend="italic">Larsen</hi>, my good man!’</p>
+               <p rend="firstIndent" xml:id="p_00007">The gardener’s name was <hi rend="italic">Larsen</hi>, but that is of little significance here.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Do you not, <hi rend="italic">Larsen</hi>, have enough space at your disposal? the entire flower garden, the greenhouses, the orchard and the vegetable garden?’</p>
+               <p rend="firstIndent" xml:id="p_00009">Yes, he had those, he tended, cultivated and took care of them with great diligence and proficiency, and this was recognised by the family, but they did not conceal from him that when with strangers they often ate fruit and saw flowers that surpassed anything they had in their own garden, and this grieved the gardener, for he only wanted the best and did his best. He was good-hearted, good at his job.</p>
+               <p rend="firstIndent" xml:id="p_00010">One day the family called him in and said, in a tone both mild and superior, that the previous day when at the home of distinguished friends they had been served species of apples and pears so juicy and noble-flavoured that they and all the other guests had expressed their admiration. The species of fruit were admittedly not from their own country, but they ought to be imported, become domestic fruit if our climate was suitable. They were known to have been purchased in the town at the best fruiterer’s, the gardener was to ride into town and find out where these apples and pears had come from and order some offshoots.</p>
+               <p rend="firstIndent" xml:id="p_00011">The gardener knew the fruiterer well, it was precisely to him that he, on behalf of the family, sold the surplus fruit from that which grew in the family garden.</p>
+               <p rend="firstIndent" xml:id="p_00012">And the gardener went into town and asked the fruiterer where he had obtained these highly praised apples and pears.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘They’re from your own garden!’ the fruiterer said and showed him both the apples and pears, which he recognised.</p>
+               <p rend="firstIndent" xml:id="p_00014">Well, how glad he was, the gardener; he hurried back to the family and told them that both the apples and the pears were from their own garden.</p>
+               <p rend="firstIndent" xml:id="p_00015">The family simply couldn’t believe it. ‘It’s not possible, <hi rend="italic">Larsen</hi>! Can you get a written assurance from the fruiterer?’</p>
+               <p rend="firstIndent" xml:id="p_00016">And he could, he brought them a written guarantee.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘That really is strange!’ the family said.</p>
+               <p rend="firstIndent" xml:id="p_00018">Now every day large bowls of these magnificent apples and pears from their own garden were placed on the family table; they were sent by the bushel and the barrel to friends in and outside town, even abroad. It was an unalloyed pleasure! though they had to add that there had also been two remarkably good summers for fruit trees, with good crops everywhere in the country.</p>
+               <p rend="firstIndent" xml:id="p_00019">Time passed; the family was invited to a dinner at court. The following day the gardener was called to the house. At the royal table they had been served melons so juicy, so fine-flavoured, from his majesty’s greenhouses.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘You must be off to the court gardener, my dear <hi rend="italic">Larsen</hi>, and get hold of some of the seeds from these priceless melons!’</p>
+               <p rend="firstIndent" xml:id="p_00021">‘But the court gardener got his seeds from us!’ the gardener said quite pleased.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘In that case, the man has found out how to bring the fruit to greater perfection!’ the family answered. ‘Each melon was excellent!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘Well, in that case I can be a proud man!’ the gardener said. ‘I am able to inform you that the palace gardener has had no luck with his melons this year, and when he saw how magnificent ours looked and tasted them, he ordered three of them to be sent to the palace.’</p>
+               <p rend="firstIndent" xml:id="p_00024">‘<hi rend="italic">Larsen</hi>! Don’t try to convince us that they were melons from our own garden!’</p>
+               <p rend="firstIndent" xml:id="p_00025">‘I certainly believe so!’ the gardener said, went to the palace gardener and got a written assurance from him that the melons on the royal table had come from the manor.</p>
+               <p rend="firstIndent" xml:id="p_00026">This was really a surprise for the noble family, and it did not keep quiet about the story, it showed people the attestation, indeed it even had melon seeds sent far and wide, as it had formerly with the offshoots.</p>
+               <p rend="firstIndent" xml:id="p_00027">Information was subsequently received that the offshoots took, bore fruit, quite excellently, and it was named after the family manor, so that their name could now be read in English, German and French.</p>
+               <p rend="firstIndent" xml:id="p_00028">They had never imagined this would ever happen.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘As long as the gardener doesn’t get too big for his boots!’ the family said.</p>
+               <p rend="firstIndent" xml:id="p_00030">He took things differently: what he now desired was to uphold his name as one of the country’s best gardeners, to try each year to make something exceptional of every species in the garden, which he did; but he often had to hear that the very first, the apples and pears, had really been the best, that all later species were far inferior. The melons had admittedly been very good, but that was of course something completely different; the strawberries could be called excellent, but no better than those other noble families had, and when the radishes failed one year, all that was talked about were the unfortunate radishes, and not about everything else that had been so good.</p>
+               <p rend="firstIndent" xml:id="p_00031">It was almost as if the noble family felt relieved when they could say:</p>
+               <p rend="firstIndent" xml:id="p_00032">‘It didn’t work out this year, <hi rend="italic">Larsen</hi>!’ They were rather pleased to be able to say. ‘it didn’t work out this year!’</p>
+               <p rend="firstIndent" xml:id="p_00033">A couple of times a week the gardener brought fresh flowers to the living room, and always arranged them with taste and flair; his composition seemed to bring out the colours more vividly.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘You have taste, <hi rend="italic">Larsen</hi>!’ the family said, ‘it is a gift you have received from God Almighty, not of your own doing!’</p>
+               <p rend="firstIndent" xml:id="p_00035">One day the gardener came with a large crystal-glass bowl in which there lay a water-lily leaf; across it, with its long, slender stem down in the water, a resplendent blue flower had been laid, the size of a sunflower.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘The Hindustani lotus!’ the family exclaimed.</p>
+               <p rend="firstIndent" xml:id="p_00037">They had never seen such a flower; and during the daytime it was placed in the sunlight and in the evening in reflected light. Everyone who saw it found it extraordinarily lovely and rare, yes, that was what even the noblest young lady in the land said, and she was a princess – a wise and good-hearted person.</p>
+               <p rend="firstIndent" xml:id="p_00038">The noble family took pride in presenting her with the flower, and it ended up at the palace with the princess.</p>
+               <p rend="firstIndent" xml:id="p_00039">Now the family went down into the garden to personally pick a flower of the same kind, if such a one was still there, but it could not be found. So they called the gardener to them and asked him where he had the blue lotus from:</p>
+               <p rend="firstIndent" xml:id="p_00040">‘We have searched in vain!’ they said. ‘We have been in the greenhouses and all round the flower garden!’</p>
+               <p rend="firstIndent" xml:id="p_00041">‘No, that’s not where you’ll find it exactly!’ the gardener said. ‘It is only a humble flower from the kitchen garden! but it’s so beautiful, isn’t it! it looks as if it was a blue cactus, and yet it’s only the flower on the artichoke!’</p>
+               <p rend="firstIndent" xml:id="p_00042">‘You should have told us that at once!’ the noble family said. ‘We assumed that it was an exotic, rare flower. You have disgraced us in the eyes of the young princess! she saw the flower when she was in our home, found it so beautiful, was unfamiliar with it, and she is quite knowledgeable when it comes to botany, though that knowledge has nothing to do with vegetables. How could you ever think of such a thing, my dear <hi rend="italic">Larsen</hi>, putting such a flower in the living room of all places. It makes us look ridiculous!’</p>
+               <p rend="firstIndent" xml:id="p_00043">And the magnificent, beautiful, blue flower that had been fetched from the kitchen garden was taken out of the manor living room, where it did not belong, and the family made an apology to the princess, and told her that the flower was only a kitchen plant that the gardener had got the idea of displaying, but that he had been given a severe reprimand for doing so.</p>
+               <p rend="firstIndent" xml:id="p_00044">‘That is a shame and an injustice!’ the princess said. ‘For he has opened our eyes to a magnificent flower we had quite simply not noticed, he has shown us something delightful where we had not even thought of looking for it! The palace gardener, every day for as long as the artichoke is in flower, is to bring one up to my drawing room!’</p>
+               <p rend="firstIndent" xml:id="p_00045">Which is what happened.</p>
+               <p rend="firstIndent" xml:id="p_00046">The noble family told the gardener that he could once more bring them a fresh artichoke flower.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘It is quite beautiful when it comes to it!’ they said, ‘extremely remarkable!’ and the gardener received praise.</p>
+               <p rend="firstIndent" xml:id="p_00048">‘<hi rend="italic">Larsen</hi> likes that!’ the family said. ‘He is a spoilt child!’</p>
+               <p rend="firstIndent" xml:id="p_00049">That autumn there was a terrible storm; it increased during the night and was so violent that many large trees on the edge of the wood were uprooted and, to the family’s great sorrow, sorrow was what they called it, but to the joy of the gardener, the two large trees with all the bird’s nests were blown down. The cries of rooks and crows could be heard in the storm, they beat their wings against the window panes, people at the manor said.</p>
+               <p rend="firstIndent" xml:id="p_00050">‘Now of course you are pleased, <hi rend="italic">Larsen</hi>!’ the noble family said; ‘the storm has felled the trees and the birds have sought refuge in the wood. There is nothing visible left of old times; every sign and every reminder is gone! This has greatly saddened us!’</p>
+               <p rend="firstIndent" xml:id="p_00051">The garden did not say anything, but he thought what he had been thinking for some time, that he would made good use of the marvellous sunlit area he had not formerly had at his disposal, it was to become the finest spot in the garden and bring joy to the fine family.</p>
+               <p rend="firstIndent" xml:id="p_00052">The large trees that had been blown down had squashed and smashed the ancient boxwood hedgerows, with all their trimmed shapes. Here he established a thicket of vegetation, native plants from field and wood.</p>
+               <p rend="firstIndent" xml:id="p_00053">What no other gardener had thought of planting in abundance within the grounds of an estate he placed here in the soil each required, and in the shadow and sunshine that each species needed. He tended them lovingly and they grew in splendour.</p>
+               <p rend="firstIndent" xml:id="p_00054">The juniper bush from the Jutland heaths rose up, like the cypress of Italy in form and colour; the gleaming prickly holly, always green, in winter cold and summer warmth, was a fair sight to see. In front of them grew ferns of many different varieties, some looked as if they were the children of a palm tree, and others as if they were the parents of the fine, lovely plant we call maidenhair. Here stood the disdained burdock, which is so beautiful in its freshness that it looks well in a bouquet. The burdock stood on the dry soil, but lower down, where it was moister, the dock grew, it too a disdained plant and yet, with its height and huge leaves, so picturesquely beautiful. Tall enough to be embraced, with flower on flower, like a mighty, many-armed candelabrum, soared the great mullein, taken in from the field. Here there stood woodruffs, primroses and woodland lilies-of-the-valley, the wild calla and the trefoil, fine wood sorrel. It was a fair sight to see.</p>
+               <p rend="firstIndent" xml:id="p_00055">In front, supported by lengths of steel wire, rows of quite small pear trees from French soil grew; they got sunshine and good care and soon bore large, juicy fruit, as in the country from which they came.</p>
+               <p rend="firstIndent" xml:id="p_00056">Instead of the two old, leafless trees, a tall flagpole was erected where the Danish flag fluttered, and nearby another pole where in summer and autumn the hopbine twined with its fragrant flower cones, but where in winter, as was an old custom, a sheaf of oats was hung up, so that the birds of the air could have a meal at joyous Christmastide.</p>
+               <p rend="firstIndent" xml:id="p_00057">‘<hi rend="italic">Larsen</hi>, the good man, is growing sentimental in his old age!’ the family said. ‘But he is faithful and devoted to us!’</p>
+               <p rend="firstIndent" xml:id="p_00058">At New Year, in one of the capital’s illustrated magazines, a picture was inserted of the old manor; one could see the flagpole and the sheaf of oats for the birds of the air at joyous Christmastide, and it was described and emphasised as being a beautiful thought that a time-honoured custom was here being upheld, so characteristic of precisely this old manor.</p>
+               <p rend="firstIndent" xml:id="p_00059">‘Everything which that man <hi rend="italic">Larsen</hi> does,’ the family said, ‘they beat the drum for. He is a happy man! We almost ought to be proud to have him!’</p>
+               <p rend="firstIndent" xml:id="p_00060">But they were not the slightest bit proud! They felt that they were the true gentry, they could dismiss <hi rend="italic">Larsen</hi>, but they did not do so, they were good people and there are so many good people of their kind, which is good news for every <hi rend="italic">Larsen</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00061">Well, that is the story of ‘<hi rend="italic">The Gardener and the Noble Family</hi>’.</p>
+               <p rend="firstIndent" xml:id="p_00062">Now you can think about it!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

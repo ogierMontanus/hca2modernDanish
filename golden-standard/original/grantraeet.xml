@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Grantræet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Anden Samling</i>, som udkom den 21. december 1844 med årstallet 1845 på titelbladet.<br/>
+BFN 455/II,41-48/VII,90-91.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="grantraeet" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="grantraeet_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="67_The-Fir-Tree">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Ude i Skoven stod der saadant et nydeligt Grantræ; det havde en god Plads, Sol k...</incipit><readingTime>12</readingTime><popularity>983</popularity><cite>&lt;p&gt;H.C. Andersen: Grantræet. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Grantraeet_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1838 1839 1840 1842 1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-05" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Grantræet" xml:id="grantraeet">
+<pb n="295"/><head type="main">Grantræet</head>
+
+<p rend="noIndent" xml:id="p_00001">Ude i Skoven stod der saadant et nydeligt Grantræ; det havde en god Plads, Sol kunde det faae, Luft var der nok af, og rundtom voxte mange større Kammerater, baade Gran og Fyr; men det lille Grantræ var saa <seg target="txtcmnt-295-01"><!--DATA-TERM: ilter med--><!--DATA-DEFINITION: ivrig efter.-->ilter med</seg> at voxe; det tænkte ikke paa den varme Sol og den friske Luft, det brød sig ikke om Bønderbørnene der gik og smaasnakkede, naar de vare ude at samle Jordbær eller Hindbær; tidt kom de med en heel Krukke fuld eller havde Jordbær trukket paa Straa, saa satte de sig ved det lille Træ og sagde: »nei! hvor det er nydeligt lille!« Det vilde Træet slet ikke høre.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Aaret efter var det en lang Stilk større, og Aaret efter igjen var det endnu een meget længer; thi paa et Grantræ kan man altid, efter de mange Led, det har, see hvor mange Aar det har voxet.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»O, var jeg dog saadant et stort Træ, som de Andre!« sukkede det lille Træ, »saa kunde jeg brede mine Grene saa langt omkring og med Toppen see ud i den vide Verden! Fuglene vilde da bygge Rede imellem mine Grene, og naar det blæste kunde jeg nikke saa fornemt, ligesom de Andre der!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Det havde slet ingen Fornøielse af Solskinnet, af Fuglene eller de røde Skyer, som Morgen og Aften seilede hen over det.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Var det nu Vinter, og Sneen rundt omkring laae gnistrende hvid, saa kom tidt en Hare springende, og satte lige over det lille Træ, – o, det var saa ærgerligt! – Men to Vintre gik, og ved den tredie var Træet saa stort, at Haren maatte gaae uden om det. O, voxe, voxe, blive stor og gammel, det var dog det eneste deilige i denne Verden, tænkte Træet.</p>
+
+<p rend="firstIndent" xml:id="p_00006">I Efteraaret kom altid Brændehuggerne og fældede nogle af de største Træer, det skete hvert Aar, og det unge Grantræ, som nu var ganske godt voxent, skjælvede derved, thi de store, prægtige Træer faldt med en Knagen og Bragen til Jorden; Grenene bleve hugne fra, de saae ganske nøgne, lange og smalle ud; de vare næsten ikke til at kjende, men saa bleve de lagte paa Vogne, og Heste trak dem afsted ud af Skoven.</p>
+
+<pb n="296"/><p rend="firstIndent" xml:id="p_00007">Hvor skulde de hen? Hvad forestod dem?</p>
+
+<p rend="firstIndent" xml:id="p_00008">I Foraaret, da Svalen og Storken kom, spurgte Træet dem: »Veed I ikke, hvor de førtes hen? Har I ikke mødt dem?«</p>
+
+<p rend="firstIndent" xml:id="p_00009">Svalerne vidste ikke noget, men Storken saae betænkelig ud, nikkede med Hovedet og sagde: »Jo, jeg troer det! jeg mødte mange nye Skibe da jeg fløi fra Ægypten; paa Skibene vare prægtige Mastetræer, jeg tør sige, at det var dem, de lugtede af Gran; jeg kan hilse mange Gange, de kneise, de kneise!«</p>
+     <p rend="firstIndent" xml:id="p_00010">»O, var jeg dog ogsaa stor nok til at flyve hen over Havet! Hvorledes er det egentligt dette Hav, og hvad ligner det?«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Ja det er saa vidtløftigt at forklare!« sagde Storken, og saa gik den.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Glæd Dig ved din Ungdom!« sagde Solstraalerne; »glæd Dig ved din friske Væxt, ved det unge Liv, som er i Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">Og Vinden kyssede Træet, og Duggen græd Taarer over det, men det forstod Grantræet ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Naar det var ved Juletid, da bleve ganske unge Træer fældede, Træer som tidt ikke engang vare saa store eller i Alder med dette Grantræ, der hverken havde Rast eller Ro, men altid vilde afsted; disse unge Træer, og de vare just de allersmukkeste, beholdt altid alle deres Grene, de bleve lagte paa Vogne og Heste trak dem afsted ud af Skoven.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Hvorhen skulle de?« spurgte Grantræet. »De ere ikke større end jeg, der var endogsaa eet, der var meget mindre; hvorfor beholde de alle deres Grene? Hvor kjøre de hen?«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Det vide vi! det vide vi!« qviddrede Graaspurvene. »Vi have nede i Byen kiget ind ad Ruderne! vi vide, hvor de kjøre hen! O, de komme til den største Glands og Herlighed, der kan tænkes! Vi have kiget ind af Vinduerne og seet at de blive plantede midt i den varme Stue og pyntede med de deiligste Ting, baade forgyldte Æbler, Honningkager, Legetøi og mange hundrede Lys!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Og saa –?« spurgte Grantræet og bævede i alle Grene. »Og saa? Hvad skeer saa?«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Ja, mere have vi ikke seet! Det var mageløst!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Mon jeg er blevet til for at gaae denne straalende Vei?« jublede Træet. »Det er endnu bedre, end at gaae over Havet! Hvor jeg lider af Længsel! Var det dog Juul! nu er jeg høi og udstrakt, som de andre, der førtes afsted sidste Aar! – O, var jeg alt paa Vognen! var jeg dog i den varme Stue med al den Pragt og Herlighed! og da –? Ja, da kommer noget endnu Bedre, endnu Skjønnere, hvorfor skulle de ellers saaledes pynte mig! <pb n="297"/>der maa komme noget endnu større, endnu herligere –! men hvad? O, jeg lider! jeg længes! jeg veed ikke selv, hvorledes det er med mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Glæd Dig ved mig!« sagde Luften og Sollyset; »glæd Dig ved din friske Ungdom ude i det Frie!«</p>
+
+<p rend="firstIndent" xml:id="p_00021">Men det glædede sig slet ikke; det voxte og voxte, Vinter og Sommer stod det grønt; mørkegrønt stod det; Folk, som saae det, sagde: »det er et deiligt Træ!« og ved Juletid blev det fældet først af alle. Øxen hug dybt igjennem Marven, Træet faldt med et Suk hen ad Jorden, det følte en Smerte, en Afmagt, det kunde slet ikke tænke paa nogen Lykke, det var bedrøvet ved at skilles fra Hjemmet, fra den Plet, hvor det var skudt frem; det vidste jo, at det aldrig mere saae de kjære gamle Kammerater, de smaae Buske og Blomster rundtom, ja maaskee ikke engang Fuglene. Afreisen var slet ikke noget behageligt.</p>
+
+<p rend="firstIndent" xml:id="p_00022">Træet kom først til sig selv, da det i Gaarden, <seg target="txtcmnt-297-01"><!--DATA-TERM: afpakket--><!--DATA-DEFINITION: læsset af vognen.-->afpakket</seg> med de andre Træer, hørte en Mand sige: »Det der er prægtigt! vi bruge <seg target="txtcmnt-297-02"><!--DATA-TERM: ikke uden--><!--DATA-DEFINITION: kun, ikke andre end. -->ikke uden</seg> det!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">Nu kom to Tjenere i fuld Stads og bar Grantræet ind i en stor, deilig Sal. Rundtom paa Væggene hang Portrætter, og ved den store Flisekakkelovn stode store chinesiske Vaser med Løver paa Laaget; der var Gyngestole, Silkesophaer, store Borde fulde af Billedbøger, og med Legetøi for hundred Gange hundred Rigsdaler – idetmindste sagde Børnene det. Og Grantræet blev reist op i en stor <seg target="txtcmnt-297-03"><!--DATA-TERM: Fjerding--><!--DATA-DEFINITION: lille tønde (rummende målet <sup>1</sup>⁄4 tønde).-->Fjerding</seg>, fyldt med Sand, men Ingen kunde see, at det var en Fjerding, thi der blev hængt grønt <seg target="txtcmnt-297-04"><!--DATA-TERM: Tøi--><!--DATA-DEFINITION: stof.-->Tøi</seg> rundt om, og den stod paa et stort broget Teppe. O, hvor Træet bævede! Hvad vilde der dog skee? Baade Tjenere og Frøkener gik og pyntede det. Paa een Green hang de smaa Næt, udklippede af kouleurt Papir; hvert Næt var fyldt med Sukkergodt; forgyldte Æbler og Valdnødder hang, som om de vare voxede fast, og over hundrede <seg target="txtcmnt-297-05"><!--DATA-TERM: røde, blaae og hvide Smaalys--><!--DATA-DEFINITION: de slesvig-holstenske farver antyder, at det er tysk juleskik, der beskrives.-->røde, blaae og hvide Smaalys</seg> bleve stukne fast i Grenene. Dukker, der saae livagtig ud som Mennesker, – Træet havde aldrig seet saadanne før – svævede i det Grønne, og allerøverst oppe i Toppen blev sat en stor Stjerne af <seg target="txtcmnt-297-06"><!--DATA-TERM: Flitter-Guld--><!--DATA-DEFINITION: tyndt udhamret messingblik.-->Flitter-Guld</seg>; det var prægtigt, ganske mageløst prægtigt.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Iaften,« sagde de Allesammen, »iaften skal det straale!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»O!« tænkte Træet, »var det dog Aften! var bare Lysene snart tændte! og hvad mon da skeer? Mon der komme Træer fra Skoven og see paa mig? Mon Graaspurvene flyve ved Ruden? Mon jeg her voxer fast og skal staae pyntet Vinter og Sommer?«</p>
+<p rend="firstIndent" xml:id="p_00026">Jo, det vidste god Besked; men det havde ordentligt Barke<pb n="298"/>pine af bare Længsel, og Barkepine er ligesaa slem for et Træ, som Hovedpine for os Andre.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Nu bleve Lysene tændte. Hvilken Glands, hvilken Pragt, Træet bævede i alle Grene derved, saa at eet af Lysene stak Ild i det Grønne; det sved ordentligt.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Gud bevare os!« skreg Frøknerne og slukkede i en Hast.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Nu turde Træet ikke engang bæve. O, det var en Gru! Det var saa bange for at tabe noget af al sin Stads; det var ganske fortumlet i al den Glands, – – og nu gik begge Fløidøre op, og en Mængde Børn styrtede ind, som om de vilde vælte hele Træet; de ældre Folk kom besindige bag efter; de Smaa stode ganske tause, – men kun et Øieblik, saa jublede de igjen saa at det rungede efter; de dandsede rundt om Træet, og den ene <seg target="txtcmnt-298-01"><!--DATA-TERM: Present--><!--DATA-DEFINITION: gave.-->Present</seg> efter den anden blev plukket af.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hvad er det, de gjør?« tænkte Træet. »Hvad skal der skee?« Og Lysene brændte lige ned til Grenene, og <seg target="txtcmnt-298-02"><!--DATA-TERM: eftersom--><!--DATA-DEFINITION: efterhånden som.-->eftersom</seg> de brændte ned, slukkede man dem, og saa fik Børnene Lov til at plyndre Træet. O, de styrtede ind paa det, saa at det knagede i alle Grene; havde det ikke ved <seg target="txtcmnt-298-03"><!--DATA-TERM: Snippen--><!--DATA-DEFINITION: spidsen, toppen.-->Snippen</seg> og Guldstjernen været bundet fast til Loftet, saa var det styrtet om.</p>
+
+<p rend="firstIndent" xml:id="p_00031">Børnene dandsede rundt med deres prægtige Legetøi, Ingen saae paa Træet uden den gamle Barnepige, der gik og tittede ind imellem Grenene, men det var bare for at see, om der ikke var glemt endnu en Figen eller et Æble.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»En Historie! en Historie!« raabte Børnene og trak en lille tyk Mand hen imod Træet, og han satte sig lige under det, »for saa ere vi i det Grønne,« sagde han, »og Træet kan have <seg target="txtcmnt-298-04"><!--DATA-TERM: besynderligt--><!--DATA-DEFINITION: særligt.-->besynderligt</seg> godt af at høre med! men jeg fortæller kun een Historie. Vil I høre den om <hi rend="italic"><seg target="txtcmnt-298-05"><!--DATA-TERM: Ivede-Avede--><!--DATA-DEFINITION: fra børneremsen »Klodsemand«: »Ivede avede, kivede kavede, owt de wowt de bybelo, bybelo og rangio, kallemors og dangio, drukken er vor Oldermand, derefter kommer Klodsemand«; jf. Tang 2140.-->Ivede-Avede</seg></hi> eller den om <hi rend="italic">Klumpe-Dumpe, som faldt ned af Trapperne og kom dog i Høisædet og fik Prindsessen</hi>!«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»<hi rend="italic">Ivede-Avede</hi>!« skreg Nogle, »<hi rend="italic">Klumpe-Dumpe</hi>!« skreg Andre; der var en Raaben og Skrigen, kun Grantræet taug ganske stille og tænkte: »Skal jeg slet ikke med, slet ikke gjøre Noget!« Det havde jo været med, havde gjort hvad det skulde gjøre.</p>
+
+<p rend="firstIndent" xml:id="p_00034">Og Manden fortalte om »<hi rend="italic">Klumpe-Dumpe der faldt ned af Trapperne og kom dog i Høisædet og fik Prindsessen</hi>.« Og Børnene klappede i Hænderne og raabte: »fortæl! fortæl!« de vilde ogsaa have »<hi rend="italic">Ivede-Avede</hi>«, men de fik kun den om »<hi rend="italic">Klumpe-Dumpe</hi>.« Grantræet stod ganske stille og tankefuld, aldrig havde Fuglene ude i Skoven fortalt <seg target="txtcmnt-298-06"><!--DATA-TERM: Sligt--><!--DATA-DEFINITION: sådant noget.-->Sligt</seg>. »<hi rend="italic">Klumpe-Dumpe</hi> faldt ned af Trapperne og fik dog Prindsessen! Ja, ja, saaledes gaaer det til i Verden!« tænkte Grantræet og troede at det var virke<pb n="299"/>ligt, fordi det var saadan en net Mand, som fortalte. »Ja, ja! hvem kan vide! maaskee falder jeg ogsaa ned af Trapperne og faaer en Prindsesse!« Og det glædede sig til næste Dag at blive klædt paa med Lys og Legetøi, Guld og Frugter.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Imorgen vil jeg ikke ryste!« tænkte det. »Jeg vil ret fornøie mig i al min Herlighed. Imorgen skal jeg igjen høre Historien om »<hi rend="italic">Klumpe-Dumpe</hi>« og maaskee den med om »<hi rend="italic">Ivede-Avede</hi>«.« Og Træet stod stille og tankefuld den hele Nat.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Om Morgenen kom Karl og Pige ind.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Nu begynder Stadsen igjen!« tænkte Træet, men de slæbte det ud af Stuen, op ad Trappen, ind paa Loftet, og her, i en mørk Krog, hvor ingen Dag skinnede, stillede de det hen. »Hvad skal det betyde!« tænkte Træet. »Hvad mon jeg her skal bestille? Hvad mon jeg her skal faae at høre?« Og det hældede sig op til Muren og stod og tænkte og tænkte. – – Og god Tid havde det, thi der gik Dage og Nætter; Ingen kom herop, og da der endelig kom Nogen, saa var det for at stille nogle store Kasser hen i Krogen; Træet stod ganske skjult, man skulde troe, at det var reent glemt.</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Nu er det Vinter derude!« tænkte Træet. »Jorden er haard og dækket med Snee, Menneskene kunne ikke plante mig; derfor skal jeg nok her staae i Læ til Foraaret! hvor det er velbetænkt! hvor dog Menneskene ere gode! – Var her kun ikke saa mørkt og saa skrækkeligt eensomt! – Ikke engang en lille Hare! – Det var dog saa <seg target="txtcmnt-299-01"><!--DATA-TERM: artigt--><!--DATA-DEFINITION: morsomt.-->artigt</seg> der ude i Skoven, naar Sneen laae, og Haren sprang forbi; ja, selv da den sprang hen over mig, men det holdt jeg ikke af den Gang. Her oppe er dog skrækkeligt eensomt!«</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Pi, pi!« sagde en lille Muus i det samme og smuttede frem; og saa kom der nok en lille. De snusede til Grantræet og smuttede mellem Grenene paa det.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Det er en gruelig Kulde!« sagde de smaa Muus. »Ellers er her velsignet at være! Ikkesandt, du gamle Grantræ?«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Jeg er slet ikke gammel!« sagde Grantræet, »der ere mange, der ere meget ældre end jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Hvor kommer Du fra?« spurgte Musene, »og hvad veed du?« De vare nu saa grueligt nysgjerrige. »Fortæl os dog om det deiligste Sted paa Jorden! Har Du været der? Har Du været i Spisekammeret, hvor der ligger Oste paa Hylderne og hænger Skinker under Loftet, hvor man dandser paa Tællelys, og gaaer mager ind og kommer feed ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Det kjender jeg ikke!« sagde Træet, »men Skoven kjender <pb n="300"/>jeg, hvor Solen skinner, og hvor Fuglene synge!« og saa fortalte det Alt fra sin Ungdom, og de smaa Muus havde aldrig før hørt saadant noget, og de hørte saadan efter og sagde: »nei, hvor Du har seet meget! hvor Du har været lykkelig!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Jeg!« sagde Grantræet og tænkte over, hvad det selv fortalte; »ja, det var, i Grunden, ganske morsomme Tider!« – men saa fortalte det om Juleaften, da det var pyntet med Kager og Lys.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»O!« sagde de smaa Muus, »hvor Du har været lykkelig, du gamle Grantræ!«</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Jeg er slet ikke gammel!« sagde Træet, »det er jo i denne Vinter, jeg er kommet fra Skoven! jeg er i min allerbedste Alder, jeg er bare <seg target="txtcmnt-300-01"><!--DATA-TERM: sat i Væxten--><!--DATA-DEFINITION: hæmmet i udvikling.-->sat i Væxten</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Hvor Du fortæller deiligt!« sagde de smaa Muus, og næste Nat kom de med fire andre Smaa-Muus, der skulde høre Træet fortælle, og jo mere det fortalte, desto tydeligere huskede det selv Alt og syntes: »det var dog ganske morsomme Tider! men de kan komme, de kan komme! <hi rend="italic">Klumpe-Dumpe</hi> faldt ned af Trapperne og fik dog Prindsessen, maaskee jeg kan ogsaa faae en Prindsesse,« og saa tænkte Grantræet paa saadant et lille nydeligt Birketræ, der voxte ude i Skoven, det var for Grantræet en virkelig deilig Prindsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Hvem er <hi rend="italic">Klumpe-Dumpe</hi>?« spurgte de smaa Muus. Og saa fortalte Grantræet hele Eventyret, det kunde huske hvert evige Ord; og de smaa Muus vare <seg target="txtcmnt-300-02"><!--DATA-TERM: færdige ved--><!--DATA-DEFINITION: lige ved.-->færdige ved</seg> at springe op i Toppen paa Træet af bare Fornøielse. Næste Nat kom der mange flere Muus, og om Søndagen endogsaa to Rotter; men de sagde, at Historien var ikke morsom, og det bedrøvede de smaa Muus, thi nu syntes de ogsaa mindre om den.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Kan De kun den ene Historie?« spurgte Rotterne.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Kun den ene!« svarede Træet, »den hørte jeg min lykkeligste Aften, men den Gang tænkte jeg ikke paa, hvor lykkelig jeg var!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">»Det er en overmaade daarlig Historie! kan De ingen med Flesk og Tællelys? Ingen Spisekammer-Historier?«</p>
+     <p rend="firstIndent" xml:id="p_00052">»Nei!« sagde Træet.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Ja, saa skal De have Tak!« svarede Rotterne og gik ind til deres.</p>
+
+<p rend="firstIndent" xml:id="p_00054">De smaa Muus bleve tilsidst ogsaa borte, og da sukkede Træet: »Det var dog ganske rart, da de sad omkring mig de vævre Smaa-Muus og hørte, hvad jeg fortalte! Nu er ogsaa det forbi! – men jeg skal huske at fornøie mig, naar jeg nu tages frem igjen!«</p>
+
+<p rend="firstIndent" xml:id="p_00055">Men naar skete det? – Jo! det var en Morgenstund, da kom <pb n="301"/>der Folk og rumsterede paa Loftet; Kasserne bleve flyttede, Træet blev trukket frem; de kastede det rigtignok lidt haardt mod Gulvet, men strax slæbte en Karl det hen imod Trappen, hvor Dagen skinnede.</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Nu begynder Livet igjen!« tænkte Træet; det følte den friske Luft, den første Solstraale, – og nu var det ude i Gaarden. Alt gik saa <seg target="txtcmnt-301-01"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg>, Træet glemte reent at see paa sig selv, der var saa meget at see rundtom. Gaarden stødte op til en Have, og Alt blomstrede derinde; Roserne hang saa friske og duftende ud over det lille Rækværk, Lindetræerne blomstrede, og Svalerne fløi om og sagde »<seg target="txtcmnt-301-02"><!--DATA-TERM: qvirre-virre-vit … kommet--><!--DATA-DEFINITION: jf. den gamle børneremse: »Vittevittevit, min Mand er kommen« (Tang 2633 ff.).-->qvirre-virre-vit, min Mand er kommet</seg>!« men det var ikke Grantræet, de meente.</p>
+
+<p rend="firstIndent" xml:id="p_00057">»Nu skal jeg leve!« jublede det og bredte sine Grene vidt ud; ak, de vare alle visne og gule; det var i Krogen mellem Ukrud og Nælder, at det laae. Guldpapirs-Stjernen sad endnu oppe i Toppen og glimrede i det klare Solskin.</p>
+
+<p rend="firstIndent" xml:id="p_00058">I Gaarden selv legede et Par af de lystige Børn, der ved Juletid havde dandset om Træet og været saa glade ved det. Een af de Mindste foer hen og rev Guldstjernen af.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»See, hvad der sidder endnu paa det ækle, gamle Juletræ!« sagde han og trampede paa Grenene, saa de knagede under hans Støvler.</p>
+
+<p rend="firstIndent" xml:id="p_00060">Og Træet saae paa al den Blomster-Pragt og Friskhed i Haven, det saae paa sig selv, og det ønskede, at det var blevet i sin mørke Krog paa Loftet; det tænkte paa sin friske Ungdom i Skoven, paa den lystige Juleaften og paa de smaa Muus, der saa glade havde hørt paa Historien om <hi rend="italic">Klumpe-Dumpe</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00061">»Forbi! forbi!« sagde det stakkels Træ. »Havde jeg dog glædet mig, da jeg kunde! forbi! forbi!«</p>
+
+<p rend="firstIndent" xml:id="p_00062">Og Tjenestekarlen kom og hug Træet i smaa Stykker, et heelt Bundt laae der; deiligt blussede det op under den store <seg target="txtcmnt-301-03"><!--DATA-TERM: Bryggerkjædel--><!--DATA-DEFINITION: gruekedel, egentlig (stor) indmuret kedel.-->Bryggerkjædel</seg>; og det sukkede saa dybt, hvert Suk var som et lille Skud; derfor løbe Børnene, som legede, ind og satte sig foran Ilden, saae ind i den og raabte: »pif! paf!« men ved hvert Knald, der var et dybt Suk, tænkte Træet paa en Sommerdag i Skoven, en Vinternat derude, naar Stjernerne skinnede; det tænkte paa Juleaften og <hi rend="italic">Klumpe-Dumpe</hi>, det eneste Eventyr, det havde hørt og vidste at fortælle –, og saa var Træet brændt ud.</p>
+
+<p rend="firstIndent" xml:id="p_00063">Drengene legede i Gaarden, og den Mindste havde paa Brystet Guldstjernen, som Træet havde baaret sin lykkeligste Aften; nu var den forbi, og Træet var forbi og Historien med; forbi, forbi, og det blive alle Historier!</p>
+
+<pb n="302"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Grantræet" xml:id="grantraeet">
+<head type="section-comments">Grantræet</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Anden Samling</hi>, som udkom den 21. december 1844 med årstallet 1845 på titelbladet.<br/>
+BFN 455/II,41-48/VII,90-91.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">298,33</cell><cell type="deviation">Noget!« Det &lt; Noget! »Det</cell></row>
+<row><cell type="position">298,38</cell><cell type="deviation">»<hi rend="italic">Ivede-Avede</hi>« &lt; »<hi rend="italic">Ivede-Avede</hi></cell></row>
+<row><cell type="position">299,7</cell><cell type="deviation">»<hi rend="italic">Ivede-Avede</hi>«.« &lt; »<hi rend="italic">Ivede-Avede.</hi>«</cell></row>
+<row><cell type="position">301,6</cell><cell type="deviation">det &lt; »det</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">(294)</cell><row xml:id="txtcmnt-294-01"><cell type="data-definition">Samlingen var tilegnet digteren, professor Frederik Høegh-Guldberg (1771-1852), en af H.C. Andersens tidligste støtter. Guldberg underviste ham i dansk, men slog hånden af ham i september 1821, fordi han efter Guldbergs mening forsømte sine latintimer. De blev dog forsonet i 1823.</cell></row>
+<cell type="page">295</cell><row xml:id="txtcmnt-295-01"><cell type="data-term">ilter med</cell><cell type="data-definition">ivrig efter.</cell></row>
+<cell type="page">297</cell><row xml:id="txtcmnt-297-01"><cell type="data-term">afpakket</cell><cell type="data-definition">læsset af vognen.</cell></row><row xml:id="txtcmnt-297-02"><cell type="data-term">ikke uden</cell><cell type="data-definition">kun, ikke andre end. </cell></row><row xml:id="txtcmnt-297-03"><cell type="data-term">Fjerding</cell><cell type="data-definition">lille tønde (rummende målet 1⁄4 tønde).</cell></row><row xml:id="txtcmnt-297-04"><cell type="data-term">Tøi</cell><cell type="data-definition">stof.</cell></row><row xml:id="txtcmnt-297-05"><cell type="data-term">røde, blaae og hvide Smaalys</cell><cell type="data-definition">de slesvig-holstenske farver antyder, at det er tysk juleskik, der beskrives.</cell></row><row xml:id="txtcmnt-297-06"><cell type="data-term">Flitter-Guld</cell><cell type="data-definition">tyndt udhamret messingblik.</cell></row>
+<cell type="page">298</cell><row xml:id="txtcmnt-298-01"><cell type="data-term">Present</cell><cell type="data-definition">gave.</cell></row><row xml:id="txtcmnt-298-02"><cell type="data-term">eftersom</cell><cell type="data-definition">efterhånden som.</cell></row><row xml:id="txtcmnt-298-03"><cell type="data-term">Snippen</cell><cell type="data-definition">spidsen, toppen.</cell></row><row xml:id="txtcmnt-298-04"><cell type="data-term">besynderligt</cell><cell type="data-definition">særligt.</cell></row><row xml:id="txtcmnt-298-05"><cell type="data-term">Ivede-Avede</cell><cell type="data-definition">fra børneremsen »Klodsemand«: »Ivede avede, kivede kavede, owt de wowt de bybelo, bybelo og rangio, kallemors og dangio, drukken er vor Oldermand, derefter kommer Klodsemand«; jf. Tang 2140.</cell></row><row xml:id="txtcmnt-298-06"><cell type="data-term">Sligt</cell><cell type="data-definition">sådant noget.</cell></row>
+<cell type="page">299</cell><row xml:id="txtcmnt-299-01"><cell type="data-term">artigt</cell><cell type="data-definition">morsomt.</cell></row>
+<cell type="page">300</cell><row xml:id="txtcmnt-300-01"><cell type="data-term">sat i Væxten</cell><cell type="data-definition">hæmmet i udvikling.</cell></row><row xml:id="txtcmnt-300-02"><cell type="data-term">færdige ved</cell><cell type="data-definition">lige ved.</cell></row>
+<cell type="page">301</cell><row xml:id="txtcmnt-301-01"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-301-02"><cell type="data-term">qvirre-virre-vit … kommet</cell><cell type="data-definition">jf. den gamle børneremse: »Vittevittevit, min Mand er kommen« (Tang 2633 ff.).</cell></row><row xml:id="txtcmnt-301-03"><cell type="data-term">Bryggerkjædel</cell><cell type="data-definition">gruekedel, egentlig (stor) indmuret kedel.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

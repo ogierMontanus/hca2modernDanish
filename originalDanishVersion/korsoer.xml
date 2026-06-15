@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Korsør</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="korsoer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Oppe fra Vinduet i Banehotellet</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01017</section>
+                                                                 <date>1869</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1869</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Korsør" xml:id="korsoer"><pb n="410"/><head type="part">Korsør</head>
+<lg xml:id="p_01018">
+<l rend="noIndent" subtype="firstline" corresp="Oppe fra Vinduet i Banehotellet" rendition="oppe-fra-vinduet-i-banehotellet">Oppe fra Vinduet i Banehotellet</l>
+<l rend="noIndent">Hilser vor Sang Dig, du gamle Korsør,</l>
+<l rend="noIndent"><seg target="txtcmnt-410-01"><!--DATA-TERM: Baggesens Fødeby--><!--DATA-DEFINITION: Korsør.--><hi rend="italic">Baggesens</hi> Fødeby</seg>, Barnehjem, Legeplads;</l>
+<l rend="noIndent">Du blev i »<seg target="txtcmnt-410-02"><!--DATA-TERM: Børten(s)--><!--DATA-DEFINITION: smakken (færgebåden) over Storebælt; rutefart over Storebælt indførtes i 1600-tallet.-->Børtens</seg>« og <seg target="txtcmnt-410-03">Post-Kærrens</seg> Dage</l>
+<l rend="noIndent">Omtalt, som ynkelig, kjedelig, komisk;</l>
+<l rend="noIndent">Jernbane- Dampskibstid synger <seg target="txtcmnt-410-04"><!--DATA-TERM: (din) Lov--><!--DATA-DEFINITION: lovprisning, pris.-->din Lov</seg>.</l>
+<l rend="noIndent"><hi rend="italic">Baggesens</hi> Fødeby, Byen ved Bæltet.</l>
+</lg>
+<lg xml:id="p_01019">
+<l rend="noIndent">Herlige store Bælt! blinkende, vinkende</l>
+<l rend="noIndent">See vi dit Sølvskæl i Maanens Belysning.</l>
+<l rend="noIndent">Som Silhuet staaer Slotstaarn og Volde,</l>
+<l rend="noIndent">Der hvor <hi rend="italic">Baggesen</hi> fødtes og leged’,</l>
+<l rend="noIndent">Hvor han saae Maanen glide bag <seg target="txtcmnt-410-05"><!--DATA-TERM: Øen--><!--DATA-DEFINITION: Sprogø; hentydning til Baggesens digt »Da jeg var lille« fra H.W. Riber <i>Poesier. Første samling</i>, 1785, hvor det i 4. strofe hedder: »Da saae jeg Maanen ned paa Øen glide, / Og tænkte: gid jeg var paa Øen der!«.-->Øen</seg>,</l>
+<l rend="noIndent">Synke i Søen, ønsked’ sig Vinger, drømte sin Flugt.</l>
+</lg>
+<lg xml:id="p_01020">
+<l rend="noIndent">Oppe fra Vinduet i Banehotellet</l>
+<l rend="noIndent">Hilser os Bæltet og Byen og Skoven.</l>
+<l rend="noIndent">Dampskib ved Dampskib ligger i Havnen;</l>
+<l rend="noIndent">Nu kommer eet, nu eet, hvilken Landing!</l>
+<l rend="noIndent">Reisende mylre der frem over Pladsen;</l>
+<l rend="noIndent">Hilsen og Afsked, en Færdsel, en Tummel,</l>
+<l rend="noIndent">Jernbaneklokken giver Signal-Slag,</l>
+<l rend="noIndent">Locomotivet stønner og puster,</l>
+<l rend="noIndent">Flyver med Toget, – mens ovre i Byen</l>
+<l rend="noIndent">Lyder Musik og Lysene blinke;</l>
+<l rend="noIndent">Stjernerne blinke over <hi rend="italic">Korsør</hi>.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Korsør" synch="korsoer">
+<head type="section-comments">Korsør</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Børne-Tidendes Nytaarsgave</hi>, januar 1869. BFN 984</p>
+<table rend="textcomments">
+<cell type="page">410</cell><cell><row xml:id="txtcmnt-410-01"><cell type="data-term">Baggesens Fødeby</cell><cell type="data-definition">Korsør.</cell></row><row xml:id="txtcmnt-410-02"><cell type="data-term">Børten(s)</cell><cell type="data-definition">smakken (færgebåden) over Storebælt; rutefart over Storebælt indførtes i 1600-tallet.</cell></row><row xml:id="txtcmnt-410-03"><cell type="data-term">(Post-) Kærre(ns)</cell><cell type="data-definition">tohjulet (arbejds)vogn.</cell></row><row xml:id="txtcmnt-410-04"><cell type="data-term">(din) Lov</cell><cell type="data-definition">lovprisning, pris.</cell></row><row xml:id="txtcmnt-410-05"><cell type="data-term">Øen</cell><cell type="data-definition">Sprogø; hentydning til Baggesens digt »Da jeg var lille« fra H.W. Riber <hi rend="italic">Poesier. Første samling</hi>, 1785, hvor det i 4. strofe hedder: »Da saae jeg Maanen ned paa Øen glide, / Og tænkte: gid jeg var paa Øen der!«.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

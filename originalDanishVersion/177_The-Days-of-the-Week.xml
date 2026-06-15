@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Days of the Week</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="ugedagene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="ugedagene_modern.xml">moderniseret version</note>
+                                                       <note target="177_The-Days-of-the-Week.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The days of the week once also wanted to let themselves go, get together and thr...</incipit><idno type="image">Ugedagene_hca_ill_0152.png</idno><popularity>873</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Days of the Week. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>livsforloeb</term><term>kunst</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Days of the Week">
+          <head type="main" rend="The Days of the Week">The Days of the Week</head>                <p rend="noIndent" xml:id="p_00001">The <hi rend="italic">days of the week</hi> once also wanted to let themselves go, get together and throw a party. However, each day was so busy all year round that they had no spare time at their disposal; they had to have a separate whole day, but they also had that every fourth year, <hi rend="italic">leap day</hi>, placed in February so as to restore order to the calendar.</p>
+          <p rend="firstIndent" xml:id="p_00002">On <hi rend="italic">leap day</hi>, then, they wanted to meet and throw their party, and as February is the month of Shrovetide, they wanted to come in carnival costume according to inclination and regulation; to eat well, drink well, give speeches and exchange pleasant and unpleasant remarks in unconstrained comradeship. The giants of olden days used during the meals to fling gnawed bones at each other’s heads; the <hi rend="italic">days of the week</hi>, on the other hand, wanted to pelt each other with choice puns and wicked jokes, which they could let drop in innocent Shrovetide celebrations.</p>
+          <p rend="firstIndent" xml:id="p_00003">Then <hi rend="italic">leap day</hi> came, and then they all got together.</p>
+          <p rend="firstIndent" xml:id="p_00004"><hi rend="italic">Sunday</hi>, chairman of the days of the week, appeared in a black silk cloak; devout people would believe that he was dressed as a cleric to be ready for church; worldly children could see that he was dressed in domino to be ready for fun, and that the blushing carnation he wore in his buttonhole was the theatre’s little red lamp that said: ‘Full house, now make sure you amuse yourselves!’</p>
+          <p rend="firstIndent" xml:id="p_00005"><hi rend="italic">Monday</hi>, a young man related to Sunday, and particularly devoted to pleasure, came after him. He left the workshop, he said, when the changing of the guard took place.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘I must come out and hear <hi rend="italic">Offenbach’s</hi> music; it doesn’t go to my head or to my heart, it tickles my leg muscles, I have to dance, go on a spree, get a black eye to sleep on and then get to grips with work the next day. I am what’s new in the week!’</p>
+          <p rend="firstIndent" xml:id="p_00007"><hi rend="italic">Tuesday</hi>, i.e. Tyr’s day, the day of power. –</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Yes, that’s me!’ said <hi rend="italic">Tuesday</hi>. ‘I get to grips with work, fix Mercury’s wings onto the merchant’s boots, check at the factories that the wheels have been greased and can turn, ensure the tailor is cross-legged on the table and the paver’s at work on the cobblestones; everyone must follow his trade! I keep an eye on everything, so I turn up in police uniform and call myself ‘<hi rend="italic">Polituesday</hi>. If that’s a bad pun, the rest of you can try and come up with one that’s better!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Then it’s my turn!’ said <hi rend="italic">Wednesday</hi>. ‘I stand halfway through the week. The Germans call me <hi rend="italic">Herr Mittwoch</hi>. I stand like the assistant in the shop, like the flower amid all the other honoured days of the week! If we are all deployed, I have three days in front and three days behind, it’s like a guard of honour; I think I must be the most impressive day of the week!’</p>
+          <p rend="firstIndent" xml:id="p_00010"><hi rend="italic">Thursday</hi> turned up dressed as a coppersmith with a hammer and copper kettle, that was the attribute of his nobility.</p>
+          <p rend="firstIndent" xml:id="p_00011">‘I am of the highest birth!’ he said, ‘heathen, divine! In the countries of the North I am named after <hi rend="italic">Thor</hi>, and in those of the South after <hi rend="italic">Jupiter</hi>, both of whom were practitioners of thunder and lightning; it has stayed in the family!’</p>
+          <p rend="firstIndent" xml:id="p_00012">And then he struck his copper kettle and proved his high birth. <hi rend="italic">Friday</hi> was dressed as a young girl and called herself <hi rend="italic">Freya</hi>, and also <hi rend="italic">Venus</hi> for a change, it all depended on language use in the countries where she appeared. She was also of a quiet, gentle nature, she said, but today lavish and free; for it was leap, and that grants women a special liberty, then, according to ancient custom, she may propose and does not have to be proposed to.</p>
+          <p rend="firstIndent" xml:id="p_00013"><hi rend="italic">Saturday</hi> appeared as an old housekeeper with a broom and cleaning utensils. Her favourite dish was bread soaked in beer, although she did not insist that it should be served everyone on this festive occasion, only that she be allowed to have it, which she was.</p>
+          <p rend="firstIndent" xml:id="p_00014">Then all the <hi rend="italic">days of the week</hi> sat down round the table.</p>
+          <p rend="firstIndent" xml:id="p_00015">Here they are written down all seven of them, ready for tableaux vivants in family circles; they could be presented there as amusingly as one is able to, we just list them here as a joke in <hi rend="italic">February</hi>, the only month that gets an extra day.</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

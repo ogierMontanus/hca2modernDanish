@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Jeg er en Skandinav«</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="jeg-er-en-skandinav" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Vi er eet Folk, vi kaldes Skandinaver</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>NHB</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="»Jeg er en Skandinav«" xml:id="jeg-er-en-skandinav">
+<head type="part">»Jeg er en Skandinav«</head>
+<lg xml:id="p_00001">
+<l rend="noIndent" subtype="firstline" corresp="Vi er eet Folk, vi kaldes Skandinaver" rendition="vi-er-eet-folk-vi-kaldes-skandinaver">Vi er eet Folk, vi kaldes Skandinaver,</l>
+<l rend="noIndent">I <seg target="txtcmnt-012-01"><!--DATA-TERM: trende Riger--><!--DATA-DEFINITION: tre riger, dvs. Danmark, Norge og Sverige.-->trende Riger</seg> er vor Hjemstavn deelt;</l>
+<l rend="noIndent">Men mellem Nutids store Himmel-Gaver</l>
+<l rend="noIndent">Er den: vort Hjerte voxer til et Heelt!</l>
+<l rend="noIndent">Lad være glemt, hvis os en Uret skete;</l>
+<l rend="noIndent">Tidsaanden, som en luttret <seg target="txtcmnt-012-02"><!--DATA-TERM: Margarethe--><!--DATA-DEFINITION: Margrethe 1. var både dansk, norsk og svensk regent.-->Margarethe</seg>,</l>
+<l rend="noIndent">Forener os, den trefold Kraft <seg target="txtcmnt-012-03"><!--DATA-TERM: forlener--><!--DATA-DEFINITION: giver, bibringer.-->forlener</seg>,</l>
+<l rend="noIndent">Selv Sproget os forener.</l>
+<l rend="noIndent">Paa Fjeld, i Skov og ved det natblaa Hav,</l>
+<l rend="noIndent">Jeg jubler höit: <hi rend="italic">jeg er en Skandinav!</hi></l>
+</lg>
+<lg xml:id="p_00002">
+<l rend="firstIndent">Kom med paa <seg target="txtcmnt-012-04"><!--DATA-TERM: Dovre-Fjeld--><!--DATA-DEFINITION: fjeldkæde syd for Trondheim i Norge.-->Dovre-Fjeld</seg>, hvor <seg target="txtcmnt-012-05"><!--DATA-TERM: Jöklen--><!--DATA-DEFINITION: jøklen; bræen, gletsjeren.-->Jöklen</seg> ligger,</l>
+<l rend="noIndent">Hör <seg target="txtcmnt-012-06"><!--DATA-TERM: Fossen(s)--><!--DATA-DEFINITION: den del af et vandløb, hvor strømmen er specielt stærk.-->Fossens</seg> Torden, <seg target="txtcmnt-012-07"><!--DATA-TERM: Sæterpige(ns)--><!--DATA-DEFINITION: pige, der vogter kvæget på sæteren, dvs. græsgangene i fjeldet.-->Sæterpigens</seg> Sang;</l>
+<l rend="noIndent">Den friske Sö- og Bjerg-Luft jeg inddrikker,</l>
+<l rend="noIndent">Jeg gaaer, hvor Nordens Guder gik engang;</l>
+<l rend="noIndent">Og hvis om Kraftens Mænd jeg hörer heller,</l>
+<l rend="noIndent">Om <seg target="txtcmnt-012-08"><!--DATA-TERM: Olaf, Hakon, Harald--><!--DATA-DEFINITION: norske kongenavne.--><hi rend="italic">Olaf</hi>, <hi rend="italic">Hakon</hi>, <hi rend="italic">Harald</hi></seg> man fortæller;</l>
+<l rend="noIndent">Til Fjelds! til Fjelds! med stærke Klippeborge</l>
+<l rend="noIndent">Staaer du, mit gamle Norge,</l>
+<l rend="noIndent">I Glands af Nordlys, ved et stormfuldt Hav;</l>
+<l rend="noIndent">Jeg elsker dig! <hi rend="italic">jeg er en Skandinav!</hi></l>
+</lg>
+<lg xml:id="p_00003">
+<l rend="firstIndent">Kom paa den <seg target="txtcmnt-012-09"><!--DATA-TERM: snelle--><!--DATA-DEFINITION: hurtige.-->snelle</seg> Baad, lad Dampen virke,</l>
+<l rend="noIndent">See Floder, store Söer er vor Vei!</l>
+<l rend="noIndent">Seil over Bjerget, hvor de höie Birke</l>
+<l rend="noIndent">Udaande Duft! O, Sverrig elsker jeg!</l>
+<l rend="noIndent">Herfra löd <seg target="txtcmnt-012-10"><!--DATA-TERM: Gustav Adolf(s)--><!--DATA-DEFINITION: den svenske kong Gustav 4. Adolf, som døde 1837.--><hi rend="italic">Gustav Adolfs</hi></seg> Navn paa Jorden,</l>
+<l rend="noIndent">Han var den sidste Ridder her i Norden.</l>
+<l rend="noIndent">Lidt <seg target="txtcmnt-012-11"><!--DATA-TERM: Barkbröd--><!--DATA-DEFINITION: brød lavet af malet bark.-->Barkbröd</seg>, og den svenske Bonde synger,</l>
+<l rend="noIndent">Ham Nöisomhed forynger,</l>
+<l rend="noIndent">Han synger Sangene, ham Skjalden gav,</l>
+<l rend="noIndent">Og vi med ham: <hi rend="italic">Jeg er en Skandinav!</hi></l>
+</lg>
+<lg xml:id="p_00004">
+<l rend="firstIndent">En frisk Bouquet af Klöver, Korn og Humle</l>
+<l rend="noIndent">Er Danmark! kom og see vor Bögeskov!</l>
+<pb n="13"/>
+<l rend="noIndent">Paa Sletten her sig Aandens Sönner tumle,</l>
+<l rend="noIndent">Det dundrer lystigt under Hestens Hov;</l>
+<l rend="noIndent">Til Videnskab og Kunst vi <seg target="txtcmnt-013-01"><!--DATA-TERM: snelt--><!--DATA-DEFINITION: hurtigt.-->snelt</seg> udride,</l>
+<l rend="noIndent">Europa om det lille Land skal vide;</l>
+<l rend="noIndent">Ved <hi rend="italic">Thorvaldsen</hi> dets Navn fra Stenen klinger,</l>
+<l rend="noIndent"><seg target="txtcmnt-013-02"><!--DATA-TERM: Alt Tycho--><!--DATA-DEFINITION: Tycho; astronomen Thyco Brahe.-->Alt <hi rend="italic">Tycho</hi></seg> gav det Vinger;</l>
+<l rend="noIndent">En Rose Danmark er! syng, Skandinav,</l>
+<l rend="noIndent">Om Aandens Blomst midt i det barske Hav!</l>
+</lg>
+<lg xml:id="p_00005">
+<l rend="firstIndent">Lad ei den skjönne Enighed forsvinde,</l>
+<l rend="noIndent">Norsk, Svensk og Dansk hinanden række Haand;</l>
+<l rend="noIndent">De gamle Folkesange os forbinde,</l>
+<l rend="noIndent">I Melodien er et kraftigt Baand.</l>
+<l rend="noIndent">Af Enighedens Sæd kun godt man höster,</l>
+<l rend="noIndent">Vi skue kjækt mod Vester og mod Öster</l>
+<l rend="noIndent">I Fryd og Sorg! O, her er godt at være!</l>
+<l rend="noIndent">Her leve vore Kjære!</l>
+<l rend="noIndent">Fra Gran og Birk og Bög, vidt over Hav,</l>
+<l rend="noIndent">Lyd Glædes Sang: <hi rend="italic">jeg er en Skandinav!</hi></l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="»Jeg er en Skandinav«" synch="jeg-er-en-skandinav">
+<head type="section-comments">»Jeg er en Skandinav«</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Hertha 1840. Svensk-Dansk Nyårsgåfva för 1840</hi>, januar 1840. BFN 364</p>
+<table rend="textcomments">
+<cell type="page">12</cell><cell><row xml:id="txtcmnt-012-01"><cell type="data-term">trende Riger</cell><cell type="data-definition">tre riger, dvs. Danmark, Norge og Sverige.</cell></row><row xml:id="txtcmnt-012-02"><cell type="data-term">Margarethe</cell><cell type="data-definition">Margrethe 1. var både dansk, norsk og svensk regent.</cell></row><row xml:id="txtcmnt-012-03"><cell type="data-term">forlener</cell><cell type="data-definition">giver, bibringer.</cell></row><row xml:id="txtcmnt-012-04"><cell type="data-term">Dovre-Fjeld</cell><cell type="data-definition">fjeldkæde syd for Trondheim i Norge.</cell></row><row xml:id="txtcmnt-012-05"><cell type="data-term">Jöklen</cell><cell type="data-definition">jøklen; bræen, gletsjeren.</cell></row><row xml:id="txtcmnt-012-06"><cell type="data-term">Fossen(s)</cell><cell type="data-definition">den del af et vandløb, hvor strømmen er specielt stærk.</cell></row><row xml:id="txtcmnt-012-07"><cell type="data-term">Sæterpige(ns)</cell><cell type="data-definition">pige, der vogter kvæget på sæteren, dvs. græsgangene i fjeldet.</cell></row><row xml:id="txtcmnt-012-08"><cell type="data-term">Olaf, Hakon, Harald</cell><cell type="data-definition">norske kongenavne.</cell></row><row xml:id="txtcmnt-012-09"><cell type="data-term">snelle</cell><cell type="data-definition">hurtige.</cell></row><row xml:id="txtcmnt-012-10"><cell type="data-term">Gustav Adolf(s)</cell><cell type="data-definition">den svenske kong Gustav 4. Adolf, som døde 1837.</cell></row><row xml:id="txtcmnt-012-11"><cell type="data-term">Barkbröd</cell><cell type="data-definition">brød lavet af malet bark.</cell></row></cell>
+<cell type="page">13</cell><cell><row xml:id="txtcmnt-013-01"><cell type="data-term">snelt</cell><cell type="data-definition">hurtigt.</cell></row><row xml:id="txtcmnt-013-02"><cell type="data-term">Alt Tycho</cell><cell type="data-definition">Tycho; astronomen Thyco Brahe.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

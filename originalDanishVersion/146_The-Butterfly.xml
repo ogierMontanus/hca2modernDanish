@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Butterfly</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="sommerfuglen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="sommerfuglen_modern.xml">moderniseret version</note>
+                                                       <note target="146_The-Butterfly.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The butterfly wanted to have a sweetheart; naturally, he wanted one for himself ...</incipit><idno type="image">Sommerfuglen_hca_ill_0101.png</idno><popularity>937</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Butterfly. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-23" who="NHB">formatted</change><change who="NHB" when="2022-10-23">ready for print</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Butterfly">
+               <head type="main" rend="The Butterfly">The Butterfly</head>                <p rend="noIndent" xml:id="p_00001">The <hi rend="italic">butterfly</hi> wanted to have a sweetheart; naturally, he wanted one for himself that was a pretty little flower. He gazed at them; each one sat so still and sedate on its stem as a maiden should when she is not engaged, but there were so many to choose between that it would be a tiresome process and that the <hi rend="italic">butterfly</hi> wasn’t interested in, so it flew over to the <hi rend="italic">mayweed</hi>. The French call her <hi rend="italic">Marguerite</hi>, they know she can foretell the future, and she does so too when a sweetheart picks one petal after the other off her, each time asking if the object of his affection loves him ‘with all her heart’ – ‘no single part’ – ‘a little’ – ‘a lot’ – ‘a teeny bit’ – ‘not one whit’ – or something similar. Everyone asks in their own language. The <hi rend="italic">butterfly</hi> also came in order to ask; he didn’t nip off the petals but kissed each and every one, since he believed that being kind-hearted pays off best.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘Dear <hi rend="italic">Marguerite Mayweed</hi>!’ he said, ‘You are the wisest woman of all the flowers! You can foretell the future! Tell me, will I get this one or that? And who will it be? Once I know, I can fly straight over and propose!’</p>
+               <p rend="firstIndent" xml:id="p_00003">But <hi rend="italic">Marguerite</hi> gave no reply whatsoever. She didn’t like being called a woman, for she was still a maiden, which isn’t the same thing as a woman. He asked a second time and he asked a third, and when he couldn’t get a single word out of her, he couldn’t be bothered to ask any more, but immediately flew off to start his courting.</p>
+               <p rend="firstIndent" xml:id="p_00004">It was early spring, with <hi rend="italic">snowdrops</hi> and <hi rend="italic">crocuses</hi> everywhere. ‘They are very pretty!’ the <hi rend="italic">butterfly</hi> said, ‘dainty small creatures! but a bit too young.’ Like all strapping young men, he had an eye for older girls. Then he flew over to the <hi rend="italic">anemones</hi>; he found them a bit too tart; the <hi rend="italic">violets</hi> a bit too soulful; the <hi rend="italic">tulips</hi> too ostentatious; the <hi rend="italic">narcissi</hi> too bourgeois; the <hi rend="italic">lime blossom</hi> too small, besides which they had so many kith and kin; the <hi rend="italic">apple blossoms</hi> were admittedly like roses to look at, but they came out one day and fell off the next, just as the wind blew, and that was too short a marriage, in his opinion. The <hi rend="italic">sweet pea</hi> was the one that pleased him most, it was red and white, it was delightful and delectable, belonged to the domestic type of girls who look nice but are also useful in the kitchen; he was just about to propose to her, but at that very moment he saw close by a pea-pod with a withered flower at its tip. ‘Who is that?’ he asked. ‘That’s my sister,’ the <hi rend="italic">sweet pea</hi> replied.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Oh, so that’s what you’ll end up looking like!’ That frightened the <hi rend="italic">butterfly</hi>, and off he flew.</p>
+               <p rend="firstIndent" xml:id="p_00006">The <hi rend="italic">honeysuckle</hi> hung over the fence; it was a profusion of spinsters, long in the face and sallow of complexion, he didn’t fancy that kind at all. Well, what did he fancy then? Ask him.</p>
+               <p rend="firstIndent" xml:id="p_00007">Spring passed, summer passed and autumn came; he was no closer than before. And the flowers decked themselves in their best finery, but what help was that, there was no fresh, fragrant youthful disposition anymore. For it is precisely fragrance that the heart craves with advancing age, and there’s not much in the way of fragrance in <hi rend="italic">dahlias</hi> and <hi rend="italic">hollyhocks</hi>. So the <hi rend="italic">butterfly</hi> flew down to the <hi rend="italic">curled mint</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘It hasn’t a single flower, but it is a whole flower in itself, is fragrance from root to top, has flower scent in every petal. She’s the one for me!’</p>
+               <p rend="firstIndent" xml:id="p_00009">And so at last he proposed.</p>
+               <p rend="firstIndent" xml:id="p_00010">But the <hi rend="italic">curled mint</hi> stood there, stiff and still, and finally it said: ‘Friendship, but nothing more than that! I’m old and you are old! we can certainly live for each other, but marry? No! let’s not make fools of ourselves in our old age!’</p>
+               <p rend="firstIndent" xml:id="p_00011">So the <hi rend="italic">butterfly</hi> never got a wife. He had searched for too long, and one should never do that. The <hi rend="italic">butterfly</hi> became an old bachelor, as people say.</p>
+               <p rend="firstIndent" xml:id="p_00012">It was now late in the autumn, with rain and blustery weather; the wind blew cold down the backs of the old willow trees and made them groan. It was no good flying around outside in summer clothes, for then one would get what’s coming to one, as people say, but the <hi rend="italic">butterfly</hi> didn’t fly outside either, by chance he had come indoors, where there was a lit stove and as warm as in summer, there he could live, but ‘living is not enough!’ he said to himself, ‘one must have sunshine, freedom and a little flower!’</p>
+               <p rend="firstIndent" xml:id="p_00013">And he flew against the window pane, was seen, admired and ended up pinned in a cabinet of curios – nothing more than that could be done for him.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Now I’m on a stalk, just like the flowers!’ the <hi rend="italic">butterfly</hi> said; ‘Though it’s not particularly comfortable! It’s probably like being married, one’s stuck with it!’ and he consoled himself with that.</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Pretty poor consolation that is!’ the <hi rend="italic">pot-flowers</hi> in the living room said.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘But you can never quite believe pot-flowers,’ the <hi rend="italic">butterfly</hi> said to himself, ‘they have too much to do with humans!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

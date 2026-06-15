@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tanker over nogle gamle, forslidte Skoe</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="tanker-over-nogle-gamle-forslidte-skoe" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1830</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Tanker over nogle gamle, forslidte Skoe" xml:id="tanker-over-nogle-gamle-forslidte-skoe">
+<pb n="267"/>
+<div type="source"><source>Fra</source> <sourceTitle>Nyt Repertorium for Moerskabslæsning</sourceTitle>
+<sourceDate>1830</sourceDate></div>
+<pb n="268"/>
+<head type="part">Tanker over nogle gamle, forslidte Skoe</head>
+<head type="sub">(<seg target="txtcmnt-268-01">Bearbeidet efter det Tydske, med nogle smaae Forandringer</seg>)</head>
+<p rend="noIndent" xml:id="p_00564">Naar bare min gode Kone først ret kunde blive enig med mig deri, at hun ved Synet af Eder, I gamle Skoe, ogsaa var ligesaa fornøiet som jeg! »Børnene gjøre os tilsidst fattige, alene med at slide Skoe!« siger hun ofte, og rynker Pande derved, men jeg staaer ved Siden af hende, og veed ikke hvorfor hun skaber sig saa underlig. Hvor der ligger meget forslidt Skoetøi, der ere jo Folkene friske og godt paa Benene, og det er dog bedre at give til Skomageren end til Apothekeren. Naar jeg saaledes seer Eder ligge, I gamle Skoe, bliver jeg ofte staaende stille, saaledes som jeg nu staaer foran Eder. Det menneskelige Liv er dog ikke saa kort, som man sædvanligt troer; naar jeg betænker, hvor meget man maa gaae, og hvor mange Skoe man maa slide, før man naaer til Maalet for vor Vandring; hvem der bliver 80 Aar, har idetmindste slidt 300 Par Skoe, naar han kommer til Enden af sin Reise<note type="footnote"><!--* --><p rend="noIndent"><!--* -->Det forudsættes, at han altid gaaer med Skoe.</p></note>. Herre Gud! det er da intet Under, at man tilsidst bliver ganske mat og træt, ja, at det tager saaledes paa os, at man imod Slutningen er Intet uden Hud og <seg target="txtcmnt-268-02"><!--DATA-TERM: Knokler--><!--DATA-DEFINITION: knogler.-->Knokler</seg>, og tilsidst reent ligger der uden Aande. »Nu er jeg da kommet et godt Stykke videre frem!« udbryder jeg, hver Gang jeg lægger et Par forslidte Skoe ved Siden af de andre i mit Pulterkammer. Nogle Gange er ordentligt Vandet kommet mig i Øinene, og de gamle, forslidte Skoe ere næsten forekomne mig ærværdige. »I gode, brave Kammerater,« saadan har jeg da tiltalt dem, »I have dog gjort mig god Tjeneste! I have bragt mig et stort Stykke nærmere det kjære Fædreneland, hvor man ikke skal slide flere Skoe. Hvor mange tusind Gange, tusind Skridt maa jeg vel have gjort med Eder? Troe have I vandret med mig, ligesom opoffret Eder for mig, ja ret som en tro Ven, der kaster sig over Vennen for at modtage det Dolkestik, der skulde træffe ham, har I beskyttet min Fod mod ethvert Stik og Saar; I have holdt tro ved, til I selv ikke længer kunde holde sammen, og ligge nu her hos Eders brave Kammerater, der ogsaa ærligt opoffrede<pb n="269"/>sig for mig.« Her i Verden have vi intet blivende Sted, og det er ofte faldet mig ind, at Skoene ere ligesom en Art Forspænd; de gamle Skoe spændes fra og de nye for; det maa altid gaae hurtigt fremad; Tiden imellem at spænde for og at spænde fra, er kun et lille, et ganske lille Ophold.</p>
+<p rend="firstIndent" xml:id="p_00565">Mange Mennesker lee ad mig, fordi jeg saaledes vil gjemme paa alle mine gamle Skoe; men hvad kan jeg gjøre for, at de ikke have samme Tanker som jeg, og ikke kunne finde Fornøielse i Sligt. Lad dem kun lee! jeg kan nok taale det, og saa blive vi jo gode Venner.</p>
+<p rend="firstIndent" xml:id="p_00566">Men mig morer det at komme ind i mit Pulterkammer og see lidt til de forrige Tider, og takker da i mit Hjerte min salig Fader for det Indfald, at samle alt mit Skoetøi fra min første Barndom.</p>
+<p rend="firstIndent" xml:id="p_00567">Der ere de smaae, gule <seg target="txtcmnt-269-01"><!--DATA-TERM: Saffian(s)--><!--DATA-DEFINITION: fint læder, oftest af gede- eller fåreskind.-->Saffians</seg>, fingerlange Skoe, de første jeg eiede, med hvilke jeg sprang fra min Moders til min Faders Skjød. Jeg bliver ganske blød om Hjertet ved at betragte Eder! Gud! hvilken lille, afmægtig Skabning var jeg ikke, da jeg hoppede i Eder, og hvad skylder jeg ikke min gode, redelige Moder, for de mange søvnløse Nætter hun da havde for min Skyld.</p>
+<p rend="firstIndent" xml:id="p_00568">Hvor snart maa jeg da ikke være voxet fra Eder, I smaae Skoe; I ere ikke slidte itu; ak, nu er jeg voxet fra Eder og fra alle hine barnlige Lege.</p>
+<p rend="firstIndent" xml:id="p_00569">Der staae de nu allesammen, det ene Par en Smule større end det andet, ligesom Orgel-Piber, og alle ere de slidte itu ude i Spidsen; det kommer af, at vi saa gjerne ville være større end vi ere, og staae derfor saa tidt paa Tæerne.</p>
+<p rend="firstIndent" xml:id="p_00570">»Hvad dog de mange Skoe har kostet Penge,« siger min Kone, og hun har ret, men det har vi jo vundet igjen paa Sundheden; en Dreng, der ret slider mange Skoe, han har Livlighed, og af ham vil der nok blive noget; jeg beder derfor alletider <hi rend="italic">vor Herre</hi> om, at han vil give mig Børn, der slide mange Par Skoe, men jeg har ikke sagt min Kone noget derom, thi hun vilde da rynke Pande, og tro at jeg spøgede med den kjære Gud, og det gjør jeg dog ikke.</p>
+<p rend="firstIndent" xml:id="p_00571">Her staaer nu et Par, de ere nu et godt Stykke større end de kjære, første Børne-Skoe; men hvor disse ere gaaet skjæve; man er i den Alder saa letsindig, man giver sig ikke Tid til ret at trække dem paa og snøre dem; men det er dog en lykkelig Letsind, thi den som da gaaer sine Skoe skjæve, hopper sædvanligt let over Alt, og min salig Fader pleiede altid i sit Hjertes-Eenfoldighed at sige: »hvor Skoene ere skjæve, der er <pb n="270"/>Hjertet endnu lige!« og det er vist en Sandhed, thi naar man først bliver ældre, saa bliver man ogsaa mere omhyggelig om saadanne Ting, saa gaaer denne rene Barnlighed væk; man tænker: »hvad vil Folk sige, naar Du ikke gaaer ordentligt paa Benene, naar Du springer saa barnlig afsted og løber saa uanstændigt, snart paa det ene, snart paa det andet Fortoug?« Ja, ja, naar man først begynder at tale saaledes, saa gaaer man ikke Skoene skjæve, men Hjertet derimod lærer at gaae en Smule skjævt. Lidenskaberne vaagne, og gaaer man saa det første Skridt skjævt, saa falder man let.</p>
+<p rend="firstIndent" xml:id="p_00572">Naar man første Gang er <seg target="txtcmnt-270-01"><!--DATA-TERM: forliebt--><!--DATA-DEFINITION: forelsket.-->forliebt</seg>, og har Haab om at være elsket igjen, da gaaer man ogsaa for første Gang lige paa sine Skoe; men begynder da ikke Hjertet at blive en Smule skjævt? Det lærer at forstille sig, det slaaer uregelmæssigt – – jo, jo, jeg har Ret! jeg behøver kun at see lidt længere hen paa mit Pulterkammer, hvad det er for Par nette, spidse Skoe! dem havde jeg en to Aar efter min Confirmation – da var jeg for første Gang forliebt; de ere ikke skjæve! Det Par min Fader da havde givet mig, vare for brede, og hvorledes kunde jeg vise mig for min Piges Øine med brede Skoe, da de andre unge Menneskers vare saa nydelige spidse? Jeg maatte nødvendigen have nogle andre, men min Fader maatte ikke vide det; jeg tog Pengene af min Sparebøsse, og da min Fader siden spurgte mig om <hi rend="italic">den</hi>, sagde jeg, at jeg endnu ikke havde rørt den. Ak, hvor skjævt var da ikke mit Hjerte, men mine Skoe, de vare smukke, lige.</p>
+<p rend="firstIndent" xml:id="p_00573">Her staaer det Par jeg bar som Brudgom, det fornøier mig, at de see bedre ud, end de forrige! de ere dygtig brugte, men en Mand maa ogsaa <seg target="txtcmnt-270-02"><!--DATA-TERM: nytte--><!--DATA-DEFINITION: drage nytte af, udnytte.-->nytte</seg> Alt, og ikke sætte noget <seg target="txtcmnt-270-03"><!--DATA-TERM: paa Parade--><!--DATA-DEFINITION: til beskuelse; her: stadselig fremtrædelse uden tilsvarende funktion.-->paa Parade</seg>. De ere ikke pyntelige, men de see solide ud, og det er Nytten man her maa see paa; jeg kan opdage paa dem, at jeg da har begyndt at bedre mig; de ere de første, som vise Mandens roligere Gang.</p>
+<p rend="firstIndent" xml:id="p_00574">I have gjort en god Begyndelse, I kjære Brudgoms-Skoe; alle de, der nu staae ved Siden af Eder, ere slidte ganske lige ud ad og benyttede og løbet paa saalænge, til de ere blevne ganske møre, og ikke kunde taale det mindste mere. – Saaledes vil det ogsaa gaae med ham, som har baaret eder, han vil ogsaa saalænge gjøre sin Tjeneste og saalænge bøde paa sig, til han ikke længer kan holde sammen, og, ligesom I, blive lagt ned i sit Kammer under Jorden, for der, med <hi rend="italic">sine</hi> Kammerater at falde hen i Støv.</p>
+<pb n="271"/>
+<p rend="firstIndent" xml:id="p_00575"><seg target="txtcmnt-271-01"><!--DATA-TERM: Naar vil--><!--DATA-DEFINITION: hvornår vil.-->Naar vil</seg> det skee? Hvormange Par Skoe skal jeg endnu bruge, førend jeg har fuldendt mit Livs store Reise? Hvor skal det sidste Par staae?</p>
+<p rend="firstIndent" xml:id="p_00576">Dersom det gaaer mig som de fleste andre, saa vil det sidste Par ikke blive meget slidt: det allerførste, og det allersidste Par Skoe i dette Liv bliver sjeldent opslidt. Bliver jeg gammel, saa vil det vist gaae mig som de fleste gamle Folk, der saa grumme gjerne lade sig gjøre et Par nye Skoe, og ønske at slide dem med godt Helbred; thi, kort før vort Livslys slukkes, flammer det endnu engang iveiret, da forekommer det os, som vi endnu havde meget at bestille og altsaa kunde trænge til nye Skoe, vi faae dem, trække dem, maaskee, et Par Gange paa, og saa drager Døden os ud af denne Verden.</p>
+<p rend="firstIndent" xml:id="p_00577">Men indtil denne Tid vil jeg fornøie mig ved, i mit Pulterkammer, at see paa de ærværdige Levninger af mine gamle Skoe og have mine egne Betragtninger over dem, ja det vil jeg, til jeg gaaer paa de sidste. Amen!</p>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Tanker over nogle gamle, forslidte Skoe. (Bearbejdet efter det Tydske, med nogle smaae Forandringer)" synch="tanker-over-nogle-gamle-forslidte-skoe-bearbejdet-efter-det-tydske-med-nogle-smaae-forandringer">
+<head type="section-comments">Tanker over nogle gamle, forslidte Skoe. (Bearbejdet efter det Tydske, med nogle smaae Forandringer)</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 1, nr. 23, 7. april 1830. BFN 85</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">269,1</cell><cell type="deviation">mig.« &lt; mig.</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">268</cell><cell><row xml:id="txtcmnt-268-01"><cell type="data-term">Bearbejdet efter det Tydske</cell><cell type="data-definition">noget direkte forlæg har ikke kunnet identificeres.</cell></row><row xml:id="txtcmnt-268-02"><cell type="data-term">Knokler</cell><cell type="data-definition">knogler.</cell></row></cell>
+<cell type="page">269</cell><cell><row xml:id="txtcmnt-269-01"><cell type="data-term">Saffian(s)</cell><cell type="data-definition">fint læder, oftest af gede- eller fåreskind.</cell></row></cell>
+<cell type="page">270</cell><cell><row xml:id="txtcmnt-270-01"><cell type="data-term">forliebt</cell><cell type="data-definition">forelsket.</cell></row><row xml:id="txtcmnt-270-02"><cell type="data-term">nytte</cell><cell type="data-definition">drage nytte af, udnytte.</cell></row><row xml:id="txtcmnt-270-03"><cell type="data-term">paa Parade</cell><cell type="data-definition">til beskuelse; her: stadselig fremtrædelse uden tilsvarende funktion.</cell></row></cell>
+<cell type="page">271</cell><cell><row xml:id="txtcmnt-271-01"><cell type="data-term">Naar vil</cell><cell type="data-definition">hvornår vil.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

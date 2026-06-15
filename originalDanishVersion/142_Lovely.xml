@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>‘Lovely!’</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="deilig">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="deilig_modern.xml">moderniseret version</note>
+                                                       <note target="142_Lovely.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The sculptor Alfred, you’re familiar with him, aren’t you? We all were: he was a...</incipit><idno type="image">Deilig-01_2022-03-14.png</idno><popularity>906</popularity><cite>&lt;p&gt;Hans Christian Andersen: ‘Lovely!’. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>livsforloeb</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-30" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-30" who="NHB">formatted</change><change who="NHB" when="2022-09-30">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="‘Lovely!’">
+               <head type="main" rend="‘Lovely!’">‘Lovely!’</head>                <p rend="noIndent" xml:id="p_00001">The sculptor <hi rend="italic">Alfred</hi>, you’re familiar with him, aren’t you? We all were: he was awarded the gold medal, travelled to Italy and returned once more; when he was young, well, he still is of course, but even so ten years or so older than back then.</p>
+               <p rend="firstIndent" xml:id="p_00002">He returned home, paid a visit to one of the small towns of Sealand, the entire town knew about the stranger, knew who he was; a party was held in his honour at one of the wealthiest families, everyone who was something or had something was invited, it was an event, the town knew about it without a drum being beaten, craftsmen’s apprentices and the children of humble parents, a couple of their parents too, stood outside and gazed up at the lowered, lit-up curtains, the night-watchman could imagine he was having a party, so many people were standing on his pitch; there was a sense of pleasure in the air, and inside the home there certainly was pleasure, there was Mr. <hi rend="italic">Alfred</hi>, the sculptor.</p>
+               <p rend="firstIndent" xml:id="p_00003">He related, he narrated, and everyone there listened to him gladly, with unction, but no one more so than an elderly widow of an official, and she agreed with everything that Mr. <hi rend="italic">Alfred</hi> said, a clean sheet of blotting paper that immediately absorbed what was said by Mr. <hi rend="italic">Alfred</hi> and asked for more, very receptive, incredibly ignorant, a female Kasper Hauser.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘I’d love to see <hi rend="italic">Rome</hi>!’ she said, ‘it must be a charming city with all those foreigners who go there, describe Rome for us! what does it look like when you enter the city gate?’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘It’s not easy to describe!’ the young sculptor said. ‘There is a large square; in the middle of it there stands an obelisk that is four thousand years old!’</p>
+               <p rend="firstIndent" xml:id="p_00006">‘An organist!’ the lady exclaimed, she had never heard the word obelisk before; some of the others only just managed to suppress a smile, including the sculptor, but the smile that came to his lips turned into a contemplative gaze, for close to this lady he saw a pair of large, ocean-blue eyes, it was the daughter of the woman who talked, and when one has such a daughter one cannot be simple-minded! The mother was a never-ending fount of questions, the daughter the naiad of beauty that belonged to this spring. How lovely she was! she was something for a sculptor to look at, but not to speak with, for she said nothing, or at least very little indeed.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Does the pope have a large family?’ the lady asked.</p>
+               <p rend="firstIndent" xml:id="p_00008">And the young man answered as if the question could have been better put: ‘No, he does not come from a large family!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘I didn’t mean that!’ the lady said; ‘I meant, does he have a wife and children?’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘The pope is not allowed to marry!’ he replied.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘I don’t like that!’ the lady replied.</p>
+               <p rend="firstIndent" xml:id="p_00012">She could have asked and spoken more astutely, but if she hadn’t asked and talked as she did, would her daughter have leaned against her shoulder in that way and gazed with this almost touching smile?</p>
+               <p rend="firstIndent" xml:id="p_00013">And Mr. <hi rend="italic">Alfred</hi> spoke, spoke of the glowing colours of Italy, the blue-tinged mountains the blue Mediterranean, a beauty that was only surpassed in the North in the blue eyes of the Nordic woman. And this was said with an implied addressee, but the one who was intended to understand it did not reveal that she had understood it; and that too was lovely!</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Italy!’ some people sighed, ‘to travel!’ others sighed. ‘Lovely! lovely!’</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Yes, and when I win those fifty thousand thalers in the lottery,’ the widow said, ‘I will travel! I and my daughter, and you, Mr. <hi rend="italic">Alfred</hi>! you shall be our guide! The three of us will travel together! along with a couple of other friends!’ and she nodded agreeably to all of them, each one was allowed to believe, I’m the one who’s going to accompany them. ‘We want to go to Italy! but not where there are robbers, we will stay in Rome and on the main highways where it is safe!’</p>
+               <p rend="firstIndent" xml:id="p_00016">And her daughter gave a little sigh; how much can be contained in a little sigh, or imputed to be; the young man imputed a great deal; the two blue eyes that evening lit up hidden treasures for him, treasures of the mind and heart, as rich as all the splendours of <hi rend="italic">Rome</hi>, and when he left the party, well, he was gone – gone on the young lady completely.</p>
+               <p rend="firstIndent" xml:id="p_00017">The widow’s house became the one that Mr. <hi rend="italic">Alfred</hi>, of all houses, visited the most; people realised that it couldn’t be on account of the mother, despite the fact that he and she did all the speaking, it had to be for the daughter’s sake that he came. She was known as <hi rend="italic">Kala</hi>, her full name being <hi rend="italic">Karen Malene</hi>, which was shortened to the single name <hi rend="italic">Kala</hi>; she was lovely, but somewhat languid, one or two people said; she liked to lie in bed for a long while in the morning.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘She’s used to that since childhood!’ her mother said, ‘she’s always been a child of Venus, and they tire so easily. She lies in rather late, but that is what gives her such bright eyes!’</p>
+               <p rend="firstIndent" xml:id="p_00019">And what power these bright eyes had! these ocean-blue waters; the still waters that run deep, this the young man sensed, for he was held fast in these depths. – He related and narrated, and her <hi rend="italic">Mama</hi> continued to ask just as eagerly, cheerfully and liberally as at their first meeting.</p>
+               <p rend="firstIndent" xml:id="p_00020">It was a pleasure to hear Mr. <hi rend="italic">Alfred</hi> relate; he talked about <hi rend="italic">Naples</hi>, about walks on the slopes of Vesuvius and illustrated this with coloured pictures of several of the eruptions. And the widow had never heard about it before or been given it to consider.</p>
+               <p rend="firstIndent" xml:id="p_00021">‘Saints preserve us!’ she said, it’s a fire-spouting mountain! can’t people risk getting hurt by it?’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Entire cities have been destroyed!’ he answered, ‘<hi rend="italic">Pompeii</hi> and <hi rend="italic">Herculaneum</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00023">‘But the poor, unfortunate people! and all of this you have seen yourself!’</p>
+               <p rend="firstIndent" xml:id="p_00024">‘No, I have none of the eruptions here in the illustrations, but I will show you in a drawing I have done myself what the eruption was like when I saw it!’</p>
+               <p rend="firstIndent" xml:id="p_00025">And he took out a sketch done in pencil, and Mama, who was still full of impressions from looking at the brightly coloured pictures, looked at the pale pencil sketch and exclaimed in surprise: ’’You’ve seen it spouting white!’</p>
+               <p rend="firstIndent" xml:id="p_00026">For a moment Mr. <hi rend="italic">Alfred’s</hi> deep respect for Mama was shaken, but then, in the light of <hi rend="italic">Kala</hi>, he realised that her mother had no sense of colour, that was all, she had the best, the most beautiful instead, she had <hi rend="italic">Kala</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00027">And <hi rend="italic">Alfred</hi> became engaged to <hi rend="italic">Kala</hi>, it all seemed so sensible; and the betrothal stood in the town’s newspaper. Mama acquired thirty copies of it, in order to cut out the announcement and place it in letters to friends and acquaintances. And the engaged couple were happy and so was mother-in-law, she was so to speak now almost part of the Thorvaldsen family.</p>
+               <p rend="firstIndent" xml:id="p_00028">‘You are his successor, after all!’ she said.</p>
+               <p rend="firstIndent" xml:id="p_00029">And <hi rend="italic">Alfred</hi> thought she had said something quite clever. <hi rend="italic">Kala</hi> didn’t say anything, but her eyes shone, there was a smile on her lips, every movement was lovely; and she herself was lovely – it can’t be repeated too often.</p>
+               <p rend="firstIndent" xml:id="p_00030"><hi rend="italic">Alfred</hi> did a bust of <hi rend="italic">Kala</hi> and mother-in-law; they sat for him and saw how he smoothed and shaped the soft clay with his fingers.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘It is of course for our sake,’ mother-in-law said, ‘that you do the simple work yourself, and don’t let your assistant slap it together!’</p>
+               <p rend="firstIndent" xml:id="p_00032">‘It is strictly necessary for me to shape it in the clay!’ he said.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘Yes, you really are so extremely gallant!’ Mama said, and <hi rend="italic">Kala</hi> quietly squeezed his hand, which had clay on it.</p>
+               <p rend="firstIndent" xml:id="p_00034">And he explained to them both the wonder of Nature in creation, how the living ranked above the dead, the vegetable above the mineral, the animal above the vegetable, the human above the animal; how mind and beauty revealed themselves through outward form and that the sculptor rendered earthly form of the most wonderful in its actual revelation.</p>
+               <p rend="firstIndent" xml:id="p_00035"><hi rend="italic">Kala</hi> stood silent, weighing up the thought he had expressed, and mother-in-law admitted:</p>
+               <p rend="firstIndent" xml:id="p_00036">‘It’s difficult to follow! But I do so slowly in my thoughts, and they buzz a bit, but I hold on tight!’</p>
+               <p rend="firstIndent" xml:id="p_00037">And her loveliness held him tight, it filled him, enthralled him and governed him. The loveliness shone out of <hi rend="italic">Kala’s</hi> entire appearance, out of her gaze, the corners of her mouth, from the very movement of her fingers, this <hi rend="italic">Alfred</hi> expressed, and he, the sculptor, understood it, he only spoke of her, only thought of her, the two of them became one, and in that way she also said a great deal, for he said a very great deal.</p>
+               <p rend="firstIndent" xml:id="p_00038">This was the time of their engagement, now the wedding came with bridesmaids and wedding gifts, and they were mentioned in the wedding speech.</p>
+               <p rend="firstIndent" xml:id="p_00039">In the bride’s house mother-in-law had placed Thorvaldsen’s bust at the end of the table draped in a dressing gown, he was to be a guest, this was her idea; songs were sung and toasts were drunk, it was an enjoyable wedding, a delightful couple: ‘Pygmalion won his Galathea’ it said in one of the songs: ‘But that’s all in mythology!’ mother-in-law said.</p>
+               <p rend="firstIndent" xml:id="p_00040">The following day the young couple travelled to Copenhagen to live there and start a home, mother-in-law went along too to take care of the heavy work! she said, running the household, in other words. <hi rend="italic">Kala</hi> was to sit in a doll’s house! Everything was new, shiny and lovely! There they sat the three of them – and <hi rend="italic">Alfred</hi>, to use a saying that illustrates how he sat, he sat there like a pig in clover.</p>
+               <p rend="firstIndent" xml:id="p_00041">The magic of form had bewitched him, he had looked at the casing and not at what was inside the case and that is unfortunate, most unfortunate in a marriage; if the case comes unstuck and the golden glitter falls off, one regrets the deal. At a large party it is extremely uncomfortable to notice one has lost both buttons to one’s braces and to know that one cannot rely on one’s belt, for one has no belt, but it is even worse at a large party to notice that one’s wife and mother-in-law say stupid things and not be able to rely on finding a witty remark to dispel any stupidity.</p>
+               <p rend="firstIndent" xml:id="p_00042">So often the young married couple sat there hand in hand, and he spoke and she dripped an occasional word, the same tune always, the same two or three chiming notes. It was a spiritual breath of fresh air when <hi rend="italic">Sophie</hi>, one of her friends, came.</p>
+               <p rend="firstIndent" xml:id="p_00043"><hi rend="italic">Sophie</hi> was no beauty; well, she had no defect of any kind, she was admittedly a bit lopsided, <hi rend="italic">Kala</hi> said, but nothing more than that, only close friends could see it; she was a very sensible girl though it didn’t occur to her that in this case that could prove dangerous. She was a breath of fresh air in the doll’s house, and fresh air was needed, all of them realised that; and so they took an airing, mother-in-law and the young couple travelled to Italy.</p>
+               <p rend="firstIndent" xml:id="p_00044">‘God be praised that we’re back home in our own country again!’ mother and daughter said, when the following year all three of them returned.</p>
+               <p rend="firstIndent" xml:id="p_00045">‘It’s no pleasure travelling!’ mother-in-law said, ‘it’s really rather boring! excuse me for saying so. I felt bored, even though I had my children with me, and it’s expensive, very expensive to travel! All the galleries one has to visit! All one has to run around after! one can’t really do anything else when one is going to return home and be questioned about everything! and then one has to put up with hearing that the loveliest of all I forgot to go and see. I finally got bored with those never-ending madonnas, one ends up as a madonna oneself!’</p>
+               <p rend="firstIndent" xml:id="p_00046">‘Not to mention the food!’ <hi rend="italic">Kala</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00047">‘Not an honest meat broth in sight!’ Mama said. ‘Their cooking isn’t up to much!’</p>
+               <p rend="firstIndent" xml:id="p_00048">And <hi rend="italic">Kala</hi> had been so fatigued by the travelling, so permanently fatigued, that was worst of all. <hi rend="italic">Sophie</hi> came and visited, which did a lot of good.</p>
+               <p rend="firstIndent" xml:id="p_00049">One had to admit, mother-in-law said, that <hi rend="italic">Sophie</hi> understood housekeeping and art and everything which she personally could not afford, and in addition she was utterly honest, extremely faithful; she showed this clearly when <hi rend="italic">Kala</hi> lay ill there and started to pine.</p>
+               <p rend="firstIndent" xml:id="p_00050">If the case is all there is, the case will have to hold on, otherwise the case is finished – as the case was here – <hi rend="italic">Kala</hi> died.</p>
+               <p rend="firstIndent" xml:id="p_00051">‘She was so lovely!’ her mother said, ‘she was really something else than the antiques, they are so battered about! <hi rend="italic">Kala</hi> was all in one piece and that’s how something beautiful should be!’</p>
+               <p rend="firstIndent" xml:id="p_00052">Alfred wept and her mother wept and both of them wore black, Mama in particular and she wore black longest, was in mourning longest, and her grief was compounded by the fact that <hi rend="italic">Alfred</hi> remarried, he took <hi rend="italic">Sophie</hi>, who was not good-looking at all.</p>
+               <p rend="firstIndent" xml:id="p_00053">‘He’s gone to extremes!’ mother-in-law said, ‘gone from the loveliest to the ugliest, he has managed to forget his first wife. There’s no stamina in men whatsoever! my husband was different! He also died before me!’</p>
+               <p rend="firstIndent" xml:id="p_00054">‘Pygmalion won his Galathea!’ <hi rend="italic">Alfred</hi> said, yes, it was in the wedding song; I really had fallen in love with a lovely statue that came to life in my arms! but the related soul that heaven sends us, one of its angels that can feel with us, think with us, lift us up when we are down, I have only now found and won. You came, <hi rend="italic">Sophie</hi>! Not in beauty of form, in radiance, but good enough, more beautiful than was necessary! The main thing is the main thing! You came and taught the sculptor that his work is only clay, dust, only an imprint in this of the inner core, that which we ought to seek. Poor <hi rend="italic">Kala</hi>! our earthly life was like a life spent travelling! up there, where one comes together in mutual sympathy, we are perhaps half-strangers to each other!’</p>
+               <p rend="firstIndent" xml:id="p_00055">‘That wasn’t a very kind thing to say,’ <hi rend="italic">Sophie</hi> said, ‘that wasn’t Christian! up there where there are no marriages, but, as you say, souls come together out of mutual sympathy, there where all that is wonderful unfolds and takes flight, her soul will perhaps ring out with such great power that it will be louder than mine, and you – you will once more exclaim as you did when you first fell in love: Lovely, lovely!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

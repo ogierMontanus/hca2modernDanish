@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Tinder-Box</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+                      <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="fyrtoeiet">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="fyrtoeiet_modern.xml">moderniseret version</note>
+                                                       <note target="6_The-Tinder-Box.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>A soldier came marching along the highway: left, right! left, right! He had his ...</incipit><idno type="image">Fyrtoeiet_forside.png</idno><popularity>994</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Tinder-Box. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+                      Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>trylleeventyr</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-04-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-04-27" xml:id="XX" who="XX">enter your initials @xml:id and keep a protocol of revisions</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+               <div rend="The Tinder-Box">
+                    <head type="main" rend="The Tinder-Box">The Tinder-Box</head>                <p rend="noIndent" xml:id="p_00001">A soldier came marching along the highway: left, right! left, right! He had his knapsack on his back and a sword at his side, for he had been out fighting a war, and now he was on his way home. Out on the highway he met an old witch – she was so ugly, her lower lip hung right down on her chest. She said: ‘Good evening, soldier! What a fine sword and a large knapsack you have, you’re a real soldier! Now you’re going to have as much money as you want to own!’</p>
+                    <p rend="firstIndent" xml:id="p_00002">‘Thank you, you old witch!’ the soldier said.</p>
+                    <p rend="firstIndent" xml:id="p_00003">‘Can you see that big tree?’ the witch said, pointing at a tree that stood next to them. ‘It’s completely hollow inside! You’re to clamber up to the top of it and there you’ll see a hole you can let yourself slide down through and get deep inside the tree! I’ll bind a rope round your waist, for then I can haul you up when you give me a shout!’</p>
+                    <img src="0006_HCA-XVIII-I-27-0034.jpg" ref="p_00004" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00004">‘What am I to do down in the tree?’ the soldier asked.</p>
+                    <p rend="firstIndent" xml:id="p_00005">‘Fetch money!’ the witch said, ‘now when you get down to the bottom of the tree, you’ll find yourself in a large hallway that is quite bright, for more than a hundred lamps burn there. Then you will see three doors, you can open them, the keys are in the locks. When you enter the first room, you’ll see a large chest in the middle of the floor with a dog sitting on top; it’s got eyes the size of saucers, but don’t you worry about that! I’ll give you my blue-checked apron, you can spread it out on the floor – then go over quickly and pick up the dog, place him on the apron, open the chest and take as many coins as you like. They are all made of copper, but if you would rather have silver coins, you must go into the next room, but the dog sitting there has a pair of eyes that are as big as mill-wheels, but don’t you worry yourself about that, place him on my apron and help yourself to the money! If gold is more to your liking, though, you can have that, and as much as you’re prepared to carry, when you go into the third room. But the dog sitting on the money chest there has two eyes each of which is a big as the Round Tower. Now that’s a real dog, believe you me! But don’t you worry about that! Just place him on my apron and he won’t do you any harm, and take as much gold as you like out of the chest!’</p>
+                    <p rend="firstIndent" xml:id="p_00006">‘That doesn’t sound at all bad!’ the soldier said. ‘But what am I to give you, you old witch? For you’ll want me to get something for you, I imagine!’</p>
+                    <p rend="firstIndent" xml:id="p_00007">‘No,’ the witch said, ‘I don’t want a single penny! All you need fetch for me is an old tinder-box that my grandmother forgot last time she was down there!’</p>
+                    <p rend="firstIndent" xml:id="p_00008">‘Right, then! Fix the rope round my waist!’ the soldier said.</p>
+                    <p rend="firstIndent" xml:id="p_00009">‘Here it is!’ the witch said, ‘and here is my blue-checked apron.’</p>
+                    <p rend="firstIndent" xml:id="p_00010">Then the soldier clambered up into the tree, let himself tumble down into the hole and now, as the witch had said, he found himself standing in a large hallway where many hundreds of lamps were burning.</p>
+                    <img src="0006_HCA-XVIII-I-27-0033.jpg" ref="p_00011" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00011">He now opened the first door. Uh! There sat the dog with eyes as big as saucers glaring at him.</p>
+                    <p rend="firstIndent" xml:id="p_00012">‘You’re a nice-looking chap!’ the soldier said, placed him on the witch’s apron and took just as many copper coins as would fit into his pockets, closed the chest, put the dog back on it again and went into the second room. Ooh! There sat the dog with eyes as big as mill-wheels.</p>
+                    <p rend="firstIndent" xml:id="p_00013">‘You shouldn’t stare at me so much!’ the soldier said, ‘it might hurt your eyes!’ And he placed the dog on the witch’s apron, but when he saw the many silver coins in the chest, he threw away all the copper coins he had and filled his pockets and his knapsack with pure silver. Now he went into the third room! Oh no, this was ghastly! The dog there really did have two eyes each as big as the Round Tower. And they spun round in his face, just like wheels!</p>
+                    <img src="0006_HCA-XVIII-I-27-0035.jpg" ref="p_00014" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00014">‘Good evening!’ the soldier said, raising his hand to his peaked cap, for he had never seen a dog like it before; but when he had looked at it for a bit, he thought that enough’s enough, lifted him down onto the floor and opened the chest – goodness gracious! How much gold there was! He could buy all of Copenhagen, and the cake-women’s sugar-pigs, all the tin-soldiers, whips and rocking horses that existed in the whole world! Yes, this was money all right! Now the soldier threw away all the silver coins he had filled his pockets and his knapsack with and took the gold ones instead, yes, he crammed all his pockets, the knapsack, his cap and his boots full, so he was scarcely able to walk! Now he really had money! He put the dog back on the chest, slammed the door shut and shouted out up the tree: ‘Haul me up now, you old witch!’</p>
+                    <p rend="firstIndent" xml:id="p_00015">‘Have you got the tinder-box with you?’ the witch asked.</p>
+                    <p rend="firstIndent" xml:id="p_00016">‘Oh yes, that’s right,’ the soldier said, ‘I’d completely forgotten about that!’ and he went and took it. The witch hauled him up, and there he was again on the highway, with his pockets, boots, knapsack and cap full of money.</p>
+                    <p rend="firstIndent" xml:id="p_00017">‘What are you going to use that tinder-box for?’ the soldier asked.</p>
+                    <p rend="firstIndent" xml:id="p_00018">‘None of your business!’ the witch said, ‘you’ve got all your money! Just give me the tinder- box!’</p>
+                    <p rend="firstIndent" xml:id="p_00019">‘Stuff and nonsense!’ the soldier said, ‘tell me at once what you’re going to use it for, or I’ll draw my sword and cut off your head!’</p>
+                    <p rend="firstIndent" xml:id="p_00020">‘No!’ the witch said.</p>
+                    <p rend="firstIndent" xml:id="p_00021">Then the soldier cut off her head. There she lay! But he bound up all his money in her apron, took it as a bundle on his back, stuffed the tinder-box into his pocket and went straight off to the town.</p>
+                    <p rend="firstIndent" xml:id="p_00022">It was a fine town, and he put up at the finest inn, ordered the very best rooms and the food he was most fond of, for now he was rich as he had so much money.</p>
+                    <p rend="firstIndent" xml:id="p_00023">The servant who was to polish his boots indeed felt that they were a queer old pair of boots for such a rich man to have, but the soldier hadn’t bought himself a new pair yet; the following day he bought himself a proper pair, and splendid clothes as well! Now the soldier had become a fine gentleman, and they told him about all the great doings of the town, about their king, and what a lovely princess his daughter was.</p>
+                    <p rend="firstIndent" xml:id="p_00024">‘Where can one get to see her?’ the soldier asked.</p>
+                    <p rend="firstIndent" xml:id="p_00025">‘She can’t be seen at all!’ they all said. ‘she lives in a large copper castle, with so many walls and towers around it! No one except the king dares go in to her, because it has been foretold that she will marry a simple soldier, and the king doesn’t like the idea one bit!’</p>
+                    <p rend="firstIndent" xml:id="p_00026">‘Now she’s someone I would like to see!’ the soldier thought to himself – but he would never be allowed to do that!</p>
+                    <p rend="firstIndent" xml:id="p_00027">He now led a gay life, went to the theatre, drove in the Royal Gardens and gave the poor lots of money – and that was nobly done! He knew from his own past how terrible it was not to have a penny! now he was rich, had splendid clothes, and gained a great number of friends as well, and all of them said what a fine fellow he was, a real gentleman – and the soldier liked all of this! But since he spent money every day and did not have any money coming in, he finally ended up with only a couple of small coins left and had to move out of the fine rooms where he had been living and up into a tiny attic room, polish his own boots and sew them with a darning needle, and none of his friends came to see him, for there were so many stairs to climb.</p>
+                    <p rend="firstIndent" xml:id="p_00028">It was so dark in the evening, and he couldn’t even afford to buy himself a candle, but then he remembered that there was a small stump left in the tinder-box he had taken in the hollow tree that the witch had helped him down inside. He took out the tinder-box and the candle-stump, but just as he struck a light and the sparks flew off the flintstone, the door burst open, and the dog that had eyes as big as a saucers, and that he had seen down in the tree, stood in front of him and asked: ‘What does my master command!’</p>
+                    <p rend="firstIndent" xml:id="p_00029">‘Good gracious!’ the soldier said, ‘this is a funny tinder-box – can I have whatever I want? Get me some money,’ he said to the dog and whoosh, it was gone! Whoosh, there it was again, and in its jaws it was holding a bag full of coins.</p>
+                    <p rend="firstIndent" xml:id="p_00030">Now the soldier realised what a wonderful tinder-box it was! If he struck it once, the dog that sat on the chest with the copper coins came, if he struck it twice, the one with the silver coins, and if he struck it three times, the one that had gold. Now the soldier moved back into his beautiful rooms, put on his splendid clothes, and immediately all his friends recognised him once more, and were extremely fond of him.</p>
+                    <p rend="firstIndent" xml:id="p_00031">Then he thought to himself: It’s really is very odd that there is no way of getting to see the princess! Everyone says that she is so lovely! But what’s the use of that if she has to sit all the time inside the great copper castle with the many towers. Can’t I get to see her at all? Where’s my tinder-box! And he struck a light and whoosh, there was the dog with eyes as big as saucers.</p>
+                    <p rend="firstIndent" xml:id="p_00032">‘I know it’s the middle of the night,’ the soldier said, ‘but I so much wish to see the princess, just for a brief moment!’</p>
+                    <p rend="firstIndent" xml:id="p_00033">The dog was out of the door in no time, and before the soldier had time to think, there he was again with the princess – she lay sleeping on the dog’s back and was so lovely that anyone could see she was a genuine princess; the soldier couldn’t help himself, he simply had to kiss her, for he was a real soldier.</p>
+                    <p rend="firstIndent" xml:id="p_00034">The dog then ran back with the princess, but when morning came, and the king and queen were pouring out the tea, the princess said that she had dreamt such a strange dream that night about a dog and a soldier. She had ridden on the dog, and the soldier had kissed her.</p>
+                    <p rend="firstIndent" xml:id="p_00035">‘That’s a pretty story, to be sure!’ the queen said.</p>
+                    <p rend="firstIndent" xml:id="p_00036">Now one of the old ladies-in-waiting was to watch beside the princess’s bed the following night, to see if it was really a dream, or what else it could possibly be.</p>
+                    <p rend="firstIndent" xml:id="p_00037">The soldier so longed to see the lovely princess once more, and then the dog came at night, fetched her and ran as fast as it could, but the old lady-in-waiting put waterproof boots on and ran just as fast after it; when she saw that they disappeared into a large house, she thought to herself, now I know where it is, and drew a large chalk cross on the door. Then she went home and lay down, and the dog came once more with the princess; but when it saw that a cross had been drawn on the door where the soldier lived, it took another piece of chalk and drew crosses on all the doors in the whole town, and that was a wise thing to do, for of course the lady-in-waiting couldn’t find the right door, now that there were crosses on all of them.</p>
+                    <p rend="firstIndent" xml:id="p_00038">Early the next morning, the king and queen, the old lady-in-waiting and all the officers came to see where the princess had been!</p>
+                    <p rend="firstIndent" xml:id="p_00039">‘There it is!’ the king said, when he saw the first door with a cross on it.</p>
+                    <p rend="firstIndent" xml:id="p_00040">‘No, it’s over there, my dear husband!’ the queen said, who saw another door with a cross on it. But there’s one there and one there!’ they all said – wherever they looked, there were crosses on the doors. Then they realised that there was no point in looking any further.</p>
+                    <p rend="firstIndent" xml:id="p_00041">But the queen was indeed a very wise woman, one who could do a lot more than just drive around in a carriage. She took her large gold scissors, cut a large piece of silk into small pieces, and then sewed a nice little bag out of them; this she filled with small, fine grains of buckwheat, bound it to the back of the princess, and when that was done, she made a small hole in the bag, so the grains could trickle out wherever the princess went.</p>
+                    <p rend="firstIndent" xml:id="p_00042">That night the dog came again, took the princess on its back and ran with her back to the soldier, who was so fond of her, and would dearly have liked to be a prince so he could marry her.</p>
+                    <p rend="firstIndent" xml:id="p_00043">The dog didn’t notice at all that the grains trickled out all the way from the castle to the soldier’s window when he clambered up the wall with the princess. The next morning, the king and queen could clearly see where their daughter had been, and they had the soldier seized and thrown into jail.</p>
+                    <p rend="firstIndent" xml:id="p_00044">There he sat. Uh, how dark and unpleasant it was, and then they said to him: Tomorrow you’re going to be hanged. That was not a nice thing to hear, and he had forgotten his tinder-box back at the inn. When morning came, he could see through the iron bars of the tiny window how people were hurrying out of the town to see him be hanged. He heard the drums and saw the soldiers marching. Everyone hurried off; there was also a cobbler’s boy with a leather apron and clogs on, he ran at such a pace that one of his clogs flew off and struck the wall where the soldier was standing looking out between the bars.</p>
+                    <p rend="firstIndent" xml:id="p_00045">‘Hey, cobbler’s boy! Don’t be in such a hurry!’ the soldier said to him, ‘nothing’s going to happen before I turn up! But if you’re prepared to run over to where I have been living and fetch me my tinder-box, I’ll give you four shillings! But you must be quick about it!’ The cobbler’s boy was eager to get the four shillings, and off he shot to fetch the tinder-box, gave it to the soldier, and – well now we will hear what happened after that!</p>
+                    <p rend="firstIndent" xml:id="p_00046">Outside the town a large gallows had been raised, around it the soldiers stood along with many hundreds and thousands of people. The king and queen sat on a fine throne opposite the judge and the entire council.</p>
+                    <p rend="firstIndent" xml:id="p_00047">The soldier was already up on the ladder, but when they wanted to put the noose round his neck, he said that it was always the custom to let a sinner have an innocent wish fulfilled before facing his punishment. He would like to smoke a pipeful of tobacco, for that would be the last pipeful he would ever have in this world.</p>
+                    <img src="0006_HCA-XVIII-I-27-0036.jpg" ref="p_00048" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00048">Now the king wouldn’t deny him that, and so the soldier took his tinder-box and struck a light – one, two, three! And there all the dogs stood, the one with eyes as big as saucers, the one with eyes like mill-wheels and the one that had eyes as big as the Round Tower.</p>
+                    <p rend="firstIndent" xml:id="p_00049">‘Save me from being hanged!’ the soldier said, and then the dogs went after the judges and the entire council, took one by the legs and one by the nose and flung them way up into the air, so they fell down and were smashed to pieces.</p>
+                    <p rend="firstIndent" xml:id="p_00050">‘I won’t!’ the king said, but the biggest dog took both him and the queen, and flung them up after all the others; then the soldiers took fright and everyone shouted: ‘Little soldier, you shall be our king and have the lovely princess!’</p>
+                    <p rend="firstIndent" xml:id="p_00051">Then they placed the soldier in the royal carriage, and all three dogs danced in front of it and shouted ‘Hurrah!’ And the boys whistled through their fingers and the soldiers presented arms. The princess came out of the copper castle and became queen, and she liked that! The wedding lasted for eight days, and the dogs sat there at the table, their eyes open wide.</p>
+               </div>
+               
+               
+          </body>
+                         </text>
+                    </TEI>

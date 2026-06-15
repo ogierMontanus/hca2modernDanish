@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En Comedie i det Grønne</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Opført første gang 13. maj 1840 på Det Kongelige Teater. Udkom første gang 27. oktober 1840 som nr. 124 af serien <hi rend="italic">Det Kongelige Theaters Repertoire.</hi> BFN 390</p><hi rend="italic">Det Kongelige Theaters Repertoire.</hi><p rend="firstIndent">Partitur: CII, 114i Tv.Fol. (musikhåndskrifter). Der kan henvises til CD’en <hi rend="italic">H.C. Andersen – Tre vaudeviller</hi>, DCD 8216, 2000 Danica Records, indeholdende bl.a. indspilninger af <hi rend="italic">En Comedie i det Grønne</hi>, <hi rend="italic">En Nat i Roeskilde</hi>, <hi rend="italic">Mikkels Kjærlighedshistorier i Paris.</hi></p><hi rend="italic">H.C. Andersen – Tre vaudeviller</hi><hi rend="italic">En Comedie i det Grønne</hi><hi rend="italic">En Nat i Roeskilde</hi><hi rend="italic">Mikkels Kjærlighedshistorier i Paris.</hi><p rend="firstIndent">H.C. Andersens forlæg er et fransk lystspil, <hi rend="italic">La fête de campagne ou l’intendant comédien malgré lui</hi>, dansk <hi rend="italic">Skuespilleren imod sin Villie eller Comedien <pb n="609"/>paa Landet</hi>, 1775, af L.F.A. Dorvigny, bearbejdet af A. v. Kotzebue. Bearbejdelsen oversat af N.T. Bruun; opført på Det Kongelige Teater 1809.</p><hi rend="italic">La fête de campagne ou l’intendant comédien malgré lui</hi><hi rend="italic">Skuespilleren imod sin Villie eller Comedien <pb n="609"/>paa Landet</hi><pb n="609"/>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">11:<hi rend="italic"> Skuespil II 1836-1842</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-comedie-i-det-groenne" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: En Comedie i det Grønne. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 11:&lt;i&gt; Skuespil II 1836-1842&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Opført første gang 13. maj 1840 på Det Kongelige Teater. Udkom første gang 27. oktober 1840 som nr. 124 af serien &lt;i&gt;Det Kongelige Theaters Repertoire.&lt;/i&gt; BFN 390&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Partitur: CII, 114i Tv.Fol. (musikhåndskrifter). Der kan henvises til CD’en &lt;i&gt;H.C. Andersen – Tre vaudeviller&lt;/i&gt;, DCD 8216, 2000 Danica Records, indeholdende bl.a. indspilninger af &lt;i&gt;En Comedie i det Grønne&lt;/i&gt;, &lt;i&gt;En Nat i Roeskilde&lt;/i&gt;, &lt;i&gt;Mikkels Kjærlighedshistorier i Paris.&lt;/i&gt;&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;H.C. Andersens forlæg er et fransk lystspil, &lt;i&gt;La fête de campagne ou l’intendant comédien malgré lui&lt;/i&gt;, dansk &lt;i&gt;Skuespilleren imod sin Villie eller Comedien paa Landet&lt;/i&gt;, 1775, af L.F.A. Dorvigny, bearbejdet af A. v. Kotzebue. Bearbejdelsen oversat af N.T. Bruun; opført på Det Kongelige Teater 1809.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;<pb n="609"/>
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0158">Første Scene</cell>
+                                                       
+                                                            <cell ref="#div0159">Anden Scene</cell>
+                                                       
+                                                            <cell ref="#div0160">Tredie Scene</cell>
+                                                       
+                                                            <cell ref="#div0161">Fjerde Scene</cell>
+                                                       
+                                                            <cell ref="#div0162">Femte Scene</cell>
+                                                       
+                                                            <cell ref="#div0163">Sjette Scene</cell>
+                                                       
+                                                            <cell ref="#div0164">Syvende Scene</cell>
+                                                       
+                                                            <cell ref="#div0165">Ottende Scene</cell>
+                                                       
+                                                            <cell ref="#div0166">Niende Scene</cell>
+                                                       
+                                                            <cell ref="#div0167">Tiende Scene</cell>
+                                                       
+                                                            <cell ref="#div0168">Ellevte Scene</cell>
+                                                       
+                                                            <cell ref="#div0169">Tolvte Scene</cell>
+                                                       
+                                                            <cell ref="#div0170">Trettende Scene</cell>
+                                                       
+                                                            <cell ref="#div0171">Fjortende Scene</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-22" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-22" who="NHB">formatted</change><change who="NHB" when="2024-01-23" status="draft">med sp. Wellformed</change><change who="NHB" when="2024-01-23" status="draft">stage type="setting"</change><change who="NHB" when="2024-01-24" status="draft">anvendt regex'er</change><change who="NHB" when="2024-01-24" status="draft">parenteser fjernet fra stage i Maurerpigen</change><change who="NHB" when="2024-01-24" status="draft">indtil s. 23</change><change who="NHB" when="2024-01-25" status="draft">s. 57</change><change who="NHB" when="2024-01-25" status="draft">til s. 74</change><change who="NHB" when="2024-01-26" status="draft">s. 104</change><change who="NHB" when="2024-01-26" status="draft">"116"</change><change who="NHB" when="2024-01-27" status="draft">indsat date</change><change who="NHB" when="2024-01-30" status="draft">indtil s. 143</change><change who="NHB" when="2024-01-30" status="draft">indtil "174"</change><change who="NHB" when="2024-01-31" status="draft">"184"</change><change who="NHB" when="2024-02-01" status="draft">"241"</change><change who="NHB" when="2024-02-06" status="draft">date &gt; performance. Added subtype=foreign</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="En Comedie i det Grønne" xml:id="en-comedie-i-det-groenne">
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">En Comedie i det Grønne</titlePart>
+
+<titlePart type="part"><seg target="txtcmnt-383-01"><!--DATA-TERM: Vaudeville--><!--DATA-DEFINITION: let, tit satirisk lystspil med indlagte sange.-->Vaudeville</seg> i een Act</titlePart>
+<titlePart type="part"><date>1840</date></titlePart></docTitle>
+
+<docImprint>
+<performance><source subtype="foreign">Opført første gang 13. maj 1840</source></performance></docImprint>
+</titlePage>
+<pb n="384"/>
+
+<castList>
+<head>Personerne</head>
+
+<castItem><role>FRANK</role><roleDesc>, Inspecteur hos en Greve</roleDesc><actor><seg target="txtcmnt-384-01">Hr. <hi rend="italic">Stage</hi></seg></actor></castItem>
+
+<castItem><role>DALBY</role><roleDesc>, Skuespildirecteur ved et reisende Selskab,</roleDesc><actor/></castItem>
+<castItem><role/><roleDesc>, Skuespildirecteur ved et reisende Selskab,</roleDesc><actor/></castItem>
+<castItem><role/>
+<roleDesc>forklædt som: Gaardskarl,</roleDesc><actor/></castItem>
+<castItem><role/>
+<roleDesc>     Haarskjærer,</roleDesc><actor/></castItem>
+<castItem><role/>
+<roleDesc>     Theatermaler,</roleDesc><actor/></castItem><castItem><role/>
+<roleDesc>     Poet,</roleDesc><actor/></castItem><castItem><role/>
+<roleDesc>              Souffleur,</roleDesc><actor/></castItem><castItem><role/>
+<roleDesc>     <seg target="txtcmnt-384-02"><!--DATA-TERM: Pyntekone--><!--DATA-DEFINITION: påklæderske.-->Pyntekone</seg></roleDesc><actor><seg target="txtcmnt-384-03">Hr. <hi rend="italic">Phister</hi></seg></actor></castItem>
+</castList>
+</front>
+<errors>
+</errors>
+<pb n="385"/>
+<pb n="386"/>
+
+<div type="scene" rend="Første Scene" xml:id="div0158">
+<head type="scene">Første Scene</head>
+
+<stage rend="noIndent" type="setting">(Theatret forestiller en smuk Have, med Udsigt til en landlig Egn; til Høire en stor Pavillon; smukke Blomsterpartier danne Forgrunden.) </stage>
+<stage rend="noIndent" type="setting">DALBY (alene, forklædt som Gaardskarl).</stage>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00728">Her er altsaa Skuepladsen! Disse grønne Træer ere Coulisser, og Kløvermarkerne med de smukke Skovpartier, danne Baggrunden. Det er godt gjort! det er et Theater paa <seg target="txtcmnt-386-01"><!--DATA-TERM: sin Græsk--><!--DATA-DEFINITION: vel Holberg-allusion, jf. komedien <i>Jean de France</i>, opført 1722, trykt 1723: »Om Morgenen skal de [dvs. de unge mennesker, der har været udenlands] have deres Thee eller Chocolade; det, sige de, er paa sin Hollandsk. Om Eftermiddagen deres Caffee; det er paa sin Engelsk. Mod Aftenen spille de Allomber hos en Maitresse; det er paa sin Fransk« (I,1).-->sin Græsk</seg>, et <seg target="txtcmnt-386-02"><!--DATA-TERM: Theater … Göthe--><!--DATA-DEFINITION: Goethe blev 1775 tilknyttet hertug Karl Augusts hof i Weimar. Hoffet etablerede 1776 et teater, som Karl Augusts mor, ikke hertugen selv, var sjælen i. Goethe skrev stykker til teatret og havde det formelle ansvar for det 1776-1782. Om sommeren spillede man udendørs, tit i parkerne ved slottene Ettersburg og Tiefurt; men der fandtes ikke noget friluftsteater med græsk præg. H.C. Andersen kan have sin ide herom fra den tyske maler Georg Melchior Kraus’ billede, 1780, af en scene fra teatrets uropførelse af Goethes drama <i>Iphigenie auf Tauris</i> 6. april 1779, vel en indendørs forestilling, men billedet giver indtryk af, at man er udendørs, og viser et græsk tempel i en skovegn; se fx. <i>Verdenslitteraturhistorie</i> redigeret af F.J. Billeskov Jansen m.fl., 1972, bd. 6, s. 337.-->Theater, som det, Göthe</seg> fik istand for sin Hertug. Pavillonen der er Tilskuerpladsen, eller rettere, den er Herskabs-Logen! derfra, gjennem de tynde Jalousier, seer Greven med sit Selskab min <seg target="txtcmnt-386-03"><!--DATA-TERM: extemporere(de)--><!--DATA-DEFINITION: opføre (egtl. læse) uforberedt tekst.-->extemporerede</seg> Forestilling. Og <seg target="txtcmnt-386-04"><!--DATA-TERM: hvo--><!--DATA-DEFINITION: hvem.-->hvo</seg> er de Spillende? Inspecteuren og jeg, Theater-Directeur Dalby, jeg, som i Smaabyerne beæres med Navnet af »Provindsernes –« ja man giver mig det bedste Navn fra den største Scene, det Navn, som der er meest i Mode. Og dog vil den gode Inspecteur Frank, det grevelige Huus’s Statsminister, ikke tillade, at jeg kommer her med mit Selskab. Han skal meget haardt dømme den dramatiske Kunst og de som udøve den, og er nu Talen om et stakkels reisende Selskab, saa har han slet ingen Naade og Barmhjertighed. Greven betroede mig, at Inspecteuren paa det Bestemteste havde forsikkret, at Ingen skulde faae ham til at see een eneste af vore Forestillinger. Dette bestemte mig. »Hr. Greve!« sagde jeg, »han skal ikke alene see min første Forestilling, men endogsaa selv spille med i den, blive Skuespiller mod sin Villie og sit Vidende!« En Comedie i det Grønne maa Stykket hedde, den gode Inspecteur skal selv komme til at improvisere det Halve. Der henne bag Nøddebuskene har jeg min Garderobe, Forvandlingen vil skee i et Nu, og hvo veed, da Manden jo har Lune, et ærligt Sind, og megen Sandhedskjærlighed, hvo veed? maaskee forvandler jeg ham med, gjør ham fra Fjende til Ven, og faaer ham til at erkjende, at der ogsaa ved en reisende Troup kan være et ret respec<pb n="387"/>tabelt Talent. Jeg er <seg target="txtcmnt-387-01"><!--DATA-TERM: alt--><!--DATA-DEFINITION: allerede.-->alt</seg> i mit første Costume! jeg er <seg target="txtcmnt-387-02"><!--DATA-TERM: Gaardskarlen fra de fem Flasker--><!--DATA-DEFINITION: i <i>Skuespilleren imod sin Villie</i> optræder personen Dalby i I,2 som »Gaardskarlen fra den forgyldte Hane«.-->Gaardskarlen fra de fem Flasker</seg>! – der har vi Inspecteuren, som altid her ryger sin Morgenpibe! nu kan Comedien i det Grønne begynde.</p>
+
+<stage rend="noIndent"><hi rend="italic">(Træder til en Side).</hi></stage>
+</sp>
+</div>
+                         
+<div type="scene" rend="Anden Scene" xml:id="div0159">
+<head type="scene">Anden Scene</head>
+<stage rend="noIndent">FRANK <hi rend="italic">(siden)</hi> DALBY</stage>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00729">Det er en deilig Morgen! Alt er saa forfrisket af den velsignede Natteregn! Men Regnen har ogsaa drevet alle de smaa Udyr frem. Hu, hvor her hopper af Smaafrøer! det er en <seg target="txtcmnt-387-03"><!--DATA-TERM: mærkelig--><!--DATA-DEFINITION: bemærkelsesværdig.-->mærkelig</seg> Mængde! og hvor de drive afsted! jeg vil ikke træde paa dem, det elendige <seg target="txtcmnt-387-04"><!--DATA-TERM: Tøi--><!--DATA-DEFINITION: skab, utøj.-->Tøi</seg>! – – Opad Dagen kommer her en værre <seg target="txtcmnt-387-05"><!--DATA-TERM: Drivt--><!--DATA-DEFINITION: (nedsættende) hob, flok.-->Drivt</seg>, saa har vi Selskabet, Hr. Dalbys Selskab! Theater-Directeuren!</p>
+<p rend="noIndent" xml:id="p_00730">Herre Gud! det skal nu være saa stort! <stage><hi rend="italic">(sætter sig ned og ryger sin Pibe)</hi></stage>. Jeg tør give mit Hoved paa – nei, det var for meget! jeg troer knap jeg vil sætte mit Pibehoved derpaa, men vis er jeg paa, at der ikke er Een i Selskabet som staaer stort høiere end min Kat staaer! Men lad nu Greven om det. Han bliver nok <seg target="txtcmnt-387-06"><!--DATA-TERM: kjed af--><!--DATA-DEFINITION: træt af.-->kjed af</seg> dem.</p>
+</sp>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(som Gaardskarl).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00731">Med Forlov! kan han ikke sige mig, hvor jeg finder Forvalteren; han skal hedde Frank, sagde man mig!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00732">Jo det er mig selv!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00733">Saa er det ham selv! tænkte jeg det ikke nok!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00734">Og hvem er Du?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00735">Jeg er ogsaa mig selv.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00736">Jeg mener, hvem har sendt Dig?</p>
+</sp>
+
+<pb n="388"/>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00737">Hvem der har sendt mig? Det har jeg selv gjort, for naar jeg selv sender mig selv nogetsteds, saa gaaer jeg selv og forretter mit Ærinde selv!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00738">Naa ja, det er godt! Og hvad vil Du?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00739">Ja, men han maa kjende mig! det er mig, der er Næstsødskendebarn til Skoleholderens Christine! det er mig, som har <seg target="txtcmnt-388-01"><!--DATA-TERM: lært Dem--><!--DATA-DEFINITION: lært dem.-->lært Dem</seg> at dandse <seg target="txtcmnt-388-02"><!--DATA-TERM: Hamborger-Skotsk--><!--DATA-DEFINITION: bondedans i 2/4-takt, en slags polka; jf. note til s. 405.-->Hamborger-Skotsk</seg> og at dandse <seg target="txtcmnt-388-03"><!--DATA-TERM: Kirsebærsuppen--><!--DATA-DEFINITION: (især fynsk) folkedans.-->Kirsebærsuppen</seg>, som de dandse den i Fyens Land. Nei, jeg kan nok mærke, at Inspecteuren ikke kjender mig! – Jo, han skulde see mig en Gang til et <seg target="txtcmnt-388-04"><!--DATA-TERM: Slaae-Gilde--><!--DATA-DEFINITION: høstgilde, især efter høhøst.-->Slaae-Gilde</seg>, naar Karle og Qvindfolk ere samlede i Gaarden.</p>
+
+<head type="melody"><seg target="txtcmnt-388-05"><!--DATA-TERM: Mel. En tydsk Soldater-Vise--><!--DATA-DEFINITION: trykte noder: Da.Vaud. bd. 1, s. 111 (her benævnt »Sjællandsk Bondevise«). E-noder: <i>En Komedie i det Grønne.</i>--><hi rend="italic">Mel. En tydsk Soldater-Vise</hi></seg>.</head>
+
+<lg xml:id="p_00740"><l rend="firstIndent">I Gaarden med min Pige saa øm,</l>
+<l rend="firstIndent">Jeg dandser i Solens Glands;</l>
+<l rend="firstIndent">I Støvlerne har jeg <seg target="txtcmnt-388-06"><!--DATA-TERM: Sinker--><!--DATA-DEFINITION: små jernkramper.-->Sinker</seg> og Søm, Derved kan man høre min Dands!</l>
+<l rend="firstIndent">Der bliver ei Græs paa Pletten meer,</l>
+<l rend="firstIndent">Kun Steenbroen der og Støv man seer,</l>
+<l rend="firstIndent">Mens alle Smaapiger langs Væggen i Rad,</l>
+<l rend="firstIndent">De hvidske: »med ham jeg dandse gad!«</l>
+<l rend="firstIndent">De puffe hinanden og slaae Øinene ned;</l>
+<l rend="firstIndent">Det er bare, pure Kjærlighed.</l>
+<l rend="firstIndent">Selv Brødkonen seer paa sine Hjerter lidt,</l>
+<l rend="firstIndent">Dem gav hun gjerne alle for mit!</l></lg>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00741">Ja, det maa være et fælt Syn! men hvad var det nu egentlig, han vilde mig.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00742">Hvad jeg vilde ham?</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00743">Ja vist! han har jo ingen Ting sagt.</p>
+</sp>
+
+<pb n="389"/>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00744">Har jeg ingen Ting sagt? har jeg ikke staaet her og snakket et heelt Qvarteer! han er en kuriøsk Mand, Hr. Inspecteur; har jeg ingen Ting sagt? Naa, hvad var det da, han vilde, jeg skulde sige?</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00745">Er han drukken? det er jo ham der vil <hi rend="italic">mig</hi> noget og ikke mig der vil <hi rend="italic">ham</hi> noget!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00746">Saa? vil jeg ham noget? Hvem har sagt ham det, Inspecteur?</p>
+</sp>
+
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(hæver Armen).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00747">Dit dumme –!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00748">Nei, ingen <seg target="txtcmnt-389-01"><!--DATA-TERM: Haandtag--><!--DATA-DEFINITION: slag.-->Haandtag</seg>, eller <seg target="txtcmnt-389-02"><!--DATA-TERM: Drolen--><!--DATA-DEFINITION: fanden; drolen splide mig, dvs. fanden splitte mig ad, er en almindelig ed hos Holberg.-->Drolen</seg> –!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00749">Hvad var det Du vilde sige mig –?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00750">Ja, see saadan er det man skal tale. Gelinde! ganske gelinde! thi for mig kan de drikke derovre saa meget de lyste! Det er jo dog ham og Grevskabet der skal betale det!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00751">Hvo drikker derovre! Hvad skal jeg betale!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00752">Gelinde! gelinde! Commediantspillerne.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00753">Er Comedianterne komne?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00754">Ja vist ere de komne! jeg tænkte at de kunde lade sig nøie med at æde Blaar! for det har jeg seet før! nei, Steeg vil de have! Fisk og <seg target="txtcmnt-389-03"><!--DATA-TERM: Æggemad--><!--DATA-DEFINITION: om æggeretter.-->Æggemad</seg>! og saa drikke de! – vor Herre maa vide hvor de siden efter kan gaae paa <seg target="txtcmnt-389-04"><!--DATA-TERM: Linien--><!--DATA-DEFINITION: linen.-->Linien</seg>; vi Andre kan have ondt nok, efter sligt et Gilde, at holde os paa Gulvet!</p>
+</sp>
+
+<pb n="390"/>
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00755">Altsaa ere disse Comedianter komne, og de ere tagne ind i Kroen?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00756">Ja i »de fem Flasker,« hvor jeg er Gaardskarl! – Og da jeg nu har ladet Inspecteuren det vide, saa betænker han vel ogsaa mig, at jeg ikke skal sidde med tør Mund.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00757">See, at han faaer mig fat paa Directeuren, forstaaer han, Directeuren; han hedder Dalby! siig til den gode Mand, at jeg venter ham her! det bliver bedst at han følger ham herover! forstaaer han? Vi have noget at tale sammen om.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00758">Jo vist forstaaer jeg! Dideriktøren vil han have fat paa. Jeg skal nok tage Karlen med mig, ja det skal jeg! Naar han seer mig igjen seer han ogsaa Dideriktøren! og naar han seer Dideriktøren saa seer han ogsaa mig! for see saadan er det! <stage><hi rend="italic">(Gaaer).</hi></stage></p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Tredie Scene" xml:id="div0160">
+<head type="scene">Tredie Scene</head>
+
+<stage rend="noIndent">FRANK <hi rend="italic">(alene)</hi>.</stage>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00759">Det var en løierlig Fyr! – Naa, saa har vi da Selskabet! jo, det er et rart Selskab! naa, hvor her vil ligge et Huus! og hvor de ville spise og drikke! – Det er rigtignok en frisk, grøn Green, de ere komne paa, disse Fugle fra alle Verdens Kanter! – det er ynkeligt! jo, jeg har kigget ind i deres Verden, jeg saae for femten Aar siden saadant et Selskab i Corsøer, og jeg saae Selskabet i sin Morgenbelysning: syv Personer i samme Kammer! hun, som spillede Dronningen, sad paa Sengekanten med en guul <seg target="txtcmnt-390-01"><!--DATA-TERM: Spølleskaal--><!--DATA-DEFINITION: eller spølkum: stor flad kop uden hank og underkop.-->Spølleskaal</seg> i Haanden, den rørende Fader pudsede Støvler og første Elsker stoppede Strømper. Det var dem, som skulde <seg target="txtcmnt-390-02"><!--DATA-TERM: hjælpe paa Smagen--><!--DATA-DEFINITION: befordre den gode smag.-->hjælpe paa Smagen</seg>. Hele Theatret var tre Skjermbretter og saa gave de dog <seg target="txtcmnt-390-03"><!--DATA-TERM: Hermann von Unna--><!--DATA-DEFINITION: <i>Herman von Unna</i>, ridderskuespil fra 1788 af den svenske forfatter A. F. Skjöldebrand efter en roman af den tyske forfatter Christiane Benedicte Naubert, ligeledes fra 1788. Musik af Abbé Vogler. På dansk ved Th. Thaarup; opført første gang på Det Kongelige Teater januar 1800, sidste gang 1836.-->Hermann von Unna</seg>! til <seg target="txtcmnt-390-04"><!--DATA-TERM: den hemmelige Ret--><!--DATA-DEFINITION: fjerde akt af <i>Herman von Unna</i> foregår i en bjerghule, hvor en sådan ret afholdes, ledet af Herman von Unna. Litteraten N.C. Øst fører i sin udgivelse af <i>Herman von Unna</i>, 1800, de hemmelige westfalske friretters oprindelse tilbage til Karl den Store og kalder denne retsform for »snart banditmæssig, snart højtideligmystisk, snart almindeligretfærdig« (s. 47-48).-->den hemmelige Ret</seg> kan jeg derfor tænke, de har vendt den værste Side ud af Skjærmbrætterne! Jeg kan blive i ganske ilde Humeur ved at tænke derpaa! forskruede ere de Allesammen! Phantasien løber nogle Aar løbsk med <pb n="391"/>dem igjennem alle Smaabyerne og jo galere der klappes, desstærkere løbe Heltene, til Selskabet ligger paa den alfare Vei og maa bringes i <seg target="txtcmnt-391-01"><!--DATA-TERM: Hospital(et)--><!--DATA-DEFINITION: fattighus; stiftelse for uarbejdsdygtige fattige eller for ubemidlede gamle.-->Hospitalet</seg> og paa Fattighuset. O, det elendige <seg target="txtcmnt-391-02"><!--DATA-TERM: Tøi--><!--DATA-DEFINITION: pak.-->Tøi</seg>!</p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Fjerde Scene" xml:id="div0161">
+<head type="scene">Fjerde Scene</head>
+<stage rend="noIndent">FRANK. DALBY <hi rend="italic">(som Haarskjærer)</hi>.</stage>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00760">God Morgen, min Herre! god Morgen!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00761">God Morgen! hvad godt har De at sige mig!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00762">Godt? Naa, saa De troer endnu paa noget Godt i Verden! det er kun Forstandens <seg target="txtcmnt-391-03"><!--DATA-TERM: Centrifugalkraft--><!--DATA-DEFINITION: kraft, hvormed et legeme, der bevæger sig i en cirkel, synes påvirket bort fra centrum.-->Centrifugalkraft</seg>, som ved at holde disse udadstræbende Kræfter sammen, skaber en relativ Ro, der dog ingenlunde kunde kaldes en permanent Væren. Forstaaer han det?</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00763">De vil sige, at de ikke er tilfreds med Verden.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00764"><seg target="txtcmnt-391-04"><!--DATA-TERM: Det Sublimat … profundis--><!--DATA-DEFINITION: jf. <i>Søren Kierkegaards Skrifter</i> (SKS) udgivet af Søren Kierkegaard Forskningscenteret, bd. 1, 1997, s. 21. Hårskærerens replikker indeholder en række allusioner til Kierkegaards afhandling <i>Af en endnu Levendes Papirer</i>, 1838, som er stærkt kritisk over for H.C. Andersens roman <i>Kun en Spillemand</i>, 1837.-->Det <seg target="txtcmnt-391-05">Sublimat</seg> af Glæde over Livet, den som Livs Udbytte resulterende gjennemkjæmpede Tillid til Verden, det vil sige, den verificerede <seg target="txtcmnt-391-06">Congruens</seg> af Hjertets Fordringer og Bebudelser med Livets Præstationer, der ikke bevises <seg target="txtcmnt-391-07"><hi rend="italic">ex matematica pura</hi></seg>, men vanskeliggjøres <seg target="txtcmnt-391-08"><hi rend="italic">de profundis</hi></seg></seg>, har jeg ikke tilegnet mig; men der er noget Stabilt i den Ro, som Philosophien giver mig!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00765">De er meget ulykkelig?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00766">Jeg er Haarskjærer! disse tre Ord giver dem Begrebet, som <seg target="txtcmnt-391-09"><!--DATA-TERM: (gjennem)declineret i … Casibus--><!--DATA-DEFINITION: bøjet i kasus. Jf. SKS 1,30.-->gjennemdeclineret i Livets forskjellige Casibus</seg>, siger dem, hvor ulykkelig jeg maa være. Vor Kunst er <seg target="txtcmnt-391-10"><!--DATA-TERM: præcipiseret--><!--DATA-DEFINITION: præcipiteret, dvs. nedstyrtet, gjort til bundfald.-->præcipiseret</seg>! hvor er denne Klodevrimmel af <seg target="txtcmnt-391-11"><!--DATA-TERM: Alongeparykker--><!--DATA-DEFINITION: parykker med lange nedhængende lokker.-->Alongeparykker</seg>, gratiøse <seg type="dfnStart" target="txtcmnt-391-12"/>Hesteskoes Tou<errors>
+</errors>
+<pb n="392"/>peer<seg type="dfnEnd" target="txtcmnt-391-12"/>, magnifique <seg target="txtcmnt-392-01"><!--DATA-TERM: Kanonbukler--><!--DATA-DEFINITION: bukler er hårlokker, der er formet som ruller, især som del af paryk; udtrykket kanonbukler kommer vel af, at særligt store buklers ender kan minde om kanonmundinger.-->Kanonbukler</seg>? Forsvundne! Kun paa Scenen opgraves endnu disse Mamuths-Knokler, disse <seg target="txtcmnt-392-02"><!--DATA-TERM: pompeianske--><!--DATA-DEFINITION: om fund fra oldtidsbyen Pompeji, der blev begravet ved Vesuvs udbrud 79 e.Kr. Den pompejanske stil var på den tid mode.-->pompeianske</seg> Skjønheds-Rester fra en svunden Fortid!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00767">De er Theater-Friseur?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00768">Det er jeg! som Individ deprimeret af Verden, men ved Philosophien ledet paa det Centrale for min Roligheds Existense! jeg er Theater-Friseur!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00769">Ja, der har De jo en viid Mark for Dem!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00770">Min Vei der, er <seg target="txtcmnt-392-03"><!--DATA-TERM: æqval--><!--DATA-DEFINITION: lig med.-->æqval</seg> den uendelige Skrue</p>
+
+<head type="melody"><seg target="txtcmnt-392-04"><hi rend="italic">Mel.</hi> La tarantella</seg>.</head>
+<l rend="firstIndent">I den negative Væren</l>
+<l rend="firstIndent">Var jeg strax, som ung Friseur,</l>
+<l rend="firstIndent">Hegel læste jeg og Læren</l>
+<l rend="firstIndent">Potensered mit Humeur.</l>
+<l rend="firstIndent">Scenen blev nu min Arena;</l>
+<l rend="firstIndent">Skue min Virken, stort og smaat:</l>
+<l rend="firstIndent">Haar for en <seg target="txtcmnt-392-05"><!--DATA-TERM: Anna Bolena--><!--DATA-DEFINITION: titel på opera fra 1830 af G. Donizetti. Førsteopførelse i Danmark 1844 på Hofteatret, hvor italienske operasangere optrådte 1842-1854. Anne Boleyn (1507-1536) var den engelske konge Henrik 8.s anden hustru; hun blev anklaget for blodskam og anslag mod kongens liv, siden henrettet.-->Anna Bolena</seg>,</l>
+<l rend="firstIndent">Krølnak til en Askepot,</l>
+<l rend="firstIndent">Sorte Lokker for en <seg target="txtcmnt-392-06"><!--DATA-TERM: Spranze--><!--DATA-DEFINITION: (tysk låneord) laps, nar.-->Spranze</seg>,</l>
+<l rend="firstIndent"><seg target="txtcmnt-392-07"><!--DATA-TERM: Reisning--><!--DATA-DEFINITION: håropsætning, top.-->Reisning</seg> for en <seg target="txtcmnt-392-08"><!--DATA-TERM: Pompadour--><!--DATA-DEFINITION: den franske kong Ludvig 15.s elskerinde madame Pompadour (1721-1764) optræder i Alphonse [Gautier], A. François [Dercy] og L.P.N. Fourniers skuespil <i>Une présentation</i>, 1835, dansk <i>Grev Saint-Germain</i>. Stykket opførtes på Det Kongelige Teater 1837 med Johanne Luise Heiberg i rollen som Pompadour.-->Pompadour</seg>,</l>
+<l rend="firstIndent"><seg target="txtcmnt-392-09"><!--DATA-TERM: Pung-Paryk--><!--DATA-DEFINITION: paryk med hårpung.-->Pung-Paryk</seg> til <seg target="txtcmnt-392-10"><!--DATA-TERM: Jean de France--><!--DATA-DEFINITION: hovedpersonen i Holbergs komedie med denne titel, opført 1722, trykt 1723.-->Jean de France</seg>,</l>
+<l rend="firstIndent"><seg target="txtcmnt-392-11"><!--DATA-TERM: Magdelone(s)--><!--DATA-DEFINITION: fast figur hos Holberg, fx i komedien <i>Maskarade</i>, 1724, en elskovs- eller forlystelsessyg midaldrende kvinde.-->Magdelones</seg> store <seg target="txtcmnt-392-12"><!--DATA-TERM: Tour--><!--DATA-DEFINITION: krans af falsk hår.-->Tour</seg>;</l>
+<l rend="firstIndent">For en <seg target="txtcmnt-392-13"><!--DATA-TERM: Lais--><!--DATA-DEFINITION: navn på to oldgræske kurtisaner, dvs. finere prostituerede; den ene var fra Korinth, d. ca. 340 f.Kr.-->Lais</seg>, en <seg target="txtcmnt-392-14"><!--DATA-TERM: Brynhilde--><!--DATA-DEFINITION: navnet betyder en brynjeklædt valkyrie; disse var den nordiske mytologis kampgudinder. Brynhilde er også navnet på en sagnskikkelse, som optræder i Sigurdskvadene i <i>Ældre Edda</i>, og om hvem det berettes, at hun fik sin mand til at dræbe hendes ungdomselskede Sigurd Fafnersbane. Grundtvigs <i>Optrin af Norners og Asers Kamp</i>, 1811, har Brynhild som en af hovedpersonerne og beretter om hendes og Sigurds død.-->Brynhilde</seg>,</l>
+<l rend="firstIndent">Een i Hjerter, een i Spaer;</l>
+<l rend="firstIndent">Blonde, Brune, Sure, Milde,</l>
+<l rend="firstIndent">Selv for <seg target="txtcmnt-392-15"><!--DATA-TERM: Fru von Potiphar--><!--DATA-DEFINITION: Potifars hustru forsøgte at forføre den unge Josef, jf. 1. Mosebog 39. Almindeligt sujet i malerkunsten, brugt fx af Rembrandt og Agnolo Bronzino.-->Fru von Potiphar</seg>!</l>
+<l rend="firstIndent">Alles Haar correct jeg sætter,</l>
+<l rend="firstIndent">Alting efter Tid og Sted,</l>
+<l rend="firstIndent">Aagerkarle og <seg target="txtcmnt-392-16"><!--DATA-TERM: Koketter--><!--DATA-DEFINITION: letlevende kvinder.-->Koketter</seg>,</l>
+<l rend="firstIndent"><seg target="txtcmnt-392-17"><!--DATA-TERM: Laps(e)--><!--DATA-DEFINITION: sjuft; uopdragen person.-->Lapse</seg>, Helte, Guder med!</l>
+<l rend="firstIndent">Borgemester, Kriger, Bonde,</l>
+<l rend="firstIndent">Excellense og Student,</l>
+<errors>
+
+</errors>
+<pb n="393"/>
+<l rend="firstIndent">For de Gode, for de Onde,</l>
+<l rend="firstIndent">Det for mig er eet omtrent!</l>
+<l rend="firstIndent">Viva, viva, excellent!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00771">Men hvad kommer det mig ved? Siig mig, hvad De egentlig vil mig?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00772">Hvad jeg vil? Eet er at ville, eet er at kunne! Villien er tidt et <seg target="txtcmnt-393-01"><!--DATA-TERM: Phænomeen … Hegels store Forsøg … Intet--><!--DATA-DEFINITION: jf. SKS 1,17.-->Phænomeen i den respectableste Skikkelse, saaledes som den træder frem i Hegels store Forsøg paa at begynde med Intet</seg>.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00773">Jeg maa have den Ære at sige Dem, at jeg er et ganske almindeligt Menneske, jeg forstaaer mig ikke paa disse mange Snirkler, de gjøre mig kun vildfarende. Vil De ikke ganske simpelt sige deres Mening.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00774">Det er altsaa Ordenes Fremtrædelses-Form, der caotiserer Dem?</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00775">Bare De vilde give mig det klart og tydeligt, for ellers kan jeg ikke have den Fornøielse at tale med Dem.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00776">Det var fra <seg target="txtcmnt-393-02"><!--DATA-TERM: det negative Moment … skee--><!--DATA-DEFINITION: jf. SKS 1,20.-->det negative Moment igjennem hvilket og i Kraft af hvilket alle Bevægelserne skee</seg>, jeg vil gaae; det var fra Tankens store <seg target="txtcmnt-393-03"><!--DATA-TERM: Tohuwabohu--><!--DATA-DEFINITION: (hebraisk) tomhed og øde, jf. 1. Mosebog 1,2; om kaostilstanden, der herskede, før Gud skabte jorden.--><hi rend="italic">Tohuwabohu</hi></seg> til Lys og Klarhed; men vi to kunne ikke tale! Gid da, at dette vort Mødes Høidepunkt forvandle sig til et i Tilværelsen forsvindende Moment; <seg target="txtcmnt-393-04"><!--DATA-TERM: dixi--><!--DATA-DEFINITION: (latin) jeg har talt.--><hi rend="italic">dixi!</hi></seg></p>
+
+<stage rend="right"><hi rend="italic">(Gaaer).</hi></stage>
+</sp>
+</div>
+                         
+<div type="scene" rend="Femte Scene" xml:id="div0162">
+<head type="scene">Femte Scene</head>
+<stage rend="noIndent">FRANK <hi rend="italic">(alene)</hi>.</stage>
+
+<sp>
+<speaker>FRANK</speaker>
+
+<p rend="noIndent" xml:id="p_00777">Ja, vor Herre maa vide hvad han egentlig vilde! det kunde være <pb n="394"/>meget godt hvad han fortalte, naar man bare forstod det! men <seg target="txtcmnt-394-01"><!--DATA-TERM: vist--><!--DATA-DEFINITION: sikkert.-->vist</seg> er det, at krusseduller han Haaret ligesaa stærkt, som han krusseduller sin Tale, saa kan det blive <seg target="txtcmnt-394-02"><!--DATA-TERM: kunstigt--><!--DATA-DEFINITION: kunstlet.-->kunstigt</seg> nok! – Det var en <seg target="txtcmnt-394-03"><!--DATA-TERM: artig Fisk--><!--DATA-DEFINITION: »køn plante«.-->artig Fisk</seg> den! – nei, saa holder jeg mere af at faae en Passiar med min <seg target="txtcmnt-394-04"><!--DATA-TERM: Tabak(spibe)--><!--DATA-DEFINITION: ældre form.-->Tabakspibe</seg>, vi to forstaae hinanden. Hun er min Juno. <seg target="txtcmnt-394-05"><!--DATA-TERM: Juno per nubem--><!--DATA-DEFINITION: af den latinske talemåde »Nubem pro Junone axemplari«: omfavne en sky i stedet for Juno. Ifølge græskromersk mytologi efterstræbte Ixion gudinden Juno (Hera), men Jupiter (Zeus) sendte i stedet en sky, som Ixion da forgreb sig på.--><hi rend="italic">Juno per nubem</hi></seg> sige jo vi Latinere! ja midt i Skyen kysses vi; ha, ha! Tak i din Grav, min gode Christoffer <seg target="txtcmnt-394-06"><!--DATA-TERM: Columbus … Kartoflerne … Tobakken--><!--DATA-DEFINITION: italieneren Christoffer Columbus, som i 1492 nåede Bahamaøerne i Det Caribiske Hav, regnes for Amerikas opdager. Kartoffelplanten, som vokser vildt i Sydamerika, blev først senere indført til Europa, måske i 1584 med den engelske admiral Walter Raleigh. Tobakken blev indført fra Amerika til Spanien i 1500-tallet.-->Columbus for din Amerikas Reise; næst efter Kartoflerne var Tobakken</seg> det bedste Guld Du bragte os! – Hvad behager! mon vi skulle have havt Tobakken før den Tid! – jeg løber sommetider lidt vild i mine historiske Kundskaber! men det er det samme, naar kun Tobakken er god, og det er min! ved hver Sky jeg blæser, flyver der en ond Grille bort og en god Idee ryger ind i det gamle Logi! – Nei hvor Fuglene synge! – de ere fornøiede over den smukke Morgen! ja kunde I ryge en Pibe med, saa vilde I nok synge endnu lystigere! – men hvad er det for en Karl der kommer, med bar Hals, lange Haar og <seg target="txtcmnt-394-07"><!--DATA-TERM: Knebelsbart--><!--DATA-DEFINITION: overskæg, moustache.-->Knebelsbart</seg>. Nu hælder han sig op til et Træ! hvad mon han seer efter! Det er nok ogsaa en Ulykkelig, hvis Kunst har præcipiseret, som Haarskjæreren kaldte det. See, nu er han i Anmarsch!</p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Sjette Scene" xml:id="div0163">
+<head type="scene">Sjette Scene</head>
+
+<stage rend="noIndent" type="setting"><speaker>FRANK. DALBY</speaker> (som Decorationsmaler).</stage>
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(idet han rask træder hen imod Inspecteuren og drager ham til Side)</hi></stage>.</speaker>
+<p rend="noIndent" xml:id="p_00778">Min Herre, vil De ikke stille Dem der!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00779">Hvorfor?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00780">Her skader De Maleriet, men tre Skridt bort, og de forhøier Effecten! – O hvor skjønt!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00781">Hvad skal det betyde! Hvem er De min Herre!</p>
+</sp>
+
+<pb n="395"/>
+<sp>
+<speaker>DALBY</speaker>
+<head type="melody"><seg target="txtcmnt-395-01"><!--DATA-TERM: Mel. … Hvem jeg er?--><!--DATA-DEFINITION: »Qui je suis?«, indleder romancen »Une fée un bon ange« (fransk, i Th. Overskous oversættelse:) »Du den Skytsengel skuer« fra I,6 af D.F.E. Aubers syngespil <i>Le domino noir</i>, 1837, med tekst af E. Scribe; dansk <i>Eventyret paa Maskeraden eller Den sorte Domino</i>, opført på Det Kongelige Teater 1839. Trykte noder: Da. Vaud. bd. 1, s. 114; klaverpartitur til <i>Le domino noir</i> findes. E-noder: <i>En Komedie i det Grønne</i>.--><hi rend="italic">Mel. af den sorte Domino: Hvem jeg er</hi></seg><hi rend="italic">?</hi></head>
+<p rend="noIndent" xml:id="p_00782">Hvem jeg er?</p>
+<l rend="firstIndent">Kan min Dragt Dem ei sige,</l>
+<l rend="firstIndent">Jeg er Maler! o Held!</l>
+<l rend="firstIndent">Skue disse Lokker dog, hvor rige!</l>
+<l rend="firstIndent">Min bare Hals, som hos en Pige!</l>
+<l rend="firstIndent">Alt dette maa Dem sige vel,</l>
+<l rend="firstIndent">Jeg er en nyfødt <seg target="txtcmnt-395-02"><!--DATA-TERM: Raphael--><!--DATA-DEFINITION: egl. Raffaello Santi da Urbino (1483-1520), italiensk renæssancemaler.-->Raphael</seg>!</l>
+<l rend="secondIndent">Skjøndt jeg i Nutid fødtes,</l>
+<l rend="secondIndent">Middelalderens jeg blev;</l>
+<l rend="secondIndent">Kun til den min Tanke knøttes,</l>
+<l rend="secondIndent">Den mig henrev,</l>
+<l rend="secondIndent">Jeg af den er Elev!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00783">Jeg forstaaer Dem, De er Maler!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00784">Decorationsmaler og Maskinmester ved Hr. Directeur Dalbys Skuespiller-Selskab. Det var nær ved, overordentligt nær ved, at De havde faaet mit Pragt-Stykke at see, mit store Malerie, der skulde have blevet verdensberømt; men der gik Ild i Huset hvor jeg boede, og <seg target="txtcmnt-395-03"><!--DATA-TERM: Troja--><!--DATA-DEFINITION: der hentydes til det homeriske Troja, sandsynligvis identisk med den antikke by Troja i Nordvesttyrkiet. Beretningerne om den trojanske krig, grækernes legendariske belejring af Troja, har måske en historisk kerne. Om Trojas fald berettes i de græske heltedigte <i>Iliaden</i> og <i>Odysseen</i>, efter traditionen tillagt digteren Homer (ca. 700 f.Kr.), og i den romerske digter Vergils heltedigt <i>Æneiden</i>, fra hvilken beretningen om Trojas brand er kendt.-->Troja</seg> steeg op i Flammer.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00785">Det var Troja De havde malet.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00786">Nei, det var et <seg target="txtcmnt-395-04"><!--DATA-TERM: Pest-Stykke--><!--DATA-DEFINITION: billedlig fremstilling af en scene fra pestens tid.-->Pest-Stykke</seg>, det var vederstyggeligt deiligt, og tillige allegorisk. Man saae ikke alene de Døendes Legemer, men ogsaa deres Sjæle, og disse vare saa bestemte angivne, at man kunde kjende de gode fra de onde. Ideen var egentligt laant fra et ubegribeligt deiligt gammelt <seg target="txtcmnt-395-05"><!--DATA-TERM: Malerie … een af Roms Kirker … Røvere … Pølse--><!--DATA-DEFINITION: i San Clemente-kirkens St. Catherine-kapel i Rom viser en freske af Masolino da Panicale, malet i perioden 1411-1431, en korsfæstelsesscene med Kristus mellem de to røvere. Et dragelignende væsen trækker med kløerne sjælen i form af en »pølse« ud af den onde røvers mund; den gode røvers sjæl bæres bort af en engel, der svæver over hans kors. Freskerne er måske blevet til i samarbejde med maleren Masaccio. I <i>Dagbøger</i> I, s. 225 (31. oktober 1833) berettes fra Rom: »I ST Clemens saae vi de ældste Malerier ... Christus med Røverne paa Korset, Sjælen gik som en Pølse ud af Munden, Englen tog den enes, Djævlene den andens«.-->Malerie i een af Roms Kirker; der seer man de to Røvere give Aanden op, og denne, Aanden, Sjælen er fremstillet ved en meget lang Pølse</seg>, som drages dem ud af Munden; hos den Gode er Pølsen hvid, og drages af Engle, hos den Onde er Pølsen sort og drages af Djævle! det er sublimt! og jeg gjengav dette, jeg mangfoldiggjorde det, jeg gav Sjælene Nuancer!</p>
+</sp>
+
+<pb n="396"/>
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00787">Men er ikke dette vel stærkt?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00788">Det er overordentligt! det er en Idee, der bærer Middelalderens Præg, og er derfor klassisk! lad os stille, uden Bevidsthed følge denne Romantik, saa kommer Inspirationen.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00789">Ja, <seg target="txtcmnt-396-01"><!--DATA-TERM: troer de det--><!--DATA-DEFINITION: nå, så det tror De?-->troer de det</seg>! skulde ikke Naturen, baade den, som er indeni os, og den som er uden om os, være de bedste at holde sig til?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00790">Ingenlunde! Naturen er skjøn, ja det veed Gud, den er skjøn! men den er ikke correct! – O, dog saa skjøn.</p>
+
+<floatingText type="song">
+<head type="melody"><seg target="txtcmnt-396-02"><hi rend="italic">Mel. Malibrans</hi> Tyrolienne</seg>.</head>
+<lg xml:id="p_00791">
+<l rend="firstIndent">Høie Natur,</l>
+<l rend="firstIndent">Jeg er din Troubadour!</l>
+<l rend="firstIndent">Farvernes Pragt,</l>
+<l rend="firstIndent">Skal udtale din Magt,</l>
+<l rend="firstIndent">Meer sødt end Skoven,</l>
+<l rend="firstIndent">Meer stærkt end Voven!</l>
+<l rend="firstIndent">See Skyer svømme,</l>
+<l rend="firstIndent">De er’ dine Drømme,</l>
+<l rend="firstIndent">Du lære mig maa</l>
+<l rend="firstIndent">Dem at forstaae!</l>
+</lg>
+</floatingText>
+<stage rend="noIndent"><hi rend="italic">(Han synker drømmende hen, Musiken antyder Ecchoet, der ellers bliver sjunget.)</hi></stage><stage rend="noIndent">
+<graphic type="blank"/>
+</stage>
+<p rend="noIndent" xml:id="p_00792">Hører de det deilige Eccho?</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00793">Nei, aldeles ikke!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00794">Saa har De heller ikke Øre for Naturen! jeg elsker Den, og dog har den sine Feil.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00795">Ja troer de det? maa jeg sige nok engang.</p>
+
+<errors>
+
+</errors>
+<pb n="397"/>
+
+</sp>
+
+<pb n="398"/>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00796">Husker De Digterens Ord:</p>
+<l rend="noIndent">» <seg type="dfnStart" target="txtcmnt-398-01"/>Vel rødme Land og Hav ret smukt, i Aftensolens Flamme,</l>
+<l rend="noIndent">Men ak, Maneren, mærker man, bestandig er den samme.</l>
+<l rend="noIndent">Original er Solen ei, hvad saa den er forresten;</l>
+<l rend="noIndent">Bestandig staaer den op i Øst og synker ned i Vesten.</l>
+<l rend="noIndent">Saa komme Nattens Stjerner frem, men man sig ret maa harme,</l>
+<l rend="noIndent">De skinne vel, men Alt er koldt, der er ei Liv, ei Varme;</l>
+<l rend="noIndent">En Nattergal ret snurrigt slaaer sin Trille hist bag Muren,</l>
+<l rend="noIndent">Men der er ei Methode i, det er jo reent Naturen;</l>
+<l rend="noIndent">Desuden er den altfor ung, har neppe Duun om Hagen,</l>
+<l rend="noIndent">Og havde Sangen ingen Feil, saa sang den nok om Dagen.</l>
+<l rend="noIndent">Nu staaer da ogsaa Maanen op, og den er ei saa ilde,</l>
+<l rend="noIndent">Var den dog bare altid rund og ikke skifte vilde;</l>
+<l rend="noIndent">Høit skummer Bølgen, men for stærkt; den maa sig moderere –</l>
+<l rend="noIndent">Det hele røber vel Genie, men heller ikke mere<seg type="dfnEnd" target="txtcmnt-398-01"/>!«</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00797">Digteren mener det slet ikke, som De tager det!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00798">Naa saa De vil lære mig hvad Digteren mener! nei, min gode Mand, lad os aldrig tale om de Dele! Forsvar De ikke Naturen, den har sandelig ikke gjort noget for Dem!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00799">O, De er en grov Karl!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00800">Naar jeg ret betragter dem, da virker De ogsaa fra denne Side forstyrrende ind paa Landskabet. Her skal De staae! her! det støder ogsaa mit Kunstner-Øie!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00801">Vil De see De kan forføie Dem bort! eller jeg troer jeg glemmer mig selv!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00802">Glem Dem selv, som jeg skal see at glemme Dem, naar jeg med Farver <seg target="txtcmnt-398-02"><!--DATA-TERM: giver (denne Natur)--><!--DATA-DEFINITION: skildrer.-->giver denne Natur</seg>, saa riig og dog saa fattig!</p>
+
+<stage rend="right"><hi rend="italic">(Gaaer).</hi></stage>
+</sp>
+<errors>
+
+</errors>
+</div>
+                         
+<div type="scene" rend="Syvende Scene" xml:id="div0164">
+<pb n="399"/>
+<head type="scene">Syvende Scene</head>
+<stage rend="noIndent">FRANK <hi rend="italic">(alene)</hi>.</stage>
+
+<sp>
+<speaker>FRANK</speaker>
+
+<p rend="noIndent" xml:id="p_00803">Ih din uforskammede Knægt! jeg veed ikke om det var Galskab eller reen Malice! siger han mig ikke den ene Grovhed oven paa den anden! Jeg skal huske ham det! Han og Haarskjæreren var to Alen af et Stykke! det kunde blive et net Spand, skjøndt den sidste havde meest Uforskammenhed. Han var kunstgal, som man kalder det! Sygdommen var slaaet ud i Klædedragten.</p>
+
+<head type="melody"><seg target="txtcmnt-399-01"><!--DATA-TERM: Mel. Staae tidlig op, sy Tøfler, Skoe--><!--DATA-DEFINITION: sangen »Hold Lampen tændt, sye Tøfler, Skoe«, der afslutter sidste akt af <i>Dragedukken</i>, syngespil af F.L. Kunzen (1761-1817) med tekst af Enevold de Falsen; opført på Det Kongelige Teater 1797. Trykt klaverpartitur til <i>Dragedukken</i> findes.--><hi rend="italic">Mel. Staae tidlig op, sy Tøfler, Skoe</hi></seg>.</head>
+
+<lg xml:id="p_00804"><l rend="firstIndent">Vor Jord har meget Stort og Godt,</l>
+<l rend="firstIndent">Men ogsaa grumme meget Smaat,</l>
+<l rend="firstIndent">Som <seg target="txtcmnt-399-02"><!--DATA-TERM: abe--><!--DATA-DEFINITION: abe efter.-->abe</seg> vil Geniet!</l>
+<l rend="firstIndent">Saa kjækt de gjennem Verden gaae,</l>
+<l rend="firstIndent">Men naar man rigtig seer derpaa,</l>
+<l rend="firstIndent">De fik kun <seg target="txtcmnt-399-03"><!--DATA-TERM: Liberiet--><!--DATA-DEFINITION: (om klædedragt) munderingen.-->Liberiet</seg>!</l></lg>
+<p rend="noIndent" xml:id="p_00805">Der kommer en ny! han har et Papir i Haanden; det er vist en af Skuespillerne selv, som studerer sin Rolle i det Grønne. Han kommer nærmere! – jo, han kommer her hen! han gaaer lidt langsomt. –</p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Ottende Scene" xml:id="div0165">
+<head type="scene">Ottende Scene</head>
+
+<stage rend="noIndent">FRANK. DALBY <hi rend="italic">(som Poet)</hi>.</stage>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00806">God Morgen, min Herre!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Herre?! Jeg er Deres Broder!</l>
+<l rend="firstIndent">Fik vi ei den samme Moder!</l>
+<l rend="firstIndent">Er vi ei Naturens Poder,</l>
+<l rend="firstIndent">Fik de samme Savn og Goder,</l>
+<l rend="firstIndent">Vi er Brødre! favn mig Broder!</l>
+</sp>
+
+<pb n="400"/>
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00807">De har et meget kjærligt Gemyt.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Kjærlighed er al min Tanke!</l>
+<l rend="firstIndent">Føl dog dette Hjerte banke,</l>
+<l rend="firstIndent">Og lad Armen, som en Ranke,</l>
+<l rend="firstIndent">Snoe sig om din Krop, den slanke!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00808">De er Skuespiller?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Nei, og dog et Ja tillige!</l>
+<l rend="firstIndent">Jeg har Plads i hines Rige;</l>
+<l rend="firstIndent">Jeg er Digter skal jeg sige!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00809">Hvad, er der ogsaa en Digter ved Selskabet?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Jeg forandrer hvert et Stykke,</l>
+<l rend="firstIndent">Jeg paa det et Kys maa trykke,</l>
+<l rend="firstIndent">Give det sit bedste Smykke,</l>
+<l rend="firstIndent">Og saa veed man det gjør Lykke!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00810">Hvad, forandrer De Digterens Værk, skriver De Deres Mening ind i Stykkerne?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Kunstudtrykket er, at bøie!</l>
+<l rend="firstIndent">Jeg <seg target="txtcmnt-400-01"><!--DATA-TERM: Guirlander--><!--DATA-DEFINITION: blomsterranker.-->Guirlander</seg> maa tilføie,</l>
+<l rend="firstIndent">Som fortryller Mængdens Øie.</l>
+<l rend="firstIndent">Prosa veed jeg at ophøie,</l>
+<l rend="firstIndent">Spænde den i Rimets Trøie,</l>
+<l rend="firstIndent">Saa den maa os sødt fornøie!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00811">Jeg troer Gud hjælpe mig, De taler paa Vers!</p>
+</sp>
+
+<pb n="401"/>
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Musen vækker mig af Blunden,</l>
+<l rend="firstIndent">Trykker mig et Kys paa Munden,</l>
+<l rend="firstIndent">Derfor jeg i Morgenstunden,</l>
+<l rend="firstIndent">Naar jeg vandrer gjennem Lunden,</l>
+<l rend="firstIndent">Gjennem Dale, Skovens Sale,</l>
+<l rend="firstIndent">Kun i Versemaal kan tale!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00812"><seg target="txtcmnt-401-01"><!--DATA-TERM: Eet er Poesie, et andet er at rime--><!--DATA-DEFINITION: måske allusion til Herman von Bremens slutreplik »Eet er et Søe-Kort at forstaae / Et Andet, Skib at føre« i sidste akt af Holberg: <i>Den politiske Kandstøber</i>, opf. 1722, trykt 1723.-->Eet er Poesie, et andet er at rime</seg>.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Ei saa ganske, som De tænker!</l>
+<l rend="firstIndent">Det er Formens søde Lænker,</l>
+<l rend="firstIndent">Som den bedste Fryd os skjænker!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00813">De har ikke selv skrevet noget Heelt?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">Heelt?! o jo! De strax skal høre,</l>
+<l rend="firstIndent">Hvad Dem selsomt dybt vil røre,</l>
+<l rend="firstIndent">En Musik for Deres Øre.</l>
+<l rend="firstIndent">Jeg Dem strax bekjendt vil gjøre</l>
+<l rend="firstIndent">Med mit Sørgespil: <seg target="txtcmnt-401-02"><!--DATA-TERM: Alcmene--><!--DATA-DEFINITION: ifølge græsk mytologi mykensk kongedatter. Mens hendes tilkommende, Amphitryon, var i krig, forførte Zeus hende, og hun fødte sønnen Herakles, helten, der kæmpede mod uhyrer, vilddyr og andet ondt.--><hi rend="italic">Alcmene</hi></seg>:</l>
+<stage rend="right"><hi rend="italic">(læser op af sit Manuskript).</hi></stage>
+<l rend="firstIndent">»Første Act og første Scene,</l>
+<l rend="firstIndent">Prinds <seg target="txtcmnt-401-03"><!--DATA-TERM: Actræus--><!--DATA-DEFINITION: måske sammenblanding af navnene på to mytologiske figurer: Alkæos, der var Amphitryons far, og jægeren Actæon.-->Actræus</seg> kommer ene –!«</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00814">Jeg beder Dem, De maa endelig ikke uleilige Dem!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">O det maa De ikke mene!</l>
+<stage rend="right"><hi rend="italic">(læser)</hi></stage>
+<l rend="firstIndent">»Første Act og første Scene,</l>
+<l rend="firstIndent">Prinds Actræus kommer ene –!«</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00815">Nei mange Tak! saadan paa Morgenstunden kan jeg ikke med Sørgespil, jeg vil da heller have saadanne smaa Digte –!</p>
+</sp>
+
+<pb n="402"/>
+<sp>
+<speaker>DALBY</speaker>
+<stage rend="noIndent"><hi rend="italic">(griber i Lommen og læser Overskriften af flere Digte).</hi></stage>
+<l rend="firstIndent">Her er eet om: røde Kinder.</l>
+<l rend="firstIndent">Her er eet: de tre Gudinder.</l>
+<l rend="firstIndent">Her, »hvad kommer og forsvinder?«</l>
+<l rend="firstIndent">Dette kaldes: »Bly <seg target="txtcmnt-402-01"><!--DATA-TERM: Kjærminde(r)--><!--DATA-DEFINITION: forglemmigej.-->Kjærminder</seg>.«</l>
+<l rend="firstIndent">»Ode til de skjønne Qvinder!« – –</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00816">Dersom jeg skal høre eet, maa jeg saa ikke bede om det korteste; jeg holder meest af denne Slags.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<l rend="firstIndent">O forlang, vær ikke bange,</l>
+<l rend="firstIndent">De skal faae saa mange, mange,</l>
+<l rend="firstIndent">Som min Muse kan undfange</l>
+<l rend="firstIndent">Under Sommernætter lange!</l>
+</sp>
+
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(afs.)</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00817">Hvordan skal jeg <seg target="txtcmnt-402-02"><!--DATA-TERM: slippe--><!--DATA-DEFINITION: slippe af med.-->slippe</seg> det Menneske!</p>
+</sp>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(læser)</hi></stage>.</speaker>
+<l rend="firstIndent">»Bølge-Sukken, stille Vuggen,</l>
+<l rend="firstIndent">Nedad Duggen,</l>
+<l rend="firstIndent">I det klare Maaneskjær!«</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00818">Jeg skal give Dem en Prøve paa hvad det er for Digte jeg holder af, for Ex. Baggesens: »<seg target="txtcmnt-402-03"><!--DATA-TERM: Der var en Tid da jeg var meget lille--><!--DATA-DEFINITION: første vers af Jens Baggesens digt »Da jeg var lille«, 1785.-->Der var en Tid da jeg var meget lille</seg>,«</p>
+<p rend="noIndent" xml:id="p_00819">o. s. v. <stage><hi rend="italic">(Han vedbliver dette Digt)</hi></stage>.</p>
+</sp>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(paa samme Tid)</hi></stage>.</speaker>
+<l rend="firstIndent">Ti! – Ei er De værd at nyde,</l>
+<l rend="firstIndent">Hvad min Musa kunde byde,</l>
+<l rend="firstIndent">Som Musik det skulde lyde! –</l>
+<l rend="firstIndent">Dybt Dem ind i Sjælen fryde!</l>
+<l rend="firstIndent">Ti! De maae mig ei afbryde –</l>
+<l rend="firstIndent">De mit Blod faaer til at syde! –</l>
+<stage rend="right"><hi rend="italic">(gaaer).</hi></stage>
+</sp>
+</div>
+                         
+<div type="scene" rend="Niende Scene" xml:id="div0166">
+<pb n="403"/>
+<head type="scene">Niende Scene</head>
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(ene).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00820">See saadan skal man bære sig ad med de Karle! vil man slippe dem, skal man bare læse de andre Poeters Vers for dem, saa løbe de strax! De vil kun høre sig selv! – Det er jo en mærkelig Samling af originale Folk, Hr. Dalby har. Jeg gad vidst hvorledes Damerne ere! skulde her ikke komme nogle af dem! nei de ligge nok op ad Formiddagen! Det maa i Grunden ikke være saa let at holde sligt et Selskab i Ave. <seg target="txtcmnt-403-01">Det er nu ogsaa</seg> et Indfald af Greven, med denne Comedie, disse Sommerforestillinger! Gid han havde <seg target="txtcmnt-403-02"><!--DATA-TERM: vilde (høre)--><!--DATA-DEFINITION: H.C. Andersen brugte undertiden denne perfektum participium i stedet for »villet«, jf. ODS, bind 26, sp. 1581, l. 19.-->vilde høre</seg> mine <seg target="txtcmnt-403-03"><!--DATA-TERM: Forestillinger--><!--DATA-DEFINITION: indvendinger.-->Forestillinger</seg> derimod, men i Sligt er han urimelig. Der vil nu han og hans gode Venner frivilligt lukkes inde i en Sal og see paa malede Træer, mens Skoven udenfor er frisk og grøn! god Fornøielse! Jeg skal ikke have noget af den. Naar han sidder der, som i en Trantønde, vil jeg sidde her paa Bænken og see Myggene dandse Ballet, høre paa Graaspurven og Svalen, hvad de fortælle. – Men der kommer en ny Person, han hører vel ogsaa til Truppen. Det er naragtigt nok, jeg har Hovedet saa fuldt af det Selskab, at jeg troer om ethvert Menneske jeg i Dag seer, han maa være een af Gjøglerne. Maaskee er det et ganske anderledes <seg target="txtcmnt-403-04"><!--DATA-TERM: skikkeligt--><!--DATA-DEFINITION: respektabelt.-->skikkeligt</seg> Menneske! –</p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Tiende Scene" xml:id="div0167">
+<head type="scene">Tiende Scene</head>
+<stage rend="noIndent">FRANK. DALBY <hi rend="italic">(som Souffleur)</hi>.</stage>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(meget stammende).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00821">Ærbødigste! Er det Hr. Greven, jeg har den Ære at hilse paa!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00822">Nei, jeg er Inspecteuren her paa Godset.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00823">Ærbødigste! – Jeg maa ogsaa paa det indstændigste bede Dem om Forladelse fordi jeg uden egentlig Tilladelse spadserer lidt om i denne særdeles skjønne Have!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00824">Behag at gaae hvor De vil!</p>
+
+<errors>
+
+</errors>
+</sp>
+
+<pb n="404"/>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00825">Ærbødigste! – God Morgen! – <stage><hi rend="italic">(vil gaae).</hi></stage></p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00826">De skulde ikke høre til Hr. Dalbys Selskab.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00827">Jo, ærbødigste! – <stage><hi rend="italic">(bukker meget dybt og seer da Levkoierne i det nærmeste Blomsterbed).</hi></stage> Tør jeg tillade mig at lugte til disse skjønne Væxter!</p>
+<stage rend="noIndent"><hi rend="italic">(han bøier sig ned til Jorden for at lugte til Blomsterne).</hi></stage>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00828">Behag at plukke Dem een!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00829">O nei! – den døer, naar den plukkes af! hvor de er søde.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00830">Forstod jeg Dem ret, hører De virkelig til Hr. Dalbys Selskab?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00831">Ærbødigste! jo!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00832">Er det mueligt!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00833">Ja, De kan have Ret deri, det synes usædvanligt, da jeg har den lille Natur-Feil at jeg stammer, men den kommer Selskabet meget til Gode. Jeg er Souffleur, og naar Souffleuren stammer, saa siger han dem jo Ordene to, tre Gange, og det er meget godt for de Spillende!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00834">Ja deri har De Ret!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00835">Ærbødigste! god Morgen! <stage><hi rend="italic">(vil gaae).</hi></stage></p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00836">Hvorledes er egentligt dette Hr. Dalbys Selskab?</p>
+</sp>
+
+<pb n="405"/>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00837">Det er udmærket!</p>
+
+<head type="melody"><seg target="txtcmnt-405-01"><!--DATA-TERM: Mel. Lorcks Hamborg-Skotsk--><!--DATA-DEFINITION: lægen Jørgen Heinrich Lorck (1810-1895) udgav 1839 to hamburger-skotske valse på forlaget Lose &amp; Olsen. Trykte noder til den her anvendte: Da.Vaud. bd. 1, s. 115. Enoder: <i>En Komedie i det Grønne.</i>--><hi rend="italic">Mel. Lorcks Hamborg-Skotsk</hi></seg>.</head>
+
+<lg xml:id="p_00838"><l rend="firstIndent">Vor Prima-Donna har et Navn,</l>
+<l rend="firstIndent">Hun Frøken er fra Kjøbenhavn,</l>
+<l rend="firstIndent">Og kjender Verden excellent;</l>
+<l rend="firstIndent">Et Aar hun har hos <seg target="txtcmnt-405-02" type="dfnStart"><!--DATA-TERM: Kehlets … Rosenlund--><!--DATA-DEFINITION: et traktørsted, som R.T. Kehlet åbnede på Værnedamsvej 5 i 1829, hed Rosenlund; stedet havde sin storhedstid i 1830’erne.--></seg>Kehlets tjent!</l></lg></sp>
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00839">Naa, saa hun har været Opvartnings-Pige!</p></sp>
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00840">Nei, <seg target="txtcmnt-405-03">Selskabs-Frøken</seg> paa Rosenlund<seg target="txtcmnt-405-02" type="dfnEnd"><!--DATA-TERM: Kehlets … Rosenlund--><!--DATA-DEFINITION: et traktørsted, som R.T. Kehlet åbnede på Værnedamsvej 5 i 1829, hed Rosenlund; stedet havde sin storhedstid i 1830’erne.--></seg>!</p>
+<graphic type="blank"/>
+
+<l rend="firstIndent">Vor Elsker høit jeg rose tør,</l>
+<l rend="firstIndent">Kun synger han mig lidt med Smør,</l>
+<l rend="firstIndent">Han er fra Holsten, han er <seg target="txtcmnt-405-04"><!--DATA-TERM: rar--><!--DATA-DEFINITION: tiltalende; interessant.-->rar</seg>,</l>
+<l rend="firstIndent">Og det er <seg target="txtcmnt-405-05"><!--DATA-TERM: holstensk Smør--><!--DATA-DEFINITION: eller bøttesmør, fremstilledes i dybe mælkekældre, hvor man stillede mælken til flødeafsætning. Blev indført først i 1800-tallet.-->holstensk Smør</seg> han har!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00841">Ere de Andre ligesaa gode, som Prima-Donna og Elsker ere det?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00842">O, de ere meget bedre!</p>
+<graphic type="blank"/>
+
+<l rend="firstIndent">Vor værdige Fader, see dog ham!</l>
+<l rend="firstIndent">Han <seg target="txtcmnt-405-06"><!--DATA-TERM: gives--><!--DATA-DEFINITION: spilles.-->gives</seg> af en tyk Madam;</l>
+<l rend="firstIndent">Hun ei til andet bruges tør,</l>
+<l rend="firstIndent">Men værdig er hun, som sig bør!</l>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00843">Det maa være et rart Selskab! har jeg ikke nok tænkt det.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00844">Ja!</p>
+<l rend="firstIndent">Vort Selskab, det er excellent!</l>
+<l rend="firstIndent">Sig selv det være kan bekjendt.</l>
+<l rend="firstIndent">Vi spille stort, vi spille smaat,</l>
+<l rend="firstIndent">Og alting spilles lige godt!</l>
+<errors>
+
+</errors>
+<pb n="406"/>
+<l rend="firstIndent">O, De vil græde, De vil lee,</l>
+<l rend="firstIndent">Naar De vort Selskab faaer at see!</l>
+<p rend="noIndent" xml:id="p_00845">Ærbødigste!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00846">Ærbødigste! <seg target="txtcmnt-406-01"><!--DATA-TERM: skal det allerede være--><!--DATA-DEFINITION: nu igen!-->skal det allerede være</seg>!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00847">Turde jeg lugte endnu en Gang til den søde, lille Blomst der staaer! – men ikke plukke den! O nei, ikke plukke den! Ah! – den er ogsaa saadan en lille Souffleur, der beskedent tilhvidsker os skjønne Tanker, vi skulle udtale! Allerærbødigste! <stage><hi rend="italic">(gaaer).</hi></stage></p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Ellevte Scene" xml:id="div0168">
+<head type="scene">Ellevte Scene</head>
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(ene).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00848">Allerærbødigste! – Han var idetmindste høflig, og en heel Deel fik jeg at vide! – Lad see! Prima-Donna har tjent som Selskabsfrøken paa et Kaffehuus, hvor hun har samlet Menneskekundskab! første Elsker synger med Smør, men det er holstensk! ja, det forstaaer jeg nu ikke saa ganske, men jeg kan tænke at det maa være en feed Sang han giver! Den rørende Fader spilles af en gammel tyk Madam, og Soufleuren stammer, saa hvert tredie Ord bliver halshugget. Der maa komme gode Ting ud af det, naar Comedianterne ikke kunne deres Roller, men saadan glubsk skulle tage dem ud af Munden paa ham. Jo, Greven vil vist blive inderlig fornøiet!</p>
+
+<head type="melody"><seg target="txtcmnt-406-02"><!--DATA-TERM: Mel. af Nonnerne--><!--DATA-DEFINITION: Belforts og Gregoires duet »J’ai bien souvent juré d’être fidèle«, (fransk, i E. de Falsens oversættelse:) »Jeg svoer iblant«, fra II,4 af F. Deviennes syngespil <i>Les visitandines</i>, 1792, med tekst af L.B. Picard; dansk <i>Nonnerne</i>, opført på Det Kongelige Teater 1797.--><hi rend="italic">Mel. Af Nonnerne</hi></seg>.</head>
+
+<lg xml:id="p_00849">
+<l rend="firstIndent">Man give vil</l>
+<l rend="firstIndent">Ei smaat, som Vaudeville,</l>
+<l rend="firstIndent">Nei Sørgespil,</l>
+<l rend="firstIndent">Alt hvad der Pragt skal til,</l>
+<l rend="firstIndent">Det Sværeste man allerhelst vil spille.</l>
+<l rend="firstIndent">:|: Placaten lover godt,</l>
+
+<l rend="firstIndent">Men hvad man faaer er smaat! :|:</l></lg>
+
+<p rend="noIndent" xml:id="p_00850">He! he! he! – Det lader ellers ikke til, at Hr. Dalby vil komme; <pb n="407"/>maaskee at Karlen ikke har fundet ham! Jeg troer næsten jeg vil gaae lidt ud ad Veien, møder jeg kun ikke der den halve Bande.</p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Tolvte Scene" xml:id="div0169">
+<head type="scene">Tolvte Scene</head>
+
+<stage rend="noIndent">FRANK. DALBY <hi rend="italic">(som Pyntekone)</hi>.</stage>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00851">Mange Tak, Hr. Inspecteur! mange Tak! – hvor De seer god ud, og er dog Skyld i disse Taarer!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00852">Jeg, min gode Kone!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00853">Gode Kone! – ja det er det samme! jeg er en god Kone, og dog har han lagt Haand paa mig, <seg target="txtcmnt-407-01"><!--DATA-TERM: knupset--><!--DATA-DEFINITION: pryglet.-->knupset</seg> mig har han.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00854">Hvo har været saa uartig.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00855">Det har min Mand! Decorations-Maleren! det var rigtignok i Enthusiasme han gjorde det; i en Exstase hvori De havde sat ham.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00856">Hvad, er det unge Menneske Madamens Mand!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00857">Vi er samme Legeme og samme Aand! han er Ild og Begeistring, lever kun for Middelalderen. –</p>
+</sp>
+
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(sagte).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00858">Han har endogsaa taget sig en Kone <seg target="txtcmnt-407-02"><!--DATA-TERM: af Middelalderen--><!--DATA-DEFINITION: midaldrende.-->af Middelalderen</seg>, <stage><hi rend="italic">(høit)</hi></stage> De er Skuespillerinde?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00859">Er? – Ak, husker De hvad der staaer saa skjønt og sandt i Don Carlos: »<seg target="txtcmnt-407-03"><!--DATA-TERM: De skjønne Dage … er nu tilende--><!--DATA-DEFINITION: replikken indleder I,1 af Schillers sørgespil <i>Don Carlos</i>, 1787. Dansk oversættelse ved K.L. Rahbek; opført første gang 1831 på Det Kongelige Teater.-->De skjønne Dage i Aranjuez er nu tilende</seg>!« jeg er nu <pb n="408"/>ansat ved Costume-Arangementet! jeg er første Dame ved Personalets dramatiske Garderobe!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00860">De er Pyntekone?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+
+<p rend="noIndent" xml:id="p_00861">Fy! – jeg skulde blive vred paa Dem! – og dog, De har noget saa inderligt godt, noget saa barnligt, uskyldigt. Elskelige Sjæl af et Mandfolk!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00862">Hvad for noget!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00863">Hvad er jeg! og hvad har jeg været! ak! det er en lang Historie!</p>
+<stage rend="noIndent"><hi rend="italic">(tager en Havestol og sætter sig).</hi></stage>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00864">Det lader til hun vil blive her!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00865">Sæt Dem hos mig! jeg føler mig saa god og reen i Deres Nærhed. Sæt Dem!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00866">Naa da! <stage><hi rend="italic">(sætter sig).</hi></stage></p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00867">Den lille Askepot kom paa en Trone, jeg er steget ned fra en Trone og blevet Askepot hos de stolte, strænge Søstre! »hjælp nu mig!« »Jeg skal være smækkrere! giv mig Naale, giv mig Traad!« »Bring mig <seg target="txtcmnt-408-01"><!--DATA-TERM: Galaner--><!--DATA-DEFINITION: opvartende kavalerer.-->Galaner</seg>!« – <seg target="txtcmnt-408-02"><!--DATA-TERM: Galoner--><!--DATA-DEFINITION: guld- eller sølvindvirkede bånd til besætning på klæder.-->Galoner</seg> mener jeg! O hvad der er en Skrigen, en Løben og Renden, ja man kunde saamæn skrive baade en Comedie og en Tragedie om mit Liv og Levnet!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00868">Jeg forstaaer ikke ret deres Ulykke!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00869">Min Ulykke! nei, den forstaaes kun af dette Hjerte <stage><hi rend="italic">(lægger Haanden paa sit).</hi></stage> Jeg var engang første Sangerinde, første Skuespillerinde og <pb n="409"/>næsten kan jeg sige, det første mimiske Talent. O De skulde have seet mig, som lille, vild <seg target="txtcmnt-409-01"><!--DATA-TERM: Otaheiterinde--><!--DATA-DEFINITION: kvinde fra stillehavsøen Tahiti. Ikke identificeret som teaterrolle.-->Otaheiterinde</seg>, uskyldig og leende! De skulde have seet mig, som <seg target="txtcmnt-409-02"><!--DATA-TERM: Semiramis--><!--DATA-DEFINITION: kan være titelpersonen i V. Galeottis pantomimeballet, 1787, opført indtil 1889, eller i operaen <i>La Semiramide riconosciuta</i>, 1768, af den italienske komponist og kongelige danske kapelmester P. Scalabrini (1713-1803), opført på Hofteatret 1749. Semiramis var ifølge overleveringen en assyrisk dronning eller gudinde.--><hi rend="italic">Semiramis</hi></seg>, dette indadvendte Dolke-Blik! der var flere Herrer, som fik ondt! Og nu som den skjønne <seg target="txtcmnt-409-03"><!--DATA-TERM: Zemire--><!--DATA-DEFINITION: hovedperson i <i>Zemire et Azor</i>, fransk lyrisk komedie, 1771, af J.F. Marmontel (1723-1799) med musik af den franske komponist A. Grétry (1741 eller 1742-1813). Opført på Det Kongelige Teater 1777.-->Zemire</seg>! jeg forsikkrer Dem, jeg pudrede aldrig mine Arme, det var reen Natur saa hvidede vare! – Ja nu maa - De ikke see paa dem! Gud!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00870">O, jeg seer slet ikke!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00871">Jo, De gjør! De er en lille <seg target="txtcmnt-409-04"><!--DATA-TERM: Lux--><!--DATA-DEFINITION: gavtyv.-->Lux</seg>! <seg target="txtcmnt-409-05"><!--DATA-TERM: Tartuffe--><!--DATA-DEFINITION: er typen på en hykler, hovedpersonen i Molières komedie <i>Tartuffe, ou l’imposteur</i>, 1664, opført på Det Kongelige Teater 1748.-->Tartuffe</seg>! Tartuffe!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00872">Jeg vil bede Dem ikke at sige sligt!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00873">Det mener De ikke! – jeg kjender den hele Skala af Mandfolk. O, hvor de have sværmet for mig. Naar jeg spillede stod der en lang Hale udenfor Huset. Herrerne skar mit Navn ud af Placaten og aad det paa Smørrebrød! jeg kunde fra Bræderne høre hvad de talte i Parquettet. Hun er charmant! guddommelig! hvilket Fruentimmer! – Og naar jeg saa sang, slog de Alle galt Takt med Hovedet!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00874">De sang ogsaa!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00875">O, deiligt! Min Triumph var: »<seg target="txtcmnt-409-06"><!--DATA-TERM: Mir fliehen alle Freuden--><!--DATA-DEFINITION: (tysk) alle glæder flygter fra mig; serenade af den italienske komponist G. Paisiello (1740-1816). Trykte noder: G. Paisiello <i>Nel cor piú non mi sento … Con variazioni di Angelica Catalani.</i> Hamburg, Cranz.-->Mir fliehen alle Freuden</seg>,« med Variationer; saa var Publicum ikke længer Menneske! jeg er blevet bekrandset! Ak! – Nu er min Sang kun en Ruin. Nu skal De høre min Ruin! – De siger nei, men Deres Øie siger jo! vel, jeg</p>
+<p rend="noIndent" xml:id="p_00876">adlyder. <stage><hi rend="italic">(synger paa tydsk »mir fliehen alle Freuden,« med Variationer)</hi></stage>.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00877">Det er al for megen Besværlighed for min Skyld.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00878">Besværlighed! O, hvad gjør man ikke for Dem! jeg kom med Had i mit Hjerte mod Dem, men dette Had er forvandlet til Kjærlighed!</p>
+</sp>
+
+<pb n="410"/>
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00879">Hvor jeg har en lykkelig Skjæbne!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00880">Den fortjener De! Mig er der spaaet: Du skal døe, som Inspectrise! – Min Mand, Maleren, er for <seg target="txtcmnt-410-01"><!--DATA-TERM: begeistret--><!--DATA-DEFINITION: fyldt med åndeligt liv.-->begeistret</seg> til at kunne leve længe, thi Begeistring tærer! – Fred med hans Minde! – Jeg skal døe, som Inspectrise! maaskee! – Hr. Inspecteur, jeg har seet Dem, jeg har faaet en Anelse! – min Qvindelighed byder mig at gaae! – Jeg Inspectrise!!! Lev vel da! barnlige Sjæl med det kraftige Blik. <stage><hi rend="italic">(gaaer).</hi></stage></p>
+</sp>
+</div>
+                         
+<div type="scene" rend="Trettende Scene" xml:id="div0170">
+<head type="scene">Trettende Scene</head>
+
+<sp>
+<speaker>FRANK <stage><hi rend="italic">(ene).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00881">Ih, hvad gaaer der af Mennesket! hun var da det meest kokette Fruentimmer jeg har kjendt! lagde hun ikke formeligt an paa mig! Inspectrice vil hun være, jo, nu løber man om! det har da ogsaa været et net Selskab, hvorved hun har været som Nummer eet. Og dog kan hun have gjort Lykke! Publicum har ogsaa sine Svagheder! jeg husker nok fra mine unge Dage, da jeg saae et Par ordenlige Comedier, hvor jeg da imellem ærgrede mig over Publicum og tænkte: Acteurer og Skribenter <seg target="txtcmnt-410-02"><!--DATA-TERM: recensere(s)--><!--DATA-DEFINITION: anmelde.-->recenseres</seg>, Publicum skulde ogsaa have deres Critik, hvorvidt det havde klappet rigtigt eller galt, hvorledes det havde <seg target="txtcmnt-410-03"><!--DATA-TERM: staaet sig--><!--DATA-DEFINITION: forholdt sig.-->staaet sig</seg> med Dømmekraften.</p>
+
+<head type="melody"><seg target="txtcmnt-410-04"><!--DATA-TERM: Mel. Den Nattergal synger i Midnattens Stund--><!--DATA-DEFINITION: fra A.W. Ifflands skuespil <i>Hausfrieden</i>, 1796, dansk <i>Huusfred</i>. Oversat af N.T. Bruun. Melodi af J.B.E. du Puy. Opført på Det Kongelige Teater 1808. Trykte noder: A.P. Berggreen: <i>Sange fra det danske Huus- og Selskabsliv i tidligere Tid</i>, 1871, nr. 22.--><hi rend="italic">Mel. Den Nattergal synger i Midnattens Stund</hi></seg>.</head>
+
+<lg xml:id="p_00882"><l rend="firstIndent">Om Publicum tidt man kan sige med Ret,</l>
+<l rend="firstIndent">At det i sin Handling og Snakken,</l>
+<l rend="firstIndent">Sig viser – ja, jeg tør ei sige det,</l>
+<l rend="firstIndent">Men det burde have paa Nakken!</l>
+<l rend="firstIndent">Dog gjør det lidt galt, ja saa trøster det sig:</l>
+<l rend="firstIndent">»O, det var min Naboe og ikke mig!«</l>
+<l rend="firstIndent">Blev Publicum resenseret,</l>
+<l rend="firstIndent">Jo, jo, saa var det leveret!</l></lg>
+
+</sp>
+<pb n="411"/></div>
+                         
+<div type="scene" rend="Fjortende Scene" xml:id="div0171">
+<head type="scene">Fjortende Scene</head>
+<stage rend="noIndent">FRANK. DALBY <hi rend="italic">(som Gaardskarlen fra første Scene, han bærer en stor Kurv)</hi>.</stage>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00883">Inspecteur!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00884">Naa, er han der! fik han ikke fat paa Directeuren?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00885">Jo vist! Her er »Dideriktøren,« og nogle af Banden.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00886">Hvor ere de?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00887">Her er <seg target="txtcmnt-411-01"><!--DATA-TERM: hele Comersen--><!--DATA-DEFINITION: hele herligheden.-->hele Comersen</seg>, Inspecteur. Først er jo jeg, og jeg er jeg!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00888">Snak nu ikke saa meget! hvor ere alle de Mennesker han taler om.</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00889">Jeg er jeg! og her – <stage><hi rend="italic">(han tager Haarskjærerens Paryk op af Kurven og siger i dennes Characteer)</hi></stage> »det var fra det negative Moment igjennem hvilket og i Kraft af hvilket alle Bevægelserne skee, jeg vilde gaae! det var fra Tankens store Tohuwabohu til Lys og Klarhed!« – Der har De Haarskjæreren!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00890">Men hvad er dog alt dette!</p>
+</sp>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(tager Malerens Paryk frem).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_00891">»Naturen er skjøn, ja det ved Gud, den er skjøn, men den er ikke correct!« – Her har De Decorations-Maleren.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00892">Jeg begriber ikke!</p>
+</sp>
+
+<sp>
+<speaker>DALBY <stage><hi rend="italic">(tager Poetens Paryk).</hi></stage></speaker>
+<l rend="firstIndent">»– – I Morgenstunden,</l>
+<pb n="412"/>
+<l rend="firstIndent">Naar jeg vandrer gjennem Lunden,</l>
+<l rend="firstIndent">Gjennem Dale, Skovens Sale,</l>
+<l rend="firstIndent">Kun i Versemaal kan tale!«</l>
+
+<graphic type="blank"/>
+
+<p rend="noIndent" xml:id="p_00893">Der ligger Poeten! <stage><hi rend="italic">(tager Souffleurens Paryk).</hi></stage> »Turde jeg lugte endnu engang til den søde lille Blomst, der staaer!« – Kjender De ikke nok Souffleuren? Og her, <stage><hi rend="italic">(tager Pyntekonens Hat).</hi></stage> Jo, min Herre! – »De er en lille Lux! Tartuffe, Tartuffe!« –</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00894">De er bestemt Hr. Dalby selv!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00895">Det er jeg! <stage><hi rend="italic">(kaster Gaardskarlens Haar).</hi></stage> God Morgen Hr. Inspecteur.</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00896">Det var Dem alene, alle de Mennesker jeg her har seet i denne Morgen?</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00897">Mig alene!</p>
+</sp>
+
+<sp>
+<speaker>FRANK</speaker>
+<p rend="noIndent" xml:id="p_00898">Saa bøier jeg mig for Deres Talent! men skal jeg troe, hvad De selv har sagt, som Souffleur, saa er nok det øvrige Personale – –!</p>
+</sp>
+
+<sp>
+<speaker>DALBY</speaker>
+<p rend="noIndent" xml:id="p_00899">Tro ikke Souffleuren! hvad jeg lod ham sige var kun et Speilbillede af Deres egne Tanker! Greven har sagt mig, at De ikke engang vilde see en af mine Forestillinger; De har selv spillet med i den første; vi faae nu at høre, hvad vort Publicum siger!</p> 
+<graphic type="blank"/>
+
+<head type="melody"><seg type="dfnStart" target="txtcmnt-412-01"/><hi rend="italic">Mel. Af Lindblad:</hi> »Wintern rasat ut bland våra fjällar<seg type="dfnEnd" target="txtcmnt-412-01"/>.«</head>
+<stage rend="firstIndent"><hi rend="italic">(i det han vender sig mod Pavillonen).</hi></stage>
+<lg xml:id="p_00900"><l rend="firstIndent">Stykket selv ei Handling just leverer,</l>
+<l rend="firstIndent">Det var kun en <seg target="txtcmnt-412-02"><!--DATA-TERM: Arabesk--><!--DATA-DEFINITION: ornament af arabisk oprindelse, dannet af sammenslyngede figurer m.m; her overført om grotesk, fantasifuldt værk.-->Arabesk</seg> De saae,</l>
+<l rend="firstIndent">Her fremtraadte nogle Characterer,</l>
+<l rend="firstIndent">Stykket maa om dem som Ramme staae.</l></lg>
+<stage rend="firstIndent"><hi rend="italic">(Til Publicum).</hi></stage>
+
+<errors>
+
+</errors>
+<pb n="413"/>
+
+<lg xml:id="p_00901">
+<l rend="firstIndent">Digteren tog frem et gammelt Stykke,</l>
+<l rend="firstIndent">Frisked’ Farven op og malte til,</l>
+<l rend="firstIndent">Mueligt det igjen da gjør sin Lykke;</l>
+<l rend="firstIndent">Gid De med et ja besvare vil!</l></lg>
+</sp>
+</div>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="En Comedie i det Grønne. " synch="en-comedie-i-det-groenne">
+<head type="section-comments">En Comedie i det Grønne</head>
+
+<head type="section-comments">Vaudeville i een Act efter det gamle Lystspil:</head>
+
+<head type="section-comments">»Skuespilleren imod sin Villie«</head>
+
+<argument type="sourceData">
+<p rend="noIndent">Opført første gang 13. maj 1840 på Det Kongelige Teater. Udkom første gang 27. oktober 1840 som nr. 124 af serien <hi rend="italic">Det Kongelige Theaters Repertoire.</hi> BFN 390</p>
+
+<p rend="firstIndent">Partitur: CII, 114i Tv.Fol. (musikhåndskrifter). Der kan henvises til CD’en <hi rend="italic">H.C. Andersen – Tre vaudeviller</hi>, DCD 8216, 2000 Danica Records, indeholdende bl.a. indspilninger af <hi rend="italic">En Comedie i det Grønne</hi>, <hi rend="italic">En Nat i Roeskilde</hi>, <hi rend="italic">Mikkels Kjærlighedshistorier i Paris.</hi></p>
+
+<p rend="firstIndent">H.C. Andersens forlæg er et fransk lystspil, <hi rend="italic">La fête de campagne ou l’intendant comédien malgré lui</hi>, dansk <hi rend="italic">Skuespilleren imod sin Villie eller Comedien <pb n="609"/>paa Landet</hi>, 1775, af L.F.A. Dorvigny, bearbejdet af A. v. Kotzebue. Bearbejdelsen oversat af N.T. Bruun; opført på Det Kongelige Teater 1809.</p></argument>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">389,2</cell><cell type="deviation">Har jeg ikke &lt; Har ikke</cell></row>
+<row><cell type="position">398,16</cell><cell type="deviation">mere!« &lt; mere!</cell></row>
+<row><cell type="position">402,24</cell><cell type="deviation">lille,« &lt; lille,</cell></row>
+<row><cell type="position">409,19</cell><cell type="deviation">sang, &lt; sang.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">383</cell><cell><row xml:id="txtcmnt-383-01"><cell type="data-term">Vaudeville</cell><cell type="data-definition">let, tit satirisk lystspil med indlagte sange.</cell></row></cell>
+<cell type="page">384</cell><cell><row xml:id="txtcmnt-384-01"><cell type="data-term">Hr. Stage</cell><cell type="data-definition">Johan A. Gottlob Stage (1791-1845) kongelig skuespiller, instruktør.</cell></row><row xml:id="txtcmnt-384-02"><cell type="data-term">Pyntekone</cell><cell type="data-definition">påklæderske.</cell></row><row xml:id="txtcmnt-384-03"><cell type="data-term">Hr. Phister</cell><cell type="data-definition">Ludvig Phister (1807-1896), kongelig skuespiller, fremtrædende komiker.</cell></row></cell>
+<cell type="page">386</cell><cell><row xml:id="txtcmnt-386-01"><cell type="data-term">sin Græsk</cell><cell type="data-definition">vel Holberg-allusion, jf. komedien <hi rend="italic">Jean de France</hi>, opført 1722, trykt 1723: »Om Morgenen skal de [dvs. de unge mennesker, der har været udenlands] have deres Thee eller Chocolade; det, sige de, er paa sin Hollandsk. Om Eftermiddagen deres Caffee; det er paa sin Engelsk. Mod Aftenen spille de Allomber hos en Maitresse; det er paa sin Fransk« (I,1).</cell></row><row xml:id="txtcmnt-386-02"><cell type="data-term">Theater … Göthe</cell><cell type="data-definition">Goethe blev 1775 tilknyttet hertug Karl Augusts hof i Weimar. Hoffet etablerede 1776 et teater, som Karl Augusts mor, ikke hertugen selv, var sjælen i. Goethe skrev stykker til teatret og havde det formelle ansvar for det 1776-1782. Om sommeren spillede man udendørs, tit i parkerne ved slottene Ettersburg og Tiefurt; men der fandtes ikke noget friluftsteater med græsk præg. H.C. Andersen kan have sin ide herom fra den tyske maler Georg Melchior Kraus’ billede, 1780, af en scene fra teatrets uropførelse af Goethes drama <hi rend="italic">Iphigenie auf Tauris</hi> 6. april 1779, vel en indendørs forestilling, men billedet giver indtryk af, at man er udendørs, og viser et græsk tempel i en skovegn; se fx. <hi rend="italic">Verdenslitteraturhistorie</hi> redigeret af F.J. Billeskov Jansen m.fl., 1972, bd. 6, s. 337.</cell></row><row xml:id="txtcmnt-386-03"><cell type="data-term">extemporere(de)</cell><cell type="data-definition">opføre (egtl. læse) uforberedt tekst.</cell></row><row xml:id="txtcmnt-386-04"><cell type="data-term">hvo</cell><cell type="data-definition">hvem.</cell></row></cell>
+<cell type="page">387</cell><cell><row xml:id="txtcmnt-387-01"><cell type="data-term">alt</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-387-02"><cell type="data-term">Gaardskarlen fra de fem Flasker</cell><cell type="data-definition">i <hi rend="italic">Skuespilleren imod sin Villie</hi> optræder personen Dalby i I,2 som »Gaardskarlen fra den forgyldte Hane«.</cell></row><row xml:id="txtcmnt-387-03"><cell type="data-term">mærkelig</cell><cell type="data-definition">bemærkelsesværdig.</cell></row><row xml:id="txtcmnt-387-04"><cell type="data-term">Tøi</cell><cell type="data-definition">skab, utøj.</cell></row><row xml:id="txtcmnt-387-05"><cell type="data-term">Drivt</cell><cell type="data-definition">(nedsættende) hob, flok.</cell></row><row xml:id="txtcmnt-387-06"><cell type="data-term">kjed af</cell><cell type="data-definition">træt af.</cell></row></cell>
+<cell type="page">388</cell><cell><row xml:id="txtcmnt-388-01"><cell type="data-term">lært Dem</cell><cell type="data-definition">lært dem.</cell></row><row xml:id="txtcmnt-388-02"><cell type="data-term">Hamborger-Skotsk</cell><cell type="data-definition">bondedans i 2/4-takt, en slags polka; jf. note til s. 405.</cell></row><row xml:id="txtcmnt-388-03"><cell type="data-term">Kirsebærsuppen</cell><cell type="data-definition">(især fynsk) folkedans.</cell></row><row xml:id="txtcmnt-388-04"><cell type="data-term">Slaae-Gilde</cell><cell type="data-definition">høstgilde, især efter høhøst.</cell></row><row xml:id="txtcmnt-388-05"><cell type="data-term">Mel. En tydsk Soldater-Vise</cell><cell type="data-definition">trykte noder: Da.Vaud. bd. 1, s. 111 (her benævnt »Sjællandsk Bondevise«). E-noder: <hi rend="italic">En Komedie i det Grønne.</hi></cell></row><row xml:id="txtcmnt-388-06"><cell type="data-term">Sinker</cell><cell type="data-definition">små jernkramper.</cell></row></cell>
+<cell type="page">389</cell><cell><row xml:id="txtcmnt-389-01"><cell type="data-term">Haandtag</cell><cell type="data-definition">slag.</cell></row><row xml:id="txtcmnt-389-02"><cell type="data-term">Drolen</cell><cell type="data-definition">fanden; drolen splide mig, dvs. fanden splitte mig ad, er en almindelig ed hos Holberg.</cell></row><row xml:id="txtcmnt-389-03"><cell type="data-term">Æggemad</cell><cell type="data-definition">om æggeretter.</cell></row><row xml:id="txtcmnt-389-04"><cell type="data-term">Linien</cell><cell type="data-definition">linen.</cell></row></cell>
+<cell type="page">390</cell><cell><row xml:id="txtcmnt-390-01"><cell type="data-term">Spølleskaal</cell><cell type="data-definition">eller spølkum: stor flad kop uden hank og underkop.</cell></row><row xml:id="txtcmnt-390-02"><cell type="data-term">hjælpe paa Smagen</cell><cell type="data-definition">befordre den gode smag.</cell></row><row xml:id="txtcmnt-390-03"><cell type="data-term">Hermann von Unna</cell><cell type="data-definition"><hi rend="italic">Herman von Unna</hi>, ridderskuespil fra 1788 af den svenske forfatter A. F. Skjöldebrand efter en roman af den tyske forfatter Christiane Benedicte Naubert, ligeledes fra 1788. Musik af Abbé Vogler. På <pb n="610"/>dansk ved Th. Thaarup; opført første gang på Det Kongelige Teater januar 1800, sidste gang 1836.</cell></row><row xml:id="txtcmnt-390-04"><cell type="data-term">den hemmelige Ret</cell><cell type="data-definition">fjerde akt af <hi rend="italic">Herman von Unna</hi> foregår i en bjerghule, hvor en sådan ret afholdes, ledet af Herman von Unna. Litteraten N.C. Øst fører i sin udgivelse af <hi rend="italic">Herman von Unna</hi>, 1800, de hemmelige westfalske friretters oprindelse tilbage til Karl den Store og kalder denne retsform for »snart banditmæssig, snart højtideligmystisk, snart almindeligretfærdig« (s. 47-48).</cell></row></cell>
+<cell type="page">391</cell><cell><row xml:id="txtcmnt-391-01"><cell type="data-term">Hospital(et)</cell><cell type="data-definition">fattighus; stiftelse for uarbejdsdygtige fattige eller for ubemidlede gamle.</cell></row><row xml:id="txtcmnt-391-02"><cell type="data-term">Tøi</cell><cell type="data-definition">pak.</cell></row><row xml:id="txtcmnt-391-03"><cell type="data-term">Centrifugalkraft</cell><cell type="data-definition">kraft, hvormed et legeme, der bevæger sig i en cirkel, synes påvirket bort fra centrum.</cell></row><row xml:id="txtcmnt-391-04"><cell type="data-term">Det Sublimat … profundis</cell><cell type="data-definition">jf. <hi rend="italic">Søren Kierkegaards Skrifter</hi> (SKS) udgivet af Søren Kierkegaard Forskningscenteret, bd. 1, 1997, s. 21. Hårskærerens replikker indeholder en række allusioner til Kierkegaards afhandling <hi rend="italic">Af en endnu Levendes Papirer</hi>, 1838, som er stærkt kritisk over for H.C. Andersens roman <hi rend="italic">Kun en Spillemand</hi>, 1837.</cell></row><row xml:id="txtcmnt-391-05"><cell type="data-term">Sublimat</cell><cell type="data-definition">det sanselige, omdannet til renset, åndelig form.</cell></row><row xml:id="txtcmnt-391-06"><cell type="data-term">Congruens</cell><cell type="data-definition">overensstemmelse, sammenfald.</cell></row><row xml:id="txtcmnt-391-07"><cell type="data-term">ex matematica pura</cell><cell type="data-definition">ud fra den rene matematik; »matematica« er fejl for »mathematica«.</cell></row><row xml:id="txtcmnt-391-08"><cell type="data-term">de profundis</cell><cell type="data-definition">(latin) fra dybet; jf. Salmernes Bog 130,1: »Fra det dybe råber jeg til dig, Herre«.</cell></row><row xml:id="txtcmnt-391-09"><cell type="data-term">(gjennem)declineret i … Casibus</cell><cell type="data-definition">bøjet i kasus. Jf. SKS 1,30.</cell></row><row xml:id="txtcmnt-391-10"><cell type="data-term">præcipiseret</cell><cell type="data-definition">præcipiteret, dvs. nedstyrtet, gjort til bundfald.</cell></row><row xml:id="txtcmnt-391-11"><cell type="data-term">Alongeparykker</cell><cell type="data-definition">parykker med lange nedhængende lokker.</cell></row><row xml:id="txtcmnt-391-12"><cell type="data-term">Hesteskoes Toupeer</cell><cell type="data-definition">parykker for mænd med håropsætning i hesteskoform.</cell></row></cell>
+<cell type="page">392</cell><cell><row xml:id="txtcmnt-392-01"><cell type="data-term">Kanonbukler</cell><cell type="data-definition">bukler er hårlokker, der er formet som ruller, især som del af paryk; udtrykket kanonbukler kommer vel af, at særligt store buklers ender kan minde om kanonmundinger.</cell></row><row xml:id="txtcmnt-392-02"><cell type="data-term">pompeianske</cell><cell type="data-definition">om fund fra oldtidsbyen Pompeji, der blev begravet ved Vesuvs udbrud 79 e.Kr. Den pompejanske stil var på den tid mode.</cell></row><row xml:id="txtcmnt-392-03"><cell type="data-term">æqval</cell><cell type="data-definition">lig med.</cell></row><row xml:id="txtcmnt-392-04"><cell type="data-term">Mel. La tarantella</cell><cell type="data-definition">»Tarantelle« af G. Rossini. Noder: Da.Vaud. bd. 1, s. 112-113. E-noder: <hi rend="italic">En Komedie i det Grønne.</hi></cell></row><row xml:id="txtcmnt-392-05"><cell type="data-term">Anna Bolena</cell><cell type="data-definition">titel på opera fra 1830 af G. Donizetti. Førsteopførelse i Danmark 1844 på Hofteatret, hvor italienske operasangere optrådte 1842-1854. Anne Boleyn (1507-1536) var den engelske konge Henrik 8.s anden hustru; hun blev anklaget for blodskam og anslag mod kongens liv, siden henrettet.</cell></row><row xml:id="txtcmnt-392-06"><cell type="data-term">Spranze</cell><cell type="data-definition">(tysk låneord) laps, nar.</cell></row><row xml:id="txtcmnt-392-07"><cell type="data-term">Reisning</cell><cell type="data-definition">håropsætning, top.</cell></row><row xml:id="txtcmnt-392-08"><cell type="data-term">Pompadour</cell><cell type="data-definition">den franske kong Ludvig 15.s elskerinde madame Pompadour (1721-1764) optræder i Alphonse [Gautier], A. François [Dercy] og L.P.N. Fourniers skuespil <hi rend="italic">Une présentation</hi>, 1835, dansk <hi rend="italic">Grev Saint-Germain</hi>. Stykket opførtes på Det Kongelige Teater 1837 med Johanne Luise Heiberg i rollen som Pompadour.</cell></row><row xml:id="txtcmnt-392-09"><cell type="data-term">Pung-Paryk</cell><cell type="data-definition">paryk med hårpung.</cell></row><row xml:id="txtcmnt-392-10"><cell type="data-term">Jean de France</cell><cell type="data-definition">hovedpersonen i Holbergs komedie med denne titel, opført 1722, trykt 1723.</cell></row><row xml:id="txtcmnt-392-11"><cell type="data-term">Magdelone(s)</cell><cell type="data-definition">fast figur hos Holberg, fx i komedien <hi rend="italic">Maskarade</hi>, 1724, en elskovs- eller forlystelsessyg midaldrende kvinde.</cell></row><row xml:id="txtcmnt-392-12"><cell type="data-term">Tour</cell><cell type="data-definition">krans af falsk hår.</cell></row><row xml:id="txtcmnt-392-13"><cell type="data-term">Lais</cell><cell type="data-definition">navn på to oldgræske kurtisaner, dvs. finere prostituerede; den ene var fra Korinth, d. ca. 340 f.Kr.</cell></row><row xml:id="txtcmnt-392-14"><cell type="data-term">Brynhilde</cell><cell type="data-definition">navnet betyder en brynjeklædt valkyrie; disse var den nordiske mytologis kampgudinder. Brynhilde er også navnet på en sagnskikkelse, som <pb n="611"/>optræder i Sigurdskvadene i <hi rend="italic">Ældre Edda</hi>, og om hvem det berettes, at hun fik sin mand til at dræbe hendes ungdomselskede Sigurd Fafnersbane. Grundtvigs <hi rend="italic">Optrin af Norners og Asers Kamp</hi>, 1811, har Brynhild som en af hovedpersonerne og beretter om hendes og Sigurds død.</cell></row><row xml:id="txtcmnt-392-15"><cell type="data-term">Fru von Potiphar</cell><cell type="data-definition">Potifars hustru forsøgte at forføre den unge Josef, jf. 1. Mosebog 39. Almindeligt sujet i malerkunsten, brugt fx af Rembrandt og Agnolo Bronzino.</cell></row><row xml:id="txtcmnt-392-16"><cell type="data-term">Koketter</cell><cell type="data-definition">letlevende kvinder.</cell></row><row xml:id="txtcmnt-392-17"><cell type="data-term">Laps(e)</cell><cell type="data-definition">sjuft; uopdragen person.</cell></row></cell>
+<cell type="page">393</cell><cell><row xml:id="txtcmnt-393-01"><cell type="data-term">Phænomeen … Hegels store Forsøg … Intet</cell><cell type="data-definition">jf. SKS 1,17.</cell></row><row xml:id="txtcmnt-393-02"><cell type="data-term">det negative Moment … skee</cell><cell type="data-definition">jf. SKS 1,20.</cell></row><row xml:id="txtcmnt-393-03"><cell type="data-term">Tohuwabohu</cell><cell type="data-definition">(hebraisk) tomhed og øde, jf. 1. Mosebog 1,2; om kaostilstanden, der herskede, før Gud skabte jorden.</cell></row><row xml:id="txtcmnt-393-04"><cell type="data-term">dixi</cell><cell type="data-definition">(latin) jeg har talt.</cell></row></cell>
+<cell type="page">394</cell><cell><row xml:id="txtcmnt-394-01"><cell type="data-term">vist</cell><cell type="data-definition">sikkert.</cell></row><row xml:id="txtcmnt-394-02"><cell type="data-term">kunstigt</cell><cell type="data-definition">kunstlet.</cell></row><row xml:id="txtcmnt-394-03"><cell type="data-term">artig Fisk</cell><cell type="data-definition">»køn plante«.</cell></row><row xml:id="txtcmnt-394-04"><cell type="data-term">Tabak(spibe)</cell><cell type="data-definition">ældre form.</cell></row><row xml:id="txtcmnt-394-05"><cell type="data-term">Juno per nubem</cell><cell type="data-definition">af den latinske talemåde »Nubem pro Junone axemplari«: omfavne en sky i stedet for Juno. Ifølge græskromersk mytologi efterstræbte Ixion gudinden Juno (Hera), men Jupiter (Zeus) sendte i stedet en sky, som Ixion da forgreb sig på.</cell></row><row xml:id="txtcmnt-394-06"><cell type="data-term">Columbus … Kartoflerne … Tobakken</cell><cell type="data-definition">italieneren Christoffer Columbus, som i 1492 nåede Bahamaøerne i Det Caribiske Hav, regnes for Amerikas opdager. Kartoffelplanten, som vokser vildt i Sydamerika, blev først senere indført til Europa, måske i 1584 med den engelske admiral Walter Raleigh. Tobakken blev indført fra Amerika til Spanien i 1500-tallet.</cell></row><row xml:id="txtcmnt-394-07"><cell type="data-term">Knebelsbart</cell><cell type="data-definition">overskæg, moustache.</cell></row></cell>
+<cell type="page">395</cell><cell><row xml:id="txtcmnt-395-01"><cell type="data-term">Mel. … Hvem jeg er?</cell><cell type="data-definition">»Qui je suis?«, indleder romancen »Une fée un bon ange« (fransk, i Th. Overskous oversættelse:) »Du den Skytsengel skuer« fra I,6 af D.F.E. Aubers syngespil <hi rend="italic">Le domino noir</hi>, 1837, med tekst af E. Scribe; dansk <hi rend="italic">Eventyret paa Maskeraden eller Den sorte Domino</hi>, opført på Det Kongelige Teater 1839. Trykte noder: Da. Vaud. bd. 1, s. 114; klaverpartitur til <hi rend="italic">Le domino noir</hi> findes. E-noder: <hi rend="italic">En Komedie i det Grønne</hi>.</cell></row><row xml:id="txtcmnt-395-02"><cell type="data-term">Raphael</cell><cell type="data-definition">egl. Raffaello Santi da Urbino (1483-1520), italiensk renæssancemaler.</cell></row><row xml:id="txtcmnt-395-03"><cell type="data-term">Troja</cell><cell type="data-definition">der hentydes til det homeriske Troja, sandsynligvis identisk med den antikke by Troja i Nordvesttyrkiet. Beretningerne om den trojanske krig, grækernes legendariske belejring af Troja, har måske en historisk kerne. Om Trojas fald berettes i de græske heltedigte <hi rend="italic">Iliaden</hi> og <hi rend="italic">Odysseen</hi>, efter traditionen tillagt digteren Homer (ca. 700 f.Kr.), og i den romerske digter Vergils heltedigt <hi rend="italic">Æneiden</hi>, fra hvilken beretningen om Trojas brand er kendt.</cell></row><row xml:id="txtcmnt-395-04"><cell type="data-term">Pest-Stykke</cell><cell type="data-definition">billedlig fremstilling af en scene fra pestens tid.</cell></row><row xml:id="txtcmnt-395-05"><cell type="data-term">Malerie … een af Roms Kirker … Røvere … Pølse</cell><cell type="data-definition">i San Clemente-kirkens St. Catherine-kapel i Rom viser en freske af Masolino da Panicale, malet i perioden 1411-1431, en korsfæstelsesscene med Kristus mellem de to røvere. Et dragelignende væsen trækker med kløerne sjælen i form af en »pølse« ud af den onde røvers mund; den gode røvers sjæl bæres bort af en engel, der svæver over hans kors. Freskerne er måske blevet til i samarbejde med maleren Masaccio. I <hi rend="italic">Dagbøger</hi> I, s. 225 (31. oktober 1833) berettes fra Rom: »I ST Clemens saae vi de ældste Malerier ... Christus med Røverne paa Korset, Sjælen gik som en Pølse ud af Munden, Englen tog den enes, Djævlene den andens«.</cell></row></cell>
+<pb n="612"/>
+<cell type="page">396</cell><cell><row xml:id="txtcmnt-396-01"><cell type="data-term">troer de det</cell><cell type="data-definition">nå, så det tror De?</cell></row><row xml:id="txtcmnt-396-02"><cell type="data-term">Mel. Malibrans Tyrolienne</cell><cell type="data-definition">»Retour de la tyrolienne«, sang af Maria F. Malibran (1808-1836), fransk sangerinde og komponist; se note til s. 380. Trykte noder: Da. Vaud. bd. 1, s. 114. E-noder: <hi rend="italic">En Komedie i det Grønne.</hi></cell></row></cell>
+<cell type="page">398</cell><cell><row xml:id="txtcmnt-398-01"><cell type="data-term">Vel rødme…</cell><cell type="data-definition">»Recension«, digt, 1830, af H.C. Andersen (BFN 56); se <hi rend="italic">ANDERSEN</hi> bd. 7, s. 92.</cell></row><row xml:id="txtcmnt-398-02"><cell type="data-term">giver (denne Natur)</cell><cell type="data-definition">skildrer.</cell></row></cell>
+<cell type="page">399</cell><cell><row xml:id="txtcmnt-399-01"><cell type="data-term">Mel. Staae tidlig op, sy Tøfler, Skoe</cell><cell type="data-definition">sangen »Hold Lampen tændt, sye Tøfler, Skoe«, der afslutter sidste akt af <hi rend="italic">Dragedukken</hi>, syngespil af F.L. Kunzen (1761-1817) med tekst af Enevold de Falsen; opført på Det Kongelige Teater 1797. Trykt klaverpartitur til <hi rend="italic">Dragedukken</hi> findes.</cell></row><row xml:id="txtcmnt-399-02"><cell type="data-term">abe</cell><cell type="data-definition">abe efter.</cell></row><row xml:id="txtcmnt-399-03"><cell type="data-term">Liberiet</cell><cell type="data-definition">(om klædedragt) munderingen.</cell></row></cell>
+<cell type="page">400</cell><cell><row xml:id="txtcmnt-400-01"><cell type="data-term">Guirlander</cell><cell type="data-definition">blomsterranker.</cell></row></cell>
+<cell type="page">401</cell><cell><row xml:id="txtcmnt-401-01"><cell type="data-term">Eet er Poesie, et andet er at rime</cell><cell type="data-definition">måske allusion til Herman von Bremens slutreplik »Eet er et Søe-Kort at forstaae / Et Andet, Skib at føre« i sidste akt af Holberg: <hi rend="italic">Den politiske Kandstøber</hi>, opf. 1722, trykt 1723.</cell></row><row xml:id="txtcmnt-401-02"><cell type="data-term">Alcmene</cell><cell type="data-definition">ifølge græsk mytologi mykensk kongedatter. Mens hendes tilkommende, Amphitryon, var i krig, forførte Zeus hende, og hun fødte sønnen Herakles, helten, der kæmpede mod uhyrer, vilddyr og andet ondt.</cell></row><row xml:id="txtcmnt-401-03"><cell type="data-term">Actræus</cell><cell type="data-definition">måske sammenblanding af navnene på to mytologiske figurer: Alkæos, der var Amphitryons far, og jægeren Actæon.</cell></row></cell>
+<cell type="page">402</cell><cell><row xml:id="txtcmnt-402-01"><cell type="data-term">Kjærminde(r)</cell><cell type="data-definition">forglemmigej.</cell></row><row xml:id="txtcmnt-402-02"><cell type="data-term">slippe</cell><cell type="data-definition">slippe af med.</cell></row><row xml:id="txtcmnt-402-03"><cell type="data-term">Der var en Tid da jeg var meget lille</cell><cell type="data-definition">første vers af Jens Baggesens digt »Da jeg var lille«, 1785.</cell></row></cell>
+<cell type="page">403</cell><cell><row xml:id="txtcmnt-403-01"><cell type="data-term">Det er nu også</cell><cell type="data-definition">sikke nu også.</cell></row><row xml:id="txtcmnt-403-02"><cell type="data-term">vilde (høre)</cell><cell type="data-definition">H.C. Andersen brugte undertiden denne perfektum participium i stedet for »villet«, jf. ODS, bind 26, sp. 1581, l. 19.</cell></row><row xml:id="txtcmnt-403-03"><cell type="data-term">Forestillinger</cell><cell type="data-definition">indvendinger.</cell></row><row xml:id="txtcmnt-403-04"><cell type="data-term">skikkeligt</cell><cell type="data-definition">respektabelt.</cell></row></cell>
+<cell type="page">405</cell><cell><row xml:id="txtcmnt-405-01"><cell type="data-term">Mel. Lorcks Hamborg-Skotsk</cell><cell type="data-definition">lægen Jørgen Heinrich Lorck (1810-1895) udgav 1839 to hamburger-skotske valse på forlaget Lose &amp; Olsen. Trykte noder til den her anvendte: Da.Vaud. bd. 1, s. 115. Enoder: <hi rend="italic">En Komedie i det Grønne.</hi></cell></row><row xml:id="txtcmnt-405-02"><cell type="data-term">Kehlets … Rosenlund</cell><cell type="data-definition">et traktørsted, som R.T. Kehlet åbnede på Værnedamsvej 5 i 1829, hed Rosenlund; stedet havde sin storhedstid i 1830’erne.</cell></row><row xml:id="txtcmnt-405-03"><cell type="data-term">Selskabs-Frøken</cell><cell type="data-definition">yngre, ugift selskabsdame.</cell></row><row xml:id="txtcmnt-405-04"><cell type="data-term">rar</cell><cell type="data-definition">tiltalende; interessant.</cell></row><row xml:id="txtcmnt-405-05"><cell type="data-term">holstensk Smør</cell><cell type="data-definition">eller bøttesmør, fremstilledes i dybe mælkekældre, hvor man stillede mælken til flødeafsætning. Blev indført først i 1800-tallet.</cell></row><row xml:id="txtcmnt-405-06"><cell type="data-term">gives</cell><cell type="data-definition">spilles.</cell></row></cell>
+<cell type="page">406</cell><cell><row xml:id="txtcmnt-406-01"><cell type="data-term">skal det allerede være</cell><cell type="data-definition">nu igen!</cell></row><row xml:id="txtcmnt-406-02"><cell type="data-term">Mel. af Nonnerne</cell><cell type="data-definition">Belforts og Gregoires duet »J’ai bien souvent juré d’être fidèle«, (fransk, i E. de Falsens oversættelse:) »Jeg svoer iblant«, fra II,4 af F. Deviennes syngespil <hi rend="italic">Les visitandines</hi>, 1792, med tekst af L.B. Picard; dansk <hi rend="italic">Nonnerne</hi>, opført på Det Kongelige Teater 1797.</cell></row></cell>
+<cell type="page">407</cell><cell><row xml:id="txtcmnt-407-01"><cell type="data-term">knupset</cell><cell type="data-definition">pryglet.</cell></row><row xml:id="txtcmnt-407-02"><cell type="data-term">af Middelalderen</cell><cell type="data-definition">midaldrende.</cell></row><row xml:id="txtcmnt-407-03"><cell type="data-term">De skjønne Dage … er nu tilende</cell><cell type="data-definition">replikken indleder I,1 af Schillers sørgespil <hi rend="italic">Don Carlos</hi>, 1787. Dansk oversættelse ved K.L. Rahbek; opført første gang 1831 på Det Kongelige Teater.</cell></row></cell>
+<cell type="page">408</cell><cell><row xml:id="txtcmnt-408-01"><cell type="data-term">Galaner</cell><cell type="data-definition">opvartende kavalerer.</cell></row><row xml:id="txtcmnt-408-02"><cell type="data-term">Galoner</cell><cell type="data-definition">guld- eller sølvindvirkede bånd til besætning på klæder.</cell></row></cell>
+<pb n="613"/>
+<cell type="page">409</cell><cell><row xml:id="txtcmnt-409-01"><cell type="data-term">Otaheiterinde</cell><cell type="data-definition">kvinde fra stillehavsøen Tahiti. Ikke identificeret som teaterrolle.</cell></row><row xml:id="txtcmnt-409-02"><cell type="data-term">Semiramis</cell><cell type="data-definition">kan være titelpersonen i V. Galeottis pantomimeballet, 1787, opført indtil 1889, eller i operaen <hi rend="italic">La Semiramide riconosciuta</hi>, 1768, af den italienske komponist og kongelige danske kapelmester P. Scalabrini (1713-1803), opført på Hofteatret 1749. Semiramis var ifølge overleveringen en assyrisk dronning eller gudinde.</cell></row><row xml:id="txtcmnt-409-03"><cell type="data-term">Zemire</cell><cell type="data-definition">hovedperson i <hi rend="italic">Zemire et Azor</hi>, fransk lyrisk komedie, 1771, af J.F. Marmontel (1723-1799) med musik af den franske komponist A. Grétry (1741 eller 1742-1813). Opført på Det Kongelige Teater 1777.</cell></row><row xml:id="txtcmnt-409-04"><cell type="data-term">Lux</cell><cell type="data-definition">gavtyv.</cell></row><row xml:id="txtcmnt-409-05"><cell type="data-term">Tartuffe</cell><cell type="data-definition">er typen på en hykler, hovedpersonen i Molières komedie <hi rend="italic">Tartuffe, ou l’imposteur</hi>, 1664, opført på Det Kongelige Teater 1748.</cell></row><row xml:id="txtcmnt-409-06"><cell type="data-term">Mir fliehen alle Freuden</cell><cell type="data-definition">(tysk) alle glæder flygter fra mig; serenade af den italienske komponist G. Paisiello (1740-1816). Trykte noder: G. Paisiello <hi rend="italic">Nel cor piú non mi sento … Con variazioni di Angelica Catalani.</hi> Hamburg, Cranz.</cell></row></cell>
+<cell type="page">410</cell><cell><row xml:id="txtcmnt-410-01"><cell type="data-term">begeistret</cell><cell type="data-definition">fyldt med åndeligt liv.</cell></row><row xml:id="txtcmnt-410-02"><cell type="data-term">recensere(s)</cell><cell type="data-definition">anmelde.</cell></row><row xml:id="txtcmnt-410-03"><cell type="data-term">staaet sig</cell><cell type="data-definition">forholdt sig.</cell></row><row xml:id="txtcmnt-410-04"><cell type="data-term">Mel. Den Nattergal synger i Midnattens Stund</cell><cell type="data-definition">fra A.W. Ifflands skuespil <hi rend="italic">Hausfrieden</hi>, 1796, dansk <hi rend="italic">Huusfred</hi>. Oversat af N.T. Bruun. Melodi af J.B.E. du Puy. Opført på Det Kongelige Teater 1808. Trykte noder: A.P. Berggreen: <hi rend="italic">Sange fra det danske Huus- og Selskabsliv i tidligere Tid</hi>, 1871, nr. 22.</cell></row></cell>
+<cell type="page">411</cell><cell><row xml:id="txtcmnt-411-01"><cell type="data-term">hele Comersen</cell><cell type="data-definition">hele herligheden.</cell></row></cell>
+<cell type="page">412</cell><cell><row xml:id="txtcmnt-412-01"><cell type="data-term">Mel. …Wintern rasat ut bland våra fjällar</cell><cell type="data-definition">sang, 1838, med tekst af H. Sätherberg; melodi af O. Lindblad. Kendt som melodi til C. Plougs sang »Liflig fløite Vælsklands Nattergale«, 1846. Trykte noder: Da.Vaud. bd. 1, s. 116; Erslev nr. 49. E-noder: <hi rend="italic">En Komedie i det Grønne.</hi></cell></row><row xml:id="txtcmnt-412-02"><cell type="data-term">Arabesk</cell><cell type="data-definition">ornament af arabisk oprindelse, dannet af sammenslyngede figurer m.m; her overført om grotesk, fantasifuldt værk.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

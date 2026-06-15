@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Suppe paa en Pølsepind</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr og Historier</i>, som udkom den 2. marts 1858.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">2:<i> Eventyr og Historier II 1852-1862</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="suppe-paa-en-poelsepind" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="suppe-paa-en-poelsepind_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="126_Soup-from-a-Sausage-Stick">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>»Det var en udmærket Middag igaar!« sagde en gammel Hun-Muus til Een, der ikke h...</incipit><readingTime>18</readingTime><popularity>916</popularity><cite>&lt;p&gt;H.C. Andersen: Suppe paa en Pølsepind. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Suppe-paa-en-Poelsepind_01_2022-03-14.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1858</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0001">I. »Suppe paa en Pölsepind«</cell>
+                                                       
+                                                            <cell ref="#div0002">II. Hvad den förste lille Muus havde seet og lært paa Reisen</cell>
+                                                       
+                                                            <cell ref="#div0003">III. Hvad den anden lille Muus vidste at fortælle</cell>
+                                                       
+                                                            <cell ref="#div0004">IV. Hvad den fjerde Muus, som talte før den tredie havde talt, vidste at fortælle</cell>
+                                                       
+                                                            <cell ref="#div0005">V. Hvorledes den blev lavet</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2024-02-23" status="draft">minor changes in div-structure</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Suppe paa en Pølsepind" xml:id="suppe-paa-en-poelsepind">
+<head type="main"><seg target="txtcmnt-149-01"><!--DATA-TERM: Suppe paa en Pølsepind--><anchor target="txtcmnt-149-01"/><!--talemåde: »Det bliver en tynd Suppe, som koges paa en Pølsepind« (Mau 4905). Pølsepindene blev genbrugt efter at være blevet kogt.-->Suppe paa en Pølsepind</seg></head>
+
+<div type="section" rend="I. »Suppe paa en Pölsepind«" xml:id="div0001">
+<head type="section">I</head>
+<head type="section">»Suppe paa en Pölsepind«</head>
+
+<p rend="noIndent" xml:id="p_00001">»Det var en udmærket Middag igaar!« sagde en gammel Hun-Muus til Een, der ikke havde været med ved det Gilde. »Jeg sad Nummer een og tyve fra den gamle Musekonge; det er ikke saa ringe endda! Skal jeg nu sige Dem Anretningerne, de vare meget godt satte sammen! muggent Brød, Fleskesvær, Tællelys og Pølse, – og saa det samme forfra igjen; det var saagodtsom om vi fik to Maaltider. Der var en behagelig Stemning og gemytligt Vrøvl, som i en Familiekreds; ikke det Mindste blev der levnet uden Pølsepindene; dem talte vi saa om og da kom det for, at lave Suppe paa en <seg target="txtcmnt-149-02"><!--DATA-TERM: Pølsepind--><anchor target="txtcmnt-149-02"/><!--en lille træpind, der lukker enden af en stoppet pølse.-->Pølsepind</seg>; hørt herom havde jo Enhver, men Ingen havde smagt den Suppe, end sige forstod at lave den. Der blev udbragt en nydelig Skaal for Opfinderen, han fortjente at være <seg target="txtcmnt-149-03"><!--DATA-TERM: Fattigforstander--><anchor target="txtcmnt-149-03"/><!--(embeds)mand udnævnt af det offentlige til at føre tilsyn med de fattige, der var under forsorg.-->Fattigforstander</seg>! var det ikke vittigt? Og den gamle Musekonge reiste sig op og lovede, at den af de unge Muus, der kunde lave meest velsmagende omtalte Suppe, skulde blive hans Dronning, <seg target="txtcmnt-149-04"><!--DATA-TERM: Aar og Dag--><anchor target="txtcmnt-149-04"/><!--et helt år.-->Aar og Dag</seg> skulde de have Betænknings-Tid.«</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Det var ikke saa galt endda!« sagde den anden Muus; »men hvorledes laver man den Suppe?«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Ja hvorledes laver man den! det spurgte de ogsaa om, alle Hun-Musene, de Unge og de Gamle. Alle vilde de gjerne være Dronning, men nødig vilde de have Uleiligheden med at gaae ud i den vide Verden for at lære det, og det blev nok nødvendigt! men det er da heller ikke givet Enhver at forlade Familie og de gamle Krinkelkroge; ude gaaer man ikke hver Dag paa Osteskorpe og lugter Fleskesvær, nei sulte kan man komme til, ja maaskee blive levende ædt af en Kat!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Disse Tanker var det nok ogsaa, som skræmmede de Fleste fra at drage ud <seg target="txtcmnt-149-05"><!--DATA-TERM: paa Kundskab--><anchor target="txtcmnt-149-05"/><!--for at udforske (verden).-->paa Kundskab</seg>; der fremstillede sig til Afreise kun fire Muus, unge og vævre, men fattige; de vilde gaae hver til et af Verdens fire Hjørner, saa kom det an paa hvem Lykken fulgte; hver af dem tog en Pølsepind med sig, for at huske hvad de reiste for; den skulde være deres Vandrestav.</p>
+
+<pb n="150"/><p rend="firstIndent" xml:id="p_00005">Først i Mai drog de bort og først i Mai, Aaret efter, kom de tilbage, men kun de Tre, den Fjerde mældte sig ikke, lod ikke høre fra sig og nu var det Afgjørelsens Dag.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»»Der skal nu altid hænge noget Sørgeligt ved Eens bedste Fornøielse!«« sagde Musekongen, men gav Ordre til at indbyde alle Muus i mange Miles Omkreds; de skulde samles i Kjøkkenet; de tre Reise-Muus stode i Række og alene; for den Fjerde, som manglede, var stillet en Pølsepind med <seg target="txtcmnt-150-01"><!--DATA-TERM: sort Flor--><anchor target="txtcmnt-150-01"/><!--sørgeslør.-->sort Flor</seg> om. Ingen turde sige sin Mening før de Tre havde talt og Musekongen havde sagt, hvad der videre skulde siges.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Nu faae vi at høre!</p>
+
+</div>
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="II. Hvad den förste lille Muus havde seet og lært paa Reisen" xml:id="div0002">
+<head type="section">II</head>
+<head type="section">Hvad den förste lille Muus havde seet og lært paa Reisen</head>
+
+<p rend="noIndent" xml:id="p_00008">»Da jeg drog ud i den vide Verden,« sagde den lille Muus, »troede jeg, som saa Mange i min Alder, at jeg havde slugt al Verdens Viisdom, men det har man ikke, der hører Aar og Dag dertil før det skeer. Jeg gik strax tilsøes; jeg gik med et Skib, som skulde Nord paa; jeg havde hørt, at paa Havet maatte Kokken forstaae at hjelpe sig, men det er let at hjelpe sig, naar man har fuldt op med Fleske-Sider, Saltmads-Tønder og <seg target="txtcmnt-150-02"><!--DATA-TERM: oret--><anchor target="txtcmnt-150-02"/><!--fordærvet.-->oret</seg> Meel; man lever delikat! men man lærer ikke Noget, der kan bringe Suppe af en Pølsepind. Vi seilede mange Nætter og Dage, vi havde det med Slingren og med Vaadt. Da vi saa kom hvorhen vi skulde, saa forlod jeg Fartøiet; det var høit oppe i Norden.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Det er underligt at komme hjemme fra sin egen Krinkelkrog, gaae med Skib, der ogsaa er en Slags Krinkelkrog, og saa pludselig være over hundrede Mile borte og staae i et fremmedt Land. Der var <seg target="txtcmnt-150-03"><!--DATA-TERM: vildsomme--><anchor target="txtcmnt-150-03"/><!--uvejsomme.-->vildsomme</seg> Skove med Gran og Birk, de duftede saa stærkt; jeg holder ikke af det! de vilde Urter lugtede saa krydrede, jeg nøs, jeg tænkte paa Pølse. Der var store Skovsøer, Vandet saae klart ud nær ved, men seet i Afstand, sort som Blæk, der flød hvide Svaner, jeg antog dem for Skum, saa stille laae de, men jeg saae dem flyve og jeg saae dem gaae, saa kjendte jeg dem; de høre til Gaasens Slægt, seer man nok paa Gangen, Ingen kan fornægte sit Familieskab! jeg holdt mig til min Slags, jeg sluttede mig til Skov- og Markmusene, der iøvrigt veed grumme lidt, især hvad Tractement angaaer, og det var jo det, at jeg reiste udenlands for. At det kunde tænkes at lave Suppe paa en Pølsepind var dem en saa <seg target="txtcmnt-150-04"><!--DATA-TERM: overordentlig--><anchor target="txtcmnt-150-04"/><!--ualmindelig.-->overordentlig</seg> <pb n="151"/>Tanke, at den gik strax gjennem hele Skoven, men at den Opgave kunde løses, henregnede de til Umuelighed, mindst tænkte jeg da, at jeg her, og det endnu den samme Nat, skulde blive indviet i <seg target="txtcmnt-151-01"><!--DATA-TERM: Lavningen--><anchor target="txtcmnt-151-01"/><!--tilberedelsen.-->Lavningen</seg>. Det var <seg target="txtcmnt-151-02"><!--DATA-TERM: Midsommer … Maistangen--><anchor target="txtcmnt-151-02"/><!--svenskernes traditionelle dans om midsommerstangen havde sin danske parallel i skikken med at danse om majstangen den 1. maj.-->Midsommer, derfor duftede Skoven saa stærkt, sagde de, derfor vare Urterne saa krydrede, Søerne saa klare og dog saa mørke med de hvide Svaner paa. I Skovkanten, mellem tre fire Huse var reist en Stang høi som en Stormast, og øverst paa den hang Krandse og Baand, det var Maistangen</seg>; Piger og Karle dandsede rundt om den og sang dertil omkap med Spillemandens Violin. Det gik lystigt til ved Solnedgang og i Maaneskin, men jeg tog ikke med, hvad skal en lille Muus paa Skovbal! jeg sad i det bløde Mos, og holdt paa min Pølsepind. Maanen skinnede især paa een Plet, hvor der var et Træ med et Mos, saa fiint, ja, jeg tør sige saa fiint, som Musekongens Skind, men det havde en grøn Farve, saa at det var en Velgjerning for Øinene. Da kom der lige med Eet opmarscherende de yndigste smaa Personer, ikke større end at de kunde naae mig til Knæet, de saae ud som Mennesker, men de vare bedre proportionerede, de kaldte sig Alfer og havde fine Klæder af Blomsterblade med Flue- og Mygge-Vinge-Besætning, slet ikke galt. Det var strax som om de søgte efter Noget, jeg vidste ikke hvad, men saa kom der et Par Stykker hen til mig, den Fornemste af dem pegede paa min Pølsepind og sagde: »det er netop saadan een vi bruge! den er tilskaaret, den er udmærket!« og han blev meer og meer henrykt, idet han saae paa min Vandrestav.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Nok laane, men ikke beholde!« sagde jeg.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Ikke beholde!« sagde de Allesammen, toge om Pølsepinden, som jeg slap og de dandsede med den hen til den fine Mosplet, reiste Pølsepinden der, midt i det Grønne. De vilde ogsaa have en Maistang og den de nu havde var jo ogsaa for dem, som skaaret dertil. Nu blev den pyntet; ja da <seg target="txtcmnt-151-03"><!--DATA-TERM: fik den Syn--><anchor target="txtcmnt-151-03"/><!--blev den et syn at se.-->fik den Syn</seg>!</p>
+
+<p rend="firstIndent" xml:id="p_00012">Smaa Edderkopper spandt Guldtraad om den, ophængte vaiende Slør og Faner, saa fine vævede, saa sneehvide blegede i Maaneskin, at det skar mig i mine Øine; de tog Farver af Sommerfuglens Vinger og dryssede paa de hvide Lin og der skinnede Blomster og Diamanter, jeg kjendte ikke igjen meer min Pølsepind; saadan en Maistang, som den var blevet, fandtes der vist ikke Mage til i Verden. Og nu først kom det rigtige store Alfe-Selskab, det var ganske uden Klæder, finere kunde det ikke være, og jeg blev indbudt til at see paa Stadsen, men i Afstand, for jeg var dem for stor.</p>
+
+<pb n="152"/><p rend="firstIndent" xml:id="p_00013">Nu begyndte der et Spil! det var som om tusinde Glasklokker klang, saa fuldt og stærkt, jeg troede, det var Svanerne der sang, ja jeg syntes, at jeg ogsaa kunde høre Gjøg og Drossel, det var tilsidst som om hele Skoven klang med, der var Børnestemmer, Klokkeklang og Fuglesang, de yndigste Melodier, og al den Deilighed klang ud fra Alfernes Maistang, den var et heelt Klokkespil og det var min Pølsepind. Saameget havde jeg aldrig troet, at der kunde komme ud af den, men det kommer nok an paa hvilke Hænder den kommer i. Jeg blev virkelig saa bevæget; jeg græd, som en lille Muus kan græde, af bare Fornøielse.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Natten var altfor kort! men den er nu ikke længere paa den Tid deroppe. I Dagningen kom der en Luftning, Vandspeilet paa Skovsøen krusedes, alle de fine svævende Slør og Faner fløi hen i Luften; de gyngende <seg target="txtcmnt-152-01"><!--DATA-TERM: Kjosker--><anchor target="txtcmnt-152-01"/><!--pavilloner, lysthuse.-->Kjosker</seg> af Spindelvæv, Hængebroer og Balustrader, hvad de nu hedde, der var reist fra Blad til Blad, fløi som Ingenting; sex Alfer kom og bragte mig min Pølsepind, idet de spurgte om jeg havde noget Ønske, de kunde opfylde; da bad jeg dem sige mig, hvorledes man laver Suppe paa en Pølsepind.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Hvorledes vi bære os ad!« sagde den Fornemste og loe, »ja det har Du da nyligt seet! Du kjendte vel knap igjen din Pølsepind!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»De mene paa den Maade!« sagde jeg, og fortalte ligefrem hvorfor jeg var paa Reise, og hvad man hjemme ventede sig af denne. »Hvad Gavn,« spurgte jeg, »har Musekongen og hele vort mægtige Rige af, at jeg har seet denne Deilighed; jeg kan ikke ryste den ud af Pølsepinden og sige: see her er Pinden, nu kommer Suppen! det var jo altid dog en Slags Anretning, naar man var mæt!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Da dyppede Alfen sin lille Finger ned i en blaa Viol, og sagde til mig: »pas paa! jeg bestryger din Vandrestav og naar Du saa kommer hjem til Musekongens Slot, rør da med Staven ved din Konges varme Bryst, saa springer der Violer ud om den hele Stav og det selv i den koldeste Vintertid. See der har Du da Noget hjem og endnu lidt til!«« men før den lille Muus sagde hvad dette lidt var, vendte hun sin Stav mod Kongens Bryst, og virkeligt, der sprang frem den deiligste Bouqvet Violer, der duftede saa stærkt, at Musekongen befalede, at de Muus, som stode nærmest Skorstenen, strax skulde stikke deres Haler ind i Ilden, at man kunde faae lidt sveden Lugt, for den Violduft var ikke til at holde ud, det var ikke den Slags, man holdt af.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Men hvad var det lidt til, Du talte om!« spurgte Musekongen.</p>
+
+<pb n="153"/><p rend="firstIndent" xml:id="p_00019">»Ja,« sagde den lille Muus, »det er det, som man nok kalder Effecten!« og saa vendte hun Pølsepinden, og da var der ingen Blomster meer, hun holdt kun den nøgne Pind og den løftede hun ligesom en Taktstok.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»»Violer er for Synet, Lugten og Følelsen,« sagde Alfen mig, »men der er endnu tilbage for Hørelsen og Smagen!«« Og saa slog hun Takt; det var Musik, ikke som den klang i Skoven ved Alfernes Fest, nei som den kan høres i Kjøkkenet. Naa, det var en <seg target="txtcmnt-153-01"><!--DATA-TERM: Laven--><anchor target="txtcmnt-153-01"/><!--udførelse.-->Laven</seg>! Det kom med Eet, ligesom om Vinden susede gjennem alle Skorsteens-Rør, Kedler og Potter kogte over, <seg target="txtcmnt-153-02"><!--DATA-TERM: Ildskuffen--><anchor target="txtcmnt-153-02"/><!--skovl til at tage gløder og aske ud af ilden med.-->Ildskuffen</seg> dundrede paa Messingkedlen, og saa, lige med Eet blev det stille; man hørte Theekedlens dæmpede Sang, saa underlig, man forstod slet ikke om den holdt op eller begyndte; og den lille Potte kogte og den store Potte kogte, den ene brød sig ikke om den anden, det var, som om der ikke var Tanke i Potten. Og den lille Muus svingede sin Taktstok vildere og vildere, – Potterne skummede, boblede, kogte over, Vinden susede, Skorstenen peeb – hu ha! det blev saa forfærdeligt at den lille Muus selv tabte Stokken.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Det var en svær Suppe!« sagde den gamle Musekonge, »kommer nu ikke Anretningen?«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Det var det Hele!« sagde den lille Muus og neiede.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Det Hele! ja lad os saa høre hvad den Næste har at sige!« sagde Musekongen.</p>
+
+</div>
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="III. Hvad den anden lille Muus vidste at fortælle" xml:id="div0003">
+<head type="section">III</head>
+<head type="section">Hvad den anden lille Muus vidste at fortælle</head>
+
+<p rend="noIndent" xml:id="p_00024">»Jeg er født i Slots-Bibliotheket,« sagde den anden Muus, »jeg og flere af min Familie der har aldrig kjendt den Lykke at komme i Spisestuen, end sige i Spisekammeret; først da jeg reiste og nu i Dag her, saae jeg et Kjøkken. Vi lede virkeligt tidt Sult paa Bibliotheket, men vi fik mange Kundskaber. Derop naaede til os Rygtet om den kongelige Priis, der var udsat for at lave Suppe paa en Pølsepind, og da var det min gamle Bedstemoder, der trak frem et Manuskript, hun kunde ikke læse det, men hun havde hørt det læse, deri stod: »»er man en Digter, saa kan man koge Suppe paa en Pølsepind.«« Hun spurgte mig, om jeg var en Digter. Jeg vidste mig fri, og hun sagde, at saa maatte jeg gaae og see til at blive det; men hvad udfordres dertil, spurgte jeg, for det var mig ligesaa vanskeligt at udfinde, som at lave Suppen; men Bedstemoder havde hørt <pb n="154"/>Læsning; hun sagde, at der vare tre Hoveddele nødvendige: »»Forstand, Phantasie og Følelse! kan Du gaae og faae dem ind i Dig, saa er Du Digter, og saa kommer Du nok ud af det med Pølsepinden.««</p>
+
+<p rend="firstIndent" xml:id="p_00025">Og saa gik jeg vesterpaa ud i den vide Verden for at blive Digter.</p>
+
+<p rend="firstIndent" xml:id="p_00026">Forstand vidste jeg er i enhver Ting det Vigtigste, de to andre Dele have ikke den Agtelse! saa gik jeg altsaa først ud efter Forstanden; ja, hvor boer den? <seg target="txtcmnt-154-01"><!--DATA-TERM: Gak … Jødeland--><anchor target="txtcmnt-154-01"/><!--Ordsprogenes Bog 6,6; Ordsprogenes Bog er ifølge traditionen forfattet af kong Salomon.-->Gak til Myren og bliv viis! har en stor Konge i Jødeland</seg> sagt, det vidste jeg fra Bibliotheket, og jeg standsede ikke, før jeg kom til den første store Myretue, der lagde jeg mig paa Luur for at blive viis.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Det er et meget respectabelt Folkefærd Myrerne, de ere <seg target="txtcmnt-154-02"><!--DATA-TERM: bare--><anchor target="txtcmnt-154-02"/><!--ren.-->bare</seg> Forstand, Alt hos dem er som et rigtigtgjort Regnestykke, det gaaer op. At arbeide og at lægge Æg, sige de, er at leve i Tiden og sørge for Eftertiden og det gjør de da. De dele sig i de rene Myrer og i de skidne; Rangen bestaaer i et Nummer, Myredronningen er Nummer eet og hendes Mening er den eneste rigtige, hun har slugt al Viisdom, og det var af Vigtighed for mig at vide! Hun sagde saa Meget, det var saa klogt, at jeg syntes det var dumt. Hun sagde, at deres Tue var det Høieste i denne Verden, men tæt ved Tuen stod et Træ, det var høiere, meget høiere, det kunde ikke benægtes og saa talte man ikke derom; en Aften havde en Myre forvildet sig derhen, krøbet op ad Stammen, ikke til Kronen en Gang, men dog høiere, end nogen Myre før var kommen, og da den vendte om og fandt hjem, fortalte den i Tuen, om Noget langt høiere udenfor, men det havde alle Myrerne fundet fornærmeligt mod hele Samfundet og saa blev Myren dømt til Mundkurv og vedvarende Eensomhed; men kort Tid efter kom en anden Myre til Træet og gjorde samme Reise og Opdagelse, og den talte derom, som man sagde, med Besindighed og Utydelighed og da den dertil var en agtet Myre, een af de rene, saa troede man den, og da den døde, satte de en Æggeskal for den, som Monument, for de agtede Videnskaber. Jeg saae,« sagde den lille Muus, »at Myrerne ideligt løb med deres Æg paa Ryggen; Een af dem tabte sit, hun havde stor Anstrængelse med at faae det op igjen, men det vilde ikke lykkes, da kom der to andre og hjalp til af alle Kræfter, saa at de nær havde tabt deres egne Æg, men saa lode de øieblikkelig igjen være, for man er sig selv nærmest; og Myredronningen sagde derom, at her var viist Hjerte og Forstand. »»De To stille os Myrer øverst blandt Fornuftvæsnerne. Forstanden maa og <pb n="155"/>bør være den overveiende og jeg har den største!«« og saa reiste hun sig paa de bageste Been, hun var saa <seg target="txtcmnt-155-01"><!--DATA-TERM: kjendelig--><anchor target="txtcmnt-155-01"/><!--let at kende.-->kjendelig</seg>, – jeg kunde ikke tage Feil; og jeg slugte hende. Gak til Myren og bliv viis! nu havde jeg Dronningen!</p>
+
+<p rend="firstIndent" xml:id="p_00028">Jeg gik nu nærmere hen til det omtalte store Træ, det var en Eeg, den havde høi Stamme, mægtig Krone og var meget gammel; jeg vidste, at her boede en levende Skabning, en Qvinde, <seg target="txtcmnt-155-02"><!--DATA-TERM: Dryade--><anchor target="txtcmnt-155-02"/><!--i græsk mytologi en skovnymfe, hvis liv er knyttet til et levende træ.-->Dryade</seg> kaldes hun, fødes med Træet og døer med det; jeg havde hørt derom paa Bibliotheket; nu saae jeg saadant et Træ, saae saadan en Egepige; hun gav et forfærdeligt Skrig, da hun saae mig saa nær; hun var som alle Fruentimmer meget angest for Muus, men hun havde da ogsaa mere Aarsag, end de Andre, for jeg kunde gnave Træet over og ved det hang jo hendes Liv. Jeg talte til hende venligt og inderligt, gav hende Mod, og hun tog mig paa sin fine Haand og da hun fik at vide, hvorfor jeg var gaaet ud i den vide Verden, lovede hun, at jeg skulde maaskee allerede samme Aften <seg target="txtcmnt-155-03"><!--DATA-TERM: erholde--><anchor target="txtcmnt-155-03"/><!--få (fat på).-->erholde</seg> een af de to Skatte, jeg endnu <seg target="txtcmnt-155-04"><!--DATA-TERM: søgte om--><anchor target="txtcmnt-155-04"/><!--søgte efter.-->søgte om</seg>. Hun fortalte mig, at <seg target="txtcmnt-155-05"><!--DATA-TERM: Phantasus--><anchor target="txtcmnt-155-05"/><!--ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) <i>Metamorfoser</i>, 11, 641 ff., en af drømmeguderne, der tager skikkelse af alle mulige livløse genstande.-->Phantasus</seg> var hendes meget gode Ven, at han var saa deilig som Kjærligheds-Guden, og at han mangen Stund her tog Hvile under Træets løvfulde Grene, der da susede endnu stærkere hen over dem begge To, han kaldte hende sin Dryade, sagde hun, Træet sit Træ, den knudrede, mægtige skjønne Eeg var just efter hans Sind, Rødderne bredte sig dybt og fast ned i Jorden, Stammen og Kronen løftede sig høit i den friske Luft og kjendte den fygende Snee, de skarpe Vinde og det varme Solskin, som det skal kjendes. Ja saadan talte hun, »»Fuglene synge deroppe og fortælle om de fremmede Lande! og paa den eneste udgaaede Green har Storken bygget Rede, det pynter godt og man faaer lidt at høre fra Pyramidernes Land. Alt det kan Phantasus godt lide, det er ham ikke engang nok, jeg selv maa fortælle for ham om Livet i Skoven fra jeg var lille og Træet var spæd, saa at en Nelde kunde skjule det, og indtil nu, det er blevet saa stort og mægtigt. Sid Du nu henne under Skovmærkerne og pas vel paa, jeg skal naar Phantasus kommer, nok finde Leilighed til at knibe ham i Vingen, og ruske en lille Fjer af, tag den, en bedre fik ingen Digter; – saa har Du nok!««</p>
+
+<p rend="firstIndent" xml:id="p_00029">Og Phantasus kom, Fjeren blev reven af og jeg greb den,« sagde den lille Muus, »jeg holdt den i Vand til den blev blød! – den var endnu saa svær at fordøie, men jeg fik den gnavet op! Det er slet ikke let at gnave sig til Digter, der er saa Meget man maa tage i sig. Nu havde jeg da de to, Forstand og Phantasie, <pb n="156"/>og ved dem vidste jeg nu, den tredie Ting var at finde paa Bibliotheket, idet en stor Mand har sagt og skrevet, at der gives Romaner, som alene ere til for at befrie Menneskene fra de overflødige Taarer, altsaa ere en Slags Svamp til at optage Følelser i. Jeg huskede paa et Par af disse Bøger, de havde altid seet mig ganske appetitelige ud, de vare saa læste, saa fedtede, de maatte have optaget i sig et uendeligt Væld.</p>
+
+<p rend="firstIndent" xml:id="p_00030">Jeg gik hjem i Bibliotheket, aad strax saa godt som en heel Roman, det vil sige det Bløde, det Egentlige, derimod Skorpen, Bindet lod jeg ligge. Da jeg nu havde fordøiet den og een til, fornam jeg allerede hvorledes det rørte sig indeni mig, jeg aad lidt af den Tredie, og saa var jeg Digter, det sagde jeg mig selv og det sagde jeg de Andre med! jeg havde Hovedpine, Indvoldspine, jeg veed ikke alle de Piner, jeg havde, jeg tænkte nu over, hvilke Historier der maatte kunne sættes i Forbindelse med en Pølsepind, og saa fik jeg saa mange Pinde i min Tanke, Myredronningen har havt en ualmindelig Forstand, jeg huskede paa Manden, der tog en <seg target="txtcmnt-156-01"><!--DATA-TERM: hvid Pind … usynlig--><anchor target="txtcmnt-156-01"/><!--ifølge folketroen blev man usynlig ved at tage en afbarket pind i munden.-->hvid Pind i Munden og saa var baade han og Pinden usynlig</seg>; jeg tænkte paa <seg target="txtcmnt-156-02"><!--DATA-TERM: gammelt Øl med en Pind i--><anchor target="txtcmnt-156-02"/><!--øl med sukker og som regel brændevin med en pind til at omrøre sukkeret med.-->gammelt Øl med en Pind i</seg>, staae paa Pinde, at <seg target="txtcmnt-156-03"><!--DATA-TERM: sætte en Pind for--><anchor target="txtcmnt-156-03"/><!--egentlig stænge en dør; her i overført betydning: sætte en stopper for.-->sætte en Pind for</seg> og saa <seg target="txtcmnt-156-04"><!--DATA-TERM: Pinden til Eens Liigkiste--><anchor target="txtcmnt-156-04"/><!--medvirkende til ens død, årsag til problemer. Udtrykket beror på, at ligkister oprindelig blev lukket med træpløkke.-->Pinden til Eens Liigkiste</seg>. Alle mine Tanker gik op i Pinde! og om dem maatte der kunne digtes naar man er en Digter, og det er jeg, det har jeg slidt mig til! Jeg vil saaledes hver Dag i Ugen kunde opvarte dem med en Pind, en Historie, – ja det er min Suppe!«</p>
+<p rend="firstIndent" xml:id="p_00031">»Lad os saa høre den Tredie!« sagde Musekongen.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Pi! pi!« sagde det i Kjøkkendøren og en lille Muus, det var den Fjerde af dem, den, de troede død, pilede ind, den løb Pølsepinden med det sorte Flor paa overende, den havde løbet Nat og Dag, den var gaaet paa Jernbane med Godstog, som den fandt Leilighed til, og dog var den næsten kommet for silde; den trængte sig frem, saae forpjusket ud, havde tabt sin Pølsepind men ikke Mælet, den talte ligestrax, ligesom om man kun ventede paa den, kun vilde høre paa den, alt Andet i Verden kom ikke Verden ved; den talte strax, talte sig ud; den kom saa uventet, at Ingen fik Tid til at opholde sig over den og over dens Tale, medens den talte. Nu skal vi høre!</p>
+
+</div>
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="IV. Hvad den fjerde Muus, som talte før den tredie havde talt, vidste at fortælle" xml:id="div0004">
+<head type="section">IV</head>
+<head type="section">Hvad den fjerde Muus, som talte før den tredie havde talt, vidste at fortælle</head>
+
+<p rend="noIndent" xml:id="p_00033">»Jeg gik strax til den største Stad,« sagde den, »Navnet husker <pb n="157"/>jeg ikke, jeg husker ikke godt Navne. Jeg kom fra Jernbanen med confiskeret Gods paa Raadstuen og der løb jeg til <seg target="txtcmnt-157-01"><!--DATA-TERM: Slutteren--><anchor target="txtcmnt-157-01"/><!--arrestforvareren.-->Slutteren</seg>; han talte om sine Fanger, især om Een, der havde talt ubesindige Ord, og om dem var igjen blevet talt, og talt, <seg target="txtcmnt-157-02"><!--DATA-TERM: læst og paaskrevet--><anchor target="txtcmnt-157-02"/><!--dadlet, gennemheglet.-->læst og paaskrevet</seg>; »»det Hele er Suppe paa en Pølsepind!«« sagde han, »»men <seg target="txtcmnt-157-03"><!--DATA-TERM: den Suppe … Knap--><anchor target="txtcmnt-157-03"/><!--ordene kan koste ham hans hoved.-->den Suppe kan koste ham hans Knap</seg>!«« det gav mig Interesse for den Fangne,« sagde den lille Muus, »og jeg tog Leiligheden iagt og slap ind til ham; der er altid bag laasede Døre et Musehul! Han saae bleg ud, havde et stort Skjæg og store skinnende Øine. Lampen osede og Væggene vare vante dertil, de bleve ikke sortere. Fangen ridsede baade Billeder og Vers, med Hvidt paa Sort, jeg læste dem ikke. Jeg troer han kjedede sig; jeg var en velkommen Gjest. Han lokkede mig med Brødsmuler, med Fløiten og milde Ord; han var saa glad ved mig; jeg fik Tillid til ham og saa bleve vi Venner. Han deelte med mig Brød og Vand, gav mig Ost og Pølse; jeg levede flot; men det var dog især den gode <seg target="txtcmnt-157-04"><!--DATA-TERM: Omgang--><anchor target="txtcmnt-157-04"/><!--samkvem, selskab.-->Omgang</seg>, maa jeg sige, som holdt mig. Han lod mig løbe paa sin Haand og Arm, heelt op i Ærmet; han lod mig krybe i sit Skjæg, kaldte mig sin lille Ven; jeg fik ham ordentlig kjær; saadant Noget er nok gjensidigt! Jeg glemte mit Ærinde ude i den vide Verden, glemte min Pølsepind i en Sprække af Gulvet; der ligger den endnu. Jeg vilde blive hvor jeg var; gik jeg bort, da havde jo den stakkels Fange slet Ingen, og det er for lidt i denne Verden! Jeg blev, han blev ikke! han talte til mig saa sørgeligt den sidste Gang, gav mig dobbelt saa meget Brød og Osteskorpe, kyssede saa paa sine Fingre ad mig; han gik og kom aldrig mere. Jeg kjender ikke hans Historie. »»Suppe paa en Pølsepind!«« sagde Slutteren og til ham gik jeg, men ham skulde jeg ikke have troet; han tog mig vel paa sin Haand, men han satte mig i Buur, i Trædemølle; det er voldsomt! man løber og løber, ligelangt kommer man og er kun til Griin!</p>
+
+<p rend="firstIndent" xml:id="p_00034">Slutterens Barnebarn var en yndig lille Een, med guldgule krøllede Haar, Øine saa glade og en Mund der loe. »»Stakkels lille Muus!«« sagde hun, kigede ind i mit fæle Buur, trak Jernpinden fra – og jeg sprang ned i Vindueskarmen og ud i Tagrenden. Fri, fri! det alene tænkte jeg paa og ikke Reisens Maal!</p>
+
+<p rend="firstIndent" xml:id="p_00035">Det var mørkt, det var mod Nattetider, jeg tog Herberg i et gammelt Taarn, der boede en Vægter og en Ugle; jeg troede ingen af dem, mindst Uglen; den ligner en Kat og har den store Feil, at den æder Muus; men man kan tage Feil, og det gjorde jeg; det var en respectabel, overmaade dannet, gammel Ugle, <pb n="158"/>hun vidste mere end Vægteren og ligesaa meget som jeg; Ugleungerne gjorde Ophævelser over enhver Ting; »»lav ikke Suppe paa en Pølsepind!«« sagde hun, det var det allerhaardeste hun kunde sige her, hun havde saa megen Inderlighed for sin egen Familie. Jeg fik saadan en Tillid til hende, at jeg sagde Pip fra Sprækken, hvor jeg sad; den Tiltro syntes hun godt om og forsikkrede mig, at jeg skulde være i hendes Beskyttelse; intet Dyr skulde faae Lov at gjøre mig Fortræd, det vilde hun selv gjøre til Vinter, naar der blev <seg target="txtcmnt-158-01"><!--DATA-TERM: Trang paa Kosten--><anchor target="txtcmnt-158-01"/><!--mangel på føde.-->Trang paa Kosten</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Hun var klog i Eet og Alt; hun beviiste mig, at Vægteren ikke kunde tude uden i et Horn, som hang løst ved ham; »»han bilder sig forfærdeligt ind deraf, troer han er Ugle i Taarnet! stort skal det være, men lidt er det! Suppe paa en Pølsepind!«« Jeg bad hende om at faae Opskriften, og saa forklarede hun mig det: »»Suppe paa en Pølsepind er kun en menneskelig Talemaade og forstaaes paa forskjellig Maade, og hver troer sin er den rigtigste; men det Hele er egentligt ikke Noget!««</p>
+
+<p rend="firstIndent" xml:id="p_00037">»»Ikke Noget!«« sagde jeg. Det slog mig! Sandheden er ikke altid behagelig, men Sandheden er det Høieste! det sagde ogsaa den gamle Ugle. Jeg tænkte derover og indsaae, at naar jeg bragte det Høieste, saa bragte jeg meget mere end Suppe paa en Pølsepind. Og saa skyndte jeg mig afsted, for at komme endnu i rette Tid hjem og bringe det Høieste og Bedste: Sandheden. Musene ere et oplyst Folkefærd og Musekongen er over dem Allesammen. Han er istand til at gjøre mig til Dronning for Sandhedens Skyld.«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Din Sandhed er Løgn!« sagde den Muus, som endnu ikke havde faaet Lov at tale. »Jeg kan lave Suppen og det skal jeg!«</p>
+
+</div>
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="V. Hvorledes den blev lavet" xml:id="div0005">
+<head type="section">V</head>
+<head type="section">Hvorledes den blev lavet</head>
+
+<p rend="noIndent" xml:id="p_00039">»Jeg har ikke reist,« sagde den fjerde Muus, »jeg blev i Landet, det er det Rigtige! man behøver ikke at reise, man kan faae Alt ligesaa godt her. Jeg blev! jeg har ikke lært mit af overnaturlige Væsner, ikke ædt mig det til eller talt med Ugler. Jeg har mit ved Selvtænkning. Vil De nu bare faae Kedlen sat paa, fyldt Vand i, heelt op! gjør Ild under! lad det brænde, faae Vandet i Kog, det maa skrupkoge! kast nu Pinden i! Vil derpaa Musekongen behage at stikke Halen ned i det Skrupkogende og røre om! jo længer han rører, desto kraftigere bliver Suppen; det koster ikke Noget! der behøves ingen Tilsætninger, – kun røre om!«</p>
+
+<pb n="159"/><p rend="firstIndent" xml:id="p_00040">»Kan en Anden ikke gjøre det?« spurgte Musekongen.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Nei,« sagde Musen, »den Kraft er kun i Musekongens Hale!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">Og Vandet skrupkogte, og Musekongen stillede sig tæt ved, det var næsten farligt, og han stak Halen ud, saaledes som Musene gjøre i <seg target="txtcmnt-159-01"><!--DATA-TERM: Melkestuen--><anchor target="txtcmnt-159-01"/><!--rum, hvor mælken blev opbevaret på større gårde.-->Melkestuen</seg>, naar de skumme Fløden af et Fad og derpaa slikke Halen, men han fik sin kun ind i den varme Damp, saa sprang han strax ned:</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Naturligviis, Du er min Dronning!« sagde han, »Suppen ville vi vente med til vort Guldbryllup, saa har de Fattige i mit Rige Noget at glæde sig til og en lang Glæde!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">Og saa holdt de Bryllup; men flere af Musene, da de kom hjem, sagde: »man kunde da ikke kalde det Suppe paa en Pølsepind, det var snarere Suppe paa en Musehale!« – Eet og Andet af hvad der blev fortalt, fandt de, var ganske godt givet, men det Hele kunde være anderledes! »jeg vilde nu have fortalt saaledes og saaledes – –!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">Det var Kritiken, og den er altid saa klog – bag efter.</p>
+
+<graphic type="blank"/>
+
+<p rend="noIndent" xml:id="p_00046">Og den Historie gik Verden rundt, Meningerne om den vare deelte, men Historien selv blev heel; og det er det Rigtigste i Stort og Smaat, i Suppe paa en Pølsepind; man maa bare ikke vente Tak for den!</p>
+</div>
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<pb n="160"/>
+
+<pb n="161"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Suppe paa en Pølsepind" xml:id="suppe-paa-en-poelsepind">
+<head type="section-comments">Suppe paa en Pølsepind</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier</hi>, som udkom den 2. marts 1858.</p>
+<p rend="noIndent">BFN 768/III,13-24/VII,171-173.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">150,11</cell><cell type="deviation">høre! &lt; høre!«</cell></row>
+<pb n="481"/>
+<row><cell type="position">151,25</cell><cell type="deviation">henrykt, idet &lt; henrykt idet,</cell></row>
+<row><cell type="position">152,35</cell><cell type="deviation">til!«« &lt; til!«</cell></row>
+<row><cell type="position">153,5</cell><cell type="deviation">»»Violer &lt; »Violer</cell></row>
+<row><cell type="position">153,6</cell><cell type="deviation">Smagen!«« &lt; Smagen!«</cell></row>
+<row><cell type="position">154,35</cell><cell type="deviation">saae,« sagde &lt; saae, »sagde</cell></row>
+<row><cell type="position">154,35</cell><cell type="deviation">Muus, »at &lt; Muus,« at</cell></row>
+<row><cell type="position">155,38</cell><cell type="deviation">jeg &lt; »jeg</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">(148)</cell><row xml:id="txtcmnt-148-01"><cell type="data-definition">Samlingen var tilegnet »Fru Serre i Maxen«, dvs. Friederike Serre, f. Hammersdörfer (1800-1872), gift med major Friedrich Anton Serre (1789-1863), ejer af godset Maxen ved Dresden, som var samlingssted for kunstnere fra hele Europa. Fra 1844 til 1869 var H.C. Andersen ofte gæst her.</cell></row>
+<cell type="page">149</cell><row xml:id="txtcmnt-149-01"><cell type="data-term">Suppe paa en Pølsepind</cell><cell type="data-definition">talemåde: »Det bliver en tynd Suppe, som koges paa en Pølsepind« (Mau 4905). Pølsepindene blev genbrugt efter at være blevet kogt.</cell></row><row xml:id="txtcmnt-149-02"><cell type="data-term">Pølsepind</cell><cell type="data-definition">en lille træpind, der lukker enden af en stoppet pølse.</cell></row><row xml:id="txtcmnt-149-03"><cell type="data-term">Fattigforstander</cell><cell type="data-definition">(embeds)mand udnævnt af det offentlige til at føre tilsyn med de fattige, der var under forsorg.</cell></row><row xml:id="txtcmnt-149-04"><cell type="data-term">Aar og Dag</cell><cell type="data-definition">et helt år.</cell></row><row xml:id="txtcmnt-149-05"><cell type="data-term">paa Kundskab</cell><cell type="data-definition">for at udforske (verden).</cell></row>
+<cell type="page">150</cell><row xml:id="txtcmnt-150-01"><cell type="data-term">sort Flor</cell><cell type="data-definition">sørgeslør.</cell></row><row xml:id="txtcmnt-150-02"><cell type="data-term">oret</cell><cell type="data-definition">fordærvet.</cell></row><row xml:id="txtcmnt-150-03"><cell type="data-term">vildsomme</cell><cell type="data-definition">uvejsomme.</cell></row><row xml:id="txtcmnt-150-04"><cell type="data-term">overordentlig</cell><cell type="data-definition">ualmindelig.</cell></row>
+<cell type="page">151</cell><row xml:id="txtcmnt-151-01"><cell type="data-term">Lavningen</cell><cell type="data-definition">tilberedelsen.</cell></row><row xml:id="txtcmnt-151-02"><cell type="data-term">Midsommer … Maistangen</cell><cell type="data-definition">svenskernes traditionelle dans om midsommerstangen havde sin danske parallel i skikken med at danse om majstangen den 1. maj.</cell></row><row xml:id="txtcmnt-151-03"><cell type="data-term">fik den Syn</cell><cell type="data-definition">blev den et syn at se.</cell></row>
+<cell type="page">152</cell><row xml:id="txtcmnt-152-01"><cell type="data-term">Kjosker</cell><cell type="data-definition">pavilloner, lysthuse.</cell></row>
+<cell type="page">153</cell><row xml:id="txtcmnt-153-01"><cell type="data-term">Laven</cell><cell type="data-definition">udførelse.</cell></row><row xml:id="txtcmnt-153-02"><cell type="data-term">Ildskuffen</cell><cell type="data-definition">skovl til at tage gløder og aske ud af ilden med.</cell></row>
+<cell type="page">154</cell><row xml:id="txtcmnt-154-01"><cell type="data-term">Gak … Jødeland</cell><cell type="data-definition">Ordsprogenes Bog 6,6; Ordsprogenes Bog er ifølge traditionen forfattet af kong Salomon.</cell></row><row xml:id="txtcmnt-154-02"><cell type="data-term">bare</cell><cell type="data-definition">ren.</cell></row>
+<cell type="page">155</cell><row xml:id="txtcmnt-155-01"><cell type="data-term">kjendelig</cell><cell type="data-definition">let at kende.</cell></row><row xml:id="txtcmnt-155-02"><cell type="data-term">Dryade</cell><cell type="data-definition">i græsk mytologi en skovnymfe, hvis liv er knyttet til et levende træ.</cell></row><row xml:id="txtcmnt-155-03"><cell type="data-term">erholde</cell><cell type="data-definition">få (fat på).</cell></row><row xml:id="txtcmnt-155-04"><cell type="data-term">søgte om</cell><cell type="data-definition">søgte efter.</cell></row><row xml:id="txtcmnt-155-05"><cell type="data-term">Phantasus</cell><cell type="data-definition">ifølge den romerske digter Ovids (43 f.Kr.-17 e.Kr.) <hi rend="italic">Metamorfoser</hi>, 11, 641 ff., en af drømmeguderne, der tager skikkelse af alle mulige livløse genstande.</cell></row>
+<cell type="page">156</cell><row xml:id="txtcmnt-156-01"><cell type="data-term">hvid Pind … usynlig</cell><cell type="data-definition">ifølge folketroen blev man usynlig ved at tage en afbarket pind i munden.</cell></row><row xml:id="txtcmnt-156-02"><cell type="data-term">gammelt Øl med en Pind i</cell><cell type="data-definition">øl med sukker og som regel brændevin med en pind til at omrøre sukkeret med.</cell></row><row xml:id="txtcmnt-156-03"><cell type="data-term">sætte en Pind for</cell><cell type="data-definition">egentlig stænge en dør; her i overført betydning: sætte en stopper for.</cell></row><row xml:id="txtcmnt-156-04"><cell type="data-term">Pinden til Eens Liigkiste</cell><cell type="data-definition">medvirkende til ens død, årsag til problemer. Udtrykket beror på, at ligkister oprindelig blev lukket med træpløkke.</cell></row>
+<pb n="482"/>
+<cell type="page">157</cell><row xml:id="txtcmnt-157-01"><cell type="data-term">Slutteren</cell><cell type="data-definition">arrestforvareren.</cell></row><row xml:id="txtcmnt-157-02"><cell type="data-term">læst og paaskrevet</cell><cell type="data-definition">dadlet, gennemheglet.</cell></row><row xml:id="txtcmnt-157-03"><cell type="data-term">den Suppe … Knap</cell><cell type="data-definition">ordene kan koste ham hans hoved.</cell></row><row xml:id="txtcmnt-157-04"><cell type="data-term">Omgang</cell><cell type="data-definition">samkvem, selskab.</cell></row>
+<cell type="page">158</cell><row xml:id="txtcmnt-158-01"><cell type="data-term">Trang paa Kosten</cell><cell type="data-definition">mangel på føde.</cell></row>
+<cell type="page">159</cell><row xml:id="txtcmnt-159-01"><cell type="data-term">Melkestuen</cell><cell type="data-definition">rum, hvor mælken blev opbevaret på større gårde.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Drop of Water</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="vanddraaben">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="vanddraaben_modern.xml">moderniseret version</note>
+                                                       <note target="89_The-Drop-of-Water.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>You know all about a magnifying glass of course, which looks like a spectacle le...</incipit><idno type="image">Vanddraaben-01_2022-03-14.png</idno><popularity>972</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Drop of Water. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0.1. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>teknik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-09" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-09">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Drop of Water">
+          <head type="main" rend="The Drop of Water">The Drop of Water</head>                <p rend="noIndent" xml:id="p_00001">You know all about a magnifying glass of course, which looks like a spectacle lens and makes everything a hundred times bigger than it is? When you take it and put it up to your eye and look at a drop of water from the pond, you see more than a thousand strange creatures you’d otherwise never see in the water, although they’re there all right and it’s absolutely real. It almost looks like a whole plateful of shrimps cavorting in one great jumble, and they’re so ferocious that they pull arms and legs and whatever off each other, but they are happy and content nevertheless – in their own way.</p>
+          <p rend="firstIndent" xml:id="p_00002">Now there was once an old man who everybody called <hi rend="italic">Creepy-Crawly</hi>, for that was his name. He always wanted to get the best out of everything and when things refused to turn out as he wanted, he made use of magic.</p>
+          <img src="0045_HCA-XVIII-I-1-0075a.jpg" ref="p_00003" title="Illustrator: Vilhelm Pedersen. 1849. Fra/from: H.C. Andersens Hus/Museum Odense"/>
+<p rend="firstIndent" xml:id="p_00003">Well, one day he’s sitting holding up his magnifying glass to his eye, looking at a drop of water that’s been taken from a puddle in the ditch. Oh, the creeping and crawling that was going on there! all the thousands of small creatures leapt and bounded, tugged at each other and ate up bits of each other.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Well, this is really atrocious!’ old <hi rend="italic">Creeply-Crawly</hi> said, ‘why can’t they be got to live in peace and quiet, and not interfere in each other’s business!’ and he thought and thought, but things just wouldn’t turn out as he wanted, and so he had to use magic. ‘I must give them a bit of colour, to distinguish them from each other!’ he said, and poured what looked like a tiny droplet of red wine into the drop of water, but it was witch’s blood, the very finest sort that costs two shillings; and then the bodies of all the strange creatures turned pink, it looked like a whole city of naked savages.</p>
+          <p rend="firstIndent" xml:id="p_00005">‘What have you got there?’ asked another old troll, who didn’t have a name, and that was the really fine thing about him.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Well, if you can guess what it is,’ <hi rend="italic">Creepy-Crawly</hi> said, ‘I’ll let you have it as a present; but it’s not easy to work out when you don’t know what it is!’</p>
+          <p rend="firstIndent" xml:id="p_00007">And the troll who didn’t have a name took a look through the magnifying glass. It really looked like a whole city where everybody ran around with no clothes on! it was horrible, but it was even more horrible to see how they shoved and pushed each other, how they nipped and pinched, bit and pulled each other around. What was at the bottom had to be uppermost and what was uppermost had to be at the bottom! ‘look, look! his leg’s longer than mine! whack! away with it! here’s one with a little knob behind his ear, an innocent little knob, but it hurts him and now it’s going to hurt more!’ and they hacked away at it, and tugged at him and ate him up just because of the little knob. And there was one sitting quite still, like a young maiden only wanting some peace and quiet, but the young maiden had to be pulled out, and they tugged and tore at her and ate her up!</p>
+<img src="0045_HCA-XVIII-I-1-0075b.jpg" ref="p_00008" title="Illustrator: Vilhelm Pedersen. 1849. Fra/from: H.C. Andersens Hus/Museum Odense"/>
+          <p rend="firstIndent" xml:id="p_00008">‘It’s highly amusing!’ the troll said.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Yes, but what do you think it is?’ <hi rend="italic">Creepy-Crawly</hi> asked. ‘Can you work it out?’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘It’s easy to make out!’ the other one said, ‘it’s Copenhagen of course or some other big city, they all look exactly alike. It’s a big city!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘It’s ditch-water,’ <hi rend="italic">Creepy-Crawly</hi> replied.</p>
+     </div></body>
+                         </text>
+                    </TEI>

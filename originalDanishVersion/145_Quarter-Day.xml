@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Quarter Day</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="flyttedagen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="flyttedagen_modern.xml">moderniseret version</note>
+                                                       <note target="145_Quarter-Day.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>I’m sure you remember tower keeper Ole! I’ve told you about two visits to him, n...</incipit><idno type="image">Flyttedagen_hca_ill_0118.png</idno><popularity>890</popularity><cite>&lt;p&gt;Hans Christian Andersen: Quarter Day. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>steder</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-27" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Quarter Day">
+               <head type="main" rend="Quarter Day">Quarter Day</head>                <p rend="noIndent" xml:id="p_00001">I’m sure you remember tower keeper <hi rend="italic">Ole</hi>! I’ve told you about two visits to him, now I’m going to tell you about a third one, but it won’t be the last.</p>
+               <p rend="firstIndent" xml:id="p_00002">Normally it is around New Year that I go up to him, this time on the other hand it was on Quarter Day, for then it’s pretty uncomfortable here down in the town streets, they are piled up with sweepings, fragments of glass and shards of pottery, not to mention used-up bedstraw that one can’t avoid traipsing around in. This was where I was right now and I saw that two children were playing in this overturned tub of excess rubbish, they were playing ‘going to bed’, it was so inviting to play that game here, they thought, so they crawled down into the live straw and pulled a tattered old piece of wallpaper over them as a blanket. ‘It’s so nice’ they said; <hi rend="italic">that</hi> was too much for me, so I had to be off, up to <hi rend="italic">Ole</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘It’s Quarter Day!’ he said; ‘the streets and alleys serve as a bin, one great big bin, but a cartload’s enough for me! that I can get something from, and that was exactly what I did shortly after Christmas; I went down into the street, it was raw, wet, dirty, just right for catching a cold; the dustman was there with his cart, it was fully loaded; a kind of trial run for Copenhagen’s streets when it’s Quarter Day. At the rear end of the cart stood a fir tree, still quite green and with tinsel on its branches; it had been part of the Christmas festivities, and had now been thrown out onto the street, and the dustman had stuck it up in the pile of stuff at the back; pleasant to look at, or enough to make you cry, yes, you could say either, it all depends on how you think about it, and I was doing just that, thinking, as I am sure some of the things lying in the cart were, or maybe would have thought, which is about one and the same thing. A worn-out lady’s glove lay there right now; what was it thinking? Shall I tell you? It was pointing straight at the fir tree with its little finger: ‘That tree touches me!’ it thought, ‘I too have been to celebrations with candelabras! my real life was a single night at a ball; one handshake, and I split! that is where my recollection ends; I’ve nothing more worth living for!’ That was what the glove was thinking, or might have been. ‘It’s embarrassing with that fir tree!’ the potsherds said. Broken pottery always tends to find everything embarrassing. ‘If one’s on the rubbish cart,’ they said, ‘one ought not to give oneself airs and dress up in tinsel! I know I have been useful in this world, a lot more use than a green stick!’ – Now that’s an opinion that many others probably share, but the fir tree looked good, was a poetical touch to that pile of rubbish, and there’s plenty of <hi rend="italic">that</hi> around in the streets on Quarter Day! It was getting to be heavy and awkward for me to make any headway down there and I felt like getting away from it all, back up in the tower once more and staying there, where I sit and look down on things good humouredly.</p>
+               <p rend="firstIndent" xml:id="p_00004">Down there folks are playing at swapping houses! they heave and haul all their belongings around, and the <hi rend="italic">house pixie</hi> sits in the bin and moves with them; house wrangles, family wrangles, worries and concerns move from the old apartment to the new one, and what do they and we get out of all of this? Well, it has of course been written down long since in fine, old verses in ‘<hi rend="italic">The Advertiser</hi>’:</p>
+               <p rend="firstIndent" xml:id="p_00005">‘<hi rend="italic">Think of Death’s great Quarter Day</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00006">That is a serious thought, but it’s not, I hope, too disturbing for you to hear about it. <hi rend="italic">Death</hi> is and will always be the most reliable administrator, despite his many minor occupations! Have you never thought about that?</p>
+               <p rend="firstIndent" xml:id="p_00007"><hi rend="italic">Death</hi> is an omnibus driver, a passport issuer, he puts his signature under our conduct books, and he is the managing director of Life’s great savings bank. Can you understand that? All the deeds of our earthly life, great and small, are deposited in the ‘savings bank’, and when <hi rend="italic">Death</hi> comes with his quarter-day omnibus, and we have to get on board and be taken to the Land of Immortality, then he gives us our conduct book at the border, as a passport! For travelling expenses he withdraws from the savings bank some deed or other we have carried out, one that best characterises our behaviour; this can be pleasant, but it can also be terrifying.</p>
+               <p rend="firstIndent" xml:id="p_00008">So far, no one has escaped making that trip on the omnibus; there is admittedly the story of one who was not allowed on board, <hi rend="italic">Ahasverus, the Shoemaker of Jerusalem</hi>, he had to run along behind, had he been allowed to get on board the omnibus he would have escaped the treatment he got from poets. Just try and imagine for a moment what it looked like inside the great quarter-day omnibus! What a motley crew! next to each other sit king and beggar man, the genius and the idiot; they all have to be off, without luggage or gold, with nothing but their conduct book and their savings bank travelling expenses! but which of one’s deeds will be withdrawn and shown? A very small one perhaps, one as small as a pea, but a pea can sprout into a flowering vine.</p>
+               <p rend="firstIndent" xml:id="p_00009">The poor outcast that used to sit on the low stool in the corner and was shoved around and spoken to harshly will perhaps be allowed to take his stool along as a token and subsidy; the stool will become a sedan-chair in the Land of Immortality, be lifted up there as a throne, gleaming like gold, flowering like a bower.</p>
+               <p rend="firstIndent" xml:id="p_00010">The <hi rend="italic">one</hi> who always tippled the spiced wine of pleasure to forget something wrong he had done will have his wooden keg with him and be allowed to drink from it during the ride, and that drink is pure and purgative, so that his thoughts will clear, all good and noble feelings in him be awakened, he will see and sense what until then he did not care to see or could not see, and then the punishment will have been imbibed, <hi rend="italic">the gnawing worm that does not die in ages without mention</hi>. If on his glasses the word ‘<hi rend="italic">Forgetfulness’</hi> had been written, on the keg there will be the word ‘<hi rend="italic">Recollection’</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00011">If I read a good book, a historical work, the person I read about I always finally think of when he boarded Death’s omnibus, think of which of his deeds Death would withdraw from the savings bank for him, what daily allowance he would take with him to the Land of Immortality. There was once a French king, whose name I have forgotten, the name of something good gets forgotten sometimes, even by me, but it will shine out again later; a king who during a famine became the benefactor of his people, and the people raised a monument of snow to him, with the inscription: ‘<hi rend="italic">Faster than this melts did your help arrive</hi>!’ I can well imagine that Death, with reference to the monument, gave him a single snowflake that never melts, and that it flew like a white butterfly above his royal head into the Land of Immortality. And then there was also <hi rend="italic">Louis XI</hi>, yes, his name I can remember, one always remembers something bad, one of his particular character traits I often think about, I wish that one could say the story was a lie. He had his constable of the realm executed, he could do that, rightly or wrongly, but he had the constable’s innocent children, one eight years old the other seven, positioned at their father’s place of execution and get spattered with their father’s warm blood, after which they were taken to the Bastille and placed in an iron cage where they were not even given a blanket to pull over themselves; and every eighth day King <hi rend="italic">Louis</hi> sent the executioner to them and a tooth was pulled out of each of them, so that they would not have too easy a time of it, and the elder one said: ‘My mother would die of grief if she knew my little brother was suffering so much; so pull out two of my teeth and let him go free!’ and this brought tears to the executioner’s eyes, but the king’s will was stronger than his tears, and every eighth day two children’s teeth were brought on a silver salver to the king who had demanded them, he got them. Those two teeth, I imagine, Death took out of Life’s savings bank for <hi rend="italic">Louis XI </hi>and gave him to take on the journey into the Land of Immortality; they fly like two fireflies in front of him, they gleam, they burn, they pinch him, those innocent children’s teeth.</p>
+               <p rend="firstIndent" xml:id="p_00012">Yes, it is a serious trip, that of the omnibus on the great Quarter Day! and when will it come?</p>
+               <p rend="firstIndent" xml:id="p_00013">That is the serious thing about it, that every day, every hour, every minute one can expect the omnibus. Which of our deeds, I wonder, will Death withdraw from the savings bank and give us to take on the journey? Yes, let us think about that. This Quarter Day is not to be found in any calendar.’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

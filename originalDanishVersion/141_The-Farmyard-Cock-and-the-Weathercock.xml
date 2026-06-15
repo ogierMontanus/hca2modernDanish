@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Farmyard Cock and the Weathercock</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="gaardhanen-og-veirhanen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="gaardhanen-og-veirhanen_modern.xml">moderniseret version</note>
+                                                       <note target="141_The-Farmyard-Cock-and-the-Weathercock.xml.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There were two cocks, one on the compost heap and one on the roof, both equally ...</incipit><idno type="image">Gaardhanen_og_Veirhanen_forside.png</idno><popularity>907</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Farmyard Cock and the Weathercock. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">added one missing italics. Ready for publication</change><change who="NHB" when="2022-11-09">blank hi removed</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Farmyard Cock and the Weathercock">
+               <head type="main" rend="The Farmyard Cock and the Weathercock">The Farmyard Cock and the Weathercock</head>                <p rend="noIndent" xml:id="p_00001">There were two cocks, one on the compost heap and one on the roof, both equally arrogant – but which was the more accomplished? Let’s have your opinion – we’ll keep our own anyway.</p>
+               <p rend="firstIndent" xml:id="p_00002"><hi>The hen run was separated by a wooden fence from another farmyard where there lay a compost heap, and on this heap there grew a large cucumber which was highly conscious of being a garden-frame plant:</hi></p>
+               <p rend="firstIndent" xml:id="p_00003">‘It’s all a matter of birth!’ it said within it, ‘not everyone can be born a cucumber, there have to be other living species as well! Hens, ducks and all the livestock of the farm next door are also creatures. Now I happen to look up to the farmyard cock on the fence, he is definitely much more important than the weathercock, who has been placed so high up and can’t even creak, let alone crow! he’s got neither hens nor chickens, he only thinks of himself and sweats verdigris! no, the farmyard cock, now there’s a real cock for you! see him strut, now that’s dancing! hear him crow, now that’s music! wherever he passes you can hear what a trumpeter is made out of! If he came in here, he would eat me up leaf and stalk – if I ended up inside him, that would be a blissful death!’ the <hi rend="italic">cucumber</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00004">That night there was a terrible storm; hens, chickens and the cock sought shelter; the fencing between the farms blew down with a mighty crash; tiles fell off the roof, but the weathercock stood firm, it didn’t even turn, it was unable to; it was young, newly cast, though level-headed and slow; he had been born old, did not resemble the fluttering birds of the sky, the sparrows and swallows, he despised them: ‘dicky-birds, half-pints and mere plebians!’ The pigeons were large, gleaming and shiny, like mother-of-pearl – looked a bit like a weathercock – but they were fat and stupid, their sole thought was to fill their bellies, the <hi rend="italic">weathercock</hi> said, and boring company as well. The migratory birds had also paid a visit, spoken of foreign lands, of caravans of birds in the sky and terrible yarns involving birds of prey, it was new and interesting the first time, but later on the <hi rend="italic">weathercock</hi> knew they would repeat themselves, it was always the same old story and that’s so boring! They were boring and everything was boring, no one was worth frequenting, everyone was flat and stale.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘The world’s no good!’ it said. ‘It’s all a load of rubbish!’</p>
+               <p rend="firstIndent" xml:id="p_00006">The <hi rend="italic">weathercock</hi> was what is called <hi rend="italic">blasé</hi>, and that would definitely have made him interesting to the <hi rend="italic">cucumber</hi> if she had known about it, but she only had eyes for the <hi rend="italic">farmyard cock</hi> and now he had entered the same farm that she was in.</p>
+               <p rend="firstIndent" xml:id="p_00007">The fencing had blown down, but the thunder and lightning were over.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘What do you all think of that cockcrowing?’ the <hi rend="italic">farmyard cock</hi> asked the hens and chickens. ‘It was a bit on the coarse side, lacked elegance!’</p>
+               <p rend="firstIndent" xml:id="p_00009">And the hens and chickens came over to the compost heap, the <hi rend="italic">cock</hi> advanced with great strides.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Garden plant!’ he said to the <hi rend="italic">cucumber</hi>, and in that single word she sensed the full extent of his cultivated nature and forgot that he pecked at her and ate her.</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Blissful death!’</p>
+               <p rend="firstIndent" xml:id="p_00012">And the hens came and the chickens came and when one starts to run, the others follow suit, and they clucked and cheeped and looked at the cock, they were proud of him, he was one of their own.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Cockadoodledoo!’ he crowed, ‘chickens immediately become large hens when I say it in the henyard of the world!’</p>
+               <p rend="firstIndent" xml:id="p_00014">And both hens and chickens clucked and cheeped at this!</p>
+               <p rend="firstIndent" xml:id="p_00015">And the <hi rend="italic">cock</hi> announced a great piece of news.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘A cock can lay an egg! And do you know what is inside that egg? A cockatrice lies inside it! No one can withstand the sight of it! Humans know that and now all of you know that too, know what lives inside me! know what a top-of-the-heap sort of a fellow I am!’</p>
+               <p rend="firstIndent" xml:id="p_00017">And the <hi rend="italic">farmyard cock</hi> flapped his wings, waggled his coxcomb and crowed again; and gave all the hens and the small chickens the shivers, but they were frightfully proud that one of their own was such a top-of-the-heap sort of a fellow; they clucked and they cheeped so loudly the weathercock must surely hear it, and he did hear it, but it didn’t move him in the slightest.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘It’s all a load of rubbish!’ it said within the <hi rend="italic">weathercock</hi>. ‘The farmyard cock can never lay an egg and I can’t be bothered! If I wanted to, I could probably lay a wind egg! but the world isn’t worth a wind egg! A load of rubbish! – Now I can’t even be bothered to sit up here!’</p>
+               <p rend="firstIndent" xml:id="p_00019">And so the <hi rend="italic">weathercock</hi> snapped off, but he didn’t kill the farmyard cock, ‘though that was certainly the intention!’ the hens said. And what does the <hi rend="italic">moral</hi> of the story say?</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Better to crow than be blasé and snap off!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

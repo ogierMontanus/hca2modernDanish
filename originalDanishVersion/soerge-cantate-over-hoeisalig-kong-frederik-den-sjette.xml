@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sørge-Cantate over Høisalig Kong Frederik den Sjette</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="soerge-cantate-over-hoeisalig-kong-frederik-den-sjette" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>Før Talen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0001/#soerge-cantate-over-hoeisalig-kong-frederik-den-sjette/#doed-er-vor-konge-doed-kong-frederik</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Efter Talen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>div0001/#soerge-cantate-over-hoeisalig-kong-frederik-den-sjette/#hvad-er-mod-aandens-rige-hist</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+
+
+
+                                                            <separateWork>
+                                                                 <title>Død er vor Konge! Død Kong Frederik!</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00018</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hvad er mod Aandens Rige hist</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00020</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#doed-er-vor-konge-doed-kong-frederik">Før Talen</cell>
+                                                       
+                                                            <cell ref="#hvad-er-mod-aandens-rige-hist">Efter Talen</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sørge-Cantate over Høisalig Kong Frederik den Sjette" xml:id="soerge-cantate-over-hoeisalig-kong-frederik-den-sjette"><pb n="15"/><pb n="16"/><head type="part">Sørge-Cantate over Høisalig <seg target="txtcmnt-016-01"><!--DATA-TERM: Kong Frederik den Sjette--><!--DATA-DEFINITION: Frederik 6. døde 3. december 1839.-->Kong <hi rend="italic">Frederik den Sjette</hi></seg></head>
+<head type="sub">Sat i Musik af J. P. E. Hartmann, afsungen ved Sørgefesten i <seg target="txtcmnt-016-02"><!--DATA-TERM: Studenterforeningen--><!--DATA-DEFINITION: forening stiftet i 1820 »til Videnskabelighed og Brodersinds Fremme« af beboere på kollegiet Regensen; foreningen holdt i begyndelsen til i lejede lokaler på Store Købmagergade i København.-->Studenterforeningen</seg> den <seg target="txtcmnt-016-03"><!--DATA-TERM: 28de Januar--><!--DATA-DEFINITION: kong Frederik 6.s fødselsdag.-->28de Januar</seg> 1840</head>
+<floatingText xml:id="doed-er-vor-konge-doed-kong-frederik" rend="Før Talen" type="poem">
+<head type="section">Før Talen</head>
+<sp>
+<speaker type="styleOfSinging">CHOR</speaker>
+<l rend="noIndent" subtype="firstline" corresp="Død er vor Konge! Død Kong Frederik!" rendition="doed-er-vor-konge-doed-kong-frederik">Død er vor Konge! Død Kong Frederik!</l>
+<l rend="noIndent">Hans Kongevei tidt gjennem Tjørne gik,</l>
+<l rend="noIndent">Han meente ærligt det med Folk og Rige.</l>
+<l rend="noIndent">Død er vor Konge! Død Kong Frederik!</l>
+<l rend="noIndent">Og Hjertet føler, hvad de Ord vil sige!</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging"><seg target="txtcmnt-016-04"><!--DATA-TERM: Recitativ--><!--DATA-DEFINITION: replik el. monolog, som fremsiges i et syngende tonefald.-->RECITATIV</seg></speaker>
+<l rend="noIndent">Ved <seg target="txtcmnt-016-05"><!--DATA-TERM: Sommerslottet--><!--DATA-DEFINITION: Frederiksberg Slot, der fungerede som kongens sommerresidens.-->Sommerslottet</seg> suse Skovens Ege</l>
+<l rend="noIndent"><seg target="txtcmnt-016-06"><!--DATA-TERM: Om tunge Aar … Lege--><!--DATA-DEFINITION: som 4-årig mistede Frederik 6. kontakten til sin mor, Caroline Mathilde, efter hendes forhold til Struensee blev afsløret i 1772; og til sin sindssyge far, Christian 7., fik han aldrig nogen tæt forbindelse.-->Om tunge Aar og ei om Barnets Lege</seg>,</l>
+<l rend="noIndent">Om Kongesønnen i de kolde Sale! –</l>
+<l rend="noIndent">Høit om <seg target="txtcmnt-016-07" type="dfnStart"/><!--DATA-TERM: hans Ynglings Daad … Støtten sat--><!--DATA-DEFINITION: Frederik 6. gennemførte som regerende kronprins i 1788 stavnsbåndets ophævelse; til minde herom opførtes i 1792-1797 Frihedsstøtten.-->hans Ynglings Daad skal Stenen tale;</l>
+<l rend="noIndent">Paa Bondens brudte Aag er Støtten sat<seg type="dfnEnd" target="txtcmnt-016-07"/>,</l>
+<l rend="noIndent">Mod Himlen peger den i Sorgens Nat.</l>
+<l rend="noIndent">Høit ruller Bølgen mod den danske Slette,</l>
+<l rend="noIndent">Den synger om <seg target="txtcmnt-016-08" type="dfnStart"/><!--DATA-TERM: den Sortes … din Søn--><!--DATA-DEFINITION: handlen med afrikanske slaver blev forbudt i Danmark i 1792 (med reel effekt fra 1802).-->den Sortes Takke-Bøn,</l>
+<l rend="noIndent">Velsignet være Frederik den Sjette,</l>
+<l rend="noIndent">Ei sælges tør, o Afrika, din Søn<seg type="dfnEnd" target="txtcmnt-016-08"/>!</l>
+<l rend="noIndent">Naar Svalen kommer hid fra Keiserborgen,</l>
+<l rend="noIndent">Fra <seg target="txtcmnt-016-09" type="dfnStart"/><!--DATA-TERM: Donaus Keiserborg … Hjemmets Lande--><!--DATA-DEFINITION: slottet Hofburg i Wien, hvor næsten alle europæiske fyrster, herunder Frederik 6., opholdt sig under Wienerkongressen fra 16. september 1814 til 10. juni 1815, med det formål at ordne de territoriale forhold efter Napoleons 1.s fald.-->Donaus Keiserborg, den qviddrer Sorgen,</l>
+<l rend="noIndent">Den Sorg, dens Moder saae paa Kongens Pande,</l>
+<l rend="noIndent">Da der han værnede om Hjemmets Lande<seg type="dfnEnd" target="txtcmnt-016-09"/>.</l>
+<l rend="noIndent">Om Oldtids Tingsted Bondens Marker tale,</l>
+<l rend="noIndent"><seg target="txtcmnt-016-10"><!--DATA-TERM: Om Bonden … Sale--><!--DATA-DEFINITION: sigter til Frederik 6.s indførelse af de rådgivende stænderforsamlinger, hvor også bønderne var repræsenteret; der var valg til disse i 1834, og i 1835 mødtes de første stænderforsamlinger.-->Om Bonden nu forkynde Raadets Sale</seg>,</l>
+<l rend="noIndent">Thi der udtaler jo sin bedste Skjønnen,</l>
+<l rend="noIndent">Ei Adelsbaaren kun, men Bondesønnen.</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">FIIRSTEMMIG SANG MED DUET OG CHOR</speaker>
+<l rend="noIndent">Kongen er død!</l>
+<l rend="noIndent">Hør over <seg target="txtcmnt-016-11"><!--DATA-TERM: Vangen--><!--DATA-DEFINITION: marken.-->Vangen</seg></l>
+<l rend="noIndent">Sørgesangen,</l>
+<l rend="noIndent">Som den ved <seg target="txtcmnt-016-12"><!--DATA-TERM: Femte Fredrik(s)--><!--DATA-DEFINITION: kong Frederik 5.-->Femte Fredriks</seg> Kiste lød:</l>
+<pb n="17"/>
+<l rend="noIndent">»<seg target="txtcmnt-017-01" type="dfnStart"/><!--DATA-TERM: Hold Taare … Graven!--><!--DATA-DEFINITION: første solo og andet kor i J. Ewald »Da den høysalige Konge blev udført« fra <i>Sørge-Sange i Christiansborgs Slots-Kirke den 18de Martius 1766 da Kong Frederik den Femte skulde føres til sit Hvilested</i>, 1766; hvor H.C. Andersen skriver »Og du min Cithar stille!«, har Ewald: »Og du vor Cithar – stille!«.-->Hold Taare op at trille,</l>
+<l rend="noIndent">Og du min Cithar stille!</l>
+<l rend="noIndent">Nu bæres Kongen bort</l>
+<l rend="noIndent">Til Graven!«</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">CHOR</speaker>
+<l rend="noIndent">»Nu bæres Kongen bort til Graven!<seg type="dfnEnd" target="txtcmnt-017-01"/>«<note type="footnote"><!--* --><p rend="noIndent"><!--* -->Ewalds Sørgesang over Høisalig Kong Frederik V.</p></note></l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">SANG</speaker>
+<lg xml:id="p_00019">
+<l rend="noIndent">Den danske Bonde bad: o, maae vi bære</l>
+<l rend="noIndent">Vor Konge til hans sidste Hvilested!</l>
+<l rend="noIndent">Den lange Vei er kort, og let vil være</l>
+<l rend="noIndent">Den Byrde, som har al vor Kjærlighed.</l>
+<l rend="noIndent">Han Byrden bar for os, und os den Ære,</l>
+<l rend="noIndent">Den lange Vei er kort, naar ham vi bære!</l>
+<l rend="noIndent">Gud <seg target="txtcmnt-017-02"><!--DATA-TERM: signe--><!--DATA-DEFINITION: velsigne.-->signe</seg> Bonden! her var Hjertet Tolk.</l>
+<l rend="noIndent">Taknemlighed, betegn du Danmarks Folk!</l>
+</lg>
+<lg xml:id="p_00020">
+<l rend="noIndent">I hvert et Bondehuus, om nok saa lille,</l>
+<l rend="noIndent">Et Lys er tændt, langs Veien hvor de gaae,</l>
+<l rend="noIndent">Og i den kolde Nat, ved Grøften stille</l>
+<l rend="noIndent">Med deres Børnebørn de Gamle staae:</l>
+<l rend="noIndent">»Nu kommer Kongens Liig! see Faklen brænder!«</l>
+<l rend="noIndent">Og Barn og Gubbe folde deres Hænder;</l>
+<l rend="noIndent">De glemme aldrig dette Øieblik.</l>
+<l rend="noIndent">»I Jesu Navn! Farvel Kong Frederik!«</l>
+</lg></sp>
+<sp>
+<speaker type="styleOfSinging">CHOR</speaker>
+<l rend="noIndent">Lad <seg target="txtcmnt-017-03"><!--DATA-TERM: Floret--><!--DATA-DEFINITION: her: sørgefloret; sort slør el. stof, der bæres el. hænges op som tegn på sorg.-->Floret</seg> hænge ned om <seg target="txtcmnt-017-04">Sørgestaven</seg>,</l>
+<l rend="noIndent">Og Faklen lyse rød!</l>
+<l rend="noIndent">For os hiin Sørgesang gjenlød!</l>
+<l rend="noIndent">»Nu bæres Kongen bort til Graven!«</l>
+</sp>
+</floatingText>
+<floatingText xml:id="hvad-er-mod-aandens-rige-hist" rend="Efter Talen" type="poem">
+<head type="section">Efter Talen</head>
+<sp>
+<speaker type="styleOfSinging">CHORAL</speaker>
+<l rend="noIndent" subtype="firstline" corresp="Hvad er mod Aandens Rige hist" rendition="hvad-er-mod-aandens-rige-hist">Hvad er mod Aandens Rige hist</l>
+<l rend="noIndent">Den Pragt, os Jorden viste.</l>
+<pb n="18"/>
+<l rend="noIndent">Den samler sig til allersidst</l>
+<l rend="noIndent">Her i den snevre Kiste!</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging"><seg target="txtcmnt-018-01"><!--DATA-TERM: Vexelsang--><!--DATA-DEFINITION: sang, hvor to el. flere kor el. sangere skiftes til at synge.-->VEXELSANG</seg></speaker>
+<l rend="noIndent">I Kirkens gamle, hvælvede Gange</l>
+<l rend="noIndent">Lød de dybe Sørgesange Over Kongens Baare.</l>
+<l rend="noIndent">Det var ei den sidste Taare,</l>
+<l rend="noIndent">Mangt et Øie der ham gav;</l>
+<l rend="noIndent">Grædes vil der langt fra Kongens Grav.</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging"><seg target="txtcmnt-018-02"><!--DATA-TERM: Duettino--><!--DATA-DEFINITION: (italiensk) lille duet.-->DUETTINO</seg></speaker>
+<l rend="noIndent">O, mangt et Træk, saa ærligt, ligefremt,</l>
+<l rend="noIndent">Tegn paa hans Hjerte, har vort Hjerte gjemt,</l>
+<l rend="noIndent">Det bliver aldrig glemt.</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">CHOR</speaker>
+<l rend="noIndent"><seg target="txtcmnt-018-03"><!--DATA-TERM: Det trætte Støv--><!--DATA-DEFINITION: Den trætte krop.-->Det trætte Støv</seg> de Hvile gav;</l>
+<l rend="noIndent">Der er saa tyst nu ved hans Grav.</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">EN ENKELT STEMME</speaker>
+<l rend="noIndent">Kun Maanens Straale kysser Kongens Kiste.</l>
+</sp>
+<sp>
+<speaker type="styleOfSinging">CHOR</speaker>
+<l rend="noIndent">Tag vort Farvel! det er det sidste!</l>
+</sp>
+</floatingText>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sørge-Cantate over Høisalig Kong Frederik den Sjette. Sat i Musik af J. P. E. Hartmann, afsungen ved Sørgefesten i Studenterforeningen den 28de Januar 1840" synch="soerge-cantate-over-hoeisalig-kong-frederik-den-sjette-sat-i-musik-af-j-p-e-hartmann-afsungen-ved-soergefesten-i-studenterforeningen-den-28de-januar-1840">
+<head type="section-comments">Sørge-Cantate over Høisalig Kong <hi rend="italic">Frederik den Sjette</hi>. Sat i Musik af J. P. E. Hartmann, afsungen ved Sørgefesten i Studenterforeningen den 28de Januar 1840</head>
+<p rend="noIndent">Først kendte tryk 28. januar 1840 i <hi rend="italic">Dagen</hi>, nr. 23, i <hi rend="italic">Berlingske politiske og Avertissements-Tidende</hi>, nr. 22, samt som lejlighedstryk. Førstnævnte udgave følges her. BFN 367.</p>
+<p rend="noIndent">I modsætning til trykket i <hi rend="italic">Dagen</hi> og til lejlighedstrykket bringes kantaten <pb n="550"/>i <hi rend="italic">Berlingske</hi> uden titel, men indledes med den redaktionelle tekst: »Ved Sørgefesten i Studenterforeningen i Eftermiddag blev følgende Cantate af H. C. Andersen og Hartmann afsjunget«; ligeledes findes der i <hi rend="italic">Berlingske</hi> en redaktionel note, som ikke findes i de to andre tryk: »Disse tvende sidste Vers ville udkomme særskilte under Titel af: »Den danske Bonde og Kong <hi rend="italic">Frederik den Sjette</hi>«, og ledsagede af Hartmanns Musik sælges i Loses og Olsens Musikhandel til Fordeel for Asylerne«; der henvises her til den indlagte sang på to strofer »Den danske Bonde bad ... Farvel Kong Frederik!«.</p>
+<table rend="textcomments">
+<cell type="page">16</cell><cell><row xml:id="txtcmnt-016-01"><cell type="data-term">Kong Frederik den Sjette</cell><cell type="data-definition">Frederik 6. døde 3. december 1839.</cell></row><row xml:id="txtcmnt-016-02"><cell type="data-term">Studenterforeningen</cell><cell type="data-definition">forening stiftet i 1820 »til Videnskabelighed og Brodersinds Fremme« af beboere på kollegiet Regensen; foreningen holdt i begyndelsen til i lejede lokaler på Store Købmagergade i København.</cell></row><row xml:id="txtcmnt-016-03"><cell type="data-term">28de Januar</cell><cell type="data-definition">kong Frederik 6.s fødselsdag.</cell></row><row xml:id="txtcmnt-016-04"><cell type="data-term">Recitativ</cell><cell type="data-definition">replik el. monolog, som fremsiges i et syngende tonefald.</cell></row><row xml:id="txtcmnt-016-05"><cell type="data-term">Sommerslottet</cell><cell type="data-definition">Frederiksberg Slot, der fungerede som kongens sommerresidens.</cell></row><row xml:id="txtcmnt-016-06"><cell type="data-term">Om tunge Aar … Lege</cell><cell type="data-definition">som 4-årig mistede Frederik 6. kontakten til sin mor, Caroline Mathilde, efter hendes forhold til Struensee blev afsløret i 1772; og til sin sindssyge far, Christian 7., fik han aldrig nogen tæt forbindelse.</cell></row><row xml:id="txtcmnt-016-07"><cell type="data-term">hans Ynglings Daad … Støtten sat</cell><cell type="data-definition">Frederik 6. gennemførte som regerende kronprins i 1788 stavnsbåndets ophævelse; til minde herom opførtes i 1792-1797 Frihedsstøtten.</cell></row><row xml:id="txtcmnt-016-08"><cell type="data-term">den Sortes … din Søn</cell><cell type="data-definition">handlen med afrikanske slaver blev forbudt i Danmark i 1792 (med reel effekt fra 1802).</cell></row><row xml:id="txtcmnt-016-09"><cell type="data-term">Donaus Keiserborg … Hjemmets Lande</cell><cell type="data-definition">slottet Hofburg i Wien, hvor næsten alle europæiske fyrster, herunder Frederik 6., opholdt sig under Wienerkongressen fra 16. september 1814 til 10. juni 1815, med det formål at ordne de territoriale forhold efter Napoleons 1.s fald.</cell></row><row xml:id="txtcmnt-016-10"><cell type="data-term">Om Bonden … Sale</cell><cell type="data-definition">sigter til Frederik 6.s indførelse af de rådgivende stænderforsamlinger, hvor også bønderne var repræsenteret; der var valg til disse i 1834, og i 1835 mødtes de første stænderforsamlinger.</cell></row><row xml:id="txtcmnt-016-11"><cell type="data-term">Vangen</cell><cell type="data-definition">marken.</cell></row><row xml:id="txtcmnt-016-12"><cell type="data-term">Femte Fredrik(s)</cell><cell type="data-definition">kong Frederik 5.</cell></row></cell>
+<cell type="page">17</cell><cell><row xml:id="txtcmnt-017-01"><cell type="data-term">Hold Taare … Graven!</cell><cell type="data-definition">første solo og andet kor i J. Ewald »Da den høysalige Konge blev udført« fra <hi rend="italic">Sørge-Sange i Christiansborgs Slots-Kirke den 18de Martius 1766 da Kong Frederik den Femte skulde føres til sit Hvilested</hi>, 1766; hvor H.C. Andersen skriver »Og du min Cithar stille!«, har Ewald: »Og du vor Cithar – stille!«.</cell></row><row xml:id="txtcmnt-017-02"><cell type="data-term">signe</cell><cell type="data-definition">velsigne.</cell></row><row xml:id="txtcmnt-017-03"><cell type="data-term">Floret</cell><cell type="data-definition">her: sørgefloret; sort slør el. stof, der bæres el. hænges op som tegn på sorg.</cell></row><row xml:id="txtcmnt-017-04"><cell type="data-term">Sörgestaven</cell><cell type="data-definition">fane med et omviklet sørgeflor, anvendt ved en ceremoniel ligfærd.</cell></row></cell>
+<cell type="page">18</cell><cell><row xml:id="txtcmnt-018-01"><cell type="data-term">Vexelsang</cell><cell type="data-definition">sang, hvor to el. flere kor el. sangere skiftes til at synge.</cell></row><row xml:id="txtcmnt-018-02"><cell type="data-term">Duettino</cell><cell type="data-definition">(italiensk) lille duet.</cell></row><row xml:id="txtcmnt-018-03"><cell type="data-term">Det trætte Støv</cell><cell type="data-definition">Den trætte krop.</cell></row></cell>
+</table>
+<pb n="551"/></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Billedstormerne</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="billedstormerne" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Hensvundne Tid, i Graven lagt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01071</section>
+                                                                 <date>1874</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1874</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Billedstormerne" xml:id="billedstormerne"><pb n="438"/><head type="part">Billedstormerne</head>
+<lg xml:id="p_01072">
+<l rend="noIndent" subtype="firstline" corresp="Hensvundne Tid, i Graven lagt" rendition="hensvundne-tid-i-graven-lagt">Hensvundne Tid, i Graven lagt,</l>
+<l rend="noIndent">Reis Dig igjen ved Tonernes Magt!</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_01073">
+<l rend="noIndent">Til <hi rend="italic">»<seg target="txtcmnt-438-01"><!--DATA-TERM: Vor Frue-Kirke--><!--DATA-DEFINITION: under billedstormen tredje juledag 1530 ødelagdes alle billeder, tavler og sidealtre i Vor Frue Kirke.-->Vor Frue-Kirke«</seg></hi> den vilde Hob</l>
+<l rend="noIndent">Bruser afsted med Skrig og Raab;</l>
+<l rend="noIndent">Kirkens Billeder, Glands og Glorie</l>
+<l rend="noIndent">Er dem en Munke-Løgne-Historie.</l>
+</lg>
+<lg xml:id="p_01074">
+<l rend="noIndent">Alterbordet og Messebogen</l>
+<l rend="noIndent">Skal kastes paa Baal i Kirkekrogen;</l>
+<l rend="noIndent">Alt hvad derinde var Helligt før,</l>
+<l rend="noIndent">Skal smides udenfor Kirkens Dør.</l>
+</lg>
+<lg xml:id="p_01075">
+<l rend="noIndent">»Paven i Rom og hans Voxlys – sluk ud!</l>
+<l rend="noIndent">Riv isønder hver malet Klud!</l>
+<l rend="noIndent"><seg target="txtcmnt-438-02"><!--DATA-TERM: Santa Madonna … Lilie--><!--DATA-DEFINITION: den hellige Jomfru Maria afbildes ofte med en hvid lilje, som symboliserer hendes uskyld og renhed.-->Santa Madonna med sølvhvid Lilie</seg></l>
+<l rend="noIndent">Skal styrtes ned! – Det er Folke-Villie.</l>
+<l rend="noIndent">Hurra! hu! ha! – Til <hi rend="italic">Vor Frue-Kirke</hi>!</l>
+<l rend="noIndent">Med Øxer og Ild kan man Laasene dirke!«</l>
+</lg>
+<lg xml:id="p_01076">
+<l rend="noIndent">– De storme derind. Hvilken døvende Larm!</l>
+<l rend="noIndent"><seg target="txtcmnt-438-03"><!--DATA-TERM: Alt (Røgen)--><!--DATA-DEFINITION: allerede.-->Alt Røgen</seg> slaaer ud fra Vinduets Karm;</l>
+<l rend="noIndent">Det buldrer, som hørte man Afgrundens Sang;</l>
+<l rend="noIndent">Men gjennem den bryder Orgelklang.</l>
+</lg>
+<lg xml:id="p_01077">
+<l rend="noIndent">Og klart ved Ildens glødende Skjer</l>
+<l rend="noIndent">De see – <seg target="txtcmnt-438-04"><!--DATA-TERM: hvo--><!--DATA-DEFINITION: hvem.-->hvo</seg> er det, som sidder der?</l>
+<l rend="noIndent">En Munk i sin Kutte; de høre ham spille</l>
+<l rend="noIndent">Saa blødt, saa deiligt, som Ord fra Gud.</l>
+<l rend="noIndent">– Rundt om bliver stille!</l>
+</lg>
+<lg xml:id="p_01078">
+<l rend="noIndent">Engles Sang er i Orgelet lagt;</l>
+<l rend="noIndent">Hvilken stor, unævnelig Magt!</l>
+<pb n="439"/>
+<l rend="noIndent">Som en Moders Kys paa Barnets Mund,</l>
+<l rend="noIndent">Nu svulmende i den samme Stund</l>
+<l rend="noIndent">Som <seg target="txtcmnt-439-01"><!--DATA-TERM: Doms-Basunen--><!--DATA-DEFINITION: i Johannes’ Åbenbaring får de syv engle, der står foran Gud, basuner, som de på skift blæser i og på den måde nedkalder de ødelæggelser, som er led i dommedag; jf. Johannes’ Åbenbaring 8-9 og 11,15 ff.-->Doms-Basunen</seg> ved de Dødes Blund:</l>
+</lg>
+<hi rend="italic"><lg xml:id="p_01079">
+<l rend="firstIndent"><seg target="txtcmnt-439-02"><!--DATA-TERM: Ora … pro nobis--><!--DATA-DEFINITION: (latin) bed for os, Sankt Maria, bed for os.-->Ora pro nobis</seg>,</l>
+<?oxy_attributes rend="&lt;change type=&quot;modified&quot; oldValue=&quot;noIndent&quot; author=&quot;revar&quot; timestamp=&quot;20240622T125522+0200&quot; /&gt;"?><l rend="firstIndent">Santa Maria!</l>
+</lg></hi>
+<p rend="noIndent" xml:id="p_01080"><l rend="firstIndent"><hi rend="italic">Ora pro nobis!</hi></l></p>
+<lg xml:id="p_01081">
+<l rend="noIndent">Da bryder i Raab den vilde Hob:</l>
+<l rend="noIndent">»Det er Djævelens List! Det er Munke-Værk!</l>
+<l rend="noIndent">Lad Flammerne være hans <seg target="txtcmnt-439-03"><!--DATA-TERM: Messesærk--><!--DATA-DEFINITION: messeskjorte.-->Messesærk</seg>!«</l>
+<l rend="noIndent">– <seg target="txtcmnt-439-04"><!--DATA-TERM: Beggryden--><!--DATA-DEFINITION: tjæregryden (brugt som led i afstraffelse).-->Beggryden</seg> gløder, Orgelet brænder.</l>
+<l rend="noIndent">Hør nu Trompeten og <seg target="txtcmnt-439-05"><!--DATA-TERM: Kjedeltrommen--><!--DATA-DEFINITION: kedeltrommen; pauken.-->Kjedeltrommen</seg>.</l>
+<l rend="noIndent">Den vilde Hob holder lystigt Dommen!</l>
+<l rend="firstIndent">»Hurra! hu, ha!«</l>
+</lg>
+<graphic type="shortLine"/>
+<lg xml:id="p_01082">
+<l rend="noIndent">Hensvundne Tid, i Graven lagt,</l>
+<l rend="noIndent">Ved Tonerne til Liv gjenvakt,</l>
+<l rend="noIndent">Svind hen igjen ved Tonernes Magt!</l>
+</lg>
+<p rend="noIndent" xml:id="p_01083">(Et lignende Sagn, fra <seg target="txtcmnt-439-06"><!--DATA-TERM: Zwinglis Tid--><!--DATA-DEFINITION: den schweiziske reformator Ulrich Zwingli var i starten af 1500-tallet leder af reformationsbevægelsen i Zürich.--><hi rend="italic">Zwinglis</hi> Tid</seg>, er givet af Schweitzer-Digteren <seg target="txtcmnt-439-07"><!--DATA-TERM: Hagenbach--><!--DATA-DEFINITION: kirkehistorikeren K.R. Hagenbachs digt har ikke kunnet lokaliseres.--><hi rend="italic">Hagenbach</hi></seg> i et Digt: »Organisten«.)</p>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Billedstormerne" synch="billedstormerne">
+<head type="section-comments">Billedstormerne</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Illustreret Tidende</hi>, nr. 802, 7. februar 1875. BFN 1042</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">439,20</cell><cell type="deviation">Organisten«.) &lt; Organisten«.</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">438</cell><cell><row xml:id="txtcmnt-438-01"><cell type="data-term">Vor Frue-Kirke</cell><cell type="data-definition">under billedstormen tredje juledag 1530 ødelagdes alle billeder, tavler og sidealtre i Vor Frue Kirke.</cell></row><row xml:id="txtcmnt-438-02"><cell type="data-term">Santa Madonna … Lilie</cell><cell type="data-definition">den hellige Jomfru Maria afbildes ofte med en hvid lilje, som symboliserer hendes uskyld og renhed.</cell></row><row xml:id="txtcmnt-438-03"><cell type="data-term">Alt (Røgen)</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-438-04"><cell type="data-term">hvo</cell><cell type="data-definition">hvem.</cell></row></cell>
+<cell type="page">439</cell><cell><row xml:id="txtcmnt-439-01"><cell type="data-term">Doms-Basunen</cell><cell type="data-definition">i Johannes’ Åbenbaring får de syv engle, der står foran Gud, basuner, som de på skift blæser i og på den måde nedkalder de ødelæggelser, som er led i dommedag; jf. Johannes’ Åbenbaring 8-9 og 11,15 ff.</cell></row><row xml:id="txtcmnt-439-02"><cell type="data-term">Ora … pro nobis</cell><cell type="data-definition">(latin) bed for os, Sankt Maria, bed for os.</cell></row><row xml:id="txtcmnt-439-03"><cell type="data-term">Messesærk</cell><cell type="data-definition">messeskjorte.</cell></row><row xml:id="txtcmnt-439-04"><cell type="data-term">Beggryden</cell><cell type="data-definition">tjæregryden (brugt som led i afstraffelse).</cell></row><row xml:id="txtcmnt-439-05"><cell type="data-term">Kjedeltrommen</cell><cell type="data-definition">kedeltrommen; pauken.</cell></row><row xml:id="txtcmnt-439-06"><cell type="data-term">Zwinglis Tid</cell><cell type="data-definition">den schweiziske reformator Ulrich Zwingli var i starten af 1500-tallet leder af reformationsbevægelsen i Zürich.</cell></row><row xml:id="txtcmnt-439-07"><cell type="data-term">Hagenbach</cell><cell type="data-definition">kirkehistorikeren K.R. Hagenbachs digt har ikke kunnet lokaliseres.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

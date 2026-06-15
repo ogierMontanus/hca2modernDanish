@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Jylland</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="jylland" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Jylland" xml:id="jylland"><pb n="320"/><head type="part">Jylland</head>
+<lg xml:id="p_00799">
+<l rend="noIndent" subtype="numbersOnly">1.</l>
+<l rend="noIndent">Jylland mellem tvende Have</l>
+<l rend="noIndent">Som en <seg target="txtcmnt-320-01"><!--DATA-TERM: Runestav--><!--DATA-DEFINITION: træstav med indskårne runer.-->Runestav</seg> er lagt,</l>
+<l rend="noIndent">Runerne er Kæmpegrave</l>
+<l rend="noIndent">Inde midt i Skovens Pragt</l>
+<l rend="noIndent">Og paa Heden alvorsstor,</l>
+<l rend="noIndent">Her hvor :|: Ørknens Luftsyn :|: boer.</l>
+</lg>
+<lg xml:id="p_00800">
+<l rend="noIndent" subtype="numbersOnly">2.</l>
+<l rend="noIndent">Jylland, Du er Hovedlandet,</l>
+<l rend="noIndent">Høiland med Skov-Eensomhed!</l>
+<l rend="noIndent">Vildt i Vest med <seg target="txtcmnt-320-02"><!--DATA-TERM: Klittag--><!--DATA-DEFINITION: tagrør; græsart med store, tætte aks og kraftige stængler.-->Klittag</seg>, Sandet</l>
+<l rend="noIndent">Løfter sig i Bjerges Sted;</l>
+<l rend="noIndent">Østersø og Nordhavs Vand</l>
+<l rend="noIndent">Favnes :|: over Skagens :|: Sand.</l>
+</lg>
+<lg xml:id="p_00801">
+<l rend="noIndent" subtype="numbersOnly">3.</l>
+<l rend="noIndent">Heden, ja man troer det neppe,</l>
+<l rend="noIndent">Men kom selv, besee den lidt!</l>
+<l rend="noIndent">Lyngen er et pragtfuldt Teppe,</l>
+<l rend="noIndent">Blomster mylre milevidt.</l>
+<l rend="noIndent">Skynd Dig, kom! om føie Aar</l>
+<l rend="noIndent">Heden :|: som en Kornmark :|: staaer.</l>
+</lg>
+<lg xml:id="p_00802">
+<l rend="noIndent" subtype="numbersOnly">4.</l>
+<l rend="noIndent">Mellem rige Bøndergaarde</l>
+<l rend="noIndent">Snart <seg target="txtcmnt-320-03"><!--DATA-TERM: Dampdragen--><!--DATA-DEFINITION: lokomotivet, damptoget.-->Dampdragen</seg> flyve vil;</l>
+<l rend="noIndent">Hvor nu <seg target="txtcmnt-320-04" type="dfnStart"/><!--DATA-TERM: Loke … Driver--><!--DATA-DEFINITION: almindeligt udtryk for det naturfænomen, at luften flimrer over marker på varme sommerdage.--><seg target="txtcmnt-320-05">Loke</seg> sine Hjorde</l>
+<l rend="noIndent">Driver<seg type="dfnEnd" target="txtcmnt-320-04"/>, Skove voxe til,</l>
+<l rend="noIndent"><seg target="txtcmnt-320-06"><!--DATA-TERM: Britten--><!--DATA-DEFINITION: briten, person fra Storbritanien.-->Britten</seg> flyver over Hav,</l>
+<l rend="noIndent">Gjester her :|: <seg target="txtcmnt-320-07">Prinds Hamlets :|: Grav</seg>.</l>
+</lg>
+<lg xml:id="p_00803">
+<l rend="noIndent" subtype="numbersOnly">5.</l>
+<l rend="noIndent">Jylland mellem tvende Have</l>
+<l rend="noIndent">Som en Runestav er lagt,</l>
+<pb n="321"/>
+<l rend="noIndent">Fortid mæle dine Grave,</l>
+<l rend="noIndent">Fremtid folder ud din Magt;</l>
+<l rend="noIndent">Havet af sit fulde Bryst</l>
+<l rend="noIndent">Synger :|: høit om Jyllands :|: Kyst.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Jylland" synch="jylland">
+<head type="section-comments">Jylland</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Illustreret Tidende</hi>, nr. 25, 18. marts 1860, sammen med tilhørende noder af P.A. Heise. BFN 805</p>
+<table rend="textcomments">
+<cell type="page">320</cell><cell><row xml:id="txtcmnt-320-01"><cell type="data-term">Runestav</cell><cell type="data-definition">træstav med indskårne runer.</cell></row><row xml:id="txtcmnt-320-02"><cell type="data-term">Klittag</cell><cell type="data-definition">tagrør; græsart med store, tætte aks og kraftige stængler.</cell></row><row xml:id="txtcmnt-320-03"><cell type="data-term">Dampdragen</cell><cell type="data-definition">lokomotivet, damptoget.</cell></row><row xml:id="txtcmnt-320-04"><cell type="data-term">Loke … Driver</cell><cell type="data-definition">almindeligt udtryk for det naturfænomen, at luften flimrer over marker på varme sommerdage.</cell></row><row xml:id="txtcmnt-320-05"><cell type="data-term">Loke</cell><cell type="data-definition">i nordisk mytologi tilhører den ofte rænkefulde og forræderiske Loke asernes gudekreds; han er knyttet til sejden, trolddomskunsten.</cell></row><row xml:id="txtcmnt-320-06"><cell type="data-term">Britten</cell><cell type="data-definition">briten, person fra Storbritanien.</cell></row><row xml:id="txtcmnt-320-07"><cell type="data-term">Prinds Hamlets Grav</cell><cell type="data-definition">ifølge sagnet ligger Amled begravet i en gravhøj på Ammelhede syd for Randers; sagnet om Amled findes i Saxos danmarkshistorie (3. og 4. Bog), der ligger til grund for Shakespeares tragedie <hi rend="italic">Hamlet. Prince of Denmark</hi>, 1600-1601 (dansk <hi rend="italic">Hamlet. Prinz af Dannemark</hi>, 1777).</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>† August Vilhelm Hartmann</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="august-vilhelm-hartmann" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Toner, som Du engang hörte</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00344</section>
+                                                                 <date>1850</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1850</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="† August Vilhelm Hartmann" xml:id="august-vilhelm-hartmann"><pb n="151"/><head type="part">† August Vilhelm Hartmann</head>
+<head type="part">Den <seg target="txtcmnt-151-01">21<hi rend="raised">de </hi>November 1850</seg></head>
+<lg xml:id="p_00345">
+<l rend="noIndent" subtype="firstline" corresp="Toner, som Du engang hörte" rendition="toner-som-du-engang-hoerte">Toner, som Du engang hörte,</l>
+<l rend="noIndent">Som dit Fader-Hjerte rörte,</l>
+<l rend="noIndent">Klinge over Kistens sorte <seg target="txtcmnt-151-02"><!--DATA-TERM: Fjæl--><!--DATA-DEFINITION: bræt.-->Fjæl</seg>;</l>
+<l rend="noIndent">Veemod blander sig i Klangen,</l>
+<l rend="noIndent">Hvor Du sukked’, smelter Sangen</l>
+<l rend="noIndent">I et ömt, et södt Sovvel!</l>
+</lg>
+<lg xml:id="p_00346">
+<l rend="noIndent">Hvil i Fred, Du trætte Gamle!</l>
+<l rend="noIndent">Med til Kirken vi os samle,</l>
+<l rend="noIndent">Derhen Veien gaaer for sidste Gang.</l>
+<l rend="noIndent">Orgel-Melodien klinger,</l>
+<l rend="noIndent">Den gav der din Tanke Vinger –</l>
+<l rend="noIndent">Nu Du heelt til Gud Dig svang!</l>
+</lg>
+<lg xml:id="p_00347">
+<l rend="noIndent">Du, hvis Sjæl i Toner bygged’,</l>
+<l rend="noIndent">Svundet er, hvad om Dig skygged’,</l>
+<l rend="noIndent">Salig Vished er din lyse Havn!</l>
+<l rend="noIndent">Som en Klang fra Jordens Dale,</l>
+<l rend="noIndent">Hör vor Sang mod Himlens Sale,</l>
+<l rend="noIndent">Did Du gik i Jesu Navn!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="† August Vilhelm Hartmann. Den 21de November 1850" synch="august-vilhelm-hartmann-den-21de-november-1850">
+<head type="section-comments">† August Vilhelm Hartmann. Den 21de November 1850</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 571</p>
+<table rend="textcomments">
+<cell type="page">151</cell><cell><row xml:id="txtcmnt-151-01"><cell type="data-term">21<hi rend="raised">de</hi> November 1850</cell><cell type="data-definition">J.P.E. Hartmanns far, A.W. Hartmann, døde 15. november og blev begravet 21. november.</cell></row><row xml:id="txtcmnt-151-02"><cell type="data-term">Fjæl</cell><cell type="data-definition">bræt.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

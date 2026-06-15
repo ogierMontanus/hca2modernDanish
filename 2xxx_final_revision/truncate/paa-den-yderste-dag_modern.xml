@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>På den yderste Dag</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Historier, der udkom den 5. april 1852.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1852</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="paa-den-yderste-dag">
+<head type="main">På den yderste dag</head>
+
+<p rend="noIndent" xml:id="p_00001">Den helligste dag her blandt alle livets dage er den vi dør på. Det er den yderste dag, den hellige store forvandlings dag. Har du rigtigt, alvorsfuldt tænkt over denne mægtige, visse, sidste time her på jorden?</p>
+
+<p rend="firstIndent" xml:id="p_00002">Der var en mand, en strengt troende, som han kaldtes, en stridsmand for ordet, der var ham en lov, en nidkær tjener af en nidkær Gud. – Døden stod nu ved hans seng, Døden med det strenge, himmelske åsyn.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Timen er kommet, du skal følge mig!« sagde Døden og rørte med sin iskolde finger hans fødder, og de isnede, Døden berørte hans pande, derpå hans hjerte, og det brast derved, og sjælen fulgte dødsenglen.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Men i de få sekunder forud, mellem indvielsen fra fod til pande og hjerte, gik som et havs store tunge bølger alt hvad livet havde bragt og vakt, hen over den døende. Således ser man med ét blik ned i det svimlende dyb og omfatter i ét tankelyn den umådelige vej, således ser man med ét blik, i én sum, den talløse stjernevrimmel, kendende kloder og verdener i det vide rum.</p>
+
+<p rend="firstIndent" xml:id="p_00005">I et sådant øjeblik gyser den forfærdede synder og har intet at hælde sig til, det er som sank han ud i en uendelig tomhed! – Men den fromme hælder sit hoved til Gud og giver sig, som barnet, hen i »<seg><!--DATA-TERM: din Villie skee med mig--><anchor target="txtcmnt-039-01"/><!--central nytestamentlig tankegang; jf. Matthæus 6,10, Lukas 10,21 og 22,42.-->din vilje ske med mig</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Men denne døende havde ikke barnets sind, han følte han var mand. Han gøs ikke som synderen, han vidste han var den rette troende. På religionens former i al deres strenghed havde han holdt, millioner, vidste han, måtte gå den brede vej til fordømmelsen, med sværd og med ild kunne han have ødelagt deres legemer her, som alt deres sjæl var det og <seg><!--DATA-TERM: altid vilde blive det--><anchor target="txtcmnt-039-02"/><!--altid ville forblive det.-->altid ville blive det</seg> –! Hans vej var nu mod himlen, hvor nåden åbnede ham porten, nåden, den lovede.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Og sjælen gik med dødsenglen, men engang endnu så den hen til lejet hvor <seg><!--DATA-TERM: Støvbilledet--><anchor target="txtcmnt-039-03"/><!--dvs. den forgængelige krop.-->støvbilledet</seg> lå i den hvide ligskjorte, et fremmed aftryk af dens jeg. – Og de fløj, og de gik – det var <pb n="40"/>som i en mægtig hal og dog som i en skov. Naturen var beskåret, udspændt, opbundet og sat i række, kunstiggjort som <seg><!--DATA-TERM: de gamle franske Haver--><anchor target="txtcmnt-040-01"/><!--haver holdt i streng geometrisk stil.-->de gamle franske haver</seg>; her var maskerade.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Det er menneskelivet!« sagde dødsenglen.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Alle skikkelser sås mere eller mindre <seg><!--DATA-TERM: formummede--><anchor target="txtcmnt-040-02"/><!--maskerede, forklædte.-->formummede</seg>. Det var ikke de ædleste eller mægtigste, just alle de som gik i fløjl og guld, det var ikke de laveste og ringe, alle der gik i fattigfolks kjole. – Det var en underlig maskerade, og især ganske egent var det at se hvorledes de allesammen under deres klædning skjulte omhyggeligt noget for hverandre. Men den ene sled i den anden at det kunne blive synligt, og da så man hovedet af et dyr stikke frem. Hos en var det en grinende abe, hos en anden en fæl gedebuk, en klam slange eller mat fisk.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Det var dyret som vi alle bærer på, dyret som er vokset fast i mennesket, og det hoppede, og det sprang og ville frem, og hver holdt klæderne tæt om det, men de andre rev til side og råbte: »Ser du! Se! Det er ham! Det er hende!« og den ene blottede den andens elendighed.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Og hvad var dyret hos mig?« spurgte den vandrende sjæl, og dødsenglen pegede hen for sig på en stolt skikkelse, og om dens hoved viste sig en broget glorie med skinnende farver, men ved mandens hjerte skjulte sig dyrets fødder, <seg><!--DATA-TERM: Paafuglens Fødder--><anchor target="txtcmnt-040-03"/><!--kendt for deres hæslighed.-->påfuglens fødder</seg>; glorien var kun fuglens brogede hale.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Og som de vandrede frem, skreg store fugle fælt fra træernes grene, med lydelige menneskestemmer skreg de: »Du dødsvandrer, husker du mig?« – det var alle de onde tanker og begæringer fra hans livs dage som råbte til ham: »Husker du mig?«</p>
+
+<p rend="firstIndent" xml:id="p_00013">Og sjælen gøs et øjeblik, thi den <seg><!--DATA-TERM: kjendte Stemmerne--><anchor target="txtcmnt-040-04"/><!--genkendte stemmerne.-->kendte stemmerne</seg>, de onde tanker og begæringer der trådte op som tingsvidner.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»<seg><!--DATA-TERM: I vort Kjød … intet Godt--><anchor target="txtcmnt-040-05"/><!--jf. Romerbrevet 7,18.-->I vort kød, i vor onde natur, bor intet godt</seg>!« sagde sjælen, »men tankerne hos mig blev ikke til gerninger, verden har ikke set den onde frugt!« og han skyndte sig end mere for snart at komme bort fra de fæle skrig, men de store sorte fugle omsvævede ham i kredse og skreg og skreg, som skulle det høres over al verden. Og han sprang som den jagede hind, og ved hvert trin stødte han foden mod skarpe flintesten, og de skar hans fødder, og det smertede ham. »Hvor kommer disse skarpe sten her? Som vissent løv ligger de hen over jorden!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Det er hvert uforsigtigt ord du lod falde, og som sårede <pb n="41"/>din næstes hjerte langt dybere end stenene nu sårer din fod!«</p>
+                                        
+<p rend="firstIndent" xml:id="p_00016">»Det tænkte jeg ikke over!« sagde sjælen.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»<seg><!--DATA-TERM: Dømmer ikke … dømmes--><anchor target="txtcmnt-041-01"/><!--jf. Matthæus 7,1.-->Dømmer ikke, så skal I ikke dømmes</seg>!« klang det gennem luften.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Alle har vi syndet!« sagde sjælen og løftede sig atter. »Jeg har holdt <seg><!--DATA-TERM: Loven og Evangeliet--><anchor target="txtcmnt-041-02"/><!--Gamle og Nye Testamente.-->loven og evangeliet</seg>, jeg har gjort hvad jeg kunne gøre, jeg er ikke som de andre!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">Og de stod ved himlens port, og englen, indgangens bevogter, spurgte: »<seg><!--DATA-TERM: Hvo er Du--><anchor target="txtcmnt-041-03"/><!--hvem er du.-->Hvo er du</seg>? Sig mig din tro, og vis mig den i dine gerninger!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Jeg har strengt opfyldt alle bud! Jeg har ydmyget mig for verdens øjne, jeg har hadet og forfulgt det onde og de onde, de som går den brede vej til den evige fordømmelse, og jeg vil det endnu, med ild og med sværd, dersom jeg <seg><!--DATA-TERM: mægter det--><anchor target="txtcmnt-041-04"/><!--magter det.-->mægter det</seg>!«</p>
+<p rend="firstIndent" xml:id="p_00021">»Du er altså en af <seg><!--DATA-TERM: Mahomed(s)--><anchor target="txtcmnt-041-05"/><!--religionsstifteren Muhammed (ca. 570-632).-->Muhammeds</seg> bekendere!« sagde englen.</p>
+<p rend="firstIndent" xml:id="p_00022">»Jeg! – Aldrig!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»<seg><!--DATA-TERM: Hvo, som … Sværdet--><anchor target="txtcmnt-041-06"/><!--Matthæus 26,52.-->Hvo som griber til sværdet</seg>, skal omkomme ved sværdet, siger sønnen! Hans tro har du ikke. Er du måske en Israels søn der med Moses siger: <seg><!--DATA-TERM: Øie for Øie … Tand--><anchor target="txtcmnt-041-07"/><!--2. Mosebog 21,24.-->Øje for øje og tand</seg> for tand! En Israels søn hvis nidkære Gud er kun dit folks Gud!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Jeg er kristen!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Det kender jeg ikke i din tro og dine gerninger. Kristi lære er forsoning, kærlighed og nåde!«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Nåde!« klang det gennem det uendelige rum, og himlens port åbnede sig, og sjælen svævede mod den åbne herlighed.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Men lyset der udstrømmede, var så blændende, så gennemtrængende at sjælen veg tilbage, som for et draget sværd. Og tonerne klang så bløde og gribende, ingen jordisk tunge kan udsige det, og sjælen bævede og bøjede sig dybere og altid dybere, men den himmelske klarhed trængte ind i den, og da følte og fornemmede den hvad den aldrig før således havde følt, byrden af sin hovmod, sin hårdhed og synd. – Det blev så klart inden i den.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»<seg><!--DATA-TERM: Hvad godt … selv--><anchor target="txtcmnt-041-08"/><!--jf. Romerbrevet 7,19.-->Hvad godt jeg gjorde i verden, det gjorde jeg fordi jeg ikke kunne anderledes, men det onde – – det var af mig selv</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Og sjælen følte sig blændet af det rene himmelske lys, afmægtig sank den, således syntes det, dybt, rullet i sig selv, nedtynget, umoden for Himmeriges rige, og i tanken om den strenge, den retfærdige Gud, vovede den ikke at udstamme: »Nåde!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">– Og, <hi rend="italic">da</hi> var nåden der, den ikke ventede nåde.</p>
+
+<pb n="42"/><p rend="firstIndent" xml:id="p_00031">Guds himmel var i hele det uendelige rum, Guds kærlighed gennemstrømmede den i uudtømmelig fylde.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Hellig, herlig, kærlig og evig <seg><!--DATA-TERM: vorde Du--><anchor target="txtcmnt-042-01"/><!--skal du blive.-->vorde du</seg>, menneskesjæl!« klang det og sang det. Og alle, alle skal vi på vort jordelivs yderste dag, som sjælen her, bæve tilbage for Himmeriges glans og herlighed, bøje os dybt, ydmyge nedsynkende og dog båret af hans kærlighed, hans nåde, holdes oppe, svævende i nye baner, lutrede, ædlere og bedre, mere og mere nærme os lysets herlighed, og styrket ved ham mægte at stige ind i den evige klarhed.</p>
+
+<pb n="43"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="paa-den-yderste-dag">
+<head type="section-comments">På den yderste Dag</head>
+
+<p rend="noIndent">Trykt første gang i Historier, der udkom den 5. april 1852.</p>
+<p rend="noIndent">BFN 608/II,229-232/VII,142-143.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">41,1</cell><cell type="deviation">Fod!« &lt; Fod!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">39</cell><row xml:id="txtcmnt-039-01"><cell type="data-term">din Villie ske med mig</cell><cell type="data-definition">central nytestamentlig tankegang; <pb n="467"/>jf. Matthæus 6,10, Lukas 10,21 og 22,42.</cell></row><row xml:id="txtcmnt-039-02"><cell type="data-term">altid ville blive det</cell><cell type="data-definition">altid ville forblive det.</cell></row><row xml:id="txtcmnt-039-03"><cell type="data-term">Støvbilledet</cell><cell type="data-definition">dvs. den forgængelige krop.</cell></row>
+<cell type="page">40</cell><row xml:id="txtcmnt-040-01"><cell type="data-term">de gamle franske Haver</cell><cell type="data-definition">haver holdt i streng geometrisk stil.</cell></row><row xml:id="txtcmnt-040-02"><cell type="data-term">formummede</cell><cell type="data-definition">maskerede, forklædte.</cell></row><row xml:id="txtcmnt-040-03"><cell type="data-term">Påfuglens Fødder</cell><cell type="data-definition">kendt for deres hæslighed.</cell></row><row xml:id="txtcmnt-040-04"><cell type="data-term">kendte Stemmerne</cell><cell type="data-definition">genkendte stemmerne.</cell></row><row xml:id="txtcmnt-040-05"><cell type="data-term">I vort Kjød … intet Godt</cell><cell type="data-definition">jf. Romerbrevet 7,18.</cell></row>
+<cell type="page">41</cell><row xml:id="txtcmnt-041-01"><cell type="data-term">Dømmer ikke … dømmes</cell><cell type="data-definition">jf. Matthæus 7,1.</cell></row><row xml:id="txtcmnt-041-02"><cell type="data-term">Loven og Evangeliet</cell><cell type="data-definition">Gamle og Nye Testamente.</cell></row><row xml:id="txtcmnt-041-03"><cell type="data-term">Hvo er Du</cell><cell type="data-definition">hvem er du.</cell></row><row xml:id="txtcmnt-041-04"><cell type="data-term">mægter det</cell><cell type="data-definition">magter det.</cell></row><row xml:id="txtcmnt-041-05"><cell type="data-term">Mahomed(s)</cell><cell type="data-definition">religionsstifteren Muhammed (ca. 570-632).</cell></row><row xml:id="txtcmnt-041-06"><cell type="data-term">Hvo, som … Sværdet</cell><cell type="data-definition">Matthæus 26,52.</cell></row><row xml:id="txtcmnt-041-07"><cell type="data-term">Øie for Øie … Tand</cell><cell type="data-definition">2. Mosebog 21,24.</cell></row><row xml:id="txtcmnt-041-08"><cell type="data-term">Hvad godt … selv</cell><cell type="data-definition">jf. Romerbrevet 7,19.</cell></row>
+<cell type="page">42</cell><row xml:id="txtcmnt-042-01"><cell type="data-term">vorde Du</cell><cell type="data-definition">skal du blive.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

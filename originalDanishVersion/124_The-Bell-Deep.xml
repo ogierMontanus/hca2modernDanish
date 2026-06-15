@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Bell Deep</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="klokkedybet">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="klokkedybet_modern.xml">moderniseret version</note>
+                                                       <note target="124_The-Bell-Deep.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘Ding-dong! ding-dong!’ it chimes from the Bell Deep in Odense River. – What riv...</incipit><idno type="image">Klokkedybet_forside.png</idno><popularity>902</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Bell Deep. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>fortiden</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-29" who="NHB">formatted</change><change who="NHB" when="2022-09-29">controlled</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Bell Deep">
+               <head type="main" rend="The Bell Deep">The Bell Deep</head>                <p rend="noIndent" xml:id="p_00001">‘Ding-dong! ding-dong!’ it chimes from the Bell Deep in Odense River. – What river is that? – Every child in the city of Odense knows the answer, it runs along the bottom of the gardens, from the weir to the water mill, flowing under the wooden bridges. In the river grow yellow water-lilies, feathery brown rushes and the black, velvety reed mace, so tall and so big; old, split willows, swayed and swirled, hang far out in the water on the Munkemose bank and at the bleacher’s meadow, but right opposite are garden after garden, each one different from the one before, some with lovely flowers and bowers, smooth and neat, dainty and decorative, others only filled with cabbages or where there is no garden in sight, for the large elders spread out and hang way out over the flowing water which here and there is deeper than one can reach with an oar. Opposite the old convent for noble women lies the deepest spot, which is known as the Bell Deep, and there the River Man lives; he sleeps during the daytime, when the sun shines through the water, but comes out on starry and moonlit nights. He is exceedingly old; grandmother has heard about him from her grandmother, she says, he lives a lonely life, has no one to talk to except the great old church bell. It once used to hang in the church tower, well, now there is not a trace of either tower or church – the one that was called St. Alban’s.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘Ding-dong! ding-dong!’ the bell rang out when the tower was still standing, and one evening, as the sun was setting and the bell was swinging most strongly, it broke off and flew through the air, its shiny brass gleaming glowingly in the red rays.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Ding-dong! ding-dong! It’s bedtime ere long!’ the bell sang and flew out into Odense River at the point where it was deepest, and that is why the spot is now called the <hi rend="italic">Bell Deep</hi>; but it got neither sleep nor rest there! down at the River Man’s it peals and chimes, so that at times it can be heard up on dry land through the water, and many people say that this means: someone is soon going to die, but it is not for that reason, no, it peals and relates for the <hi rend="italic">River Man</hi>, who is now no longer alone.</p>
+               <p rend="firstIndent" xml:id="p_00004">And what does the bell relate? It is so old, so old people say, it existed long before grandmother’s grandmother was born, though it has merely the age of a child when compared with the <hi rend="italic">River Man</hi>, who is a strange fellow with eel-skin trousers and a scale-fish jacket with yellow lily-buttons on it, reeds in his hair and duckweed in his beard – which is hardly a pretty sight.</p>
+               <img src="0124_HCA-1969-25-AJ.jpg" ref="p_00005" title="Illustrator: Oskar Klever. 1958. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00005">It would take days and years to repeat what the bell relates; it tells and re-tells, the same thing over and over again, sometimes briefly, sometimes at length, just as it fancies; it tells of ancient times, the hard, dark times.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘At St. Alban’s Church, up there in the tower where the bell once hung, a monk used to come, he was both young and handsome, though more thoughtful than anyone else; through the hatch he used to gaze out over Odense River when its river bed was wide and the bog was a lake, he used to look out across it and the green embankment, ‘Nuns’ Hill’, on the far side where the abbey lay, where light shone from the nun’s cell – he had known her well, and he recalled this and his heart beat faster whenever he did so – ‘ding-dong! ding-dong! –’</p>
+               <p rend="firstIndent" xml:id="p_00007">Yes, thus does the bell relate.</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Up into the tower came the bishop’s foolish assistant, and when I, the bell, who have been cast in brass, hard and heavy, swinged and swung, I could have crushed his skull; he sat close under me and played with two sticks, just as if he was playing on a stringed instrument, and all the while he sang: “Now I dare sing out loud what otherwise I daren’t even whisper, sing about everything that is kept behind lock and key! that is cold and wet! The rats devour them alive! Nobody knows about it! Nobody hears about it! not even now, for the bell chimes so loudly ding-dong! ding-ding!”’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘There was once a king, they called him <hi rend="italic">Knud</hi>, he bowed to both bishop and monk, but when he oppressed the people of Vendsyssel with his heavy taxes and hard words, they seized their weapons and poles and chased him as if he were their quarry; he took refuge in the church, locked all the doors; the violent horde of people were outside, I heard all about it: both the magpies and crows, even the jackdaws, were scared by their shouting and screaming; they flew into the tower and out again, they looked down at the host of people below, they also looked in through the church windows and screeched loudly about what they could see. King <hi rend="italic">Knud</hi> lay in front of the altar praying, his brothers, <hi rend="italic">Erik</hi> and <hi rend="italic">Benedikt</hi>, stood on guard with their swords drawn, but the king’s servant, the false <hi rend="italic">Blake</hi>, betrayed his master; they knew outside where he could be hit, and one of them flung a stone through the window, and the king lay dead! – there were screeches and shouts from the wild mob and the flock of birds, and I shouted too, I sang and I rang: ding-dong! ding-dong!’</p>
+               <p rend="firstIndent" xml:id="p_00010">‘The church bell hangs high, sees far and wide, is visited by the birds and understands their language, to it the wind sighs in through wickets and sound-holes, through every nook and cranny, and the wind knows everything, it has it from the air, and the air surrounds everything that is alive, it passes down into people’s lungs, knows everything that gains sound, every word and every sigh –! the air knows it, the wind relates it, the church bell understands its tongue and rings it out to the whole world, ding-dong! ding-dong!’</p>
+               <p rend="firstIndent" xml:id="p_00011">‘But it all became too much for me to hear of and know, I couldn’t manage to ring it all out! I grew so tired, I became so heavy that the beam split and out I flew into the shining air, down to where the river is deepest, where the <hi rend="italic">River Man</hi> lives, all alone on his own, and there, year in and year out, I tell of what I have heard and what I know: ding-dong! ding-dong!’</p>
+               <p rend="firstIndent" xml:id="p_00012">That is what sounds from the Bell Deep in Odense River, as grandmother has related it.</p>
+               <p rend="firstIndent" xml:id="p_00013">But our schoolmaster has said: ‘There is no bell that rings down there, because it can’t do so! – and there is no <hi rend="italic">River Man</hi> down there, because no <hi rend="italic">River Man</hi> exists!’ and when all the church bells ring out so gaily, he says that it is not actually the bells but the air that is ringing, it is the air that produces sound – grandmother also said that the bell have said that – so they agree about that and that is for sure! ‘Be watchful, be watchful, keep a close watch on yourself!’ both of them say.</p>
+               <p rend="firstIndent" xml:id="p_00014">The air knows everything! it is around us, it is inside us, it tells of our thoughts and our deeds, and it does so longer than the bell down in the depths of Odense River, where the <hi rend="italic">River Man</hi> lives, it lets it ring out in the deep vault of the sky, so long, so far, eternally and always, until the bells of heaven ring out: ‘ding-dong! ding-dong!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

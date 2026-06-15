@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Brev til J.M. Thiele</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="brev-til-jm-thiele" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1869</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Brev til J.M. Thiele" xml:id="brev-til-jm-thiele">
+<div type="source"><source>Fra</source> <sourceTitle>Erindringer fra Bakkehuset</sourceTitle>
+<sourceDate>1869</sourceDate>
+</div>
+<pb n="532"/>
+<pb n="533"/>
+<head type="part" subtype="foreign"><source subtype="foreign">Brev til <seg target="txtcmnt-533-01"><!--DATA-TERM: J.M. Thiele--><!--DATA-DEFINITION: Just Mathias Thiele (1795-1874), forfatter og udgiver af <i>Danske Folkesagn</i>, 1.-4. samling, 1818-1823, og <i>Danmarks Folkesagn</i> I-III, 1843-1860; sekretær ved Kunstakademiet, i 1835 tillige inspektør ved Kobberstiksamlingen, som han i 1861 blev direktør for; 1839 bibliotekar ved Kongens Haandbibliotek; titulær professor 1828. Fra 1820 blandt H.C. Andersens velyndere.-->J.M. Thiele</seg></source></head>
+<floatingText type="letter">
+<opener>
+<dateline rend="right">Kjøbenhavn, d. 11. Juni 1869.</dateline>
+</opener>
+<salute>Kjære Ven!</salute>
+<p rend="noIndent" xml:id="p_01241">Tak for hvad De har læst for mig af Deres <seg target="txtcmnt-533-02"><!--DATA-TERM: »Livshistorie«--><!--DATA-DEFINITION: J.M. Thieles <i>Erindringer fra Bakkehuset</i> indeholder et uddrag af det selvbiografiske manuskript »Mit Livs Aarbog. 1796-1864« (s. 1-71), som delvist udgives i 1873 med titlen <i>Af mit Livs Aarbøger 1795-1826</i>; H.C. Andersen omtales ikke i uddraget af »Mit Livs Aarbog. 1796-1864«, men det gør han i <i>Af mit Livs Aarbøger 1795-1826</i>, 1873, s. 204-206.-->»Livshistorie«</seg>; ogsaa jeg omtales i den og, tilvisse, De maa kunne tegne mig, – De, som fra min tidligste Optræden saae med milde Øine paa den opløbne, underlige Dreng, der endnu var saa ganske Barnet, der troede paa alle Mennesker og aabent udtalte hver Tanke som den kom.</p>
+<p rend="firstIndent" xml:id="p_01242">De har tilvisse med Hjærte og god Villie seet paa mig, men i de forskjellige Levealdere seer man Personer og Begivenheder gjennem et forskjelligt Glas; jeg kan i den nedtegnede Skikkelse ikke ret gjenkjende mig selv, særligt i Maaden, jeg udtrykker mig paa, – den mangler den barnlige Freidighed, som nok er mit Særkjende, men jeg troer Dem imidlertid paa Ordet.</p>
+<p rend="firstIndent" xml:id="p_01243">De ønsker, at jeg giver Dem, som et Bilag til Deres Skrift, mine Erindringer fra <seg target="txtcmnt-533-03"><!--DATA-TERM: »Bakkehuset«--><!--DATA-DEFINITION: Bakkehuset på Frederiksberg; digteren Knud Lyne Rahbek (1760-1830) og hans hustru Kamma Rahbeks (1775-1829) hjem; omkring 1820 kulturelt samlingssted for ældre og yngre digtere. J.M. Thiele boede 1821-1823 som pensionær i Bakkehuset hos familien Rahbek.-->»<hi rend="italic">Bakkehuset</hi>«</seg>, men da maa jeg for en Deel gjentage, hvad jeg <seg target="txtcmnt-533-04"><!--DATA-TERM: andetsteds har nedskrevet--><!--DATA-DEFINITION: jf. <i>Mit Livs Eventyr</i>, 1855 (BFN 745), kapitel II; episoderne findes tillige beskrevet i den tyske selvbiografi <i>Das Märchen meines Lebens ohne Dichtung</i>, 1847, kapitel 2, og i den posthumt udgivne <i>H.C. Andersens Levnedsbog</i>, 1926, andet afsnit, kapitel 2.-->andetsteds har nedskrevet</seg>.</p>
+<p rend="firstIndent" xml:id="p_01244"><seg target="txtcmnt-533-05"><!--DATA-TERM: Enken efter Danmarks berømte Statsmand--><!--DATA-DEFINITION: Engelke Margrethe Colbiørnsen, født Falbe (1763-1848), 1782 gift med højesteretsjustitiarius Christian Colbiørnsen (1749-1814); sommeren 1821 logerede hun med sine døtre på Bakkehuset.-->Enken efter Danmarks berømte Statsmand</seg>, <hi rend="italic">Christian Colbjørnsen</hi>, som var en af de første af høiere Stand, der venligt modtog den fattige Dreng, boede om Sommeren paa <hi rend="italic">Bakkehuset</hi>; til hende kom jeg og fandt endnu flere venlige Mennesker paa dette Sted. De, kjære Ven, boede her, og Rahbeks dramatiske Yndling, <seg target="txtcmnt-533-06"><!--DATA-TERM: Madame Andersen--><!--DATA-DEFINITION: Birgitte Elisabeth Andersen, født Olsen (1791-1875), skuespillerinde ved Det Kgl. Teater 1808-1838 og Knud Lyne Rahbeks protegé; boede sommeren 1821 på Bakkehuset sammen med sin mand, kongelig kapelmusikus Caspar Heinrich Bernhard Andersen.-->Madame <hi rend="italic">Andersen</hi></seg>, som, da hun et Par Gange havde hørt mig fremsige Digte, gav mig i Spøg Navnet: <seg target="txtcmnt-533-07"><!--DATA-TERM: »Der kleine Declamator«--><!--DATA-DEFINITION: (tysk) den lille deklamator; skuespil af den tyske dramatiker August von Kotzebue (1761-1819).-->»Der kleine Declamator«</seg>.</p>
+<p rend="firstIndent" xml:id="p_01245">Jeg kom saaledes ogsaa snart ned i Fru <hi rend="italic">Rahbeks</hi> Stue, hvor den livlige, aandfulde Kone morede sig med at tale med mig og høre paa mine første, dramatiske Forsøg. Jeg havde skrevet en Slags Comedie, den læste jeg for hende, og strax ved de første Scener udbrød hun: »Men der er jo hele Stykker deri, De har skrevet ud af Oehlenschlæger og <seg target="txtcmnt-533-08"><!--DATA-TERM: Ingemann--><!--DATA-DEFINITION: Bernhard Severin Ingemann (1789-1862), dansk digter.-->Ingemann</seg>!« – »Ja, men de er ogsaa saa deilige!« svarede jeg i al Uskyldighed, og læste videre.</p>
+<p rend="firstIndent" xml:id="p_01246">En Dag, da jeg fra hende vilde gaae op til Fru Colbjørnsen, rakte hun mig en Haandfuld Roser og sagde: »Vil De tage dem <pb n="534"/>med op, – det vil vist fornøie Conferentsraadinden at faae dem af en Digters Haand!« Det var tilvisse i Spøg at disse Ord bleve sagte, men det var første Gang mit Navn blev sat i Forbindelse med Digter-Navnet, – der kom Taarer i mine Øine, og jeg veed, at fra dette Øieblik var min Tanke vakt for at skrive Digte, – det havde før kun været en Leeg, nu var det Maalet.</p>
+<p rend="firstIndent" xml:id="p_01247">Rahbek selv talte aldrig til mig derude; den eneste Tilnærmelse var en Dag i Haven; han styrede lige hen imod mig, som vilde han sige et Par Ord, men idet han var mig nær og fæstede Øinene paa mig, vendte han pludseligt om igjen.</p>
+<p rend="firstIndent" xml:id="p_01248">Den første og eneste Gang, Rahbek talte til mig, var i <seg target="txtcmnt-534-01"><!--DATA-TERM: »Theaterdirectionen« … »Alfsol«--><!--DATA-DEFINITION: Knud Lyne Rahbek sad 1809-1829 i Det Kgl. Teaters direktion, hvor han som direktionsmedlem udøvede censur; den 3. september 1822 forkastedes H.C. Andersens indleverede skuespil »Alfsol. Original Tragedie i fem Acter« (BFN 5), og forfatteren indkaldtes til direktionens møde den 13. september, hvor det blev tilkendegivet, at man »vilde anbefale ham til Kgl. Understøttelse for at studere« (E. Collin <i>H.C. Andersen og det Collinske Hus</i>, 1882, s. XVI).-->»<hi rend="italic">Theaterdirectionen</hi>«, hvor jeg blev kaldet op, efterat have indleveret en Tragedie, »<hi rend="italic">Alfsol</hi>«</seg>, og denne var læst. Rahbek overleverede mig Skriftet og sagde, at Stykket var ubrugeligt for Scenen, men at man havde fundet deri »saa mange Guldkorn«, at man havde det Haab, at jeg ved alvorlige Studier, ved at komme i en Skole og forfra lære, hvad der hørte til, vilde maaskee engang kunde levere den danske Scene Arbeider, som der vare værdige at opføres! og nu meddeelte <hi rend="italic">Rahbek</hi> mig endvidere, at <seg target="txtcmnt-534-02"><!--DATA-TERM: Collin … Slagelse-Latinskole--><!--DATA-DEFINITION: Jonas Collin (1776-1861) sad 1821-1829 og 1843-1849 i Det Kgl. Teaters direktion og fungerede tillige 1803-1833 som sekretær i Fonden ad usus publicos, der sorterede direkte under kongen og især anvendte sine midler til støtte af videnskab og kunst; efter Collins forarbejder ansøgte Det Kgl. Teaters direktion 2. december 1822 formelt om støtte til H.C. Andersens skolegang; den kongelige direktion for universitetet og de lærde skoler havde 18. oktober bevilget fri skolegang hos rektor Simon Meisling (1787-1856) i Slagelse lærde skole, og 31. december bevilgede så Fonden ad usus publicos 350 rbd. i årlig understøttelse i 3 år (fornyet 1826 og 1828).-->Collin havde talt min Sag hos Kong Frederik den Sjette, og at jeg aarligt fik en Sum fra Finantserne, samt at der var skjænket mig fri Underviisning i Slagelse-Latinskole</seg>.</p>
+<p rend="firstIndent" xml:id="p_01249">For dette Sidste skulde jeg bringe <seg target="txtcmnt-534-03"><!--DATA-TERM: Biskop Mynster--><!--DATA-DEFINITION: Jakob Peter Mynster (1775-1854), dansk teolog, fra 1834 Sjællands biskop; fra 1817 medlem af den kongelige direktion for universitetet og de lærde skoler.-->Biskop <hi rend="italic">Mynster</hi></seg>, der var den meest afgjørende heri, min Tak.</p>
+<p rend="firstIndent" xml:id="p_01250">Jeg kom til denne høithædrede Mand, – han talte om den Lykke, der forundtes mig, talte alvorligt og strængt om, hvor uvist det var, om man havde taget feil af mig eller ei, hvorvidt der vilde komme et heldigt Resultat, paalagde mig Flid og Taknemmelighed.</p>
+<p rend="firstIndent" xml:id="p_01251">Det var tilvisse velmeent og efter hans Anskuelse den rette Maade at tale til den forunderlige, phantasifulde Dreng, – han vidste ikke, hvor blødt mit Sind var, – hvor Ordene sloge mig som <seg target="txtcmnt-534-04"><!--DATA-TERM: Svøbe(r)--><!--DATA-DEFINITION: pisk med kort skaft og lang snor.-->Svøber</seg>.</p>
+<p rend="firstIndent" xml:id="p_01252">Jeg gik bort og græd bittre Taarer.</p>
+<p rend="firstIndent" xml:id="p_01253">Ogsaa paa Bakkehuset, hvorhen jeg søgte før Afreisen, flød Taarer, men det var Glædens over al den Venlighed, den Deeltagelse, de Alle her – De, kjære Ven, Madame Andersen og Fru Rahbek, viste mig.</p>
+<p rend="firstIndent" xml:id="p_01254">Det var et heelt Omslag i mit Liv, ja en heel Reise ud til <hi rend="italic">Slagelse</hi>.</p>
+<p rend="firstIndent" xml:id="p_01255">Fru Rahbek fortalte mig, at hun havde en meget større Reise for til næste Foraar, – en Reise til Hamborg, en Reise, som hun <pb n="535"/>oftere havde gjort, idet hun der hentede Papir til <seg target="txtcmnt-535-01"><!--DATA-TERM: de smukke Æsker … Haandarbeide--><!--DATA-DEFINITION: en af Kamma Rahbeks kæreste beskæftigelser var at lave smukke, kunstfærdige æsker, som hun ikke kun i samtiden men også i eftertiden er kendt for.-->de smukke Æsker, der var hendes kjæreste Haandarbeide</seg>. Dengang var en Reise til <hi rend="italic">Hamborg</hi> som nu en Reise for os til Paris eller Wien. »Saa langt kommer jeg vist aldrig!« tænkte jeg. Fru Rahbek trykkede min Haand og ønskede, at jeg om et Par Aar maatte blive en god Student, og »saa groer Poeten nok!«</p>
+<p rend="firstIndent" xml:id="p_01256">Strax, da jeg havde taget <seg target="txtcmnt-535-02"><!--DATA-TERM: Examen artium--><!--DATA-DEFINITION: (latin) studentereksamen; frem til 1850 blev den aflagt ved Københavns Universitet. Den 22. oktober 1828 aflagde H.C. Andersen studentereksamen ved Københavns Universitet.-->Examen artium</seg> udkom, som bekjendt, min <seg target="txtcmnt-535-03"><!--DATA-TERM: »Fodreise«--><!--DATA-DEFINITION: <i>Fodreise fra Holmens Canal til Østpynten af Amager i Aarene 1828 og 1829</i> (BFN 22) udkom den 2. januar 1829.-->»<hi rend="italic">Fodreise</hi>«</seg>. Den var mig en Livssag, – jeg troede, at alle Venner og Bekjendte maatte blive ligesaa opfyldte af den, som jeg var det. Et af de første Exemplarer sendte jeg til <seg target="txtcmnt-535-04"><!--DATA-TERM: Fru Rahbek … var død--><!--DATA-DEFINITION: Kamma Rahbek døde den 21. januar 1829 og begravedes på Frederiksberg Kirkegård.-->Fru <hi rend="italic">Rahbek</hi>. Hun laae syg. Et Par Dage efter hørte jeg af Admiral Wulff, at hun var død</seg>. Mit første Udbrud var: »Mon hun fik læst min Fodreise!« – »Menneske!« raabte <seg target="txtcmnt-535-05"><!--DATA-TERM: Admiral Wulff--><!--DATA-DEFINITION: Peter Frederik Wulff (1774-1842), dansk søofficer, fra 1840 kontreadmiral; siden 1822 en af H.C. Andersens velyndere.-->Admiral Wulff</seg>. »Nei! det er for galt! Troer De, man bryder sig om Deres »<hi rend="italic">Fodreise</hi>«, naar man skal ind for Vorherre!« Han rystede alvorligt paa Hovedet. Men min Mening var, at jeg saa gjerne undte hende en Glæde, og den – meente jeg da – maatte være at læse i min nye Bog.</p>
+<p rend="firstIndent" xml:id="p_01257">Jeg stod ved hendes Grav, hvor Synet af den stille, betagne, gamle <hi rend="italic">Rahbek</hi> dybt bevægede mig. Der gik mange Minder gjennem Tankerne, Minder om hendes venlige Ord og den kloge Sjæl, der lyste ud af hendes Øine.</p>
+<p rend="firstIndent" xml:id="p_01258">Mellem Eventyr og Historier har jeg, i <seg target="txtcmnt-535-06"><!--DATA-TERM: »Et Stykke Perlesnor«--><!--DATA-DEFINITION: (BFN 782); første del (I) trykt første gang i <i>Folkekalender for Danmark 1857</i>, teksten i sin helhed trykt første gang i <i>Nye Eventyr og Historier. Tredie Samling</i>, 1859. H.C. Andersen citerer fra sidstnævnte udgave.-->»<hi rend="italic">Et Stykke Perlesnor</hi>«</seg> givet et Slags Vignet-Billed af <hi rend="italic">Bakkehuset</hi>:</p>
+<p rend="firstIndent" xml:id="p_01259">»Nærved <seg target="txtcmnt-535-07"><!--DATA-TERM: Bakken--><!--DATA-DEFINITION: Valby Bakke.-->Bakken</seg>, hvor <seg target="txtcmnt-535-08"><!--DATA-TERM: Frederik den Sjettes Slot--><!--DATA-DEFINITION: Frederiksberg Slot, opført 1699-1709 af Frederik 4. (1671-1730); digteren Adam Oehlenschlägers fader var slotsforvalter ved Frederiksberg Slot fra 1781.-->Frederik den Sjettes Slot</seg> ligger, Oehlenschlægers Barndomshjem, skinner i Læ af Søndermarkens Skovgrund en af Perlerne, – man kaldte den <hi rend="italic">Philemon</hi> og <hi rend="italic">Baucis</hi> Hytte, det vil sige to, elskelige Gamles Hjem, – – og nu? Siig ikke: <seg target="txtcmnt-535-10">»Ak, hvor forandret!«</seg> nei! endnu er det Aandens Hjem, Drivhuset for den sygnende Plante! Blomsterknoppen, der ikke er mægtig nok til at udfolde sig, gjemmer dog skjult alle Spirer til Blad og Frø. Her skinner Aandens Sol ind i et fredet Hjem og opliver og levendegjør. Verden rundt om straaler ind gjennem Øinene i Sjælens ugrandskelige Dybde: <hi rend="italic"><seg target="txtcmnt-535-11">Idiotens Hjem</seg></hi>, omsvævet af Menneskekjærligheden, er et helligt Sted, et Drivhuus for den sygnende Plante, der skal engang omplantes og blomstre i <seg target="txtcmnt-535-12">Guds Urtegaard</seg>. De Svageste i Aanden samles nu her, hvor engang de Største og Kraftigste mødtes, vexlede Tankerne og løftedes opad, – opad blusser end her Sjælens Flamme i <seg target="txtcmnt-535-09"><!--DATA-TERM: Philemon og Baucis Hytte--><!--DATA-DEFINITION: Bakkehuset; allusion til Knud Lyne Rahbeks digt »Til mit Bakkehus« i <i>Poetiske Forsøg</i>, bind 2, 1802. Philemon og Baucis var ifølge Ovids (43 f.Kr.-18 e.Kr.) <i>Metamorfoser</i> (8,621 ff.) et gammel, fromt ægtepar, der gæstfrit tog imod guderne Zeus og Hermes i deres tarvelige hytte; som tak blev hytten forvandlet til et tempel.-->Philemon og Baucis Hytte</seg>!«</p>
+<closer>
+<salute>Og hermed, kjære Ven! min hjerteligste Hilsen!</salute>
+<signed rend="right"><hi rend="italic">H. C. Andersen.</hi></signed>
+</closer></floatingText>
+<pb n="536"/>
+<pb n="537"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Brev til J.M. Thiele" synch="brev-til-jm-thiele">
+<head type="section-comments"><source subtype="foreign">Brev til J.M. Thiele</source></head>
+<p rend="noIndent">Trykt første gang i J.M. Thiele <hi rend="italic">Erindringer fra Bakkehuset</hi>, der udkom i november 1869. Brevet findes tillige optrykt i <hi rend="italic">Breve fra Hans Christian Andersen. Udgivne af C. St. A. Bille &amp; Nikolai Bøgh</hi>, bind 2, 1878, s. 594-597. Her gengives teksten efter J.M. Thiele <hi rend="italic">Erindringer fra Bakkehuset</hi>. BFN 989</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">534,19</cell><cell type="deviation">opføres! &lt; opføres!«</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">533</cell><cell><row xml:id="txtcmnt-533-01"><cell type="data-term">J.M. Thiele</cell><cell type="data-definition">Just Mathias Thiele (1795-1874), forfatter og udgiver af <hi rend="italic">Danske Folkesagn</hi>, 1.-4. samling, 1818-1823, og <hi rend="italic">Danmarks Folkesagn</hi> I-III, 1843-1860; sekretær ved Kunstakademiet, i 1835 tillige inspektør ved Kobberstiksamlingen, som han i 1861 blev direktør for; 1839 bibliotekar ved Kongens Haandbibliotek; titulær professor 1828. Fra 1820 blandt H.C. Andersens velyndere.</cell></row><row xml:id="txtcmnt-533-02"><cell type="data-term">»Livshistorie«</cell><cell type="data-definition">J.M. Thieles <hi rend="italic">Erindringer fra Bakkehuset</hi> indeholder et uddrag af det selvbiografiske manuskript »Mit Livs Aarbog. 1796-1864« (s. 1-71), som delvist udgives i 1873 med titlen <hi rend="italic">Af mit Livs Aarbøger 1795-1826</hi>; H.C. Andersen omtales ikke i uddraget af »Mit Livs Aarbog. 1796-1864«, men det gør han i <hi rend="italic">Af mit Livs Aarbøger 1795-1826</hi>, 1873, s. 204-206.</cell></row><row xml:id="txtcmnt-533-03"><cell type="data-term">»Bakkehuset«</cell><cell type="data-definition">Bakkehuset på Frederiksberg; digteren Knud Lyne Rahbek (1760-1830) og hans hustru Kamma Rahbeks (1775-1829) hjem; omkring 1820 kulturelt samlingssted for ældre og yngre digtere. J.M. Thiele boede 1821-1823 som pensionær i Bakkehuset hos familien Rahbek.</cell></row><row xml:id="txtcmnt-533-04"><cell type="data-term">andetsteds har nedskrevet</cell><cell type="data-definition">jf. <hi rend="italic">Mit Livs Eventyr</hi>, 1855 (BFN 745), kapitel II; episoderne findes tillige beskrevet i den tyske selvbiografi <hi rend="italic">Das Märchen meines Lebens ohne Dichtung</hi>, 1847, kapitel 2, og i den posthumt udgivne <hi rend="italic">H.C. Andersens Levnedsbog</hi>, 1926, andet afsnit, kapitel 2.</cell></row><row xml:id="txtcmnt-533-05"><cell type="data-term">Enken efter Danmarks berømte Statsmand</cell><cell type="data-definition">Engelke Margrethe Colbiørnsen, født Falbe (1763-1848), 1782 gift med højesteretsjustitiarius Christian Colbiørnsen (1749-1814); sommeren 1821 logerede hun med sine døtre på Bakkehuset.</cell></row><row xml:id="txtcmnt-533-06"><cell type="data-term">Madame Andersen</cell><cell type="data-definition">Birgitte <pb n="706"/>Elisabeth Andersen, født Olsen (1791-1875), skuespillerinde ved Det Kgl. Teater 1808-1838 og Knud Lyne Rahbeks protegé; boede sommeren 1821 på Bakkehuset sammen med sin mand, kongelig kapelmusikus Caspar Heinrich Bernhard Andersen.</cell></row><row xml:id="txtcmnt-533-07"><cell type="data-term">»Der kleine Declamator«</cell><cell type="data-definition">(tysk) den lille deklamator; skuespil af den tyske dramatiker August von Kotzebue (1761-1819).</cell></row><row xml:id="txtcmnt-533-08"><cell type="data-term">Ingemann</cell><cell type="data-definition">Bernhard Severin Ingemann (1789-1862), dansk digter.</cell></row></cell>
+<cell type="page">534</cell><cell><row xml:id="txtcmnt-534-01"><cell type="data-term">»Theaterdirectionen« … »Alfsol«</cell><cell type="data-definition">Knud Lyne Rahbek sad 1809-1829 i Det Kgl. Teaters direktion, hvor han som direktionsmedlem udøvede censur; den 3. september 1822 forkastedes H.C. Andersens indleverede skuespil »Alfsol. Original Tragedie i fem Acter« (BFN 5), og forfatteren indkaldtes til direktionens møde den 13. september, hvor det blev tilkendegivet, at man »vilde anbefale ham til Kgl. Understøttelse for at studere« (E. Collin <hi rend="italic">H.C. Andersen og det Collinske Hus</hi>, 1882, s. XVI).</cell></row><row xml:id="txtcmnt-534-02"><cell type="data-term">Collin … Slagelse-Latinskole</cell><cell type="data-definition">Jonas Collin (1776-1861) sad 1821-1829 og 1843-1849 i Det Kgl. Teaters direktion og fungerede tillige 1803-1833 som sekretær i Fonden ad usus publicos, der sorterede direkte under kongen og især anvendte sine midler til støtte af videnskab og kunst; efter Collins forarbejder ansøgte Det Kgl. Teaters direktion 2. december 1822 formelt om støtte til H.C. Andersens skolegang; den kongelige direktion for universitetet og de lærde skoler havde 18. oktober bevilget fri skolegang hos rektor Simon Meisling (1787-1856) i Slagelse lærde skole, og 31. december bevilgede så Fonden ad usus publicos 350 rbd. i årlig understøttelse i 3 år (fornyet 1826 og 1828).</cell></row><row xml:id="txtcmnt-534-03"><cell type="data-term">Biskop Mynster</cell><cell type="data-definition">Jakob Peter Mynster (1775-1854), dansk teolog, fra 1834 Sjællands biskop; fra 1817 medlem af den kongelige direktion for universitetet og de lærde skoler.</cell></row><row xml:id="txtcmnt-534-04"><cell type="data-term">Svøbe(r)</cell><cell type="data-definition">pisk med kort skaft og lang snor.</cell></row></cell>
+<cell type="page">535</cell><cell><row xml:id="txtcmnt-535-01"><cell type="data-term">de smukke Æsker … Haandarbeide</cell><cell type="data-definition">en af Kamma Rahbeks kæreste beskæftigelser var at lave smukke, kunstfærdige æsker, som hun ikke kun i samtiden men også i eftertiden er kendt for.</cell></row><row xml:id="txtcmnt-535-02"><cell type="data-term">Examen artium</cell><cell type="data-definition">(latin) studentereksamen; frem til 1850 blev den aflagt ved Københavns Universitet. Den 22. oktober 1828 aflagde H.C. Andersen studentereksamen ved Københavns Universitet.</cell></row><row xml:id="txtcmnt-535-03"><cell type="data-term">»Fodreise«</cell><cell type="data-definition"><hi rend="italic">Fodreise fra Holmens Canal til Østpynten af Amager i Aarene 1828 og 1829</hi> (BFN 22) udkom den 2. januar 1829.</cell></row><row xml:id="txtcmnt-535-04"><cell type="data-term">Fru Rahbek … var død</cell><cell type="data-definition">Kamma Rahbek døde den 21. januar 1829 og begravedes på Frederiksberg Kirkegård.</cell></row><row xml:id="txtcmnt-535-05"><cell type="data-term">Admiral Wulff</cell><cell type="data-definition">Peter Frederik Wulff (1774-1842), dansk søofficer, fra 1840 kontreadmiral; siden 1822 en af H.C. Andersens velyndere.</cell></row><row xml:id="txtcmnt-535-06"><cell type="data-term">»Et Stykke Perlesnor«</cell><cell type="data-definition">(BFN 782); første del (I) trykt første gang i <hi rend="italic">Folkekalender for Danmark 1857</hi>, teksten i sin helhed trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Tredie Samling</hi>, 1859. H.C. Andersen citerer fra sidstnævnte udgave.</cell></row><row xml:id="txtcmnt-535-07"><cell type="data-term">Bakken</cell><cell type="data-definition">Valby Bakke.</cell></row><row xml:id="txtcmnt-535-08"><cell type="data-term">Frederik den Sjettes Slot</cell><cell type="data-definition">Frederiksberg Slot, opført 1699-1709 af Frederik 4. (1671-1730); digteren Adam Oehlenschlägers fader var slotsforvalter ved Frederiksberg Slot fra 1781.</cell></row><row xml:id="txtcmnt-535-09"><cell type="data-term">Philemon og Baucis Hytte</cell><cell type="data-definition">Bakkehuset; allusion til Knud Lyne Rahbeks digt »Til mit Bakkehus« i <pb n="707"/><hi rend="italic">Poetiske Forsøg</hi>, bind 2, 1802. Philemon og Baucis var ifølge Ovids (43 f.Kr.-18 e.Kr.) <hi rend="italic">Metamorfoser</hi> (8,621 ff.) et gammel, fromt ægtepar, der gæstfrit tog imod guderne Zeus og Hermes i deres tarvelige hytte; som tak blev hytten forvandlet til et tempel.</cell></row><row xml:id="txtcmnt-535-10"><cell type="data-term">»Ak, hvor forandret!«</cell><cell type="data-definition">hentydning til St. St. Blichers (1782-1848) novelle »Ak! hvor forandret! (Original Fortælling)« trykt i <hi rend="italic">Nordlyset. Et Maanedsskrivt</hi>, bind 8, oktober 1828.</cell></row><row xml:id="txtcmnt-535-11"><cell type="data-term">Idiotens Hjem</cell><cell type="data-definition">i 1855 blev Bakkehuset, der oprindelig var et gæstgiveri, hjemsted for »Helbredelsesanstalten for idiotiske Børn«.</cell></row><row xml:id="txtcmnt-535-12"><cell type="data-term">Guds Urtegaard</cell><cell type="data-definition">Guds have, Guds natur.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

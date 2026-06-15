@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Af Kjendte og glemte Digte</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="af-kjendte-og-glemte-digte" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>Møllerens Datter</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#moellerens-datter</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Negerkongens Datter</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#negerkongens-datter</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Lotus og Granatblomst</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#lotus-og-granatblomst</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Reise-Længsel</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#reise-laengsel</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Spanien </title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#af-spanien</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>I Malaga</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#i-malaga</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Cigaren</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#cigaren</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Granada</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#granada</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Held mig! Granada jeg seer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#granada/#held-mig-granada-jeg-seer</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Ja havblaae er hendes Øine</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#granada/#ja-havblaae-er-hendes-oeine</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>I Granada er det Maaneskin</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#granada/#i-granada-er-det-maaneskin</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Jeg leve vil i Granada</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#granada/#jeg-leve-vil-i-granada</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Ung Elskov </title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#af-ung-elskov</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Stemninger</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Hvil sødt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#hvil-soedt</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Du Pebersvend, vor Sang Du veed</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#du-pebersvend-vor-sang-du-veed</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Den, som jeg gav af mit Hjerteblod</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#den-som-jeg-gav-af-mit-hjerteblod</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Bibelens Job, ham kjender Du vel?</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#bibelens-job-ham-kjender-du-vel</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Giv af dit Hjerte til Folk og til Slægt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#giv-af-dit-hjerte-til-folk-og-til-slaegt</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Du stærke Død, din Taushed vækker Gru</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#stemninger/#du-staerke-doed-din-taushed-vaekker-gru</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Til Forskjellige</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#af-til-forskjellige</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title/>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-kjendte-og-glemte-digte/#</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+
+
+
+                                                            <separateWork>
+                                                                 <title>Bag Ellekrattet nede, hvor Møllehjulet gaaer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00966</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Nøgen, uden Guld og Brillanter</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00979</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Som en Lotus paa den stille Sø</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00986</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Ned til Rhinen!</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00987</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Man siger, at i Spanien Qvinden</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00992</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Flodleiet ligger udtørret</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00993</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Cigarens Glød er et Ildsted</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00995</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Held mig! Granada jeg seer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00996</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Ja havblaae er hendes Øine</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00997</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>I Granada er det Maaneskin</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00998</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Jeg leve vil i Granada</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00999</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>I Kjærlighed er ingen Sorg for tung</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01000</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hvil sødt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01001</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>»Du Pebersvend, vor Sang Du veed</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01002</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Den, som jeg gav af mit Hjerteblod</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>du-pebersvend-vor-sang-du-veed</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Bibelens Job, ham kjender Du vel?</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01003</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Giv af dit Hjerte til Folk og til Slægt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01004</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Du stærke Død, din Taushed vækker Gru</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_01005</section>
+                                                                 <date>1867</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1867</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#moellerens-datter">Møllerens Datter</cell>
+                                                       
+                                                            <cell ref="#negerkongens-datter">Negerkongens Datter</cell>
+                                                       
+                                                            <cell ref="#lotus-og-granatblomst">Lotus og Granatblomst</cell>
+                                                       
+                                                            <cell ref="#reise-laengsel">Reise-Længsel</cell>
+                                                       
+                                                            <cell ref="#af-spanien">Af Spanien </cell>
+                                                       
+                                                            <cell ref="#i-malaga">I Malaga</cell>
+                                                       
+                                                            <cell ref="#cigaren">Cigaren</cell>
+                                                       
+                                                            <cell ref="#granada">Granada</cell>
+                                                       
+                                                            <cell ref="#held-mig-granada-jeg-seer">Held mig! Granada jeg seer</cell>
+                                                       
+                                                            <cell ref="#ja-havblaae-er-hendes-oeine">Ja havblaae er hendes Øine</cell>
+                                                       
+                                                            <cell ref="#i-granada-er-det-maaneskin">I Granada er det Maaneskin</cell>
+                                                       
+                                                            <cell ref="#jeg-leve-vil-i-granada">Jeg leve vil i Granada</cell>
+                                                       
+                                                            <cell ref="#af-ung-elskov">Af Ung Elskov </cell>
+                                                       
+                                                            <cell ref="#stemninger">Stemninger</cell>
+                                                       
+                                                            <cell ref="#hvil-soedt" level="2">Hvil sødt</cell>
+                                                       
+                                                            <cell ref="#du-pebersvend-vor-sang-du-veed" level="2">»Du Pebersvend, vor Sang Du veed</cell>
+                                                       
+                                                            <cell ref="#den-som-jeg-gav-af-mit-hjerteblod" level="2">Den, som jeg gav af mit Hjerteblod</cell>
+                                                       
+                                                            <cell ref="#bibelens-job-ham-kjender-du-vel" level="2">Bibelens Job, ham kjender Du vel?</cell>
+                                                       
+                                                            <cell ref="#giv-af-dit-hjerte-til-folk-og-til-slaegt" level="2">Giv af dit Hjerte til Folk og til Slægt</cell>
+                                                       
+                                                            <cell ref="#du-staerke-doed-din-taushed-vaekker-gru" level="2">Du stærke Død, din Taushed vækker Gru</cell>
+                                                       
+                                                            <cell ref="#af-til-forskjellige">Af Til Forskjellige</cell>
+                                                       
+                                                            <cell ref="#"/>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Af Kjendte og glemte Digte" xml:id="af-kjendte-og-glemte-digte">
+<pb n="385"/>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main"><source subtype="foreign">Af</source> Kjendte og glemte Digte</titlePart>
+<titlePart type="part">(1823-1867)</titlePart> 
+</docTitle>
+<docImprint>
+<date>1867</date>
+</docImprint></titlePage>
+</front>
+
+<div type="workPart" rend="Møllerens Datter" xml:id="moellerens-datter"><pb n="386"/><head type="part"><?oxy_comment_start author="revar" timestamp="20240622T123118+0200" comment="overskrift og strofer skal have samme indryk"?>Møllerens Datte<?oxy_comment_end?>r</head>
+<lg xml:id="p_00967">
+<l subtype="firstline" corresp="Bag Ellekrattet nede, hvor Møllehjulet gaaer" rendition="bag-ellekrattet-nede-hvor-moellehjulet-gaaer">Bag Ellekrattet nede, hvor Møllehjulet gaaer,</l>
+<l>Der tjente jeg hos Mølleren i fire Ungdomsaar;</l>
+<l>Paa <seg target="txtcmnt-386-01"><!--DATA-TERM: Stænten--><!--DATA-DEFINITION: stenten; overgangen over et gærde.-->Stænten</seg> jeg om Aftenen satte mig tidt,</l>
+<l>Og talte med Møllerens Datter da lidt.</l>
+</lg>
+<lg xml:id="p_00968">
+<l>Det var som man fra Øinene ind i Hjertet saae,</l>
+<l>Jeg kunde hele Natten ligge og tænke derpaa.</l>
+<l>Hun deelte mine Sorger, jeg sagde hende Alt,</l>
+<l>Men aldrig om min Elskov jeg hende har fortalt.</l>
+</lg>
+<lg xml:id="p_00969">
+<l>Men havde hun mig kjær, som jeg hende har paa Jord,</l>
+<l>Da havde hun nok vidst det uden et eneste Ord;</l>
+<l>Tidt bad jeg i mit Hjerte: »lad min Elskov forgaae,</l>
+<l>Jeg fattige Knøs kan dog aldrig hende faae!«</l>
+</lg>
+<lg xml:id="p_00970">
+<l>Hun trykkede mig Haanden, da jeg var syg og bleg,</l>
+<l>Men derved af mit Hjerte ei Kjærligheden veg!</l>
+<l>Hun saae saa venlig til mig, hun bad mig være glad,</l>
+<l>Og Vorherre og mit Hjerte, de gjorde som hun bad.</l>
+</lg>
+<lg xml:id="p_00971">
+<l>Jeg følte saadan Drift, saadan Lyst i min Sjæl;</l>
+<l>Saa mødtes vi ved Lunden forleden i <seg target="txtcmnt-386-02"><!--DATA-TERM: Qvæl--><!--DATA-DEFINITION: kvæld, aften.-->Qvæl</seg>d.</l>
+<l>Da tog hun mig i Haanden og sagde: »er Du her?</l>
+<l>Du hilser en Trolovet, min <seg target="txtcmnt-386-03"><!--DATA-TERM: Fæstensring--><!--DATA-DEFINITION: ring, hvormed man beseglede fæste, dvs. forlovelse.-->Fæstensring</seg> er her!«</l>
+</lg>
+<lg xml:id="p_00972">
+<l>»Ja Guld og rige Perler gav mig hans Kjærlighed,</l>
+<l>Og Du, Du er den Første, der om min Lykke veed!«</l>
+<l>Jeg kyssede paa Haanden, men sagde ei et Ord,</l>
+<l>Det var som al min Tanke var lagt i sorten Jord.</l>
+</lg>
+<lg xml:id="p_00973">
+<l>Om Aftnen var der Gilde og jeg var ogsaa med,</l>
+<l>Jeg sad ved Siden af dem, paa det fornemste Sted.</l>
+<l>Vi <seg target="txtcmnt-386-04"><!--DATA-TERM: klinkede--><!--DATA-DEFINITION: skålede.-->klinkede</seg>, vi drak, sang Viser ovenpaa; –</l>
+<l>Jeg maatte være glad, thi de Alle paa mig saae!</l>
+</lg>
+<pb n="387"/>
+<lg xml:id="p_00974">
+<l>Men Morgenen derefter og hver en Dag, der kom,</l>
+<l>Saa løb det mig i Hovedet underligt om;</l>
+<l>Alt gik mig, som jeg ønsked’, det Ene mangled’ kun!</l>
+<l>De holdt jo Alle af mig, selv Kjæresten og hun!</l>
+</lg>
+<lg xml:id="p_00975">
+<l>De trykked’ mig i Haanden, de vidste ei min <seg target="txtcmnt-387-01"><!--DATA-TERM: Vee--><!--DATA-DEFINITION: smerte; ulykke, nød.-->Vee</seg>,</l>
+<l>De kyssede hinanden, det var stor Lyst at see! –</l>
+<l>Da fik jeg saadan Længsel at see mig lidt om,</l>
+<l>Jeg pakkede da sammen, ei veed jeg, <seg target="txtcmnt-387-02"><!--DATA-TERM: hvor (det kom)--><!--DATA-DEFINITION: hvorfra.-->hvor det kom</seg>!</l>
+</lg>
+<lg xml:id="p_00976">
+<l>Jeg sagde: »jeg vil see Alverden og dens Lyst!«</l>
+<l>Men meente: »jeg vil glemme den Verden i mit Bryst!«</l>
+<l>Hun saae paa mig og sagde, o Gud, det var saa haardt!</l>
+<l>»Vi holde Alle af Dig! hvorfor vil Du da bort?«</l>
+</lg>
+<lg xml:id="p_00977">
+<l>Da kom jeg til at græde, men dengang gik det an,</l>
+<l>Man græder naar man skilles, det sagde ogsaa han.</l>
+<l>De fulgte mig paa Veien – da faldt jeg paa en Steen,</l>
+<l>Det var <hi rend="italic">Vorherres</hi> Villie, jeg <seg target="txtcmnt-387-03"><!--DATA-TERM: brød--><!--DATA-DEFINITION: brækkede.-->brød</seg> mit ene Been.</l>
+</lg>
+<lg xml:id="p_00978">
+<l>Nu ligger jeg i Møllen, hun pleier mig der,</l>
+<l>Hver Dag hun kommer til mig, og med sin Hjertenskjær.</l>
+<l>Til Juli holdes Bryllup, »kom med«, igaar de bad’,</l>
+<l>»For saa er Du helbredet og skal ret være glad.«</l>
+</lg>
+<lg xml:id="p_00979">
+<l>Jeg hører Vandet bruse og Hjulene at gaae,</l>
+<l>Gud give at jeg derude under Møllehjulet laae!</l>
+<l>Da blev jeg bedst helbredet og i mit Hjerte glad,</l>
+<l>Og derom var det jo, de to Elskende bad.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Negerkongens Datter" xml:id="negerkongens-datter"><pb n="388"/><?oxy_comment_start author="revar" timestamp="20240622T123223+0200" comment="strofer og overskrift skal have samme indryk"?><head type="part">Negerkongens Datter</head><?oxy_comment_end?>
+<lg xml:id="p_00980">
+<l subtype="firstline" corresp="Nøgen, uden Guld og Brillanter" rendition="noegen-uden-guld-og-brillanter">Nøgen, uden Guld og Brillanter,</l>
+<l>Kun om Skuldren Skindet af en Panther,</l>
+<l>Kommer hjem fra Jagt paa Elephanter</l>
+<l>Negerfyrsten; see fra alle Kanter</l>
+<l>Strømmer Folket til med Skrig og Sang.</l>
+</lg>
+<lg xml:id="p_00981">
+<l><seg target="txtcmnt-388-01"><!--DATA-TERM: Fetisch(-Præsten)--><!--DATA-DEFINITION: fetich; genstand, som anses for at besidde overnaturlige kræfter, og som derfor gøres til genstand for religiøs dyrkelse.-->Fetisch-Præsten</seg> høitidsfuld og stille</l>
+<l>Bringer ham hans førstefødte Lille,</l>
+<l>Øiet flammer, Smiil om Læben spille,</l>
+<l>Neppe kan han sig fra Gaven skille,</l>
+<l>Trommen blander sig med <seg target="txtcmnt-388-02"><!--DATA-TERM: Tuben(s)--><!--DATA-DEFINITION: tubaen.-->Tubens</seg> Klang.</l>
+</lg>
+<lg xml:id="p_00982">
+<l>Kongens Datter! hvilken jordisk Lykke!</l>
+<l><seg target="txtcmnt-388-03"><!--DATA-TERM: Purpurshawl--><!--DATA-DEFINITION: sjal i kostbart mørkerødt stof.-->Purpurshawl</seg> skal hendes Skuldre smykke,</l>
+<l>Strudsfjer i en Krands om Panden skygge,</l>
+<l>Kun en Helt, en kongelig, tør trykke</l>
+<l>Palmedalens Perle til sit Bryst.</l>
+</lg>
+<lg xml:id="p_00983">
+<l>Afrika sin <seg target="txtcmnt-388-04"><!--DATA-TERM: Aphrodite--><!--DATA-DEFINITION: i græsk mytologi kærlighedsgudinden.-->Aphrodite</seg> eier;</l>
+<l>Svanen søger did, der hvor hun pleier</l>
+<l>Sig at bade, og den dybt sig neier,</l>
+<l>Nattens Farve vandt jo Skjønheds Seier;</l>
+<l>Ørknens Helt hun kaarer til sin Mand.</l>
+</lg>
+<lg xml:id="p_00984">
+<l>Svanen søger – Ak! hun er forsvundet,</l>
+<l>Blod og Taarer er ved Stranden rundet,</l>
+<l>Slaveskibet har <seg target="txtcmnt-388-05"><!--DATA-TERM: Passaten--><!--DATA-DEFINITION: passatvinden.-->Passaten</seg> vundet,</l>
+<l>Vei er til den nye Verden fundet,</l>
+<l>Sorte Pige, glem dit Fædreland.</l>
+</lg>
+<lg xml:id="p_00985">
+<l>Her i Sukkermøllen skal Du bygge,</l>
+<l>Purpur vil endnu din Skulder smykke,</l>
+<l>Pidskeslag vil <seg target="txtcmnt-388-06"><!--DATA-TERM: (Purpur)bræmmen--><!--DATA-DEFINITION: her: rand el. stribe.-->Purpurbræmmen</seg> trykke,</l>
+<l>Arbeid flittig – – dog Du gjør vist Lykke!</l>
+<l>Kjøbmandssønnen kneb Dig i din Kind.</l>
+</lg>
+<pb n="389"/>
+<lg xml:id="p_00986">
+<l>Lad i Afrika kun Mindet runge;</l>
+<l>Kongen og hans Datter, der de sjunge,</l>
+<l>Medens paa hans Grav, med Fødder tunge,</l>
+<l>Elephanten tramper med sin Unge,</l>
+<l>Kongens Datter selv er Trælleqvind.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Lotus og Granatblomst" xml:id="lotus-og-granatblomst"><pb n="390"/><head type="part">Lotus og <seg target="txtcmnt-390-01"><!--DATA-TERM: Granatblomst--><!--DATA-DEFINITION: blomst på granatæbletræet.-->Granatblomst</seg></head>
+<head type="sub">(<seg target="txtcmnt-390-02"><!--DATA-TERM: Malaga 1863--><!--DATA-DEFINITION: H.C. Andersen opholdt sig i Málaga fra 30. september til 5. oktober og igen fra 22. oktober til 29. oktober 1862, ikke i 1863.-->Malaga 1863</seg>)</head>
+<lg xml:id="p_00987">
+<l subtype="firstline" corresp="Som en Lotus paa den stille Sø" rendition="som-en-lotus-paa-den-stille-soe">Som en Lotus paa den stille Sø</l>
+<l>Er i Norden Qvinden;</l>
+<l>Fra den dybe Havbund Skjønheds Frø</l>
+<l>Groer og sætter Blomst trods Nordenvinden;</l>
+<l>Her i Syd bag Pyrenæertinden</l>
+<l>Groer Granatblomst, der paa Trolddoms Viis</l>
+<l>Pludselig er Frugt fra Paradiis,</l>
+<l>Glødende, et Flammevæld fra <seg target="txtcmnt-390-03"><!--DATA-TERM: Inden--><!--DATA-DEFINITION: Indien.-->Inden</seg>.</l>
+<l>Lotusblomst, hvor er Du frisk og <seg target="txtcmnt-390-04"><!--DATA-TERM: Skjær--><!--DATA-DEFINITION: fin, sart.-->skjær</seg>,</l>
+<l>Tro i Hjertet, Tanker bygge der;</l>
+<l>Spaniens <seg target="txtcmnt-390-05"><!--DATA-TERM: Ildblomst--><!--DATA-DEFINITION: her: granatblomst.-->Ildblomst</seg>, Trolddom eier Du,</l>
+<l>Barnet bliver Jomfru i et Nu,</l>
+<l>Livet er et Kys, et sødt Forsvinden.</l>
+<l>Brænd Du mig til Aske, lad mig døe!</l>
+<l>Lotusblomst paa Nordens dybe Sø</l>
+<l>Bed en Bøn for mig – hos <hi rend="italic">Spanierinden</hi>!</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Reise-Længsel" xml:id="reise-laengsel"><pb n="391"/><head type="part">Reise-Længsel</head>
+<head type="sub">(1834)</head>
+<lg xml:id="p_00988">
+<l subtype="firstline" corresp="Ned til Rhinen!" rendition="ned-til-rhinen">Ned til <hi rend="italic">Rhinen</hi>!</l>
+<l>Hvor den grønne Ranke fæster</l>
+<l>Sig om Ridderborgens Rester,</l>
+<l>Og sig klart i Strømmen speiler;</l>
+<l>Med Musik og Sang man seiler;</l>
+<l>Stille Byer, Klokkeklang,</l>
+<l>Mon jeg kommer der engang?</l>
+</lg>
+<lg xml:id="p_00989">
+<l>Til <hi rend="italic">Paris</hi> da!</l>
+<l>Blomstertorvet vil jeg finde,</l>
+<l>Louvre, see hver Skat derinde;</l>
+<l>Paa <seg target="txtcmnt-391-01"><!--DATA-TERM: Vendome--><!--DATA-DEFINITION: Vendôme-pladsen i Paris, anlagt i 1600-tallet; pladsen domineres af en sejrssøjle, rejst 1806-1810 af kejser Napoleon 1., med en statue af ham selv på toppen.-->Vendome</seg>, hvor Støtten kneiser,</l>
+<l>Knæle for den store Keiser,</l>
+<l>Gaae bag Boulevardens Træer;</l>
+<l>Ak, jeg kommer aldrig der!</l>
+</lg>
+<lg xml:id="p_00990">
+<l><hi rend="italic">Schweitzerlandet</hi>!</l>
+<l>Dybe Søer, mørke Skove,</l>
+<l>Hvor paa Fjeldet Skyer sove,</l>
+<l>Bjergland, som i Storhed throner,</l>
+<l>Hjem for <seg target="txtcmnt-391-02"><!--DATA-TERM: Alpehornet(s)--><!--DATA-DEFINITION: flere meter langt, lige horn.-->Alpehornets</seg> Toner!</l>
+<l>Ak, mon det dog aldrig skeer,</l>
+<l>At jeg disse Dale seer!</l>
+</lg>
+<lg xml:id="p_00991">
+<l>Til <hi rend="italic">Valencia</hi>!</l>
+<l>Hvor et evigt Foraar bygger,</l>
+<l>Hvor <seg target="txtcmnt-391-03"><!--DATA-TERM: Orange(træet)--><!--DATA-DEFINITION: appelsin.-->Orangetræet</seg> skygger;</l>
+<l>Fromme Sange, Malerier,</l>
+<l>Alt til Fromhed Hjertet vier,</l>
+<l>Natblaae Himmel, mørke Træer!</l>
+<l>Ak, jeg kommer aldrig der!</l>
+</lg>
+<lg xml:id="p_00992">
+<l>Ned til <hi rend="italic">Danmark</hi>!</l>
+<l>Hvor de smukke Skyer svømme,</l>
+<pb n="392"/>
+<l>Hvor de friske Vinde strømme,</l>
+<l>Til de lysegrønne Skove,</l>
+<l>Hvor i Høien Kæmper sove,</l>
+<l>Hvor Erindringsfuglen boer,</l>
+<l>Vil dog Hjertet før man troer!</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Af Spanien " xml:id="af-spanien"><pb n="393"/>
+<head type="main"><source subtype="foreign">Af</source> Spanien</head>
+<head type="part" subtype="numbersOnly">III.</head>
+<lg xml:id="p_00993">
+<l subtype="firstline" corresp="Man siger, at i Spanien Qvinden" rendition="man-siger-at-i-spanien-qvinden">Man siger, at i <hi rend="italic">Spanien</hi> Qvinden</l>
+<l>Har krigerisk Mandsmod og Aand;</l>
+<l>Man siger, at Spanierinden</l>
+<l>Har en Dolk ved sit Strømpebaand;</l>
+<l>Man siger, – man siger saa Meget;</l>
+<l>Tro ikke hver snaksom Tourist:</l>
+<l>Et Barnesind, let og bevæget,</l>
+<l>Har Spanierinden forvist,</l>
+<l>Der er en Sladdren, en Latter,</l>
+<l>Du seirende hæver din Haand, –</l>
+<l>Ja, da har Spaniens Datter</l>
+<l>En Dolk ved sit Strømpebaand.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="I Malaga" xml:id="i-malaga"><pb n="394"/><head type="part">I Malaga</head>
+<lg xml:id="p_00994">
+<l subtype="firstline" corresp="Flodleiet ligger udtørret" rendition="flodleiet-ligger-udtoerret">Flodleiet ligger udtørret</l>
+<l rend="firstIndent">og bruges som Landevei;</l>
+<l>Der er Marked og Handel,</l>
+<l rend="firstIndent">Disken en Steen, Andet ei.</l>
+<l>Der sælges Traad, stegte Snegle,</l>
+<l rend="firstIndent"><seg target="txtcmnt-394-01"><!--DATA-TERM: Jernkram--><!--DATA-DEFINITION: isenkram.-->Jernkram</seg>, Cactussens Frugt;</l>
+<l>Rundt om de udbrændte Bjerge</l>
+<l rend="firstIndent">danne en Ramme smukt.</l>
+<l>Bønder, bevæbned’ med Bøsser,</l>
+<l rend="firstIndent">og hver i Bæltet en Kniv,</l>
+<l>Ride de vildkaade Muuldyr;</l>
+<l rend="firstIndent">der er en Færdsel, et Liv.</l>
+</lg>
+<lg xml:id="p_00995">
+<l>Pludseligt Bjergegnen <seg target="txtcmnt-394-02"><!--DATA-TERM: skrækkes--><!--DATA-DEFINITION: forskrækkes, opskræmmes.-->skrækkes</seg>,</l>
+<l rend="firstIndent">o hvilket Skybrud af Regn!</l>
+<l>Alt i et Nu staaer forvandlet,</l>
+<l rend="firstIndent">Fjeldstrømmen bryder hvert Hegn;</l>
+<l>Alle flygte, Flodleiet</l>
+<l rend="firstIndent">rummer ikke sin Flod,</l>
+<l>Svulmende, møllevands-voldsom</l>
+<l rend="firstIndent">raa, kaad i Overmod,</l>
+<l>Cactus og Palmer den river</l>
+<l rend="firstIndent">med sig i vildkaade Hast,</l>
+<l>dog ikke min Erindring,</l>
+<l rend="firstIndent">den holder Billedet fast.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Cigaren" xml:id="cigaren"><pb n="395"/><head type="part">Cigaren</head>
+<head type="sub">(<seg target="txtcmnt-395-01"><!--DATA-TERM: Sevilla 1865--><!--DATA-DEFINITION: H.C. Andersen opholdt sig i Sevilla fra 13. november til 22. november 1862, ikke 1865.-->Sevilla 1865</seg>)</head>
+<lg xml:id="p_00996">
+<l subtype="firstline" corresp="Cigarens Glød er et Ildsted" rendition="cigarens-gloed-er-et-ildsted">Cigarens Glød er et Ildsted,</l>
+<l rend="firstIndent">hvor Ildaander er’ tilhuse;</l>
+<l>Den Ene blæser med <seg target="txtcmnt-395-02"><!--DATA-TERM: Puster--><!--DATA-DEFINITION: blæsebælg.-->Puster</seg></l>
+<l rend="firstIndent">at Ilden skal ikke gaae ud;</l>
+<l>Den Anden rører med Ildtang,</l>
+<l rend="firstIndent">faaer Saften til at beruse.</l>
+<l>I Dampen er der en Troldkraft,</l>
+<l rend="firstIndent">en lille cigarfødt Gud;</l>
+<l>Han bygger, som <seg target="txtcmnt-395-03"><!--DATA-TERM: Fata Morgana--><!--DATA-DEFINITION: (italiensk) egentlig feen Morgana, der frembringer luftspejlinger.--><hi rend="italic">Fata Morgana</hi></seg></l>
+<l rend="firstIndent">det Røgslot, Tankerne ville;</l>
+<l>Han viser nu for mig Hjemmet</l>
+<l rend="firstIndent">og alle Vennerne der;</l>
+<l>Jeg glemmer, Have og Bjerge</l>
+<l rend="firstIndent">uendeligt vidt os skille,</l>
+<l>At nede paa Pladsen rigt gløder</l>
+<l rend="firstIndent"><seg target="txtcmnt-395-04"><!--DATA-TERM: Orangens--><!--DATA-DEFINITION: appelsinens.-->Orangens</seg> duftfyldte Træer.</l>
+<l>– Nu lægger jeg bort Cigaren;</l>
+<l rend="firstIndent"><hi rend="italic">Sevilla</hi>, du deilige Stad!</l>
+<l>Jeg glemte Dig, jeg var i <hi rend="italic">Danmark</hi>,</l>
+<l rend="firstIndent">mens her med Cigaren jeg sad!</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Granada" xml:id="granada"><pb n="396"/><head type="part">Granada</head>
+<floatingText xml:id="held-mig-granada-jeg-seer" rend="Held mig! Granada jeg seer" type="poem">
+<head type="section" subtype="numbersOnly">I.</head>
+<lg xml:id="p_00997">
+<l subtype="firstline" corresp="Held mig! Granada jeg seer" rendition="held-mig-granada-jeg-seer"><seg target="txtcmnt-396-01"><!--DATA-TERM: Held mig--><!--DATA-DEFINITION: hvilket held, hvilken lykke.-->Held mig</seg>! <hi rend="italic">Granada</hi> jeg seer,</l>
+<l rend="firstIndent">Mindernes selsomme By!</l>
+<l><hi rend="italic">Rom</hi> Du ligner deri,</l>
+<l rend="firstIndent">her strax man føler sig hjemme.</l>
+<l>Bjergene rundt om har Snee,</l>
+<l rend="firstIndent">Himlen ikke en Sky.</l>
+<l>Fra <seg target="txtcmnt-396-02"><!--DATA-TERM: Alamedaen--><!--DATA-DEFINITION: (spansk) boulevarden.-->Alamedaen</seg> smukt</l>
+<l rend="firstIndent">klinger <seg target="txtcmnt-396-03"><!--DATA-TERM: Gitanaen(s)--><!--DATA-DEFINITION: sigøjnersken.-->Gitanaens</seg> Stemme;</l>
+<l>Øinene blaae, som i Nord,</l>
+<l rend="firstIndent">sneehvide Blomster i Haaret,</l>
+<l>Havfruens Skjønhed og Blik!</l>
+<l rend="firstIndent">– Vandrer! <seg target="txtcmnt-396-04"><!--DATA-TERM: er alt Du bedaaret--><!--DATA-DEFINITION: er du allerede bedåret, forført.-->er alt Du bedaaret</seg>?</l>
+</lg>
+</floatingText>
+<floatingText xml:id="ja-havblaae-er-hendes-oeine" rend="Ja havblaae er hendes Øine" type="poem">
+<head type="section" subtype="numbersOnly">II.</head>
+<lg xml:id="p_00998">
+<l subtype="firstline" corresp="Ja havblaae er hendes Øine" rendition="ja-havblaae-er-hendes-oeine">Ja havblaae er hendes Øine,</l>
+<l rend="firstIndent">men Haaret som Skovsneglens Skind;</l>
+<l>Gjennem Øinene seer man</l>
+<l rend="firstIndent">lige i Tankerne ind.</l>
+<l>Hun er saa fast som en Drue,</l>
+<l rend="firstIndent">Munden et Væld med Kys,</l>
+<l>Om Tonedybet derinde</l>
+<l rend="firstIndent">havde en Drøm jeg nys;</l>
+<l>Over os glødende Æbler</l>
+<l rend="firstIndent">i hvert <seg target="txtcmnt-396-05"><!--DATA-TERM: Granattræ--><!--DATA-DEFINITION: granatæbletræ.-->Granattræ</seg> hang; –</l>
+<l>En <seg target="txtcmnt-396-06"><!--DATA-TERM: salomonisk Lovsang--><!--DATA-DEFINITION: jf. »Salomos Højsang«, Højsangen 1.-->salomonisk Lovsang</seg></l>
+<l rend="firstIndent">Hjertet om <seg target="txtcmnt-396-07"><!--DATA-TERM: Sulamith--><!--DATA-DEFINITION: Shulamit; den unge brud, der besynges i Højsangen 7,1.--><hi rend="italic">Sulamith</hi></seg> sang.</l>
+</lg>
+<pb n="397"/>
+</floatingText>
+<floatingText xml:id="i-granada-er-det-maaneskin" rend="I Granada er det Maaneskin" type="poem">
+<head type="section" subtype="numbersOnly">III.</head>
+<lg xml:id="p_00999">
+<l subtype="firstline" corresp="I Granada er det Maaneskin" rendition="i-granada-er-det-maaneskin">I <hi rend="italic">Granada</hi> er det Maaneskin,</l>
+<l rend="firstIndent">saa klart, at Hver man <seg target="txtcmnt-397-01"><!--DATA-TERM: kjender--><!--DATA-DEFINITION: genkender.-->kjender</seg>,</l>
+<l>Dog Vægteren gaaer med Lygte,</l>
+<l rend="firstIndent">og Lyset i Lygten brænder.</l>
+<l>Hvad søger han efter? Han søger</l>
+<l rend="firstIndent">vel Solen, der skal staae op.</l>
+<l>Imellem Bladenes <seg target="txtcmnt-397-02"><!--DATA-TERM: Bolstrer--><!--DATA-DEFINITION: puder.-->Bolstrer</seg></l>
+<l rend="firstIndent">en Drømmeverden er lagt;</l>
+<l>Du Rose, bliv mit <seg target="txtcmnt-397-03"><!--DATA-TERM: Alhambra--><!--DATA-DEFINITION: maurisk fæstningsværk og paladsby på en klippe i byen Granada, opført i 1200- og 1300-tallet for fyrsteslægten Nasride; kendt for sin smukke arkitektur.--><hi rend="italic">Alhambra</hi></seg>,</l>
+<l rend="firstIndent">med hende jeg boer i din Pragt.</l>
+<l>Og vi ere unge –! imorgen</l>
+<l rend="firstIndent">da falder hvert Rosenblad.</l>
+<l>Vær du min Erindring skrinlagt</l>
+<l rend="firstIndent">i dette smuldrende Qvad.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="jeg-leve-vil-i-granada" rend="Jeg leve vil i Granada" type="poem">
+<head type="section" subtype="numbersOnly">IV.</head>
+<lg xml:id="p_01000">
+<l subtype="firstline" corresp="Jeg leve vil i Granada" rendition="jeg-leve-vil-i-granada">Jeg leve vil i <seg target="txtcmnt-397-04" type="dfnStart"><!--DATA-TERM: Granada … Slot--><!--DATA-DEFINITION: Alhambra, jf. ovenfor.--></seg><hi rend="italic">Granada</hi>,</l>
+<l rend="firstIndent">der <seg target="txtcmnt-397-05">Phantasus</seg> reiste sit Slot<seg target="txtcmnt-397-04" type="dfnEnd"><!--DATA-TERM: Granada … Slot--><!--DATA-DEFINITION: Alhambra, jf. ovenfor.--></seg>;</l>
+<l>Men nede i <hi rend="italic">Malaga</hi> grav mig</l>
+<l rend="firstIndent">en Grav ved Havet saa blaat,</l>
+<l>Saa udstrakt, svulmende, herligt;</l>
+<l rend="firstIndent">høit synger den rullende Sø.</l>
+<l>I Norden jeg skar i en Græstørv</l>
+<l rend="firstIndent">mit Navn paa den danske Ø,</l>
+<l>Snart voxer Græsset derover,</l>
+<l rend="firstIndent">alle Minderne døe.</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Af Ung Elskov " xml:id="af-ung-elskov"><pb n="398"/>
+<head type="main"><source subtype="foreign">Af</source> Ung Elskov</head>
+<head type="part" subtype="numbersOnly">I.</head>
+<lg xml:id="p_01001">
+<l subtype="firstline" corresp="I Kjærlighed er ingen Sorg for tung" rendition="i-kjaerlighed-er-ingen-sorg-for-tung">I Kjærlighed er ingen Sorg for tung,</l>
+<l>O, hvad er selv at lide og at savne!</l>
+<l>Hvor det er lykkeligt at være ung,</l>
+<l>Men lykkeligst sin unge Brud at favne.</l>
+</lg>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Stemninger" xml:id="stemninger"><pb n="399"/>
+<head type="main">Stemninger</head>
+
+<floatingText xml:id="hvil-soedt" rend="Hvil sødt" type="poem">
+<head type="part" subtype="numbersOnly">I.</head>
+<lg xml:id="p_01002">
+<l subtype="firstline" corresp="Hvil sødt" rendition="hvil-soedt">Hvil sødt,</l>
+<l>Som var Du lagt i Dødens Skrin,</l>
+<l>Du min Erindrings Rose <seg target="txtcmnt-399-01"><!--DATA-TERM: faur--><!--DATA-DEFINITION: fager; dejlig, vidunderlig, smuk.-->faur</seg> og fiin!</l>
+<l>Du er ei Verdens, Du er nu kun min,</l>
+<l>For Dig jeg synger, mine Taarer trille.</l>
+<l>Natten er smuk, Natten er stille; –</l>
+<l>Dødt! – Alt er dødt!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="du-pebersvend-vor-sang-du-veed" rend="»Du Pebersvend, vor Sang Du veed" type="poem">
+<?oxy_comment_start author="revar" timestamp="20240622T123804+0200" comment="overskrift skal have samme indryk som resten af digtet"?><head type="part" subtype="numbersOnly">II<?oxy_comment_end?>.</head>
+<sp>
+<?oxy_comment_start author="revar" timestamp="20240622T123716+0200" comment="speaker og strofeer skal have samme indryk"?><speaker>CHOR</speaker><?oxy_comment_end?>
+<l subtype="firstline" corresp="»Du Pebersvend, vor Sang Du veed" rendition="du-pebersvend-vor-sang-du-veed">»Du Pebersvend, vor Sang Du veed,</l>
+<l>Gaa Du iseng, træk Nathuen ned,</l>
+<l>Speil Du Dig ret i Drømmenes Elv,</l>
+<l>Du seer helst Dig selv og drømmer Dig selv!«</l></sp>
+<sp>
+<speaker>DEN EENSOMME</speaker>
+<l>Ja i mig selv ligger gjemt en Skat,</l>
+<l>Hvad veed Verden om den derinde,</l>
+<l>Hvad veed den om Tankerne mangen Nat,</l>
+<l>Om Taarer, som <seg target="txtcmnt-399-02"><!--DATA-TERM: lønligt--><!--DATA-DEFINITION: skjult.-->lønligt</seg> rinde,</l>
+<l>Den lydløse, bittre Taarernes Elv,</l>
+<l>Der ruller saa tungt uden <seg target="txtcmnt-399-03"><!--DATA-TERM: Vove--><!--DATA-DEFINITION: bølge.-->Vove</seg>.</l>
+<l>En Pebersvend tænker kun paa sig selv,</l>
+<l>Lad ham sove!</l></sp>
+</floatingText>
+<floatingText xml:id="den-som-jeg-gav-af-mit-hjerteblod" rend="Den, som jeg gav af mit Hjerteblod" type="poem">
+<pb n="400"/><head type="part" subtype="numbersOnly">III.</head>
+<lg xml:id="p_01003">
+<l subtype="firstline" corresp="Den, som jeg gav af mit Hjerteblod" rendition="den-som-jeg-gav-af-mit-hjerteblod">Den, som jeg gav af mit Hjerteblod,</l>
+<l>Hun <seg target="txtcmnt-400-01"><!--DATA-TERM: traadte (mig)--><!--DATA-DEFINITION: trådte på.-->traadte mig</seg> med sin fine Fod;</l>
+<l>Dem, som jeg gav hvert Tankens Barn,</l>
+<l>De dænged’ mig over med Gadens Skarn,</l>
+<l>Og gav jeg et Suk idet jeg led,</l>
+<l>Saa kaldte de det Utaknemlighed;</l>
+<l>Der blæser en iiskold, skærende Vind,</l>
+<l>Den trænger som Gift i mit Hjerte ind,</l>
+<l>Den kommer fra Menneskets Hjertebund,</l>
+<l>O, maatte mit briste i denne Stund!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="bibelens-job-ham-kjender-du-vel" rend="Bibelens Job, ham kjender Du vel?" type="poem">
+<head type="part" subtype="numbersOnly">IV.</head>
+<lg xml:id="p_01004">
+<l subtype="firstline" corresp="Bibelens Job, ham kjender Du vel?" rendition="bibelens-job-ham-kjender-du-vel">Bibelens <hi rend="italic">Job</hi>, ham kjender Du vel?</l>
+<l>Vennernes Ord slog ham ikke ihjel,</l>
+<l><seg target="txtcmnt-400-02"><!--DATA-TERM: Skrabed’ tilblods kun som Potteskaar--><!--DATA-DEFINITION: jf. Jobs Bog 2,8.-->Skrabed’ tilblods kun som Potteskaar</seg>,</l>
+<l>Saa der stod Ar til de seneste Aar,</l>
+<l>Mærker herom saa dybe og stærke;</l>
+<l>Verset her, – det er ogsaa et Mærke!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="giv-af-dit-hjerte-til-folk-og-til-slaegt" rend="Giv af dit Hjerte til Folk og til Slægt" type="poem">
+<head type="part" subtype="numbersOnly">V.</head>
+<lg xml:id="p_01005">
+<l subtype="firstline" corresp="Giv af dit Hjerte til Folk og til Slægt" rendition="giv-af-dit-hjerte-til-folk-og-til-slaegt">Giv af dit Hjerte til Folk og til Slægt,</l>
+<l>Venter Du Tak, da er Du en Daare,</l>
+<l>Staa døv og steenkold, saa faae de Respect,</l>
+<l>Dig de ei krænke, Dig de ei saare,</l>
+<l>Nærme sig ei som den surrende Myg,</l>
+<l>Nei, de kun spytte ad Dig bag din Ryg,</l>
+<l>Giv Dig ei hen til Den, Du troer kjende,</l>
+<l>Husk at din Ven kan blive din Fjende.</l>
+<l>– Dog følg dit Hjerte! giv af dit Hjerte!</l>
+<l>Venter Du Glæde –, ja, da faaer Du Smerte.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="du-staerke-doed-din-taushed-vaekker-gru" rend="Du stærke Død, din Taushed vækker Gru" type="poem">
+<pb n="401"/><head type="part" subtype="numbersOnly">VI.</head>
+<lg xml:id="p_01006">
+<l subtype="firstline" corresp="Du stærke Død, din Taushed vækker Gru" rendition="du-staerke-doed-din-taushed-vaekker-gru">Du stærke Død, din Taushed vækker Gru;</l>
+<l>Dit Spor er jo kun Kirkegaardens Grave.</l>
+<l>Skal Tankens <seg target="txtcmnt-401-01"><!--DATA-TERM: Jacobsstige--><!--DATA-DEFINITION: jf. 1. Mosebog 28,12.-->Jacobsstige</seg> gaae itu?</l>
+<l>Staaer jeg kun op, som Græs i Dødens Have?</l>
+</lg>
+<lg xml:id="p_01007">
+<l>Vor største <seg target="txtcmnt-401-02"><!--DATA-TERM: Liden--><!--DATA-DEFINITION: lidelse.-->Liden</seg> tidt ei Verden seer!</l>
+<l>Du, som var ene lige til det Sidste,</l>
+<l>I Verden Meget trykker Hjertet meer,</l>
+<l>End Jorden, som de kaste paa din Kiste!</l>
+</lg>
+<pb n="402"/>     
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Af Til Forskjellige" xml:id="af-til-forskjellige"><pb n="403"/>
+<head type="main"><source subtype="foreign">Af</source> Til Forskjellige</head>
+<floatingText type="workPart"><head type="part" subtype="numbersOnly">XIX.</head>
+<head type="part">Bjørnstjerne Bjørnson</head>
+<lg xml:id="p_01008">
+<l>Du Norges Træ med Frugt og Blomst og Knop,</l>
+<l><seg target="txtcmnt-403-01" type="dfnStart"/><!--DATA-TERM: Tak for hvad … dit Digterhjerte--><!--DATA-DEFINITION: H.C. Andersen traf Bjørnstjerne Bjørnson under sit ophold i Rom fra 28. april til 29. maj 1861.-->Tak for hvad om dit Hjem af Dig jeg lærte!</l>
+<l>I Rom hvor Minders Storhed rulle op,</l>
+<l>Der fik jeg Indblik i dit Digterhjerte<seg type="dfnEnd" target="txtcmnt-403-01"/>,</l>
+<l>Du blev mig kjær, derfor jeg Dig har bragt</l>
+<l>Hvad Mødets Aar har i min <seg target="txtcmnt-403-02"><!--DATA-TERM: Lyre--><!--DATA-DEFINITION: strengeinstrument fra oldtidens Grækenland; her symbol for digtekunsten.-->Lyre</seg> lagt.</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<floatingText type="workPart"><pb n="404"/>
+<head type="main"><source subtype="foreign">Af</source> Flere Smaavers</head>
+<head type="part" subtype="numbersOnly">II.</head>
+<lg xml:id="p_01009">
+<l>I Vel og <seg target="txtcmnt-404-01"><!--DATA-TERM: Vee--><!--DATA-DEFINITION: smerte; ulykke, nød.-->Vee</seg>,</l>
+<l>Guds Villie skee!</l>
+</lg>
+</floatingText>
+<div type="workPart" rend="" xml:id="">
+<floatingText type="workPart"><head type="part" subtype="numbersOnly">V.</head>
+<head type="part"><seg target="txtcmnt-404-02"><!--DATA-TERM: Israels Børn ved Kongegravene--><!--DATA-DEFINITION: hentydning til israelitternes ophold og trældom i Ægypten; jf. 1. Mosebog 46 til 2. Mosebog 14.-->Israels Børn ved Kongegravene</seg></head>
+<lg xml:id="p_01010">
+<l>Vi give vort Guld med Glæde,</l>
+<l>Det sidste Smykke vi have,</l>
+<l>For det at kunne græde</l>
+<l>Ved vore Kongers Grave.</l>
+</lg>
+<lg xml:id="p_01011">
+<l>For Hedningfolket <seg target="txtcmnt-404-03"><!--DATA-TERM: (vi) træde--><!--DATA-DEFINITION: trælle, slave.-->vi træde</seg>,</l>
+<l>Vi sælge os selv som Slave,</l>
+<l>For det at kunne græde</l>
+<l>Ved vore Kongers Grave.</l>
+</lg>
+</floatingText></div>
+               
+               
+               
+               
+<floatingText type="workPart"><pb n="405"/>
+<head type="main">Bøn</head>
+<lg xml:id="p_01012">
+<l>Du evige Gud, saa kjærlig og god!</l>
+<l>Send Du mig dit Lys for min usikkre Fod,</l>
+<l>Lys ind i mit Hjerte, det vil kun det Rette! –</l>
+<l>Hvad Christus mig lærte, jeg skal ei <seg target="txtcmnt-405-01"><!--DATA-TERM: forgjætte--><!--DATA-DEFINITION: glemme.-->forgjætte</seg>;</l>
+<l>Du talte i Sønnen, Du Frelse os bragte;</l>
+<l>I ham Du lod fødes, i ham Du lod døe.</l>
+<l>Lys ind i mit Hjerte, derinde Du lagde</l>
+<l>Et Sandhedens levendegjørende Frø.</l>
+<l>Jeg kæmper, jeg svimler, dog eengang jeg havner,</l>
+<l>O lad det gaae op for mig, hvad jeg savner!</l>
+<l>Mig Christendomslæren er Kjærlighedslæren.</l>
+<l>I den kom Du til os! <seg target="txtcmnt-405-02"><!--DATA-TERM: Dig Magten og Æren--><!--DATA-DEFINITION: jf. Matthæus 6,13.-->Dig Magten og Æren</seg>!</l>
+</lg>
+<pb n="406"/>
+</floatingText>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Af Kjendte og glemte Digte, 1867" synch="af-kjendte-og-glemte-digte-1867">
+<head type="section-comments"><source subtype="foreign">Af</source> Kjendte og glemte Digte, 1867</head>
+<p rend="noIndent">Samlingen udkom 12. december 1867. BFN 940</p>
+<div type="work-comments" rend="Møllerens Datter" synch="moellerens-datter">
+<pb n="620"/><head type="section-comments">Møllerens Datter</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">Agnete og Havmanden</hi>, der udkom 23. december 1833 (BFN 250). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 942. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">386</cell><cell><row xml:id="txtcmnt-386-01"><cell type="data-term">Stænten</cell><cell type="data-definition">stenten; overgangen over et gærde.</cell></row><row xml:id="txtcmnt-386-02"><cell type="data-term">Qvæl</cell><cell type="data-definition">kvæld, aften.</cell></row><row xml:id="txtcmnt-386-03"><cell type="data-term">Fæstensring</cell><cell type="data-definition">ring, hvormed man beseglede fæste, dvs. forlovelse.</cell></row><row xml:id="txtcmnt-386-04"><cell type="data-term">klinkede</cell><cell type="data-definition">skålede.</cell></row></cell>
+<cell type="page">387</cell><cell><row xml:id="txtcmnt-387-01"><cell type="data-term">Vee</cell><cell type="data-definition">smerte; ulykke, nød.</cell></row><row xml:id="txtcmnt-387-02"><cell type="data-term">hvor (det kom)</cell><cell type="data-definition">hvorfra.</cell></row><row xml:id="txtcmnt-387-03"><cell type="data-term">brød</cell><cell type="data-definition">brækkede.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Negerkongens Datter" synch="negerkongens-datter">
+<head type="section-comments">Negerkongens Datter</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">Mulatten</hi>, der udkom 5. februar 1840 (BFN 368). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 943. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">388</cell><cell><row xml:id="txtcmnt-388-01"><cell type="data-term">Fetisch(-Præsten)</cell><cell type="data-definition">fetich; genstand, som anses for at besidde overnaturlige kræfter, og som derfor gøres til genstand for religiøs dyrkelse.</cell></row><row xml:id="txtcmnt-388-02"><cell type="data-term">Tuben(s)</cell><cell type="data-definition">tubaen.</cell></row><row xml:id="txtcmnt-388-03"><cell type="data-term">Purpurshawl</cell><cell type="data-definition">sjal i kostbart mørkerødt stof.</cell></row><row xml:id="txtcmnt-388-04"><cell type="data-term">Aphrodite</cell><cell type="data-definition">i græsk mytologi kærlighedsgudinden.</cell></row><row xml:id="txtcmnt-388-05"><cell type="data-term">Passaten</cell><cell type="data-definition">passatvinden.</cell></row><row xml:id="txtcmnt-388-06"><cell type="data-term">(Purpur)bræmmen</cell><cell type="data-definition">her: rand el. stribe.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Lotus og Granatblomst" synch="lotus-og-granatblomst">
+<head type="section-comments">Lotus og Granatblomst</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 944. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">390</cell><cell><row xml:id="txtcmnt-390-01"><cell type="data-term">Granatblomst</cell><cell type="data-definition">blomst på granatæbletræet.</cell></row><row xml:id="txtcmnt-390-02"><cell type="data-term">Malaga 1863</cell><cell type="data-definition">H.C. Andersen opholdt sig i Málaga fra 30. september til 5. oktober og igen fra 22. oktober til 29. oktober 1862, ikke i 1863.</cell></row><row xml:id="txtcmnt-390-03"><cell type="data-term">Inden</cell><cell type="data-definition">Indien.</cell></row><row xml:id="txtcmnt-390-04"><cell type="data-term">Skjær</cell><cell type="data-definition">fin, sart.</cell></row><row xml:id="txtcmnt-390-05"><cell type="data-term">Ildblomst</cell><cell type="data-definition">her: granatblomst.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Reise-Længsel" synch="reise-laengsel">
+<head type="section-comments">Reise-Længsel</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">Skilles og Mødes</hi>, der udkom 14. april 1836 (BFN 291). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 945. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">391</cell><cell><row xml:id="txtcmnt-391-01"><cell type="data-term">Vendome</cell><cell type="data-definition">Vendôme-pladsen i Paris, anlagt i 1600-tallet; pladsen domineres af en sejrssøjle, rejst 1806-1810 af kejser Napoleon 1., med en statue af ham selv på toppen.</cell></row><row xml:id="txtcmnt-391-02"><cell type="data-term">Alpehornet(s)</cell><cell type="data-definition">flere meter langt, lige horn.</cell></row><row xml:id="txtcmnt-391-03"><cell type="data-term">Orange(træet)</cell><cell type="data-definition">appelsin.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Spanien" synch="af-spanien">
+<head type="section-comments"><source subtype="foreign">Af</source> Spanien</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 946. Sidstnævnte udgave følges her.</p>
+<pb n="621"/></div>
+<div type="work-comments" rend="I Malaga" synch="i-malaga">
+<head type="section-comments">I Malaga</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 947. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">394</cell><cell><row xml:id="txtcmnt-394-01"><cell type="data-term">Jernkram</cell><cell type="data-definition">isenkram.</cell></row><row xml:id="txtcmnt-394-02"><cell type="data-term">skrækkes</cell><cell type="data-definition">forskrækkes, opskræmmes.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Cigaren" synch="cigaren">
+<head type="section-comments">Cigaren</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 948. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">395</cell><cell><row xml:id="txtcmnt-395-01"><cell type="data-term">Sevilla 1865</cell><cell type="data-definition">H.C. Andersen opholdt sig i Sevilla fra 13. november til 22. november 1862, ikke 1865.</cell></row><row xml:id="txtcmnt-395-02"><cell type="data-term">Puster</cell><cell type="data-definition">blæsebælg.</cell></row><row xml:id="txtcmnt-395-03"><cell type="data-term">Fata Morgana</cell><cell type="data-definition">(italiensk) egentlig feen Morgana, der frembringer luftspejlinger.</cell></row><row xml:id="txtcmnt-395-04"><cell type="data-term">Orangens</cell><cell type="data-definition">appelsinens.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Granada" synch="granada">
+<head type="section-comments">Granada</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændige digte i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 949-952. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">396</cell><cell><row xml:id="txtcmnt-396-01"><cell type="data-term">Held mig</cell><cell type="data-definition">hvilket held, hvilken lykke.</cell></row><row xml:id="txtcmnt-396-02"><cell type="data-term">Alamedaen</cell><cell type="data-definition">(spansk) boulevarden.</cell></row><row xml:id="txtcmnt-396-03"><cell type="data-term">Gitanaen(s)</cell><cell type="data-definition">sigøjnersken.</cell></row><row xml:id="txtcmnt-396-04"><cell type="data-term">er alt Du bedaaret</cell><cell type="data-definition">er du allerede bedåret, forført.</cell></row><row xml:id="txtcmnt-396-05"><cell type="data-term">Granattræ</cell><cell type="data-definition">granatæbletræ.</cell></row><row xml:id="txtcmnt-396-06"><cell type="data-term">salomonisk Lovsang</cell><cell type="data-definition">jf. »Salomos Højsang«, Højsangen 1.</cell></row><row xml:id="txtcmnt-396-07"><cell type="data-term">Sulamith</cell><cell type="data-definition">Shulamit; den unge brud, der besynges i Højsangen 7,1.</cell></row></cell>
+<cell type="page">397</cell><cell><row xml:id="txtcmnt-397-01"><cell type="data-term">kjender</cell><cell type="data-definition">genkender.</cell></row><row xml:id="txtcmnt-397-02"><cell type="data-term">Bolstrer</cell><cell type="data-definition">puder.</cell></row><row xml:id="txtcmnt-397-03"><cell type="data-term">Alhambra</cell><cell type="data-definition">maurisk fæstningsværk og paladsby på en klippe i byen Granada, opført i 1200- og 1300-tallet for fyrsteslægten Nasride; kendt for sin smukke arkitektur.</cell></row><row xml:id="txtcmnt-397-04"><cell type="data-term">Granada … Slot</cell><cell type="data-definition">Alhambra, jf. ovenfor.</cell></row><row xml:id="txtcmnt-397-05"><cell type="data-term">Phantasus</cell><cell type="data-definition">ifølge den romerske forfatter Ovids <hi rend="italic">Metamorfoser</hi>, 11,641 ff., en af drømmeguderne, der tager skikkelse af alle mulige livløse genstande; her vel personifikation af fantasien.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Ung Elskov" synch="af-ung-elskov">
+<head type="section-comments">Af Ung Elskov</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">Liden Kirsten</hi>, der udkom 12. maj 1847 (BFN 487). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 953. Sidstnævnte udgave følges her.</p></div>
+<div type="work-comments" rend="Stemninger" synch="stemninger">
+<head type="section-comments">Stemninger</head>
+<p rend="noIndent">Først kendte tryk af »Hvil sødt« og »Du Pebersvend, vor Sang Du veed«: del af <hi rend="italic">Mit Livs Eventyr</hi>, der udkom 19. juli 1855 (BFN 745). Først kendte tryk af »Den, som jeg gav af mit Hjerteblod«, »Bibelens Job, ham kjender Du vel?« og »Giv af dit Hjerte til Folk og til Slægt«: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869).</p>
+<pb n="622"/><p rend="noIndent">Først kendte tryk af »Du stærke Død, din Taushed vækker Gru«: del af »Lykkens Kalosker«, der udkom 19. maj 1838 i <hi rend="italic">Tre Digtninger</hi> (BFN 321). Alle optaget som selvstændige digte i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 954-959. Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">401,6</cell><cell type="deviation">ei Verden seer &lt; ei Verden veed</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">399</cell><cell><row xml:id="txtcmnt-399-01"><cell type="data-term">faur</cell><cell type="data-definition">fager; dejlig, vidunderlig, smuk.</cell></row><row xml:id="txtcmnt-399-02"><cell type="data-term">lønligt</cell><cell type="data-definition">skjult.</cell></row><row xml:id="txtcmnt-399-03"><cell type="data-term">Vove</cell><cell type="data-definition">bølge.</cell></row></cell>
+<cell type="page">400</cell><cell><row xml:id="txtcmnt-400-01"><cell type="data-term">traadte (mig)</cell><cell type="data-definition">trådte på.</cell></row><row xml:id="txtcmnt-400-02"><cell type="data-term">Skrabed’ tilblods kun som Potteskaar</cell><cell type="data-definition">jf. Jobs Bog 2,8.</cell></row></cell>
+<cell type="page">401</cell><cell><row xml:id="txtcmnt-401-01"><cell type="data-term">Jacobsstige</cell><cell type="data-definition">jf. 1. Mosebog 28,12.</cell></row><row xml:id="txtcmnt-401-02"><cell type="data-term">Liden</cell><cell type="data-definition">lidelse.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Til Forskjellige" synch="af-til-forskjellige">
+<head type="section-comments"><source subtype="foreign">Af</source> Til Forskjellige</head>
+<p rend="noIndent">Først kendte tryk: tilegnelsesdigt til <hi rend="italic">Nye Eventyr og Historier. Anden Række. Anden Samling</hi>, der udkom 25. november 1861 med årstallet 1862 på titelbladet (BFN 829). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. Uden selvstændig nummerering i BFN. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">403</cell><cell><row xml:id="txtcmnt-403-01"><cell type="data-term">Tak for hvad … dit Digterhjerte</cell><cell type="data-definition">H.C. Andersen traf Bjørnstjerne Bjørnson under sit ophold i Rom fra 28. april til 29. maj 1861.</cell></row><row xml:id="txtcmnt-403-02"><cell type="data-term">Lyre</cell><cell type="data-definition">strengeinstrument fra oldtidens Grækenland; her symbol for digtekunsten.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Flere Smaavers" synch="af-flere-smaavers">
+<head type="section-comments"><source subtype="foreign">Af</source> Flere Smaavers</head>
+<p rend="noIndent">Først kendte tryk af »I Vel og Vee« i <hi rend="italic">Kjendte og glemte Digte</hi>, BFN 960. Først kendte tryk af »Israels Børn ved Kongegravene«: del af <hi rend="italic">Ahasverus</hi>, der udkom 16. december 1847 (BFN 522); optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>, BFN 961; sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">404</cell><cell><row xml:id="txtcmnt-404-01"><cell type="data-term">Vee</cell><cell type="data-definition">smerte; ulykke, nød.</cell></row><row xml:id="txtcmnt-404-02"><cell type="data-term">Israels Børn ved Kongegravene</cell><cell type="data-definition">hentydning til israelitternes ophold og trældom i Ægypten; jf. 1. Mosebog 46 til 2. Mosebog 14.</cell></row><row xml:id="txtcmnt-404-03"><cell type="data-term">(vi) træde</cell><cell type="data-definition">trælle, slave.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Bøn" synch="boen">
+<head type="section-comments">Bøn</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">I Spanien</hi>, der udkom 9. november 1863 i <hi rend="italic">Samlede Skrifter. Fire og Tyvende Bind</hi> (BFN 869). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 962. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">405</cell><cell><row xml:id="txtcmnt-405-01"><cell type="data-term">forgjætte</cell><cell type="data-definition">glemme.</cell></row><row xml:id="txtcmnt-405-02"><cell type="data-term">Dig Magten og Æren</cell><cell type="data-definition">jf. Matthæus 6,13.</cell></row></cell>
+</table>
+</div>
+</div><div type="work-comments" rend="Møllerens Datter" synch="moellerens-datter">
+<pb n="620"/><head type="section-comments">Møllerens Datter</head>
+<p rend="noIndent">Først kendte tryk: del af <hi rend="italic">Agnete og Havmanden</hi>, der udkom 23. december 1833 (BFN 250). Optaget som selvstændigt digt i <hi rend="italic">Kjendte og glemte Digte</hi>. BFN 942. Sidstnævnte udgave følges her.</p>
+<table rend="textcomments">
+<cell type="page">386</cell><cell><row xml:id="txtcmnt-386-01"><cell type="data-term">Stænten</cell><cell type="data-definition">stenten; overgangen over et gærde.</cell></row><row xml:id="txtcmnt-386-02"><cell type="data-term">Qvæl</cell><cell type="data-definition">kvæld, aften.</cell></row><row xml:id="txtcmnt-386-03"><cell type="data-term">Fæstensring</cell><cell type="data-definition">ring, hvormed man beseglede fæste, dvs. forlovelse.</cell></row><row xml:id="txtcmnt-386-04"><cell type="data-term">klinkede</cell><cell type="data-definition">skålede.</cell></row></cell>
+<cell type="page">387</cell><cell><row xml:id="txtcmnt-387-01"><cell type="data-term">Vee</cell><cell type="data-definition">smerte; ulykke, nød.</cell></row><row xml:id="txtcmnt-387-02"><cell type="data-term">hvor (det kom)</cell><cell type="data-definition">hvorfra.</cell></row><row xml:id="txtcmnt-387-03"><cell type="data-term">brød</cell><cell type="data-definition">brækkede.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

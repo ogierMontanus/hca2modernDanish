@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?> <?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Vanddråben</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability default="false">
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/" part="N">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p part="N">Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc default="false">
+                                             <listBibl default="false">
+                                                  <bibl default="false" status="draft">
+                                                             
+      <p rend="noIndent" part="N">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Drop of Water« i A Christmas Greting to my English Friends, der udkom i december 1847.</p>    
+      </bibl>
+                                                  <biblStruct default="false" status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="vanddraaben.xml" type="originalDanish" anchored="true">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl default="false" status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData default="false"/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1847</date>
+                                        </creation>
+                                        <textClass default="false">
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Vanddraaben" xml:id="vanddraaben" part="N" org="uniform" sample="complete">
+<pb n="432"/><head type="main">Vanddråben</head>
+
+<p rend="noIndent" xml:id="p_00001" part="N">Du kender da sagtens et forstørrelsesglas, sådan et rundt brilleglas<?oxy_delete author="as" timestamp="20230829T155623+0200" content=","?> der gør alting hundred<?oxy_insert_start author="as" timestamp="20230829T155627+0200"?>e<?oxy_insert_end?> gange større end det er? Når man tager og holder det for øjet og ser på en vanddråbe ude fra dammen, så ser man over tusinde underlige dyr<?oxy_delete author="as" timestamp="20230829T155646+0200" content=","?> som man ellers aldrig ser i vandet, men de er der<?oxy_insert_start author="as" timestamp="20230829T155708+0200"?>,<?oxy_insert_end?> og det er virkeligt. Det ser næsten ud<?oxy_delete author="as" timestamp="20230829T155712+0200" content=","?> som en hel tal<?oxy_insert_start author="as" timestamp="20230829T155555+0200"?>l<?oxy_insert_end?>erken fuld af rejer<?oxy_delete author="as" timestamp="20230829T155733+0200" content=","?> der springe<?oxy_insert_start author="as" timestamp="20230829T155735+0200"?>r<?oxy_insert_end?> mellem hverandre, og de er så glubende, de rive<?oxy_insert_start author="as" timestamp="20230829T155738+0200"?>r<?oxy_insert_end?> arme og ben, ender og kanter af hverandre<?oxy_insert_start author="as" timestamp="20230829T155753+0200"?>,<?oxy_insert_end?> og dog er de glade og fornøjede<?oxy_delete author="as" timestamp="20230829T155801+0200" content=","?> på deres måde.</p>
+
+<p rend="firstIndent" xml:id="p_00002" part="N">Nu var der engang en gammel mand<?oxy_delete author="as" timestamp="20230829T155809+0200" content=","?> som alle folk kaldte Krible-Krable, for det hed han. Han <?oxy_delete author="as" timestamp="20230829T155427+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230829T155427+0200"?>ville<?oxy_insert_end?> alletider have det bedste ud af enhver ting<?oxy_insert_start author="as" timestamp="20230829T155825+0200"?>,<?oxy_insert_end?> og når det slet ikke <?oxy_delete author="as" timestamp="20230829T155428+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230829T155428+0200"?>ville<?oxy_insert_end?> gå, så tog han det med trolddom.</p>
+
+<p rend="firstIndent" xml:id="p_00003" part="N">Nu sidder han en dag og holder sit forstørrelsesglas for øjet og ser på en vanddråbe<?oxy_delete author="as" timestamp="20230829T155847+0200" content=","?> der var taget <?oxy_comment_start author="as" timestamp="20230829T155903+0200" comment="&gt; ud?"?>ude<?oxy_comment_end?> af en pyt vand i grøften. Nej<?oxy_insert_start author="as" timestamp="20230829T155907+0200"?>,<?oxy_insert_end?> hvor det kriblede og krablede d<?oxy_delete author="as" timestamp="20230829T160151+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230829T160150+0200"?>é<?oxy_insert_end?>r! Alle de tusinde smådyr hoppede og sprang, trak i hverandre og åd af hverandre.</p>
+
+<p rend="firstIndent" xml:id="p_00004" part="N">»Ja, men det er jo afskyeligt!« sagde gamle Krible-Krable, »kan man ikke få dem til at leve i fred og ro, og hver at passe sit<?oxy_delete author="as" timestamp="20230829T160014+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230829T160014+0200"?>?<?oxy_insert_end?>« <?oxy_delete author="as" timestamp="20230829T160024+0200" content="O"?><?oxy_insert_start author="as" timestamp="20230829T160022+0200"?>o<?oxy_insert_end?>g han tænkte og tænkte, men det <?oxy_delete author="as" timestamp="20230829T155429+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230829T155429+0200"?>ville<?oxy_insert_end?> ikke gå, og så måtte han trolde. »Jeg må give dem kulør<?oxy_delete author="as" timestamp="20230829T160033+0200" content=","?> at de <?oxy_delete author="as" timestamp="20230829T155354+0200" content="kunne"?><?oxy_insert_start author="as" timestamp="20230829T155355+0200"?>kan<?oxy_insert_end?> blive tydeligere<?oxy_delete author="as" timestamp="20230829T160041+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230829T160042+0200"?>,<?oxy_insert_end?>« sagde han, og så hældte han ligesom en lille dråbe rød vin i vanddråben, men det var hekseblod, den allerfineste slags til to skilling<?oxy_insert_start author="as" timestamp="20230829T160109+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230829T160110+0200" content="; o"?><?oxy_insert_start author="as" timestamp="20230829T160110+0200"?> O<?oxy_insert_end?>g så blev alle de underlige dyr rosenrøde over hele kroppen, det så ud som en hel by af nøgne vildmænd.</p>
+
+<p rend="firstIndent" xml:id="p_00005" part="N">»Hvad har du der?« spurgte en anden gammel trold, som ikke havde navn, og det var det fine ved ham.</p>
+
+<p rend="firstIndent" xml:id="p_00006" part="N">»Ja<?oxy_insert_start author="as" timestamp="20230829T160206+0200"?>,<?oxy_insert_end?> kan du gætte hvad det er«, sagde Krible-Krable, »så skal jeg forære dig det<?oxy_delete author="as" timestamp="20230829T160224+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230829T160224+0200"?>,<?oxy_insert_end?> men det er ikke let at <seg target="txtcmnt-432-01" part="N"><!--DATA-TERM: finde det ud--><!--DATA-DEFINITION: finde ud af, gætte det.-->finde ud</seg><?oxy_delete author="as" timestamp="20230829T160219+0200" content=","?> når man ikke ved det!«</p>
+
+<p rend="firstIndent" xml:id="p_00007" part="N">Og trolden<?oxy_delete author="as" timestamp="20230829T160246+0200" content=","?> som intet navn havde, så igennem forstørrelsesglasset. Det så virkelig<?oxy_delete author="as" timestamp="20230829T160350+0200" content="t"?> ud<?oxy_delete author="as" timestamp="20230829T160315+0200" content=","?> som en hel by<?oxy_delete author="as" timestamp="20230829T160354+0200" content=","?> hvor <pb n="433"/><?oxy_delete author="as" timestamp="20230829T160356+0200" content="A"?><?oxy_insert_start author="as" timestamp="20230829T160356+0200"?>a<?oxy_insert_end?>lle mennesker løbe<?oxy_insert_start author="as" timestamp="20230829T160358+0200"?>r<?oxy_insert_end?> om uden klæder! Det var gyseligt, men endnu mere gyseligt at se hvor den ene puffede og stødte den anden, hvor de nippedes og nappedes, bed hinanden og trak hinanden frem. Hvad der var nederst<?oxy_insert_start author="as" timestamp="20230829T160417+0200"?>,<?oxy_insert_end?> <?oxy_delete author="as" timestamp="20230829T155414+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230829T155414+0200"?>skulle<?oxy_insert_end?> øverst<?oxy_insert_start author="as" timestamp="20230829T160420+0200"?>,<?oxy_insert_end?> og hvad der var øverst<?oxy_insert_start author="as" timestamp="20230829T160423+0200"?>,<?oxy_insert_end?> <?oxy_delete author="as" timestamp="20230829T155416+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230829T155416+0200"?>skulle<?oxy_insert_end?> nederst! »Se! Se! Hans ben er længere end mit! Baf! <?oxy_delete author="as" timestamp="20230829T160514+0200" content="V"?><?oxy_insert_start author="as" timestamp="20230829T160516+0200"?>v<?oxy_insert_end?>æk med det! Der er <?oxy_delete author="as" timestamp="20230829T160526+0200" content="é"?><?oxy_insert_start author="as" timestamp="20230829T160526+0200"?>e<?oxy_insert_end?>n som har en lille knop bag øret, en lille uskyldig knop, men den piner ham, og så skal den pine <?oxy_comment_start author="as" timestamp="20230829T160550+0200" comment="ok?"?>mer<?oxy_insert_start author="as" timestamp="20230829T160538+0200"?>e<?oxy_comment_end?><?oxy_insert_end?>!« <?oxy_delete author="as" timestamp="20230829T160710+0200" content="O"?><?oxy_insert_start author="as" timestamp="20230829T160709+0200"?>o<?oxy_insert_end?>g de hakkede i den, og de trak i ham<?oxy_insert_start author="as" timestamp="20230829T160714+0200"?>,<?oxy_insert_end?> og de åd ham for den lille knops skyld. Der sad <?oxy_delete author="as" timestamp="20230829T160726+0200" content="é"?><?oxy_insert_start author="as" timestamp="20230829T160725+0200"?>e<?oxy_insert_end?>n så stille<?oxy_delete author="as" timestamp="20230829T160729+0200" content=","?> som en lille jomfru<?oxy_delete author="as" timestamp="20230829T160731+0200" content="e"?> og ønskede alene fred og <?oxy_delete author="as" timestamp="20230829T160734+0200" content="R"?><?oxy_insert_start author="as" timestamp="20230829T160733+0200"?>r<?oxy_insert_end?>olighed, men så <?oxy_delete author="as" timestamp="20230829T155417+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230829T155417+0200"?>skulle<?oxy_insert_end?> jomfruen frem, og de trak i hende og de sled i hende<?oxy_insert_start author="as" timestamp="20230829T160750+0200"?>,<?oxy_insert_end?> og de åd hende!</p>
+
+<p rend="firstIndent" xml:id="p_00008" part="N">»Det er overordentligt morsomt!« sagde trolden.</p>
+
+<p rend="firstIndent" xml:id="p_00009" part="N">»Ja<?oxy_insert_start author="as" timestamp="20230829T160819+0200"?>,<?oxy_insert_end?> men hvad tror du det er?« spurgte Krible-Krable. »Kan du finde det ud?«</p>
+
+<p rend="firstIndent" xml:id="p_00010" part="N">»Det er da <seg target="txtcmnt-433-01" part="N"><!--DATA-TERM: godt at see--><!--DATA-DEFINITION: let at se.-->godt at se</seg>!« sagde den anden, »det er jo K<?oxy_delete author="as" timestamp="20230829T160833+0200" content="j"?>øbenhavn eller en anden stor by, de ligne<?oxy_insert_start author="as" timestamp="20230829T160840+0200"?>r<?oxy_insert_end?> jo allesammen hinanden. En stor by er det!«</p>
+
+<p rend="firstIndent" xml:id="p_00011" part="N">»Det er grøftevand!« sagde Krible-Krable.</p>
+
+<pb n="434"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Vanddraaben" xml:id="vanddraaben" part="N" org="uniform" sample="complete">
+<head type="section-comments">Vanddråben</head>
+
+<p rend="noIndent" part="N">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Drop of Water« i A Christmas Greting to my English Friends, der udkom i december 1847.</p>
+
+<pb n="534"/>
+
+<p rend="noIndent" part="N">Trykt første gang på dansk i Nye Eventyr. Andet Bind. Anden Samling, som udkom den 4. marts 1848.<br/>
+BFN 531/II,151-152/VII,122-124.</p>
+
+<p rend="noIndent" part="N">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">433,8</cell><cell type="deviation" role="data" rows="1" cols="1">mer!« &lt; mer!</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">433,12</cell><cell type="deviation" role="data" rows="1" cols="1">hende! &lt; hende!«</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">433,14</cell><cell type="deviation" role="data" rows="1" cols="1">er?« &lt; er?</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">432</cell><row xml:id="txtcmnt-432-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">finde det ud</cell><cell type="data-definition" role="data" rows="1" cols="1">finde ud af, gætte det.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">433</cell><row xml:id="txtcmnt-433-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">godt at se</cell><cell type="data-definition" role="data" rows="1" cols="1">let at se.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+<?oxy_options track_changes="on"?>

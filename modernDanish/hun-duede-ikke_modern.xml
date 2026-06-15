@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Hun duede ikke«</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1853</hi>, som udkom i december 1852.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1853</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="»Hun duede ikke«" xml:id="hun-duede-ikke">
+<head type="main">»Hun duede ikke«</head>
+
+<p rend="noIndent" xml:id="p_00374"><seg><!--DATA-TERM: Byfogden--><anchor target="txtcmnt-096-01"/><!--indtil 1919 underdommer, politimester og byskriver samt ofte også borgmester i en købstad.-->Byfogden</seg> stod ved det åbne Vindue; han var i Manskets-Skjorte, med Brystnål i <seg><!--DATA-TERM: Kalvekryds(et)--><anchor target="txtcmnt-096-02"/><!--skjortebryst med kruset pyntestrimmel.-->Kalvekrydset</seg> og overordentlig vel barberet, selvgjort Arbejde; dog var han kommet til at give sig et lille Snit, men hen over det sad en Lap Avis-Papir.</p>
+
+<p rend="firstIndent" xml:id="p_00375">»Hør, Du Lille!« råbte han.</p>
+
+<p rend="firstIndent" xml:id="p_00376">Og den Lille var ingen anden, end Vadskerkonens Søn, der netop gik forbi og ærbødig tog sin Kasket af; den var knækket i Skyggen og indrettet til at putte i Lommen. I de fattige, men rene og særdeles vel lappede Klæder og med svære Træsko, stod Drengen ærbødig, som var det for Kongen selv han stod.</p>
+
+<p rend="firstIndent" xml:id="p_00377">»Du er en god Dreng,« sagde Byfogden, »Du er en høflig Dreng! Din Moder skyller vel Tøj nede ved Aaen; der skal Du ned med det, Du har i Lommen. Det er en slem Ting med din Moder! hvormeget har Du der?«</p>
+
+<p rend="firstIndent" xml:id="p_00378">»En halv Pægel,« sagde Drengen med forskrækket halv sagte Stemme.</p>
+
+<p rend="firstIndent" xml:id="p_00379">»Og imorges fik hun det samme,« vedblev Manden.</p>
+
+<p rend="firstIndent" xml:id="p_00380">»Nej i går var det!« svarede Drengen.</p>
+
+<p rend="firstIndent" xml:id="p_00381">»To halve gør en hel! – Hun duer ikke! Det er sørgeligt med den Klasse af Folket! – Sig til din Moder, at hun skulde skamme sig! og bliv aldrig Du en Drukkenboldt, men det bliver Du nok! – Stakkels Barn! – Gå nu! –«</p>
+
+<p rend="firstIndent" xml:id="p_00382">Og Drengen gik; Kasketten beholdt han i Hånden, og Vinden blæste på hans gule Hår, så at det rejste sig i lange Totter. Han gik om af Gaden, ind i Gyden, ned til Aaen, hvor Moderen stod ude i Vandet ved <seg><!--DATA-TERM: Toestolen--><anchor target="txtcmnt-096-03"/><!--bænken, hvorpå tøjet blev gnedet under vaskningen.-->Toestolen</seg> og slog med <seg><!--DATA-TERM: Tærskelen--><anchor target="txtcmnt-096-04"/><!--banketræet, et fladt bræt med skaft.-->Tærskelen</seg> på det svære Linned. Der var Strømning i Vandet, thi Vandmøllens Sluser var oppe, Lagenet drev for Strømmen og var nær ved at rive Toestolen om; Vadskerkonen måtte holde imod.</p>
+
+<p rend="firstIndent" xml:id="p_00383">»Jeg er nær ved at sejle!« sagde hun, »det er godt, at Du kommer, for jeg kan trænge til at få lidt Hjælp på Kræfterne! det er koldt herude i Vandet; i seks Timer har jeg stået her. Har Du Noget til mig?«</p>
+
+<pb n="97"/><p rend="firstIndent" xml:id="p_00384">Drengen tog Flasken frem, og Moderen satte den for Munden og drak en Slurk.</p>
+
+<p rend="firstIndent" xml:id="p_00385">»O, hvor det gør godt! hvor det varmer! det er ligeså godt som varm Mad, og det er ikke så dyrt! drik min Dreng! Du ser så bleg ud, Du fryser i de tynde Klæder! det er jo også Efterår. Hu! Vandet er koldt! bare jeg ikke bliver syg! men det gør jeg ikke! giv mig en Tår endnu og drik også Du, men kun en lille Dråbe, Du må ikke vænne Dig til det, mit stakkels fattige Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00386">Og hun gik om Broen, hvor Drengen stod, og trådte op på Land; Vandet drev fra Sivmatten, hun havde om Livet, Vandet flød fra hendes Skørt.</p>
+
+<p rend="firstIndent" xml:id="p_00387">»Jeg slider og slæber, så Blodet er <seg><!--DATA-TERM: færdig ved at springe--><anchor target="txtcmnt-097-01"/><!--lige ved at springe.-->færdig ved at springe</seg> mig ud af mine Neglerødder! men det er det samme, når jeg kun hæderlig kan få Dig frem, mit søde Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00388">I det samme kom en noget ældre Kone, fattig i Klæder og Skind, halt på det ene Ben og med en mægtig stor forloren Krølle ud over det ene Øie, det skulde skjules af Krøllen, men den gjorde Skavanken mere kendelig. Det var en Veninde af Vadskerkonen, »<hi rend="italic">Halte-Maren</hi> med Krøllen,« kaldte Naboerne hende.</p>
+
+<p rend="firstIndent" xml:id="p_00389">»Stakkel, hvor Du slider og slæber og står i det kolde Vand! Du kan nok trænge til Lidt at varmes ved, og dog har man ondt af den Dråbe, Du får!« – og nu var snart hele Byfogdens Tale til Drengen bragt Vadskerkonen; for Maren havde hørt det Hele, og det havde ærgret hende, at han talte sådan til Barnet om dets egen Moder og om den Dråbe, hun tog, lige i det Byfogden gjorde stort <seg><!--DATA-TERM: Middags-Collats--><anchor target="txtcmnt-097-02"/><!--middagsselskab.-->Middags-Collats</seg> med Vin i flaskævis! »fine Vine og stærke Vine! lidt over Tørsten hos Mange! men det kalder man ikke at drikke! de due, men Du duer ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00390">»Så han har talt til Dig, Barn!« sagde Vadskerkonen, og hendes Læber bevægede sig sitrende: »Du har en Moder, der duer ikke! måske har han Ret! men til Barnet skulde han ikke sige det! dog, fra det Hus kommer meget over mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00391">»I har jo tjent der i Gårde, da Byfogdens Forældre levede og boede der; det er mange Aar siden! Der er spist mange Skæpper Salt siden den Tid, så man kan nok tørste!« og <hi rend="italic">Maren</hi> lo. »Der er stor Middag i Dag hos Byfogden, den skulde have været <seg><!--DATA-TERM: sagt af--><anchor target="txtcmnt-097-03"/><!--aflyst.-->sagt af</seg>, men nu blev det dem for silde, og Maden var lavet. Jeg har det fra Gårdskarlen. Der er for en Timestid siden kommet Brev om, at den yngre Broder er død i Kjøbenhavn!«</p>
+
+<pb n="98"/><p rend="firstIndent" xml:id="p_00392">»Død!« udbrød Vadskerkonen og blev ligbleg.</p>
+
+<p rend="firstIndent" xml:id="p_00393">»Ih dog!« sagde Konen; »tager I Jer det så nær! nå, I kendte ham fra I tjente der i Huset.«</p>
+
+<p rend="firstIndent" xml:id="p_00394">»Er han død! han var det bedste, det mest velsignede Menneske! <hi rend="italic">vor Herre</hi> får ikke Mange, som ham!« og Tårerne løb hende ned af Kinderne. »O min Gud! <seg><!--DATA-TERM: det gaaer rundt med mig--><anchor target="txtcmnt-098-01"/><!--det svimler for mig.-->det går rundt med mig</seg>! det er, fordi jeg drak Flasken ud! jeg har ikke kunnet tåle det! jeg føler mig så ilde!« – og hun holdt sig op til Plankeværket.</p>
+
+<p rend="firstIndent" xml:id="p_00395">»Herre Gud, I er ganske dårlig, Moer!« sagde Konen. »Se dog til, det kan gå over! – nej, I er rigtig syg! det er bedst, jeg får Jer hjem!«</p>
+
+<p rend="firstIndent" xml:id="p_00396">»Men Tøjet der!«</p>
+
+<p rend="firstIndent" xml:id="p_00397">»Det skal jeg nok tage mig af! tag mig under Armen! Drengen kan blive her og passe på så længe, så skal jeg komme og vaske Resten; det er jo en lille Klat kun!«</p>
+
+<p rend="firstIndent" xml:id="p_00398">Og Fødderne vaklede under Vadskerkonen.</p>
+
+<p rend="firstIndent" xml:id="p_00399">»Jeg har stået for længe i det kolde Vand! jeg har ikke siden imorges fået Vådt eller Tørt! jeg har Feber i Kroppen! O Herre Jesus, hjælp mig hjem! mit stakkels Barn!« – og hun græd.</p>
+
+<p rend="firstIndent" xml:id="p_00400">Drengen græd og sad snart ene ved Aaen ved det våde Tøj. De to Koner gik langsomt, Vadskerkonen vaklende, op ad Gyden, om ad Gaden, forbi Byfogdens Gård, og netop udenfor den sank hun om på Brostenene. Folk samlede sig.</p>
+
+<p rend="firstIndent" xml:id="p_00401"><hi rend="italic">Halte-Maren</hi> løb ind i Gården om Hjælp. Byfogden med sine Gjæster så ud af Vinduerne.</p>
+
+<p rend="firstIndent" xml:id="p_00402">»Det er Vadskerkonen!« sagde han, »hun har fået lidt over Tørsten; hun duer ikke! det er Skade for den kønne Dreng, hun har. Jeg har sandelig Godhed for Barnet. Moderen duer ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00403">Og hun blev bragt til sig selv igen og ledet til sit fattige Hjem, hvor hun kom i Seng. En Skål varmt Øl med Smør og Sukker gik den skikkelige Maren at lave, det var den Medicin, hun troede var den bedste, og så gik hun til Skyllestedet, skyllede meget dårligt, men velmént, trak egentlig kun det våde Tøj i Land og fik det i en Kasse.</p>
+
+<p rend="firstIndent" xml:id="p_00404">Ved Aften sad hun i den fattige Stue hos Vadskerkonen. Et Par brunede Kartofler og et dejligt fedt Stykke Skinke havde hun fået hos Byfogdens Kokkepige til den Syge, det nød Drengen og <hi rend="italic">Maren</hi> godt af; den Syge glædede sig ved Lugten, den var så nærende, sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00405">Og Drengen kom til Sengs, den selvsamme, i hvilken Moderen lå, men han havde sin Plads påtvers ved Fødderne <pb n="99"/>med et gammelt Gulvtæppe over sig, syet sammen af blå og røde Strimler.</p>
+
+<p rend="firstIndent" xml:id="p_00406">Og det var lidt bedre med Vadskerkonen; det varme Øl havde styrket hende, og Lugten af den fine Mad gjort godt.</p>
+
+<p rend="firstIndent" xml:id="p_00407">»Tak Du gode Sjæl!« sagde hun til <hi rend="italic">Maren</hi>, »Alt vil jeg også sige Dig, når Drengen sover! jeg tror allerede, han gør det! hvor sød og velsignet han ser ud! med de lukkede Øine! han ved ikke, hvorledes hans Moder har det. <hi rend="italic">Vor Herre</hi> lade ham aldrig prøve det! – Jeg tjente hos Kammerrådens, Byfogdens Forældre, så traf det sig, at den yngste af Sønnerne kom hjem, Studenten; dengang var jeg ung, vild og gal, men skikkelig, det tør jeg sige for Guds Ansigt!« sagde Vadskerkonen, – »Studenten var så lystig og glad, så velsignet! hver Bloddråbe i ham var retskaffen og god! bedre Menneske har der ikke været på Jorden. Han var Søn i Huset, og jeg kun Tjenestepige, men vi blev Kjærestefolk, i Tugt og Ære! et Kys er dog ikke Synd, når man rigtig holder af hinanden. Og han sagde det til sin Moder; hun var som <hi rend="italic">vor Herre</hi> for ham her på Jorden! og hun var så klog, kærlig og elskelig! – Han rejste bort, og sin Guldring satte han på min Finger. Da han vel var borte, kaldte min Madmoder mig ind for sig; alvorlig og dog så mild stod hun, talte, som <hi rend="italic">vor Herre</hi> vilde kunne det; hun <seg><!--DATA-TERM: klarede for mig--><anchor target="txtcmnt-099-01"/><!--forklarede mig.-->klarede for mig</seg> Afstanden i Aand og Sandhed imellem ham og mig. »Nu ser han på, hvor godt Du ser ud, men Udsendet vil gå bort! Du er ikke oplært, som han, I nå ikke op til hinanden i Aandens Rige, og deri ligger Ulykken. Jeg agter den Fattige,« sagde hun, »hos Gud kan han måske få en højere Plads, end mange Rige, men man må ikke på Jorden gå over i et galt Spor, når man kører fremad, ellers vælter Vognen, og I to ville vælte! Jeg ved, at en brav Mand, en Håndværksmand har friet til Dig, det er <hi rend="italic">Erik Handskemager</hi>, han er Enkemand, har ingen Børn, står sig godt, tænk derover!« Hvert Ord, hun sagde, var som Knive gennem mit Hjerte, men Konen havde Ret! og det knugede mig og tyngede mig! – jeg kyssede hendes Hånd og græd mine salte Tårer, og det endnu mere, da jeg kom ind i mit Kammer og lagde mig over min Seng. Det var en tung Nat, som fulgte, <hi rend="italic">vor Herre</hi> ved, hvad jeg led og stred. Så gik jeg om Søndagen til Herrens Bord for at få Lys i mig. Da var det ligesom en Tilskikkelse: idet jeg gik ud af Kirken, mødte jeg <hi rend="italic">Erik Handskemager</hi>. Så var der ikke længere Tvivl i mit Sind, vi passede for hinanden i Stilling og Vilkår, ja han var endogså en velhavende Mand! og så gik jeg lige hen til ham, tog <pb n="100"/>hans Hånd og sagde: er dine Tanker endnu til mig? – Ja evig og altid! sagde han. – Vil Du have en Pige, der agter og ærer Dig, men ikke holder af Dig, men det kan vel komme! – Det vil komme! sagde han, og så gav vi hinanden Hånden. Jeg gik hjem til min Madmoder; Guldringen, som Sønnen havde givet mig, bar jeg på mit bare Bryst, jeg kunde ikke sætte den på min Finger ved Dagen, men kun hver Aften, når jeg lagde mig i min Seng. Jeg kyssede Ringen, så at min Mund blødte ved det, og så gav jeg den til min Madmoder, og sagde, at i næste Uge vilde der blive lyst fra Prædikestolen for mig og Handskemageren. Så tog min Madmoder mig i sine Arme og kyssede mig – hun sagde ikke, at jeg <hi rend="italic">ikke duede</hi>, men den Gang var jeg måske også bedre, skønt jeg ikke endnu havde prøvet så megen Verdens Modgang. Og så stod Brylluppet ved <seg><!--DATA-TERM: Kyndelmisse--><anchor target="txtcmnt-100-01"/><!--oprindeligt katolsk fest den 2. februar: Maria renselsesfest, egentlig lysenes messe.-->Kyndelmisse</seg>; og det første Aar gik godt, vi holdt Svend og Dreng, og Du, <hi rend="italic">Maren</hi>, tjente os.«</p>
+
+<p rend="firstIndent" xml:id="p_00408">»O, I var en velsignet Madmoder!« sagde <hi rend="italic">Maren</hi>, »aldrig glemmer jeg, hvor mild I og Jer Mand var!«</p>
+
+<p rend="firstIndent" xml:id="p_00409">»Det var i de gode Aar, Du var hos os! – Børn havde vi da ikke. – Studenten så jeg aldrig! – Jo, jeg så ham, men han så ikke mig! han kom her til sin Moders Begravelse. Jeg så ham stå ved Graven, han var så kridhvid og så bedrøvet, men det var for Moderens Skyld. Da siden Faderen døde, var han i fremmede Lande og kom ikke her og har ikke heller senere været her. Aldrig giftede han sig, ved jeg; – han var nok <seg><!--DATA-TERM: Procurator--><anchor target="txtcmnt-100-02"/><!--sagfører.-->Procurator</seg>! – mig huskede han ikke, og om han havde set mig, så havde han dog vist ikke kendt mig igen, så fæl jeg ser ud. Og det er jo også meget godt!«</p>
+
+<p rend="firstIndent" xml:id="p_00410">Og hun talte om sine Prøvelsers tunge Dage, hvorledes Ulykken ligesom væltede ind over dem. De ejede fem hundrede Rigsdaler, og da der i Gaden var et Hus at få for to hundrede, og det vilde betale sig at få det revet ned og bygge et nyt, så blev Huset købt. Murer og Tømrer gjorde Overslag, at det videre vilde koste ti hundrede og tyve. Credit havde <hi rend="italic">Erik Handskemager</hi>, Pengene fik han til Lån fra Kjøbenhavn, men Skipperen, der skulde bringe dem, forliste og Pengene med.</p>
+
+<p rend="firstIndent" xml:id="p_00411">»Da var det, jeg fødte min velsignede Dreng, som her sover. – Fader faldt i en svær, langvarig Sygdom; i <seg><!--DATA-TERM: tre Fjerding Aar--><anchor target="txtcmnt-100-03"/><!--trekvart år.-->tre Fjerding Aar</seg> måtte jeg klæde ham af og på. Det gik rent tilbage for os, vi lånte og lånte; Alt vort Tøj gik, og Fader døde fra os! – Jeg har slidt og slæbt, stridt og stræbt for Barnets Skyld, vasket Trapper, vasket Linned, grovt og fint, men jeg skal ikke have <pb n="101"/>det bedre, vil <hi rend="italic">vor Herre</hi>! men han løser nok op for mig og sørger for Drengen.«</p>
+
+<p rend="firstIndent" xml:id="p_00412">Og så sov hun.</p>
+
+<p rend="firstIndent" xml:id="p_00413">Ud på Morgenen følte hun sig styrket og stærk nok, som hun troede, til igen at gå til sit Arbejde. Hun var netop kommet ud i det kolde Vand, da greb hende en Rystelse, en Afmagt; krampagtigt tog hun for sig med Hånden, gjorde et Skridt opad og faldt om. Hovedet lå på det tørre Land, men Fødderne ude i Aaen, hendes Træsko, som hun havde stået med på Bunden, – i hver af dem var der en Visk Halm, – drev på Strømmen; her blev hun fundet af <hi rend="italic">Maren</hi>, der kom med Caffe.</p>
+
+<p rend="firstIndent" xml:id="p_00414">Fra Byfogden havde der hjemme været Bud, at hun straks måtte møde hos ham, han havde Noget at sige hende. Det var for sent. En <seg><!--DATA-TERM: Barbeer--><anchor target="txtcmnt-101-01"/><!--indtil 1837 med lovbestemmelsen om medicinskkirurgisk eksamen praktiserede barberer i almindelighed som læger.-->Barbeer</seg> blev hentet til <seg><!--DATA-TERM: Aareladning--><anchor target="txtcmnt-101-02"/><!--tapning af blod, tidligere et almindeligt middel i sygdomsbehandling.-->Aareladning</seg>; Vadskerkonen var død.</p>
+
+<p rend="firstIndent" xml:id="p_00415">»Hun har drukket sig ihjel!« sagde Byfogden.</p>
+
+<p rend="firstIndent" xml:id="p_00416">I Brevet, der bragte Underretning om Broderens Død, var opgivet Testamentets Indhold, og deri stod, at 600 Rbd. testamenteredes til Handskemager-Enken, der engang havde tjent hans Forældre. Efter bedste Skøn skulde Pengene, i større eller mindre Portioner, gives hende og hendes Barn.</p>
+
+<p rend="firstIndent" xml:id="p_00417">»Der har været noget <seg><!--DATA-TERM: Mikmak--><anchor target="txtcmnt-101-03"/><!--maskepi, sammenrotning, hemmelig forståelse.-->Mikmak</seg> med min Broder og hende!« sagde Byfogden, »godt, at hun er af Vejen; Drengen får nu det Hele, og jeg skal sætte ham til brave Folk, en god Håndværker kan han blive!« – Og i de Ord lagde <hi rend="italic">vor Herre</hi> sin Velsignelse.</p>
+
+<p rend="firstIndent" xml:id="p_00418">Og Byfogden kaldte Drengen for sig, lovede at sørge for ham, og sagde ham, hvor godt det var, at hans Moder var død, hun duede ikke!</p>
+
+<p rend="firstIndent" xml:id="p_00419">Til Kirkegården blev hun bragt, de Fattiges Kirkegård. <hi rend="italic">Maren</hi> plantede et lille Rosentræ på Graven, Drengen stod ved Siden.</p>
+
+<p rend="firstIndent" xml:id="p_00420">»Min søde Moder!« sagde han, og Tårerne strømmede: »Er det sandt: hun duede ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00421">»Jo, hun duede!« sagde den gamle Pige og så op imod Himlen. »Jeg ved det fra mange Aar og fra den sidste Nat. Jeg siger Dig, hun duede! og <hi rend="italic">vor Herre</hi> i Himmeriges Rige siger det med, lad Verden kun sige: <hi rend="italic">hun duede ikke!</hi>«</p>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="»Hun duede ikke«" xml:id="hun-duede-ikke">
+<head type="section-comments">»Hun duede ikke«</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Folkekalender for Danmark 1853</hi>, som udkom i december 1852.</p>
+<p rend="noIndent">BFN 622/II,310-316/VII,166-168.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">99,23</cell><cell type="deviation">»Nu &lt; Nu</cell></row>
+<row><cell type="position">99,26</cell><cell type="deviation">Fattige,« sagde hun, »hos &lt; Fattige, sagde hun, hos</cell></row>
+<row><cell type="position">100,29</cell><cell type="deviation">sine Prøvelsers &lt; sine Prøvelses</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">96</cell><row xml:id="txtcmnt-096-01"><cell type="data-term">Byfogden</cell><cell type="data-definition">indtil 1919 underdommer, politimester og byskriver samt ofte også borgmester i en købstad.</cell></row><row xml:id="txtcmnt-096-02"><cell type="data-term">Kalvekryds(et)</cell><cell type="data-definition">skjortebryst med kruset pyntestrimmel.</cell></row><row xml:id="txtcmnt-096-03"><cell type="data-term">Toestolen</cell><cell type="data-definition">bænken, hvorpå tøjet blev gnedet under vaskningen.</cell></row><row xml:id="txtcmnt-096-04"><cell type="data-term">Tærskelen</cell><cell type="data-definition">banketræet, et fladt bræt med skaft.</cell></row>
+<pb n="474"/>
+<cell type="page">97</cell><row xml:id="txtcmnt-097-01"><cell type="data-term">færdig ved at springe</cell><cell type="data-definition">lige ved at springe.</cell></row><row xml:id="txtcmnt-097-02"><cell type="data-term">Middags-Collats</cell><cell type="data-definition">middagsselskab.</cell></row><row xml:id="txtcmnt-097-03"><cell type="data-term">sagt af</cell><cell type="data-definition">aflyst.</cell></row>
+<cell type="page">98</cell><row xml:id="txtcmnt-098-01"><cell type="data-term">det går rundt med mig</cell><cell type="data-definition">det svimler for mig.</cell></row>
+<cell type="page">99</cell><row xml:id="txtcmnt-099-01"><cell type="data-term">klarede for mig</cell><cell type="data-definition">forklarede mig.</cell></row>
+<cell type="page">100</cell><row xml:id="txtcmnt-100-01"><cell type="data-term">Kyndelmisse</cell><cell type="data-definition">oprindeligt katolsk fest den 2. februar: Maria renselsesfest, egentlig lysenes messe.</cell></row><row xml:id="txtcmnt-100-02"><cell type="data-term">Procurator</cell><cell type="data-definition">sagfører.</cell></row><row xml:id="txtcmnt-100-03"><cell type="data-term">tre Fjerding Aar</cell><cell type="data-definition">trekvart år.</cell></row>
+<cell type="page">101</cell><row xml:id="txtcmnt-101-01"><cell type="data-term">Barbeer</cell><cell type="data-definition">indtil 1837 med lovbestemmelsen om medicinskkirurgisk eksamen praktiserede barberer i almindelighed som læger.</cell></row><row xml:id="txtcmnt-101-02"><cell type="data-term">Aareladning</cell><cell type="data-definition">tapning af blod, tidligere et almindeligt middel i sygdomsbehandling.</cell></row><row xml:id="txtcmnt-101-03"><cell type="data-term">Mikmak</cell><cell type="data-definition">maskepi, sammenrotning, hemmelig forståelse.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

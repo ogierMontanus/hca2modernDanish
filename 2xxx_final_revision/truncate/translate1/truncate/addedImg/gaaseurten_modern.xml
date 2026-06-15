@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Gåseurten</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Første Hefte, som udkom den 2. oktober 1838.<br/>
+BFN 326/I,117-120/VII,42-43.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="gaaseurten"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1838</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change><change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="gaaseurten">
+<pb n="184"/><head type="main"><seg target="txtcmnt-184-01"><!--DATA-TERM: Gaaseurt(en)--><!--DATA-DEFINITION: tusindfryd, bellis.-->Gåseurten</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">Nu skal du høre!</p>
+
+<p rend="firstIndent" xml:id="p_00002">Ude på landet, tæt ved vejen, lå et <seg target="txtcmnt-184-02"><!--DATA-TERM: Lyststed--><!--DATA-DEFINITION: sommervilla. Velhavende borgere fik opført sommerboliger uden for København, blandt andet fordi den trange bys åbne, sundhedsfarlige kloakker udbredte en ulidelig stank, ikke mindst i varme somre.-->lyststed</seg>. Du har bestemt selv engang set det! Der er foran en lille have med blomster og et stakit som er malet. Tæt herved på <seg target="txtcmnt-184-03"><!--DATA-TERM: Grøften--><!--DATA-DEFINITION: diget, jordvolden.-->grøften</seg>, midt i det dejligste grønne græs, voksede en lille gåseurt. Solen skinnede lige så varmt og smukt på den som på de store rige pragtblomster inde i haven, og derfor voksede den time for time. En morgen stod den ganske udsprunget med sine små, skinnende hvide blade der sidder som stråler rundt om den lille gule sol indeni. Den tænkte slet ikke på at intet menneske så den der i græsset, og at den var en fattig, foragtet blomst. Nej, den var så fornøjet, den vendte sig lige imod den varme sol, så op i den og hørte på lærken som sang i luften.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Den lille gåseurt var så lykkelig som om det var en stor helligdag, og så var det dog en mandag; alle børn var i skole. Mens de sad på deres bænke og lærte noget, sad den på sin lille grønne stilk og lærte også af den varme sol og alt rundt omkring hvor god Gud er, og den syntes ret at den lille lærke sang så tydeligt og smukt alt hvad den i stilhed følte. Og gåseurten så med en slags ærbødighed op til den lykkelige fugl der kunne synge og flyve, men var slet ikke bedrøvet fordi den selv ikke kunne det. »Jeg ser og hører jo,« tænkte den, »solen skinner på mig, og vinden kysser mig! O, hvor jeg dog er blevet <seg target="txtcmnt-184-04"><!--DATA-TERM: begavet--><!--DATA-DEFINITION: begunstiget, overøst med gaver.-->begavet</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Inden for stakittet stod så mange stive, fornemme blomster. Jo mindre duft de havde, des mere knejsede de. <seg target="txtcmnt-184-05"><!--DATA-TERM: Pionerne--><!--DATA-DEFINITION: pæonerne, bonderoserne.-->Pæonerne</seg> blæste sig op for at være større end en rose, men det er slet ikke størrelsen som gør det! Tulipanerne havde de allersmukkeste kulører, og det vidste de nok og holdt sig så ranke for at man endnu bedre skulle se det. De lagde slet ikke mærke til den lille gåseurt udenfor, men den så des mere på dem og tænkte: »Hvor de er rige og dejlige! Ja, dem flyver vist den prægtige fugl ned til og besøger. Gudskelov at jeg står <pb n="185"/>så nær herved, så kan jeg dog få den stads at se!« og lige idet den tænkte det, »kvirrevit!« der kom lærken flyvende, men ikke ned til pæoner og tulipaner, nej, ned i græsset til den fattige gåseurt, der blev så forskrækket af bare glæde at den vidste slet ikke mere hvad den skulle tænke.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Den lille fugl dansede rundt omkring den og sang: »Nej, hvor dog græsset er blødt! Og se hvilken sød lille blomst med guld i hjertet og sølv på kjolen!« Den gule prik i gåseurten så jo også ud som guld, og de små blade rundt om var skinnende sølvhvide.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Så lykkelig som den lille gåseurt var, nej, det kan ingen begribe! Fuglen kyssede den med sit næb, sang for den og fløj så igen op i den blå luft. Det varede bestemt et helt kvarter før blomsten kunne komme sig igen. Halvt undseelig og dog inderlig fornøjet så den til blomsterne inde i haven; de havde jo set den ære og lyksalighed der var <seg target="txtcmnt-185-01"><!--DATA-TERM: vederfaret--><!--DATA-DEFINITION: hændt, overgået.-->vederfaret</seg> hende, de måtte jo begribe hvilken glæde det var. Men tulipanerne stod nok engang så stive som før, og så var de så spidse i ansigtet og så røde, for de havde ærgret sig. Pæonerne var ganske tykhovedede, bu! Det var godt at de ikke kunne tale, ellers havde gåseurten fået en ordentlig <seg target="txtcmnt-185-02"><!--DATA-TERM: Tiltale--><!--DATA-DEFINITION: irettesættelse, formaning.-->tiltale</seg>. Den stakkels lille blomst kunne nok se at de var ikke i godt humør, og det gjorde den så inderligt ondt. I det samme kom der inde i haven en pige med en stor kniv så skarp og skinnende, hun gik lige hen mellem tulipanerne og skar den ene af efter den anden. »Uh!« sukkede den lille gåseurt, »det var jo forskrækkeligt, nu er det forbi med dem!« Så gik pigen bort med tulipanerne. Gåseurten var glad ved at den stod ude i græsset og var en lille, fattig blomst. Den følte sig ret så taknemmelig, og da solen gik ned, foldede den sine blade, sov ind og drømte hele natten om solen og den lille fugl.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Næste morgen da blomsten igen lykkelig strakte alle de hvide blade ligesom små arme ud mod luft og lys, kendte den fuglens stemme, men det var så sørgeligt hvad den sang. Ja, den stakkels lærke havde god grund dertil, den var blevet fanget og sad nu i et bur tæt ved det åbne vindue. Den sang om at flyve frit og lykkeligt omkring, sang om det unge, grønne korn på marken og om den dejlige rejse den kunne gøre på sine vinger højt op i luften. Den stakkels fugl var ikke i godt humør, fanget sad den dér i buret.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Den lille gåseurt ønskede så gerne at hjælpe, men hvorledes skulle den bære sig ad dermed? Ja, det var vanskeligt at <pb n="186"/>hitte på. Den glemte rent hvor smukt alt stod rundt om, hvor varmt solen skinnede, og hvor smukke hvide dens blade så ud. Ak, den kunne kun tænke på den fangne fugl som den slet ikke var i stand til at gøre noget for.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Da kom der i det samme to små drenge ud af haven. Den ene af dem havde i hånden en kniv, stor og skarp som den pigen havde til at skære tulipanerne af med. De gik lige hen imod den lille gåseurt der slet ikke kunne begribe hvad de ville.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Her kan vi skære en dejlig græstørv til lærken!« sagde den ene dreng og begyndte at skære i en firkant dybt ned omkring gåseurten så at den kom til at stå midt i græstørven.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Riv den blomst af!« sagde den anden dreng, og gåseurten rystede ordentligt af angst, thi at blive revet af var jo at miste livet, og nu ville den så gerne leve da den skulle med græstørven ind i buret til den fangne lærke.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Nej, lad den sidde!« sagde den anden dreng, »den pynter så net!« Og så blev den siddende og kom med ind i buret til lærken.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Men den stakkels fugl klagede højt over sin tabte frihed og slog med vingerne mod jerntrådene i buret. Den lille gåseurt kunne ikke tale, ikke sige et trøstende ord ihvor gerne den ville. Således gik hele formiddagen.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Her er intet vand!« sagde den fangne lærke, »de er alle ude og har glemt mig med en dråbe at drikke! Min hals er tør og brændende! Der er ild og is inden i mig, og luften er så tung! Ak, jeg må dø fra det varme solskin, fra det friske grønne, fra al den dejlighed Gud har skabt!« og så borede den sit lille næb ned i den kølige græstørv for derved at opfriskes lidt. Da faldt dens øjne på gåseurten, og fuglen nikkede til den, kyssede den med næbbet og sagde: »Du må også visne herinde, du stakkels lille blomst! Dig og den lille grønne plet græs har man givet mig for den hele verden jeg havde udenfor! Hvert lille græsstrå skal være mig et grønt træ, hvert af dine hvide blade en duftende blomst! Ak, I fortæller mig kun hvor meget jeg har mistet!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">»<seg target="txtcmnt-186-01"><!--DATA-TERM: Hvo--><!--DATA-DEFINITION: hvem.-->Hvo</seg> der dog kunne trøste ham!« tænkte gåseurten, men den kunne ikke røre et blad. Dog duften som strømmede ud af de fine blade, var langt stærkere end den ellers findes hos denne blomst. Det mærkede også fuglen, og skønt den forsmægtede af tørst og i sin pine rev de grønne græsstrå af, rørte den slet ikke blomsten.</p>
+
+<pb n="187"/><p rend="firstIndent" xml:id="p_00016">Det blev aften, og endnu kom ingen og bragte den stakkels fugl en vanddråbe. Da strakte den sine smukke vinger ud, rystede dem krampagtigt, dens sang var et vemodigt pipi. Det lille hoved bøjede sig hen imod blomsten, og fuglens hjerte brast af savn og længsel. Da kunne blomsten ikke, som aftenen forud, folde sine blade sammen og sove; den hang syg og sørgende ned mod jorden.</p>
+
+<p rend="firstIndent" xml:id="p_00017">Først den næste morgen kom drengene, og da de så fuglen død, græd de, græd mange tårer og gravede den en nydelig grav som blev pyntet med blomsterblade. Fuglens lig kom i en rød, dejlig æske, kongeligt skulle den begraves, den stakkels fugl! Da han levede og sang, glemte de ham, lod ham sidde i buret og lide savn, nu fik han stads og mange tårer.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Men græstørven med gåseurten blev kastet ud i støvet på landevejen. Ingen tænkte på den, som dog havde følt mest for den lille fugl, og som gerne ville trøste den!</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="gaaseurten">
+<head type="section-comments">Gåseurten</head>
+
+<p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Første Hefte, som udkom den 2. oktober 1838.<br/>
+BFN 326/I,117-120/VII,42-43.</p>
+
+<table rend="textcomments">
+<cell type="page">184</cell><row xml:id="txtcmnt-184-01"><cell type="data-term">Gåseurt(en)</cell><cell type="data-definition">tusindfryd, bellis.</cell></row><row xml:id="txtcmnt-184-02"><cell type="data-term">Lyststed</cell><cell type="data-definition">sommervilla. Velhavende borgere fik opført sommerboliger uden for København, blandt andet fordi den trange bys åbne, sundhedsfarlige kloakker udbredte en ulidelig stank, ikke mindst i varme somre.</cell></row><row xml:id="txtcmnt-184-03"><cell type="data-term">Grøften</cell><cell type="data-definition">diget, jordvolden.</cell></row><row xml:id="txtcmnt-184-04"><cell type="data-term">begavet</cell><cell type="data-definition">begunstiget, overøst med gaver.</cell></row><row xml:id="txtcmnt-184-05"><cell type="data-term">Pionerne</cell><cell type="data-definition">pæonerne, bonderoserne.</cell></row>
+<cell type="page">185</cell><row xml:id="txtcmnt-185-01"><cell type="data-term">vederfaret</cell><cell type="data-definition">hændt, overgået.</cell></row><row xml:id="txtcmnt-185-02"><cell type="data-term">Tiltale</cell><cell type="data-definition">irettesættelse, formaning.</cell></row><row xml:id="txtcmnt-185-03"><cell type="data-term">så og kendte</cell><cell type="data-definition">så og genkendte.</cell></row>
+<cell type="page">186</cell><row xml:id="txtcmnt-186-01"><cell type="data-term">Hvo</cell><cell type="data-definition">hvem.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

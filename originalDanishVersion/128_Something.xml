@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>‘Something’</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="noget">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="noget_modern.xml">moderniseret version</note>
+                                                       <note target="128_Something.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘I want to be something!’ the eldest of five brothers said, ‘I want to be of use...</incipit><idno type="image">Noget_forside4.png</idno><popularity>904</popularity><cite>&lt;p&gt;Hans Christian Andersen: ‘Something’. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-28" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-28" who="NHB">formatted</change><change who="NHB" when="2022-09-28">added italics</change><change who="NHB" when="2022-10-03">thinker &gt; reasoner (three occurrences)</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="‘Something’">
+               <head type="main" rend="‘Something’">‘Something’</head>                <p rend="noIndent" xml:id="p_00001">‘I want to be something!’ <hi rend="italic">the eldest</hi> of five brothers said, ‘I want to be of use in the world; I don’t mind how humble my position is as long as what I accomplish is good, for that then will be something. I want to make bricks, people can’t do without bricks! so that will mean I’ve done something!’</p>
+               <p rend="firstIndent" xml:id="p_00002">‘But something too insignificant!’ <hi rend="italic">the second brother</hi> said, ‘what you want to do is as good as nothing; it is a labourer’s work, it can be done by a machine. No, I’d rather be a mason instead. Now that is a profession! one that means one can gain membership of a guild, become a citizen, have one’s own banner and one’s own inn to live in; yes, and if things go well, have journeymen, be called a master and one’s wife be called mistress; now that is something!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘That’s nothing at all!’ <hi rend="italic">the third one</hi> said, ‘that’s still outside the important classes and there are many classes in a town that far outrank that of master! You can be a worthy man, but as a master you’re only what one could call “common”! no, I know something better! I want to be a master builder, enter the field of the artistic, the thinking world, ascend to those of higher rank in the realm of the intellect; I must admittedly start from the bottom, indeed, I may as well say it straight out: I’ll have to start as a carpenter’s apprentice, wear a cap, although I’m used to wearing a silk hat, do errands for the common journeymen such as fetch their beer and strong drink, and they will speak down to me, which is aggravating! but I will imagine that the whole thing is just a masquerade, a masked freedom! tomorrow – when I’m a journeyman that is – I will be on <hi rend="italic">my</hi> way, and the others will be no concern of mine! I’ll attend the academy, learn to draw, be called an architect! – now that’s something! that’s a lot! I can become honourable and noble, with titles both fore and aft, and build and build, like others before me! this will always be something to rely on! and everything will be something!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘But I don’t care for that sort of something!’ <hi rend="italic">the fourth one</hi> said, ‘I don’t want to follow in other people’s wake, be a copy, I want to be a genius, be more capable than all the rest of you put together! I will create a new style, come up with the concept of a building, one suitable to the country’s climate and materials, the country’s nationality, the developments of our age – and then an extra storey too for my own genius!’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘What though if the climate and materials aren’t any good!’ <hi rend="italic">the fifth one</hi> said, ‘that would be bad, for it really has an influence! Nationhood can also easily become so watered down a thing that it becomes affection, new developments can cause you to run wild, as young people often do. I can see that none of you will really become something, no matter how much you believe it yourselves! But do whatever you like, I won’t be like you, I will assume an outside position, I will use my reason to think about what you accomplish! there is always something wrong about everything, I shall winkle it out and talk about it, now that is something!’</p>
+               <p rend="firstIndent" xml:id="p_00006">And he did so, and people said about the fifth brother: ‘There is absolutely something about him! he has a good head! although he doesn’t do anything!’ – But it was precisely that which made him something.</p>
+               <p rend="firstIndent" xml:id="p_00007">Now that is just a little story, though it won’t have an ending as long as the world’s still standing!</p>
+               <p rend="firstIndent" xml:id="p_00008">But did nothing become of the five brothers? That would hardly be something! Listen some more, it is a whole tale in itself!</p>
+               <p rend="firstIndent" xml:id="p_00009">The eldest brother, who made bricks, sensed that from each brick, when it was finished, a small coin rolled, only of copper, but so many copper coins, placed on top of each other, become a shining thaler, and wherever one taps with it, at the baker’s, butcher’s, tailor’s, yes at each and every one of them, the door flies open and one gets what one needs; yes, that it what the bricks yielded; some of them crumbled or broke in two, but they were also put to use.</p>
+               <p rend="firstIndent" xml:id="p_00010">Up on the dike, Mother <hi rend="italic">Margrethe</hi>, the poor woman, wanted so much to build a small wattle-and-daub house; she was given all the broken bricks and a couple of whole ones, for the eldest brother had a good heart, even though his job was only to make bricks. The old woman raised her own house; it was narrow, one of the windows was lopsided, the door was far too low, and the thatched roof could have been laid better, but it offered shelter and protection and it could be seen far out across the sea that broke against the dike with its great force; the salt stray drenched the whole house, and yet it still stood when he was dead and gone, the one who had made the bricks.</p>
+               <p rend="firstIndent" xml:id="p_00011">The second brother, well, he could put up a wall differently, for he had been trained to do so. When his final apprenticeship assignment had been handed in, he bound up his knapsack and sang the journeyman’s song:</p>
+               <lg xml:id="p_00012">
+                    <l>‘To seek abroad while young’s my aim</l>
+               <l>And build homes in full measure,</l>
+               <l>My craft’s my purse it’s fair to claim,</l>
+               <l>My youthful mind’s my pleasure</l>
+               <l>And when I see my land once more,</l>
+               <l>As to my love I’ve stated!</l>
+               <l>Hurrah! a handy craftsman’s sure</l>
+               <l>He’s joyfully awaited!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00013">And this he did. In the town, when he returned and became a master, he built house after house, a whole street; when it was finished, it had a fine appearance and gave the town a good reputation, then the houses built for him a small house that was to be his own; but how can houses build? Well, should you ask them they will not reply, but people will reply and say: ‘well of course the street has built a house for him!’ it was small and with an earthen floor, but when he danced across it with his bride, it became shiny and polished, and from every brick in the wall there grew a flower, it was just as good as expensive wallpaper. It was a charming house and they were a happy couple. The guild banner fluttered outside and the journeymen and apprentices shouted: Hurrah! oh yes, that was something! and then he died, that was also something!</p>
+               <p rend="firstIndent" xml:id="p_00014">Now came the architect, the third brother, who had first been a carpenter’s apprentice, worn a cap and done town errands, but from the academy had risen to become a master builder, ‘honourable and noble’! yes, the houses in the street had built a house for the brother who was a bricklayer, but the whole street was named after the architect, and the loveliest house in the street became his, that was something and he was something – and with a long title fore and aft; his children were called ‘fine’ children, and when he died his widow was a lady of rank – that’s something! and his name still stood on the street corner and people mentioned it, as a street name – well, that’s something!</p>
+               <p rend="firstIndent" xml:id="p_00015">Then came the genius, the fourth brother, the one who wanted to discover something new, something out of the ordinary and an extra storey, but it snapped off and he fell down and broke his neck, – but he was given a lovely funeral with guild banners and music, flowery words in the newspaper and flowers strewn along the cobbles in the streets; and three funeral orations were held over the coffin, the one longer than the other, and that would have pleased him, for he liked to be talked about; a monument was raised over the grave, only one storey, but that’s always something!</p>
+               <p rend="firstIndent" xml:id="p_00016">Now he was dead, like the three other brothers, but the last one, the reasoner and critic, survived them all, and that was of course right and proper, for then he had the final word and that was extremely important to him, to have the final word. He was the intelligent one! people said. Now his hour had come too, he died and came to the pearly gates. Here souls always come two by two! so he was standing next to another soul who also wanted to be let in, and this was no one else that the old Mother <hi rend="italic">Margrethe</hi> from the house on the dike.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘It’s probably for the sake of contrast that I and this wretched soul are to come here at the same time!’ the reasoner said. ‘Well, who are you then, old woman? Do you also aspire to enter here!’ he asked.</p>
+               <p rend="firstIndent" xml:id="p_00018">And the old woman curtseyed as best as she was able, she thought it was Saint Peter himself speaking. ‘I’m just a poor old creature, without any family! Old <hi rend="italic">Margrethe</hi> from the house on the dike!’</p>
+               <p rend="firstIndent" xml:id="p_00019">‘I see, and what has this poor creature done down on earth?’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Well, I didn’t do anything at all in the world! Certainly not something that can open the gates for me here! it will be a true act of mercy if I am allowed inside the door!’</p>
+               <p rend="firstIndent" xml:id="p_00021">‘How was it that you left the world?’ he asked, just to have something to say, for he was bored standing there waiting.</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Yes, well, I don’t really know how I left it! I had of course been ill and infirm the last few years, and not able to creep out of bed and face the frost and cold outside. It’s a hard winter, but I have recovered from it now. For a couple of days it was dead calm, but bitterly cold, as your reverence probably knows, the ice had formed on the shore as far as the eye could see; everyone in the town went out onto the ice; there was what they call skating racing and dancing, I think, there was lots of music, food and drink and entertainment out there; I could even hear it inside my humble room where I lay. It was somewhere around evening, the moon was up but had not regained its strength. From my bed I could look from the window right out across the shore, and there right on the rim between sky and sea a strange white cloud started to grow; I lay looking at it, looking at the black dot in the middle of it which grew larger and larger; and then I knew what it meant; I am old and experienced, though that sign isn’t seen all that often. I recognised it and felt a great dread! I have twice before seen that thing come towards me, and I knew that there would be a terrible storm and a spring tide that would swamp those poor people out there who now were drinking and leaping and celebrating; young and old, the whole town were out there, who was to warn them if no one out there saw and knew what I knew. I was so terrified, I became more alive than I had been for ages! out of bed I leapt and over to the window, further than that I could not manage; but I got to open it, and could see people running and leaping out there on the ice, see the fine flags, hear the boys shouting hurrah, and the maids and servants singing, they were having a grand time of it, but higher and higher rose the white cloud with the black bag in it! I shouted as loudly as I could, but nobody heard me, I was too far away. Soon the wild weather would erupt, the ice crack and all of them sink through it, with no hope of being saved. They couldn’t hear me, I was unable to get out to them; if only I could get them ashore! Then <hi rend="italic">Our Lord</hi> gave me the idea of setting fire to my bed, rather burn the house down than have so many die such a miserable death. I managed to strike a light, saw the red flame – yes, I managed to get outside the door, but there I had to lie for I had no more strength left; the blaze shot out towards me and out of the window, across the roof; those out there saw it and started to run as hard as they could to help me, the poor creature they thought was burning to death inside; there was not one did not running; I heard them coming, but I also heard something that suddenly boomed in the air; I heard it thundering like heavy cannons being fired, the spring tide lifted the ice, which shattered; but they all reached the dike, where the sparks were flying over me; I managed to get all of them ashore safe and sound; but I must have been unable to cope with the cold and the fright, and so I arrived here at the pearly gates; people say they will also be opened for such a poor creature as me! and now I have no house any more down on the dike, though that doesn’t mean I’ll be granted entrance here.’</p>
+               <p rend="firstIndent" xml:id="p_00023">Then the gate of heaven opened and the angel led the old woman in; one of her bedstraws fell off outside, a straw that had lain in her bed, the bed she set fire to so as to save so many people, and it had turned into pure gold, and it grew and branched out into the loveliest decorations.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘Just look, this the poor old woman brought with her!’ the angel said. ‘And what have you brought? Yes, I well know, you have accomplished nothing, not even made a brick; if only you could return and bring at least that; it would probably not be of any use if you had made it, but had it been made with a good intention that would have always been something; but you cannot return, and I cannot do anything for you!’</p>
+               <p rend="firstIndent" xml:id="p_00025">Then the poor soul, the old woman from the house on the dike, prayed on his behalf: ‘his brother has made and given me all the bits and pieces of brick I used to wattle and daub my humble house, that meant a very great deal to me, poor woman that I was! Can’t all the pieces and fragments count as a brick for him? That would be an act of mercy! He needs that now, and this after all is the home of mercy!’</p>
+               <p rend="firstIndent" xml:id="p_00026">‘Your brother, the one you called the most inferior,’ the angel said, ‘the one whose honest toil meant least of all to you, now gives you his heaven’s mite. You shall not be turned away, you shall be allowed to stand outside here and think things over, nurture your life below, but you shall not be allowed in before you by way of a good deed have accomplished – <hi rend="italic">something</hi>!’</p>
+               <p rend="firstIndent" xml:id="p_00027">‘I could have said that better!’ the reasoner thought, but he didn’t say it out loud, and that was most likely already <hi rend="italic">something</hi>.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

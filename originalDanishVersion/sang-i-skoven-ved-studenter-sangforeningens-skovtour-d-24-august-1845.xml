@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang i Skoven ved Studenter-Sangforeningens Skovtour, d. 24. August 1845</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-i-skoven-ved-studenter-sangforeningens-skovtour-d-24-august-1845" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Her under Skovens grönne Tag</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00215</section>
+                                                                 <date>1845</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang i Skoven ved Studenter-Sangforeningens Skovtour, d. 24. August 1845" xml:id="sang-i-skoven-ved-studenter-sangforeningens-skovtour-d-24-august-1845"><pb n="97"/><head type="part">Sang i Skoven ved <seg target="txtcmnt-097-01"><!--DATA-TERM: Studenter-Sangforeningen(s)--><!--DATA-DEFINITION: stiftet i 1839 i København.-->Studenter-Sangforeningens</seg> Skovtour, d. 24. August 1845</head>
+<head type="melody"><hi rend="italic">Mel. <seg target="txtcmnt-097-02"><!--DATA-TERM: Hvor Bølgen larmer etc.--><!--DATA-DEFINITION: »Hvor Bølgen larmer høit fra Søe«, førstelinje af C. Wilster <i>Sang for danske</i>, 1819, med melodi af C.E.F Weyse.-->Hvor Bølgen larmer etc.</seg></hi></head>
+<lg xml:id="p_00216">
+<l rend="noIndent" subtype="firstline" corresp="Her under Skovens grönne Tag" rendition="her-under-skovens-groenne-tag">Her under Skovens grönne Tag</l>
+<l rend="noIndent">Vi samles ungdomsglade,</l>
+<l rend="noIndent">Vi plukke vil en Sommerdag</l>
+<l rend="noIndent">For Hjertets Mindeblade.</l>
+<l rend="noIndent">Vi Solskin har i vort Humeur,</l>
+<l rend="noIndent">Og Lystigheden aldrig döer,</l>
+<l rend="noIndent">Der hvor Studenten kommer!</l>
+</lg>
+<lg xml:id="p_00217">
+<l rend="noIndent">Vi synge fra det grönne Blad</l>
+<l rend="noIndent">I en harmonisk Klynge;</l>
+<l rend="noIndent">Om Aar saa er’ vi skilte ad,</l>
+<l rend="noIndent">Men nye Slægter synge.</l>
+<l rend="noIndent">Vi er’, som Skov og Melodi,</l>
+<l rend="noIndent">Et Löv, der er Afvexling i,</l>
+<l rend="noIndent">Men Stammen staaer og bliver.</l>
+</lg>
+<lg xml:id="p_00218">
+<l rend="noIndent">Een <seg target="txtcmnt-097-03"><!--DATA-TERM: vorder--><!--DATA-DEFINITION: bliver.-->vorder</seg> Bibelsprogets Tolk</l>
+<l rend="noIndent">Der ovre midt i Lyngen,</l>
+<l rend="noIndent">En anden sprætter döde Folk,</l>
+<l rend="noIndent">Og der forgaaer al Syngen;</l>
+<l rend="noIndent">Een bliver Byens Politi; –</l>
+<l rend="noIndent">Dog gamle Sanges Melodi</l>
+<l rend="noIndent">Vil tidt for Öret klinge!</l>
+</lg>
+<lg xml:id="p_00219">
+<l rend="noIndent">Vi huske vi paa <seg target="txtcmnt-097-04"><!--DATA-TERM: Snekke(n)--><!--DATA-DEFINITION: mindre sejlskib.-->Snekken</seg> foer,</l>
+<l rend="noIndent">Os bar de blanke <seg target="txtcmnt-097-05"><!--DATA-TERM: Vover--><!--DATA-DEFINITION: bølger.-->Vover</seg>,</l>
+<l rend="noIndent">Forneden de, men Sangens Chor</l>
+<l rend="noIndent">Og Himlen ovenover;</l>
+<l rend="noIndent">Vi huske Videts Bölgeslag,</l>
+<l rend="noIndent">Vi huske denne Skovtours Dag,</l>
+<l rend="noIndent">Vor Sang, vort Venskab. Hurra!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang i Skoven ved Studenter-Sangforeningens Skovtour, d. 24. August 1845" synch="sang-i-skoven-ved-studenter-sangforeningens-skovtour-d-24-august-1845">
+<head type="section-comments">Sang i Skoven ved Studenter-Sangforeningens Skovtour, d. 24. August 1845</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk. BFN 480</p>
+<table rend="textcomments">
+<cell type="page">97</cell><cell><row xml:id="txtcmnt-097-01"><cell type="data-term">Studenter-Sangforeningen(s)</cell><cell type="data-definition">stiftet i 1839 i København.</cell></row><row xml:id="txtcmnt-097-02"><cell type="data-term">Hvor Bølgen larmer etc.</cell><cell type="data-definition">»Hvor Bølgen larmer høit fra Søe«, førstelinje af C. Wilster <hi rend="italic">Sang for danske</hi>, 1819, med melodi af C.E.F Weyse.</cell></row><row xml:id="txtcmnt-097-03"><cell type="data-term">vorder</cell><cell type="data-definition">bliver.</cell></row><row xml:id="txtcmnt-097-04"><cell type="data-term">Snekke(n)</cell><cell type="data-definition">mindre sejlskib.</cell></row><row xml:id="txtcmnt-097-05"><cell type="data-term">Vover</cell><cell type="data-definition">bølger.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

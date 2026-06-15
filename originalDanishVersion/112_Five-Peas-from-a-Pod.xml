@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Five from a Pea Pod</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="fem-fra-en-aertebaelg">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="fem-fra-en-aertebaelg_modern.xml">moderniseret version</note>
+                                                       <note target="112_Five-Peas-from-a-Pod.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There were five peas in a pea pod, they were green and the pod was green, and so...</incipit><idno type="image">Fem_fra_en_Aertebaelg_forside.png</idno><popularity>911</popularity><cite>&lt;p&gt;Hans Christian Andersen: Five from a Pea Pod. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>remser</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">tilpasset</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+             <div rend="Five from a Pea Pod">
+     <head type="main" rend="Five from a Pea Pod">Five from a Pea Pod</head>                <p rend="noIndent" xml:id="p_00001">There were five peas in a pea pod, they were green and the pod was green, and so they believed the whole world was green, and that was absolutely correct! The pod grew and the peas grew; they adapted themselves to their living quarters; they sat in a straight row. – The sun shone outside and heated the pod, the rain got it ready; it was warm and snug, light in the daytime and dark at night, just as it should be, and the peas grew larger and increasingly thoughtful as they sat there – for they had to spend their time doing something.</p>
+     <p rend="firstIndent" xml:id="p_00002">‘Am I always going to be sitting here!’ they said, ‘I only hope I don’t get hard from sitting so long. There is this sort of feeling in me there is something outside – I seem to sense it!’</p>
+     <p rend="firstIndent" xml:id="p_00003">And the weeks went by; the peas turned yellow and the pod turned yellow: ‘The whole world’s turning yellow!’ they said and they were at liberty to do so.</p>
+     <p rend="firstIndent" xml:id="p_00004">Then they felt the pod being shaken; it was picked from the plant, it came into human hands and down into a coat pocket, along with several other pods full of peas. – ‘Now the pod’s soon going to be opened!’ they said, and sat there waiting.</p>
+     <p rend="firstIndent" xml:id="p_00005">‘Now I just wonder which of us will go farthest in the world!’ the smallest pea said. ‘Yes, we’ll soon find out.’</p>
+     <p rend="firstIndent" xml:id="p_00006">‘Whatever must be, must be!’ the largest one said.</p>
+     <p rend="firstIndent" xml:id="p_00007">‘Pppppp!’ the pod split open and all five peas tumbled out into the bright sunshine; they were lying in a child’s hand, a little boy was holding them, and he said they were just right for his peashooter; and one pea was put in it at once and shot off.</p>
+     <p rend="firstIndent" xml:id="p_00008">‘Off I fly into the great wide world! catch me if you can!’ and away it sped.</p>
+     <p rend="firstIndent" xml:id="p_00009">‘I,’ the second one said, ‘will fly right into the sun, it’s a real pea pod and highly suitable for the likes of me!’</p>
+     <p rend="firstIndent" xml:id="p_00010">And it was gone.</p>
+     <p rend="firstIndent" xml:id="p_00011">‘I’ll sleep wherever I end up,’ the two others said,’ but we’re sure to go forwards!’ and they rolled onto the floor before they came into the peashooter, but they eventually made it. ‘We’ll go farthest in the world!’</p>
+     <p rend="firstIndent" xml:id="p_00012">‘Whatever must be, must be!’ the last one said and it was shot into the air, and it flew up towards the old board under the attic window, flew straight into a crack where there was moss and soft earth; and the moss wrapped itself around it; and there it lay hidden, but not forgotten by the <hi rend="italic">Good Lord</hi>.</p>
+     <p rend="firstIndent" xml:id="p_00013">‘Whatever must be, must be!’ it said.</p>
+     <p rend="firstIndent" xml:id="p_00014">In the tiny attic room there lived a poor woman who used to go out and polish tiled stoves in the daytime, yes, she even used to saw firewood and do heavy tasks, for she was strong and hard-working, although she remained as poor as ever; and up in her little room lay her teenage only daughter who was so fine and frail; she had been bed-ridden for a whole year and seemed unable to either live or die.</p>
+     <p rend="firstIndent" xml:id="p_00015">‘She’s going to join her younger sister!’ the woman said. ‘I had the two children, it was hard enough to take care of both of them, but then the <hi rend="italic">Good Lord </hi>shared the task with me and took responsibility for one of them; so now I would like to keep the one still left me, but he doesn’t want them to be separated from each other, so she will go up and join her little sister!’</p>
+     <p rend="firstIndent" xml:id="p_00016">But the sick child stayed where she was; she lay quietly and patiently all through the day while her mother was out earning money.</p>
+     <p rend="firstIndent" xml:id="p_00017">It was spring now, and early one morning, just as the mother was about to go to work, the sun shone so beautifully in through the small window across the floor and the sick girl looked over at the bottom window pane.</p>
+     <p rend="firstIndent" xml:id="p_00018">‘What on earth is that green thing popping up at the window pane? It’s moving in the wind!’</p>
+     <p rend="firstIndent" xml:id="p_00019">And her mother went over to the window and opened it slightly. ‘Well, I never!’ she said, ‘if it isn’t a little pea that’s begun to sprout fine green leaves. How on earth can it have ended up here in the crack? Now you’ve got a little garden to look at!’</p>
+     <p rend="firstIndent" xml:id="p_00020">And the sick girl’s bed was moved closer to the window so she could see the pea grow, and her mother went off to work.’</p>
+     <p rend="firstIndent" xml:id="p_00021">‘Mother, I think I’m getting better!’ the little girl said that evening. ‘Today the sun has shone so warmly on me. The little pea is doing so well! and I also want to do well too and be able to go outside in the sunshine!’</p>
+     <p rend="firstIndent" xml:id="p_00022">‘If only you could!’ her mother said, but she didn’t believe it would happen; nevertheless, she placed a small stick next to the green shoot that had given her child such happy thoughts so that it would not be snapped by the wind; she fixed a length of yarn to the board and the top of the window frame, so that the pea-stalk had something to catch onto and twine round when it climbed; and it did, you could see it grow for every day that passed.</p>
+     <p rend="firstIndent" xml:id="p_00023">‘Well I never, it’s coming into flower!’ the woman said one morning, and now she too began to hope and believe that the sick girl would get better; it struck her that the child had recently spoken in a more lively fashion, the last few mornings she had sat up in bed on her own and had gazed with bright eyes at her small pea-garden made up of a single pea. A week later, the sick child was up for more than an hour for the very first time. She sat blissfully in the warm sunshine; the window was open, and outside in full bloom there was a white and red pea flower. The little girl leant forwards and very gently kissed the fine petals. That day was a very festive sort of day.</p>
+     <p rend="firstIndent" xml:id="p_00024">‘The <hi rend="italic">Good Lord</hi> himself has planted it and let it thrive so as to bring you hope and happiness, my dearest child and me as well!’ the happy mother said and smiled at the flower as if to one of God’s good angels.</p>
+     <p rend="firstIndent" xml:id="p_00025">But now it’s time to talk about the other peas! – yes, the one that flew out into the great wide world: ‘Catch me if you can!’ fell into the roof gutter and ended up in a pigeon’s crop, where it lay like Jonas in the whale. The two lazy ones also ended up being eaten by pigeons, and that is a way of being useful; but the fourth one that wanted to reach the sun – it fell into the gutter in the street, and it lay there for days and weeks, in the foul water, where it really started to swell up.’</p>
+     <p rend="firstIndent" xml:id="p_00026">‘I’m getting so nice and fat!’ the pea said. ‘I’ll burst eventually, and I don’t think any pea can get any farther than that, or has ever done so. I am the most remarkable of the five peas from the pea pod.</p>
+     <p rend="firstIndent" xml:id="p_00027">And the gutter agreed with it.</p>
+     <p rend="firstIndent" xml:id="p_00028">But the young girl at the attic window stood with shining eyes, a healthy bloom on her cheeks, and she folded her delicate hands above the pea flower and thanked the <hi rend="italic">Lord God</hi> for it.</p>
+     <p rend="firstIndent" xml:id="p_00029">‘My bet is still on my pea!’ the gutter said!</p>
+</div>
+               
+          </body>
+                         </text>
+                    </TEI>

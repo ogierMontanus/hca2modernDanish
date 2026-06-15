@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Small Stories</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="smaahistorier">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="smaahistorier_modern">moderniseret version</note>
+                                                       <note target="13-14-15-211-212_Small-Stories" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The author’s name not known....</incipit><popularity>910</popularity><cite>&lt;p&gt;Hans Christian Andersen: Small Stories. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term><term>kunst</term><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-07" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-07">formatted</change><change who="NHB" when="2022-07-27">added italics</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change who="NHB" when="2024-02-26" status="draft">concatenated single files according to structure in the Danish file</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+<div type="work" rend="Small Stories" xml:id="small-stories">
+<head type="main">Small Stories</head>
+<head type="sub">(After the German<note type="footnote"><!--* --><p rend="noIndent"><!--* -->The author’s name not known.</p></note>)</head>
+<div rend="1. It’s You the Fable has in Mind!" xml:id="1-its-you-the-fable-has-in-mind" type="workPart">
+ 
+<head type="main" rend="1. It’s You the Fable has in Mind!">1. It’s You the Fable has in Mind!</head>
+          <p rend="noIndent" xml:id="p_00001">The wise men of ancient times have cleverly discovered how, without being rude to their faces, one could tell people the truth. For they held up to them a mysterious mirror in which all kinds of animals and remarkable things came into view and produced a spectacle that was as amusing as it was edifying. This they called a fable, and whatever stupid or wise things the animals happened to perform there, humans could transfer these to themselves and thereby realise: It’s you the fable has in mind! In that way, no one could feel vexed. Let us take an example:</p>
+          <p rend="firstIndent" xml:id="p_00002">There were once two mountains, and on top of each stood a castle. Down in the valley a dog was running, it sniffed the ground in front of it as if, to allay its hunger, it was in search of a mouse or partridge. Suddenly, from one of the castles the sound of a trumpet rang out, announcing that dinner was ready. The dog immediately hurried up the mountain so as to get a little food too, but when it had got halfway, the trumpet stopped blowing, and a trumpet from the other castle began. Then the dog thought, they’ll have already finished eating by the time I arrive, but over there they are only getting ready to eat at the moment; so it ran down again and up the other mountain. But then the trumpet from the first place started up again, while the other one stopped. The dog ran down again, and up again, and kept on doing this until finally both trumpets fell silent, and the meal was over no matter which place the dog arrived at.</p>
+          <p rend="firstIndent" xml:id="p_00003">Just guess what the ancient wise men would want to say by means of this fable, and who the fool is that tires himself out running without ever winning anything, either here or there.</p>
+     </div>
+ <div rend="2. The Talisman" xml:id="2-the-talisman" type="workPart">
+          <head type="main" rend="2. The Talisman">2. The Talisman</head>
+          <p rend="noIndent" xml:id="p_00001">A prince and a princess were still on their honeymoon. They felt so exceptionally happy; only one thought worried them, it was this: Will we always be as happy as we are now? For that reason, they wished to own a talisman, by means of which they could protect themselves against every source of discontent in their marriage. They had often heard people speak about a man who lived deep in the forest and who was respected by everyone for his wisdom; in every distressing or troublesome situation he was able to give good counsel. The prince and the princess went to him and told him what weighed so heavily on their minds. When the wise man had heard this, he answered: ‘Travel through all the countries of the world and wherever you meet a truly contented married couple, ask for a small piece of the linen they are wearing, and when you receive it, always carry it with you. That is an effective measure.’</p>
+          <p rend="firstIndent" xml:id="p_00002">The prince and the princess rode off and soon they heard a knight mentioned who was said to live the happiest of lives with his wife. They came up to the castle, asked them personally if in their marriage they were so exceptionally contented as rumour had it. ‘Yes, indeed!’ was their answer, ‘except for one thing – we have no children!’ So here the talisman was not to be found, and the prince and princess had to continue their travels to find a completely contented married couple.</p>
+          <p rend="firstIndent" xml:id="p_00003">They then came to a city where they heard of an honest burgher who lived with his wife in the greatest harmony and contentment. They went to him and asked him likewise – if in his marriage he was really as happy as people said. ‘Oh yes, I am!’ the man answered, ‘my wife and I live the best possible life with each other, if only we didn’t have so many children that cause us much sorrow and concern!’ – So the talisman could not be found there either, and the prince and princess rode on further through the country, asking everywhere about contented married couples, but no one came forward.</p>
+          <p rend="firstIndent" xml:id="p_00004">One day, as they were riding past fields and meadows, they noticed – not far from the road – a shepherd who was blowing his shawm with great gusto. At the same time, they saw coming towards him a woman with a child on her arm, holding a little boy by the hand. As soon as the shepherd caught sight of her, he went towards her and took up the infant, which he kissed and fondled. The shepherd’s dog went over to the boy, licked his little hand, barked and leapt in the air with joy. Meanwhile the woman put down the pot she had brought with her and said: ‘Husband, come and eat!’ The man sat down and took some of the food, but the first bite he gave to the little child, the second he shared with the boy and the dog. The prince and princess saw and <hi rend="italic">heard</hi> all of this, they now approached, spoke to them and said: ‘Aren’t you what people call a happy and contented married couple?’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘That we are!’ the man replied. ‘God be praised! No prince or princess could be more so than we are!’</p>
+          <p rend="firstIndent" xml:id="p_00006">‘Then listen,’ the prince said, ‘do us a favour that you will not come to regret. Give us a small piece of the linen you are wearing!’</p>
+          <p rend="firstIndent" xml:id="p_00007">When so addressed, the shepherd and his wife looked strangely at each other; finally he said: ‘God knows, we would willingly do so, and not just a small piece but the whole shirt and sark entire, had we but such – but we do not own a single thread!’</p>
+          <p rend="firstIndent" xml:id="p_00008">So the prince and princess had to travel on their mission unaccomplished. At last they grew tired of their futile wanderings and decided to turn homewards. When they happened to pass the wise man’s hut, they scolded him for having given them such bad advice. He was told of their entire journey.</p>
+          <p rend="firstIndent" xml:id="p_00009">Then the wise man smiled and said: ‘Have you really travelled completely in vain? Are you not returning home rich in experience?’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes,’ the prince replied, ‘I have experienced that contentment is a rare commodity on this earth!’</p>
+          <p rend="firstIndent" xml:id="p_00011">After which, the prince gave the princess his hand, they looked at each other with an expression of the most fervent love, and the wise man blessed them and said: ‘In your heart you have found the true talisman! Watch over it with great care, and never in all eternity will the evil spirit of discontent gain a hold over you!’</p>
+     </div>
+    <div type="workPart" rend="3. The Old God is Still Alive" xml:id="3-the-old-god-is-still-alive">
+          <head type="main" rend="3. The Old God is Still Alive">3. The Old God is Still Alive</head>
+          <p rend="noIndent" xml:id="p_00001">It was a Sunday morning. The bright, warm sun was shining into the room; the mild, refreshing air was streaming in through the open window and outside beneath God’s blue sky, where field and meadow stood green and in flower, all the small birds were rejoicing. While everything outside was joy and happiness, inside the house sorrow and misery resided. Even the wife, who was otherwise always of good heart, sat there at her breakfast and gazed down despondently, finally she got up and, without having tasted a bite, dried her eyes and went over towards the door.</p>
+          <p rend="firstIndent" xml:id="p_00002">And it really seemed as there was a curse upon this house. It was a time of scarcity in the land; trade was doing badly; taxes were becoming more and more oppressive; year by year housekeeping money grew less, and finally the only prospect left was poverty and misery. All of this had for some time depressed the man, who was otherwise an industrious and law-abiding citizen; now thinking of the future made him despair utterly, indeed, he even stated frequently that he would do himself a mischief and put an end to this miserable, hopeless life. Nothing helped, neither what his good-humoured wife said, nor the worldly and spiritual consolations of his friends – these only made him all the more taciturn and dismal. It is easy to grasp that his poor wife also ended up by losing heart. Although her despondency was of a completely different nature, as we shall soon hear.</p>
+          <p rend="firstIndent" xml:id="p_00003">When the man saw that his wife too was sorrowful and wanted to leave the room, he held her back and said: ‘I will not let you go out before you tell me what’s wrong with you!’</p>
+          <p rend="firstIndent" xml:id="p_00004">She remained silent a while longer, after which she gave a deep sigh and said: ‘Ah, dear husband, last night I dreamt that the old God was dead, and that all the angels followed him to the grave!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘How can you possibility believe or think such utter rubbish!’ the man replied. ‘Don’t you know that God can never die!’</p>
+          <p rend="firstIndent" xml:id="p_00006">Then the good woman’s face lit up with joy, and as she affectionately pressed both her husband’s hands, she exclaimed: ‘So the old God is still alive, then!’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Of course!’ the man answered, ‘Who could possibly doubt it!’</p>
+          <p rend="firstIndent" xml:id="p_00008">Then she embraced him, looked at him with gracious eyes that gleamed with trust, peace and happiness, while saying: ‘But oh, dead husband! if the old God is still alive, why do we not trust in him and rely on him! he has counted every single hair on our heads, not one strand falls out without his willing it, he clothes the lilies in the field, gives the sparrows their food and the ravens their prey!’</p>
+          <p rend="firstIndent" xml:id="p_00009">At these words the man felt as if scales had fallen from his eyes, and as if all the heavy bands around his heart had been loosened; for the first time in a long while he smiled and thanked his devout, dear wife for the ruse she had used to revive his dead belief in God and called back his trust. Then the sun shone in an even friendlier fashion into the room onto contented human faces, the air wafted even more refreshingly around the smiles on their cheeks, and the birds rejoiced even more loudly in their heartfelt gratitude to God.</p>
+     </div>
+
+<div type="workPart" rend="4. The Blue Mountains" xml:id="4-the-blue-mountains">
+          <head type="main" rend="The Blue Mountains">4. The Blue Mountains</head>
+          <p rend="noIndent" xml:id="p_00001">Not far from the mountains lived a quiet, devout community where every member lived off the crops their industry caused the earth to produce, and the milk got from the animals they tended in the meadows. When any of them ate and drank, it was always done in contentment and with thanks to God. Every morning, in particular, each and every one would go outdoors and with their faces turned eastwards, they would worship the Invisible God who made the sun appear from the beautiful blue mountains and caused the streams to plunge downwards and water their farmland and pastures while storms, full of majestic splendour, thundered and lightninged.</p>
+          <p rend="firstIndent" xml:id="p_00002">Now in this community there was a man who felt like taking a slightly closer look around him in the mountains and examining the watercourses, wind and weather. One day he set off and followed his urge.</p>
+          <p rend="firstIndent" xml:id="p_00003">After some time, he returned and said to the assembled community: ‘Dear friends, what you have believed until now about the blue mountains and a God up there is nothing like what you have supposed! We have been woefully mistaken. I have taken a close look at everything around us and found it to be completely different from what we believed it to be. The mountains that from here look so beautifully blue are jagged, barren rocks, and the waters that gush out of the caves are wild, destructive mountain torrents, wind and weather are natural mirages that arise and disappear of their own accord, the sun appears way beyond the far side of these mountains, and there is nothing to be seen anywhere in the blue mountains of a God whom we have been led to believe in.’</p>
+          <p rend="firstIndent" xml:id="p_00004">The community was taken aback at this statement from a man in whom they had great trust, and some, full of resentment, remarked: ‘In that case our fathers have deceived us, we have believed a fairy tale to be the truth!’ and from that time onward they did not go out any more to pray to a God who created wonders in the blue mountains, and from then on they worked reluctantly and lived with each other in discontent.</p>
+          <p rend="firstIndent" xml:id="p_00005">Many of them now went out into the mountains themselves in order to see what existed there that could be believed in, and they exhausted themselves in vain by climbing up and down, some fell into the abyss or got lost in the vast expanse of mountains so that they perished from starvation.</p>
+          <p rend="firstIndent" xml:id="p_00006">One of the wanderers, however, experienced a clearer illumination of the spirit, he looked at the immense blocks of rock and thought: ‘What power can have raised these? In my soul they arouse a mighty sense of grandeur!’ He was thirsty and found his way to the mountain stream, where he saw wild beast quench its thirst, and he praised him who let refreshment well out of the hard rock. From high up the mountain, he saw how this destructive mountain torrent calmly meandered down in the valley, led ships from town to town, and was of endless benefit to humanity. He observed the flight of the clouds and the changing winds, and saw that all of them were governed by their own particular laws. The sun rose every morning east of the mountain summit where he was standing, and set in the west, and he knelt down before the Invisible One which displayed its power in everything about it, and he realised the truth of the old belief that God lived in the blue mountains, but that one must not commit oneself to the dead letter of this belief but to the spirit contained within!</p>
+          <p rend="firstIndent" xml:id="p_00007">He then returned to his home, and preached his gospel to the community, and those who heard and were willing to understand worked once more with a happy heart, went outdoors daily as before and with their faces turned eastwards prayed to the Invisible One who caused the sun to rise, the waters to plunge down and the storms to thunder and lightning in the blue mountains, and when they had prayed with faith and devotion, they returned to their day’s work strengthened, and the work of their hands was blessed, and every reasonable wish of their hearts was fulfilled.</p>         
+     </div>
+<div rend="5. Hans and Grethe" xml:id="5-hans-and-grethe" type="workPart">
+          <head type="main" rend="Hans and Grethe">5. <hi rend="italic">Hans</hi> and <hi rend="italic">Grethe</hi></head>
+          <p rend="noIndent" xml:id="p_00001">Two brothers each owned a fine farm, and as the brothers were neighbours, they often visited each other and talked about their housekeeping and livelihood, the one could not praise his farmhand’s integrity highly enough, the other likewise the ingenuity of his servant girl. Now the elder brother had a magnificent stallion in his stable, the younger a lovely mare, both of the same colour and size. Again and again, conversation centred on these animals, the elder brother wanted to buy the mare, the young was interested in obtaining the stallion. They agreed that both animals ought to have but one master, but they never got down to doing business.</p>
+          <p rend="firstIndent" xml:id="p_00002">On one occasion when they once more were talking about the matter, the younger brother exclaimed: ‘Well now! I bet you that I, without your knowledge, can obtain the stallion, and that your honest farmhand himself will lead him to me!’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘And I,’ the elder brother said, ‘bet my stallion against your mare that this will not happen, for even if the farmhand were to steal him, he would tell me so!’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Oh, you believe that, do you!’ the younger one said.</p>
+          <p rend="firstIndent" xml:id="p_00005">‘I am sure of his honesty!’</p>
+          <p rend="firstIndent" xml:id="p_00006">The bet was made and the brothers parted.</p>
+          <p rend="firstIndent" xml:id="p_00007">The following morning the elder brother called his servant girl to him and told her of the wager between himself and his brother: ‘I now rely on your ingenuity!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘You leave that to me!’ <hi rend="italic">Grethe</hi> said and that same evening went over to the farmhand.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Good evening, <hi rend="italic">Hans</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Thank you, little <hi rend="italic">Grethe</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Industrious as ever, I see!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Yes, that is one’s duty and obligation!’</p>
+          <p rend="firstIndent" xml:id="p_00013">‘I have heard tell that you stable is as neat as a new pin. That I would dearly like to see!’</p>
+          <p rend="firstIndent" xml:id="p_00014"><hi rend="italic">Hans</hi> felt flattered and asked her to step inside. She praised what there was to be praised, and helped him with what he still had left to get done.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘That <hi rend="italic">Grethe</hi> is really a lovely, nice-natured girl!’ <hi rend="italic">Hans</hi> thought –</p>
+          <p rend="firstIndent" xml:id="p_00016">– The following day, it was a Saturday, <hi rend="italic">Grethe</hi> came once more.</p>
+          <p rend="firstIndent" xml:id="p_00017">‘Good evening, <hi rend="italic">Hans</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Thank you, little <hi rend="italic">Grethe</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00019">‘I hope you’re not angry that I’m back again today!’</p>
+          <p rend="firstIndent" xml:id="p_00020">‘No, how could you get such an idea!’</p>
+          <p rend="firstIndent" xml:id="p_00021">‘Have you already finished work for the day?’</p>
+          <p rend="firstIndent" xml:id="p_00022">‘Yes, I’ve finished everything! I have looked sharp about it, because, you know what, I was wondering if perhaps little <hi rend="italic">Grethe</hi> might come over here!’</p>
+          <p rend="firstIndent" xml:id="p_00023">They sat down and chatted. <hi rend="italic">Hans</hi> soon noticed that <hi rend="italic">Grethe</hi> was well able to speak for herself and that she was an extremely sensible girl, so he asked her if she would dance with him on Sunday afternoon.</p>
+          <p rend="firstIndent" xml:id="p_00024"><hi rend="italic">Grethe</hi> came and went together with <hi rend="italic">Hans</hi>. They danced until late in the evening. Then <hi rend="italic">Grethe</hi> said: ‘Good heavens, how late it’s become! I ought to have been home by now! You must saddle the stallion and ride home with me!’</p>
+          <p rend="firstIndent" xml:id="p_00025"><hi rend="italic">Hans</hi> didn’t need to be asked twice about this. He lifted her up onto his horse and they rode off into the dark evening. So that she wouldn’t fall off, he held his arm tightly around her, and as they rode, he simply had to tell her how fond he had grown of her. She now thought that this was the right moment to tell him what was on her mind: that her master very much wanted to have the stallion they were riding on, and that he had promised her a large reward, and if she got it, it would be a good dowry.</p>
+          <p rend="firstIndent" xml:id="p_00026">‘Will you do that, dear <hi rend="italic">Hans</hi>?’ she asked him and kissed him.</p>
+          <p rend="firstIndent" xml:id="p_00027">Now poor <hi rend="italic">Hans</hi> had to do as she asked, whether he wanted to or not, but how was he to conceal this theft from his master.</p>
+          <p rend="firstIndent" xml:id="p_00028">‘You must think of something!’ <hi rend="italic">Grethe</hi> said. ‘Say that this evening on your way home you got lost, and the wolves attacked you, so you had to abandon the horse. The wolves have devoured everything except the bones. You can take him out and show them to him – I’ll make sure that there are some bloody horse bones lying in the forest!’</p>
+          <p rend="firstIndent" xml:id="p_00029">That is what took place – <hi rend="italic">Hans</hi> let <hi rend="italic">Grethe</hi> keep the stallion and went home on foot.</p>
+          <p rend="firstIndent" xml:id="p_00030">But <hi rend="italic">Hans</hi> couldn’t sleep, it tormented him terribly how he was to present his lie in the morning, he couldn’t stay in bed, he had to get up and try out how he was to go about lying. He went out the door of his room, then knocked on it and entered once more, and turned towards a corner where a broom stood that was to represent his master.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘Good morning, <hi rend="italic">Hans</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00032">‘Thank you, good master!’</p>
+          <p rend="firstIndent" xml:id="p_00033">‘Well, how’s the stallion doing?’</p>
+          <p rend="firstIndent" xml:id="p_00034">‘Ah, master! The stallion –!’ and there he came to a halt, he couldn’t find anything to say. So he went out the door again, and did the same as before.</p>
+          <p rend="firstIndent" xml:id="p_00035">‘Good morning, <hi rend="italic">Hans</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00036">‘And to you’, good master!’</p>
+          <p rend="firstIndent" xml:id="p_00037">‘Well, how’s the stallion doing?’</p>
+          <p rend="firstIndent" xml:id="p_00038">‘Ah, master! The stallion –!’ and there he came to a halt again. The lie stuck in his throat and lay heavy on his heart.</p>
+          <p rend="firstIndent" xml:id="p_00039">Quite early in the morning he entered his master’s room.</p>
+          <p rend="firstIndent" xml:id="p_00040">‘Good morning, Hans!’</p>
+          <p rend="firstIndent" xml:id="p_00041">‘Thank you, good master!’</p>
+          <p rend="firstIndent" xml:id="p_00042">‘Well, how’s the stallion doing?’</p>
+          <p rend="firstIndent" xml:id="p_00043">‘Ah, dear master! The stallion –!’ he stopped speaking, but only for a moment, and then said: ‘The stallion has been stolen and I myself am the thief, just let me be hanged for it!’ He then told his master how it had all come about, that <hi rend="italic">Grethe</hi> had coaxed him, and that the stallion was with the master’s own brother.</p>
+          <p rend="firstIndent" xml:id="p_00044">His master was delighted with the proven honesty of his farmhand, forgave him and even promised a reward, just as the brother had promised his servant girl. ‘If it is still your serious intention to marry <hi rend="italic">Grethe</hi>,’ he said, ‘bring her with you into the house here and then I will not only have an honest farmhand but an ingenious woman as well!’</p>
+          <p rend="firstIndent" xml:id="p_00045">That greatly pleased <hi rend="italic">Hans</hi>; honesty had won the bet, while the other brother, who only put his trust in ingenuity, had to give up both his servant girl and the mare – and that was as it should be.</p>
+     </div>
+               </div>
+</body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?> <?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En Historie</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability default="false">
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/" part="N">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p part="N">Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc default="false">
+                                             <listBibl default="false">
+                                                  <bibl default="false" status="draft">
+                                                             
+      <p rend="noIndent" part="N">Trykt første gang i Freja. Nordisk Album for Poesi og Kunst, bind I, nr. 1, redigeret af Carl Borgård, som udkom den 5. oktober 1845.<br/>
+BFN 481/IV,46-49/VII,233-234.</p><p rend="noIndent" part="N">Trykt første gang i Fædrelandet, nr. 79, den 3. april 1849.<br/>
+BFN 549/II,209-212/VII,135-136.</p>    
+      </bibl>
+                                                  <biblStruct default="false" status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-historie.xml" type="originalDanish" anchored="true">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl default="false" status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData default="false"/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1845</date>
+                                        </creation>
+                                        <textClass default="false">
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="En Historie" xml:id="en-historie" part="N" org="uniform" sample="complete">
+<pb n="377"/><head type="main">En historie</head>
+
+<lg xml:id="p_00001" part="N" org="uniform" sample="complete">
+<l part="N"><seg target="txtcmnt-377-01" type="dfnStart" part="N"/><!--DATA-TERM: Ich hab’ … erblickt--><!--DATA-DEFINITION: »Jeg har en gammel moster, / som har en gammel lille bog, / der ligger i den gamle bog / et gammelt, tørt blad. / Så tørre er vel også hænderne, / som engang i våren plukkede det. / Hvad vil den gamle mon have? / Hun græder, så ofte hun ser det!« Citatet stammer fra digtet »Das Blatt im Buche« (i <i>Gedichte</i>, 1837) af den østrigske digter og statsmand Anastasius Grün, pseudonym for Anton Alexander Graf von Auersperg (1806-1876).-->Ich hab’ eine alte <?oxy_delete author="as" timestamp="20230823T141722+0200" content="m"?><?oxy_insert_start author="as" timestamp="20230823T141722+0200"?>M<?oxy_insert_end?>uhme,</l>
+<l part="N">Die ein altes <?oxy_delete author="as" timestamp="20230823T141726+0200" content="b"?><?oxy_insert_start author="as" timestamp="20230823T141726+0200"?>B<?oxy_insert_end?>üchlein hat,</l>
+<l part="N"><?oxy_delete author="as" timestamp="20230829T115942+0200" content="E"?><?oxy_insert_start author="as" timestamp="20230829T115941+0200"?>e<?oxy_insert_end?>s liegt in dem alten <?oxy_delete author="as" timestamp="20230823T141731+0200" content="b"?><?oxy_insert_start author="as" timestamp="20230823T141731+0200"?>B<?oxy_insert_end?>uche</l>
+<l part="N"><?oxy_delete author="as" timestamp="20230829T120042+0200" content="E"?><?oxy_insert_start author="as" timestamp="20230829T120041+0200"?>e<?oxy_insert_end?>in altes, dürres <?oxy_insert_start author="as" timestamp="20230823T141736+0200"?>B<?oxy_insert_end?>blatt.</l>
+<l part="N">So dürr sind wohl auch die <?oxy_delete author="as" timestamp="20230823T141742+0200" content="h"?><?oxy_insert_start author="as" timestamp="20230823T141742+0200"?>H<?oxy_insert_end?>ände,</l>
+<l part="N"><?oxy_delete author="as" timestamp="20230829T120046+0200" content="D"?><?oxy_insert_start author="as" timestamp="20230829T120048+0200"?>d<?oxy_insert_end?>ie einst im <?oxy_delete author="as" timestamp="20230823T141747+0200" content="l"?><?oxy_insert_start author="as" timestamp="20230823T141747+0200"?>L<?oxy_insert_end?>enz ihr’s gepflückt.</l>
+<l part="N">Was mag doch die <?oxy_delete author="as" timestamp="20230823T141753+0200" content="a"?><?oxy_insert_start author="as" timestamp="20230823T141753+0200"?>A<?oxy_insert_end?>lte haben?</l>
+<l part="N">Sie weint, so oft sie’s erblickt<seg target="txtcmnt-377-01" type="dfnEnd" part="N"/>!</l>
+<l rend="right" part="N"><hi rend="italic">Anastasius Grün</hi></l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00002" part="N">Bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> er så gammel, hun har så mange rynker og et ganske hvidt hår, men hendes øjne de skinne<?oxy_insert_start author="as" timestamp="20230823T142350+0200"?>r<?oxy_insert_end?> ligesom to stjerner, ja<?oxy_insert_start author="as" timestamp="20230823T142354+0200"?>,<?oxy_insert_end?> de er meget smukkere, de er så milde, så velsignede at se ind i<?oxy_delete author="as" timestamp="20230823T142414+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230823T142414+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T142416+0200" content=" o"?><?oxy_insert_start author="as" timestamp="20230823T142416+0200"?> O<?oxy_insert_end?>g så kan hun de dejligste historier<?oxy_insert_start author="as" timestamp="20230823T142423+0200"?>,<?oxy_insert_end?> og hun har en kjole med store blomster, det er sådan<?oxy_delete author="as" timestamp="20230823T142430+0200" content="t"?> noget tykt silketøj, det rasler. Bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> ved så meget, for hun har levet længe førend <?oxy_delete author="as" timestamp="20230823T141944+0200" content="fader"?><?oxy_insert_start author="as" timestamp="20230823T141944+0200"?>far<?oxy_insert_end?> og <?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T142448+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230823T142448+0200"?>,<?oxy_insert_end?> det er ganske vist! Bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> har en salmebog med tykke spænder af sølv<?oxy_insert_start author="as" timestamp="20230823T142456+0200"?>,<?oxy_insert_end?> og i den bog læser hun tit<?oxy_insert_start author="as" timestamp="20230823T142500+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T142501+0200" content="; m"?><?oxy_insert_start author="as" timestamp="20230823T142501+0200"?> M<?oxy_insert_end?>idt i den ligger en rose, den er ganske flad og tør, den er ikke så smuk<?oxy_delete author="as" timestamp="20230823T142512+0200" content=","?> som roserne<?oxy_delete author="as" timestamp="20230823T142514+0200" content=","?> hun har i glasset<?oxy_insert_start author="as" timestamp="20230823T142518+0200"?>,<?oxy_insert_end?> og dog smiler hun allervenligst til den, ja<?oxy_insert_start author="as" timestamp="20230823T142528+0200"?>,<?oxy_insert_end?> der komme tårer i hendes øjne! Hvorfor mon bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> således ser på den visne blomst i den gamle bog?</p>
+
+<p rend="firstIndent" xml:id="p_00003" part="N">Ved du det? <?oxy_delete author="as" timestamp="20230823T142956+0200" content="– "?>Hver gang bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>s tårer falde<?oxy_insert_start author="as" timestamp="20230823T142818+0200"?>r<?oxy_insert_end?> på blomsten, da blive farverne mere friske, da svulmer rosen<?oxy_insert_start author="as" timestamp="20230823T142840+0200"?>,<?oxy_insert_end?> og hele stuen fyldes med duft, væggene synke<?oxy_insert_start author="as" timestamp="20230823T142845+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T142848+0200" content=","?> som var de kun tåger, og rundt om er det den grønne, den dejlige skov<?oxy_delete author="as" timestamp="20230823T142918+0200" content=","?> hvor solen skinner mellem bladene, og bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> – ja, hun er ganske ung, hun er en dejlig pige med gule hår, med runde, røde kinder, smuk og yndig, ingen rose er mere frisk<?oxy_insert_start author="as" timestamp="20230823T142943+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T142944+0200" content="; d"?><?oxy_insert_start author="as" timestamp="20230823T142944+0200"?> D<?oxy_insert_end?>og øjnene, de milde, velsignede øjne – jo, de er endnu bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>s! <?oxy_delete author="as" timestamp="20230823T142954+0200" content="– "?>Ved hendes side sidder en mand, ung og kraftig, han rækker hende rosen og hun smiler – således smiler dog ikke bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>! – Jo, smilet kommer<?oxy_delete author="as" timestamp="20230823T143011+0200" content=","?> – han er borte, der gå mange tanker, mange skikkelser forbi! <?oxy_delete author="as" timestamp="20230823T143019+0200" content="– "?>Den smukke mand er <pb n="378"/><?oxy_delete author="as" timestamp="20230823T143023+0200" content="B"?><?oxy_insert_start author="as" timestamp="20230823T143023+0200"?>b<?oxy_insert_end?>orte, rosen ligger i salmebogen<?oxy_insert_start author="as" timestamp="20230823T143038+0200"?>,<?oxy_insert_end?> og bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143041+0200" content=","?> – ja, hun sidder igen som en gammel kone og ser på den visne rose<?oxy_delete author="as" timestamp="20230823T143101+0200" content=","?> der ligger i bogen.</p>
+
+<p rend="firstIndent" xml:id="p_00004" part="N"><?oxy_delete author="as" timestamp="20230823T143105+0200" content="– n"?><?oxy_insert_start author="as" timestamp="20230823T143105+0200"?>N<?oxy_insert_end?>u er bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> død!</p>
+
+<p rend="firstIndent" xml:id="p_00005" part="N">Hun sad i lænestolen og fortalte en dejlig historie<?oxy_insert_start author="as" timestamp="20230823T143112+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143113+0200" content=", h"?><?oxy_insert_start author="as" timestamp="20230823T143113+0200"?> H<?oxy_insert_end?>un sagde at nu var den ude, at nu var hun træt, og hun lagde sit hoved tilbage for at sove<?oxy_insert_start author="as" timestamp="20230823T143120+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143121+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230823T143121+0200"?> H<?oxy_insert_end?>un trak vejret, hun sov, men det blev mere og mere stille<?oxy_insert_start author="as" timestamp="20230823T143127+0200"?>,<?oxy_insert_end?> og hendes ansigt var så fuldt af fred og lykke, det var ligesom der gik solskin over det<?oxy_insert_start author="as" timestamp="20230823T143245+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143246+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230823T143246+0200"?> H<?oxy_insert_end?>un smilede, og så sagde de at hun var død.</p>
+
+<p rend="firstIndent" xml:id="p_00006" part="N">Hun blev lagt i <seg target="txtcmnt-378-01" part="N"><!--DATA-TERM: den sorte Kiste--><!--DATA-DEFINITION: den almindelige farve på kister i 1800-tallet.-->den sorte kiste</seg>, hun blev lagt i det hvide linned<?oxy_insert_start author="as" timestamp="20230823T143311+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143312+0200" content=", h"?><?oxy_insert_start author="as" timestamp="20230823T143312+0200"?> H<?oxy_insert_end?>un var så smuk, og dog var øjnene lukke<?oxy_insert_start author="as" timestamp="20230823T143323+0200"?>t<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T143325+0200" content="de"?>, men alle rynker var borte, hun lå med smil om munden<?oxy_delete author="as" timestamp="20230823T143334+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230823T143334+0200"?>. H<?oxy_insert_end?>endes hår var så sølvhvidt, så ærværdigt, man blev slet ikke bange ved at se på den døde, det var jo den søde, ejegode bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>. Og salmebogen blev lagt i kisten under hendes hoved, det havde hun selv forlangt, og rosen lå i den gamle bog, og så begravede de bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>.</p>
+
+<p rend="firstIndent" xml:id="p_00007" part="N">På graven<?oxy_delete author="as" timestamp="20230823T143358+0200" content=","?> tæt under kirkemuren<?oxy_delete author="as" timestamp="20230823T143401+0200" content=","?> plantede de et rosentræ, og det stod fuldt af roser<?oxy_insert_start author="as" timestamp="20230823T143411+0200"?>,<?oxy_insert_end?> og de nikkede i <?oxy_delete author="as" timestamp="20230823T143414+0200" content="V"?><?oxy_insert_start author="as" timestamp="20230823T143414+0200"?>v<?oxy_insert_end?>inden og sagde til hverandre: »Hvor det er dejligt at blomstre i det varme solskin! Hvor det er dejligt at bade sig i dug og måneskin! Og når man så er allersmukkest, kommer en kærlig hånd og plukker os til den dejligste pige. Hvor vi <?oxy_delete author="as" timestamp="20230823T143437+0200" content="ville"?><?oxy_insert_start author="as" timestamp="20230823T143437+0200"?>vil<?oxy_insert_end?> rødme, hvor vi <?oxy_delete author="as" timestamp="20230823T143517+0200" content="ville"?><?oxy_insert_start author="as" timestamp="20230823T143517+0200"?>vil<?oxy_insert_end?> dufte!«</p>
+
+<p rend="firstIndent" xml:id="p_00008" part="N">Og nattergalen hørte hvad roserne sagde, og nattergalen sang om rosen<?oxy_delete author="as" timestamp="20230823T143549+0200" content=","?> som den unge pige lagde i sin salmebog, om rosen som gemtes der til de friske kinder var runkne, til den unge pige var en gammel kone. Det er dejligt at leve i erindringen!</p>
+
+<p rend="firstIndent" xml:id="p_00009" part="N">Og mens nattergalen sang over roserne og over graven, spillede orgelet i kirken de smukke salmer<?oxy_delete author="as" timestamp="20230823T143959+0200" content=","?> der stod i bogen under den dødes hoved<?oxy_delete author="as" timestamp="20230823T144009+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230823T144009+0200"?>,<?oxy_insert_end?> og månen skinnede så stor og så rund, men de døde var her ikke<?oxy_insert_start author="as" timestamp="20230823T144014+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T144015+0200" content="; e"?><?oxy_insert_start author="as" timestamp="20230823T144015+0200"?> E<?oxy_insert_end?>thvert barn <?oxy_delete author="as" timestamp="20230823T141902+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230823T141902+0200"?>kunne<?oxy_insert_end?> ved nattetid roligt gå hen og plukke en rose der ved kirkegårdsmuren. <?oxy_comment_start author="as" timestamp="20230823T144126+0200" comment="i tvivl om accenten her. Originalen har &quot;Een død&quot;, så derved kan den vel godt beholdes?"?>Én<?oxy_comment_end?> død ved mere end alle vi levende v<?oxy_insert_start author="as" timestamp="20230823T144050+0200"?>ed<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T144057+0200" content="ide"?>. De døde kende<?oxy_insert_start author="as" timestamp="20230823T141917+0200"?>r<?oxy_insert_end?> den angst vi <?oxy_delete author="as" timestamp="20230823T141912+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230823T141913+0200"?>ville<?oxy_insert_end?> føle ved det sælsomme<?oxy_delete author="as" timestamp="20230823T144155+0200" content=","?> om de stod frem imellem os<?oxy_delete author="as" timestamp="20230823T144212+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230823T144212+0200"?>.<?oxy_insert_end?> De døde er gode og kærlige, de <?oxy_delete author="as" timestamp="20230823T144217+0200" content="ville"?><?oxy_insert_start author="as" timestamp="20230823T144217+0200"?>vil<?oxy_insert_end?> ikke skrække os, de komme<?oxy_insert_start author="as" timestamp="20230823T144221+0200"?>r<?oxy_insert_end?> ikke. Der er jord over kisten, der er jord inden i den, salmebogens blade er støv, rosen med alle sine erindringer falder i støv, men ovenover blomstre<?oxy_insert_start author="as" timestamp="20230823T144316+0200"?>r<?oxy_insert_end?> nye roser, ovenover synger nattergalen<?oxy_insert_start author="as" timestamp="20230823T144323+0200"?>,<?oxy_insert_end?> og orgelet spiller<?oxy_insert_start author="as" timestamp="20230823T144331+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230823T144332+0200" content="; m"?><?oxy_insert_start author="as" timestamp="20230823T144332+0200"?> M<?oxy_insert_end?>an tænker på den kære gamle bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?> med de milde, evig <pb n="379"/><?oxy_delete author="as" timestamp="20230823T144345+0200" content="U"?><?oxy_insert_start author="as" timestamp="20230823T144343+0200"?>u<?oxy_insert_end?>nge øjne. <?oxy_delete author="as" timestamp="20230823T144352+0200" content="– "?>Øjne kunne aldrig dø<?oxy_delete author="as" timestamp="20230823T144356+0200" content=","?> – vore <?oxy_delete author="as" timestamp="20230823T144358+0200" content="skulle"?><?oxy_insert_start author="as" timestamp="20230823T144358+0200"?>skal<?oxy_insert_end?> engang se hende ung og smuk<?oxy_delete author="as" timestamp="20230823T144403+0200" content=","?> som da hun første gang kyssede den friske røde rose<?oxy_delete author="as" timestamp="20230823T144409+0200" content=","?> der nu er støv i graven.</p>
+
+
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="En Historie" xml:id="en-historie" part="N" org="uniform" sample="complete">
+<head type="section-comments">En Historie</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Freja. Nordisk Album for Poesi og Kunst, bind I, nr. 1, redigeret af Carl Borgård, som udkom den 5. oktober 1845.<br/>
+BFN 481/IV,46-49/VII,233-234.</p>
+
+<p rend="noIndent" part="N">I forbindelse med en planlagt tysk oversættelse og udgivelse i det aldrig realiserede opsamlingsbind Aus meiner Mappe ændrede H.C. Andersen i 1847 titlen til »Bedste<?oxy_delete author="as" timestamp="20230823T141933+0200" content="moder"?><?oxy_insert_start author="as" timestamp="20230823T141933+0200"?>mor<?oxy_insert_end?>«; en titel, som blev bevaret, da teksten indgik i kapitel V i rejseskildringen I Sverrig, 1851. Optaget med enkelte ændringer i Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen, 4. hefte, der udkom den 9. februar 1863 (hefterne 1-3 udgør tilsammen udgavens første bind, 1862, hefterne 4-6 udgør dens andet bind, 1863). Denne udgave følger førstetrykket fra Freja.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">377</cell><row xml:id="txtcmnt-377-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Ich hab’ … erblickt</cell><cell type="data-definition" role="data" rows="1" cols="1">»Jeg har en gammel moster, / som har en gammel lille bog, / der ligger i den gamle bog / et gammelt, tørt blad. / Så tørre er vel også hænderne, / som engang i våren plukkede det. / Hvad vil den gamle mon have? / Hun græder, så ofte hun ser det!« Citatet stammer fra digtet »Das Blatt im Buche« (i Gedichte, 1837) af den østrigske digter og statsmand Anastasius Grün, pseudonym for Anton Aleksander Graf von Auersperg (1806-1876).</cell></row>
+<cell type="page" role="data" rows="1" cols="1">378</cell><row xml:id="txtcmnt-378-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">den sorte Kiste</cell><cell type="data-definition" role="data" rows="1" cols="1">den almindelige farve på kister i 1800-tallet.</cell></row>
+</table>
+
+</div><div type="work-comments" rend="Hørren, en Historie" xml:id="hørren-en-historie" part="N" org="uniform" sample="complete">
+<head type="section-comments">Hørren, en Historie</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Fædrelandet, nr. 79, den 3. april 1849.<br/>
+BFN 549/II,209-212/VII,135-136.</p>
+
+<p rend="noIndent" part="N">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">454,21</cell><cell type="deviation" role="data" rows="1" cols="1">»Solen &lt; Solen</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">455,1</cell><cell type="deviation" role="data" rows="1" cols="1">Pine. &lt; Pine,</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">456,12</cell><cell type="deviation" role="data" rows="1" cols="1">nu &lt; Nu</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">457,23</cell><cell type="deviation" role="data" rows="1" cols="1">Væsener &lt; Væsener,</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">454</cell><row xml:id="txtcmnt-454-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Gjerdestav(ene)</cell><cell type="data-definition" role="data" rows="1" cols="1">de pæle, hvorom risene i et risgærde er viklet.</cell></row><row xml:id="txtcmnt-454-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Knuder</cell><cell type="data-definition" role="data" rows="1" cols="1">knaster.</cell></row><row xml:id="txtcmnt-454-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Snip … ude</cell><cell type="data-definition" role="data" rows="1" cols="1">gammel børneremse; jf. Tang 2739-2741.</cell></row><row xml:id="txtcmnt-454-04" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">ruskede</cell><cell type="data-definition" role="data" rows="1" cols="1">rev.</cell></row><row xml:id="txtcmnt-454-05" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">lagt i Vand</cell><cell type="data-definition" role="data" rows="1" cols="1">for at få træstofferne til at gå i opløsning og løsne dem fra taverne (fibrene, trævlerne) blev hørren lagt i en mergelgrav e.l. Efter en uges tid i vand blev hørren spredt over kornstubbene på de nyhøstede marker for at tørre. I løbet af vinteren skulle den brydes, dvs. tørres yderligere ved ild, og barken knuses.</cell></row><row xml:id="txtcmnt-454-06" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">skettet og hæglet</cell><cell type="data-definition" role="data" rows="1" cols="1">for at fjerne de sidste, træede dele blev hørren yderligere skættet, dvs. banket, på et specielt skættetræ, inden den blev heglet igennem, dvs. blåren (fibrene) skilt fra ved at blive ført gennem er kartelignende redskab. Til sidst blev de tynde, bløde hørtaver snoet sammen i dukker (knipper). Dermed var den klar til spinding.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">455</cell><row xml:id="txtcmnt-455-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Pigen … hver Aften</cell><cell type="data-definition" role="data" rows="1" cols="1">efter vævningen blev det færdige hørlærred kogt med bøgeaske for at blive hvidt og blødt og blev derpå lagt til blegning på græsset, hvor det ved vanding blev yderligere hvidt.</cell></row><row xml:id="txtcmnt-455-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Lintøj … nævner</cell><cell type="data-definition" role="data" rows="1" cols="1">underbukser.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">456</cell><row xml:id="txtcmnt-456-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">måtte ikke sælges</cell><cell type="data-definition" role="data" rows="1" cols="1">fordi det er skrevet på med blæk, der kan gå i forbindelse med det indpakkede.</cell></row><row xml:id="txtcmnt-456-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Spekhøkeren</cell><cell type="data-definition" role="data" rows="1" cols="1">forhandler af viktualier, smør, æg, brød og andre dagligvarer.</cell></row><row xml:id="txtcmnt-456-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">gesvindt</cell><cell type="data-definition" role="data" rows="1" cols="1">hurtigt.</cell></row><row xml:id="txtcmnt-456-04" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Børnene, der gå af Skole</cell><cell type="data-definition" role="data" rows="1" cols="1">(udtryk anvendt over for børn) om gnister, der ligesom løber hen over næsten udbrændt papir o.l.; talemåde om de sidste, udgående gløder.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+<?oxy_options track_changes="on"?>

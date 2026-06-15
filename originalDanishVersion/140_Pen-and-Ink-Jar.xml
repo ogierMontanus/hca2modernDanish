@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Pen and Ink Jar</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="pen-og-blaekhuus">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="pen-og-blaekhuus_modern.xml">moderniseret version</note>
+                                                       <note target="140_Pen-and-Ink-Jar.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In a poet’s room, while the ink jar standing on the table was being looked at, t...</incipit><idno type="image">Pen_og_Blaekhuus_forside.png</idno><popularity>912</popularity><cite>&lt;p&gt;Hans Christian Andersen: Pen and Ink Jar. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-30" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-30" who="NHB">formatted</change><change who="NHB" when="2022-09-30">added a set of italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="Pen and Ink Jar">
+          <head type="main" rend="Pen and Ink Jar">Pen and Ink Jar</head>                <p rend="noIndent" xml:id="p_00001">In a poet’s room, while the ink jar standing on the table was being looked at, this was once said: ‘It’s remarkable all the things that can come out of that ink jar! I wonder what’s due next? Yes, it’s remarkable!’</p>
+          <p rend="firstIndent" xml:id="p_00002">‘It certainly is!’ the <hi rend="italic">ink jar</hi> said. ‘It’s incomprehensible! that’s what I always say!’ it said to the quill and to whatever else was on the table that could hear it. ‘It’s remarkable all the things that can come out of me! yes, it’s almost incredible! and I really don’t know what the next thing will be when that human starts drawing ink from me. One drop of me, that’s enough for half a sheet of paper, and what can’t be put onto that. I am something quite remarkable! all the writer’s works derive from me! these living characters that people think they know, these intense feelings, this good humour, these lovely descriptions of nature; – I can’t comprehend it myself, for I am unfamiliar with nature, but it’s there inside me all the same! from me have come and continue to come this host of light-footed, lovely girls, gallant knights on snorting chargers, Peter Hour-Striker and Kirsten Quarter-Chimer! yes, I don’t understand it myself! I assure you, it comes without thinking!’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘You’re right about that!’ the <hi rend="italic">quill</hi> said; you don’t think at all, for if you did think, you’d realise that fluid is all you provide! You provide fluid so that I can express and make visible on paper what is inside me, what I write down. The pen is what does the writing! no human is in any doubt about that, and most humans have just as much insight into poetry as an old ink jar!’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘You have but little experience!’ the <hi rend="italic">ink jar</hi> said. ‘You’ve hardly been a week in service and are half worn-out already. Do you fondly imagine you are the poet! You are merely a domestic servant, and I have had many such as you before you came, both of the goose family and of English manufacture; I am familiar with both quill pen and steel pen! I have had many in service and will have many more when the human who makes the movements for me comes and writes down what he gets from what is inside me. I wonder what the first thing will be that he lifts out of me!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘Ink pot!’ the <hi rend="italic">pen</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00006">Late that evening the poet returned home, he had been to a concert, heard an excellent violinist and had been captivated and enchanted by his wonderful playing. It had been an astonishing cascade of notes he had extracted from his instrument: at times it sounded like sonorous drops of water, pearl after pearl, at other times like a chorus of chirruping birds, as if a gale roared through a pine forest, he seemed to hear his own heart crying, but in a melody as can be heard in a woman’s lovely voice. It had been as if not only the strings of the violin sounded but the bridge as well, even the pegs and sounding board! it was extraordinary! and it had been difficult, but seemed like effortless play, as if the bow simply ran back and forth over the strings, one would almost think that anyone could have imitated it. The violin sounded of its own accord, the bow played by itself, these two brought about everything, one forgot the master who was in charge of them, gave them life and spirit; the <hi rend="italic">Master</hi> was forgotten; but the poet thought about him, named him and wrote down his thoughts on the subject:</p>
+          <p rend="firstIndent" xml:id="p_00007">‘How foolish if the bow and the violin were to feel high and mighty about their own actions! and that is what we humans, the poet, the artist, the scientific inventor, the general all do – we feel high and mighty, – and yet all of us are merely instruments on which <hi rend="italic">Our Lord</hi> plays; to <hi rend="italic">Him</hi> alone be the Glory! we have nothing to be high and mighty about!’</p>
+          <p rend="firstIndent" xml:id="p_00008">Yes, that was what the <hi rend="italic">poet</hi> wrote down, wrote it as a parable and called it <hi rend="italic">‘The Master and the Instruments’</hi>.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘That’s you put in your place, Madam!’ the <hi rend="italic">pen</hi> said to the <hi rend="italic">ink jar</hi> when the two of them were alone again. ‘You surely heard him read what I’d written down!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Yes, what I provided you with to do the writing!’ the <hi rend="italic">ink jar</hi> said. ‘That was a dig at you for your haughtiness! that you actually fail even to understand that you are being made a fool of! I gave you a dig from what’s inside me! I should know my own mischievousness!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Ink lackey!’ the <hi rend="italic">pen</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Writing stick!’ the <hi rend="italic">ink jar</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00013">And each of them felt aware of the fact that they had answered well, and it’s an agreeable awareness to have that one has answered well, you can sleep on that and they slept on it; but the <hi rend="italic">poet</hi> did not sleep! his thoughts welled forth like the notes from the violin, trilling like pearls, roaring like the gale through the forest, he could sense his own heart in there, he sensed the glint from the eternal master.</p>
+          <p rend="firstIndent" xml:id="p_00014"><hi rend="italic">To Him alone be the Glory!</hi></p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

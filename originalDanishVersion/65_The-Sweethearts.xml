@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Sweethearts</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="kjaerestefolkene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="kjaerestefolkene_modern.xml">moderniseret version</note>
+                                                       <note target="65_The-Sweethearts.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The top and the ball lay together among other toys, and one day the top said to ...</incipit><idno type="image">Kjaerestefolkene_forside.png</idno><popularity>980</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Sweethearts. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2022-07-28">added italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">replaced top>ball in the necessary places</change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Sweethearts">
+          <head type="main" rend="The Sweethearts">The Sweethearts</head>                <p rend="noIndent" xml:id="p0001">The <hi rend="italic">top</hi> and the <hi rend="italic">ball</hi> lay together among other toys, and one day the <hi rend="italic">top</hi> said to the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>-->: ‘How about us becoming sweethearts, since we lie in the same drawer together after all?’ But the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>-->, which had been sewn out of morocco leather and fancied itself as much as any fine young lady, refused to reply to something like that.</p>
+          <p rend="firstIndent" xml:id="p0002">The next day the boy who owned the toys came, he painted over the <hi rend="italic">top</hi> with red and yellow, and drove a brass nail in midway up it – it looked so splendid when the <hi rend="italic">top</hi> spun round.</p>
+          <p rend="firstIndent" xml:id="p0003">‘Look at me!’ it said to the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>-->. ‘What do you say now? How about being sweethearts, we go so well together, you leap and I dance! no one could be happier than us two!’</p>
+          <p rend="firstIndent" xml:id="p0004">‘Oh, so that’s what you think!’ the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> said, ‘you’re probably unaware that my father and mother were morocco slippers, and that I have a cork stuck in me!’</p>
+          <p rend="firstIndent" xml:id="p0005">‘Yes, but I’m made of mahogany!’ the <hi rend="italic">top</hi> said, ‘and the town bailiff himself turned me, he has his own lathe, and a great deal of pleasure he got from it too!’</p>
+          <p rend="firstIndent" xml:id="p0006">‘Oh yes, can I rely on that?’ the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> said.</p>
+          <p rend="firstIndent" xml:id="p0007">‘May I never be whipped if I tell a lie!’ the <hi rend="italic">top</hi> replied.</p>
+          <p rend="firstIndent" xml:id="p0008">‘You’re very good at stating your case,’ the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> said, ‘but I still can’t because I’m half-engaged to a swallow! Every time I shoot up in the air, it sticks its head out of its nest and says “Will you?” and now I’ve inwardly said yes, and that’s as good as a half-engagement! but I promise I’ll never forget you!’</p>
+          <p rend="firstIndent" xml:id="p0009">‘Well, a fine help that is!’ the <hi rend="italic">top</hi> said, and after that they didn’t speak to each other.</p>
+          <p rend="firstIndent" xml:id="p0010">The next day the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> was taken out; the <hi rend="italic">top</hi> could see how it leapt high into the air, just like a bird, until finally one couldn’t even catch sight of it. Every time it came back again, but then it took another great leap once it touched the ground, and that came either from longing, or because it had a cork stuck in it. After the ninth bounce the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> disappeared and didn’t come back; the boy searched and searched, but it was simply gone.</p>
+          <p rend="firstIndent" xml:id="p0011">‘I’m sure I know where it is!’ the <hi rend="italic">top</hi> sighed, ‘it’s in the swallow’s nest and has married the swallow!’</p>
+          <p rend="firstIndent" xml:id="p0012">The more the <hi rend="italic">top</hi> thought about it, the more infatuated with the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> he became: just because he could not have her, his love grew stronger and stronger; the fact she had chosen another, that was the strange thing about it; and the <hi rend="italic">top</hi> danced round and spun, but all the time he thought about the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>-->, which in his thoughts became more and more beautiful. Many years passed – – and eventually it was just an old love affair.</p>
+          <p rend="firstIndent" xml:id="p0013">And the <hi rend="italic">top</hi> was no longer young – ! but then one day it was completely gilded, it had never looked so handsome; now it was a gold <hi rend="italic">top</hi> and it leapt and spun till it hummed. Now that was something! but suddenly it leapt too high and – it was gone!</p>
+          <p rend="firstIndent" xml:id="p0014">They searched and searched, even down in the cellar, but it was nowhere to be found.</p>
+          <p rend="firstIndent" xml:id="p0015">– – Where was it?</p>
+          <p rend="firstIndent" xml:id="p0016">It had leapt into the rubbish bin, where all sorts of things lay: cabbage stalks, sweepings and grit that had fallen down from the gutter.</p>
+          <p rend="firstIndent" xml:id="p0017">‘Now I’m in a right mess! here all my gilding will soon wear off! and what riff-raff I’ve ended up with!’ and it looked askance at a long cabbage stalk that had been pared right down, and at a strange round object that looked like an old apple – but it wasn’t an apple, it was an old <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> that had lain for many years in the gutter and that the water had soaked through.</p>
+          <p rend="firstIndent" xml:id="p0018">‘Thank heavens, here’s someone who is one’s equal, who one can talk to!’ the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>--> said and gazed at the gilded <hi rend="italic">top</hi>.</p>
+          <p rend="firstIndent" xml:id="p0019">‘I’m actually made of morocco leather, sewn by young maidens’ hands, and have a cork stuck in me, but no one would ever guess from looking at me! I was on the point of marrying a swallow, but then I fell into the gutter on the roof and have lain there for five years and soaked! That’s a long time, believe you me, for a young lady!’</p>
+          <p rend="firstIndent" xml:id="p0020">But the <hi rend="italic">top</hi> didn’t say anything, he was thinking of his old sweetheart, and the more he heard, the more he realised that it was her.</p>
+          <p rend="firstIndent" xml:id="p0021">Then the servant maid came and wanted to empty the bin: ‘Hello there, there’s the gold <hi rend="italic">top</hi>!’ she said.</p>
+          <p rend="firstIndent" xml:id="p0022">And the <hi rend="italic">top</hi> was returned to the living room and was greatly revered, but nothing more was heard about the <hi rend="italic">ball</hi><!--<hi rend="italic">top</hi>-->, and the <hi rend="italic">top</hi> never spoke again of its former love; love passes when one’s sweetheart has lain for five years and soaked in a gutter, indeed, one would never recognise her when one meets her in the rubbish bin.</p>     </div>
+               
+</body>
+                         </text>
+                    </TEI>

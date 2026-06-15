@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Livingstones Datter og H. C. Andersen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="livingstones-datter-og-h-c-andersen" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Livingstones Datter og H. C. Andersen" xml:id="livingstones-datter-og-h-c-andersen">
+<div type="source"><source>Fra</source> <sourceTitle>Berlingske politiske og Avertissements-Tidende</sourceTitle>
+<sourceDate>1872</sourceDate>
+</div>
+<pb n="554"/>
+<pb n="555"/>
+<head type="part"><seg target="txtcmnt-555-01"><!--DATA-TERM: Livingstones Datter--><!--DATA-DEFINITION: Anna Mary Livingstone (1858-1939), datter af den skotske missionær og opdagelsesrejsende David Livingstone (1813-1873) og Mary Moffat (1821-1862).-->Livingstones Datter</seg> og H. C. Andersen</head>
+<p rend="noIndent" xml:id="p_01278">Den berømte Reisende <hi rend="italic">Livingstones</hi> lille Datter <hi rend="italic">Mary</hi> har allerede i et Par Aar flere Gange skrevet til <hi rend="italic">H. C. Andersen</hi> og i barnligt Sind strax i sit første Brev sagt: »Naar Papa kommer fra Afrika, komme vi begge To til Danmark og besøge Hans Christian Andersen«. Iforgaars er der igjen kommet et Brev fra den lille Pige, hvori hun fortæller, at hun af en Slægtning nylig fik en Foræring af en <seg target="txtcmnt-555-02"><!--DATA-TERM: Sovereign--><!--DATA-DEFINITION: britisk møntenhed (a 20 shillings), anvendt 1817-1917.-->Sovereign</seg>, og da saa <seg target="txtcmnt-555-03"><!--DATA-TERM: Stanley--><!--DATA-DEFINITION: Henry Morton Stanley, oprindelig John Rowlands (1841-1904), britisk-amerikansk journalist og opdagelsesrejsende; blev verdenskendt, da han som korrespondent for New York Herald i 1871 ved Tanganyikasøen i Tanzania fandt den forsvundne David Livingstone.-->Stanley</seg> kom til <seg target="txtcmnt-555-04"><!--DATA-TERM: Provost(en)--><!--DATA-DEFINITION: provst.-->Provosten</seg> i <seg target="txtcmnt-555-05"><!--DATA-TERM: Hamilton--><!--DATA-DEFINITION: byen Hamilton i Skotland (sydvest for Glasgow), hvorfra David Livingstone oprindelig kom, og hvor en stor del af hans familie var bosat.-->Hamilton</seg>, hvor Familien boer, og han holdt et Foredrag, kjøbte hun for den halve Sovereign en Medaillon, hvori kom hendes Faders, hendes og hendes Sødskendes Portraiter, som hun gav Stanley af Taknemlighed, fordi han havde fundet Faderen. Nu tilføier den lille Mary i Brevet til Andersen, at hun har hørt og læst om den store Ulykke, <seg target="txtcmnt-555-06"><!--DATA-TERM: Stormfloden--><!--DATA-DEFINITION: den største stormflodskatastrofe i nyere tid i Danmark fandt sted den 12.-14. november 1872, hvor store dele af Lolland og Falster blev oversvømmet, 80 mennesker omkom og 50 skibe strandede på Sjællands østkyst.-->Stormfloden</seg> har bragt over Danmark; hun har endnu tilbage den halve Sovereign og beder ham give denne lille Gave fra hende til de stakkels Mennesker.</p>
+<pb n="556"/>
+<pb n="557"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Livingstones Datter og H. C. Andersen" synch="livingstones-datter-og-h-c-andersen">
+<head type="section-comments">Livingstones Datter og H. C. Andersen</head>
+<argument type="sourceData"><p rend="noIndent">Trykt første gang i <hi rend="italic">Berlingske politiske og Avertissements-Tidende</hi>, 15. december 1872.</p>
+<p rend="noIndent">Referatet er ikke signeret H.C. Andersen, men i dagbogen den 13. decem<pb n="710"/>ber 1872 anføres der: »Fru Melchior vilde have Brevet trykt i Fædrelandet, jeg vilde ikke have Brevet trykt Fru Lund vilde med et Referat herom give det til Hr Knudsen Redacteur af Berlingstidende. Jeg var ikke tilfreds med det Skrevne, og gav det derfor selv«. I dagbogen den 15. december 1872 hedder det videre: »I Søndags Nummeret i Dag i Berlingstidende staaer smukt først i Feulletonen, med store Bogstaver: Levingstones Datter og H. C. Andersen, hele den lille Historie som jeg i tredie Person nedskrev den«. Uden BFN</p></argument>
+<table rend="textcomments">
+<cell type="page">555</cell><cell><row xml:id="txtcmnt-555-01"><cell type="data-term">Livingstones Datter</cell><cell type="data-definition">Anna Mary Livingstone (1858-1939), datter af den skotske missionær og opdagelsesrejsende David Livingstone (1813-1873) og Mary Moffat (1821-1862).</cell></row><row xml:id="txtcmnt-555-02"><cell type="data-term">Sovereign</cell><cell type="data-definition">britisk møntenhed (a 20 shillings), anvendt 1817-1917.</cell></row><row xml:id="txtcmnt-555-03"><cell type="data-term">Stanley</cell><cell type="data-definition">Henry Morton Stanley, oprindelig John Rowlands (1841-1904), britisk-amerikansk journalist og opdagelsesrejsende; blev verdenskendt, da han som korrespondent for New York Herald i 1871 ved Tanganyikasøen i Tanzania fandt den forsvundne David Livingstone.</cell></row><row xml:id="txtcmnt-555-04"><cell type="data-term">Provost(en)</cell><cell type="data-definition">provst.</cell></row><row xml:id="txtcmnt-555-05"><cell type="data-term">Hamilton</cell><cell type="data-definition">byen Hamilton i Skotland (sydvest for Glasgow), hvorfra David Livingstone oprindelig kom, og hvor en stor del af hans familie var bosat.</cell></row><row xml:id="txtcmnt-555-06"><cell type="data-term">Stormfloden</cell><cell type="data-definition">den største stormflodskatastrofe i nyere tid i Danmark fandt sted den 12.-14. november 1872, hvor store dele af Lolland og Falster blev oversvømmet, 80 mennesker omkom og 50 skibe strandede på Sjællands østkyst.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Numskull Hans</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="klods-hans">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="klods-hans_modern.xml">moderniseret version</note>
+                                                       <note target="119_Numskull-Hans.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Down in the country there was an old farm, and on it lived an old squire who had...</incipit><idno type="image">Klods-Hans_forside.png</idno><popularity>991</popularity><cite>&lt;p&gt;Hans Christian Andersen: Numskull Hans. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>humor</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">added italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="Numskull Hans An Old Story Retold">
+               <head type="main" rend="Numskull Hans">Numskull Hans</head>                <head type="part" rend="An Old Story Retold">An Old Story Retold</head>                <p rend="noIndent" xml:id="p_00001">Down in the country there was an old farm, and on it lived an old squire who had two sons that were too clever by half – they wanted to propose to the king’s daughter and were bold enough to do so because she had let it be known that she would take as her husband the man best able to state his case.</p>
+               <img src="0071_HCA-XVIII-I-27-0091.jpg" ref="p_00002" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00002">The two of them spent eight days preparing – that was the most they could spare for it – but it was also more than enough as they had lots of knowledge in advance, which is always useful. The one knew the whole Latin dictionary by heart as well as the city’s newspaper for the past three years, both forwards and backwards; the other was familiar with all the guild articles and what every guildmaster needed to know to engage in conversations about government matters, he felt, and furthermore he knew how to embroider braces, for he was refined and adroit with his fingers.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘I’ll get the king’s daughter!’ both of them said, and their father gave each of them a fine horse: the one who knew the dictionary and the newspapers by heart got a jet-black horse, and the one who knew all about guildmasters and embroidery got a milk-white horse, and then they smeared the corners of their mouths with cod liver oil to make them more supple. All the servants were down in the courtyard to see them mount their steeds; and at that very moment the third brother came along – for there were three of them, although nobody really thought of him as a brother, for he was not nearly as clever as the other two, who simply referred to him as <hi rend="italic">Numskull Hans</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Where are you off to, seeing you’re all in your Sunday best?’ he asked.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘To court to woo the king’s daughter! Haven’t you heard what’s being proclaimed all over the country to the beating of the drum!’ and then they told him.</p>
+               <p rend="firstIndent" xml:id="p_00006">‘Gracious me, then I must come too!’ <hi rend="italic">Numskull Hans</hi> said, and his brothers laughed at him and rode off.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Father, let me have a horse!’ <hi rend="italic">Numskull Hans</hi> shouted. ‘I feel such an urge to get married. If she takes me, she takes me! and if she doesn’t, I’ll take her even so!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Stuff and nonsense!’ his father said. ‘You’ll not be getting a horse from me. You can’t even speak! no, your brothers, they’re proper city gents!’</p>
+               <p rend="firstIndent" xml:id="p_00009">‘If I can’t have a horse,’ <hi rend="italic">Numskull Hans</hi> said, ‘then I’ll take the billy goat – it’s mine and it can easily carry me!’ and he sat himself astride the billy goat, dug his heels into its ribs and set off down the highway. Wheee! off they shot. ‘Here I come!’ said <hi rend="italic">Numskull Hans</hi>, singing so loud he made the skies ring.</p>
+               <p rend="firstIndent" xml:id="p_00010">But the brothers rode quietly on ahead, not saying a word, for they had to think of all the bright ideas they would come up with, for everything had to be so ingeniously planned!</p>
+               <p rend="firstIndent" xml:id="p_00011">‘Tally ho!’ <hi rend="italic">Numskull Hans</hi> shouted, ‘here I come! Just look at what I’ve found on the highway!’ and he showed them a dead crow he had found!</p>
+               <p rend="firstIndent" xml:id="p_00012">‘Numskull!’ they said. ‘What do you want <hi rend="italic">that</hi> for?’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Give it to the king’s daughter as a present!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Yes, just you do that!’, they said, laughed and rode on.</p>
+               <img src="0071_HCA-XVIII-I-31-0021.jpg" ref="p_00015" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00015">‘Tally ho! here I come! Just look at what I’ve found now – it’s not every day you find such a thing on the highway!’</p>
+               <p rend="firstIndent" xml:id="p_00016">And the brothers turned round again to see what it was. ‘Numskull!’ they said, ‘that’s an old wooden clog and the upper’s missing! Is the king’s daughter to have that too?’</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Yes, she is!’ <hi rend="italic">Numskull Hans</hi> said; and the brothers laughed and rode on and were soon far ahead.</p>
+               <p rend="firstIndent" xml:id="p_00018">‘Tally-ho! here I come!’ <hi rend="italic">Numskull Hans</hi> shouted; ‘Oho, it’s getting wilder and wilder! tally-ho! it’s simply amazing!’</p>
+               <p rend="firstIndent" xml:id="p_00019">‘What have you found now?’ the brothers said.</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Oh!’ <hi rend="italic">Numskull Hans</hi> said, ‘there are no words for it! how glad she’ll be, the king’s daughter!’</p>
+               <p rend="firstIndent" xml:id="p_00021">‘Ugh!’ the brothers said, ‘but that’s mud that’s been thrown up from the ditch!’</p>
+               <p rend="firstIndent" xml:id="p_00022">‘Yes, exactly!’ Numskull Hans said, ‘and it’s the very finest sort – it slips through your fingers!’ and then he stuffed his pocket with it.</p>
+               <p rend="firstIndent" xml:id="p_00023">But his brothers rode on as fast as they could, and ended up a whole hour ahead and stopped at the city gate, and there the suitors were given a number as they arrived, and placed in a queue in ranks of six and packed so tight that they couldn’t move their arms, and that was a good thing, because otherwise they would have ripped up the back of the man in front, just because he was further forward than they were.</p>
+               <p rend="firstIndent" xml:id="p_00024">Everyone else in the land was standing round the castle, close up to the windows so they could see the king’s daughter receive the suitors, and as soon as one of them came into the room, his eloquence failed him completely.</p>
+               <p rend="firstIndent" xml:id="p_00025">‘No good!’ the king’s daughter said. ‘Off with him!’</p>
+               <p rend="firstIndent" xml:id="p_00026">Now the brother, the one who knew the dictionary, came in, but standing in the queue had made him completely forget everything, and the floor creaked and the ceiling was of mirror glass, so he saw himself upside-down, and at each window there stood three clerks and a guildmaster, and each of them wrote down all that was said, so it could at once be put in the newspaper and sold for twopence on the corner. It was frightful, and what’s more they had heated the stove so much that the drum had turned red!</p>
+               <p rend="firstIndent" xml:id="p_00027">‘It’s terribly hot in here!’ the suitor said.</p>
+               <p rend="firstIndent" xml:id="p_00028">‘That’s because my father’s roasting cockerels today!’ the king’s daughter said.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘Oooh!’ there he stood, he had not expected that sort of remark; he didn’t have a single word in his head, for he would have liked to say something witty. Oooh!</p>
+               <p rend="firstIndent" xml:id="p_00030">‘No good!’ the king’s daughter said. ‘Off with him!’ and he had to leave. Now the other brother came in.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘Terrible heat in here!’ he said.</p>
+               <p rend="firstIndent" xml:id="p_00032">‘Yes, we are roasting cockerels today!’ the king’s daughter said.</p>
+               <p rend="firstIndent" xml:id="p_00033">‘Beg your – what?’ he said, and all the clerks wrote Beg your – what!</p>
+               <p rend="firstIndent" xml:id="p_00034">‘No good!’ the king’s daughter said. ‘Off with him!’</p>
+               <p rend="firstIndent" xml:id="p_00035">Now <hi rend="italic">Numskull Hans</hi> came in, riding on his billy goat straight into the room. ‘Red-hot in here!’ he said.</p>
+               <p rend="firstIndent" xml:id="p_00036">‘That’s because I’m roasting cockerels!’ the king’s daughter said.</p>
+               <p rend="firstIndent" xml:id="p_00037">‘That’s great!’ <hi rend="italic">Numskull Hans</hi> said, ‘then I suppose I can get a crow roasted too?’</p>
+               <p rend="firstIndent" xml:id="p_00038">‘Certainly you can!’ the king’s daughter said, ‘but have you got anything to roast it in, for I’ve no pots and pans!’</p>
+               <img src="0071_HCA-XVIII-I-27-0093.jpg" ref="p_00039" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00039">‘But I have,’ <hi rend="italic">Numskull Hans</hi> said. ‘Here’s a cooking utensil complete with a tin hook!’ and he brought out the wooden clog and placed the crow in the middle of it.</p>
+               <p rend="firstIndent" xml:id="p_00040">‘There’s enough for a whole meal!’ the king’s daughter said, ‘but what shall we do for the sauce?’</p>
+               <p rend="firstIndent" xml:id="p_00041">‘I’ve got that in my pocket!’ <hi rend="italic">Numskull Hans</hi> said. ‘I’ve got so much I can even spill some!’ and he poured a little mud from his pocket.</p>
+               <p rend="firstIndent" xml:id="p_00042">‘That I like!’ the king’s daughter said. ‘You’ve an answer for everything and a tongue in your head and I want you for my husband! But do you realise that every word we say and have said is being written down and will appear in the newspaper tomorrow! at every window you can see three clerks and an old guildmaster standing, and the guildmaster’s the worst of the lot – he doesn’t understand anything!’ and she said this to try and frighten him. And all the clerks whinnied and made ink blots on the floor.</p>
+               <img src="0071_HCA-XVIII-I-27-0094.jpg" ref="p_00043" title="Illustrator: Hans Tegner. 1895. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00043">‘So these are the fine gentlemen!’ <hi rend="italic">Numskull Hans</hi> said, ‘then I’d better give the guildmaster the best of the lot!’ and he turned out his pockets and flung the mud in his face.</p>
+               <p rend="firstIndent" xml:id="p_00044">‘Oh, well done!’ the king’s daughter said, ‘I couldn’t have done that! but I’m sure I can learn how to!’</p>
+               <p rend="firstIndent" xml:id="p_00045">And so <hi rend="italic">Numskull Hans</hi> became king, gained a wife and a crown and sat on a throne, and we’ve got this straight from the Guildmaster’s News – and that is not to be relied on!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,620 @@
+row{
+     display:block;
+}
+
+cell[type="page"]{
+     font-size:smaller;
+     font-style:bold;
+}
+
+
+note[type="footnote"] *{
+    color:aqua;
+    font-size:0.8rem;
+}
+
+note[type="footnote"]:before{
+    content:'fodnote';
+    font-size:0.4rem;
+    color:blue;
+}
+quote{
+     font-size:smaller;
+}
+
+p{
+     display:block;
+}
+p[rend="firstIndent"]
+{
+     text-indent:50px;
+ 
+}
+
+floatingText[type="song"] > lg {
+     margin-left:80px;
+}
+
+
+floatingText[attribute="xml:id"]:before {
+     content:"her begynder en floatingText med xml:id";
+     }
+
+
+lg head{
+     content:" ****overskrift på digt ****";
+     color: blue;
+     font-size: 1.4rem;
+}
+
+head[type="melody"]{
+     margin-left:80px;
+     font-style:italic;
+     font-size:0.8rem;
+}
+head[type="melody"]:after {
+      content:"                                                                                                                                                                                                                                                            ";
+     }
+
+
+set > p, stage
+{
+     font-size:0.6rem;
+ 
+}
+
+stage{
+     font-style:italic;
+}
+
+
+p[rend="right"]:before {
+color:blue;
+    content:"***højrestillet afsnit***---->---->---->---->---->----> Tekst følger efter kolon:                                                                                                                                                                                     ";
+
+}
+
+note[footnote]{
+     font-size:0.6rem;
+     color:grey;
+}
+
+source{
+     color:dimgray;
+}
+sourceTitle{
+     color: green;
+}
+sourceDate{
+     color: red;
+}
+
+
+
+div[type="work"]:before {
+color:blue;
+    content:"***Nyt værk***";
+
+}
+
+p[rend="firstIndent"]:before {
+color:blue;
+    content:"     ";
+
+}
+
+l[rend="right"]:before, lg + stage:before, l + stage:before {
+     content:"                                            "
+}
+/*sp > stage:before {
+     content:"            }                                "
+}*/
+
+l:before {
+     content:"          ";
+}
+l{
+     display:block;
+}
+
+/* lg:before {
+     content:"                                                                       ";
+} */
+quote * {
+     font-size: 0.6rem;
+}
+
+bibl{
+     font-size: 0.6rem;
+
+}
+
+cit:before{
+content:"Motto begynder     ";
+color:blue;
+font-size:0.6rem;
+}
+
+cit:after{
+     content:"                                              ";
+     }
+
+div[type='preface'] > p{
+     font-size: 0.6rem;
+    }
+
+    div[type='preface']:before p{
+     content:"                                              ";
+    }
+    div[type='preface']:after p{
+     content:"                                              ";
+    }
+
+pb::after {
+     content: 'Side ' attr(n) '';
+     color: salmon;
+ }
+
+
+source, sourceTitle, sourceDate{
+     display:block;
+
+}
+
+bibl::before{
+     content:"                                                    ";
+     
+}
+hi[rend='italic']{
+     font-style: italic;
+}
+div[type="preface"]:before{
+     content:"**** fortale                                                 ";
+     color:blue;
+}
+/* 2023-03-09 check whether it works on descendants of quote */
+/* lg:after {
+     content:"                                                                                                                                                                  ";
+} */
+
+
+l[rend="center"]:before {
+     content:"                   "
+}
+
+lg:before {
+     content:"Ny strofe begynder         ";
+     color:blue;
+     font-size:0.6rem;
+}
+
+graphic[type='blank']:after{
+     content:'                blank linje som mellemrubrik/separator                                           ';
+     color:blue;
+     font-size: 0.6rem;
+}
+
+/*sp > lg:before {
+     content:"         "
+}
+*/
+p[rend="noIndent"], speaker
+{
+     display:inline !important;
+    white-space: -oxy-trim-when-ws-only !important;
+    
+     
+     }
+
+ head[type="main"] {
+     font-size:1.7rem;
+     display:block;
+}
+
+ head[type="sub"] {
+     font-size:1.4rem;
+     display: block;
+}
+head[type='sub']:after {
+     content:"værkets underoverskrift";
+     font-size:0.6rem;
+     color:blue;
+}
+
+head[type='section'] {
+     font-size: 1.2rem;
+}
+
+head[type='section']:after {
+     content:"overskrift ved kapitel";
+     font-size:0.6rem;
+     color:blue;
+}
+
+/*     
+hi[rend="initial"]
+{
+     font-size: 150%;
+}
+
+hi[rend="textur"]
+{
+     font-weight:bold;
+     font-family:courier;
+}
+
+     
+     
+    
+
+/\*unclear
+{
+font-weight:bolder
+}*\/
+unclear:before{
+     content:"〈";
+}/\*jf SKS*\/
+
+
+
+unclear:after{
+     content:"〉";
+}/\*jf SKS*\/
+
+hi[rend="underline"]
+{
+     text-decoration:underline
+}
+hi[rend="doubleUnderline"]
+{
+     border-bottom:solid;
+     
+     
+}
+
+note{
+    font-style:italic;
+    font-size:small    
+}
+
+sic:after{
+     content:" [sic]";
+     font-style:italic;
+}
+corr:before{
+     content:" supplerende note med den korrekte form";
+     font-style:italic;
+     
+}
+corr{
+     color:aqua;
+}
+
+metamark[place='inline']{
+vertical-align: super;
+}
+
+metamark[place='margin']:before{
+content:" placeres i margenen ";
+font-style:italic;
+}
+
+figure[type='longLine']{
+     content:" _________________________[ny linje]";
+     vertical-align: super;
+}
+figure[type='entireLine']{
+     content:" ________________________________________________________[ny linje]";
+     vertical-align: super;
+}
+
+[color='red']{
+     color:red;
+}
+
+app{
+      background-color:rgb(245,245,240);
+}
+
+rdg{
+    color:green;
+   
+}/\*background-color fra faust-edition textual-transcript.css*\/
+
+witDetail{
+color:aqua;
+font-style:italic;
+    font-size:small
+    /\*font-size:smaller;
+font-family:arial*\/
+}
+lem{
+    color:fuchsia;
+   
+}/\*background-color fra faust-edition textual-transcript.css*\/
+*[rendition="#aef"]{
+    color:green
+}
+*[rendition="#fs"]{
+    color:aqua
+}
+/\*herfra fra faust-edition textual-transcript.css*\/
+*[varSeq="1"]{
+ background-color:rgb(225,225,230);    
+}
+*[varSeq="2"]{
+ background-color:rgb(225,225,210);   
+}
+*[varSeq="3"]{
+ background-color:rgb(205,205,200); 
+}
+*[varSeq="4"]{
+ background-color:rgb(185,185,180); 
+}
+/\*fra faust-edition
+.variants-0 { background-color: rgb(255,255,255); }
+.variants-1 { background-color: rgb(245,245,240); }
+.variants-2 { background-color: rgb(235,235,230); }
+.variants-3 { background-color: rgb(225,225,220); }
+.variants-4 { background-color: rgb(215,215,210); }
+.variants-5 { background-color: rgb(205,205,200); }
+.variants-6 { background-color: rgb(195,195,190); }
+.variants-7 { background-color: rgb(185,185,180); }
+.variants-8 { background-color: rgb(175,175,170); }
+.variants-9 { background-color: rgb(165,165,160); }*\/
+del[rend="strikethrough"]{
+     text-decoration:line-through
+}
+/\**[spanTo~=del] {
+     background-color:rgb(185,185,180)
+}*\/
+
+
+del[rend="doubleStrikethrough"]{
+     text-decoration:line-through;
+     font-weight:bold /\*bør være double, men kan ikke finde ud af at deklarere css level 3*\/
+}
+
+
+gap{
+  border-style: dotted;
+     border-width: 2px;   
+}
+
+add{
+    vertical-align: super}
+
+
+*[rendition="#straks"]:after{
+
+content:" straks→";
+font-style:italic
+}
+
+*[rendition="#senere"]:after{
+content:" senere→";
+font-style:italic
+}
+
+
+*[rendition="#fs1"]:before{
+
+content:" første straksrettelse ";
+font-style:italic
+
+}
+
+
+*[rendition="#1"]:before{
+
+content:" oprindelig ";
+font-style:italic
+}
+
+
+*[rendition="#fs"]:before{
+
+content:" først skrevet ";
+font-style:italic
+}
+*[rendition="#fs1"]:before{
+
+content:" første straksrettelse ";
+font-style:italic
+
+}
+*[rendition="#fs2"]:before{
+
+content:" anden straksrettelse ";
+font-style:italic
+
+}
+*[rendition="#fs3"]:before{
+
+content:" tredje straksrettelse ";
+font-style:italic
+
+}
+*[rendition="#fs4"]:before{
+
+content:" fjerde straksrettelse ";
+font-style:italic
+
+}
+*[rendition="#aef1"]:before{
+
+content:" første rettelse ";
+font-style:italic
+}
+
+*[rendition="#aef2"]:before{
+
+content:" anden rettelse ";
+font-style:italic
+
+}
+*[rendition="#aef3"]:before{
+
+content:" tredje rettelse ";
+font-style:italic
+
+}
+*[rendition="#aef4"]:before{
+
+content:" fjerde rettelse ";
+font-style:italic
+
+}
+
+*[rendition="#uvis"]:after{
+content:"→";
+}
+
+/\*retrace {
+font-weight:bold
+}*\/
+
+
+*[rendition="#uvis1"]:before{
+
+content:" første rettelse";
+font-style:italic
+
+}
+
+*[rendition="#uvis2"]:before{
+
+content:" anden rettelse ";
+font-style:italic
+
+}
+*[rendition="#uvis3"]:before{
+
+content:" tredje rettelse ";
+font-style:italic
+
+}
+*[rendition="#uvis4"]:before{
+
+content:" fjerde rettelse ";
+font-style:italic
+
+}
+
+
+
+
+
+del[rendition="#aef"]:before{
+
+content:" ændret fra ";
+font-style:italic
+}
+supplied:before{
+    content:"[";
+}
+
+supplied:after{
+    content:"]"
+}
+lem:before{
+content:"[";
+}
+
+del{
+     text-decoration:line-through
+}
+line:after{
+content:"|"}
+
+lem[wit='α']:after{
+content:"] α, ";
+}
+
+
+lem[rendition="#til"]:after{
+content:" tilføjet";
+font-style:italic
+}
+add[rendition="#til"]:after{
+content:"] tilføjet";
+font-style:italic
+}
+
+
+
+
+placeName{
+    color: #00FF00 
+}
+rs[type="myth"]{
+    color: #FF9933
+}
+rs[type="title"]{
+    color: #00CCFF
+}
+rs[type="bible"]{
+    color: #CC66FF
+}
+hi[rend="spaced"]{
+    
+font-style:italic
+}
+hi[rend="romanType"]{
+    
+font-family:arial
+}
+persName{
+    color: #FF00FF
+}
+seg{
+    color: gray;
+}
+hi[rend="italic"]{
+    
+font-style:italic
+}
+hi[rend="bold"]{
+    
+font-weight:bold
+}
+ref{
+    color: blue    
+}
+
+addSpan:before{
+    content:" tilføjet herfra ";
+    font-style:italic;
+}
+
+
+delSpan:before{
+    content:"⌊ slettet herfra ";
+    font-style:italic;
+}
+
+/\*delSpan{
+     text-decoration:line-through
+}
+*\/
+
+/\*anchor[xml:id]:before
+{
+content:"⌋ slettet hertil ";
+    font-style:italic;
+     
+}
+*\/
+
+add{
+     vertical-align: super;
+     font-size: 70%;
+}
+
+retrace{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 2px 2px #FF0000;
+}*/
+

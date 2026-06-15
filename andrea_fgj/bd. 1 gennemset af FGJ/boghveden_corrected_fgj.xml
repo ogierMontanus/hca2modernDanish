@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Boghveden</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability default="false">
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/" part="N">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p part="N">Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc default="false">
+                                             <listBibl default="false">
+                                                  <bibl default="false" status="draft">
+                                                             
+      <p rend="noIndent" part="N">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Tredie Hefte, der udkom den 20. december 1841 med årstallet 1842 på titelbladet.<br/>
+<pb n="517"/>BFN 411/I,187-188/VII,63-64.</p>    
+      </bibl>
+                                                  <biblStruct default="false" status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="boghveden.xml" type="originalDanish" anchored="true">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl default="false" status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData default="false"/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1842</date>
+                                        </creation>
+                                        <textClass default="false">
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Boghveden" xml:id="boghveden" part="N" org="uniform" sample="complete">
+<pb n="262"/><head type="main">Boghveden</head>
+
+<p rend="noIndent" xml:id="p_00001" part="N">Tit og
+                         ofte<?oxy_delete author="as" timestamp="20230804T103551+0200" content=","?>
+                         når man efter et tordenvejr går forbi en
+                         ager<?oxy_delete author="as" timestamp="20230804T103556+0200" content=","?>
+                         hvor boghveden gror, ser
+                         man<?oxy_delete author="as" timestamp="20230804T103559+0200" content=","?>
+                         at den er blevet ganske sort og afsvede<?oxy_delete author="as" timestamp="20230808T152629+0200" content="t; d"?><?oxy_insert_start author="as" timestamp="20230808T152629+0200"?>. D<?oxy_insert_end?>et er ligesom en
+                         <?oxy_delete author="as" timestamp="20230804T121522+0200" content="I"?><?oxy_insert_start author="as" timestamp="20230804T121523+0200"?>i<?oxy_insert_end?>ld<?oxy_insert_start author="as" timestamp="20230804T103609+0200"?>s<?oxy_insert_end?>lue
+                         var gået hen over den, og bondemanden siger da: »Det har den fået af
+                         lynilden<?oxy_insert_start author="as" timestamp="20230808T152639+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230808T152639+0200" content="!"?>« Men hvorfor har den fået det? – Jeg skal
+                         fortælle<?oxy_delete author="as" timestamp="20230804T103625+0200" content=","?>
+                         hvad gråspurven har sagt mig, og gråspurven har hørt det af et gammelt
+                         piletræ<?oxy_delete author="as" timestamp="20230804T103632+0200" content=","?>
+                         der stod ved en
+                         boghvede<?oxy_delete author="as" timestamp="20230804T103635+0200" content="-"?>ager
+                         og står der endnu. Det er sådant et ærværdigt stort piletræ, men runkent og
+                         <?oxy_comment_start author="fgj" timestamp="20230809T140358+0200" comment="punktum?"?>gammelt, <?oxy_comment_end?>det er revnet lige midt
+                         i<?oxy_insert_start author="as" timestamp="20230804T103705+0200"?>,<?oxy_insert_end?>
+                         og der vokser græs og
+                         brombær<?oxy_delete author="as" timestamp="20230804T104656+0200" content="-"?>ranker
+                         ud af revnen<?oxy_delete author="as" timestamp="20230808T152602+0200" content="; t"?><?oxy_insert_start author="as" timestamp="20230808T152602+0200"?>. T<?oxy_insert_end?>ræet hælder
+                         for<?oxy_delete author="as" timestamp="20230804T105053+0200" content=" "?>over<?oxy_insert_start author="as" timestamp="20230804T105056+0200"?>,<?oxy_insert_end?>
+                         og
+                         <?oxy_insert_start author="as" timestamp="20230804T105059+0200"?>g<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T105059+0200" content="G"?>renene
+                         hænge<?oxy_insert_start author="as" timestamp="20230804T105101+0200"?>r<?oxy_insert_end?>
+                         lige ned mod jorden, ligesom om de
+                         kun<?oxy_insert_start author="as" timestamp="20230804T105108+0200"?>n<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T105107+0200" content="d"?>e
+være et grønt, langt hår.</p>
+
+<p rend="firstIndent" xml:id="p_00002" part="N">På alle markerne rundt om voksede korn, både rug, byg og havre, ja<?oxy_insert_start author="as" timestamp="20230804T105647+0200"?>,<?oxy_insert_end?> den dejlige havre<?oxy_delete author="as" timestamp="20230804T105204+0200" content=","?> der ser ud<?oxy_delete author="as" timestamp="20230804T105156+0200" content=","?> når den er moden, ligesom en hel mængde små gule kanari<?oxy_insert_start author="as" timestamp="20230804T105213+0200"?>e<?oxy_insert_end?>fugle på en gren. Kornet stod så velsignet, og jo tungere det var<?oxy_insert_start author="as" timestamp="20230804T105704+0200"?>,<?oxy_insert_end?> des dybere bøjede det sig i from ydmyghed.</p>
+
+<p rend="firstIndent" xml:id="p_00003" part="N">Men der var også en ager med boghvede, og den ager var lige ud for det gamle piletræ<?oxy_insert_start author="as" timestamp="20230808T152657+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230808T152658+0200" content="; b"?><?oxy_insert_start author="as" timestamp="20230808T152658+0200"?> B<?oxy_insert_end?>oghveden bøjede sig slet ikke<?oxy_delete author="as" timestamp="20230804T110527+0200" content=","?> som det andet korn, den knejste stolt og stiv<?oxy_delete author="as" timestamp="20230808T152841+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152841+0200"?>.<?oxy_insert_end?></p>
+
+<p rend="firstIndent" xml:id="p_00004" part="N">»Jeg er vel så rig<?oxy_delete author="as" timestamp="20230804T110542+0200" content=","?> som akset,« sagde den, »jeg er desuden meget smukkere; mine blomster er skønne<?oxy_delete author="as" timestamp="20230804T110553+0200" content=","?> som æbletræets blomster, det er en lyst at se på mig og mine<?oxy_delete author="as" timestamp="20230808T152849+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152849+0200"?>.<?oxy_insert_end?> Kender du nogen prægtigere end os, du gamle piletræ<?oxy_insert_start author="as" timestamp="20230804T110610+0200"?>?<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T110609+0200" content="!"?>«</p>
+
+<p rend="firstIndent" xml:id="p_00005" part="N">Og piletræet nikkede med hovedet<?oxy_delete author="as" timestamp="20230804T110617+0200" content=","?> ligesom det vil<?oxy_delete author="as" timestamp="20230808T152904+0200" content="d"?><?oxy_insert_start author="as" timestamp="20230808T152905+0200"?>l<?oxy_insert_end?>e sige: »Jo<?oxy_insert_start author="as" timestamp="20230804T110622+0200"?>,<?oxy_insert_end?> det gør jeg rigtignok<?oxy_delete author="as" timestamp="20230808T152908+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152909+0200"?>.<?oxy_insert_end?>« Men boghveden struttede af bare hovmod og sagde: »Det dumme træ, det er så gammelt at der vokser græs i maven på det!«</p>
+
+<p rend="firstIndent" xml:id="p_00006" part="N">Nu trak der et skrækkeligt ondt vejr op<?oxy_delete author="as" timestamp="20230808T152739+0200" content="; a"?><?oxy_insert_start author="as" timestamp="20230808T152740+0200"?>. A<?oxy_insert_end?>lle markens blomster foldede deres blade<?oxy_delete author="as" timestamp="20230808T152806+0200" content=","?> eller bøjede deres fine hoveder<?oxy_delete author="as" timestamp="20230808T152813+0200" content=","?> mens stormen for hen over dem<?oxy_insert_start author="as" timestamp="20230808T152820+0200"?>. <?oxy_insert_end?><?oxy_delete author="as" timestamp="20230808T152822+0200" content="; m"?><?oxy_insert_start author="as" timestamp="20230808T152822+0200"?>M<?oxy_insert_end?>en boghveden knejsede i sin stolthed.</p>
+
+<p rend="firstIndent" xml:id="p_00007" part="N">»Bøj dit hoved<?oxy_delete author="as" timestamp="20230804T110809+0200" content=","?> som vi!« sagde blomsterne.</p>
+
+<p rend="firstIndent" xml:id="p_00008" part="N">»Det behøver jeg slet ikke<?oxy_delete author="as" timestamp="20230808T152918+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152918+0200"?>,<?oxy_insert_end?>« sagde boghveden.</p>
+
+<pb n="263"/><p rend="firstIndent" xml:id="p_00009" part="N">»Bøj dit hoved<?oxy_delete author="as" timestamp="20230804T110822+0200" content=","?> som vi!« råbte kornet<?oxy_insert_start author="as" timestamp="20230804T110829+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T110828+0200" content="!"?> »Nu kommer stormens engel flyvende<?oxy_delete author="as" timestamp="20230808T152927+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152927+0200"?>.<?oxy_insert_end?> Han har vinger<?oxy_delete author="as" timestamp="20230804T110852+0200" content=","?> der nå<?oxy_insert_start author="as" timestamp="20230804T110850+0200"?>r<?oxy_insert_end?> oppe fra skyerne og lige ned til jorden, og han hugger dig midt over<?oxy_delete author="as" timestamp="20230804T110900+0200" content=","?> før du kan bede ham være dig nådig<?oxy_delete author="as" timestamp="20230808T152935+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152935+0200"?>.<?oxy_insert_end?>«</p>
+
+<p rend="firstIndent" xml:id="p_00010" part="N">»Ja<?oxy_insert_start author="as" timestamp="20230804T110924+0200"?>,<?oxy_insert_end?> men jeg vil ikke bøje mig<?oxy_delete author="as" timestamp="20230808T152939+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T152939+0200"?>,<?oxy_insert_end?>« sagde boghveden.</p>
+
+<p rend="firstIndent" xml:id="p_00011" part="N">»Luk dine blomster<?oxy_insert_start author="as" timestamp="20230804T111058+0200"?>,<?oxy_insert_end?> og bøj dine blade!« sagde det gamle piletræ, »se ikke op mod lynet<?oxy_delete author="as" timestamp="20230804T111104+0200" content=","?> når skyen <?oxy_comment_start author="fgj" timestamp="20230809T140707+0200" comment="punktum"?>brister,<?oxy_comment_end?> selv menneskene tør det ikke, thi i lynet kan man se ind i <?oxy_comment_start author="fgj" timestamp="20230809T140811+0200" comment="Guds"?>guds<?oxy_comment_end?> himmel<?oxy_insert_start author="as" timestamp="20230808T153011+0200"?>. <?oxy_insert_end?><?oxy_delete author="as" timestamp="20230808T153013+0200" content=", m"?><?oxy_insert_start author="as" timestamp="20230808T153013+0200"?>M<?oxy_insert_end?>en det syn kan selv gøre menneskene<?oxy_comment_start author="fgj" timestamp="20230809T140825+0200" comment="punktum"?> blinde, <?oxy_comment_end?>hvad vil<?oxy_insert_start author="as" timestamp="20230804T111240+0200"?>l<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T111240+0200" content="d"?>e der da ikke ske med os jordens vækster<?oxy_delete author="as" timestamp="20230804T111251+0200" content=","?> vovede vi det, vi<?oxy_delete author="as" timestamp="20230804T111312+0200" content=","?> som er langt <?oxy_comment_start author="fgj" timestamp="20230809T140950+0200" comment="egentlig er det et spørgsmål - eller måske et udbrud, vel snarest det sidste, og så kan udråbstegnet beholdes."?>ringere<?oxy_delete author="as" timestamp="20230808T153034+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T153034+0200"?>.<?oxy_comment_end?><?oxy_insert_end?>«</p>
+
+<p rend="firstIndent" xml:id="p_00012" part="N">»Langt ringere!« sagde boghveden. »Nu vil jeg just se ind i <?oxy_comment_start author="fgj" timestamp="20230809T141009+0200" comment="Guds"?>guds<?oxy_comment_end?> himmel!« Og den gjorde det i <?oxy_insert_start author="as" timestamp="20230804T111326+0200"?>o<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T111326+0200" content="O"?>vermod og stolthed. Det var<?oxy_delete author="as" timestamp="20230804T111759+0200" content=","?> som hele verden stod i <?oxy_insert_start author="as" timestamp="20230804T110932+0200"?>i<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T110931+0200" content="I"?>ldslue, således lynede det.</p>
+
+<p rend="firstIndent" xml:id="p_00013" part="N">Da det onde vejr siden var forbi, stod blomster og korn i den stille rene luft, så forfriskede af regnen, men boghveden var brændt kulsort i lynet, den var nu en død, unyttig urt på marken.</p>
+
+<p rend="firstIndent" xml:id="p_00014" part="N">Og det gamle piletræ bevægede sine grene i vinden<?oxy_insert_start author="as" timestamp="20230804T112749+0200"?>,<?oxy_insert_end?> og der faldt store vanddråber fra de grønne blade, ligesom om træet græd, og spurvene spurgte: »Hvorfor græder du? Her er jo så velsignet<?oxy_delete author="as" timestamp="20230808T153046+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T153046+0200"?>.<?oxy_insert_end?> Se hvor solen skinner, se hvor skyerne gå<?oxy_insert_start author="as" timestamp="20230804T111940+0200"?>r<?oxy_insert_end?>, kan du mærke den duft fra blomster og buske<?oxy_insert_start author="as" timestamp="20230804T111958+0200"?>?<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T111957+0200" content="!"?> Hvorfor græder du, gamle piletræ<?oxy_insert_start author="as" timestamp="20230804T112004+0200"?>?<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T112004+0200" content="!"?>«</p>
+
+<p rend="firstIndent" xml:id="p_00015" part="N">Og piletræet fortalte om boghvedens stolthed, <?oxy_insert_start author="as" timestamp="20230804T112822+0200"?>o<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T112821+0200" content="O"?>vermod og straf<?oxy_insert_start author="as" timestamp="20230804T113045+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230804T113046+0200" content="!"?> Den følger altid. Jeg som fortæller historien<?oxy_insert_start author="as" timestamp="20230804T114159+0200"?>,<?oxy_insert_end?> har hørt den af spurvene<?oxy_delete author="as" timestamp="20230808T153059+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230808T153100+0200"?>.<?oxy_insert_end?> <?oxy_comment_start author="fgj" timestamp="20230809T141122+0200" comment="slet evt. tankestregen"?>– <?oxy_comment_end?>De fortalte mig det en aften<?oxy_delete author="as" timestamp="20230804T114204+0200" content=","?> da jeg bad dem om et eventyr.</p>
+
+
+
+<pb n="264"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Boghveden" xml:id="boghveden" part="N" org="uniform" sample="complete">
+<head type="section-comments">Boghveden</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Eventyr, fortalte for Børn. Ny Samling. Tredie Hefte, der udkom den 20. december 1841 med årstallet 1842 på titelbladet.<br/>
+<pb n="517"/>BFN 411/I,187-188/VII,63-64.</p>
+
+<p rend="noIndent" part="N">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">262,27</cell><cell type="deviation" role="data" rows="1" cols="1">rigtignok!« &lt; rigtignok!</cell></row>
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">263,24</cell><cell type="deviation" role="data" rows="1" cols="1">Piletræ!« &lt; Piletræ!</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+
+<?oxy_options track_changes="on"?>

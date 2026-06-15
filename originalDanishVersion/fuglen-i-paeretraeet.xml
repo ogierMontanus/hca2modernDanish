@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Fuglen i Pæretræet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Opført første gang 4. juli 1842 på Det kongelige Teater. Udkom første gang 4. september 1854 i SS bd. 11. (BFN 655). <hi rend="italic">»Sange af Vaudevillen Fuglen i Pæretræet«</hi> udkom dog 3. marts 1844 i <hi rend="italic">Ny Portefeuille</hi>, bd. 1 nr. 9, 3. marts 1844. BFN 435-440</p><hi rend="italic">»Sange af Vaudevillen Fuglen i Pæretræet«</hi><hi rend="italic">Ny Portefeuille</hi><p rend="firstIndent">Partitur: KT-A 0377. Orkesterbiblioteket.</p><p rend="firstIndent">Forlægget er en novelle, »Herr Thomas Brown und seine Nachbarn«, af den tyske forfatter Rosa Maria Assing (1783-1840), jf. <hi rend="italic">ANDERSEN</hi> bd. 10, s. 38.</p><hi rend="italic">ANDERSEN</hi>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">11:<hi rend="italic"> Skuespil II 1836-1842</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="fuglen-i-paeretraeet" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Fuglen i Pæretræet. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 11:&lt;i&gt; Skuespil II 1836-1842&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Opført første gang 4. juli 1842 på Det kongelige Teater. Udkom første gang 4. september 1854 i SS bd. 11. (BFN 655). &lt;i&gt;»Sange af Vaudevillen Fuglen i Pæretræet«&lt;/i&gt; udkom dog 3. marts 1844 i &lt;i&gt;Ny Portefeuille&lt;/i&gt;, bd. 1 nr. 9, 3. marts 1844. BFN 435-440&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Partitur: KT-A 0377. Orkesterbiblioteket.&lt;/p&gt;&lt;p&gt;Forlægget er en novelle, »Herr Thomas Brown und seine Nachbarn«, af den tyske forfatter Rosa Maria Assing (1783-1840), jf. &lt;i&gt;ANDERSEN&lt;/i&gt; bd. 10, s. 38.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1842</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0214">[skuespillet]</cell>
+                                                       
+                                                            <cell ref="#div0215">Første Scene</cell>
+                                                       
+                                                            <cell ref="#div0216">Anden Scene</cell>
+                                                       
+                                                            <cell ref="#div0217">Tredie Scene</cell>
+                                                       
+                                                            <cell ref="#div0218">Fjerde Scene</cell>
+                                                       
+                                                            <cell ref="#div0219">Femte Scene</cell>
+                                                       
+                                                            <cell ref="#div0220">Sjette Scene</cell>
+                                                       
+                                                            <cell ref="#div0221">Syvende Scene</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-22" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-22" who="NHB">formatted</change><change who="NHB" when="2024-01-23" status="draft">med sp. Wellformed</change><change who="NHB" when="2024-01-23" status="draft">stage type="setting"</change><change who="NHB" when="2024-01-24" status="draft">anvendt regex'er</change><change who="NHB" when="2024-01-24" status="draft">parenteser fjernet fra stage i Maurerpigen</change><change who="NHB" when="2024-01-24" status="draft">indtil s. 23</change><change who="NHB" when="2024-01-25" status="draft">s. 57</change><change who="NHB" when="2024-01-25" status="draft">til s. 74</change><change who="NHB" when="2024-01-26" status="draft">s. 104</change><change who="NHB" when="2024-01-26" status="draft">"116"</change><change who="NHB" when="2024-01-27" status="draft">indsat date</change><change who="NHB" when="2024-01-30" status="draft">indtil s. 143</change><change who="NHB" when="2024-01-30" status="draft">indtil "174"</change><change who="NHB" when="2024-01-31" status="draft">"184"</change><change who="NHB" when="2024-02-01" status="draft">"241"</change><change who="NHB" when="2024-02-06" status="draft">date &gt; performance. Added subtype=foreign</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Fuglen i Pæretræet" xml:id="fuglen-i-paeretraeet">
+<pb n="535"/>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">Fuglen i Pæretræet</titlePart>
+
+<titlePart type="part"><seg target="txtcmnt-535-01"><!--DATA-TERM: Vaudeville--><!--DATA-DEFINITION: let, tit satirisk lystspil med indlagte sange, hvortil melodierne oftest er lånt andetsteds fra. Genren stammer fra Frankrig og blev i 1820’erne af J.L. Heiberg gjort til en dansk guldalderspecialitet.-->Vaudeville</seg> i een Act</titlePart>
+<titlePart type="part"><date>1842</date></titlePart>
+</docTitle>
+<docImprint>
+<performance><source subtype="foreign">Opført første gang 4. juli 1842</source></performance></docImprint>
+</titlePage>
+<pb n="536"/>
+
+<castList><p rend="noIndent" xml:id="p_00923">Personerne</p>
+
+<table>
+<castItem><role/><actor>Rollebesætning paa det kongelige Theater</actor><actor>Rollebesætning i <seg target="txtcmnt-536-01"><!--DATA-TERM: Casino--><!--DATA-DEFINITION: privatteater i Amaliegade, København, oprindelig et vinteretablissement, åbnet 1847, lejet af teaterdirektøren H.W. Lange og omdannet til teater 1848 (lukket 1939). <i>Fuglen i Pæretræet</i> blev opført første gang i Casino sommeren 1853.-->Casino</seg></actor></castItem>
+<castItem><role>CANCELLIRAAD ARENTS, Contoirchef</role><actor><seg target="txtcmnt-536-02">Hr. <hi rend="italic">Schneider</hi></seg></actor><actor><seg target="txtcmnt-536-03">Hr. <hi rend="italic">Rosenkilde</hi></seg></actor></castItem>
+<castItem><role>HENRIETTE, hans Datter</role><actor><seg target="txtcmnt-536-04">Jomfr. <hi rend="italic">Østerberg</hi></seg></actor><actor><seg target="txtcmnt-536-07">Mad. <hi rend="italic">Rosenkilde</hi></seg></actor></castItem>
+<castItem><role>PETERSEN, <seg target="txtcmnt-536-05"><!--DATA-TERM: Coffardicapitain--><!--DATA-DEFINITION: kaptajn på et handelsskib.-->Coffardicapitain</seg>, Cancelliraadens Nabo</role><actor><seg target="txtcmnt-536-06">Hr. <hi rend="italic">Nielsen</hi></seg></actor><actor><seg target="txtcmnt-536-08">Hr. <hi rend="italic">Bornemann</hi></seg></actor></castItem>
+<castItem><role>HERMAN PETERSEN, hans Søn, Søofficeer</role><actor><seg target="txtcmnt-536-09">Hr. <hi rend="italic">Gundersen</hi></seg></actor><actor><seg target="txtcmnt-536-10">Hr. <hi rend="italic">Lund</hi></seg></actor></castItem>
+<castItem><role>SØREN, Tjenestekarl hos Arents</role><actor><seg target="txtcmnt-536-11">Hr. <hi rend="italic">Phister</hi></seg></actor><actor><seg target="txtcmnt-536-12">Hr. <hi rend="italic">Schmidt</hi></seg></actor></castItem>
+</table>
+
+<p rend="noIndent" xml:id="p_00924">Chor af Tjenestefolk</p>
+</castList>
+
+<set>
+<p rend="noIndent" xml:id="p_00925">Scenen er <seg target="txtcmnt-536-13"><!--DATA-TERM: Udenfor Kjøbenhavn paa Nørrebro--><!--DATA-DEFINITION: sløjfningen af Københavns volde påbegyndtes i 1850’erne og afsluttedes 1890.-->udenfor Kjøbenhavn paa Nørrebro</seg>.</p>
+</set>
+<pb n="537"/>
+</front>
+
+<errors>
+</errors>
+<div type="act" rend="[skuespillet]" xml:id="div0214">
+
+<pb n="538"/>
+
+<p rend="noIndent" xml:id="p_00926">Theatret forestiller to Nabohuse, som skilles ved et Plankeværk. Haven til Venstre for Tilskuerne, tilhører Cancelliraad ARENTS og udmærker sig ved sin rige Blomstersamling og sjeldne Væxter. Alt er smukt ordnet; blomstrende Hækker og høie Træer slutte Baggrunden. Haven til Høire frembyder kun en stor grøn Plet, med Vask og Strømper stukket paa Pinde. I Forgrunden her er et aabent Lysthuus, paa Bordet Skrivertøi, Bøger og Landkort. Tæt op til Plankeværket, staaer i Capitainens Have et prægtigt stort Pæretræ, hvis tætte Grene, rigt behængt med Frugt, bøie sig over i Cancelliraadens Have; et oversavet Træ derinde gjør det let at stige op paa Plankeværket og ud paa Pæretræets Grene.</p>
+
+<div type="scene" rend="Første Scene" xml:id="div0215">
+<head type="scene">Første Scene</head>
+
+<p rend="noIndent" xml:id="p_00927">I Cancelliraadens Have er SØREN og et Par andre Tjenestefolk ifærd med at rive Gangene og at sætte Urtepotterne i Orden; inde hos Capitainens tage de Vask ind og løse Snorene ned; begge Partier skjændes.</p>
+
+<head type="melody"><hi rend="italic"><seg target="txtcmnt-538-01"><!--DATA-TERM: Mel.: Tourbillon Gallop--><!--DATA-DEFINITION: opus 142 nr. 26 af den østrigske dansekomponist J. Lanner (1801-1843). Trykte noder: <i>Joseph Lanners Werke</i> 1-8, Leipzig, Breitkopf und Härtel, 1889-1890, bd. 7, s. 83. H.C. Andersens tekst, som dårligt lader sig synge til melodien, var ved opførelsen tilpasset denne af komponisten Edvard Helsted (1816-1900), der var koncertmester ved Det Kongelige Kapel.-->Mel.: Tourbillon Gallop</seg> af Lander.</hi></head>
+
+<sp>
+<speaker>CHOR</speaker>
+<lg xml:id="p_00928">
+<l rend="firstIndent">Ingen kunne leve stille</l>
+<l rend="firstIndent">Længer end Eens Naboer ville,</l>
+<l rend="firstIndent">Disse plage og drille,</l>
+<l rend="firstIndent">Disse er’ noget Pak!</l>
+</lg>
+<lg xml:id="p_00929">
+<l rend="firstIndent">Kaalstokke, Skrammel og Pinde</l>
+<l rend="firstIndent">Over Plankeværket slænges!</l>
+<l rend="firstIndent">O de fortjente at hænges</l>
+<l rend="firstIndent">Hver evige Een derinde!</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<lg xml:id="p_00930">
+<l rend="firstIndent">Loven har sagt til vor Trætte:</l>
+<l rend="firstIndent">Hvad ind til Naboen hænger,</l>
+<pb n="539"/>
+<l rend="firstIndent">Det Naboens er med Rette</l>
+<l rend="firstIndent">Og ei den Andens længer!</l>
+</lg>
+<lg xml:id="p_00931">
+<l rend="firstIndent">Dog strides ei for Pæren,</l>
+<l rend="firstIndent">Thi den kun lavt vi sætte;</l>
+<l rend="firstIndent">Men det er Æren, Æren,</l>
+<l rend="firstIndent">Kan Nabo fatte dette!</l>
+</lg>
+</sp>
+
+<sp>
+<speaker>CHORET <stage><hi rend="italic">(gjentages)</hi></stage>.</speaker>
+<stage rend="noIndent"><hi rend="italic">(De gaae hver truende og skjændende til de forskjellige Sider).</hi></stage>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<stage rend="noIndent"><hi rend="italic">(kaster en Kaalstok over Plankeværket, idet han gaaer bort).</hi></stage><stage rend="noIndent">
+<graphic type="blank"/>
+</stage>
+<p rend="noIndent" xml:id="p_00932">Der har I noget at <seg target="txtcmnt-539-01"><!--DATA-TERM: tykke--><!--DATA-DEFINITION: tygge; formen ikke kendt; bevaret i SS.-->tykke</seg> paa! – De skulle gnave længe paa min Ryg, før de naae mit Hjerte!</p>
+<stage rend="noIndent">(saasnart Scenen er tom bevæge Grenene sig i Pæretræet og <hi rend="normal">Henriette</hi> og <hi rend="normal">Herman</hi> komme tilsyne deroppe.)</stage>
+</sp>
+
+<div rend="Anden Scene" xml:id="div0216">
+<head type="scene">Anden Scene</head>
+<stage rend="noIndent"><speaker>HENRIETTE. HERMAN</speaker></stage>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00933">Hvor jeg er angest! <seg target="txtcmnt-539-02"><!--DATA-TERM: om de havde--><!--DATA-DEFINITION: hvis de havde.-->om de havde</seg> seet os!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00934">Det var umuligt! her er den deiligste Løvhytte i Verden; og her sidder ikke Hadets Fugl, men den lille velsignede Guldfugl:</p>
+
+<head type="melody"><seg target="txtcmnt-539-03"><!--DATA-TERM: Mel. Abenstern-Vals--><!--DATA-DEFINITION: »Abend-Sterne« vals , opus 180 nr. 87. Trykte noder: <i>Joseph Lanners Werke</i> bd. 4, s. 126f.--><hi rend="italic">Mel. Abenstern-Vals.</hi></seg></head>
+<l rend="firstIndent">Ved Bondens Tag der er af Straa,</l>
+<l rend="firstIndent">Og der hvor Marmorsøiler staae,</l>
+<l rend="firstIndent">Der Fuglen boer – dens Navn Du veed,</l>
+<l rend="firstIndent">Den lille Guldfugl Kjærlighed!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Den synger os en <seg target="txtcmnt-539-04"><!--DATA-TERM: mægtig--><!--DATA-DEFINITION: med stærk virkning, magtfuld.-->mægtig</seg> Sang,</l>
+<l rend="firstIndent">Guds Engle sang den første Gang!</l>
+<l rend="firstIndent">Det er som man fik Dandsens Flugt,</l>
+<l rend="firstIndent">Jeg intet veed saa stort, saa smukt!</l>
+</sp>
+
+<pb n="540"/>
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Den Guldfugl gjester Grubens Nat,</l>
+<l rend="firstIndent">Paa Skibets Seil den har sig sat,</l>
+<l rend="firstIndent">Den boer hos Hyrden høit paa Fjeld,</l>
+<l rend="firstIndent">Den boer ved Dalens Kildevæld.</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Man siger den er ikke tro!</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Men Verden lyver veed man jo!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Sit Næb den i vort Hjerte slaaer!</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Et Guddoms Kys det er man faaer!</l>
+</sp>
+
+<sp>
+<speaker>BEGGE TO</speaker>
+<l rend="firstIndent">Dens Sang gjør hvert et Hjerte godt,</l>
+<l rend="firstIndent">Forvandler Hytten til et Slot;</l>
+<l rend="firstIndent">Den flagrer over Gravens Blomst</l>
+<l rend="firstIndent">Og synger Mødets Atterkomst!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00935">Men jeg maa bort! nu er her slet Ingen omkring.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00936">Bort! og jeg har endnu hundrede Ting at sige Dig! – Med Posten i Dag, om en Time maaskee kan jeg have Brev med Bekræftigelse om min Ansættelse! – Da kan vort Bryllup staae naar det skal være!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00937">Vort Bryllup! gid det var saa vel! men hverken din eller min Fader give deres Samtykke!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00938">O, jeg frygter ikke for min! Han kan godt lide Dig! »Det er en nydelig Pige vor Nabo har!« sagde han forleden; og Din holder jo af Dig, har Øie og Hjerte for Blomster, det tyder paa et godt Sind! <seg target="txtcmnt-540-01"><!--DATA-TERM: om han--><!--DATA-DEFINITION: selv om han.-->om han</seg> nu ogsaa har en Grille. Det velsignede Pæretræ vi <pb n="541"/>sidde i, er Skyld i det Hele! men vi krydse den Gamle og komme nok paa Hjerte-Siden af ham.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00939">Du har nu altid saa godt Mod.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00940">Det hører med til Standen! hvad er en Sømand uden Mod!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00941">Og uden Vind! –</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00942">Den behøver jeg ikke, det er jo et Dampskib jeg skal føre.</p>
+
+<head type="melody"><seg target="txtcmnt-541-01"><hi rend="italic">Mel.:</hi> Vintern rasat ut</seg>.</head>
+
+<l rend="firstIndent">1.</l>
+<l rend="firstIndent">Havet har jeg kjær, som Dig min Pige!</l>
+<l rend="firstIndent">Havet bringer Ære, Guld og Magt!</l>
+<l rend="firstIndent">Til Din lille Mand ombord Du stige,</l>
+<l rend="firstIndent"><seg target="txtcmnt-541-02" type="dfnStart"><!--DATA-TERM: London … Petersborg--><!--DATA-DEFINITION: først i 1846 blev en ny dampskibslinje London-St. Petersborg indviet.--></seg>London skal Du see, der er en Pragt!</l>
+<l rend="firstIndent">Themsens tusind Skibe for Dig <seg target="txtcmnt-541-03">flagge</seg>!</l>
+<l rend="firstIndent">Som et Trylleslot staaer hver Boutik!</l>
+<l rend="firstIndent">Vi med Damp gaae over Londons Tage! –</l>
+<l rend="firstIndent">Vi til <seg target="txtcmnt-541-04">Tunneln</seg> maa et Øieblik!</l>
+
+<graphic type="blank"/>
+
+<l rend="firstIndent">2.</l>
+<l rend="firstIndent">Hjemad gaaer igjen den korte Reise,</l>
+<l rend="firstIndent">Sjællands Kyster sees en Morgenstund;</l>
+<l rend="firstIndent">Stolt bag ved os Kullens Klipper kneise!</l>
+<l rend="firstIndent">O hvor deiligt er det danske Sund!</l>
+<l rend="firstIndent">Seer Du Kronborg Slot! og seer Du Hveen!</l>
+<l rend="firstIndent">Mange hundred’ Skibe gaae forbi!</l>
+<l rend="firstIndent">Ei <seg type="dfnStart" target="txtcmnt-541-05"/>Morgana – Du jo husker Feen<seg type="dfnEnd" target="txtcmnt-541-05"/> –</l>
+<l rend="firstIndent">Mægter større Skjønheds Trylleri! –</l></sp>
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00943">Jeg tør ikke blive her længer!</p></sp>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_00944">Vi ere jo først nu under Hveen og Skibet veed Du gaaer lige til</p>
+<p rend="noIndent" xml:id="p_00945">Petersborg<seg target="txtcmnt-541-02" type="dfnEnd"><!--DATA-TERM: London … Petersborg--><!--DATA-DEFINITION: først i 1846 blev en ny dampskibslinje London-St. Petersborg indviet.--></seg>! –</p>
+
+<errors>
+</errors>
+</sp>
+
+<pb n="542"/>
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00946">See nu først om Du er blevet Capitain ombord.</p>
+<stage rend="right"><hi rend="italic">(stiger ned i sin Faders Have.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<stage rend="noIndent"><hi rend="italic">(helder sig over een af Grenene og synger ned til hende).</hi></stage>
+
+<l rend="firstIndent">3.</l>
+<l rend="firstIndent">Høie Graner, mosbegroede Fjelde</l>
+<l rend="firstIndent">Flyve vi forbi! hvad straaler hist?</l>
+<l rend="firstIndent">Hvilken Storhed, hvilken Pragt og Vælde!</l>
+<l rend="firstIndent">Ja, det er en Keiserstad forvist.</l>
+<l rend="firstIndent">Petersborg og London hvor de throne!</l>
+<l rend="firstIndent">Eet de mangle dog! – veed Du dets Navn?</l>
+<l rend="firstIndent">Skjønnest er der hos min lille Kone,</l>
+<l rend="firstIndent">Og hun boer i Kongens Kjøbenhavn.</l>
+
+<graphic type="blank"/>
+
+<p rend="noIndent" xml:id="p_00947">Men nu seiler jeg hen paa Posthuset! Farvel!</p>
+<stage rend="right"><hi rend="italic">(springer ned og forlader Haven.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00948">Farvel! Gud give han maa hente lykkelige Efterretninger. Og da –! nei, jeg tør ikke tænke paa Fremtiden! – Der kommer min Fader! det er vel jeg er nede af Træet og at Herman er afsted.</p>
+</sp>
+</div>
+                                   
+<div type="scene" rend="Tredie Scene" xml:id="div0217">
+<head type="scene">Tredie Scene</head>
+<stage rend="noIndent">
+<speaker>HENRIETTE, Cancelliraad ARENTS og SØREN, denne sidste bærer et stort blomstrende Rosentræ.</speaker>
+</stage>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00949">Sæt det midt imellem de to <seg target="txtcmnt-542-01"><!--DATA-TERM: Thee-Rose(r)--><!--DATA-DEFINITION: rose med teduftende blade.-->Thee-Roser</seg>, saa er der Harmoni i Farverne! ja, det gjør godt! det er smukt! – Naa er Du hernede Jette, mellem Blomsterne!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00950">Her er jeg jo saa tidt kjære Fader.</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00951">Ja i den sidste Tid! det er først i Sommer Du har rigtig faaet Øine<pb n="543"/>ne op! hør Søren jeg troer gjerne vi i Dag eller imorgen kunne plukke vore Pærer af!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00952">Det tænker jeg ogsaa!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS <stage><hi rend="italic">(til Henriette)</hi></stage>.</speaker>
+<p rend="noIndent" xml:id="p_00953">Men det er godt Du har faaet Øinene op! Hvor har Du fundet Blomster, som her! ingen af Gartnerne <seg target="txtcmnt-543-01"><!--DATA-TERM: her paa Broen--><!--DATA-DEFINITION: her på Nørrebro.-->her paa Broen</seg> kunne opvise Mage! gid jeg som Dreng havde seet saadan en Have. Den mine Forældre havde, troede jeg var <seg target="txtcmnt-543-02"><!--DATA-TERM: den første--><!--DATA-DEFINITION: den fornemste.-->den første</seg> i Verden. Herre Gud! det var saadan en lille gammeldags een, med <seg target="txtcmnt-543-03"><!--DATA-TERM: Buxbumhækker--><!--DATA-DEFINITION: buksbomhække.-->Buxbumhækker</seg> og Fyrretræer, alle stift beskaarne. Faders og Moders Navne voxte i Buxbum, og fra <seg target="txtcmnt-543-04"><!--DATA-TERM: Storstue(-Døren)--><!--DATA-DEFINITION: største stue i et hus, brugt ved festlige lejligheder.-->Storstue-Døren</seg> saae man gjennem alle Hækker, der var et fiirkantet Hul, man saae hele Havens Længde og yderst ude, en rødmalet <seg target="txtcmnt-543-05"><!--DATA-TERM: Træ-Husar--><!--DATA-DEFINITION: bemalede træfigurer var almindelige i 1700-tallets barokhaver, tit brugt som afskærmning af en allés åbning mod omgivelserne.-->Træ-Husar</seg>, som <seg target="txtcmnt-543-06"><!--DATA-TERM: presenterede--><!--DATA-DEFINITION: gjorde honnør ved at præsentere gevær.-->presenterede</seg>! –</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00954">Ja, men det har jo været morsomt!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00955">En Have skal ikke være morsom! den skal være for Følelsen. Blomster havde vi ikke uden de til hver Aarstid reglementerede! om Foraaret Pindselillier og Tulipaner, om Sommeren nogle opløbne Roser og om Efteraaret blaa og røde Asters! – Jo, jeg gad have seet en Have, som denne her!</p>
+
+<head type="melody"><seg type="dfnStart" target="txtcmnt-543-07"/><hi rend="italic">Mel.:</hi> Il re di Napoli<seg type="dfnEnd" target="txtcmnt-543-07"/>.</head>
+
+<l rend="firstIndent">1.</l>
+<l rend="firstIndent">Mit Bibliothek er Haven her,</l>
+<l rend="firstIndent">En Bog er Blomst og Busk og Træer;</l>
+<l rend="firstIndent">Hver har sin Skat af Poesi,</l>
+<l rend="firstIndent">Gaae den ei forbi.</l>
+<l rend="firstIndent">See denne Hæk, dens Flor er rigt,</l>
+<l rend="firstIndent">Hver Rose er et Skjønheds Digt,</l>
+<l rend="firstIndent">Og Lillien i sin hvide <seg target="txtcmnt-543-08"><!--DATA-TERM: Brog--><!--DATA-DEFINITION: dragt.-->Brog</seg></l>
+<l rend="firstIndent">En Legende Bog!</l>
+
+<l rend="firstIndent">2.</l>
+<l rend="firstIndent"><seg target="txtcmnt-543-09"><!--DATA-TERM: Levkoi(ebedet)--><!--DATA-DEFINITION: levkøj, prydplante med velduftende blomster; tidligere også om andre planter, fx gyldenlak, dorthealilje.-->Levkoiebedet</seg> har mig sendt,</l>
+<errors>
+
+</errors>
+<pb n="544"/>
+<l rend="firstIndent">I Duft en Sang fra Orient,</l>
+<l rend="firstIndent">Den mørkerøde <seg target="txtcmnt-544-01"><!--DATA-TERM: Hanekam--><!--DATA-DEFINITION: navn for forskellige planter, især celosia argentea, tidligere en almindelig prydplante, hvis blomsterstand minder om en hanekam; rød hanekam er den mest udbredte. Også navn for primula.-->Hanekam</seg></l>
+<l rend="firstIndent">Er mit Epigram!</l>
+<l rend="firstIndent">I Vaarens Blomst er Duften stor,</l>
+<l rend="firstIndent">I Høstens Blomster Farven boer,</l>
+<l rend="firstIndent">Hver har saa sit – een stort, een smaat!</l>
+<l rend="firstIndent">Mit Bibliothek er godt!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00956">Det er et udmærket Bibliothek.</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00957">Ikke sandt!</p>
+
+<l rend="firstIndent">3.</l>
+<l rend="firstIndent">Den hele Verden har jeg her!</l>
+<l rend="firstIndent">Jeg reiser mellem Blomst og Træer;</l>
+<l rend="firstIndent">En Valmue Flor er mit Tyrki,</l>
+<l rend="firstIndent">Der er Mening i!</l>
+<l rend="firstIndent"><seg target="txtcmnt-544-02"><!--DATA-TERM: Pompeji malte Væg--><!--DATA-DEFINITION: hentyder vel til de røde eller rødbrune vægge med ornamentale borter i oldtidsbyen Pompeji, der blev begravet ved Vesuvs udbrud 79 e.Kr. Den pompejanske stil var på den tid højeste mode.-->Pompeji malte Væg</seg> jeg glad</l>
+<l rend="firstIndent">Kan see i Tulipanens Blad,</l>
+<l rend="firstIndent">Viinranken op af Husets Muur,</l>
+<l rend="firstIndent">Kalder jeg spansk Natur!</l>
+
+<l rend="firstIndent">4.</l>
+<l rend="firstIndent">Og ved mit Bord af Porcelain,</l>
+<l rend="firstIndent">Her under denne Guldregns Green,</l>
+<l rend="firstIndent">Jeg ved min Pibe og Kop Thee</l>
+<l rend="firstIndent">Kan jo China see!</l>
+<l rend="firstIndent">I Solskin jeg ved Palmen staaer,</l>
+<l rend="firstIndent">I Sneeveir jeg til Granen gaaer,</l>
+<l rend="firstIndent">Den hele Verden har jeg her</l>
+<l rend="firstIndent">Mellem Busk og Træer!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00958">Og Plankeværket der, er Verdens Grændse!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00959">Der har Du ret! – »<seg target="txtcmnt-544-03"><!--DATA-TERM: gamle Sole ligge der og forslidte Maaners Hær--><!--DATA-DEFINITION: jf. P.A. Heibergs digt »Laterna Magica«, 1794, str. 19.-->gamle Sole ligge der og forslidte Maaners Hær</seg>!« – der seer skrækkeligt ud derinde!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00960">Der groe kun Strømper og Sokker!</p>
+</sp>
+
+<pb n="545"/>
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00961">Nei i Enkens Tid! ja det var Paradisets, men det tænker man ikke paa naar man har det. – Kan Du huske da den syge Enke havde Huset derinde! Ingen kom i Haven der, Viinranken groede lige hen over Døren; det var et heelt Vildnis derinde! Hindbærbusken hang herover ligesom Pæretræet der. Det var en Baggrund for mine Blomster! begge Haver saae ud, som de gik i eet; og Fuglene sang derinde ligesom om man var langt ude i Landet! –</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00962">Det Hele var meget fordeelagtigt for os; men rimeligt og naturligt var det jo ogsaa at da Enken døde og Stedet fik en ny Eier, at han ogsaa vilde have Fordeel af sin Have! at han ryddede op derinde, lod Hækkene beskjære, og indrette sin Eiendom, som han havde Lyst!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00963">Du skulde rigtig gaae over Plankeværket og sætte Dig ned paa den anden Side, som <seg target="txtcmnt-545-01"><!--DATA-TERM: Procurator--><!--DATA-DEFINITION: forsvarer.-->Procurator</seg>! jo vist havde han Lov at indrette sin Eiendom, som han vilde! men jeg har ogsaa Lov at være gal i mit Hoved over det! Hele det deilige Buskads ødelagte han, alle Sangfuglene fløi deres Vei og vi fik Drenge Vræl og Skraal istedet!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00964">Herre Gud! Drengene tumlede sig lidt.</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00965">Ja saa vi fik Kaalstokke i Nakken! de skjød med Pusterør op i vore Træer og aldrig kunde man see hen til Plankeværket uden der stak et Hvalpehoved over!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00966">Husk paa hvor venlig Capitainen derinde kom og aflagde os Besøg; hvor kold, hvor – næsten uhøflig Du var mod ham!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00967">Jeg er naturlig, jeg viser mig, som jeg er! jeg vilde ikke have med ham at gjøre! jeg vilde i det mindste vise ham, at jeg var vred. Jeg spurgte ham om han ikke vilde save Pæretræet om med, saa fik han det mere luftigt! disse Søfolk kunne nu ikke faae Vind <pb n="546"/>nok. – »Det var Synd om jeg <seg target="txtcmnt-546-01"><!--DATA-TERM: for noget Kjævleri Skyld--><!--DATA-DEFINITION: på grund af noget kævleri (ældre genitivform).-->for noget Kjævleri Skyld</seg> skulde ødelægge saadan et velsignet Træ!« sagde han! det skulde nu være saa hjerteligt! – »Fra Enkens Tid har jeg altid taget Frugterne!« sagde jeg ham; »og jeg tager dem lader de Træet staae! de hænge ned til mig, de blive modne i mit Solskin, de trives i min Have!« – »Det vil vi see« sagde han! – »Det skal De see!« sagde jeg, og gav strax Søren Ordre, at plukke alle Pærerne af!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00968">Det lignede ikke Dig, Fader!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00969">Jo, det lignede mig! – Han regjerer inde hos sig, jeg vil ogsaa regjere paa mit! – Desuden viiste jeg ham, at det var ikke for at faae de Pærer jeg gjorde det! hver og een lod jeg ligge her i Gangen! Sendte han mig saa ikke den ene af Hvalpene ind at spørge: hvad det skulde betyde! men han fik Svar kan Du tro!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00970">Endnu kan jeg slet ikke indsee, hvad vi skulle være saa vrede for!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00971">Ikke det! ja saa er Du tungnem! – Søren! hvad fandt Capitainens Drenge paa! hvordan bar de sig ad med Dig!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00972">Ja, jeg veed det kjære Fader! men –</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00973">Hvad gjorde de –?</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00974">De toge Kosteskafter, bandt Gafler paa Enden og langede fra Plankeværket den ene Pære efter den anden! det var nederdrægtigt! jeg saae det, jeg fægtede med Spaden, men <seg target="txtcmnt-546-02"><!--DATA-TERM: flængede ikke den mindste--><!--DATA-DEFINITION: minsandten om ikke den mindste flængede.-->flængede ikke den mindste</seg> mig hele Overærmet med sin Gaffel, jeg kunde have faaet et Stik, saa jeg var død af <seg target="txtcmnt-546-03"><!--DATA-TERM: Mundklemme--><!--DATA-DEFINITION: mundkrampe, stivkrampe.-->Mundklemme</seg>!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00975">Men nu er det en gammel Historie! Drengene have alt et Par Aar været paa <seg target="txtcmnt-546-04"><!--DATA-TERM: Sorø Academi--><!--DATA-DEFINITION: stiftet 1584; 1822-1903 var skolens navn »Sorø Akademis lærde Skole og Opdragelsesanstalt«.-->Sorø Academi</seg>! Faderen giver aldrig Anledning til <pb n="547"/>Strid og lader Dig hvert Aar plukke Pæretræet, som rigtignok har dit Solskin, men Rødder og Stamme inde i hans Jord.</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00976">Frugten er min veed han! Loven har skilt os imellem; Loven har sagt: hvad der voxer ind i Naboens Have det er hans, hvad Frugt der falder fra Træet ind til Naboen det hører Naboen til! – jeg holder mig <seg target="txtcmnt-547-01"><!--DATA-TERM: bogstaveligt--><!--DATA-DEFINITION: ordret.-->bogstaveligt</seg> til Loven!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00977">Hvorledes kunde de ikke drille og plage os om de vilde!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00978">Det gjør de! Tjenestefolkene opføre sig saaledes mod mine</p>
+<p rend="noIndent" xml:id="p_00979">Folk, –</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00980">Ja Tjenestefolkene!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00981">Det forsikkrer jeg Frøkenen, det er et simpelt Folkefærd derinde! jeg vil bare sige Dem, at den Vaskerkone vi havde forrige Uge, da vi ikke kunde faae <seg target="txtcmnt-547-02"><!--DATA-TERM: Rokkedreier(ens)--><!--DATA-DEFINITION: drejer, som fremstiller bl.a. rokke.-->Rokkedreierens</seg> Kone, hun var saa spids og uvorn, at jeg strax kom efter at det var Capitainens Vaskerkone vi havde faaet! Det duer ikke hvad der kommer fra den Side! –</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00982">Nu er da ogsaa Sønnen kommen hjem fra Vestindien; Søofficeren! han gjør ikke andet end løber forbi og æder med Øinene mine Blomster, som staae i Vinduet! I Førstningen hilsede jeg ham, for jeg kan godt lide Folk holder af Blomster, og jeg spurgte Søren hvem den unge Mand var: – saa fik jeg det at vide! jeg har et Par Gange seet stift paa ham; – nu <seg target="txtcmnt-547-03"><!--DATA-TERM: trækker … af--><!--DATA-DEFINITION: går sin vej, fortrækker.-->trækker han af</seg> naar han seer mig!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00983">Der er det jo igjen Dig, som har Uret!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00984">O, ja saamænd! fra een Side taget! – men veed Du hvad, man maa være paa sin Post! – det er Folk man kan vente sig Alting af.</p>
+</sp>
+
+<pb n="548"/>
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00985">Vi have ellers længe maattet vente! jeg troer Du i fem Aar har seet i alle Bladene om der ikke var noget Udfald mod Dig! Jeg gjentager det, Du er her <seg target="txtcmnt-548-01"><!--DATA-TERM: ubillig--><!--DATA-DEFINITION: urimelig.-->ubillig</seg> mod Naboen!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00986">Du kjender ikke Verden! Du veed ikke hvad <hi rend="italic">Søren</hi> fortæller!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00987">Men jeg vilde i dit Sted forbyde Søren at lave Historier!</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00988">Jeg vil ikke snakke med Dig mere!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00989">Jo Du vil! thi Du holder af mig, som Du holder af dine Blomster! see hvor Roserne arbeide paa at skjule det stygge Plankeværk! jeg vilde nu ønske jeg kunde rive det ned og faae Dig og Naboen til at sidde under Pæretræet og der som Venner ryge Eders Pibe.</p>
+</sp>
+
+<sp>
+<speaker>ARENTS</speaker>
+<p rend="noIndent" xml:id="p_00990">Ja det kan Du tro! – <stage><hi rend="italic">(idet han gaaer)</hi></stage> Hun er i Grunden en god Pige. –</p>
+</sp>
+</div>
+                                   
+<div type="scene" rend="Fjerde Scene" xml:id="div0218">
+<head type="scene">Fjerde Scene</head>
+<stage rend="noIndent">
+<speaker>SØREN. HENRIETTE</speaker>
+</stage>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00991">Naar jeg turde sige et Ord, da vilde jeg rigtignok sige Frøkenen, at havde hun været med, da mit Ærme blev flænget, saa vilde hun ikke tage Parti for de Drenge! Frøkenen har dog hørt dem skraale og vræle!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00992">Vilde Du have at Capitainen skulde lade dem Dag ud og ind blive i Stue-Arrest! Drenge maae tumle sig! –</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00993">Ja Frøken, jeg har jo ogsaa været gift og jeg har en Søn, et høist dannet og fornuftigt Menneske! han var ogsaa meget vild, som <pb n="549"/>Barn; han kunde ogsaa have vendt op og ned paa et Huus, men jeg <seg target="txtcmnt-549-01"><!--DATA-TERM: holdt ham--><!--DATA-DEFINITION: (overført betydning) holdt ham fast, holdt styr på ham.-->holdt ham</seg>! og dog blev der aldrig nægtet ham nogen Fornøielse. Om Vinteren vilde han nu løbe paa Isen, men jeg lod ham ikke komme ud! jeg og min Kone heldede Vand paa Gulvet inde i Stuen, der kom ikke Ild i Kakkelovnen, og saa sad vi i <seg target="txtcmnt-549-02"><!--DATA-TERM: Kavai--><!--DATA-DEFINITION: kappe med slag eller stor krave.-->Kavai</seg> og ventede paa at der kunde fryse en lille Glidebane for ham.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00994">Det har været en kold Fornøielse!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00995">Jeg og min Kone sad og tog <seg target="txtcmnt-549-03"><!--DATA-TERM: Kampher-Draaber--><!--DATA-DEFINITION: brugtes bl.a. som sveddrivende middel.-->Kampher-Draaber</seg>! det varmede ligesaa godt, som om vi havde i Kakkelovnen; og det var en heel Besparelse. Jo, man kan nok holde sine Børn og dog lade dem have deres Fornøielse; men saadant kan man ikke vente sig af en Coffardi-Capitain, een af de grovere Capitainer! og Folkene ere, som Herskabet; jeg undgaaer dem altid! forleden vilde jeg inde i Byen sætte mig op i en af disse ny »<seg target="txtcmnt-549-04"><!--DATA-TERM: Unibus(ser)--><!--DATA-DEFINITION: omnibus, en stor lukket vogn, blev indført til offentlig personbefordring i 1800-tallet (i København fra ca. 1840).-->Unibusser</seg>,« jeg var inderlig træt, og det er nu saadan en god Indretning! Heida! sagde jeg, og vinkede! <seg target="txtcmnt-549-05"><!--DATA-TERM: Heiduk(ken)--><!--DATA-DEFINITION: gammeldags lakaj, klædt i (efterligning af) ungarsk dragt; her vel om omnibuskonduktøren.-->Heidukken</seg> der bag paa trak i <seg target="txtcmnt-549-06"><!--DATA-TERM: Ringetøi--><!--DATA-DEFINITION: klokke med tilbehør.-->Ringetøi</seg> og »Unibussen« <seg target="txtcmnt-549-07"><!--DATA-TERM: stod--><!--DATA-DEFINITION: standsede.-->stod</seg>, jeg havde allerede det ene Been inde, men hvem sad der – Capitainens Huusholderske! »Tak!« sagde jeg og gik baglænds ud! »jeg skal ikke kjøre den Gang!« – Og saa fik jeg Vrøvl med Heidukken, men jeg vil ikke under Tag med de Folk! de udspionerer Een! de sætte os i Bladet før vi veed et Ord derom!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00996">Du gjør virkelig alt dit til at Du burde komme der!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00997">Jeg har været der! – det stod rigtignok saa fiint at ikke enhver kunde mærke det! Jeg veed ikke om Frøkenen husker en <seg target="txtcmnt-549-08"><!--DATA-TERM: Politiven--><!--DATA-DEFINITION: <i>Politievennen. Et ugentligt Almuesblad</i>, 1798-1811 og 1816-1845.-->Politiven</seg> ifjor, der stod i den et Stykke med Overskrift: »<seg target="txtcmnt-549-09"><!--DATA-TERM: Æblet … Pæren--><!--DATA-DEFINITION: ses ikke i <i>Politievennen</i>, årg. 1837-1842. Jf. »Eblet falder ikke langt fra roden«, DgO VII:1,584.-->Æblet falder ikke langt fra Pæren</seg>!« vi havde lige i de Dage plukket Pæretræet og det løb mig som en Vandkande ned af Ryggen da jeg læste det.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_00998">Men hvad Hentydninger var der i selve Stykket.</p>
+</sp>
+
+<pb n="550"/>
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_00999">I selve Stykket var der ingen, det havde nu en ganske anden Handling! Det var nu gjort saa <seg target="txtcmnt-550-01"><!--DATA-TERM: fiint--><!--DATA-DEFINITION: snedigt.-->fiint</seg>! men jeg takker vor Herre jeg har en god Forstand!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01000">Du er en Nar!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01001">Ja det kan Frøkenen sige! – De vil nu hverken troe mig eller deres Fader! men det veed jeg, at da min Søn kom hjem fra <seg target="txtcmnt-550-02"><!--DATA-TERM: Flensborg … godt klædt--><!--DATA-DEFINITION: den sønderjyske købstad, som dengang var dansk, og hvis indbyggere i hovedsagen var dansksindede op til 1848, var kommet godt på fode efter krigen 1807-1814; efter 1848 gik det tilbage for byen.-->Flensborg og var saa godt klædt</seg>, som nogen, saadan med <seg target="txtcmnt-550-03"><!--DATA-TERM: Façon--><!--DATA-DEFINITION: sving, figur.-->Façon</seg>! saa stod der i <seg target="txtcmnt-550-04"><!--DATA-TERM: Adresse-Avisen--><!--DATA-DEFINITION: egl. <i>Kiøbenhavns Kongelige allene privilegerede Adresse-Contoirs Efterretninger</i>; annonceavis, udkom 1759-1908; en forløber udkom fra 1749, dog med afbrydelser.-->Adresse-Avisen</seg> at der var arriveret en forunderlig Fisk, som var at see for sex Skilling! men da jeg vilde see Fisken, saa var den der ikke, og de sagde, den var kjøbt af Capitainen, som var Naturfusker! – jeg lagde det ene sammen med det andet, og saa kunde jeg nok vide hvem det sigtede til med den »forunderlige Fisk!«</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01002">Hvor Du kan sætte sammen! Du gjør rigtig nok dit til at vi aldrig komme paa nogen god Fod med Naboens!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01003">Jeg, Frøken! Ingen kan mere ønske Fred og Rolighed, end jeg, og ondt vil jeg Ingen, men en lille Ulykke troer jeg de derinde kunde have <seg target="txtcmnt-550-05"><!--DATA-TERM: besynderlig--><!--DATA-DEFINITION: overordentlig.-->besynderlig</seg> godt af! kunde jeg skrive, som jeg kan tale! <seg target="txtcmnt-550-06"><!--DATA-TERM: de skulde staae--><!--DATA-DEFINITION: så skulle de stå.-->de skulde staae</seg> i Bladet baade Capitainen og hele Menagen! – God Morgen!</p>
+</sp>
+</div>
+                                   
+<div type="scene" rend="Femte Scene" xml:id="div0219">
+<head type="scene">Femte Scene</head>
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01004">Det er det gamle Menneske, som gaaer og puster til min Faders</p>
+<p rend="noIndent" xml:id="p_01005">Vrede! – O Gud, hvorledes skal det dog ende! –</p>
+
+<head type="melody"><seg type="dfnStart" target="txtcmnt-550-07"/><hi rend="italic">Mel.: »Det vil bedre gaae!«</hi><seg type="dfnEnd" target="txtcmnt-550-07"/></head>
+<lg xml:id="p_01006">
+<l rend="secondIndent">Snart er jeg glad, snart sorrigfuld!</l>
+<l rend="secondIndent">Saa rigt, saa tungt er Elskovs Guld.</l>
+
+<errors>
+
+</errors>
+<pb n="551"/>
+<l rend="secondIndent">Du Rosenflor i al din Pragt</l>
+<l rend="secondIndent">Har Lænken om mit Hjerte lagt.</l>
+</lg>
+
+<lg xml:id="p_01007">
+<l rend="firstIndent">Blomsterne var det, som førte os sammen,</l>
+<l rend="firstIndent">Hen til vort Vindue, de fængsled’ hans Blik!</l>
+<l rend="firstIndent">Indenfor sad jeg og syede ved <seg target="txtcmnt-551-01"><!--DATA-TERM: Rammen--><!--DATA-DEFINITION: træramme, som stoffet blev spændt ud på, især ved broderi.-->Rammen</seg>,</l>
+<l rend="firstIndent">Da han mig saae en Hilsen jeg fik!</l>
+</lg>
+
+<lg xml:id="p_01008">
+<l rend="secondIndent">Han kom hver Dag og standsed’ lidt,</l>
+<l rend="secondIndent">Paa Blomsterne han saae ret tidt.</l>
+<l rend="secondIndent">Han hilsed’ mig – og jeg – jeg veed,</l>
+<l rend="secondIndent">Man maa jo vise Høflighed.</l>
+</lg>
+
+<lg xml:id="p_01009">
+<l rend="firstIndent">Siden vi mødtes paa Bal, jeg kan nøie</l>
+<l rend="firstIndent">Huske det! vi var’ ei fremmede meer;</l>
+<l rend="firstIndent">Blomster og Toner kan Hjerterne bøie,</l>
+<l rend="firstIndent">Selv man veed ikke hvorledes det skeer.</l>
+</lg>
+<lg xml:id="p_01010">
+<l rend="secondIndent">Snart er jeg glad, snart sorrigfuld!</l>
+<l rend="secondIndent">Saa rigt, saa tungt er Elskovs Guld.</l>
+<l rend="secondIndent">Du Rosenflor i al din Pragt,</l>
+<l rend="secondIndent">Har Lænken om mit Hjerte lagt!</l>
+</lg>
+<stage rend="right"><hi rend="italic">(det tordner.)</hi></stage>
+</sp>
+</div>
+                                   
+<div type="scene" rend="Sjette Scene" xml:id="div0220">
+<head type="scene">Sjette Scene</head>
+<stage rend="noIndent"><speaker>HENRIETTE. CAPITAIN PETERSEN i sin Have, lidt efter HERMAN</speaker>
+</stage>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(idet han nærmer sig Lysthuset)</hi></stage>.</speaker>
+<p rend="noIndent" xml:id="p_01011">Jo, Døren og alle Vinduerne staae aabne! Veiret hænger os lige over Hovedet! jeg maa nok lukke at ikke Kort og Papirer flyve som Strandmaager!</p>
+<stage rend="right"><hi rend="italic">(gaaer ind og lukker Vinduerne til.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01012">Hvor det er trukket sammen! Skyen hænger som et Bjerg deroppe! der lynte det! – Hvor gjerne vilde jeg ikke have blevet her og ventet paa ham!</p>
+</sp>
+
+<pb n="552"/>
+<sp>
+<speaker>HERMAN <stage><hi rend="italic">(kommer hurtig ind).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01013">Mon hun skulde være her endnu!</p>
+<stage rend="right"><hi rend="italic">(stiger op paa Plankeværket.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01014">Der falde de første tunge Regndraaber! – jeg maa ind under Tag!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(idet han faaer Øie paa Sønnen).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01015">Hvor entrer han hen! –</p>
+</sp>
+
+<sp>
+<speaker>HERMAN <stage><hi rend="italic">(paa Plankeværket).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01016">Pst! pst!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01017">Det er Dig! allerede igjen!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01018">Jeg har Brev, jeg har <seg target="txtcmnt-552-01"><!--DATA-TERM: Bestalling--><!--DATA-DEFINITION: åbent brev, hvorved en udnævnelse bekræftes af myndighederne (især kongen).-->Bestalling</seg>! vil Du gratulere din Capitain!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01019">O Gud være lovet! lad mig see!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01020">Kom herop!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01021">Men det bliver et skrækkeligt Veir!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01022">Her sidde vi tørre! det skal skylle stærkt før det trænger igjennem disse Seil! – Jeg er udnævnt til at føre det ny Dampskib mellem London og St. Petersburg!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(halv sagte).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01023">Jeg gratulerer! men hvem er det derinde han fortæller det!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE <stage><hi rend="italic">(oppe i Træet).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01024">Lad mig see Brevet og Bestallingen!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01025">Et Fruentimmer! den lille Frøken! troer jeg ikke de seile paa deres egen Haand! – Det var i god Tid jeg kom og lukkede Vinduer!</p>
+<stage rend="noIndent"><hi rend="italic">(Torden.)</hi></stage>
+</sp>
+
+<pb n="553"/>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01026">Seer Du, her staaer det! 400 Pund aarlig! det er 3000 Rdlr.! vi kunne føre en ganske god Huusholdning!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01027">Hvor Glæden dog gjør os Mennesker godt! dit Øie straaler! der er en Friskhed i dit Ansigt! o saaledes skulde Du males! saaledes vil jeg at hele Verden skal see Dig naar vi om mange Aar ere blevne gamle! ikke for min Skyld, i min Tanke bliver du uforandret! <stage><hi rend="italic">(det lyner.)</hi></stage> Hvilket Lyn!</p>
+
+<head type="melody"><seg target="txtcmnt-553-01"><!--DATA-TERM: Mel.: Af Fiorella--><!--DATA-DEFINITION: »J’entends et la grèle et la pluie«, (fransk, i Th. Overskous oversættelse:) »Her hører jeg Blæsten og Regnen«, couplets (nr. 8) fra D.F.E. Aubers komiske opera, 1826, med tekst af E. Scribe; opført på Det Kongelige Teater 1838. Trykte noder: Zinck 2, 12. årg., bd. 1; klaverpartitur til <i>Fiorella</i> findes. E-noder: <i>Fiorella</i>.--><hi rend="italic">Mel.: Af Fiorella.</hi></seg></head>
+
+<l rend="firstIndent">1.</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Med Orgel Toner Stormen bruser,</l>
+<l rend="firstIndent">Høit Tordnen ruller! o hvor stort!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Som Pilen Lynet suser</l>
+<l rend="firstIndent">Fra Himlens aabne Port.</l>
+</sp>
+
+<sp>
+<speaker>BEGGE TO</speaker>
+<l rend="firstIndent">Fra Skyen styrte Regnens Strømme,</l>
+<l rend="firstIndent">Tordenbrag! Lyn paa Lyn! hvilken Pragt!</l>
+<l rend="firstIndent">Vi sidde begge i Elskovs Drømme,</l>
+<l rend="firstIndent">Haanden paa Hjertet lagt.</l><span type="unison" spanTo="unison0028"/>     
+<l rend="firstIndent">Stor er Gud Amors Magt!</l>
+</sp>
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Cap’tainen giver Agt!</l>
+<anchor type="unison" xml:id="unison0028"/>
+<stage rend="right"><hi rend="italic">(Torden.)</hi></stage>
+
+<l rend="firstIndent">2.</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">To Kjærestefolk som sidde sammen,</l>
+<l rend="firstIndent">De glemme Storm og Tordenbrag!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Havde vi nu Svanehammen</l>
+<l rend="firstIndent">Vi fløi med stærke Vingeslag.</l>
+</sp>
+
+<pb n="554"/>
+<sp>
+<speaker>BEGGE</speaker>
+<l rend="firstIndent">Vi fløi som Skyen og som Svalen,</l>
+<l rend="firstIndent">O saa langt, over Land, over Hav;</l>
+<l rend="firstIndent">Høit paa Fjeld og dybt i Dalen</l><span type="unison" spanTo="unison0029"/>     
+<l rend="firstIndent">Gud Amor <seg target="txtcmnt-554-01"><!--DATA-TERM: Leide--><!--DATA-DEFINITION: løfte om personlig sikkerhed på rejse (især indrejse i en fyrstes land).-->Leide</seg> gav!</l>
+</sp>
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Den Lille hun er brav!</l>
+<anchor type="unison" xml:id="unison0029"/>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01028">Men om Lynet nu slog ned her i Træet!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01029"><seg target="txtcmnt-554-02"><!--DATA-TERM: Det var at--><!--DATA-DEFINITION: det ville være ligesom at.-->Det var at</seg> døe, som »<seg target="txtcmnt-554-03"><!--DATA-TERM: Lykkens Yndling--><!--DATA-DEFINITION: hentyder nok til Carl Bernhards roman, 1837, hvor de elskende sammen møder døden ved et skibsforlis.-->Lykkens Yndling</seg>!« – dog jeg vil rigtignok heller leve! – Skyen er ikke trukket over! – See hvor Alt svømmer i Vand dernede! Alle Roser faae Styrtebad! <seg target="txtcmnt-554-04"><!--DATA-TERM: uden--><!--DATA-DEFINITION: undtagen.-->uden</seg> min egen blomstrende Rose!</p>
+<stage rend="right"><hi rend="italic">(omfavner hende.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01030">Du ryster med Grenene! jeg bliver ganske vaad.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01031">Allerførst vil jeg nu tale med min Fader! jeg er slet ikke ængstelig for Udfaldet der! – <seg target="txtcmnt-554-05"><!--DATA-TERM: Nu er det at--><!--DATA-DEFINITION: nu gælder det om at.-->Nu er det at</seg> finde paa at stemme din Fader! og saa arrangere vi vor lille Huusholdning. Den ene Fløi af Huset staaer jo ledig; – Plankeværket maa vi have ned og Pæretræet hvor Kjærlighedens Fugl har sjunget for os, skal være <seg target="txtcmnt-554-06"><!--DATA-TERM: vor Tempel--><!--DATA-DEFINITION: ældre form (fælleskøn: »en Tempel«).-->vor Tempel</seg>! her under Grenen maa Præsten vie os!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01032">Han forstaaer at arrangere det Hele!</p>
+<l rend="right"><stage rend="right"><hi rend="italic">(Uveiret tager meer og meer af</hi></stage>.)</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01033">Vi skal faae det nydeligt.</p>
+<graphic type="blank"/>
+
+<head><seg target="txtcmnt-554-07"><hi rend="italic">Mel.: »</hi>Te voglio bene</seg>.«</head>
+<graphic type="blank"/>
+
+<l rend="firstIndent">Saa smukt er ingen Steder</l>
+<l rend="firstIndent">Som hos et nygift Par,</l>
+<l rend="firstIndent">Selv Meubler der og Klæder,</l>
+<errors>
+
+</errors>
+<pb n="555"/>
+<l rend="firstIndent">Den friske Ungdom har;</l>
+<l rend="firstIndent">Med Eden er det lignet,</l>
+<l rend="firstIndent">Og ligner <seg target="txtcmnt-555-01"><!--DATA-TERM: ei saa smaat--><!--DATA-DEFINITION: ikke så lidt.-->ei saa smaat</seg>,</l>
+<l rend="firstIndent">O, der er saa velsignet,</l>
+<l rend="firstIndent">Saa hyggeligt og godt!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Jeg gik hvor Skovens Grene</l>
+<l rend="firstIndent">Ud over Stien hang,</l>
+<l rend="firstIndent">En lille Fugl sad ene</l>
+<l rend="firstIndent">Og derfor ei den sang;</l>
+<l rend="firstIndent">Men var der to ved Reden,</l>
+<l rend="firstIndent">De qviddred’ nok saa fro;</l>
+<l rend="firstIndent">Rundt om dem var et Eden</l>
+<l rend="firstIndent">Fordi at De var to!</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Alt har en Duft, en Tone,</l>
+<l rend="firstIndent">Et eget Trylleri,</l>
+<l rend="firstIndent">Den søde lille Kone</l>
+<l rend="firstIndent">Er ene Skyld deri!</l>
+<l rend="firstIndent">Een kan ei Himlen finde,</l>
+<l rend="firstIndent">Nei man maa være to!</l>
+<l rend="firstIndent">Jeg raader Mand og Qvinde:</l>
+<l rend="firstIndent">Skynd jer at sætte Bo!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01034">Men nu regner det virkeligt her! vi kan ikke blive. –</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01035">Jeg har saa meget at sige Dig! – See kun, Uveiret er forbi! men her komme rigtignok Draaberne lidt stærk! – stiig ned, jeg bærer Dig over det vaade Græs ind i vort Lysthuus, Ingen kommer her det første Qvarteer efter en saadan Skylregn.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01036">Hvad tænker Du paa!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01037">Saa maa jeg nok gaae i Læ!</p>
+<stage rend="right"><hi rend="italic">(trækker sig tilbage.)</hi></stage>
+</sp>
+
+<pb n="556"/>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01038">Du bliver ganske vaad! – der er jo intet at vove! ikke et Menneske seer det; vi kunne der <seg target="txtcmnt-556-01"><!--DATA-TERM: afhandle--><!--DATA-DEFINITION: afgøre.-->afhandle</seg> den hele Sag. Sæt Foden her paa Grenen, og saa atter der!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01039">Du ryster Grenene! Tænk om min Fader kom herned og jeg var hos Naboens.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01040">Ja der vilde han da mindst søge Dig!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01041">Jeg vover det!</p>
+<stage rend="noIndent"><hi rend="italic">(springer ned i Armene paa Herman.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01042">Lad mig bære Dig over den vaade Jord! Du er let som et Barn! –</p>
+<stage rend="right"><hi rend="italic">(bærer hende hen imod Lysthuset.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01043">Tab mig ikke!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01044">En Sømand kan ikke tabe sin Kjæreste!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(aabner Døren for dem).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01045">Vær saa god og kom indenfor!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01046">Min Fader!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01047">O Gud! jeg forgaaer af Skamfuldhed!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01048">Velkommen min fortræffelige Frøken! – Det er første Gang jeg har den Fornøielse at see dem i mit Huus.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01049">Fader, jeg har faaet Commandoen over det ny Dampskib! jeg kan <seg target="txtcmnt-556-02"><!--DATA-TERM: føde--><!--DATA-DEFINITION: forsørge.-->føde</seg> en Kone – og hende har jeg fundet, med hende kan jeg blive lykkelig! – Alt vilde jeg have sagt Dig i Dag!</p>
+</sp>
+
+<pb n="557"/>
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01050">Men nu kan Du spare Dig den Uleilighed! – Og De Frøken, hvad siger De?</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01051">Hvad maa De troe om mig!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01052">Jeg troer De er en velsignet Pige, som nok kan gjøre en Mand lykkelig!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01053">– At De seer mig her –!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01054">Det er mig noget særdeles kjært og behageligt! Aldrig har jeg følt Nag til Deres Fader, – han har nu sine Griller, jeg kan have mine! – Tiden jevner Alt, tænkte jeg og det har den! jeg faaer en lille uskyldig Hævn! – I skal have hinanden! ja saa min Sjæl skal I saa! –</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01055">Ja, <seg target="txtcmnt-557-01"><!--DATA-TERM: det er en Fader--><!--DATA-DEFINITION: sikken en far.-->det er en Fader</seg> jeg har! – jeg vidste nok Du ikke vilde sætte Dig mod min Lykke! –</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01056">De er god og kjærlig! – Gud velsigne og glæde Dem!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01057">Det gjør han nok! – men nu først har han overdraget mig at arrangere Eders Sager.</p>
+<stage rend="firstIndent"><hi rend="italic">(sætter sig ved Skriverbordet og skriver.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01058">Hurra! jeg øiner Land! Brylluppet skal staae i denne Uge og vi dandse Brudedands under Pæretræet!</p>
+</sp>
+<head type="melody"><seg target="txtcmnt-557-02"><hi rend="italic">Mel.: »Malapou.«</hi></seg></head>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Jeg svinger Dig min søde Brud</l>
+<l rend="firstIndent">Her under Træets grønne Hang,</l>
+<errors>
+
+</errors>
+<pb n="558"/>
+<l rend="firstIndent">Og alle Blomster springe ud</l>
+<l rend="firstIndent">Ved Fløitespil og Strænge-Klang.</l>
+<l rend="firstIndent">Trala.</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Du er saa vild! – her er saa vaadt!</l>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Hvor Dig jeg har er skjønt og godt!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Til Faderen jeg skrevet har.</l>
+<l rend="firstIndent">Vi faae <seg target="txtcmnt-558-01"><!--DATA-TERM: i Øieblikket--><!--DATA-DEFINITION: øjeblikkelig.-->i Øieblikket</seg> Svar!</l>
+<stage rend="right"><hi rend="italic">(ringer med en Klokke.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">O hvilken Lyst og Salighed!</l>
+<l rend="firstIndent">Men slaae dog ikke Øiet ned!</l>
+<l rend="firstIndent">Jeg er saa lykkelig, saa glad,</l>
+<l rend="firstIndent">Min Tanke er et Elskovs-Qvad!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(raabende).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01059">Ole! Peter! Rasmus! Maren! Rasmus! – Hov!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="firstIndent">Jeg svinger Dig min søde Brud etc. –</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<stage rend="noIndent"><hi rend="italic">(til Karlen som kommer).</hi></stage>
+<p rend="noIndent" xml:id="p_01060">Naa, Rasmus! Du gaaer, i den stærkeste Fart Du kan sætte op, ind til Cancelliraaden med dette Brev og beder ham øieblikkelig læse det! – Naa, hvad seer Du efter! – Afsted! <stage><hi rend="italic">(Karlen løber.)</hi></stage> Det var vor bedste Løber! han springer paa en Dag og en Nat, herfra til Korsør og tilbage igjen og sover dog hele Natten, som han siger! Benene ere i Gang og de løbe med den sovende Rasmus! De skal komme til at kjende ham.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01061">Han bringer min Fader deres Brev?</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01062">Ja og det i Gallop! han er <seg target="txtcmnt-558-02"><!--DATA-TERM: alt--><!--DATA-DEFINITION: allerede.-->alt</seg> ude af Haven.</p>
+</sp>
+
+<pb n="559"/>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01063">Dit Brev var kort, kun nogle Linier!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01064">Mere behøvedes der ikke! jeg holder meget af at fatte mig i Korthed! giv mig Din Haand Dreng og De – ja, ved en saadan Leilighed kan man nok sige Du til hinanden uden at have et Glas Viin i Haanden og drikke sig Tilladelsen til! – Din Haand min Pige! – Der har I hinanden! I har min Velsignelse! og nogle Penge skal I faae til! Om lidt kommer vor Nabo og giver ogsaa sin Velsignelse. – Er her ikke en Øxe i Nærheden! Nei, jeg vil ikke slaae ham for Panden, Gud bevares! jeg vil bruge den til at hugge Plankeværket ned! det skal falde, som et Storseil.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01065">Hvorledes troer Du vi vinde ham saa <seg target="txtcmnt-559-01"><!--DATA-TERM: snart--><!--DATA-DEFINITION: hurtigt.-->snart</seg>! hvad har Du skrevet?</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01066">Hvad jeg har skrevet? Jeg har ganske simpelt skrevet, at jeg maatte tage mig den ærbødige Frihed at bringe ham Lovens Ord i Erindring, Loven som han altid har holdt sig saa bestemt til: »al den Frugt der falder fra Træet ind til Naboen, hører Naboen til!« – I Stormen for lidt siden er et betydeligt Antal Pærer faldet ind i hans Have, men ved samme Leilighed er hans fortræffelige Datter blæst ind til mig! han har altid beholdt min Frugt og jeg beholder nu hans, den allerbedste han har, og i dette Øieblik har jeg foræret hende til min ældste Søn, Herman.</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01067">Nei, det er fortræffeligt! jeg maa kysse Dig min egen velsignede Fader!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01068">Det har de virkeligt skrevet!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01069">Ja, Ord til andet!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01070">Men det er jo skrækkeligt!</p>
+</sp>
+
+<pb n="560"/>
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01071">Ikkesandt! men det var jo ogsaa en Orkan, som man før kun havde dem i <seg target="txtcmnt-560-01"><!--DATA-TERM: Maribo-Avis--><!--DATA-DEFINITION: <i>Lolland-Falsters Stifts Kongelige privileg. Adressecontoirs Efterretninger, som sendes med Rideposten</i>; J.L. Heiberg havde (i <i>Flyve-Posten</i> nr. 99, 1828) ironiseret over den som eksempel på lidt komiske provinsaviser, der »især maatte anbefales en Curiositets-Samler«. I 1842 hed avisen <i>Lolland-Falsters Stifts-Tidende.</i>-->Maribo-Avis</seg>!</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01072">Naboen tog vore Pærer, jeg har faaet et Æble igjen, et Guldæble der gjør mig til den rigeste Marine-Officeer i nogen Konges Tjeneste!</p>
+</sp>
+</div>
+                                   
+<div type="scene" rend="Syvende Scene" xml:id="div0221">
+<head type="scene">Syvende Scene</head>
+
+<stage rend="noIndent" type="setting">DE FORRIGE. CANCELLIRAADEN og SØREN</stage>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01073">Hvad er det dog! er de gale! er jeg gal! staaer det ikke der i Brevet! – Han maa have mistet Forstanden! <stage><hi rend="italic">(til Søren)</hi></stage> Hvad vil Du! gaa fra mig! hvor er hun! har Du seet hende! Bare hun ikke er kommet noget til.</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01074">Gud bevar os! hvad gaaer der af Herren!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01075">Hvor er min Datter! See dog ikke saadan paa mig! jeg veed nok hvor hun er! men det er Løgn!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01076">Men saa veed Herren det jo ikke!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01077">Ti stille!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01078">Herrens Hoved er bestemt løbet sammen i Tordenveiret!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01079">Der har vi vor Nabo, hører jeg!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01080">Hvad har jeg dog gjort!</p>
+</sp>
+
+<pb n="561"/>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01081">Vær rolig kjære Pige!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01082">Han skriver, at min Datter er blæst over Plankeværket til ham! det er jo noget Sludder! og dog har jeg faaet saadan en Forfærdelse!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01083">Er hun blæst?</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01084">Staae ikke der og spørg! – Det er Naboer man har! nei Enken! jeg faaer aldrig den Enke igjen! – Men det er Løgn!</p>
+</sp>
+
+<sp>
+<speaker>SØREN <stage><hi rend="italic">(som seer over Plankeværket).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01085">Jo, Hr. Cancelliraad! – Hun er blæst over!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01086">Hvad siger Du –! <stage><hi rend="italic">(klattrer op)</hi></stage> O mit Barn!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01087">God Morgen Hr. Cancelliraad! De har faaet mit Brev! De veed hvor gunstige Omstændighederne have været mig! –</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01088"><hi rend="italic">Jette</hi>! hvor er Du kommen derind! Hr. Capitain jeg beder dem De vil udlevere mig min Datter!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01089">De har aldrig villet udlevere mig mine Pærer, jeg har maattet finde mig deri og nu beholder jeg den Frugt der falder fra Grenene ind til mig!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01090">Men min Datter er ingen Pære! og Loven holder sig ikke til Spidsfindigheder.</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE <stage><hi rend="italic">(idet hun fører Herman frem).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01091">Fader! jeg elsker ham! jeg har ikke havt Mod til at sige Dig det! –</p>
+</sp>
+
+<pb n="562"/>
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01092">Jeg er i denne Dag sat istand til at ernære en Kone. Deres Datter har lovet mig at dele Sorg og Glæde med mig! – Skam skal De ikke have af deres Svigersøn!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01093">Hvad er dog dette! hvad er dog dette!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01094">Bedst er det at Naboer ere Venner, og vi to kunne blive dette! vi have aldrig ret talt sammen, men nu kunne vi det! nu er Leiligheden god!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01095">Kalder De dette en god Leilighed!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01096">Min Søn har faaet at føre det nye Dampskib mellem London og St. Petersborg; han og hans lille Kone kunne leve anstændigt og behageligt. Jeg overlader dem mit lille Huus her; Plankeværket hugges ned; Pæretræet selv antyder kun den gamle Grændse; her ligger Øxen, jeg slaaer selv det første Slag; De vil sige deres Beslutning! –</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01097">Høistærede! jeg maa sige Dem at det er en ganske selsom Tale! og jeg maa bede Dem at De vil behage at lade min Datter komme herover!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01098">Hun bliver her til hun er forenet med min Søn!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01099">Vil De udsætte en Piges Rygte for Skandale! hvad vil der ikke komme i Bladene! –</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01100">Vi <seg target="txtcmnt-562-01"><!--DATA-TERM: komme i Kobberstik--><!--DATA-DEFINITION: Søren tænker nok på illustrerede skillingstryk med fortællinger og viser om skrækkelige begivenheder.-->komme i Kobberstik</seg> Allesammen!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01101">De giver deres Ja! ingen Mennesker faae da at vide om den hele</p>
+<p rend="noIndent" xml:id="p_01102">Historie! man vil sige: det er <seg target="txtcmnt-562-02"><!--DATA-TERM: mærkværdigt--><!--DATA-DEFINITION: bemærkelsesværdigt.-->mærkværdigt</seg>! det er smukt! de to</p>
+<pb n="563"/>
+<pb n="564"/>
+
+<p rend="noIndent" xml:id="p_01103">Familier ere blevne Venner og Beslægtede! eller rettere, Ingen vil tale derom, thi det er noget godt, og man taler aldrig om hvad der er godt!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01104">Og her sidder jeg paa Plankeværket!</p>
+</sp>
+<head type="melody"><seg target="txtcmnt-564-01"><!--DATA-TERM: Mel.: »Frage nicht warum ich traure!«--><!--DATA-DEFINITION: (tysk) spørg ikke, hvorfor jeg sørger; synges af Charlotte i Fr. Schillers skuespil <i>Der Parasit</i>, 1803, IV,4. Trykte noder: <i>Danmarks Melodier</i> IV, nr. 274, »Under Søvnens Vuggeklæde«. E-noder: <i>Ole Lukøje/</i>»Under Søvnens Vuggeklæde«.--><hi rend="italic">Mel.: »Frage nicht warum ich traure!«</hi></seg></head>
+
+<sp>
+<speaker>SØREN</speaker>
+<l rend="firstIndent">Gode Herre lad Dem røre,</l>
+<l rend="firstIndent">Frøknen er dog faldet ned!</l>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<l rend="firstIndent">Det er skrækkeligt at høre!</l>
+<l rend="firstIndent">Jeg er sand for Herren vred!</l>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<l rend="firstIndent">Fader, gaae ei bort i Vrede,</l>
+<l rend="firstIndent">Jeg har feilet! jeg det veed!</l>
+<l rend="firstIndent">Fader hør din Datter bede</l>
+<l rend="firstIndent">Ved sin Moders Kjærlighed!</l>
+</sp>
+
+<sp>
+<speaker>ALLE</speaker>
+<l rend="firstIndent">Lad til Fryd det Hele blive!</l>
+<l rend="firstIndent">Her er trofast Kjærlighed!</l>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<l rend="firstIndent">Siig De ja! og jeg skal <seg target="txtcmnt-564-02" type="dfnStart"><!--DATA-TERM: give … kort Besked--><!--DATA-DEFINITION: (egl. gøre kort besked) gøre kort proces med.--></seg>give</l>
+<l rend="firstIndent">Plankeværket kort Besked<seg target="txtcmnt-564-02" type="dfnEnd"><!--DATA-TERM: give … kort Besked--><!--DATA-DEFINITION: (egl. gøre kort besked) gøre kort proces med.--></seg>!</l>
+</sp>
+
+<sp>
+<speaker>ALLE</speaker>
+<l rend="firstIndent">Hver en Blomst i Luften svaier</l>
+<l rend="firstIndent">Nikker til dem, siig dog ja!</l>
+<l rend="firstIndent">Og et lystigt Seier! Seier!</l>
+<l rend="firstIndent">Gjennem Haven klinger da!</l>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01105">Det er et heelt Complot! nei! nei!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01106">Bliv ikke heftig! De kunde ogsaa falde ind over Plankeværket og da behandlede jeg dem med som min Eiendom, indtil videre.</p>
+</sp>
+<pb n="565"/>
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01107">Indtil videre! – det er en ganske forunderlig Situation! – Jeg kommer i Bladene. Min Datter boe i Huset der –, Pæretræet bliver mit! – Ja jeg maa overveie! –</p>
+</sp>
+
+<sp>
+<speaker>HERMAN</speaker>
+<p rend="noIndent" xml:id="p_01108">En Mand, som De behøver ikke lang Tid til Overveielse!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01109">Der bedes første, anden og tredie Gang, og – saa slaae vi til! <stage><hi rend="italic">(tager Øxen.)</hi></stage></p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<stage rend="noIndent"><hi rend="italic">(som er steget ned, siger til Cancelliraaden.)</hi></stage>
+<p rend="noIndent" xml:id="p_01110">Hele Historien kommer i Bladet! »Cancelliraaden paa Plankeværket, eller Frøkenen som faldt over!« det bliver skrækkeligt!</p>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01111">Hør, jeg vil komme ind til dem og tale besindig!</p>
+<stage rend="noIndent"><hi rend="italic">(stiger ned.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01112">De vil komme ind! – Jeg skal forkorte dem Veien!</p>
+<stage rend="noIndent"><hi rend="italic">(slaaer paa Plankeværket.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01113">Nu gaaer det! det er gaaet! forfærdelige Mennesker! Bare ingen Naboer see det!</p>
+</sp>
+
+<sp>
+<speaker>SØREN</speaker>
+<p rend="noIndent" xml:id="p_01114">Hurra for Plankeværket!</p>
+<stage rend="noIndent"><hi rend="italic">(river Plankerne med ned saa at Pæretræet staaer frit paa Scenen.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01115">Det gaaer ligesom ved <seg target="txtcmnt-565-01"><!--DATA-TERM: Jerichos Beleiring--><!--DATA-DEFINITION: Josvas Bog 6, 1-25.-->Jerichos Beleiring</seg>!</p>
+</sp>
+
+<sp>
+<speaker>HENRIETTE <stage><hi rend="italic">(vil løbe til sin Fader).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01116">Min Fader!</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN <stage><hi rend="italic">(stiller sig imellem).</hi></stage></speaker>
+<p rend="noIndent" xml:id="p_01117">Et lille Øieblik endnu! – Ikke sandt Hr. Cancelliraad, kun et lille Øieblik endnu! – De vil altsaa modtage som Velkomsthilsen paa min Grund, en stor Bouquet, det er Pæretræet!</p>
+</sp>
+<pb n="566"/>
+<sp>
+<speaker>CANCELLIRAADEN</speaker>
+<p rend="noIndent" xml:id="p_01118">Men det er jo ligesom om vi vare de bedste Venner i Verden.</p>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<p rend="noIndent" xml:id="p_01119">Det er det vi ville begynde paa at være! og Alt i Verden veed De maa have en Begyndelse!</p>
+<stage rend="noIndent"><hi rend="italic">(trykker hans Haand.)</hi></stage>
+</sp>
+
+<sp>
+<speaker>HENRIETTE</speaker>
+<p rend="noIndent" xml:id="p_01120">Min velsignede, kjære Fader!</p>
+</sp>
+<floatingText type="song">
+<graphic type="shortLine"/>
+<p rend="noIndent" xml:id="p_01121"><hi rend="italic">Slutnings Sang</hi></p>
+<head type="melody"><hi rend="italic"><seg target="txtcmnt-566-01"><!--DATA-TERM: Mel. Drikkevisen af Lucretia Borgia--><!--DATA-DEFINITION: »Il segreto per esser felici« fra III akt af G. Donizettis opera <i>Lucrezia Borgia</i>, 1833, opført af italienske sangere på Hofteatret 1842. Trykte noder: Rung bd. 4, s. 2ff; klaverpartitur til <i>Lucrezia Borgia</i> findes. E-noder: <i>Lucrezia Borgia</i>/»Et Arkanum mod Uheld jeg kjender«.-->Mel. Drikkevisen af Lucretia Borgia</seg>: »Et <seg target="txtcmnt-566-02"><!--DATA-TERM: Arcanum--><!--DATA-DEFINITION: (latin) hemmelighed.-->Arcanum</seg> mod Uheld jeg kjender!«</hi></head>
+<sp>
+<speaker>HERMAN</speaker>
+<l rend="secondIndent">Høit i Træet hvor Pærerne hænge,</l>
+<l rend="secondIndent">Tvistens Fugl har alt sjunget for længe;</l>
+<l rend="secondIndent">Amor kom og af Godhed for Frugten,</l>
+<l rend="secondIndent">Greb han Pilen, strax Fuglen tog Flugten;</l>
+<l rend="secondIndent">Jeg det saae og jeg bøiede Knæet,</l>
+<l rend="secondIndent">Deres Datter hun gjorte, som jeg,</l>
+<l rend="secondIndent">Maanen straaled’ med Nyet og Næet,</l>
+<l rend="secondIndent">Tvistens Fugl kom ei mere; nei, nei!</l>
+<l rend="secondIndent">Nu er Amor i Pæretræet,</l>
+<l rend="secondIndent">Denne Fugl vil ei flyve sin Vei!</l>
+</sp>
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="secondIndent">Giv mig Haanden vi maa os forlige,</l>
+<l rend="secondIndent">See paa ham og den deilige Pige,</l>
+<l rend="secondIndent">For hinanden de skabtes tilvisse,</l>
+<l rend="secondIndent">Bedre seile vist Ingen end disse!</l>
+</sp>
+<sp>
+<speaker>SØREN</speaker>
+<l rend="secondIndent">Ak mit Hjerte det synker og stiger,</l>
+<l rend="secondIndent">Siig De ja! det er bedst kan De troe!</l>
+<l rend="secondIndent">Tænk dog paa hvis i Bladet man skriger,</l>
+<l rend="secondIndent">Det vil <seg target="txtcmnt-566-03"><!--DATA-TERM: angre--><!--DATA-DEFINITION: ærgre, forbitre.-->angre</seg> Dem, tro De mig, jo!</l>
+</sp>
+<pb n="567"/>
+<sp><speaker>CANCELLIRAADEN</speaker>
+<l rend="secondIndent">Fuglen Amor i Træet han siger:</l>
+<l rend="secondIndent">Nu saa tag da hinanden I to.</l>
+</sp>
+<sp>
+<speaker>HENRIETTE og HERMAN</speaker>
+<l rend="secondIndent">Under Træets de frugtfyldte Grene,</l>
+<l rend="secondIndent">Skal i Aften os Præsten forene!</l>
+<l rend="secondIndent">Tidt vi To ville boe her og bygge,</l>
+<l rend="secondIndent">Dette Træ er dog Skyld i vor Lykke!</l>
+</sp>
+<sp>
+<speaker>SØREN <stage><hi rend="italic">(træder frem til Publicum).</hi></stage></speaker>
+<l rend="secondIndent">Jeg er vis paa man om det skriver,</l>
+<l rend="secondIndent">Det vil høres! hvad siger man da?</l>
+<l rend="secondIndent">Mon de Roes eller Daddel da giver,</l>
+<l rend="secondIndent">Siig hvad synes De om det? – »Aa ja!«</l>
+<l rend="secondIndent">Troer De Fuglen i Træet her bliver,</l>
+<l rend="secondIndent">Eller mon den skal jages herfra?</l>
+</sp>
+</floatingText>
+</div>
+                                   
+</div>
+
+</div>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Fuglen i Pæretræet. " synch="fuglen-i-paeretraeet">
+<head type="section-comments">Fuglen i Pæretræet</head>
+<head type="section-comments"> Vaudeville i een Act</head>
+
+<argument type="sourceData"><p rend="noIndent">Opført første gang 4. juli 1842 på Det kongelige Teater. Udkom første gang 4. september 1854 i SS bd. 11. (BFN 655). <hi rend="italic">»Sange af Vaudevillen Fuglen i Pæretræet«</hi> udkom dog 3. marts 1844 i <hi rend="italic">Ny Portefeuille</hi>, bd. 1 nr. 9, 3. marts 1844. BFN 435-440</p>
+<p rend="firstIndent">Partitur: KT-A 0377. Orkesterbiblioteket.</p>
+
+<p rend="firstIndent">Forlægget er en novelle, »Herr Thomas Brown und seine Nachbarn«, af den tyske forfatter Rosa Maria Assing (1783-1840), jf. <hi rend="italic">ANDERSEN</hi> bd. 10, s. 38.</p></argument>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget:</p>
+
+<table rend="textdeviations">
+<row><cell type="position">538,7</cell><cell type="deviation">Lysthuus &lt; Lystshuus</cell></row>
+<row><cell type="position">541,12</cell><cell type="deviation">1. &lt; 2.</cell></row>
+<row><cell type="position">541,21</cell><cell type="deviation">2./Hjemad &lt; Hjemad</cell></row>
+<row><cell type="position">554,31</cell><cell type="deviation">Saa smukt &lt; 1./Saa smukt</cell></row>
+<row><cell type="position">556,15</cell><cell type="deviation">Lysthuset. &lt; Lysthuset,</cell></row>
+<row><cell type="position">557,32</cell><cell type="deviation">Træets &lt; Træet</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">535</cell><cell><row xml:id="txtcmnt-535-01"><cell type="data-term">Vaudeville</cell><cell type="data-definition">let, tit satirisk lystspil med indlagte sange, hvortil melodierne oftest er lånt andetsteds fra. Genren stammer fra Frankrig og blev i 1820’erne af J.L. Heiberg gjort til en dansk guldalderspecialitet.</cell></row></cell>
+<pb n="627"/>
+<cell type="page">536</cell><cell><row xml:id="txtcmnt-536-01"><cell type="data-term">Casino</cell><cell type="data-definition">privatteater i Amaliegade, København, oprindelig et vinteretablissement, åbnet 1847, lejet af teaterdirektøren H.W. Lange og omdannet til teater 1848 (lukket 1939). <hi rend="italic">Fuglen i Pæretræet</hi> blev opført første gang i Casino sommeren 1853.</cell></row><row xml:id="txtcmnt-536-02"><cell type="data-term">Hr. Schneider</cell><cell type="data-definition">Johan Ludvig Schneider (1809-1870), kongelig skuespiller.</cell></row><row xml:id="txtcmnt-536-03"><cell type="data-term">Hr. Rosenkilde</cell><cell type="data-definition">formentlig Adolph Rosenkilde (1816-1882), skuespiller ved Casino, senere Hofteatret og Det Kongelige Teater. Søn af kongelig skuespiller Christen Niemann Rosenkilde.</cell></row><row xml:id="txtcmnt-536-04"><cell type="data-term">Jomfr. Østerberg</cell><cell type="data-definition">Wilhelmine Frederikke Østerberg (1821-1888), kongelig skuespiller og sanger.</cell></row><row xml:id="txtcmnt-536-05"><cell type="data-term">Coffardicapitain</cell><cell type="data-definition">kaptajn på et handelsskib.</cell></row><row xml:id="txtcmnt-536-06"><cell type="data-term">Hr. Nielsen</cell><cell type="data-definition">N.P. Nielsen (1795-1860), kongelig skuespiller.</cell></row><row xml:id="txtcmnt-536-07"><cell type="data-term">Mad. Rosenkilde</cell><cell type="data-definition">Anna Kirstine Rosenkilde, f. Paaske (1825-1885), g. m. Adolph Rosenkilde, skuespiller og sanger ved Casino, senere Hofteatret og Det Kongelige Teater.</cell></row><row xml:id="txtcmnt-536-08"><cell type="data-term">Hr. Bornemann</cell><cell type="data-definition">formentlig skuespilleren Hans Chr. Bornemann (1812-1866), ansat ved Casino fra 1848.</cell></row><row xml:id="txtcmnt-536-09"><cell type="data-term">Hr. Gundersen</cell><cell type="data-definition">Gunder E. Gundersen (1817-1890), kongelig skuespiller.</cell></row><row xml:id="txtcmnt-536-10"><cell type="data-term">Hr. Lund</cell><cell type="data-definition">formentlig skuespilleren Jacob Lund (1818-1896), fra 1847 virkede han hovedsagelig ved Kristiania Teater i Norge, senere ved Casino i København.</cell></row><row xml:id="txtcmnt-536-11"><cell type="data-term">Hr. Phister</cell><cell type="data-definition">Ludvig Phister (1807-1896), kongelig skuespiller, fremtrædende komiker.</cell></row><row xml:id="txtcmnt-536-12"><cell type="data-term">Hr. Schmidt</cell><cell type="data-definition">Christian T. Schmidt (1821-1865), skuespiller.</cell></row><row xml:id="txtcmnt-536-13"><cell type="data-term">Udenfor Kjøbenhavn paa Nørrebro</cell><cell type="data-definition">sløjfningen af Københavns volde påbegyndtes i 1850’erne og afsluttedes 1890.</cell></row></cell>
+<cell type="page">538</cell><cell><row xml:id="txtcmnt-538-01"><cell type="data-term">Mel.: Tourbillon Gallop</cell><cell type="data-definition">opus 142 nr. 26 af den østrigske dansekomponist J. Lanner (1801-1843). Trykte noder: <hi rend="italic">Joseph Lanners Werke</hi> 1-8, Leipzig, Breitkopf und Härtel, 1889-1890, bd. 7, s. 83. H.C. Andersens tekst, som dårligt lader sig synge til melodien, var ved opførelsen tilpasset denne af komponisten Edvard Helsted (1816-1900), der var koncertmester ved Det Kongelige Kapel.</cell></row></cell>
+<cell type="page">539</cell><cell><row xml:id="txtcmnt-539-01"><cell type="data-term">tykke</cell><cell type="data-definition">tygge; formen ikke kendt; bevaret i SS.</cell></row><row xml:id="txtcmnt-539-02"><cell type="data-term">om de havde</cell><cell type="data-definition">hvis de havde.</cell></row><row xml:id="txtcmnt-539-03"><cell type="data-term">Mel. Abenstern-Vals</cell><cell type="data-definition">»Abend-Sterne« vals , opus 180 nr. 87. Trykte noder: <hi rend="italic">Joseph Lanners Werke</hi> bd. 4, s. 126f.</cell></row><row xml:id="txtcmnt-539-04"><cell type="data-term">mægtig</cell><cell type="data-definition">med stærk virkning, magtfuld.</cell></row></cell>
+<cell type="page">540</cell><cell><row xml:id="txtcmnt-540-01"><cell type="data-term">om han</cell><cell type="data-definition">selv om han.</cell></row></cell>
+<cell type="page">541</cell><cell><row xml:id="txtcmnt-541-01"><cell type="data-term">Mel.: Vintern rasat ut</cell><cell type="data-definition">»Vintern rasat ut bland våra fjällar«, sang fra 1838 med tekst af H. Sätherberg, melodi af O. Lindblad. Trykte noder: Da.Vaud. bd. 1, s. 116. E-noder: <hi rend="italic">En Komedie i det Grønne/</hi>»Stykket selv en Handling ei leverer«.</cell></row><row xml:id="txtcmnt-541-02"><cell type="data-term">London … Petersborg</cell><cell type="data-definition">først i 1846 blev en ny dampskibslinje London-St. Petersborg indviet.</cell></row><row xml:id="txtcmnt-541-03"><cell type="data-term">flagge</cell><cell type="data-definition">flage.</cell></row><row xml:id="txtcmnt-541-04"><cell type="data-term">Tunneln</cell><cell type="data-definition">den første tunnel under Themsen, Thames Tunnel, designet af Marc Isambard Brunel. Påbegyndt i 1825, færdiggjort i 1842 og åbnet for offentligheden i 1843.</cell></row><row xml:id="txtcmnt-541-05"><cell type="data-term">Morgana … Feen</cell><cell type="data-definition">ifølge en legende boede feen Morgana i et krystalslot under vandet ved Messinastrædet; hun har givet navn til de optiske bedrag eller luftspejlinger, som går under navnet fata Morgana, og som hun havde magiske kræfter til at skabe.</cell></row></cell>
+<cell type="page">542</cell><cell><row xml:id="txtcmnt-542-01"><cell type="data-term">Thee-Rose(r)</cell><cell type="data-definition">rose med teduftende blade.</cell></row></cell>
+<cell type="page">543</cell><cell><row xml:id="txtcmnt-543-01"><cell type="data-term">her paa Broen</cell><cell type="data-definition">her på Nørrebro.</cell></row><row xml:id="txtcmnt-543-02"><cell type="data-term">den første</cell><cell type="data-definition">den fornemste.</cell></row><row xml:id="txtcmnt-543-03"><cell type="data-term">Buxbumhækker</cell><cell type="data-definition">buksbomhække.</cell></row><row xml:id="txtcmnt-543-04"><cell type="data-term">Storstue(-Døren)</cell><cell type="data-definition">største stue i et <pb n="628"/>hus, brugt ved festlige lejligheder.</cell></row><row xml:id="txtcmnt-543-05"><cell type="data-term">Træ-Husar</cell><cell type="data-definition">bemalede træfigurer var almindelige i 1700-tallets barokhaver, tit brugt som afskærmning af en allés åbning mod omgivelserne.</cell></row><row xml:id="txtcmnt-543-06"><cell type="data-term">presenterede</cell><cell type="data-definition">gjorde honnør ved at præsentere gevær.</cell></row><row xml:id="txtcmnt-543-07"><cell type="data-term">Mel.: Il re di Napoli</cell><cell type="data-definition">(italiensk) kongen af Napoli. Melodiens oprindelse er ikke fastslået. Trykte noder: Da.Vaud. bd. 3, s. 95 (variant).</cell></row><row xml:id="txtcmnt-543-08"><cell type="data-term">Brog</cell><cell type="data-definition">dragt.</cell></row><row xml:id="txtcmnt-543-09"><cell type="data-term">Levkoi(ebedet)</cell><cell type="data-definition">levkøj, prydplante med velduftende blomster; tidligere også om andre planter, fx gyldenlak, dorthealilje.</cell></row></cell>
+<cell type="page">544</cell><cell><row xml:id="txtcmnt-544-01"><cell type="data-term">Hanekam</cell><cell type="data-definition">navn for forskellige planter, især celosia argentea, tidligere en almindelig prydplante, hvis blomsterstand minder om en hanekam; rød hanekam er den mest udbredte. Også navn for primula.</cell></row><row xml:id="txtcmnt-544-02"><cell type="data-term">Pompeji malte Væg</cell><cell type="data-definition">hentyder vel til de røde eller rødbrune vægge med ornamentale borter i oldtidsbyen Pompeji, der blev begravet ved Vesuvs udbrud 79 e.Kr. Den pompejanske stil var på den tid højeste mode.</cell></row><row xml:id="txtcmnt-544-03"><cell type="data-term">gamle Sole ligge der og forslidte Maaners Hær</cell><cell type="data-definition">jf. P.A. Heibergs digt »Laterna Magica«, 1794, str. 19.</cell></row></cell>
+<cell type="page">545</cell><cell><row xml:id="txtcmnt-545-01"><cell type="data-term">Procurator</cell><cell type="data-definition">forsvarer.</cell></row></cell>
+<cell type="page">546</cell><cell><row xml:id="txtcmnt-546-01"><cell type="data-term">for noget Kjævleri Skyld</cell><cell type="data-definition">på grund af noget kævleri (ældre genitivform).</cell></row><row xml:id="txtcmnt-546-02"><cell type="data-term">flængede ikke den mindste</cell><cell type="data-definition">minsandten om ikke den mindste flængede.</cell></row><row xml:id="txtcmnt-546-03"><cell type="data-term">Mundklemme</cell><cell type="data-definition">mundkrampe, stivkrampe.</cell></row><row xml:id="txtcmnt-546-04"><cell type="data-term">Sorø Academi</cell><cell type="data-definition">stiftet 1584; 1822-1903 var skolens navn »Sorø Akademis lærde Skole og Opdragelsesanstalt«.</cell></row></cell>
+<cell type="page">547</cell><cell><row xml:id="txtcmnt-547-01"><cell type="data-term">bogstaveligt</cell><cell type="data-definition">ordret.</cell></row><row xml:id="txtcmnt-547-02"><cell type="data-term">Rokkedreier(ens)</cell><cell type="data-definition">drejer, som fremstiller bl.a. rokke.</cell></row><row xml:id="txtcmnt-547-03"><cell type="data-term">trækker … af</cell><cell type="data-definition">går sin vej, fortrækker.</cell></row></cell>
+<cell type="page">548</cell><cell><row xml:id="txtcmnt-548-01"><cell type="data-term">ubillig</cell><cell type="data-definition">urimelig.</cell></row></cell>
+<cell type="page">549</cell><cell><row xml:id="txtcmnt-549-01"><cell type="data-term">holdt ham</cell><cell type="data-definition">(overført betydning) holdt ham fast, holdt styr på ham.</cell></row><row xml:id="txtcmnt-549-02"><cell type="data-term">Kavai</cell><cell type="data-definition">kappe med slag eller stor krave.</cell></row><row xml:id="txtcmnt-549-03"><cell type="data-term">Kampher-Draaber</cell><cell type="data-definition">brugtes bl.a. som sveddrivende middel.</cell></row><row xml:id="txtcmnt-549-04"><cell type="data-term">Unibus(ser)</cell><cell type="data-definition">omnibus, en stor lukket vogn, blev indført til offentlig personbefordring i 1800-tallet (i København fra ca. 1840).</cell></row><row xml:id="txtcmnt-549-05"><cell type="data-term">Heiduk(ken)</cell><cell type="data-definition">gammeldags lakaj, klædt i (efterligning af) ungarsk dragt; her vel om omnibuskonduktøren.</cell></row><row xml:id="txtcmnt-549-06"><cell type="data-term">Ringetøi</cell><cell type="data-definition">klokke med tilbehør.</cell></row><row xml:id="txtcmnt-549-07"><cell type="data-term">stod</cell><cell type="data-definition">standsede.</cell></row><row xml:id="txtcmnt-549-08"><cell type="data-term">Politiven</cell><cell type="data-definition"><hi rend="italic">Politievennen. Et ugentligt Almuesblad</hi>, 1798-1811 og 1816-1845.</cell></row><row xml:id="txtcmnt-549-09"><cell type="data-term">Æblet … Pæren</cell><cell type="data-definition">ses ikke i <hi rend="italic">Politievennen</hi>, årg. 1837-1842. Jf. »Eblet falder ikke langt fra roden«, DgO VII:1,584.</cell></row></cell>
+<cell type="page">550</cell><cell><row xml:id="txtcmnt-550-01"><cell type="data-term">fiint</cell><cell type="data-definition">snedigt.</cell></row><row xml:id="txtcmnt-550-02"><cell type="data-term">Flensborg … godt klædt</cell><cell type="data-definition">den sønderjyske købstad, som dengang var dansk, og hvis indbyggere i hovedsagen var dansksindede op til 1848, var kommet godt på fode efter krigen 1807-1814; efter 1848 gik det tilbage for byen.</cell></row><row xml:id="txtcmnt-550-03"><cell type="data-term">Façon</cell><cell type="data-definition">sving, figur.</cell></row><row xml:id="txtcmnt-550-04"><cell type="data-term">Adresse-Avisen</cell><cell type="data-definition">egl. <hi rend="italic">Kiøbenhavns Kongelige allene privilegerede Adresse-Contoirs Efterretninger</hi>; annonceavis, udkom 1759-1908; en forløber udkom fra 1749, dog med afbrydelser.</cell></row><row xml:id="txtcmnt-550-05"><cell type="data-term">besynderlig</cell><cell type="data-definition">overordentlig.</cell></row><row xml:id="txtcmnt-550-06"><cell type="data-term">de skulde staae</cell><cell type="data-definition">så skulle de stå.</cell></row><row xml:id="txtcmnt-550-07"><cell type="data-term">Mel.: »Det vil bedre gaae«</cell><cell type="data-definition">»S’wird besser gehn«, narrens vise fra I akt af H. Marschners opera <hi rend="italic">Der Templer und die Jüdin</hi>, 1829, tekst af W.A. Wohlbrück; dansk <hi rend="italic">Tempelherren og Jødinden</hi>, oversat af Th. Overskou, opført på Det Kongelige Teater 1834. Trykte noder: Zinck 2, 10. årg., bd. 2; klaverpartitur til <hi rend="italic">Der Templer und die Jüdin</hi> findes. E-noder: <hi rend="italic">Tempelherren og Jødinden</hi>.</cell></row></cell>
+<cell type="page">551</cell><cell><row xml:id="txtcmnt-551-01"><cell type="data-term">Rammen</cell><cell type="data-definition">træramme, som stoffet blev spændt ud på, især ved broderi.</cell></row></cell>
+<pb n="629"/>
+<cell type="page">552</cell><cell><row xml:id="txtcmnt-552-01"><cell type="data-term">Bestalling</cell><cell type="data-definition">åbent brev, hvorved en udnævnelse bekræftes af myndighederne (især kongen).</cell></row></cell>
+<cell type="page">553</cell><cell><row xml:id="txtcmnt-553-01"><cell type="data-term">Mel.: Af Fiorella</cell><cell type="data-definition">»J’entends et la grèle et la pluie«, (fransk, i Th. Overskous oversættelse:) »Her hører jeg Blæsten og Regnen«, couplets (nr. 8) fra D.F.E. Aubers komiske opera, 1826, med tekst af E. Scribe; opført på Det Kongelige Teater 1838. Trykte noder: Zinck 2, 12. årg., bd. 1; klaverpartitur til <hi rend="italic">Fiorella</hi> findes. E-noder: <hi rend="italic">Fiorella</hi>.</cell></row></cell>
+<cell type="page">554</cell><cell><row xml:id="txtcmnt-554-01"><cell type="data-term">Leide</cell><cell type="data-definition">løfte om personlig sikkerhed på rejse (især indrejse i en fyrstes land).</cell></row><row xml:id="txtcmnt-554-02"><cell type="data-term">Det var at</cell><cell type="data-definition">det ville være ligesom at.</cell></row><row xml:id="txtcmnt-554-03"><cell type="data-term">Lykkens Yndling</cell><cell type="data-definition">hentyder nok til Carl Bernhards roman, 1837, hvor de elskende sammen møder døden ved et skibsforlis.</cell></row><row xml:id="txtcmnt-554-04"><cell type="data-term">uden</cell><cell type="data-definition">undtagen.</cell></row><row xml:id="txtcmnt-554-05"><cell type="data-term">Nu er det at</cell><cell type="data-definition">nu gælder det om at.</cell></row><row xml:id="txtcmnt-554-06"><cell type="data-term">vor Tempel</cell><cell type="data-definition">ældre form (fælleskøn: »en Tempel«).</cell></row><row xml:id="txtcmnt-554-07"><cell type="data-term">Mel.: Te voglio bene</cell><cell type="data-definition">»Io te voglio bene assaje« (italiensk), jeg elsker dig meget, vise, 1839, af R. Sacco med melodi af Filippo Campanella; siges at have indledt den neapolitanske sangtradition, canzone napoletana; indgår bl.a. i Bournonvilles ballet <hi rend="italic">Napoli</hi> med musik H.S. Paulli, Edvard Helsted og Niels W. Gade, premiere marts 1842. H.C. Andersen foredrog lejlighedsvis sangen i private kredse. Trykte noder: A.P. Berggreen <hi rend="italic">Italienske, spanske og portugisiske Folke-Sange og Melodier</hi>, 2. udgave 1866, nr. 70, her med titlen »Ømt jeg dig elsker, Pige« (<hi rend="italic">Folke-Sange og Melodier</hi>, bd. 7). E-noder: <hi rend="italic">En Nat i Roeskilde/</hi>»Jeg tør ikke rigtig love«.</cell></row></cell>
+<cell type="page">555</cell><cell><row xml:id="txtcmnt-555-01"><cell type="data-term">ei saa smaat</cell><cell type="data-definition">ikke så lidt.</cell></row></cell>
+<cell type="page">556</cell><cell><row xml:id="txtcmnt-556-01"><cell type="data-term">afhandle</cell><cell type="data-definition">afgøre.</cell></row><row xml:id="txtcmnt-556-02"><cell type="data-term">føde</cell><cell type="data-definition">forsørge.</cell></row></cell>
+<cell type="page">557</cell><cell><row xml:id="txtcmnt-557-01"><cell type="data-term">det er en Fader</cell><cell type="data-definition">sikken en far.</cell></row><row xml:id="txtcmnt-557-02"><cell type="data-term">Mel.: »Malapou«.</cell><cell type="data-definition">J. Lanner <hi rend="italic">Malapou-Galopp</hi>, opus 148 nr. 1. Trykte noder: <hi rend="italic">Joseph Lanners Werke</hi> bd. 7, s. 86.</cell></row></cell>
+<cell type="page">558</cell><cell><row xml:id="txtcmnt-558-01"><cell type="data-term">i Øieblikket</cell><cell type="data-definition">øjeblikkelig.</cell></row><row xml:id="txtcmnt-558-02"><cell type="data-term">alt</cell><cell type="data-definition">allerede.</cell></row></cell>
+<cell type="page">559</cell><cell><row xml:id="txtcmnt-559-01"><cell type="data-term">snart</cell><cell type="data-definition">hurtigt.</cell></row></cell>
+<cell type="page">560</cell><cell><row xml:id="txtcmnt-560-01"><cell type="data-term">Maribo-Avis</cell><cell type="data-definition"><hi rend="italic">Lolland-Falsters Stifts Kongelige privileg. Adressecontoirs Efterretninger, som sendes med Rideposten</hi>; J.L. Heiberg havde (i <hi rend="italic">Flyve-Posten</hi> nr. 99, 1828) ironiseret over den som eksempel på lidt komiske provinsaviser, der »især maatte anbefales en Curiositets-Samler«. I 1842 hed avisen <hi rend="italic">Lolland-Falsters Stifts-Tidende.</hi></cell></row></cell>
+<cell type="page">562</cell><cell><row xml:id="txtcmnt-562-01"><cell type="data-term">komme i Kobberstik</cell><cell type="data-definition">Søren tænker nok på illustrerede skillingstryk med fortællinger og viser om skrækkelige begivenheder.</cell></row><row xml:id="txtcmnt-562-02"><cell type="data-term">mærkværdigt</cell><cell type="data-definition">bemærkelsesværdigt.</cell></row></cell>
+<cell type="page">564</cell><cell><row xml:id="txtcmnt-564-01"><cell type="data-term">Mel.: »Frage nicht warum ich traure!«</cell><cell type="data-definition">(tysk) spørg ikke, hvorfor jeg sørger; synges af Charlotte i Fr. Schillers skuespil <hi rend="italic">Der Parasit</hi>, 1803, IV,4. Trykte noder: <hi rend="italic">Danmarks Melodier</hi> IV, nr. 274, »Under Søvnens Vuggeklæde«. E-noder: <hi rend="italic">Ole Lukøje/</hi>»Under Søvnens Vuggeklæde«.</cell></row><row xml:id="txtcmnt-564-02"><cell type="data-term">give … kort Besked</cell><cell type="data-definition">(egl. gøre kort besked) gøre kort proces med.</cell></row></cell>
+<cell type="page">565</cell><cell><row xml:id="txtcmnt-565-01"><cell type="data-term">Jerichos Beleiring</cell><cell type="data-definition">Josvas Bog 6, 1-25.</cell></row></cell>
+<cell type="page">566</cell><cell><row xml:id="txtcmnt-566-01"><cell type="data-term">Mel. Drikkevisen af Lucretia Borgia</cell><cell type="data-definition">»Il segreto per esser felici« fra III akt af G. Donizettis opera <hi rend="italic">Lucrezia Borgia</hi>, 1833, opført af italienske sangere på Hofteatret 1842. Trykte noder: Rung bd. 4, s. 2ff; klaverpartitur til <hi rend="italic">Lucrezia Borgia</hi> findes. E-noder: <hi rend="italic">Lucrezia Borgia</hi>/»Et Arkanum mod Uheld jeg kjender«.</cell></row><row xml:id="txtcmnt-566-02"><cell type="data-term">Arcanum</cell><cell type="data-definition">(latin) hemmelighed.</cell></row><row xml:id="txtcmnt-566-03"><cell type="data-term">angre</cell><cell type="data-definition">ærgre, forbitre.</cell></row></cell>
+</table>
+
+<pb n="630"/>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

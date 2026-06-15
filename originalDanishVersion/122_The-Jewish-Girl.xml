@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Jewish Girl</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="joedepigen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="joedepigen_modern.xml">moderniseret version</note>
+                                                       <note target="122_The-Jewish-Girl.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Among the other young children at the charity school was a little Jewish girl, s...</incipit><idno type="image">Joedepigen_02_2022-03-09.png</idno><popularity>902</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Jewish Girl. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>samfundsforhold</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-27" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-27" who="NHB">formatted</change><change who="NHB" when="2022-09-27">added initial double quotation mark</change><change who="NHB" when="2022-11-09">removed opening quotation mark</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Jewish Girl">
+               <head type="main" rend="The Jewish Girl">The Jewish Girl</head>                <p rend="noIndent" xml:id="p_00001">Among the other young children at the charity school was a little Jewish girl, so intelligent and good, the cleverest of them all; but she couldn’t take part in one of the lessons, the one called Religion, because it was a Christian school that she attended.</p>
+               <p rend="firstIndent" xml:id="p_00002">She was allowed instead to read her Geography book on her own, or finish her sums in Arithmetic, but she had soon done that and her homework as well; there was, however, a book that lay open in front of her, but she didn’t read it, she sat listening, and soon the teacher noticed that she was following everything, more attentively than almost all the others.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Just read your book!’ he said mildly and earnestly, but she looked at him with her black, sparkling eyes, and when he also asked her, she knew the answer better than all the rest. She had heard, understood and committed to memory.</p>
+               <p rend="firstIndent" xml:id="p_00004">Her father was a poor, honest man; he had stipulated that during the child’s schooling she was not to be instructed in the Christian faith; to have her leave class during this lesson might offend and give rise to thoughts and moods among the other children at school, so she remained, but this could no longer be tolerated.</p>
+               <p rend="firstIndent" xml:id="p_00005">The teacher went to the father, told him that he must either remove his daughter from the school, or allow her to become a Christian. ‘I can’t stand looking at these burning eyes, the fervour and apparent spiritual thirsting for the Word of the Gospel!’ the teacher said.</p>
+               <p rend="firstIndent" xml:id="p_00006">And her father burst into tears: ‘I know little about our own religion, but her mother was a daughter of Israel, a strong and steadfast believer, and on her deathbed I swore an oath that our child should never be baptised a Christian; I must keep my promise, to me it is like a covenant with God.’</p>
+               <p rend="firstIndent" xml:id="p_00007">And the young Jewish girl was removed from the Christian school.</p>
+               <p rend="firstIndent" xml:id="p_00008">– – Years passed.</p>
+               <p rend="firstIndent" xml:id="p_00009">In one of the smallest market towns of Jutland a poor girl of the Jewish faith was a maid in a poor bourgeois house, it was <hi rend="italic">Sara</hi>, her hair was black as ebony, her eyes so dark yet full of radiance and light, such as the daughters of the Orient have; the expression of the now fully grown girl was still the same as it had been when as a child she had sat on the school bench and listened with her thoughtful gaze.</p>
+               <p rend="firstIndent" xml:id="p_00010">Every Sunday the sound of the organ and hymn-singing of the congregation wafted across the street to the house opposite where the Jewish girl was busy at work, industrious and trustworthy in her calling. ‘Remember the Sabbath day, to keep it holy!’ was her law, but the Sabbath was a working day for Christians, and she could only keep it holy in her heart, which she didn’t think was enough. But what is a day or an hour to God? that thought had arisen in her soul, and on the Christians’ Sunday the hour of divine service was less disturbed; if the sound of the organ and hymn-singing reached her behind the sink in the kitchen, it felt holy and quiet even there. She then read the Old Testament, her people’s treasure and property, nothing else but that, for what her father had said to her and the teacher when she was removed from school lay deep within her mind, the promise that had been given her dying mother, that <hi rend="italic">Sara</hi> was not to be baptised, not leave the faith of her forefathers. The New Testament was and should remain a closed book to her, although she knew so much of it, it was vivid in her childhood memories. One evening, she was sitting in the corner of the living room, she heard the master of the house reading aloud, and she dared to listen, it was not from the Gospels, no, he was reading from an old history book, it must be acceptable for her to listen to that, it was about a Hungarian knight that had been captured by a Turkish Pasha, who had him yoked together with the oxen in front of the plough, be driven forward with a whip and exposed to endless mockery and suffering.</p>
+               <p rend="firstIndent" xml:id="p_00011">The knight’s wife sold all her jewellery, pawned castle and land, his friends contributed great sums of money, for the ransom demanded was scarcely credible, but they succeeded in collecting it, and he was released from slavery and ignominy; sick and suffering he managed to reach his home. Soon, however, there was a general call to arms against the foe of Christendom; the sick man heard about this and could find no rest nor peace of mind, he had himself lifted onto his charger, the blood came back to his cheeks, his strength seemed to return, and he set out for victory. The same Pasha who had had him yoked to the plough, mocked and made to suffer now became his prisoner and he was brought back to the castle dungeon, but during the very first hour he was there the knight came and asked his captive:</p>
+               <p rend="firstIndent" xml:id="p_00012">‘What do you think lies in store for you?’</p>
+               <p rend="firstIndent" xml:id="p_00013">‘I know what awaits me!’ the Turk replied, ‘Retribution!’</p>
+               <p rend="firstIndent" xml:id="p_00014">‘Yes, Christian retribution!’ the knight said, ‘Christianity commands us to forgive our enemies, love our neighbours. God is love! Go in peace to your home and your loved ones, be kind and gentle to those that suffer!’</p>
+               <p rend="firstIndent" xml:id="p_00015">Then the prisoner burst into tears: ‘How could I believe that such was possible! Torment and torture were such certainties that I have taken a poison that will kill me within a few hours. I am going to die, there is nothing that can help me! but before I do so, tell me of the teaching that contains such love and mercy, it is great and divine! let me die in that faith, die as a Christian!’ and his request was fulfilled.</p>
+               <p rend="firstIndent" xml:id="p_00016">That was the legend, the story, that was read; it was heard and followed by all of them, but it most ardently did fill and animate the mind of the young woman sitting in the corner, the servant maid <hi rend="italic">Sara</hi>, the Jewish girl; great, heavy tears stood in her shining, jet-black eyes; there she sat with her childlike mind as she once had on the school bench and sensed the greatness of the Gospel. The tears coursed down her cheeks.</p>
+               <p rend="firstIndent" xml:id="p_00017">‘Do not let my child become a Christian!’ had been her mother’s last words on her deathbed, and through her soul and heart she heard the words of the law: ‘Honour thy father and thy mother!’</p>
+               <p rend="firstIndent" xml:id="p_00018">‘I haven’t been christened! they call me the Jewish girl; that was what the neighbour’s boys mockingly called me last Sunday when I was standing outside the open church door and looked inside at the altar and the lit candles there, and the congregation singing. From my schooldays until now there has been and is a powerful force from Christianity like that of sunshine, which, even though I shut my eyes to keep it out, still shines straight into my heart; but, mother, I shall not sadden you in your grave! I will not betray the promise my father gave you! I will not read the Christian Bible, for I have the God of my forefathers to lean my head against!’</p>
+               <p rend="firstIndent" xml:id="p_00019">– –And years passed.</p>
+               <p rend="firstIndent" xml:id="p_00020">The master of the house died, the mistress was left in straitened circumstances, so a maid had to be done without, but <hi rend="italic">Sara</hi> did not leave, she was a help in adversity, she kept everything going; she worked until late at night, earned bread for the house by the work of her hands; there was no close relation who could take care of the family, where the widow grew weaker day by day and had to keep to her bed for months. <hi rend="italic">Sara</hi> watched over her, cared for her, worked away, gentle and devout, a blessing in that poor house.</p>
+               <p rend="firstIndent" xml:id="p_00021">‘The Bible is over there!’ the sick woman said, ‘read a little for me this long evening, I need so intensely to hear God’s Word.’</p>
+               <p rend="firstIndent" xml:id="p_00022">And <hi rend="italic">Sara</hi> bowed her head; her hands folded round the Bible, which she opened and read from for the sick woman; often tears came to her eyes, but they grew clearer, and in her soul everything grew clearer: ‘Mother, your child will not take the Christian baptism, not be named as one of their congregation, that you have demanded, that promise I will also keep, we are united in this while on this earth, but over and above there is – is the greater unity in God “He leads us beyond death!” – “He visits the Earth, and where he has made it parched, he makes it extremely fertile!” <!--‘-->I understand it! I do not know myself how this has come about–! it is by Him, in Him: Jesus Christ!’</p>
+               <p rend="firstIndent" xml:id="p_00023">And she shivered at the mention of the holy name, a baptism of fire streamed through her more powerfully than her body could bear, and it bowed down even more powerless than that of the sick woman she was watching over.</p>
+               <p rend="firstIndent" xml:id="p_00024">‘Poor <hi rend="italic">Sara</hi>!’ people said, ‘she has over-exerted herself with her working and watching.’</p>
+               <p rend="firstIndent" xml:id="p_00025">They brought her to the paupers’ sickroom, there she died, from there she was taken to be buried, but not in a Christian cemetery, that was not the place for the Jewish girl, no, outside, up against the wall was where she was laid to earth.</p>
+               <p rend="firstIndent" xml:id="p_00026">And God’s sun, which shone of the graves of the Christians, also shone over that of the Jewish girl outside, and the hymns sung in the Christian cemetery also sounded over her grave; and even out to her grave came the Christian proclamation: “There is Resurrection in Christ,” the Lord who said to his disciples: “<!--NHB: added initial double quotation mark-->‘John the Baptist baptised with water, but ye shall be baptised with the Holy Spirit.’”</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

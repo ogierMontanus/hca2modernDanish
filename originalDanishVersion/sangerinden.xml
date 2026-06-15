@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sangerinden</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Opført første gang 7. november 1841 på Det Kongelige Teater. I Th. Overskou: <hi rend="italic">Den danske Skueplads</hi> bd. 5, 1864, s. 462 benævnt »Concert af Mad. <hi rend="italic">Simonsen</hi>«. Her trykt efter sufflørbog nr. 650, <hi rend="italic">Sangerinden</hi>, indgået i Det Kongelige Bibliotek fra Det Kongelige Teaters Sufflørarkiv.</p><hi rend="italic">Den danske Skueplads</hi><hi rend="italic">Simonsen</hi><hi rend="italic">Sangerinden</hi><p rend="firstIndent">Partitur: KT-A 0512. Orkesterbiblioteket.</p><p rend="firstIndent">I stykket indgår musik af den tysk-danske komponist Fr. Kuhlau (1786-<pb n="619"/>1832) til Adam Oehlenschlägers drama <hi rend="italic">Røverborgen</hi>, opført på Det Kongelige Teater 1814, desuden musik fra operaen <hi rend="italic">Lucia di Lammermoor</hi>, 1835, af den italienske komponist G. Donizetti (1797-1848), opført 1842 på Hofteatret, hvor italienske operasangere optrådte 1842-1854. August Bournonville (1805-1879), som stod for scenearrangementet, var Det Kongelige Teaters balletmester 1830-1877.</p><pb n="619"/><hi rend="italic">Røverborgen</hi><hi rend="italic">Lucia di Lammermoor</hi>
+</bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">11:<hi rend="italic"> Skuespil II 1836-1842</hi></biblScope>
+                                                       <date when="2005"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sangerinden" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Sangerinden. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen i &lt;i&gt;ANDERSEN: H.C. Andersens samlede værker&lt;/i&gt;. København: Det Danske Sprog- og Litteraturselskab, Gyldendal, bind 11:&lt;i&gt; Skuespil II 1836-1842&lt;/i&gt;. 2005. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk, version 1.0, 2024-04-01&lt;/p&gt;&lt;p&gt;This version of the text is published under the following license: Creative Commons, Attribution 4.0 International (CC BY 4.0). Images are not included in this license and may be subject to copyright.&lt;/p&gt;</cite><!--HTML-copy of listBibl/bibl--><bibl>
+&lt;p&gt;Opført første gang 7. november 1841 på Det Kongelige Teater. I Th. Overskou: &lt;i&gt;Den danske Skueplads&lt;/i&gt; bd. 5, 1864, s. 462 benævnt »Concert af Mad. &lt;i&gt;Simonsen&lt;/i&gt;«. Her trykt efter sufflørbog nr. 650, &lt;i&gt;Sangerinden&lt;/i&gt;, indgået i Det Kongelige Bibliotek fra Det Kongelige Teaters Sufflørarkiv.&lt;/p&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;&lt;p&gt;Partitur: KT-A 0512. Orkesterbiblioteket.&lt;/p&gt;&lt;p&gt;I stykket indgår musik af den tysk-danske komponist Fr. Kuhlau (1786-<pb n="619"/>1832) til Adam Oehlenschlägers drama &lt;i&gt;Røverborgen&lt;/i&gt;, opført på Det Kongelige Teater 1814, desuden musik fra operaen &lt;i&gt;Lucia di Lammermoor&lt;/i&gt;, 1835, af den italienske komponist G. Donizetti (1797-1848), opført 1842 på Hofteatret, hvor italienske operasangere optrådte 1842-1854. August Bournonville (1805-1879), som stod for scenearrangementet, var Det Kongelige Teaters balletmester 1830-1877.&lt;/p&gt;<pb n="619"/>&lt;i&gt;&lt;/i&gt;&lt;i&gt;&lt;/i&gt;
+</bibl></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1841</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="play"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-22" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-22" who="NHB">formatted</change><change who="NHB" when="2024-01-23" status="draft">med sp. Wellformed</change><change who="NHB" when="2024-01-23" status="draft">stage type="setting"</change><change who="NHB" when="2024-01-24" status="draft">anvendt regex'er</change><change who="NHB" when="2024-01-24" status="draft">parenteser fjernet fra stage i Maurerpigen</change><change who="NHB" when="2024-01-24" status="draft">indtil s. 23</change><change who="NHB" when="2024-01-25" status="draft">s. 57</change><change who="NHB" when="2024-01-25" status="draft">til s. 74</change><change who="NHB" when="2024-01-26" status="draft">s. 104</change><change who="NHB" when="2024-01-26" status="draft">"116"</change><change who="NHB" when="2024-01-27" status="draft">indsat date</change><change who="NHB" when="2024-01-30" status="draft">indtil s. 143</change><change who="NHB" when="2024-01-30" status="draft">indtil "174"</change><change who="NHB" when="2024-01-31" status="draft">"184"</change><change who="NHB" when="2024-02-01" status="draft">"241"</change><change who="NHB" when="2024-02-06" status="draft">date &gt; performance. Added subtype=foreign</change>
+                                        <change who="NHB" when="2024-09-04">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Sangerinden" xml:id="sangerinden">
+<pb n="507"/>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main">Sangerinden</titlePart>
+
+<titlePart type="part">Dramatisk Motiv for en Arie</titlePart>
+<titlePart type="part"><date>1841</date></titlePart>
+
+</docTitle>
+
+<docImprint>
+<byline><source subtype="foreign">Musik af Fr. Kuhlau og G. Donizetti</source></byline>
+<performance><source subtype="foreign">Opført første gang 7. november 1841</source></performance>
+</docImprint>
+</titlePage>
+<pb n="508"/>
+
+<castList>
+<head>Personerne</head>
+
+<castItem><role>SANGERINDEN</role><actor><seg target="txtcmnt-508-01">Mdm. <hi rend="italic">Simonsen</hi></seg></actor></castItem>
+<castItem><role>RØVERKAPITAINEN</role><actor><seg target="txtcmnt-508-02">Hr. <hi rend="italic">Kirchheiner</hi></seg></actor></castItem>
+<castItem><role>CHOR AF RØVERE</role></castItem>
+
+</castList>
+</front>
+
+<errors>
+</errors>
+
+<pb n="509"/>
+<div type="act" rend="[skuespillet]" xml:id="div0210">
+<pb n="510"/>
+
+<stage rend="noIndent" type="setting">Scenen er i Italien. En vild Skov</stage>
+
+<stage rend="noIndent" type="setting">Røvernes Leir. Vagter ere udstillede; et Angreb skeer; man hører nogle Skud. Alt er Liv og Bevægelse. En Skare Røvere bringe Sangerinden og hendes Pige.</stage>
+<sp>
+<speaker>CHOR</speaker>
+<head type="melody"><seg target="txtcmnt-510-01"><!--DATA-TERM: Mel. af Røverborgen: Hurra Mordjo--><!--DATA-DEFINITION: røverkor fra II akt af <i>Røverborgen</i>. Trykt klaverpartitur til <i>Røverborgen</i> findes.--><hi rend="italic">Mel. af Røverborgen: Hurra Mordjo!</hi></seg></head>
+<l rend="firstIndent">Hurra, <seg target="txtcmnt-510-02"><!--DATA-TERM: Mordjo--><!--DATA-DEFINITION: (tysk) egl. et anskrig, der angiver, at et drab eller lignende har fundet sted, jf. røvernes udbrud i Fr. Schiller, <i>Die Räuber</i>, 1781, IV,5.-->Mordjo</seg>!</l>
+<l rend="firstIndent">Vær ikke bedrøvet og bange,</l>
+<l rend="firstIndent">Vi kysse Dig Tusinde Gange!</l>
+<l rend="firstIndent">Hurra, Mordjo!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<stage rend="noIndent"><hi rend="italic">(til den Røver, som holder hende fast:)</hi></stage>
+<l rend="firstIndent">O Forbarmelse!</l>
+<l rend="firstIndent">Din Omarmelse</l>
+<l rend="firstIndent">Den er mig at døe Døden!</l>
+<l rend="firstIndent">Skovens Sønner</l>
+<l rend="firstIndent">Hør mine Bønner!</l>
+<l rend="firstIndent">Naade! frels mig i Nøden!</l></sp>
+
+<sp>
+<speaker>CHOR <stage><hi rend="italic">(paa samme Tid)</hi></stage></speaker>
+<l rend="firstIndent">Hurra, Mordjo!</l>
+<l rend="firstIndent">Du skal med Elskov os lønne!</l>
+<l rend="firstIndent"><seg target="txtcmnt-510-03" type="dfnStart"><!--DATA-TERM: Du er nysselig … kysselig--><!--DATA-DEFINITION: alluderer til Chr. Winthers digt »Min Skat«, 1840.--></seg>Du er nysselig!</l>
+<l rend="firstIndent">Du er kysselig<seg target="txtcmnt-510-03" type="dfnEnd"><!--DATA-TERM: Du er nysselig … kysselig--><!--DATA-DEFINITION: alluderer til Chr. Winthers digt »Min Skat«, 1840.--></seg>!</l>
+<l rend="firstIndent">Hurra, Mordjo!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Slip hende nu! – I skjælver jo Signora!</l>
+<l rend="firstIndent">Signora! – ja ved Himlen det er Eder!</l>
+<l rend="firstIndent">Maria! Sangerinden fra Neapel!</l>
+</sp>
+
+<pb n="511"/>
+<sp>
+<speaker>RØVERNE</speaker>
+<l rend="firstIndent">Maria!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="right">Ja jeg tager ikke feil!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">I kjender mig?</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="right">I har jo siunget for mig,</l>
+<l rend="firstIndent">Og jeg har klappet, raabt mig hæs med brava!</l>
+<l rend="firstIndent">Jeg lider Sang og I forstaaer at synge!</l>
+<l rend="firstIndent">Tidt i <seg target="txtcmnt-511-01"><!--DATA-TERM: Sanct Carlo--><!--DATA-DEFINITION: Teatro di San Carlo i Napoli er fra 1737 og Europas ældste operahus.-->Sanct Carlo</seg>, naar I spilled <seg target="txtcmnt-511-02"><!--DATA-TERM: Norma--><!--DATA-DEFINITION: opera fra 1831 af V. Bellini med tekst af Felice Romani. Dansk oversættelse ved Oehlenschläger; opført på Det Kongelige Teater 1840.-->Norma</seg>,</l>
+<l rend="firstIndent"><seg target="txtcmnt-511-03"><!--DATA-TERM: Lucrezia Borgia--><!--DATA-DEFINITION: opera fra 1833 af G. Donizetti med tekst af Romani. Opført af italienske sangere på Hofteatret 1842.-->Lucrezia Borgia</seg>, <seg target="txtcmnt-511-04"><!--DATA-TERM: Gemma--><!--DATA-DEFINITION: <i>Gemma di Vergy</i>, opera fra 1834 af Donizetti med tekst af G.E. Bidéra. Opført af italienske sangere på Vesterbroes Nye Theater 1841.-->Gemma</seg> og Lucia</l>
+<l rend="firstIndent">Jeg hørte til og jubled’ brava! brava!</l>
+<l rend="firstIndent">Imellem Publicum er tidt en Røver!</l>
+<l rend="firstIndent">Velkommen blandt os her! vær ikke bange!</l>
+</sp>
+
+<sp>
+<speaker>RØVERNE</speaker>
+<l rend="firstIndent">Velkommen!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="right">Og hvad fordre I af mig?</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Vi fordre for det første, I seer mildt,</l>
+<l rend="firstIndent">Er lystig, som <seg target="txtcmnt-511-05"><!--DATA-TERM: Rosina--><!--DATA-DEFINITION: kvindelig hovedperson i operaen <i>Il barbiere di Siviglia</i>, 1816, af Rossini, dansk <i>Barberen i Sevilla</i>, oversat af N.T. Bruun; opført på Det Kongelige Teater 1822.--><hi rend="italic">Rosina</hi></seg> i <hi rend="italic">Barberen</hi>!</l>
+<l rend="firstIndent">Thi, ved Madonna, vi er Eders Venner!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">Jeg skal til Florents! men i denne Morgen</l>
+<l rend="firstIndent">Har Eders Folk skudt Kudsken paa min Vogn,</l>
+<l rend="firstIndent">Udplyndret mig og ført mig med min Pige</l>
+<l rend="firstIndent">Herind i Skoven, her til dette Sted!</l>
+<l rend="firstIndent">Hvad fordrer I for os i Løsepenge?</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Hvad Løsepenge! ? Ja, vi fordre mange!</l>
+<l rend="firstIndent">Vi fordre een af dine bedste Sange!</l>
+<l rend="firstIndent">Giv Du en Giæste-Rolle her i Skoven,</l>
+<l rend="firstIndent">De grønne Grene hvælve sig foroven,</l>
+<pb n="512"/>
+<l rend="firstIndent">De danne smukt en stor naturlig Scene.</l>
+<l rend="firstIndent">Ved Sangens Guld, Du løser dig allene!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">Jeg synge her! – Madonna mig beskytte!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Syng os en Sang og ved Madonna da</l>
+<l rend="firstIndent">Med alt hvad Eders er I gaaer herfra!</l>
+<l rend="firstIndent">Syng for os om Lucia! – glad vi lytte!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">Guds Moder giv mig Kraft! Du mig beskytte!</l>
+</sp>
+
+<sp>
+<speaker>CAPITAINEN</speaker>
+<head type="melody"><seg target="txtcmnt-512-01"><!--DATA-TERM: Mel. af Røverborgen--><!--DATA-DEFINITION: »Din Sang kan hvert Hierte henrive« synges på melodien til sangen »Hyænen bygger sin Hule« fra III akt af <i>Røverborgen.</i> Trykte noder: Rung bd. 1, s. 103. E-noder: <i>Røverborgen/</i>»Røversang«.--><hi rend="italic">Mel. af Røverborgen</hi></seg></head>
+<l rend="firstIndent">Din Sang kan hvert Hierte henrive!</l>
+<l rend="firstIndent">Dens Guld kunne Ingen modstaae.</l>
+<l rend="firstIndent">En Sang skal Du Røverne give,</l>
+<l rend="firstIndent">For den Du din Frihed skal faae!</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">Nu vel!</l>
+</sp>
+
+<sp>
+<speaker>RØVERNE</speaker>
+<stage rend="noIndent"><hi rend="italic">(idet de leirer sig malerisk i det Grønne)</hi></stage>
+<l rend="firstIndent">Vi leire os her i det Grønne!</l>
+<l rend="firstIndent">En Sang Du give os maa.</l>
+<l rend="firstIndent">Din Sang vi med brava vil lønne,</l>
+<l rend="firstIndent">For den Du din Frihed skal faae.</l>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<stage rend="noIndent"><hi rend="italic">(træder op som Lucia di Lammermoor og synger Arien: <seg target="txtcmnt-512-02"><!--DATA-TERM: Per che non … vento--><!--DATA-DEFINITION: »Perche non ho del vento«, (italiensk) hvorfor har jeg ikke vinden? arie fra Donizettis opera <i>Rosmonda di Inghilterra</i>, 1834, der somme tider erstatter en del af vanvidsscenen i <i>Lucia di Lammermoor</i>.-->Per che non ho del vento</seg>)</hi></stage></sp><sp>
+<stage rend="noIndent"><hi rend="italic">(Ved Ariens Slutning falde alle Røverne ind med Jubel)</hi></stage>
+<head type="melody"><seg target="txtcmnt-512-03"><!--DATA-TERM: Mel. af Elezire d’Amore--><!--DATA-DEFINITION: <i>L’elisir d’amore</i>, opera fra 1832 af Donizetti, tekst af Felice Romani (dansk <i>Elskovsdrikken</i>); opført af italienske sangere på Vesterbroes Nye Theater 22. december 1841 (altså efter opførelsen af <i>Sangerinden</i>).--><hi rend="italic">Mel. af Elezire d’Amore.</hi></seg></head>
+
+<lg xml:id="p_00911"><l rend="firstIndent"><seg target="txtcmnt-512-04"><!--DATA-TERM: Brava! brava--><!--DATA-DEFINITION: fra vers af vekselsangen »Io son ricco e tu sei bella« (italiensk: jeg er rig, og du er smuk), II,1 af <i>L’elisir d’amore</i>. Trykt klaverpartitur til <i>L’elisir d’amore</i> findes.-->Brava! brava</seg>! Sangens Datter!</l>
+<l rend="firstIndent">Brava! brava! lyde atter!</l>
+<pb n="513"/>
+<l rend="firstIndent">Sangens Guld har løst din Lænke,</l>
+<l rend="firstIndent">Frihed, Frihed Dig vi skiænke!</l></lg>
+</sp>
+
+<sp>
+<speaker>SANGERINDEN</speaker>
+<l rend="firstIndent">Jeg stod angst og dybt bedrøvet!</l>
+<l rend="firstIndent">Sangen har sin Almagt øvet!</l>
+<l rend="firstIndent">Jeg er fri! navnløse Glæde!</l>
+<l rend="firstIndent">O, jeg kunde lee og græde!</l>
+<l rend="firstIndent">I var skaansom mild mod Qvinden</l>
+<l rend="firstIndent">I har hædret Sangerinden,</l>
+<l rend="firstIndent">Ei hun denne Stund skal glemme,</l>
+<l rend="firstIndent">Sangen her er Hiertets Stemme!</l>
+</sp>
+
+<span type="unison" spanTo="unison0027"/>
+<!--No text on the left side-->     
+<sp>
+<speaker>CAPITAINEN</speaker>
+<l rend="firstIndent">Sangens Laurbær har Du fundet</l>
+<l rend="firstIndent">Fiern og nær!</l>
+<l rend="firstIndent">Ingen Seire har Du vundet</l>
+<l rend="firstIndent">Dog som her</l>
+<l rend="firstIndent">Mellem os og Skovens Træer!</l>
+</sp>
+<sp>
+<speaker>RØVERNE</speaker>
+<l rend="firstIndent">Viva! Viva!</l>
+<l rend="firstIndent">Lyder fiern og nær!</l>
+
+<graphic type="blank"/>
+
+</sp>
+<anchor type="unison" xml:id="unison0027"/>
+<stage rend="noIndent"><hi rend="italic">(Under denne Jubel ledsage en Skare Sangerinden, de Andre danne maleriske Grupper.)</hi></stage>
+</div>
+
+<pb n="514"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Sangerinden. " synch="sangerinden">
+<head type="section-comments">Sangerinden</head>
+
+<head type="section-comments">Dramatisk Motiv for en Arie. Musikken af Kuhlau og Donizetti, Scenens Arrangement af Balletmester Bournonville</head>
+
+<argument type="sourceData"><p rend="noIndent">Opført første gang 7. november 1841 på Det Kongelige Teater. I Th. Overskou: <hi rend="italic">Den danske Skueplads</hi> bd. 5, 1864, s. 462 benævnt »Concert af Mad. <hi rend="italic">Simonsen</hi>«. Her trykt efter sufflørbog nr. 650, <hi rend="italic">Sangerinden</hi>, indgået i Det Kongelige Bibliotek fra Det Kongelige Teaters Sufflørarkiv.</p>
+
+<p rend="firstIndent">Partitur: KT-A 0512. Orkesterbiblioteket.</p>
+
+<p rend="firstIndent">I stykket indgår musik af den tysk-danske komponist Fr. Kuhlau (1786-<pb n="619"/>1832) til Adam Oehlenschlägers drama <hi rend="italic">Røverborgen</hi>, opført på Det Kongelige Teater 1814, desuden musik fra operaen <hi rend="italic">Lucia di Lammermoor</hi>, 1835, af den italienske komponist G. Donizetti (1797-1848), opført 1842 på Hofteatret, hvor italienske operasangere optrådte 1842-1854. August Bournonville (1805-1879), som stod for scenearrangementet, var Det Kongelige Teaters balletmester 1830-1877.</p></argument>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">511,11</cell><cell type="deviation">naar I &lt; naar i</cell></row>
+</table>
+
+<p rend="noIndent">Sufflørbogens forkortelser »Capit.«, »Røv.« og »Sanger.« er overalt rettet til »Capitainen«, »Røverne« og »Sangerinden«.</p>
+
+<table rend="textcomments">
+<cell type="page">508</cell><cell><row xml:id="txtcmnt-508-01"><cell type="data-term">Mdm. Simonsen</cell><cell type="data-definition">Catharine Elisabeth Simonsen, f. Ryssländer (1816-1849), skuespiller og fra 1843 kongelig kammersanger. Hun var forkæmper for den nyere italienske musik. Fra 18. november 1841 optrådte et italiensk operaselskab på Vesterbroes Nye Theater; forud havde man annonceret opførelsen af operaerne <hi rend="italic">Norma, Gemma di Vergy, Lucia di Lammermoor, Barbiere di Siviglia, Elisir d’amore</hi>, se nedenfor.</cell></row><row xml:id="txtcmnt-508-02"><cell type="data-term">Hr. Kirchheiner</cell><cell type="data-definition">Johan Frederik Kirchheiner (1798-1865), kongelig skuespiller.</cell></row></cell>
+<cell type="page">510</cell><cell><row xml:id="txtcmnt-510-01"><cell type="data-term">Mel. af Røverborgen: Hurra Mordjo</cell><cell type="data-definition">røverkor fra II akt af <hi rend="italic">Røverborgen</hi>. Trykt klaverpartitur til <hi rend="italic">Røverborgen</hi> findes.</cell></row><row xml:id="txtcmnt-510-02"><cell type="data-term">Mordjo</cell><cell type="data-definition">(tysk) egl. et anskrig, der angiver, at et drab eller lignende har fundet sted, jf. røvernes udbrud i Fr. Schiller, <hi rend="italic">Die Räuber</hi>, 1781, IV,5.</cell></row><row xml:id="txtcmnt-510-03"><cell type="data-term">Du er nysselig … kysselig</cell><cell type="data-definition">alluderer til Chr. Winthers digt »Min Skat«, 1840.</cell></row></cell>
+<cell type="page">511</cell><cell><row xml:id="txtcmnt-511-01"><cell type="data-term">Sanct Carlo</cell><cell type="data-definition">Teatro di San Carlo i Napoli er fra 1737 og Europas ældste operahus.</cell></row><row xml:id="txtcmnt-511-02"><cell type="data-term">Norma</cell><cell type="data-definition">opera fra 1831 af V. Bellini med tekst af Felice Romani. Dansk oversættelse ved Oehlenschläger; opført på Det Kongelige Teater 1840.</cell></row><row xml:id="txtcmnt-511-03"><cell type="data-term">Lucrezia Borgia</cell><cell type="data-definition">opera fra 1833 af G. Donizetti med tekst af Romani. Opført af italienske sangere på Hofteatret 1842.</cell></row><row xml:id="txtcmnt-511-04"><cell type="data-term">Gemma</cell><cell type="data-definition"><hi rend="italic">Gemma di Vergy</hi>, opera fra 1834 af Donizetti med tekst af G.E. Bidéra. Opført af italienske sangere på Vesterbroes Nye Theater 1841.</cell></row><row xml:id="txtcmnt-511-05"><cell type="data-term">Rosina</cell><cell type="data-definition">kvindelig hovedperson i operaen <hi rend="italic">Il barbiere di Siviglia</hi>, 1816, af Rossini, dansk <hi rend="italic">Barberen i Sevilla</hi>, oversat af N.T. Bruun; opført på Det Kongelige Teater 1822.</cell></row></cell>
+<cell type="page">512</cell><cell><row xml:id="txtcmnt-512-01"><cell type="data-term">Mel. af Røverborgen</cell><cell type="data-definition">»Din Sang kan hvert Hierte henrive« synges på melodien til sangen »Hyænen bygger sin Hule« fra III akt af <hi rend="italic">Røverborgen.</hi> Trykte noder: Rung bd. 1, s. 103. E-noder: <hi rend="italic">Røverborgen/</hi>»Røversang«.</cell></row><row xml:id="txtcmnt-512-02"><cell type="data-term">Per che non … vento</cell><cell type="data-definition">»Perche non ho del vento«, (italiensk) hvorfor har jeg ikke vinden? arie fra Donizettis opera <hi rend="italic">Rosmonda di Inghilterra</hi>, 1834, der somme tider erstatter en del af vanvidsscenen i <hi rend="italic">Lucia di Lammermoor</hi>.</cell></row><row xml:id="txtcmnt-512-03"><cell type="data-term">Mel. af Elezire d’Amore</cell><cell type="data-definition"><hi rend="italic">L’elisir d’amore</hi>, opera fra 1832 af Donizetti, tekst af Felice Romani (dansk <hi rend="italic">Elskovsdrikken</hi>); opført af italienske sangere på Vesterbroes Nye Theater 22. december 1841 (altså efter opførelsen af <hi rend="italic">Sangerinden</hi>).</cell></row><row xml:id="txtcmnt-512-04"><cell type="data-term">Brava! brava</cell><cell type="data-definition">fra vers af vekselsangen »Io son ricco e tu sei bella« (italiensk: jeg er rig, og du er smuk), II,1 af <hi rend="italic">L’elisir d’amore</hi>. Trykt klaverpartitur til <hi rend="italic">L’elisir d’amore</hi> findes.</cell></row></cell>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

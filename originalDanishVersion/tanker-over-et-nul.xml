@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tanker over et Nul</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="tanker-over-et-nul" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1829</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Tanker over et Nul" xml:id="tanker-over-et-nul">
+<pb n="264"/>
+<head type="part">Tanker over et Nul</head>
+<head type="sub">(<seg target="txtcmnt-264-01"><!--DATA-TERM: Brudstykke efter det Tydske--><!--DATA-DEFINITION: noget direkte forlæg har ikke kunnet identificeres, men muligvis refererer H.C. Andersen her til en udtalelse i sin strid med den skånske baron Carl Adam von Nolcken (1811-1857), hvor han i »Et Stykke Kage til den lille <i>XXX</i>, for hans Ricochets mod Hr. <i>Andersen</i>« (BFN 30; se side 477) ender sit svar på von Nolckens kritik af <i>Kjærlighed paa Nicolai Taarn eller Hvad siger Parterret</i> (BFN 28) med følgende: »(...) vil De ret frappere Verden, saa siig nu selv Deres rette Navn, da vil man see, hvem der staaer: »wie ein Nülchen««.-->Brudstykke efter det Tydske</seg>)</head>
+<p rend="noIndent" xml:id="p_00555">0</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00556">For ret nøie at kunne betragte dig, har jeg nedskrevet dig, du underlige lille Nul. Saaledes som du der staaer, er du Intet. Det siger andre Folk om dig, men jeg siger det ikke. Saaledes som du der staaer, er du en lille hvid Plet paa Papiret, der er omgivet med en sort Ring, en lille Figur, der skal betyde Nul, eller <hi rend="italic">Intet</hi>. Du er altsaa <hi rend="italic">Noget</hi>, men kaldes dog <hi rend="italic">Intet</hi>.</p>
+<p rend="firstIndent" xml:id="p_00557">Det gaaer dig ligesom mange andre Ting her i Verden, der vel ere Noget, men kaldes <hi rend="italic">Intet</hi>, og gjælde for Intet; men læg dig slet ikke det paa Hjerte, det gaaer mange Mennesker her ikke bedre end dig.</p>
+<p rend="firstIndent" xml:id="p_00558">Der findes ingen Ting i Verden, man mere har været uenig om, end dig og din Betydning af Intet; men mig forekommer det som du med dit lille runde Øie udloe os allesammen. Du skal være <hi rend="italic">Intet</hi>, og er dog saa nødvendig; vil man tælle, maa man dog have dig med, ja du er ligesaa god som 9. Lad det store Tal kun bryste sig; faaer du bare saadan en lille Hale ved dig, ligesom det, saa er du ogsaa saadan en Figur som 9. Det beroer altsaa allene paa denne lille Hale, at du ogsaa kan blive saadant et fornemt Tal. Det er dog underligt! Men jeg vil nu slet ikke undre mig; <seg target="txtcmnt-264-02"><!--DATA-TERM: vi syndige Mennesker … Udtryk--><!--DATA-DEFINITION: muligvis allusion til Horats’ (65-8 f.Kr.) <i>Epistler</i> I,2,27: »nos numerus sumus et fruges consumere nati ...«, (latin) vi er nuller og født til at spise afgrøderne.-->vi syndige Mennesker ere alle ikke uden Nuller, efter det almindelige Udtryk</seg>, naar vi ikke have en eller anden lille Hale efter os.</p>
+<p rend="firstIndent" xml:id="p_00559">Føler kun eders Værd, I kjære Nuller, som synes saa ubetydelige! den store Regnemester histoppe, der tæller alle Stjernerne, og hver Dag og Time adderer, subtraherer, multiplicerer og dividerer os Mennesker, han har ogsaa talt Eder med, I stakkels Nulmennesker, og kan ikke uden Eder faae det store Regnestykke, hvori Konger og Tiggere, Niere og Nuller staae ved Siden af hinanden.</p>
+<p rend="firstIndent" xml:id="p_00560">Der foregaae underlige Ting med dig! du er Intet, og hedder Intet, og sætter jeg ogsaa et Nul ved Siden af dig, saa er du heller ikke mere end to Gange Ingenting, men sætter jeg bare et 1 foran dig, saa bliver du strax et stort Tal og hedder <hi rend="italic">Hundrede</hi>, og sætter jeg nu et 1 bag ved dig, saa bliver du endogsaa til Tusinde og een.</p>
+<pb n="265"/>
+<p rend="firstIndent" xml:id="p_00561">Gud bevares! hvad der dog kan blive af et Nul i denne Verden, naar det bare kommer  i Forbindelse med <seg target="txtcmnt-265-01"><!--DATA-TERM: betydende--><!--DATA-DEFINITION: af betydning, anerkendte.-->betydende</seg> Tal.</p>
+<p rend="firstIndent" xml:id="p_00562">Det er altsaa stedse kun et Nul, naar det staaer allene, men naar det kommer paa den rette Plads i Verden, saa kan det gjøre utrolig Nytte.</p>
+<p rend="firstIndent" xml:id="p_00563"><seg target="txtcmnt-265-02"><!--DATA-TERM: Naar ikke--><!--DATA-DEFINITION: hvis ikke.-->Naar ikke</seg> de stakkels Nuller vare, saa kunde de andre fornemme Tal heller aldrig komme til at betyde saa meget som de gjøre; det er Nullerne, der udgjøre den kjære Guds største <seg target="txtcmnt-265-03"><!--DATA-TERM: Summa--><!--DATA-DEFINITION: sum.-->Summa</seg>, det er paa en Maade den arbeidende Classe, og derfor maae vi altid bede <hi rend="italic">vor Herre</hi>, naar vi see saadan en lille rund Ting, at ere vi et Nul i denne Verden, vi da altid maae være et rundt, sundt Nul, og naar Han engang adderer os sammen i Evigheden og subtraherer de Onde fra de Gode, vi da maae komme paa vor rette Plads. Amen.</p>
+<pb n="266"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Tanker over et Nul. (Brudstykke efter det Tydske)" synch="tanker-over-et-nul-brudstykke-efter-det-tydske">
+<head type="section-comments">Tanker over et Nul. (Brudstykke efter det Tydske)</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Kjøbenhavns-Posten</hi>, nr. 201, 18. december 1829. BFN 50</p>
+<table rend="textcomments">
+<cell type="page">264</cell><cell><row xml:id="txtcmnt-264-01"><cell type="data-term">Brudstykke efter det Tydske</cell><cell type="data-definition">noget direkte forlæg har ikke kunnet identificeres, men muligvis refererer H.C. Andersen her til en udtalelse i sin strid med den skånske baron Carl Adam von Nolcken (1811-1857), hvor han i »Et Stykke Kage til den lille <hi rend="italic">XXX</hi>, for hans Ricochets mod Hr. <hi rend="italic">Andersen</hi>« (BFN 30; se side 477) ender sit svar på von Nolckens kritik af <hi rend="italic">Kjærlighed paa Nicolai Taarn eller Hvad siger Parterret</hi> (BFN 28) med følgende: »(...) vil De ret frappere Verden, saa siig nu selv Deres rette Navn, da vil man see, hvem der staaer: »wie ein Nülchen««.</cell></row><row xml:id="txtcmnt-264-02"><cell type="data-term">vi syndige Mennesker … Udtryk</cell><cell type="data-definition">muligvis allusion til Horats’ (65-8 f.Kr.) <hi rend="italic">Epistler</hi> I,2,27: »nos numerus sumus et fruges consumere nati ...«, (latin) vi er nuller og født til at spise afgrøderne.</cell></row></cell>
+<cell type="page">265</cell><cell><row xml:id="txtcmnt-265-01"><cell type="data-term">betydende</cell><cell type="data-definition">af betydning, anerkendte.</cell></row><row xml:id="txtcmnt-265-02"><cell type="data-term">Naar ikke</cell><cell type="data-definition">hvis ikke.</cell></row><row xml:id="txtcmnt-265-03"><cell type="data-term">Summa</cell><cell type="data-definition">sum.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

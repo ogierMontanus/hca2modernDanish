@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Prindsessen på Ærten</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability default="false">
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/" part="N">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p part="N">Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc default="false">
+                                             <listBibl default="false">
+                                                  <bibl default="false" status="draft">
+                                                             
+      <p rend="noIndent" part="N">Trykt første gang i Eventyr, fortalte for Børn. Første Hefte, som udkom den 8. maj 1835.<br/>
+BFN 269/I,41-42/VII,25-26.</p>    
+      </bibl>
+                                                  <biblStruct default="false" status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="prindsessen-paa-ærten.xml" type="originalDanish" anchored="true">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl default="false" status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData default="false"/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1835</date>
+                                        </creation>
+                                        <textClass default="false">
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Prindsessen paa Ærten" xml:id="prindsessen-paa-ærten" part="N" org="uniform" sample="complete">
+<pb n="98"/><head type="main">Prinsessen på ærten</head>
+
+<p rend="noIndent" xml:id="p_00001" part="N">Der var engang en prins<?oxy_delete author="as" timestamp="20230811T133201+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230811T133201+0200"?>. H<?oxy_insert_end?>an <?oxy_delete author="as" timestamp="20230811T133050+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230811T133050+0200"?>ville<?oxy_insert_end?> have sig en prinsesse, men det <?oxy_delete author="as" timestamp="20230811T133106+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230811T133106+0200"?>skulle<?oxy_insert_end?> være en <hi rend="italic">rigtig</hi> prinsesse. Så rejste han hele verden rundt<?oxy_delete author="as" timestamp="20230811T133210+0200" content=","?> for at finde sådan en, men allevegne var der noget i vejen<?oxy_insert_start author="as" timestamp="20230811T133218+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230811T133220+0200" content=", p"?><?oxy_insert_start author="as" timestamp="20230811T133220+0200"?> P<?oxy_insert_end?>rinsesser var der nok af, men om det var <hi rend="italic">rigtige</hi> prinsesser, <?oxy_delete author="as" timestamp="20230811T133100+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230811T133100+0200"?>kunne<?oxy_insert_end?> han ikke ganske <seg target="txtcmnt-098-01" part="N"><!--DATA-TERM: komme efter--><!--DATA-DEFINITION: lære, erfare.-->komme efter</seg>, altid var der noget<?oxy_delete author="as" timestamp="20230811T133235+0200" content=","?> som ikke var så rigtigt. Så kom han da hjem igen og var så bedrøvet, for han <?oxy_delete author="as" timestamp="20230811T133050+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230811T133050+0200"?>ville<?oxy_insert_end?> så gerne have en virkelig prinsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00002" part="N">En aften blev det da et frygteligt vejr; det lynede og tordnede, regnen skyllede ned, det var ganske forskrækkeligt! Så bankede det på byens port, og den gamle konge gik hen at lukke op.</p>
+
+<p rend="firstIndent" xml:id="p_00003" part="N">Det var en prinsesse<?oxy_delete author="as" timestamp="20230811T133300+0200" content=","?> som stod udenfor. Men Gud<?oxy_insert_start author="as" timestamp="20230811T133303+0200"?>,<?oxy_insert_end?> hvor hun så ud af regnen og det onde vejr! Vandet løb ned af hendes hår og hendes klæder, og det løb ind a<?oxy_insert_start author="as" timestamp="20230811T133334+0200"?>d<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230811T133335+0200" content="f"?> næsen på skoen og ud a<?oxy_insert_start author="as" timestamp="20230811T133346+0200"?>d<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230811T133346+0200" content="f"?> hælen, og så sagde hun<?oxy_delete author="as" timestamp="20230811T133353+0200" content=","?> at hun var en virkelig prinsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00004" part="N">»Ja, det skal vi nok få at vide!« tænkte den gamle dronning, men hun sagde ikke noget, gik ind i sovekammeret, tog alle seng<?oxy_insert_start author="as" timestamp="20230811T133409+0200"?>e<?oxy_insert_end?>klæderne af og lagde en ært på bunden af sengen<?oxy_insert_start author="as" timestamp="20230811T133414+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230811T133415+0200" content=", d"?><?oxy_insert_start author="as" timestamp="20230811T133415+0200"?> D<?oxy_insert_end?>erpå tog hun tyve madrasser, lagde dem oven<?oxy_insert_start author="as" timestamp="20230811T133424+0200"?> <?oxy_insert_end?>på ærten, og så endnu tyve edderduns<?oxy_delete author="as" timestamp="20230811T133428+0200" content="-"?>dyner oven på madrasserne.</p>
+
+<p rend="firstIndent" xml:id="p_00005" part="N">Der <?oxy_delete author="as" timestamp="20230811T133106+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230811T133106+0200"?>skulle<?oxy_insert_end?> nu prinsessen ligge om natten.</p>
+
+<p rend="firstIndent" xml:id="p_00006" part="N">Om morgenen spurgte de hende<?oxy_delete author="as" timestamp="20230811T133447+0200" content=","?> hvorledes hun havde sovet.</p>
+
+<p rend="firstIndent" xml:id="p_00007" part="N">»O<?oxy_insert_start author="as" timestamp="20230811T133450+0200"?>,<?oxy_insert_end?> forskrækkeligt slet!« sagde prinsessen, »jeg har næsten ikke lukket mine øjne den hele nat! Gud ved<?oxy_delete author="as" timestamp="20230811T133459+0200" content=","?> hvad der har været i sengen? Jeg har ligget på noget hårdt, så jeg er ganske brun og blå over min hele krop! Det er ganske forskrækkeligt!«</p>
+
+<p rend="firstIndent" xml:id="p_00008" part="N">Så <?oxy_delete author="as" timestamp="20230811T133100+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230811T133100+0200"?>kunne<?oxy_insert_end?> de se<?oxy_delete author="as" timestamp="20230811T133519+0200" content=","?> at det var en rigtig prinsesse<?oxy_delete author="as" timestamp="20230811T133522+0200" content=","?> da hun gennem de tyve madrasser og de tyve edderduns<?oxy_delete author="as" timestamp="20230811T133528+0200" content=" "?>dyner havde mærket ærten. Så ømskindet <?oxy_delete author="as" timestamp="20230811T133100+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230811T133100+0200"?>kunne<?oxy_insert_end?> der ingen være<?oxy_delete author="as" timestamp="20230811T133545+0200" content=","?> uden en virkelig prinsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00009" part="N">Prinsen tog hende da til kone, for nu vidste han<?oxy_delete author="as" timestamp="20230811T133602+0200" content=","?> at han havde en rigtig prinsesse, og ærten kom på <seg target="txtcmnt-098-02" part="N"><!--DATA-TERM: Kunstkammeret--><!--DATA-DEFINITION: den kongelige samling af kunst og kuriositeter.-->kunstkammeret</seg><?oxy_delete author="as" timestamp="20230811T133607+0200" content=","?> hvor den endnu er at se<?oxy_delete author="as" timestamp="20230811T133623+0200" content=","?> dersom ingen har taget den.</p>
+
+<p rend="firstIndent" xml:id="p_00010" part="N">Se, det var en rigtig historie!</p>
+
+<pb n="99"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Prindsessen paa Ærten" xml:id="prindsessen-paa-ærten" part="N" org="uniform" sample="complete">
+<head type="section-comments">Prindsessen på Ærten</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Eventyr, fortalte for Børn. Første Hefte, som udkom den 8. maj 1835.<br/>
+BFN 269/I,41-42/VII,25-26.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">98</cell><row xml:id="txtcmnt-098-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">komme efter</cell><cell type="data-definition" role="data" rows="1" cols="1">lære, erfare.</cell></row><row xml:id="txtcmnt-098-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Kunstkammeret</cell><cell type="data-definition" role="data" rows="1" cols="1">den kongelige samling af kunst og kuriositeter.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Teapot</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="theepotten">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="theepotten_modern.xml">moderniseret version</note>
+                                                       <note target="160_The-Teapot.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a proud teapot, proud of its fine porcelain, proud of its long sp...</incipit><idno type="image">Theepotten_hca_ill_0110.png</idno><popularity>921</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Teapot. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-25" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-25" who="NHB">formatted</change><change who="NHB" when="2022-10-25">removed one occurence with italics. Ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Teapot">
+               <head type="main" rend="The Teapot">The Teapot</head>                <p rend="noIndent" xml:id="p_00001">There was once a proud <hi rend="italic">teapot</hi>, proud of its fine porcelain, proud of its long spout, proud of its large handle; it had substance both fore and aft, the spout fore, the handle aft, and this it spoke about a great deal; but it didn’t say anything about its lid, it was cracked, it had been mended, it had faults, and one doesn’t much like to speak about such things, others are sure to take care of that. Cups, milk jug and sugar bowl, the whole set-up for tea, would most likely recall more readily and speak of the frailty of its lid than speak of its fine handle and excellent spout; this the <hi rend="italic">teapot</hi> knew for sure.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘I know them!’ it said within itself, ‘I also know my faults, and those I admit, therein lies my humility, my modesty; all of us have faults, but one also of course has one’s assets. The cups were given a handle, the sugar bowl a lid; I got both as well as something out front that they will never have, I got a spout and that makes me the queen of the tea-table. The sugar bowl and milk jug are granted the privilege of being the servants of good taste, but I am the one who gives, who governs, I dispense libations to a thirsting humanity; inside me the Chinese leaves are steeped in the tasteless boiling water!’</p>
+               <p rend="firstIndent" xml:id="p_00003">All of this the <hi rend="italic">teapot</hi> said in the brashness of youth. It stood on the laid-out table, it was lifted by the finest hand, but the finest hand was clumsy, the <hi rend="italic">teapot</hi> was dropped, the spout snapped off, the handle snapped off, the lid is not worth mentioning, enough has been said about it already. The teapot lay in a faint on the floor, the boiling water ran out of it. It was a heavy blow it had been dealt, and the worst of all was that they laughed, they laughed at it and not at the clumsy hand.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘That memory I will never be rid of!’ the <hi rend="italic">teapot</hi> said when it later described the course of its life to itself. ‘I was called an invalid, put away in a corner, and the following day given away to a woman who came begging for dripping; I descended into poverty, stood there speechless, externally or internally, but as I stood there a better life began for me; one starts by being one thing and then becomes something completely different. I was filled with earth; that is the equivalent to being buried for a teapot, but a bulb was placed in this soil; who put it there, who gave it, I do not know, but given it was, a compensation for the Chinese leaves and the boiling water, a replacement for the broken handle and spout. And the bulb lay in the earth, the bulb lay inside me, it became my heart, my living heart, such as I had never had before. There was life inside me, there was strength and force; there was a pulse, the bulb started to sprout, it was almost bursting with thoughts and emotions; they came into flower; I saw it, I bore it, I forgot myself in its loveliness; how marvellous it is to forget oneself in others! It did not thank me; it did not think of me; – it was admired and praised. I was so happy about it, what must it not have felt. One day I heard it being said that it deserved a better pot. I was cleft in two; it hurt dreadfully; but the flower was moved to a better pot, – and I was thrown out into the yard, lie here like some old potsherd – but I have my memories, and those I cannot lose.’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Studenten fra Lund</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="studenten-fra-lund" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Studenter-Byen ei jeg glemmer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00026</section>
+                                                                 <date>1840</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1840</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Studenten fra Lund" xml:id="studenten-fra-lund"><pb n="23"/><head type="part">Studenten fra Lund</head>
+<head type="sub">(Skreven for svenske Studenter)</head>
+<lg xml:id="p_00027">
+<l rend="noIndent" subtype="firstline" corresp="Studenter-Byen ei jeg glemmer" rendition="studenter-byen-ei-jeg-glemmer">Studenter-Byen ei jeg glemmer,</l>
+<l rend="noIndent">Det gamle <hi rend="italic">Lund</hi>, saa vidt bekjendt,</l>
+<l rend="noIndent">Om den jeg mangt et Minde gjemmer,</l>
+<l rend="noIndent">Hurra! jeg er fra <hi rend="italic">Lund</hi> Student!</l>
+<l rend="noIndent">Her løb de glade Ungdoms Sange,</l>
+<l rend="noIndent"><seg target="txtcmnt-023-01"><!--DATA-TERM: End (lyde)--><!--DATA-DEFINITION: endnu.-->End lyde</seg> de, saa smukke, mange!</l>
+<l rend="noIndent">I Gaderne utalte Gange,</l>
+<l rend="noIndent">Ved Maaneskin, ved Lygte-Skjær</l>
+<l rend="noIndent">Med lystig Sang vi vandre her!</l>
+<l rend="noIndent">Bag Vinduet sig Gardinet rører,</l>
+<l rend="noIndent"><seg target="txtcmnt-023-02"><!--DATA-TERM: Hvo--><!--DATA-DEFINITION: hvem.-->Hvo</seg> er det, som paa Sangen hører?</l>
+<l rend="noIndent">– Jeg røber ei min Hjertenskjær!</l>
+</lg>
+<lg xml:id="p_00028">
+<l rend="noIndent">I <seg target="txtcmnt-023-03"><!--DATA-TERM: (Sommer)qvæl--><!--DATA-DEFINITION: kvæld; aften.-->Sommerqvæl</seg>, o hvilken <seg target="txtcmnt-023-04"><!--DATA-TERM: Gammen--><!--DATA-DEFINITION: glæde, fryd.-->Gammen</seg>!</l>
+<l rend="noIndent">Naar Linden smukt i Blomster staaer,</l>
+<l rend="noIndent">I »Lundegaarden« sidder sammen</l>
+<l rend="noIndent">En Kreds, hvis Hjerte selv har Vaar,</l>
+<l rend="noIndent">Og ingen Sky for Maanen svæver,</l>
+<l rend="noIndent">Den gamle Kirke smukt sig hæver,</l>
+<l rend="noIndent">En <seg target="txtcmnt-023-05"><!--DATA-TERM: Bauta--><!--DATA-DEFINITION: bautasten; aflang sten, der, stillet på højkant og delvis nedgravet, står som grav- el. mindesten.-->Bauta</seg> paa den grønne Plet,</l>
+<l rend="noIndent">Som Gubbe vil jeg mindes det!</l>
+<l rend="noIndent">Vor Pibe damper, Ordet lever,</l>
+<l rend="noIndent">Er Hjertet ungt, det elsker let.</l>
+</lg>
+<lg xml:id="p_00029">
+<l rend="noIndent">Det er saa godt en Ven at eie,</l>
+<l rend="noIndent">Han mødes bedst i Ungdoms Tid,</l>
+<l rend="noIndent">En Stund saa skilles vore Veie,</l>
+<l rend="noIndent">Men her vil Tanken flyve hid,</l>
+<l rend="noIndent"><seg target="txtcmnt-023-06"><!--DATA-TERM: Meer snel--><!--DATA-DEFINITION: hurtigere.-->Meer snel</seg> end Nordens stærke Vinde,</l>
+<l rend="noIndent">Her, under »<hi rend="italic">Lundegaardens</hi>« Linde,</l>
+<l rend="noIndent">Vi atter os i Kredsen finde,</l>
+<l rend="noIndent">Hurra! jeg er fra Lund Student!</l>
+<l rend="noIndent">Her Aandens Altar-Blus blev tændt,</l>
+<l rend="noIndent">Her Sangene fra Læben strømte,</l>
+<l rend="noIndent">Her var jeg ung, her Hjertet drømte,</l>
+<l rend="noIndent">Her har jeg Sorg og Glæder kjendt.</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Studenten fra Lund" synch="studenten-fra-lund">
+<head type="section-comments">Studenten fra Lund</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Kjöbenhavns Morgenblad</hi>, nr. 17, 3. maj 1840. BFN 376</p>
+<table rend="textcomments">
+<cell type="page">23</cell><cell><row xml:id="txtcmnt-023-01"><cell type="data-term">End (lyde)</cell><cell type="data-definition">endnu.</cell></row><row xml:id="txtcmnt-023-02"><cell type="data-term">Hvo</cell><cell type="data-definition">hvem.</cell></row><row xml:id="txtcmnt-023-03"><cell type="data-term">(Sommer)qvæl</cell><cell type="data-definition">kvæld; aften.</cell></row><row xml:id="txtcmnt-023-04"><cell type="data-term">Gammen</cell><cell type="data-definition">glæde, fryd.</cell></row><row xml:id="txtcmnt-023-05"><cell type="data-term">Bauta</cell><cell type="data-definition">bautasten; aflang sten, der, stillet på højkant og delvis nedgravet, står som grav- el. mindesten.</cell></row><row xml:id="txtcmnt-023-06"><cell type="data-term">Meer snel</cell><cell type="data-definition">hurtigere.</cell></row></cell>
+</table>
+<pb n="552"/></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sang ved femogtyveaars Festen for Studenter fra 1828</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sang-ved-femogtyveaars-festen-for-studenter-fra-1828" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+
+
+                                                            <separateWork>
+                                                                 <title>Saa er vi sammen da igjen ved Bordet</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00502</section>
+                                                                 <date>1853</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1853</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Sang ved femogtyveaars Festen for Studenter fra 1828" xml:id="sang-ved-femogtyveaars-festen-for-studenter-fra-1828"><pb n="216"/><head type="part">Sang ved femogtyveaars Festen for <seg target="txtcmnt-216-01"><!--DATA-TERM: Studenter fra 1828--><!--DATA-DEFINITION: H.C. Andersen aflagde studentereksamen ved Københavns Universitet 22. oktober 1828.-->Studenter fra 1828</seg></head>
+<head>October 1853</head>
+<head type="melody"><hi rend="italic">Mel. »<seg target="txtcmnt-216-02"><!--DATA-TERM: Der er et Land … Norden--><!--DATA-DEFINITION: førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <i>Svend Grathe</i>, 1825, med musik af C.E.F. Weyse, 1826.-->Der er et Land, dets Sted er höit mod Norden.«</seg></hi></head>
+<lg xml:id="p_00503">
+<l rend="noIndent" subtype="firstline" corresp="Saa er vi sammen da igjen ved Bordet" rendition="saa-er-vi-sammen-da-igjen-ved-bordet">Saa er vi sammen da igjen ved Bordet,</l>
+<l rend="noIndent">Sidst var det ved det store grönne Bord</l>
+<l rend="noIndent">Og der hver af os skulde före Ordet,</l>
+<l rend="noIndent">Her kun enhver som vil, skal have Ord,</l>
+<l rend="noIndent">Og give Taler, Viser, eller Stemme,</l>
+<l rend="noIndent">Enhver jo giver efter sine Kaar;</l>
+<l rend="noIndent">Og nu er vi gemytlige og hjemme,</l>
+<l rend="noIndent">Vi er Studenter fem og tyve Aar!</l>
+</lg>
+<lg xml:id="p_00504">
+<l rend="noIndent">Vel mödes vi i Ny og Næ paa Gaden,</l>
+<l rend="noIndent">At sige, naar i samme By vi boe,</l>
+<l rend="noIndent">Men de som leve langt fra <seg target="txtcmnt-216-03"><!--DATA-TERM: Vagtparaden--><!--DATA-DEFINITION: i København.-->Vagtparaden</seg>,</l>
+<l rend="noIndent">Kan knap paa Möde og paa Venskab troe,</l>
+<l rend="noIndent">Derfor löd Opraab, derfor skete Manen,</l>
+<l rend="noIndent">Om Möde her, som der i Brevet staaer,</l>
+<l rend="noIndent">Champagnen knalder nu paa <seg target="txtcmnt-216-04"><!--DATA-TERM: Skydebanen--><!--DATA-DEFINITION: Skydebanebygningen på Vesterbro i København (det nuværende Københavns Bymuseum), hvis selskabslokaler havde stor søgning.--><hi rend="italic">Skydebanen</hi></seg>,</l>
+<l rend="noIndent">Her er vi efter fem og tyve Aar!</l>
+</lg>
+<lg xml:id="p_00505">
+<l rend="noIndent">Historien har faaet rige Blade</l>
+<l rend="noIndent">Fra den Gang vi til <seg target="txtcmnt-216-05"><!--DATA-TERM: Artium(s)--><!--DATA-DEFINITION: examen artium (latin) studentereksamen; frem til 1850 blev den aflagt ved Københavns Universitet.-->Artiums</seg> Bordet gik,</l>
+<l rend="noIndent">Erindringer, de tunge og de glade,</l>
+<l rend="noIndent">For Verden og os selv, staae for vort Blik:</l>
+<l rend="noIndent">Saa riig en Tid, at vi kan kaldes Gamle,</l>
+<l rend="noIndent">Og i vort Hjem, hvor Brödfrugts Træet staaer,</l>
+<l rend="noIndent">Vi kan i Kredsen som vi om os samle,</l>
+<l rend="noIndent">Fortælle om de fem og tyve Aar!</l>
+</lg>
+<lg xml:id="p_00506">
+<l rend="noIndent">De fleste af os fik en lille Kone,</l>
+<l rend="noIndent">Maaske en stor, og det er ogsaa godt,</l>
+<l rend="noIndent">Og saa en Börneflok omkring sin Throne,</l>
+<l rend="noIndent">Og man er riig, selv om man har det smaat;</l>
+<l rend="noIndent">Og man har Aands og Legems Mad og Drikke,</l>
+<pb n="217"/>
+<l rend="noIndent">Man har sin egen Kraft, hvordan det gaaer,</l>
+<l rend="noIndent">Og saa har man en Ven, man veed det ikke,</l>
+<l rend="noIndent">Vi er saa mange fra det samme Aar!</l>
+</lg>
+<lg xml:id="p_00507">
+<l rend="noIndent">Mens Tidens Aand er gjennem Verden draget,</l>
+<l rend="noIndent">Vi voxte meer til Hjemmets Jordbund fast,</l>
+<l rend="noIndent">Det bruste om os under Vingeslaget,</l>
+<l rend="noIndent">Hver Gang det Gamle for det Nye brast,</l>
+<l rend="noIndent">Men Eet ei brast, og derom vil vi sjunge,</l>
+<l rend="noIndent">Vort Baand, der fra Examens Bordet naaer.</l>
+<l rend="noIndent">Og nu er vi iaften Alle unge,</l>
+<l rend="noIndent">Studenter kun paa fem og tyve Aar!</l>
+</lg>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Sang ved femogtyveaars Festen for Studenter fra 1828. October 1853" synch="sang-ved-femogtyveaars-festen-for-studenter-fra-1828-october-1853">
+<head type="section-comments">Sang ved femogtyveaars Festen for Studenter fra 1828. October 1853</head>
+<p rend="noIndent">Først kendte tryk: lejlighedstryk, sunget ved 25-års-jubilæums-festen på skydebanen 22. oktober 1853. BFN 633</p>
+<table rend="textcomments">
+<cell type="page">216</cell><cell><row xml:id="txtcmnt-216-01"><cell type="data-term">Studenter fra 1828</cell><cell type="data-definition">H.C. Andersen aflagde studentereksamen ved Københavns Universitet 22. oktober 1828.</cell></row><row xml:id="txtcmnt-216-02"><cell type="data-term">Der er et Land … Norden</cell><cell type="data-definition">førstelinjen af C.J. Boye »Sang for danske« fra sørgespillet <hi rend="italic">Svend Grathe</hi>, 1825, med musik af C.E.F. Weyse, 1826.</cell></row><row xml:id="txtcmnt-216-03"><cell type="data-term">Vagtparaden</cell><cell type="data-definition">i København.</cell></row><row xml:id="txtcmnt-216-04"><cell type="data-term">Skydebanen</cell><cell type="data-definition">Skydebanebygningen på Vesterbro i København (det nuværende Københavns Bymuseum), hvis selskabslokaler havde stor søgning.</cell></row><row xml:id="txtcmnt-216-05"><cell type="data-term">Artium(s)</cell><cell type="data-definition">examen artium (latin) studentereksamen; frem til 1850 blev den aflagt ved Københavns Universitet.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

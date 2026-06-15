@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Et godt Humør</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor>
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Historier, der udkom den 5. april 1852.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1852</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change>
+                                        <change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="et-godt-humeur">
+<head type="main">Et godt humør</head>
+
+<p rend="noIndent" xml:id="p_00002">Efter min far har jeg fået den bedste arvepart, jeg har fået et godt humør. Og hvem var min far? Ja, det kommer nu ikke humøret ved! Han var livlig og trivelig, fed og rund, hans ydre og indre ganske i strid med hans embede. Og hvad var hans embede, hans stilling i samfundet? Ja, skulle det skrives ned og trykkes lige i begyndelsen af en bog, så er det rimeligt at flere når de læste det, lagde bogen til side og sagde: »Det ser mig så uhyggeligt ud, jeg skal ikke have af den slags«. Og dog var min far hverken <seg><!--DATA-TERM: Rakker--><anchor target="txtcmnt-049-01"/><!--person, der bragte selvdøde dyr o.l. uden for byen til rakkerkulen; fungerede tillige ofte som bøddelens medhjælper.-->rakker</seg> eller <seg><!--DATA-TERM: Skarpretter--><anchor target="txtcmnt-049-02"/><!--bøddel.-->skarpretter</seg>, tværtimod, hans embede bragte ham tit i spidsen for stadens allerhæderligste mænd, og han var der ganske i sin ret, ganske på sin plads. Han måtte være forrest, foran bispen, foran prinser af blodet – og han var forrest – – han var ligvognskusk!</p>
+
+<p rend="firstIndent" xml:id="p_00003">Nu er det sagt! Og det kan jeg sige, at når man så min far sidde der højt foran på dødens <seg><!--DATA-TERM: Omnibus--><anchor target="txtcmnt-049-03"/><!--hestetrukket offentligt transportmiddel; den første rute åbnet i Danmark 1841.-->omnibus</seg>, iført sin lange <seg><!--DATA-TERM: side--><anchor target="txtcmnt-049-04"/><!--vide.-->side</seg>, sorte kappe, og med den sortbefrynsede trekantede hat på hovedet og dertil så hans ansigt der livagtigt var som man aftegner solen, rundt og leende, så kunne man ikke tænke på sorg og grav; det ansigt sagde: »Det gør ikke noget, det bliver meget bedre end man tror!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Se, fra <hi rend="italic">ham</hi> har jeg mit gode humør og den vane jævnlig at gå ud på kirkegården. Og det er meget fornøjeligt når man kun kommer der med et godt humør – og så holder jeg <seg><!--DATA-TERM: Adresseavisen … uskyldige Vers--><anchor target="txtcmnt-049-05"/><!--udkom i perioden 1759-1908 under forskellige navne. Avisen, som var en slags annonceavis, havde sin oprindelse i de plakater J.F. v.d. Osten fra 1706 lod udgå fra sit adressekontor, der blev lukket i 1711, genåbnet i 1726, lukket i 1728 og atter genåbnet i 1749, hvor kontoret udsendte <i>Adresse-Contoirets Efterretninger til Publici Nytte bekiendtgjorte</i>. I 1759 ændredes navnet til <i>Kiøbenhavns Kgl. allene privilegerede Adresse-Contoirs Efterretninger</i>. <i>Adresseavisen</i> bragte bl.a. gravvers. En del af disse samlede hofboghandler J.L. Beeken i <i>Gravblomster</i> I-V, 1825-1829, hvortil H.C. Andersen også bidrog med et ligvers over madam Spendrup (1827, BFN 10).-->Adresseavisen, ligesom også han gjorde.</seg></p>
+
+<p rend="firstIndent" xml:id="p_00005"><seg><!--DATA-TERM: Adresseavisen … uskyldige Vers--><anchor target="txtcmnt-049-05" type="continued"/><!--udkom i perioden 1759-1908 under forskellige navne. Avisen, som var en slags annonceavis, havde sin oprindelse i de plakater J.F. v.d. Osten fra 1706 lod udgå fra sit adressekontor, der blev lukket i 1711, genåbnet i 1726, lukket i 1728 og atter genåbnet i 1749, hvor kontoret udsendte <i>Adresse-Contoirets Efterretninger til Publici Nytte bekiendtgjorte</i>. I 1759 ændredes navnet til <i>Kiøbenhavns Kgl. allene privilegerede Adresse-Contoirs Efterretninger</i>. <i>Adresseavisen</i> bragte bl.a. gravvers. En del af disse samlede hofboghandler J.L. Beeken i <i>Gravblomster</i> I-V, 1825-1829, hvortil H.C. Andersen også bidrog med et ligvers over madam Spendrup (1827, BFN 10).-->Jeg er ikke ganske ung – jeg har hverken kone, børn eller bibliotek, men som sagt, jeg holder Adresseavisen, den er mig nok, den er mig det bedste blad, og det var den også for min far. Den gør sit gode gavn og har alt hvad et menneske behøver at vide: Hvem der prædiker i kirkerne, og hvem der prædiker i de nye bøger! Hvor man får hus, tjenestefolk, klæder og føde, hvem der »sælger ud«, og hvem der selv går ud, og så ser man så megen velgørenhed og så mange uskyldige vers</seg> der ikke gør noget! Ægtestand der søges, og stævnemøder som man indlader og ikke indlader sig på! Alt<pb n="50"/>sammen simpelt og naturligt! Man kan såmænd meget godt leve lykkeligt og lade sig begrave ved at holde Adresseavisen – og så har man ved sit livs ende så dejligt meget papir at man kan ligge blødt på det, dersom man ikke holder af at ligge på <seg><!--DATA-TERM: Høvlspaaner--><anchor target="txtcmnt-050-01"/><!--almindeligt underlag for liget i kisten.-->høvlspåner</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Adresseavisen og kirkegården, det er og var altid mine to mest åndsvækkende spadserefarter, mine to mest velsignede badeanstalter for det gode humør.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Enhver kan nu gå ind i Adresseavisen. Men gå med mig på kirkegården, lad os komme der når solen skinner, og træerne er grønne. Lad os gå mellem gravene! Hver af disse er som en lukket bog med ryggen opad, man kan læse titlen, som siger hvad bogen indeholder, og siger dog ingenting, men jeg ved besked, ved den fra min far og fra mig selv. Jeg har det i min <hi rend="italic">gravbog</hi>, og det er en bog, jeg selv har gjort til nytte og fornøjelse. Der ligger de allesammen, og endnu nogle flere!</p>
+
+<p rend="firstIndent" xml:id="p_00008">Nu er vi på kirkegården.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Her, bag det hvidmalede pindegitter, hvor der indenfor engang stod et rosentræ – nu er det borte, men en smule eviggrønt fra naboens grav strækker sin grønne finger derind for dog at gøre lidt stads – hviler en meget ulykkelig mand, og dog, da han levede, stod han sig godt, som man siger, havde sit gode udkomme, og lidt til, men han tog sig verden for nær, det vil sige kunsten. Sad han en aften i teatret for at nyde med hele sin sjæl, så var han rent fra det når bare maskinmesteren satte for stærkt et lys i hver <seg><!--DATA-TERM: Kjæbe--><anchor target="txtcmnt-050-02"/><!--kind.-->kæbe</seg> på månen, eller <seg><!--DATA-TERM: Luft-Soffiten--><anchor target="txtcmnt-050-03"/><!--teaterdekoration, som hænger ned som loft, himmel, grene o.l.-->luftsoffiten</seg> hang foran kulissen hvor den skulle hænge bagved, eller der kom et palmetræ på Amager, kaktus i Tyrol og bøgetræer højt oppe i Norge! Kan det ikke være lige et og det samme, hvem tænker over sligt? Det er jo komedie, og den skal man fornøje sig over. Så klappede publikum for meget, så klappede det for lidt. »Det er vådt brænde,« sagde han »det vil ikke fænge i aften!« og så vendte han sig om for at se hvad det var for folk, og så så han at de lo galt, lo på steder hvor de ikke skulle le, og det ærgrede han sig over og led ved og var et ulykkeligt menneske, og nu er han i graven.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Her hviler en meget lykkelig mand, det vil sige en meget fornem mand af høj byrd, og det var hans lykke, thi ellers var der aldrig blevet noget af ham, men alt er nu så viseligt indrettet i naturen at det er en fornøjelse at tænke derpå. Han gik broderet for og bag og var anbragt i storstuen, som man an<pb n="51"/><pb n="52"/>bringer den kostelige, perlebroderede klokkestreng, den har altid bag ved sig en god tyk snor der gør tjenesten. Han havde også en god snor bagved, en <seg><!--DATA-TERM: Substitut--><anchor target="txtcmnt-052-01"/><!--stedfortræder.-->substitut</seg> der gjorde tjenesten og gør den endnu bag en anden ny, broderet klokkestreng. Alting er nu så viseligt indrettet at man sagtens kan have et godt humør.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Her hviler, ja, det er nu så meget sørgeligt –! Her hviler en mand som i syvogtresindstyve år havde tænkt på at sige et godt indfald. Han levede alene for at få et godt indfald, og så fik han virkelig et, efter egen overbevisning, og blev så glad at han døde i det, døde af glæde over at have fået det, og ingen nød gavn deraf, ingen hørte det gode indfald. Jeg kan nu tænke at han ikke engang har ro i sin grav for det gode indfald, thi sæt at det var et indfald der måtte siges til frokost når det skulle gøre virkning, og at han som død kun kan, efter almindelig mening, komme frem ved midnat, så passer ikke indfaldet til tiden, ingen ler, og han kan gå i graven igen med sit gode indfald. Det er en sørgelig grav.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Her hviler en meget gerrig madamme. Mens hun levede, stod hun op om natten og miavede for at naboerne skulle tro at hun holdt kat; så gerrig var hun!</p>
+
+<p rend="firstIndent" xml:id="p_00013">Her hviler en frøken af god familie. Altid i selskab skulle hun lade sin sangstemme høre, og så sang hun med i »<hi rend="italic">mi manca la voce</hi>«! Det var den eneste sandhed i hendes liv!</p>
+
+<p rend="firstIndent" xml:id="p_00014">Her hviler en jomfru af en anden slags! Når hjertets kanariefugl begynder at skrige op, så putter fornuften fingrene i ørene. Skønjomfru stod i ægtestands glorie –! Det er en <seg><!--DATA-TERM: Hverdagshistorie--><anchor target="txtcmnt-052-03"/><!--hentydning til Thomasine Gyllembourgs (1773-1856) i tiden meget læste fortællinger om det borgerlige familielivs hverdag, de såkaldte hverdagshistorier.-->hverdagshistorie</seg> – men det er pænt sagt. Lad de døde hvile!</p>
+
+<p rend="firstIndent" xml:id="p_00015">Her hviler en enkefrue der havde svanesang i munden og uglegalde i hjertet. Hun gik om i familier på rov efter næstens mangler, ligesom i gamle dage »Politivennen« gik om for at finde et rendestensbræt som ikke var der.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Her er en familiebegravelse. Hvert led af den slægt holdt sådan sammen i troen at om hele verden og avisen sagde: »Således er det,« og da den lille søn kom fra skolen og sagde: »Jeg har hørt det på den måde!« så var hans måde den eneste rigtige, for han var af familien. Og vist er det at traf det sig så at familiens gårdhane galede ved midnat, så var det morgen, om endogså vægteren og alle byens ure sagde, det er midnat.</p>
+
+<p rend="firstIndent" xml:id="p_00017">Den store <seg><!--DATA-TERM:  Goethe  … fortsættes--><anchor target="txtcmnt-052-05"/><!--den tyske forfatter J.W. v. Goethes (1749-1832) hovedværk <i>Faust</i>, hvis første del fra 1808, her i den sidste af Goethe selv besørgede udgave (<i>Werke: vollständige Ausgabe letzter Hand</i>, bind XII, 1828, s. 313), afsluttes: »(Ist fortzusetzen)«. Andel del udkom posthumt i 1833.-->Goethe slutter sin »Faust« med at den »kan fortsættes</seg>«, det kan også vor vandring herud på kirkegården. <pb n="53"/>Her kommer jeg tit! Gør en eller anden af mine venner eller ikke-venner mig det for broget, så går jeg herud, opsøger en grønsværsplads og indvier den til ham eller hende hvem jeg vil have begravet, og så begraver jeg dem straks, så ligger de der døde og magtesløse indtil de som nye og bedre mennesker vender tilbage. Deres liv og levned, set fra min side, skriver jeg ind i min gravbog, og således skulle alle mennesker bære sig ad, ikke ærgre sig når nogen gør dem det for galt, men straks begrave dem, holde på sit gode humør og på Adresseavisen, dette af folket selv skrevne blad, tit med påholdt pen.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Kommer den tid at jeg selv med mit livshistorie skal indbindes i graven, så sæt som indskrift:</p>
+
+<lg xml:id="p_00019">
+<l rend="secondIndent">»<hi rend="italic">Et godt humør!</hi>«</l>
+</lg>
+<p rend="noIndent" xml:id="p_00020">Det er min historie.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="et-godt-humeur">
+<head type="section-comments">Et godt Humør</head>
+
+<p rend="noIndent">Trykt første gang i Historier, der udkom den 5. april 1852.</p>
+<p rend="noIndent">BFN 610/II,238-241/VII,145-147.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">52,23</cell><cell type="deviation">med i &lt; med:</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">49</cell><row xml:id="txtcmnt-049-01"><cell type="data-term">Rakker</cell><cell type="data-definition">person, der bragte selvdøde dyr o.l. uden for byen til rakkerkulen; fungerede tillige ofte som bøddelens medhjælper.</cell></row><row xml:id="txtcmnt-049-02"><cell type="data-term">Skarpretter</cell><cell type="data-definition">bøddel.</cell></row><row xml:id="txtcmnt-049-03"><cell type="data-term">Omnibus</cell><cell type="data-definition">he<pb n="469"/>stetrukket offentligt transportmiddel; den første rute åbnet i Danmark 1841.</cell></row><row xml:id="txtcmnt-049-04"><cell type="data-term">side</cell><cell type="data-definition">vide.</cell></row><row xml:id="txtcmnt-049-05"><cell type="data-term">Adresseavisen … uskyldige Vers</cell><cell type="data-definition">udkom i perioden 1759-1908 under forskellige navne. Avisen, som var en slags annonceavis, havde sin oprindelse i de plakater J.F. v.d. Osten fra 1706 lod udgå fra sit adressekontor, der blev lukket i 1711, genåbnet i 1726, lukket i 1728 og atter genåbnet i 1749, hvor kontoret udsendte Adresse-Contoirets Efterretninger til Publici Nytte bekendtgjorte. I 1759 ændredes navnet til Kiøbenhavns Kgl. alene privilegerede Adresse-Contoirs Efterretninger. Adresseavisen bragte bl.a. gravvers. En del af disse samlede hofboghandler J.L. Beken i Gravblomster I-V, 1825-1829, hvortil H.C. Andersen også bidrog med et ligvers over madam Spendrup (1827, BFN 10).</cell></row>
+<cell type="page">50</cell><row xml:id="txtcmnt-050-01"><cell type="data-term">Høvlspåner</cell><cell type="data-definition">almindeligt underlag for liget i kisten.</cell></row><row xml:id="txtcmnt-050-02"><cell type="data-term">Kjæbe</cell><cell type="data-definition">kind.</cell></row><row xml:id="txtcmnt-050-03"><cell type="data-term">Luft-Soffiten</cell><cell type="data-definition">teaterdekoration, som hænger ned som loft, himmel, grene o.l.</cell></row>
+<cell type="page">52</cell><row xml:id="txtcmnt-052-01"><cell type="data-term">Substitut</cell><cell type="data-definition">stedfortræder.</cell></row><row xml:id="txtcmnt-052-02"><cell type="data-term">mi manca la voce</cell><cell type="data-definition">(italiensk) jeg mangler stemmen; kvartet fra Rossinis (1792-1868) opera Mosè in Egitto 1818 (dansk Moses i Ægypten).</cell></row><row xml:id="txtcmnt-052-03"><cell type="data-term">Hverdagshistorie</cell><cell type="data-definition">hentydning til Thomasine Gyllembourgs (1773-1856) i tiden meget læste fortællinger om det borgerlige familielivs hverdag, de såkaldte hverdagshistorier.</cell></row><row xml:id="txtcmnt-052-04"><cell type="data-term">Politivennen</cell><cell type="data-definition">Politievennen. Et ugentligt Almuesblad, udkom 1798-1811 og 1816-1845, påpegede mangler ved Københavns orden og renovation og var især kendt for sine smålige klager over defekte eller manglende rendestensbrætter, nedløbsrør o.l.</cell></row><row xml:id="txtcmnt-052-05"><cell type="data-term">Goethe … fortsættes</cell><cell type="data-definition">den tyske forfatter J.W. v. Goethes (1749-1832) hovedværk Faust, hvis første del fra 1808, her i den sidste af Goethe selv besørgede udgave (Werke: vollständige Ausgabe letzter Hand, bind XII, 1828, s. 313), afsluttes: »(Ist fortzusetzen)«. Andel del udkom posthumt i 1833.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

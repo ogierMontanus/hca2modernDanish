@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Storks</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="storkene">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="storkene_modern.xml">moderniseret version</note>
+                                                       <note target="25_The-Storks.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>On the last house of a small village there stood a stork’s nest. The stork mothe...</incipit><idno type="image">Storkene_2022-03-14.png</idno><popularity>955</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Storks. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>uhygge</term><term>remser</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2022-07-27">added italics</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Storks">
+     <head type="main" rend="The Storks">The Storks</head>                <p rend="noIndent" xml:id="p_00001">On the last house of a small village there stood a stork’s nest. The stork mother sat in the nest with her four small storklets, who stuck out their heads with small black beaks, for they hadn’t turned red yet. On the ridge of a roof close by the stork father stood stiff and straight, he had pulled one leg up under his body to make things a bit uncomfortable for himself, since he was standing on guard. One would think he had been carved out of wood, so motionless did he stand; ‘it really adds a touch of class that my wife has a sentry beside her nest!’ he thought, ‘they can’t of course know that I am her husband, and are sure to think I’ve been commanded to stand here. It looks so dashing!’ and he kept on standing there on one leg.</p>
+     <p rend="firstIndent" xml:id="p_00002">Down in the street a whole crowd of children were playing, and when they saw the storks, one of the boldest boys, and then all of them, sang the old rhyme about the storks, but now they sang it as he remembered it:</p>
+     <lg xml:id="p_00003">
+          <l>Stork, stork spindle-shank</l>
+          <l>Fly home from the river bank!</l>
+          <l>In the nest your wife lies,</l>
+          <l>And four offspring likewise.</l>
+          <l>The first one’s to be hung,</l>
+          <l>The second stabbed and strung,</l>
+          <l>The third one’s to be burned,</l>
+          <l>The fourth one overturned!</l></lg>
+     <p rend="noIndent" xml:id="p_00004">‘Just listen to what the boys are singing!’ the small storklets said, ‘they said we’re to be hung and burned!’</p>
+     <p rend="firstIndent" xml:id="p_00005">‘Don’t take any notice of that!’ the stork mother said; ‘just don’t listen, and nothing will come of it.’</p>
+     <p rend="firstIndent" xml:id="p_00006">But the boys kept on singing, and they pointed their fingers at the storks; only one boy, his name was Peter, said that it was a shame to make fun of these creatures, and refused to take part. The stork mother also comforted her young; ‘don’t take any notice,’ she said, ‘just look at how calmly your father is standing, and on one leg what’s more!’</p>
+     <p rend="firstIndent" xml:id="p_00007">‘We’re so frightened!’ the storklets said, and pulled their heads deep down into the nest.</p>
+     <p rend="firstIndent" xml:id="p_00008">The next day, when the children gathered to play again, and they saw the stork, they started their song:</p>
+     <lg xml:id="p_00009">
+          <l rend="firstIndent">The first one’s to be hung,</l>
+          <l rend="firstIndent">The second’s to be burned!</l>
+     </lg>
+     <p rend="noIndent" xml:id="p_00010">‘Is that what’s going to happen to us?’ the storklets asked.</p>
+     <p rend="firstIndent" xml:id="p_00011">‘No, of course not!’ their mother replied, ‘you are going to learn to fly, I’m going to drill you! then we’ll go out onto the meadow and pay a visit to the frogs, they’ll bow down to us from the water, they’ll sing “Koax, koax!” and then we’ll eat them up, that’ll be most enjoyable!’</p>
+     <p rend="firstIndent" xml:id="p_00012">‘And what then?’ the storklets asked.</p>
+     <p rend="firstIndent" xml:id="p_00013">‘Then all the storks from the whole country get together and the autumn manoeuvre gets under way, and then one must be able to fly well, this is of great importance, for if you can’t fly, the general will stab you to death with his beak; so make sure you learn something when the drilling starts!’</p>
+     <p rend="firstIndent" xml:id="p_00014">‘But then we will be stabbed and strung, like the boys said! and listen, now they’re singing it again!’</p>
+     <p rend="firstIndent" xml:id="p_00015">‘Just listen to me and not to them,’ the stork mother said. ‘After the great manoeuvre we’ll fly to the warm countries, oh, so far away, over mountains and forests. We will fly to Egypt, where there are three-sided stone houses that end in a point up above the clouds, they are called pyramids and are older than any stork can imagine. There is a river that overflows, so that the land is turned into mud. We walk around in the mud and eat frogs.’</p>
+     <p rend="firstIndent" xml:id="p_00016">‘Oh!’ all the storklets said.</p>
+     <p rend="firstIndent" xml:id="p_00017">‘Yes, it’s so delightful! all you do is eat all day, and while we’re having such a grand time, there’s not a single green leaf on the trees in this country; it’s so cold here that the clouds freeze to bits and fall down in small white patches!’ it was snow she was talking about, but she couldn’t explain it more clearly.</p>
+     <p rend="firstIndent" xml:id="p_00018">‘Do the naughty boys freeze to bits too?’ the storklets asked.</p>
+     <p rend="firstIndent" xml:id="p_00019">‘No, they don’t freeze to bits! But they almost do and have to sit inside in the dark living room twiddling their thumbs; you on the other hand can fly around in a foreign land where there are flowers and warm sunshine!’</p>
+     <p rend="firstIndent" xml:id="p_00020">Some time had already passed, and the young storks were so big that they could stand up in the nest and gaze far and wide, and the stork father came every day with fair-sized frogs, small grass snakes and all the special stork treats he could find! Oh, it looked so amusing when he performed for them, laid his head back on his tail, clacked his beak as if it was a little rattle, and also told them stories, all of which came from the marshes.</p>
+     <p rend="firstIndent" xml:id="p_00021">‘Listen, now you must learn how to fly!’ the stork mother said one day, and then all the four storklets had to go out onto the roof ridge, oh how they teetered! how they tried to keep their balance with their wings, and almost fell down!</p>
+     <p rend="firstIndent" xml:id="p_00022">‘Just look at me!’ their mother said, ‘this is how you are to hold your head! this is how you are to place your legs! one two! one two! this is what is going to help you get on in the world!’ then she flew a short distance, and her young ones made a little, clumsy hop, bump! there they lay, for their bodies were quite heavy.</p>
+     <p rend="firstIndent" xml:id="p_00023">‘I don’t want to fly!’ one of the four said, and crept back into the nest, ‘I’m not interested in flying to the warm lands!’</p>
+     <p rend="firstIndent" xml:id="p_00024">‘So you prefer to freeze to death here when winter comes! are the boys to come and have you hung and strung and burned? I’ll call them now!’</p>
+     <p rend="firstIndent" xml:id="p_00025">‘Oh no!’ the storklet said, and jumped back out onto the roof like the others, by the third day they could fly a short way really well, and then they thought they could also sit and rest in the air; they tried this out, but bump! down they tumbled, so they had to start using their wings again. Now the boys came down the street and sang their song:</p>
+     <lg xml:id="p_00026">
+          <l>Stork, stork spindle-shank</l>
+     </lg>
+     <p rend="noIndent" xml:id="p_00027">‘How about flying down and pecking their eyes out?’ the storklets said.</p>
+     <p rend="firstIndent" xml:id="p_00028">‘No, don’t do that!’ their mother said, ‘just listen to me, that’s much more important! one, two three! now we fly to the right! one, two, three, now to the left round the chimney! – yes, very well done! the last wingbeat was so rightly and properly executed that you may all come with me to the marshes tomorrow! there well-mannered stork families come with their children, make sure I can see that mine are the most presentable, and that you hold your heads up high, that looks good and commands esteem!’</p>
+     <p rend="firstIndent" xml:id="p_00029">‘But aren’t we to take revenge on the naughty boys?’ the storklets asked.</p>
+     <p rend="firstIndent" xml:id="p_00030">‘Let them screech as much as they like! You’re going to fly up to the clouds, travel to the land of the pyramids, while they will have to freeze and not have a single green leaf or a sweet apple!’</p>
+     <p rend="firstIndent" xml:id="p_00031">‘Well, we want revenge!’ they whispered to each other, and then it was time for more drilling.</p>
+     <p rend="firstIndent" xml:id="p_00032">Of all the boys in the street none was worse at singing the mocking song that the one who had started it all, and he was quite small, he wasn’t more than six years old; the young storks though thought that he was a hundred years old, for he was so much bigger than their mother and father, and what did they know about how old children and big people could become. All their revenge was to be vent on this boy, he was the one who had started first, and he always kept on: the young storks were so annoyed, and the bigger they grew, the less they were prepared to put up with it; their mother finally had to promise them that they would get their revenge, but she wouldn’t take it until the last day they were here in this country.</p>
+     <p rend="firstIndent" xml:id="p_00033">‘We must first see how well you get on at the big manoeuvre! If you do badly, the general will stab you in the chest with his beak, and then the boys will have been right all the time, in one way at least! let’s just see!’</p>
+     <p rend="firstIndent" xml:id="p_00034">‘Yes, you will!’ the young storks said, and they took great pains, practised every day, and flew so lightly and elegantly that it was a joy to see.</p>
+     <p rend="firstIndent" xml:id="p_00035">Now autumn came, all the storks began to assemble to fly off to the warm lands while we have winter. Now that was a great manoeuvre! over forests and towns they had to fly so they could show how proficient they were, for it was a really long journey that lay ahead. The young storks performed so excellently that they were awarded Excellent with Frog and Snake. That was the best possible mark, and they could eat the frog and the snake, and they did so.</p>
+     <p rend="firstIndent" xml:id="p_00036">‘Now it’s time for revenge!’ they said.</p>
+     <p rend="firstIndent" xml:id="p_00037">‘Yes, indeed it is!’ the stork mother said. ‘What I’ve thought up is exactly right! I know where the pond is where all the small human children live until the stork comes and fetches them to their parents. The lovely small children lie sleeping and dreaming so sweetly, sweeter than they will ever dream again. All the parents want so much to have such a little child, and all children want to have a sister or a brother. Now we will fly to the pond and fetch one to each of the children who haven’t sung the nasty song and made fun of the storks, for those children aren’t to have any!’</p>
+     <p rend="firstIndent" xml:id="p_00038">‘But what about the boy who started the singing, the nasty, horrible boy!’ the young storks cried, ‘what are we to do to him?’</p>
+     <p rend="firstIndent" xml:id="p_00039">‘In the pond there lies a small dead child that has dreamt itself to death, we will take that child to him, and then he will have to cry, because we have brought him a dead younger brother, but what about the good boy, surely you’ve not forgotten him, the one who said: ‘it’s a shame to make fun of these creatures!’ we’ll take him both a brother and a sister, and as the boy’s name was Peter, all of you are also to be called Peter!’</p>
+     <p rend="firstIndent" xml:id="p_00040">And everything she said was done, and all the storks were called <hi rend="italic">Peter</hi> – and they still are.</p>
+</div>
+          </body>
+                         </text>
+                    </TEI>

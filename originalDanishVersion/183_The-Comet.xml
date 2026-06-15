@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Comet</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="kometen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="kometen_modern.xml">moderniseret version</note>
+                                                       <note target="183_The-Comet.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>And the comet came, gleaming with its core of fire and threatening with its lash...</incipit><idno type="image">Kometen_hca_ill_0149.png</idno><popularity>874</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Comet. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>teknik og fremskridt</term><term>livsforløb</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-31" who="NHB">formatted</change><change who="NHB" when="2022-11-09">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Comet">
+               <head type="main" rend="The Comet">The Comet</head>                <p rend="noIndent" xml:id="p_00001">And the comet came, gleaming with its core of fire and threatening with its lash; it was gazed at from the sumptuous palace, the humble home, by the crowd in the street and the lone walker across the pathless heath; with each gazer having private thoughts about it.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘Come and look at the sign of the heavens! come and see the wonderful sight!’ people said, and everyone hurried out to take a look.</p>
+               <p rend="firstIndent" xml:id="p_00003">But inside one house a little boy and his mother sat; the tallow candle was lit, and the mother suspected there was a wood shaving in the candle – the tallow was crinkled and curled – and she thought this meant that the boy would soon die, for the wood shaving pointed towards him.</p>
+               <p rend="firstIndent" xml:id="p_00004">This was an old superstition that she believed in.</p>
+               <p rend="firstIndent" xml:id="p_00005">The little boy was in fact to live many years on the earth, to live and see the comet when, after more than three score years, it returned.</p>
+               <p rend="firstIndent" xml:id="p_00006">The little boy didn’t see the wood shaving in the candle, nor did he think anything much about the comet the first time in his life it shone brightly up in the sky. He sat with a chipped basin in front of him; in it there was whisked soapy water, and down into it he dipped the bowl of a small clay pipe, then placed the stem to his lips and blew soap bubbles, large and small; they quivered and floated with the loveliest colours that changed from yellow to red, mauve and blue, and then turned as green as the leaves in the forest when the sun shines through them.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘May God grant you as many years on earth as you blow bubbles!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘So many, so many!’ the little boy said. ‘The soapy water can never be used up!’ and he blew bubble after bubble.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘<hi rend="italic">There</hi> flies a year! <hi rend="italic">there</hi> flies a year, see how they fly!’ he said at each bubble that came free of the pipe and flew off. A couple of them flew right into his eyes; they smarted, stung, and brought tears to his eyes. In each bubble he saw a vision of the future, gleaming, shimmering.</p>
+               <p rend="firstIndent" xml:id="p_00010">‘Now you can see the comet!’ his neighbours called out. ‘Come on out, don’t sit inside!’</p>
+               <p rend="firstIndent" xml:id="p_00011">And the mother took the little boy by the hand; he had to lay down the clay pipe, leave his playing with the soap bubbles; the comet had arrived.</p>
+               <p rend="firstIndent" xml:id="p_00012">And the little boy saw the bright ball of fire with its gleaming tail; some people said that it was six feet long, others that it was millions of feet; people see things so differently.</p>
+               <p rend="firstIndent" xml:id="p_00013">‘Children and grandchildren can have died before it shows itself again!’ people said.</p>
+               <p rend="firstIndent" xml:id="p_00014">Most of those who said that were also dead and gone when it returned, but the little boy with the wood shaving in the candle and a mother who believed ‘He will die soon!’ was still alive, was old and white-haired. ‘White hairs are the flowers of old age!’ the saying goes, and he had many such flowers; he was now an old schoolmaster.</p>
+               <p rend="firstIndent" xml:id="p_00015">The school children said that he was so wise and learned, knew his history, geography and all that one could learn about the heavenly bodies.</p>
+               <p rend="firstIndent" xml:id="p_00016">‘Everything returns!’ he said, ‘just make a note of people and events and you will discover that they always return, in some other dress, in some other country.’</p>
+               <p rend="firstIndent" xml:id="p_00017">And the schoolmaster had just told them about <hi rend="italic">William Tell</hi>, who had to shoot an apple off his son’s head, but who, before he let loose the arrow, hid a second one next to his chest, to dispatch it into the breast of the evil <hi rend="italic">Gessler</hi>. This had taken place in <hi rend="italic">Switzerland</hi>, but many years earlier the same happened in <hi rend="italic">Denmark</hi> with <hi rend="italic">Palnatoke</hi>; he also had to shoot an apple off his son’s head and, like <hi rend="italic">Tell</hi>, he hid an arrow to be able to take revenge; and more than a thousand years earlier, the same story had taken place in <hi rend="italic">Egypt</hi> and had been written down; things return just like comets do, they shoot off, are gone and later return.</p>
+               <p rend="firstIndent" xml:id="p_00018">And he spoke to them about the <hi rend="italic">comet</hi> that was on its way, the <hi rend="italic">comet</hi> he had seen as a little boy. The schoolmaster knew all about the heavenly bodies, thought about them, but did not, because of that, forget history and geography.</p>
+               <p rend="firstIndent" xml:id="p_00019">He had laid out his garden in the shape of a map of Denmark. Here there were plants and flowers that grew where they best belong in the various parts of the country. ‘Fetch me peas!’ he said, and then one went to the flower bed that represented <hi rend="italic">Lolland</hi>. ‘Fetch me buckwheat!’ and then one went to <hi rend="italic">Langeland</hi>. The lovely blue gentian and bog myrtle could be found up at <hi rend="italic">Skagen</hi>, the shiny holly over near <hi rend="italic">Silkeborg</hi>. The towns themselves were indicated by pedestals. Here stood St. <hi rend="italic">Knud</hi> with the dragon that symbolised <hi rend="italic">Odense</hi>. <hi rend="italic">Absalon</hi> with his crozier meant <hi rend="italic">Sorø</hi>; the small vessel with oars indicated that here lay the town of <hi rend="italic">Aarhus</hi>. One learnt one’s map of Denmark well from the schoolmaster’s garden; one had to learn it from him first, of course, but that was so enjoyable.</p>
+               <p rend="firstIndent" xml:id="p_00020">Now the comet would soon be here, and he told them what people in the old days, when it had last been here, had said and expressed an opinion about. ‘The comet year is a good year for wine,’ he said, ‘one can dilute the wine with water and no one can tell the difference. Wine merchants are supposed to be extremely fond of comet years.’</p>
+               <p rend="firstIndent" xml:id="p_00021">The sky was full of clouds for a whole fortnight; the comet could not be seen, although it was there.</p>
+               <p rend="firstIndent" xml:id="p_00022">The old schoolmaster sat in his small room close to the schoolroom. The grandfather clock from his parents’ time stood in the corner, the heavy lead weights neither rose nor sank, the pendulum did not move; the small cuckoo that formerly used to come out and call the hour had for several years sat silent behind its shut door; everything was silent and still inside it, the clock no longer worked. But the old piano next to it, also from his parents’ time, still had life inside it; the strings, even if they were a little hoarse, could play melodies of a whole lifetime. The old man then recalled so many things, both joyful and sad, covering the span of years from when he as a little boy had seen the comet until now that it had returned. He remembered what his mother had said about the wood shaving in the candle, he remembered the lovely soap bubbles he had blown; one for each year of his life, he had said, how gleaming and colourful they were! He saw in them everything that was delightful and pleasing: children’s games and the eagerness of youth, the whole wide world open in sunshine, and he was determined to go out into it! they were <hi rend="italic">bubbles of the future</hi>. As an old man he sensed melodies from a past age coming from the piano’s strings: <hi rend="italic">bubbles of memory</hi> with the tints and tinges of recollections; he could hear his grandmother’s knitting song:</p>
+               <lg xml:id="p_00023">
+                    <l>‘No amazon, be sure of it,</l>
+                    <l>Was first to stockings ever knit.’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00024">Then he heard the song that the old maid in the house had sung to him as a child:</p>
+               <lg xml:id="p_00025">
+                    <l>‘So many dangers lurk here</l>
+                    <l>on earth with all its lands,</l>
+                    <l>for one who still so young is</l>
+                    <l>and little understands.’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00026">Now he heard melodies from his first ball, a minuet and a rustic dance; then came soft, mournful notes that brought tears to the old man’s eyes, now a war march struck up, then a hymn, then cheerful tunes, one bubble after the other, as when he had blown them from soapy water as a little boy.</p>
+               <p rend="firstIndent" xml:id="p_00027">His eyes were fixed on the window, a cloud out there in the sky drifted away, and in the clear air he saw the <hi rend="italic">comet</hi>, the gleaming core, its shimmering veil of mist.</p>
+               <p rend="firstIndent" xml:id="p_00028">It was as if he had seen it only an evening before, and yet there lay an entire rich lifetime between that time and now; then he had been a child and gazed ‘<hi rend="italic">forwards’</hi> in the bubbles, now the bubbles caused him to gaze ‘<hi rend="italic">backwards’</hi>. He felt his childlike mind and faith inside him, his eyes gleamed, his hand sank down onto the keys; there was a sound as if a string had snapped.</p>
+               <p rend="firstIndent" xml:id="p_00029">‘Come on out and see, the comet’s here!’ his neighbours called out. ‘The sky is so wonderfully clear! Come on out and take a proper look!’</p>
+               <p rend="firstIndent" xml:id="p_00030">The old schoolmaster did not answer, he had left to take his own proper look; his soul was off on a far larger course, in a far vaster space than that through which the <hi rend="italic">comet</hi> flies. And <hi rend="italic">it</hi> was seen once more from the sumptuous palace, from the humble home, by the crowd in the street and by the lone walker across the pathless heath. <hi rend="italic">His</hi> soul was seen by God and by those dear ones who had gone before, those he longed for.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

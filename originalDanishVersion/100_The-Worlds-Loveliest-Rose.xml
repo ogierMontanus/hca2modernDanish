@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The World’s Loveliest Rose</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="verdens-deiligste-rose">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="verdens-deiligste-rose_modern.xml">moderniseret version</note>
+                                                       <note target="100_The-Worlds-Loveliest-Rose.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a mighty queen in whose garden the loveliest flowers for each sea...</incipit><idno type="image">Verdens-deiligste-Rose_02_2022-03-14.png</idno><idno type="image">Deilig-01_2022-03-14.png</idno><popularity>941</popularity><cite>&lt;p&gt;Hans Christian Andersen: The World’s Loveliest Rose. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-11" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-11">formatting</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The World’s Loveliest Rose">
+               <head type="main" rend="The World’s Loveliest Rose">The World’s Loveliest Rose</head>                <p rend="noIndent" xml:id="p_00001">There was once a mighty queen in whose garden the loveliest flowers for each season of the year and every country of the world were to be found, but it was the roses that she particularly loved and this was why she had a vast number of different varieties, from the wild dog rose with its apple-scented green leaves to the most beautiful rose of Provence, and they grew up the palace walls, twined round the columns and the window-sills, found their way into the passages and along the ceilings of all the rooms. And all the roses differed in fragrance, form and colour.</p>
+          <p rend="firstIndent" xml:id="p_00002">But sorrow and sadness dwelt within; the queen lay on her sickbed and the physicians declared that soon she would die.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘There is, though, one deliverance for her!’ the wisest amongst them said. ‘Bring her the world’s loveliest rose, that which is the expression of the highest and purest love; if her eyes catch sight of it before they break, she will not die.’</p>
+          <p rend="firstIndent" xml:id="p_00004">And young and old came with roses from round about, the loveliest that bloom in every garden, but it was none of these; the flower had to be fetched from the very Garden of Love; but which rose there was the expression of the highest, the purest love?</p>
+          <p rend="firstIndent" xml:id="p_00005">And the bards sang of the world’s loveliest rose, each naming his own. And messengers went throughout the land to every heart that beat in love, messengers went to people of every rank and age.</p>
+          <p rend="firstIndent" xml:id="p_00006">‘No one has yet named the flower,’ the wise man said. ‘No one has pointed to the spot where it came forth in all its glory. It is not the roses from Romeo and Juliet’s coffin or from Valborg’s grave, although the scent of those roses will always permeate legends and songs; it is not the roses that burst forth from Winkelried’s blood-stained lances, from the blood that sacredly wells out of the hero’s breast when dying for his fatherland, although no death is more sweet, no rose redder than the blood that then flows. Nor is it the miraculous flower for whose care the man for years and days, in long, sleepless nights, in the lonely room, devotes the prime of his life – the magic rose of science!’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘I know where it blooms,’ a blissful mother said who came with her infant child to the queen’s sickbed. ‘I know where the world’s loveliest rose is to be found! The rose that is the expression of the highest and purest love. It blooms on the blushing cheeks of my sweet child when, invigorated by sleep, it opens its eyes and smiles at me with all its love!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘That rose is indeed lovely, but one yet lovelier exists!’ the wise man said.</p>
+          <p rend="firstIndent" xml:id="p_00009">‘Yes, far more beautiful!’ one of the women said. ‘I have seen it, a more sublime, holy rose does not flower anywhere, but it was pale, like the leaves of the tea rose; it was on the queen’s cheeks that I saw it; she had taken off her royal crown and herself walked in the long sorrowful night with her sick child, cried over it, kissed it and prayed a prayer to God for it, such as a mother prays in her hour of tribulation!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Holy and marvellous in its power is the white rose of grief, and yet it is not that one either!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘No, the world’s loveliest rose I saw before the Lord’s altar,’ the devout old bishop said. ‘I saw it gleam as when the face of an angel showed itself. The young girls went to the communion table, renewed the covenant of their baptism, and roses blushed and roses faded on their fresh cheeks; a young girl stood there; she gazed with the full purity and love of her entire soul up towards her God; it was the expression of the purest and the highest love!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘May it too be blessed!’ the wise man said, ‘though not one of you has yet named the world’s loveliest rose.’</p>
+          <p rend="firstIndent" xml:id="p_00013">Then a child entered the room, the queen’s young son; tears filled his eyes and covered his cheeks; he was carrying a large, open book, with a binding of velvet and large silver clasps.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Mother,’ the young boy said. ‘Oh, just listen to what I have read!’ and the child sat down beside the bed and read from the book about the one who consigned himself to death on the cross to save mankind, even those generations as yet unborn. ‘Greater love does not exist!’</p>
+          <p rend="firstIndent" xml:id="p_00015">And a rosy sheen passed over the queen’s cheeks, her eyes grew so large, so clear, for she saw the world’s loveliest rose rise from the leaves of the book, the image of the one that sprang up from Christ’s blood on the cross.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘I see it!’ she said. ‘No one ever dies who sees that rose, the loveliest rose on earth!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

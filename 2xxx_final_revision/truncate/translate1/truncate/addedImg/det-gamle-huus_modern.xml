@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Det gamle Hus</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Old House« i A Christmas Greting to my English Friends, der udkom i december 1847. Trykt første gang på dansk i Nye Eventyr. Andet Bind. Anden Samling, som udkom den 4. marts 1848.<br/>
+BFN 530/II,143-150/VII,120-122.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="det-gamle-huus"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change><change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="det-gamle-huus">
+<pb n="424"/><head type="main">Det gamle hus</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var omme i gaden et gammelt, gammelt hus. Det var næsten tre hundrede år. Det kunne man læse sig til på bjælken hvor årstallet var skåret ud tilligemed tulipaner og humleranker. Der stod hele vers bogstaverede som i gamle dage, og over hvert vindue var der i bjælken snittet et ansigt som vrængede. Den ene etage gik et langt stykke ud over den anden, og lige under taget var en bly-rende med dragehoved; regnvandet skulle løbe ud af gabet, men det løb ud af maven, for der var hul på renden.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Alle de andre huse i gaden var så nye og så nette med store ruder og glatte vægge. Man kunne nok se at de ville ikke have noget at gøre med det gamle hus. De tænkte nok: »Hvor længe skal det skrummel stå <seg target="txtcmnt-424-01"><!--DATA-TERM: til Spektakel--><!--DATA-DEFINITION: til spot og spe.-->til spektakel</seg> her i gaden? Så løber karnappen sådan ud at ingen fra vore vinduer kan se hvad der sker i den kant. Trappen er så bred som til et slot og så høj som til et kirketårn. Jerngelænderet ser jo ud som døren til en gammel <seg target="txtcmnt-424-02"><!--DATA-TERM: Begravelse--><!--DATA-DEFINITION: gravkammer, gravmæle.-->begravelse</seg>, og så har det messingknapper. Det er <seg target="txtcmnt-424-03"><!--DATA-TERM: flaut--><!--DATA-DEFINITION: smagløst.-->flovt</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">Lige over for i gaden var også nye og nette huse, og de tænkte som de andre, men ved vinduet her sad en lille dreng med friske, røde kinder, med klare strålende øjne. Han syntes rigtignok bedst om det gamle hus, og det både i solskin og i måneskin. Og så han over på muren hvor kalken var gået af, så kunne han sidde og <seg target="txtcmnt-424-04"><!--DATA-TERM: udfinde--><!--DATA-DEFINITION: finde på, udtænke.-->udfinde</seg> dér alle de underligste billeder, akkurat hvorledes gaden havde set ud før med trapper, karnapper og spidse gavle. Han kunne se soldater med <seg target="txtcmnt-424-05"><!--DATA-TERM: Hellebard(er)--><!--DATA-DEFINITION: spydøkse.-->hellebarder</seg>, og tagrender der løb om som drager og <seg target="txtcmnt-424-06"><!--DATA-TERM: Lindorm(e)--><!--DATA-DEFINITION: ifølge folketroen en kæmpestor, menneskeædende slange eller drage.-->lindorme</seg> – det var rigtig nok et hus at se på! Og derovre boede en gammel mand som gik i <seg target="txtcmnt-424-07"><!--DATA-TERM: Skjægs Buxer--><!--DATA-DEFINITION: bukser af en slags langhåret uldfløjl.-->skægsbukser</seg>, havde en <seg target="txtcmnt-424-08"><!--DATA-TERM: Kjole--><!--DATA-DEFINITION: mellemting mellem en moderne jakke og en frakke.-->kjole</seg> med store messingknapper og en paryk som man kunne se var en virkelig paryk. Hver morgen kom der til ham en gammel karl som ryddede op og gik ærinder, ellers var den <pb n="425"/>gamle mand i de skægsbukser ganske alene i det gamle hus. <seg target="txtcmnt-425-01"><!--DATA-TERM: imellem--><!--DATA-DEFINITION: indimellem.-->Imellem</seg> kom han hen til vinduesruden og så ud, og den lille dreng nikkede til ham, og den gamle mand nikkede igen, og så var de bekendte, og så var de venner skønt de aldrig havde talt med hinanden, men det kunne da også være det samme.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Den lille dreng hørte sine forældre sige: »Den gamle mand derovre har det meget godt, men han er så skrækkelig ene.«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Næste søndag tog den lille dreng og svøbte noget ind i et stykke papir, gik ned i porten, og da han som gik ærinder kom forbi, sagde han til ham: »Hør! Vil du bringe den gamle mand derovre dette fra mig? Jeg har to tinsoldater, dette er den ene. Han skal have den, for jeg ved at han er så skrækkelig ene.«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Og den gamle karl så ganske fornøjet ud, nikkede og bar tinsoldaten over i det gamle hus. Siden kom der bud om den lille dreng ikke havde lyst til selv at komme over at gøre besøg, og det fik han lov til af sine forældre, og så kom han over i det gamle hus.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Og messingknapperne på trappegelænderet skinnede meget stærkere end ellers, man skulle tro at de var poleret i anledning af besøget, og det var som om de udskårne trompetere – for der var udskåret i døren trompetere som stod i tulipanerne – blæste af alle kræfter, kinderne så meget tykkere ud end før. Jo, de blæste: »Tratteratra! Den lille dreng kommer! Tratteratra!« – og så gik døren op. Hele gangen var med gamle portrætter, riddere i <seg target="txtcmnt-425-02"><!--DATA-TERM: Harnisk--><!--DATA-DEFINITION: rustning.-->harnisk</seg> og fruer i silkekjole. Og harniskerne raslede, og silkekjolerne raslede! Og så kom der en trappe, den gik et stort stykke opad og et lille stykke ned – og så var man på en altan der rigtignok var meget skrøbelig med store huller og lange sprækker. Men der voksede græs og blade op af dem allesammen, for hele altanen udenfor, gården og muren var med så meget grønt det så ud som en have, men det var kun en altan. Her stod gamle urtepotter som havde ansigt og æselører. Blomsterne de voksede nu ligesom de ville. I den ene potte løb det over alle bredder med nelliker, det vil sige med det grønne skud ved skud, og ganske tydeligt sagde det: »Luften har klappet mig, solen har kysset mig og lovet mig en lille blomst på søndag, en lille blomst på søndag!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Og så kom de ind i et kammer hvor væggene var med svinelædersbetræk, og der var trykt guldblomster på.</p>
+
+<pb n="426"/><lg xml:id="p_00009">
+<l>»Forgyldning forgår,</l>
+<l>men svinelæder består!«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00010">sagde væggene.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Og der stod lænestole så højryggede, så udskårne, og med arme på begge sider. »Sid ned! Sid ned!« sagde de. »Uh, hvor det knager i mig! Nu får jeg nok gigt ligesom det gamle skab. Gigt i ryggen, uh!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Og så kom den lille dreng ind i stuen hvor karnappen var, og hvor den gamle mand sad.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Tak for tinsoldaten, min lille ven,« sagde den gamle mand. »Og tak fordi du kommer over til mig.«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Tak, tak!« eller »knak, knak!« sagde det i alle møblerne. De var så mange at de næsten stod hverandre i vejen for at se den lille dreng.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og midt på væggen hang et <seg target="txtcmnt-426-01"><!--DATA-TERM: Skilderi--><!--DATA-DEFINITION: maleri.-->skilderi</seg> med en dejlig dame, så ung, så glad, men ganske klædt på som i gamle dage med pudder i håret og klæder som stod stive. Hun sagde hverken »tak« eller »knak«, men så med sine milde øjne på den lille dreng som straks spurgte den gamle mand: »Hvor har du fået hende?«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Omme hos marskandiseren,« sagde den gamle mand. »Der hænger så mange billeder. Ingen kender eller bryder sig om dem, for de er begravet allesammen, men i gamle dage har jeg kendt hende, og nu er hun død og borte i et halvhundrede år.«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Og under skilderiet hang bag glas en buket visne blomster. De var vist også et halvhundrede år, så gamle så de ud. Og <seg target="txtcmnt-426-02"><!--DATA-TERM: Perpendikelen--><!--DATA-DEFINITION: pendulet.-->perpendiklen</seg> på det store ur gik frem og tilbage, og viseren drejede, og alting i stuen blev endnu ældre, men det mærkede de ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»De siger hjemme,« sagde den lille dreng, »at du er så skrækkelig ene!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»O,« sagde han, »de gamle tanker med hvad de kan føre med sig, kommer og besøge mig, og nu kommer du jo også! – Jeg har det meget godt.«</p>
+
+<p rend="firstIndent" xml:id="p_00020">Og så tog han ned af hylden en bog med billeder; der var hele lange optog, de forunderligste kareter som man ikke ser dem nu til dags, soldater som <!--DATA-TERM: Kløverknægt--><!--DATA-DEFINITION: klørknægt.-->klør knægt, og borgere med vajende faner. Skrædderne havde deres med en saks som blev holdt af to løver, og skomagerne deres uden støvle men med en ørn som havde to hoveder, for skomagerne må have <pb n="427"/>alting således at de kan sige: Det er et par. – Jo det var en billedbog!</p>
+
+<p rend="firstIndent" xml:id="p_00021">Og den gamle mand gik ind i den anden stue for at hente syltetøj, æbler og nødder – der var rigtig nok velsignet ovre i det gamle hus.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Jeg kan ikke holde det ud!« sagde tinsoldaten som stod på <seg target="txtcmnt-427-01"><!--DATA-TERM: Dragkiste(n)--><!--DATA-DEFINITION: kiste eller kommode med store skuffer.-->dragkisten</seg>, »her er så ensomt og så sørgeligt. Nej, når man har været i familieliv, kan man ikke vænne sig til dette her! – Jeg kan ikke holde det ud! Den hele dag er så lang, og aftenen er endnu længere. Her er slet ikke som ovre hos dig hvor din far og mor talte så fornøjet, og hvor du og alle I søde børn gjorde sådan et dejligt spektakel. Nej, hvor den gamle mand har det ensomt! Tror du han får kys? Tror du han får milde øjne eller juletræ? Han får ikke noget uden begravelse! – Jeg kan ikke holde det ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Du må ikke tage det så sørgeligt,« sagde den lille dreng, »jeg synes her er så dejligt, og alle de gamle tanker med hvad de kunne føre med sig, kommer jo og gør besøg!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Ja, dem ser jeg ikke, og dem kender jeg ikke,« sagde tinsoldaten, »jeg kan ikke holde det ud!«</p>
+<p rend="firstIndent" xml:id="p_00025">»Det må du!« sagde den lille dreng.</p>
+
+<p rend="firstIndent" xml:id="p_00026">Og den gamle mand kom med det mest fornøjede ansigt, det dejligste syltetøj, æbler og nødder, og så tænkte den lille dreng ikke på tinsoldaten.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Lykkelig og fornøjet kom den lille dreng hjem, og der gik uger, og der gik dage, og der blev nikket til det gamle hus og fra det gamle hus, og så kom den lille dreng derover igen.</p>
+
+<p rend="firstIndent" xml:id="p_00028">Og de udskårne trompetere blæste: »Tratteratra! Der er den lille dreng! Tratteratra!« og sværd og rustning på ridderbillederne raslede, og silkekjolerne raslede, svinelæderet talte, og de gamle stole havde gigt i ryggen: »Av!« Det var akkurat ligesom første gang, for derovre var den ene dag og time ligesom den anden.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Jeg kan ikke holde det ud!« sagde tinsoldaten, »jeg har grædt tin! Her er alt for sørgeligt! Lad mig hellere gå i krig og miste arme og ben! Det er dog en forandring. Jeg kan ikke holde det ud! – Nu ved jeg hvad det er at have besøg af sine gamle tanker med hvad de kunne føre med. Jeg har haft besøg af mine, og du kan tro det er ingen fornøjelse i længden. Jeg var til sidst nær ved at springe ned af dragkisten. Alle I derovre i huset så jeg så tydeligt som om I virkeligt var her. Det var igen den søndag morgen som du ved nok! Alle I børn <pb n="428"/>stod foran bordet og sang eders salme som I synger den hver morgen. I stod andægtige med foldede hænder, og far og mor var lige så højtidelige, og så gik døren op, og den lille søster Maria, som ikke er to år endnu, og som altid danser når hun hører musik eller sang, hvad slags det endogså er, blev sat ind – hun skulle det nu ikke – og så begyndte hun at danse, men kunne ikke komme i takt, for tonerne var så lange. Og så stod hun først på det ene ben og hældede hovedet helt forover, og så på det andet ben og hældede hovedet helt forover, men det ville ikke slå til. I stod meget alvorlige allesammen skønt det var nok svært, men jeg lo indvendig, og derfor faldt jeg ned af bordet og fik en bule som jeg endnu går med, for det var ikke ret af mig at le. Men det hele går nu igen indeni mig, og alt hvad jeg sådan har oplevet; og det er nok de gamle tanker med hvad de kunne føre med. Sig mig, om I synger endnu om søndagen? Sig mig lidt om den lille Maria! Og hvordan har min kammerat det, den anden tinsoldat? Ja, han er rigtignok lykkelig! – Jeg kan ikke holde det ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Du er foræret bort,« sagde den lille dreng, »du må blive. Kan du ikke indse det?«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Og den gamle mand kom med en skuffe hvori der var meget at se, både »<seg target="txtcmnt-428-01"><!--DATA-TERM: Kridthuus--><!--DATA-DEFINITION: blikbøsse med to rum til opbevaring af kridt til regnskabsføring og småpenge.-->kridthus</seg>«, og »<seg target="txtcmnt-428-02"><!--DATA-TERM: Balsombøsse--><!--DATA-DEFINITION: (metal)æske med vellugtende parfume e.l.-->balsambøsse</seg>« og gamle kort så store og så forgyldte som man aldrig ser dem nu. Og der blev åbnet flere skuffer, og klaveret blev åbnet. Det var med landskab indvendigt på låget, og det var så hæst da den gamle mand spillede på det, og så nynnede han en vise.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Ja, den kunne hun synge!« sagde han, og så nikkede han til portrættet som han havde købt hos marskandiseren, og den gamle mands øjne de skinnede så klare.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Jeg vil i krig! Jeg vil i krig!« råbte tinsoldaten så højt han kunne og styrtede sig lige ned på gulvet.</p>
+
+<p rend="firstIndent" xml:id="p_00034">Ja, hvor blev han af? Den gamle mand søgte, den lille dreng søgte, borte var han, og <seg target="txtcmnt-428-03"><!--DATA-TERM: borte blev han--><!--DATA-DEFINITION: borte forblev han.-->borte blev han</seg>. »Jeg finder ham nok,« sagde den gamle, men han fandt ham aldrig; gulvet var alt for åbent og hullet – tinsoldaten var faldet gennem en sprække, og der lå han i åben begravelse.</p>
+
+<p rend="firstIndent" xml:id="p_00035">Og den dag gik, og den lille dreng kom hjem, og ugen gik, og der gik flere uger. Vinduerne var ganske frosne; den lille dreng måtte sidde og ånde på dem for at få et kighul over til det gamle hus, og der var sneen føget ind i alle <pb n="429"/>snirkler og indskrifter. Den lå helt op over trappen ligesom om der var ingen hjemme, og der var heller ingen hjemme, den gamle mand var død!</p>
+
+<p rend="firstIndent" xml:id="p_00036">Om aftenen holdt en vogn udenfor, og ned i den bar man ham i hans kiste. Han skulle ud at ligge på landet i sin begravelse. Der kørte han nu, men ingen fulgte, alle hans venner var jo døde. Og den lille dreng kyssede på fingeren efter kisten da den kørte.</p>
+
+<p rend="firstIndent" xml:id="p_00037">Nogle dage efter blev der auktion på det gamle hus, og den lille dreng så fra sit vindue hvor man bar bort: De gamle riddere og de gamle damer, urtepotterne med lange ører, de gamle stole og de gamle skabe, noget kom her og noget kom der. Portrættet af hende som var fundet hos marskandiseren, kom til marskandiseren igen, og der hang det altid, for ingen kendte hende mere, ingen brød sig om det gamle billede.</p>
+
+<p rend="firstIndent" xml:id="p_00038">I foråret rev man huset selv ned, for det var et skrummel, sagde folk. Man kunne se fra gaden lige ind i stuen til det svineskindsbetræk som blev flænget og revet. Og det grønne om altanen hang ganske vildsomt om de faldende bjælker. – Og så blev der ryddet op.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Det hjalp!« sagde nabohusene.</p>
+<graphic type="blank"/>
+<p rend="noIndent" xml:id="p_00040">Og der blev bygget et dejligt hus med store vinduer og hvide, glatte mure, men foran hvor egentligt det gamle hus havde stået, plantedes en lille have, og op af naboens mure voksede ville vinranker. Foran haven kom et stort jerngitter med jernport, det så stadseligt ud, folk stod stille og kiggede derind. Og spurvene hang sig i snesevis på vinrankerne, snakkede i munden på hverandre så godt de kunne, men det var ikke om det gamle hus, for det kunne de ikke huske. Der var gået så mange år at den lille dreng var vokset op til en hel mand, ja, en dygtig mand som hans forældre havde fornøjelse af, og han var lige blevet gift og med sin lille kone flyttet ind i huset her hvor haven var. Og han stod hos hende dér idet hun plantede en markblomst som hun fandt så yndig. Hun plantede den med sin lille hånd og klappede jorden til med fingrene. – Av! Hvad var det? Hun stak sig. Der sad noget spidst lige op af den bløde jord.</p>
+
+<p rend="firstIndent" xml:id="p_00041">Det var – ja tænk! Det var tinsoldaten, ham som var blevet borte oppe hos den gamle mand og var rumlet og tumlet mellem tømmer og grus og til sidst havde ligget mange år i jorden.</p>
+
+<pb n="430"/>
+
+<pb n="431"/><p rend="firstIndent" xml:id="p_00042">Og den unge kone tørrede soldaten, først med et grønt blad og så med sit fine lommetørklæde, det havde sådan en dejlig lugt! Og det var for tinsoldaten ligesom om den vågnede op af en dvale.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Lad mig se ham!« sagde den unge mand, lo og rystede så med hovedet. »Ja, ham kan det nu ikke være, men han husker mig på en historie med en tinsoldat jeg havde da jeg var en lille dreng!« og så fortalte han sin kone om det gamle hus og den gamle mand og om tinsoldaten han sendte over til ham fordi han var så skrækkelig ene, og han fortalte det så akkurat som det virkelig havde været så at den unge kone fik tårer i øjnene over det gamle hus og den gamle mand.</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Det kan dog være at det er den samme tinsoldat!« sagde hun, »jeg vil gemme den og huske på alt hvad du har fortalt mig, men den gamle mands grav må du vise mig.«</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Ja, den ved jeg ikke,« sagde han, »og ingen ved den! Alle hans venner var døde, ingen passede den, og jeg var jo en lille dreng.«</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Hvor han må have været skrækkeligt ene!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Skrækkeligt ene!« sagde tinsoldaten, »men dejligt er det ikke at blive glemt!«</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Dejligt!« råbte noget tæt ved, men ingen uden tinsoldaten så at det var en lap af det svinelædersbetræk. Det var uden al forgyldning, det så ud som våd jord, men en mening havde det, og den sagde det:</p>
+
+<lg xml:id="p_00049">
+<l>»Forgyldning forgår,</l>
+<l>men svinelæder består.«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00050">Dog det troede tinsoldaten ikke.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="det-gamle-huus">
+<head type="section-comments">Det gamle Hus</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Old House« i A Christmas Greting to my English Friends, der udkom i december 1847. Trykt første gang på dansk i Nye Eventyr. Andet Bind. Anden Samling, som udkom den 4. marts 1848.<br/>
+BFN 530/II,143-150/VII,120-122.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">424,14</cell><cell type="deviation">»hvor &lt; hvor</cell></row>
+<row><cell type="position">426,5</cell><cell type="deviation">de. &lt; de</cell></row>
+<row><cell type="position">426,10</cell><cell type="deviation">Ven!« sagde &lt; Ven! »sagde</cell></row>
+<row><cell type="position">426,31</cell><cell type="deviation">»at &lt; at</cell></row>
+<row><cell type="position">426,39</cell><cell type="deviation">vajende &lt; vejende</cell></row>
+<row><cell type="position">427,28</cell><cell type="deviation">Trompetere &lt; Trompeter</cell></row>
+<row><cell type="position">428,23</cell><cell type="deviation">»Kridthus &lt; Kridthus</cell></row>
+<row><cell type="position">429,37</cell><cell type="deviation">Jord. &lt; Jord.«</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">424</cell><row xml:id="txtcmnt-424-01"><cell type="data-term">til Spektakel</cell><cell type="data-definition">til spot og spe.</cell></row><row xml:id="txtcmnt-424-02"><cell type="data-term">Begravelse</cell><cell type="data-definition">gravkammer, gravmæle.</cell></row><row xml:id="txtcmnt-424-03"><cell type="data-term">flaut</cell><cell type="data-definition">smagløst.</cell></row><row xml:id="txtcmnt-424-04"><cell type="data-term">udfinde</cell><cell type="data-definition">finde på, udtænke.</cell></row><row xml:id="txtcmnt-424-05"><cell type="data-term">Hellebard(er)</cell><cell type="data-definition">spydøkse.</cell></row><row xml:id="txtcmnt-424-06"><cell type="data-term">Lindorm(e)</cell><cell type="data-definition">ifølge folketroen en kæmpestor, menneskeædende slange eller drage.</cell></row><row xml:id="txtcmnt-424-07"><cell type="data-term">Skægs Buxer</cell><cell type="data-definition">bukser af en slags langhåret uldfløjl.</cell></row><row xml:id="txtcmnt-424-08"><cell type="data-term">Kjole</cell><cell type="data-definition">mellemting mellem en moderne jakke og en frakke.</cell></row>
+<cell type="page">425</cell><row xml:id="txtcmnt-425-01"><cell type="data-term">imellem</cell><cell type="data-definition">indimellem.</cell></row><row xml:id="txtcmnt-425-02"><cell type="data-term">Harnisk</cell><cell type="data-definition">rustning.</cell></row>
+<cell type="page">426</cell><row xml:id="txtcmnt-426-01"><cell type="data-term">Skilderi</cell><cell type="data-definition">maleri.</cell></row><row xml:id="txtcmnt-426-02"><cell type="data-term">Perpendikelen</cell><cell type="data-definition">pendulet.</cell></row><row xml:id="txtcmnt-426-03"><cell type="data-term">Kløverknægt</cell><cell type="data-definition">klørknægt.</cell></row>
+<cell type="page">427</cell><row xml:id="txtcmnt-427-01"><cell type="data-term">Dragkiste(n)</cell><cell type="data-definition">kiste eller kommode med store skuffer.</cell></row>
+<cell type="page">428</cell><row xml:id="txtcmnt-428-01"><cell type="data-term">Kridthuus</cell><cell type="data-definition">blikbøsse med to rum til opbevaring af kridt til regnskabsføring og småpenge.</cell></row><row xml:id="txtcmnt-428-02"><cell type="data-term">Balsombøsse</cell><cell type="data-definition">(metal)æske med vellugtende parfume e.l.</cell></row><row xml:id="txtcmnt-428-03"><cell type="data-term">borte blev han</cell><cell type="data-definition">borte forblev han.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

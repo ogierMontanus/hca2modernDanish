@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>In the Children’s Nursery</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="i-boernestuen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="i-boernestuen_modern.xml">moderniseret version</note>
+                                                       <note target="164_In-the-Nursery.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Father and mother and all the brothers and sisters had gone to the theatre; only...</incipit><idno type="image">I_Boernestuen_hca_ill_0125.png</idno><popularity>887</popularity><cite>&lt;p&gt;Hans Christian Andersen: In the Children’s Nursery. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>barnelogik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-26" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-26" who="NHB">formatted</change><change who="NHB" when="2022-10-26">ready for publication</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="In the Children’s Nursery">
+               <head type="main" rend="In the Children’s Nursery">In the Children’s Nursery</head>
+<p rend="noIndent" xml:id="p_00001">Father and mother and all the brothers and sisters had gone to the theatre; only little <hi rend="italic">Anna</hi> and her <hi rend="italic">godfather</hi> were left sitting alone at home.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘We could make up a play!’ he said, ‘and put it on straight away!’</p>
+               <p rend="firstIndent" xml:id="p_00003">‘But we haven’t got a theatre,’ little <hi rend="italic">Anna</hi> said, ‘and we haven’t any actors either! my old doll’s no good because she’s too ugly, and my new one mustn’t get her nice clothes crumpled!’</p>
+               <p rend="firstIndent" xml:id="p_00004">‘You can always find actors if you take what you’ve got!’ <hi rend="italic">godfather</hi> says, ‘Now we’re off to the theatre. We place a book here, one there and another one, in a slanting row. Now three on the other side; and there are the wings! the old box lying there can be the backdrop; we can turn the bottom out. The stage now represents a living room, anyone can see that! Now we must find those to do the acting! Let’s see what we can find in the drawer for toys! First the characters, then we make up the play, they support each other, and it will all work out fine! There’s a pipe bowl lying here and here’s an odd glove, they could do as father and daughter!’</p>
+               <p rend="firstIndent" xml:id="p_00005">‘But that’s only two characters!’ little <hi rend="italic">Anna</hi> said, ‘Here’s my brother’s old waistcoat! Can’t it act in a play too?’</p>
+               <p rend="firstIndent" xml:id="p_00006">‘It’s big enough!’ <hi rend="italic">godfather</hi> said. ‘It can be the young lady’s sweetheart. It’s got nothing in its pockets, that makes it interesting already, it is half-unrequited love! – And here we have the nutcracker’s boot with spurs on! Scritch, scratch, Mazurka! he can strike and strut. He can be the unwanted suitor the young lady doesn’t like. What kind of play would you like? A tragedy or a domestic drama?’</p>
+               <p rend="firstIndent" xml:id="p_00007">‘Domestic drama!’ little <hi rend="italic">Anna</hi> said, ‘the others like that sort so much. Do you know one?’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘I know a hundred of them!’ the <hi rend="italic">godfather</hi> said. ‘Those most highly regarded are based on the French, but they are not suitable for young girls. We could take one of the most innocuous ones, though, basically, they all resemble each other. I give the bag a shake! Cuckoodolidoo! Whatatodo! now they’re brand-new! Just listen to the advertisement.’ And <hi rend="italic">godfather</hi> took up a newspaper and pretended to read from it:</p>
+               
+<floatingText type="drama">
+<head rend="section">Pipe-Bowl and Quick-Wit,</head>
+               <head rend="part"><hi rend="italic">Domestic drama in one act.</hi></head>
+                                          
+<castList>
+<head rend="secondIndent standardSize"><hi rend="italic">The characters are</hi></head>
+<castItem rend="secondIndent standardSize">Mr. <hi rend="italic">Pipe-Bowl</hi>, Father</castItem>
+<castItem rend="secondIndent standardSize">Miss <hi rend="italic">Glove</hi>, Daughter</castItem>
+<castItem rend="secondIndent standardSize">Mr. <hi rend="italic">Waistcoat</hi>, Sweetheart</castItem>
+<castItem rend="secondIndent standardSize">Herr<hi rend="italic"> von Stiefel</hi>, Suitor</castItem>
+</castList>
+</floatingText>
+<p rend="noIndent" xml:id="p_00014">And now the play starts! The curtain goes up; we haven’t any curtain, but then it’s up. All the characters are in there, so they’ll be on stage soon. Now I’ll talk like Father <hi rend="italic">Pipe-Bowl</hi>. He’s angry today; you can see he’s a smoked meerschaum:</p>
+               <p rend="firstIndent" xml:id="p_00015">‘Mick mack malloy, bullyboy! I’m master in my own house! I’m the father of my daughter! Just listen to what I have to say! <hi rend="italic">Von Stiefel’s</hi> a man one can take as an example, goatskin leather up top, spurs down below, mickey, mackey, malloy! he shall have my daughter!’</p>
+               <p rend="firstIndent" xml:id="p_00016">‘You take care of <hi rend="italic">Mr. Waistcoat</hi>, little <hi rend="italic">Anna</hi>!’ <hi rend="italic">godfather</hi> said. ‘Now <hi rend="italic">Waistcoat’s</hi> speaking. He has a turned-down collar, is very modest, but knows his own worth and has a right to speak his mind:</p>
+               <p rend="firstIndent" xml:id="p_00017">‘I am spotless. Quality must also be taken into account. I am of genuine silk, and I have strings!’</p>
+               <p rend="firstIndent" xml:id="p_00018">‘On your wedding day, no longer than that! Your colour gets lost in the wash!’ that’s Mr. <hi rend="italic">Pipe-Bowl </hi>speaking. ‘<hi rend="italic">Von Stiefel</hi> is waterproof, has durable leather and is so distinguished even so, can creak, chink his spurs and has the physiognomy of Italy!’</p>
+               <p rend="firstIndent" xml:id="p_00019">‘But they ought to be speaking in verse!’ little <hi rend="italic">Anna</hi> said, ‘that’s said to be the finest!’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘They could do that too!’ <hi rend="italic">godfather</hi> said. ‘When the audience decrees, we’ll seek to please! – Just look at little Miss <hi rend="italic">Glove</hi>, at how she stretches her fingers:</p>
+               <lg xml:id="p_00021">
+                    <l>Looks like all my life</l>
+               <l>I won’t be someone’s wife</l>
+               <l>Alas, I’m just trash!</l>
+               <l>No one finds it fitting</l>
+               <l>That my skin keeps splitting!</l>
+               <graphic type="blank"/>
+                    <l>Balderdash!</l></lg>
+               <p rend="noIndent" xml:id="p_00022">That was Father <hi rend="italic">Pipe-Bowl</hi>; Now Mr. <hi rend="italic">Waistcoat</hi> speaks:</p>
+               <lg xml:id="p_00023">
+                    <l>Oh my darling glove</l>
+               <l>You shall be my love!</l>
+               <l>Though you came from Spain,</l>
+               <l>Swore <hi rend="italic">Ogier the Dane</hi>.</l></lg>
+               <p rend="noIndent" xml:id="p_00024"><hi rend="italic">Stiefel</hi> whirls around, stamps on the floor, chinks his spurs and brings down three of the wings.</p>
+               <p rend="firstIndent" xml:id="p_00025">‘This is all simply lovely!’ little <hi rend="italic">Anna</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00026">‘Quiet, now!’ <hi rend="italic">godfather</hi> said; ‘silent applause shows that you are a well-bred audience in the front row. Now Miss <hi rend="italic">Glove</hi> is to sing her great aria with a voice that breaks:</p>
+               <lg xml:id="p_00027">
+                    <l>I can’t speak I know,</l>
+               <l>So I’ll have to crow</l>
+               <l>Cockadoodledoo, to those below!</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00028">Now comes the exciting bit, little <hi rend="italic">Anna</hi>! This is the most important thing in the play. Look. Mr. <hi rend="italic">Waistcoat</hi> unbuttons himself, he throws his speech straight out to you, so you feel like clapping; don’t do so! it’s more cultivated. Just listen to the silk rustling: ‘We’re at the climax! take care! here comes the intrigue! <hi rend="italic">You</hi> are Pipe-Bowl, <hi rend="italic">I</hi> am Quick Wit, – Whoosh, you’re gone! Did you see that, little <hi rend="italic">Anna</hi>!’ <hi rend="italic">godfather</hi> said. ‘It’s excellent staging and theatre: Mr. <hi rend="italic">Waistcoat</hi> grabbed old <hi rend="italic">Pipe-Bowl</hi> and stuffed him in his pocket; there he lies, and the waistcoat speaks:</p>
+               <p rend="firstIndent" xml:id="p_00029">‘You’re in my pocket, in my deepest pocket! you’ll not be released before you promise to unite me with your daughter, left-hand<hi rend="italic"> Glove</hi>, I’ll be the right-hand one!’</p>
+               <p rend="firstIndent" xml:id="p_00030">‘How frightfully exciting!’ little <hi rend="italic">Anna</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00031">‘And now old <hi rend="italic">Pipe-Bowl</hi> answers:</p>
+               <lg xml:id="p_00032">
+                    <l>I’m all of a tizz!</l>
+               <l>Things change in a whizz.</l>
+               <l>My mood’s in a fizz.</l>
+               <l>My hollow stem I’ve lost for sure.</l>
+               <l>As never before</l>
+               <l>I’m shook to the core,</l>
+               <l>My mind’s insecure. –</l>
+               <l rend="firstIndent">Release my bowl please</l>
+               <l rend="firstIndent">you know you oughter,</l>
+               <l rend="firstIndent">And then you may marry</l>
+               <l rend="first">my darling daughter!’</l>
+               </lg>
+               <p rend="noIndent" xml:id="p_00033">‘Is the play already over?’ little <hi rend="italic">Anna</hi> asked.</p>
+               <p rend="firstIndent" xml:id="p_00034">‘Good gracious no!’ <hi rend="italic">godfather</hi> said, ‘it’s only over for Herr<hi rend="italic"> von Stiefel.</hi> The loving couple kneel, one of them sings:</p>
+               <lg xml:id="p_00035">
+                    <l>Now, old one!</l></lg>
+               <p rend="noIndent" xml:id="p_00036">the other:</p>
+               <lg xml:id="p_00037">
+                    <l>Your bowl’s new life’s begun,</l>
+               <l>So bless both daughter and son!<!--«--></l></lg>
+               <p rend="noIndent" xml:id="p_00038">They receive his blessing, hold a wedding, and the <hi rend="italic">furniture</hi> sings in chorus:</p>
+               <lg xml:id="p_00039">
+                    <l>Knick, knack</l>
+               <l>Paddywhack!</l>
+                    </lg>
+               <p rend="noIndent" xml:id="p_00040">Now the play is over!</p>
+               <p rend="firstIndent" xml:id="p_00041">‘And now we clap!’ <hi rend="italic">godfather</hi> said, ‘call them in for a bow, the <hi rend="italic">furniture</hi> as well. They’re real mahogany!’</p>
+               <p rend="firstIndent" xml:id="p_00042">‘Is our play just as good as the one the others are seeing in the real theatre?’</p>
+               <p rend="firstIndent" xml:id="p_00043">‘Ours is much better!’ <hi rend="italic">godfather</hi> said; ‘it’s shorter, it’s for free, and now it’s time for tea!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

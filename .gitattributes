@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.xml text eol=lf
+#added line above on 2024-11-05 to handle error message: "warning: in the working copy of 'kong-christian-d-ottende.xml', LF will be replaced by CRLF the next time Git touches it"

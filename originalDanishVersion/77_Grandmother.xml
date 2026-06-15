@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>A Story [original title; Andersen later gave the story a new title: Grandmother]</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="en-historie-1845">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="en-historie-1845_modern.xml">moderniseret version</note>
+                                                       <note target="77_Grandmother.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Grandmother is so old, she has many wrinkles and completely white hair, but her ...</incipit><idno type="image">Bedstemoder_hca_ill_0170.png</idno><popularity>931</popularity><cite>&lt;p&gt;Hans Christian Andersen: A Story [original title; Andersen later gave the story a new title: Grandmother]. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>livsforloeb</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-06" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-06">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body><div rend="A Story">
+          <head type="main" rend="A Story">A Story</head>
+          <lg xml:id="p_00001">
+               <l>Ich hab' eine alte Muhme,</l>
+               <l>Die ein altes Büchlein hat,</l>
+               <l>Es liegt in dem alten Buche </l>
+               <l>Ein altes, dürres Blatt.</l>
+               <l>So dürr sind wohl auch die Hände, </l>
+               <l>Die einst im Lenz ihr's gepflückt.</l>
+               <l>Was mag doch die Alte haben? </l>
+               <l>Sie weint, so oft sie's erblickt! </l>
+               <l rend="right"><hi rend="italic">Anastasius Grün</hi></l>
+               </lg>
+          
+          <p rend="noIndent" xml:id="p_00002">Grandmother is so old, she has many wrinkles and completely white hair, but her eyes shine like two stars, indeed, they are much more beautiful, they are so gentle, so delightful to gaze into; and then she knows the loveliest stories and has a dress with large flowers on it, made of some thick silk material that rustles. Grandmother knows so much for she has lived long before father and mother; and that is absolutely certain! Grandmother has a hymn book with thick silver clasps and she often reads pages from that book; in the middle of it lies a rose that is quite flat and dry, it is not as beautiful as the roses she has standing in a glass and yet she smiles in the friendliest way at it, indeed, tears come to her eyes! I wonder why grandmother looks like that at the withered flower in the old book?</p>
+          <p rend="firstIndent" xml:id="p_00003">Do you know why? – Every time grandmother’s tears fall onto the flower, its colours become fresher, then the rose swells up and the whole room is filled with fragrance, the walls sink away as if they were simply mists, and all around there is the green and lovely wood where the sun shines between the leaves, and grandmother – well, she is now very young, a lovely girl with blond hair, with red, rosy cheeks, lovely and beautiful, no rose is fresher than she is; and yet the eyes, those gentle, delightful eyes, are still grandmother’s! – Beside her there sits a man, young and well-built, he passes her the rose and she smiles – though grandmother does not smile like that! – oh yes, the smile comes – he is gone, many thoughts and figures pass by! – The handsome man is gone, the rose lies in the hymn book and grandmother, – well, now she is sitting there as an old woman once more, gazing at the withered rose lying in the book.</p>
+          <p rend="firstIndent" xml:id="p_00004">– Now grandmother is dead!</p>
+          <p rend="firstIndent" xml:id="p_00005">She sat in the armchair and told a lovely story, she said that now it was over, that now she was tired, and she laid back her head to sleep; she breathed, she slept, but it grew quieter and quieter and her face was so full of peace and happiness, it was as if sunshine passed over it; she smiled, and then they said that she was dead.</p>
+          <p rend="firstIndent" xml:id="p_00006">She was laid in a black coffin, she was laid in white linen, she was so beautiful, although her eyes were closed, but all her wrinkles were gone, she lay with a smile on her lips; her hair was so silvery-white, so distinguished, one did not feel at all frightened looking at her when dead, for it was still the sweet, kind-hearted grandmother one saw. And the hymn book was laid in the coffin under her head, she had insisted on this, and the rose lay in the old book, and then they buried grandmother.</p>
+          <p rend="firstIndent" xml:id="p_00007">On her grave, close beneath the church wall, they planted a rose bush, and it stood full of roses and they nodded in the wind and said to each other: ‘how delightful it is to bloom in the warm sunshine! how delightful it is to bathe in dew and moonlight! and when one is at one’s most beautiful, along comes a dear hand and picks us for the loveliest girl. How we would blush, how we would give off fragrance!’ And the nightingale heard what the roses said, and the nightingale sang about the rose which the young girl had laid in her hymn book, about the rose that was concealed there until her fresh cheeks had become wrinkled, until the girl was an old woman. To live in memory is delightful!</p>
+          <p rend="firstIndent" xml:id="p_00008">And while the nightingale sang over the roses and over the grave, the church organ played the beautiful hymns that were in the book beneath her head; and the moon shone so large and so round, but the dead were not here; any child could safely come at nighttime and pick a rose there by the church wall. A single dead person knows more than any living person does. The dead know how strange and frightening it would feel if they came and stood among us; the dead are good and loving, they would not wish to frighten us, they do not come. There is earth on top of the coffin, there is earth inside it, the pages of the hymn book are dust, the rose with all its memories is crumbling into dust, but up above new roses are blooming, up above the nightingale is singing and the organ playing; one thinks of the dear old grandmother with the gentle, eternally young eyes. – Eyes can never die, – ours shall one day see her young and beautiful as when she for the first time kissed the fresh red rose that now is dust in the grave.</p>
+     </div>
+               
+     </body>
+                         </text>
+                    </TEI>

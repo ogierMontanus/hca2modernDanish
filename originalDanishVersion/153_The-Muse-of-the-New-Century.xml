@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Muse of the New Century</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="det-nye-aarhundredes-musa">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="det-nye-aarhundredes-musa_modern.xml">moderniseret version</note>
+                                                       <note target="153_The-Muse-of-the-New-Century.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The Muse of the New Century – whom our grandchildren’s children, perhaps a more ...</incipit><idno type="image">Det_nye_Aarhundredes_Musa_hca_ill_0097.png</idno><popularity>911</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Muse of the New Century. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>teknik</term><term>steder</term><term>kunst</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-10-17" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-10-17" who="NHB">formatted</change><change who="NHB" when="2022-10-17">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Muse of the New Century">
+               <head type="main" rend="The Muse of the New Century">The Muse of the New Century</head>                <p rend="noIndent" xml:id="p_00001">The Muse of the New Century – whom our grandchildren’s children, perhaps a more distant generation, will come to know, but we shall not – when will she reveal herself? What will she look like? What melody will she sing? What strings of the soul will she brush? To what heights will she raise her era?</p>
+               <p rend="firstIndent" xml:id="p_00002">So many questions in our bustling age, where poetry almost gets in one’s way, and where all the ‘stuff of immortality’ that present-day poets write will perhaps only exist in the future as inscriptions in charcoal on prison walls, seen and read by a few curious people.</p>
+               <p rend="firstIndent" xml:id="p_00003">Poetry must also do its bit, at least do some muzzle-loading in the party strife where blood or ink flows!</p>
+               <p rend="firstIndent" xml:id="p_00004">This is partisan talk, many people will say – poetry has not been forgotten in our own age.</p>
+               <p rend="firstIndent" xml:id="p_00005">No, there are still people who on their ‘free Monday’ feel an urge to indulge in poetry and who admittedly, when they sense this spiritual rumbling in their respective vital parts, send word to the bookshop and buy poetry for no less than four shillings, the best that is recommended; some content themselves with what they can possibly get thrown in for free, or satisfy themselves with reading a snippet on the paper cone from the grocer’s shop; it’s cheaper, and cheapness must be taken into account in our busy age. The urge exists for what we already have, and that is enough! The poetry of the future, like the music of the future, belongs to flights of fancy like those of Don Quixote, to speak of them is like speaking of voyages of discovery on Uranus.</p>
+               <p rend="firstIndent" xml:id="p_00006">Time is too short and too precious for fantasies, and what – if we were to speak sensibly just for once – what exactly is <hi rend="italic">poetry?</hi> All excitement, joy, pain, even the striving for material gain, are, the learned ones inform us, <hi rend="italic">vibrations of nerves</hi>. We are, each and every one of us – a stringed instrument.</p>
+               <p rend="firstIndent" xml:id="p_00007">But who plucks these strings? Who causes them to vibrate and quiver? The <hi rend="italic">spirit</hi>, the invisible spirit of the deity which, through them, allows <hi rend="italic">his</hi> movement, <hi rend="italic">his</hi> mood to resound, and this is understood by the other stringed instruments, causing them to sound in tones that merge in consonances or form stark contrasts in dissonances. That is how it has been, that is how it will be in the great forward movement of humanity in the awareness of freedom!</p>
+               <p rend="firstIndent" xml:id="p_00008">Each century, each millennium can be said to have the expression of its greatness in <hi rend="italic">poetry</hi>; born in the closing era, it comes to the fore and rules in the new era that is to come.</p>
+               <p rend="firstIndent" xml:id="p_00009">In the midst of our bustling, machine-roaring age she has then already been born, she who will be the Muse of the New Century. We send her our greetings! she will hear them or chance to read them some day, perhaps already among the charcoal inscriptions we have just mentioned.</p>
+               <p rend="firstIndent" xml:id="p_00010">The rockers of her cradle went from the furthest point a human set foot on during the expeditions to the North Pole to as far out into the polar sky’s ‘black sacks of coal’ a living eye gazed. We did not hear the swish of the rockers because of all the clattering machinery, the whistling of the locomotives, the blasting of rock-faces and the old ties of the spirit.</p>
+               <p rend="firstIndent" xml:id="p_00011">She was born in the great factory of the present, where steam exerts its power, where Master <hi rend="italic">Bloodless</hi> and his helpers toil day and night.</p>
+               <p rend="firstIndent" xml:id="p_00012">In her possession she has a woman’s great, loving heart, with the vestal virgin’s flame and the blaze of passion. She received the lightning bolt of reason, with all the changing colours of the prism down through thousands of years, colours assessed on the basis of fashion. Fantasy’s great swan dress is her splendour and strength, woven by science, ‘<hi rend="italic">primeval forces’</hi> gave it its uplift.</p>
+               <p rend="firstIndent" xml:id="p_00013">She is a child of the people on her father’s side, sound in spirit and thought, with seriousness in her eye, humour on her lips. Her mother is the nobly born, highly educated emigrant’s daughter with the golden rococo memories. The Muse of the New Century has blood and soul in her of both.</p>
+               <p rend="firstIndent" xml:id="p_00014">Magnificent baptismal gifts were laid in her cradle. In great numbers, strewn like sweets, are the hidden riddles of Nature with their solutions; from the diving bell wonderful ‘knick-knacks’ have been strewn from the depths of the sea. The map of the heavens, this suspended Pacific with its myriad of islands, each a world, was embroidered onto her cradle blanket. The sun paints pictures for her; photography will provide toys for her.</p>
+               <p rend="firstIndent" xml:id="p_00015">Her wet nurse has sung to her of the ancient Norwegian skald <hi rend="italic">Eyvindr</hi> and of the Persian poet <hi rend="italic">Firdousi</hi>, of the medieval <hi rend="italic">Minnesingers</hi> and what <hi rend="italic">Heine</hi> in his exuberant youth sang of his true poetic soul. Much, far too much has her wet nurse told her; she knows the <hi rend="italic">Norse sagas</hi>, the old primeval mother’s gruesome legends where curses swish with bloody wings. She has heard the entire ‘<hi rend="italic">Arabian Nights’</hi> in the space of a quarter of an hour.</p>
+               <p rend="firstIndent" xml:id="p_00016">The Muse of the New Century is still a child, though she has leapt out of her cradle, she has plenty of will, without knowing what she wills.</p>
+               <p rend="firstIndent" xml:id="p_00017">As yet she still plays in her large ‘nursery’, which is full of art treasures and rococo. Greek tragedy and Roman comedy stand there inscribed in marble; the nations’ ballads hang on the walls like dried plants, one kiss and they will burst out in freshness and fragrance. She is encompassed by the eternal chords of <hi rend="italic">Beethoven</hi>, <hi rend="italic">Gluck</hi>, <hi rend="italic">Mozart</hi> and all the other maestros of thoughts expressed in music. On her bookshelf lie so many works considered immortal in their own age, and here there is plenty of space for many others whose names we hear buzzing along the telegraph wires of immortality but which die with the telegram.</p>
+               <p rend="firstIndent" xml:id="p_00018">She has read a frightful lot, much too much, for she has been born into our age, a vast amount will have to be forgotten again and the Muse will know how to forget.</p>
+               <p rend="firstIndent" xml:id="p_00019">She does not think of her song, which will survive for thousands of years just as <hi rend="italic">Moses</hi>’ writings live on and <hi rend="italic">Bidpai’s</hi> golden-crowned fable about the fox’s cunning and fortune. She does not think of her mission, her resounding future, she is still at play, during the struggle of the nations that shakes the air, that places sound images of quills and cannons in all directions, runes that are hard to read.</p>
+               <p rend="firstIndent" xml:id="p_00020">She wears a <hi rend="italic">Garibaldi</hi> hat, but reads her <hi rend="italic">Shakespeare</hi> and thinks for a brief moment: He can still be performed when I have grown! May Calderon rest in the sarcophagus of his works, with the inscription of fame. <hi rend="italic">Holberg</hi>, well, the muse is cosmopolitan, she has him bound in a single volume along with <hi rend="italic">Molière</hi>, <hi rend="italic">Plautus </hi>and <hi rend="italic">Aristophanes</hi>, but most frequently reads <hi rend="italic">Molière</hi>.</p>
+               <p rend="firstIndent" xml:id="p_00021">She is liberated from all the unrest that plagues all the chamois of the Alps, although her soul longs for the salt of life, just as the chamois longs for that of the mountain; in her heart there lies a tranquillity like that of the ancient legends of the Hebrews, this voice of the nomad on the green plains in the quiet, starry nights, although her heart swells more strongly in song than in that of the rapturous warrior from the mountains of Thessaly in Greek Antiquity.</p>
+               <p rend="firstIndent" xml:id="p_00022">And how are things with her Christianity? – She has learnt the multiplication tables of philosophy, both single and double; she has cracked one of her milk-teeth on the chemical elements, but gained new ones instead, bitten on the fruit of knowledge while in her cradle, eaten and become wise – so that ‘<hi rend="italic">immortality</hi>’ came to her in a flash as being humanity’s most brilliant idea.</p>
+               <p rend="firstIndent" xml:id="p_00023">When will poetry’s new century dawn? When will the muse be known? When will it be possible to hear her?</p>
+               <p rend="firstIndent" xml:id="p_00024">One lovely spring morning she will arrive on the locomotive’s dragon, roaring through tunnels and over viaducts, or come across the gentle, surging sea on a spouting dolphin, or fly through the air on <hi rend="italic">Mongolfier’s</hi> mythical <hi rend="italic">Roc</hi> and come to land some place where the voice of her divinity will greet the human race for the first time. But where? Will it be from <hi rend="italic">Columbus’</hi> discovery, the Land of Freedom, where the Native Americans became hunted like quarry and the African Americans are treated like drudges, the land from where we heard the song about ‘<hi rend="italic">Hiawatha</hi>’? Will it be from the part of the world known as the Antipodes, that nugget of gold in the South Seas, that land of contrasts, where our night is day and black swans sing in the forests of mimosa? Or from the land where the Colossus of <hi rend="italic">Memnon</hi> sounded and still sound, though we did not understand the sphinx of song in the desert. Will it be from the island of coal, where <hi rend="italic">Shakespeare</hi> is the ruler from Elizabethan times? Will it be from the home of <hi rend="italic">Tycho Brahe</hi>, which refused to accommodate him, or from <hi rend="italic">California’s </hi>land of adventure, where the Giant Sequoia, the Wellingtonia, lifts its crown as the king of the world’s forests.</p>
+               <p rend="firstIndent" xml:id="p_00025">When will the star shine, the star on the muse’s brow, the flower in whose petals is inscribed the century’s expression of the Beautiful in form, colour and scent?</p>
+               <p rend="firstIndent" xml:id="p_00026">‘What is the new muse’s agenda?’ our own age’s knowledgeable members of parliament ask. ‘What does she want?’</p>
+               <p rend="firstIndent" xml:id="p_00027">Ask rather what she does not want!</p>
+               <p rend="firstIndent" xml:id="p_00028">She will not appear as a spectre of the time that is past! nor will she fashion dramas out of the discarded masterpieces of the stage or to cover up lacks in dramatic architecture by the dazzling drapes of lyrical poetry! her flight ahead of us will be as that from the cart of <hi rend="italic">Thespis</hi> to the marble amphitheatre. Nor will she break sound human speech into pieces and rivet it to an artificial carillon of ingratiating sounds from troubadour tournaments. Nor will she present metre as being noble and prose as being commonplace! they stand as equals when it comes to sound, sonority and power. Nor will she carve the old gods out of the blocks of Icelandic saga! they are dead, there is no sympathy for them in the new age, no kinship! Nor will she invite her own age to put up their thoughts in the low-class inns of French novels! nor will she anaesthetise with the chloroform of everyday stories! She will bring a life elixir! her song in verse and prose will be <hi rend="italic">brief, clear, rich</hi>! The heartbeat of nationalities – each is but one letter in the large alphabet of progress, but she treats each letter with the same love, fashions them into words and sings the words in rhythms that form her anthem of the present.</p>
+               <p rend="firstIndent" xml:id="p_00029">And when will the fullness of time have arrived?</p>
+               <p rend="firstIndent" xml:id="p_00030">It will be a long time for us who still remain here, but a short one for those who flew ahead!</p>
+               <p rend="firstIndent" xml:id="p_00031">Soon the Chinese Wall will fall; the railways of Europe reach the sealed-off cultural archives of Asia – the two cultural streams will meet! then perhaps the cataract will reverberate with its deep roar, we old people of the present will quake at the powerful notes and sense in them a Ragnarök, the fall of the old gods, forget that down here times and peoples must disappear and only a small image of each, enclosed in the capsules of the word, will swim on the current of eternity as a lotus flower, and will say to us that all of them are and were flesh of our flesh, in various guises; the image of the Jews gleams from the <hi rend="italic">Bible</hi>, that of the Greeks from the<hi rend="italic"> Iliad </hi>and the <hi rend="italic">Odyssey</hi>, and ours then? Ask the Muse of the New Century, in Ragnarök, when the new Gimli will rise up in transfiguration and understanding.</p>
+               <p rend="firstIndent" xml:id="p_00032">All the power of steam, all the pressure of the present are levers! Master <hi rend="italic">Bloodless</hi> and his busy helpers, who seem to be the mighty rulers of our age, are but servants, black slaves, that adorn the hall, bear in the treasures, lay the tables for the great feast where the Muse, with the innocence of the child, the enthusiasm of the young maiden and the calm and knowledge of the matron, raises the wonderful lamp of literature, this rich, full human heart with its divine flame.</p>
+               <p rend="firstIndent" xml:id="p_00033">Hail to you, Muse of the new century of poetry! our salutation rings out and is heard, like the thought-anthem of the worms, the worm that that is cut in two by the ploughshare as a new spring gleams and the plough cuts furrows, slices us worms into small pieces so that the blessing can grow for the coming new generation.</p>
+               <p rend="firstIndent" xml:id="p_00034">Hail to you, Muse of the New Century!</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

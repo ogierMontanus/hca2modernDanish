@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Digterblomster, og Aforismer</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="digterblomster-og-aforismer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1830</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="mix"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-09-15" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-09-15" who="NHB">formatted</change><change who="NHB" when="2023-09-21" status="draft">gennemset titler indtil og med div med Blandinger. Næste afsnit: Biografiske Skitser</change><change who="NHB" when="2023-09-25" status="draft">wellformet</change><change who="NHB" when="2023-10-17" status="draft">gennemset indtil s. 107</change><change who="NHB" when="2023-10-18" status="draft">side 122</change><change who="NHB" when="2024-01-11" status="draft">subtype verse &gt; rendition verse </change><change who="NHB" when="2024-06-14" status="draft">batch change of rend in l and stage</change>
+                                        <change who="NHB" when="2024-06-27">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Digterblomster, og Aforismer" xml:id="digterblomster-og-aforismer">
+<div type="source"><source>Fra</source> <sourceTitle>Moerskabs-Læsning, og Curiosa. Tillæg til Iversens Avis</sourceTitle>
+<sourceDate>1830</sourceDate>
+</div>
+<pb n="276"/>
+<head type="part">Digterblomster, og <seg target="txtcmnt-276-01"><!--DATA-TERM: Aforisme(r)--><!--DATA-DEFINITION: oprindelig antik litterær genre, hvor lærdom overleveres i fyndig uargumenteret stil; siden med moraliserende og filosofisk indhold.-->Aforismer</seg></head>
+<cit>
+<lg xml:id="p_00588">
+<quote>
+<l rend="noIndent"><seg target="txtcmnt-276-02" type="dfnStart"/><!--DATA-TERM: At drømme … Buxer--><!--DATA-DEFINITION: »At drømme sig en Ven blandt Verdens mange Luxer, / Er med en Blomsterstilk at binde sine Buxer«; fra Simon Meislings (1787-1856) oversættelse af den italienske komediedigter Carlo Gozzis (1720-1806) såkaldte eventyrspil <i>L’Augellino belverde</i>, 1765, »Den lille Grønne Fugl« i <i>Dramatiske Eventyr af Carlo Gozzi. Fra det Italienske ved S. Meisling</i>, 1821, s. 68.-->At drømme sig en Ven blandt Verdens <seg target="txtcmnt-276-03">Luxer</seg>,</l>
+<l rend="noIndent">Er, med en Blomsterstilk at binde sine Buxer<seg type="dfnEnd" target="txtcmnt-276-02"/>.</l>
+</quote>
+<bibl>
+<l rend="right">Efter <hi rend="italic">Gozzi</hi> ved <hi rend="italic">Meisling</hi></l>
+</bibl>
+</lg>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote>
+<p rend="noIndent" xml:id="p_00589"><seg target="txtcmnt-276-04" type="dfnStart"/>Ethvert Slag af rørt Hjerte slaar os en <seg target="txtcmnt-276-05"><!--DATA-TERM: Vunde--><!--DATA-DEFINITION: sår.-->Vunde</seg>; og Livet vilde være en evig Forbløden, var ikke Digtekunsten<seg target="txtcmnt-276-04" type="dfnEnd"/>.</p>
+</quote>
+<bibl>
+<p rend="right" xml:id="p_00590"><hi rend="italic">Ludvig Børne</hi></p>
+</bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote>
+<p rend="noIndent" xml:id="p_00591"><seg target="txtcmnt-276-06" type="dfnStart"/><!--DATA-TERM: Bag Solen hist … Aandernes Skaber--><!--DATA-DEFINITION: »Hinter den Sonnen ruhen Sonnen im lezten Blau, ihr fremder Strahl fliegt seit Jahrtausenden auf dem Wege zur kleinen Erde, aber er kommt nicht an. O du sanfter, naher Gott, kaum thut ja der Menschengeist sein kleines, junges Aug auf, so strahlst du schon hinein, o Sonne der Sonnen und Geister!«; fra Jean Paul <i>Flegeljahre. Ein Biographie</i>, bind 1, 1804, s. 108; Jean Paul, pseudonym for Johann Paul Freidrich Richter (1763-1825), tysk digter. Oversættelsen findes tillige i en let ændret version trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <i>Nyt Repertorium for Moerskabslæsning</i>, bind 2, nr. 2, 28. april 1830 (se side 273).-->Bag Solen hist, svæve Sole i det uendelige Blaae; deres, af vort Øje aldrig seete Straaler fløi alt i Aartusinder herned imod vor lille Jord, men naaede den endnu ikke. O du milde, mægtige Gud! neppe aabne vi vort lille, svage Øje, saa straaler du klart for det, du Solenes og Aandernes Skaber<seg target="txtcmnt-276-06" type="dfnEnd"/>!</p>
+</quote>
+<bibl>
+<p rend="right" xml:id="p_00592"><hi rend="italic">Jean Paul</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<lg xml:id="p_00593">
+<quote>
+<l rend="noIndent"><seg target="txtcmnt-276-07" type="dfnStart"/><!--DATA-TERM: Du skuer … Ocean--><!--DATA-DEFINITION: »Du skuer Bækkenes Løb, men ei du kjender / Dens sidste Bølgeslag paa fjerne Strand: / Du skuer Livet, men ei hvor det ender / I Evighedens dybe Ocean«; fra den danske præst og forfatter Jens Hansen Smidths (1769-1847) <i>Danske Haver</i>, 1823, s. 47, hvor det findes som nummer tre af en række »Indskrifter« og bærer titlen »Ved en Kilde«.-->Du skuer Bækkenes Løb, men ej du kjender</l>
+<l rend="noIndent">Dens sidste Bølgeslag paa fjerne Strand;</l>
+<l rend="noIndent">Du skuer Livet, men ej hvor det ender</l>
+<l rend="noIndent">I Evighedens store Ocean<seg type="dfnEnd" target="txtcmnt-276-07"/>.</l></quote>
+<bibl rend="right"><l rend="right"><hi rend="italic">J. G. Smidth</hi></l></bibl></lg>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00594"><seg target="txtcmnt-276-08"><!--DATA-TERM: En Kjæmpe … Kjæmpe--><!--DATA-DEFINITION: »Ein Riese ist nur zweimal so groß als ein Zwerg, und jeder Zwerg ist ein halber Riese«; fra Ludwig Börne »Über den Umgang mit Menschen«, <i>Gesammelte Schriften von Ludwig Börne</i>, bind 3, 2. oplag, 1835, s. 239. Teksten er skrevet i 1824, men tilsyneladende først trykt i <i>Gesammelte Schriften von Ludwig Börne</i>, 1829-1832, hvor den sammen med en række andre tekster bringes under overskriften »Vermischte Aufsätze«. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <i>Nyt Repertorium for Moerskabslæsning</i>, bind 2, nr. 2, 28. april 1830 (se side 273).-->En Kjæmpe er kun to Gange saa stor som en Dverg, og enhver Dverg er en halv Kjæmpe</seg>.<br/></p></quote>
+<bibl><p rend="right" xml:id="p_00595"><hi rend="italic">L. Børne</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00596"><seg target="txtcmnt-276-09"><!--DATA-TERM: Kun hvor … Historie--><!--DATA-DEFINITION: »Kun hvor der er Kamp og Stræben, er der noget at fortælle. Den paradisiske Lyksalighed har ingen Historie«; fra Adam Oehlenschläger (1779-1850) <i>Øen i Sydhavet</i>, 3. del, 1825, s. 78.-->Kun hvor der er Kamp og Stræben er der noget at fortælle. Den paradisiske Lyksalighed har ingen Historie</seg>.</p></quote>
+<bibl><p rend="right" xml:id="p_00597"><hi rend="italic">Oehlenschlæger</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<pb n="277"/>
+<cit>
+<lg xml:id="p_00598">
+<quote><l rend="noIndent"><seg target="txtcmnt-277-01" type="dfnStart"/><!--DATA-TERM: Hvad gavner, Helt … græder--><!--DATA-DEFINITION: »Hvad gavner, Helt! Dig Navn og Hæder, / naar over Dig eet Øie græder?«; fra den danske forfatter Frederik Høegh-Guldbergs (1771-1852) digt »Ung Grethes Skjebne«, i <i>Samlede Smaating, i bunden og ubunden Tale</i>, bind 2, 1815, s. 352.-->Hvad gavner, Helt! Dig Navn og Hæder,</l>
+<l rend="noIndent">Naar over Dig eet Øje græder<seg type="dfnEnd" target="txtcmnt-277-01"/>.</l>
+</quote>
+<bibl><l rend="right"><hi rend="italic">Guldberg</hi></l></bibl>
+</lg>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00599"><seg target="txtcmnt-277-02"><!--DATA-TERM: Paa Tiden … haabe--><!--DATA-DEFINITION: »Auf die Zeit, auf ein ewiges Ich in uns, auf ein ewiges Du über uns müssen wir hoffen«; fra Jean Paul »Protektorium für den Herausgeber« i <i>Clavis Fichtiana seu Leibgeberiana</i>, 1800, der udkom som et vedhæng til første del af <i>Titan</i>, 1800; her citeret efter <i>Jean Paul’s sämmtliche Werke</i>, bind 30, 1827, s. 33. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <i>Nyt Repertorium for Moerskabslæsning</i>, bind 2, nr. 2, 28. april 1830 (se side 273).-->Paa <hi rend="italic">Tiden</hi>, paa et evigt <hi rend="italic">Jeg</hi> i os, paa et evigt <hi rend="italic">Du</hi> over os, maae vi haabe</seg>.</p></quote>
+<bibl><p rend="right" xml:id="p_00600"><hi rend="italic">Jean Paul</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00601"><seg target="txtcmnt-277-03"><!--DATA-TERM: Der gives Øjeblikke … glemmes--><!--DATA-DEFINITION: »Il est des époques dans la vie humaine, qui sont faites pour n’être jamais oubliées«; fra den schweizisk-franske filosof og forfatter Jean-Jacques Rousseaus (1712-1778) <i>Emile, ou de l’Éducation</i>, Tome Second, Premiere Partie, 1762, s. 110; i den danske oversættelse <i>Emil eller om Opdragelsen</i>, Fjerde Deel, 1798, oversættes det pågældende stykke: »Der gives Tidsrum i det menneskelige Liv, der aldrig bør forglemmes igjen« (s. 301).-->Der gives Øjeblikke i Menneskelivet, blevne til for aldrig at glemmes</seg>.</p></quote>
+<bibl><p rend="right" xml:id="p_00602"><hi rend="italic">Rousseau</hi></p>
+</bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00603"><seg target="txtcmnt-277-04"><!--DATA-TERM: Hvor der er Børn … Juul--><!--DATA-DEFINITION: »Hvor der er Børn, der er en evig <i>Juul</i>!«, fra Adam Oehlenschlägers <i>Den lille Hyrdedreng. En Idyl</i>, 1818, s. 61.-->Hvor der er Børn – der er en evig Juul</seg>.</p></quote>
+<bibl><p rend="right" xml:id="p_00604"><hi rend="italic">Oehlenschlæger</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p><seg target="txtcmnt-277-05">Den, som flyver høit over Jorden, fristes let til at see <hi rend="italic">nedad</hi> istedetfor <hi rend="italic">opad</hi>, og glemmer, at det Rum <hi rend="italic">nedenfor</hi> er kun et Punkt i Sammenligning med hiint grændseløse <hi rend="italic">ovenfor</hi></seg>. –</p></quote>
+<lg xml:id="p_00606">
+<quote><l rend="noIndent"><seg target="txtcmnt-277-06" type="dfnStart"/><!--DATA-TERM: O, Verden … indbyder--><!--DATA-DEFINITION: »O Verden har saa mangen Bag, / Som os til Riis indbyder«; fra Christian Wilsters (1797-1840) digt »Riimbrev fra Soröe«, i <i>Digtninger</i>, 1827, s. 62.-->O, Verden har saa mangen Bag,</l>
+<l rend="noIndent">Som os til Riis indbyder<seg type="dfnEnd" target="txtcmnt-277-06"/>.</l></quote>
+<bibl><l rend="right"><hi rend="italic">Wilster</hi></l></bibl>
+</lg>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<quote><p rend="noIndent" xml:id="p_00607"><seg target="txtcmnt-277-07"><!--DATA-TERM: Uskyldighed, kun naar … Død--><!--DATA-DEFINITION: »Unschuld, nur, wenn du dich nicht kennst, wie die kindliche, dann bist du eine; aber dein Bewußtsein ist dein Tod«; fra Jean Paul <i>Flegeljahre. Ein Biographie</i>, bind 3, 1804, s. 61-62. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <i>Nyt Repertorium for Moerskabslæsning</i>, bind 2, nr. 2, 28. april 1830 (se side 273).-->Uskyldighed, kun naar du ikke kjender dig selv, saaledes som den barnlige, da er du ren, men Bevidstheden om dig selv, er din Død</seg>.</p></quote>
+<bibl><p rend="right" xml:id="p_00608"><hi rend="italic">Jean Paul</hi></p></bibl>
+<graphic type="shortLine"/>
+</cit>
+<cit>
+<p rend="noIndent" xml:id="p_00609"><!--DATA-TERM: Der er sandelig … een Jøde--><!--DATA-DEFINITION: »Damals, mein Herr, hatten alle Juden nur Einen König, jezt aber haben alle Könige nur Einen Juden«; fra den tyske forfatter Wilhelm Hauffs (1802-1827) <i>Mittheilungen aus den Memoiren des Satan</i>, bind 2, 1827, s. 304.-->Der er sandelig en betydelig Forskjel imellem vor Tid og <seg target="txtcmnt-277-09">Kong Davids</seg>; – – dengang havde alle Jøder kun een Konge, nu have alle Konger kun een Jøde.</p>
+<bibl><p rend="right" xml:id="p_00610"><hi rend="italic">W. Hauff</hi></p>
+</bibl>
+</cit>
+<pb n="278"/>
+<pb n="279"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Digterblomster, og Aforismer" synch="digterblomster-og-aforismer">
+<head type="section-comments">Digterblomster, og Aforismer</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Moerskabs-Læsning, og Curiosa. Tillæg til Iversens Avis</hi> (<hi rend="italic">Fyens Stifts Avis, og Avertissementstidende</hi>), nr. 102, 9. juli 1830. BFN 93</p>
+<table rend="textcomments">
+<cell type="page">276</cell><cell><row xml:id="txtcmnt-276-01"><cell type="data-term">Aforisme(r)</cell><cell type="data-definition">oprindelig antik litterær genre, hvor lærdom overleveres i fyndig uargumenteret stil; siden med moraliserende og filosofisk indhold.</cell></row><row xml:id="txtcmnt-276-02"><cell type="data-term">At drømme … Buxer</cell><cell type="data-definition">»At drømme sig en Ven blandt Verdens mange Luxer, / Er med en Blomsterstilk at binde sine Buxer«; fra Simon Meislings (1787-1856) oversættelse af den italienske komediedigter Carlo Gozzis (1720-1806) såkaldte eventyrspil <hi rend="italic">L’Augellino belverde</hi>, 1765, »Den lille Grønne Fugl« i <hi rend="italic">Dramatiske Eventyr af Carlo Gozzi. Fra det Italienske ved S. Meisling</hi>, 1821, s. 68.</cell></row><row xml:id="txtcmnt-276-03"><cell type="data-term">Luxer</cell><cell type="data-definition">gavtyve.</cell></row><row xml:id="txtcmnt-276-04"><cell type="data-term">Ethvert Slag … Digterkunsten</cell><cell type="data-definition">»Jeder Schlag des Herzens schlägt uns eine Wunde, und das Leben wäre ein Ewiges Verbluten, wenn nicht die Dichtkunst wäre«; fra den tyske forfatter Ludwig Börnes (1786-1837) <hi rend="italic">Denkrede auf Jean Paul</hi>, 1825, s. 4. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 2, nr. 2, 28. april 1830 (se side 273).</cell></row><row xml:id="txtcmnt-276-05"><cell type="data-term">Vunde</cell><cell type="data-definition">sår.</cell></row><row xml:id="txtcmnt-276-06"><cell type="data-term">Bag Solen hist … Aandernes Skaber</cell><cell type="data-definition">»Hinter den Sonnen ruhen Sonnen im lezten Blau, ihr fremder Strahl fliegt seit Jahrtausenden auf dem Wege zur kleinen Erde, aber er kommt nicht an. O du sanfter, naher Gott, kaum thut ja der Menschengeist sein kleines, junges Aug auf, so strahlst du schon hinein, o Sonne der Sonnen und Geister!«; fra Jean Paul <hi rend="italic">Flegeljahre. Ein Biographie</hi>, bind 1, 1804, s. 108; Jean Paul, pseudonym for Johann Paul Freidrich Richter (1763-1825), tysk digter. Oversættelsen findes tillige i en let ændret version trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 2, nr. 2, 28. april 1830 (se side 273).</cell></row><row xml:id="txtcmnt-276-07"><cell type="data-term">Du skuer … Ocean</cell><cell type="data-definition">»Du skuer Bækkenes Løb, men ei du kjender / Dens sidste Bølgeslag paa fjerne Strand: / Du skuer Livet, men ei hvor det ender / I Evighedens dybe Ocean«; fra den danske præst og forfatter Jens Hansen Smidths (1769-1847) <hi rend="italic">Danske Haver</hi>, 1823, s. 47, hvor det findes som nummer tre af en række »Indskrifter« og bærer titlen »Ved en Kilde«.</cell></row><row xml:id="txtcmnt-276-08"><cell type="data-term">En Kjæmpe … Kjæmpe</cell><cell type="data-definition">»Ein Riese ist nur zweimal so groß als ein Zwerg, und jeder Zwerg ist ein halber Riese«; fra Ludwig Börne »Über den Umgang mit Menschen«, <hi rend="italic">Gesammelte Schriften von Ludwig Börne</hi>, bind 3, 2. oplag, 1835, s. 239. Teksten er skrevet i 1824, men tilsyneladende først trykt i <hi rend="italic">Gesammelte Schriften von Ludwig Börne</hi>, 1829-1832, hvor den sammen med en række andre tekster bringes under overskriften »Vermischte Aufsätze«. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 2, nr. 2, 28. april 1830 (se side 273).</cell></row><row xml:id="txtcmnt-276-09"><cell type="data-term">Kun hvor … Historie</cell><cell type="data-definition">»Kun hvor der er Kamp og Stræben, er der noget at fortælle. Den paradisiske Lyksalighed har ingen Historie«; fra Adam Oehlenschläger (1779-1850) <hi rend="italic">Øen i Sydhavet</hi>, 3. del, 1825, s. 78.</cell></row></cell>
+<cell type="page">277</cell><cell><row xml:id="txtcmnt-277-01"><cell type="data-term">Hvad gavner, Helt … græder</cell><cell type="data-definition">»Hvad gavner, Helt! Dig Navn og <pb n="644"/>Hæder, / naar over Dig eet Øie græder?«; fra den danske forfatter Frederik Høegh-Guldbergs (1771-1852) digt »Ung Grethes Skjebne«, i <hi rend="italic">Samlede Smaating, i bunden og ubunden Tale</hi>, bind 2, 1815, s. 352.</cell></row><row xml:id="txtcmnt-277-02"><cell type="data-term">Paa Tiden … haabe</cell><cell type="data-definition">»Auf die Zeit, auf ein ewiges Ich in uns, auf ein ewiges Du über uns müssen wir hoffen«; fra Jean Paul »Protektorium für den Herausgeber« i <hi rend="italic">Clavis Fichtiana seu Leibgeberiana</hi>, 1800, der udkom som et vedhæng til første del af <hi rend="italic">Titan</hi>, 1800; her citeret efter <hi rend="italic">Jean Paul’s sämmtliche Werke</hi>, bind 30, 1827, s. 33. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 2, nr. 2, 28. april 1830 (se side 273).</cell></row><row xml:id="txtcmnt-277-03"><cell type="data-term">Der gives Øjeblikke … glemmes</cell><cell type="data-definition">»Il est des époques dans la vie humaine, qui sont faites pour n’être jamais oubliées«; fra den schweizisk-franske filosof og forfatter Jean-Jacques Rousseaus (1712-1778) <hi rend="italic">Emile, ou de l’Éducation</hi>, Tome Second, Premiere Partie, 1762, s. 110; i den danske oversættelse <hi rend="italic">Emil eller om Opdragelsen</hi>, Fjerde Deel, 1798, oversættes det pågældende stykke: »Der gives Tidsrum i det menneskelige Liv, der aldrig bør forglemmes igjen« (s. 301).</cell></row><row xml:id="txtcmnt-277-04"><cell type="data-term">Hvor der er Børn … Juul</cell><cell type="data-definition">»Hvor der er Børn, der er en evig <hi rend="italic">Juul</hi>!«, fra Adam Oehlenschlägers <hi rend="italic">Den lille Hyrdedreng. En Idyl</hi>, 1818, s. 61.</cell></row><row xml:id="txtcmnt-277-05"><cell type="data-term">Den, som flyver … hiint grændseløse ovenfor</cell><cell type="data-definition">citatet er ikke identificeret.</cell></row><row xml:id="txtcmnt-277-06"><cell type="data-term">O, Verden … indbyder</cell><cell type="data-definition">»O Verden har saa mangen Bag, / Som os til Riis indbyder«; fra Christian Wilsters (1797-1840) digt »Riimbrev fra Soröe«, i <hi rend="italic">Digtninger</hi>, 1827, s. 62.</cell></row><row xml:id="txtcmnt-277-07"><cell type="data-term">Uskyldighed, kun naar … Død</cell><cell type="data-definition">»Unschuld, nur, wenn du dich nicht kennst, wie die kindliche, dann bist du eine; aber dein Bewußtsein ist dein Tod«; fra Jean Paul <hi rend="italic">Flegeljahre. Ein Biographie</hi>, bind 3, 1804, s. 61-62. Oversættelsen findes tillige trykt i »Aphorismer af forskjellige Digtere« (BFN 87), <hi rend="italic">Nyt Repertorium for Moerskabslæsning</hi>, bind 2, nr. 2, 28. april 1830 (se side 273).</cell></row><row xml:id="txtcmnt-277-08"><cell type="data-term">Der er sandelig … een Jøde</cell><cell type="data-definition">»Damals, mein Herr, hatten alle Juden nur Einen König, jezt aber haben alle Könige nur Einen Juden«; fra den tyske forfatter Wilhelm Hauffs (1802-1827) <hi rend="italic">Mittheilungen aus den Memoiren des Satan</hi>, bind 2, 1827, s. 304.</cell></row><row xml:id="txtcmnt-277-09"><cell type="data-term">Kong David(s)</cell><cell type="data-definition">David, Israels anden konge, regerede formodentlig i 900-tallet f.Kr.; jf. bl.a. 1. og 2. Samuelsbog og 1. Krønikebog.</cell></row></cell>
+</table>
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

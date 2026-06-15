@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Last Pearl</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.1">1.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-sidste-perle">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-sidste-perle_modern.xml">moderniseret version</note>
+                                                       <note target="114_The-Last-Pearl.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There was once a rich house, a happy house; all those inside it, the family and ...</incipit><idno type="image">Den_sidste_Perle_forside_grey.png</idno><popularity>919</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Last Pearl. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">adjusted content (2 x guardian angel &gt; 1 guardian, 1 good angel)</change><change who="NHB" when="2022-09-20">guardian angel &gt; guardian spirit, in accordance with latest version by John Irons</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change>
+<change who="NHB" when="2024-03-13" status="draft">removed first instance: guardian spirit <hi rend="italic">guardian spirit</hi> ><hi rend="italic">guardian spirit</hi></change>
+</revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+     <div rend="The Last Pearl">
+          <head type="main" rend="The Last Pearl">The Last Pearl</head>                <p rend="noIndent" xml:id="p_00001">There was once a rich house, a happy house; all those inside it, the family and servants, the friends as well, were delighted and full of joy, on that day an heir had been born, a son; and mother and child were both doing well.</p>
+          <p rend="firstIndent" xml:id="p_00002">The lamp in the cosy bedroom was half-shaded, heavy silk curtains of costly material were drawn tight across the windows. The carpet was thick and soft, like moss. Everything was just right for slumber, sleep and sweet repose, as the night nurse found too, she was asleep, as well she might be, everything was fine and blissful here. The guardian spirit of the house stood at the head of the bed; over the child, at its mother’s breast, spread out like a net of glittering stars, so profusely, each was a pearl of happiness. All of life’s good fairies had brought their gift to the newly born; here good health, wealth, happiness and love sparkled, in short all that anyone could wish for on this earth.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘Everything has been brought and given!’ the <hi rend="italic">guardian spirit</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00004">‘No!’ said a voice close by, it was the child’s <hi rend="italic">good angel</hi>. ‘One fairy has not yet brought her gift, but she will bring it, bring it at some point, even though years may pass. The last pearl is lacking!’</p>
+          <p rend="firstIndent" xml:id="p_00005">‘Lacking! nothing is to be lacking here, and should that be the case, let us go and search for her, the powerful fairy, let us go to her!’</p>
+          <p rend="firstIndent" xml:id="p_00006">‘She will come, she will come at some point! her pearl must be added so that the wreath can be bound together!’</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Where does she live? Where is her home! tell me, I will go and fetch the pearl!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Since that is your will!’ the child’s <hi rend="italic">good angel</hi> said, ‘I will take you to her, wherever she may be! she has no fixed abode, she comes to the emperor’s palace and to the poorest peasant, she passes no one without leaving a trace, to all of them she brings her gift, whether it is a world or a plaything! also this child she must meet. You think that time is equally long but not equally useful, very well, we will go and fetch the pearl, the last pearl of this abundance!’</p>
+          <p rend="firstIndent" xml:id="p_00009">And hand in hand they floated off to the place that right then was where the fairy resided.</p>
+          <p rend="firstIndent" xml:id="p_00010">It was a large house with dark passages, empty rooms, and a strange stillness; a number of windows stood open, so that the raw air was able to blow in; the long, white hanging curtains fluttered in the current of air.</p>
+          <p rend="firstIndent" xml:id="p_00011">In the middle of the floor there stood an open coffin and in it rested the body of a woman, still in her prime; the loveliest fresh roses lay over her, so that only her folded, delicate hands were visible as well as the noble face, transfigured in death, with the high, noble seriousness of initiation into God.</p>
+          <p rend="firstIndent" xml:id="p_00012">At the coffin stood the husband and children, a whole host of them; the smallest sat on his father’s arm, they said their final farewell; and the man kissed her hand, the one which was now a withered leaf, and that formerly had taken care of them with strength and love. Heavy, salt tears fell in large drops onto the floor, but not a word was spoken. The silence here contained a whole world of pain. And silently, sobbing, they left.</p>
+          <p rend="firstIndent" xml:id="p_00013">A candle stood there, the twisting tongue of its flame shooting up and reddening part of its charred wick. Strangers entered, placed the lid over the corpse, drove in the nails, the hammer blows echoing through the rooms and passages of the house, reaching the hearts that were bleeding.</p>
+          <p rend="firstIndent" xml:id="p_00014">‘Where are you taking me!’ the <!--guardian spirit --><hi rend="italic">guardian spirit</hi> asked, ‘no fairy lives here whose pearl belongs to life’s best gifts!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘At this very place she dwells, here in this holy hour,’ the <hi rend="italic">good angel</hi><!--the guardian spirit--> said, and pointed over to the corner, and there, where in life’s days the mother had sat among flowers and pictures, where she, as the blessed fairy of the house, used to nod lovingly to her husband, children and friends, where she, as the house’s sunbeam, used to spread happiness and was the hub and heart of the whole house, there now sat an unknown woman, in a long, flowing silk dress – it was <hi rend="italic">Sorrow</hi>, now the mistress of the house, the mother in the place of the deceased. A burning tear rolled down onto her lap and became a pearl; it glittered with all the colours of the rainbow, and the angel took hold of it, and the pearl shone, like a star with a seven-coloured gleam.</p>
+          <p rend="firstIndent" xml:id="p_00016">‘<hi rend="italic">Sorrow’s Pearl</hi>, the last one that cannot be done without! through it the glitter and lustre of the others are heightened. Just look at the gleam of the rainbow, that which links earth to heaven. For each of our dear ones that leaves us on dying, we gain one friend more in heaven to yearn for. In earthly night we gaze up at the stars, towards perfection! gaze at the <hi rend="italic">Pearl of Sorrow</hi>, in it lie Psyche’s wings that will bear us away from here!’</p>
+     </div>
+               
+</body>
+                         </text>
+                    </TEI>

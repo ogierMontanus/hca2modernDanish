@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Sommergækken</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="sommergjækken.xml" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="sommergjækken_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="159_The-Snowdrop.xml">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Sommergækken. Udg. af [INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1866</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change>
+                                        <change who="NHB" when="2023-09-29">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Sommergjækken" xml:id="sommergjækken">
+<head type="main"><seg target="txtcmnt-129-01"><!--DATA-TERM: Sommergjækken--><anchor target="txtcmnt-129-01"/><!--vintergækken.-->sommergækken</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">det var vintertid, luften kold, vinden skarp, men inden døre var lunt og godt, inden døre lå blomsten, den lå i sit løg under jord og sne.</p>
+
+<p rend="firstIndent" xml:id="p_00002">en dag faldt regn; dråberne trængte ned gennem snelaget ned i jorden, rørte ved blomsterløget, meldte om lysverdenen ovenover; snart trængte solstrålen så fin og borende, gennem sneen, ned til løget og prikkede på det.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»kom ind!« sagde blomsten.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»det kan jeg ikke!« sagde solstrålen; »jeg er ikke stærk nok til at lukke op! jeg bliver stærk til sommer.«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»<seg target="txtcmnt-129-02"><!--DATA-TERM: Naar er det Sommer--><anchor target="txtcmnt-129-02"/><!--hvornår er det sommer.-->når er det sommer</seg>?« spurgte blomsten, og gentog det, hvergang en ny solstråle trængte ned. men det var langt fra sommertid; sneen lå endnu, der frøs is på vandet hver evige nat.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»hvor det varer! hvor det varer!« sagde blomsten. »jeg føler kriblen og krablen, jeg må række mig, jeg må strække mig, jeg må lukke op, jeg må ud! nikke godmorgen til sommeren, det bliver en livsalig tid!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">og blomsten rakte sig og strakte sig derinde mod den tynde skal, som vandet udenfor havde blødgjort, sne og jord opvarmet, solstrålen prikket ind i; den skød frem under sneen, med hvidgrøn knop på sin grønne stilk, med smalle tykke blade, der ligesom vilde skerme om den. sneen var kold, men gennemstrålet af lyset, dertil så let at bryde igennem, og her kom solstrålen med stærkere magt end før.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»velkommen! velkommen!« sang og klang hver stråle, og blomsten løftede sig over sneen ud i lysverdenen. solstrålerne klappede og kyssede den, så at den åbnede sig helt, hvid som sneen og pyntet med grønne striber. den bøjede sit hoved i glæde og ydmyghed.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»dejlige blomst!« sang solstrålerne. »hvor du er frisk og skær! du er den første, du er den eneste! du er vor kærlighed! du ringer sommer, dejlig sommer over land og by! al sneen skal smelte! de kolde vinde jages bort! vi skulle råde! <pb n="130"/>alting vil grønnes! og så får du selskab, syrener og guldregn og til sidst roserne, men du er den første, så fin og skær!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">det var en stor fornøjelse. det var, som luften sang og klang, som trængte lysets stråler ind i dens blade og stilk; der stod den så fin og let til at bryde og dog så kraftig, i ung dejlighed; den stod i hvid kjortel med grønne bånd og priste sommer. men det var langt fra sommertid, skyer skjulte solen, skarpe vinde blæste på den.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»du er kommet lidt for tidligt!« sagde vind og vejr. »vi har endnu magten! den skal du føle og finde dig i! du skulde være blevet inden døre, ikke løbet ud at stadse, det er ikke tiden endnu!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">det var bidende koldt! dagene, som kom, bragte ikke en solstråle! det var vejr til at fryse istykker i, for sådan en lille <seg target="txtcmnt-130-01"><!--DATA-TERM: skjør--><anchor target="txtcmnt-130-01"/><!--skrøbelig.-->skjør</seg> blomst. men der var mere styrke i den, end den selv vidste; den var stærk i glæde og tro på den sommer, der måtte komme; der var den forkyndt i dens dybe attrå og bekræftet af det varme sollys, og således stod den med fortrøstning i sin hvide dragt, i den hvide sne, bøjende sit hoved, når snefnuggene faldt tætte og tunge, mens de isnende vinde fore hen over den.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»du knækker over!« sagde de. »visner, isner! hvad vilde du ude! hvorfor lod du dig lokke, solstrålen har gækket dig! nu kan du have det så godt, du sommergæk!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»sommergæk!« gentog den i den kolde morgenstund.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»sommergæk!« jublede nogle børn, der kom ned i haven, »der står én, så yndig, så dejlig, den første, den eneste!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">og de ord gjorde blomsten så godt, det var ord ligesom varme solstråler. blomsten fornemmede i sin glæde ikke engang, at den blev plukket; den lå i barnehånd, blev kysset af barnemund, blev bragt ind i den varme stue, set på af milde øjne, sat i vand, så styrkende, så oplivende. blomsten troede, at den med ét var kommet lige ind i sommeren.</p>
+
+<p rend="firstIndent" xml:id="p_00017">datteren i huset, en yndig, lille pige, hun var konfirmeret, hun havde en kær lille ven, og han var også konfirmeret, han læste til levebrød. »han skal være <seg target="txtcmnt-130-02"><!--DATA-TERM: min Sommergjæk--><anchor target="txtcmnt-130-02"/><!--person, der gækkes, dvs. overraskes ved at modtage årets første blomst samt et gækkebrev og derved bliver ens nar for sommeren.-->min sommergæk</seg>!« sagde hun; tog så den fine blomst, lagde den i et duftende stykke papir, som der var skrevet vers på, vers om blomsten, der begyndte med sommergæk, og endte med sommergæk, »lille ven, vær vinternar!« hun havde gækket ham med sommeren. ja, det stod alt sammen i verset, og det blev lagt som brev, <pb n="131"/>blomsten lå deri, og der var mørkt om den, mørkt, som da den lå i løget. blomsten kom på rejse, lå i postsæk, blev klemt og knuget, det var slet ikke behageligt; men det fik også ende.</p>
+
+<p rend="firstIndent" xml:id="p_00018">rejsen var forbi, brevet blev åbnet og læst af den kære ven; han var så fornøjet, han kyssede blomsten, og den blev, med sit vers omkring sig, lagt ned i en skuffe, hvori lå flere dejlige breve, men alle uden blomst, den var den første, den eneste, som solstrålerne havde kaldt den, og det var fornøjeligt at tænke over.</p>
+
+<p rend="firstIndent" xml:id="p_00019">længe fik den også lov at tænke derover, den tænkte, mens sommeren gik, og den lange vinter gik, og det blev sommer igen, da kom den atter frem. men da var den unge mand slet ikke glad; han tog så hårdt på papirerne, smed verset hen, så at blomsten faldt på gulvet, flad og vissen var den blevet, men derfor skulde den dog ikke kastes på gulvet; dog der lå den bedre end i ilden, <hi rend="italic">der</hi> blussede versene og brevene op. hvad var der sket? hvad der sker så tit. blomsten havde gækket ham, det var en spøg; jomfruen havde gækket ham, det var ingen spøg; hun havde kåret sig en anden ven i skærsommer.</p>
+
+<p rend="firstIndent" xml:id="p_00020">I morgenstunden skinnede solen ind på den lille fladtrykte sommergæk, der så ud, som den var malet på gulvet. pigen, som fejede, tog den op, lagde den ind i en af bøgerne på bordet, idet hun troede, at den var falden ud, da hun ryddede op og lagde i orden. og blomsten lå igen mellem vers, trykte vers, og de er fornemmere end de skrevne, idetmindste er der kostet mere på dem.</p>
+
+<p rend="firstIndent" xml:id="p_00021">så gik åringer, bogen stod på hylden: nu kom den frem, blev åbnet og læst i; det var en god bog: vers og viser af den danske digter Ambrosius Stub, som nok er værd at kende. og manden, som læste i bogen, vendte bladet. »der ligger jo en blomst!« sagde han, »en sommergæk! det er nok med betydning, den er lagt her; stakkels Ambrosius Stub! han var også en sommergæk, en digtergæk! han kom for tidlig i sin tid, og derfor fik han slud og skarpe vinde, gik på omgang hos de fyenske herremænd, som blomst i vandglasset, blomst i <seg target="txtcmnt-131-02"><!--DATA-TERM: Riimbrevet--><anchor target="txtcmnt-131-02"/><!--gækkebrevet var rimet.-->riimbrevet</seg>! sommergæk, vinternar, spas og narrestreger, og dog den første, den eneste, den ungdomsfriske danske digter. ja, lig som mærke i bogen, lille sommergæk! du er lagt der med betydning.«</p>
+
+<p rend="firstIndent" xml:id="p_00022">og så blev sommergækken igen lagt i bogen, og følte sig <pb n="132"/>der både beæret og fornøjet ved at vide, at den var mærke i den dejlige sangbog, og at den, der havde først sunget og skrevet om den, også havde været sommergæk, stået til nar i vinteren. blomsten forstod det nu på sin måde, ligesom vi enhver ting på vor måde.</p>
+
+<p rend="firstIndent" xml:id="p_00023">det er eventyret om sommergækken!</p>
+
+<pb n="133"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Sommergjækken" xml:id="sommergjækken">
+<head type="section-comments">Sommergækken</head>
+
+
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">129</cell><cell type="deviation">3: sit &lt; sin – 4: Sne. &lt; Sne; Livet pippede i den, Tankerne rørte sig der om en Verden ovenfor, og om Luft og Lys! der måtte være dejligere og bedre, end hvor den nu lå; men hvorledes der var og hvorledes Blomsten selv der vilde være, kunde den ikke udfinde. – 6: Blomsterløget &lt; Blomsterløgen – 8: Løget &lt; Løgen – det &lt; den – 24: skerme &lt; vogte og skærme</cell></row>
+<row><cell type="position">130</cell><cell type="deviation">1: Syrener &lt; Sirener – 11: være blevet &lt; have blevet – 12: Døre &lt; Dør – 20: Snefnuggene &lt; Snefnokkene – 21: fore &lt; for – 33: så &lt; som – så &lt; som – 34: kommet &lt; kommet – 42: lagt &lt; lagt sammen</cell></row>
+<row><cell type="position">131</cell><cell type="deviation">2: Løget &lt; Løgen – 16: blevet &lt; blevet – 17: Versene &lt; Verset – 30: Bog &lt; Bog i</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">129</cell><row xml:id="txtcmnt-129-01"><cell type="data-term">Sommergækken</cell><cell type="data-definition">vintergækken.</cell></row><row xml:id="txtcmnt-129-02"><cell type="data-term">Når er det Sommer</cell><cell type="data-definition">hvornår er det sommer.</cell></row>
+<cell type="page">130</cell><row xml:id="txtcmnt-130-01"><cell type="data-term">skjør</cell><cell type="data-definition">skrøbelig.</cell></row><row xml:id="txtcmnt-130-02"><cell type="data-term">min Sommergæk</cell><cell type="data-definition">person, der gækkes, dvs. overraskes ved at modtage årets første blomst samt et gækkebrev og derved bliver ens nar for sommeren.</cell></row><row xml:id="txtcmnt-130-03"><cell type="data-term">Vinternar</cell><cell type="data-definition">person, der er ens nar for vinteren, fordi vedkommende er gækket ved et gækkebrev.</cell></row>
+<cell type="page">131</cell><row xml:id="txtcmnt-131-01"><cell type="data-term">Ambrosius Stub</cell><cell type="data-definition">(1705-1758), dansk digter.</cell></row><row xml:id="txtcmnt-131-02"><cell type="data-term">Riimbrevet</cell><cell type="data-definition">gækkebrevet var rimet.</cell></row>
+</table>
+
+<p rend="noIndent">I trykket fra Folkekalender for Danmark 1863 havde eventyret en anden, længere slutning. I stedet for den sidste linje stod der:</p>
+
+<p rend="firstIndent">En Dag kom Bogen frem igen, det var et andet Menneske, som så i den: »Der ligger en Vintergæk!« sagde han.</p>
+<p rend="firstIndent">Det var et nyt Navn for Blomsten, det havde den aldrig hørt før, den kendte kun sit gamle og holdt det i Ære.</p>
+<p rend="firstIndent">»Vintergæk!« sagde de Andre i Stuen, »det er en ny Benævnelse, som vi ikke have kendt før i gamle Danmark. Lad os blive ved de Rette, og det er Navnet Sommergæk, det er et kønt Navn, det har Mening og Betydning, og det står desuden i Molbechs Ordbog!«</p>
+<p rend="firstIndent">»Men i »Plantelæren« står Vintergæk!« sagde den Anden. »Kan Du negte det?«</p>
+<p rend="firstIndent">Og så blev der stridt om Navnet, og den Ene vilde være klogere end den Anden.</p>
+<p rend="firstIndent">»Galanthus nivalis er det botaniske Navn!« »Sommergæk er det danske! jeg holder mig til mine Forfædres fornuftige Tale og ikke til Latinen! den kan gå hen at lægge sig!«</p>
+<p rend="firstIndent">Og Blomsten selv holdt med <hi rend="italic">ham</hi>, som kaldte den Sommergæk, for det er der Mening i!</p>
+<p rend="right">H. C. Andersen.</p>
+
+<pb n="424"/>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

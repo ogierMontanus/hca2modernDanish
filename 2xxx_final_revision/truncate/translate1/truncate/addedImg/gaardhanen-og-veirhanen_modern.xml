@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Gårdhanen og Vejrhanen</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor role="content">Laurids Kristian Fahl</editor><editor role="content">Esther Kielberg</editor><editor role="content">Klaus P. Mortensen</editor><editor role="content">Jesper Gehlert Nielsen</editor><editor role="content">Finn Gredal Jensen</editor><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Fjerde Samling, der udkom den 9. december 1859 med årstallet 1860 på titelbladet.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="gaardhanen-og-veirhanen"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-31" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2023-09-01" status="draft">extrakted from larger file with entire volume</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="gaardhanen-og-veirhanen">
+<head type="main">Gårdhanen og vejrhanen</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var to haner, en på møddingen og en på taget, hovmodige begge to, men hvem udrettede mest? Sig os din mening – vi beholder vor egen alligevel.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Hønsegården var ved et plankeværk skilt fra en anden gård hvori lå en mødding, og på den voksede en stor agurk, der var sig bevidst at være en <seg><!--DATA-TERM: Mistbænk(-Væxt)--><anchor target="txtcmnt-295-01"/><!--drivbænk, glasoverdækket bed.-->mistbænkvækst</seg>:</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Det fødes man til!« sagde det indeni den. »Ikke alle kan fødes til agurker, der må også være andre levende arter! Hønsene, ænderne og hele nabogårdens besætning er også skabninger. Gårdhanen ser jeg nu op til på plankeværket, han er rigtignok af anderledes betydenhed end vejrhanen, der er sat så højt og ikke engang kan knirke, endsige gale! Han har hverken høns eller kyllinger, han tænker kun på sig selv og <seg><!--DATA-TERM: sveder Spanskgrønt--><anchor target="txtcmnt-295-02"/><!--irrer (den er af kobber).-->sveder spanskgrønt</seg>! Nej, gårdhanen, det er en hane! Se ham gøre trit, det er dans! Høre ham gale, det er musik! Hvor han kommer, får man at høre hvad en trompeter er! Om han kom herind, om han åd mig op med blad og stilk, om jeg gik op i hans krop, det var salig død!« sagde agurken.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Ud på natten blev det et frygteligt vejr. Høns, kyllinger og hanen med søgte ly, plankeværket mellem gårdene blæste ned så det gav et stærkt rabalder, tagstenene faldt, men vejrhanen sad fast, den drejede sig ikke engang, den kunne ikke, og dog var den ung, nystøbt, men sindig og adstadig. Den var født gammel, lignede ikke de flagrende himlens fugle, spurve og svaler, dem foragtede den, »pipfuglene, ringe af størrelse og ordinære!« Duerne var store, blanke og skinnende som perlemor, så ud som en slags vejrhane, men de var tykke og dumme, al deres tanke gik ud på at få noget i <!--DATA-TERM: Skrotten--><!--skrutten, maven.-->skrutten, sagde vejrhanen, kedelige <seg><!--DATA-TERM: i Omgang--><anchor target="txtcmnt-295-04"/><!--at have omgang med.-->i omgang</seg> var de. Trækfuglene havde også gjort visit, fortalt om fremmede lande, om luftkaravaner og frygtelige røverhistorier med rovfuglene, det var nyt og interessant første gang, men senere vidste vejrhanen at de gentog sig, at det altid var det samme, og <pb n="296"/>det er kedeligt! De var kedelige, og alt var kedeligt, ingen var til omgang, hver en var <seg><!--DATA-TERM: fad og flau--><anchor target="txtcmnt-296-01"/><!--åndløs og dum, indskrænket.-->fad og flov</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Verden duer ikke!« sagde den. »Vrøvl det hele!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">Vejrhanen var hvad man kalder blasert, og det havde bestemt gjort ham interessant for agurken havde hun vidst det, men hun så kun op til gårdhanen, og nu var den inde i gården hos hende.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Plankeværket var blæst om, men lyn og torden var forbi.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Hvad siger I om det hanegal?« sagde gårdhanen til høns og kyllinger. »Det var noget råt, elegancen manglede!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">Og høns og kyllinger trådte ind på møddingen, hanen kom med ryttertrin.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Havevækst!« sagde han til agurken, og i det ene ord fornemmede hun hele hans udstrakte dannelse og glemte at han hakkede i hende og åd hende.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Salig død!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Og hønsene kom, og kyllingerne kom, og når den ene løber, så løber den anden med, og de klukkede, og de pippede, og de så på hanen, de var stolte af ham, han var af deres art.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Kykkeleky!« galede han, »kyllinger blive straks til store høns når jeg siger det i verdens hønsegård!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og høns og kyllinger klukkede og pippede bagefter!</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og hanen forkyndte en stor nyhed.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»En hane kan lægge et æg! Og ved I hvad der ligger i det æg? Der ligger en <seg><!--DATA-TERM: Basilisk--><anchor target="txtcmnt-296-02"/><!--fabeldyr, som har skikkelse af en slange med hanehoved, og hvis (græske) navn betyder lille konge. Tillægges evnen til at kunne dræbe med sit blik; jf. Thiele II, 300.-->basilisk</seg>! Synet af den kan ingen udholde! Det ved menneskene, og nu ved I det med, ved hvad der bor i mig! Ved hvad jeg er for en allerhønsegårds karl!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">Og så slog gårdhanen med vingerne, rejste kammen og galede igen. Og det gøs i alle hønsene og i alle de små kyllinger, men de var frygteligt stolte af at en af deres var sådan en allerhønsegårds karl. De klukkede og de pippede så at vejrhanen måtte høre det, og han hørte det, men han rørte sig ikke derved.</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Vrøvl det hele!« sagde det inden i vejrhanen. »Gårdhanen lægger aldrig æg, og jeg gider ikke! Ville jeg, kunne jeg nok lægge et <seg><!--DATA-TERM: Vindæg--><anchor target="txtcmnt-296-03"/><!--egentlig ubefrugtet, goldt æg. Spiller på vejrhanens funktion som vindfløj.-->vindæg</seg>! Men verden er ikke et vindæg værd! Vrøvl det hele! – Nu gider jeg ikke engang sidde!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">Og så knækkede vejrhanen af, men han slog ikke gårdhanen ihjel, »skønt det var det beregnet på!« sagde hønsene. Og hvad siger moralen?</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Det er dog bedre at gale end at være blasert og knække af!«</p>
+
+<pb n="297"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="gaardhanen-og-veirhanen">
+<head type="section-comments">Gårdhanen og Vejrhanen</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Fjerde Samling, der udkom den 9. december 1859 med årstallet 1860 på titelbladet.</p>
+<p rend="noIndent">BFN 796/III,159-161/VII,212.</p>
+
+<table rend="textcomments">
+<cell type="page">295</cell><row xml:id="txtcmnt-295-01"><cell type="data-term">Mistbænk(-Væxt)</cell><cell type="data-definition">drivbænk, glasoverdækket bed.</cell></row><row xml:id="txtcmnt-295-02"><cell type="data-term">sveder Spanskgrønt</cell><cell type="data-definition">irrer (den er af kobber).</cell></row><row xml:id="txtcmnt-295-03"><cell type="data-term">Skrotten</cell><cell type="data-definition">skrutten, maven.</cell></row><row xml:id="txtcmnt-295-04"><cell type="data-term">i Omgang</cell><cell type="data-definition">at have omgang med.</cell></row>
+<cell type="page">296</cell><row xml:id="txtcmnt-296-01"><cell type="data-term">fad og flau</cell><cell type="data-definition">åndløs og dum, indskrænket.</cell></row><row xml:id="txtcmnt-296-02"><cell type="data-term">Basilisk</cell><cell type="data-definition">fabeldyr, som har skikkelse af en slange med hanehoved, og hvis (græske) navn betyder lille konge. Tillægges evnen til at kunne dræbe med sit blik; jf. Thiele II, 300.</cell></row><row xml:id="txtcmnt-296-03"><cell type="data-term">Vindæg</cell><cell type="data-definition">egentlig ubefrugtet, goldt æg. Spiller på vejrhanens funktion som vindfløj.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

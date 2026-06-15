@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Venskabs-Pagten</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang som kapitel XV i afsnittet om Grækenland i rejseskildringen <i>En Digters Bazar</i>, der udkom den 30. april 1842 (BNF 417). Udskilt som særskilt tekst og optaget med enkelte ændringer i <i>Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen</i>, 3. hefte, der udkom den 15. december 1862. Udgaven udkom i heftesubskription på i alt 6 hefter: 1.-3. hefte udgjorde Første Bind (1862), 4.-6. hefte udgjorde Andet Bind (1863).</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="venskabs-pagten" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="venskabs-pagten_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="61_The-Pact-of-Friendship">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Vi have nylig gjort en lille Reise og hige alt efter en større. Hvorhen? Til Spa...</incipit><readingTime>14</readingTime><popularity>922</popularity><cite>&lt;p&gt;H.C. Andersen: Venskabs-Pagten. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Venskabs-Pagten_hca_ill_0168.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1862</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Venskabs-Pagten" xml:id="venskabs-pagten">
+<head type="main">Venskabs-Pagten</head>
+
+<p rend="noIndent" xml:id="p_00001">Vi have nylig gjort en lille Reise og hige alt efter en større. Hvorhen? Til <seg target="txtcmnt-027-01"><!--DATA-TERM: Sparta--><anchor target="txtcmnt-027-01"/><!--græsk by, i oldtiden det politiske centrum i bystaten af samme navn.-->Sparta</seg>! til <seg target="txtcmnt-027-02"><!--DATA-TERM: Mycene--><anchor target="txtcmnt-027-02"/><!--Mykene, græsk bykultur i oldtiden.-->Mycene</seg>! til <seg target="txtcmnt-027-03"><!--DATA-TERM: Delphi--><anchor target="txtcmnt-027-03"/><!--græsk by, i oldtiden kendt for sit Apollontempel med tilhørende orakel.-->Delphi</seg>! der ere hundrede Steder, ved hvis Navne Hjertet slaaer af Reise-Lyst. Det gaaer til Hest, op ad Bjergstier, hen over Krat og Buske; den enkelte Reisende kommer frem som en heel Karavane. Selv rider han forud med sin <seg target="txtcmnt-027-04"><!--DATA-TERM: Argojat--><anchor target="txtcmnt-027-04"/><!--muldyrsdriver, ledte også de rejsendes heste.-->Argojat</seg>, en Pakhest bærer Koffert, Telt og Proviant, et Par Soldater følge efter til hans Beskyttelse; intet Vertshuus med velopredt Seng venter ham efter den trættende Dag-Reise, Teltet er tidt hans Tag i den store, vilde Natur, Argojaten koger der en <hi rend="italic">Pilaf</hi><note type="footnote"><!--* --><p rend="noIndent"><!--* -->Den tillaves af Høns, Riis og Carri.</p></note>, til Aftensmad; tusinde Myg omsuse det lille Telt, det er en ynkelig Nat, og imorgen gaaer Veien over stærkt opsvulmede Floder; sid fast paa din Hest, at Du ikke skyller bort.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Hvad Løn er der for disse Besværligheder? Den største! den rigeste! Naturen aabenbarer sig her i al sin Storhed, hver Plet er historisk, Øie og Tanke nyder. Digteren kan synge derom, Maleren give det i rige Billeder, men Virkelighedens Duft, der for evig trænger ind og forbliver i Beskuerens Tanke, mægte de ikke at gjengive.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Den eensomme Hyrde oppe paa Fjeldet vilde, ved en simpel Fortælling af een af sit Livs Begivenheder, maaskee bedre end Reisebeskrivere kunne oplukke Øiet for Dig, som i nogle enkelte Træk vil skue <seg target="txtcmnt-027-05"><!--DATA-TERM: Hellenernes Land--><anchor target="txtcmnt-027-05"/><!--Grækenland.-->Hellenernes Land</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Lad ham da tale! om en Skik, en smuk, eiendommelig Skik, skal Hyrden hist paa Bjerget fortælle os: <hi rend="italic">Venskabs-Pagten</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Vort Huus var klinet af Leer, men Dørkarmen var riflede Marmorsøiler, fundne, hvor Huset blev bygget; Taget naaede næsten til Jorden, det var nu sortbruunt og hæsligt, men da det blev lagt, var det blomstrende <seg target="txtcmnt-027-06"><!--DATA-TERM: Oleander--><anchor target="txtcmnt-027-06"/><!--laurbærrose.-->Oleander</seg> og friske Laurbærgrene, hentede bag Bjergene. Der var snevert om vort Huus, Klippevæggene stode steile opad og viste en nøgen, sort Farve; øverst paa dem hang ofte Skyer, som hvide, levende Skikkelser; <pb n="28"/>aldrig hørte jeg her en Sangfugl, aldrig dandsede Mændene her til Sækkepibernes Toner, men Stedet var helligt fra gamle Tider, Navnet selv minder derom, <hi rend="italic">Delphi</hi> kaldes det jo! De mørke, alvorlige Bjerge laae alle med Snee; det øverste, som skinnede længst i den røde Aftensol, var <hi rend="italic"><seg target="txtcmnt-028-01"><!--DATA-TERM: Parnas--><anchor target="txtcmnt-028-01"/><!--Parnassos, bjergmassiv i det centrale Grækenland ca. 110 km nordvest for Athen. På bjergets sydside lå i antikken oraklet i Delfi. Bjerget var helliget Apollon og de ni muser.-->Parnas</seg></hi>, <seg target="txtcmnt-028-02"><!--DATA-TERM: Bækken … hellig--><anchor target="txtcmnt-028-02"/><!--den kastaliske kilde, nu Hagios Johannes. Ifølge sagnet kastede nymfen Kastalia sig i kilden, da hun blev forfulgt af Apollon. Kildevandet antoges at kunne begejstre digtere.-->Bækken nær ved vort Huus strømmede ned derfra og var ogsaa engang hellig</seg>, nu plumrer Eslet den med sine Fødder, dog Strømmen rinder <seg target="txtcmnt-028-03"><!--DATA-TERM: fort--><anchor target="txtcmnt-028-03"/><!--videre.-->fort</seg> og <seg target="txtcmnt-028-04"><!--DATA-TERM: vorder atter klar--><anchor target="txtcmnt-028-04"/><!--bliver atter klar.-->vorder atter klar</seg>. Hvor jeg mindes hver Plet og dens hellige, dybe Eensomhed! Midt i Hytten blev Ilden tændt, og naar den hede Aske laae høit og glødende, blev Brødet bagt deri; laae Sneen ude rundt om vor Hytte, saa den næsten var skjult, da syntes min Moder gladest, da holdt hun mit Hoved mellem sine Hænder, kyssede min Pande og sang de Viser, som hun ellers aldrig sang, thi <seg target="txtcmnt-028-05"><!--DATA-TERM: Tyrkerne, vore Herrer--><anchor target="txtcmnt-028-05"/><!--Grækenland var i perioden ca. 1450-1829 underlagt tyrkisk herredømme.-->Tyrkerne, vore Herrer</seg>, <seg target="txtcmnt-028-06"><!--DATA-TERM: lede dem ikke--><anchor target="txtcmnt-028-06"/><!--kunne ikke lide dem, syntes ikke om dem.-->lede dem ikke</seg>; og hun sang: »<seg target="txtcmnt-028-07"><!--DATA-TERM: Paa Olympens Top … jagen og død--><anchor target="txtcmnt-028-07"/><!--folkesangen om den gamle hjort er en næsten ordret oversættelse af den tyske arkæolog H.N. Ulrichs’ oversættelse af en græsk sang, »Der alte Hirsch und das Reh«, i <i>Reisen und Forschungen in Griechenland von H.N. Ulrichs</i>, Erster Theil, Bremen 1840, s. 135.-->Paa <seg target="txtcmnt-028-08"><!--DATA-TERM: Olympen(s)--><anchor target="txtcmnt-028-08"/><!--Olympos, Grækenlands højeste bjerg, i antikkens mytologi regnet for gudernes tilholdssted.-->Olympens</seg> Top, i den lave Granskov, sad en gammel Hjort, dens Øine vare tunge af Taarer; røde, ja grønne og blegblaae Taarer græd den, og en Raabuk kom forbi: »»hvad feiler Dig dog, at Du græder saa, græder røde, grønne, ja blegblaae Taarer?«« »»Tyrken er kommen i vor By, han har vilde Hunde til sin Jagt, en mægtig Hob.«« »»Jeg jager dem over Øerne,«« sagde den unge Raabuk, »»jeg jager dem over Øerne, i det dybe Hav;«« men før Aftenen faldt paa var Raabukken dræbt, og før Natten kom var Hjorten jagen og død</seg>.« Og naar min Moder saaledes sang, bleve hendes Øine vaade, og der sad en Taare i de lange Øienhaar, men hun skjulte den og vendte saa i Asken vore sorte Brød. Da knyttede jeg min Haand og sagde: »vi ville slaae Tyrken ihjel;« men hun gjentog af Visen: »Jeg jager dem over Øerne, i det dybe Hav; men før Aftenen faldt paa var Raabukken dræbt, og før Natten kom var Hjorten jagen og død.« I flere Nætter og Dage havde vi været eensomme i vor Hytte, da kom min Fader; jeg vidste, han bragte mig Muslingskaller fra <seg target="txtcmnt-028-09"><!--DATA-TERM: Lepanto-Bugten--><anchor target="txtcmnt-028-09"/><!--nuværende Korinthiakós Kólpos.-->Lepanto-Bugten</seg> eller maaskee endog en Kniv, skarp og blinkende. Han bragte os denne Gang et Barn, en lille, nøgen Pige, som han holdt under sin Faareskinds Pels, hun var indbunden i et Skind, og Alt hvad hun havde, da hun laae løsnet derfra i min Moders Skjød, var tre Sølvmynter bundne i hendes sorte Haar. Og Fader fortalte om Tyrkerne, der havde dræbt Barnets Forældre, han fortalte os saa Meget, at jeg drømte derom den hele Nat; – min Fader selv var saaret, Moder forbandt hans Arm, Saaret var dybt; den tykke Faareskinds Pels var stivfrossen med Blodet. Den lille Pige skulde være min Søster, hun var saa deilig, saa skinnende klar, min Moders Øine <pb n="29"/>vare ei mildere end hendes; <hi rend="italic">Anastasia</hi>, som hun kaldtes, skulde være min Søster, thi hendes Fader var viet til min Fader, viet efter gammel Skik, som vi holde den endnu; de havde i Ungdoms Tid sluttet Broderskab, valgt den skjønneste og dydigste Pige i den hele Egn til at vie dem til Venskabs-Pagten; jeg hørte saa tidt om den smukke, selsomme Skik.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Nu var den Lille min Søster; hun sad paa mit Skjød, jeg bragte hende Blomster og Fjeldfuglens Fjer, vi drak sammen af Parnassets Vande, vi sov Hoved mod Hoved under Hyttens Laurbærtag, medens mangen Vinter endnu min Moder sang om de røde, de grønne og de blegblaae Taarer; men jeg begreb endnu ikke, at det var mit eget Folk, hvis tusindfold Sorger afspeilede sig i disse Taarer.</p>
+
+<p rend="firstIndent" xml:id="p_00007">En Dag kom der tre <seg target="txtcmnt-029-01"><!--DATA-TERM: frankiske--><anchor target="txtcmnt-029-01"/><!--den orientalske betegnelse for europæere, specielt vesteuropæere.-->frankiske</seg> Mænd, anderledes klædte end vi; de havde deres Senge og Telte paa Heste, og meer end tyve Tyrker, væbnede med Sabler og Geværer, ledsagede dem, thi de vare <seg target="txtcmnt-029-02"><!--DATA-TERM: Pascha(ens)--><anchor target="txtcmnt-029-02"/><!--tyrkisk ærestitel til militære og civile embedsmænd.-->Paschaens</seg> Venner og havde Brev fra ham. De kom kun for at see vore Bjerge, for i Snee og Skyer at bestige <hi rend="italic">Parnas</hi> og betragte de selsomme, sorte, steile Klipper om vor Hytte; de kunde ikke rummes inde i den, og de lede heller ikke Røgen, som gik hen under Loftet ud af den lave Dør; de spændte deres Telte ud paa den snevre Plads ved vor Hytte, stegte Lam og Fugle, og skjenkede søde, stærke Vine, men Tyrkerne <seg target="txtcmnt-029-03"><!--DATA-TERM: turde--><anchor target="txtcmnt-029-03"/><!--måtte.-->turde</seg> ikke drikke deraf.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Da de reiste, fulgte jeg dem et Stykke paa Veien, og min lille Søster <hi rend="italic">Anastasia</hi> hang, indsyet i et Gedeskind, paa min Ryg. Een af de frankiske Herrer stillede mig mod en Klippe og tegnede mig og hende, saa levende som vi stode der, vi saae ud som een eneste Skabning; aldrig havde jeg tænkt derover, men <hi rend="italic">Anastasia</hi> og jeg vare jo ogsaa som Een, altid laae hun paa mit Skjød eller hang paa min Ryg, og drømte jeg, saa var hun i mine Drømme.</p>
+
+<p rend="firstIndent" xml:id="p_00009">To Nætter efter indtraf andre Folk i vor Hytte, de vare væbnede med Knive og Geværer; de vare Albanesere, kjække Folk, som min Moder sagde; de bleve der kun kort, min Søster <hi rend="italic">Anastasia</hi> sad paa den Enes Skjød, da han var borte, havde hun to og ikke tre Sølvmynter i sit Haar; de lagde Tobak i Papirstrimler og røgte deraf, og den Ældste talte om Veien, de skulde tage, og var uvis om den; »<seg target="txtcmnt-029-04"><!--DATA-TERM: spytter … mit Skjæg--><anchor target="txtcmnt-029-04"/><!--jf. J.F. Fenger <i>Om det nygræske Folk og Sprog. Erindringer fra en Reise i Grækenland i Aaret 1831</i>, 1832: »Naar En befinder sig i en Vanskelig Stilling, saaledes, at han maa skade sig selv, hvad han saa gjør, siger han med Ordsproget: [herefter græsk formel] ɔ: spytter jeg opad, saa spytter jeg mig i Ansigtet; spytter jeg nedad, saa spytter jeg mig i Skægget« (114 f.).-->spytter jeg opad«, sagde han, »saa falder det i mit Ansigt, spytter jeg nedad, saa falder det i mit Skjæg</seg>.« Men en Vei maatte vælges; de gik, og min Fader fulgte; lidt efter hørte vi Skud, det knaldede igjen; der kom Soldater i vor Hytte, de toge min Moder, mig og <hi rend="italic">Anastasia</hi>; <pb n="30"/>Røverne havde havt Tilhold hos os, sagde de, min Fader havde fulgt dem, derfor maatte vi bort; jeg saae Røvernes Liig, jeg saae min Faders Liig, og jeg græd til jeg sov. Da jeg vaagnede, vare vi i Fængsel, men Stuen var ikke elendigere end den i vor egen Hytte, og jeg fik Løg og <seg target="txtcmnt-030-01"><!--DATA-TERM: harpixet Viin--><anchor target="txtcmnt-030-01"/><!--retsina, vin tilsat harpiks.-->harpixet Viin</seg>, som de heldte af den tjærede Sæk, bedre havde vi det ikke hjemme.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Hvor længe vi vare fangne, det veed jeg ikke; men mange Nætter og Dage gik. Da vi vandrede ud, var det vor hellige Paaskefest, og jeg bar <hi rend="italic">Anastasia</hi> paa min Ryg, thi min Moder var syg; kun langsomt kunde hun gaae, og der var langt, før vi naaede ned mod Havet, det var Lepantos Bugt. Vi traadte ind i en Kirke, der straalede med Billeder paa gylden Grund; Engle var det, o saa smukke, men jeg syntes dog, at vor lille <hi rend="italic">Anastasia</hi> var ligesaa smuk; midt paa Gulvet stod en Kiste, fyldt med Roser, det var den Herre Christus, der laae som deilige Blomster, sagde min Moder, og Præsten forkyndte: Christus er opstanden! alle Folk kyssede hverandre, Enhver holdt et tændt Lys i sin Haand, jeg fik selv eet, den lille <hi rend="italic">Anastasia</hi> eet, Sækkepiberne klang, Mændene dandsede Haand i Haand fra Kirken, og udenfor stegte Qvinderne Paaske-Lam; vi bleve indbudne, jeg sad ved Ilden, en Dreng, ældre end jeg, tog mig om min Hals, kyssede mig og sagde: »Christus er opstanden!« saaledes mødtes første Gang vi To, <hi rend="italic">Aphtanides</hi> og jeg.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Min Moder kunde flette Fiskernet, det gav her ved Bugten en god Fortjeneste, og vi bleve i lang Tid ved Havet, – det deilige Hav, der smagte som Taarer og mindede ved sine Farver om Hjortens Graad, snart var det jo rødt, snart grønt og atter igjen blaat.</p>
+
+<p rend="firstIndent" xml:id="p_00012"><hi rend="italic">Aphtanides</hi> forstod at styre en Baad, og jeg sad med min lille <hi rend="italic">Anastasia</hi> i Baaden, der gik paa Vandet, som en Sky gaaer i Luften; naar Solen da sank, bleve Bjergene mere mørkblaae, den ene Bjergrække tittede over den anden, og længst borte stod <hi rend="italic">Parnas</hi> med sin Snee, i Aftensolen skinnede Bjergtoppen som et glødende Jern, det saae ud, som om Lyset kom indenfra, thi den skinnede længe i den blaae, glindsende Luft, længe efter at Solen var nede; de hvide Søfugle sloge med deres Vinger i Vandspeilet, ellers var her saa stille, som ved Delphi mellem de sorte Fjelde; jeg laae paa min Ryg i Baaden, <hi rend="italic">Anastasia</hi> sad paa mit Bryst, og Stjernerne ovenover skinnede endnu stærkere end Lamperne i vor Kirke; det var de samme Stjerner, og de stode ganske paa det samme Sted over mig, som naar jeg sad ved Delphi, udenfor vor Hytte. Jeg syntes tilsidst at være <pb n="31"/><pb n="32"/>der endnu, – da pladskede det i Vandet og Baaden vippede stærkt; – jeg skreg høit, thi <hi rend="italic">Anastasia</hi> var falden i Vandet, men <hi rend="italic">Aphtanides</hi> var ligesaa hurtig, og snart løftede han hende op til mig; vi toge hendes Klæder af, vred Vandet bort, og klædte hende saa paa igjen, det Samme gjorde <hi rend="italic">Aphtanides</hi> ved sig selv, og vi bleve derude til Tøiet igjen var tørt, og Ingen vidste vor Skræk for den lille Pleiesøster, hvis Liv <hi rend="italic">Aphtanides</hi> jo nu havde Deel i.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Det blev Sommer! Solen brændte saa hedt, at Løvtræerne visnede, jeg tænkte paa vore kølige Bjerge, paa det friske Vand derinde; min Moder længtes ogsaa, og en Aften vandrede vi igjen tilbage. Hvor der var tyst og stille! vi gik over den høie Timian, der dog duftede endnu, skjøndt Solen havde hentørret dens Blade; ikke en Hyrde mødte vi, ikke en Hytte kom vi forbi; Alt var stille og eensomt, kun Stjerneskuddet sagde, at det levede deroppe i Himlen; jeg veed ikke om den klare, blaae Luft lyste selv eller det var Stjernernes Straaler; vi saae godt alle Bjergenes Omrids; min Moder gjorde Ild, stegte Løgene, hun bragte med, og jeg og den lille Søster sov i Timianen uden at frygte for den fæle <hi rend="italic">Smidraki</hi><note type="footnote"><!--* --><p rend="noIndent"><!--* -->Den græske Overtro lader dette Uhyre blive til af det slagtede Faars uopskaarne Mave, der slænges hen paa Marken.</p></note>, hvem Luen staaer ud af Halsen, endsige frygte for Ulven og Schakalen; min Moder sad jo hos os, og det troede jeg var nok.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Vi naaede vort gamle Hjem, men Hytten var en Gruushob, der maatte bygges en ny. Et Par Qvinder hjalp min Moder, og i faa Dage vare Murene reiste og et nyt Tag af Oleander lagt hen over dem. Min Moder flettede af Skind og Bark mange Hylstre til Flasker, jeg passede Præsternes<note type="footnote"><!--**--><p rend="noIndent"><!--** -->En Bonde, som kan læse, bliver tidt Præst og kaldes allerhelligste Herre; Almuen kysser Jorden, naar den møder ham.</p></note> lille Hjord; <hi rend="italic">Anastasia</hi> og de smaa Skildpadder vare mine Legekammerater.</p>
+
+<p rend="firstIndent" xml:id="p_00015">En Dag fik vi Besøg af den kjære <hi rend="italic">Aphtanides</hi>; han længtes saa meget efter at see os, sagde han, og han blev hele to Dage hos os.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Efter en Maaned kom han igjen og fortalte os, at han skulde med et Skib til <hi rend="italic"><seg target="txtcmnt-032-01"><!--DATA-TERM: Patras--><anchor target="txtcmnt-032-01"/><!--det nuværende Patrai på det nordlige Peloponnes.-->Patras</seg></hi> og <hi rend="italic">Corfu</hi>; os maatte han først sige Farvel, en stor Fisk bragte han med til min Moder. Han vidste at fortælle saa Meget, ikke blot om Fiskerne nede ved <hi rend="italic">Lepanto</hi>-Bugten, men om Konger og Helte, der engang havde hersket i Grækenland ligesom Tyrkerne nu.</p>
+
+<p rend="firstIndent" xml:id="p_00017">Jeg har seet Rosentræet sætte Knop og denne i Dage og Uger <pb n="33"/>blive en udfoldet Blomst; den blev det, før jeg begyndte at tænke over, hvor stor, smuk og rødmende den var; saaledes gik det mig ogsaa med <hi rend="italic">Anastasia</hi>. Hun var en deilig udvoxet Pige; jeg en kraftig Knøs; Ulveskindene paa min Moders og <hi rend="italic">Anastasias</hi> Seng havde jeg selv flaaet af Dyret, der faldt for min Bøsse. Aar vare hengaaede.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Da kom en Aften <hi rend="italic">Aphtanides</hi>, slank som et Rør, stærk og bruun; han kyssede os Alle og <seg target="txtcmnt-033-01"><!--DATA-TERM: vidste--><anchor target="txtcmnt-033-01"/><!--kunne, forstod.-->vidste</seg> at fortælle om det store Hav, om <seg target="txtcmnt-033-02"><!--DATA-TERM:  Maltas  Fæstningsværker--><anchor target="txtcmnt-033-02"/><!--anlagt i 1500-tallet på grund af øens strategisk vigtige beliggenhed.--><hi rend="italic">Maltas</hi> Fæstningsværker</seg> og <seg target="txtcmnt-033-03"><!--DATA-TERM:  Ægyptens  selsomme Gravsteder--><anchor target="txtcmnt-033-03"/><!--pyramiderne.--><hi rend="italic">Ægyptens</hi> selsomme Gravsteder</seg>; det klang forunderligt, som en af Præsternes Legender; jeg saae med et Slags Ærbødighed op til ham.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Hvor Du veed Meget!« sagde jeg, »hvor Du kan fortælle!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Du har dog engang fortalt mig det Smukkeste!« sagde han, »Du har fortalt mig, hvad der aldrig er gaaet ud af min Tanke, den smukke, gamle Skik om Venskabs-Pagten! den Skik, som jeg ret har Mod paa at følge! Broder, lad os To ogsaa, som din og <hi rend="italic">Anastasias</hi> Fader gjorde det, gaae til Kirken; den skjønneste og uskyldigste Pige er <hi rend="italic">Anastasia</hi>, Søsteren, hun skal vie os sammen! Ingen har dog en skjønnere Skik, end vi Grækere!«</p>
+
+<p rend="firstIndent" xml:id="p_00021"><hi rend="italic">Anastasia</hi> blev rød, som det friske Rosenblad, min Moder kyssede <hi rend="italic">Aphtanides</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00022">En Times Vandring fra vor Hytte, der hvor Fjeldene bære Muldjord og enkelte Træer skygge, laae den lille Kirke; en Sølv-Lampe hang foran Alteret.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Jeg havde mine bedste Klæder paa, de hvide <seg target="txtcmnt-033-04"><!--DATA-TERM: Fostaneller--><anchor target="txtcmnt-033-04"/><!--skørter på den mandlige, græske nationaldragt.-->Fostaneller</seg> foldede sig rigt ned over Hofterne, den røde Trøie sad snever og stram, der var Sølv i Qvasten paa min <seg target="txtcmnt-033-05"><!--DATA-TERM: Feß--><anchor target="txtcmnt-033-05"/><!--rund, skyggeløs (rød) filthue med flad puld og forsynet med en sort eller blå kvast.-->Feß</seg>; i mit Bælte sad Kniv og Pistoler. <hi rend="italic">Aphtanides</hi> havde sin blaae Klædning, som græske Sømænd bære den, en Sølv-Plade med Guds Moder hang paa hans Bryst, hans Skjærf var kostbart, som kun de rige Herrer kunde bære det. Enhver saae nok, vi To skulde til en Høitid. Vi gik ind i den lille, eensomme Kirke, hvor Aftensolen skinnede gjennem Døren ind paa den brændende Lampe og de brogede Billeder i gylden Grund. Vi knælede paa Alterets Trin, og <hi rend="italic">Anastasia</hi> stillede sig foran os; en lang, hvid Kjortel hang løst og let omkring hendes smukke Lemmer; hendes hvide Hals og Bryst var bedækket med en Sammenkjædning af gamle og nye Mynter, de dannede en heel, stor Krave; hendes sorte Haar var lagt op paa Hovedet i en eneste Bukkel, der holdtes ved en lille Hue af Sølv og Guld-Mynter, fundne i de gamle Templer; skjønnere Pynt havde ingen græsk Pige. Hendes Ansigt lyste, hendes Øine vare som to Stjerner.</p>
+
+<pb n="34"/><p rend="firstIndent" xml:id="p_00024">Alle Tre læste vi stille vor Bøn; og hun spurgte os: »Ville I være Venner i Liv og Død?« – Vi svarede: Ja. »Ville I hver, hvad der endogsaa skeer, huske, min Broder er en Deel af mig! min Hemmelighed er hans, min Lykke er hans! Opoffrelse, Udholdenhed, Alt, som for min egen Sjæl, rummer jeg for ham!« og vi gjentoge vort Ja! og hun lagde vore Hænder i hinanden, kyssede os paa Panden og vi bad atter stille. Da traadte Præsten frem fra Alterets Dør, velsignede os alle Tre, og en Sang af de andre allerhelligste Herrer lød bag Altervæggen. Den evige Venskabs-Pagt var sluttet. Da vi reiste os, saae jeg min Moder ved Kirkens Dør græde dybt og inderligt.</p>
+
+<p rend="firstIndent" xml:id="p_00025">Hvor der var lystigt i vor lille Hytte og ved <hi rend="italic">Delphis</hi> Kilder! Aftenen før <hi rend="italic">Aphtanides</hi> skulde bort, sad han og jeg tankefulde paa Klippens Skrent; hans Arm var slynget om mit Liv, min om hans Hals; vi talte om Grækenlands Nød, om Mænd der kunde stoles paa; hver Tanke i vor Sjæl laae klar for os Begge; da greb jeg hans Haand:</p>
+
+<p rend="firstIndent" xml:id="p_00026">»– Eet endnu skal Du vide! eet, som indtil denne Stund kun Gud og jeg veed! al min Sjæl er Kjærlighed! det er en Kjærlighed, stærkere end den til min Moder og til Dig – –!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Og hvem elsker Du?« spurgte <hi rend="italic">Aphtanides</hi>, og han blev rød paa Ansigt og Hals.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Jeg elsker <hi rend="italic">Anastasia</hi>!« sagde jeg, – og hans Haand zittrede i min, og han blev hvid som et Liig; jeg saae det, jeg begreb det! og jeg troer ogsaa min Haand skjælvede, jeg bøiede mig henimod ham, kyssede hans Pande og hviskede: »jeg har aldrig sagt hende det! hun elsker maaskee ikke mig! – Broder, husk paa, jeg saae hende daglig, hun er voxet op ved min Side, voxet ind i min Sjæl!« –</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Og Din skal hun være!« sagde han, »Din! – jeg kan ikke lyve for Dig og vil ikke heller! jeg elsker hende ogsaa! – men imorgen tager jeg bort! vi sees igjen om eet Aar, da ere I gifte, ikke sandt! – jeg har nogle Penge, det er dine! Du maa tage dem, Du skal tage dem!« stille vandrede vi over Fjeldet; det var sildig Aften, da vi stode ved min Moders Hytte.</p>
+
+<p rend="firstIndent" xml:id="p_00030"><hi rend="italic">Anastasia</hi> holdt Lampen hen imod os, da vi traadte ind, min Moder var der ikke. <hi rend="italic">Anastasia</hi> saae forunderlig veemodigt paa <hi rend="italic">Aphtanides</hi>. – »Imorgen gaaer Du fra os!« sagde hun, »hvor det bedrøver mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Bedrøver Dig«, sagde han, og jeg syntes der laae en Smerte deri, stor, som min egen; jeg kunde ikke tale, men han tog hendes Haand og sagde: »vor Broder der elsker Dig, har Du ham <pb n="35"/>kjær? I hans Taushed er just hans Kjærlighed!« – og <hi rend="italic">Anastasia</hi> zittrede og brast i Graad, da saae jeg kun hende, tænkte kun paa hende; min Arm slog jeg om hendes Liv og sagde: »ja, jeg elsker Dig!« Da trykkede hun sin Mund til min, hendes Hænder hvilte om min Hals; men Lampen var falden paa Gulvet, der var mørkt uden om os, som i den kjære, stakkels <hi rend="italic">Aphtanides’s</hi> Hjerte.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Før Dag stod han op, kyssede os Alle til Afsked og drog bort. Min Moder havde han givet alle sine Penge til os. <hi rend="italic">Anastasia</hi> var min <seg target="txtcmnt-035-01"><!--DATA-TERM: Brud--><anchor target="txtcmnt-035-01"/><!--forlovede.-->Brud</seg> og nogle Dage derefter min Hustru!«</p>
+
+<pb n="36"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Venskabs-Pagten" xml:id="venskabs-pagten">
+<head type="section-comments">Venskabs-Pagten</head>
+
+<p rend="noIndent">Trykt første gang som kapitel XV i afsnittet om Grækenland i rejseskildringen <hi rend="italic">En Digters Bazar</hi>, der udkom den 30. april 1842 (BNF 417). Udskilt som særskilt tekst og optaget med enkelte ændringer i <hi rend="italic">Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen</hi>, 3. hefte, der udkom den 15. december 1862. Udgaven udkom i heftesubskription på i alt 6 hefter: 1.-3. hefte udgjorde Første Bind (1862), 4.-6. hefte udgjorde Andet Bind (1863).</p>
+<p rend="noIndent">Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">BFN 845/IV,30-42/VII,228-231.</p>
+
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">35,10</cell><cell type="deviation">Hustru!« &lt; Hustru!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">27</cell><row xml:id="txtcmnt-027-01"><cell type="data-term">Sparta</cell><cell type="data-definition">græsk by, i oldtiden det politiske centrum i bystaten af samme navn.</cell></row><row xml:id="txtcmnt-027-02"><cell type="data-term">Mycene</cell><cell type="data-definition">Mykene, græsk bykultur i oldtiden.</cell></row><row xml:id="txtcmnt-027-03"><cell type="data-term">Delphi</cell><cell type="data-definition">græsk by, i oldtiden kendt for sit Apollontempel med tilhørende orakel.</cell></row><row xml:id="txtcmnt-027-04"><cell type="data-term">Argojat</cell><cell type="data-definition">muldyrsdriver, ledte også de rejsendes heste.</cell></row><row xml:id="txtcmnt-027-05"><cell type="data-term">Hellenernes Land</cell><cell type="data-definition">Grækenland.</cell></row><row xml:id="txtcmnt-027-06"><cell type="data-term">Oleander</cell><cell type="data-definition">laurbærrose.</cell></row>
+<cell type="page">28</cell><row xml:id="txtcmnt-028-01"><cell type="data-term">Parnas</cell><cell type="data-definition">Parnassos, bjergmassiv i det centrale Grækenland <pb n="411"/>ca. 110 km nordvest for Athen. På bjergets sydside lå i antikken oraklet i Delfi. Bjerget var helliget Apollon og de ni muser.</cell></row><row xml:id="txtcmnt-028-02"><cell type="data-term">Bækken … hellig</cell><cell type="data-definition">den kastaliske kilde, nu Hagios Johannes. Ifølge sagnet kastede nymfen Kastalia sig i kilden, da hun blev forfulgt af Apollon. Kildevandet antoges at kunne begejstre digtere.</cell></row><row xml:id="txtcmnt-028-03"><cell type="data-term">fort</cell><cell type="data-definition">videre.</cell></row><row xml:id="txtcmnt-028-04"><cell type="data-term">vorder atter klar</cell><cell type="data-definition">bliver atter klar.</cell></row><row xml:id="txtcmnt-028-05"><cell type="data-term">Tyrkerne, vore Herrer</cell><cell type="data-definition">Grækenland var i perioden ca. 1450-1829 underlagt tyrkisk herredømme.</cell></row><row xml:id="txtcmnt-028-06"><cell type="data-term">lede dem ikke</cell><cell type="data-definition">kunne ikke lide dem, syntes ikke om dem.</cell></row><row xml:id="txtcmnt-028-07"><cell type="data-term">Paa Olympens Top … jagen og død</cell><cell type="data-definition">folkesangen om den gamle hjort er en næsten ordret oversættelse af den tyske arkæolog H.N. Ulrichs’ oversættelse af en græsk sang, »Der alte Hirsch und das Reh«, i <hi rend="italic">Reisen und Forschungen in Griechenland von H.N. Ulrichs</hi>, Erster Theil, Bremen 1840, s. 135.</cell></row><row xml:id="txtcmnt-028-08"><cell type="data-term">Olympen(s)</cell><cell type="data-definition">Olympos, Grækenlands højeste bjerg, i antikkens mytologi regnet for gudernes tilholdssted.</cell></row><row xml:id="txtcmnt-028-09"><cell type="data-term">Lepanto-Bugten</cell><cell type="data-definition">nuværende Korinthiakós Kólpos.</cell></row>
+<cell type="page">29</cell><row xml:id="txtcmnt-029-01"><cell type="data-term">frankiske</cell><cell type="data-definition">den orientalske betegnelse for europæere, specielt vesteuropæere.</cell></row><row xml:id="txtcmnt-029-02"><cell type="data-term">Pascha(ens)</cell><cell type="data-definition">tyrkisk ærestitel til militære og civile embedsmænd.</cell></row><row xml:id="txtcmnt-029-03"><cell type="data-term">turde</cell><cell type="data-definition">måtte.</cell></row><row xml:id="txtcmnt-029-04"><cell type="data-term">spytter … mit Skjæg</cell><cell type="data-definition">jf. J.F. Fenger <hi rend="italic">Om det nygræske Folk og Sprog. Erindringer fra en Reise i Grækenland i Aaret 1831</hi>, 1832: »Naar En befinder sig i en Vanskelig Stilling, saaledes, at han maa skade sig selv, hvad han saa gjør, siger han med Ordsproget: [herefter græsk formel] ɔ: spytter jeg opad, saa spytter jeg mig i Ansigtet; spytter jeg nedad, saa spytter jeg mig i Skægget« (114 f.).</cell></row>
+<cell type="page">30</cell><row xml:id="txtcmnt-030-01"><cell type="data-term">harpixet Viin</cell><cell type="data-definition">retsina, vin tilsat harpiks.</cell></row>
+<cell type="page">32</cell><row xml:id="txtcmnt-032-01"><cell type="data-term">Patras</cell><cell type="data-definition">det nuværende Patrai på det nordlige Peloponnes.</cell></row>
+<cell type="page">33</cell><row xml:id="txtcmnt-033-01"><cell type="data-term">vidste</cell><cell type="data-definition">kunne, forstod.</cell></row><row xml:id="txtcmnt-033-02"><cell type="data-term"><hi rend="italic">Maltas</hi> Fæstningsværker</cell><cell type="data-definition">anlagt i 1500-tallet på grund af øens strategisk vigtige beliggenhed.</cell></row><row xml:id="txtcmnt-033-03"><cell type="data-term"><hi rend="italic">Ægyptens</hi> selsomme Gravsteder</cell><cell type="data-definition">pyramiderne.</cell></row><row xml:id="txtcmnt-033-04"><cell type="data-term">Fostaneller</cell><cell type="data-definition">skørter på den mandlige, græske nationaldragt.</cell></row><row xml:id="txtcmnt-033-05"><cell type="data-term">Feß</cell><cell type="data-definition">rund, skyggeløs (rød) filthue med flad puld og forsynet med en sort eller blå kvast.</cell></row>
+<cell type="page">35</cell><row xml:id="txtcmnt-035-01"><cell type="data-term">Brud</cell><cell type="data-definition">forlovede.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

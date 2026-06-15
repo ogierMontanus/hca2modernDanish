@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Af Digte</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="af-digte" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+<floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>Af Thorvaldsen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-thorvaldsen</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Dandserinden.« – Ganymed. – Amor og Psyche.</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-thorvaldsen/#kunstner-mild-og-stor-som-faa</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Deviser med Presenter paa et Juletræ</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-deviser-med-presenter-paa-et-juletrae</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>(Med et par Thekopper)</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-deviser-med-presenter-paa-et-juletrae/#hvad-baggesen-har-sagt-du-tidt-gjentage</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Italien</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-italien</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Tredie Gang i Italien</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-italien/#jeg-seer-igjen-vesuv-dit-kjaempe-fyr</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Af Et halvhundrede Smaavers</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#af-et-halvhundrede-smaavers</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Alphabet-Bouquet</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>A. Agurke-Blomst</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#een-seer-man-foedt-for-prosa-og-een-for-poesi</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>B. Buxbom</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#naar-vinteren-draeber-alt-det-skjoenne</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>C. Christi-Blodsdraabe</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#gaaer-verden-dig-for-haardt-imod</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>D. Drue-Blomst</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#beskeden-som-blomst-men-god-som-frugt</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>E. Engblomme</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#engblommen-veed-du-voxer-frem-i-mosen</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>F. Fiirkløver</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#med-den-i-haanden-du-bliver-perplex</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>G. Georgine</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#prangende-daare</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>H. Hyazint</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#dens-klokker-ringe-over-eng</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>I. Ildlillie</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#i-denne-blomst-vi-to-forenes-sammen</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>K. Kongelys</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#skjoendt-foedt-paa-marken-kan-man-vaere</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>L. Lindeblomst</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#hjertet-skal-ligne-lindens-blad</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>M. Myrte</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#den-sorg-er-altid-mindre-hvor</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>N. Noli me tangere</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#forstaaer-du-denne-blomst-jo-den-er-rigtig</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>O. Oxedrive</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#see-ei-paa-navnet-ringe-useligt</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>P. Purpurlillie</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#vogt-dig-staerke-purpurlillie</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Q. Qvæde</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#hvad-ei-et-solkys-folder-ud</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>R. Ridderspore</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#maerk-det-i-smaa-og-store</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>S. Solsikke</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#den-dreier-sig-bestandig-efter-solen</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>T. Tulipan</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#jeg-er-just-kostbar-derpaa-kan-du-stole</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>U. Ulvefod</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#det-mindste-blad-er-et-hexeri</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>V. Violer</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#fra-den-tid-jeg-dine-oeine-saae</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>X. Y. Z.</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#hvad-gjoer-jeg-med-x-og-med-y-og-med-z</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Æ. Ærteblomst</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#alphabet-bouquet/#den-fineste-blomst-med-bedste-villie</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+                                                            <separateWork>
+                                                                 <title>Til den lille Prinds Carl August</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>af-digte/#til-den-lille-prinds-carl-august</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+
+
+
+                                                            <separateWork>
+                                                                 <title>Kunstner, mild og stor, som faa!</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00228</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hvad Baggesen har sagt Du tidt gjentage</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00231</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Jeg seer igjen, Vesuv, dit Kjæmpe-Fyr</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00232</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Een seer man født for Prosa og Een for Poesi</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00250</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Naar Vinteren dræber alt det Skjønne</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00251</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Gaaer Verden Dig for haardt imod</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00252</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Beskeden som Blomst, men god som Frugt</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00253</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Engblommen veed Du voxer frem i Mosen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00254</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Med den i Haanden Du bliver perplex</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00255</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Prangende Daare</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00256</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Dens Klokker ringe over Eng</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00257</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>I denne Blomst vi to forenes sammen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00258</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Skjøndt født paa Marken, kan man være</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00259</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hjertet skal ligne Lindens Blad</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00260</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Den Sorg er altid mindre hvor</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00261</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Forstaaer Du denne Blomst? Jo den er rigtig</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00262</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>See ei paa Navnet, ringe useligt –!</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00263</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Vogt Dig, stærke Purpurlillie</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00264</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hvad ei et Solkys folder ud</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00265</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Mærk det, I Smaa og Store</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00266</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Den dreier sig bestandig efter Solen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00267</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Jeg er just kostbar, derpaa kan du stole</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00268</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Det mindste Blad er et Hexeri</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00269</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Fra den Tid jeg dine Øine saae</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00270</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Hvad gjør jeg med X og med Y og med Z?</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00271</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>Den fineste Blomst med bedste Villie</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00272</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>I Thyringerskoven ligger et Slot</title>
+                                                            <catRef scheme="#tax.Mortensen" target="poem"/>
+                                                                 <section>p_00273</section>
+                                                                 <date>1847</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="poem"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#af-thorvaldsen">Af Thorvaldsen</cell>
+                                                       
+                                                            <cell ref="#kunstner-mild-og-stor-som-faa" level="2">»Dandserinden.« – Ganymed. – Amor og Psyche.</cell>
+                                                       
+                                                            <cell ref="#af-deviser-med-presenter-paa-et-juletrae">Af Deviser med Presenter paa et Juletræ</cell>
+                                                       
+                                                            <cell ref="#hvad-baggesen-har-sagt-du-tidt-gjentage" level="2">(Med et par Thekopper)</cell>
+                                                       
+                                                            <cell ref="#af-italien">Af Italien</cell>
+                                                       
+                                                            <cell ref="#jeg-seer-igjen-vesuv-dit-kjaempe-fyr">Tredie Gang i Italien</cell>
+                                                       
+                                                            <cell ref="#af-et-halvhundrede-smaavers">Af Et halvhundrede Smaavers</cell>
+                                                       
+                                                            <cell ref="#alphabet-bouquet">Alphabet-Bouquet</cell>
+                                                       
+                                                            <cell ref="#een-seer-man-foedt-for-prosa-og-een-for-poesi">A. Agurke-Blomst</cell>
+                                                       
+                                                            <cell ref="#naar-vinteren-draeber-alt-det-skjoenne">B. Buxbom</cell>
+                                                       
+                                                            <cell ref="#gaaer-verden-dig-for-haardt-imod">C. Christi-Blodsdraabe</cell>
+                                                       
+                                                            <cell ref="#beskeden-som-blomst-men-god-som-frugt">D. Drue-Blomst</cell>
+                                                       
+                                                            <cell ref="#engblommen-veed-du-voxer-frem-i-mosen">E. Engblomme</cell>
+                                                       
+                                                            <cell ref="#med-den-i-haanden-du-bliver-perplex">F. Fiirkløver</cell>
+                                                       
+                                                            <cell ref="#prangende-daare">G. Georgine</cell>
+                                                       
+                                                            <cell ref="#dens-klokker-ringe-over-eng">H. Hyazint</cell>
+                                                       
+                                                            <cell ref="#i-denne-blomst-vi-to-forenes-sammen">I. Ildlillie</cell>
+                                                       
+                                                            <cell ref="#skjoendt-foedt-paa-marken-kan-man-vaere">K. Kongelys</cell>
+                                                       
+                                                            <cell ref="#hjertet-skal-ligne-lindens-blad">L. Lindeblomst</cell>
+                                                       
+                                                            <cell ref="#den-sorg-er-altid-mindre-hvor">M. Myrte</cell>
+                                                       
+                                                            <cell ref="#forstaaer-du-denne-blomst-jo-den-er-rigtig">N. Noli me tangere</cell>
+                                                       
+                                                            <cell ref="#see-ei-paa-navnet-ringe-useligt">O. Oxedrive</cell>
+                                                       
+                                                            <cell ref="#vogt-dig-staerke-purpurlillie">P. Purpurlillie</cell>
+                                                       
+                                                            <cell ref="#hvad-ei-et-solkys-folder-ud">Q. Qvæde</cell>
+                                                       
+                                                            <cell ref="#maerk-det-i-smaa-og-store">R. Ridderspore</cell>
+                                                       
+                                                            <cell ref="#den-dreier-sig-bestandig-efter-solen">S. Solsikke</cell>
+                                                       
+                                                            <cell ref="#jeg-er-just-kostbar-derpaa-kan-du-stole">T. Tulipan</cell>
+                                                       
+                                                            <cell ref="#det-mindste-blad-er-et-hexeri">U. Ulvefod</cell>
+                                                       
+                                                            <cell ref="#fra-den-tid-jeg-dine-oeine-saae">V. Violer</cell>
+                                                       
+                                                            <cell ref="#hvad-gjoer-jeg-med-x-og-med-y-og-med-z">X. Y. Z.</cell>
+                                                       
+                                                            <cell ref="#den-fineste-blomst-med-bedste-villie">Æ. Ærteblomst</cell>
+                                                       
+                                                            <cell ref="#til-den-lille-prinds-carl-august">Til den lille Prinds Carl August</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2024-01-04" xml:id="NHB" who="NHB">docx2xml</change><change when="2024-01-04" who="NHB">formatted</change>
+                                        <change who="NHB" when="2024-06-25">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" subtype="poem" rendition="verse" rend="Af Digte" xml:id="af-digte">
+<pb n="103"/>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main"><source subtype="foreign">Af </source>Digte</titlePart>
+<titlePart type="part">Gamle og Nye</titlePart>
+<titlePart type="part"><date>1847</date>
+</titlePart></docTitle></titlePage>
+</front>
+
+<div type="workPart" rend="Af Thorvaldsen" xml:id="af-thorvaldsen">
+<pb n="104"/>
+<head type="main"><source subtype="foreign">Af </source>Thorvaldsen</head>
+
+<floatingText xml:id="kunstner-mild-og-stor-som-faa" rend="»Dandserinden.« – Ganymed. – Amor og Psyche." type="poem">
+<head type="section" subtype="numbersOnly">IV.</head>
+<head type="section">»<seg target="txtcmnt-104-01"><!--DATA-TERM: Dandserinden--><!--DATA-DEFINITION: skulptur fra 1817; nu på Thorvaldsens Museum.-->Dandserinden</seg>.« – <seg target="txtcmnt-104-02"><!--DATA-TERM: Ganymed--><!--DATA-DEFINITION: Thorvaldsen skabte flere værker med denne titel; her formodentlig <i>Ganymedes med Jupiters ørn</i> fra 1817, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.-->Ganymed</seg>. – <seg target="txtcmnt-104-03"><!--DATA-TERM: Amor og Psyche--><!--DATA-DEFINITION: Thorvaldsen skabte flere værker med denne titel; her formodentlig værket fra ca. 1807, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.-->Amor og Psyche</seg>.</head>
+<p rend="firstIndent" xml:id="p_00228"><hi rend="smaller">– I en Familie hvor Thorvaldsen saa godt som daglig kom og ved Børnenes Dandseøvelser var en livlig Tilskuer, blev bestemt, at om Aftenen den 8 Marts, hans saakaldte romerske Fødselsdag, skulde han overraskes af de Smaa med en Dands om hans Værker: <hi rend="italic">Dandserinden</hi>, <hi rend="italic">Ganymed med Ørnen</hi> og <hi rend="italic">Amor og Psyche</hi>; en Sang som sluttede sig her til, skulde afsynges efter Weyses Melodie: »<seg target="txtcmnt-104-05">risler alle Bølger smaa</seg>.« Alt var ordnet, Sangen skrevet – da <seg target="txtcmnt-104-04"><!--DATA-TERM: døde … Kunstner--><!--DATA-DEFINITION: Thorvaldsen døde 24. marts 1844 under en forestilling i Det Kgl. Teater.-->døde faa Dage forud den store Kunstner</seg>.</hi></p>
+<lg xml:id="p_00229">
+<l rend="noIndent" subtype="firstline" corresp="Kunstner, mild og stor, som faa!" rendition="kunstner-mild-og-stor-som-faa">Kunstner, mild og stor, som faa!</l>
+<l rend="noIndent">Venligt seer Du til de Smaa,</l>
+<l rend="noIndent">Der i Dandsen træder hver</l>
+<l rend="noIndent">Som i Marmoret hun der,</l>
+<l rend="noIndent">Hun, som evig ung vil staae,</l>
+<l rend="noIndent">Naar de Børn har Lokker graa,</l>
+<l rend="noIndent">Hun din skjønne <hi rend="italic">Dandserinde</hi>:</l>
+<l rend="noIndent">Yndigt Barn, dog voxen Qvinde,</l>
+<l rend="noIndent">Let fremsprunget ved dit <seg target="txtcmnt-104-06"><!--DATA-TERM: Bliv--><!--DATA-DEFINITION: (på)bud om at blive til; jf. 1. Mosebog 1,3 ff.-->Bliv</seg>.</l>
+<l rend="noIndent">Ja, Du aander Ungdomsliv! –</l>
+<l rend="noIndent">Børneflokken, uskyldsglad,</l>
+<l rend="noIndent">Kysser paa dit Laurbærblad!</l>
+</lg>
+<lg xml:id="p_00230">
+<l rend="noIndent">Snillet er en <seg target="txtcmnt-104-07" type="dfnStart"/><!--DATA-TERM: Ørn … Lynet--><!--DATA-DEFINITION: lynet er den romerske fader- og himmelgud, Jupiters, kendetegn.-->Ørn, den jo</l>
+<l rend="noIndent">Holder Lynet<seg type="dfnEnd" target="txtcmnt-104-07"/> i sin Klo;</l>
+<l rend="noIndent">Guds Natur sig bøier ned,</l>
+<l rend="noIndent">Som en yndig <hi rend="italic">Ganymed</hi>,</l>
+<l rend="noIndent"><seg target="txtcmnt-104-08"><!--DATA-TERM: skjænker … Skaalen fuld--><!--DATA-DEFINITION: hentydning til skulpturen af Ganymedes, gudernes smukke mundskænk, der knælende holder en skål med vand for Jupiters drikkende ørn.-->Skjænker Snillet Skaalen fuld</seg>,</l>
+<l rend="noIndent">Skjænker Aandens Drik i Guld.</l>
+<l rend="noIndent">Vi med Ord kan det ei male!</l>
+<l rend="noIndent">Du lod Stenen det udtale:</l>
+<l rend="noIndent">Snillet, som sin Lædskedrik</l>
+<pb n="105"/>
+<l rend="noIndent">Af Naturens Friskhed fik,</l>
+<l rend="noIndent">»Boble, boble,« luheed!</l>
+<l rend="noIndent">Ørnen kysser Ganymed. –</l>
+</lg>
+<lg xml:id="p_00231">
+<l rend="noIndent"><seg target="txtcmnt-105-01"><!--DATA-TERM: Psyche(n)--><!--DATA-DEFINITION: (græsk) sjæl; afbildes i græsk mytologi i fugleskikkelse eller som en lille eller ung pige (med sommerfuglevinger).--><hi rend="italic">Psychen</hi></seg>, som i Dig vi veed</l>
+<l rend="noIndent">Har vor hele <hi rend="italic">Kjærlighed</hi>.</l>
+<l rend="noIndent">Psychen mægtig, høi og reen,</l>
+<l rend="noIndent">Trængte i den kolde Steen,</l>
+<l rend="noIndent"><seg target="txtcmnt-105-02"><!--DATA-TERM: Kjærlighedens Kys--><!--DATA-DEFINITION: hentydning til myten om Amor og Psyche: Guden Amor forelsker sig i kongedatteren Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor.--><hi rend="italic">Kjærlighedens</hi> Kys</seg> den fik;</l>
+<l rend="noIndent">Synligt Alt for os opgik. –</l>
+<l rend="noIndent">Selv sig fletter Laurbærgrenen</l>
+<l rend="noIndent">Om dit Skjønheds Digt i Stenen.</l>
+<l rend="noIndent">See de Børn, som om Dig staae,</l>
+<l rend="noIndent">Sige engang deres Smaa:</l>
+<l rend="noIndent">»Ansigt vi til Ansigt saae</l>
+<l rend="noIndent"><hi rend="italic">Ham</hi>, med Aandens Glorie paa!«</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Af Deviser med Presenter paa et Juletræ" xml:id="af-deviser-med-presenter-paa-et-juletrae">
+<pb n="106"/>
+<head type="main"><source subtype="foreign">Af</source> <seg target="txtcmnt-106-01"><!--DATA-TERM: Devise(r)--><!--DATA-DEFINITION: kort sætning, der indeholder en (moralsk) sandhed, sentens; ofte vedlagt en gave.-->Deviser</seg> med <seg target="txtcmnt-106-02"><!--DATA-TERM: Presenter--><!--DATA-DEFINITION: gaver.-->Presenter</seg> paa et Juletræ</head>
+<floatingText xml:id="hvad-baggesen-har-sagt-du-tidt-gjentage" rend="(Med et par Thekopper)" type="poem">
+<head type="section">(Med et par Thekopper)</head>
+<lg xml:id="p_00232">
+<l rend="noIndent" subtype="firstline" corresp="Hvad Baggesen har sagt Du tidt gjentage" rendition="hvad-baggesen-har-sagt-du-tidt-gjentage">Hvad Baggesen har sagt Du tidt gjentage,</l>
+<l rend="noIndent">Hver Gang Du gaaer at sætte Koppen hen:</l>
+<l rend="noIndent"><seg target="txtcmnt-106-03" type="dfnStart"/><!--DATA-TERM: »Endnu jeg … den!«--><!--DATA-DEFINITION: jf. de sidste to verslinjer af genioptrykket af Jens Baggesens digt »Da jeg var lille« fra <i>Ungdomsarbeider. Anden Deel</i>, 1791, hvor sidste strofe lyder: »De svandt, de svandt de blide Barndoms Dage! / Min Rolighed, min Fryd med dem svandt hen; / Jeg kun Erindringen har nu tilbage: / Gud lad mig aldrig, aldrig tabe den!«; digtet er trykt første gang i H.W. Riber <i>Poesier. Første Samling</i>, 1785, hvor sidste strofe dog lyder: »O gode Gud! du skuer alt! du kiender / Min Siel, og alle mine Tanker veed! / End beder jeg; Men ak! som Synden brænder / Min Andagt ei med den Uskyldighed«.-->»Endnu jeg har Erindringen tilbage,</l>
+<l rend="noIndent">Ak, lad mig aldrig, aldrig tabe den!«<seg type="dfnEnd" target="txtcmnt-106-03"/></l>
+</lg></floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Af Italien" xml:id="af-italien"><pb n="107"/><head type="part"><source subtype="foreign">Af</source> Italien</head>
+<floatingText xml:id="jeg-seer-igjen-vesuv-dit-kjaempe-fyr" rend="Tredie Gang i Italien" type="poem"><head type="section" subtype="numbersOnly">IV.</head>
+<head type="section">Tredie Gang i Italien</head>
+<head type="sub">(Skrevet paa <seg target="txtcmnt-107-01"><!--DATA-TERM: St. Luzia Sommeren 1846--><!--DATA-DEFINITION: under sit ophold i Napoli fra 4. til 20. maj 1846 er H.C. Andersen ifølge dagbogen indlogeret »paa St Luzia N° 28«.-->St. Luzia Sommeren 1846</seg>)</head>
+<lg xml:id="p_00233">
+<l rend="noIndent" subtype="firstline" corresp="Jeg seer igjen, Vesuv, dit Kjæmpe-Fyr" rendition="jeg-seer-igjen-vesuv-dit-kjaempe-fyr">Jeg seer igjen, Vesuv, dit Kjæmpe-Fyr,</l>
+<l rend="noIndent">Og Havet for din Fod, saa blaat som Himlen,</l>
+<l rend="noIndent">De <seg target="txtcmnt-107-02"><!--DATA-TERM: røde Fiskerblus--><!--DATA-DEFINITION: der fiskedes om natten ved blus for at trække fiskene til.-->røde Fiskerblus</seg> og Folkevrimlen,</l>
+<l rend="noIndent">Hvor Livet er et Solskins-Eventyr.</l>
+<l rend="noIndent">Jeg seer igjen den Duft, den Farve-Glorie,</l>
+<l rend="noIndent">Hvori de bølgebygg’de Bjerge stige;</l>
+<l rend="noIndent">O, ingen Barndoms gribende Historie,</l>
+<l rend="noIndent">Opfylder meer, end her det Virkelige!</l>
+<l rend="noIndent">Jeg er et Lykkens Barn, jeg fuldt det fatter,</l>
+<l rend="noIndent">Og ydmyg glad, taknemlig, jeg det skatter.</l>
+<l rend="noIndent">Neapel, tredie Gang jeg seer dig atter!</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+                         
+<div type="workPart" rend="Af Et halvhundrede Smaavers" xml:id="af-et-halvhundrede-smaavers">
+<pb n="108"/>
+<head type="main"><source subtype="foreign">Af</source> Et halvhundrede Smaavers</head>
+<floatingText type="workPart">
+<head type="section" subtype="numbersOnly">8.</head>
+<lg xml:id="p_00234">
+<l rend="noIndent">Den værste Drage blev et slet Humeur,</l>
+<l rend="noIndent">Dets Vinge skygger saa hvert Solskin døer,</l>
+<l rend="noIndent">Det spyer sin Gift, selv over dine Kjære.</l>
+<l rend="noIndent">Du fra i Dag din <seg target="txtcmnt-108-01"><!--DATA-TERM: St. Georg--><!--DATA-DEFINITION: skytshelgen for syge, som ifølge legenden kæmpede mod en drage for at redde prinsesse Kleodolinde.-->St. Georg</seg> vil være!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">10.</head>
+<head type="section">I Componisten <hi rend="italic">Felix <seg target="txtcmnt-108-02"><!--DATA-TERM: Mendelsohn Bartholdy(s)--><!--DATA-DEFINITION: Mendelssohn-Bartholdy.-->Mendelsohn Bartholdys</seg></hi> <seg target="txtcmnt-108-03"><!--DATA-TERM: Stambog--><!--DATA-DEFINITION: bog, hvori venner og gæster skrev deres navne sammen med sentenser, vers o.l.-->Stambog</seg></head>
+<head type="sub">(1841)</head>
+<lg xml:id="p_00235">
+<l rend="noIndent">Mens gjennem Kirken Orglets Toner runged’</l>
+<l rend="noIndent">Et Barn blev døbt og »Felix« blev det kaldt.</l>
+<l rend="noIndent">Ja »<seg target="txtcmnt-108-04"><!--DATA-TERM: felix--><!--DATA-DEFINITION: (latin) lykkelig, heldig.--><hi rend="italic">felix</hi></seg>« havde Herrens Engle sjunget,</l>
+<l rend="noIndent">Thi Tonekunstens Scepter ham tilfaldt.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">14.</head>
+<head type="section">Med et Exemplar af <seg target="txtcmnt-108-05"><!--DATA-TERM: Schillers »Gedichte«--><!--DATA-DEFINITION: Schiller udgav flere digtsamlinger i starten af 1800-tallet, bl.a. <i>Gedichte. Erster Teil</i>, 1800, og <i>Gedichte. Zweiter Teil</i>, 1803.-->Schillers »<hi rend="italic">Gedichte</hi>«</seg></head>
+<lg xml:id="p_00236">
+<l rend="noIndent">Et Rosenflor sprang fra hans Hjerte ud,</l>
+<l rend="noIndent">Det Hjerte, som i Døden maatte isne,</l>
+<l rend="noIndent">Men i hver Rose her er der en Gud,</l>
+<l rend="noIndent">Og disse Blomster kunne aldrig visne!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><pb n="109"/><head type="section" subtype="numbersOnly">19.</head>
+<head type="section">I en ung Dames Stambog</head>
+<lg xml:id="p_00237">
+<l rend="noIndent">Hvor Rosen hælder sig til Husets Muur,</l>
+<l rend="noIndent">Mens Skyen speiler sig i <seg target="txtcmnt-109-01"><!--DATA-TERM: Fuur-Søen--><!--DATA-DEFINITION: Furesøen.-->Fuur-Søen</seg>,</l>
+<l rend="noIndent">Og Alt er Sang fra Nattergal til Frøen,</l>
+<l rend="noIndent">Der, i den rige danske Skov-Natur,</l>
+<l rend="noIndent">Nedstiger Englen fra en bedre <seg target="txtcmnt-109-02"><!--DATA-TERM: Zone--><!--DATA-DEFINITION: sfære.-->Zone</seg>, –</l>
+<l rend="noIndent">Jeg veed et Hjerte der, som er hans Trone!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">27.</head>
+<head type="section">I <seg target="txtcmnt-109-04" type="dfnStart"/><hi rend="italic">Christianis</hi> <seg target="txtcmnt-109-03"><!--DATA-TERM: Stambog--><!--DATA-DEFINITION: bog, hvori venner og gæster skrev deres navne sammen med sentenser, vers o.l.--><seg target="txtcmnt-109-05">Stambog</seg></seg></head>
+<head type="sub">(Føhr 1844)<seg target="txtcmnt-109-04" type="dfnEnd"/></head>
+<lg xml:id="p_00238">
+<l rend="noIndent">Tak for dit ærlige Haandtryk, tak for dine Øines Ord,</l>
+<l rend="noIndent">Gud veed om vi mere mødes paa denne rullende Jord.</l>
+<l rend="noIndent">Men hver Gang Tankerne flyve til <seg target="txtcmnt-109-06"><!--DATA-TERM: Nordhavs-Øen--><!--DATA-DEFINITION: Føhr.-->Nordhavs-Øen</seg> ud,</l>
+<l rend="noIndent">Jeg husker paa vort Møde, det var som et Stjerneskud.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">28.</head>
+<head type="section">Epilog, paa et privat Theater, fremsagt af een af det kongelige Theaters Elever, som man der kun var vant til at høre sige nogle faa Replikker.</head>
+<lg xml:id="p_00239">
+<l rend="noIndent">Høistærede! – Jeg troer De vil mig kjende?</l>
+<l rend="noIndent">De veed, jeg fører ei den lange Snak!</l>
+<l rend="noIndent">En kort Replik og saa er Alt tilende, –</l>
+<l rend="noIndent">Iaften skal jeg sige – »Mange Tak!« –</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">33.</head>
+<head type="section">Ved <seg target="txtcmnt-109-07"><!--DATA-TERM: Tassos Grav--><!--DATA-DEFINITION: den italienske digter Torquato Tasso er begravet i klostret Skt. Onofrio i Rom.--><hi rend="italic">Tassos</hi> Grav</seg></head>
+<head type="sub">(Skrevet paa Muren i Sant Onophrii Kloster i <seg target="txtcmnt-109-08"><!--DATA-TERM: Rom 1833--><!--DATA-DEFINITION: H.C. Andersen opholdt sig i Rom fra 18. oktober 1833 til 1. april 1834.-->Rom 1833</seg>)</head>
+<lg xml:id="p_00240">
+<l rend="noIndent">Du er min Helgen her; jeg knæler ned.</l>
+<l rend="noIndent">Din Feil paa Jorden var kun <seg target="txtcmnt-109-09"><!--DATA-TERM: Kjærlighed--><!--DATA-DEFINITION: Tasso elskede ifølge legenden prinsesse Leonore i Ferrara, men blev spærret inde af hensyn til hendes rygte; han flygtede til Sorrento og endte efter mange omskiftelser i Skt. Onofrio, hvor han døde, kort før han skulle være digterkronet på Capitol, den ene af Roms syv høje.-->Kjærlighed</seg>.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><pb n="110"/><head type="section" subtype="numbersOnly">34.</head>
+<head type="section">Da hun dandsede</head>
+<lg xml:id="p_00241">
+<l rend="noIndent">Blev Tonen synlig, o hvor smukt!</l>
+<l rend="noIndent">Fik Rosen Vinger, hvilken Flugt!</l>
+<l rend="noIndent">Vi ønske det – og det er skeet,</l>
+<l rend="noIndent">Dig har vi jo i Dandsen seet!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">35.</head>
+<head type="section">Da hun sang</head>
+<lg xml:id="p_00242">
+<l rend="noIndent">Naar Verden meer ei lytter til din Sang,</l>
+<l rend="noIndent">Vil jeg henrykkes ved din Læbes Klang,</l>
+<l rend="noIndent">Naar Ungdoms Smilet svinder fra din Mund,</l>
+<l rend="noIndent">Jeg seer det dog i Øiets dybe Grund.</l>
+<l rend="noIndent">Din Sjæl er stor, dit Hjerte er saa rigt.</l>
+<l rend="noIndent">Hvad gjemmer Du om mig? – Et gammelt Digt.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">37.</head>
+<head type="section">Med <seg target="txtcmnt-110-01"><!--DATA-TERM: Ingemanns Skrifter--><!--DATA-DEFINITION: måske <i>Samlede Skrifter</i>, hvis første afdeling, bestående af tre bind »Dramatiske Digte«, udkom i 1843.-->Ingemanns Skrifter</seg></head>
+<lg xml:id="p_00243">
+<l rend="noIndent"><seg target="txtcmnt-110-02"><!--DATA-TERM: Dannevang ved grønne Bred--><!--DATA-DEFINITION: B.S. Ingemanns fædrelandssang, »Dannevang med grønne Bred«, 1816, med melodi af C.E.F. Weyse.-->Dannevang ved grønne Bred</seg>,</l>
+<l rend="noIndent">Og den blanke <seg target="txtcmnt-110-03"><!--DATA-TERM: Vove--><!--DATA-DEFINITION: bølge; her hav, sø e.l.-->Vove</seg>,</l>
+<l rend="noIndent">Al uskyldig Kjærlighed,</l>
+<l rend="noIndent">Høit hans Navn vil love! –</l>
+<l rend="noIndent">Maanen skinner rund og stor</l>
+<l rend="noIndent">Over Mark og Mose,</l>
+<l rend="noIndent">Midt i Skovens Stilhed groer</l>
+<l rend="noIndent">Poesiens Rose.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">39.</head>
+<head type="section">Med mit Portræt, til en ung Dame</head>
+<lg xml:id="p_00244">
+<l rend="noIndent">Naar disse Omrids for din Tanke stige,</l>
+<l rend="noIndent">Da vil Du mindes »<seg target="txtcmnt-110-04"><!--DATA-TERM: Hjertets Melodi--><!--DATA-DEFINITION: måske hentydning til digtcyklussen »Hjertets Melodier« i H.C. Andersens <i>Phantasier og Skizzer</i>, 1831 (BFN 109; se bind 7, side 267 ff.).-->Hjertets Melodi</seg>;«</l>
+<pb n="111"/>
+<l rend="noIndent">Siig da: »Jeg har ham kjær!« – Du tør det sige,</l>
+<l rend="noIndent">Man veed, Du mener kun min Poesi!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">40.</head>
+<head type="section">Med en Bouquet af gule Aakande-Blomster bragt en ung Pige</head>
+<lg xml:id="p_00245">
+<l rend="noIndent">Dig <seg target="txtcmnt-111-01"><!--DATA-TERM: Nøkken--><!--DATA-DEFINITION: ifølge folketroen et overnaturligt væsen i menneskeeller hesteskikkelse, der holder til i elve, åer eller søer, hvor det lokker mennesker til sig med sit spil.-->Nøkken</seg> saae –! jeg samled’ i Bouquet</l>
+<l rend="noIndent">De gyldne Taarer han for Dig har grædt.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">41.</head>
+<head type="section">Sangerinden</head>
+<lg xml:id="p_00246">
+<l rend="noIndent">Du sang – jeg hørte henrykt Sangerinden,</l>
+<l rend="noIndent">Mon vel af mig min bedste Sang hun faaer?</l>
+<l rend="noIndent">– Men Sangerinden glemte jeg for Qvinden,</l>
+<l rend="noIndent">Jeg synger ei, for dybt mit Hjerte slaaer.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">42.</head>
+<head type="section">Efter en dramatisk Forestilling</head>
+<lg xml:id="p_00247">
+<l rend="noIndent">Er Stykket dumt og Publicum med,</l>
+<l rend="noIndent">De to gjør’ da ikke hinanden Fortræd!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">45.</head>
+<head type="section">Med en broderet Pude i <seg target="txtcmnt-111-02"><!--DATA-TERM: Roccoco (Stiil)--><!--DATA-DEFINITION: rokoko; stilart inden for kunst og arkitektur, kendetegnet ved elegante, svungne og ofte asymmetriske former.-->Roccoco Stiil</seg>, syet af en Datter til hendes Moder</head>
+<lg xml:id="p_00248">
+<l rend="noIndent">Endskjøndt jeg er den yngste jo,</l>
+<l rend="noIndent">Saa bringer jeg Dig Roccoco,</l>
+<l rend="noIndent">Men Roccoco er, som Du veed,</l>
+<l rend="noIndent">Et Billed paa min Kjærlighed.</l>
+</lg>
+</floatingText>
+<floatingText type="workPart">
+<pb n="112"/>
+<head type="section" subtype="numbersOnly">48.</head>
+<head type="sub">(Skrevet i <seg target="txtcmnt-112-01"><!--DATA-TERM: Pyrenæerne 7 Juli 1846--><!--DATA-DEFINITION: H.C. Andersen ankom 7. juli 1846 til Vernet i Pyrenæerne.-->Pyrenæerne 7 Juli 1846</seg>)</head>
+<lg xml:id="p_00249">
+<l rend="noIndent">I Kjære hjemme fylde al min Tanke,</l>
+<l rend="noIndent">I voxe der saa sælsomt meer og meer!</l>
+<l rend="noIndent">Mit Bryst det sprænges vil! og dog jeg seer</l>
+<l rend="noIndent">Jo Eder for mig bag en magisk <seg target="txtcmnt-112-02"><!--DATA-TERM: Skranke--><!--DATA-DEFINITION: afgrænsning, grænse.-->Skranke</seg>,</l>
+<l rend="noIndent">Saa nær, og dog saa mile, mile-vidt.</l>
+<l rend="noIndent">O, hvor jeg elsker Eder! elsker Eder!</l>
+<l rend="noIndent">Mon vel vi samles? Gud derom jeg beder.</l>
+<l rend="noIndent">Kan Længsel sprænge Hjertet, sprænges mit!</l>
+</lg>
+</floatingText>
+<floatingText type="workPart"><head type="section" subtype="numbersOnly">49.</head>
+<head type="section">I <seg target="txtcmnt-112-03"><!--DATA-TERM: den yngste af Casalis-Tuteins Sønner(s)--><!--DATA-DEFINITION: Gustave Cazalis, hvis mor, Clara Cazalis, var danskfødt under navnet Tutein.-->den yngste af Casalis-Tuteins Sønners</seg> <seg target="txtcmnt-112-04"><!--DATA-TERM: Stambog--><!--DATA-DEFINITION: jf. ovenfor.-->Stambog</seg></head>
+<head type="sub">(<seg target="txtcmnt-112-05"><!--DATA-TERM: Cette 1846--><!--DATA-DEFINITION: H.C. Andersen opholdt sig i Cette (Sète) fra 2. til 4. juli 1846.-->Cette 1846</seg>)</head>
+<lg xml:id="p_00250">
+<l rend="noIndent">Du har mig hjem igjen i Danmark sat.</l>
+<l rend="noIndent">Du taler Dansk. Sært Hjemmets Sprog bevæger!</l>
+<l rend="noIndent">Bevar den Nøgle til en Aandens Skat</l>
+<l rend="noIndent">Fra »<seg target="txtcmnt-112-06"><!--DATA-TERM: Kjæmpeviserne--><!--DATA-DEFINITION: folkeviserne, balladerne.--><hi rend="italic">Kjæmpeviserne</hi></seg>« til »<hi rend="italic">Oehlenschläger</hi>!«</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Alphabet-Bouquet" xml:id="alphabet-bouquet">         
+<pb n="113"/><head type="part">Alphabet-Bouquet</head>
+
+<floatingText xml:id="een-seer-man-foedt-for-prosa-og-een-for-poesi" rend="A. Agurke-Blomst" type="poem">
+<head type="section">A. Agurke-Blomst</head>
+<lg xml:id="p_00251">
+<l rend="noIndent" subtype="firstline" corresp="Een seer man født for Prosa og Een for Poesi" rendition="een-seer-man-foedt-for-prosa-og-een-for-poesi">Een seer man født for Prosa og Een for Poesi,</l>
+<l rend="noIndent">Een skabtes for Agurker og Een for <seg target="txtcmnt-113-01"><!--DATA-TERM: Potpouri--><!--DATA-DEFINITION: potpourri, blanding af forskellige tørrede blade eller blomster.-->Potpouri</seg>!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="naar-vinteren-draeber-alt-det-skjoenne" rend="B. Buxbom" type="poem">
+<head type="section">B. Buxbom</head>
+<lg xml:id="p_00252">
+<l rend="noIndent" subtype="firstline" corresp="Naar Vinteren dræber alt det Skjønne" rendition="naar-vinteren-draeber-alt-det-skjoenne">Naar Vinteren dræber alt det Skjønne,</l>
+<l rend="noIndent">Da skattes først det evigt Grønne.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="gaaer-verden-dig-for-haardt-imod" rend="C. Christi-Blodsdraabe" type="poem">
+<head type="section">C. Christi-Blodsdraabe</head>
+<lg xml:id="p_00253">
+<l rend="noIndent" subtype="firstline" corresp="Gaaer Verden Dig for haardt imod" rendition="gaaer-verden-dig-for-haardt-imod">Gaaer Verden Dig for haardt imod,</l>
+<l rend="noIndent">Husk: Christus maatte græde Blod.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="beskeden-som-blomst-men-god-som-frugt" rend="D. Drue-Blomst" type="poem">
+<head type="section">D. Drue-Blomst</head>
+<lg xml:id="p_00254">
+<l rend="noIndent" subtype="firstline" corresp="Beskeden som Blomst, men god som Frugt" rendition="beskeden-som-blomst-men-god-som-frugt">Beskeden som Blomst, men god som Frugt,</l>
+<l rend="noIndent">Kan der være i Verden noget mere smukt?</l>
+</lg>
+</floatingText>
+<floatingText xml:id="engblommen-veed-du-voxer-frem-i-mosen" rend="E. Engblomme" type="poem">
+<head type="section">E. Engblomme</head>
+<lg xml:id="p_00255">
+<l rend="noIndent" subtype="firstline" corresp="Engblommen veed Du voxer frem i Mosen" rendition="engblommen-veed-du-voxer-frem-i-mosen">Engblommen veed Du voxer frem i Mosen,</l>
+<l rend="noIndent">Men bragt til Dig, misundes den af Rosen.</l>
+</lg>
+<pb n="114"/>
+</floatingText>
+<floatingText xml:id="med-den-i-haanden-du-bliver-perplex" rend="F. Fiirkløver" type="poem">
+<head type="section">F. Fiirkløver</head>
+<lg xml:id="p_00256">
+<l rend="noIndent" subtype="firstline" corresp="Med den i Haanden Du bliver perplex" rendition="med-den-i-haanden-du-bliver-perplex">Med den i Haanden Du bliver perplex,</l>
+<l rend="noIndent">Du seer Dig selv som en lille Hex!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="prangende-daare" rend="G. Georgine" type="poem">
+<head type="section">G. Georgine</head>
+<lg xml:id="p_00257">
+<l rend="noIndent" subtype="firstline" corresp="Prangende Daare" rendition="prangende-daare">Prangende Daare,</l>
+<l rend="noIndent">Du kan dog ikke saare!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="dens-klokker-ringe-over-eng" rend="H. Hyazint" type="poem">
+<head type="section">H. Hyazint</head>
+<lg xml:id="p_00258">
+<l rend="noIndent" subtype="firstline" corresp="Dens Klokker ringe over Eng" rendition="dens-klokker-ringe-over-eng">Dens Klokker ringe over Eng,</l>
+<l rend="noIndent">At Skjønheds Blomst gaaer snart i Seng.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="i-denne-blomst-vi-to-forenes-sammen" rend="I. Ildlillie" type="poem">
+<head type="section">I. Ildlillie</head>
+<lg xml:id="p_00259">
+<l rend="noIndent" subtype="firstline" corresp="I denne Blomst vi to forenes sammen" rendition="i-denne-blomst-vi-to-forenes-sammen">I denne Blomst vi to forenes sammen,</l>
+<l rend="noIndent">Du er den friske Lillie, jeg er Flammen!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="skjoendt-foedt-paa-marken-kan-man-vaere" rend="K. Kongelys" type="poem">
+<head type="section">K. Kongelys</head>
+<lg xml:id="p_00260">
+<l rend="noIndent" subtype="firstline" corresp="Skjøndt født paa Marken, kan man være" rendition="skjoendt-foedt-paa-marken-kan-man-vaere">Skjøndt født paa Marken, kan man være</l>
+<l rend="noIndent">Et Kongelys med Ære.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="hjertet-skal-ligne-lindens-blad" rend="L. Lindeblomst" type="poem">
+<head type="section">L. Lindeblomst</head>
+<lg xml:id="p_00261">
+<l rend="noIndent" subtype="firstline" corresp="Hjertet skal ligne Lindens Blad" rendition="hjertet-skal-ligne-lindens-blad">Hjertet skal ligne Lindens Blad,</l>
+<l rend="noIndent">Men ei ved hvert Hjerte just Blomsten sad.</l>
+</lg>
+<pb n="115"/>
+</floatingText>
+<floatingText xml:id="den-sorg-er-altid-mindre-hvor" rend="M. Myrte" type="poem">
+<head type="section">M. Myrte</head>
+<lg xml:id="p_00262">
+<l rend="noIndent" subtype="firstline" corresp="Den Sorg er altid mindre hvor" rendition="den-sorg-er-altid-mindre-hvor"><seg target="txtcmnt-115-01" type="dfnStart"/><!--DATA-TERM: Den Sorg … den Hele--><!--DATA-DEFINITION: disse fire linjer har tidligere i let ændret form været trykt som første halvdel af sidste strofe i »Sølv-Bryllups-Vise den 29. September 1841« (BFN 404; se side 40) til Caroline og Julius Holcks sølvbryllup; hentydning til at myrte anvendes i brudekransen, som bruden bærer oven på sløret.-->Den Sorg er altid mindre hvor</l>
+<l rend="noIndent"><hi rend="italic">To</hi> kunne Sorgen dele,</l>
+<l rend="noIndent">Og Lykken bliver doppelt stor,</l>
+<l rend="noIndent">Hvor Tvende fik den Hele<seg type="dfnEnd" target="txtcmnt-115-01"/>!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="forstaaer-du-denne-blomst-jo-den-er-rigtig" rend="N. Noli me tangere" type="poem">
+<head type="section">N. <seg target="txtcmnt-115-02"><!--DATA-TERM: Noli me tangere--><!--DATA-DEFINITION: (latin) lad være med at røre mig; Jesu ord til Maria efter opstandelsen, jf. Johannes 20,17; her: andet navn for planten spring-balsamine.--><hi rend="italic">Noli me tangere</hi></seg></head>
+<lg xml:id="p_00263">
+<l rend="noIndent" subtype="firstline" corresp="Forstaaer Du denne Blomst? Jo den er rigtig" rendition="forstaaer-du-denne-blomst-jo-den-er-rigtig">Forstaaer Du denne Blomst? Jo den er rigtig,</l>
+<l rend="noIndent">Den er mig selv. – Jeg beder, vær forsigtig!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="see-ei-paa-navnet-ringe-useligt" rend="O. Oxedrive" type="poem">
+<head type="section">O. Oxedrive</head>
+<lg xml:id="p_00264">
+<l rend="noIndent" subtype="firstline" corresp="See ei paa Navnet, ringe useligt –!" rendition="see-ei-paa-navnet-ringe-useligt-">See ei paa Navnet, ringe <seg target="txtcmnt-115-03"><!--DATA-TERM: useligt--><!--DATA-DEFINITION: usseligt; usselt.-->useligt</seg> –!</l>
+<l rend="noIndent">Gud gav mig Plads i Skovens Skjønheds-Digt.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="vogt-dig-staerke-purpurlillie" rend="P. Purpurlillie" type="poem">
+<head type="section">P. Purpurlillie</head>
+<lg xml:id="p_00265">
+<l rend="noIndent" subtype="firstline" corresp="Vogt Dig, stærke Purpurlillie" rendition="vogt-dig-staerke-purpurlillie">Vogt Dig, stærke Purpurlillie,</l>
+<l rend="noIndent">At ikke Sommerfuglen faaer sin Villie!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="hvad-ei-et-solkys-folder-ud" rend="Q. Qvæde" type="poem">
+<head type="section">Q. Qvæde</head>
+<lg xml:id="p_00266">
+<l rend="noIndent" subtype="firstline" corresp="Hvad ei et Solkys folder ud" rendition="hvad-ei-et-solkys-folder-ud">Hvad ei et Solkys folder ud,</l>
+<l rend="noIndent">Maa modnes ved den skarpe Lud.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="maerk-det-i-smaa-og-store" rend="R. Ridderspore" type="poem">
+<head type="section">R. Ridderspore</head>
+<lg xml:id="p_00267">
+<l rend="noIndent" subtype="firstline" corresp="Mærk det, I Smaa og Store" rendition="maerk-det-i-smaa-og-store">Mærk det, I Smaa og Store,</l>
+<l rend="noIndent">Som <seg target="txtcmnt-115-04"><!--DATA-TERM: axle Eders Skind--><!--DATA-DEFINITION: tage en pelskappe over armen; almindeligt udtryk i folkeviserne.-->axle Eders Skind</seg>,</l>
+<l rend="noIndent">Eet er en Ridderspore,</l>
+<l rend="noIndent">Et andet – Riddersind!</l>
+</lg>
+<pb n="116"/>
+</floatingText>
+<floatingText xml:id="den-dreier-sig-bestandig-efter-solen" rend="S. Solsikke" type="poem">
+<head type="section">S. Solsikke</head>
+<lg xml:id="p_00268">
+<l rend="noIndent" subtype="firstline" corresp="Den dreier sig bestandig efter Solen" rendition="den-dreier-sig-bestandig-efter-solen">Den dreier sig bestandig efter Solen,</l>
+<l rend="noIndent">Men Solen la’er den sidde dog paa <seg target="txtcmnt-116-01"><!--DATA-TERM: Stolen--><!--DATA-DEFINITION: her: stilken.-->Stolen</seg>.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="jeg-er-just-kostbar-derpaa-kan-du-stole" rend="T. Tulipan" type="poem">
+<head type="section">T. Tulipan</head>
+<lg xml:id="p_00269">
+<l rend="noIndent" subtype="firstline" corresp="Jeg er just kostbar, derpaa kan du stole" rendition="jeg-er-just-kostbar-derpaa-kan-du-stole">Jeg er just kostbar, derpaa kan du stole,</l>
+<l rend="noIndent">Man spørger ei om Sjæl, men kun om <seg target="txtcmnt-116-02"><!--DATA-TERM: Kjole--><!--DATA-DEFINITION: her: det ydre.-->Kjole</seg>.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="det-mindste-blad-er-et-hexeri" rend="U. Ulvefod" type="poem">
+<head type="section">U. Ulvefod</head>
+<lg xml:id="p_00270">
+<l rend="noIndent" subtype="firstline" corresp="Det mindste Blad er et Hexeri" rendition="det-mindste-blad-er-et-hexeri">Det mindste Blad er et <seg target="txtcmnt-116-03"><!--DATA-TERM: Hexeri--><!--DATA-DEFINITION: ulvefodens gule sporestøv kaldes heksemel, tidligere anvendt som lægemiddel.-->Hexeri</seg>,</l>
+<l rend="noIndent">Der sidder en levende Sjæl deri!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="fra-den-tid-jeg-dine-oeine-saae" rend="V. Violer" type="poem">
+<head type="section">V. Violer</head>
+<lg xml:id="p_00271">
+<l rend="noIndent" subtype="firstline" corresp="Fra den Tid jeg dine Øine saae" rendition="fra-den-tid-jeg-dine-oeine-saae">Fra den Tid jeg dine Øine saae,</l>
+<l rend="noIndent">Er ingen Violer rigtige blaae!</l>
+</lg>
+</floatingText>
+<floatingText xml:id="hvad-gjoer-jeg-med-x-og-med-y-og-med-z" rend="X. Y. Z." type="poem">
+<head type="section">X. Y. Z.</head>
+<lg xml:id="p_00272">
+<l rend="noIndent" subtype="firstline" corresp="Hvad gjør jeg med X og med Y og med Z?" rendition="hvad-gjoer-jeg-med-x-og-med-y-og-med-z">Hvad gjør jeg med <hi rend="italic">X</hi> og med <hi rend="italic">Y</hi> og med <hi rend="italic">Z</hi>?</l>
+<l rend="noIndent">De falde som Ukrud fra min Bouquet.</l>
+</lg>
+</floatingText>
+<floatingText xml:id="den-fineste-blomst-med-bedste-villie" rend="Æ. Ærteblomst" type="poem">
+<head type="section">Æ. Ærteblomst</head>
+<lg xml:id="p_00273">
+<l rend="noIndent" subtype="firstline" corresp="Den fineste Blomst med bedste Villie" rendition="den-fineste-blomst-med-bedste-villie">Den fineste Blomst med bedste Villie,</l>
+<l rend="noIndent">Tidt ender som <seg target="txtcmnt-116-04"><!--DATA-TERM: Bælle--><!--DATA-DEFINITION: bælg.-->Bælle</seg> med stor Familie.</l>
+</lg>
+</floatingText>
+</div>
+               
+               
+               
+               
+<div type="workPart" rend="Til den lille Prinds Carl August" xml:id="til-den-lille-prinds-carl-august"><pb n="117"/><head type="part">Til den lille <seg target="txtcmnt-117-01"><!--DATA-TERM: Prinds Carl August--><!--DATA-DEFINITION: Karl August, søn af arvestorhertug Carl Alexander af Sachsen-Weimar-Eisenach, som H.C. Andersen besøgte under sit ophold i Weimar fra 8. januar til 7. februar 1846.-->Prinds Carl August</seg></head>
+<head type="sub">(Weimar 1846)</head>
+<lg xml:id="p_00274">
+<l rend="noIndent" subtype="firstline" corresp="I Thyringerskoven ligger et Slot" rendition="i-thyringerskoven-ligger-et-slot">I <seg target="txtcmnt-117-02"><!--DATA-TERM: Thyringerskoven ligger et Slot--><!--DATA-DEFINITION: arvestorhertug Carl Alexander af Sachsen-Weimar-Eisenachs residens, Schloß Ettersburg, i Thüringerwald.-->Thyringerskoven ligger et Slot</seg>,</l>
+<l rend="noIndent">Derinde Hjerterne bygge,</l>
+<l rend="noIndent">Der er saa hjemligt, der er saa godt,</l>
+<l rend="noIndent">Der saae jeg Huuslivets Lykke!</l>
+<l rend="noIndent">Rundtom var Marmor og Farve-Pragt,</l>
+<l rend="noIndent">Dog husker jeg bedst en Stue,</l>
+<l rend="noIndent">Et Thronkammer just for Hjertets Magt,</l>
+<l rend="noIndent">Der saae jeg det yndigste Skue.</l>
+</lg>
+<lg xml:id="p_00275">
+<l rend="noIndent">Fyrstinden, Moderen, uskyldsglad,</l>
+<l rend="noIndent">I Legen sprang med sin Lille,</l>
+<l rend="noIndent">Som Rytter paa hendes Ryg han sad,</l>
+<l rend="noIndent">I Gallop, i Gallop han vilde.</l>
+<l rend="noIndent">Saa yndig, saa mild, saa moderglad,</l>
+<l rend="noIndent">Hun smiilte; det var en Glæde! –</l>
+<l rend="noIndent">Hvad stille et trofast Hjerte bad</l>
+<l rend="noIndent">Vil engang Englene <seg target="txtcmnt-117-03"><!--DATA-TERM: qvæde--><!--DATA-DEFINITION: synge.-->qvæde</seg>.</l>
+</lg>
+<lg xml:id="p_00276">
+<l rend="noIndent">Du venlige Barn med de Øine blaae,</l>
+<l rend="noIndent">Med det yndige Smiil om Læben,</l>
+<l rend="noIndent">Din Faders kjærlige Hjerte Du faae,</l>
+<l rend="noIndent">Hans aabne Sind og hans Stræben.</l>
+<l rend="noIndent">Dig Videnskabens straalende Fyr</l>
+<l rend="noIndent">Skal lyse med evige <seg target="txtcmnt-117-04"><!--DATA-TERM: Kjærter--><!--DATA-DEFINITION: kerter; stearin- el. vokslys.-->Kjærter</seg>.</l>
+<l rend="noIndent">Naturen sin Bog med Eventyr</l>
+<l rend="noIndent">Dig aabnes og alle Hjerter!</l>
+</lg>
+<lg xml:id="p_00277">
+<l rend="noIndent">O Thyringer Skov! dit Navn har en Klang,</l>
+<l rend="noIndent">I den er en Verdens Stemme,</l>
+<l rend="noIndent">Hvor Luther talte, hvor <seg target="txtcmnt-117-05"><!--DATA-TERM: Göthe--><!--DATA-DEFINITION: Goethe.-->Göthe</seg> sang</l>
+<l rend="noIndent">Der hører det Herlige hjemme!</l>
+<l rend="noIndent">Gud <seg target="txtcmnt-117-06"><!--DATA-TERM: signe--><!--DATA-DEFINITION: velsigne.-->signe</seg> den Slægt, som i Stort og Godt,</l>
+<l rend="noIndent">Vil fremad til Held og Lykke.</l>
+<l rend="noIndent">I Thyringer Skoven ligger et Slot,</l>
+<l rend="noIndent">Derinde Hjerterne bygge.</l>
+</lg>
+<pb n="118"/>
+</div>
+               
+               
+               
+               
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+<div type="work-comments" rend="Af Digte, gamle og nye, 1847" synch="af-digte-gamle-og-nye-1847">
+<head type="section-comments"><source subtype="foreign">Af</source> <hi rend="italic">Digte, gamle og nye</hi>, 1847</head>
+<p rend="noIndent">Samlingen udkom 26. december 1846 med årstallet 1847 på titelbladet.</p>
+<p rend="noIndent">BFN 488</p>
+<div type="work-comments" rend="Af Thorvaldsen. " synch="af-thorvaldsen">
+<head type="section-comments"><source subtype="foreign">Af</source> Thorvaldsen</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 489</p>
+<table rend="textcomments">
+<cell type="page">104</cell><cell><row xml:id="txtcmnt-104-01"><cell type="data-term">Dandserinden</cell><cell type="data-definition">skulptur fra 1817; nu på Thorvaldsens Museum.</cell></row><row xml:id="txtcmnt-104-02"><cell type="data-term">Ganymed</cell><cell type="data-definition">Thorvaldsen skabte flere værker med denne titel; her formodentlig <hi rend="italic">Ganymedes med Jupiters ørn</hi> fra 1817, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.</cell></row><row xml:id="txtcmnt-104-03"><cell type="data-term">Amor og Psyche</cell><cell type="data-definition">Thorvaldsen skabte flere værker med denne titel; her formodentlig værket fra ca. 1807, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.</cell></row><row xml:id="txtcmnt-104-04"><cell type="data-term">døde … Kunstner</cell><cell type="data-definition">Thorvaldsen døde 24. marts 1844 under en forestilling i Det Kgl. Teater.</cell></row><row xml:id="txtcmnt-104-05"><cell type="data-term">risler alle Bølger smaa</cell><cell type="data-definition">alfekor fra Oehlenschlägers syngespil <hi rend="italic">Faruk</hi>, 1812, opført første gang på Det Kgl. Teater samme år.</cell></row><row xml:id="txtcmnt-104-06"><cell type="data-term">Bliv</cell><cell type="data-definition">(på)bud om at blive til; jf. 1. Mosebog 1,3 ff.</cell></row><row xml:id="txtcmnt-104-07"><cell type="data-term">Ørn … Lynet</cell><cell type="data-definition">lynet er den romerske fader- og himmelgud, Jupiters, kendetegn.</cell></row><row xml:id="txtcmnt-104-08"><cell type="data-term">skjænker … Skaalen fuld</cell><cell type="data-definition">hentydning til skulpturen af Ganymedes, gudernes smukke mundskænk, der knælende holder en skål med vand for Jupiters drikkende ørn.</cell></row></cell>
+<cell type="page">105</cell><cell><row xml:id="txtcmnt-105-01"><cell type="data-term">Psyche(n)</cell><cell type="data-definition">(græsk) sjæl; afbildes i græsk mytologi i fugleskikkelse eller som en lille eller ung pige (med sommerfuglevinger).</cell></row><row xml:id="txtcmnt-105-02"><cell type="data-term">Kjærlighedens Kys</cell><cell type="data-definition">hentydning til myten om Amor og Psyche: Guden Amor forelsker sig i kongedatteren Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor.</cell></row></cell>
+</table>
+
+<!--</div>
+
+<div type="work-comments">-->
+<head type="section-comments"><source subtype="foreign">Af</source> Deviser med Presenter paa et Juletræ</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 490</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">106,6</cell><cell type="deviation">»Endnu jeg &lt; Endnu jeg</cell></row>
+</table>
+<pb n="567"/>
+<table rend="textcomments">
+<cell type="page">106</cell><cell><row xml:id="txtcmnt-106-01"><cell type="data-term">Devise(r)</cell><cell type="data-definition">kort sætning, der indeholder en (moralsk) sandhed, sentens; ofte vedlagt en gave.</cell></row><row xml:id="txtcmnt-106-02"><cell type="data-term">Presenter</cell><cell type="data-definition">gaver.</cell></row><row xml:id="txtcmnt-106-03"><cell type="data-term">»Endnu jeg … den!«</cell><cell type="data-definition">jf. de sidste to verslinjer af genioptrykket af Jens Baggesens digt »Da jeg var lille« fra <hi rend="italic">Ungdomsarbeider. Anden Deel</hi>, 1791, hvor sidste strofe lyder: »De svandt, de svandt de blide Barndoms Dage! / Min Rolighed, min Fryd med dem svandt hen; / Jeg kun Erindringen har nu tilbage: / Gud lad mig aldrig, aldrig tabe den!«; digtet er trykt første gang i H.W. Riber <hi rend="italic">Poesier. Første Samling</hi>, 1785, hvor sidste strofe dog lyder: »O gode Gud! du skuer alt! du kiender / Min Siel, og alle mine Tanker veed! / End beder jeg; Men ak! som Synden brænder / Min Andagt ei med den Uskyldighed«.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Italien" synch="af-italien">
+<head type="section-comments"><source subtype="foreign">Af</source> Italien</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 491</p>
+<table rend="textcomments">
+<cell type="page">107</cell><cell><row xml:id="txtcmnt-107-01"><cell type="data-term">St. Luzia Sommeren 1846</cell><cell type="data-definition">under sit ophold i Napoli fra 4. til 20. maj 1846 er H.C. Andersen ifølge dagbogen indlogeret »paa St Luzia N° 28«.</cell></row><row xml:id="txtcmnt-107-02"><cell type="data-term">røde Fiskerblus</cell><cell type="data-definition">der fiskedes om natten ved blus for at trække fiskene til.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Af Et halvhundrede Smaavers" synch="af-et-halvhundrede-smaavers">
+<head type="section-comments">Af Et halvhundrede Smaavers</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 492-508</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">111,24</cell><cell type="deviation">Roccoco, &lt; Rococo,</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">108</cell><cell><row xml:id="txtcmnt-108-01"><cell type="data-term">St. Georg</cell><cell type="data-definition">skytshelgen for syge, som ifølge legenden kæmpede mod en drage for at redde prinsesse Kleodolinde.</cell></row><row xml:id="txtcmnt-108-02"><cell type="data-term">Mendelsohn Bartholdy(s)</cell><cell type="data-definition">Mendelssohn-Bartholdy.</cell></row><row xml:id="txtcmnt-108-03"><cell type="data-term">Stambog</cell><cell type="data-definition">bog, hvori venner og gæster skrev deres navne sammen med sentenser, vers o.l.</cell></row><row xml:id="txtcmnt-108-04"><cell type="data-term">felix</cell><cell type="data-definition">(latin) lykkelig, heldig.</cell></row><row xml:id="txtcmnt-108-05"><cell type="data-term">Schillers »Gedichte«</cell><cell type="data-definition">Schiller udgav flere digtsamlinger i starten af 1800-tallet, bl.a. <hi rend="italic">Gedichte. Erster Teil</hi>, 1800, og <hi rend="italic">Gedichte. Zweiter Teil</hi>, 1803.</cell></row></cell>
+<cell type="page">109</cell><cell><row xml:id="txtcmnt-109-01"><cell type="data-term">Fuur-Søen</cell><cell type="data-definition">Furesøen.</cell></row><row xml:id="txtcmnt-109-02"><cell type="data-term">Zone</cell><cell type="data-definition">sfære.</cell></row><row xml:id="txtcmnt-109-03"><cell type="data-term">Stambog</cell><cell type="data-definition">bog, hvori venner og gæster skrev deres navne sammen med sentenser, vers o.l.</cell></row><row xml:id="txtcmnt-109-04"><cell type="data-term">Christianis … Føhr 1844</cell><cell type="data-definition">fra 29. august til 9. september 1844 boede H.C. Andersen hos dronning Caroline Amalie og kong Christian 8. på øen Føhr, hvor han bl.a. mødte dr.jur. og stadssekretær i Lüneburg, Rudolf Christiani.</cell></row><row xml:id="txtcmnt-109-05"><cell type="data-term">Stambog</cell><cell type="data-definition">jf. ovenfor.</cell></row><row xml:id="txtcmnt-109-06"><cell type="data-term">Nordhavs-Øen</cell><cell type="data-definition">Føhr.</cell></row><row xml:id="txtcmnt-109-07"><cell type="data-term">Tassos Grav</cell><cell type="data-definition">den italienske digter Torquato Tasso er begravet i klostret Skt. Onofrio i Rom.</cell></row><row xml:id="txtcmnt-109-08"><cell type="data-term">Rom 1833</cell><cell type="data-definition">H.C. Andersen opholdt sig i Rom fra 18. oktober 1833 til 1. april 1834.</cell></row><row xml:id="txtcmnt-109-09"><cell type="data-term">Kjærlighed</cell><cell type="data-definition">Tasso elskede ifølge legenden prinsesse Leonore i Ferrara, men blev spærret inde af hensyn til hendes rygte; han flygtede til Sorrento og endte efter mange omskiftelser i Skt. Onofrio, hvor han døde, kort før han skulle være digterkronet på Capitol, den ene af Roms syv høje.</cell></row></cell>
+<pb n="568"/>
+<cell type="page">110</cell><cell><row xml:id="txtcmnt-110-01"><cell type="data-term">Ingemanns Skrifter</cell><cell type="data-definition">måske <hi rend="italic">Samlede Skrifter</hi>, hvis første afdeling, bestående af tre bind »Dramatiske Digte«, udkom i 1843.</cell></row><row xml:id="txtcmnt-110-02"><cell type="data-term">Dannevang ved grønne Bred</cell><cell type="data-definition">B.S. Ingemanns fædrelandssang, »Dannevang med grønne Bred«, 1816, med melodi af C.E.F. Weyse.</cell></row><row xml:id="txtcmnt-110-03"><cell type="data-term">Vove</cell><cell type="data-definition">bølge; her hav, sø e.l.</cell></row><row xml:id="txtcmnt-110-04"><cell type="data-term">Hjertets Melodi</cell><cell type="data-definition">måske hentydning til digtcyklussen »Hjertets Melodier« i H.C. Andersens <hi rend="italic">Phantasier og Skizzer</hi>, 1831 (BFN 109; se bind 7, side 267 ff.).</cell></row></cell>
+<cell type="page">111</cell><cell><row xml:id="txtcmnt-111-01"><cell type="data-term">Nøkken</cell><cell type="data-definition">ifølge folketroen et overnaturligt væsen i menneskeeller hesteskikkelse, der holder til i elve, åer eller søer, hvor det lokker mennesker til sig med sit spil.</cell></row><row xml:id="txtcmnt-111-02"><cell type="data-term">Roccoco (Stiil)</cell><cell type="data-definition">rokoko; stilart inden for kunst og arkitektur, kendetegnet ved elegante, svungne og ofte asymmetriske former.</cell></row></cell>
+<cell type="page">112</cell><cell><row xml:id="txtcmnt-112-01"><cell type="data-term">Pyrenæerne 7 Juli 1846</cell><cell type="data-definition">H.C. Andersen ankom 7. juli 1846 til Vernet i Pyrenæerne.</cell></row><row xml:id="txtcmnt-112-02"><cell type="data-term">Skranke</cell><cell type="data-definition">afgrænsning, grænse.</cell></row><row xml:id="txtcmnt-112-03"><cell type="data-term">den yngste af Casalis-Tuteins Sønner(s)</cell><cell type="data-definition">Gustave Cazalis, hvis mor, Clara Cazalis, var danskfødt under navnet Tutein.</cell></row><row xml:id="txtcmnt-112-04"><cell type="data-term">Stambog</cell><cell type="data-definition">jf. ovenfor.</cell></row><row xml:id="txtcmnt-112-05"><cell type="data-term">Cette 1846</cell><cell type="data-definition">H.C. Andersen opholdt sig i Cette (Sète) fra 2. til 4. juli 1846.</cell></row><row xml:id="txtcmnt-112-06"><cell type="data-term">Kjæmpeviserne</cell><cell type="data-definition">folkeviserne, balladerne.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Alphabet-Bouquet" synch="alphabet-bouquet">
+<head type="section-comments">Alphabet-Bouquet</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 509</p>
+<table rend="textcomments">
+<cell type="page">113</cell><cell><row xml:id="txtcmnt-113-01"><cell type="data-term">Potpouri</cell><cell type="data-definition">potpourri, blanding af forskellige tørrede blade eller blomster.</cell></row></cell>
+<cell type="page">115</cell><cell><row xml:id="txtcmnt-115-01"><cell type="data-term">Den Sorg … den Hele</cell><cell type="data-definition">disse fire linjer har tidligere i let ændret form været trykt som første halvdel af sidste strofe i »Sølv-Bryllups-Vise den 29. September 1841« (BFN 404; se side 40) til Caroline og Julius Holcks sølvbryllup; hentydning til at myrte anvendes i brudekransen, som bruden bærer oven på sløret.</cell></row><row xml:id="txtcmnt-115-02"><cell type="data-term">Noli me tangere</cell><cell type="data-definition">(latin) lad være med at røre mig; Jesu ord til Maria efter opstandelsen, jf. Johannes 20,17; her: andet navn for planten spring-balsamine.</cell></row><row xml:id="txtcmnt-115-03"><cell type="data-term">useligt</cell><cell type="data-definition">usseligt; usselt.</cell></row><row xml:id="txtcmnt-115-04"><cell type="data-term">axle Eders Skind</cell><cell type="data-definition">tage en pelskappe over armen; almindeligt udtryk i folkeviserne.</cell></row></cell>
+<cell type="page">116</cell><cell><row xml:id="txtcmnt-116-01"><cell type="data-term">Stolen</cell><cell type="data-definition">her: stilken.</cell></row><row xml:id="txtcmnt-116-02"><cell type="data-term">Kjole</cell><cell type="data-definition">her: det ydre.</cell></row><row xml:id="txtcmnt-116-03"><cell type="data-term">Hexeri</cell><cell type="data-definition">ulvefodens gule sporestøv kaldes heksemel, tidligere anvendt som lægemiddel.</cell></row><row xml:id="txtcmnt-116-04"><cell type="data-term">Bælle</cell><cell type="data-definition">bælg.</cell></row></cell>
+</table></div>
+<div type="work-comments" rend="Til den lille Prinds Carl August" synch="til-den-lille-prinds-carl-august">
+<head type="section-comments">Til den lille Prinds Carl August</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 510</p>
+<table rend="textcomments">
+<cell type="page">117</cell><cell><row xml:id="txtcmnt-117-01"><cell type="data-term">Prinds Carl August</cell><cell type="data-definition">Karl August, søn af arvestorhertug Carl Alexander af Sachsen-Weimar-Eisenach, som H.C. Andersen besøgte under sit ophold i Weimar fra 8. januar til 7. februar 1846.</cell></row><row xml:id="txtcmnt-117-02"><cell type="data-term">Thyringerskoven ligger et Slot</cell><cell type="data-definition">arvestorhertug Carl Alexander af Sachsen-Weimar-Eisenachs residens, Schloß Ettersburg, i Thüringerwald.</cell></row><row xml:id="txtcmnt-117-03"><cell type="data-term">qvæde</cell><cell type="data-definition">synge.</cell></row><row xml:id="txtcmnt-117-04"><cell type="data-term">Kjærter</cell><cell type="data-definition">kerter; stearin- el. vokslys.</cell></row><row xml:id="txtcmnt-117-05"><cell type="data-term">Göthe</cell><cell type="data-definition">Goethe.</cell></row><row xml:id="txtcmnt-117-06"><cell type="data-term">signe</cell><cell type="data-definition">velsigne.</cell></row></cell>
+</table>
+</div>
+</div><div type="work-comments" rend="Af Thorvaldsen. " synch="af-thorvaldsen">
+<head type="section-comments"><source subtype="foreign">Af</source> Thorvaldsen</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 489</p>
+<table rend="textcomments">
+<cell type="page">104</cell><cell><row xml:id="txtcmnt-104-01"><cell type="data-term">Dandserinden</cell><cell type="data-definition">skulptur fra 1817; nu på Thorvaldsens Museum.</cell></row><row xml:id="txtcmnt-104-02"><cell type="data-term">Ganymed</cell><cell type="data-definition">Thorvaldsen skabte flere værker med denne titel; her formodentlig <hi rend="italic">Ganymedes med Jupiters ørn</hi> fra 1817, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.</cell></row><row xml:id="txtcmnt-104-03"><cell type="data-term">Amor og Psyche</cell><cell type="data-definition">Thorvaldsen skabte flere værker med denne titel; her formodentlig værket fra ca. 1807, nu på Thorvaldsens Museum; jf. i øvrigt nedenfor.</cell></row><row xml:id="txtcmnt-104-04"><cell type="data-term">døde … Kunstner</cell><cell type="data-definition">Thorvaldsen døde 24. marts 1844 under en forestilling i Det Kgl. Teater.</cell></row><row xml:id="txtcmnt-104-05"><cell type="data-term">risler alle Bølger smaa</cell><cell type="data-definition">alfekor fra Oehlenschlägers syngespil <hi rend="italic">Faruk</hi>, 1812, opført første gang på Det Kgl. Teater samme år.</cell></row><row xml:id="txtcmnt-104-06"><cell type="data-term">Bliv</cell><cell type="data-definition">(på)bud om at blive til; jf. 1. Mosebog 1,3 ff.</cell></row><row xml:id="txtcmnt-104-07"><cell type="data-term">Ørn … Lynet</cell><cell type="data-definition">lynet er den romerske fader- og himmelgud, Jupiters, kendetegn.</cell></row><row xml:id="txtcmnt-104-08"><cell type="data-term">skjænker … Skaalen fuld</cell><cell type="data-definition">hentydning til skulpturen af Ganymedes, gudernes smukke mundskænk, der knælende holder en skål med vand for Jupiters drikkende ørn.</cell></row></cell>
+<cell type="page">105</cell><cell><row xml:id="txtcmnt-105-01"><cell type="data-term">Psyche(n)</cell><cell type="data-definition">(græsk) sjæl; afbildes i græsk mytologi i fugleskikkelse eller som en lille eller ung pige (med sommerfuglevinger).</cell></row><row xml:id="txtcmnt-105-02"><cell type="data-term">Kjærlighedens Kys</cell><cell type="data-definition">hentydning til myten om Amor og Psyche: Guden Amor forelsker sig i kongedatteren Psyche, fører hende til en ensom bolig, hvor han hver nat besøger hende, dog uden at hun ser ham i mørket. På trods af Amors forbud mod, at hun prøver at finde ud af, hvem han er, betragter hun ham en nat, mens han sover i lyset fra en olielampe. Han vækkes imidlertid, da en dråbe fra lampen falder på hans skulder, og han forlader hende. Psyche søger ham uden held, men efter mange genvordigheder fatter Jupiter medlidenhed med hende og skænker hende udødelighed og evigt samliv med Amor.</cell></row></cell>
+</table>
+
+<!--</div>
+
+<div type="work-comments">-->
+<head type="section-comments"><source subtype="foreign">Af</source> Deviser med Presenter paa et Juletræ</head>
+<p rend="noIndent">Først kendte tryk i <hi rend="italic">Digte, gamle og nye</hi>. BFN 490</p>
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">106,6</cell><cell type="deviation">»Endnu jeg &lt; Endnu jeg</cell></row>
+</table>
+<pb n="567"/>
+<table rend="textcomments">
+<cell type="page">106</cell><cell><row xml:id="txtcmnt-106-01"><cell type="data-term">Devise(r)</cell><cell type="data-definition">kort sætning, der indeholder en (moralsk) sandhed, sentens; ofte vedlagt en gave.</cell></row><row xml:id="txtcmnt-106-02"><cell type="data-term">Presenter</cell><cell type="data-definition">gaver.</cell></row><row xml:id="txtcmnt-106-03"><cell type="data-term">»Endnu jeg … den!«</cell><cell type="data-definition">jf. de sidste to verslinjer af genioptrykket af Jens Baggesens digt »Da jeg var lille« fra <hi rend="italic">Ungdomsarbeider. Anden Deel</hi>, 1791, hvor sidste strofe lyder: »De svandt, de svandt de blide Barndoms Dage! / Min Rolighed, min Fryd med dem svandt hen; / Jeg kun Erindringen har nu tilbage: / Gud lad mig aldrig, aldrig tabe den!«; digtet er trykt første gang i H.W. Riber <hi rend="italic">Poesier. Første Samling</hi>, 1785, hvor sidste strofe dog lyder: »O gode Gud! du skuer alt! du kiender / Min Siel, og alle mine Tanker veed! / End beder jeg; Men ak! som Synden brænder / Min Andagt ei med den Uskyldighed«.</cell></row></cell>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

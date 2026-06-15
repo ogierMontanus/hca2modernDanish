@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Laserne</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Folkekalender for Danmark 1869, der udkom i december 1868.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="laserne"/>
+                                                       
+                                                            <note target="laserne_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="179_The-Rags">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Laserne. Udg. af [INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1869</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-03-29" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-09-29" status="draft">extrakted from larger file with entire volume</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="laserne">
+<head type="main">Laserne</head>
+<head type="sub">Et eventyr<note type="footnote"><!--* --><p rend="noIndent" xml:id="p_00001"><!--* -->Skrevet for flere år siden i Silkeborg.</p></note></head>
+
+<p rend="noIndent" xml:id="p_00001">Uden for fabrikken stod i stakke højt opstablede kludebunker, samlet vidt og bredt fra. Hver las havde sin historie, hver førte sin tale, men man kan ikke høre dem allesammen. Nogle laser var indenlandske, andre var fra fremmede lande. Her lå nu en dansk las op til en norsk las. Pæredansk var den ene, og ravnorsk var den anden, og det var det morsomme ved de to, vil hver fornuftig norsk og dansk sige.</p>
+
+<p rend="firstIndent" xml:id="p_00002">De kendte nu hinanden på sproget, uagtet hvert af disse, sagde den norske, var så forskelligt som fransk og hebraisk. »Vi går til <seg target="txtcmnt-224-01"><!--DATA-TERM: Aas--><anchor target="txtcmnt-224-01"/><!--egentlig bjergryg; måske ordspil på den norske sprogforsker og sprogpolitiker Ivar Aasen (1813-1896), der arbejdede for genrejsningen af det norske landsmål i stedet for det stærkt danskinfluerede bokmål.-->ås</seg> for at få det råt og oprindeligt, og dansken laver sig sin suttesøde fade <seg target="txtcmnt-224-02"><!--DATA-TERM: Brage-Snak--><anchor target="txtcmnt-224-02"/><!--egentlig Brages samtaler i Snorres <i>Edda</i>; her ironisk om Grundtvigs selvhøjtidelige, arkaiserende sprogbrug, jf. hans <i>Brage-Snak om Græske og Nordiske Myther og Oldsagn</i>, 1844.-->bragesnak</seg>.«</p>
+
+<p rend="firstIndent" xml:id="p_00003">Laserne talte, og las er las i ethvert land, de gælder kun noget i kludebunken.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Jeg er norsk!« sagde den norske, »og når jeg siger at jeg er norsk, så tror jeg at have sagt nok! Jeg er fast i trevlerne som urfjeldene i gamle Norge, landet der har en <seg target="txtcmnt-224-03"><!--DATA-TERM: Constitution--><anchor target="txtcmnt-224-03"/><!--Eidsvollforfatningen af 1814, som vedtoges efter opløsningen af unionen med Danmark ved Kielerfreden, er en parallel til den amerikanske uafhængighedserklæring af 1776.-->konstitution</seg> som det frie Amerika! Det kildrer mig i trevlerne at tænke hvad jeg er, og lade tanken malmklinge i granitord!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Men vi har en litteratur!« sagde den danske las. »Forstår De hvad det er?«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Forstår!« gentog den norske, »fladelands beboer, skal jeg løfte ham til fjelds og nordlyse ham, klud som han er! Når isen tør for den norske sol, da kommer danske <seg target="txtcmnt-224-04"><!--DATA-TERM: Pæreskude(r)--><anchor target="txtcmnt-224-04"/><!--nedsættende om mindre skib.-->pæreskuder</seg> op til os med smør og ost, ret ædelige varer! Og der følger til ballast dansk litteratur. Vi behøver den ikke! Man undværer helst dovent øl der hvor det friske væld sprudler, og her er det en brønd der ikke er boret, ikke skvaldret europæisk kendt ved aviser, kammeratskab og forfatteres rejser i udlandet. Frit taler jeg fra lungen, og dansken må vænne sig til den frie lyd, og det vil han i sin skandinaviske klamren til vort stolte klippeland, verdens urknold!«</p>
+
+<pb n="225"/><p rend="firstIndent" xml:id="p_00007">»Således kunne nu aldrig en dansk las tale!« sagde den danske. »Det er ikke vor natur. Jeg kender mig selv, og som jeg er alle vore laser, vi er så godmodige, så beskedne, vi tror for lidt om os selv, og det vinder man rigtignok ikke noget ved, men jeg kan så godt lide det, jeg finder det så yndigt! Forresten, det kan jeg forsikre Dem, kender jeg til fulde min egen gode <seg target="txtcmnt-225-01"><!--DATA-TERM: Bonitet--><anchor target="txtcmnt-225-01"/><!--beskaffenhed og værdi.-->bonitet</seg>, men jeg taler ikke om den, sådan fejl skal ingen kunne beskylde mig for. Jeg er blød og bøjelig, tåler alt, misunder ingen, taler godt om alle, uagtet der er ikke meget godt at sige om de fleste andre, men lad dem om det! Jeg gør nu altid grin af det, for jeg er så begavet!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Tal mig ikke dette fladelandets bløde klistersprog, jeg <seg target="txtcmnt-225-02"><!--DATA-TERM: vamles--><anchor target="txtcmnt-225-02"/><!--væmmes.-->vamles</seg> ved det!« sagde den norske og løste sig i vinden fra bunken og kom over i en anden.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Papir blev de begge to, og tilfældet ville at den norske las blev et papir hvorpå en nordmand skrev et trofast elskovsbrev til en dansk pige, og den danske las blev manuskript for en dansk <seg target="txtcmnt-225-03"><!--DATA-TERM: Ode--><anchor target="txtcmnt-225-03"/><!--sangbart lyrisk digt.-->ode</seg> til pris for Norges kraft og herlighed.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Der kan også komme noget godt ud af laserne når de først er af kludebunken, og forvandlingen er sket til sandhed og skønhed, de lyser i god forståelse, og i den er velsignelse.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Det er historien, den er ganske fornøjelig og fornærmer aldeles ingen uden – laserne.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="laserne-et-eventyr">
+<head type="section-comments">Laserne. Et Eventyr</head>
+
+<p rend="noIndent">Trykt første gang i Folkekalender for Danmark 1869, der udkom i december 1868.</p>
+<p>BFN 981/V,113-114/VII,346-347.</p>
+
+<table rend="textcomments">
+<cell type="page">224</cell><row xml:id="txtcmnt-224-01"><cell type="data-term">Aas</cell><cell type="data-definition">egentlig bjergryg; måske ordspil på den norske sprogforsker og sprogpolitiker Ivar Aasen (1813-1896), der arbejdede for genrejsningen af det norske landsmål i stedet for det stærkt danskinfluerede bokmål.</cell></row><row xml:id="txtcmnt-224-02"><cell type="data-term">Brage-Snak</cell><cell type="data-definition">egentlig Brages samtaler i Snorres Edda; her ironisk om Grundtvigs selvhøjtidelige, arkaiserende sprogbrug, jf. hans Brage-Snak om Græske og Nordiske Myther og Oldsagn, 1844.</cell></row><row xml:id="txtcmnt-224-03"><cell type="data-term">Constitution</cell><cell type="data-definition">Eidsvollforfatningen af 1814, som vedtoges efter opløsningen af unionen med Danmark ved Kielerfreden, er en parallel til den amerikanske uafhængighedserklæring af 1776.</cell></row><row xml:id="txtcmnt-224-04"><cell type="data-term">Pæreskude(r)</cell><cell type="data-definition">nedsættende om mindre skib.</cell></row>
+<cell type="page">225</cell><row xml:id="txtcmnt-225-01"><cell type="data-term">Bonitet</cell><cell type="data-definition">beskaffenhed og værdi.</cell></row><row xml:id="txtcmnt-225-02"><cell type="data-term">vamles</cell><cell type="data-definition">væmmes.</cell></row><row xml:id="txtcmnt-225-03"><cell type="data-term">Ode</cell><cell type="data-definition">sangbart lyrisk digt.</cell></row>
+</table>
+
+<pb n="441"/>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt><title>Springfyrene</title><author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author><editor>Dan H. Andreasen</editor><editor>Holger Berg</editor><editor type="orthography">Andrea Steengaard</editor><editor type="orthography">Finn Gredal Jensen</editor></titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr. Tredie Samling, som udkom den 7. april 1845.<br/>
+BFN 470/II,91-92/VII,104-105.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="springfyrene"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="springfyrene">
+<pb n="354"/><head type="main"><seg target="txtcmnt-354-01"><!--DATA-TERM: Springfyr(ene)--><!--DATA-DEFINITION: modelaps, dameven.-->Springfyrene</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">Loppen, græshoppen og springgåsen ville engang se hvem af dem der kunne springe højest, og så inviterede de hele verden, og hvem der ellers ville komme at se den stads, og det var tre ordentlige springfyre da de kom sammen i stuen.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Ja, jeg giver min datter til den som springer højest!« sagde kongen, »for det er så fattigt at de personer skal springe om ingenting.«</p>
+
+<p rend="firstIndent" xml:id="p_00003">Loppen kom først frem, den havde sådanne nette manerer og hilste til alle sider, for den havde <seg target="txtcmnt-354-03"><!--DATA-TERM: Frøken-Blod--><!--DATA-DEFINITION: blod af (ugifte) adelsdamer.-->frøkenblod</seg> i sig og var vant til kun at omgås med mennesker, og det gør nu så meget.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Nu kom græshoppen, den var rigtignok betydelig sværere, men den <seg target="txtcmnt-354-04"><!--DATA-TERM: havde … god Skik paa sig--><!--DATA-DEFINITION: havde gode manerer, levemåde.-->havde dog ganske god skik på sig</seg> og var i grøn uniform, og den var medfødt. Desuden sagde personen at den havde en meget gammel familie i det land Egypten, og at den herhjemme var højt vurderet. Den var taget lige fra marken og sat i et korthus der havde tre etager, allesammen af <seg target="txtcmnt-354-06"><!--DATA-TERM: Herreblade--><!--DATA-DEFINITION: billedkortene i et kortspil.-->herreblade</seg> der vendte den kulørte side indad. Der var både dør og vinduer og det skåret ud i livet på hjerter dame. »Jeg synger således,« sagde den, »at seksten indfødte fårekyllinger der har pebet fra små af og dog ikke fået korthus, har ved at høre mig ærgret sig endnu tyndere end de var!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Begge to, både loppen og græshoppen, gjorde således godt rede for hvem de var, og at de troede de nok kunne ægte en prinsesse.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Springgåsen sagde ikke noget, men man sagde om den at den tænkte desto mere, og da hofhunden bare snøftede til den, indestod han for at springgåsen var af god familie. Den gamle rådmand, der havde fået tre ordener for at tie stille, forsikrede at han vidste at springgåsen var begavet med <seg target="txtcmnt-354-07"><!--DATA-TERM: Spaadoms-Kraft--><!--DATA-DEFINITION: ifølge folketroen blev vinteren mild, hvis gåsens brystben var hvidt, og hård, hvis det var brunt.-->spådomskraft</seg>, man kunne se på ryggen af den om man fik en mild eller en streng vinter, og det kan man ikke engang se på ryggen af ham der skriver almanakken.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Ja, jeg siger nu ikke noget!« sagde den gamle konge, »men jeg går nu sådan altid og tænker mit!«</p>
+
+<pb n="355"/><p rend="firstIndent" xml:id="p_00008">Nu var det springet om at gøre. Loppen sprang så højt at ingen kunne se det, og så påstod de at den slet ikke havde sprunget, og det var nu <seg target="txtcmnt-355-01"><!--DATA-TERM: lumpent--><!--DATA-DEFINITION: nedrigt, tarveligt.-->lumpent</seg>!</p>
+
+<p rend="firstIndent" xml:id="p_00009">Græshoppen sprang kun halv så højt, men den sprang kongen lige i ansigtet, og så sagde han at det var ækelt.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Springgåsen stod længe stille og betænkte sig, man troede til sidst at den slet ikke kunne springe.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Bare den ikke har fået ondt!« sagde hofhunden, og så snøftede han igen til den: Rutsj! sprang den et lille skævt spring hen i skødet på prinsessen, der sad lavt på en guldskammel.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Da sagde kongen: »Det højeste spring er at springe op til min datter, for det er det fine af det, men sligt hører der hoved til at <seg target="txtcmnt-355-02"><!--DATA-TERM: falde paa--><!--DATA-DEFINITION: finde på.-->falde på</seg>, og springgåsen har vist at den har hoved. Den har <seg target="txtcmnt-355-03"><!--DATA-TERM: Been i Panden--><!--DATA-DEFINITION: jf. udtrykket ben i næsen: vilje og forstand.-->ben i panden</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">Og så fik den prinsessen.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jeg sprang dog højest!« sagde loppen. »Men det kan være det samme! Lad hende kun have den gåserad med pind og med beg! Jeg sprang dog højest, men der skal i denne verden krop til for at de kan se én!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">Og så gik loppen i fremmed krigstjeneste hvor man siger at den blev slået ihjel.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Græshoppen satte sig ude i grøften og tænkte over hvorledes det egentlig gik til i verden, og den sagde også: »Krop skal der til! Krop skal der til!« og så sang den sin egen bedrøvelige vise, og det er af den vi har taget historien, som dog gerne kunne være løgn om den endogså var trykt.</p>
+
+<pb n="356"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="springfyrene">
+<head type="section-comments">Springfyrene</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr. Tredie Samling, som udkom den 7. april 1845.<br/>
+BFN 470/II,91-92/VII,104-105.</p>
+
+<table rend="textcomments">
+<cell type="page">354</cell><row xml:id="txtcmnt-354-01"><cell type="data-term">Springfyr(ene)</cell><cell type="data-definition">modelaps, dameven.</cell></row><row xml:id="txtcmnt-354-02"><cell type="data-term">Springgås(en)</cell><cell type="data-definition">legetøj lavet af gåsens brystben. Ved hjælp af en pind og et snoet bånd, der er fæstnet med beg, kan man få den til at springe.</cell></row><row xml:id="txtcmnt-354-03"><cell type="data-term">Frøken-Blod</cell><cell type="data-definition">blod af (ugifte) adelsdamer.</cell></row><row xml:id="txtcmnt-354-04"><cell type="data-term">havde … god Skik på sig</cell><cell type="data-definition">havde gode manerer, levemåde.</cell></row><row xml:id="txtcmnt-354-05"><cell type="data-term">Ægypten</cell><cell type="data-definition">hentydning til 2. Mosebog 20,1-20, hvor Gud plager Ægypten med græshopper for at få Farao til at frigive jøderne.</cell></row><row xml:id="txtcmnt-354-06"><cell type="data-term">Herreblade</cell><cell type="data-definition">billedkortene i et <pb n="525"/>kortspil.</cell></row><row xml:id="txtcmnt-354-07"><cell type="data-term">Spådoms-Kraft</cell><cell type="data-definition">ifølge folketroen blev vinteren mild, hvis gåsens brystben var hvidt, og hård, hvis det var brunt.</cell></row>
+<cell type="page">355</cell><row xml:id="txtcmnt-355-01"><cell type="data-term">lumpent</cell><cell type="data-definition">nedrigt, tarveligt.</cell></row><row xml:id="txtcmnt-355-02"><cell type="data-term">falde paa</cell><cell type="data-definition">finde på.</cell></row><row xml:id="txtcmnt-355-03"><cell type="data-term">Ben i Panden</cell><cell type="data-definition">jf. udtrykket ben i næsen: vilje og forstand.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Old Tombstone</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-gamle-liigsteen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-gamle-liigsteen_modern.xml">moderniseret version</note>
+                                                       <note target="103_The-Old-Tombstone.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>In one of the small provincial towns there lived a man who had his own house, wh...</incipit><idno type="image">Den_gamle_Gravsteen_forside.png</idno><popularity>934</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Old Tombstone. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>kunst</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-11" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-11">formatting</change><change who="NHB" when="2022-11-09">missing italics added</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+             <div rend="The Old Tombstone A Story">
+          <head type="main" rend="The Old Tombstone">The Old Tombstone</head>                <head type="part" rend="A Story">A Story</head>                <p rend="noIndent" xml:id="p_00001">In one of the small provincial towns there lived a man who had his own house, where the whole family sat in a circle one evening at the time of year when one says ‘the evenings are getting longer’; it was still mild and warm; the lamp was lit, the long curtains had been drawn in front of the windows where flower pots stood, and outside there was lovely moonshine; but that was not what they were talking about, they were talking about an old, large stone that lay down in the courtyard, close to the kitchen door, where the maids often placed the scoured copperware so that it could dry in the sun, and where the children liked to play – in actual fact it was an old tombstone.</p>
+          <p rend="firstIndent" xml:id="p_00002">‘Yes,’ the man of the house said, ‘I think it comes from the old, demolished abbey church; for pulpit, sepulchral tablets and tombstones were all sold from there! my late father bought several of them, they were broken up for paving stones, but this one was left over and has been lying in the courtyard ever since.’</p>
+          <p rend="firstIndent" xml:id="p_00003">‘You can see it’s a tombstone,’ the oldest of the children said, ‘you can still make out an hour-glass and a piece of an angel on it, but the inscription that was once there is almost completely gone, except for the first name “<hi rend="italic">Preben</hi>” and a capital “S” just after it and a bit further down “<hi rend="italic">Marthe</hi>”; but you can’t work out any more than that, and you can only see it clearly when it’s been raining or we’ve washed it.’</p>
+          <p rend="firstIndent" xml:id="p_00004">‘Good heavens, that’s <hi rend="italic">Preben Svane</hi> and his wife’s tombstone!’ said an old man in the room who was old enough to be the grandfather of all the others. ‘Yes, the married couple were one of the last to be buried in the old abbey cemetery! they were an old, honest couple when I was a boy! Everyone knew them and everyone was fond of them, they were crowned the oldest married couple in the town! People said about them that they owned more than a barrelful of gold, yet they dressed simply, in the coarsest clothes, though their linen was always dazzling white. They were a lovely old couple, <hi rend="italic">Preben</hi> and <hi rend="italic">Marthe</hi>! When they sat on the bench at the top of the house’s stone flight of steps over which the olden linden tree drooped its branches, and they nodded in a friendly and good-natured fashion, it made one feel really glad. They were so wonderfully kind to the poor! they gave them food and clothing, and all their charitable deeds spoke of good sense and true Christianity. The wife died first! I remember that day so well! I was a little boy and was at old <hi rend="italic">Preben</hi>’s with my father when she had just passed away; the old man was greatly moved, he wept like a child, – The body still lay in the bedroom, close to where we were sitting, – he spoke to my father and a couple of neighbours about how lonely it was now going to be, how wonderful she had been, how many years they had lived together, and how they first got to know each other and fell in love with each other; I was little, as I said, and stood there listening, but it affected me strangely to hear the old man and see how he became more and more sprightly, and his cheeks turned red, when he started to talk about the time of their engagement, how beautiful she had been, how many small, innocent detours he had made so as to happen to meet up with her, and he talked about their wedding day, which made his eyes sparkle, it was as if he was back in that happy time, and now she lay dead in the small room next to us, an old woman, and he was an old man and spoke of a time of hope! – – ah yes, that is how things go! Then I was just a child, and now I am old, old like <hi rend="italic">Preben Svane</hi> was. Times pass and everything changes! – I recall so clearly the day of her funeral, old <hi rend="italic">Preben</hi> walked just behind the coffin. A couple of years earlier, the married couple had had their tombstone made, with inscription and names, apart from the year of death; the stone was carted over there in the evening and placed on the grave, – and the following year it was lifted again and <hi rend="italic">Preben</hi> was laid beside his wife. – They didn’t leave all the wealth behind that people had believed and said they had, and what there was went to distant family relations, people whose existence no one knew about before. The half-timbered building, with the bench on the top step of the flight of steps under the linden tree, was pulled down on the magistrate’s orders, for it was too dilapidated to be allowed to go on standing there. – Later, when the abbey church went the same way and the cemetery was closed down, <hi rend="italic">Preben</hi> and <hi rend="italic">Marthe</hi>’s tombstone, like everything else, went to whoever was willing to buy it, and now it so happens that it was not broken into pieces and used, but still lies in the courtyard and is used for play by children, and as a shelf for the maid’s scoured kitchenware. – The paved street now runs over the resting place of old <hi rend="italic">Preben</hi> and his wife; no one remembers them anymore!’</p>
+          <p rend="firstIndent" xml:id="p_00005">And the old man who told all this shook his head sadly. ‘Forgotten!<!--’--> – Everything gets forgotten!’ he said.</p>
+          <p rend="firstIndent" xml:id="p_00006">And then those in the room talked about other things, but the smallest boy there, a child with large, serious eyes, crawled up onto the chair behind the curtains and looked down into the courtyard where the moon shone brightly on the large stone which until then had always seemed empty and flat to him, but which now lay there like a huge page of a history book. Everything that the boy had heard about <hi rend="italic">Preben</hi> and his wife was recorded there; and he gazed at it, and he looked up at the clear, bright moon in the pure deep vault of the sky and it was as if a godlike face was shining down over the earth.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Forgotten!<!--’--> – Everything gets forgotten!’ sounded from the room, and <hi rend="italic">at that instant </hi>an invisible angel kissed the boy’s breast and brow and whispered softly: ‘Hide the given seed well, hide it until the time of its maturity! – In you, child, the erased inscription, the crumbling tombstone will stand in bright golden lines for future generations! The old married couple will once again walk arm in arm along those old streets and, smiling with fresh, rosy cheeks, sit on the bench at the top of the flight of steps under the linden trees, and nod to poor and rich alike. The seed from this hour will, as the years pass, grow into a flowering work of poetry. <hi rend="italic">The Good</hi> and <hi rend="italic">the Beautiful</hi> are not forgotten, but live on in legends and songs.’</p></div>
+          </body>
+                         </text>
+                    </TEI>

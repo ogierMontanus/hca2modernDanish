@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Krøblingen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Tredie Række. Anden Samling, der udkom den 23. november 1872.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="krøblingen.xml" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="krøblingen_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="198_The-Cripple.xml">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><cite>&lt;p&gt;H.C. Andersen: Krøblingen. Udg. af [INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change>
+                                        <change who="NHB" when="2023-09-29">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Krøblingen" xml:id="krøblingen">
+<head type="main">krøblingen</head>
+
+<p rend="noIndent" xml:id="p_00001">der var en gammel herregård med unge, prægtige herregårdsfolk. rigdom og velsignelse havde de, fornøje sig vilde de og godt gjorde de. alle mennesker vilde de gøre glade som de selv var det.</p>
+
+<p rend="firstIndent" xml:id="p_00002">juleaften stod et dejligt pyntet juletræ i den gamle riddersal, hvor da ilden brændte i kaminerne og der var hængt grankviste om de gamle <seg target="txtcmnt-333-01"><!--DATA-TERM: Skilderier--><anchor target="txtcmnt-333-01"/><!--malerier.-->skilderier</seg>. her samledes herskabet og gæsterne, der blev sang og dans.</p>
+
+<p rend="firstIndent" xml:id="p_00003">tidligere på aftenen var allerede juleglæde i folkestuen. også her stod et stort grantræ med tændte røde og hvide lys, små danebrogsflag, udklippede Svaner og fiskenet af broget papir fyldte med »<seg target="txtcmnt-333-02"><!--DATA-TERM: Godtgodter--><anchor target="txtcmnt-333-02"/><!--ordret oversættelse af bonbons; bolsjer, godter.-->godtgodter</seg>«. De fattige børn fra sognet var indbudne; hver havde sin moder med. hun så ikke meget hen til træet, hun så hen til julebordene, hvor der lå uldent og linned, kjoletøj og buksetøj. ja derhen så mødrene og de voksne børn, kun de bitte små strakte hænderne mod lysene, <seg target="txtcmnt-333-03"><!--DATA-TERM: Flitterguld(et)--><anchor target="txtcmnt-333-03"/><!--tyndt udhamret messingblik.-->flitterguldet</seg> og fanerne.</p>
+
+<p rend="firstIndent" xml:id="p_00004">hele den forsamling kom tidligt på eftermiddagen, fik julegrød og gåsesteg med rødkål. når så juletræet var set og gaverne uddelte, fik hver et lille glas punch og æblefyldte æbleskiver.</p>
+
+<p rend="firstIndent" xml:id="p_00005">De kom hjem i deres egen fattige stue, og der blev talt om »den gode levemåde«, det vil sige fødevarerne, og gaverne blev endnu engang rigtigt besete.</p>
+
+<p rend="firstIndent" xml:id="p_00006">der var nu Have-Kirsten og Have-Ole. gifte med hinanden havde de huset og det daglige brød ved at luge og grave i herregårdshaven. hver julefest fik de deres gode del af foræringerne; de havde også fem børn, alle fem blev <seg target="txtcmnt-333-04"><!--DATA-TERM: klædte op--><anchor target="txtcmnt-333-04"/><!--udstyret med klæder.-->klædte op</seg> af herskabet.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»det er godgørende folk, vort herskab!« sagde de. »men de have da også råd til det, og de have fornøjelse deraf!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»her er kommet gode klæder at slide for de fire børn!« sagde Have-Ole. »men hvorfor er her ikke noget til krøblingen? ham pleje de dog også at betænke, skønt han ikke er med ved gildet!«</p>
+
+<pb n="334"/><p rend="firstIndent" xml:id="p_00009">det var det ældste af børnene, de kaldte »krøblingen«, han havde ellers navnet Hans.</p>
+
+<p rend="firstIndent" xml:id="p_00010">som lille var han det <seg target="txtcmnt-334-01"><!--DATA-TERM: flinkeste--><anchor target="txtcmnt-334-01"/><!--hurtigste, raskeste.-->flinkeste</seg> og livligste barn, men så blev han med ét »<seg target="txtcmnt-334-02"><!--DATA-TERM: slat i Benene--><anchor target="txtcmnt-334-02"/><!--en slags lammelse.-->slat i benene</seg>«, som de kaldte det, han kunde ikke stå eller gå og nu lå han til sengs på femte år.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»ja, noget fik jeg jo også til ham!« sagde moderen. »men det er ikke noget videre, det er bare en bog, han kan læse i!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">»den skal han ikke blive fed af!« sagde faderen.</p>
+
+<p rend="firstIndent" xml:id="p_00013">men glad ved den blev Hans. han var en rigtig opvakt dreng, der gerne læste, men brugte også sin tid til arbejde, for såvidt som han, der altid måtte ligge til sengs, kunde gøre gavn. han var <seg target="txtcmnt-334-03"><!--DATA-TERM: nævenyttig--><anchor target="txtcmnt-334-03"/><!--her: dygtig til at bruge hænderne.-->nævenyttig</seg>, brugte sine hænder, strikkede uldstrømper, ja hele sengetæpper; fruen på gården havde rost og købt dem.</p>
+
+<p rend="firstIndent" xml:id="p_00014">det var en eventyrbog, Hans havde fået; i den var meget at læse, meget at tænke over.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»den er ikke til noget slags nytte her i huset!« sagde forældrene. »men lad ham læse, så går den tid, han kan ikke altid <seg target="txtcmnt-334-04"><!--DATA-TERM: binde Hoser--><anchor target="txtcmnt-334-04"/><!--strikke strømper.-->binde hoser</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">foråret kom; blomster og grønt begyndte at spire, ukrudt med, som man jo nok kan kalde nælderne, uagtet der står så kønt om dem i salmen:</p>
+
+<lg xml:id="p_00017">
+<l>»<seg target="txtcmnt-334-05"><!--DATA-TERM: Gik alle … Nælde--><anchor target="txtcmnt-334-05"/><!--H.A. Brorsons (1694-1764) »Op! al den ting, som GUd har giort« fra <i>Troens rare Klenodie</i>, 1739.-->gik alle konger frem i rad,</seg></l>
+<l><seg target="txtcmnt-334-05"><anchor target="txtcmnt-334-05" type="continued"/>I deres magt og vælde,</seg></l>
+<l><seg target="txtcmnt-334-05"><anchor target="txtcmnt-334-05" type="continued"/>De mægted’ ej det mindste blad</seg></l>
+<l><seg target="txtcmnt-334-05"><anchor target="txtcmnt-334-05" type="continued"/>at sætte på en nælde</seg>.«</l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00018">der var meget at gøre i herregårdshaven, ikke blot for gartneren og hans lærlinger, men også for Have-Kirsten og Have-Ole.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»det er et helt slid!« sagde de, »og have vi så revet gangene og fået dem rigtigt pene, så trædes de straks ned igen. her er et rykind med fremmede på herregården. hvor det må koste! men herskabet er rige folk!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»det er løjerligt fordelt!« sagde Ole. »vi er alle Vorherres børn, siger præsten. hvorfor da sådan forskel!«</p>
+
+<p rend="firstIndent" xml:id="p_00021">»det kommer fra syndefaldet!« sagde Kirsten.</p>
+
+<p rend="firstIndent" xml:id="p_00022">derom talte de igen om aftenen, hvor Krøbling-Hans lå med eventyrbogen.</p>
+
+<p rend="firstIndent" xml:id="p_00023">trange kår, slid og slæb, havde gjort forældrene hårde i hænderne men også hårde i deres dom og mening; de kun<pb n="335"/>de ikke magte den, ikke klare den, og talte sig nu mere gnavne og vrede.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»somme mennesker få velstand og lykke, andre kun fattigdom! hvorfor skal vore første forældres ulydighed og nysgerrighed gå ud over os. vi havde ikke båret os således ad som de to!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»jo vi havde!« sagde lige med ét Krøbling-Hans. »det står alt sammen her i denne bog!«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»hvad står i bogen?« spurgte forældrene.</p>
+
+<p rend="firstIndent" xml:id="p_00027">og Hans læste for dem det gamle eventyr om brændehuggeren og hans kone: de skendte også over Adams og Evas nysgerrighed, der var skyld i deres ulykke. så kom landets konge forbi. »følg hjem med!« sagde han, »så skal I få det lige så godt som jeg, syv retter mad og en skue-ret. den er i lukket terrin, den må I ikke røre, for så er det forbi med herrelivet!« »hvad kan der være i terrinen?« sagde konen. »det kommer ikke os ved!« sagde manden. »ja jeg er ikke nysgerrig!« sagde konen, »jeg gad bare vide, hvorfor vi ikke <seg target="txtcmnt-335-01"><!--DATA-TERM: tør løfte Laaget--><anchor target="txtcmnt-335-01"/><!--må løfte låget.-->tør løfte låget</seg>; der er vist noget delicat!« »bare der ikke er nogen mechanik ved!« sagde manden, »sådan et pistolskud, der knalder af og vækker hele huset!« »eja!« sagde konen og rørte ikke ved terrinen. men om natten drømte hun, at låget selv løftede sig, der kom en duft af den dejligste punch, som man får den ved bryllupper og begravelser. der lå en stor sølvskilling med indskrift: »drikke I af denne punch, så blive I de to rigeste i verden og alle andre mennesker blive stoddere!« – og så vågnede konen i det samme og fortalte manden sin drøm. »du tænker for meget på den ting!« sagde han. »vi kunne jo lette <seg target="txtcmnt-335-02"><!--DATA-TERM: med Lempe--><anchor target="txtcmnt-335-02"/><!--forsigtigt.-->med lempe</seg>!« sagde konen. »med lempe!« sagde manden. og konen løftede ganske sagte låget. – da sprang der to små vevre mus ud og væk var de i et musehul. »god nat!« sagde kongen. »nu kunne I gå hjem og lægge eder i eders eget. skend ikke mere på Adam og Eva, I selv have været lige så nysgerrige og utaknemmelige!« – –</p>
+
+<p rend="firstIndent" xml:id="p_00028">»hvorfra er den historie der kommet i bogen?« sagde Have-Ole! »det er ligesom den skulde gælde os. den er meget til eftertænksomhed!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">næste dag gik de igen på arbejde; de blev ristede af solen og våde til skindet af regnvejret; inde i dem var gnavne tanker, dem tyggede de drøv på.</p>
+
+<p rend="firstIndent" xml:id="p_00030">det var endnu lys aften hjemme, de havde spist deres mælkegrød.</p>
+
+<pb n="336"/><p rend="firstIndent" xml:id="p_00031">»læs for os igen historien om brændehuggeren,« sagde Have-Ole.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»der er så mange <seg target="txtcmnt-336-01"><!--DATA-TERM: yndelige--><anchor target="txtcmnt-336-01"/><!--yndige.-->yndelige</seg> i den bog!« sagde Hans. »så mange, I ikke kende!«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»ja dem bryder jeg mig ikke om!« sagde Have-Ole. »jeg vil høre den, jeg kender!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">og han og konen hørte den igen.</p>
+
+<p rend="firstIndent" xml:id="p_00035">mer end én aften kom de tilbage til den historie.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»rigtigt klare mig det hele, kan den dog ikke!« sagde Have-Ole. »det er med menneskene som med sød mælk, den <seg target="txtcmnt-336-02"><!--DATA-TERM: skjørner--><anchor target="txtcmnt-336-02"/><!--løber sammen.-->skjørner</seg>; nogle blive til fin skørost, og andre til den tynde, vandede valle! somme folk have lykke i enhver ting, sidde til højbords alle dage og kende hverken sorg eller savn!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">det hørte Krøbling-Hans. sølle var han i benene, men kløgtig i hovedet. han læste op for dem af eventyrbogen, læste om »manden uden sorg og savn.« ja hvor var han at finde og findes måtte han:</p>
+
+<p rend="firstIndent" xml:id="p_00038">kongen lå syg og kunde ikke helbredes, uden ved at blive iført den skjorte, som var blevet båret og slidt på kroppen af et menneske, der i sandhed kunde sige, at han aldrig havde kendt sorg eller savn.</p>
+
+<p rend="firstIndent" xml:id="p_00039">bud blev sendt til alle verdens lande, til alle slotte og herregårde, til alle velstående og glade mennesker, men når man rigtig frittede ud, havde dog hver af dem prøvet sorg og savn.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»det har jeg ikke«, sagde svinehyrden, der sad på <seg target="txtcmnt-336-03"><!--DATA-TERM: Grøften--><anchor target="txtcmnt-336-03"/><!--diget, jordvolden.-->grøften</seg>, lo og sang. »jeg er det lykkeligste menneske!«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»giv os da din skjorte,« sagde de udsendte, »den skal du få betalt med et halvt kongerige.«</p>
+
+<p rend="firstIndent" xml:id="p_00042">men han havde ingen skjorte, og kaldte sig dog det lykkeligste menneske.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»det var en fin karl!« råbte Have-Ole, og han og hans hustru lo, som de ikke havde leet i år og dag.</p>
+
+<p rend="firstIndent" xml:id="p_00044">da kom skoleholderen forbi.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»hvor I er fornøjede!« sagde han, »det er sjældent nyt her i huset. har I vundet en <seg target="txtcmnt-336-04"><!--DATA-TERM: Ambe--><anchor target="txtcmnt-336-04"/><!--spil på to bestemte numre, der skal komme ud samtidig for at give gevinst.-->ambe</seg> i Lotteriet?«</p>
+
+<p rend="firstIndent" xml:id="p_00046">»nej, det er ikke af det slags!« sagde Have-Ole. »det er Hans, der læste for os af eventyrbogen, han læste om »manden uden sorg og savn«, og den karl han havde ingen skjorte. det tøer op for øjnene, når man hører sligt, og det af en trykt bog. hver har nok sit læs at trække; man er ikke ene om det. heri er altid en trøst!«</p>
+
+<pb n="337"/>
+
+<pb n="338"/><p rend="firstIndent" xml:id="p_00047">»hvorfra har I den bog?« spurgte skoleholderen.</p>
+
+<p rend="firstIndent" xml:id="p_00048">»den fik vor Hans ved juletid for over et år siden. herskabet gav ham den. De ved, han har sådan lyst til læsning og er jo krøbling! vi havde den gang heller set, at han havde fået to <seg target="txtcmnt-338-01"><!--DATA-TERM: Blaarlærred(s)--><anchor target="txtcmnt-338-01"/><!--lærred fremstillet af blår, dvs. hør- eller hampeaffald.-->blårlærreds</seg> skjorter. men bogen er mærkelig, den kan ligesom svare på ens tanker!«</p>
+
+<p rend="firstIndent" xml:id="p_00049">skoleholderen tog bogen og åbnede den.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»lad os få den samme historie igen!« sagde Have-Ole, »jeg har den endnu ikke rigtig inde. så må han også læse den anden om brændehuggeren!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">De to historier var og blev nok for Ole. De var som to solstråler ind i den fattige stue, ind i den forkuede tanke, som lod dem være tvære og gnavne.</p>
+
+<p rend="firstIndent" xml:id="p_00052">Hans havde læst den hele bog, læst den mange gange. eventyrene bare ham ud i verden, der hvor han jo ikke kunde komme, da benene ikke bare ham.</p>
+
+<p rend="firstIndent" xml:id="p_00053">skoleholderen sad ved hans seng; de talte sammen, og det var fornøjeligt for dem begge to.</p>
+
+<p rend="firstIndent" xml:id="p_00054">fra den dag kom skoleholderen oftere til Hans, når forældrene var på arbejde. det var som en fest for drengen, hver gang han kom. hvor lyttede han efter, hvad den gamle mand fortalte ham, om jordens størrelse og mange lande, og at solen var dog næsten en halv million gange større end jorden og så langt borte, at en kanonkugle, i sin fart, brugte fra solen til jorden hele fem og tyve år, mens lysstrålerne kunde nå jorden i otte minutter.</p>
+
+<p rend="firstIndent" xml:id="p_00055">om alt dette ved nu hver dygtig skoledreng besked, men for Hans var det nyt og endnu vidunderligere end alt, hvad der stod i eventyrbogen.</p>
+
+<p rend="firstIndent" xml:id="p_00056">skoleholderen kom et par gange om året til bords hos herskabet, og ved en sådan lejlighed fortalte han, hvilken betydning eventyrbogen havde i det fattige hus, hvor alene to historier i den var blevet til vækkelse og velsignelse. den svagelige, flinke, lille dreng havde ved sin læsning bragt eftertanke og glæde i huset.</p>
+
+<p rend="firstIndent" xml:id="p_00057">da skoleholderen tog hjem fra herregården, trykkede fruen ham et par blanke sølvdalere i hånden til lille Hans.</p>
+
+<p rend="firstIndent" xml:id="p_00058">»De må fader og moder have!« sagde drengen, da skoleholderen bragte ham pengene.</p>
+
+<p rend="firstIndent" xml:id="p_00059">og Have-Ole og Have-Kirsten sagde: »Krøbling-Hans er dog også til gavn og velsignelse!«</p>
+
+<p rend="firstIndent" xml:id="p_00060">et par dage efter, forældrene var ved arbejde på herre<pb n="339"/>gården, holdt herskabsvognen udenfor; det var den hjertensgode frue, som kom, glad over, at hendes julegave var blevet til sådan trøst og fornøjelse for drengen og forældrene.</p>
+
+<p rend="firstIndent" xml:id="p_00061">hun medbragte fint brød, frugt og en flaske sød saft; men hvad der var endnu fornøjeligere, hun bragte ham, i forgyldt bur, en lille sort fugl, der kunde fløjte ganske yndeligt. buret med fuglen blev sat op på den gamle dragkiste, et stykke fra drengens seng, han kunde se fuglen og høre den; ja folk helt ude på landevejen kunde høre dens sang.</p>
+
+<p rend="firstIndent" xml:id="p_00062">Have-Ole og Have-Kirsten kom først hjem efter at fruen var kørt bort; de <seg target="txtcmnt-339-01"><!--DATA-TERM: fornam--><anchor target="txtcmnt-339-01"/><!--fornemmede.-->fornam</seg>, hvor glad Hans var, men syntes dog, at der kun var besværlighed ved den gave, der var givet.</p>
+
+<p rend="firstIndent" xml:id="p_00063">»rige folk tænke nu ikke så vidt om!« sagde de. »skal vi nu også have den at passe. Krøbling-Hans kan jo ikke gøre det. enden bliver at katten tager den!«</p>
+
+<p rend="firstIndent" xml:id="p_00064">otte dage gik, der gik endnu otte; katten havde i den tid mange gange været i stuen, uden at skræmme fuglen, endsige at gøre den fortræd. da hændte der sig en stor begivenhed. det var eftermiddag, forældrene og de andre børn var på arbejde, Hans ganske alene; eventyrbogen havde han i hånden og læste om fiskerens kone, der fik alle sine ønsker opfyldte; hun vilde være konge, det blev hun; hun vilde være kejser, det blev hun; men så vilde hun være den gode Gud, – da sad hun igen i muddergrøften, hun var kommet fra.</p>
+
+<p rend="firstIndent" xml:id="p_00065">den historie havde nu slet ingen hentydning til fuglen eller katten, men det var just den historie, han læste i, da begivenheden indtraf; det huskede han altid siden.</p>
+
+<p rend="firstIndent" xml:id="p_00066">buret stod på <seg target="txtcmnt-339-02"><!--DATA-TERM: Dragkiste--><anchor target="txtcmnt-339-02"/><!--kiste eller kommode med store skuffer.-->dragkiste</seg>n, katten stod på gulvet og så stift med sine grøngule øjne op på fuglen. der var noget i kattens ansigt, som om den vilde sige til fuglen: »hvor du er yndig! jeg gad æde dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00067">det kunde Hans forstå; han læste det lige ud af kattens ansigt.</p>
+
+<p rend="firstIndent" xml:id="p_00068">»væk, kat!« råbte han. »vil du se til at komme ud af stuen!«</p>
+
+<p rend="firstIndent" xml:id="p_00069">det var som den tog sig sammen til at springe.</p>
+
+<p rend="firstIndent" xml:id="p_00070">Hans kunde ikke nå den, havde ikke andet at kaste efter den, end sin kæreste skat, eventyrbogen. den kastede han, men bindet sad løst, det fløj til én side, og bogen selv med alle sine blade fløj til en anden side. katten gik med langsomme trin lidt tilbage i stuen og så på Hans, ligesom den vilde sige:</p>
+
+<pb n="340"/><p rend="firstIndent" xml:id="p_00071">»bland dig ikke i den sag, lille Hans! jeg kan gå og jeg kan springe, du kan ingen af delene!«</p>
+
+<p rend="firstIndent" xml:id="p_00072">Hans holdt øje med katten og var i stor uro; fuglen blev også urolig. intet menneske var der at kalde på; det var som om katten vidste det; den lavede sig igen til at springe. Hans viftede med sit sengetæppe, hænderne kunde han bruge; men katten brød sig ikke om sengetæppet; og da også det var kastet efter den, uden nytte, satte den i ét spring op på stolen og ind i vindueskarmen, her var den fuglen nærmere.</p>
+
+<p rend="firstIndent" xml:id="p_00073">Hans kunde fornemme sit eget varme blod i sig, men det tænkte han ikke på, han tænkte kun på katten og fuglen; ude af sengen kunde drengen jo ikke hjælpe sig, stå på benene kunde han ikke, gå endnu mindre. det var som om hans hjerte vendte sig inden i ham, da han så katten springe fra vinduet lige hen på dragkisten, støde til buret så at det væltede. fuglen flagrede forvildet om derinde.</p>
+
+<p rend="firstIndent" xml:id="p_00074">Hans gav et skrig, der gik et ryk i ham, og uden at tænke derved, sprang han ud af sengen, hen mod dragkisten, rev katten ned, og holdt fast i buret, hvor fuglen var som i stor forfærdelse. han holdt buret i hånden og løb med det ud af døren ud på vejen.</p>
+
+<p rend="firstIndent" xml:id="p_00075">da strømmede tårerne ham ud af øjnene; han jublede og råbte ganske højt: »jeg kan gå! jeg kan gå!«</p>
+
+<p rend="firstIndent" xml:id="p_00076">han havde fået sin førlighed igen; sligt kan hænde og med ham hændte det.</p>
+
+<p rend="firstIndent" xml:id="p_00077">skoleholderen boede tæt ved; til ham løb han ind på sine bare fødder, kun i skjorte og trøje og med fuglen i buret.</p>
+
+<p rend="firstIndent" xml:id="p_00078">»jeg kan gå!« råbte han. »herre, min Gud!« og han hulkede i gråd af bare glæde.</p>
+
+<p rend="firstIndent" xml:id="p_00079">og glæde blev der i huset hos Have-Ole og Have-Kirsten. »gladere dag kunne vi ikke opleve!« sagde de begge to.</p>
+
+<p rend="firstIndent" xml:id="p_00080">Hans blev kaldet op på herregården; den vej havde han ikke gået i mange år; det var som om træerne og nøddebuskene, dem han så godt kendte, nikkede til ham og sagde: »goddag, Hans! velkommen herude!« solen skinnede ham ind i ansigtet, lige ind i hjertet.</p>
+
+<p rend="firstIndent" xml:id="p_00081">herskabet, de unge, velsignede herregårdsfolk, lod ham sidde hos sig og så ligeså glade ud, som om han kunde have været af deres egen familie.</p>
+
+<p rend="firstIndent" xml:id="p_00082">gladest var dog herskabsfruen, som havde givet ham eventyrbogen, givet ham den lille sangfugl, den var nu rigtignok død, død af skrækken, men den havde været ligesom <pb n="341"/>midlet til hans helbredelse, og bogen havde været ham og forældrene til vækkelse; den havde han endnu, den vilde han gemme og læse, om han blev nok så gammel. nu kunde han også være dem hjemme til gavn. han vilde lære et håndværk, helst blive bogbinder, »thi,« sagde han, »så kan jeg få alle nye bøger at læse!«</p>
+
+<p rend="firstIndent" xml:id="p_00083">ud på eftermiddagen kaldte herskabsfruen begge forældrene op til sig. hun og hendes husbond havde talt sammen om Hans; han var en from og flink dreng, havde læselyst og nemme. Vorherre er altid for en god sag.</p>
+
+<p rend="firstIndent" xml:id="p_00084">den aften kom forældrene rigtig glade hjem fra gården, især Kirsten, men ugedag efter græd hun, for da rejste lille Hans; han var kommet i gode klæder; han var en god dreng; men nu skulde han over det salte vand, langt bort, sættes i skole, en latinsk, og der vilde gå mange år, før de så ham igen.</p>
+
+<p rend="firstIndent" xml:id="p_00085">eventyrbogen fik han ikke med, den vilde forældrene beholde til minde. og fader læste tit i den, men aldrig uden de to historier, for dem kendte han.</p>
+
+<p rend="firstIndent" xml:id="p_00086">og de fik breve fra Hans, det ene gladere end det andet. han var hos rare mennesker, i gode kår; og allerfornøjeligst var det at gå i skole; der var så meget at lære og vide; han ønskede nu bare at blive hundrede år og så en gang skoleholder.</p>
+
+<p rend="firstIndent" xml:id="p_00087">»om vi skulle opleve det!« sagde forældrene, og de trykkede hinanden i hænderne, som ved altergang.</p>
+
+<p rend="firstIndent" xml:id="p_00088">»hvad der dog er hændet Hans!« sagde Ole. »Vorherre tænker også på fattigmands barn! just med krøblingen skulde det vise sig! er det ikke som om Hans kunde læse det op for os ud af eventyrbogen!«</p>
+
+<pb n="342"/>
+
+<pb n="343"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Krøblingen" xml:id="krøblingen">
+<head type="section-comments">Krøblingen</head>
+
+<p rend="noIndent">Trykt første gang i Nye Eventyr og Historier. Tredie Række. Anden Samling, der udkom den 23. november 1872.</p>
+<p>BFN 1026/V,204-212/VII,373-375.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">335,28</cell><cell type="deviation">Drøm. &lt; Drøm.«</cell></row>
+<row><cell type="position">335,36</cell><cell type="deviation">»Det &lt; Det</cell></row>
+<row><cell type="position">336,3</cell><cell type="deviation">»Så &lt; Så</cell></row>
+<row><cell type="position">336,26</cell><cell type="deviation">»Det &lt; Det</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">333</cell><row xml:id="txtcmnt-333-01"><cell type="data-term">Skilderier</cell><cell type="data-definition">malerier.</cell></row><row xml:id="txtcmnt-333-02"><cell type="data-term">Godtgodter</cell><cell type="data-definition">ordret oversættelse af bonbons; bolsjer, godter.</cell></row><row xml:id="txtcmnt-333-03"><cell type="data-term">Flitterguld(et)</cell><cell type="data-definition">tyndt udhamret mes<pb n="457"/>singblik.</cell></row><row xml:id="txtcmnt-333-04"><cell type="data-term">klædte op</cell><cell type="data-definition">udstyret med klæder.</cell></row>
+<cell type="page">334</cell><row xml:id="txtcmnt-334-01"><cell type="data-term">flinkeste</cell><cell type="data-definition">hurtigste, raskeste.</cell></row><row xml:id="txtcmnt-334-02"><cell type="data-term">slat i Benene</cell><cell type="data-definition">en slags lammelse.</cell></row><row xml:id="txtcmnt-334-03"><cell type="data-term">nævenyttig</cell><cell type="data-definition">her: dygtig til at bruge hænderne.</cell></row><row xml:id="txtcmnt-334-04"><cell type="data-term">binde Hoser</cell><cell type="data-definition">strikke strømper.</cell></row><row xml:id="txtcmnt-334-05"><cell type="data-term">Gik alle … Nælde</cell><cell type="data-definition">H.A. Brorsons (1694-1764) »Op! al den ting, som GUd har giort« fra Troens rare Klenodie, 1739.</cell></row>
+<cell type="page">335</cell><row xml:id="txtcmnt-335-01"><cell type="data-term">tør løfte Låget</cell><cell type="data-definition">må løfte låget.</cell></row><row xml:id="txtcmnt-335-02"><cell type="data-term">med Lempe</cell><cell type="data-definition">forsigtigt.</cell></row>
+<cell type="page">336</cell><row xml:id="txtcmnt-336-01"><cell type="data-term">yndelige</cell><cell type="data-definition">yndige.</cell></row><row xml:id="txtcmnt-336-02"><cell type="data-term">skjørner</cell><cell type="data-definition">løber sammen.</cell></row><row xml:id="txtcmnt-336-03"><cell type="data-term">Grøften</cell><cell type="data-definition">diget, jordvolden.</cell></row><row xml:id="txtcmnt-336-04"><cell type="data-term">Ambe</cell><cell type="data-definition">spil på to bestemte numre, der skal komme ud samtidig for at give gevinst.</cell></row>
+<cell type="page">338</cell><row xml:id="txtcmnt-338-01"><cell type="data-term">Blårlærred(s)</cell><cell type="data-definition">lærred fremstillet af blår, dvs. hør- eller hampeaffald.</cell></row>
+<cell type="page">339</cell><row xml:id="txtcmnt-339-01"><cell type="data-term">fornam</cell><cell type="data-definition">fornemmede.</cell></row><row xml:id="txtcmnt-339-02"><cell type="data-term">Dragkiste</cell><cell type="data-definition">kiste eller kommode med store skuffer.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

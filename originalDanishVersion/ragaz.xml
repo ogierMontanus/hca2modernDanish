@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Ragaz</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+          
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN. H.C. Andersens samlede værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:<hi rend="italic"/></biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="ragaz" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData>
+
+</xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1858</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="travelAccount"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0033">[artiklen]</cell>
+                                                       
+                                                            <cell ref="#div0034">[Kort over Schweiz]</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-08-02" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-08-02" who="NHB">formatted</change><change who="NHB" when="2023-08-07" status="draft">html2xml indtil E1G</change>
+                                        <change who="NHB" when="2024-06-28">extracted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Ragaz" xml:id="ragaz">
+<div type="source"><source>Fra </source><sourceTitle>Fortællinger og Vers for Større og Mindre</sourceTitle>
+<sourceDate>1858</sourceDate>
+</div>
+                         
+                         
+                         
+               
+               
+               
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+
+
+<pb n="152"/>
+<div type="chapter" rend="[artiklen]" xml:id="div0033">
+<pb n="153"/>
+<head type="section">Ragaz</head>
+<head type="part">(Bad-Pfäffers)</head>
+<p rend="noIndent" xml:id="p_00450">Paa Jernbaner og Dampskibe gjennemflyve vi nu ogsaa <hi rend="italic">Schweiz</hi> og vinde derved – Tid til at kunne dvæle her paa de mærkeligste og interessanteste Steder; et af disse er unægtelig <seg target="txtcmnt-153-01"><hi rend="italic">Ragaz</hi> med <hi rend="italic">Bad-Pfäffers.</hi></seg> Fra <seg target="txtcmnt-153-02"><!--DATA-TERM: Rorschach--><!--DATA-DEFINITION: se kort.--><hi rend="italic">Rorschach</hi></seg> ved <seg target="txtcmnt-153-03"><!--DATA-TERM: Bodensøe--><!--DATA-DEFINITION: Bodensee; se kort.--><hi rend="italic">Bodensøe</hi></seg> naaer man paa Jernbanen i nogle Timer herhen; en længere Vei, men ligesaa beqvem og med hele Schweizerlandets rige Afvexling, aabner sig for den, der fra <seg target="txtcmnt-153-04"><!--DATA-TERM: Schaffhausen--><!--DATA-DEFINITION: by ved Rhinen; se kort.--><hi rend="italic">Schaffhausen</hi></seg> over <seg target="txtcmnt-153-05"><!--DATA-TERM: Zürich--><!--DATA-DEFINITION: se kort.--><hi rend="italic">Zürich</hi></seg> til <hi rend="italic">Ragaz</hi> vil følge det Løb, <hi rend="italic">Rhinen</hi> i den ældste Tid havde, før den brød sin nuværende Vei mod <hi rend="italic">Bodensø.</hi></p>
+<p rend="firstIndent" xml:id="p_00451">Hen over det mægtige <seg target="txtcmnt-153-06"><!--DATA-TERM: Rhinfald--><!--DATA-DEFINITION: der Rheinfall ved Neuhausen (se kort), Europas største vandfald 150 m bredt og 23 m højt. Banen krydser Rhinen nedenfor faldet, hvorefter den passerer en tunnel under den klippe, hvorpå det middelalderlige slot Laufen er bygget.--><hi rend="italic">Rhinfald</hi></seg>, der overstænker os med sin Støvregn, bærer en muret Bro det henflyvende Banetog ind i den natmørke Tunnel under Slottet <hi rend="italic">Laufens</hi> dybeste Kjælder. Ved <seg target="txtcmnt-153-07"><!--DATA-TERM: Olten--><!--DATA-DEFINITION: se kort.--><hi rend="italic">Olten</hi></seg> flyve vi gjennem Jurabjergenes faste Ryg; Minuterne derinde synes at forlænges i denne uhyggelige, uendelige Bue, hvor de mange ulykkelige Arbeidere ved Gjennembrydningen fandt Døden. Banetogets brændende Fakler belyse de graae Steenblokke, som det frempiblende Vand strømmer hen over, varslende at Naturaanden her stadig kæmper mod Menneskevilliens Kraft; rundt om oprulle og udfolde sig nu frodige Egne, de graablaae Alper med Snee og Gletscher løfte sig, vi naae <hi rend="italic">Zürich</hi>. Villaer og Byer straale frem i den rige Fylde af Grønt paa de smilende, indbydende Bredder; Dampskibe flyve hinanden forbi, og paa et af disse gaae vi over den vidtudstrakte Vandflade, og gjennem <seg target="txtcmnt-153-08"><!--DATA-TERM: Linth-Canalen … Wallenstädtersøe--><!--DATA-DEFINITION: Linthkanal ved floden Weesen fører ud i Wallensee; se kort.-->Linth-Canalen komme vi ud i <hi rend="italic">Wallenstädtersøe</hi></seg>, der nævnes som den vildeste, den meest gruopvækkende af alle Schweizer-Søerne; paa dens nordlige Side stige op fra Dybet lodrette, mørke Klipper med underlig savtakkede Tinder; naar deroven fra Stormen kaster sig ned paa Søen, opsluges Baad og Fartøi af de knusende Bølger, kun Dampskibet har her endnu holdt en saadan Storm ud; paa dette naaer man snart den østlige Bred, hvor <seg target="txtcmnt-153-09"><hi rend="italic">Sarganz</hi>-Dalen</seg> aabner sig, gjennem hvilken Rhinstrømmen ved store Oversvømmelser, særlig nævnes den i Aaret 1618, har truet med at bryde sit ældste Leie og atter tage Løb ud i <hi rend="italic">Wallenstädter-</hi> og <hi rend="italic">Zürichersø.</hi> Fra <hi rend="italic">Sarganz</hi> bringer <pb n="154"/>Banetoget os i et Qvarteerstid til <hi rend="italic">Ragaz</hi>. I <seg target="txtcmnt-154-01"><!--DATA-TERM: St. Gallen--><!--DATA-DEFINITION: se kort.-->St. Gallen</seg> ved den aabne, brede Rhindal, tæt under de skovgroede Bjerge ligger denne lille, høist maleriske Schweizer-By; Husene, for største Delen af Bjælker, have foran brede Vinduer og fremspringende Altaner, hvide Mure omhegne de grønne Viinhaver; Veien fører forbi Kirkegaarden, over hvis lave Muur rager frem et Monument; kjendte Træk, formede i Marmoret, hilse os, her hviler Tænkeren, Philosophen <seg target="txtcmnt-154-02"><!--DATA-TERM: Schelling--><!--DATA-DEFINITION: Friedrich Wilhelm Johann Schelling (1775-1854), tysk filosof.--><hi rend="italic">Schelling.</hi></seg></p>
+<p rend="firstIndent" xml:id="p_00452">Vi kom ved Solnedgang, Folk sad i Klynger udenfor deres Huse, et rødligt Solskin belyste Bjergene, de nærmeste prangede med deres Pragt-Tæpper af fløielsgrønne Marker, broderede med Gran- og Løv-Skove, Husene høit oppe pyntede som Alperoser i det Grønne, Vandfaldene skinnede som smalle Sølvbaand; Borgruinerne traadte skarptbetegnede frem, mens de fjerne Bjerge blaanede i den guulgrønne Luft og Sneetoppene glødede som Ild. Malerisk mellem en Række Vandmøller hang de blomstrende Hyldebuske ud over <hi rend="italic">Taminafloden</hi>, der melkehvid brusede hen over sorte Marmorblokke, afsted for at blande sig med Rhinens blaagrønne Vand.</p>
+<p rend="firstIndent" xml:id="p_00453">Et stort, elegant udseende Hotel kneiser som en pyntet <seg target="txtcmnt-154-03"><!--DATA-TERM: Crinoline(-Dame)--><!--DATA-DEFINITION: kurveformet skelet af fiskeben eller stålfjedre båret under skørtet for at holde kjolen ude. På mode o. 1860.-->Crinoline-Dame</seg> midt i al den Romantik; man gaaer det forbi, og et endnu større, der i sin Udstrækning danner en heel Gade, ligger for os; dette er det meest besøgte og bedst indrettede Hotel, saa storartet som man skildrer os disse i Amerika: i den ene Fløi er indrettet et Capel for de kirkesøgende Englændere, og i det modsatte Hjørne har man aabnet ud til Haven et Theater, hvor der i Badetiden spilles hveranden Aften. Medens vi nogle Dage forud i <hi rend="italic">Webers</hi> store ellers besøgte Hotel ved Rhinfaldet havde ved Middagsbordet kun været tre Gjester, fandt vi her flere hundrede. Orchestret gav os Musik fra alle Tonekonstens Poler, fra <seg target="txtcmnt-154-04"><!--DATA-TERM: Wagner--><!--DATA-DEFINITION: Richard Wagner (1813-1883), tysk komponist.--><hi rend="italic">Wagner</hi></seg> og <seg target="txtcmnt-154-05"><!--DATA-TERM: Bellini--><!--DATA-DEFINITION: Vincenzo Bellini (1801-1835), italiensk komponist.--><hi rend="italic">Bellini</hi></seg>, fra <seg target="txtcmnt-154-06"><!--DATA-TERM: Beethoven--><!--DATA-DEFINITION: Ludwig van Beethoven (1770-1827), tysk komponist.--><hi rend="italic">Beethoven</hi></seg> og <seg target="txtcmnt-154-07"><!--DATA-TERM: Strauß--><!--DATA-DEFINITION: Johann Strauss d.æ. (1804-1849) eller/og sønnen af samme navn (1825-1899), østrigske komponister.--><hi rend="italic">Strauß.</hi></seg> I Cafeen, ligesom ogsaa foran Hotellet og i Haven, var et Liv, en Tummel, et Røre, og neppe trehundrede Skridt derfra stod man igjen i den store, eensomme Natur, foran den vilde Fjeldkløft, hvor <hi rend="italic">Tamina</hi> har brudt sig Vei og nu, idet den styrter frem mod den aabne Dal, danner et mægtigt Vandfald af næsten hele Kløftens Brede. Et langt Biælkegalleri, spiget fast i den steile Klippevæg, fører fra Stien hen til Faldet, og paa en let, tynd Bro kommer man over det til den modsatte Side, hvor nu en smal Vei, sprængt i Klipperne, fører til <hi rend="italic">Bad-Pfäffers.</hi></p>
+<p rend="firstIndent" xml:id="p_00454">Krøniken melder, at i Aaret 1038 kom deroppe paa den uveibare Fjeldhøide en Jæger, for at tage en Ravnerede; idet han der <pb n="155"/>kravlede om, blev han opmærksom paa en tæt Damp, som hævede sig fra den gabende Klippespalte, dybt nede brusede en Flod, hørte han, fra dens Kilde med koghedt Vand løftede Dampen sig.</p>
+<p rend="firstIndent" xml:id="p_00455">Snart vidste man her i Egnen om det opdagede Sundhedsvæld; de Syge strømmede til og lode sig samt det Allernødvendigste heise ned i denne frygtelige Afgrund, hvor dengang ikke fandtes andet Læ, end det Klipperne selv frembøde; senere tømredes dernede et Par Træskuure, svævende over den brusende Flod. Her, hvor kun Daglyset gav Skumring, her, lukket ude fra Verden, blev nu den Syge i Uger og Dage, eensom, overladt til sig selv og Vandets Kraft.</p>
+<p rend="firstIndent" xml:id="p_00456">Munkene i Klosteret oppe paa Bjerget lod allerede for to hundrede Aar siden reise en stor, muret Bygning nede i Klippesvælget, foran hvor Fjeldene mødes; Veien hertil gik langs den svimlende Fjeldvæg, og mangen Syg maatte derfor endnu lade sig heise herned; først i vore Dage komme vi her let og beqvemt. I Aaret 1839 sprængtes fra <hi rend="italic">Ragaz</hi> til <hi rend="italic">Bad-Pfäffers</hi> en Vei, saa bred, at en lille Vogn med een Hest for kan befare den og man i en Treqvarteerstid naae derhen. I Badetiden er Stedet opfyldt og beboet af besøgende Syge, medens dog de fleste Gjester foretrække at boe i det livlige, store Hotel i <hi rend="italic">Ragaz</hi>; derfra gaae to Veie, den ene, almindelig stor og bred, fører i Zikzak op ad den skovgroede Bjergside, forbi Ruinen <seg target="txtcmnt-155-01"><!--DATA-TERM: Wartenstein--><!--DATA-DEFINITION: fra 1200-tallet.--><hi rend="italic">Wartenstein</hi></seg>, hvis fyrstelige Abbeder, med deres adelige Munke, engang førte et meget verdsligt Liv; man naaer her øverst oppe det forrige Kloster <hi rend="italic">St. Perminsberg</hi>, nu en Daarekiste; den anden Vei fører efter nogle faa Skridt fra Hotellets Have hen til Klippespalten, hvor man over det svævende Bjælkegalleri og den smalle Bro ved Vandfaldet betræder den i Klipperne huggede Vei.</p>
+<p rend="firstIndent" xml:id="p_00457">Som man i Eventyrene læser, at Fjeldet revner og frembyder en Gjennemgang, saaledes seer man det her i Virkeligheden: Fjeldet er revnet og blevet staaende, dannende et Leie for den fremadbrusende Flod, hvis mangfoldige Bugter den nysanlagte Vei følger. Til Venstre hæver sig Klippevæggen lodret, mange, mange Favne høit; man er nærved at falde bagover, idet man seer op mod den med Granskov befryndsede øverste Pynt; tæt ved os tilhøire er Scenen mildere og mere afvexlende, snart gaaer man ved et frodigt Grønt, et rigt Blomsterflor, under Bøge- og Kastanietræer, snart er man i Snevringer mellem nøgne Klippeblokke, som Vandet driver ned over, eller man gaaer gjennem Buer, sprængte i den haarde Steen. Endelig <pb n="156"/>standser man foran Indgangen til en klosterlig Bygning, det er <hi rend="italic">Bad-Pfäffers</hi>, der synes ligesom ved et Jordskjælv at være sjunket her ned, indeklemt mellem de steile Klipper, udfyldende den hele Spalte. Man træder ind i en lang, hvælvet, lav Halle; Kjøkken, Spisestue og celleformede Værelser støde op til den. Solstraalerne naae kun midt i Sommertiden herned, i August Maaned skinne de her kun fra Klokken elleve om Formiddagen til tre om Eftermiddagen.</p>
+<p rend="firstIndent" xml:id="p_00458">Den Besøgende løser i Forhallen Adgangskort til Kilden, og en Fører ledsager ham derhen. Vi mødte mange Syge i den lange, qvalme Buegang, fra hvilken vi naaede en luftigere, stor Halle: Drikkesalen, hvor, fra den dybere inde i Fjeldet sprudlende Kilde, det hede Vand bliver ledet; det er klart, uden Afsmag og omtales som særdeles kraftigtvirkende.</p>
+<p rend="firstIndent" xml:id="p_00459">Den Beklemthed, man har følt paa hele den lange, indsluttede Vei fra <hi rend="italic">Ragaz</hi>, ved den iisnende Luft, som Solen ikke mægter at opvarme, ved den eenstonende Lyd af Floden, og ved Tanken og Muligheden, at en af de løst liggende Klippeblokke kunde rulle ned og knuse os med Vogn og Hest, synes at naae sit Høidepunkt herinde i Bygningens tunge, qvalme Luft, man føler Trang til at komme ret ud i det Frie og drage Aande: Døren for Drikkesalen aabnes, man træder ud og føler sig om mulig endnu mere overvældet, man staaer tæt foran et gruopvækkende, et sig i Mørket tabende Svælg, ret som foran Indgangen til Underverdenen; man staaer paa en Bro midt over den henbrusende, kogende Flod; tilvenstre, men kun tre fire Skridt, er Klippegrund, derfra videre frem har man kun et i Klippevæggen spiget Bjælkelag ind i den foran gabende Revne; de himmelhøie Fjelde mødes og lukke sig; herind gaaer vor Vei endnu et heelt Qvarteerstid fremad, før vi naae Kildens kogende Straale; – Bjælkelaget er bredt nok for to Mennesker, Side om Side; men tæt op helde sig ud over os de vaade, beegsorte Klippemasser, til Høire stiger Fjeldvæggen lodret op af Strømmen, der i vild, tordnende Fart jager afsted; en enkelt Træstamme er spiget fast som et Slags Rækværk, men under dette, ned til de vaade, slibrige Bjælker, vi gaae paa, er Intet, dersom man skulde falde, man da kunde gribe fat i, for ikke at styrte i Afgrunden; Øinene, der i Forsigtighed see ned efter Fodfæstet, finde ingen Ro, intet Hvilepunkt, Floden flyver frem, som skudt ud af en Kanon; man synes, at den hele Grund nedenunder jager afsted. Tæt ved tunge Klippeblokke, høit oppe den gabende Revne, en Aabning smal at see, som en Ridse, <pb n="157"/>der skinner den blaa Luft, der vifter det Grønne og melder om Livet i Oververdenen; en Fodsti fører høit deroppe hen over os.</p>
+<p rend="firstIndent" xml:id="p_00460">Et Qvarteers Vei herinde paa det vaade Bjælkegalleri bliver en lang, uhyggelig Tid, det bevægelige Vand bruser vildere og mere lydelig, dyb Aftenskumring har man ved solklar Middag. Dette Halvmørke, denne Indeklemthed mellem de nære Klippemasser, den dampende Flod i Dybden, overvælder selv de Stærkeste; vi høre ikke til disse, og fornam allerede paa den halve Vandring den forunderlige Mathed, som griber den Svimle og Nerveuse; men Villien er en stærk Fører, og har man foruden denne ogsaa en kraftig Ledsager at støtte sig paa, da kommer man vel frem, tænke de Fleste og vi sagde det Samme; men alt som Mørket tog til og Floden larmede og kogte med bedøvende Lyd, greb os Naturmagtens hele Overvælde; Fødderne sittrede, Sveddraaberne perlede frem fra alle Porer; imidlertid hjalp det at staae et Øieblik stille, lukke Øinene og køle Panden med det fra Klippevæggen drivende iiskolde Vand; vi forsøgte endnu nogle Skridt fremad, da blev Overvældelsen stærkere, næsten ubekæmpelig, Alt rundt om syntes at svæve, dandse, antage en taageagtig Skikkelse og drage ned i Afgrunden, en dæmonisk Lyst til at styrte sig derned var den øiebliklige Drift, kun ved krampagtig at knuge sig til sin Ledsager, lukke Øinene, staae stille og voldelig ligesom slukke hver Tanke mægtede vi at holde ud.</p>
+<p rend="firstIndent" xml:id="p_00461">Før man naaer Kilden, lukke Klipperne sig ganske. Det er næsten som Nat udenfor den saakaldte »Magdalenegrotte«, en stor Marmorhule, der engang af <seg target="txtcmnt-157-01"><!--DATA-TERM: Abbeden Jadokus--><!--DATA-DEFINITION: ikke identificeret.-->Abbeden <hi rend="italic">Jadokus</hi></seg> blev bestemt til Bodscapel. Endnu et Par Skridt, og Daglyset trænger atter frem; man er ved Kildens Udspring, hvor, fra en Aabning som en Brønd, det tredive Graders varme Vand udsender sin hede Damp, der løfter sig høit i Veiret. Ganske sikkert staaer man her ikke; det er kun et Par Aar siden, fortalte Føreren os, at medens et Selskab var her, løsnede sig et Klippestykke og knuste paa Stedet en af dem, en ung Pige fra en af Schweizerbyerne.</p>
+<p rend="firstIndent" xml:id="p_00462">Her var det, hvor for Aarhundreder siden de usle Hytter hang over det dampende Væld; herned bleve de Syge heisede og havde ingen anden Vei tilbage, inden anden Udgang, end den, atter at løftes høit igjennem det gabende Svælg; uforandret, som dengang, brygge inde i Fjeldet Naturkræfterne det hede, helbredende Vand og helde det fra Marmorkummen rigelig, en heel Flod, <hi rend="italic">Tamina.</hi></p>
+<pb n="158"/>
+<pb n="159"/>
+</div>
+                         
+                         
+                         
+               
+               
+               
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="chapter" rend="[Kort over Schweiz]" xml:id="div0034">
+<pb n="618"/>
+<head type="major" subtype="addedTitle"><source subtype="foreign">Schweiz</source></head>
+<p rend="noIndent" xml:id="p_00463">I de tilfælde, hvor en lokalitet på grund af kortets størrelseforhold ikke har kunnet medtages, er det i kommentaren angivet, hvor det befinder sig i forhold til den nærmeste på kortet angivne by.</p>
+<img src="15-Schweiz.jpg" title="Schweiz: Kort i ANDERSEN, bind 15, s. 618-619"/>
+
+
+<pb n="619"/>
+</div>
+                         
+                         
+                         
+               
+               
+               
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+
+
+<div type="work-comments" rend="Ragaz. (Bad-Pfäffers)" synch="ragaz-bad-pfaeffers">
+<head type="main-comments">Ragaz. (Bad-Pfäffers)</head>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Fortællinger og Vers for Større og Mindre</hi>, udg. af Gotfred Rode, København u.å. [december 1858], s. 32-36. BFN 779</p>
+<div type="work-comments" rend="Tekstrettelser" synch="tekstrettelser">
+<head type="section-comments">Tekstrettelser</head>
+<table rend="textdeviations">
+<row><cell type="position">154,26</cell><cell type="deviation">aabnet &lt; aabent</cell></row>
+</table>
+<table rend="textcomments">
+<cell type="page">153</cell><row xml:id="txtcmnt-153-01"><cell type="data-term">Ragaz med Bad-Pfäffers</cell><cell type="data-definition">Bad Pfäfers er et kursted, opstået omkring en varm kilde (36,5°), opdaget ca. 1250 ved Taminaslugten af jægere fra benediktinerklostret Pfäfers. Det første badehus over Taminaslugten blev bygget omkring 1350. I 1840 blev vandet ledt ned i dalen til landsbyen Ragaz, hvor kurstedet Bad Ragaz blev skabt; se kort.</cell></row><row xml:id="txtcmnt-153-02"><cell type="data-term">Rorschach</cell><cell type="data-definition">se kort.</cell></row><row xml:id="txtcmnt-153-03"><cell type="data-term">Bodensøe</cell><cell type="data-definition">Bodensee; se kort.</cell></row><row xml:id="txtcmnt-153-04"><cell type="data-term">Schaffhausen</cell><cell type="data-definition">by ved Rhinen; se kort.</cell></row><row xml:id="txtcmnt-153-05"><cell type="data-term">Zürich</cell><cell type="data-definition">se kort.</cell></row><row xml:id="txtcmnt-153-06"><cell type="data-term">Rhinfald</cell><cell type="data-definition">der Rheinfall ved Neuhausen (se kort), Europas største vandfald 150 m bredt og 23 m højt. Banen krydser Rhinen nedenfor faldet, hvorefter den passerer en tunnel under den klippe, hvorpå det middelalderlige slot Laufen er bygget.</cell></row><row xml:id="txtcmnt-153-07"><cell type="data-term">Olten</cell><cell type="data-definition">se kort.</cell></row><row xml:id="txtcmnt-153-08"><cell type="data-term">Linth-Canalen … Wallenstädtersøe</cell><cell type="data-definition">Linthkanal ved floden Weesen fører ud i Wallensee; se kort.</cell></row><row xml:id="txtcmnt-153-09"><cell type="data-term">Sarganz(-Dalen)</cell><cell type="data-definition">Sargans; se kort.</cell></row>
+<cell type="page">154</cell><row xml:id="txtcmnt-154-01"><cell type="data-term">St. Gallen</cell><cell type="data-definition">se kort.</cell></row><row xml:id="txtcmnt-154-02"><cell type="data-term">Schelling</cell><cell type="data-definition">Friedrich Wilhelm Johann Schelling (1775-1854), tysk filosof.</cell></row><row xml:id="txtcmnt-154-03"><cell type="data-term">Crinoline(-Dame)</cell><cell type="data-definition">kurveformet skelet af fiskeben eller stålfjedre båret under skørtet for at holde kjolen ude. På mode o. 1860.</cell></row><row xml:id="txtcmnt-154-04"><cell type="data-term">Wagner</cell><cell type="data-definition">Richard Wagner (1813-1883), tysk komponist.</cell></row><row xml:id="txtcmnt-154-05"><cell type="data-term">Bellini</cell><cell type="data-definition">Vincenzo Bellini (1801-1835), italiensk komponist.</cell></row><row xml:id="txtcmnt-154-06"><cell type="data-term">Beethoven</cell><cell type="data-definition">Ludwig van Beethoven (1770-1827), tysk komponist.</cell></row><row xml:id="txtcmnt-154-07"><cell type="data-term">Strauß</cell><cell type="data-definition">Johann Strauss d.æ. (1804-1849) eller/og sønnen af samme navn (1825-1899), østrigske komponister.</cell></row>
+<cell type="page">155</cell><row xml:id="txtcmnt-155-01"><cell type="data-term">Wartenstein</cell><cell type="data-definition">fra 1200-tallet.</cell></row>
+<cell type="page">157</cell><row xml:id="txtcmnt-157-01"><cell type="data-term">Abbeden Jadokus</cell><cell type="data-definition">ikke identificeret.</cell></row>
+</table>
+</div>
+                         
+                         
+               
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

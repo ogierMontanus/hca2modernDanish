@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Hyldemoer</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor>Dan H. Andreasen</editor>
+                                             <editor>Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl status="draft">
+                                                             
+      <p rend="noIndent">Trykt første gang i Gæa, æsthetisk Aarbog, udgivet af P.L. Møller.</p>    
+      </bibl>
+                                                  <biblStruct status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note type="originalDanish" target="hyldemoer"/>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1835 1835 1836 1837</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0019"/>
+                                                       
+                                                  </row>
+                                             </table>
+                                             <floatingTextsRankedAsWorks>
+                                                  
+                                                  
+                                             </floatingTextsRankedAsWorks>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" xml:id="hyldemoer">
+     <div type="source" rend="" xml:id="div0019">
+<pb n="331"/><source>Fra</source> <sourceTitle type="main">Gæa</sourceTitle>
+<sourceTitle type="sub">Æsthetisk Aarbog</sourceTitle> <sourceDate>1845</sourceDate></div>
+
+<pb n="332"/><head type="main"><seg target="txtcmnt-332-01"><!--DATA-TERM: Hyldemoer--><!--DATA-DEFINITION: H.C. Andersen skrev i de »Bemærkninger«, som afsluttede <i>Eventyr og Historier</i>. <i>Med Illustrationer efter Originaltegninger af V. Pedersen</i>, Andet Bind, 1863, at kimen til dette eventyr »ligger i det af <i>Thiele</i> fortalte Sagn: »Der boer i Hyldetræet et Væsen, som kaldes Hyldemo’er, eller Hyldeqvind. Hun hevner al Overlast, der tilføies Træet (...)«« (jf. denne udgaves bind 3, s. 372; Thiele II, 282 ff.).-->Hyldemor</seg></head>
+
+<p rend="noIndent" xml:id="p_00001">Der var engang en lille dreng der var forkølet. Han havde gået og fået våde fødder, ingen kunne begribe hvor han havde fået dem fra, thi det var ganske tørt vejr. Nu klædte hans mor ham af, bragte ham i seng og lod <seg target="txtcmnt-332-02"><!--DATA-TERM: Themaskinen--><!--DATA-DEFINITION: til opvarmning af vand ved bordet, samovar.-->temaskinen</seg> komme ind for at lave ham en god kop hyldete, for det varmer! I det samme kom ind ad døren den gamle morsomme mand som boede øverst oppe i huset og levede så alene, for han havde hverken kone eller børn, men holdt så meget af alle børn og vidste at fortælle så mange eventyr og historier at det var en lyst.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Nu drikker du din te,« sagde moderen, »måske får du så et eventyr.«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Ja, når man bare kunne noget nyt!« sagde den gamle mand og nikkede så mildt. »Men hvor har den lille fået de våde fødder?« spurgte han.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Ja, hvor har han det!« sagde moderen, »det kan der ingen begribe.«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Får jeg et eventyr?« spurgte drengen.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Ja, kan du sige mig temmelig nøjagtigt, for det må jeg først vide, hvor dyb er rendestenen omme i den lille gade hvor du går i skole?«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Akkurat til midt på skafterne,« sagde drengen, »men så må jeg gå i det dybe hul!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Se, derfra har vi de våde fødder,« sagde den gamle. »Nu skulle jeg rigtignok fortælle et eventyr, men jeg kan ingen flere!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»De kan lave et lige straks,« sagde den lille dreng. »Mor siger at alt hvad De ser på, kan blive et eventyr, og alt hvad De rører ved, kan De få en historie af!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Ja, men de eventyr og historier due ikke! Nej, de rigtige, de kommer af sig selv, de banker mig på panden og siger: Her er jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Banker det ikke snart?« spurgte den lille dreng, og moren lo, kom hyldete på potten og skænkede kogende vand over.</p>
+
+<pb n="333"/><p rend="firstIndent" xml:id="p_00012">»Fortæl! Fortæl!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Ja, når der ville komme et eventyr af sig selv, men sådan et er fornemt, det kommer kun når det selv har lyst –! Stop!« sagde han lige med ét. »Der har vi det! Pas på, nu er der et på tepotten!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og den lille dreng så hen til tepotten, låget hævede sig mere og mere, og hyldeblomsterne kom frem så friske og hvide, de skød store lange grene, selv ud af tuden bredte de sig til alle sider og blev større og større. Det var den dejligste hyldebusk, et helt træ, det ragede ind i sengen og skød gardinerne til side. Nej, hvor det blomstrede og duftede! Og midt i træet sad en gammel, venlig kone med en underlig kjole på. Den var ganske grøn ligesom hyldetræets blade og besat med store hvide hyldeblomster. Man kunne ikke straks se om det var tøj eller levende grønt og blomster.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Hvad hedder den kone?« spurgte den lille dreng.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Ja, <seg target="txtcmnt-333-01"><!--DATA-TERM: disse Romere og Grækere--><!--DATA-DEFINITION: antikkens mytologi.-->disse romere og grækere</seg>,« sagde den gamle mand, »de kaldte hende en dryade, men det forstår vi ikke. Ude i Nyboder har de et bedre navn til hende, der kaldes hun: »Hyldemor«, og det er nu hende du skal passe på. Hør bare efter, og se på det dejlige hyldetræ.«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Netop sådan et stort, blomstrende træ står der ude i Nyboder. Det voksede henne i krogen i en lille fattig gård. Under dette træ sad en eftermiddag i det dejligste solskin to gamle folk. Det var en gammel, gammel sømand og hans gamle, gamle kone. De var oldeforældre og skulle snart holde deres guldbryllup, men de kunne ikke rigtig huske datoen, og Hyldemor sad i træet og så så fornøjet ud ligesom her. »Jeg ved nok når det er guldbryllup!« sagde hun, men de hørte det ikke, de talte om de gamle dage.«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Ja, kan du huske,« sagde den gamle sømand, »dengang vi var ganske små unger og løb og legede, det var netop i den samme gård hvor vi nu sidder, og vi stak pinde i gården og gjorde en have.«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Ja,« sagde den gamle kone, »det husker jeg godt! Og vi vandede pindene, og en af dem var en hyldepind. Den satte rod, skød grønne skud og er nu blevet til det store træ vi gamle mennesker sidder under.«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Javist!« sagde han, »og derhenne i krogen stod en <!--DATA-TERM: Vandballe--><!--DATA-DEFINITION: vandbalje.-->vandbalje der flød mit fartøj. Jeg havde selv skåret det – hvor det kunne sejle! Men jeg kom rigtignok snart anderledes ud at sejle!«</p>
+
+<pb n="334"/>
+
+<pb n="335"/><p rend="firstIndent" xml:id="p_00021">»Ja, men først gik vi i skole og lærte noget!« sagde hun, »og så blev vi konfirmeret. Vi græd begge to, men om eftermiddagen gik vi hånd i hånd <seg target="txtcmnt-335-01"><!--DATA-TERM: op paa Rundetaarn--><!--DATA-DEFINITION: almindelig skik, at konfirmander gik op i Rundetårn dagen efter konfirmationen.-->op på Rundetårn</seg> og så ud i verden over København og vandet. Så gik vi på Frederiksberg, hvor kongen og dronningen i deres prægtige både sejlede om i kanalerne.«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Men jeg kom rigtignok anderledes til at sejle, og det i mange år, langt bort på de store rejser.«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Ja, jeg græd tit for dig,« sagde hun, »jeg troede du var død og borte og skulle ligge og pjanke dernede i det dybe vand. Mangen nat stod jeg op og så om <seg target="txtcmnt-335-02"><!--DATA-TERM: Fløien--><!--DATA-DEFINITION: vejrhanen.-->fløjen</seg> drejede sig. Ja, den drejede sig nok, men du kom ikke! Jeg husker så tydelig hvorledes det skyllede ned en dag, skraldemanden kom udenfor hvor jeg tjente. Jeg kom ned med <seg target="txtcmnt-335-03"><!--DATA-TERM: Fjerdingen--><!--DATA-DEFINITION: skraldebøtten.-->fjerdingen</seg> og blev stående ved døren – hvor det var et fælt vejr! Og ligesom jeg stod der, var postbuddet ved siden af mig og gav mig et brev; det var fra dig! Ja, hvor det havde rejst om! Jeg fór lige i det og læste. Jeg lo, og jeg græd, jeg var så glad! Der stod at du var i de varme lande hvor kaffebønnerne gror. Hvor det må være et velsignet land! Du fortalte så meget, og jeg så det alt sammen mens regnen skyllede ned, og jeg stod med fjerdingen. I det samme var der en som tog mig om livet –!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Ja, men du gav ham et godt slag på øret så det klaskede efter.«</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Jeg vidste jo ikke at det var dig! Du var kommet lige så tidligt som dit brev. Og du var så køn! – Det er du da endnu, du havde et langt, gult silkelommetørklæde i lommen og en blank hat på. Du var så fin. Gud, hvor det dog var et vejr, og hvor gaden så ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Så blev vi gift!« sagde han, »husker du? Og så da vi fik den første lille dreng og så Marie og Niels og Peter og Hans Christian!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Ja, og hvor de allesammen er vokset op og blevet skikkelige mennesker hvem alle holder af!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Og deres børn igen, de har fået små!« sagde den gamle matros, »ja, det er børnebørnsbørn, der er krummer i! – Det var jo dog, synes mig, på denne tid af året vi holdt bryllup!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Ja, just i dag er det guldbryllupsdagen!« sagde Hyldemor og stak hovedet lige ind imellem de to gamle, og de troede at det var nabokonen der nikkede. De så på hinanden og holdt hinanden i hænderne. Lidt efter kom børn og børnebørn, de vidste godt at det var guldbryllupsdagen. De havde allere<pb n="336"/>de i morges gratuleret, men det var glemt af de gamle, mens de huskede så godt alt hvad der var sket for mange år tilbage. Og hyldetræet duftede så stærkt, og solen som var ved at gå ned, skinnede de to gamle lige ind i ansigtet. De så begge to så rødmossede ud, og den mindste af børnebørnene dansede rundt om dem og råbte nok så lyksalig at i aften skulle der være rigtig stads, de skulle have varme kartofler. Og Hyldemor nikkede i træet og råbte hurra med alle de andre.«</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Men det var jo intet eventyr!« sagde den lille dreng som hørte det fortælle.</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Ja, det må du forstå!« sagde han som fortalte, »men lad os spørge Hyldemor!«</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Det var intet eventyr,« sagde Hyldemor, »men nu kommer det! Ud af det virkelige vokser just det forunderligste eventyr, ellers kunne jo min dejlige hyldebusk ikke være sprunget ud af tepotten!« Og så tog hun den lille dreng ud af sengen, lagde ham ved sit bryst, og hyldegrenene fulde af blomster slog sammen omkring dem. De sad som i det tætteste lysthus og det fløj med dem igennem luften. Det var så mageløst dejligt. Hyldemor var med et blevet en ung, nydelig pige, men kjolen var endnu af samme grønne, hvidblomstrede tøj, som Hyldemor havde båret. På brystet havde hun en virkelig hyldeblomst og om sit gule, krøllede hår en hel krans af hyldeblomster. Hendes øjne var så store, så blå, o, hun var så velsignet at se på! Hun og drengen kyssedes, og så var de i lige alder og af lige lyst.</p>
+
+<p rend="firstIndent" xml:id="p_00033">De gik hånd i hånd ud af løvhytten og stod nu i hjemmets smukke blomsterhave. Ved den friske græsplet var farens stok tøjret til en pind. For de små var der liv i stokken; så snart de satte sig skrævs over den, forvandlede sig den blanke knap til et prægtigt vrinskende hoved, den lange sorte manke flagrede, fire slanke, stærke ben skød ud. Dyret var stærkt og <seg target="txtcmnt-336-01"><!--DATA-TERM: væligt--><!--DATA-DEFINITION: fyrigt, livligt.-->væligt</seg>. I gallop fór de rundt om græspletten. Hussa! »Nu rider vi mange mil bort!« sagde drengen, »vi rider til herregården hvor vi var i fjor!« og de red og red græspletten rundt, og altid råbte den lille pige, der som vi ved var ingen anden end Hyldemor: »Nu er vi på landet! Ser du bondens hus med den store bageovn der synes et kæmpestort æg i muren ud mod vejen? Hyldetræet hælder sine grene hen over dem, og hanen går og <seg target="txtcmnt-336-02"><!--DATA-TERM: skraber for--><!--DATA-DEFINITION: komplimenterer, gør kur til.-->skraber for</seg> hønsene, se, hvor den bryster sig! – Nu er vi ved kirken! Den ligger højt <pb n="337"/>på banken mellem de store egetræer hvoraf det ene er halvt gået ud. – Nu er vi ved smedjen hvor ilden brænder, og de halvnøgne mænd slår med hammeren så gnisterne flyver vidt omkring. Af sted, af sted til den prægtige herregård!« og alt hvad den lille pige der sad bag på stokken, sagde, det fløj også forbi. Drengen så det, og dog kom de kun græspletten rundt. Så legede de i sidegangen og ridsede i jorden en lille have, og hun tog hyldeblomster af sit hår, plantede dem, og de voksede akkurat ligesom det var sket for de gamle folk i Nyboder dengang de var små, og som der tidligere er fortalt om. De gik hånd i hånd ligesom de gamle folk havde gjort det som børn, men ikke op på det Runde Tårn eller til Frederiksberg Have, nej, den lille pige tog drengen om livet, og så fløj de vidt omkring i hele Danmark, og det var vår, og det blev sommer, og det var høst, og det blev vinter, og tusinde billeder afspejlede sig i drengens øjne og hjerte, og altid sang den lille pige for ham: »Det vil du aldrig glemme!« og på den hele flugt duftede hyldetræet så sødt og så dejligt. Han mærkede vel roserne og de friske bøge, men hyldetræet duftede endnu mere forunderligt, thi dets blomster hang ved den lille piges hjerte, og til det hældede han i flugten tit sit hoved.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Her er dejligt i våren!« sagde den unge pige, og de stod i den nys udsprungne bøgeskov hvor den grønne <seg target="txtcmnt-337-01"><!--DATA-TERM: Bukkar--><!--DATA-DEFINITION: skovmærke.-->bukkar</seg> duftede for deres fødder, og de blegrøde anemoner så så dejlige ud i det grønne. »O, var det altid vår i den duftende danske bøgeskov!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Her er dejligt i sommeren!« sagde hun, og de fór forbi gamle herregårde fra <seg target="txtcmnt-337-02"><!--DATA-TERM: Riddertiden--><!--DATA-DEFINITION: middelalderen.-->riddertiden</seg> hvor de røde mure og takkede gavle spejlede sig i kanalerne hvor svanerne svømmede og kiggede op i de gamle kølige alléer. På marken bølgede kornet ligesom det var en sø, grøfterne stod med røde og gule blomster, gærderne med vild humle og blomstrende <seg target="txtcmnt-337-03"><!--DATA-TERM: Convolvoli--><!--DATA-DEFINITION: snerler.-->konvolvolus</seg>. Og om aftenen steg månen rund og stor, høstakkene på engene duftede så sødt. »Det glemmes aldrig!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Her er dejligt i efteråret!« sagde den lille pige, og luften blev dobbelt så høj og blå, skoven fik de dejligste kulører af rødt, gult og grønt. Jagthundene fór af sted, hele skarer fuglevildt fløj skrigende hen over kæmpehøjen hvor brombærranken hang om de gamle sten. Havet var sortblåt med hvide sejlere, og i loen sad gamle koner, piger og børn og pillede humle i et stort kar. De unge sang viser, men de gamle fortalte eventyr om nisser og trolde. Bedre kunne der ikke <pb n="338"/>være! »Her er dejligt i vinteren!« sagde den lille pige, og alle træer stod med rimfrost, de så ud som hvide koraller, sneen knirkede under fødderne som om man altid havde nye støvler på, og fra himlen faldt det ene stjerneskud efter det andet. I stuen tændtes juletræet der var <seg target="txtcmnt-338-01"><!--DATA-TERM: Præsenter--><!--DATA-DEFINITION: gaver.-->presenter</seg> og godt humør. På landet klang <seg target="txtcmnt-338-02"><!--DATA-TERM: Violen--><!--DATA-DEFINITION: violinen.-->fiolen</seg> i bondens stue, æbleskiver fløj <seg target="txtcmnt-338-03"><!--DATA-TERM: i Grams--><!--DATA-DEFINITION: i flæng, så man må kappes.-->i grams</seg>: Selv det fattigste barn sagde: »Det er dog dejligt om vinteren!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">Ja, det var dejligt! Og den lille pige viste alting til drengen, og altid duftede hyldetræet, og altid vajede det røde flag med det hvide kors, flaget hvorunder den gamle sømand i Nyboder havde sejlet. – Og drengen blev <seg target="txtcmnt-338-04"><!--DATA-TERM: Knøs--><!--DATA-DEFINITION: ung mand eller stor dreng.-->knøs</seg>, og han skulle ud i den vide verden, langvejs bort til de varme lande hvor kaffen gror. Men i afskeden tog den lille pige en hyldeblomst af sit bryst, gav ham den at gemme, og den blev lagt i salmebogen, og altid i fremmed land når han åbnede bogen, var det just på det sted hvor erindringsblomsten lå, og jo mere han så på den, des friskere blev den. Han ligesom følte en duft fra de danske skove, og tydeligt så han mellem blomsterbladene den lille pige titte frem med sine klare blå øjne, og hun hviskede da: »Her er dejligt i vår, i sommer, i høst og vinter!« og hundrede billeder gled gennem hans tanker.</p>
+
+<p rend="firstIndent" xml:id="p_00038">Således gik mange år, og han var nu en gammel mand og sad med sin gamle kone under et blomstrende træ. De holdt hinanden i hænderne ligesom oldefar og oldemor gjorde det ude i Nyboder, og de talte ligesom de om de gamle dage og om guldbrylluppet. Den lille pige med de blå øjne og med hyldeblomsterne i håret sad oppe i træet, nikkede til dem begge to og sagde: »I dag er det guldbryllupsdag!« og så tog hun to blomster af sin krans, kyssede på dem, og de skinnede først som sølv, så som guld, og da hun lagde dem på de gamle folks hoveder, blev hver blomst til en guldkrone. Der sad de begge to som en konge og en dronning under det duftende træ der ganske og aldeles så ud som et hyldetræ, og han fortalte sin gamle kone historien om Hyldemor således som den var fortalt ham da han var en lille dreng, og de syntes begge to at der var så meget i den som lignede deres egen, og det der lignede, det syntes de bedst om.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Ja, sådan er det!« sagde den lille pige i træet, »nogle kalder mig Hyldemor, andre kalder mig Dryade, men egentlig hedder <pb n="339"/>jeg Erindring, det er mig der sidder i træet som vokser og vokser, jeg kan huske, jeg kan fortælle! Lad mig se om du har din blomst, endnu!«</p>
+
+<p rend="firstIndent" xml:id="p_00040">Og den gamle mand åbnede sin salmebog, dér lå hyldeblomsten så frisk som den nylig var lagt deri, og Erindringen nikkede, og de to gamle med guldkrone på sad i den røde aftensol. De lukkede øjnene, og – og –! Ja, så var eventyret ude!</p>
+
+<p rend="firstIndent" xml:id="p_00041">Den lille dreng lå i sin seng, han vidste ikke om han havde drømt, eller om han havde hørt det fortælle. Tepotten stod på bordet, men der voksede intet hyldetræ ud af den, og den gamle mand som havde fortalt, var lige ved at gå ud af døren, og det gjorde han.</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Hvor det var dejligt!« sagde den lille dreng. »Mor, jeg har været i de varme lande!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Ja, det tror jeg nok!« sagde moren, »når man får to svingende kopper hyldete til livs, så kommer man nok til de varme lande!« – og hun dækkede godt til om ham at han ikke skulle forkøle sig. »Du har nok sovet mens jeg sad og skændtes med ham om det var en historie eller et eventyr!«</p>
+<p rend="firstIndent" xml:id="p_00044">»Og hvor er Hyldemor?« spurgte drengen.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Hun er på tepotten!« sagde moren, »og der kan hun blive!«</p>
+
+
+
+<pb n="340"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" xml:id="hyldemoer">
+<head type="section-comments">Hyldemoer</head>
+
+<p rend="noIndent">Trykt første gang i Gæa, æsthetisk Aarbog, udgivet af P.L. Møller.</p>
+
+<p rend="noIndent">Udkom i december 1844 med årstallet 1845 på titelbladet.<br/>
+BFN 458/II,171-177/VII,130-131.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">332,18</cell><cell type="deviation">begribe.« &lt; begribe.</cell></row>
+<row><cell type="position">332,19</cell><cell type="deviation">spurgte &lt; Spurgte</cell></row>
+<row><cell type="position">332,28</cell><cell type="deviation">Dreng. »Moder &lt; Dreng.« Moder</cell></row>
+<row><cell type="position">333,1</cell><cell type="deviation">fortæl!« &lt; fortæl!</cell></row>
+<row><cell type="position">333,5</cell><cell type="deviation">Thepotten!« &lt; Thepotten!</cell></row>
+<row><cell type="position">333,16</cell><cell type="deviation">Dreng. &lt; Dreng,</cell></row>
+<row><cell type="position">333,38</cell><cell type="deviation">under.« &lt; under;«</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">332</cell><row xml:id="txtcmnt-332-01"><cell type="data-term">Hyldemoer</cell><cell type="data-definition">H.C. Andersen skrev i de »Bemærkninger«, som afsluttede Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen, Andet Bind, 1863, at kimen til dette eventyr »ligger i det af Thiele fortalte Sagn: »Der bor i Hyldetræet et Væsen, som kaldes Hyldemo’er, eller Hyldekvind. Hun hevner al Overlast, der tilføjes Træet (...)« (jf. denne udgaves bind 3, s. 372; Thiele II, 282 ff.).</cell></row><row xml:id="txtcmnt-332-02"><cell type="data-term">Themaskinen</cell><cell type="data-definition">til opvarmning af vand ved bordet, samovar.</cell></row>
+<cell type="page">333</cell><row xml:id="txtcmnt-333-01"><cell type="data-term">disse Romere og Grækere</cell><cell type="data-definition">antikkens mytologi.</cell></row><row xml:id="txtcmnt-333-02"><cell type="data-term">Dryade</cell><cell type="data-definition">ifølge græsk mytologi en skovnymfe, hvis liv er knyttet til et træ.</cell></row><row xml:id="txtcmnt-333-03"><cell type="data-term">Nyboder</cell><cell type="data-definition">bydel i København, påbegyndt af Christian 4. som boliger for søværnets faste mandskab og karakteristisk ved sine gårdhaver med hyldetræer.</cell></row><row xml:id="txtcmnt-333-04"><cell type="data-term">Vandballe</cell><cell type="data-definition">vandbalje.</cell></row>
+<cell type="page">335</cell><row xml:id="txtcmnt-335-01"><cell type="data-term">op på Rundetårn</cell><cell type="data-definition">almindelig skik, at konfirmander gik op i Rundetårn dagen efter konfirmationen.</cell></row><row xml:id="txtcmnt-335-02"><cell type="data-term">Fløien</cell><cell type="data-definition">vejrhanen.</cell></row><row xml:id="txtcmnt-335-03"><cell type="data-term">Fjerdingen</cell><cell type="data-definition">skraldebøtten.</cell></row>
+<cell type="page">336</cell><row xml:id="txtcmnt-336-01"><cell type="data-term">væligt</cell><cell type="data-definition">fyrigt, livligt.</cell></row><row xml:id="txtcmnt-336-02"><cell type="data-term">skraber for</cell><cell type="data-definition">komplimenterer, gør kur til.</cell></row>
+<cell type="page">337</cell><row xml:id="txtcmnt-337-01"><cell type="data-term">Bukkar</cell><cell type="data-definition">skovmærke.</cell></row><row xml:id="txtcmnt-337-02"><cell type="data-term">Riddertiden</cell><cell type="data-definition">middelalderen.</cell></row><row xml:id="txtcmnt-337-03"><cell type="data-term">Convolvoli</cell><cell type="data-definition">snerler.</cell></row>
+<cell type="page">338</cell><row xml:id="txtcmnt-338-01"><cell type="data-term">Præsenter</cell><cell type="data-definition">gaver.</cell></row><row xml:id="txtcmnt-338-02"><cell type="data-term">Violen</cell><cell type="data-definition">violinen.</cell></row><row xml:id="txtcmnt-338-03"><cell type="data-term">i Grams</cell><cell type="data-definition">i flæng, så man må kappes.</cell></row><row xml:id="txtcmnt-338-04"><cell type="data-term">Knøs</cell><cell type="data-definition">ung mand eller stor dreng.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

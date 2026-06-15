@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tower Keeper Ole</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0.1">1.0.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl>
+                                             
+                                                  
+                                                       <!--test1-->
+                                                      <notesStmt>
+                                                           <note type="originalDanish" target="taarnvaegteren-ole">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="taarnvaegteren-ole_modern.xml">moderniseret version</note>
+                                                       <note target="136_Tower-Keeper-Ole.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note></notesStmt>                                                  
+                                             
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>‘Things go up and down in the world and down and up! now I can’t get any higher!...</incipit><idno type="image">Taarnvaegteren_Ole_forside.png</idno><popularity>891</popularity><cite>&lt;p&gt;Hans Christian Andersen: Tower Keeper Ole. Udg. af [INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0001">Tower Keeper Ole</cell>
+                                                       
+                                                            <cell ref="#div0002">First Visit</cell>
+                                                       
+                                                            <cell ref="#div0003">Second Visit</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-18" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-18" who="NHB">formatted</change><change who="NHB" when="2022-11-18">converted, added italics, and uploaded to the website</change><change who="NHB" when="2023-05-12" status="draft">added wrapper div, updated version number (idno)</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div>
+               <div type="chapter" rend="Tower Keeper Ole" xml:id="div0001">
+                    <head type="main" rend="Tower Keeper Ole">Tower Keeper Ole</head>                <p rend="noIndent" xml:id="p_00001">‘Things go up and down in the world and down and up! now I can’t get any higher!’ <hi rend="italic">tower keeper Ole</hi> said. ‘Up and down and down and up is what most people get to experience; in a way, we all end up as tower keepers; we see life and things from above!’</p>
+               <p rend="firstIndent" xml:id="p_00002">That’s what <hi rend="italic">Ole</hi>, my friend, the old tower keeper, often used to say – an entertaining, talkative chap who appeared to say everything yet kept so much seriousness hidden deep inside him; well, he came from good, honest folk, there were those who said that he was the son of a royal adviser, or could have been! He had studied, had been an assistant teacher, assistant parish clerk, but what was the use of that! he then lived at the clerk’s house, with everything free; back then he was young and still a bit grand, as the saying goes: he wanted to have his boots polished with <hi rend="italic">blacking</hi>, but the clerk would only give him <hi rend="italic">dubbin</hi>, and they had a disagreement about that; the one spoke of minginess, the other spoke of vanity, the boot polish became the black source of animosity, and so they went their separate ways; but what he insisted on having from the clerk he also insisted on from the world: <hi rend="italic">blacking</hi>, and all he ever got was <hi rend="italic">dubbin;</hi> – so he turned his back on humanity and became a hermit, but a hermitage that provides a living in a big city is only to be found in the church tower, and he would go up there and smoke his pipe in solitude; he would look down, and he would look up, thinking while he did so and would, in his own manner, talk about what he saw and did not see, what he read in books and in himself. I often lent him some reading matter, good books, and one is known by the company one keeps. He did not like English ‘governess’ novels, he said, nor French ones that were brewed on hot air and raisin stalks, no, biographies was what he wanted to have, books about the wonders of nature. I used to visit him at least once a year, normally just after New Year, he always had something or other that connected up with his thoughts when one year was replaced by another.</p>
+               <p rend="firstIndent" xml:id="p_00003">I would now like to tell of two visits, in his own words if I am able.</p></div>
+               <div type="chapter" rend="First Visit" xml:id="div0002">
+               <head rend="First Visit">First Visit</head>
+               <p rend="noIndent" xml:id="p_00004">Among the books I most recently had lent <hi rend="italic">Ole</hi> was one about <hi rend="italic">smooth stones</hi>, and this he had particularly enjoyed and given him food for thought.</p>
+               <p rend="firstIndent" xml:id="p_00005">‘Oh yes, they are extremely old characters, these smooth stones!’ he said, ‘and one passes them without giving them a thought! I’ve done so myself out in the fields and down on the beach, where they lie in great numbers. There one walks on cobbles, these lumps of the very oldest relics of the past! I’ve done so myself. Now every cobblestone commands my respect! Thank you for that book, it has filled my mind, pushed aside old thoughts and habits, made me most eager to read more of the same kind. The novel of the earth is definitely the most remarkable of all novels! A pity that one cannot read the first volumes, since they have been composed in a language we have not learnt; one must read in the earth’s strata, in the pebbles, in all the geological periods, and the actors do not appear on the stage until the sixth volume, Mr. <hi rend="italic">Adam </hi>and <hi rend="italic">Mrs. Eve</hi>, that’s a bit late for many readers who would like them there from the start, but I don’t mind. It is a fabulous novel, and we are all part of it. We creep and crawl away yet stay in the same place, but the globe revolves, without spilling the water of its oceans over us; the crust on which we move stays firm, we do not fall through it; and then it is a story lasting millions of years, with constant progress. Thank you for that book about the smooth stones! they are fellows that could say a thing or two if only they were able! Isn’t it enjoyable once in a while to be turned into nothing, as it were when one sits as high up as I do and then recall that all of us, even those with blacking to their boots, are merely minute-ants on the anthill of the world, even if we are ants with orders and ribbons, ants with rank and high-standing. One feels so shame-facedly young alongside these million-year-old venerable smooth stones. I was reading the book on New Year’s Eve and was so engrossed in it that I forgot my usual pleasure that night, which is to gaze at ‘the Wild Hunt to Amager!’ Yes, well, I don’t expect you know about that!</p>
+               <p rend="firstIndent" xml:id="p_00006">The journey of the witches on broomsticks is familiar enough, that is on Midsummer’s Eve and to Blocksberg, but we also have a Wild Hunt that is domestic and present-day, it goes to Amager on New Year’s Eve. All the bad poets, poetesses, fiddlers, hack journalists and literary figures, those that are no good, ride through the air on New Year’s Eve out to Amager; they sit astride their brushes or quill pens, a steel pen is too stiff to carry them. As I said, I always look at it every New Year’s Eve; I could mention the name of most of them, but it’s not worth falling foul of them; they don’t like people to know about their Amager trip on a quill pen. I have some sort of niece who is a fisherman’s wife and who writes scandal to three respected newspapers, she says that she has been out there as an invited guest, she was carried as she does not own a quill pen and is unable to ride. She has told me all this. Half of what she says is utter lies, but the other half is already more than sufficient. When she was out there, they started with songs, every guest had written a song and each sang his or her own, for it was the best one; they were all much of a muchness, and had the same ‘tune’. Then they marched past in small societies, those who only have the gift of the gab, they were the carillons that clanged away in turn, then came the small drummers that drum away out in families. – Their acquaintance was made with those who write without appending their name, in other words, where dubbin is passed off as blacking; there was the executioner and his assistant, and the latter was the more hard-boiled, otherwise no one take any notice of him; there was the good old dustman who up-ends the bin and calls it ‘good, very good, extremely good!’ – In the midst of all the entertainment which it appeared to be, a stalk rose from the pit, a tree, an enormous flower, a large toadstool, a whole roof, it was the cockaigne-pole of the honourable society that bore everything they had given the world in the past year; out of it burst sparks, like flames, it was all the borrowed thoughts and ideas they had used which were now escaping and shooting off, like a whole firework display. People played ‘you’re getting warm’, and the small poets played ‘the heart’s getting warm!’, the self-styled wits told puns, nothing less was accepted. The jokes rang out as if one struck doors with empty pots, or pots with peat-ash. It was most enjoyable! the niece said; in actual fact she said a great deal more that was most malicious, though amusing! I won’t say what it was, one must be a good person and not a  <hi rend="italic">raisonneur</hi>. You realise, though, that when, like me, one knows about the festivities out there, it is only fair that I take care to see the Wild Hunt fly off every New Year’s Eve; if one year I miss a few, then new ones have turned up, but this year I neglected to look at the guests, I rolled off on the smooth stones, rolled through millions of years, and saw the stones tumbling freely up in the North, saw them drifting on pieces of ice long before Noah’s Ark was built, saw them sink to the sea bed and come up again on a longshore bar, the one that stuck up out of the water and said ‘this is to be Sealand!’ I saw them become a seat for species of birds we do not know, a seat for wild chieftains we also do not know, until the axe bit runes into a pair of them which then could be placed in time, but I had ended up completely outside time and space, had turned into nothing. Then three or four lovely shooting stars fell, they lit up, my thoughts took a new turn. – You know what a shooting star is, don’t you? Scholars don’t seem to! – I have my own thoughts about them, and <hi rend="italic">this</hi> is what I think: How often, in secret, are kind thoughts and blessings not expressed for anyone who has carried out something that is fine and good; often such thanks remains silent, but it doesn’t fall to the ground! What I think happens is that it gets caught by the sunshine, and a ray of the sun brings this silently felt secret thanks down over the benefactor’s head; if it is a whole people that through periods of time sends its thanks, then they come like a bouquet, fall like a shooting star on the benefactor’s grave. It gives me great pleasure when I see a shooting star, especially on New Year’s Eve, to figure out who is to be the recipient of this bouquet of thanks. A bright shooting star recently fell in the south-west: grateful thanks for many, many! who could it be meant for! it surely fell, I think, on the slope by <hi rend="italic">Flensburg</hi> Fjord, where the Danish flag flutters over the graves of <hi rend="italic">Schleppegrell</hi>, <hi rend="italic">Læssøe</hi> and their comrades. One fell in the middle of the country, it fell down on <hi rend="italic">Sorø</hi>, a bouquet on <hi rend="italic">Holberg’s</hi> coffin, an annual thanks from so many for those wonderful comedies!</p>
+               <p rend="firstIndent" xml:id="p_00007">It is a great thought, a happy thought to know that a shooting star falls on our grave, though none will fall on mine, no ray of the sun will convey thanks to me, for I’ve done nothing to merit thanks! I will not attain blacking,’ <hi rend="italic">Ole</hi> said, ‘my lot in the world is to get dubbin.’</p>
+               </div>
+               <div type="chapter" rend="Second Visit" xml:id="div0003">
+               <head rend="Second Visit">Second Visit</head>
+               <p rend="noIndent" xml:id="p_00008">It was New Year’s Day when I climbed up the tower, <hi rend="italic">Ole</hi> spoke of the toasts that were drunk at the transition from the old drip to the new drip, as he called each year. Then he gave me the story of the glasses, which gave me food for thought.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘When midnight has struck on New Year’s Eve, people at table stand up, their glasses filled, and toast the New Year. One starts the year with a glass in one’s hand, that is a good beginning for drunkards! one starts the year by going to bed, that is a good beginning for idlers! In the course of the year sleep will play a large role, as will glasses. Do you know what resides in the glasses?’ he asked. ‘Well, there good health, happiness and wild joy reside! there harm and bitter misfortune reside! When I count up the glasses, I naturally count the gradations for the various people.</p>
+               <p rend="firstIndent" xml:id="p_00010">You see, <hi rend="italic">the first glass</hi> is that of good health! in it there grows the plant of health, if you place it in a beam, at the end of the year you can sit in the bower of health.</p>
+               <p rend="firstIndent" xml:id="p_00011">If you take <hi rend="italic">the second glass</hi> -! well, out of this flies a small bird, it chirps innocently and merrily, so that others listen and perhaps join in: Life is beautiful! Don’t hang your heads! Boldly forwards!</p>
+               <p rend="firstIndent" xml:id="p_00012">Out of <hi rend="italic">the third glass</hi> rises a small winged creature, it can hardly be called a cherub, for it has the blood and mind of an imp, not for teasing but for shenanigans! he sits behind our ear and whispers mischievous ideas to us! he lies down in the region of our heart and warms it so that one becomes light-headed, the star of the show as judged by the others!</p>
+               <p rend="firstIndent" xml:id="p_00013">In <hi rend="italic">the fourth glass</hi> there is no plant, bird or creature, that is the boundary of reason and beyond that boundary one should never go!</p>
+               <p rend="firstIndent" xml:id="p_00014">If you take <hi rend="italic">the fifth glass</hi>, you will weep at yourself, become so pleasantly moved emotionally, or make sure things go off with a bang! for with a bang Prince <hi rend="italic">Carnival</hi> will leap out of the glass, loquacious and wild with joy; he will drag you along, you will forget your dignity, if you have any! you will forget more than you are to forget or dare to forget. Everything is dancing, singing and carousing; the masks will carry you off, the devil’s daughters, in crape and in silk, come with their flowing hair and lovely limbs – tear yourself free if you can!</p>
+               <p rend="firstIndent" xml:id="p_00015"><hi rend="italic">The sixth glass</hi>! – Well, Satan himself sits in that one, a small, well-dressed, well-spoken, charming, extremely pleasant man who completely understands you, agrees with every word you say, is your entire ego! He comes with a lamp to accompany you back to his place. There is an old legend about the saint who had to choose one of the seven deadly sins and he chose the one he thought was the least deadly, intemperance, and when drunk he committed all the other six sins. Man and the devil mix blood, this is what is in the sixth glass, and then all the small wicked shoots begin to grow; each of them speeds upwards with great force like the mustard seed of the Bible, they grow into trees that cover the whole world, and most people have no option but to end up in the furnace in order to be recast. That is <hi rend="italic">the story of the glasses</hi>!’ tower keeper <hi rend="italic">Ole</hi> said, ‘and it can be given both with blacking and with dubbin! I give it with both!’</p>
+               <p rend="firstIndent" xml:id="p_00016">That was my second visit to <hi rend="italic">Ole.</hi> If you want to hear any more, the visits must be</p>
+               <p rend="right" xml:id="p_00017">continued</p>
+               </div>  
+     </div></body>
+                         </text>
+                    </TEI>

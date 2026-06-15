@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Skyggen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr. Andet Bind. Første Samling</i>, som udkom den 3. april 1847.<br/>
+BFN 520/II,129-140/VII,117-119.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="skyggen" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="skyggen_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="85_The-Shadow">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>I de hede Lande, der kan rigtignok Solen brænde! Folk blive ganske mahognibrune;...</incipit><readingTime>20</readingTime><popularity>980</popularity><cite>&lt;p&gt;H.C. Andersen: Skyggen. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Skyggen_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>kunst</term><!--<term>humor</term>--><term>uhygge</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-02-28" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Skyggen" xml:id="skyggen">
+<pb n="411"/><head type="main">Skyggen</head>
+
+<img src="0085_HCA-1986-1-0085.jpg" ref="p_00001" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="noIndent" xml:id="p_00001">I de hede Lande, der kan rigtignok Solen brænde! Folk blive ganske mahognibrune; ja i de allerhedeste Lande brændes de til Negre, men det var nu kun til de hede Lande, en lærd Mand var kommen fra de kolde; der troede han nu at han kunde løbe om, ligesom der hjemme, jo det blev han snart <seg target="txtcmnt-411-01"><!--DATA-TERM: vant--><!--DATA-DEFINITION: vænnet.-->vant</seg> fra. Han og alle fornuftige Folk maatte blive inde, Vindues-Skodder og Døre <seg target="txtcmnt-411-02"><!--DATA-TERM: bleve lukkede--><!--DATA-DEFINITION: forblev lukkede.-->bleve lukkede</seg> den hele Dag; det saae ud som hele Huset sov eller der var ingen hjemme. Den smalle Gade med de høie Huse, hvor han boede, var nu ogsaa bygget saaledes at Solskinnet fra Morgen til Aften maatte ligge der, det var virkeligt ikke til at holde ud! – Den lærde Mand fra de kolde Lande, det var en ung Mand, en klog Mand, han syntes, han sad i en gloende Ovn; det tog paa ham, han blev ganske mager, selv hans Skygge krøb ind, den blev meget mindre end hjemme, Solen tog ogsaa paa den. – De levede først op om Aftenen, naar Solen var nede.</p>
+
+<img src="0085_HCA-1986-1-0086.jpg" ref="p_00002" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00002">Det var ordentlig en Fornøielse at see paa; saasnart Lyset blev bragt ind i Stuen, strakte Skyggen sig heelt op ad Væggen, ja saa gar hen ad Loftet, saa lang gjorde den sig, den maatte strække sig for at komme til Kræfter. Den Lærde gik ud paa Altanen, for at strække sig der, og altsom Stjernerne kom frem i den deilige klare Luft, var det for ham, som kom han tillive igjen. Paa alle Altaner i Gaden, og i de varme Lande har hvert Vindue en Altan, kom Folk frem, for Luft maa man have, selv om man er vant til at være <seg target="txtcmnt-411-03"><!--DATA-TERM: mahogni--><!--DATA-DEFINITION: (mahogni)brune, mørklødede.-->mahogni</seg>! Der blev saa levende oppe og nede. Skomagere og Skræddere, alle Folk fløttede ud paa Gaden, der kom Bord og Stol, og Lyset brændte, ja over tusind Lys brændte, og den ene talte og den anden sang, og Folk spadserede, Vognene kjørte, Æslerne gik: klingelingeling! de har Klokker paa; der blev Liig begravede med Psalmesang, Gadedrengene skjød med <seg target="txtcmnt-411-04"><!--DATA-TERM: Troldkjællinger--><!--DATA-DEFINITION: fyrværkeri.-->Troldkjællinger</seg>, og Kirkeklokkerne ringede, jo der var rigtig nok levende nede i Gaden. Kun i det ene Huus, som laa ligeoverfor hvor den fremmede lærde Mand boede, var der ganske stille; og dog boede der Nogen, for der <pb n="412"/>stod paa Altanen Blomster, de groede saa deiligt i den Solhede, og det kunde de ikke, uden at de bleve vandede, og Nogen maatte jo vande dem; Folk maatte der være. Døren derovre kom ogsaa op ud paa Aftenen, men der var mørkt derinde, i det mindste i det forreste Værelse, dybere inde fra lød Musik. Den fremmede lærde Mand syntes, den var ganske mageløs, men det kunde nu ogsaa gjerne være at han kun bildte sig det ind, for han fandt Alting mageløst derude i de varme Lande, naar der kun ingen Sol havde været. Den Fremmedes Vert sagde at han ikke vidste, hvem der havde leiet Gjenboens Huus, man saae jo ingen Folk og hvad Musiken angik, syntes han, at den var gruelig kjedelig. »Det er ligesom om En sad og øvede sig paa et Stykke, han ikke kan komme ud af, altid det samme Stykke. »»Jeg <seg target="txtcmnt-412-01"><!--DATA-TERM: faaer det dog ud--><!--DATA-DEFINITION: finder dog ud af det.-->faaer det dog ud</seg>!«« siger han nok, men han faaer det dog ikke ud hvor længe han spiller.«</p>
+
+<p rend="firstIndent" xml:id="p_00003">En Nat vaagnede den Fremmede, han sov for aaben Altandør, Gardinet foran den løftede sig i Vinden, og han syntes at der kom en forunderlig Glands fra Gjenboens Altan, alle Blomsterne skinnede som Flammer, i de deiligste Farver, og midt imellem Blomsterne stod en slank, yndig Jomfru, det var som om ogsaa hun lyste; det skar ham virkeligt i Øinene, han lukkede dem nu ogsaa saa forfærdelig meget op og kom lige af Søvnen; i et Spring var han paa Gulvet, ganske sagte kom han bag Gardinet, men Jomfruen var borte, Glandsen var borte; Blomsterne skinnede slet ikke, men stode meget godt, som altid; Døren var paa klem, og dybt inde klang Musiken saa blød og deilig, man kunde ordentlig falde hen i søde Tanker derved. Det var dog ligesom en Trolddom og hvem boede der? Hvor var den egentlige Indgang? Hele Stue-Etagen var Boutik ved Boutik, og der kunde Folk jo dog ikke altid løbe igjennem.</p>
+
+<p rend="firstIndent" xml:id="p_00004">En Aften sad den Fremmede ude paa sin Altan, inde i Stuen bag ved ham brændte Lyset, og saa var det jo ganske naturligt at Skyggen af ham gik over paa Gjenboens Væg; ja der sad den lige over for mellem Blomsterne paa Altanen; og naar den Fremmede rørte sig, saa rørte Skyggen sig ogsaa, for det gjør den. –</p>
+
+<img src="0085_HCA-1986-1-0087.jpg" ref="p_00005" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00005">»Jeg troer min Skygge er det eneste Levende, man seer derovre!« sagde den lærde Mand. »See hvor net den sidder mellem Blomsterne, Døren staaer halv paa klem, nu skulde Skyggen være saa snild og gaae indenfor, see sig om, og saa komme og fortælle mig hvad den havde seet! ja Du skulde gjøre Gavn!« sagde han i Spøg! »Vær saa god at træde inden<pb n="413"/>for! naa! gaaer Du?« og saa nikkede han til Skyggen og Skyggen nikkede igjen. »Ja saa gaa, men bliv ikke borte!« og den Fremmede reiste sig og hans Skygge ovre paa Gjenboens Altan reiste sig ogsaa; og den Fremmede dreiede sig og Skyggen dreiede sig ogsaa; ja dersom Nogen ordentligt havde lagt Mærke dertil, da havde de tydeligt kunnet see, at Skyggen gik ind af den halvaabne Altandør hos Gjenboen, lige i det den Fremmede gik ind i sin Stue og lod det lange Gardin falde ned efter sig.</p>
+
+<img src="0085_HCA-1986-1-0088.jpg" ref="p_00006" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00006">Næste Morgen gik den lærde Mand ud for at drikke Kaffe og læse Aviser. »Hvad er det?« sagde han, da han kom ud i Solskinnet, »jeg har jo ingen Skygge! saa er den virkelig gaaet i Aftes og ikke kommet igjen; det er noget kjedeligt Noget!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">Og det ærgrede ham, men ikke saa meget fordi at Skyggen var borte, men fordi han vidste, at <seg target="txtcmnt-413-01"><!--DATA-TERM: der var en Historie til … Skygge--><!--DATA-DEFINITION: hentydning til Adalbert von Chamissos (1781-1838) <i>Peter Schlemihls wundersame Geschichte</i>, 1814, om Peter Schlemihl, der sælger sin skygge til Djævelen for at komme i besiddelse af Fortunatus’ pung.-->der var en Historie til om en Mand uden Skygge</seg>, den kjendte jo alle Folk hjemme i de kolde Lande, og kom nu den lærde Mand der og fortalte sin, saa vilde de sige, at han gik og lignede efter, og det behøvede han ikke. Han vilde derfor slet ikke tale derom, og det var fornuftigt tænkt.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Om Aftenen gik han ud paa sin Altan igjen, Lyset havde han meget rigtig sat bag ved sig, for han vidste at Skyggen vil altid have sin Herre til Skjærm, men han kunde ikke lokke den; han gjorde sig lille, han gjorde sig stor, men der var ingen Skygge, der kom ingen! Han sagde: hm! hm! men det hjalp ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Ærgerligt var det, men i de varme Lande der voxer nu Alting saa <seg target="txtcmnt-413-02"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg>, og efter otte Dages Forløb mærkede han, til sin store Fornøielse, at der voxede ham en ny Skygge ud fra Benene, naar han kom i Solskin, Roden maatte været blevet siddende. Efter tre Uger havde han en ganske taalelig Skygge, der, da han begav sig hjem til de nordlige Lande, voxte paa Reisen meer og meer, saa at den tilsidst var saa lang og saa stor at det Halve var nok.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Saa kom den lærde Mand hjem og han skrev Bøger om hvad der var Sandt i Verden, og om hvad der var Godt og hvad der var Smukt, og der gik Dage og der gik Aar; der gik mange Aar.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Da sidder han en Aften i sin Stue og saa banker det ganske sagte paa Døren.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Kom ind!« siger han, men der kom Ingen; saa lukker han op og der stod for ham saadan et overordentligt magert Menneske, saa han blev ganske underlig. Forresten var Mennesket særdeles fiint klædt paa, det maatte være en fornem Mand.</p>
+<pb n="414"/><p rend="firstIndent" xml:id="p_00013">»Hvem har jeg den Ære at tale med?« spurgte den Lærde.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Ja det tænkte jeg nok!« sagde den fine Mand, »at De ikke kjendte mig! jeg er blevet saa meget Legeme, jeg har ordentlig faaet Kjød og Klæder. De har nok aldrig tænkt at see mig i saadan en Velmagt. Kjender De ikke deres gamle Skygge? Ja De har vist ikke troet at jeg mere kom igjen. Mig er det gaaet særdeles vel siden jeg sidst var hos dem, jeg er i alle Henseender bleven meget formuende! skal jeg kjøbe mig fri fra Tjenesten, saa kan jeg!« og saa raslede han med et heelt Bundt kostbare <seg target="txtcmnt-414-01"><!--DATA-TERM: Signet(er)--><!--DATA-DEFINITION: segl, lille graveret stempel, hvormed man trykker sit navnetræk eller våben i lak og dermed forsegler et brev eller dokument.-->Signeter</seg>, som hang ved Uhret, og han stak sin Haand ind i den tykke Guldkjæde, han bar om Halsen; nei, hvor alle Fingrerne glimrede med Diamants Ringe! og det var Altsammen virkeligt.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Nei, jeg kan ikke komme til mig selv!« sagde den lærde Mand, »hvad er dog alt det!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Ja noget Almindeligt er det ikke!« sagde <hi rend="italic">Skyggen</hi>, »men De selv hører jo heller ikke til det Almindelige, og jeg, det veed De nok, har fra Barnsbeen traadt i deres Fodspoer. Saasnart De fandt, jeg var moden til at gaae alene ud i Verden, gik jeg min egen Vei; jeg er i de allerbrillanteste Omstændigheder, men der kom en Slags Længsel over mig efter engang <seg target="txtcmnt-414-02"><!--DATA-TERM: at see Dem før de døer--><!--DATA-DEFINITION: her og andre steder i teksten veksles der mellem de/dem og det korrekte De/Dem i tiltaleform.-->at see Dem før de døer</seg>, De skal jo døe! jeg vilde ogsaa gjerne gjensee disse Lande, for man holder dog altid af Fædrelandet! – Jeg veed De har faaet en anden Skygge igjen, har jeg noget at betale til den eller dem? De vil bare være saa god at sige det.«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Nei, er det virkelig Dig!« sagde den lærde Mand, »det er dog høist mærkværdig! aldrig havde jeg troet at Ens gamle Skygge kunde komme igjen som Menneske!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Siig mig hvad jeg har at betale!« sagde <hi rend="italic">Skyggen</hi>, »for jeg vil nødig staae i nogen Slags Gjæld!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Hvor kan Du tale saaledes!« sagde den lærde Mand. »Hvad Gjæld er her at snakke om! vær saa fri, som Nogen! jeg glæder mig overordentlig ved din Lykke! sid ned, gamle Ven og fortæl mig bare lidt om hvorledes det er gaaet til, og hvad Du saae ovre hos Gjenboens, der i de varme Lande!« –</p>
+
+<img src="0085_HCA-1986-1-0089.jpg" ref="p_00020" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00020">»Ja, det skal jeg fortælle Dem,« sagde <hi rend="italic">Skyggen</hi> og satte sig ned, »men saa maa De ogsaa love mig, at De aldrig til Nogen her i Byen, hvor De endogsaa træffer mig, siger at jeg har været deres Skygge! jeg har isinde at forlove mig; jeg kan <seg target="txtcmnt-414-03"><!--DATA-TERM: føde--><!--DATA-DEFINITION: ernære.-->føde</seg> mere end een Familie!« –</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Vær ganske rolig!« sagde den lærde Mand, »jeg skal ikke sige Nogen hvem Du egenlig er! her er min Haand! jeg lover <pb n="415"/>det og en Mand et Ord!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Et Ord en Skygge!« sagde Skyggen, og saaledes maatte den jo tale.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Det var ellers virkelig ganske mærkværdigt hvormeget Menneske den var; ganske sortklædt var den og i det allerfineste sorte Klæde, lakerede Støvler, og <seg target="txtcmnt-415-01"><!--DATA-TERM: Hat der kunde smække sammen--><!--DATA-DEFINITION: chapeau claque.-->Hat der kunde smække sammen</seg>, saa at den blev bar Pul og Skygge, ikke at tale om hvad vi allerede veed her var, Signeter, Guldhalskjæde og Diamantringe; jo, Skyggen var overordentlig godt klædt paa, og det var just det, som gjorde at den var ganske et Menneske.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Nu skal jeg fortælle!« sagde <hi rend="italic">Skyggen</hi>, og saa satte den sine Been med de lakerede Støvler saa haardt, den kunde, ned paa Ærmet af den lærde Mands nye Skygge, der laa som en Puddelhund ved hans Fødder, og det var nu enten af Hovmod eller maaskee for at faae den til at hænge ved; og den liggende Skygge, holdt sig saa stille og rolig, for ret at høre efter; den vilde nok vide hvorledes man saaledes kunde komme løs og tjene sig op til sin egen Herre.</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Veed De, hvem der boede i Gjenboens Huus?« sagde Skyggen, »det var den deiligste af Alle, det var <hi rend="italic">Poesien</hi>! Jeg var der i tre Uger og det er ligesaa virkende, som om man levede i tre tusind Aar og læste Alt hvad der var digtet og skrevet, for det siger jeg og det er rigtigt. Jeg har seet Alt og jeg veed Alt!«</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Poesien!« raabte den lærde Mand! »ja, ja – hun er tidt <seg target="txtcmnt-415-02"><!--DATA-TERM: Eremit--><!--DATA-DEFINITION: eneboer; i tiden opfattet som en romantisk skikkelse, der lever uden for det civiliserede samfund.-->Eremit</seg> i de store Byer! Poesien! ja jeg har seet hende et eneste kort Øieblik, men Søvnen sad mig i Øinene! hun stod paa Altanen og skinnede som Nordlyset skinner! Fortæl, fortæl! Du var paa Altanen, Du gik ind ad Døren og saa – –!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Saa var jeg i Forgemakket!« sagde Skyggen. »De har altid siddet og seet over til Forgemakket. Der var slet intet Lys, der var en Slags Tusmørke, men den ene Dør stod aaben ligefor den anden i en lang Række Stuer og Sale; og der var lyst op, jeg var reent blevet slaaet ihjel af Lys, var jeg kommet heelt ind til Jomfruen; men jeg var besindig, jeg gav mig Tid og det skal man gjøre!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Og hvad saae Du saa?« spurgte den lærde Mand.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Jeg saae Alting, og jeg skal fortælle Dem det, men, – det er slet ingen Stolthed af mig, men – som Fri og med de Kundskaber jeg har, ikke at tale om min gode Stilling, mine fortræffelige Omstændigheder, – saa ønskede jeg gjerne at de vilde sige <hi rend="italic">De</hi> til mig!«</p>
+
+<pb n="416"/><p rend="firstIndent" xml:id="p_00030">»Om Forladelse!« sagde den lærde Mand, »det er gammel Vane, som sidder fast! – De har fuldkommen Ret! og jeg skal huske det! men nu fortæller De mig Alt hvad De saae!« –</p>
+<p rend="firstIndent" xml:id="p_00031">»Alting!« sagde <hi rend="italic">Skyggen</hi>, »for jeg saae Alt og jeg veed Alt.«</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Hvorledes saae der ud i de inderste Sale?« spurgte den lærde Mand. »Var der som i den friske Skov? Var der som i en hellig Kirke? Vare Salene som den stjerneklare Himmel, naar man staaer paa de høie Bjerge?«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Alting var der!« sagde <hi rend="italic">Skyggen</hi>. »Jeg gik jo ikke ganske heelt ind, jeg blev i det forreste Værelse i Tusmørket, men der stod jeg særdeles godt, jeg saae Alting og jeg veed Alting! Jeg har været ved Poesiens Hof, i Forgemakket.«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Men hvad saae De? Gik gjennem de store Sale alle Oldtidens Guder? Kjæmpede der de gamle Helte? Legede søde Børn og fortalte deres Drømme?«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Jeg siger Dem, jeg var der og De begriber, jeg saae Alting, hvad der var at see! havde De kommet derover, var de ikke blevet Menneske, men det blev jeg! og tillige lærte jeg at kjende min inderste Natur, mit Medfødte, det Familieskab, jeg havde med Poesien. Ja den Gang jeg var hos Dem, tænkte jeg ikke over det, men altid, De veed det, naar Sol gik op og Sol gik ned, blev jeg saa underlig stor; i Maaneskin var jeg næsten ved at være tydeligere end De selv; jeg forstod ikke den Gang min Natur, i Forgemakket gik det op for mig! jeg blev Menneske! – Moden kom jeg ud, men De var ikke længere i de varme Lande; jeg skammede mig som Menneske ved at gaae som jeg gik, jeg trængte til Støvler, til Klæder, til hele denne Menneske-Fernis, som gjør et Menneske kjendeligt. – Jeg <seg target="txtcmnt-416-01"><!--DATA-TERM: tog Vei--><!--DATA-DEFINITION: søgte mod.-->tog Vei</seg>, ja, Dem siger jeg det, De sætter det jo ikke i nogen Bog, jeg tog Vei til Kagekonens Skjørt, under det skjulte jeg mig; Konen tænkte ikke paa hvor meget hun gjemte; først om Aftenen gik jeg ud; jeg løb om i Maaneskinnet paa Gaden; jeg gjorde mig lang op ad Muren, det killer saa deiligt i Ryggen! jeg løb op og jeg løb ned, kiggede ind af de høieste Vinduer, ind i Salen og paa Taget, jeg kiggede hvor Ingen kunde kigge og jeg saae hvad ingen Andre saae, hvad Ingen skulde see! Det er i Grunden en <seg target="txtcmnt-416-02"><!--DATA-TERM: nedrig--><!--DATA-DEFINITION: (moralsk) lav, modbydelig.-->nedrig</seg> Verden! jeg vilde ikke være Menneske, dersom det nu ikke engang var antaget at det var noget at være det! Jeg saae det Allerutænkeligste hos Konerne, hos Mændene, hos Forældre og hos de søde mageløse Børn; – jeg saae«, sagde <hi rend="italic">Skyggen</hi>, »hvad ingen Mennesker maatte vide, men hvad de Allesammen saa gjerne vilde vide, Ondt hos Naboen. – Havde jeg skrevet en Avis, den <pb n="417"/>var bleven læst! men jeg skrev lige til Personen selv, og der blev en Forfærdelse i alle Byer hvor jeg kom. De bleve saa bange for mig! og de holdt saa overordentlig af mig. Professorerne gjorde mig til Professor, Skræderne gav mig ny Klæder, jeg er godt forsynet; <seg target="txtcmnt-417-01"><!--DATA-TERM: Myntmester(en)--><!--DATA-DEFINITION: embedsmand, der forestår fremstilling af mønter.-->Myntmesteren</seg> slog Mynt for mig, og Konerne sagde, jeg var saa kjøn! – og saa blev jeg den Mand jeg er! og nu siger jeg Farvel; her er mit Kort, jeg boer paa Solsiden og er altid hjemme i Regnveir!« og saa gik <hi rend="italic">Skyggen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Det var dog mærkeligt!« sagde den lærde Mand.</p>
+
+<p rend="firstIndent" xml:id="p_00037">Aar og Dag gik, saa kom <hi rend="italic">Skyggen</hi> igjen.</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Hvorledes gaaer det?« spurgte den.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Ak!« sagde den lærde Mand, »jeg skriver om det Sande og det Gode og det Skjønne, men Ingen bryder sig om at høre Sligt, jeg er ganske fortvivlet, for jeg tager mig det saa nær!«</p>
+
+<img src="0085_HCA-1986-1-0090.jpg" ref="p_00040" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00040">»Men det gjør jeg ikke!« sagde <hi rend="italic">Skyggen</hi>, »jeg bliver feed, og det er det man skal see at blive! ja De forstaaer dem ikke paa Verden. De bliver daarlig ved det. De maa reise! jeg gjør en Reise til Sommer; vil De med? Jeg gad nok have en Reisekammerat! vil De reise med, som Skygge? Det skal være mig en stor Fornøielse at have Dem med, jeg betaler Reisen!«</p>
+<p rend="firstIndent" xml:id="p_00041">»Det gaaer <seg target="txtcmnt-417-02"><!--DATA-TERM: vel vidt--><!--DATA-DEFINITION: lige lovlig vidt.-->vel vidt</seg>!« sagde den lærde Mand.</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Det er ligesom man tager det!« sagde <hi rend="italic">Skyggen</hi>. »De vil have grumme godt af at reise! vil De være min Skygge saa skal De faae Alting frit paa Reisen!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Det er for galt!« sagde den lærde Mand.</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Men saadan er nu Verden!« sagde <hi rend="italic">Skyggen</hi>, »og saaledes bliver den!« og saa gik <hi rend="italic">Skyggen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00045">Den lærde Mand havde det slet ikke godt, Sorg og Plage fulgte ham, og hvad han talte om det Sande og det Gode og det Skjønne, det var for de Fleste ligesom Roser for en Ko! – han var ganske syg tilsidst.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»De seer virkelig ud ligesom en Skygge!« sagde Folk til ham, og det gjøs i den lærde Mand, for han tænkte ved det.</p>
+
+<p rend="firstIndent" xml:id="p_00047">»De skal tage til <seg target="txtcmnt-417-03"><!--DATA-TERM: Bad--><!--DATA-DEFINITION: kurbad.-->Bad</seg>!« sagde <hi rend="italic">Skyggen</hi>, som kom og besøgte ham, »der er ikke andet for! jeg vil tage Dem med for gammelt Bekjendtskabs Skyld, jeg betaler Reisen og De gjør Beskrivelsen og er saadan lidt morsom for mig paa Veien! jeg vil til et Bad, mit Skjæg groer ikke ud som det skulde, det er ogsaa en Sygdom, og Skjæg maa man have! Vær De nu fornuftig og tag imod Tilbudet, vi reise jo som Kammerater!«</p>
+
+<img src="0085_HCA-1986-1-0094.jpg" ref="p_00048" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00048">Og saa reiste de; <hi rend="italic">Skyggen</hi> var da Herre og Herren var da Skygge; de kjørte med hinanden, de rede og gik sammen, Side <pb n="418"/>ved Side, forud og bag efter, saaledes som Solen stod; Skyggen vidste altid at holde sig paa Herrepladsen; og det tænkte den lærde Mand nu ikke saadanne over; han var et meget godt Hjerte, og særdeles mild og venlig, og da sagde han en Dag til Skyggen: »da vi nu saaledes ere blevne Reisekammerater, som vi er det og vi tillige ere voxne op fra Barndommen sammen, skulle vi saa ikke drikke Duus, det er dog mere fortroligt!«</p>
+
+<img src="0085_HCA-1986-1-0093.jpg" ref="p_00049" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00049">»De siger noget!« sagde Skyggen, som jo nu var den egentlige Herre. »Det er meget ligefremt og velmeent sagt, jeg vil være ligesaa velmenende og ligefrem. De, som en lærd Mand, veed vistnok hvor underlig Naturen er. Somme Mennesker kunne ikke taale at røre ved graat Papir, saa faae de ondt; Andre gaaer det gjennem alle Lemmer, naar man lader et Søm gnide mod en Glasrude; jeg har ligesaadan en Følelse ved at høre Dem sige Du til mig, jeg føler mig ligesom trykket til Jorden i min første Stilling hos Dem. De seer at det er en Følelse, det er ikke Stolthed; jeg kan ikke lade Dem sige Du til mig, men jeg skal gjerne sige Du til Dem, saa er det halve gjort!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">Og saa sagde <hi rend="italic">Skyggen</hi> Du til sin forrige Herre.</p>
+
+<p rend="firstIndent" xml:id="p_00051">»Det er dog vel galt,« tænkte han, »at jeg maa sige <hi rend="italic">De</hi> og han siger <hi rend="italic">Du</hi>,« men nu maatte han holde ud.</p>
+
+<p rend="firstIndent" xml:id="p_00052">Saa kom de til et Bad, hvor der vare mange Fremmede og imellem disse en deilig Kongedatter, som havde den Sygdom at hun saae altfor godt og det var nu saa <seg target="txtcmnt-418-01"><!--DATA-TERM: ængsteligt--><!--DATA-DEFINITION: ængstende, foruroligende.-->ængsteligt</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00053">Ligestrax mærkede hun at han, der var kommet, var en ganske anden Person end alle de Andre; »han er her for at faae sit Skjæg til at voxe, siger man, men jeg seer den rette Aarsag, han kan ikke kaste Skygge.«</p>
+
+<img src="0085_HCA-1986-1-0096.jpg" ref="p_00054" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00054">Nysgjærrig var hun blevet; og saa gav hun sig strax paa Spadsereturen i Tale med den fremmede Herre. Som en Kongedatter behøvede hun ikke at gjøre mange Omstændigheder, og saa sagde hun, »Deres Sygdom er at De ikke kan kaste Skygge.«</p>
+
+<p rend="firstIndent" xml:id="p_00055">»Deres kongelige Høihed maa være betydelig i Bedring!« sagde <hi rend="italic">Skyggen</hi>, »jeg veed, Deres Onde er at De seer alt for godt, men det har tabt sig, De er helbredet, jeg har just en ganske usædvanlig Skygge! Seer de ikke den Person, som altid gaaer med mig! Andre Mennesker have en almindelig Skygge, men jeg holder ikke af det Almindelige. Man giver sin Tjener finere Klæde i <seg target="txtcmnt-418-02"><!--DATA-TERM: Liberi(et)--><!--DATA-DEFINITION: dragt, der bæres af tjenere i fornemme huse.-->Liberiet</seg> end man selv bruger, og saaledes har jeg ladet min Skygge pudse op til Menneske! ja, De seer, at jeg endogsaa har givet <hi rend="italic">ham</hi> en Skygge. Det er noget kostbart, men jeg holder <pb n="419"/>af have noget for mig selv!« –</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Hvad?« tænkte Prindsessen, »skulde jeg virkelig være kommet mig! Dette Bad er <seg target="txtcmnt-419-01"><!--DATA-TERM: det første--><!--DATA-DEFINITION: det bedste.-->det første</seg> der er til! Vandet har i vor Tid ganske forunderlige Kræfter. Men jeg tager ikke bort, for nu bliver her morsomt; den Fremmede synes jeg overordenligt om. Bare hans Skjæg ikke voxer, for saa reiser han!«</p>
+
+<img src="0085_HCA-1986-1-0092.jpg" ref="p_00057" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00057">Om Aftenen i den store Balsal dandsede Kongedatteren og Skyggen. Hun var let, men han var endnu lettere, saadan en Dandser havde hun aldrig havt. Hun sagde ham fra hvad Land hun var, og han kjendte Landet, han havde været der, men da var hun ikke hjemme, han havde kiget ind af Vinduerne foroven og forneden, han havde seet baade det Ene og det Andet, og saa kunde han svare Kongedatteren og gjøre Antydninger, saa hun blev ganske forundret; han maatte være den viseste Mand paa hele Jorden! hun fik saadan en Agtelse for hvad han vidste, og da de saa dandsede igjen, saa blev hun <seg target="txtcmnt-419-02"><!--DATA-TERM: forliebt--><!--DATA-DEFINITION: forelsket.-->forliebt</seg>, og det kunde <hi rend="italic">Skyggen</hi> godt mærke, for hun var <seg target="txtcmnt-419-03"><!--DATA-TERM: færdig--><!--DATA-DEFINITION: på nippet til, nær ved.-->færdig</seg> at see lige igjennem ham. Saa dandsede de nok engang og saa var hun lige ved at sige det, men hun var besindig, hun tænkte paa sit Land og Rige og paa de mange Mennesker, hun skulde regjere over. »En viis Mand er han,« sagde hun til sig selv, »det er godt! og deiligt dandser han, det er ogsaa godt, men mon han har grundige Kundskaber, det er ligesaa vigtigt! han maa examineres.« Og saa begyndte hun saa smaat at spørge ham om noget af det Allervanskeligste, hun kunde ikke selv have svart paa det; og Skyggen gjorde et ganske underligt Ansigt.</p>
+
+<p rend="firstIndent" xml:id="p_00058">»Det kan de ikke svare paa!« sagde Kongedatteren.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»Det hører til min Børne-Lærdom,« sagde <hi rend="italic">Skyggen</hi>, »jeg troer saagar min Skygge der henne ved Døren kan svare derpaa!«</p>
+
+<p rend="firstIndent" xml:id="p_00060">»Deres Skygge!« sagde Kongedatteren, »det vilde være høist mærkeligt!«</p>
+
+<p rend="firstIndent" xml:id="p_00061">»Ja, jeg siger ikke bestemt at han kan!« sagde Skyggen, »men jeg skulde troe det, han har nu i saa mange Aar fulgt mig, og hørt efter, – jeg skulde troe det! men deres Kongelige Høihed tillader, at jeg gjør Dem opmærksom paa, at han har saa megen Stolthed af at gaae for et Menneske, at naar han skal være i rigtig Humeur, og det maa han være for at svare godt, saa maa han behandles ganske som et Menneske.«</p>
+
+<p rend="firstIndent" xml:id="p_00062">»Det kan jeg godt lide!« sagde Kongedatteren.</p>
+
+<p rend="firstIndent" xml:id="p_00063">Og saa gik hun hen til den lærde Mand ved Døren, og hun talte med ham om Sol og Maane, og om Menneskene baade uden paa og inden i og han svarede saa klogt og godt.</p>
+
+<pb n="420"/>
+
+<p rend="firstIndent" xml:id="p_00064">»<seg target="txtcmnt-419-04"><!--DATA-TERM: Hvad det maa være--><!--DATA-DEFINITION: hvad må det ikke være.-->Hvad det maa være</seg> for en Mand, der har saa viis en Skygge!« tænkte hun, »det vil være en reen Velsignelse for mit Folk og Rige om jeg valgte ham til min Gemal; – jeg gjør det!«</p>
+
+<p rend="firstIndent" xml:id="p_00065">Og de vare snart enige, baade Kongedatteren og Skyggen, men Ingen skulde vide derom før hun kom hjem i sit eget Rige.</p>
+
+<p rend="firstIndent" xml:id="p_00066">»Ingen, ikke engang min Skygge!« sagde <hi rend="italic">Skyggen</hi>, og det havde han nu saadan sine egne Tanker ved! –</p>
+
+<p rend="firstIndent" xml:id="p_00067">Saa vare de i Landet hvor Kongedatteren regjerede naar hun var hjemme.</p>
+
+<p rend="firstIndent" xml:id="p_00068">»Hør min gode Ven!« sagde <hi rend="italic">Skyggen</hi> til den lærde Mand, »nu er jeg blevet saa lykkelig og mægtig, som Nogen kan blive, nu vil jeg ogsaa gjøre noget særdeles for Dig! du skal altid boe hos mig paa Slottet, kjøre med mig i min kongelige Vogn og have hundrede tusinde Rigsdaler om Aaret; men saa maa Du lade dig kalde Skygge af Alle og Enhver; Du maa ikke sige at du har nogensinde været Menneske og engang om Aaret, naar jeg sidder paa Altanen i Solskin og lader mig see, maa Du ligge ved mine Fødder, som en Skygge skal! jeg skal sige dig, <seg target="txtcmnt-420-01"><!--DATA-TERM: jeg gifter--><!--DATA-DEFINITION: jeg gifter mig med.-->jeg gifter</seg> Kongedatteren, i Aften skal Brylluppet holdes.«</p>
+
+<p rend="firstIndent" xml:id="p_00069">»Nei det er dog altfor galt!« sagde den lærde Mand, »det vil jeg ikke, det gjør jeg ikke! det er at bedrage hele Landet og Kongedatteren med! Jeg siger Alting! at jeg er Mennesket, og at du er Skyggen, du er bare klædt paa!«</p>
+
+<p rend="firstIndent" xml:id="p_00070">»Det er der Ingen som troer!« sagde <hi rend="italic">Skyggen</hi>, »vær fornuftig, eller jeg kalder paa Vagten!« –</p>
+
+<p rend="firstIndent" xml:id="p_00071">»Jeg gaaer lige til Kongedatteren!« sagde den lærde Mand. »Men jeg gaaer først!« sagde <hi rend="italic">Skyggen</hi>, »og du gaaer i Arrest!« – og det maatte han, for Skildvagterne de lystrede ham, som de vidste Kongedatteren vilde have.</p>
+
+<p rend="firstIndent" xml:id="p_00072">»Du ryster!« sagde Kongedatteren, da Skyggen kom ind til hende, »er der skeet Noget? Du maa ikke blive syg til i aften, nu vi skal have Bryllup.«</p>
+
+<p rend="firstIndent" xml:id="p_00073">»Jeg har oplevet det Grueligste, der kan opleves!« sagde Skyggen, »tænk Dig – ja, saadan en stakkels Skyggehjerne kan ikke holde meget ud! – Tænk Dig, min Skygge er blevet gal, han troer at han er Mennesket og at jeg – tænk dig bare, – at jeg er hans Skygge!«</p>
+
+<p rend="firstIndent" xml:id="p_00074">»Det er frygteligt!« sagde Prindsessen, »han er dog spærret inde?«</p>
+<p rend="firstIndent" xml:id="p_00075">»Det er han! Jeg er bange han kommer sig aldrig.«</p>
+
+<p rend="firstIndent" xml:id="p_00076">»Stakkels Skygge!« sagde Prindsessen, »han er meget ulykkelig; det er en sand Velgjerning at frie ham fra den Smule Liv han har, og naar jeg rigtig tænker over det, saa troer jeg det bli<pb n="421"/>ver nødvendigt at det bliver gjort af med ham i al Stilhed!«</p>
+
+<p rend="firstIndent" xml:id="p_00077">»Det er rigtignok haardt!« sagde Skyggen, »for det var en tro Tjener!« og saa gav han ligesom et Suk.</p>
+
+<p rend="firstIndent" xml:id="p_00078">»De er en ædel Characteer!« sagde Kongedatteren.</p>
+
+<p rend="firstIndent" xml:id="p_00079">Om Aftenen var hele Byen <seg target="txtcmnt-421-01"><!--DATA-TERM: illumineret--><!--DATA-DEFINITION: oplyst (i festlig anledning).-->illumineret</seg>, og Kanonerne gik af: bum! og Soldaterne præsenterede Gevær. Det var et Bryllup! Kongedatteren og <hi rend="italic">Skyggen</hi> gik ud paa Altanen for at lade sig see og faae nok en Gang Hurra!</p>
+
+<img src="0085_HCA-1986-1-0095.jpg" ref="p_00080" title="Illustrator: Povl Christensen. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00080">Den lærde Mand hørte ikke noget til Alt det, for ham havde de taget Livet af. –</p>
+
+
+
+<pb n="422"/>
+
+<pb n="423"/><sourceTitle>Nye Eventyr</sourceTitle>
+<sourceTitle>Andet Bind. Anden Samling</sourceTitle><sourceDate>1848</sourceDate>
+
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Skyggen" xml:id="skyggen">
+<head type="section-comments">Skyggen</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr. Andet Bind. Første Samling</hi>, som udkom den 3. april 1847.<br/>
+BFN 520/II,129-140/VII,117-119.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">412,38</cell><cell type="deviation">derovre!« &lt; derover!«</cell></row>
+<row><cell type="position">414,14</cell><cell type="deviation">Mand, »hvad &lt; Mand,« hvad</cell></row>
+<row><cell type="position">414,30</cell><cell type="deviation">Mand. &lt; Mand,</cell></row>
+<row><cell type="position">415,27</cell><cell type="deviation">skinner! &lt; skinner;</cell></row>
+<row><cell type="position">417,19</cell><cell type="deviation">Reisen!« &lt; Reisen!</cell></row>
+<row><cell type="position">418,4</cell><cell type="deviation">saaledes ere blevne &lt; saaledes blevne</cell></row>
+<row><cell type="position">418,33</cell><cell type="deviation">kongelige &lt; kongelig</cell></row>
+<row><cell type="position">418,34</cell><cell type="deviation">»jeg &lt; »Jeg</cell></row>
+<row><cell type="position">419,24</cell><cell type="deviation">det Allervanskeligste &lt; de Allervanskeligste</cell></row>
+<row><cell type="position">419,37</cell><cell type="deviation">Menneske.« &lt; Menneske«</cell></row>
+<row><cell type="position">420,26</cell><cell type="deviation">»og du &lt; og du</cell></row>
+<row><cell type="position">420,34</cell><cell type="deviation">ud! &lt; ud;</cell></row>
+<row><cell type="position">420,38</cell><cell type="deviation">han! &lt; han?</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">411</cell><row xml:id="txtcmnt-411-01"><cell type="data-term">vant</cell><cell type="data-definition">vænnet.</cell></row><row xml:id="txtcmnt-411-02"><cell type="data-term">bleve lukkede</cell><cell type="data-definition">forblev lukkede.</cell></row><row xml:id="txtcmnt-411-03"><cell type="data-term">mahogni</cell><cell type="data-definition">(mahogni)brune, mørklødede.</cell></row><row xml:id="txtcmnt-411-04"><cell type="data-term">Troldkjællinger</cell><cell type="data-definition">fyrværkeri.</cell></row>
+<cell type="page">412</cell><row xml:id="txtcmnt-412-01"><cell type="data-term">faaer det dog ud</cell><cell type="data-definition">finder dog ud af det.</cell></row>
+<cell type="page">413</cell><row xml:id="txtcmnt-413-01"><cell type="data-term">der var en Historie til … Skygge</cell><cell type="data-definition">hentydning til Adalbert von Chamissos (1781-1838) <hi rend="italic">Peter Schlemihls wundersame Geschichte</hi>, 1814, om Peter Schlemihl, der sælger sin skygge til Djævelen for at komme i besiddelse af Fortunatus’ pung.</cell></row><row xml:id="txtcmnt-413-02"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row>
+<cell type="page">414</cell><row xml:id="txtcmnt-414-01"><cell type="data-term">Signet(er)</cell><cell type="data-definition">segl, lille graveret stempel, hvormed man trykker sit navnetræk eller våben i lak og dermed forsegler et brev eller dokument.</cell></row><row xml:id="txtcmnt-414-02"><cell type="data-term">at see Dem før de døer</cell><cell type="data-definition">her og andre steder i teksten veksles der mellem de/dem og det korrekte De/Dem i tiltaleform.</cell></row><row xml:id="txtcmnt-414-03"><cell type="data-term">føde</cell><cell type="data-definition">ernære.</cell></row>
+<cell type="page">415</cell><row xml:id="txtcmnt-415-01"><cell type="data-term">Hat der kunde smække sammen</cell><cell type="data-definition">chapeau claque.</cell></row><row xml:id="txtcmnt-415-02"><cell type="data-term">Eremit</cell><cell type="data-definition">eneboer; i tiden opfattet som en romantisk skikkelse, der lever uden for det civiliserede samfund.</cell></row>
+<cell type="page">416</cell><row xml:id="txtcmnt-416-01"><cell type="data-term">tog Vei</cell><cell type="data-definition">søgte mod.</cell></row><row xml:id="txtcmnt-416-02"><cell type="data-term">nedrig</cell><cell type="data-definition">(moralsk) lav, modbydelig.</cell></row>
+<cell type="page">417</cell><row xml:id="txtcmnt-417-01"><cell type="data-term">Myntmester(en)</cell><cell type="data-definition">embedsmand, der forestår fremstilling <pb n="533"/>af mønter.</cell></row><row xml:id="txtcmnt-417-02"><cell type="data-term">vel vidt</cell><cell type="data-definition">lige lovlig vidt.</cell></row><row xml:id="txtcmnt-417-03"><cell type="data-term">Bad</cell><cell type="data-definition">kurbad.</cell></row>
+<cell type="page">418</cell><row xml:id="txtcmnt-418-01"><cell type="data-term">ængsteligt</cell><cell type="data-definition">ængstende, foruroligende.</cell></row><row xml:id="txtcmnt-418-02"><cell type="data-term">Liberi(et)</cell><cell type="data-definition">dragt, der bæres af tjenere i fornemme huse.</cell></row>
+<cell type="page">419</cell><row xml:id="txtcmnt-419-01"><cell type="data-term">det første</cell><cell type="data-definition">det bedste.</cell></row><row xml:id="txtcmnt-419-02"><cell type="data-term">forliebt</cell><cell type="data-definition">forelsket.</cell></row><row xml:id="txtcmnt-419-03"><cell type="data-term">færdig</cell><cell type="data-definition">på nippet til, nær ved.</cell></row><row xml:id="txtcmnt-419-04"><cell type="data-term">Hvad det maa være</cell><cell type="data-definition">hvad må det ikke være.</cell></row>
+<cell type="page">420</cell><row xml:id="txtcmnt-420-01"><cell type="data-term">jeg gifter</cell><cell type="data-definition">jeg gifter mig med.</cell></row>
+<cell type="page">421</cell><row xml:id="txtcmnt-421-01"><cell type="data-term">illumineret</cell><cell type="data-definition">oplyst (i festlig anledning).</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

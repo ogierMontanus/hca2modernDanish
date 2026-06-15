@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>A Leaf from Heaven</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="et-blad-fra-himlen">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="et-blad-fra-himlen_modern.xml">moderniseret version</note>
+                                                       <note target="115_A-Leaf-from-Heaven.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>High up in the clear upper air an angel flew with a flower from Heaven’s Garden,...</incipit><idno type="image">Et_Blad_fra_Himlen_01_2022-03-09.png</idno><popularity>906</popularity><cite>&lt;p&gt;Hans Christian Andersen: A Leaf from Heaven. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>tro</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-09-09" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-09-09" who="NHB">formatted</change><change who="NHB" when="2022-09-09">adjustments of quotation marks</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="A Leaf from Heaven">
+               <head type="main" rend="A Leaf from Heaven">A Leaf from Heaven</head>                <p rend="noIndent" xml:id="p_00001">High up in the clear upper air an angel flew with a flower from Heaven’s Garden, and as he pressed his lips to the flower in a kiss, a tiny leaf broke off it and fell down onto miry soil in the middle of a forest, and immediately it took root and started to sprout among all the other plants.</p>
+               <p rend="firstIndent" xml:id="p_00002">‘That’s a ridiculous shoot, that one!’ they said, and none of them would have anything to do with it, neither the thistle nor the nettle.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘It’s some sort of garden plant!’ they said and laughed at it, and so it was scoffed at as being a garden plant; but it grew and grew, like no other one, and spread its branches far and wide in long vines.</p>
+               <p rend="firstIndent" xml:id="p_00004">‘Where are you off to!’ said the tall thistles, which had thorns on every single leaf, ‘you’re shooting off all over the place! That won’t do at all! we can’t possibly support you!’</p>
+               <p rend="firstIndent" xml:id="p_00005">The winter came, the snow lay over the plant, but the covering of snow gained a gleam from it as if made translucent by sunlight from below. When spring came, a blooming plant stood there, more beautiful than any other in the forest.</p>
+               <p rend="firstIndent" xml:id="p_00006">Then along came a professor of botany who had an official personal record book to prove he was what he was, he examined the plant, tested it with his teeth, but it wasn’t anywhere in his botanical system; it was impossible for him to determine what class of species it belonged to.</p>
+               <p rend="firstIndent" xml:id="p_00007">‘It’s some sort of anomaly!’ he said. – ‘I don’t know it, it’s not included in the system!’</p>
+               <p rend="firstIndent" xml:id="p_00008">‘Not included in the system!’ the thistles and nettles said.</p>
+               <p rend="firstIndent" xml:id="p_00009">The large trees close by heard what was said, and they too could see that it wasn’t a tree of their kind, but they didn’t say anything, either good or bad, and that’s always the safest thing when one is dumb.</p>
+               <p rend="firstIndent" xml:id="p_00010">Through the forest a poor, innocent girl now came; her heart was pure, her intelligence great through faith, her entire inheritance in this world was an old bible, but from the leaves of this book God’s voice spoke to her: If people wish you ill, remember the story of <hi rend="italic">Joseph</hi>: ‘Ye thought evil against me, but God meant it unto good.’ If you suffer injustice and are mocked, recall him who was the purest and best, he who was derided and nailed to the cross, where he prayed, ‘Father, forgive them, for they know not what they do!’</p>
+               <p rend="firstIndent" xml:id="p_00011">She stopped in front of the wonderful plant, whose green leaves smelled so sweet and refreshing and whose flowers seemed in the bright sunlight to be an explosion of different colours; and a sound came from each one, as if it concealed the deep well of melodies that has not been exhausted over thousands of years. With pious devotion she gazed on all this divine magnificence; she pulled down one of the branches so as to view the flower more closely and breathe in its fragrance, and it illuminated her mind and did her heart good; she would dearly have liked to own a flower from it, but she couldn’t bring herself to break it off, for then it would soon wither; and so she only took a single one of the green leaves, carried it home with her and placed it in her bible, where it lay fresh, forever fresh and incapable of withering.</p>
+               <p rend="firstIndent" xml:id="p_00012">Among the leaves of the bible it lay hidden; with the bible it was placed under the young girl’s head when weeks later she lay in her coffin, with the holy seriousness of death on her pious face, as if it showed itself in the earthly dust that she now stood before her God.</p>
+               <p rend="firstIndent" xml:id="p_00013">But out in the forest the marvellous plant bloomed, soon it had the appearance of a tree, and all the migrating birds came and bowed down to it, particularly the swallow and the stork.</p>
+               <p rend="firstIndent" xml:id="p_00014">‘It’s foreign affectation!’ the thistle and the burdock said, ‘here where we live we can’t possibly behave like that!’</p>
+               <p rend="firstIndent" xml:id="p_00015">And the black slugs spat on the tree.</p>
+               <p rend="firstIndent" xml:id="p_00016">Then the swineherd came along, he jerked up thistles and shoots so as to burn ashes of all the green vegetation; the whole wonderful tree, pulled up by all its roots, was also included in his sheaf; ‘that’ll do some good too,’ he said, and no sooner said than done.</p>
+               <p rend="firstIndent" xml:id="p_00017">But for more than a year and a day the king of the country suffered from extreme melancholy; he was diligent and hard-working, but it did no good; profound treatises were read aloud to him as well as the very lightest literature that could be found, but it did no good. Then there came a message from one of the wisest men in the world; people had approached him and he had informed them that there was a sure way to soothe and cure the sufferer. ‘In the king’s own realm there grows in the forest a plant of divine origin, such and such it looks like, there’s no mistaking it’, and a drawing had been included of the plant, it was easy to recognise! – ‘It is green both winter and summer, so every evening take a fresh leaf from it and place it on the king’s forehead, then his thoughts will lighten and a lovely dream at night will strengthen him for the day that lies ahead!’</p>
+               <p rend="firstIndent" xml:id="p_00018">Now that was clear enough, so all doctors and botanical professors set out into the forest. – Yes, but where was the plant?</p>
+               <p rend="firstIndent" xml:id="p_00019">‘I had it somewhere in my sheaf!’ the swineherd said, ‘it must have become ashes long ago, but I didn’t know any better!’</p>
+               <p rend="firstIndent" xml:id="p_00020">‘Didn’t know any better!’ they all said. ‘Ignorance! Ignorance! how great you are!’ and those words the swineherd could take to heart, he and nobody else, they felt.</p>
+               <p rend="firstIndent" xml:id="p_00021">There was not a leaf to be found, the only one lay in the coffin of the dead girl, and no one knew about it.</p>
+               <p rend="firstIndent" xml:id="p_00022">And the king himself came in all his misery out to the place in the forest. ‘This is where the tree has stood!’ he said, ‘it is a holy place!’ –</p>
+               <p rend="firstIndent" xml:id="p_00023">And the plot of land was fenced in with golden railings and a sentry was posted there, both day and night.</p>
+               <p rend="firstIndent" xml:id="p_00024">The botanical professor wrote a thesis about the divine plant, and therefore he was gilded, which gave him great pleasure; and it adorned both him and his family well, which is the most positive thing about the whole story, for the plant was gone and the king was miserable and sad – ‘but he was already that in advance!’ the sentry said.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

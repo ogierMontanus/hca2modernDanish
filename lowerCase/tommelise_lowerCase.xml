@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?>
+<?xml-stylesheet type="text/css" href="oxyAuthorEditMinimumHCA.css"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="../css/sv18.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tommelise</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+                                                             
+      <p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Andet Hefte, som udkom den 16. december 1835. BFN 277/I,53-63/VII,30-32.</p>    
+      </bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when=""/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="tommelise.xml" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1835</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc>
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Tommelise" xml:id="tommelise">
+<pb n="111"/><head type="main">Tommelise</head>
+
+<p rend="noIndent" xml:id="p_00001">der var engang en kone, som så gerne vilde have sig et lille bitte barn, men hun vidste slet ikke, hvor hun skulde få et fra; så gik hun hen til en gammel heks og sagde til hende: »jeg vilde så inderlig gerne have et lille barn, vil du ikke sige mig, hvor jeg dog skal få et fra?«</p>
+
+<p rend="firstIndent" xml:id="p_00002">»jo, det skal vi nok komme ud af!« sagde heksen. »der har du et bygkorn, det er slet ikke af den slags, som gror på bondemandens mark, eller som hønsene få at spise, læg det i en urtepotte, så skal du få noget at se!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»tak skal du have!« sagde konen og gav heksen tolv skilling, gik så hjem, plantede bygkornet, og straks voksede der en dejlig stor blomst op, den så ganske ud, som en tulipan, men bladene lukkede sig tæt sammen, ligesom om den endnu var i knop.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»det er en nydelig blomst!« sagde konen, og kyssede den på de smukke røde og gule blade, men lige i det hun kyssede, gav blomsten et stort knald, og åbnede sig. det var en virkelig tulipan, kunde man nu se, men midt inde i blomsten, på den grønne stol, sad der en lille bitte pige, så fin og nydelig, hun var <seg target="txtcmnt-111-01"><!--DATA-TERM: ikke uden--><!--DATA-DEFINITION: kun.-->ikke uden</seg> en tomme lang, og derfor kaldtes hun Tommelise.</p>
+
+<p rend="firstIndent" xml:id="p_00005">en nydelig lakeret valdnødskal fik hun til vugge, blå violblade var hendes madrasser og et rosenblad hendes Overdyne; der sov hun om natten, men om dagen legede hun på bordet, hvor konen havde sat en tallerken, som hun havde lagt en hel krans om med blomster, der stak deres stilke ned i vandet; her flød et stort tulipanblad, og på dette måtte Tommelise sidde og sejle fra den ene side af tallerkenen til den anden; hun havde to hvide hestehår at ro med. det så just dejligt ud. hun kunde også synge, o så fint og nydeligt, som man aldrig her havde hørt. –</p>
+
+<p rend="firstIndent" xml:id="p_00006">en nat, som hun lå i sin smukke seng, kom der en hæslig skrubtudse hoppende ind af vinduet; der var en rude itu. skrubtudsen var så styg, stor og våd, den hoppede lige ned <pb n="112"/>på bordet, hvor Tommelise lå og sov under det røde rosenblad.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»det var en dejlig kone til min søn!« sagde skrubtudsen, og så tog hun fat i valdnødskallen, hvor Tommelise sov, og hoppede bort med hende gennem ruden, ned i haven.</p>
+
+<p rend="firstIndent" xml:id="p_00008">der løb en stor, bred å; men lige ved bredden var det sumpet og mudret; her boede skrubtudsen med sin søn. uh! han var <seg target="txtcmnt-112-01"><!--DATA-TERM: og saa styg--><!--DATA-DEFINITION: også så styg.-->og så styg</seg> og fæl, lignede ganske sin moder: »<seg target="txtcmnt-112-02"><!--DATA-TERM: Koax, koax, brekke-ke-kex--><!--DATA-DEFINITION: imitation af frøers eller tudsers kvækken; hentydning til Aristofanes’ (ca. 450-ca.385 f.Kr.) komedie <i>Frøerne</i>, v. 209 ff.-->koax, koax, brekke-ke-kex</seg>!« det var alt hvad han kunde sige, da han så den nydelige lille pige i valdnødskallen.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»snak ikke så højt, for ellers vågner hun!« sagde den gamle skrubtudse, »hun kunde endnu løbe fra os, for hun er så let, som et Svanedun! vi ville sætte hende ud i åen på et af de brede åkandeblade, det er for hende, der er så let og lille, ligesom en ø! der kan hun ikke løbe bort, mens vi gøre stadsestuen istand nede under mudderet, hvor I skulle bo og bygge!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">ude i åen voksede der så mange åkander med de brede grønne blade, der se ud som de flyde oven på vandet; det blad, som var længst ude, var også det allerstørste; der svømmede den gamle skrubtudse ud og satte valdnødskallen med Tommelise.</p>
+
+<p rend="firstIndent" xml:id="p_00011">den lillebitte stakkel vågnede ganske tidlig om morgenen, og da hun så, hvor hun var, begyndte hun så bitterligt at græde, for der var vand på alle sider af det store grønne blad, hun kunde slet ikke komme i land.</p>
+
+<p rend="firstIndent" xml:id="p_00012">den gamle skrubtudse sad nede i mudderet og pyntede sin stue op med siv og <seg target="txtcmnt-112-03"><!--DATA-TERM: gule Aaknappe--><!--DATA-DEFINITION: gule åkander.-->gule åknappe</seg>, – der skulde være rigtigt net for den nye svigerdatter, – svømmede så med den stygge søn ud til bladet, hvor Tommelise stod, de vilde hente hendes pæne seng, den skulde sættes op i brudekammeret, før hun selv kom der. den gamle skrubtudse nejede så dybt i vandet for hende og sagde: »her skal du se min søn, han skal være din mand, og I skal bo så dejligt nede i mudderet!«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»koax, koax! brekkekekex!« det var alt, hvad sønnen kunde sige.</p>
+
+<p rend="firstIndent" xml:id="p_00014">så tog de den nydelige lille seng og svømmede bort med den, men Tommelise sad ganske alene og græd på det grønne blad, for hun vilde ikke bo hos den fæle skrubtudse eller have hendes hæslige søn til sin mand. De små fiske, som svømmede nede i vandet, havde nok set skrubtudsen og hørt hvad hun sagde, derfor stak de hovederne op, de vilde dog se den <pb n="113"/>lille pige. så snart de fik hende at se, fandt de hende så nydelig, og det gjorde dem så ondt, at hun skulde ned til den stygge skrubtudse. nej, det skulde aldrig ske. De flokkede sig nede i vandet rundt om den grønne stilk, der holdt bladet, hun stod på, gnavede med tænderne stilken over, og så flød bladet ned af åen, bort med Tommelise, langtbort, hvor skrubtudsen ikke kunde komme.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Tommelise sejlede forbi så mange stæder, og de små fugle sad i buskene, så hende og sang »hvilken nydelig lille jomfrue!« bladet med hende svømmede længere og længere bort; således rejste Tommelise udenlands.</p>
+
+<p rend="firstIndent" xml:id="p_00016">en nydelig lille hvid sommerfugl blev ved at flyve rundt omkring hende, og satte sig til sidst ned på bladet, for den kunde så godt lide Tommelise, og hun var så fornøjet, for nu kunde skrubtudsen ikke nå hende og der var så dejligt, hvor hun sejlede; solen skinnede på vandet, det var ligesom det dejligste guld. så tog hun sit <seg target="txtcmnt-113-01"><!--DATA-TERM: Livbaand--><!--DATA-DEFINITION: stofbælte.-->livbaand</seg>, bandt den ene ende om sommerfuglen, den anden ende af båndet satte hun fast i bladet; det gled da meget hurtigere af sted og hun med, for hun stod jo på bladet.</p>
+
+<p rend="firstIndent" xml:id="p_00017">I det samme kom der en stor oldenborre flyvende, den fik hende at se og <seg target="txtcmnt-113-02"><!--DATA-TERM: i Øieblikket--><!--DATA-DEFINITION: øjeblikkelig, straks. -->i øjeblikket</seg> slog den sin klo om hendes smækre liv og fløj op i træet med hende, men det grønne blad svømmede ned af åen og sommerfuglen fløj med, for han var bundet til bladet og kunde ikke komme løs.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Gud, hvor den stakkels Tommelise blev forskrækket, da oldenborren fløj op i træet med hende, men hun var dog allermest bedrøvet for den smukke, hvide sommerfugl, hun havde bundet fast til bladet; dersom han nu ikke kunde komme løs, måtte han jo sulte ihjel. men det <seg target="txtcmnt-113-03"><!--DATA-TERM: brød … sig ikke noget om--><!--DATA-DEFINITION: var ligeglad med.-->brød oldenborren sig ikke noget om</seg>. den satte sig med hende på det største, grønne blad i træet, gav hende det søde af blomsterne at spise og sagde, at hun var så nydelig, skønt hun slet ikke lignede en oldenborre. siden kom alle de andre oldenborrer, der boede i træet, og gjorde visit; de så på Tommelise, og frøken-oldenborrerne trak på følehornene og sagde: »hun har dog ikke mere end to ben, det ser ynkeligt ud.« »hun har ingen følehorn!« sagde den anden. »hun er så <seg target="txtcmnt-113-04"><!--DATA-TERM: smækker i Livet--><!--DATA-DEFINITION: med slank talje.-->smækker i livet</seg>, fy! hun ser ud ligesom et menneske! hvor hun er styg!« sagde alle hun-oldenborrerne, og så var Tommelise dog så nydelig; det syntes også den oldenborre, som havde taget hende, men da alle de andre sagde, hun var hæslig, så troede han det til<pb n="114"/>sidst også og vilde slet ikke have hende; hun kunde gå, <seg target="txtcmnt-114-01"><!--DATA-TERM: hvor hun vilde--><!--DATA-DEFINITION: hvorhen hun ville.-->hvor hun vilde</seg>. De fløj ned af træet med hende og satte hende på en <seg target="txtcmnt-114-02"><!--DATA-TERM: Gaaseurt--><!--DATA-DEFINITION: tusindfryd, bellis.-->gaaseurt</seg>; der græd hun, fordi hun var så styg, at oldenborrerne ikke vilde have hende, og så var hun dog den dejligste, man kunde tænke sig, så fin og <seg target="txtcmnt-114-03"><!--DATA-TERM: klar--><!--DATA-DEFINITION: strålende, lysende, næsten gennemsigtig.-->klar</seg> som det skønneste rosenblad.</p>
+
+<p rend="firstIndent" xml:id="p_00019">hele sommeren igennem levede den stakkels Tommelise ganske alene i den store skov. hun flettede sig en seng af græsstrå og hang den under et stort skræppeblad, så kunde det ikke regne på hende; hun pillede det søde af blomsterne og spiste, og drak af duggen, der hver morgen stod på bladene; således gik sommer og efterår, men nu kom vinteren, den kolde, lange vinter. alle fuglene, der havde sunget så smukt for hende, fløj deres vej, træerne og blomsterne visnede, det store skræppeblad, hun havde boet under, rullede sammen og blev kun en gul, vissen stilk, og hun frøs så forskrækkeligt, for hendes klæder var itu og hun var selv så fin og lille, den stakkels Tommelise, hun måtte fryse ihjel. det begyndte at sne og hver snefnug, der faldt på hende, var, som når man kaster en hel <seg target="txtcmnt-114-04"><!--DATA-TERM: Skuffe--><!--DATA-DEFINITION: dyb, bredbladet skovl.-->skuffe</seg> fuld på os, thi vi er store og hun var kun en tomme lang. så svøbte hun sig ind i et vissent blad, men det vilde ikke varme, hun rystede af kulde.</p>
+
+<p rend="firstIndent" xml:id="p_00020">tæt udenfor skoven, hvor hun nu var kommet, lå en stor kornmark, men kornet var forlænge siden borte, kun de nøgne, tørre stubbe stod op af den frosne jord. De var ligesom en hel skov for hende at gå imellem, o, hun rystede sådan af kulde. så kom hun til markmusens dør. den var et lille hul inde under korn-stubbene. der boede markmusen lunt og godt, havde hele stuen fuld af korn, et dejligt køkken og spisekammer. den stakkels Tommelise stillede sig indenfor døren, ligesom en anden fattig tiggerpige og bad om et lille stykke af et bygkorn, for hun havde i to dage ikke fået det mindste at spise.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»din lille stakkel!« sagde markmusen, for det var i grunden en god gammel markmus, »kom du ind i min varme stue og spis med mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">da hun nu syntes godt om Tommelise, sagde hun: »du kan gerne blive hos mig i vinter, men du skal holde min stue pæn ren og fortælle mig historier, for dem holder jeg meget af,« og Tommelise gjorde, hvad den gode, gamle markmus forlangte og havde det da grumme godt.</p>
+
+<pb n="115"/><p rend="firstIndent" xml:id="p_00023">»nu få vi nok snart besøg!« sagde markmusen, »min nabo plejer hver ugesdag at besøge mig. han <seg target="txtcmnt-115-01"><!--DATA-TERM: sidder bedre … inden Vægge--><!--DATA-DEFINITION: talemåde: sidder bedre i det, er mere velstående.-->sidder bedre endnu inden vægge</seg>, end jeg; har store sale og går med sådan en dejlig, sort fløjlspels! bare du kunde få ham til mand, så var du godt forsørget; men han kan ikke se. du må fortælle ham de nydeligste historier, du ved!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">men det brød Tommelise sig ikke om, hun vilde slet ikke have naboen, for han var en muldvarp. han kom og gjorde visit i sin sorte fløjlspels, han var så rig og så lærd, sagde markmusen, hans huslejlighed var også over tyve gange større, end markmusens, og lærdom havde han, men solen og de smukke blomster kunde han slet ikke lide, dem snakkede han ondt om, for han havde aldrig set dem. Tommelise måtte synge og hun sang både »<seg target="txtcmnt-115-02"><!--DATA-TERM: Oldenborre flyv, flyv--><!--DATA-DEFINITION: gængs børneremse, jf. Tang 3001-3002.-->oldenborre flyv, flyv</seg>!« og »<seg target="txtcmnt-115-03"><!--DATA-TERM: Munken gaaer i Enge--><!--DATA-DEFINITION: gammel sangleg, jf. Tang 2210-2216.-->munken går i enge</seg>,« så blev muldvarpen <seg target="txtcmnt-115-04"><!--DATA-TERM: forliebt--><!--DATA-DEFINITION: forelsket.-->forliebt</seg> i hende, for den smukke stemmes skyld, men han sagde ikke noget, han var sådan en sindig mand. –</p>
+
+<p rend="firstIndent" xml:id="p_00025">han havde nylig gravet sig en lang gang gennem jorden fra sit til deres hus, i den fik markmusen og Tommelise lov til at spadsere, når de vilde. men han bad dem ikke blive bange for den døde fugl, som lå i gangen; det var en hel fugl med fjer og næb, der vist var død for ganske nylig, da vinteren begyndte, og nu gravet ned, just hvor han havde gjort sin gang.</p>
+
+<p rend="firstIndent" xml:id="p_00026">muldvarpen tog et stykke <seg target="txtcmnt-115-05"><!--DATA-TERM: Trøske--><!--DATA-DEFINITION: råddent træ, der kan virke selvlysende på grund af svampeangreb.-->trøske</seg> i munden, for det skinner jo ligesom ild i mørke, og gik så foran og lyste for dem i den lange, mørke gang; da de så kom, hvor den døde fugl lå, satte muldvarpen sin brede næse mod loftet og stødte jorden op, så der blev et stort hul, som lyset kunde skinne ned igennem. midt på gulvet lå en død svale, med de smukke vinger trykkede fast ind om siderne, benene og hovedet trukne ind under <seg target="txtcmnt-115-06"><!--DATA-TERM: Fjedrene--><!--DATA-DEFINITION: fjerene.-->fjedrene</seg>; den stakkels fugl var bestemt død af kulde. det gjorde Tommelise så ondt for den, hun holdt så meget af alle de små fugle, de havde jo hele sommeren sunget og kvidret så smukt for hende, men muldvarpen stødte til den med sine korte ben og sagde: »nu piber den ikke mer! det må være ynkeligt at blive født til en lille fugl! Gud ske lov, at ingen af mine børn blive det; sådan en fugl har jo ingenting uden sit quivit og må sulte ihjel til vinteren!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»ja, det må I, som en fornuftig mand, nok sige,« sagde markmusen. »hvad har fuglen for al sit quivit, når vinteren kommer? den må sulte og fryse; men det skal vel også være så stort!«</p>
+
+<pb n="116"/><p rend="firstIndent" xml:id="p_00028">Tommelise sagde ikke noget, men da de to andre vendte ryggen til fuglen, bøjede hun sig ned, skød fjedrene til side, der lå over dens hoved, og kyssede den på de lukkede øjne. »måske var det den, som sang så smukt for mig i sommer,« tænkte hun, »hvor den skaffede mig megen glæde, den kære, smukke fugl!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">muldvarpen stoppede nu hullet til, som dagen skinnede igennem, og fulgte så damerne hjem. men om natten kunde Tommelise slet ikke sove, så stod hun op af sin seng og flettede af hø et stort smukt tæppe, og det bar hun ned og bredte rundt om den døde fugl, lagde blød bomuld, hun havde fundet i markmusens stue, på siderne af fuglen, for at den kunde ligge varmt i den kolde jord.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»farvel du smukke lille fugl!« sagde hun, »farvel og tak for din dejlige sang i sommer, da alle træerne var grønne og solen skinnede så varmt på os!« så lagde hun sit hoved op til fuglens bryst, men blev i det samme ganske forskrækket, thi det var ligesom noget bankede der indenfor. det var fuglens hjerte. fuglen var ikke død, den lå i dvale, og var nu blevet opvarmet og fik liv igen.</p>
+
+<p rend="firstIndent" xml:id="p_00031">om efteråret så flyve alle svalerne bort til de varme lande, men er der én der forsinker sig, så fryser den således, at den falder ganske død ned, bliver liggende, hvor den falder, og den kolde sne lægger sig ovenover.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Tommelise rystede ordentligt, så forskrækket var hun blevet, for fuglen var jo en stor, stor en imod hende, der kun var en tomme lang, men hun tog dog mod til sig, lagde bomulden tættere om den stakkels svale, og hentede et krusemynteblad, hun selv havde haft til Overdyne, og lagde det over fuglens hoved.</p>
+
+<p rend="firstIndent" xml:id="p_00033">næste nat listede hun sig igen ned til den, og da var den ganske levende, men så mat, den kunde kun et lille øjeblik lukke sine øjne op og se Tommelise, der stod med et stykke trøske i hånden, for anden lygte havde hun ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»tak skal du have, du nydelige lille barn!« sagde den syge svale til hende, »jeg er blevet så dejlig opvarmet! snart får jeg mine kræfter og kan flyve igen, ude i det varme solskin!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»o!« sagde hun, »det er så koldt udenfor, det sner og fryser! bliv du i din varme seng, jeg skal nok pleje dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">hun bragte da svalen vand i et blomsterblad, og den drak og fortalte hende, hvorledes den havde revet sin ene vinge på en tornebusk og kunde derfor ikke flyve så stærkt, som de andre svaler, som da fløj bort, langt bort til de varme lande. den var <pb n="117"/>da til sidst faldet ned på jorden, men mere kunde den ikke huske, og vidste slet ikke, hvorledes den var kommet her.</p>
+
+<p rend="firstIndent" xml:id="p_00037">hele vinteren blev den nu hernede og Tommelise var god imod den og holdt så meget af den; hverken muldvarpen eller markmusen fik det mindste at vide derom, for de kunde jo ikke lide den stakkels fattige svale.</p>
+
+<p rend="firstIndent" xml:id="p_00038">så snart foråret kom og solen varmede ind i jorden, sagde svalen farvel til Tommelise, der åbnede hullet, som muldvarpen havde gjort ovenover. solen skinnede så dejligt ind til dem, og svalen spurgte, om hun ikke vilde følge med, hun kunde sidde på dens ryg, de vilde flyve langt ud i den grønne skov. men Tommelise vidste, det vilde bedrøve den gamle markmus, om hun således forlod hende.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»nej, jeg kan ikke!« sagde Tommelise. »farvel, farvel! du gode, nydelige pige!« sagde svalen og fløj ud i solskinnet. Tommelise så efter den, og vandet kom i hendes øjne, for hun holdt så meget af den stakkels svale.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»quivit! kvivit!« sang fuglen og fløj ind i den grønne skov. –</p>
+
+<p rend="firstIndent" xml:id="p_00041">Tommelise var så bedrøvet. hun fik slet ikke lov at komme ud i det varme solskin; kornet, der var sået på ageren, henover markmusens hus, voksede også højt op i vejret, det var en hel tyk skov for den stakkels lille pige, som jo kun var en tomme lang.</p>
+
+<p rend="firstIndent" xml:id="p_00042">»nu skal du i sommer sye på dit udstyr!« sagde markmusen til hende, for nu havde naboen, den kedelige muldvarp i den sorte fløjlspels, friet til hende. »du skal have både uldent og linned! du skal have at sidde og ligge på, når du bliver muldvarpens kone!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">Tommelise måtte spinde på <seg target="txtcmnt-117-01"><!--DATA-TERM: Haandteen--><!--DATA-DEFINITION: garnspole på spinderok.-->haandteen</seg>, og markmusen lejede fire edderkoppe til at spinde og væve nat og dag. hver aften gjorde muldvarpen visit og snakkede da altid om, at når sommeren fik ende, så skinnede solen ikke nær så varmt, den brændte jo nu jorden fast, som en sten; ja når sommeren var ude, så skulde brylluppet stå med Tommelise; men hun var slet ikke fornøjet, for hun holdt ikke noget af den kedelige muldvarp. hver morgen, når solen stod op, og hver aften, når den gik ned, listede hun sig ud i døren og når så vinden skilte toppene af kornet ad, så at hun kunde se den blå himmel, tænkte hun på, hvor lyst og smukt der var herude, og ønskede så meget, at hun igen måtte få den kære svale at se; men den kom aldrig mere, den fløj vist langt borte i den smukke grønne skov.</p>
+
+<pb n="118"/><p rend="firstIndent" xml:id="p_00044">da det nu blev efterår havde Tommelise hele sit udstyr færdigt.</p>
+
+<p rend="firstIndent" xml:id="p_00045">»om fire uger skal du have bryllup!« sagde markmusen til hende. men Tommelise græd og sagde, hun vilde ikke have den kedelige muldvarp.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»snik snak!« sagde markmusen, »gør dig ikke <seg target="txtcmnt-118-01"><!--DATA-TERM: obsternasig--><!--DATA-DEFINITION: genstridig, trodsig.-->obsternasig</seg>, for ellers skal jeg bide dig med min hvide tand! det er jo en dejlig mand, du får! hans sorte fløjlspels har dronningen selv ikke mage til! han <seg target="txtcmnt-118-02"><!--DATA-TERM: har baade i Kjøkken og Kjælder--><!--DATA-DEFINITION: er velstående.-->har både i køkken og kælder</seg>. tak du Gud for ham!«</p>
+
+<p rend="firstIndent" xml:id="p_00047">så skulde de have bryllup. muldvarpen var allerede kommet, for at hente Tommelise; hun skulde bo med ham, dybt nede under jorden, aldrig komme ud i den varme sol, for den kunde han ikke lide. det stakkels barn var så bedrøvet, hun skulde nu sige den smukke sol farvel, som hun dog hos markmusen havde fået lov at se på i døren.</p>
+
+<p rend="firstIndent" xml:id="p_00048">»farvel, du klare sol!« sagde hun og rakte armene højt op i vejret, gik også en lille smule udenfor markmusens hus; thi nu var kornet høstet, og her stod kun de tørre stubbe. »farvel, farvel!« sagde hun og slog sine små arme om en lille rød blomst, der stod. »hils den lille svale fra mig, dersom du får den at se!«</p>
+
+<p rend="firstIndent" xml:id="p_00049">»kvivit, kvivit!« sagde det i det samme over hendes hoved; hun så op, det var den lille svale, der just kom forbi. så snart den så Tommelise, blev den så fornøjet; hun fortalte den, hvor nødig hun vilde have den stygge muldvarp til mand, og at hun så skulde bo dybt under jorden, hvor aldrig solen skinnede. hun kunde ikke lade være at græde derved.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»nu kommer den kolde vinter,« sagde den lille svale, »jeg flyver langt bort til de varme lande, vil du følge med mig? du kan sidde på min ryg! bind dig kun fast med dit livbånd, så flyve vi bort fra den stygge muldvarp og hans mørke stue, langt bort over bjergene til de varme lande, hvor solen skinner smukkere end her, hvor der altid er sommer og dejlige blomster. flyv kun med mig, du søde lille Tommelise, som har reddet mit liv, da jeg lå forfrossen i den mørke jordkelder!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">»ja, jeg vil følge med dig!« sagde Tommelise, og satte sig op på fuglens ryg, med fødderne på dens udbredte vinge, bandt sit bælte fast i én af de stærkeste fjer og så fløj svalen højt op i luften, over skov og over sø, højt op over de store bjerge, hvor der altid ligger sne, og Tommelise frøs i den kolde luft, men så krøb hun ind under fuglens varme fjer og stak <pb n="119"/>kun det lille hoved frem for at se al den dejlighed under sig.</p>
+
+<p rend="firstIndent" xml:id="p_00052">så kom de til de varme lande. der skinnede solen meget klarere end her, himlen var to gange så høj og på <seg target="txtcmnt-119-01"><!--DATA-TERM: Grøfter--><!--DATA-DEFINITION: diger, jordvolde.-->grøfter</seg> og gærder voksede de dejligste grønne og blå vindruer. I skovene hang citroner og appelsiner, her duftede af myrther og krusemynter, og på landevejen løb de nydeligste børn og legede med store brogede sommerfugle. men svalen fløj endnu længere bort, og det blev smukkere og smukkere. under de dejligste grønne træer ved den blå sø, stod et skinnende hvidt marmorslot, fra de gamle tider, vinrankerne snoede sig op om de høje piller; der øverst oppe var mange svalereder, og i en af disse boede svalen, som bar Tommelise. –</p>
+
+<p rend="firstIndent" xml:id="p_00053">»her er mit hus!« sagde svalen; »men vil du nu selv søge dig én af de prægtige blomster ud, som gro dernede, så skal jeg sætte dig der og du skal få det så nydeligt, du vil ønske det!«</p>
+
+<p rend="firstIndent" xml:id="p_00054">»det var dejligt!« sagde hun, og klappede med de små hænder.</p>
+
+<p rend="firstIndent" xml:id="p_00055">der lå en stor hvid marmorsøjle, som var faldet om på jorden og knækket i tre stykker, men mellem disse voksede de smukkeste store hvide blomster. svalen fløj ned med Tommelise og satte hende på et af de brede blade; men hvor forundret blev hun ikke! der sad en lille mand midt i blomsten, så hvid og gennemsigtig, som han var af glas; den nydeligste guldkrone havde han på hovedet og de dejligste klare vinger på skuldrene, selv var han ikke større end Tommelise. han var <seg target="txtcmnt-119-02"><!--DATA-TERM: Blomstens Engel--><!--DATA-DEFINITION: blomsteralfen.-->blomstens engel</seg>. I hver blomst boede der sådan en lille mand eller kone, men denne var konge over dem allesammen.</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Gud, hvor han er smuk!« hviskede Tommelise til svalen. den lille prins blev så forskrækket for svalen, thi den var jo en hel kæmpefugl imod ham, der var så lille og fin, men da han så Tommelise, blev han så glad, hun var den allersmukkeste pige, han endnu havde set. derfor tog han sin guldkrone af sit hoved og satte på hendes, spurgte, hvad hun hed og om hun vilde være hans kone, så skulde hun blive dronning over alle blomsterne! ja det var rigtignok en mand, anderledes, end skrubtudsens søn og muldvarpen med den sorte fløjlspels. hun sagde derfor ja til den dejlige prins og fra hver blomst kom en dame eller herre, så nydelig, det var en lyst, hver bragte Tommelise en <seg target="txtcmnt-119-03"><!--DATA-TERM: Present--><!--DATA-DEFINITION: gave.-->present</seg>, men den bedste af alle var et par smukke vinger af en stor hvid flue; de blev hæftede på Tommelises ryg og så kunde hun også flyve fra<pb n="120"/>blomst til blomst; der var sådan en glæde og den lille svale sad oppe i sin rede og sang for dem, så godt den kunde, men i hjertet var den dog bedrøvet, for den holdt så meget af Tommelise og vilde aldrig have været skilt fra hende.</p>
+
+<p rend="firstIndent" xml:id="p_00057">»du skal ikke hedde Tommelise!« sagde blomstens engel til hende, »det er et stygt navn, og du er så smuk. vi ville kalde dig Maja!«</p>
+
+<p rend="firstIndent" xml:id="p_00058">»farvel! farvel!« sagde den lille svale, og fløj igen bort fra de varme lande, langt bort tilbage til Danmark; der havde den en lille rede over vinduet, hvor manden bor, som kan fortælle eventyr, for ham sang den »quivit, quivit!« derfra have vi hele historien.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   <div type="work-comments" rend="Tommelise" xml:id="tommelise">
+<head type="section-comments">Tommelise</head>
+
+<p rend="noIndent">Trykt første gang i Eventyr, fortalte for Børn. Andet Hefte, som udkom den 16. december 1835. BFN 277/I,53-63/VII,30-32.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">113,37</cell><cell type="deviation">ud.« &lt; ud.</cell></row>
+<row><cell type="position">113,37</cell><cell type="deviation">»Hun har &lt; Hun har</cell></row>
+<row><cell type="position">113,39</cell><cell type="deviation">styg!« &lt; styg!</cell></row>
+<row><cell type="position">114,40</cell><cell type="deviation">af,« &lt; af,</cell></row>
+<row><cell type="position">116,4</cell><cell type="deviation">»Måske &lt; Måske</cell></row>
+<row><cell type="position">118,36</cell><cell type="deviation">Jordkelder!« &lt; Jordkelder!</cell></row>
+<row><cell type="position">120,6</cell><cell type="deviation">»det &lt; det</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">111</cell><row xml:id="txtcmnt-111-01"><cell type="data-term">ikke uden</cell><cell type="data-definition">kun.</cell></row>
+<cell type="page">112</cell><row xml:id="txtcmnt-112-01"><cell type="data-term">og så styg</cell><cell type="data-definition">også så styg.</cell></row><row xml:id="txtcmnt-112-02"><cell type="data-term">Koax, koax, brekke-ke-kex</cell><cell type="data-definition">imitation af frøers eller tudsers kvækken; hentydning til Aristofanes’ (ca. 450-ca.385 f.Kr.) komedie Frøerne, v. 209 ff.</cell></row><row xml:id="txtcmnt-112-03"><cell type="data-term">gule Aaknappe</cell><cell type="data-definition">gule åkander.</cell></row>
+<cell type="page">113</cell><row xml:id="txtcmnt-113-01"><cell type="data-term">Livbaand</cell><cell type="data-definition">stofbælte.</cell></row><row xml:id="txtcmnt-113-02"><cell type="data-term">i Øieblikket</cell><cell type="data-definition">øjeblikkelig, straks. </cell></row><row xml:id="txtcmnt-113-03"><cell type="data-term">brød … sig ikke noget om</cell><cell type="data-definition">var ligeglad med.</cell></row><row xml:id="txtcmnt-113-04"><cell type="data-term">smækker i Livet</cell><cell type="data-definition">med slank talje.</cell></row>
+<cell type="page">114</cell><row xml:id="txtcmnt-114-01"><cell type="data-term">hvor hun vilde</cell><cell type="data-definition">hvorhen hun ville.</cell></row><row xml:id="txtcmnt-114-02"><cell type="data-term">Gaaseurt</cell><cell type="data-definition">tusindfryd, bellis.</cell></row><row xml:id="txtcmnt-114-03"><cell type="data-term">klar</cell><cell type="data-definition">strålende, lysende, næsten gennemsigtig.</cell></row><row xml:id="txtcmnt-114-04"><cell type="data-term">Skuffe</cell><cell type="data-definition">dyb, bredbladet skovl.</cell></row>
+<cell type="page">115</cell><row xml:id="txtcmnt-115-01"><cell type="data-term">sidder bedre … inden Vægge</cell><cell type="data-definition">talemåde: sidder bedre i det, er mere velstående.</cell></row><row xml:id="txtcmnt-115-02"><cell type="data-term">Oldenborre flyv, flyv</cell><cell type="data-definition">gængs børneremse, jf. Tang 3001-3002.</cell></row><row xml:id="txtcmnt-115-03"><cell type="data-term">Munken går i Enge</cell><cell type="data-definition">gammel sangleg, jf. Tang 2210-2216.</cell></row><row xml:id="txtcmnt-115-04"><cell type="data-term">forliebt</cell><cell type="data-definition">forelsket.</cell></row><row xml:id="txtcmnt-115-05"><cell type="data-term">Trøske</cell><cell type="data-definition">råddent træ, der kan virke selvlysende på grund af svampeangreb.</cell></row><row xml:id="txtcmnt-115-06"><cell type="data-term">Fjedrene</cell><cell type="data-definition">fjerene.</cell></row>
+<cell type="page">117</cell><row xml:id="txtcmnt-117-01"><cell type="data-term">Haandteen</cell><cell type="data-definition">garnspole på spinderok.</cell></row>
+<cell type="page">118</cell><row xml:id="txtcmnt-118-01"><cell type="data-term">obsternasig</cell><cell type="data-definition">genstridig, trodsig.</cell></row><row xml:id="txtcmnt-118-02"><cell type="data-term">har både i Kjøkken og Kjælder</cell><cell type="data-definition">er velstående.</cell></row>
+<cell type="page">119</cell><row xml:id="txtcmnt-119-01"><cell type="data-term">Grøfter</cell><cell type="data-definition">diger, jordvolde.</cell></row><row xml:id="txtcmnt-119-02"><cell type="data-term">Blomstens Engel</cell><cell type="data-definition">blomsteralfen.</cell></row><row xml:id="txtcmnt-119-03"><cell type="data-term">Present</cell><cell type="data-definition">gave.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

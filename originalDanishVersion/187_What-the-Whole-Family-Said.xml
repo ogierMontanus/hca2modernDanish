@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>What the Whole Family Said</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="hvad-hele-familien-sagde">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="hvad-hele-familien-sagde_modern.xml">moderniseret version</note>
+                                                       <note target="187_What-the-Whole-Family-Said.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>What did the whole family say? Well, listen first to what little Marie said....</incipit><idno type="image">Hvad_hele_Familien_sagde_hca_ill_0158.png</idno><popularity>895</popularity><cite>&lt;p&gt;Hans Christian Andersen: What the Whole Family Said. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>barnelogik</term><term>remser</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-11-01" xml:id="NHB" who="NHB">docx2xml</change><change when="2022-11-01" who="NHB">formatted</change><change who="NHB" when="2022-11-01">ready for publication</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="What the Whole Family Said">
+               <head type="main" rend="What the Whole Family Said">What the Whole Family Said</head>                <p rend="noIndent" xml:id="p_00001">What did the whole family say? Well, listen first to what little <hi rend="italic">Marie</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00002">It was little <hi rend="italic">Marie’s</hi> birthday, the loveliest day of all, in her opinion. All her small friends, both boys and girls, came to play with her, and she wore her finest dress; this she had been given by her grandmother, who was with the Good Lord, but grandmother herself had cut and sewn it before she went up to the bright and lovely heaven. The table in <hi rend="italic">Marie’s</hi> room gleamed with presents; there was the loveliest little kitchen with everything that belongs to one, and a doll that could roll its eyes and say ‘Ow’ when one pressed its stomach; yes, and there was also a picture book with the most delightful stories to be read in it when one was able to read! But experiencing many birthdays was even better than all the stories.</p>
+               <p rend="firstIndent" xml:id="p_00003">‘Yes indeed, it’s wonderful to be alive!’ little <hi rend="italic">Marie</hi> said. Her godfather added that it was the loveliest fairy-tale adventure.</p>
+               <p rend="firstIndent" xml:id="p_00004">In the living room close by were both her brothers, they were big boys, one nine years old, the other eleven. They too thought it was lovely to be alive, to live in their own way, not to be a child like <hi rend="italic">Marie</hi>, no, to be a sprightly schoolboy, to have ‘<hi rend="italic">Excellent’</hi> written in one’s mark book and be able to have a pleasant rough and tumble with one’s schoolmates, go out on skates in the winter and on a velocipede in the summer, to read about baronial castles, drawbridges and castle dungeons, hear about discoveries in darkest Africa. One of the boys, though, had one source of sorrow – that everything had been discovered before he grew up; so he wanted to be off on adventures. Life is the loveliest fairy-tale adventure was in fact what godfather said, and one was a part of it oneself.</p>
+               <p rend="firstIndent" xml:id="p_00005">These children lived and romped on the ground floor; above them lived another branch of the family, also with children, but they had put away childish things, they were that big; the one son was seventeen years old, the other twenty, but the third one was very old, little <hi rend="italic">Marie</hi> said, he was twenty-five years old and engaged to be married. All of them were highly fortunate, had good parents, good clothes, were well endowed, and they went for what they wanted, ‘forwards, away with all the old boardings! a free view of the whole world! that is the loveliest thing we know. Godfather is right: Life is the loveliest fairy-tale adventure!’</p>
+               <p rend="firstIndent" xml:id="p_00006">Father and mother, both much older – of course, they had to be older than the children – they said with a smile on their lips, with a smile in both eye and heart: ‘How young they are, the young folk! things will not go exactly as they believe in the world, but it will be all right in the end. Life is a strange, lovely fairy-tale adventure!’</p>
+               <p rend="firstIndent" xml:id="p_00007">Upstairs, a little closer to heaven, as one says when people live in the attic, godfather lived. He was old and yet his mind was so young, was always in a good mood, and then he was also able to tell stories, lots of long stories. He had seen a great deal of the world, and from countries everywhere there stood delightful things in his room. There were pictures from floor to ceiling, and a number of the window panes were of red and yellow glass; if one looked through them, the world was bathed in sunshine, no matter how grey the weather was outside. In a large glass box there grew green plants, and in a separate compartment inside goldfish swam about; they looked at one as if they knew so much they did not want to talk about. It always smelt of flowers here, even in winter, and then there was a roaring fire in the fireplace; it was such fun to sit gazing into it and listen to how it creaked and crackled. ‘It is reading old memories for me!’ godfather used to say, and it also seemed to little <hi rend="italic">Marie</hi> as if many pictures could be seen in the flames.</p>
+               <p rend="firstIndent" xml:id="p_00008">But in the large bookcase close by there were real books; one of which godfather often read in, and he called it the book of all books, it was the <hi rend="italic">Bible</hi>. It contained pictures of the history of all the world and of all humanity, the Creation, the Flood, the kings and the King of Kings.</p>
+               <p rend="firstIndent" xml:id="p_00009">‘Everything that has taken place and will take place is in this book!’ godfather said. ‘such an infinite amount in one single book! Just think of that! Everything that a person could ask for has been said and written down in a few words in the <hi rend="italic">Lord’s Prayer</hi>, it is a drop of mercy! it is a pearl of consolation from God. It is placed like a gift on the child’s cradle, placed close to the child’s heart. Little one, hide it well! never lose it, no matter how large you grow, and you will not be forsaken on the changing paths of life! it will shine into you and you will never be lost!’</p>
+               <p rend="firstIndent" xml:id="p_00010">Godfather’s eyes lit up as he said this, they gleamed with happiness. Once, in his younger years, they had wept, ‘and that too was good,’ he said, ‘there were times of tribulation when things looked so grey. Now I have sunshine around and within me. The older one gets, the better one realises in times of fortune and misfortune that Our Lord is always with one, that life is the loveliest fairy-tale adventure, and only He can grant us that, and it lasts into eternity!’</p>
+               <p rend="firstIndent" xml:id="p_00011">‘It is lovely to be alive!’ little <hi rend="italic">Marie</hi> said.</p>
+               <p rend="firstIndent" xml:id="p_00012">That was also what the small and the large boys said; father and mother, the whole family said so, but most of all godfather, and he had experience, he was the oldest of them all, he knew all the stories, fairy tales and adventures, and <hi rend="italic">he</hi> said, and it came from the bottom of his heart: ‘<hi rend="italic">Life is the loveliest fairy-tale adventure</hi>!’</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

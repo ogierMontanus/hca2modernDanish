@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>The Happy Family</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="den-lykkelige-familie">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="den-lykkelige-familie_modern.xml">moderniseret version</note>
+                                                       <note target="90_The-Happy-Family.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>The largest green leaf in our country is without a doubt that of the butterbur; ...</incipit><idno type="image">Den_lykkelige_Familie_forside.png</idno><popularity>953</popularity><cite>&lt;p&gt;Hans Christian Andersen: The Happy Family. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-10" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-10">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div rend="The Happy Family">
+          <head type="main" rend="The Happy Family">The Happy Family</head>                <p rend="noIndent" xml:id="p_00001">The largest green leaf in our country is without a doubt that of the butterbur; if held up against one’s tummy, it is just like a big apron, and if placed on the head, it is almost as good as an umbrella in rainy weather since it is so terribly large. A butterbur never grows on its own, no, if there’s one growing, there are always more, it is a great delight, and all of this delight is food for snails. Large white snails – the ones that distinguished people had prepared as a fricassé, ate and then said ‘Umm! how delicious!’ because they believed they tasted so good – used to live off butterbur leaves, so that was why the butterburs were sown.</p>
+          <p rend="firstIndent" xml:id="p_00002">Now there was a manor house where no one dined on snails any longer as they had completely died out, but not so the butterburs, they went on growing over all the pathways and all the flowerbeds, it was impossible to keep them down, there was a whole butterbur forest of them, with here and there the odd apple tree and plum tree, otherwise one would never have guessed there was a garden there at all. Everything was butterburs – and in the depths of them dwelt the last two, exceedingly old snails.</p>
+          <p rend="firstIndent" xml:id="p_00003">They didn’t know themselves just how old they were, but they could well remember that there had been many more of them, that they belonged to a family from foreign lands and that the entire forest had been planted for them and their kin. They had never been beyond it, but knew that something else existed in the world that was called <hi rend="italic">the manor house</hi>, and up there one got boiled, and then one turned black and then one was placed on a silver platter, but what happened after that they did not know. And what it felt like to be boiled and placed on a silver platter they could not imagine, but it was said to be delightful and highly distinguished. Neither the cockchafer, toad or earthworm that they asked were able to inform them, none of them had been boiled or placed on a silver platter.</p>
+          <p rend="firstIndent" xml:id="p_00004">The old white snails knew that they were the most distinguished in the world; the forest existed because of them, and the manor house existed so that they could be boiled and be placed on a silver platter.</p>
+          <p rend="firstIndent" xml:id="p_00005">They lived a solitary and happy life there, and since they did not have any children themselves, they had taken care of a common snail that they brought up as if it were their own offspring, but the little snail refused to grow, for he was a common snail; though the old foster parents, especially the mother, mother-snail, seemed to notice that he was getting bigger, and she asked father-snail if he was unable to see that for himself, to feel the small snail shell, and so he did and found that mother was right.</p>
+          <p rend="firstIndent" xml:id="p_00006">One day the rain pelted down.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Just listen to how it rum-a-drum-drums on the butterburs,’ father-snail said.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘There are raindrops too!’ mother-snail said, ‘they are running down the stalk! It’s certainly going to get wet here! I’m glad we live in our own fine houses and the little one has his too! More has indeed been done for us than all other creatures; one can clearly see that we are of the highest rank in the world! We have our own house to live in from birth and the butterbur forest was sown for our sake –! I wonder just how far it stretches and what there is beyond it!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘There isn’t anything beyond it!’ father-snail said. ‘It can’t be better than it is here anywhere else, and I have nothing to wish for!’</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Well, I have,’ mother said, ‘I would very much like to get to the manor house, be boiled and placed on a silver platter, that’s what all our ancestors have done, and believe me, there’s something special about it!’</p>
+          <p rend="firstIndent" xml:id="p_00011">‘The manor house has possibly collapsed!’ father-snail said, ‘or the butterbur forest has overgrown it, so that the people inside couldn’t come out. And there’s no hurry either, but you always rush off at such a terrible speed and junior is starting to do the same; hasn’t he been crawling up that stalk for three days now, I get a headache just from looking up at him!’</p>
+          <p rend="firstIndent" xml:id="p_00012">‘Don’t scold,’ mother-snail said, ‘he’s crawling so sedately, we get lots of pleasure out of him, and we two oldies haven’t anything else left to live for! But have you considered this: where are we to find a wife for him. Don’t you think that deep inside the butterbur forest there might possibly be some of our species?’</p>
+          <p rend="firstIndent" xml:id="p_00013">‘I’m pretty sure there are some black snails,’ the old snail said, ‘black snails without shells, but they lack class and are too conceited, but we could commission the ants, they run back and forth as if they were busy doing something, they’re sure to know of a wife for our little snail!’</p>
+          <p rend="firstIndent" xml:id="p_00014">‘I’m sure I know of the most beautiful wife!’ one of the ants said, ‘but I’m afraid it won’t work, for she’s a queen!’</p>
+          <p rend="firstIndent" xml:id="p_00015">‘That makes no difference!’ the old couple said. ‘Does she have a house?’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘She’s got a castle!’ the ant said, ‘the loveliest ant-castle with seven hundred passages.’</p>
+          <p rend="firstIndent" xml:id="p_00017">‘No thank you!’ the mother-snail said, ‘our son’s not going into an ant-hill! if that’s all you can come up with, we’ll give the commission to the white mosquitoes, they fly around come rain come shine, they know the butterbur forest from within and without.’</p>
+          <p rend="firstIndent" xml:id="p_00018">‘We’ve a wife for him!’ the mosquitoes said, ‘a hundred human paces from here on a gooseberry bush there’s a small snail with a house on its back, it is very lonesome and old enough to get married. It’s only a hundred human paces from here!’</p>
+          <p rend="firstIndent" xml:id="p_00019">‘Well, let her come to him in that case!’ the old couple said, ‘he has a whole butterbur forest, she only has a bush!’</p>
+          <p rend="firstIndent" xml:id="p_00020">And so the little snail-maiden was fetched. It took eight days for her to come, but that is the good thing about it, for that proves she is one of the same species.</p>
+          <p rend="firstIndent" xml:id="p_00021">And so the wedding was held. Six glow-worms lit up things as best they could; apart from that, all of the wedding went off quietly, for the old snail couple couldn’t cope with festivities and merriment; but a fine speech was given by mother-snail, father-snail was unable to as he was overcome with emotion, and they bequeathed the entire butterbur forest to the newly-weds and said what they always had said, that it was the best place in the world, and if they lived in honest and appropriate fashion and had offspring, they and their children would at some point get to the manor house, be boiled black and laid on a silver platter.</p>
+          <p rend="firstIndent" xml:id="p_00022">After the speech have been given, the old couple crept into their shells and never came out again, they were asleep. The young snail couple ruled in the forest and had a large family, but were never boiled, and never laid on a silver platter, so they concluded that the manor house had collapsed, and that all the humans in the world had died out, and since nobody contradicted them, it was of course true; and the rain beat down on the butterbur leaves to provide drum-music for their sake, and the sun shone to give the butterbur forest colour for their sake, and they were very happy, and the whole family were happy, because that is what they were.</p>
+          </div>
+               
+     </body>
+                         </text>
+                    </TEI>

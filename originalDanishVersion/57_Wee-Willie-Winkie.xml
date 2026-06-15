@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Wee Willie Winkie</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0.1">1.0.1</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="ole-lukoeie">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="ole-lukoeie_modern.xml">moderniseret version</note>
+                                                       <note target="57_Wee-Willie-Winkie.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>There’s no one in the whole world who knows as many stories as Wee Willie Winkie...</incipit><idno type="image">Ole_Lukoeie_forside.png</idno><popularity>985</popularity><cite>&lt;p&gt;Hans Christian Andersen: Wee Willie Winkie. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0.1. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0001">Wee Willie Winkie</cell>
+                                                       
+                                                            <cell ref="#div0002">Monday</cell>
+                                                       
+                                                            <cell ref="#div0003">Tuesday</cell>
+                                                       
+                                                            <cell ref="#div0004">Wednesday</cell>
+                                                       
+                                                            <cell ref="#div0005">Thursday</cell>
+                                                       
+                                                            <cell ref="#div0006">Friday</cell>
+                                                       
+                                                            <cell ref="#div0007">Saturday</cell>
+                                                       
+                                                            <cell ref="#div0008">Sunday</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-05-15" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-05-15">formatted</change><change who="NHB" when="2022-11-09">missing quotation mark added</change><change who="NHB" when="2023-05-12" status="draft">added wrapper div</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-27" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+          <div>
+               <div type="chapter" rend="Wee Willie Winkie" xml:id="div0001">
+          <head type="main" rend="Wee Willie Winkie">Wee Willie Winkie</head>                <p rend="noIndent" xml:id="p_00001">There’s no one in the whole world who knows as many stories as <hi rend="italic">Wee Willie Winkie</hi>! – He’s a real story-teller!</p>
+          <p rend="firstIndent" xml:id="p_00002">Around mid-evening, when children are sitting nicely at table, or on a stool, <hi rend="italic">Wee Willie Winkie</hi> comes along; he comes up the stairs so quietly (for he goes in his stockinged feet), he opens the door very quietly and ffft! he squirts sweet milk into the children’s eyes, such a tiny, tiny amount, but always enough for them not to be able to keep their eyes open, and therefore not see him; he tiptoes right up on them from behind, blows softly into the napes of their necks, and then their heads feel heavy, oh yes! but it doesn’t hurt at all, for <hi rend="italic">Wee Willie Winkie</hi> only has the children’s best at heart, he simply wants them to be calm, and they are most able to do this when they have been got into bed, they have to be quiet so that he can tell them stories. –</p>
+          <p rend="firstIndent" xml:id="p_00003">And when the children are asleep, <hi rend="italic">Wee Willie Winkie</hi> sits down on the bed; he is well-dressed, his coat is made of silk, but it isn’t possible to say what colour it is, for it shimmers green, red and blue, according to how he turns; under each arm he holds an umbrella, one with pictures on it, and this he places over the good children, and then they dream the loveliest of stories all night long, and he also has an umbrella with nothing on it, and this he places over the naughty children, and then they sleep oh so badly and in the morning, when they wake up, they haven’t dreamt in the slightest.</p>
+          <!--<p rend="noIndent">* * * * * *</p>-->
+          <p rend="firstIndent" xml:id="p_00004">Now we’re going to hear how Wee Willie Winkie came every evening for a whole week to a young boy whose name was Hjalmar, and what stories he told him! There are no less than seven stories, for there are seven days in a week.</p>
+     </div>
+               
+     <div type="chapter" rend="Monday" xml:id="div0002">
+          <head rend="Monday">Monday</head>
+          <p rend="noIndent" xml:id="p_00005">‘Listen to this!’ <hi rend="italic">Wee Willie Winkie</hi> said one evening when he had got <hi rend="italic">Hjalmar</hi> to bed, ‘now I’m going to spruce the place up!’ and then all the flowers in their pots grew into large trees that stretched long branches across the ceiling and along the walls so that the whole room looked like the loveliest bower, and all the branches were laden with blossoms, and each blossom was more beautiful than a rose, smelt so delightful, and if one was to eat it, it would taste sweeter than jam! The fruit glistened like gold and then there were buns that were crammed with raisins – it was wonderful! but at that moment there came a terrible groaning from the table drawer where <hi rend="italic">Hjalmar’s</hi> schoolbooks lay.</p>
+          <img src="0057_HCA-1969-25-A.jpg" ref="p_00006" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00006">‘Now what’s all that!’ <hi rend="italic">Wee Willie Winkie</hi> said and went over to the table and opened the drawer. It was the slate that was being terribly squeezed and pressed for a wrong figure had got into the sum – it was almost falling apart; the pencil was jumping up and down on its twine string as if it was a small dog, it wanted to help with the sum but it couldn’t! – and then it was <hi rend="italic">Hjalmar’s</hi> copybook that was groaning away, oh it was a most unpleasant sound!, at the bottom of each page stood all the capital letters, each with a small letter beside it, a whole row downwards, it was the model to be copied, and next to it there stood in turn some letters that believed they looked just like it, for those <hi rend="italic">Hjalmar</hi> had written, they lay there almost as if they had tripped over the pencil line they were meant to be standing on.</p>
+          <p rend="firstIndent" xml:id="p_00007">‘See, that is how you ought to hold yourselves!’ the model said, ‘see, slightly sloping, with a quick flourish!’</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Oh, we’d dearly like to,’ Hjalmar’s letters said, ‘but we can’t, we’re so poorly!’</p>
+          <p rend="firstIndent" xml:id="p_00009">‘In that case, you must be given a quieting powder!’ Wee Willie Winkie said.</p>
+          <p rend="firstIndent" xml:id="p_00010">‘Oh no!’ they cried, and they stood so straight it was a pleasure to see them!</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Well, now there won’t be any stories told!’ <hi rend="italic">Wee Willie Winkie</hi> said, now I must drill them! left, right! left, right!’ and so he drilled the letters, and they stood so straight and healthy-looking as any model could, but when <hi rend="italic">Wee Willie Winkie</hi> left, and <hi rend="italic">Hjalmar</hi> took a look at them the next morning, they were as woeful as before.</p>
+     </div>
+               
+     <div type="chapter" rend="Tuesday" xml:id="div0003">
+          <head rend="Tuesday">Tuesday</head>
+          <p rend="noIndent" xml:id="p_00012">As soon as <hi rend="italic">Hjalmar</hi> was in bed, <hi rend="italic">Wee Willie Winkie</hi> touched all the furniture in the room with his magic squirter and immediately the pieces of furniture started to talk, and all of them talked about themselves, except the spittoon, it stood there silently and was annoyed that they could be so vain that they only talked about themselves, only thought about themselves and had not the slightest thought for the one standing so modestly in the corner and allowing himself to be spat upon.</p>
+          <p rend="firstIndent" xml:id="p_00013">Above the chest of drawers there hung a large painting in a gilt frame, it was a landscape, one could see tall old trees, flowers in the grass and a large expanse of water with a river that ran behind a forest, past many castles, far out into the wild sea.</p>
+          <p rend="firstIndent" xml:id="p_00014"><hi rend="italic">Wee Willie Winkie</hi> touched the painting with his magic squirter and the birds in it started to sing, the branches of the trees swayed and the clouds scudded across the sky, you could see their shadow flit across the landscape.</p>
+          <p rend="firstIndent" xml:id="p_00015">Now <hi rend="italic">Wee Willie Winkie</hi> lifted little <hi rend="italic">Hjalmar</hi> up to the frame, and <hi rend="italic">Hjalmar</hi> stuck his legs into the picture, right into the tall grass and there he stood; the sun shone down on him through the branches of the trees. He ran down to the water, got into a little boat that lay there; it was painted red and white, its sails gleamed like silver and six swans, all with gold crowns around their necks and a glittering blue star on their heads, pulled the boat past the green forests, where the trees told tales of robbers and witches and the flowers told of delightful small elves and what the butterflies had told them.</p>
+          <p rend="firstIndent" xml:id="p_00016">The loveliest fish, with scales like silver and gold, swam behind the boat, from time to time they leapt up and landed again with a splash, and the birds, red and blue, large and small, flew in two long rows behind, the mosquitoes danced and the cockchafer said brum brum; all of them wanted to follow <hi rend="italic">Hjalmar</hi>, and each one of them had a story to tell!</p>
+          <p rend="firstIndent" xml:id="p_00017">It really was some sailing trip! at times the forests were so dark and dense, at other times they were like the loveliest garden with sunshine and flowers and there lay great castles of glass and marble, on the balconies stood princesses, and all of them were young girls <hi rend="italic">Hjalmar</hi> knew well, he had played with them before. Each of them stretched out a hand holding the loveliest sugar-pig cake that any cake-woman could sell, and <hi rend="italic">Hjalmar</hi> took hold of one end of the sugar-pig as he sailed past, and the princess kept a tight hold too, and so each of them got a piece, she the smallest, <hi rend="italic">Hjalmar</hi> the biggest! At every castle small princes stood on sentry duty, they shouldered their golden swords and let raisins and tin soldiers rain down – they were proper princes!</p>
+          <img src="0057_HCA-1969-25-B.jpg" ref="p_00018" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00018">At times <hi rend="italic">Hjalmar</hi> sailed through forests, at times as if through great halls, or straight through a town; he also passed through the one where his nanny lived, she had carried him when he was a very small boy, and had been so fond of him, and she nodded and waved and sang the loveliest little poem she had written herself and sent to <hi rend="italic">Hjalmar</hi>:</p>
+          <lg rend="" xml:id="p_00019">
+               <l>I think so of you, you’re sorely missed,</l>
+               <l>Dear <hi rend="italic">Hjalmar</hi>, who once I held closely!</l>
+               <l>Your little mouth I often have kissed,</l>
+               <l>Your forehead, your cheeks so rosy.</l>
+               <l>I heard you speak your very first word,</l>
+               <l>My leave though I later was taking.</l>
+               <l>May God ever bless you on this earth,</l>
+               <l>An angel you are of his making!</l></lg>
+          <p rend="noIndent" xml:id="p_00020">And all the birds accompanied her, the flowers danced on their stems and the old trees nodded, just as if Wee Willie Winkie were telling them stories as well.</p>
+     </div>
+               
+     <div type="chapter" rend="Wednesday" xml:id="div0004">
+          <head rend="Wednesday">Wednesday</head>
+          <p rend="noIndent" xml:id="p_00021">Oh, how the rain was pouring down outside! <hi rend="italic">Hjalmar</hi> could hear it in his sleep! and when <hi rend="italic">Wee Willie Winkie</hi> opened a window, the water had come right up to the window sill; there was a whole lake out there, but the most magnificent ship lay moored right outside the house.</p>
+          <img src="0057_HCA-1969-25-C.jpg" ref="p_00022" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00022">‘Would you like to sail along too, little <hi rend="italic">Hjalmar</hi>!’ <hi rend="italic">Wee Willie Winkie</hi> said, ‘then you can travel to foreign countries tonight and be back again here tomorrow morning!’ –</p>
+          <p rend="firstIndent" xml:id="p_00023">And suddenly Hjalmar was standing in his Sunday best on board the magnificent ship, and immediately the weather was perfect and they sailed off through the streets, cruised round the church and now a great wild sea was all around them. They sailed so far that there was no longer any land in sight; and they saw a flock of storks, they had also left home and wished to be off to warmer climes; one stork followed the other and they had already flown so far, so far; one of them was so tired that his wings could scarcely bear him any longer, he was at the very back of the row and soon he lagged a considerable way behind, and finally, wings outstretched, he sank lower and lower, he flapped his wings a couple of times more, but to no avail; now his feet touched the rigging of the ship, now he slid down the sail and bump! he landed on the deck.</p>
+          <p rend="firstIndent" xml:id="p_00024">Then the ship’s boy picked him up and placed him in the hen-house, along with chickens, ducks and turkeys; the poor stork stood quite timorously among them.</p>
+          <p rend="firstIndent" xml:id="p_00025">‘What a freak of nature!’ all the hens said.</p>
+          <p rend="firstIndent" xml:id="p_00026">And the turkeycock puffed himself up as much as he could and asked him who he was; and the ducks backed off and jostled each other: ‘Look sharp! look sharp!’</p>
+          <p rend="firstIndent" xml:id="p_00027">And the stork told them about warm Africa, about the pyramids and about the ostrich that ran like a wild horse across the desert, but the ducks didn’t understand what he said, and so they jostled each other: ‘Let’s all agree on this: he’s plain stupid!’</p>
+          <p rend="firstIndent" xml:id="p_00028">‘Yes, of course he’s stupid!’ the turkeycock said and gave a great gobble. Then the stork went quite silent and thought of his Africa.</p>
+          <p rend="firstIndent" xml:id="p_00029">‘A nice pair of legs you’ve got there!’ the turkey said to him. ‘How much a yard do they cost?’</p>
+          <p rend="firstIndent" xml:id="p_00030">‘Ha, ha, ha!’ all the ducks quacked, but the stork pretended he hadn’t heard what had been said.</p>
+          <p rend="firstIndent" xml:id="p_00031">‘You can join in and laugh!’ the turkey said to him, ‘for it was a highly witty remark! or maybe it was too coarse for him! dearie me, he’s not very versatile! let’s go on being interesting to ourselves!’ and then they clucked and the ducks jabbered, ‘gack, guck, gack, guck!’ it was awful what fun they were having themselves.</p>
+          <p rend="firstIndent" xml:id="p_00032">But <hi rend="italic">Hjalmar</hi> went over to the hen-house, opened the door, called the stork and it hopped out onto the deck to him; now it had rested and it was as if it nodded to <hi rend="italic">Hjalmar</hi> to thank him; after this it spread out its wings and flew off to the warm countries, but the hens clucked, the ducks jabbered and the turkeycock went bright red in the face.</p>
+          <p rend="firstIndent" xml:id="p_00033">‘Tomorrow we’ll make soup out of you!’ <hi rend="italic">Hjalmar</hi> said and then he woke up, and was lying in his little bed. What a remarkable journey <hi rend="italic">Wee Willie Winkie</hi> had let him go on during the night!</p>
+     </div>
+               
+     <div type="chapter" rend="Thursday" xml:id="div0005">
+          <head rend="Thursday">Thursday</head>
+          <p rend="noIndent" xml:id="p_00034">‘Tell you what!’ <hi rend="italic">Wee Willie Winkie</hi>, ‘Don’t be afraid, I’ll let you see a little mouse!’ and then he stretched out his hand, with the nice little creature, out towards him. ‘It’s come to invite you to a wedding. There are two small mice here who wish to get married. They live down under the floor of your mother’s larder, such a lovely flat they are said to have there!’</p>
+          <img src="0057_HCA-1969-25-D.jpg" ref="p_00035" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00035">‘But how am I to get through the tiny mouse-hole in the floor?’ <hi rend="italic">Hjalmar</hi> asked.</p>
+          <p rend="firstIndent" xml:id="p_00036">‘You leave that to me!’ <hi rend="italic">Wee Willie Winkie</hi> said, ‘I’ll manage to make you small!’ and then he touched <hi rend="italic">Hjalmar</hi> with his magic squirter, and immediately he grew smaller and smaller until finally he was no bigger than a finger. ‘Now you can borrow the tin soldier’s clothes, I think they’ll fit you and it looks so stylish to have a uniform on when one is socialising!’</p>
+          <p rend="firstIndent" xml:id="p_00037">‘Yes indeed!’ <hi rend="italic">Hjalmar</hi> said, and in an instant he was dressed as a most engaging tin soldier.</p>
+          <p rend="firstIndent" xml:id="p_00038">‘If you would be so kind as to sit down in your mother’s thimble,’ the little mouse said, ‘I will have the honour of pulling you!’</p>
+          <p rend="firstIndent" xml:id="p_00039">‘Good heavens, shall the young lady be put to so much trouble!’ <hi rend="italic">Hjalmar</hi> said and then they went off to the mouse wedding.</p>
+          <p rend="firstIndent" xml:id="p_00040">Beneath the floor they first arrived at a long passage that was only just high enough for a thimble to pass through, and the whole passage was lit up with touchwood.</p>
+          <p rend="firstIndent" xml:id="p_00041">‘Doesn’t it smell delightful here!’ the mouse pulling him said, ‘the whole passage has been smeared with bacon rind! Nothing could be more delightful!’</p>
+          <p rend="firstIndent" xml:id="p_00042">They now entered the wedding hall; here on the right stood all the small lady mice and they twittered and tittered as if making fun of each other; on the left stood all the gentleman mice and stroked their moustaches with their paws, but in the middle of the floor one could see the wedding couple, they were standing in a hollowed-out cheese rind and were kissing each other such a frightful lot in front of everybody, for they were betrothed and were just about to be wed.</p>
+          <p rend="firstIndent" xml:id="p_00043">More and more strangers kept on arriving; the mice were on the point of trampling each other to death and the bridal couple had placed themselves in the middle of the doorway, so it was impossible to go either in or out. Like the passage, the whole room had been smeared with bacon rind, that was the entire main course, but for dessert a pea was displayed that a small mouse of the family had nibbled the names of the couple in, well the first letter – and that was something quite exceptional.</p>
+          <p rend="firstIndent" xml:id="p_00044">All the mice said that it was a lovely wedding and that the conversation had been so good.</p>
+          <p rend="firstIndent" xml:id="p_00045">And then <hi rend="italic">Hjalmar</hi> rode home again; he had really been in high society, though he had also had to hunch himself up, make himself small and squeeze into a tin soldier’s uniform.</p>
+     </div>
+               
+     <div type="chapter" rend="Friday" xml:id="div0006">
+          <head rend="Friday">Friday</head>
+          <p rend="noIndent" xml:id="p_00046">‘It’s unbelievable just how many elderly people want to get hold of me!’ <hi rend="italic">Wee Willie Winkie</hi> said, especially those who have done something bad. “Dear Wee Willie Winkie,” they say to me, “we can’t fall asleep and lie there all night thinking about all our bad deeds which, like horrible small trolls, sit on the edge of the bed and spray us with hot water, won’t you come and chase them away so that we can get a good night’s sleep,” and then they sigh so deeply: “We’re perfectly willing to pay you, Good Night Wee <hi rend="italic">Willie</hi>! The money’s on the window ledge,” but I don’t do it for money,’ <hi rend="italic">Wee Willie Winkie</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00047">‘What are we going to be up to tonight?’ <hi rend="italic">Hjalmar</hi> asked.</p>
+          <p rend="firstIndent" xml:id="p_00048">‘Well, I don’t know if you feel like going to another wedding tonight, it’s a different kind than yesterday’s. Your sister’s big doll, the one that looks like a man and is called <hi rend="italic">Herman</hi>, is going to marry the doll called <hi rend="italic">Bertha</hi>, and it’s also the doll’s birthday and so there will be lots of presents!’</p>
+          <p rend="firstIndent" xml:id="p_00049">‘Yes, I know all about that,’ <hi rend="italic">Hjalmar</hi> said, ‘whenever the dolls need new clothes, my sister lets them have a birthday or a wedding! it’s happened a hundred times!’</p>
+          <p rend="firstIndent" xml:id="p_00050">‘Yes, but tonight is wedding number one hundred and one and when one hundred and one is done, then it’s all over! so this one is going to be something quite extraordinary. Take a look!’</p>
+          <img src="0057_HCA-1969-25-E.jpg" ref="p_00051" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00051">And <hi rend="italic">Hjalmar</hi> looked at the table; on it was the small cardboard house with lights in the windows, and all the tin soldiers presented arms outside. The bridal couple were sitting on the floor, leaning up against a table leg, deep in thought, and they had every reason to be doing so. But <hi rend="italic">Wee Willie Winkie</hi>, dressed in grandmother’s black skirt, was the one who married them! When the wedding was over, all the furniture in the room sang the following lovely song, written by the pencil, it went to the tune of a military tattoo:</p>
+          <lg rend="" xml:id="p_00052">
+               <l>Our song will like a gust of air</l>
+          <l>Come in to greet the wedding pair;</l>
+          <l>Two heads erect, birds of one feather,</l>
+          <l>They both are made of gloves’ best leather!</l>
+          <l><!--repeat sign-->|: Hurrah, Hurrah! for feather and leather!</l>
+          <l>We sing aloud in wind and weather! :|</l></lg>
+          <p rend="noIndent" xml:id="p_00053">And now their received wedding gifts, but they had requested not to receive any edible presents, for they had enough love for the two of them to feed on.</p>
+          <p rend="firstIndent" xml:id="p_00054">‘Shall we stay in the country or travel abroad!’ the bridegroom asked, and the swallow, who had travelled a great deal, and the old hen, who had hatched out chickens five times, were consulted for advice; and the swallow told them of the delightful, warm lands where the grapes hung so large and heavy, where the air was so mild, and the mountains had colours that here were simply unknown!</p>
+          <p rend="firstIndent" xml:id="p_00055">‘Even so, they don’t have our curly kale!’ the hen said. ‘One summer I was staying with all my chickens in the country; there was a gravel pit we could go and scratch in, and we also had access to a garden with curly kale! Oh, how green it was! I cannot imagine anything more beautiful.’</p>
+          <p rend="firstIndent" xml:id="p_00056">‘But one kale stalk looks just like the next one,’ the swallow said, ‘and here the weather is often so awful!’</p>
+          <p rend="firstIndent" xml:id="p_00057">‘Yes, we’re used to that!’ the hen said.</p>
+          <p rend="firstIndent" xml:id="p_00058">‘But it’s cold here, it freezes!’</p>
+          <p rend="firstIndent" xml:id="p_00059">‘That’s good for the kale!’ the hen said. ‘Apart from which, we also get warm weather here! Didn’t we have a summer four years back that lasted for five weeks, it was so hot here you couldn’t breathe! and then we don’t have all the poisonous animals they have out there! and we’re free of robbers! Only a brute doesn’t find our country the most beautiful! he really doesn’t deserve to be here at all!’ and then the hen wept. ‘I too have travelled! I have ridden cooped up in a tub for more than 50 miles! there is nothing pleasurable about travelling!’</p>
+          <p rend="firstIndent" xml:id="p_00060">‘Yes, the hen’s a sensible woman!’ Bertha the doll said, ‘I don’t like travelling in mountains either, for it’s all just up and then down again! no, we’ll move out to the gravel pit and walk in the garden with the curly kale!’</p>
+          <p rend="firstIndent" xml:id="p_00061">Which is what they did.</p>
+     </div>
+               
+     <div type="chapter" rend="Saturday" xml:id="div0007">
+          <head rend="Saturday">Saturday</head>
+          <p rend="noIndent" xml:id="p_00062">‘Time for some stories now!’ little <hi rend="italic">Hjalmar</hi> said, as soon as <hi rend="italic">Wee Willie Winkie</hi> had got him to sleep. ‘We’ve no time for that tonight,’ <hi rend="italic">Wee Willie Winkie</hi> answered and opened his loveliest umbrella over him. ‘Just look at these Chinese!’ and the whole umbrella looked just like a large Chinese bowl with blue trees and hump-backed bridges with small Chinese who stood on them nodding their heads. ‘We’ve got to have the whole world shipshape for tomorrow,’ he said, ‘for tomorrow’s a holy day, it’s Sunday. I must be off to the church towers to see that the small church pixies are burnishing the bells so they can sound beautiful, I must be out in the fields to see if the winds are blowing the dust off grass and leaves, and my biggest task of all, I must have all the stars down to give them a good polish; I take them in my apron, but first each has to be numbered and the holes they sit in up there have to be numbered so that they can be put back in their right places, otherwise they wouldn’t stay put and we’d get too many shooting stars, as one after the other falls out of the sky!’</p>
+          <img src="0057_HCA-1969-25-F.jpg" ref="p_00063" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00063">‘Now you listen to me, <hi rend="italic">Mr. Willie Winkie</hi>!’ an old portrait said that hung on the wall where <hi rend="italic">Hjalmar</hi> was sleeping, ‘I am <hi rend="italic">Hjalmar’s</hi> great grandfather: I am most grateful that you tell the boy stories, but you must not confuse his conceptions about the world. The stars cannot be taken down and polished! The stars are planets just like our Earth, and that is the good thing about them!’</p>
+          <p rend="firstIndent" xml:id="p_00064">‘Well, thank you so much, you old great grandfather!’ <hi rend="italic">Wee Willie Winkie</hi> said, ‘Thank you so much! You are of course head of the family, you are the “old” head! But I am older than you! I am an old pagan, the Romans and the Greeks called me the god of dreams! I have been admitted to the finest houses and still am! I understand how to mix with both great and small! Now it’s your turn to do the story-telling!’ – and with that <hi rend="italic">Wee Willie Winkie</hi> left, taking his umbrella with him.</p>
+          <p rend="firstIndent" xml:id="p_00065">‘Now one can hardly even dare venture an opinion!’ the old portrait said.</p>
+          <p rend="firstIndent" xml:id="p_00066">And then <hi rend="italic">Hjalmar</hi> woke up.</p>
+     </div>
+               
+     <div type="chapter" rend="Sunday" xml:id="div0008">
+          <head rend="Sunday">Sunday</head>
+          <p rend="noIndent" xml:id="p_00067">‘Good evening!’ <hi rend="italic">Wee Willie Winkie</hi> said and <hi rend="italic">Hjalmar</hi> nodded, but then jumped up and turned the portrait of his great grandfather to the wall, so it wouldn’t join in the conversation, as it had done the day before.</p>
+          <p rend="firstIndent" xml:id="p_00068">‘Now you’re to tell me stories, about the five green peas that lived in a pod, and about “The cockerel who paid courtship to the hen”, and about the darning needle who thought herself so fine she imagined she was a sewing needle!’</p>
+          <img src="0057_HCA-1969-25-G.jpg" ref="p_00069" title="Illustrator: Oskar Klever. 1948. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00069">‘You can also have too much of a good thing!’ <hi rend="italic">Wee Willie Winkie</hi> said, ‘I would rather show you something, you see! I would like to show you my brother, he too is called <hi rend="italic">Willie Winkie</hi>, but he never comes more than once and when he comes he takes people off on his horse and tells them stories; he only knows two, one is so absolutely wonderful that no one in the world can imagine it, and the other is so nasty and cruel – well, it’s quite indescribable!’ and then <hi rend="italic">Wee Willie Winkie</hi> lifted little <hi rend="italic">Hjalmar</hi> up to the window and said, ‘there you can see my brother, the other <hi rend="italic">Willie Winkie</hi>! they also call him Death! you can see he doesn’t look at all as grim as in the picture books, where he’s nothing but bones! no, he’s got silver embroidery on his dress coat: it’s the finest hussar uniform! a cloak of black velvet billows out behind him over his horse! see how he rides at a gallop.’</p>
+          <p rend="firstIndent" xml:id="p_00070">And <hi rend="italic">Hjalmar</hi> saw how that <hi rend="italic">Willie Winkie</hi> rode off, scooping both young and old up onto his horse, some he sat in front of him, others behind, but he always asked them first, ‘how are things in your mark book?’ – ‘Fine!’ they all answered; ‘well, let me see for myself!’ he said, and then they had to show him their book; and all of those who had ‘<hi rend="italic">very good</hi>’ and ‘<hi rend="italic">excellent</hi>’ were placed in front of him on the horse and were told the lovely story, but those who had ‘<hi rend="italic">quite good</hi>’ or ‘<hi rend="italic">poor</hi>’ had to sit behind and were given the nasty story; they quaked and they wept, they wanted to leap off the horse, but they simply couldn’t, for they had immediately become rooted to it.</p>
+          <p rend="firstIndent" xml:id="p_00071">‘But Death is the loveliest <hi rend="italic">Willie Winkie</hi>!’ <hi rend="italic">Hjalmar</hi> said, ‘I’m not afraid of <hi rend="italic">him</hi>!’</p>
+          <p rend="firstIndent" xml:id="p_00072">‘Nor should you be!’ said <hi rend="italic">Wee Willie Winkie</hi>, ‘just make sure your mark book is in order!’</p>
+          <p rend="firstIndent" xml:id="p_00073">‘Yes, most instructive that!’ great grandfather’s portrait muttered, ‘stating one’s opinion really does help!’ and then he was content.</p>
+          <p rend="firstIndent" xml:id="p_00074">Well now, that was the story of <hi rend="italic">Wee Willie Winkie</hi>! And so it’s his turn tonight to tell you some more stories!</p>
+     </div>
+               
+</div></body>
+                         </text>
+                    </TEI>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="../css/oxyAuthorEditMinimumHCA.css"?><?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Småhistorier</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability default="false">
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/" part="N">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p part="N">Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date instant="false">2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc default="false">
+                                             <listBibl default="false">
+                                                  <bibl default="false" status="draft">
+                                                             
+          
+      </bibl>
+                                                  <biblStruct default="false" status="draft">
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName instant="false" full="yes">
+                                                                 <forename full="yes">Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname full="yes">Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date instant="false">2003-2008</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">:</biblScope>
+                                                       <date when="" instant="false"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="smaahistorier.xml" type="originalDanish" anchored="true">dansk førsteudgave</note>
+                                                       
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl default="false" status="draft">
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiografies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData default="false"/>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date instant="false">1836</date>
+                                        </creation>
+                                        <textClass default="false">
+                                             <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary">
+                                                  
+                         <term>had</term>
+                         <term>kærlighed</term>
+                    
+                                             </keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row role="data" rows="1" cols="1">
+                                                       
+                                                            <cell ref="#det-er-dig-fabelen-sigter-til" level="2" role="data" rows="1" cols="1">hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</cell>
+                                                       
+                                                            <cell ref="#1-det-er-dig-fabelen-sigter-til" level="2" role="data" rows="1" cols="1">1. Det er Dig, Fabelen sigter til!</cell>
+                                                       
+                                                            <cell ref="#talismanen" level="2" role="data" rows="1" cols="1">hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</cell>
+                                                       
+                                                            <cell ref="#2-talismanen" level="2" role="data" rows="1" cols="1">2. Talismanen</cell>
+                                                       
+                                                            <cell ref="#den-gamle-gud-lever-endnu" level="2" role="data" rows="1" cols="1">hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</cell>
+                                                       
+                                                            <cell ref="#3-den-gamle-gud-lever-endnu" level="2" role="data" rows="1" cols="1">3. Den gamle Gud lever endnu</cell>
+                                                       
+                                                            <cell ref="#hans-og-grethe" level="2" role="data" rows="1" cols="1">hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</cell>
+                                                       
+                                                            <cell ref="#4-hans-og-grethe" level="2" role="data" rows="1" cols="1">4. Hans og Grethe</cell>
+                                                       
+                                                            <cell ref="#de-blaae-bjerge" level="2" role="data" rows="1" cols="1">hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</cell>
+                                                       
+                                                            <cell ref="#5-de-blaae-bjerge" level="2" role="data" rows="1" cols="1">5. De blå Bjerge</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             <floatingTextsRankedAsWorks>
+                                                  
+                                                            <separateWork>
+                                                                 <title>hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                                                 <section>det-er-dig-fabelen-sigter-til</section>
+                                                                 
+                                                                 <date instant="false">1836</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                                                 <section>talismanen</section>
+                                                                 
+                                                                 <date instant="false">1836</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                                                 <section>den-gamle-gud-lever-endnu</section>
+                                                                 
+                                                                 <date instant="false">1836</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                                                 <section>hans-og-grethe</section>
+                                                                 
+                                                                 <date instant="false">1836</date>
+                                                       </separateWork>
+                                                            <separateWork>
+                                                                 <title>hverken @rend eller @type ved div-elementet. Indføj alternativ overskrift i kildefilen</title>
+                                                            <catRef scheme="#tax.Mortensen" target="#tale"/>
+                                                                 <section>de-blåe-bjerge</section>
+                                                                 
+                                                                 <date instant="false">1836</date>
+                                                       </separateWork>
+                                                  
+                                             </floatingTextsRankedAsWorks>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc status="draft">
+                                        <change when="2023-07-23" xml:id="NHB" who="NHB" status="draft">docx2xml</change><change when="2023-07-23" who="NHB" status="draft">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøjet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25" status="draft">diff indtil De vilde Svaner</change>
+                                        <change who="NHB" when="2023-07-27" status="draft">extrakted from larger file with entire volume</change>
+                                   </revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Smaahistorier" xml:id="smaahistorier" part="N" org="uniform" sample="complete">
+<pb n="142"/><head type="main">Småhistorier</head>
+<head type="part">(Efter det ty<?oxy_delete author="as" timestamp="20230830T174155+0200" content="d"?>ske<note type="footnote" anchored="true"><!--* --><p rend="noIndent" xml:id="p_00001" part="N"><!--* --><?oxy_delete author="as" timestamp="20230830T174204+0200" content="f"?><?oxy_insert_start author="as" timestamp="20230830T174204+0200"?>F<?oxy_insert_end?>orfatterens navn vides ikke.</p></note>)</head>
+<floatingText xml:id="det-er-dig-fabelen-sigter-til">
+<div type="work" rend="1. Det er Dig, Fabelen sigter til!" xml:id="1-det-er-dig-fabelen-sigter-til" part="N" org="uniform" sample="complete">
+<head type="main">1. <seg target="txtcmnt-142-01" part="N"><!--DATA-TERM: Det er Dig … til--><!--DATA-DEFINITION: titlen er oversat fra den romerske digter Horats’ (65-8 f.Kr.) <i>Satirer</i>, 1, 1, 69-70, hvor den på latin lyder således: »de te fabula narratur« (»historien fortælles om dig«).-->Det er dig<?oxy_delete author="as" timestamp="20230830T174237+0200" content=","?> <?oxy_delete author="as" timestamp="20230830T174236+0200" content="F"?><?oxy_insert_start author="as" timestamp="20230830T174235+0200"?>f<?oxy_insert_end?>abelen sigter til</seg>!</head>
+
+<p rend="noIndent" xml:id="p_00002" part="N">Oldtidens vise ha<?oxy_insert_start author="as" timestamp="20230830T175957+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T175956+0200" content="ve"?> snildt opfundet<?oxy_delete author="as" timestamp="20230830T175809+0200" content=","?> hvorledes man, uden at være folk grov lige op i ansigtet, <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> sige dem sandheden. De holdt nemlig foran dem et sælsomt spejl<?oxy_delete author="as" timestamp="20230830T180043+0200" content=","?> i hvilket alle slags dyr og forunderlige ting kom til<?oxy_insert_start author="as" timestamp="20230830T180041+0200"?> <?oxy_insert_end?>syne og frembragte et lige så morende som opbyggeligt skue. Det kaldte de en fabel, og hvad tåbeligt eller klogt nu dyrene d<?oxy_delete author="as" timestamp="20230830T180116+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T180117+0200"?>é<?oxy_insert_end?>r udrettede<?oxy_insert_start author="as" timestamp="20230830T180122+0200"?>,<?oxy_insert_end?> måtte menneskene føre over på sig og derved tænke: Det er dig <seg target="txtcmnt-142-02" part="N"><!--DATA-TERM: Fabel(en)--><!--DATA-DEFINITION: kort, belærende fortælling, hvor dyr, planter eller ting personificerer menneskelige dyder og laster.--><?oxy_delete author="as" timestamp="20230830T180129+0200" content="F"?><?oxy_insert_start author="as" timestamp="20230830T180128+0200"?>f<?oxy_insert_end?>abelen</seg> sigter til! Således <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> nu ingen blive vred derover. Vi <?oxy_delete author="as" timestamp="20230830T180016+0200" content="ville"?><?oxy_insert_start author="as" timestamp="20230830T180016+0200"?>vil<?oxy_insert_end?> tage et e<?oxy_delete author="as" timestamp="20230830T180518+0200" content="x"?><?oxy_insert_start author="as" timestamp="20230830T180518+0200"?>ks<?oxy_insert_end?>empel:</p>
+
+<p rend="firstIndent" xml:id="p_00003" part="N">Der var to høje bjerge, og øverst oppe på hvert bjerg stod et slot. Nede i dalen løb en hund, den snusede hen<?oxy_insert_start author="as" timestamp="20230830T180602+0200"?> <?oxy_insert_end?>ad jorden ligesom om den, for at stille hungeren, søgte efter mus eller agerhøns. Da klang med ét<?oxy_delete author="as" timestamp="20230830T180636+0200" content=","?> fra det ene slot<?oxy_delete author="as" timestamp="20230830T180639+0200" content=","?> trompeten<?oxy_delete author="as" timestamp="20230830T180652+0200" content=","?> som forkyndte<?oxy_delete author="as" timestamp="20230830T180654+0200" content=","?> at man nu <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> der til bords. Hunden løb straks op ad bjerget for at få lidt med, men i<?oxy_delete author="as" timestamp="20230830T180721+0200" content=" "?>det den var kommet halvvejen, holdt trompeterne op at blæse, og en trompet fra det andet slot begyndte. Da tænkte hunden<?oxy_insert_start author="as" timestamp="20230830T180753+0200"?>:<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T180754+0200" content=","?> <?oxy_insert_start author="as" timestamp="20230830T180802+0200"?>»<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T180803+0200" content="h"?><?oxy_insert_start author="as" timestamp="20230830T180803+0200"?>H<?oxy_insert_end?>er har man nu <seg target="txtcmnt-142-04" part="N"><!--DATA-TERM: afspist--><!--DATA-DEFINITION: afsluttet spisningen.-->afspist</seg> før jeg kommer, men derovre vil man nu først til at spise<?oxy_insert_start author="as" timestamp="20230830T180815+0200"?>.«<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T180821+0200" content=";"?> <?oxy_delete author="as" timestamp="20230830T180822+0200" content="d"?><?oxy_insert_start author="as" timestamp="20230830T180822+0200"?>D<?oxy_insert_end?>en løb derfor ned igen og op<?oxy_insert_start author="as" timestamp="20230830T180902+0200"?> <?oxy_insert_end?>ad det andet bjerg. Men nu begyndte igen trompeten på det første sted, derimod holdt den anden op. Hunden løb igen ned<?oxy_delete author="as" timestamp="20230830T180914+0200" content=" "?>ad, og igen opad<?oxy_delete author="as" timestamp="20230830T180922+0200" content=","?> og blev således ved<?oxy_delete author="as" timestamp="20230830T180930+0200" content=","?> til endelig begge trompeter tav stille, og måltidet var endt på hvilket sted den kom.</p>
+
+<p rend="firstIndent" xml:id="p_00004" part="N">Gæt nu engang<?oxy_delete author="as" timestamp="20230830T180939+0200" content=","?> hvad <seg target="txtcmnt-142-03" part="N"><!--DATA-TERM: Oldtidens Vise--><!--DATA-DEFINITION: sigter formodentlig til genrens grundlægger, den græske digter Æsop (midten af 500-tallet f.Kr.), hvis fabler er overleveret i gendigtning af den romerske digter Phædrus (ca. 15 f.Kr.-50 e.Kr.); sigter måske også til franskmanden La Fontaine (1621-1695), som genoptager den antikke genre med sine <i>Fables</i>, 1668 ff.-->oldtidens vise</seg> <?oxy_delete author="as" timestamp="20230831T083858+0200" content="ville"?><?oxy_insert_start author="as" timestamp="20230831T083858+0200"?>vil<?oxy_insert_end?> sige med denne <?oxy_delete author="as" timestamp="20230830T181013+0200" content="F"?><?oxy_insert_start author="as" timestamp="20230830T181012+0200"?>f<?oxy_insert_end?>abel<?oxy_insert_start author="as" timestamp="20230830T180958+0200"?>,<?oxy_insert_end?> og hvem der er den nar<?oxy_delete author="as" timestamp="20230830T181016+0200" content=","?> som således løber sig træt uden at vinde, hverken her eller der.</p>
+
+</div>
+</floatingText>
+<floatingText xml:id="talismanen">
+<div type="work" rend="2. Talismanen" xml:id="2-talismanen" part="N" org="uniform" sample="complete">
+<head type="main">2. <seg target="txtcmnt-142-05" part="N"><!--DATA-TERM: Talisman(en)--><!--DATA-DEFINITION: genstand med, beskyttende eller lykkebringende kraft.-->Talismanen</seg></head>
+
+<p rend="noIndent" xml:id="p_00005" part="N">En prins og en prinsesse levede endnu i deres hvedebrødsdage. De følte sig så overordentlig lykkelige; kun én <pb n="143"/>tanke foruroligede dem, det var den: Mon vi <seg target="txtcmnt-143-01" part="N"><!--DATA-TERM: alletider blive--><!--DATA-DEFINITION: forbliver.-->alletider blive<?oxy_insert_start author="as" timestamp="20230830T181123+0200"?>r<?oxy_insert_end?></seg> så lykkelige<?oxy_delete author="as" timestamp="20230830T181125+0200" content=","?> som nu<?oxy_delete author="as" timestamp="20230830T181128+0200" content="."?><?oxy_insert_start author="as" timestamp="20230830T181128+0200"?>?<?oxy_insert_end?> Derfor ønskede de at eje en talisman<?oxy_delete author="as" timestamp="20230830T181146+0200" content=","?> ved hvilken de <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> sikre sig imod enhver utilfredshed i ægtestanden. Nu havde de ofte hørt tale om en mand<?oxy_delete author="as" timestamp="20230830T181201+0200" content=","?> som boede ude i skoven<?oxy_insert_start author="as" timestamp="20230830T181216+0200"?>,<?oxy_insert_end?> og af alle folk var anset for sin visdom<?oxy_insert_start author="as" timestamp="20230830T181229+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T181231+0200" content="; i"?><?oxy_insert_start author="as" timestamp="20230830T181231+0200"?> I<?oxy_insert_end?> enhver nød og forlegenhed vidste han at råde til det bedste. Prinsen og prinsessen begav<?oxy_delete author="as" timestamp="20230830T181245+0200" content="e"?> sig ud til ham og fortalte hvad der lå dem på hjertet. Da den vise mand havde hørt det, svarede han: »Rejs igennem alle verdens lande, og hvor I da træffe<?oxy_insert_start author="as" timestamp="20230830T181304+0200"?>r<?oxy_insert_end?> et par ret tilfredse ægtefolk, bed<?oxy_delete author="as" timestamp="20230830T181310+0200" content="er"?> dem om et lille stykke af det linned<?oxy_delete author="as" timestamp="20230830T181318+0200" content=","?> de ha<?oxy_insert_start author="as" timestamp="20230830T181319+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T181320+0200" content="ve"?> på kroppen<?oxy_insert_start author="as" timestamp="20230830T181327+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T181329+0200" content=", n"?><?oxy_insert_start author="as" timestamp="20230830T181329+0200"?> N<?oxy_insert_end?>år I få<?oxy_insert_start author="as" timestamp="20230830T181332+0200"?>r<?oxy_insert_end?> det, så bær<?oxy_delete author="as" timestamp="20230830T181334+0200" content="er"?> det altid på eder. Det er et <seg target="txtcmnt-143-02" part="N"><!--DATA-TERM: probat--><!--DATA-DEFINITION: virkningsfuldt.-->probat</seg> middel.«</p>
+
+<p rend="firstIndent" xml:id="p_00006" part="N">Prinsen og prinsessen red<?oxy_delete author="as" timestamp="20230830T181349+0200" content="e"?> af sted<?oxy_insert_start author="as" timestamp="20230830T181352+0200"?>,<?oxy_insert_end?> og snart hørte de en riddersmand nævne<?oxy_delete author="as" timestamp="20230830T181412+0200" content=","?> der med sin kone <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> leve det allerlykkeligste liv. De kom op på slottet, spurgte dem selv ad<?oxy_delete author="as" timestamp="20230830T181438+0200" content=","?> om de i deres ægteskab var så særdeles tilfredse<?oxy_delete author="as" timestamp="20230830T181442+0200" content=","?> som rygtet sagde<?oxy_insert_start author="as" timestamp="20230830T181502+0200"?>:<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T181502+0200" content="."?> »Ja<?oxy_delete author="as" timestamp="20240105T100211+0100" content=" "?>vist!« blev der svaret, »på det ene nær<?oxy_delete author="as" timestamp="20230830T181509+0200" content=","?> at vi har ingen børn!« Her var altså talismanen ikke at finde, og prinsen og prinsessen måtte rejse videre for at opsøge fuldkommen tilfredse ægtefolk.</p>
+
+<p rend="firstIndent" xml:id="p_00007" part="N">De kom derpå til en stad<?oxy_delete author="as" timestamp="20230830T181546+0200" content=","?> i hvilken, hørte de, boede en ærlig borgermand<?oxy_delete author="as" timestamp="20230830T181555+0200" content=","?> der med sin kone levede i største <seg target="txtcmnt-143-03" part="N"><!--DATA-TERM: Eendrægtighed--><!--DATA-DEFINITION: enighed, fordragelighed.-->endrægtighed</seg> og tilfredshed. Til ham gik de hen og spurgte ligeledes<?oxy_delete author="as" timestamp="20230830T181604+0200" content=","?> om han i sit ægteskab virkelig var så lykkelig<?oxy_delete author="as" timestamp="20230830T181610+0200" content=","?> som folk sagde. »Ja, det er jeg!« svarede manden, »min kone og jeg leve<?oxy_insert_start author="as" timestamp="20230830T181619+0200"?>r<?oxy_insert_end?> det bedste liv med hinanden, havde vi kun ikke så mange børn, de give<?oxy_insert_start author="as" timestamp="20230830T181630+0200"?>r<?oxy_insert_end?> os megen sorg og bekymring!« <?oxy_delete author="as" timestamp="20230830T181636+0200" content="– "?>Hos ham var altså heller ikke talismanen at finde, og prinsen og prinsessen rejste videre igennem landet, spurgte allevegne efter tilfredse ægtefolk, men ingen meldte sig.</p>
+
+<p rend="firstIndent" xml:id="p_00008" part="N">En dag<?oxy_delete author="as" timestamp="20230830T181710+0200" content=","?> som de red<?oxy_delete author="as" timestamp="20230830T181711+0200" content="e"?> langs mark og eng, <seg target="txtcmnt-143-04" part="N"><!--DATA-TERM: bleve de vaer--><!--DATA-DEFINITION: blev de opmærksomme på.-->blev<?oxy_delete author="as" timestamp="20230830T181713+0200" content="e"?> de var</seg><?oxy_delete author="as" timestamp="20230830T181727+0200" content=","?> ikke langt fra vejen<?oxy_delete author="as" timestamp="20230830T181814+0200" content=","?> en hyrde<?oxy_delete author="as" timestamp="20230830T181856+0200" content=","?> som nok så lystigt blæste på <seg target="txtcmnt-143-05" part="N"><!--DATA-TERM: Skalmeie--><!--DATA-DEFINITION: fløjte af pile- eller hyldegren.-->skalme<?oxy_delete author="as" timestamp="20230830T181830+0200" content="i"?><?oxy_insert_start author="as" timestamp="20230830T181830+0200"?>j<?oxy_insert_end?>e</seg>. På samme tid så de<?oxy_delete author="as" timestamp="20230830T181912+0200" content=","?> komme hen til ham en kone med et barn på armen og en lille dreng ved hånden. Så snart hyrden så hende, gik han hende i møde, hilste og tog det lille barn, som han kyssede og kælede for. Hyrdens hund kom hen til drengen, slikkede hans lille hånd, gøede og sprang i vejret af glæde. Imidlertid satte konen til<?oxy_insert_start author="as" timestamp="20230830T182002+0200"?> <?oxy_insert_end?>rette <seg target="txtcmnt-143-06" part="N"><!--DATA-TERM: Potten--><!--DATA-DEFINITION: gryden.-->potten</seg><?oxy_delete author="as" timestamp="20230830T182005+0200" content=","?> hun havde bragt med og sagde: »Fa<?oxy_insert_start author="as" timestamp="20230830T182012+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182013+0200" content="’er"?>, kom nu og spis!« Manden satte sig og tog for sig af retterne, men den første bid fik det lille barn, den anden delte han med drengen og hunden. Alt dette så og hørte prinsen og prinsessen<?oxy_insert_start author="as" timestamp="20230830T182041+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182042+0200" content=", d"?><?oxy_insert_start author="as" timestamp="20230830T182042+0200"?> D<?oxy_insert_end?>e <pb n="144"/>gik nu nærmere, talte til dem og sagde: »I er dog ret hvad man kalder lykkelige og tilfredse ægtefolk?«</p>
+
+<p rend="firstIndent" xml:id="p_00009" part="N">»Ja, det er vi!« svarede manden, »Gud være lovet! Ingen prins og prinsesse <?oxy_delete author="as" timestamp="20240105T094910+0100" content="kunne"?><?oxy_insert_start author="as" timestamp="20240105T094910+0100"?>kan<?oxy_insert_end?> mere være det<?oxy_delete author="as" timestamp="20230830T182100+0200" content=","?> end vi!«</p>
+
+<p rend="firstIndent" xml:id="p_00010" part="N">»Nu så hør,« sagde prinsen, »vis os en villighed<?oxy_delete author="as" timestamp="20230830T182120+0200" content=","?> som I ikke <?oxy_delete author="as" timestamp="20240105T094903+0100" content="skulle"?><?oxy_insert_start author="as" timestamp="20240105T094903+0100"?>skal<?oxy_insert_end?> komme til at fortryde. Giv os et lille stykke af det linned<?oxy_delete author="as" timestamp="20230830T182133+0200" content=","?> I ha<?oxy_insert_start author="as" timestamp="20230830T182134+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182135+0200" content="ve"?> på kroppen!«</p>
+
+<p rend="firstIndent" xml:id="p_00011" part="N">Ved denne tiltale så hyrden og hans kone underligt på hinanden<?oxy_delete author="as" timestamp="20230830T182152+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230830T182152+0200"?>.<?oxy_insert_end?> <?oxy_delete author="as" timestamp="20230830T182154+0200" content="t"?><?oxy_insert_start author="as" timestamp="20230830T182154+0200"?>T<?oxy_insert_end?>il sidst sagde han: »Gud ved, gerne <?oxy_delete author="as" timestamp="20230830T182203+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T182203+0200"?>ville<?oxy_insert_end?> vi give eder, og det ikke blot et lille stykke men endogså hele skjorten og <seg target="txtcmnt-144-01" part="N"><!--DATA-TERM: Særk(en)--><!--DATA-DEFINITION: løsthængende underbeklædning for kvinder, chemise.-->særken</seg>, havde vi bare nogen, men vi eje<?oxy_insert_start author="as" timestamp="20230830T182231+0200"?>r<?oxy_insert_end?> ikke en trevl!«</p>
+
+<p rend="firstIndent" xml:id="p_00012" part="N">Så måtte da prinsen og prinsessen med uforrettet sag rejse videre. Endelig<?oxy_delete author="as" timestamp="20230831T082709+0200" content="en"?> blev de kede af denne lange forgæves omflakken og vendte derfor hjemad. Da de nu kom forbi den vise mands hytte, skændte de på ham<?oxy_delete author="as" timestamp="20230830T182347+0200" content=","?> fordi han havde givet dem et så dårligt råd. Hele deres rejse<?oxy_delete author="as" timestamp="20230830T182352+0200" content="-"?>historie fik han at vide.</p>
+
+<p rend="firstIndent" xml:id="p_00013" part="N">Da smilede den vise mand og sagde: »Ha<?oxy_insert_start author="as" timestamp="20230830T182357+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182358+0200" content="ve"?> I virkelig<?oxy_delete author="as" timestamp="20230830T182442+0200" content="t"?> rejst så forgæves? Komme<?oxy_insert_start author="as" timestamp="20230830T182444+0200"?>r<?oxy_insert_end?> I ikke hjem<?oxy_delete author="as" timestamp="20230830T182448+0200" content=","?> rige på erfaring?«</p>
+
+<p rend="firstIndent" xml:id="p_00014" part="N">»Ja,« svarede prinsen, »det har jeg erfaret<?oxy_delete author="as" timestamp="20230830T182458+0200" content=","?> at tilfredshed er et sjældent gode på denne jord!«</p>
+
+<p rend="firstIndent" xml:id="p_00015" part="N">»Og jeg har lært,« sagde prinsessen, »at man<?oxy_delete author="as" timestamp="20230830T182508+0200" content=","?> for at være tilfreds<?oxy_delete author="as" timestamp="20230830T182512+0200" content=","?> behøver ikke andet<?oxy_delete author="as" timestamp="20230830T182514+0200" content=","?> end netop – at være tilfreds!«</p>
+
+<p rend="firstIndent" xml:id="p_00016" part="N">Derpå gav prinsen prinsessen hånden, så på hinanden med et udtryk af den inderligste kærlighed, og den vise mand velsignede dem og sagde: »I eders hjerte ha<?oxy_insert_start author="as" timestamp="20230830T182538+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182540+0200" content="ve"?> I fundet den sande talisman! Vogt den omhyggeligt, og aldrig i evighed skal da utilfredshedens onde ånd få magt over eder!«</p>
+</div>
+                         
+</floatingText>
+<floatingText xml:id="den-gamle-gud-lever-endnu">
+<div type="work" rend="3. Den gamle Gud lever endnu" xml:id="3-den-gamle-gud-lever-endnu" part="N" org="uniform" sample="complete">
+<head type="main">3. Den gamle Gud lever endnu</head>
+
+<p rend="noIndent" xml:id="p_00017" part="N">Det var en søndag<?oxy_insert_start author="as" timestamp="20230830T182552+0200"?> <?oxy_insert_end?>morgen. Solen skinnede klart og varmt ind i stuen<?oxy_insert_start author="as" timestamp="20230830T182600+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182603+0200" content="; m"?><?oxy_insert_start author="as" timestamp="20230830T182603+0200"?> M<?oxy_insert_end?>ild og forfriskende strømmede luften ind ad det åbne vindue<?oxy_insert_start author="as" timestamp="20230830T182616+0200"?>,<?oxy_insert_end?> og ude under Guds blå himmel, hvor mark og eng stod med grønt og blomster, jublede alle småfuglene. Mens udenfor overalt var glæde og lyst, boede sorg og elendighed inde i huset. Selv konen, som dog ellers altid var ved godt mod, sad denne dag ved frokosten og så bedrøvet ned for sig<?oxy_insert_start author="as" timestamp="20230830T182657+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182658+0200" content="; e"?><?oxy_insert_start author="as" timestamp="20230830T182658+0200"?> E<?oxy_insert_end?>ndelig rejste hun sig op<?oxy_delete author="as" timestamp="20230830T182702+0200" content=","?> uden endnu at have smagt en bid, tørrede sine øjne og gik hen<?oxy_insert_start author="as" timestamp="20230830T182711+0200"?> <?oxy_insert_end?>imod døren.</p>
+
+<p rend="firstIndent" xml:id="p_00018" part="N">Det syntes virkelig<?oxy_delete author="as" timestamp="20230831T082323+0200" content="t"?> også<?oxy_delete author="as" timestamp="20230830T182742+0200" content=","?> som lå der en forbandelse over dette hus. Dyrtid var der i landet<?oxy_delete author="as" timestamp="20230830T182805+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230830T182806+0200"?>,<?oxy_insert_end?> med næringen gik det dårligt<?oxy_delete author="as" timestamp="20230830T182809+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230830T182809+0200"?>,<?oxy_insert_end?> skatterne blev mere og mere trykkende<?oxy_delete author="as" timestamp="20230830T182816+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230830T182816+0200"?>,<?oxy_insert_end?> år for år <pb n="145"/><pb n="146"/><pb n="147"/>forfaldt <seg target="txtcmnt-147-01" part="N"><!--DATA-TERM: Huusvæsenet--><!--DATA-DEFINITION: husholdningen.-->h<?oxy_delete author="as" timestamp="20230830T182823+0200" content="u"?>usvæs<?oxy_delete author="as" timestamp="20230830T182825+0200" content="e"?>net</seg>, og der var til sidst ikke andet her at forudse<?oxy_delete author="as" timestamp="20230830T182838+0200" content=","?> end armod og elendighed. Alt dette havde i lang tid nedtrykt manden, som ellers var en flittig og ordentlig borger<?oxy_insert_start author="as" timestamp="20230830T182856+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182857+0200" content="; n"?><?oxy_insert_start author="as" timestamp="20230830T182857+0200"?> N<?oxy_insert_end?>u fortvivlede han rent ved at tænke på fremtiden, ja y<?oxy_delete author="as" timestamp="20230830T182903+0200" content="t"?>trede endogså mangen gang<?oxy_delete author="as" timestamp="20230830T182906+0200" content=","?> at han <?oxy_delete author="as" timestamp="20230830T175856+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175856+0200"?>ville<?oxy_insert_end?> gøre en ulykke på sig selv og således have ende på dette sit elendige, trøste<?oxy_insert_start author="as" timestamp="20230831T084709+0200"?>s<?oxy_insert_end?>løse liv. Hverken hjalp det<?oxy_delete author="as" timestamp="20230830T182918+0200" content=","?> hvad hans kone<?oxy_delete author="as" timestamp="20230830T182920+0200" content=","?> i sit gode humør<?oxy_delete author="as" timestamp="20230830T182922+0200" content=","?> sagde, ikke heller hans venners verdslige og åndelige trøstegrunde<?oxy_insert_start author="as" timestamp="20230830T182930+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T182931+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230830T182931+0200"?> H<?oxy_insert_end?>an blev herved kun endnu mere tavs og <?oxy_delete author="as" timestamp="20230830T182937+0200" content="sorrig"?><?oxy_insert_start author="as" timestamp="20230830T182937+0200"?>sorg<?oxy_insert_end?>fuld. Det er da let at indse<?oxy_delete author="as" timestamp="20230830T182941+0200" content=","?> at hans stakkels kone til sidst også måtte tabe modet. Dog med hendes sørgmodighed havde det en ganske anden beskaffenhed, som vi snart <?oxy_delete author="as" timestamp="20230830T182953+0200" content="skulle"?><?oxy_insert_start author="as" timestamp="20230830T182953+0200"?>skal<?oxy_insert_end?> høre.</p>
+
+<p rend="firstIndent" xml:id="p_00019" part="N">Da manden så<?oxy_delete author="as" timestamp="20230830T183010+0200" content=","?> at også hans kone sørgede<?oxy_insert_start author="as" timestamp="20230830T183021+0200"?>,<?oxy_insert_end?> og at hun <?oxy_delete author="as" timestamp="20230830T175857+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175857+0200"?>ville<?oxy_insert_end?> ud af stuen, holdt han hende tilbage og sagde: »Du slipper ikke bort før du siger mig<?oxy_delete author="as" timestamp="20230830T183034+0200" content=","?> hvad du fejler!«</p>
+
+<p rend="firstIndent" xml:id="p_00020" part="N">Hun tav endnu en stund, derpå drog hun et dybt suk og sagde: »Ak, kære mand, jeg har i denne nat drømt<?oxy_delete author="as" timestamp="20230830T183042+0200" content=","?> at den gamle Gud var død, og at alle englene fulgte ham til graven!«</p>
+
+<p rend="firstIndent" xml:id="p_00021" part="N">»Hvor kan du dog tro eller tænke sådan<?oxy_delete author="as" timestamp="20230830T183052+0200" content="t"?> dumt <seg target="txtcmnt-147-02" part="N"><!--DATA-TERM: Tøi--><!--DATA-DEFINITION: vrøvl.-->tø<?oxy_delete author="as" timestamp="20230830T183055+0200" content="i"?><?oxy_insert_start author="as" timestamp="20230830T183055+0200"?>j<?oxy_insert_end?></seg>!« svarede manden. »Ved du ikke nok<?oxy_delete author="as" timestamp="20240105T094805+0100" content=","?> Gud kan aldrig dø!«</p>
+
+<p rend="firstIndent" xml:id="p_00022" part="N">Da strålede den gode kones ansigt af glæde, og i<?oxy_delete author="as" timestamp="20230830T183109+0200" content=" "?>det hun kærligt trykkede begge mandens hænder, udbrød hun: »Altså lever den gamle Gud endnu!«</p>
+
+<p rend="firstIndent" xml:id="p_00023" part="N">»Ja<?oxy_delete author="as" timestamp="20240105T094720+0100" content=" "?>vist!« svarede manden, »hvo vil tvivle om det!«</p>
+
+<p rend="firstIndent" xml:id="p_00024" part="N">Da omfavnede hun ham, så på ham med <seg target="txtcmnt-147-03" part="N"><!--DATA-TERM: huldsalige--><!--DATA-DEFINITION: inderligt tilfredse, lykkelige.-->huldsalige</seg> øjne<?oxy_delete author="as" timestamp="20230830T183207+0200" content=","?> der strålede af tillid, fred og glæde<?oxy_delete author="as" timestamp="20230830T183210+0200" content=","?> i<?oxy_delete author="as" timestamp="20230830T183209+0200" content=" "?>det hun sagde: »Ih nu, kære mand! Når den gamle Gud lever endnu, hvorfor tro<?oxy_insert_start author="as" timestamp="20230830T183220+0200"?>r<?oxy_insert_end?> og stole<?oxy_insert_start author="as" timestamp="20230830T183221+0200"?>r<?oxy_insert_end?> vi da ikke på ham<?oxy_delete author="as" timestamp="20230830T183228+0200" content="!"?><?oxy_insert_start author="as" timestamp="20230830T183228+0200"?>?<?oxy_insert_end?> Han har talt hvert hår på vort hoved, ikke ét falder af uden hans vilje<?oxy_delete author="as" timestamp="20230830T183251+0200" content=","?><?oxy_insert_start author="as" timestamp="20230830T183253+0200"?>.<?oxy_insert_end?> <seg target="txtcmnt-147-04" part="N"><!--DATA-TERM: han klæder … Rov--><!--DATA-DEFINITION: hentydning til Matthæus 6,28 og Lukas 12,27.--><?oxy_delete author="as" timestamp="20230830T183255+0200" content="h"?><?oxy_insert_start author="as" timestamp="20230830T183255+0200"?>H<?oxy_insert_end?>an klæder liljerne på marken, giver spurvene deres føde og ravnene deres rov</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00025" part="N">Ved disse ord blev det for manden<?oxy_delete author="as" timestamp="20230830T183317+0200" content=","?> ligesom om der faldt en hinde fra hans øjne, og som om alle tunge bånd om hjertet løsnedes<?oxy_delete author="as" timestamp="20230830T183325+0200" content="; f"?><?oxy_insert_start author="as" timestamp="20230830T183325+0200"?>. F<?oxy_insert_end?>or første gang i lang tid<?oxy_delete author="as" timestamp="20230830T183329+0200" content=","?> smilede han og takkede sin fromme, kære kone for den list<?oxy_delete author="as" timestamp="20230830T183334+0200" content=","?> hvorved hun havde genoplivet hans døde tro på Gud og kaldt hans tillid tilbage. Da skinnede solen endnu venligere ind i stuen på tilfredse menneskers ansigt<?oxy_insert_start author="as" timestamp="20230830T183351+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T183353+0200" content=", l"?><?oxy_insert_start author="as" timestamp="20230830T183353+0200"?> L<?oxy_insert_end?>uften viftede mere <seg target="txtcmnt-147-05" part="N"><!--DATA-TERM: vederqvægende--><!--DATA-DEFINITION: oplivende.-->vederkvægende</seg> om smilet på deres kind, og fuglene jublede endnu lydeligere hjertets tak til Gud.</p>
+
+</div>
+</floatingText>
+<floatingText xml:id="hans-og-grethe">
+<div type="work" rend="4. Hans og Grethe" xml:id="4-hans-og-grethe" part="N" org="uniform" sample="complete">
+<head type="main">4. Hans og Grethe</head>
+
+<p rend="noIndent" xml:id="p_00026" part="N">To brødre ejede hver en herlig landejendom<?oxy_insert_start author="as" timestamp="20230830T183929+0200"?>,<?oxy_insert_end?> og da brødrene <pb n="148"/>var<?oxy_delete author="as" timestamp="20230830T183933+0200" content="e"?> nabo<?oxy_insert_start author="as" timestamp="20230830T183609+0200"?>e<?oxy_insert_end?>r, besøgte de ofte hinanden og talte om deres <seg target="txtcmnt-148-01" part="N"><!--DATA-TERM: Huusvæsen--><!--DATA-DEFINITION: husholdning.-->hu<?oxy_delete author="as" timestamp="20230830T183628+0200" content="u"?>svæsen</seg> og <seg target="txtcmnt-148-02" part="N"><!--DATA-TERM: Udkomme--><!--DATA-DEFINITION: livsfornødenheder, hvordan man klarer dagen og vejen.-->udkomme</seg><?oxy_insert_start author="as" timestamp="20230830T183942+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T183943+0200" content="; d"?><?oxy_insert_start author="as" timestamp="20230830T183943+0200"?> D<?oxy_insert_end?>en ene <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> ikke nok rose sin karls redelighed, den anden ikke nok sin piges snildhed. Nu havde den ældre <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?> en prægtig <!--DATA-TERM: Hengst--><!--DATA-DEFINITION: hingst.-->h<?oxy_delete author="as" timestamp="20230830T183612+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T183613+0200"?>i<?oxy_insert_end?>ngst på stalden, den yngre en smuk hoppe, begge af lige farve og størrelse. Den ene gang efter den anden<?oxy_delete author="as" timestamp="20230830T184003+0200" content=","?> drejede talen sig om disse dyr<?oxy_delete author="as" timestamp="20230830T184017+0200" content="; d"?><?oxy_insert_start author="as" timestamp="20230830T184018+0200"?>. D<?oxy_insert_end?>en ældre <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?> <?oxy_delete author="as" timestamp="20230830T175859+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175859+0200"?>ville<?oxy_insert_end?> købe hoppen, den yngre havde lyst til at få hingsten. Enige var de om at begge dyr burde ejes af én herre<?oxy_delete author="as" timestamp="20230830T184036+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230830T184036+0200"?>,<?oxy_insert_end?> men de kom aldrig til handel.</p>
+
+<p rend="firstIndent" xml:id="p_00027" part="N">Engang<?oxy_delete author="as" timestamp="20230830T184045+0200" content=","?> da de igen talte om denne sag, udbrød den yngste: »Nå! Jeg v<?oxy_delete author="as" timestamp="20230830T183640+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T183641+0200"?>æ<?oxy_insert_end?>dder at jeg dog, uden dit vidende, skal få hingsten<?oxy_insert_start author="as" timestamp="20230830T184109+0200"?>,<?oxy_insert_end?> og at din redelige karl selv fører den til mig!«</p>
+
+<p rend="noIndent" xml:id="p_00028" part="N">»Og jeg vædder,« sagde den ældre, »min hingst mod din hoppe<?oxy_delete author="as" timestamp="20230830T184125+0200" content=","?> at det sker ikke, thi om selv karlen stjal den<?oxy_insert_start author="as" timestamp="20230830T184133+0200"?>,<?oxy_insert_end?> <?oxy_delete author="as" timestamp="20230830T175900+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175900+0200"?>ville<?oxy_insert_end?> han sige mig det!«</p>
+
+<p rend="firstIndent" xml:id="p_00029" part="N">»Nå, det tror du!« sagde den yngre.</p>
+
+<p rend="firstIndent" xml:id="p_00030" part="N">»Ja<?oxy_insert_start author="as" timestamp="20230830T184139+0200"?>,<?oxy_insert_end?> jeg er vis på hans ærlighed!«</p>
+
+<p rend="firstIndent" xml:id="p_00031" part="N">V<?oxy_delete author="as" timestamp="20230830T183644+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T183644+0200"?>æ<?oxy_insert_end?>ddemålet blev sluttet<?oxy_insert_start author="as" timestamp="20230830T184144+0200"?>,<?oxy_insert_end?> og brødrene forlod<?oxy_delete author="as" timestamp="20230830T183646+0200" content="e"?> hinanden.</p>
+
+<p rend="firstIndent" xml:id="p_00032" part="N">Næste morgen kaldte den ældre <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?> på sin pige og fortalte hende hvad han og <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?>en havde v<?oxy_delete author="as" timestamp="20230830T184153+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T184153+0200"?>æ<?oxy_insert_end?>ddet om: »Nu stoler jeg på din snildhed!«</p>
+
+<p rend="firstIndent" xml:id="p_00033" part="N">»Lad mig om det!« sagde Grethe og gik endnu samme aften over til karlen.</p>
+
+<p rend="firstIndent" xml:id="p_00034" part="N">»God<?oxy_delete author="as" timestamp="20230830T183908+0200" content=" "?>aften<?oxy_insert_start author="as" timestamp="20230830T183910+0200"?>,<?oxy_insert_end?> Hans!«</p>
+
+<p rend="firstIndent" xml:id="p_00035" part="N">»Tak, lille Grethe!«</p>
+
+<p rend="firstIndent" xml:id="p_00036" part="N">»Altid flittig!«</p>
+
+<p rend="firstIndent" xml:id="p_00037" part="N">»Ja, det er ens pligt og skyldighed!«</p>
+
+<p rend="firstIndent" xml:id="p_00038" part="N">»Jeg har hørt fortælle at din stald skal være så net<?oxy_delete author="as" timestamp="20230830T183918+0200" content=","?> som et dukkeskab. Det gad jeg dog nok se!«</p>
+
+<p rend="firstIndent" xml:id="p_00039" part="N">Hans følte sig smigret og bad hende træde indenfor. Hun roste hvad der var at rose, og hjalp ham med hvad han endnu havde at bestille.</p>
+
+<p rend="firstIndent" xml:id="p_00040" part="N">»Den Grethe<?oxy_delete author="as" timestamp="20230830T184238+0200" content=","?> er dog en køn og flink pige!« tænkte Hans.<?oxy_delete author="as" timestamp="20230830T184254+0200" content=" –"?></p>
+<p rend="firstIndent" xml:id="p_00041" part="N"><?oxy_delete author="as" timestamp="20230830T184300+0200" content="– d"?><?oxy_insert_start author="as" timestamp="20230830T184300+0200"?>D<?oxy_insert_end?>agen derpå, det var en lø<?oxy_delete author="as" timestamp="20230830T183842+0200" content="ve"?>rdag, kom Grethe igen.</p>
+
+<p rend="firstIndent" xml:id="p_00042" part="N">»God<?oxy_delete author="as" timestamp="20230830T184306+0200" content=" "?>aften Hans!«</p>
+
+<p rend="firstIndent" xml:id="p_00043" part="N">»Tak<?oxy_insert_start author="as" timestamp="20230830T184307+0200"?>,<?oxy_insert_end?> lille Grethe!«</p>
+
+<p rend="firstIndent" xml:id="p_00044" part="N">»Du bliver da ikke vred over<?oxy_delete author="as" timestamp="20230830T184311+0200" content=","?> at jeg kommer her i dag igen?«</p>
+
+<p rend="firstIndent" xml:id="p_00045" part="N">»Nej, hvor kan du falde på det!«</p>
+
+<p rend="firstIndent" xml:id="p_00046" part="N">»Har du allerede friaften?«</p>
+
+<p rend="firstIndent" xml:id="p_00047" part="N">»Ja<?oxy_insert_start author="as" timestamp="20230830T184319+0200"?>,<?oxy_insert_end?> jeg er færdig med alting! Jeg har rappet mig! For<?oxy_delete author="as" timestamp="20230830T184327+0200" content=","?> ved du hvad, jeg tænkte<?oxy_delete author="as" timestamp="20230830T184330+0200" content=","?> som så<?oxy_delete author="as" timestamp="20230830T184335+0200" content=","?> måske at lille Grethe kommer herover!«</p>
+
+<pb n="149"/><p rend="firstIndent" xml:id="p_00048" part="N">De satte sig ned og <seg target="txtcmnt-149-01" part="N"><!--DATA-TERM: sladdrede--><!--DATA-DEFINITION: sludrede.-->slad<?oxy_delete author="as" timestamp="20230830T183652+0200" content="d"?>rede</seg>. Hans mærkede snart<?oxy_delete author="as" timestamp="20230830T184404+0200" content=","?> at Grethe <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> godt tale for sig<?oxy_insert_start author="as" timestamp="20230830T184430+0200"?>,<?oxy_insert_end?> og at hun var en særdeles fornuftig pige<?oxy_insert_start author="as" timestamp="20230830T184442+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184444+0200" content=", d"?><?oxy_insert_start author="as" timestamp="20230830T184444+0200"?> D<?oxy_insert_end?>erfor bad han hende<?oxy_delete author="as" timestamp="20230830T184451+0200" content=","?> om hun søndag<?oxy_insert_start author="as" timestamp="20230830T183650+0200"?> <?oxy_insert_end?>eftermiddag <?oxy_delete author="as" timestamp="20230830T175901+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175901+0200"?>ville<?oxy_insert_end?> danse med ham.</p>
+
+<p rend="firstIndent" xml:id="p_00049" part="N">Grethe kom og gik med Hans. De dansede til langt ud på aftenen. Da sagde Grethe: »Gud, hvor det er blevet sildigt! Jeg <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> nu allerede være hjemme! Du må sadle hingsten og ride med mig hjem!«</p>
+
+<p rend="firstIndent" xml:id="p_00050" part="N">Det lod Hans sig ikke bede to gange om. Han tog hende op på hesten<?oxy_insert_start author="as" timestamp="20230830T184523+0200"?>,<?oxy_insert_end?> og de red<?oxy_delete author="as" timestamp="20230830T184521+0200" content="e"?> af sted i den mørke aften. For at hun ikke <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> falde af, holdt han sin arm fast omkring hende, og alt som de red<?oxy_delete author="as" timestamp="20230830T184532+0200" content="e"?>, måtte han fortælle<?oxy_delete author="as" timestamp="20230830T184536+0200" content=","?> hvor kær hun var blevet ham. Nu troede hun at det var det rette øjeblik til at sige<?oxy_delete author="as" timestamp="20230830T184544+0200" content=","?> hvad hun havde på hjertet: At hendes herre gerne <?oxy_delete author="as" timestamp="20230830T175903+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175903+0200"?>ville<?oxy_insert_end?> have hingsten<?oxy_delete author="as" timestamp="20230830T184550+0200" content=","?> de red<?oxy_delete author="as" timestamp="20230830T184551+0200" content="e"?> på, at han havde lovet hende en stor belønning<?oxy_insert_start author="as" timestamp="20230830T184557+0200"?>,<?oxy_insert_end?> og når hun fik den, var det en god medgift.</p>
+
+<p rend="firstIndent" xml:id="p_00051" part="N">»Vil du, kære Hans?« spurgte hun og kyssede ham.</p>
+
+<p rend="firstIndent" xml:id="p_00052" part="N">Nu måtte den stakkels Hans gøre det, enten han <?oxy_delete author="as" timestamp="20230830T175904+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175904+0200"?>ville<?oxy_insert_end?> eller ej, men hvorledes <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> han skjule for sin herre<?oxy_delete author="as" timestamp="20230830T184618+0200" content=","?> dette tyveri<?oxy_delete author="as" timestamp="20230830T183656+0200" content="e."?><?oxy_insert_start author="as" timestamp="20230830T184622+0200"?>?<?oxy_insert_end?></p>
+
+<p rend="firstIndent" xml:id="p_00053" part="N">»Du må finde på noget!« sagde Grethe. »Sig at du i aften på hjemvejen f<?oxy_delete author="as" timestamp="20230830T184630+0200" content="o"?><?oxy_insert_start author="as" timestamp="20230830T184631+0200"?>ó<?oxy_insert_end?>r vild, og at ulvene anfaldt dig<?oxy_delete author="as" timestamp="20230830T184638+0200" content=","?> så at du måtte lade hesten i<?oxy_insert_start author="as" timestamp="20230830T183658+0200"?> <?oxy_insert_end?>stikken. Ulvene ha<?oxy_insert_start author="as" timestamp="20230830T184644+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184645+0200" content="ve"?> ædt den op lige til kno<?oxy_delete author="as" timestamp="20230830T184648+0200" content="k"?><?oxy_insert_start author="as" timestamp="20230830T184648+0200"?>g<?oxy_insert_end?>lerne<?oxy_insert_start author="as" timestamp="20230830T184653+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184653+0200" content="; d"?><?oxy_insert_start author="as" timestamp="20230830T184654+0200"?> D<?oxy_insert_end?>u kan føre ham ud at se disse, jeg skal nok sørge for at der i morgen ligge<?oxy_insert_start author="as" timestamp="20230830T184701+0200"?>r<?oxy_insert_end?> blodige hestekno<?oxy_delete author="as" timestamp="20230830T183700+0200" content="k"?><?oxy_insert_start author="as" timestamp="20230830T183700+0200"?>g<?oxy_insert_end?>ler i skoven!«</p>
+
+<p rend="firstIndent" xml:id="p_00054" part="N">Således blev det nu<?oxy_delete author="as" timestamp="20240108T093025+0100" content=";"?><?oxy_insert_start author="as" timestamp="20240108T093026+0100"?>,<?oxy_insert_end?> Hans lod Grethe beholde hingsten og gik til<?oxy_insert_start author="as" timestamp="20230830T183703+0200"?> <?oxy_insert_end?>fods hjem.</p>
+
+<p rend="firstIndent" xml:id="p_00055" part="N">Men Hans <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> ikke sove; det pinte ham skrækkeligt<?oxy_delete author="as" timestamp="20230830T184741+0200" content=","?> hvorledes han næste morgen <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> komme frem med sin løgn<?oxy_insert_start author="as" timestamp="20230830T184745+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184746+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230830T184746+0200"?> H<?oxy_insert_end?>an <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> ikke holde ud at blive i sengen, han måtte ud af den<?oxy_insert_start author="as" timestamp="20230830T184753+0200"?>,<?oxy_insert_end?> og nu gjor<?oxy_delete author="as" timestamp="20230830T183712+0200" content="t"?><?oxy_insert_start author="as" timestamp="20230830T183712+0200"?>d<?oxy_insert_end?>e han prøve på<?oxy_delete author="as" timestamp="20230830T184756+0200" content=","?> hvorledes han <?oxy_delete author="as" timestamp="20230830T175905+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175906+0200"?>ville<?oxy_insert_end?> bære sig ad med at lyve. Han gik ud a<?oxy_insert_start author="as" timestamp="20230830T184807+0200"?>d<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184808+0200" content="f"?> sin stuedør, bankede på den, trådte ind igen og vendte sig mod en krog hvor der stod en kost, den <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> forestille herren.</p>
+
+<p rend="firstIndent" xml:id="p_00056" part="N">»God<?oxy_delete author="as" timestamp="20230830T183717+0200" content=" "?>morgen, Hans!«</p>
+
+<p rend="firstIndent" xml:id="p_00057" part="N">»Tak, gode herre!«</p>
+
+<p rend="firstIndent" xml:id="p_00058" part="N">»Nå, hvorledes har hingsten det?«</p>
+
+<p rend="firstIndent" xml:id="p_00059" part="N">»Ak, herre! Hingsten –!« ja<?oxy_insert_start author="as" timestamp="20230830T184834+0200"?>,<?oxy_insert_end?> der stoppede talen, han <?oxy_delete author="as" timestamp="20230830T175928+0200" content="kunde"?><?oxy_insert_start author="as" timestamp="20230830T175928+0200"?>kunne<?oxy_insert_end?> ikke komme videre. Så gik han igen ud a<?oxy_insert_start author="as" timestamp="20230830T184849+0200"?>d<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230830T184850+0200" content="f"?> døren og bar sig ad<?oxy_delete author="as" timestamp="20230830T184854+0200" content=","?> som forrige gang.</p>
+
+<p rend="firstIndent" xml:id="p_00060" part="N">»God<?oxy_delete author="as" timestamp="20230830T183720+0200" content=" "?>morgen, Hans!«</p>
+
+<p rend="firstIndent" xml:id="p_00061" part="N">»Tak, gode herre!«</p>
+
+<p rend="firstIndent" xml:id="p_00062" part="N">»Nå, hvorledes har hingsten det?«</p>
+
+<pb n="150"/><p rend="firstIndent" xml:id="p_00063" part="N">»Ak, herre! Hingsten –!« ja, der stoppede det igen, løgnen blev ham siddende i halsen<?oxy_insert_start author="as" timestamp="20240108T093106+0100"?>,<?oxy_insert_end?> og det lå ham som en tung vægt på hjertet.</p>
+
+<p rend="firstIndent" xml:id="p_00064" part="N">Om morgenen ganske tidligt<?oxy_delete author="as" timestamp="20230830T184917+0200" content=","?> trådte han ind i sin herres værelse.</p>
+
+<p rend="firstIndent" xml:id="p_00065" part="N">»God<?oxy_delete author="as" timestamp="20230830T184912+0200" content=" "?>morgen, Hans!«</p>
+
+<p rend="firstIndent" xml:id="p_00066" part="N">»Tak, gode herre!«</p>
+
+<p rend="firstIndent" xml:id="p_00067" part="N">»Nå, hvorledes har hingsten det?«</p>
+
+<p rend="firstIndent" xml:id="p_00068" part="N">»Ak, kære herre, hingsten –!« Her stod han i det, men kun et øjeblik, og han sagde: »Hingsten er stjålet<?oxy_insert_start author="as" timestamp="20230830T184936+0200"?>,<?oxy_insert_end?> og jeg er selv tyven, lad mig nu kun blive hængt!« Han fortalte da<?oxy_delete author="as" timestamp="20230830T184942+0200" content=","?> hvorledes det hele var gået til, at Grethe havde snakket for ham<?oxy_insert_start author="as" timestamp="20230830T184952+0200"?>,<?oxy_insert_end?> og at hingsten var hos herrens egen <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?>.</p>
+
+<p rend="firstIndent" xml:id="p_00069" part="N">Herren glædede sig over karlens prøvede ærlighed, tilgav ham og lovede endogså en belønning<?oxy_delete author="as" timestamp="20230830T185020+0200" content=","?> ligesom <?oxy_delete author="as" timestamp="20230830T175946+0200" content="broder"?><?oxy_insert_start author="as" timestamp="20230830T175946+0200"?>bror<?oxy_insert_end?>en havde lovet pigen den. »Er det endnu dit alvor at gifte dig med Grethe,« sagde han, »så før hende kun herind i huset<?oxy_insert_start author="as" timestamp="20230830T185034+0200"?>,<?oxy_insert_end?> og jeg har da foruden en redelig karl<?oxy_delete author="as" timestamp="20230830T185040+0200" content=","?> en snild kvinde!«</p>
+
+<p rend="firstIndent" xml:id="p_00070" part="N">Det syntes just Hans om. Redeligheden havde vundet v<?oxy_delete author="as" timestamp="20230830T183827+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230830T183827+0200"?>æ<?oxy_insert_end?>ddemålet, mens hin<?oxy_delete author="as" timestamp="20230830T185048+0200" content=","?> som kun stolede på snildhed, måtte give slip både på pigen og på hoppen, og det var<?oxy_delete author="as" timestamp="20230830T185058+0200" content=","?> som det <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> være.</p>
+
+</div>
+</floatingText>
+     <floatingText xml:id="de-blaae-bjerge">
+<div type="work" rend="5. De blaae Bjerge" xml:id="5-de-blaae-bjerge" part="N" org="uniform" sample="complete">
+<head type="main">5. De blå bjerge</head>
+
+<p rend="noIndent" xml:id="p_00071" part="N">Ikke langt fra bjergene levede en stille, from menighed<?oxy_delete author="as" timestamp="20230831T073147+0200" content="; e"?><?oxy_insert_start author="as" timestamp="20230831T073147+0200"?>. E<?oxy_insert_end?>nhver i denne nærede sig af den grøde deres flid fik jorden til at frembringe, af den mælk<?oxy_delete author="as" timestamp="20230831T073215+0200" content=","?> de fik af <?oxy_delete author="as" timestamp="20230831T073218+0200" content="D"?><?oxy_insert_start author="as" timestamp="20230831T073218+0200"?>d<?oxy_insert_end?>yrene<?oxy_delete author="as" timestamp="20230831T073226+0200" content=","?> som de passede på engen. Når én spiste og drak, skete det altid i tilfredshed og med tak til Gud. Hver morgenstund<?oxy_delete author="as" timestamp="20230831T073246+0200" content=","?> i<?oxy_insert_start author="as" timestamp="20230831T073239+0200"?> <?oxy_insert_end?>særdeleshed<?oxy_delete author="as" timestamp="20230831T073248+0200" content=","?> gik enhver ud i det fri<?oxy_delete author="as" timestamp="20230831T073306+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230831T075300+0200"?>,<?oxy_insert_end?> og med ansigtet vendt mod østen<?oxy_delete author="as" timestamp="20230831T075302+0200" content=","?> tilbad<?oxy_delete author="as" timestamp="20230831T073252+0200" content="e"?> de den usynlige Gud<?oxy_delete author="as" timestamp="20230831T075314+0200" content=","?> som sendte solen frem fra de smukke blå bjerge og lod vandstrømmene styrte ned<?oxy_delete author="as" timestamp="20230831T075328+0200" content=","?> at vande deres ager og eng<?oxy_delete author="as" timestamp="20230831T075751+0200" content=","?> mens uvejret tordnede og lynede fuldt af majestætisk pragt.</p>
+
+<p rend="firstIndent" xml:id="p_00072" part="N">Nu var der i menigheden en mand<?oxy_delete author="as" timestamp="20230831T075850+0200" content=","?> som havde lyst til at se sig lidt nøjere om i bjergene og udforske vandstrømme, vind og vejr. En dag vandrede han af sted og gjor<?oxy_insert_start author="as" timestamp="20230831T075322+0200"?>d<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T075322+0200" content="t"?>e<?oxy_delete author="as" timestamp="20230831T075902+0200" content=","?> som lysten bød ham.</p>
+
+<p rend="firstIndent" xml:id="p_00073" part="N">Efter nogen tid kom han igen tilbage og sagde til den forsamlede menighed: »Kære venner, hvad I hidtil ha<?oxy_insert_start author="as" timestamp="20230831T075917+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T075919+0200" content="ve"?> troet om de blå bjerge og om Gud deroppe, er ikke så! Vi har været i en stor vildfarelse. Jeg har set alt i nærheden<?oxy_delete author="as" timestamp="20230831T075933+0200" content=","?> og fundet det <pb n="151"/>ganske anderledes<?oxy_delete author="as" timestamp="20230831T075939+0200" content=","?> end vi mente det var. Bjergene, som her synes så smukke blå, er ujævne, ufrugtbare sten<?oxy_delete author="as" timestamp="20230831T075948+0200" content="e"?>, og vandene<?oxy_delete author="as" timestamp="20230831T075954+0200" content=","?> som strømme<?oxy_insert_start author="as" timestamp="20230831T080102+0200"?>r<?oxy_insert_end?> ud af hulerne, er vilde, ødelæggende fjeldstrømme<?oxy_insert_start author="as" timestamp="20230831T080109+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T080110+0200" content="; v"?><?oxy_insert_start author="as" timestamp="20230831T080110+0200"?> V<?oxy_insert_end?>ind og vejr er naturlige luftsyn<?oxy_delete author="as" timestamp="20230831T080132+0200" content=","?> som ved sig selv opstå<?oxy_insert_start author="as" timestamp="20230831T080127+0200"?>r<?oxy_insert_end?> og forgå<?oxy_insert_start author="as" timestamp="20230831T080129+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T080453+0200" content=";"?><?oxy_insert_start author="as" timestamp="20230831T080454+0200"?>,<?oxy_insert_end?> solen kommer frem<?oxy_delete author="as" timestamp="20230831T080153+0200" content=","?> langt borte på hin side disse bjerge, og af en Gud<?oxy_delete author="as" timestamp="20230831T080340+0200" content=","?> som man har indbildt os <?oxy_delete author="as" timestamp="20230830T175842+0200" content="skulde"?><?oxy_insert_start author="as" timestamp="20230830T175842+0200"?>skulle<?oxy_insert_end?> være det, er intetsteds noget at se i de blå bjerge.</p>
+
+<p rend="firstIndent" xml:id="p_00074" part="N">Menigheden studsede ved denne tale af en mand<?oxy_delete author="as" timestamp="20230831T080506+0200" content=","?> de havde stor tiltro til, og nogle sagde, fuld af uvilje: »Så ha<?oxy_insert_start author="as" timestamp="20230831T080516+0200"?>r<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T080515+0200" content="ve"?> da vore fædre bedraget os! Vi har troet et eventyr<?oxy_delete author="as" timestamp="20230831T080527+0200" content=","?> som noget sandfærdigt!« og de gik fra den tid ikke mere ud at bede til Gud<?oxy_delete author="as" timestamp="20230831T080554+0200" content=","?> der skabte underværker i de blå bjerge, og fra nu af<?oxy_delete author="as" timestamp="20230831T080607+0200" content=","?> arbejdede de med ulyst og levede indbyrdes i utilfredshed.</p>
+
+<p rend="firstIndent" xml:id="p_00075" part="N">Mange af dem gik nu selv ud i bjergene for at se<?oxy_delete author="as" timestamp="20230831T080622+0200" content=","?> hvad der stod til at tro, og de udmattede sig forgæves ved at stige op og ned, og mange faldt i afgrunden eller forvildede sig i den mægtige bjergstrækning<?oxy_delete author="as" timestamp="20230831T080643+0200" content=","?> så at de omkom af hunger.</p>
+
+<p rend="firstIndent" xml:id="p_00076" part="N">Dog for én af de vandrende opgik et klarere åndens lys<?oxy_insert_start author="as" timestamp="20230831T080658+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T080659+0200" content="; h"?><?oxy_insert_start author="as" timestamp="20230831T080659+0200"?> H<?oxy_insert_end?>an så på de uhyre klippeblokke og tænkte: »Hvilken kraft har dog rejst disse? De vække<?oxy_insert_start author="as" timestamp="20230831T080715+0200"?>r<?oxy_insert_end?> i min sjæl en mægtig tanke om storhed!« Han tørstede og søgte ned til fjeldstrømmen<?oxy_delete author="as" timestamp="20230831T080735+0200" content=","?> hvor han så vilddyret slukke sin tørst, og han priste ham<?oxy_delete author="as" timestamp="20230831T080744+0200" content=","?> som lod <seg target="txtcmnt-151-01" part="N"><!--DATA-TERM: Vederqvægelse--><!--DATA-DEFINITION: lindring.-->vederkvægelse</seg> sprudle frem af den hårde klippe. Højt oppe fra bjerget så han nu hvorledes den<?oxy_delete author="as" timestamp="20230831T080802+0200" content=","?> her ødelæggende bjergstrøm slyngede sig fredeligt nede i dalen, førte skibe fra by til by<?oxy_delete author="as" timestamp="20230831T080821+0200" content=","?> og bragte menneskene uendelig nytte. Han iagttog skyernes flugt og <?oxy_delete author="as" timestamp="20230831T080831+0200" content="V"?><?oxy_insert_start author="as" timestamp="20230831T080831+0200"?>v<?oxy_insert_end?>indenes forandring<?oxy_delete author="as" timestamp="20230831T080838+0200" content=","?> og så<?oxy_delete author="as" timestamp="20230831T080840+0200" content=","?> at de alle var underkastede deres bestemte love. Solen steg hver morgen op østen for den bjergspids hvor han stod<?oxy_insert_start author="as" timestamp="20230831T081150+0200"?>,<?oxy_insert_end?> og sank ned vesten for<?oxy_insert_start author="as" timestamp="20230831T081156+0200"?>,<?oxy_insert_end?> og han bøjede sine knæ for den usynlige<?oxy_delete author="as" timestamp="20230831T081201+0200" content=","?> som viste sin kraft i alt rundt om, og han indså sandheden i den gamle tro<?oxy_delete author="as" timestamp="20230831T081209+0200" content=","?> at Gud boede i de blå bjerge<?oxy_insert_start author="as" timestamp="20230831T081228+0200"?>.<?oxy_insert_end?><?oxy_delete author="as" timestamp="20230831T081229+0200" content="; m"?><?oxy_insert_start author="as" timestamp="20230831T081229+0200"?> M<?oxy_insert_end?>en man måtte ikke binde sig til de døde ord i denne tro, men til ånden i dem!</p>
+
+<p rend="firstIndent" xml:id="p_00077" part="N">Da vandrede han tilbage til sit hjem, og han forkyndte menigheden sit <?oxy_delete author="as" timestamp="20230831T081304+0200" content="E"?><?oxy_insert_start author="as" timestamp="20230831T081303+0200"?>e<?oxy_insert_end?>vangelium, og de<?oxy_delete author="as" timestamp="20230831T081306+0200" content=","?> som hørte og <?oxy_delete author="as" timestamp="20230830T175915+0200" content="vilde"?><?oxy_insert_start author="as" timestamp="20230830T175915+0200"?>ville<?oxy_insert_end?> forstå, arbejdede igen med godt mod, gik daglig<?oxy_delete author="as" timestamp="20230831T081357+0200" content=","?> som forhen<?oxy_delete author="as" timestamp="20230831T081403+0200" content=","?> ud i det fri<?oxy_delete author="as" timestamp="20230831T081412+0200" content="e"?><?oxy_insert_start author="as" timestamp="20230831T081416+0200"?>,<?oxy_insert_end?> og med ansigtet vendt mod østen bad<?oxy_delete author="as" timestamp="20230831T081419+0200" content="e"?> de til den usynlige<?oxy_delete author="as" timestamp="20230831T081421+0200" content=","?> der lod solen stige, vandstrømmene styrte og uvejret lyne og tordne i de blå bjerge, og når de med tro og andagt havde bed<?oxy_delete author="as" timestamp="20230831T081430+0200" content="e"?>t, gik de styrkede til deres dagværk, og deres hænders arbejde blev velsignet, og hvert fornuftigt ønske i hjertet blev opfyldt.</p>
+
+<pb n="152"/>
+</div>
+          </floatingText>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   
+                                        <div type="work-comments" rend="Det er Dig, Fabelen sigter til!" xml:id="det-er-dig-fabelen-sigter-til" part="N" org="uniform" sample="complete">
+<head type="section-comments">Det er Dig, Fabelen sigter til!</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Dansk Folkeblad, nr. 35, 28. oktober 1836 som nummer 1 af »Småhistorier (Efter det Tydske)«.<br/>
+BFN 295/V,228/VII,380-381.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">142</cell><row xml:id="txtcmnt-142-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Det er Dig … til</cell><cell type="data-definition" role="data" rows="1" cols="1">titlen er oversat fra den romerske digter Horats’ (65-8 f.Kr.) Satirer, 1, 1, 69-70, hvor den på latin lyder således: »de te fabula narratur« (»historien fortælles om dig«).</cell></row><row xml:id="txtcmnt-142-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Fabel(en)</cell><cell type="data-definition" role="data" rows="1" cols="1">kort, belærende fortælling, hvor dyr, planter eller ting personificerer menneskelige dyder og laster.</cell></row><row xml:id="txtcmnt-142-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Oldtidens Vise</cell><cell type="data-definition" role="data" rows="1" cols="1">sigter formodentlig til genrens grundlægger, den græske digter Æsop (midten af 500-tallet f.Kr.), hvis fabler er overleveret i gendigtning af den romerske digter Phædrus (ca. 15 f.Kr.-50 e.Kr.); sigter måske også til franskmanden La Fontaine (1621-1695), som genoptager den antikke genre med sine Fables, 1668 ff.</cell></row><row xml:id="txtcmnt-142-04" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">afspist</cell><cell type="data-definition" role="data" rows="1" cols="1">afsluttet spisningen.</cell></row>
+</table>
+
+</div>
+                                   <div type="work-comments" rend="Talismanen" xml:id="talismanen" part="N" org="uniform" sample="complete">
+<head type="section-comments">Talismanen</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Dansk Folkeblad, nr. 36, 4. november 1836 som nummer 2 af »Småhistorier (Efter det Tydske)«.<br/>
+BFN 296/V,229-230/VII,381.</p>
+
+<p rend="noIndent" part="N">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row role="data" rows="1" cols="1"><cell type="position" role="data" rows="1" cols="1">143,11 bærer &lt; bære</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">142</cell><row xml:id="txtcmnt-142-05" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Talisman(en)</cell><cell type="data-definition" role="data" rows="1" cols="1">genstand med, beskyttende eller lykkebringende kraft.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">143</cell><row xml:id="txtcmnt-143-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">alletider blive</cell><cell type="data-definition" role="data" rows="1" cols="1">forbliver.</cell></row><row xml:id="txtcmnt-143-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">probat</cell><cell type="data-definition" role="data" rows="1" cols="1">virkningsfuldt.</cell></row><row xml:id="txtcmnt-143-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Eendrægtighed</cell><cell type="data-definition" role="data" rows="1" cols="1">enighed, fordragelighed.</cell></row><row xml:id="txtcmnt-143-04" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">bleve de var</cell><cell type="data-definition" role="data" rows="1" cols="1">blev de opmærksomme på.</cell></row><row xml:id="txtcmnt-143-05" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Skalmeie</cell><cell type="data-definition" role="data" rows="1" cols="1">fløjte af pile- eller hyldegren.</cell></row><row xml:id="txtcmnt-143-06" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Potten</cell><cell type="data-definition" role="data" rows="1" cols="1">gryden.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">144</cell><row xml:id="txtcmnt-144-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Særk(en)</cell><cell type="data-definition" role="data" rows="1" cols="1">løsthængende underbeklædning for kvinder, chemise.</cell></row>
+</table>
+
+<pb n="507"/>
+</div>
+                                        <div type="work-comments" rend="Den gamle Gud lever endnu" xml:id="den-gamle-gud-lever-endnu" part="N" org="uniform" sample="complete">
+<head type="section-comments">Den gamle Gud lever endnu</head>
+
+<p rend="noIndent" part="N">Trykt første gang i Dansk Folkeblad, nr. 39-40, 18. november 1836, som nummer 3 af »Småhistorier (Efter det Tydske)«.<br/>
+BFN 297/V,230-232/VII,381.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">147</cell><row xml:id="txtcmnt-147-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Huusvæsenet</cell><cell type="data-definition" role="data" rows="1" cols="1">husholdningen.</cell></row><row xml:id="txtcmnt-147-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Tøi</cell><cell type="data-definition" role="data" rows="1" cols="1">vrøvl.</cell></row><row xml:id="txtcmnt-147-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">huldsalige</cell><cell type="data-definition" role="data" rows="1" cols="1">inderligt tilfredse, lykkelige.</cell></row><row xml:id="txtcmnt-147-04" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">han klæder … Rov</cell><cell type="data-definition" role="data" rows="1" cols="1">hentydning til Matthæus 6,28 og Lukas 12,27.</cell></row><row xml:id="txtcmnt-147-05" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">vederkvægende</cell><cell type="data-definition" role="data" rows="1" cols="1">oplivende.</cell></row>
+</table>
+
+</div>
+                                   <div type="work-comments" rend="Hans og Grethe" xml:id="hans-og-grethe" part="N" org="uniform" sample="complete">
+<head type="section-comments">Hans og Grethe</head>
+
+<p rend="noIndent" part="N">Trykt første gang i H.C. Andersens Eventyr. Kritisk udgivet efter de originale Eventyrhæfter med Varianter ved Erik Dal og Kommentar ved Flemming Hovmann efter Forarbejder af Erling Nielsen, bind VI, 1990, s. 35-37. Indgik som nummer 4 af de »Småhistorier (Efter det Tydske)«, som blev udgivet i Dansk Folkeblad i 1836 (nr. 39-40), men manuskriptet blev returneret af redaktionen. Teksten gengives her efter manuskript (Den Collinske manuskriptsamling 40, 4°, Det Kgl. Bibliotek).<br/>
+Ej i BFN/VI,35-37.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">148</cell><row xml:id="txtcmnt-148-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Huusvæsen</cell><cell type="data-definition" role="data" rows="1" cols="1">husholdning.</cell></row><row xml:id="txtcmnt-148-02" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Udkomme</cell><cell type="data-definition" role="data" rows="1" cols="1">livsfornødenheder, hvordan man klarer dagen og vejen.</cell></row><row xml:id="txtcmnt-148-03" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Hengst</cell><cell type="data-definition" role="data" rows="1" cols="1">hingst.</cell></row>
+<cell type="page" role="data" rows="1" cols="1">149</cell><row xml:id="txtcmnt-149-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">sladdrede</cell><cell type="data-definition" role="data" rows="1" cols="1">sludrede.</cell></row>
+</table>
+
+</div>
+                                   <div type="work-comments" rend="De blaae Bjerge" xml:id="de-blaae-bjerge" part="N" org="uniform" sample="complete">
+<head type="section-comments">De blå Bjerge</head>
+
+<p rend="noIndent" part="N">Trykt første gang i H.C. Andersens Eventyr. Kritisk udgivet efter de originale Eventyrhæfter med Varianter ved Erik Dal og Kommentar ved Flemming Hovmann efter Forarbejder af Erling Nielsen, bind VI, 1990, s. 38-39. Indgik som nummer 5 af de »Småhistorier (Efter det Tydske)«, som blev udgivet i Dansk Folkeblad i 1836 (nr. 39-40), men manuskriptet blev returneret af redaktionen. Teksten gengives her efter manuskript ((Den Collinske manuskriptsamling 40, 4°, Det Kgl. Bibliotek).<br/>
+Ej i BFN/VI,38-39.</p>
+
+<table rend="textcomments">
+<cell type="page" role="data" rows="1" cols="1">151</cell><row xml:id="txtcmnt-151-01" role="data" rows="1" cols="1"><cell type="data-term" role="data" rows="1" cols="1">Vederkvægelse</cell><cell type="data-definition" role="data" rows="1" cols="1">lindring.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
+<?oxy_options track_changes="on"?>

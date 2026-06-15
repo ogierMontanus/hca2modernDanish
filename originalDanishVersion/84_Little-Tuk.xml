@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+                         <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Little Tuck</title>
+                                             <author ref="http://viaf.org/viaf/4925902">Hans Christian Andersen</author>
+                                             <editor role="translator" ref="http://viaf.org/viaf/93143336">John Irons</editor><editor role="editor" ref="http://viaf.org/viaf/9245480">Jacob Bøggild</editor><editor role="editor" ref="http://viaf.org/viaf/160907524/">Mads Sohl Jessen</editor><editor role="data" ref="http://viaf.org/viaf/556220">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher target="https://andersen.sdu.dk">The Hans Christian Andersen Centre, University of Southern Denmark, Odense</publisher>
+                                             <availability>
+            <p>Creative Commons, BY-NC-SA</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             
+                                             <!--test--><bibl>&lt;p&gt;This translation by John Irons was published in 2022. It is based on the version edited by the team headed by Klaus P. Mortensen and published by the Danish Society for Language and Literature. For further details on the first publication of the Danish source text, see the Danish version.&lt;/p&gt;</bibl><notesStmt>
+                                                  
+                                                       <!--test1-->
+                                                       <note type="originalDanish" target="lille-tuk">dansk førsteudgave</note>
+                                                       <note type="modernDanish" target="lille-tuk_modern.xml">moderniseret version</note>
+                                                       <note target="84_Little-Tuk.xml" xml:id="thisFile" type="britishEnglish">engelsk oversættelse</note>                                                  
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        <xenoData><incipit>Well, there was this boy little Tuck, his name wasn’t really Tuck, but when he w...</incipit><idno type="image">Lille_Tuk_forside1.png</idno><popularity>953</popularity><cite>&lt;p&gt;Hans Christian Andersen: Little Tuck. Translated by John Irons, edited by , published by The Hans Christian Andersen Centre, University of Southern Denmark, Odense. Version 1.0. Published 2024-04-01[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, BY-NC-SA
+            &lt;/p&gt;</cite></xenoData>
+                                   </fileDesc>
+                                   <profileDesc>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>barnelogik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2022-08-07" xml:id="NHB" who="NHB">docx2xml</change><change who="NHB" when="2022-08-07">formatted</change><change who="NHB" when="2023-05-14">revised teiHeader for publication in the sv-app</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                                                  
+                         
+                         <text type="print">
+                              <body>
+               <div rend="Little Tuck">
+          <head type="main" rend="Little Tuck">Little Tuck</head>                <p rend="noIndent" xml:id="p_00001">Well, there was this boy <hi rend="italic">little Tuck</hi>, his name wasn’t really <hi rend="italic">Tuck</hi>, but when he was small, before he could speak properly, he called himself <hi rend="italic">Tuck</hi>; that was supposed to mean <hi rend="italic">Carl</hi>, and it’s a good thing one knows that; he was to take care of his sister, <hi rend="italic">Gustava</hi>, who was much smaller than he was, and also to do his homework, but the two things simply wouldn’t mix. The poor boy was sitting with his younger sister in his lap singing all the songs he knew, and in the meantime he stole a look at his geography book that lay open; by the next day he had to know all the towns in the diocese of Sealand and know everything about them that could be known.</p>
+          <p rend="firstIndent" xml:id="p_00002">Now his mother came home, for she had been out, and took little <hi rend="italic">Gustava</hi>; <hi rend="italic">Tuck</hi> ran over to the window and read until his eyes almost popped out of his head, for it was beginning to grow dark and then darker, but his mother could not afford to buy candles.</p>
+          <p rend="firstIndent" xml:id="p_00003">‘There’s the old washerwoman down there from the alley round the corner!’ his mother said, as she looked out of the window. ‘She can hardly bear her own weight and she also has to carry the bucket from the water pump; run down, <hi rend="italic">little Tuck</hi>, there’s a good boy! help the old woman!’</p>
+          <p rend="firstIndent" xml:id="p_00004">And <hi rend="italic">Tuck</hi> immediately ran down and helped her, but when he returned home it was dark, lighting a candle was out of the question, he was to go to bed; it was an old bench that could be used for sleeping; he lay there and thought about his geography homework: the diocese of Sealand and everything the teacher had said about it. He really should have done some reading, but that was out of the question now, of course. He pushed the geography book under his pillow, for he had heard that this could considerably help him remember his homework, but that’s not something one can rely on.</p>
+          <p rend="firstIndent" xml:id="p_00005">There he now lay thinking and thinking, and suddenly it was as if someone kissed his eyes and mouth, he was asleep and yet not asleep; it was as if he saw the gentle eyes of the old washerwoman looking at him, and she said: ‘it would be a great pity if you hadn’t learnt your homework task! you helped me, now I shall help you, and the <hi rend="italic">Lord God</hi> will always do so!’</p>
+          <p rend="firstIndent" xml:id="p_00006">And suddenly the book under <hi rend="italic">Tuck’s</hi> head started itching and twitching:</p>
+          <p rend="firstIndent" xml:id="p_00007">‘Cockadoodledoo! cluck! cluck!’ it was a hen and it came from Køge town. ‘I’m one of the <hi rend="italic">Køge</hi> Hens!’ it said and then it stated how many inhabitants there were and of the battle that had taken place, and that it hadn’t been much to speak of.</p>
+          <p rend="firstIndent" xml:id="p_00008">‘Itchy, twitchy, thud!’ something landed with a bump; – it was a wooden bird that now arrived, the popinjay from the shooting competition in <hi rend="italic">Præstø</hi>. It said <hi rend="italic">there</hi> were just as many inhabitants there as nails in its body, and it was quite proud: ‘<hi rend="italic">Thorvaldsen</hi> once lived round the corner from me. Thud! I lie nicely here!’</p>
+          <p rend="firstIndent" xml:id="p_00009">But <hi rend="italic">little Tuck</hi> wasn’t lying now, suddenly he was on horseback. And at a gallop, at a gallop he went. A magnificently clad knight with shining helmet and swaying plume had placed Tuck in front of himself on his horse and they were riding through the wood to the old town of <hi rend="italic">Vordingborg</hi>, and it was a large, thriving town; on the royal castle high towers soared up, and the lights shone far out through the windows; inside there was singing and dancing; King <hi rend="italic">Valdemar</hi> and stately young ladies-in-waiting were dancing. – Morning came, and just as the sun rose, the town sank away and the king’s castle, one tower after the other, finally only a single one was left standing on the embankment where the castle had stood, and the town was so tiny and so poor, and the schoolboys came with their books under their arm and said ‘2000 inhabitants’, but that wasn’t true, there weren’t that many.</p>
+          <p rend="firstIndent" xml:id="p_00010">And <hi rend="italic">little Tuck</hi> lay in his bed, it seemed to him that he was dreaming and yet not dreaming; but there was someone close to him:</p>
+          <p rend="firstIndent" xml:id="p_00011">‘Little Tuck! little Tuck!’ a voice said; it was a sailor, a very small person, that could possibly be a cadet, but it wasn’t a cadet. ‘I am to convey very many greetings from <hi rend="italic">Korsør</hi>, a town that is on the way up! it is a thriving town, it has steamships and mail vans; once it was always referred to as ugly, but that is an outdated opinion.’ ‘I lie down by the sea,’ <hi rend="italic">Korsør</hi> says, ‘I have highways and I have parks, and I have given birth to a poet who was amusing, and not all of them are that. I wanted to send a ship round the world, I didn’t do it but I could have done it, and then I smell so nice, right beside the town gate the loveliest roses bloom!’</p>
+          <p rend="firstIndent" xml:id="p_00012"><hi rend="italic">Little Tuck</hi> saw them, all turned red and green before his eyes, but when the colours had settled it was a whole wooded hillside close to the clear waters of the fjord; and above lay a magnificent old church with two tall, pointed church spires: from the hillside wells bubbled up in thick jets of water that landed with a splash, and close by sat an old king with a golden crown on his long hair; it was King <hi rend="italic">Hroar</hi> beside the springs, it was by the town now called <hi rend="italic">Roskilde</hi>. And across the hillside, into the old church, all the kings and queens of Denmark went hand in hand, each one wearing a golden crown, and the organ played and the springs murmured gently. <hi rend="italic">Little Tuck</hi> saw everything, heard everything. ‘Don’t forget the estates of the realm!’ King <hi rend="italic">Hroar</hi> said.</p>
+          <p rend="firstIndent" xml:id="p_00013">Suddenly everything had vanished again; well, where did it go? it was like when one turns a page in a book. And now an old woman was standing there, a weeder, she came from <hi rend="italic">Sorø</hi>, where grass grows on the market square. She had her grey canvas apron over her head and down her back; it was so wet, it must have rained: ‘Yes, it has!’ she said, and she was able to recite something amusing from <hi rend="italic">Holberg’s</hi> comedies and knew about <hi rend="italic">Valdemar</hi> and <hi rend="italic">Absalon</hi>; but all of a sudden she shrank, rocked her head, it was as if she wanted to leap: ‘croak!’ she said, ‘it’s wet, it’s wet, and grave-still I bet in Sorø!’ suddenly she had turned into a frog, ‘croak!’ and then she was an old woman again. ‘One must dress to suit the weather!’ she said. ‘It’s wet’, it’s wet! my town is like a bottle; you enter it via the bottleneck and that’s where you go to get out again! I have had <hi rend="italic">catfish</hi> and now I have fresh red-cheeked boys at the bottom of the bottle; there they gain wisdom: Greek! Greek! croak!’ it sounded just like frogs singing, or when one walks in marshy water with large boots on. It was always the same sound, so monotonous, so boring, so boring that <hi rend="italic">little Tuck</hi> fell fast asleep, but <hi rend="italic">that</hi> could do him nothing but good.</p>
+          <p rend="firstIndent" xml:id="p_00014">But in this sleep too there came a dream, or whatever it was: his little sister <hi rend="italic">Gustava</hi> with her blue eyes and blond curly hair had suddenly become a full-grown, lovely girl, and without having wings on she was able to fly and they flew across Sealand, over the green woods and blue waters.</p>
+          <p rend="firstIndent" xml:id="p_00015">‘Can you hear the cock crow, <hi rend="italic">little Tuck</hi>! cock-a-doodle-doo! The hens fly up from <hi rend="italic">Køge</hi> too! you shall have a chicken run so large, so large that you will never be hungry or poor! You’ll be lucky enough to shoot the popinjay, as people say, will become a rich and happy man! your farm will soar up like the tower of King Valdemar, and be richly decorated with marble statues, like those from the <hi rend="italic">Præstø</hi> quarter, if you get my meaning. Your name and fame will fly round the world, like the ship that was to have left from Korsør, and in Roskilde – – ‘remember the estates of the realm!’ King <hi rend="italic">Hroar</hi> said; there you will speak well and wisely, <hi rend="italic">little Tuck</hi>, and when you finally end in your grave, you will sleep so sweetly – –.’</p>
+          <p rend="firstIndent" xml:id="p_00016">‘As if I lay in <hi rend="italic">Sorø</hi>!’ <hi rend="italic">Tuck</hi> said, and then he woke up; it was a bright morning, he couldn’t recall the slightest bit of his dream, but that was not intended either, for one may not know what is to come.</p>
+          <p rend="firstIndent" xml:id="p_00017">And he leapt out of bed and read his book, and knew his lesson by heart at once. And the old washerwoman stuck her head round the door, nodded to him and said:</p>
+          <p rend="firstIndent" xml:id="p_00018">‘Thank you for your help yesterday, you blessed child! may the <hi rend="italic">Lord God</hi> let your best dream be fulfilled!’</p>
+          <p rend="firstIndent" xml:id="p_00019"><hi rend="italic">Little Tuck</hi> had no idea at all what he had dreamt, but the <hi rend="italic">Lord God</hi> most certainly did!</p>
+     </div>
+               
+     </body>
+                         </text>
+                    </TEI>
