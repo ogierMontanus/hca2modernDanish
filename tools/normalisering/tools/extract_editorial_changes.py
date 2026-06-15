@@ -108,7 +108,7 @@ def parse_file(path: Path) -> list[dict]:
     raw = path.read_text(encoding="utf-8")
     tale = path.stem.replace("_corrected_fgj", "").replace("_corrected-fgj", "")
     tale = tale.replace("_corrected_NEW_fgj", "").replace("_corrected_NY_fgj", "")
-    tale = tale.replace("_corrected_NEW-fgj", "")
+    tale = tale.replace("_corrected_NEW-fgj", "").replace("_final", "")
 
     # Remove changes already handled as a replacement pair (to avoid double-counting)
     handled_spans: set[tuple[int, int]] = set()
@@ -214,7 +214,7 @@ def write_summary(path: Path, changes: list[dict]) -> None:
     lines = [
         "# Editorial analysis — oXygen Author tracked changes",
         "",
-        f"Source: `editorial/*/` `_fgj.xml` files  |  Total changes: **{total}**",
+        f"Source: `editorial/*/` `_fgj.xml` + `_final.xml` files  |  Total changes: **{total}**",
         "",
         "## Change type distribution",
         "",
@@ -278,9 +278,12 @@ def main() -> None:
                     default=_ROOT / "resources" / "editorial-analysis")
     args = ap.parse_args()
 
-    # Find all _fgj.xml files in all subdirs
-    fgj_files = list(args.editorial.rglob("*_fgj.xml")) + \
-                list(args.editorial.rglob("*-fgj.xml"))
+    # Find all _fgj.xml and _final.xml files (reviewed/ layer is most authoritative)
+    fgj_files = (
+        list(args.editorial.rglob("*_fgj.xml"))
+        + list(args.editorial.rglob("*-fgj.xml"))
+        + list(args.editorial.rglob("*_final.xml"))
+    )
     fgj_files = sorted(set(fgj_files))
     print(f"Found {len(fgj_files)} _fgj.xml files")
 

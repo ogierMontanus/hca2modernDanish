@@ -1,19 +1,19 @@
 # Editorial analysis — oXygen Author tracked changes
 
-Source: `editorial/*/` `_fgj.xml` files  |  Total changes: **40753**
+Source: `editorial/*/` `_fgj.xml` + `_final.xml` files  |  Total changes: **61536**
 
 ## Change type distribution
 
 | Type | Count | % |
 |------|------:|--:|
-| word_replace | 12939 | 32% |
-| phrase_replace | 8690 | 21% |
-| structural | 6096 | 15% |
-| punctuation | 4967 | 12% |
-| case_change | 4125 | 10% |
-| delete_only | 3306 | 8% |
-| insert_only | 628 | 2% |
-| hyphenation | 2 | 0% |
+| word_replace | 19610 | 32% |
+| phrase_replace | 13136 | 21% |
+| structural | 9196 | 15% |
+| punctuation | 7514 | 12% |
+| case_change | 6132 | 10% |
+| delete_only | 4986 | 8% |
+| insert_only | 959 | 2% |
+| hyphenation | 3 | 0% |
 
 ## Word replacements (Loop 1 candidates)
 
@@ -22,66 +22,66 @@ Loop 1 spelling/vocabulary rules (after human verification).
 
 | old | new | occurrences |
 |-----|-----|------------:|
-| kunde | kunne | 2640 |
-| ; d | . d | 1558 |
-| vilde | ville | 1522 |
-| skulde | skulle | 1388 |
-| moder | mor | 958 |
-| ; h | . h | 951 |
-| ; d | d | 830 |
-| fader | far | 711 |
-| é | e | 520 |
-| ; h | h | 490 |
-| c | k | 371 |
-| , d | d | 320 |
-| ; m | . m | 295 |
-| e | æ | 294 |
-| kunne | kan | 290 |
-| e | é | 266 |
-| ch | k | 239 |
-| ; s | . s | 239 |
-| ; m | m | 212 |
-| ; o | . o | 211 |
-| æ | e | 196 |
-| ; j | . j | 183 |
-| i | j | 174 |
-| o | ó | 165 |
-| ; f | . f | 155 |
-| ; i | . i | 155 |
-| ville | vil | 154 |
-| , h | h | 153 |
-| ; s | s | 147 |
-| skulle | skal | 136 |
-| ; o | o | 133 |
-| ; v | . v | 130 |
-| ; e | . e | 129 |
-| ; n | . n | 118 |
-| ph | f | 110 |
-| aa | å | 110 |
-| broder | bror | 96 |
-| ; t | . t | 87 |
-| ; j | j | 86 |
-| ; k | . k | 86 |
-| ; d | . | 84 |
-| kjø | kø | 74 |
-| ; n | n | 68 |
-| fa’er | far | 68 |
-| ; l | . l | 65 |
-| ; i | i | 63 |
-| ; b | . b | 62 |
-| ; a | . a | 59 |
-| , d | . d | 57 |
-| ; g | . g | 57 |
-| ; t | t | 56 |
-| de | t | 55 |
-| , h | . h | 53 |
-| ; f | f | 52 |
-| eu | ø | 52 |
-| , d | . | 51 |
-| bro’er | bror | 50 |
-| ; h | . | 49 |
-| , m | m | 48 |
-| d | l | 44 |
+| kunde | kunne | 3968 |
+| ; d | . d | 2349 |
+| vilde | ville | 2285 |
+| skulde | skulle | 2084 |
+| moder | mor | 1436 |
+| ; h | . h | 1430 |
+| ; d | d | 1248 |
+| fader | far | 1067 |
+| é | e | 787 |
+| ; h | h | 736 |
+| c | k | 555 |
+| , d | d | 486 |
+| kunne | kan | 451 |
+| ; m | . m | 444 |
+| e | æ | 439 |
+| e | é | 415 |
+| ch | k | 359 |
+| ; s | . s | 357 |
+| ; m | m | 318 |
+| ; o | . o | 317 |
+| æ | e | 295 |
+| ; j | . j | 274 |
+| i | j | 261 |
+| o | ó | 249 |
+| ville | vil | 241 |
+| ; f | . f | 234 |
+| ; i | . i | 234 |
+| , h | h | 232 |
+| ; s | s | 221 |
+| skulle | skal | 212 |
+| ; o | o | 198 |
+| ; v | . v | 195 |
+| ; e | . e | 194 |
+| ; n | . n | 179 |
+| ph | f | 166 |
+| aa | å | 164 |
+| broder | bror | 144 |
+| ; t | . t | 132 |
+| ; j | j | 129 |
+| ; k | . k | 129 |
+| ; d | . | 125 |
+| kjø | kø | 111 |
+| ; n | n | 102 |
+| fa’er | far | 102 |
+| ; l | . l | 98 |
+| ; i | i | 94 |
+| ; b | . b | 93 |
+| ; a | . a | 89 |
+| , d | . d | 89 |
+| ; g | . g | 86 |
+| ; t | t | 84 |
+| de | t | 80 |
+| , h | . h | 80 |
+| , d | . | 80 |
+| eu | ø | 79 |
+| ; f | f | 78 |
+| ; h | . | 78 |
+| bro’er | bror | 75 |
+| , m | m | 72 |
+| ; p | . p | 67 |
 
 ## Punctuation deletions (most frequent)
 
@@ -89,21 +89,21 @@ Characters the editor removed — may indicate over-use in the corrected text.
 
 | deleted | count |
 |---------|------:|
-| `,` | 2347 |
-| `-` | 309 |
-| `e` | 227 |
-| `–` | 101 |
-| `d` | 48 |
-| `t` | 46 |
-| `j` | 34 |
-| `r` | 30 |
-| `;` | 29 |
-| `h` | 16 |
-| `!` | 16 |
-| `te` | 9 |
-| `i` | 9 |
-| `f` | 8 |
-| `n` | 7 |
+| `,` | 3537 |
+| `-` | 461 |
+| `e` | 349 |
+| `–` | 155 |
+| `d` | 72 |
+| `t` | 70 |
+| `j` | 49 |
+| `;` | 45 |
+| `r` | 44 |
+| `h` | 24 |
+| `!` | 24 |
+| `i` | 14 |
+| `te` | 13 |
+| `f` | 12 |
+| `n` | 11 |
 
 ## Loop 1 implications
 
