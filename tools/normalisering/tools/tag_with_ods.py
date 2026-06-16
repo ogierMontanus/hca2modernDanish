@@ -85,9 +85,10 @@ def _caps_to_initial(w: str) -> str:
 
 
 # Danish noun/adj suffixes, longest-first to avoid premature stripping.
+# "ne" added to catch definite plural "filisterne" → strip "ne" → "filister".
 _SUFFIXES = [
     "ernes", "enes", "ens", "ets", "erne", "ene", "ers",
-    "er", "en", "et", "es", "e", "s",
+    "er", "en", "et", "es", "ne", "e", "s",
 ]
 
 
@@ -120,6 +121,157 @@ def _ods_candidates(lw: str) -> list[str]:
     return out
 
 
+def _extra_normalize(s: str) -> str:
+    """Apply orthographic transforms NOT yet in Loop 1 rules, for ODS lookup.
+
+    These are conservative transforms used ONLY when the direct ODS lookup fails,
+    as a fallback to reach the correct ODS lemma for historical/foreign spellings.
+
+    qv  → kv  (Samvittighedsqval → samvittighedskval)
+    qu  → kv  (Latin/French qu: Sqvadron → skvadron)
+    sc  → sk  word-initial (Scandale → skandale)
+    sch → sk  (Schiller → skiller — use with care)
+    eur → ør  French suffix (manuducteur → manuduktør, couleur already →kulør)
+    orch → ork (orchestre → orkestre)
+    kk  → k   double-consonant reduction (perpendikkel → perpendikel)
+    """
+    # qv / qu before vowel → kv
+    s = re.sub(r"qv", "kv", s)
+    s = re.sub(r"qu(?=[aeiouyæøå])", "kv", s)
+    # word-initial sc → sk
+    s = re.sub(r"^sc", "sk", s)
+    # orch → ork  (orchestra → orkestra)
+    s = s.replace("orch", "ork")
+    # French -eur suffix (including -teur) → -ør
+    s = re.sub(r"eur\b", "ør", s)
+    s = re.sub(r"eur(s|ens|ernes|ene)\b", r"ør\1", s)
+    # double kk → k before vowel (perpendikkel → perpendikel)
+    s = re.sub(r"kk(?=[aeiouyæøå])", "k", s)
+    # double ll → l (porcellæn → porcelæn)
+    s = re.sub(r"ll(?=[aeiouyæøå])", "l", s)
+    # double ee → e (sandsteen → sandsten, heer → her)
+    s = re.sub(r"ee(?=[aeiouyæøånb])", "e", s)  # before vowel or n
+    s = s.replace("een", "en")   # catch remaining: beenbryder → benbryder
+    # ain → æn  (porcellain → porcelæn; Champain → Champæn)
+    s = s.replace("ain", "æn")
+    # eu before consonant → ø  (meublement → møblement)
+    s = re.sub(r"eu(?=[bcdfghjklmnpqrstvwxyz])", "ø", s)
+    return s
+
+
+# Danish productive noun-forming suffixes.  A word ending in one of these is
+# almost certainly a noun even if its lemma is not found in ODS.
+_NOUN_SUFFIXES: tuple[str, ...] = (
+    "else",   # opoffrelse, forståelse
+    "ning",   # samling, vandring
+    "ighed",  # ydmyghed
+    "hed",    # kloghed, godhed
+    "dom",    # visdom, barndom
+    "skab",   # venskab, selskab
+    "ment",   # meublement, ornament
+    "tion",   # station, nation
+    "sion",   # passion
+    "eri",    # bageri, bryggeri
+    "inde",   # lærerinde
+    "schaft", # gesellschaft (German loans)
+)
+
+
+_INFL_STRIP = ("erne", "ernes", "ene", "enes", "ens", "ets", "ers", "en", "et", "er", "es", "e", "s")
+
+def _has_noun_suffix(word: str) -> bool:
+    """True if word (or its uninflected stem) ends in a productive noun suffix."""
+    lw = word.lower()
+    if any(lw.endswith(sfx) for sfx in _NOUN_SUFFIXES):
+        return True
+    # also check after stripping one inflectional suffix
+    for inf in _INFL_STRIP:
+        if lw.endswith(inf) and len(lw) - len(inf) >= 4:
+            stem = lw[:-len(inf)]
+            if any(stem.endswith(sfx) for sfx in _NOUN_SUFFIXES):
+                return True
+    return False
+
+
+def _part_in_ods(part: str, ods_nouns: set[str], ods_adjs: set[str],
+                 rules) -> bool:
+    """Check one component of a solid compound: direct ODS + extra-norm only.
+
+    Tries three forms to handle old vs modern spelling (ODS uses old-spelling):
+    - raw  (part as-is, old spelling like 'maaneds')
+    - norm (after Loop1 rules, e.g. 'måneds')
+    - extra (after extra ortho transforms, e.g. 'porcelæns')
+    Deliberately does NOT recurse into compound splitting (would be exponential).
+    """
+    eval_w = _caps_to_initial(part)
+    raw = eval_w.lower()
+    norm, _, _ = normalize(raw, rules)
+    extra = _extra_normalize(norm)
+
+    forms = [raw]
+    if norm != raw:
+        forms.append(norm)
+    if extra != norm:
+        forms.append(extra)
+
+    for form in forms:
+        for cand in _ods_candidates(form):
+            if cand in ods_nouns or cand in ods_adjs:
+                return True
+    return False
+
+
+def _split_solid_compound(word: str, ods_nouns: set[str], ods_adjs: set[str],
+                           rules) -> str | None:
+    """Try a binary split of a solid (unhyphenated) compound.
+
+    Tries splits on both the original lowercase form (ODS uses old spelling like
+    'maaneds') AND the Loop1-normalized form, deduplicated.
+
+    At each split position the right part (head) is checked first.  The left
+    part may end in genitive -s, which is stripped for the ODS lookup.
+
+    Returns 'noun' if a valid binary split is found, else None.
+    """
+    eval_w = _caps_to_initial(word)
+    orig_lw = eval_w.lower()
+    base, _, _ = normalize(orig_lw, rules)
+    norm = _extra_normalize(base)
+
+    # Deduplicated ordered list of forms to try splits on
+    forms_to_split: list[str] = [orig_lw]
+    if norm != orig_lw:
+        forms_to_split.append(norm)
+
+    seen_splits: set[tuple[str, str]] = set()
+
+    for form in forms_to_split:
+        n = len(form)
+        for i in range(3, n - 2):
+            left  = form[:i]
+            right = form[i:]
+            if len(right) < 3:
+                break
+            key = (left, right)
+            if key in seen_splits:
+                continue
+            seen_splits.add(key)
+
+            right_ok = _part_in_ods(right, ods_nouns, ods_adjs, rules)
+            if not right_ok:
+                continue
+
+            left_stems = [left]
+            if left.endswith("s") and len(left) > 3:
+                left_stems.append(left[:-1])
+
+            for ls in left_stems:
+                if _part_in_ods(ls, ods_nouns, ods_adjs, rules):
+                    return "noun"
+
+    return None
+
+
 def _compound_all_in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
                           rules) -> str | None:
     """Træ-Altan → ['Træ', 'Altan']: noun if ALL hyphen-parts are in ODS.
@@ -140,22 +292,42 @@ def in_ods(word: str, ods_nouns: set[str], ods_adjs: set[str],
            rules) -> str | None:
     """Return ODS class ('noun'|'adj') if matched, else None.
 
-    1. Normalize ALL-CAPS → initial-cap.
-    2. Apply Loop 1 rules to get modern form.
-    3. Try ODS candidates (direct + suffix-stripped).
-    4. Try hyphen-compound splitting (all parts must match).
+    Lookup tiers (first match wins):
+    1. Normalize ALL-CAPS → initial-cap; apply Loop 1 rules.
+    2. Direct ODS match + suffix-stripped candidates.
+    3. Extra orthographic normalization (qv→kv, sc→sk, eur→ør …) + ODS.
+    4. Hyphen-compound: all parts must be in ODS.
+    5. Solid compound: binary split, both parts in ODS.
+    6. Abstract-noun suffix heuristic (-else, -hed, -ning, -ment …).
     """
     eval_w = _caps_to_initial(word)
-    norm, _, _ = normalize(eval_w.lower(), rules)
+    orig_lw = eval_w.lower()
+    norm, _, _ = normalize(orig_lw, rules)
+    extra = _extra_normalize(norm)
 
-    for cand in _ods_candidates(norm):
-        if cand in ods_nouns:
-            return "noun"
-        if cand in ods_adjs:
-            return "adj"
+    # Tier 2: try raw (old-spelling), normalized, and extra-normalized forms
+    for form in dict.fromkeys([orig_lw, norm, extra]):  # deduped, order-preserved
+        for cand in _ods_candidates(form):
+            if cand in ods_nouns:
+                return "noun"
+            if cand in ods_adjs:
+                return "adj"
 
-    # Hyphen-compound: Træ-Altan → Træ + Altan (both in ODS → noun)
-    return _compound_all_in_ods(eval_w, ods_nouns, ods_adjs, rules)
+    # Tier 4: hyphen-compound (existing)
+    result = _compound_all_in_ods(eval_w, ods_nouns, ods_adjs, rules)
+    if result:
+        return result
+
+    # Tier 5: solid compound binary split
+    result = _split_solid_compound(word, ods_nouns, ods_adjs, rules)
+    if result:
+        return result
+
+    # Tier 6: noun-suffix heuristic (productive Danish morphology)
+    if _has_noun_suffix(word):
+        return "noun"
+
+    return None
 
 
 # ---------------------------------------------------------------------------
