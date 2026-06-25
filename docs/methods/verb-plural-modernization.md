@@ -111,16 +111,37 @@ The recommended insertion point is **between Loop 1 and Loop 2**:
 
 ```
 Loop 1 (rule_engine.py, spelling rules)
-         ↓
-[NEW] tag_verb_plural.py  ← this method
-         ↓
+         |
+         +--[optional] tag_pos.py  (PoS + dep-parse, see below)
+         |
+[NEW] tag_verb_plural.py  <-- this method
+         |
 Loop 2 (Hunspell spell-check)
 ```
 
 Input: Loop 1 XML output (`output/loop1/*.xml`).  
-Output: modified XML with finite plural verbs updated to modern form.  
-Rejected candidates (no DDO hit or ambiguous) are logged to a `.trace.txt` for
-human review.
+Output: `.verb-plural.tsv` trace of candidates for human review.
+
+### Sentence segmentation: hca-tales-segmented
+
+The verb plural tagger needs reliable sentence boundaries to constrain the
+context window. The `hca-tales-segmented` corpus (see
+`docs/resources/hca-tales-segmented.md`) provides NLTK-pre-segmented
+sentences for all 161 tales.
+
+When `run.py --pos --segmented PATH` is used, `tag_verb_plural.py` and
+`tag_pos.py` receive proper sentence boundaries rather than relying on the
+XML paragraph structure. This:
+- Eliminates false window matches that span sentence boundaries
+- Gives spaCy correctly-bounded input (improving dep-parse quality)
+- Enables per-sentence PoS output aligned to the segmented corpus
+
+### PoS tagging option
+
+`tag_pos.py` is an optional post-Loop-1 step activated by `run.py --pos`.
+It applies spaCy `da_core_news_lg` to normalized (Loop 1) sentences and
+outputs a TSV with token-level PoS, lemma, dependency, and morphology.
+This output feeds the adj/verb border disambiguation deferred from Step 4c.
 
 ## Human review requirement
 
