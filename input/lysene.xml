@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Lysene</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i engelsk oversættelse med titlen »The Candles« i <i>Riverside Magazine</i>, der udkom i juli 1870. Oversætteren er ikke identificeret. Trykt første gang på dansk i <i>Den nye Alamanak for 1871</i>, udgivet af Mads Hansen og Anton Nielsen i oktober 1870 (BFN 1005). Optaget i <i>Eventyr og Historier. Ny Samling</i>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="lysene" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="lysene_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="188_The-Candles">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var et stort Voxlys, det vidste nok hvad det var....</incipit><readingTime>5</readingTime><popularity>893</popularity><cite>&lt;p&gt;H.C. Andersen: Lysene. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Lysene_hca_ill_0156.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><!--<term>tro</term>--><term>samfundsforhold</term><term>tingseventyr</term><!--<term>kunst</term>--><!--<term>kaerlighed</term>--><!--<term>remser</term>--></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Lysene" xml:id="lysene">
+<head type="main">Lysene</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var et stort <hi rend="italic">Voxlys</hi>, det vidste nok hvad det var.</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Jeg er født i Vox og støbt i Form!« sagde det. »Jeg lyser bedre og brænder i længere Tid end andre Lys; min Plads er i Lysekrone eller Sølvstage!«</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Det maa være en deilig Tilværelse!« sagde <hi rend="italic"><seg target="txtcmnt-273-01"><!--DATA-TERM: Tællelys(et)--><anchor target="txtcmnt-273-01"/><!--lys af talg; billigere og dårligere end vokslys.-->Tællelyset</seg></hi>. »Jeg er kun af Tælle, kun <seg target="txtcmnt-273-02"><!--DATA-TERM: Spiddelys--><anchor target="txtcmnt-273-02"/><!--tællelys, der er støbt, ved at en væge, anbragt på et lysespid, gentagne gange dyppes i flydende tælle.-->Spiddelys</seg>, men jeg trøster mig ved, at det altid er lidt Mere end at være en <seg target="txtcmnt-273-03"><!--DATA-TERM: Praas--><anchor target="txtcmnt-273-03"/><!--langt, tyndt tællelys.-->Praas</seg>; den dyppes kun to Gange, jeg er dyppet otte Gange for at faae min anstændige Tykkelse. Jeg er tilfreds! det er vistnok finere og lykkeligere stillet at være født i Vox og ikke i Tælle, men man stiller sig jo ikke selv i denne Verden. De kommer i Storstuen i Glaskrone, jeg bliver i Kjøkkenet, men det er ogsaa et godt Sted, derfra faaer hele Huset Maden!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Men der er Noget, der er vigtigere end Maden!« sagde <hi rend="italic">Voxlyset</hi>: »Selskabeligheden! see den straale og selv at straale! Her er Bal i Aften, nu bliver jeg og hele min Familie snart afhentede!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Neppe var det sagt, saa bleve alle Voxlysene afhentede, men ogsaa Tællelyset kom med. Fruen selv tog det i sin fine Haand og bar det ud i Kjøkkenet; der stod en lille Dreng med en Kurv, den blev fyldt med Kartofler, ogsaa et Par Æbler kom deri. Alt det gav den gode Frue den fattige Dreng.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Der har Du et Lys til, min lille Ven!« sagde hun. »Din Moder sidder og arbeider heelt ud paa Natten, hun kan bruge det!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">Husets lille Datter stod tæt ved, og da hun hørte de Ord: »<hi rend="italic">ud paa Natten</hi>«, sagde hun med inderlig Glæde: »Jeg skal ogsaa være oppe til ud paa Natten! vi skal have Bal, og jeg faaer de store, røde Sløifer paa!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Hvor straalede hendes Ansigt! det var Glæde! Intet Voxlys kan straale som to Barneøine!</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Det er velsignet at see!« tænkte <hi rend="italic">Tællelyset</hi>, »det glemmer jeg aldrig, og det seer jeg vist aldrig meer!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">Og saa blev det lagt i Kurven under Laaget, og Drengen gik med det.</p>
+
+<pb n="274"/><p rend="firstIndent" xml:id="p_00011">»Hvor skal jeg nu hen!« tænkte Lyset; »jeg skal til fattige Folk, faaer maaskee ikke engang en Messingstage, mens Voxlyset sidder i Sølv og seer de fineste Folk. Hvor det maa være deiligt at lyse for de fineste Folk! det blev nu min Lod at være Tælle og ikke Vox!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Og Lyset kom til Fattigfolk, en Enke med tre Børn i en lille lav Stue lige overfor det rige Huus.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Gud velsigne den gode Frue for hvad hun gav!« sagde Moderen, »det er jo et deiligt Lys! det kan brænde til ud paa Natten.«</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og Lyset blev tændt.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Fut-foi!« sagde det. »Det var en fæl lugtende Svovlstikke, hun tændte mig med! Sligt byder man neppe et Voxlys ovre i det rige Huus!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">Ogsaa der tændtes Lysene; de straalede ud over Gaden; Vognene rumlede med de pyntede Balgjester, Musiken klang.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Nu begynde de derovre!« fornam <hi rend="italic">Tællelyset</hi> og tænkte paa den lille, rige Piges straalende Ansigt, mere straalende end alle Voxlysene. »Det Syn seer jeg aldrig meer!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">Da kom det Mindste af Børnene i det fattige Huus, en lille Pige var det; hun tog Broder og Søster om Halsen, hun havde noget meget Vigtigt at fortælle, det maatte hviskes: »Vi skal i Aften – tænk! – vi skal i Aften have varme Kartofler!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">Og hendes Ansigt straalede af Lyksalighed; Lyset skinnede lige ind deri, det saae en Glæde, en Lykke saa stor som ovre i det rige Huus, hvor den lille Pige sagde: »Vi skulle have Bal i Aften, og jeg skal have de store røde Sløifer paa!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Er det at faae varme Kartofler ligesaa meget!« tænkte Lyset. »Her er jo lige stor Glæde hos de Smaa!« <seg target="txtcmnt-274-01"><!--DATA-TERM: Og det nøs derpaa--><anchor target="txtcmnt-274-01"/><!--ifølge folketroen er nyset et godt varsel, tegn på, at en udtalelse er rigtig e.l.-->Og det nøs derpaa</seg>; det vil sige, det spruttede, mere kan et Tællelys ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Bordet blev dækket, Kartoflerne spiste. O, hvor de smagte! det var et heelt Festmaaltid, og saa fik hver et Æble ovenpaa, og det mindste Barn fremsagde det lille Vers:</p>
+
+
+<lg xml:id="p_00022">
+<l>»<seg target="txtcmnt-274-02"><!--DATA-TERM: Du gode Gud … Amen--><anchor target="txtcmnt-274-02"/><!--gammel bordbøn.-->Du gode Gud, jeg takker Dig,</seg></l>
+<l><seg target="txtcmnt-274-02"><anchor target="txtcmnt-274-02" type="continued"/>At Du igjen har mættet mig!</seg></l>
+<l><seg target="txtcmnt-274-02"><anchor target="txtcmnt-274-02" type="continued"/>Amen</seg>.«</l>
+</lg>
+
+
+<p rend="noIndent" xml:id="p_00023">»Var det ikke peent sagt, Moder!« udbrød derpaa den Lille.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Det maa Du ikke spørge om, eller sige!« sagde Moderen.</p>
+
+<p rend="noIndent" xml:id="p_00025">»Du skal alene tænke paa den gode Gud, som har mættet Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00026">De Smaa kom i Seng, fik et Kys og sov lige strax, og Moder <pb n="275"/>sad og syede til ud paa Natten for at faae sit <seg target="txtcmnt-275-01"><!--DATA-TERM: Udkomme--><anchor target="txtcmnt-275-01"/><!--livsfornødenheder.-->Udkomme</seg> til dem og sig. Og ovre fra det rige Huus skinnede Lysene og Musiken klang. Stjernerne blinkede over alle Huse, over de Riges og over de Fattiges, lige klare, lige velsignede.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Det var i Grunden en rar Aften!« meente <hi rend="italic">Tællelyset</hi>. »Mon Voxlysene havde det bedre i Sølvstage? Det gad jeg nok vide før jeg er brændt ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">Og det tænkte paa de to lige Lykkelige, den Ene bestraalet af Voxlys, den Anden af et Tællelys!</p>
+
+<p rend="firstIndent" xml:id="p_00029">Ja, det er hele Historien!</p>
+
+<pb n="276"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Lysene" xml:id="lysene">
+<head type="section-comments">Lysene</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse med titlen »The Candles« i <hi rend="italic">Riverside Magazine</hi>, der udkom i juli 1870. Oversætteren er ikke identificeret. Trykt første gang på dansk i <hi rend="italic">Den nye Alamanak for 1871</hi>, udgivet af Mads Hansen og Anton Nielsen i oktober 1870 (BFN 1005). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p>
+<p>BFN 1017/V,145-147/VII,357-358.</p>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til det danske førstetryk</p>
+
+<table rend="textdeviations">
+<row><cell type="position">273</cell><cell type="deviation">7: Spiddelys &lt; Spædelys – 20: Tællelyset kom med &lt; Tællelyset – 28: paa &lt; mod</cell></row>
+<row><cell type="position">274</cell><cell type="deviation">20: det Mindste &lt; den Mindste – 40: sov &lt; sov saa</cell></row>
+<row><cell type="position">275</cell><cell type="deviation">6: det &lt; den – <hi rend="italic">Under teksten:</hi> H. C. Andersen.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">273</cell><row xml:id="txtcmnt-273-01"><cell type="data-term">Tællelys(et)</cell><cell type="data-definition">lys af talg; billigere og dårligere end vokslys.</cell></row><row xml:id="txtcmnt-273-02"><cell type="data-term">Spiddelys</cell><cell type="data-definition">tællelys, der er støbt, ved at en væge, anbragt på et lysespid, gentagne gange dyppes i flydende tælle.</cell></row><row xml:id="txtcmnt-273-03"><cell type="data-term">Praas</cell><cell type="data-definition">langt, tyndt tællelys.</cell></row>
+<cell type="page">274</cell><row xml:id="txtcmnt-274-01"><cell type="data-term">Og det nøs derpaa</cell><cell type="data-definition">ifølge folketroen er nyset et godt varsel, <pb n="450"/>tegn på, at en udtalelse er rigtig e.l.</cell></row><row xml:id="txtcmnt-274-02"><cell type="data-term">Du gode Gud … Amen</cell><cell type="data-definition">gammel bordbøn.</cell></row>
+<cell type="page">275</cell><row xml:id="txtcmnt-275-01"><cell type="data-term">Udkomme</cell><cell type="data-definition">livsfornødenheder.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den store Søslange</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Illustreret Tidende</i>, nr. 638, den 17. december 1871 (BFN 1014). Optaget i <i>Eventyr og Historier. Ny Samling</i>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her. BFN 1017/V,161-169/VII,362-364.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-store-soeslange" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="den-store-soeslange_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="194_The-Great-Sea-Serpent">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var en lille Havfisk af god Familie, Navnet husker jeg ikke, det maa de Lærd...</incipit><readingTime>14</readingTime><popularity>937</popularity><cite>&lt;p&gt;H.C. Andersen: Den store Søslange. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Den_store_Soeslange_hca_ill_0159.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>samfundsforhold</term><term>kunst</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den store Søslange" xml:id="den-store-soeslange">
+<head type="main">Den store Søslange</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var en lille Havfisk af god Familie, Navnet husker jeg ikke, det maa de Lærde sige Dig. Den lille Fisk havde attenhundrede Søskende, alle lige gamle; de kjendte ikke deres Fader eller Moder, de maatte strax <seg target="txtcmnt-288-01"><!--DATA-TERM: skjøtte--><anchor target="txtcmnt-288-01"/><!--passe, tage vare på.-->skjøtte</seg> sig selv og svømme om, men det var en stor Fornøielse; Vand havde de nok at drikke, hele Verdenshavet, Føden tænkte de ikke paa, den kom nok; hver vilde følge sin Lyst, hver vilde faae sin egen Historie, ja det tænkte heller Ingen af dem paa.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Solen skinnede ned i Vandet, det lyste om dem, det var saa klart, det var en Verden med de forunderligste Skabninger, og nogle saa gruelig store, med voldsomme Gab, de kunde sluge de attenhundrede Søskende, men det tænkte de heller ikke paa, for Ingen af dem var endnu bleven slugt.</p>
+
+<p rend="firstIndent" xml:id="p_00003">De Smaa svømmede sammen, tæt op til hverandre, som Sildene og Makrelerne svømme; men som de allerbedst svømmede i Vandet og tænkte paa Ingenting, sank, med forfærdelig Lyd, ovenfra, midt ned imellem dem, en lang, tung Ting, der slet ikke vilde holde op; længere og længere strakte den sig, og hver af Smaafiskene, som den ramte, blev qvaset eller fik et Knæk, som de ikke <seg target="txtcmnt-288-02"><!--DATA-TERM: kunde forvinde--><anchor target="txtcmnt-288-02"/><!--kunne komme over.-->kunde forvinde</seg>. Alle Smaafisk, de store med, lige oppe fra Havets Flade og ned til dets Bund, foer i Forfærdelse tilside; den tunge, voldsomme Ting sænkede sig dybere og dybere, den blev længere og længere, milelang, gjennem hele Havet.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Fisk og Snegle, Alt hvad svømmer, Alt hvad kryber, eller drives af Strømninger, fornam denne forfærdelige Ting, denne umaadelige, ubekjendte Havaal, der lige med Eet var kommet ned ovenfra.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Hvad var det dog for en Ting? Ja det vide vi! <seg target="txtcmnt-288-03"><!--DATA-TERM: det var det … Amerika--><anchor target="txtcmnt-288-03"/><!--i 1866 lykkedes det efter flere års forsøg at lægge et 3500 km langt telegrafkabel mellem Irland og Newfoundland.-->det var det store, milelange Telegraph-Toug, Menneskene sænkede mellem Europa og Amerika</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Der blev en Forskrækkelse, der blev et Røre mellem Havets retmæssige Beboere, hvor Touget sænkedes. Flyvefisken satte til Veirs over Havfladen, saa høit den kunde, ja Knurhanen tog <pb n="289"/>Fart et heelt Bøsseskud over Vandet, for det kan den; andre Fisk søgte mod Havbunden, de foer med saadan Hastighed, at de kom længe før Telegraphtouget endnu var seet dernede; de skræmmede baade <seg target="txtcmnt-289-01"><!--DATA-TERM: Kabliau--><anchor target="txtcmnt-289-01"/><!--stortorsk.-->Kabliau</seg> og Flynder, som gik fredeligt i Havets Dyb og aad deres Medskabninger.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Et Par Søpølser bleve saa forskrækkede, at de spyede deres Mave ud, men levede endda, for det kunne de. Mange Hummer og Taskekrabber gik ud af deres gode <seg target="txtcmnt-289-02"><!--DATA-TERM: Harnisk--><anchor target="txtcmnt-289-02"/><!--rustning.-->Harnisk</seg> og maatte lade Benene blive tilbage.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Under al den Skræk og Forvirring kom de attenhundrede Søskende fra hverandre, og mødtes ikke mere, eller <seg target="txtcmnt-289-03"><!--DATA-TERM: kjendte ikke hverandre--><anchor target="txtcmnt-289-03"/><!--genkendte ikke hinanden.-->kjendte ikke hverandre</seg>, kun en halv Snees blev paa samme Plet, og da de i et Par Timer havde holdt sig stille, forvandt de den første Skræk og begyndte at blive nysgjerrige.</p>
+
+<img src="0150_HCA-2004-73-0121a.jpg" ref="p_00009" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00009">De saae sig om, de saae op og de saae ned, og der i Dybden troede de at øine den forfærdelige Ting, som havde skræmmet dem, skræmmet Store og Smaa. Tingen laae henover Havbunden, saa langt de kunde øine; meget tynd var den, men de vidste jo ikke, hvor tyk den kunde gjøre sig, eller hvor stærk den var. Den laae ganske stille, men, tænkte de, det kunde være Lumskhed.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Lad den ligge, hvor den ligger! Den kommer ikke os ved!« sagde den forsigtigste af Smaafiskene, men den Allermindste af dem vilde ikke opgive at komme til Kundskab om hvad den Ting kunde være; ovenfra var den kommen ned, ovenfra maatte man bedst kunne hente Besked, og saa svømmede de op mod Havfladen, det var blikstille Veir.</p>
+
+<img src="0150_HCA-2004-73-0121b.jpg" ref="p_00011" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00011">Der mødte de en Delphin; det er saadan en Springfyr, en <seg target="txtcmnt-289-04"><!--DATA-TERM: Havstryger--><anchor target="txtcmnt-289-04"/><!--ordspil på landstryger, vagabond.-->Havstryger</seg>, der kan slaae Kolbytter hen ad Havfladen; Øine har den at see med, og den maatte have seet og vide Besked; den spurgte de ad, men den havde kun tænkt paa sig selv og sine Kolbytter, ikke seet Noget, vidste ikke at svare, og saa taug den og saae stolt ud.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Derpaa henvendte de sig til Sælhunden, der just dukkede ned; den var høfligere, uagtet den æder Smaafisk; men i Dag var den mæt. Den vidste lidt Mere end Springfisken.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Jeg har mangen Nat ligget paa en vaad Steen og seet ind mod Land, milevidt herfra; der er lumske Skabninger, de kaldes i deres Sprog Mennesker, de efterstræbe os, men oftest smutte vi dog fra dem, det har jeg forstaaet, og det har nu ogsaa den Havaal, I spørge om. Den har været i deres Magt, været oppe paa Landjorden, vist i umindelige Tider; derfra have de <pb n="290"/>ført den paa Fartøi for at bringe den over Havet til et andet fjerntliggende Land. Jeg saae, hvilket Besvær de havde, men magte den kunde de, den var jo bleven mat paa Landjorden. De lagde den i Krands og Kreds, jeg hørte, hvor den ringlede og ranglede, da de lagde den, men den slap dog fra dem, slap herud. De holdt paa den af alle Kræfter, mange Hænder holdt fast, den smuttede dog og naaede til Bunds; der ligger den, tænker jeg, til videre!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Den er noget tynd!« sagde de smaa Fisk.</p>
+
+<img src="0150_HCA-2004-73-0121c.jpg" ref="p_00015" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00015">»De have sultet den!« sagde Sælhunden, »men den kommer sig snart, faaer sin gamle Tykkelse og Storhed. Jeg antager, at den er den store Søslange, som Menneskene ere saa bange for og tale saa meget om; jeg havde før aldrig seet den og aldrig troet paa den; nu troer jeg, <hi rend="italic">den</hi> er det!« og saa dukkede Sælhunden.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Hvor han vidste Meget! Hvor han talte Meget!« sagde de smaa Fisk. »Jeg har aldrig været saa klog før! – Naar det bare ikke er Løgn!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Vi kunne jo svømme ned og undersøge!« sagde den Mindste; »paa Veien høre vi de Andres Mening!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Jeg gjør ikke et Slag med mine Finner, for at faae Noget at vide!« sagde de Andre og dreiede af.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Men jeg gjør det!« sagde den Mindste og styrede afsted ned i det dybe Vand; men den var langt fra Stedet, hvor »den lange sænkede Ting« laae. Den lille Fisk saae og søgte til alle Sider ned mod Dybet.</p>
+
+<p rend="firstIndent" xml:id="p_00020">Aldrig før havde den <seg target="txtcmnt-290-01"><!--DATA-TERM: fornummet--><anchor target="txtcmnt-290-01"/><!--fornemmet.-->fornummet</seg> sin Verden saa stor. Sildene gik i store Stimer, skinnende som en Kæmpebaad af Sølv, Makrelerne fulgtes ogsaa ad og saae endnu prægtigere ud. Der kom Fisk i alle Skikkelser og med Tegninger i alle Farver; <seg target="txtcmnt-290-02"><!--DATA-TERM: Medusaer--><anchor target="txtcmnt-290-02"/><!--gopler, vandmænd.-->Medusaer</seg>, som halvgjennemsigtige Blomster, der lode sig bære og føre af Strømningerne. Store Planter voxte fra Havbunden, favnehøit Græs og palmeformede Træer, hvert Blad besat med skinnende Skaldyr.</p>
+
+<img src="0150_HCA-2004-73-0121d.jpg" ref="p_00021" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00021">Endelig øinede den lille Havfisk en lang mørk Stribe dernede og styrede mod den, men det var hverken Fisk eller Toug, det var Relingen af et stort sunket Fartøi, hvis øverste og nederste Dæk var brudt itu ved Havets Tryk. Den lille Fisk svømmede ind i Rummet, hvor de mange Mennesker, der vare omkomne da Skibet sank, nu vare skyllede bort, paa to nær: en ung Qvinde laae der udstrakt med et lille Barn i sine Arme. Vandet lettede dem og ligesom vuggede dem, de syntes at sove. Den lille Fisk blev ganske forskrækket, den var uvidende om, at de <pb n="291"/>ikke kunde vaagne mere. Vandplanter hang som Løvværk ned over Relingen, hen over de to smukke Liig af Moder og Barn. Der var saa stille, der var saa eensomt. Den lille Fisk skyndte sig bort saa hurtigt den kunde, ud hvor Vandet var klarere belyst og hvor der var Fisk at see. Den var ikke kommen langt, da mødte den en ung Hval, saa forfærdelig stor.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Slug mig ikke!« sagde den lille Fisk. »Jeg er ikke engang en Mundsmag, saa lille er jeg, og mig er det en stor Behagelighed at leve!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Hvad vil Du saa dybt hernede, hvor din Art ikke kommer?« spurgte Hvalen. Og saa fortalte den lille Fisk om den lange forunderlige Aal, eller hvad den Ting nu var, der ovenfra havde sænket sig ned og forskrækket selv de allermodigste Havskabninger.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Ho, ho!« sagde Hvalen og trak saa voldsomt Vand til sig, at den maatte sætte en mægtig Vandstraale naar den kom op og trak Veiret. »Ho, ho!« sagde den, »saa det var den Ting, som <seg target="txtcmnt-291-01"><!--DATA-TERM: krillede--><anchor target="txtcmnt-291-01"/><!--kløede.-->krillede</seg> mig paa Ryggen, idet jeg vendte mig! Jeg troede, at det var en Skibsmast, jeg kunde bruge til Kløpind! Men paa dette Sted her var det ikke. Nei, langt længere ude ligger den Ting. Jeg vil dog undersøge den, jeg har ikke Andet at bestille!«</p>
+
+<p rend="firstIndent" xml:id="p_00025">Og saa svømmede den fremad og den lille Fisk bagefter, ikke for nær, thi der kom ligesom en rivende Strøm, hvor den store Hval skød Fart gjennem Vandet.</p>
+
+<p rend="firstIndent" xml:id="p_00026">De mødte en Hai og en gammel <seg target="txtcmnt-291-02"><!--DATA-TERM: Savfisk--><anchor target="txtcmnt-291-02"/><!--savhaj eller savrokke.-->Savfisk</seg>; de To havde ogsaa hørt om den selsomme Havaal, saa lang og saa tynd; seet den havde de ikke, men det vilde de.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Nu kom der en Havkat.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Jeg tager med!« sagde han, den vilde samme Vei.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Er den store Søslange ikke tykkere end et Ankertoug, saa skal jeg bide den over i eet Bid!« og den aabnede sit Gab og viste sine sex Rækker Tænder. »Jeg kan bide Mærke i et Skibsanker, sagtens kan jeg bide den Stilk over!«</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Der er den!« sagde den store Hval, »jeg seer den!« Han troede, han saae bedre end de Andre. »See hvor den løfter sig, see hvor den svaier, bugter og krummer sig!«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Det var dog ikke den, men en umaadelig stor Havaal, flere Alen lang, som nærmede sig.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Den der har jeg seet før!« sagde Savfisken, »den har aldrig gjort stort Rabalder i Havet, eller skræmmet nogen Storfisk!«</p>
+
+<p rend="firstIndent" xml:id="p_00033">Og saa talte de til den om den nye Aal og spurgte, om den vilde med paa Opdagelse.</p>
+
+<pb n="292"/><p rend="firstIndent" xml:id="p_00034">»Er den Aal længere end jeg!« sagde Havaalen, »saa skal den skee en Ulykke!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Det skal den!« sagde de Andre. »Vi ere Nok til ikke at taale den!« og saa skyndte de sig fremad.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Men da kom der Noget lige i Veien, et underligt Uhyre, større end dem Allesammen.</p>
+
+<p rend="firstIndent" xml:id="p_00037">Det saae ud som en svømmende Ø, der ikke kunde holde sig oppe.</p>
+
+<p rend="firstIndent" xml:id="p_00038">Det var en ældgammel Hval. Dens Hoved var overgroet med Havplanter, dens Ryg besat med Krybdyr og saa umaadelig mange Østers og Muslinger, at dens sorte Skind var ganske hvidspættet.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Kom med, Gamle!« sagde de. »Her er kommen en ny Fisk, som ikke skal taales.«</p>
+
+<img src="0150_HCA-2004-73-0121f.jpg" ref="p_00040" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00040">»Jeg vil hellere ligge, hvor jeg ligger!« sagde den gamle Hval. »Lad mig i Ro! Lad mig ligge! Aa ja, ja, ja! Jeg bærer paa en svær Sygdom! Min Lindring har jeg ved at naae op i Havfladen og faae Ryggen ovenfor! Saa komme de store, rare Søfugle og pille mig, det gjør saa godt, naar bare de ikke slaae Næbbet for dybt i, det gaaer tidt lige ind i mit Spæk. See engang dog! Hele <seg target="txtcmnt-292-01"><!--DATA-TERM: Beenraden--><anchor target="txtcmnt-292-01"/><!--skelettet.-->Beenraden</seg> af en Fugl sidder mig endnu i Ryggen; Fuglen slog Kløerne for dybt og kunde ikke komme løs, da jeg gik tilbunds. Nu have Smaafiskene pillet ham. See hvorledes han seer ud og jeg seer ud! Jeg har Sygdom!«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Det er bare Indbildning!« sagde Haien. »Jeg er aldrig syg. Ingen Fisk er syg!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Undskyld!« sagde den gamle Hval; »Aalen har Hudsygdom, Karpen skal have Kopper, og Alle have vi Indvoldsorme!«</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Vrøvl!« sagde Haien, han gad ikke høre Mere, de Andre ikke heller, de havde jo Andet at tage Vare.</p>
+
+<p rend="firstIndent" xml:id="p_00044">Endelig kom de til Stedet, hvor Telegraphtouget laae. Det har et langt Leie paa Havbunden, fra Europa til Amerika, hen over Sandbanker og Havdynd, Klippegrund og Plantevildnis, hele Skove af Koraller, og saa vexle Strømmene dernede, Vandhvirvler dreie sig, Fisk mylre frem, flere i Flok end de talløse Fugleskarer, som Menneskene see i Trækfuglstiden. Der er et Røre, en Pladsken, en Summen, en Susen: den Susen spøger der lidt af endnu i de store, tomme Havconchylier, naar vi holde dem for vort Øre.</p>
+
+<p rend="firstIndent" xml:id="p_00045">Nu kom de til Stedet.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Der ligger Dyret!« sagde de store Fisk, og den lille sagde det ogsaa. De saae Touget, hvis Begyndelse og Ende svandt i deres Synskreds.</p>
+
+<pb n="293"/><p rend="firstIndent" xml:id="p_00047">Svampe, <seg target="txtcmnt-293-01"><!--DATA-TERM: Polyper--><anchor target="txtcmnt-293-01"/><!--her: blæksprutter.-->Polyper</seg> og <seg target="txtcmnt-293-02"><!--DATA-TERM: Gorgoner--><anchor target="txtcmnt-293-02"/><!--koraldyr.-->Gorgoner</seg> svaiede fra Grunden, sænkede og bøiede sig over det, saa at det snart skjultes, snart var at see. Søpindsviin, Snegle og Orme rørte sig om det; kæmpemæssige Edderkopper, der havde en heel Besætning af Krybdyr paa sig, <seg target="txtcmnt-293-04"><!--DATA-TERM: spankede--><anchor target="txtcmnt-293-04"/><!--spankulerede, skred højtideligt af sted.-->spankede</seg> hen ad Touget. Mørkeblaae Søpølser, eller hvad det Kryb hedder, de æde med hele Kroppen, laae ligesom og lugtede til det nye Dyr, der havde lagt sig paa Havbunden. Flynder og Kabliau vendte sig i Vandet for at høre efter fra alle Sider. <seg target="txtcmnt-293-03"><!--DATA-TERM: Stjernefisk(en)--><anchor target="txtcmnt-293-03"/><!--søstjerner.-->Stjernefisken</seg>, der altid borer sig ned i Dyndet og kun har de to lange Stilke med Øine udenfor, laae og gloede for at see hvad der kom ud af det Røre.</p>
+
+<p rend="firstIndent" xml:id="p_00048">Telegraphtouget laae uden Bevægelse. Men Liv og Tanke var der i det; Mennesketanker gik igjennem det.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Den Ting er lumsk!« sagde Hvalen. »Den er istand til at slaae mig paa Maven, og den er nu min ømme Side!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Lad os føle os for!« sagde Polypen. »Jeg har lange Arme, jeg har smidige Fingre! jeg har rørt ved den, jeg vil nu tage lidt fastere.«</p>
+
+<p rend="firstIndent" xml:id="p_00051">Og den strakte sine smidige, længste Arme ned til Touget og rundt om det.</p>
+
+<p rend="firstIndent" xml:id="p_00052">»Den har ingen Skæl!« sagde Polypen, »den har ingen Skind! Jeg troer, den aldrig føder levende Unger!«</p>
+
+<p rend="firstIndent" xml:id="p_00053">Havaalen lagde sig langs Telegraphtouget og strakte sig saa langt den kunde.</p>
+
+<p rend="firstIndent" xml:id="p_00054">»Den Ting er længere end jeg!« sagde den. »Men det er ikke Længden om at gjøre, man maa have Hud, Mave og Smidighed.«</p>
+
+<img src="0150_HCA-2004-73-0121e.jpg" ref="p_00055" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00055">Hvalen, den unge, stærke Hval, neiede sig lige ned, dybere end den nogensinde havde været.</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Er Du Fisk eller Plante?« spurgte den. »Eller er Du kun Ovenfras-Værk, der ikke kan trives hernede hos os?«</p>
+
+<p rend="firstIndent" xml:id="p_00057">Men Telegraphtouget svarede ikke; det har det ikke paa den Led. Der gik Tanker igjennem det, Mennesketanker; de løde i eet Secund de mange hundrede Mile fra Land til Land.</p>
+
+<p rend="firstIndent" xml:id="p_00058">»Vil Du svare eller vil Du knækkes?« spurgte den glubende Hai, og alle de andre store Fisk spurgte om det Samme: »Vil Du svare eller vil Du knækkes?«</p>
+
+<p rend="firstIndent" xml:id="p_00059">Touget rørte sig ikke, det havde sin <seg target="txtcmnt-293-05"><!--DATA-TERM: aparte--><anchor target="txtcmnt-293-05"/><!--særlige, specielle.-->aparte</seg> Tanke, og en saadan kan Den have, der er fyldt med Tanker.</p>
+
+<p rend="firstIndent" xml:id="p_00060">»Lad dem kun knække mig, saa hales jeg op og kommer i Stand igjen, det er skeet ved Andre af mit Slags, i mindre Farvande!«</p>
+
+<pb n="294"/><p rend="firstIndent" xml:id="p_00061">Det svarede derfor ikke, det havde Andet at bestille, det telegrapherede, laae i lovligt Embede paa Havets Bund.</p>
+
+<p rend="firstIndent" xml:id="p_00062">Ovenover gik nu Solen ned, som Menneskene kalde det, den blev som den rødeste Ild, og alle Himmelens Skyer skinnede som Ild, den ene prægtigere end den anden.</p>
+
+<p rend="firstIndent" xml:id="p_00063">»Nu faae vi den røde Belysning!« sagde Polyperne, »saa sees den Ting maaskee bedre, om saa behøves.«</p>
+
+<p rend="firstIndent" xml:id="p_00064">»Paa den, paa den!« raabte Havkatten og viste alle sine Tænder.</p>
+
+<p rend="firstIndent" xml:id="p_00065">»Paa den, paa den!« sagde Sværdfisken og Hvalen og Havaalen.</p>
+
+<p rend="firstIndent" xml:id="p_00066">De styrtede frem, Havkatten foran; men lige idet den vilde bide om Touget, jog i bar Heftighed Savfisken sin Sav lige ind i Bagdelen paa Havkatten; det var en stor Feiltagelse, og Katten fik ikke Kræfter til Bid.</p>
+
+<p rend="firstIndent" xml:id="p_00067">Der blev et <seg target="txtcmnt-294-01"><!--DATA-TERM: Mudder--><anchor target="txtcmnt-294-01"/><!--røre, ståhej, slagsmål.-->Mudder</seg> nede i det Mudder: Storfisk og Smaafisk, Søpølser og Snegle løbe mod hverandre, aad hverandre, masede, qvasede. Touget laae stille og øvede sin Gjerning, og det skal man.</p>
+
+<p rend="firstIndent" xml:id="p_00068">Den mørke Nat rugede ovenover, men Havets Milliarder og Milliarder levende Smaadyr lyste. Krebs, ikke saa store som et Knappenaalshoved, lyste. Det er ganske vidunderligt, men saaledes er det nu.</p>
+
+<p rend="firstIndent" xml:id="p_00069">Havets Dyr saae paa Telegraphtouget.</p>
+
+<p rend="firstIndent" xml:id="p_00070">»Hvad er dog den Ting, og hvad er den ikke?«</p>
+
+<p rend="firstIndent" xml:id="p_00071">Ja, det var Spørgsmaalet.</p>
+
+<img src="0150_HCA-2004-73-0121g.jpg" ref="p_00072" title="Illustrator: Kai Thorning-Madsen. 1949. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00072">Da kom der en gammel Havko. Menneskene kalde det Slags: Havfrue eller Havmand. En Hun var hun, havde Hale og to korte Arme at pjaske med, hængende Bryst, og Tang og Snyltedyr i Hovedet, og det var hun stolt af.</p>
+
+<p rend="firstIndent" xml:id="p_00073">»Vil I have Kundskab og Kjendskab?« sagde hun, »saa er jeg nok den Eneste, der kan give den; men jeg forlanger herfor farefri Græsgang paa Havbunden for mig og Mine. Jeg er Fisk som I, og jeg er ogsaa Krybdyr ved Øvelse. Jeg er den Klogeste i Havet; jeg veed om Alt, hvad der rører sig hernede, og om Alt, hvad der er ovenfor. Den Ting der, I <seg target="txtcmnt-294-02"><!--DATA-TERM: grubliserer--><anchor target="txtcmnt-294-02"/><!--grubler, funderer over.-->grubliserer</seg> over, er ovenfra, og hvad deroppefra dumper ned, er dødt eller bliver dødt og magtesløst; lad den ligge for hvad den er. Den er kun Menneske-Paafund!«</p>
+
+<p rend="firstIndent" xml:id="p_00074">»Jeg troer nu der er noget Mere ved den!« sagde den lille Havfisk.</p>
+
+<p rend="firstIndent" xml:id="p_00075">»Hold Mund, Makrel!« sagde den store Havko.</p>
+
+<p rend="firstIndent" xml:id="p_00076">»Hundesteile!« sagde de Andre, og det var endnu mere fornærmeligt sagt.</p>
+
+<pb n="295"/><p rend="firstIndent" xml:id="p_00077">Og Havkoen forklarede dem, at det hele Alarmdyr, som forresten jo ikke sagde et Muk, var kun Paafund fra det tørre Land. Og den holdt et lille Foredrag over Menneskenes <seg target="txtcmnt-295-01"><!--DATA-TERM: Trædskhed--><anchor target="txtcmnt-295-01"/><!--lumskhed.-->Trædskhed</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00078">»De ville have fat paa os,« sagde den, »det er det Eneste, de leve for; de spænde Garn ud, komme med Mading paa Krog for at lokke os. Denne der er et Slags stor Snøre, som de troe vi skulle bide paa, de ere saa dumme! Det er vi ikke! Rør kun ikke det Makværk, det trevler op, bliver til Smuld og Dynd, det Hele. Hvad ovenfra kommer, har Knæk, Bræk, duer ikke!«</p>
+
+<p rend="firstIndent" xml:id="p_00079">»Duer ikke!« sagde alle Havskabningerne og holdt sig til Havkoens Mening for at have en Mening.</p>
+
+<p rend="firstIndent" xml:id="p_00080">Den lille Havfisk beholdt sin egen Tanke. »Den umaadelig lange, tynde Slange er maaskee den vidunderligste Fisk i Havet. Jeg har en Fornemmelse deraf.«</p>
+
+<p rend="firstIndent" xml:id="p_00081">»Den Vidunderligste!« sige vi Mennesker med, og sige det med Kjendskab og Forvisning.</p>
+
+<p rend="firstIndent" xml:id="p_00082"><hi rend="italic">Den store Søslange</hi> er det, omtalt længst forud i Sange og Sagn.</p>
+
+<p rend="firstIndent" xml:id="p_00083">Den er født og <seg target="txtcmnt-295-02"><!--DATA-TERM: baaren--><anchor target="txtcmnt-295-02"/><!--født.-->baaren</seg>, sprungen ud fra Menneskets Snille og lagt paa Havets Bund, strækkende sig fra Østens Lande til Vestens Lande, bærende Budskab hurtig som Lysets Straale fra Solen til vor Jord. Den voxer, voxer i Magt og Udstrækning, voxer Aar for Aar, gjennem alle Have, Jorden rundt, under de stormende Vande og de glasklare Vande, hvor Skipperen seer ned, som seilede han gjennem den gjennemsigtige Luft, seer mylrende Fisk, et heelt Farvefyrværkeri.</p>
+
+<p rend="firstIndent" xml:id="p_00084">Dybest nede strækker sig Slangen, en Velsignelsens <seg target="txtcmnt-295-03"><!--DATA-TERM: Midgaardsorm--><anchor target="txtcmnt-295-03"/><!--i nordisk mytologi en kæmpeslange, der ligger i verdenshavet og omslutter jorden (Midgård).-->Midgaardsorm</seg>, der bider i sin Hale, idet den omslutter Jorden; Fisk og Krybdyr løbe med Panden imod, de forstaae dog ikke den Ting ovenfra: Menneskehedens tankefyldte, i alle Sprog forkyndende og dog lydløse <seg target="txtcmnt-295-04"><!--DATA-TERM: Kundskabsslange paa Godt og Ondt--><anchor target="txtcmnt-295-04"/><!--hentydning til 1. Mosebog 3.-->Kundskabsslange paa Godt og Ondt</seg>, den vidunderligste af Havets Vidundere, vor Tids <hi rend="italic">den store Søslange</hi>.</p>
+
+<pb n="296"/>
+
+<pb n="297"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Den store Søslange" xml:id="den-store-soeslange">
+<head type="section-comments">Den store Søslange</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Illustreret Tidende</hi>, nr. 638, den 17. december 1871 (BFN 1014). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her. BFN 1017/V,161-169/VII,362-364.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">292,24</cell><cell type="deviation">Haien &lt; Hvalen</cell></row>
+</table>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">288</cell><cell type="deviation"><hi rend="italic">titlen:</hi> Den store Søslange &lt; Den store Søslange. Et Nutids-Eventyr af H. C. Andersen – 16: Makrelerne &lt; Makrelene – 22: og ned til &lt; til</cell></row>
+<row><cell type="position">289</cell><cell type="deviation">2: med saadan &lt; med en saadan – 3: seet &lt; seet og fornummet – 4: i Havets Dyb &lt; nede paa Bunden – 8: Taskekrabber &lt; Torskekrabber – 25: kommen &lt; kommet – 37: ind &lt; helt ind</cell></row>
+<row><cell type="position">290</cell><cell type="deviation">2: fjerntliggende &lt; bortliggende – 3: bleven &lt; blevet – 12: ere &lt; er – 26: Sildene &lt; Silden – 32: favnehøit &lt; favnhøit – palmeformede &lt; palmeagtige</cell></row>
+<row><cell type="position">291</cell><cell type="deviation">5: kommen &lt; kommet – 22: den fremad &lt; den – 24: Fart gjennem Vandet &lt; fremad – 25: de To &lt; de – 28: Nu kom der en Havkat &lt; <hi rend="italic">mangler</hi> – 29: han, den &lt; Havkatten som</cell></row>
+<row><cell type="position">292</cell><cell type="deviation">12: kommen &lt; kommet – 14: den gamle Hval &lt; Hvalen – 27: Indvoldsorme &lt; Indvoldsorm – 28: Haien, han gad &lt; Hajen og gad – 39: Nu kom de til Stedet &lt; <hi rend="italic">mangler</hi></cell></row>
+<row><cell type="position">293</cell><cell type="deviation">10: de to lange Stilke med Øine &lt; Øinene – 15: den &lt; det – 28: Hvalen, den unge, stærke Hval &lt; Hvalen – 36: spurgte om &lt; spurgte</cell></row>
+<row><cell type="position">294</cell><cell type="deviation">35: dumper &lt; plumper – 41: Hundesteile &lt; Hundesteil 295      23: Den voxer, voxer &lt; Den voxer, den voxer – 28: Midgaardsorm &lt; Midgardsorm – 29: Jorden; &lt; Jorden.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">288</cell><row xml:id="txtcmnt-288-01"><cell type="data-term">skjøtte</cell><cell type="data-definition">passe, tage vare på.</cell></row><row xml:id="txtcmnt-288-02"><cell type="data-term">kunde forvinde</cell><cell type="data-definition">kunne komme over.</cell></row><row xml:id="txtcmnt-288-03"><cell type="data-term">det var det … Amerika</cell><cell type="data-definition">i 1866 lykkedes det efter flere års forsøg at lægge et 3500 km langt telegrafkabel mellem Irland og Newfoundland.</cell></row>
+<cell type="page">289</cell><row xml:id="txtcmnt-289-01"><cell type="data-term">Kabliau</cell><cell type="data-definition">stortorsk.</cell></row><row xml:id="txtcmnt-289-02"><cell type="data-term">Harnisk</cell><cell type="data-definition">rustning.</cell></row><row xml:id="txtcmnt-289-03"><cell type="data-term">kjendte ikke hverandre</cell><cell type="data-definition">genkendte ikke hinanden.</cell></row><row xml:id="txtcmnt-289-04"><cell type="data-term">Havstryger</cell><cell type="data-definition">ordspil på landstryger, vagabond.</cell></row>
+<cell type="page">290</cell><row xml:id="txtcmnt-290-01"><cell type="data-term">fornummet</cell><cell type="data-definition">fornemmet.</cell></row><row xml:id="txtcmnt-290-02"><cell type="data-term">Medusaer</cell><cell type="data-definition">gopler, vandmænd.</cell></row>
+<cell type="page">291</cell><row xml:id="txtcmnt-291-01"><cell type="data-term">krillede</cell><cell type="data-definition">kløede.</cell></row><row xml:id="txtcmnt-291-02"><cell type="data-term">Savfisk</cell><cell type="data-definition">savhaj eller savrokke.</cell></row>
+<cell type="page">292</cell><row xml:id="txtcmnt-292-01"><cell type="data-term">Beenraden</cell><cell type="data-definition">skelettet.</cell></row>
+<cell type="page">293</cell><row xml:id="txtcmnt-293-01"><cell type="data-term">Polyper</cell><cell type="data-definition">her: blæksprutter.</cell></row><row xml:id="txtcmnt-293-02"><cell type="data-term">Gorgoner</cell><cell type="data-definition">koraldyr.</cell></row><row xml:id="txtcmnt-293-03"><cell type="data-term">Stjernefisk(en)</cell><cell type="data-definition">søstjerner.</cell></row><row xml:id="txtcmnt-293-04"><cell type="data-term">spankede</cell><cell type="data-definition">spankulerede, skred højtideligt af sted.</cell></row><row xml:id="txtcmnt-293-05"><cell type="data-term">aparte</cell><cell type="data-definition">særlige, specielle.</cell></row>
+<cell type="page">294</cell><row xml:id="txtcmnt-294-01"><cell type="data-term">Mudder</cell><cell type="data-definition">røre, ståhej, slagsmål.</cell></row><row xml:id="txtcmnt-294-02"><cell type="data-term">grubliserer</cell><cell type="data-definition">grubler, funderer over.</cell></row>
+<cell type="page">295</cell><row xml:id="txtcmnt-295-01"><cell type="data-term">Trædskhed</cell><cell type="data-definition">lumskhed.</cell></row><row xml:id="txtcmnt-295-02"><cell type="data-term">baaren</cell><cell type="data-definition">født.</cell></row><row xml:id="txtcmnt-295-03"><cell type="data-term">Midgaardsorm</cell><cell type="data-definition">i nor<pb n="454"/>disk mytologi en kæmpeslange, der ligger i verdenshavet og omslutter jorden (Midgård).</cell></row><row xml:id="txtcmnt-295-04"><cell type="data-term">Kundskabsslange paa Godt og Ondt</cell><cell type="data-definition">hentydning til 1. Mosebog 3.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

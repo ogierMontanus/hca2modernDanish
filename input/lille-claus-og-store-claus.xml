@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Lille Claus og store Claus</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Eventyr, fortalte for Børn</i>. <i>Første Hefte</i>, som udkom den 8. maj 1835.<br/>
+BFN 268/I,30-40/VII,23-25.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="lille-claus-og-store-claus" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="lille-claus-og-store-claus_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="7_Little-Claus-and-Big-Claus">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der vare i en By to Mænd, som begge havde selv samme Navn, begge to hed de Claus...</incipit><readingTime>17</readingTime><popularity>993</popularity><cite>&lt;p&gt;H.C. Andersen: Lille Claus og store Claus. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Lille_Claus_og_store_Claus_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1835</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>samfundsforhold</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-02-28" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Lille Claus og store Claus" xml:id="lille-claus-og-store-claus">
+<pb n="87"/><head type="main">Lille Claus og store Claus</head>
+
+<p rend="noIndent" xml:id="p_00001">Der vare i en By to Mænd, som begge havde selv samme Navn, begge to hed de Claus, men den ene eiede fire Heste og den anden kun en eneste Hest; for nu at kunne skille dem fra hinanden, kaldte man ham, som havde fire Heste, den store <hi rend="italic">Claus</hi>, og ham, som kun havde den ene Hest, lille Claus. Nu skulle vi høre, hvorledes de to havde det, for det er en virkelig Historie!</p>
+
+<p rend="firstIndent" xml:id="p_00002">Hele Ugen igjennem maatte lille Claus pløie for store <hi rend="italic">Claus</hi>, og laane ham sin eneste Hest; saa hjalp store Claus ham igjen med alle sine fire, men kun eengang om Ugen, og det var om Søndagen. Hussa! hvor smeldede lille Claus med sin Pidsk over alle fem Heste, de vare jo nu saa godt som hans, den ene Dag. Solen skinnede saa deiligt, og alle Klokker i Kirketaarnet ringede til Kirke, Folk vare saa pyntede, og gik med Psalmebog under Armen hen at høre Præsterne prædike og de saae paa lille Claus, der pløiede med fem Heste, og han var saa fornøiet, at han smeldede igjen med Pidsken og raabte: »hyp, alle mine Heste!«</p>
+
+<img src="0007_HCA-1993-2.jpg" ref="p_00003" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">»Det maa Du ikke sige,« sagde store <hi rend="italic">Claus</hi>, »det er jo kun den ene Hest, der er din!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">Men da der igjen gik Nogen forbi til Kirke, glemte lille Claus, at han ikke maatte sige det, og raabte da: »hyp, alle mine Heste!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Ja, nu vil jeg bede Dig at lade være!« sagde store <hi rend="italic">Claus</hi>, »for siger Du det endnu eengang, saa slaaer jeg din Hest for Panden, saa den skal ligge død paa Stedet, da er det forbi med den!«</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Jeg skal <seg target="txtcmnt-087-01"><!--DATA-TERM: saamæn--><!--DATA-DEFINITION: sandelig.-->saamæn</seg> ikke sige det mere!« sagde lille Claus, men da der kom Folk forbi, og de nikkede god Dag, blev han saa fornøiet, og syntes det saae dog saa raskt ud, at han havde fem Heste til at pløie sin Mark, og saa smeldede han med Pidsken, og raabte: »hyp, alle mine Heste!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Jeg skal hyppe dine Heste!« sagde store <hi rend="italic">Claus</hi>, og tog Tøirekøllen og slog lille Claus’s eneste Hest for Panden, saa at den faldt om, og var ganske død.</p>
+
+<pb n="88"/><img src="0007_HCA-1993-4.jpg" ref="p_00008" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00008">»Ak nu har jeg slet ingen Heste mere!« sagde lille Claus og gav sig til at græde. Siden flaaede han Hesten, tog Huden og lod den godt tørre i Vinden, puttede den saa i en Pose, som han tog paa Nakken, og gik ad Byen til for at sælge sin Hestehud.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Han havde saadan en lang Vei at gaae, skulde igjennem en stor mørk Skov, og nu blev det et frygteligt ondt Veir; han gik ganske vild, og før han kom paa den rette Vei, var det Aften, og altfor langt til at komme til Byen eller hjem igjen, før det blev Nat.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Tæt ved Veien laae der en stor Bondegaard, <seg target="txtcmnt-088-01"><!--DATA-TERM: Skudderne--><!--DATA-DEFINITION: skodderne.-->Skudderne</seg> udenfor vare skudte for Vinduerne, men Lyset kunde dog ovenfor skinne ud. Der kan jeg vel faae Lov at blive Natten over, tænkte lille Claus, og gik hen at banke paa.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Bondekonen lukkede op, men da hun hørte, hvad han vilde, sagde hun, at han skulde gaae sin Vei, hendes Mand var ikke hjemme, og hun tog ikke imod nogen Fremmede.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Naa, saa maa jeg da ligge udenfor,« sagde lille Claus, og Bondekonen lukkede Døren for ham.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Tæt ved stod en stor Høstak, og mellem den og Huset var bygget et lille Skuur med et fladt Straatag.</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Der kan jeg ligge oppe!« sagde lille Claus, da han saae Taget, »det er jo en deilig Seng, Storken flyver vel ikke ned og bider mig i Benene.« For der stod en levende Stork oppe paa Taget, hvor den havde sin Rede.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Nu krøb lille Claus op paa Skuret, hvor han laae og vendte sig, for at ligge rigtig godt. Træskudderne for Vinduerne sluttede ikke oventil, og saa kunde han see lige ind i Stuen.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Der var dækket et stort Bord med Viin og Steg og saadan en deilig Fisk, Bondekonen og Degnen sad til Bords og ellers slet ingen andre, og hun skjænkede for ham og han <seg target="txtcmnt-088-02"><!--DATA-TERM: stak paa--><!--DATA-DEFINITION: begyndte på.-->stak paa</seg> Fisken, for det var noget han holdt af.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Hvem der dog kunde faae noget med!« sagde lille Claus, og rakte Hovedet lige hen mod Vinduet. Gud, hvilken deilig Kage han kunde see staae derinde! Jo, det var Gilde!</p>
+
+<p rend="firstIndent" xml:id="p_00018">Nu hørte han Een komme ridende paa Landeveien hen imod Huset, det var Bondekonens Mand, som kom hjem.</p>
+
+<p rend="firstIndent" xml:id="p_00019">Det var saadan en god Mand, men han havde den forunderlige Sygdom, at han aldrig kunde taale at see Degne; kom der en Degn for hans Øine, blev han ganske rasende. Derfor var det ogsaa, at Degnen var gaaet ind for at sige god Dag til Konen, da han vidste Manden ikke var hjemme, og den gode Kone satte derfor al den deiligste Mad, hun havde, for ham; da de nu hørte <pb n="89"/>Manden kom, bleve de saa forskrækkede, og Konen bad Degnen krybe ned i en stor tom Kiste, der stod henne i Krogen; det gjorde han, for han vidste jo, at den stakkels Mand ikke kunde taale at see Degne. Konen gjemte <seg target="txtcmnt-089-01"><!--DATA-TERM: gesvindt--><!--DATA-DEFINITION: hurtigt.-->gesvindt</seg> al den deilige Mad og Viin inde i sin Bagerovn, for havde Manden faaet den at see, saa havde han nok spurgt, hvad den skulde betyde.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Ak ja!« sukkede lille Claus oppe paa Skuret, da han saae al Maden blive borte.</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Er der nogen der oppe?« spurgte Bondemanden og kigede op paa lille Claus. »Hvorfor ligger Du der? kom heller med ind i Stuen!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">Saa fortalte lille Claus, hvorledes han havde forvildet sig, og bad om han maatte blive Natten over.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Ja vist!« sagde Bondemanden, »men nu skulle vi først have lidt at leve af!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">Konen tog meget venlig imod dem begge to, dækkede et langt Bord og gav dem et stort Fad Grød. Bondemanden var sulten og spiste med rigtig Appetit, men lille Claus kunde ikke lade være at tænke paa den deilige Steg, Fisk og Kage, han vidste stod inde i Ovnen.</p>
+
+<p rend="firstIndent" xml:id="p_00025">Under Bordet ved sine Fødder havde han lagt sin Sæk med Hestehuden i, for vi veed jo, at det var den han var gaaet hjemme fra med, for at faae den solgt i Byen. Grøden vilde slet ikke smage ham, og saa traadte han paa sin Pose, og den tørre Hud i Sækken knirkede ganske høit.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Hys!« sagde lille Claus til sin Sæk, men traadte i det samme paa den igjen, saa knirkede det meget høiere end før.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Nei! hvad har du i din Pose?« spurgte Bonden igjen.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»O, det er en Troldmand!« sagde lille Claus, »han siger, at vi skal ikke spise Grød, han har hexet hele Ovnen fuld af Steg og Fisk og Kage.«</p>
+
+<img src="0007_HCA-1993-5.jpg" ref="p_00029" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00029">»Hvad for noget!« sagde Bonden, og lukkede gesvindt Ovnen op, hvor han saae al den deilige Mad, Konen havde gjemt, men som han nu troede, at Troldmanden i Posen havde hexet til dem. Konen turde ikke sige noget, men satte strax Maden paa Bordet, og saa spiste de baade af Fisken og Stegen og Kagen. Nu traadte lille Claus paa sin Pose igjen, saa Huden knirkede.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hvad siger han nu?« spurgte Bonden.</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Han siger,« sagde lille Claus, »at han ogsaa har hexet tre Flasker Viin til os, de staae henne i Krogen ved Ovnen!« Nu maatte Konen tage Vinen frem, hun havde gjemt, og Bonde<pb n="90"/>manden drak og blev saa lystig, saadan en Troldmand, som lille Claus havde i Posen, vilde han da grumme gjerne eie.</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Kan han ogsaa hexe Fanden frem?« spurgte Bonden, »ham gad jeg nok see, for nu er jeg lystig!«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Ja,« sagde lille Claus, »min Troldmand kan Alt, hvad jeg vil forlange. Ikke sandt Du?« spurgte han og traadte paa Posen, saa det knirkede. »Kan Du høre, han siger jo? Men Fanden seer saa fæl ud, det er ikke værd at see ham!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»O, jeg er slet ikke bange, hvorledes kan han vel see ud?«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Ja, han vil vise sig ganske livagtig som en Degn!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Hu!« sagde Bonden, »det var fælt! I maa vide, at jeg kan ikke taale at see Degne! men det er nu det samme, jeg veed jo, det er Fanden, saa finder jeg mig vel bedre i det! Nu har jeg <seg target="txtcmnt-090-01"><!--DATA-TERM: Courage--><!--DATA-DEFINITION: mod.-->Courage</seg>! men han maa ikke komme mig for nær.«</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Nu skal jeg spørge min Troldmand,« sagde lille Claus, traadte paa Posen og holdt sit Øre til.</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Hvad siger han?«</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Han siger, at I kan gaae hen og lukke Kisten op, der staaer i Krogen, saa vil I see Fanden, hvor han kukkelurer, men I maae holde paa Laaget at han ikke slipper ud.«</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Vil I hjelpe mig med at holde paa det!« sagde Bonden og gik hen til Kisten, hvor Konen havde gjemt den virkelige Degn, der sad og var saa bange.</p>
+
+<img src="0007_HCA-1993-6.jpg" ref="p_00041" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00041">Bonden løftede Laaget lidt og kigede ind under det: »hu!« skreg han, og sprang tilbage. »Jo, nu saae jeg ham, han saae ganske ud, som vores Degn! nei, det var forskrækkeligt!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">Det maatte der drikkes paa, og saa drak de endnu til langt ud paa Natten.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Den Troldmand maa Du sælge mig,« sagde Bonden, »forlang for den Alt, hvad Du vil! ja, jeg giver dig strax en heel Skjeppe Penge!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Nei, det kan jeg ikke!« sagde lille Claus, »tænk dog, hvor meget Gavn jeg kan have af denne Troldmand!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">»Ak, jeg vilde saa grumme gjerne have den,« sagde Bonden, og blev ved at bede.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Ja,« sagde da lille Claus tilsidst, »da Du har været saa god at give mig Huusly i Nat, saa kan det være det samme, Du skal faae Troldmanden for en Skjeppe Penge, men jeg vil have Skjeppen topfuld.«</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Det skal Du faae,« sagde Bonden, »men Kisten derhenne maa Du tage med Dig, jeg vil ikke have den en Time i Huset, man kan ikke vide, om han sidder deri endnu.«</p>
+
+<pb n="91"/><p rend="firstIndent" xml:id="p_00048">Lille Claus gav Bonden sin Sæk med den tørre Hud i, og fik en heel Skjeppe Penge, og det topmaalt, for den. Bondemanden forærede ham endogsaa en stor Trillebør til at kjøre Pengene og Kisten paa.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Farvel!« sagde lille Claus, og saa kjørte han med sine Penge og den store Kiste, hvori endnu Degnen sad.</p>
+
+<p rend="firstIndent" xml:id="p_00050">Paa den anden Side af Skoven var en stor dyb Aa, Vandet løb saa stærkt afsted, at man knap kunde svømme imod Strømmen; man havde gjort en stor ny Bro derover, lille Claus holdt midt paa den, og sagde ganske høit, for at Degnen inde i Kisten kunde høre det:</p>
+
+<p rend="firstIndent" xml:id="p_00051">»Nei, hvad skal jeg dog med den tossede Kiste? den er saa tung, som der var Stene i! jeg bliver ganske træt af at kjøre den længer, jeg vil derfor kaste den ud i Aaen, seiler den saa hjem til mig, er det godt, og gjør den det ikke, saa kan det ogsaa være det samme.«</p>
+
+<p rend="firstIndent" xml:id="p_00052">Nu tog han i Kisten med den ene Haand, og løftede lidt paa den, ligesom om han vilde styrte den ned i Vandet.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Nei lad være!« raabte Degnen inde i Kisten, »lad mig bare komme ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00054">»Hu!« sagde lille Claus, og lod som han blev bange. »Han sidder endnu der inde! saa maa jeg gesvindt have den ud i Aaen, at han kan drukne!«</p>
+
+<p rend="firstIndent" xml:id="p_00055">»O nei, o nei!« raabte Degnen, »jeg vil give Dig en heel Skjeppe Penge, vil Du lade være!«</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Ja det er en anden Sag!« sagde lille Claus, og lukkede Kisten op. Degnen krøb strax ud og stødte den tomme Kiste ud i Vandet, og gik til sit Hjem, hvor lille Claus fik en heel Skjeppe Penge, een havde han jo faaet forud af Bondemanden, nu havde han da hele sin Trillebør fuld af Penge!</p>
+
+<p rend="firstIndent" xml:id="p_00057">»See, den Hest fik jeg da ganske godt betalt!« sagde han til sig selv da han kom hjem i sin egen Stue, og væltede alle Pengene af i en stor Hob midt paa Gulvet. »Det vil ærgre store <hi rend="italic">Claus</hi>, naar han faaer at vide, hvor riig jeg er blevet ved min ene Hest, men jeg vil dog ikke lige reent ud sige ham det!«</p>
+
+<p rend="firstIndent" xml:id="p_00058">Nu sendte han en Dreng hen til store <hi rend="italic">Claus</hi>, for at laane et Skjeppemaal.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»Hvad mon han vil med det!« tænkte store <hi rend="italic">Claus</hi>, og smurte Tjære under Bunden for at der kunde hænge lidt ved af det, som maaltes, og det gjorde der da ogsaa, thi da han fik Skjeppen tilbage, hang der tre nye Sølv-Otte-Skillinger ved.</p>
+
+<p rend="firstIndent" xml:id="p_00060">»Hvad for noget?« sagde den store <hi rend="italic">Claus</hi>, og løb strax hen til <pb n="92"/>den Lille: »Hvor har Du faaet alle de mange Penge fra?«</p>
+
+<p rend="firstIndent" xml:id="p_00061">»O det er for min Hestehud, jeg solgte den i Aftes!«</p>
+
+<p rend="firstIndent" xml:id="p_00062">»Det var saamæn godt betalt!« sagde store <hi rend="italic">Claus</hi>, løb gesvindt hjem, tog en Øxe, og slog alle sine fire Heste for Panden, trak Huden af dem, og kjørte med disse ind til Byen.</p>
+
+<p rend="firstIndent" xml:id="p_00063">»Huder! Huder! hvem vil kjøbe Huder!« raabte han igjennem Gaderne.</p>
+
+<p rend="firstIndent" xml:id="p_00064">Alle Skomagere og Garvere kom løbende, og spurgte, hvad han vilde have for dem.</p>
+
+<p rend="firstIndent" xml:id="p_00065">»En Skjeppe Penge for hver,« sagde store <hi rend="italic">Claus</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00066">»Er Du gal?« sagde de allesammen, »troer Du, vi have Penge i Skjeppeviis?«</p>
+
+<p rend="firstIndent" xml:id="p_00067">»Huder, Huder! hvem vil kjøbe Huder,« raabte han igjen, men alle dem, som spurgte, hvad Huderne kostede, svarede han: »en Skjeppe Penge.«</p>
+
+<p rend="firstIndent" xml:id="p_00068">»Han vil gjøre Nar af os,« sagde de Allesammen, og saa toge Skomagerne deres <seg target="txtcmnt-092-01"><!--DATA-TERM: Spanderemme--><!--DATA-DEFINITION: remme til at holde læsten med skoen fast til knæet.-->Spanderemme</seg> og Garverne deres <seg target="txtcmnt-092-02"><!--DATA-TERM: Skjødskind--><!--DATA-DEFINITION: læderforklæde.-->Skjødskind</seg>, og begyndte at prygle paa store <hi rend="italic">Claus</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00069">»Huder, Huder!« vrængede de af ham, »ja vi skal give Dig en Hud, der skal <seg target="txtcmnt-092-03"><!--DATA-TERM: spytte røde Grise--><!--DATA-DEFINITION: bløde.-->spytte røde Grise</seg>! ud af Byen med ham!« raabte de, og store <hi rend="italic">Claus</hi> maatte skynde sig alt hvad han kunde, saa pryglet havde han aldrig været.</p>
+
+<p rend="firstIndent" xml:id="p_00070">»Naa!« sagde han, da han kom hjem, »det skal lille Claus faae betalt, jeg vil slaae ham ihjel for det!«</p>
+
+<p rend="firstIndent" xml:id="p_00071">Men hjemme hos den lille Claus var den gamle Bedstemoder død; hun havde rigtignok været saa arrig og slem imod ham, men han var dog ganske bedrøvet, og tog den døde Kone og lagde hende i sin varme Seng, om hun ikke kunde komme til Live igjen; der skulde hun ligge hele Natten, selv vilde han sidde henne i Krogen og sove paa en Stol, det havde han gjort før.</p>
+
+<img src="0007_HCA-1993-7.jpg" ref="p_00072" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00072">Som han nu sad der om Natten, gik Døren op og store <hi rend="italic">Claus</hi> kom ind med sin Øxe; han vidste nok, hvor lille Claus’s Seng var, gik lige hen til den og slog nu den døde Bedstemoder for Panden, idet han troede, det var lille Claus.</p>
+
+<p rend="firstIndent" xml:id="p_00073">»See saa!« sagde han, »nu skal Du ikke narre mig mere!« og saa gik han hjem igjen.</p>
+
+<p rend="firstIndent" xml:id="p_00074">»Det er dog en slem ond Mand!« sagde lille Claus, »der vilde han slaae mig ihjel, det var dog godt for den gamle Mutter, hun allerede var død, ellers havde han taget Livet af hende!«</p>
+
+<p rend="firstIndent" xml:id="p_00075">Nu gav han den gamle Bedstemoder Søndagsklæderne paa, laante en Hest af sin Nabo, spændte den for Vognen og satte den gamle Bedstemoder op i det bageste Sæde, saaledes at hun <pb n="93"/>ikke kunde falde ud, naar han kjørte til, og saa rullede de afsted igjennem Skoven; da Solen stod op, vare de udenfor en stor Kro, der holdt lille Claus stille, og gik ind for at faae noget at leve af.</p>
+
+<p rend="firstIndent" xml:id="p_00076">Kromanden havde saa mange, mange Penge, han var ogsaa en meget god Mand, men hidsig, som der var Peber og Tobak i ham.</p>
+
+<p rend="firstIndent" xml:id="p_00077">»God Morgen!« sagde han til lille Claus, »Du er tidlig kommet i Stadsklæderne i Dag!«</p>
+
+<p rend="firstIndent" xml:id="p_00078">»Ja,« sagde lille Claus, »jeg skal til Byen med min gamle Bedstemoder, hun sidder der ude paa Vognen, jeg kan ikke faae hende ind i Stuen. Vil I ikke bringe hende et Glas <seg target="txtcmnt-093-01"><!--DATA-TERM: Mjød--><!--DATA-DEFINITION: drik af vand, gæret honning og krydderier.-->Mjød</seg>, men I maa tale lovlig høit, for hun kan ikke godt høre.«</p>
+
+<p rend="firstIndent" xml:id="p_00079">»Jo, det skal jeg!« sagde Kromanden, og skjænkede et stort Glas Mjød, som han gik ud med til den døde Bedstemoder, der var stillet op i Vognen.</p>
+
+<p rend="firstIndent" xml:id="p_00080">»Her er et Glas Mjød fra hendes Søn!« sagde Kromanden, men den døde Kone sagde da ikke et Ord, men sad ganske stille! –</p>
+
+<p rend="firstIndent" xml:id="p_00081">»Hører I ikke!« raabte Kromanden ligesaa høit, han kunde, »her er et Glas Mjød fra hendes Søn!«</p>
+
+<p rend="firstIndent" xml:id="p_00082">Endnu engang raabte han det samme og saa nok engang, men da hun slet ikke rørte sig ud af Stedet, blev han vred og kastede hende Glasset lige ind i Ansigtet, saa Mjøden løb hende lige ned over Næsen, og hun faldt baglænds om i Vognen, for hun var kun stillet op og ikke bundet fast.</p>
+
+<p rend="firstIndent" xml:id="p_00083">»Naada!« raabte lille Claus, sprang ud af Døren og tog Kromanden i Brystet! »der har Du slaaet min Bedstemoder ihjel! Vil Du bare see, der er et stort Hul i hendes Pande!«</p>
+
+<p rend="firstIndent" xml:id="p_00084">»O det var en Ulykke!« raabte Kromanden og slog Hænderne sammen! »det kommer altsammen af min Hidsighed! Søde lille Claus, jeg vil give dig en heel Skjeppe Penge og lade din Bedstemoder begrave, som om det var min egen, men tie bare stille, for ellers hugge de Hovedet af mig, og det er saa ækelt!«</p>
+
+<p rend="firstIndent" xml:id="p_00085">Saa fik lille <hi rend="italic">Claus</hi> en heel Skjeppe Penge, og Kromanden begravede den gamle Bedstemoder, som det kunde være hans egen.</p>
+
+<p rend="firstIndent" xml:id="p_00086">Da nu lille <hi rend="italic">Claus</hi> kom hjem igjen med de mange Penge, sendte han strax sin Dreng over til store <hi rend="italic">Claus</hi>, for at bede, om han ikke maatte laane et Skjeppemaal.</p>
+
+<p rend="firstIndent" xml:id="p_00087">»Hvad for Noget?« sagde store <hi rend="italic">Claus</hi>, »har jeg ikke slaaet ham ihjel! Da maa jeg dog selv see efter,« og saa gik han selv over med Skjeppen til lille <hi rend="italic">Claus</hi>.</p>
+
+<pb n="94"/><p rend="firstIndent" xml:id="p_00088">»Nei hvor har Du dog faaet alle de Penge fra?« spurgte han, og spilede rigtigt Øinene op ved at see alle dem, der vare komne til. –</p>
+
+<p rend="firstIndent" xml:id="p_00089">»Det var min Bedstemoder og ikke mig, Du slog ihjel!« sagde lille <hi rend="italic">Claus</hi>, »hende har jeg nu solgt og faaet en Skjeppe Penge for!«</p>
+
+<p rend="firstIndent" xml:id="p_00090">»Det var saamæn godt betalt!« sagde store <hi rend="italic">Claus</hi> og skyndte sig hjem, tog en Øxe og slog strax sin gamle Bedstemoder ihjel, lagde hende op i Vognen, kjørte ind til Byen, hvor Apothekeren boede, og spurgte, om han ville kjøbe et dødt Menneske.</p>
+
+<p rend="firstIndent" xml:id="p_00091">»Hvem er det, og hvor har I faaet det fra?« spurgte Apothekeren.</p>
+
+<p rend="firstIndent" xml:id="p_00092">»Det er min Bedstemoder!« sagde store <hi rend="italic">Claus</hi>, »jeg har slaaet hende ihjel, for en Skjeppe Penge!«</p>
+
+<p rend="firstIndent" xml:id="p_00093">»Gud bevare os!« sagde Apothekeren. »I snakker over Eder! siig dog ikke saadan noget, for saa kan I miste Hovedet!« – Og nu sagde han ham rigtigt, hvad det var for noget forskrækkeligt Ondt, han havde gjort, og hvilket slet Menneske han var, og at han burde straffes; store <hi rend="italic">Claus</hi> blev da saa forskrækket, at han sprang lige fra Apotheket ud i Vognen, pidskede paa Hestene og foer hjem, men Apothekeren og alle Folk troede han var gal, og lod ham derfor kjøre, hvorhen han vilde.</p>
+
+<p rend="firstIndent" xml:id="p_00094">»Det skal Du faae betalt!« sagde store <hi rend="italic">Claus</hi>, da han var ude paa Landeveien! »ja det skal Du faae betalt, lille <hi rend="italic">Claus</hi>!« og nu tog han, saasnart han kom hjem, den største Sæk, han kunde finde, gik over til lille <hi rend="italic">Claus</hi> og sagde, »nu har Du narret mig igjen! først slog jeg mine Heste ihjel, saa min gamle Bedstemoder! Det er altsammen din Skyld, men aldrig skal Du narre mig meer,« og saa tog han lille <hi rend="italic">Claus</hi> om Livet og puttede ham i sin Sæk, tog ham saa paa Nakken og raabte til ham: »nu gaaer jeg ud og drukner dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00095">Det var et langt Stykke at gaae, før han kom til Aaen, og lille <hi rend="italic">Claus</hi> var ikke saa let at bære. Veien gik lige tæt forbi Kirken, Orgelet spillede og Folk sang saa smukt derinde; saa satte store <hi rend="italic">Claus</hi> sin Sæk med lille <hi rend="italic">Claus</hi> i tæt ved Kirkedøren, og tænkte, det kunde være ganske godt, at gaae ind og høre en Psalme først, før han gik videre: lille <hi rend="italic">Claus</hi> kunde jo ikke slippe ud og alle Folk vare i Kirken; saa gik han derind.</p>
+
+<p rend="firstIndent" xml:id="p_00096">»Ak ja! ak ja!« sukkede lille <hi rend="italic">Claus</hi> inde i Sækken; han vendte sig og vendte sig, men det var ham ikke mueligt at faae løst Baandet op; i det samme kom der en gammel, gammel Qvægdriver, med kridhvidt Haar og en stor Støttekjæp i Haanden;<pb n="95"/><pb n="96"/>han drev en heel <seg target="txtcmnt-096-01"><!--DATA-TERM: Drift--><!--DATA-DEFINITION: flok.-->Drift</seg> af Køer og Tyre foran sig, de løb paa Sækken, som lille <hi rend="italic">Claus</hi> sad i, saa den væltede.</p>
+
+<p rend="firstIndent" xml:id="p_00097">»Ak ja!« sukkede lille <hi rend="italic">Claus</hi>, »jeg er saa ung og skal allerede til Himmerig!«</p>
+
+<p rend="firstIndent" xml:id="p_00098">»Og jeg Stakkel!« sagde Qvægdriveren, »er saa gammel og kan ikke komme der endnu!«</p>
+
+<p rend="firstIndent" xml:id="p_00099">»Luk op for Sækken!« raabte lille <hi rend="italic">Claus</hi>, »kryb i mit Sted derind, saa kommer Du strax til Himmerige!«</p>
+
+<p rend="firstIndent" xml:id="p_00100">»Ja det vil jeg grumme gjerne,« sagde Qvægdriveren og løste op for lille <hi rend="italic">Claus</hi>, der strax sprang ud.</p>
+
+<p rend="firstIndent" xml:id="p_00101">»Vil Du saa passe Qvæget,« sagde den gamle Mand, og krøb nu ind i Posen, som lille <hi rend="italic">Claus</hi> bandt for, og gik saa sin Vei med alle Køerne og Tyrene.</p>
+
+<p rend="firstIndent" xml:id="p_00102">Lidt efter kom store <hi rend="italic">Claus</hi> ud af Kirken, han tog sin Sæk igjen paa Nakken, syntes rigtignok at den var bleven saa let, for den gamle Qvægdriver var ikke mere end halv saa tung, som lille <hi rend="italic">Claus</hi>! »hvor han er blevet let at bære! ja det er nok fordi jeg har hørt en Psalme!« saa gik han hen til Aaen, der var dyb og stor, kastede Sækken med den gamle Qvægdriver ud i Vandet og raabte efter ham, for han troede jo, at det var lille <hi rend="italic">Claus</hi>: »See saa! nu skal Du ikke narre mig mere!«</p>
+
+<p rend="firstIndent" xml:id="p_00103">Saa gik han hjemad, men da han kom hen, hvor Veiene krydsede, mødte han lille <hi rend="italic">Claus</hi>, som drev afsted med alt sit Qvæg.</p>
+
+<p rend="firstIndent" xml:id="p_00104">»Hvad for noget!«sagde store <hi rend="italic">Claus</hi>, »har jeg ikke druknet dig?«</p>
+
+<p rend="firstIndent" xml:id="p_00105">»Jo!« sagde lille <hi rend="italic">Claus</hi>, »Du kastede mig jo ned i Aaen for en lille halv Time siden!«</p>
+
+<p rend="firstIndent" xml:id="p_00106">»Men hvor har Du faaet alt det deilige Qvæg fra?« spurgte store <hi rend="italic">Claus</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00107">»Det er Søqvæg!« sagde lille <hi rend="italic">Claus</hi>, »jeg skal fortælle dig den hele Historie, og Tak skal Du ogsaa have, fordi Du druknede mig, nu er jeg ovenpaa, er rigtig riig, kan Du troe! – Jeg var saa bange, da jeg laae inde i Sækken, og Vinden peeb mig om Ørene, da du kastede mig ned fra Broen i det kolde Vand. Jeg sank ligestrax til Bunds, men jeg stødte mig ikke, for dernede voxer det deiligste bløde Græs. Det faldt jeg paa, og strax blev Posen lukket op, og den deiligste Jomfru, i kridhvide Klæder og med en grøn Krands om det vaade Haar, tog mig i Haanden, og sagde: »Er Du der lille <hi rend="italic">Claus</hi>? der har Du for det første noget Qvæg! en Miil oppe paa Veien staaer endnu en heel Drift, som jeg vil forære dig!« – Nu saae jeg, at Aaen var en stor Landevei for Havfolkene. Nede paa Bunden gik og kjørte de lige ud fra Søen og heelt ind i Landet, til hvor Aaen ender. Der var saa dei<pb n="97"/>ligt med Blomster, og det friskeste Græs, og Fiskene, som svømmede i Vandet, de smuttede mig om Ørene, ligesom her Fuglene i Luften. Hvor der var pene Folk og hvor der var Qvæg, det gik paa <seg target="txtcmnt-097-01"><!--DATA-TERM: Grøfter--><!--DATA-DEFINITION: diger, jordvolde.-->Grøfter</seg> og Gjærder!« –</p>
+
+<p rend="firstIndent" xml:id="p_00108">»Men hvorfor er Du strax gaaet herop til os igjen,« spurgte store <hi rend="italic">Claus</hi>. »Det havde jeg ikke gjort, naar der var saa nydeligt dernede!«</p>
+
+<p rend="firstIndent" xml:id="p_00109">»Jo,« sagde lille <hi rend="italic">Claus</hi>, »det er just <seg target="txtcmnt-097-02"><!--DATA-TERM: polidsk--><!--DATA-DEFINITION: snedigt, fiffigt.-->polidsk</seg> gjort af mig! Du hører jo nok, at jeg siger dig: Havpigen sagde, at en Miil oppe paa Veien, – og ved Veien mener hun jo Aaen, for andet Sted kan hun ikke komme, – staaer endnu en heel Drift Qvæg til mig. Men jeg veed hvor Aaen gaaer i Bugter, snart her, snart der, det er jo en heel Omvei, nei saa gjør man det kortere af, naar man kan det, at komme her op paa Land og <seg target="txtcmnt-097-03"><!--DATA-TERM: drive--><!--DATA-DEFINITION: lede kvæget af sted.-->drive</seg> tvers over til Aaen igjen, derved sparer jeg jo næsten en halv Miil og kommer <seg target="txtcmnt-097-04"><!--DATA-TERM: gesvindere--><!--DATA-DEFINITION: hurtigere.-->gesvindere</seg> til mit Havqvæg!«</p>
+
+<p rend="firstIndent" xml:id="p_00110">»O du er en lykkelig Mand!« sagde store <hi rend="italic">Claus</hi>, »troer Du, jeg ogsaa faaer Havqvæg, naar jeg kommer ned paa Bunden af Aaen!«</p>
+
+<p rend="firstIndent" xml:id="p_00111">»Jo, det skulde jeg tænke,« sagde lille <hi rend="italic">Claus</hi>, »men jeg kan ikke bære dig i Sækken hen til Aaen, Du er mig for tung, vil Du selv gaae der hen og saa krybe i Posen, saa skal jeg med største Fornøielse kaste dig ud.«</p>
+
+<p rend="firstIndent" xml:id="p_00112">»Tak skal Du have!« sagde store <hi rend="italic">Claus</hi>, »men faaer jeg ikke Havqvæg, naar jeg kommer ned, saa skal jeg prygle dig, kan Du troe!«</p>
+
+<p rend="firstIndent" xml:id="p_00113">»O nei! vær ikke saa slem!« og saa gik de hen til Aaen. Da Qvæget, som var tørstig, saae Vandet, løb det alt hvad det kunde, for at komme ned at drikke.</p>
+
+<p rend="firstIndent" xml:id="p_00114">»See, hvor det skynder sig!« sagde lille <hi rend="italic">Claus</hi>; »det længes efter at komme ned paa Bunden igjen!«</p>
+
+<p rend="firstIndent" xml:id="p_00115">»Ja hjælp nu først mig!« sagde store <hi rend="italic">Claus</hi>, »for ellers faaer Du Prygl!« og saa krøb han i den store Sæk, som havde ligget tvers over Ryggen paa en af Tyrene. »Læg en Steen i, for ellers er jeg bange jeg ikke synker,« sagde store <hi rend="italic">Claus</hi>.</p>
+
+<img src="0007_HCA-1993-8.jpg" ref="p_00116" title="Illustrator: Ib Spang Olsen. 1992. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00116">»Det gaaer nok!« sagde lille <hi rend="italic">Claus</hi>, men lagde dog en stor Steen i Sækken, bandt Baandet fast til, og stødte saa til den: Plump! der laae store <hi rend="italic">Claus</hi> ude i Aaen og sank strax ned til Bunds.</p>
+
+<p rend="firstIndent" xml:id="p_00117">»Jeg er bange, han ikke finder Qvæget!« sagde lille <hi rend="italic">Claus</hi>, og drev saa hjem med hvad han havde.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Lille Claus og store Claus" xml:id="lille-claus-og-store-claus">
+<head type="section-comments">Lille Claus og store Claus</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Eventyr, fortalte for Børn</hi>. <hi rend="italic">Første Hefte</hi>, som udkom den 8. maj 1835.<br/>
+BFN 268/I,30-40/VII,23-25.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">87,7</cell><cell type="deviation">Historie! &lt; Historie!«</cell></row>
+<row><cell type="position">87,26</cell><cell type="deviation">død &lt; Død</cell></row>
+<row><cell type="position">88,11</cell><cell type="deviation">for &lt; fra</cell></row>
+<row><cell type="position">89,29</cell><cell type="deviation">»O &lt; O</cell></row>
+<row><cell type="position">89,31</cell><cell type="deviation">Kage.« &lt; Kage.</cell></row>
+<row><cell type="position">90,3</cell><cell type="deviation">»Kan &lt; Kan</cell></row>
+<pb n="503"/>
+<row><cell type="position">90,4</cell><cell type="deviation">lystig!« &lt; lystig!</cell></row>
+<row><cell type="position">90,21</cell><cell type="deviation">»Vil &lt; Vil</cell></row>
+<row><cell type="position">90,33</cell><cell type="deviation">Troldmand!« &lt; Troldmand!</cell></row>
+<row><cell type="position">94,13</cell><cell type="deviation">»jeg &lt; jeg</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">87</cell><row xml:id="txtcmnt-087-01"><cell type="data-term">saamæn</cell><cell type="data-definition">sandelig.</cell></row>
+<cell type="page">88</cell><row xml:id="txtcmnt-088-01"><cell type="data-term">Skudderne</cell><cell type="data-definition">skodderne.</cell></row><row xml:id="txtcmnt-088-02"><cell type="data-term">stak paa</cell><cell type="data-definition">begyndte på.</cell></row>
+<cell type="page">89</cell><row xml:id="txtcmnt-089-01"><cell type="data-term">gesvindt</cell><cell type="data-definition">hurtigt.</cell></row>
+<cell type="page">90</cell><row xml:id="txtcmnt-090-01"><cell type="data-term">Courage</cell><cell type="data-definition">mod.</cell></row>
+<cell type="page">92</cell><row xml:id="txtcmnt-092-01"><cell type="data-term">Spanderemme</cell><cell type="data-definition">remme til at holde læsten med skoen fast til knæet.</cell></row><row xml:id="txtcmnt-092-02"><cell type="data-term">Skjødskind</cell><cell type="data-definition">læderforklæde.</cell></row><row xml:id="txtcmnt-092-03"><cell type="data-term">spytte røde Grise</cell><cell type="data-definition">bløde.</cell></row>
+<cell type="page">93</cell><row xml:id="txtcmnt-093-01"><cell type="data-term">Mjød</cell><cell type="data-definition">drik af vand, gæret honning og krydderier.</cell></row>
+<cell type="page">96</cell><row xml:id="txtcmnt-096-01"><cell type="data-term">Drift</cell><cell type="data-definition">flok.</cell></row>
+<cell type="page">97</cell><row xml:id="txtcmnt-097-01"><cell type="data-term">Grøfter</cell><cell type="data-definition">diger, jordvolde.</cell></row><row xml:id="txtcmnt-097-02"><cell type="data-term">polidsk</cell><cell type="data-definition">snedigt, fiffigt.</cell></row><row xml:id="txtcmnt-097-03"><cell type="data-term">drive</cell><cell type="data-definition">lede kvæget af sted.</cell></row><row xml:id="txtcmnt-097-04"><cell type="data-term">gesvindere</cell><cell type="data-definition">hurtigere.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

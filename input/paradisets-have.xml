@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Paradisets Have</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Eventyr, fortalte for Børn</i>. <i>Ny Samling. Andet Hefte</i>, som udkom den 19. oktober 1839.<br/>
+BFN 353/I,141-153/VII,47-52.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="paradisets-have" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="paradisets-have_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="23_The-Garden-of-Eden">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var en Kongesøn, Ingen havde saa mange og saa smukke Bøger, som han; Alt hva...</incipit><readingTime>21</readingTime><popularity>960</popularity><cite>&lt;p&gt;H.C. Andersen: Paradisets Have. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Paradisets_Have_01_2022-03-09.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1838 1839</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Paradisets Have" xml:id="paradisets-have">
+<pb n="211"/><head type="main">Paradisets Have</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var en Kongesøn, Ingen havde saa mange og saa smukke Bøger, som han; Alt hvad der var skeet i denne Verden kunde han læse sig til og see afbildet i prægtige Billeder. Hvert Folk og hvert Land kunde han faae Besked om, men hvor Paradisets Have var at finde, derom stod der ikke et Ord; og den, just den var det, han tænkte meest paa.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Hans Bedstemoder havde fortalt ham, da han endnu var ganske lille, men skulde begynde sin Skolegang, at hver Blomst i Paradisets Have var den sødeste Kage, Støvtraadene den fineste Viin; paa een stod Historie, paa en anden Geographie eller Tabeller, man behøvede kun at spise Kage, saa kunde man sin Lectie; jo mere man spiste, desmere fik man ind af Historie, Geographie og Tabeller.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Det troede han den Gang; men alt, som han blev en større Dreng, lærte meer og blev langt klogere, begreb han nok, at der maatte være en langt anderledes Deilighed i Paradisets Have.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»<seg target="txtcmnt-211-01"><!--DATA-TERM: O, hvorfor brød … Kundskabens Træ--><!--DATA-DEFINITION: jf. 1. Mosebog 3.-->O, hvorfor brød dog Eva af Kundskabens Træ</seg>! hvorfor spiste Adam af den forbudne Frugt! det skulde have været mig, da var det ikke skeet! aldrig skulde Synden være kommen ind i Verden!«</p>
+
+<p rend="firstIndent" xml:id="p_00005">Det sagde han den Gang, og det sagde han endnu, da han var sytten Aar! Paradisets Have fyldte hele hans Tanke.</p>
+
+<p rend="firstIndent" xml:id="p_00006">En Dag gik han i Skoven; han gik alene, for det var hans største Fornøielse.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Aftenen faldt paa, Skyerne trak sammen, det blev et Regnveir, som om hele Himlen var en eneste Sluse, hvorfra Vandet styrtede; der var saa mørkt, som det ellers er om Natten i den dybeste Brønd. Snart gled han i det vaade Græs, snart faldt han over de nøgne Stene, der ragede frem fra Klippegrunden. Alt drev af Vand, der blev ikke en tør Traad paa den stakkels Prinds. Han maatte kravle op over store Steenblokke, hvor Vandet sivede ud af det høie Mos. Han var ved at segne om; da hørte han en forunderlig Susen, og foran sig saae han en stor, oplyst Hule. Midt inde brændte en Ild, saa man kunde stege en <pb n="212"/>Hjort derved, og det blev der ogsaa; den prægtigste Hjort, med sine høie Takker, var stukket paa Spid og dreiedes langsomt rundt mellem to omhuggede Grantræer. En gammelagtig Kone, høi og stærk, som var hun et udklædt Mandfolk, sad ved Ilden, og kastede det ene Stykke til efter det andet.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Kom du kun nærmere!« sagde hun, »sæt dig ved Ilden at du kan faae dine Klæder tørrede!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Her er en slem Træk!« sagde Prindsen og satte sig paa Gulvet.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Det bliver værre endnu, naar mine Sønner komme hjem!« svarede Konen. »Du er her i Vindenes Hule, mine Sønner ere Verdens de fire Vinde, kan du forstaae det?«</p>
+<p rend="firstIndent" xml:id="p_00011">»Hvor ere dine Sønner?« spurgte Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Ja, det er ikke godt at svare, naar man spørger dumt,« sagde Konen. »Mine Sønner ere paa egen Haand, de spille Langbold med Skyerne deroppe i Storstuen!« og saa pegede hun op i Veiret.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Naa saa!« sagde Prindsen. »I taler ellers noget haardt og er ikke saa mild, som de Fruentimmer, jeg ellers seer omkring mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Ja, de have nok ikke andet at gjøre! Jeg maa være haard, skal jeg <seg target="txtcmnt-212-01"><!--DATA-TERM: holde … i Ave--><!--DATA-DEFINITION: tugte, holde styr på.-->holde mine Drenge i Ave</seg>! men det kan jeg, skjønt de have stive Nakker! seer du de <seg target="txtcmnt-212-02"><!--DATA-TERM: fire Sække--><!--DATA-DEFINITION: jf. Homer <i>Odysseen</i>, 10, 19 f.-->fire Sække</seg>, der hænge paa Væggen; dem ere de ligesaa bange for, som du har været det for Riset bag Speilet. Jeg kan bukke Drengene sammen, skal jeg sige dig, og saa komme de i Posen; der <seg target="txtcmnt-212-03"><!--DATA-TERM: gjøre … Omstændigheder--><!--DATA-DEFINITION: uanset om de vil det eller ej.-->gjøre vi ingen Omstændigheder</seg>! der sidde de og komme ikke ud at føite, før jeg finder for godt. Men der har vi den ene!«</p>
+
+<p rend="firstIndent" xml:id="p_00015">Det var Nordenvinden, som traadte ind med en isnende Kulde, store Hagl hoppede hen ad Gulvet, og <seg target="txtcmnt-212-04"><!--DATA-TERM: Sneeflokkene--><!--DATA-DEFINITION: snefnuggene.-->Sneeflokkene</seg> fygede rundt om. Han var klædt i Bjørneskinds Buxer og Trøie; en Hætte af Sælhundeskind gik ned over Ørene; lange Iistapper hang ham ved Skjæget, og det ene Hagl efter det andet gled ham ned fra Trøie-Kraven.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Gaae ikke strax til Ilden!« sagde Prindsen. »De kan saa let faae Frost i Ansigtet og Hænderne!«</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Frost!« sagde Nordenvinden og lo ganske høit. »Frost! det er just min største Fornøielse! Hvad er ellers Du for et <seg target="txtcmnt-212-05"><!--DATA-TERM: Skrinkelbeen--><!--DATA-DEFINITION: spinkel, svag person med lange tynde ben.-->Skrinkelbeen</seg>! <seg target="txtcmnt-212-06"><!--DATA-TERM: Hvor--><!--DATA-DEFINITION: hvordan.-->Hvor</seg> kommer du i Vindenes Hule!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Han er min Gjæst!« sagde den Gamle, »og er du ikke fornøiet med den Forklaring, saa kan du komme i Posen! – Nu kjender du min Dømmekraft!«</p>
+
+<pb n="213"/><p rend="firstIndent" xml:id="p_00019">See det hjalp, og Nordenvinden fortalte hvorfra han kom, og hvor han nu havde været næsten en heel Maaned.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Fra Polarhavet kommer jeg« sagde han, »jeg har været paa »<seg target="txtcmnt-213-01"><!--DATA-TERM: Beeren-Eiland--><!--DATA-DEFINITION: tysk navn for Bjørneøen i det nordlige Ishav.-->Beeren-Eiland</seg>« med de russiske Hvalrosse-Fangere. <seg target="txtcmnt-213-02"><!--DATA-TERM: Jeg sad og sov … Fart nok--><!--DATA-DEFINITION: H.C. Andersens primære kilde til beskrivelserne af Bjørneøen var den norske geolog B.M. Keilhaus <i>Reise i Öst- og Vest-Finmarken samt Beeren-Eiland og Spitsbergen i Aarene 1827 og 1828</i>, Christiania 1831, hvor det om stormfuglen hedder: »Jeg sad paa Dækket og betragtede Stormfuglens lave Svæven henover den oprørte Søe. Man seer den kun sjelden gjøre nogle raske Slag med Vingerne, hvorefter den i lange Mellemrum holder dem ubevægeligen udstrakte og svinger sig roligen tæt over Vandskorpen« (109).-->Jeg sad og sov paa Roret, da de seilede ud fra Nordkap! naar jeg imellem vaagnede lidt, fløi <seg target="txtcmnt-213-03"><!--DATA-TERM: Stormfuglen--><!--DATA-DEFINITION: stor, mågelignende svømmefugl, som ifølge folketroen varsler storm.-->Stormfuglen</seg> mig om Benene! det er en løierlig Fugl, den gjør et rask Slag med Vingerne og saa holder den dem ubevægelig udstrakt og har da Fart nok</seg>.«</p>
+
+<p rend="firstIndent" xml:id="p_00021">»Gjør det bare ikke saa <seg target="txtcmnt-213-04"><!--DATA-TERM: vidløftigt--><!--DATA-DEFINITION: omstændeligt, unødigt udførligt.-->vidløftigt</seg>!« sagde Vindenes Moder. »Og saa kom du da til Beeren-Eiland!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Der er deiligt! det er et Gulv til at dandse paa, fladt, som en Talerken! halvtøet Snee med <seg target="txtcmnt-213-05"><!--DATA-TERM: lidt Mos … lyst paa dem--><!--DATA-DEFINITION: jf. Keilhau, 1831, s. 113 f.: »[sletten var] tæt belagt med skarpe Stene, mellem hvilke der hist og her spirede lidt Mos (…) En Mængde Beenrader af Hvalrosse og Iisbjørne laae omkring mellem Stenene. Bjørnebenene havde Formen af menneskelige Kjæmpers Fødder og Arme (…) Den fugtige Muggenhed og Grønske, som tildeels bedækkede Beenraderne, synes virkelig at antyde, at Solen endnu ikke havde belyst denne Dødsmark, hvorover Taagemulmet ligesom urokkeligen hvilede«.-->lidt Mos, skarpe Stene og <seg target="txtcmnt-213-06"><!--DATA-TERM: Beenrade--><!--DATA-DEFINITION: skeletter.-->Beenrade</seg> af Hvalrosser og Iisbjørne laae der, de saae ud som Kjæmpers Arme og Been, med muggen Grønhed. Man skulde troe, at Solen aldrig havde lyst paa dem</seg>. Jeg pustede lidt til Taagen for at man kunde see Skuret: det var <seg target="txtcmnt-213-07"><!--DATA-TERM: et Huus … Rødt og Grønt--><!--DATA-DEFINITION: jf. Keilhau, 1831, s.114: »Husene vare udvendig betrukne og behængte med Hvalroshuder, paa hvilke Kjødsiden vendte ud og var fuld af Grønske og en rødlig Raaddenhed«.-->et Huus, reist af Vrag og betrukket med Hvalrosse-Hud; Kjødsiden vendte ud, den var fuld af Rødt og Grønt</seg>; paa Taget sad en levende Iisbjørn og brummede. Jeg gik til Stranden, saae paa Fuglerederne, saae paa de nøgne Unger, der skreg og gabede; da blæste jeg ned i de tusinde Struber, og de lærte at lukke Munden. Nederst væltede sig Hvalrosserne, som levende Indvolde eller Kjæmpe-Madiker med Svinehoveder og alenlange Tænder!« –</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Du fortæller godt, min Dreng!« sagde Moderen. »Jeg faaer Vandet i Munden ved at høre paa dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Saa gik det paa Fangst! Harpunen blev sat i Hvalrossens Bryst, saa den dampende Blodstraale stod som et Springvand over Isen. Da tænkte jeg ogsaa paa mit Spil! jeg blæste op, lod mine <seg target="txtcmnt-213-08"><!--DATA-TERM: Seilere--><!--DATA-DEFINITION: sejlskibe.-->Seilere</seg>, de klippehøie Iisfjelde, klemme Baadene inde; hui hvor man peb, og hvor man skreg, men jeg peb høiere! de døde Hval-Kroppe, Kister og Tougværk maatte de pakke ud paa Isen! jeg rystede Snee-Flokkene om dem og lod dem i de indklemte Fartøier drive Syd paa med Fangsten, for der at smage Saltvand. De komme aldrig meer til Beeren-Eiland!«</p>
+     <p rend="firstIndent" xml:id="p_00025">»Saa har du jo gjort ondt!« sagde Vindenes Moder.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Hvad godt jeg har gjort, kan de Andre fortælle!« sagde han, »men der har vi min Broder fra Vesten, ham kan jeg bedst lide af dem Alle sammen, han smager af Søen og har en velsignet Kulde med sig!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Er det den lille <seg target="txtcmnt-213-09"><!--DATA-TERM: Zephir--><!--DATA-DEFINITION: vestenvinden; holdes i græsk mytologi fanget sammen med sine brødre hos Aiolos, vindenes herre.-->Zephir</seg>?« spurgte Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Ja vist er det Zephir!« sagde den Gamle, »men han er ikke <pb n="214"/>saa lille endda. I gamle Dage var han en smuk Dreng, men nu er det forbi!«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Han saae ud som en Vildmand, men han havde en <seg target="txtcmnt-214-01"><!--DATA-TERM: Faldhat--><!--DATA-DEFINITION: kraftigt polstret krans eller hue, som beskytter barnets hoved ved fald.-->Faldhat</seg> paa for ikke at komme til Skade. I Haanden holdt han en Mahogni Kølle, hugget i de amerikanske Mahogni-Skove. Mindre kunde det ikke være!</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hvor kommer du fra?« spurgte hans Moder.</p>
+
+<p rend="firstIndent" xml:id="p_00031">»Fra Skov-Ørknerne!« sagde han, »hvor de tornede Lianer gjøre et Gjærde mellem hvert Træ, hvor Vandslangen ligger i det vaade Græs, og Menneskene synes unødvendige!«</p>
+
+<p rend="firstIndent" xml:id="p_00032">»Hvad bestilte du der?«</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Jeg saae paa den dybe Flod, saae hvor den styrtede fra Klippen, blev Støv og fløi mod Skyerne, for at bære Regnbuen. Jeg saae den vilde Bøffel svømme i Floden, men Strømmen rev ham med sig; han drev med Vildændernes Flok, der fløi i Veiret, hvor Vandet styrtede; Bøffelen maatte ned, det syntes jeg om, og blæste en Storm, saa de urgamle Træer seilede og bleve til Spaaner.«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Og andet har du ikke bestilt?« spurgte den Gamle.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Jeg har slaaet Kolbøtter i Savannerne, jeg har klappet de vilde Heste og rystet Kokosnødder! jo, jo, jeg har Historier at fortælle! men man skal ikke sige Alt, hvad man veed. Det kjender du nok, du Gamle!« og saa kyssede han sin Moder, saa hun nær var gaaet bag over; han var rigtig nok en vild Dreng.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Nu kom Søndenvinden med Turban og flyvende Beduin-Kappe.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Her er <seg target="txtcmnt-214-02"><!--DATA-TERM: dygtigt--><!--DATA-DEFINITION: meget.-->dygtigt</seg> koldt herinde!« sagde han, og kastede Brænde til Ilden, »man kan mærke, at Nordenvinden er kommen først!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»Her er saa hedt, saa man kan stege en Iisbjørn!« sagde Nordenvinden.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Du er selv en Iisbjørn!« svarede Søndenvinden.</p>
+
+<p rend="firstIndent" xml:id="p_00040">»Vil I puttes i Posen!« spurgte den Gamle, – »Sæt dig paa Stenen der og fortæl, hvor du har været.«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»I Africa, min Moder!« svarede han. »Jeg var med Hottentotterne paa Løvejagt i <seg target="txtcmnt-214-03"><!--DATA-TERM: Kaffernes Land--><!--DATA-DEFINITION: det nuværende Zimbabwe og Sydafrika.-->Kaffernes Land</seg>! hvilket Græs der groer paa Sletten, grønt som en Oliven! der dandsede Gnuen, og Strudsen løb Væddeløb med mig, men jeg er dog raskere til Beens. Jeg kom til Ørkenen til det gule Sand; der seer ud, som paa Havets Bund. Jeg traf en Karavane! de slagtede deres sidste Kameel for at faae Vand at drikke, men det var kun lidt de fik. Solen brændte for oven, og Sandet stegte for neden. Ingen <pb n="215"/>Grændse havde den udstrakte Ørken. Da boltrede jeg mig i det fine, løse Sand og hvirvlede det op i store Støtter, det var en Dands! Du skulde have seet hvor forknyt Dromedaren stod, og Kjøbmanden trak <seg target="txtcmnt-215-01"><!--DATA-TERM: Kaftanen--><!--DATA-DEFINITION: lang orientalsk kjortel.-->Kaftanen</seg> over Hovedet. Han kastede sig ned for mig som for Allah, sin Gud. Nu ere de begravede, der staaer en Pyramide af Sand over dem Alle sammen, naar jeg engang blæser den bort, saa skal Solen blege de hvide Been, da kan de Reisende see, her har før været Mennesker. Ellers kan man ikke troe det i Ørkenen!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Du har altsaa kun gjort ondt!« sagde Moderen. »Marsch i Posen!« og før han vidste det, havde hun Søndenvinden om Livet og i Posen, den væltede rundt omkring paa Gulvet, men hun satte sig paa den, og da maatte den ligge stille.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Det er nogle raske Drenge, hun har!« sagde Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Ja saamæn,« svarede hun, »og ave dem kan jeg! der har vi den fjerde!«</p>
+
+<p rend="firstIndent" xml:id="p_00045">Det var Østenvinden, han var klædt som en Chineser.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Naa, kommer du fra den Kant!« sagde Moderen, »jeg troede, du havde været i Paradisets Have.«</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Der flyver jeg først hen imorgen!« sagde Østenvinden, »imorgen er det hundrede Aar siden jeg var der! jeg kommer nu fra China, hvor jeg har dandset om <seg target="txtcmnt-215-02"><!--DATA-TERM: Porcellaintaarnet--><!--DATA-DEFINITION: i Nanking, Kina, ødelagt i 1854.-->Porcellaintaarnet</seg>, saa alle Klokkerne klingede. Nede paa Gaden fik Embedsmændene Prygl, Bambusrør blev slidt paa deres Skuldre, og det var Folk <seg target="txtcmnt-215-03"><!--DATA-TERM: fra … Grad--><!--DATA-DEFINITION: den gamle kinesiske embedsstand, mandarinerne, var inddelt i ni rangklasser.-->fra den første til den niende Grad</seg>, de skreg: mange Tak, min faderlige Velgjører! men de meente ikke noget med det, og jeg ringede med Klokkerne og sang tsing, tsang, tsu!«</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Du er kaad paa det!« sagde den Gamle, »det er godt Du imorgen kommer til Paradisets Have, det hjælper altid paa din Dannelse! drik saa <seg target="txtcmnt-215-04"><!--DATA-TERM: dygtig--><!--DATA-DEFINITION: ordentligt, grundigt.-->dygtig</seg> af Viisdommens Kilde og tag en lille Flaske fuld hjem med til mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Det skal jeg!« sagde Østenvinden. »Men hvorfor har du nu puttet min Broder fra Sønden ned i Posen, frem med ham! han skal fortælle mig om <seg target="txtcmnt-215-05"><!--DATA-TERM: Fugl Phønix--><!--DATA-DEFINITION: ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.-->Fugl Phønix</seg>, den Fugl vil Prindsessen i Paradisets Have altid høre om, naar jeg hvert hundrede Aar gjør Visit. Luk Posen op! saa er Du min sødeste Moder, og jeg skal forære dig to Lommer fulde af Thee, saa grøn og frisk, som jeg har plukket den paa Stedet!«</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Naa, for Theens Skyld og fordi du er min Kjæledægge, vil jeg aabne Posen!« det gjorde hun, og Søndenvinden krøb ud, men han saae ganske slukøret ud, fordi den fremmede Prinds havde seet det.</p>
+
+<pb n="216"/><p rend="firstIndent" xml:id="p_00051">»Der har du et Palmeblad til Prindsessen!« sagde Søndenvinden, »det Blad har den gamle Fugl Phønix, den eneste der var i Verden, givet mig; han har med sit Næb ridset deri sin hele Levnets-Beskrivelse, de hundred Aar han levede; nu kan hun selv læse sig det til. Jeg saae, <seg target="txtcmnt-216-01"><!--DATA-TERM: hvor--><!--DATA-DEFINITION: hvorledes.-->hvor</seg> Fugl Phønix selv stak Ild i sin Rede og sad og brændte op, <seg target="txtcmnt-216-02"><!--DATA-TERM: som en Hindues Kone--><!--DATA-DEFINITION: hentydning til hinduismens gravskik, hvor enken brændes sammen med sin afdøde ægtemands legeme.-->som en Hindues Kone</seg>. Hvor dog de tørre Grene knagede, der var en Røg og en Duft. Tilsidst slog Alt op i Lue, den gamle Fugl Phønix blev til Aske, men hans Æg laae gloende rødt i Ilden, det revnede med et stort Knald, og Ungen fløi ud, nu er den Regent over alle Fuglene og den eneste Fugl Phønix i Verden. Han har bidt et Hul i Palmebladet, jeg gav dig, det er hans Hilsen til Prindsessen!«</p>
+
+<p rend="firstIndent" xml:id="p_00052">»Lad os nu faae noget at leve af!« sagde Vindenes Moder, og saa satte de sig Alle til at spise af den stegte Hjort, og Prindsen sad ved Siden af Østenvinden, og derfor bleve de snart gode Venner.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Hør, siig mig engang,« sagde Prindsen, »hvad er det for en Prindsesse, her bliver talt saa meget om, og hvor ligger Paradisets Have!«</p>
+
+<p rend="firstIndent" xml:id="p_00054">»Ho, ho!« sagde Østenvinden, »vil du derhen, ja saa flyv du med mig imorgen! men det maa jeg ellers sige dig, der har ingen Mennesker været siden Adam og Evas Tid. Dem kjender du jo nok af din Bibelhistorie!«</p>
+<p rend="firstIndent" xml:id="p_00055">»Ja vist!« sagde Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00056">»Dengang de bleve forjagne, sank Paradisets Have ned i Jorden, men den beholdt sit varme Solskin, sin milde Luft og al sin Herlighed. Feernes Dronning boer derinde; der ligger Lyksalighedens Ø, hvor Døden aldrig kommer, hvor der er deiligt at være! Sæt dig paa min Ryg i Morgen, saa skal jeg tage dig med; jeg tænker, det nok lader sig gjøre! men nu maa du ikke snakke mere, for jeg vil sove!«</p>
+<p rend="firstIndent" xml:id="p_00057">Og saa sov de Allesammen.</p>
+
+<p rend="firstIndent" xml:id="p_00058">I den tidlige Morgenstund vaagnede Prindsen og blev ikke lidt betuttet ved at han allerede var høit oppe over Skyerne. Han sad paa Ryggen af Østenvinden, der nok saa ærligt holdt paa ham; de vare saa høit i Veiret, at Skove og Marker, Floder og Søer toge sig ud som paa et stort illumineret Landkaart.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»God Morgen!« sagde Østenvinden. »Du kunde ellers gjerne sove lidt endnu, for der er ikke meget at see paa det flade Land under os. <seg target="txtcmnt-216-03"><!--DATA-TERM: Uden--><!--DATA-DEFINITION: medmindre.-->Uden</seg> du har Lyst til at tælle Kirker! de staae som Kridtprikker nede paa det grønne Brædt.« Det var Marker og Enge, han kaldte det grønne Brædt.</p>
+
+<pb n="217"/>
+
+<pb n="218"/><p rend="firstIndent" xml:id="p_00060">»Det var <seg target="txtcmnt-218-01"><!--DATA-TERM: uartigt--><!--DATA-DEFINITION: uhøfligt.-->uartigt</seg>, at jeg ikke fik sagt Farvel til din Moder og dine Brødre!« sagde Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00061">»Naar man sover, er man undskyldt!« sagde Østenvinden, og derpaa fløi de endnu raskere afsted: man kunde høre det paa Toppene af Skovene, naar de foer henover dem, raslede alle Grene og Blade; man kunde høre det paa Havet og Søerne, thi hvor de fløi, væltede Bølgerne høiere, og de store Skibe neiede dybt ned i Vandet, som svømmende Svaner.</p>
+
+<p rend="firstIndent" xml:id="p_00062">Mod Aften, da det blev mørkt, saae det morsomt ud med de store Byer; Lysene brændte dernede, snart her, snart der, det var akkurat, som naar man har brændt et Stykke Papir og seer de mange smaa Ildgnister, hvor de <seg target="txtcmnt-218-02"><!--DATA-TERM: ere Børn og gaae af Skole--><!--DATA-DEFINITION: gå af skole, dvs. hjem; (udtryk anvendt over for børn) om gnister, der ligesom løber hen over næsten udbrændt papir o.l.; talemåde om de sidst udgående gløder.-->ere Børn og gaae af Skole</seg>! Og Prindsen klappede i Hænderne, men Østenvinden bad ham lade være med det, heller holde sig fast, ellers kunde han let falde ned og blive hængende paa et Kirkespiir.</p>
+
+<p rend="firstIndent" xml:id="p_00063">Ørnen i de sorte Skove fløi nok saa let, men Østenvinden fløi lettere. Kosakken paa sin lille Hest jog afsted over Sletterne, men Prindsen jog anderledes afsted.</p>
+
+<p rend="firstIndent" xml:id="p_00064">»Nu kan du see Himmalaia!« sagde Østenvinden, »det er det høieste Bjerg i Asien; snart skulle vi nu komme til Paradisets Have!« saa dreiede de mere sydligt, og snart duftede der af Kryderier og Blomster. Figen og Granatæbler voxte vildt, og den vilde Viinranke havde blaa og røde Druer. Her steeg de begge to ned, strakte sig i det bløde Græs, hvor Blomsterne nikkede til Vinden ligesom de vilde sige: »velkommen tilbage.«</p>
+<p rend="firstIndent" xml:id="p_00065">»Ere vi nu i Paradisets Have?« spurgte Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00066">»Nei vist ikke!« svarede Østenvinden »men nu skal vi snart komme der. Seer du Fjeldvæggen der og den store Hule, hvor Viinrankerne hænge som store grønne Gardiner. Der skal vi ind igjennem! Svøb dig i din Kappe, her brænder Solen, men eet Skridt og det er isnende koldt. Fuglen, som streifer forbi Hulen, har den ene Vinge herude i den varme Sommer og den anden derinde i den kolde Vinter!«</p>
+
+<p rend="firstIndent" xml:id="p_00067">»Saa, det er Veien til Paradisets Have?« spurgte Prindsen.</p>
+
+<p rend="firstIndent" xml:id="p_00068">Nu gik de ind i Hulen! hu, hvor der var isnende koldt, men det varede dog ikke længe. Østenvinden bredte sine Vinger ud, og de lyste som den klareste Ild; nei hvilke Huler! de store Steenblokke, som Vandet dryppede fra, hang over dem i de forunderligste Skikkelser; snart var der saa snevert, at de maatte krybe paa Hænder og Fødder, snart saa høit og udstrakt, som i den frie Luft. Det saae ud som Gravcapeller med stumme Orgelpiber og forstenede Faner.</p>
+
+<pb n="219"/><p rend="firstIndent" xml:id="p_00069">»Vi gaae nok Dødens Vei til Paradisets Have!« sagde Prindsen, men Østenvinden svarede ikke et Ord, pegede fremad, og det deiligste blaa Lys straalede dem imøde; Steenblokkene oven over bleve mere og mere en Taage, der tilsidst var klar, som en hvid Sky i Maaneskin. Nu vare de i den deiligste milde Luft, saa frisk som paa Bjergene, saa duftende, som ved Dalens Roser.</p>
+
+<p rend="firstIndent" xml:id="p_00070">Der strømmede en Flod, saa klar, som Luften selv, og Fiskene vare som Sølv og Guld; purpurrøde Aal, der skjøde blaa Ildgnister ved hver Bøining, spillede dernede i Vandet og de brede Aakande-Blade havde Regnbuens Farver, Blomsten selv var en rødguul brændende Lue, som Vandet gav Næring, ligesom Olien faaer Lampen bestandigt til at brænde! en fast Bro af Marmor, men saa <seg target="txtcmnt-219-01"><!--DATA-TERM: kunstigt--><!--DATA-DEFINITION: kunstfærdigt.-->kunstigt</seg> og fiint udskaaren, som var den gjort af Kniplinger og Glasperler, førte over Vandet til Lyksalighedens Ø, hvor Paradisets Have blomstrede.</p>
+
+<p rend="firstIndent" xml:id="p_00071">Østenvinden tog Prindsen paa sine Arme og bar ham derover. Der sang Blomster og Blade de skjønneste Sange fra hans Barndom, men saa svulmende deiligt, som ingen menneskelig Stemme her kan synge.</p>
+
+<p rend="firstIndent" xml:id="p_00072">Var det Palmetræer, eller kjæmpestore Vandplanter, her groede! saa saftige og store Træer havde Prindsen aldrig før seet; i lange Krandse hang der de forunderligste Slyngplanter, som de kun findes afbildede med Farver og Guld paa Randen af de gamle Helgenbøger eller snoe sig der gjennem Begyndelses-Bogstaverne. Det var de sælsomste Sammensætninger af Fugle, Blomster og Snørkler. I Græsset tæt ved stod en Flok Paafugle med udbredte straalende Haler! Jo det var rigtignok saa! nei da Prindsen rørte ved dem, mærkede han, at det ikke var Dyr, men Planter: det var de store Skræpper, der her straalede som Paafuglens deilige Hale. Løven og Tigeren sprang liig smidige Katte mellem de grønne Hækker, der duftede som <seg target="txtcmnt-219-02"><!--DATA-TERM: Olietræ(ets)--><!--DATA-DEFINITION: oliventræ.-->Olietræets</seg> Blomster, og Løven og Tigren vare tamme, den vilde Skovdue skinnende som den skjønneste Perle, baskede med sine Vinger Løven paa Manken, og Antilopen, der ellers er saa sky, stod og nikkede med Hovedet, ligesom den ogsaa vilde lege med.</p>
+
+<p rend="firstIndent" xml:id="p_00073">Nu kom Paradisets Fee; hendes Klæder straalede som Solen, og hendes Ansigt var mildt, som en glad Moders, naar hun ret er lykkelig over sit Barn. Hun var saa ung og smuk, og de deiligste Piger, hver med en lysende Stjerne i Haaret, fulgte hende.</p>
+
+<p rend="firstIndent" xml:id="p_00074">Østenvinden gav hende det skrevne Blad fra Fugl Phønix, og hendes Øine funklede af Glæde; hun tog Prindsen ved Haan<pb n="220"/><pb n="221"/>den og førte ham ind i sit Slot, hvor Væggene havde Farver, som det prægtigste Tulipanblad, holdt mod Solen, Loftet selv var een stor straalende Blomst, og jo mere man stirrede op i den, desto dybere syntes dens Bæger. Prindsen traadte hen til Vinduet og saae igjennem een af Ruderne, da saae han Kundskabens Træ med Slangen, og Adam og Eva stod tæt derved. »Ere de ikke forjagne?« spurgte han, og Feen smilede, og forklarede ham, at paa hver Rude havde Tiden saaledes brændt sit Billede, men ikke, som man pleiede at see det, nei der var Liv deri, Træernes Blade rørte sig, Menneskene kom og gik, som i et Speilbillede. Og han saae gjennem en anden Rude, og der var <seg target="txtcmnt-221-01"><!--DATA-TERM: Jakobs Drøm--><!--DATA-DEFINITION: jf. 1. Mosebog 28,10-15.-->Jakobs Drøm</seg>, hvor Stigen gik lige ind i Himlen, og Englene med store Vinger svævede op og ned. Ja, Alt hvad der var skeet i denne Verden levede og rørte sig i Glasruderne; saa kunstige Malerier kunde kun Tiden indbrænde.</p>
+
+<p rend="firstIndent" xml:id="p_00075">Feen smilede og førte ham ind i en Sal, stor og høi; dens Vægge syntes <seg target="txtcmnt-221-02"><!--DATA-TERM: transparente--><!--DATA-DEFINITION: gennemsigtige.-->transparente</seg> Malerier, med det ene Ansigt deiligere, end det andet; det var Millioner Lykkelige, der smilede og sang, saa det flød sammen i een Melodie; de allerøverste vare saa smaa, at de syntes mindre, end den mindste Rosenknop, naar den tegnes som en Prik paa Papiret. Og midt i Salen stod et stort Træ med hængende yppige Grene; gyldne Æbler, store og smaa, hang som Appelsiner mellem de grønne Blade. Det var Kundskabens Træ, af hvis Frugt Adam og Eva havde spiist. Fra hvert Blad dryppede en skinnende rød Dugdraabe; det var, som om Træet græd blodige Taarer.</p>
+
+<p rend="firstIndent" xml:id="p_00076">»Lad os nu stige i Baaden!« sagde Feen, »der ville vi nyde Forfriskninger ude paa det svulmende Vand! Baaden gynger, kommer dog ikke af Stedet, men alle Verdens Lande glide forbi vore Øine.« Og det var underligt at see, hvorledes hele Kysten bevægede sig. Der kom de høie sneebedækte Alper, med Skyer og sorte Grantræer, Hornet klang saa dybt veemodigt, og Hyrden jodlede smukt i Dalen. Nu bøiede Banantræerne deres lange, hængende Grene ned over Baaden, kulsorte Svaner svømmede paa Vandet, og de sælsomste Dyr og Blomster viste sig paa Strandbreden: det var <seg target="txtcmnt-221-03"><!--DATA-TERM: Ny-Holland--><!--DATA-DEFINITION: Australien.-->Ny-Holland</seg>, den femte Verdensdeel, der med en Udsigt til de blaa Bjerge gled forbi. Man hørte Præsternes Sang og saae de Vildes Dands til Lyden af Trommer og <seg target="txtcmnt-221-04"><!--DATA-TERM: Been-Tuber--><!--DATA-DEFINITION: fløjter af udborede knogler.-->Been-Tuber</seg>. Ægypternes Pyramider, der ragede ind i Skyerne, omstyrtede Søiler og <seg target="txtcmnt-221-05"><!--DATA-TERM: Sphinx(er)--><!--DATA-DEFINITION: fabelvæsen med menneskehoved og dyrekrop.-->Sphinxer</seg>, halv begravet i Sandet, seilede forbi. Nordlysene brændte over Nordens <seg target="txtcmnt-221-06"><!--DATA-TERM: Jøkler--><!--DATA-DEFINITION: isbræer, gletsjere.-->Jøkler</seg>, det var et Fyrværkeri, som Ingen kunde gjøre efter. Prindsen var saa <pb n="222"/>lyksalig, ja han saae jo hundrede Gange mere, end hvad vi her fortælle.</p>
+
+<p rend="firstIndent" xml:id="p_00077">»Og altid kan jeg blive her?« spurgte han.</p>
+
+<p rend="firstIndent" xml:id="p_00078">»Det beroer paa dig selv!« svarede Feen, »dersom du ikke, som Adam, lader dig friste til at gjøre det Forbudne, da kan du altid blive her!«</p>
+
+<p rend="firstIndent" xml:id="p_00079">»Jeg skal ikke røre Æblerne paa Kundskabens Træ!« sagde Prindsen. »Her er jo tusinde Frugter, skjønne, som dem!«</p>
+
+<p rend="firstIndent" xml:id="p_00080">»Prøv dig selv, og er du ikke stærk nok, saa følg med Østenvinden, som bragte dig; han flyver nu tilbage og kommer her ei i hundrede Aar; den Tid vil paa dette Sted gaae for dig, som var det kun hundrede Timer, men det er en lang Tid for Fristelsen og Synden. Hver Aften, naar jeg gaaer fra dig, maa jeg tilraabe dig »følg med!« jeg maa vinke med Haanden ad dig, men bliv tilbage. Gaa ikke med, thi da vil ved hvert Skridt din Længsel blive større: du kommer i Salen, hvor Kundskabens Træ groer; jeg sover under dens duftende hængende Grene, du vil bøie dig over mig, og jeg maa smile, men trykker du et Kys paa min Mund, da synker Paradiset dybt i Jorden, og det er tabt for dig. Ørkenens skarpe Vind vil omsuse dig, den kolde Regn dryppe fra dit Haar. Sorg og <seg target="txtcmnt-222-01"><!--DATA-TERM: Trængsel--><!--DATA-DEFINITION: modgang.-->Trængsel</seg> bliver din Arvelod.«</p>
+
+<p rend="firstIndent" xml:id="p_00081">»Jeg bliver her!« sagde Prindsen, og Østenvinden kyssede ham paa Panden og sagde »vær stærk, saa samles vi her igjen om hundrede Aar! farvel! farvel!« og Østenvinden bredte sine store Vinger ud; de lyste, som <seg target="txtcmnt-222-02"><!--DATA-TERM: Kornmoen--><!--DATA-DEFINITION: kornmod: genskin af fjerne lyn i horisonten, især ved høsttid.-->Kornmoen</seg> i Høsten, eller Nordlyset i den kolde Vinter. »Farvel! farvel!« klang det fra Blomster og Træer. Storke og Pelikaner fløi i Række, som flagrende Baand, og fulgte med til Grændsen af Haven.</p>
+
+<p rend="firstIndent" xml:id="p_00082">»Nu begynde vore Dandse!« sagde Feen, »ved Slutningen, hvor jeg dandser med dig, vil du see, idet Solen synker, at jeg vinker ad dig, du vil høre mig tilraabe dig: følg med! men gjør det ikke! i hundred Aar maa jeg hver Aften gjentage det; for hver Gang den Tid er omme, vinder du mere Kraft, tilsidst tænker du aldrig derpaa. Iaften er det første Gang; nu har jeg advaret dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00083">Og Feen førte ham ind i en stor Sal af hvide gjennemsigtige Lilier, de gule Støvtraade i hver var en lille Guldharpe, som klang med Strængelyd og Fløitetoner. De skjønneste Piger, svævende og slanke, klædte i bølgende Flor, saa man saae de deilige Lemmer, svævede i Dandse, og sang om hvor herligt det var at leve, at de aldrig vilde døe, og at Paradisets Have skulde evig blomstre.</p>
+
+<pb n="223"/><p rend="firstIndent" xml:id="p_00084">Og Solen gik ned, den hele Himmel blev eet Guld, der gav Lilierne Skjær som den deiligste Rose, og Prindsen drak af den skummende Viin, Pigerne rakte ham, og han følte en Lyksalighed, som aldrig før; han saae, hvor Salens Baggrund aabnede sig, og Kundskabens Træ stod i en Glands, der blændede hans Øie; Sangen derfra var blød og deilig, som hans Moders Stemme, og det var, som hun sang: »mit Barn! mit elskede Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00085">Da vinkede Feen og raabte saa kjærligt »følg mig! følg mig!« og han styrtede hen imod hende, glemte sit Løfte, glemte det <seg target="txtcmnt-223-01"><!--DATA-TERM: alt--><!--DATA-DEFINITION: allerede.-->alt</seg> den første Aften, og hun vinkede og smilede. Duften, den krydrede Duft rundt om blev mere stærk, Harperne tonede langt deiligere, og det var, som de Millioner smilende Hoveder i Salen, hvor Træet groede, nikkede og sang: »Alt bør man kjende! Mennesket er Jordens Herre« og det var ikke længer Blod-Taarer, der faldt fra Bladene paa Kundskabens Træ, det var røde, funklende Stjerner, syntes ham. »Følg mig, følg mig!« lød de bævende Toner, og ved hvert Skridt brændte Prindsens Kinder hedere, hans Blod bevægede sig stærkere! »jeg maa!« sagde han, »det er jo ingen Synd, kan ikke være det! hvorfor ikke følge Skjønhed og Glæde! see hende sove vil jeg! der er jo intet tabt, naar jeg kun lader være at kysse hende, og det gjør jeg ikke, jeg er stærk, jeg har en fast Vilie!«</p>
+
+<p rend="firstIndent" xml:id="p_00086">Og Feen kastede sin straalende Dragt, bøiede Grenene tilbage, og et Øieblik efter var hun skjult derinde.</p>
+
+<p rend="firstIndent" xml:id="p_00087">»Jeg har endnu ikke syndet!« sagde Prindsen, »og vil det ikke heller;« og saa drog han Grenene til Side, der sov hun allerede, deilig, som kun Feen i Paradisets Have kan være det; hun smilede i Drømme, han bøiede sig ned over hende og saae Taarerne bæve mellem hendes <seg target="txtcmnt-223-02"><!--DATA-TERM: Øienhaar--><!--DATA-DEFINITION: øjenvipper.-->Øienhaar</seg>!</p>
+
+<p rend="firstIndent" xml:id="p_00088">»Græder du over mig?« hviskede han, »græd ikke, du deilige Qvinde! Nu begriber jeg først Paradisets Lykke, den strømmer gjennem mit Blod, gjennem min Tanke, <seg target="txtcmnt-223-03"><!--DATA-TERM: Cherub(ens)--><!--DATA-DEFINITION: engel, der med flammesværd bevogter indgangen til Paradisets Have.-->Cherubens</seg> Kraft og evige Liv føler jeg i mit jordiske Legeme, lad det blive evig Nat for mig, et Minut, som dette er Rigdom nok!« og han kyssede Taaren af hendes Øie, hans Mund rørte ved hendes – –</p>
+
+<p rend="firstIndent" xml:id="p_00089">– Da lød der et Tordenskrald, saa dybt og skrækkeligt, som ingen har hørt det før, og Alt styrtede sammen: den deilige Fee, det blomstrende Paradiis sank, det sank saa dybt, saa dybt, Prindsen saae det synke i den sorte Nat; som en lille skinnende Stjerne straalede det langt borte! Dødskulde gik gjennem hans Lemmer, han lukkede sit Øie og laae længe, som død.</p>
+
+<p rend="firstIndent" xml:id="p_00090">Den kolde Regn faldt paa hans Ansigt, den skarpe Vind <pb n="224"/>blæste om hans Hoved, da vendte hans Tanker tilbage. »Hvad har jeg gjort!« sukkede han, »jeg har syndet som Adam! syndet, saa Paradiset er sjunket dybt der ned!« og han aabnede sit Øie, Stjernen, langt borte, Stjernen, der funklede som det sjunkne Paradiis, saae han endnu – det var <seg target="txtcmnt-224-01"><!--DATA-TERM: Morgenstjernen--><!--DATA-DEFINITION: planeten Venus.-->Morgenstjernen</seg> paa Himlen.</p>
+
+<p rend="firstIndent" xml:id="p_00091">Han reiste sig op og var i den store Skov nær ved Vindenes Hule; og Vindenes Moder sad ved hans Side, hun saae vred ud, og løftede sin Arm i Veiret.</p>
+
+<p rend="firstIndent" xml:id="p_00092">»Allerede den første Aften!« sagde hun, »det tænkte jeg nok! ja, var du min Dreng, saa skulde Du nu i Posen!«</p>
+
+<p rend="firstIndent" xml:id="p_00093">»Der skal han komme!« sagde Døden; det var en stærk gammel Mand med en Lee i Haanden og med store sorte Vinger. »I Liigkisten skal han lægges, men ikke nu; jeg mærker ham kun, lad ham da en Stund endnu vandre om i Verden, afsone sin Synd, blive god og bedre! – jeg kommer engang. Naar han da mindst venter det, putter jeg ham i den sorte Liigkiste, sætter den paa mit Hoved og flyver op mod Stjernen; ogsaa der blomstrer Paradisets Have, og er han god og from, da skal han træde derind, men er hans Tanke ond og Hjertet endnu fuldt af Synd, synker han med Kisten dybere, end Paradiset sank, og kun hver tusinde Aar henter jeg ham igjen, for at han maa synke dybere eller blive paa Stjernen, den funklende Stierne deroppe!«</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Paradisets Have" xml:id="paradisets-have">
+<head type="section-comments">Paradisets Have</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Eventyr, fortalte for Børn</hi>. <hi rend="italic">Ny Samling. Andet Hefte</hi>, som udkom den 19. oktober 1839.<br/>
+BFN 353/I,141-153/VII,47-52.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">214,27</cell><cell type="deviation">herinde &lt; her ude</cell></row>
+<row><cell type="position">214,35</cell><cell type="deviation">»Jeg &lt; Jeg</cell></row>
+<row><cell type="position">215,28</cell><cell type="deviation">»det er godt &lt; »Det er godt</cell></row>
+<row><cell type="position">216,17</cell><cell type="deviation">»hvad &lt; »Hvad</cell></row>
+<row><cell type="position">216,29</cell><cell type="deviation">være! &lt; være!«</cell></row>
+<row><cell type="position">218,19</cell><cell type="deviation">Himmalaia!« &lt; Himmalaia!</cell></row>
+<row><cell type="position">218,36</cell><cell type="deviation">Østenvinden &lt; Søndenvinden</cell></row>
+<row><cell type="position">218,42</cell><cell type="deviation">Faner &lt; Orgler</cell></row>
+<row><cell type="position">219,3</cell><cell type="deviation">imøde; &lt; imøde?</cell></row>
+<row><cell type="position">221,17</cell><cell type="deviation">transparente &lt; transparente,</cell></row>
+<row><cell type="position">222,4</cell><cell type="deviation">»dersom &lt; »Dersom</cell></row>
+<row><cell type="position">222,8</cell><cell type="deviation">dem!« &lt; den!«</cell></row>
+<row><cell type="position">222,35</cell><cell type="deviation">dig!« &lt; dig!</cell></row>
+<row><cell type="position">223,7</cell><cell type="deviation">»mit Barn &lt; mit Barn</cell></row>
+<row><cell type="position">223,14</cell><cell type="deviation">Herre« &lt; Herre.«</cell></row>
+<row><cell type="position">223,34</cell><cell type="deviation">et &lt; er</cell></row>
+<row><cell type="position">224,10</cell><cell type="deviation">Posen!« &lt; Posen!</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">(210)</cell><row xml:id="txtcmnt-210-01"><cell type="data-definition">Udgaven var tilegnet tidens store, feterede skuespillerinde Johanne Luise Heiberg, f. Pätges (1812-1890), gift med tidens mest indflydelsesrige kritiker, forfatteren Johan Ludvig Heiberg (1791-1860).</cell></row>
+<cell type="page">211</cell><row xml:id="txtcmnt-211-01"><cell type="data-term">O, hvorfor brød … Kundskabens Træ</cell><cell type="data-definition">jf. 1. Mosebog 3.</cell></row>
+<cell type="page">212</cell><row xml:id="txtcmnt-212-01"><cell type="data-term">holde … i Ave</cell><cell type="data-definition">tugte, holde styr på.</cell></row><row xml:id="txtcmnt-212-02"><cell type="data-term">fire Sække</cell><cell type="data-definition">jf. Homer <hi rend="italic">Odysseen</hi>, 10, 19 f.</cell></row><row xml:id="txtcmnt-212-03"><cell type="data-term">gjøre … Omstændigheder</cell><cell type="data-definition">uanset om de vil det eller ej.</cell></row><row xml:id="txtcmnt-212-04"><cell type="data-term">Sneeflokkene</cell><cell type="data-definition">snefnuggene.</cell></row><row xml:id="txtcmnt-212-05"><cell type="data-term">Skrinkelbeen</cell><cell type="data-definition">spinkel, svag person med lange tynde ben.</cell></row><row xml:id="txtcmnt-212-06"><cell type="data-term">Hvor</cell><cell type="data-definition">hvordan.</cell></row>
+<cell type="page">213</cell><row xml:id="txtcmnt-213-01"><cell type="data-term">Beeren-Eiland</cell><cell type="data-definition">tysk navn for Bjørneøen i det nordlige Ishav.</cell></row><row xml:id="txtcmnt-213-02"><cell type="data-term">Jeg sad og sov … Fart nok</cell><cell type="data-definition">H.C. Andersens primære kilde til beskrivelserne af Bjørneøen var den norske geolog B.M. Keilhaus <hi rend="italic">Reise i Öst- og Vest-Finmarken samt Beeren-Eiland og Spitsbergen i Aarene 1827 og 1828</hi>, Christiania 1831, hvor det om stormfuglen hedder: »Jeg sad paa Dækket og betragtede Stormfuglens lave Svæven henover den oprørte Søe. Man seer den kun sjelden gjøre nogle raske Slag <pb n="512"/>med Vingerne, hvorefter den i lange Mellemrum holder dem ubevægeligen udstrakte og svinger sig roligen tæt over Vandskorpen« (109).</cell></row><row xml:id="txtcmnt-213-03"><cell type="data-term">Stormfuglen</cell><cell type="data-definition">stor, mågelignende svømmefugl, som ifølge folketroen varsler storm.</cell></row><row xml:id="txtcmnt-213-04"><cell type="data-term">vidløftigt</cell><cell type="data-definition">omstændeligt, unødigt udførligt.</cell></row><row xml:id="txtcmnt-213-05"><cell type="data-term">lidt Mos … lyst paa dem</cell><cell type="data-definition">jf. Keilhau, 1831, s. 113 f.: »[sletten var] tæt belagt med skarpe Stene, mellem hvilke der hist og her spirede lidt Mos (…) En Mængde Beenrader af Hvalrosse og Iisbjørne laae omkring mellem Stenene. Bjørnebenene havde Formen af menneskelige Kjæmpers Fødder og Arme (…) Den fugtige Muggenhed og Grønske, som tildeels bedækkede Beenraderne, synes virkelig at antyde, at Solen endnu ikke havde belyst denne Dødsmark, hvorover Taagemulmet ligesom urokkeligen hvilede«.</cell></row><row xml:id="txtcmnt-213-06"><cell type="data-term">Beenrade</cell><cell type="data-definition">skeletter.</cell></row><row xml:id="txtcmnt-213-07"><cell type="data-term">et Huus … Rødt og Grønt</cell><cell type="data-definition">jf. Keilhau, 1831, s.114: »Husene vare udvendig betrukne og behængte med Hvalroshuder, paa hvilke Kjødsiden vendte ud og var fuld af Grønske og en rødlig Raaddenhed«.</cell></row><row xml:id="txtcmnt-213-08"><cell type="data-term">Seilere</cell><cell type="data-definition">sejlskibe.</cell></row><row xml:id="txtcmnt-213-09"><cell type="data-term">Zephir</cell><cell type="data-definition">vestenvinden; holdes i græsk mytologi fanget sammen med sine brødre hos Aiolos, vindenes herre.</cell></row>
+<cell type="page">214</cell><row xml:id="txtcmnt-214-01"><cell type="data-term">Faldhat</cell><cell type="data-definition">kraftigt polstret krans eller hue, som beskytter barnets hoved ved fald.</cell></row><row xml:id="txtcmnt-214-02"><cell type="data-term">dygtigt</cell><cell type="data-definition">meget.</cell></row><row xml:id="txtcmnt-214-03"><cell type="data-term">Kaffernes Land</cell><cell type="data-definition">det nuværende Zimbabwe og Sydafrika.</cell></row>
+<cell type="page">215</cell><row xml:id="txtcmnt-215-01"><cell type="data-term">Kaftanen</cell><cell type="data-definition">lang orientalsk kjortel.</cell></row><row xml:id="txtcmnt-215-02"><cell type="data-term">Porcellaintaarnet</cell><cell type="data-definition">i Nanking, Kina, ødelagt i 1854.</cell></row><row xml:id="txtcmnt-215-03"><cell type="data-term">fra … Grad</cell><cell type="data-definition">den gamle kinesiske embedsstand, mandarinerne, var inddelt i ni rangklasser.</cell></row><row xml:id="txtcmnt-215-04"><cell type="data-term">dygtig</cell><cell type="data-definition">ordentligt, grundigt.</cell></row><row xml:id="txtcmnt-215-05"><cell type="data-term">Fugl Phønix</cell><cell type="data-definition">ifølge græsk mytologi en fugl, som efter en vis tid brænder sig selv op, men derpå genopstår af sin egen aske.</cell></row>
+<cell type="page">216</cell><row xml:id="txtcmnt-216-01"><cell type="data-term">hvor</cell><cell type="data-definition">hvorledes.</cell></row><row xml:id="txtcmnt-216-02"><cell type="data-term">som en Hindues Kone</cell><cell type="data-definition">hentydning til hinduismens gravskik, hvor enken brændes sammen med sin afdøde ægtemands legeme.</cell></row><row xml:id="txtcmnt-216-03"><cell type="data-term">Uden</cell><cell type="data-definition">medmindre.</cell></row>
+<cell type="page">218</cell><row xml:id="txtcmnt-218-01"><cell type="data-term">uartigt</cell><cell type="data-definition">uhøfligt.</cell></row><row xml:id="txtcmnt-218-02"><cell type="data-term">ere Børn og gaae af Skole</cell><cell type="data-definition">gå af skole, dvs. hjem; (udtryk anvendt over for børn) om gnister, der ligesom løber hen over næsten udbrændt papir o.l.; talemåde om de sidst udgående gløder.</cell></row>
+<cell type="page">219</cell><row xml:id="txtcmnt-219-01"><cell type="data-term">kunstigt</cell><cell type="data-definition">kunstfærdigt.</cell></row><row xml:id="txtcmnt-219-02"><cell type="data-term">Olietræ(ets)</cell><cell type="data-definition">oliventræ.</cell></row>
+<cell type="page">221</cell><row xml:id="txtcmnt-221-01"><cell type="data-term">Jakobs Drøm</cell><cell type="data-definition">jf. 1. Mosebog 28,10-15.</cell></row><row xml:id="txtcmnt-221-02"><cell type="data-term">transparente</cell><cell type="data-definition">gennemsigtige.</cell></row><row xml:id="txtcmnt-221-03"><cell type="data-term">Ny-Holland</cell><cell type="data-definition">Australien.</cell></row><row xml:id="txtcmnt-221-04"><cell type="data-term">Been-Tuber</cell><cell type="data-definition">fløjter af udborede knogler.</cell></row><row xml:id="txtcmnt-221-05"><cell type="data-term">Sphinx(er)</cell><cell type="data-definition">fabelvæsen med menneskehoved og dyrekrop.</cell></row><row xml:id="txtcmnt-221-06"><cell type="data-term">Jøkler</cell><cell type="data-definition">isbræer, gletsjere.</cell></row>
+<cell type="page">222</cell><row xml:id="txtcmnt-222-01"><cell type="data-term">Trængsel</cell><cell type="data-definition">modgang.</cell></row><row xml:id="txtcmnt-222-02"><cell type="data-term">Kornmoen</cell><cell type="data-definition">kornmod: genskin af fjerne lyn i horisonten, især ved høsttid.</cell></row>
+<cell type="page">223</cell><row xml:id="txtcmnt-223-01"><cell type="data-term">alt</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-223-02"><cell type="data-term">Øienhaar</cell><cell type="data-definition">øjenvipper.</cell></row><row xml:id="txtcmnt-223-03"><cell type="data-term">Cherub(ens)</cell><cell type="data-definition">engel, der med flammesværd bevogter indgangen til Paradisets Have.</cell></row>
+<pb n="513"/>
+<cell type="page">224</cell><row xml:id="txtcmnt-224-01"><cell type="data-term">Morgenstjernen</cell><cell type="data-definition">planeten Venus.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -2,15 +2,20 @@
 """run.py -- run the HCA modernization conversion chain on one or more XML files.
 
 Steps executed for each input file:
-  1. Loop 1  : normalize_xml.py  -- rule-based orthographic normalization
-  2. Verb     : tag_verb_plural.py -- finite plural verb detection (trace only)
-  3. PoS      : tag_pos.py -- spaCy part-of-speech tagging (opt-in, --pos)
+  1. Loop 1  : normalize_xml.py    -- rule-based orthographic normalization
+  2. Verb     : tag_verb_plural.py  -- finite plural verb detection (trace only)
+  3. PoS      : tag_pos.py          -- spaCy part-of-speech tagging (opt-in, --pos)
+  4. Spell    : spellcheck_refine.py -- DDO Hunspell over-normalization check
 
 Output lands in tools/normalisering/output/loop1/:
   {stem}.xml              Loop 1 normalized XML
   {stem}.trace.txt        Loop 1 change trace
   {stem}.verb-plural.tsv  Verb plural candidates (human review)
   {stem}.pos.tsv          CoNLL-style PoS tags per token  (if --pos)
+
+tools/normalisering/output/loop2/:
+  {stem}.spellcheck.md    Over-normalization proposals (human review)
+  {stem}.spellcheck.json  Machine-readable version of the above
 
 Sentence segmentation:
   By default verb and PoS steps extract sentences from the Loop 1 XML.
@@ -50,6 +55,8 @@ _OUT1   = _ROOT / "tools" / "normalisering" / "output" / "loop1"
 _NORM   = _TOOLS / "normalize_xml.py"
 _VERB   = _TOOLS / "tag_verb_plural.py"
 _POS    = _TOOLS / "tag_pos.py"
+_SPELL  = _TOOLS / "spellcheck_refine.py"
+_OUT2   = _ROOT / "tools" / "normalisering" / "output" / "loop2"
 
 
 def _run(cmd: list[str | Path], label: str) -> bool:
@@ -110,6 +117,19 @@ def process_file(xml: Path, *,
         if not ok:
             return False
 
+    # --- Step 4: Spellcheck / over-normalization detection ---
+    _OUT2.mkdir(parents=True, exist_ok=True)
+    print(f"[{stem}] Spellcheck -> {(_OUT2 / f'{stem}.spellcheck.md').relative_to(_ROOT)}")
+    ok = _run([
+        _SPELL, out1,
+        "--rules", _RULES,
+        "--lexicon", _DDO,
+        "--entities", _NE,
+        "--out-dir", _OUT2,
+    ], "spellcheck_refine")
+    if not ok:
+        return False
+
     return True
 
 
@@ -151,7 +171,7 @@ def main() -> None:
             sys.exit(f"No XML files found in {args.input_dir}")
 
     # Sanity-check required resource files
-    required = [_RULES, _NE, _DDO, _ODS]
+    required = [_RULES, _NE, _DDO, _ODS, _SPELL]
     if args.pos:
         required.append(_POS)
     missing = [p for p in required if not p.exists()]

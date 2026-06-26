@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Tante Tandpine</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr og Historier. Tredie Række. Anden Samling</i>, der udkom den 23. november 1872.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="tante-tandpine" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="tante-tandpine_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="199_Auntie-Toothache">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Hvorfra vi har Historien? –...</incipit><readingTime>17</readingTime><popularity>948</popularity><cite>&lt;p&gt;H.C. Andersen: Tante Tandpine. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Tante_Tandpine_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><!--<term>steder</term>--><term>livsforloeb</term><term>kunst</term><term>humor</term></keywords>
+                                        </textClass>
+                                        
+                                             <table type="TOC">
+                                                  <row>
+                                                       
+                                                            <cell ref="#div0008">[rammefortællingens begyndelse]</cell>
+                                                       
+                                                            <cell ref="#div0009">I</cell>
+                                                       
+                                                            <cell ref="#div0010">II</cell>
+                                                       
+                                                            <cell ref="#div0011">III</cell>
+                                                       
+                                                            <cell ref="#div0012">IV</cell>
+                                                       
+                                                  </row>
+                                             </table>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Tante Tandpine" xml:id="tante-tandpine">
+<head type="main">Tante Tandpine</head>
+
+<div type="section" rend="[rammefortællingens begyndelse]" xml:id="div0008"><p rend="noIndent" xml:id="p_00001">Hvorfra vi har Historien? –</p>
+
+<p rend="firstIndent" xml:id="p_00002">– Vil Du vide det?</p>
+
+<p rend="firstIndent" xml:id="p_00003">Vi har den fra <seg target="txtcmnt-343-01"><!--DATA-TERM: Fjerdingen--><anchor target="txtcmnt-343-01"/><!--(affalds)tønden.-->Fjerdingen</seg>, den med de gamle Papirer i.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Mangen god og sjelden Bog er gaaet i <seg target="txtcmnt-343-02"><!--DATA-TERM: Spekhøkeren--><anchor target="txtcmnt-343-02"/><!--forhandler af viktualier, smør, æg, brød og andre dagligvarer.-->Spekhøkeren</seg> og <seg target="txtcmnt-343-03"><!--DATA-TERM: Urtekræmmeren--><anchor target="txtcmnt-343-03"/><!--handlede med kolonialvarer (kaffe, te, krydderier).-->Urtekræmmeren</seg>, ikke som Læsning, men som Nødvendigheds Artikel. De maae have Papir til Kræmmerhuus for Stivelse og Kaffebønner, Papir om Spegesild, Smør og Ost. Skrevne Sager ere ogsaa brugelige.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Tidt gaaer i Bøtte, hvad der ikke skulde gaae i Bøtte.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Jeg kjender en Urtekræmmerdreng, Søn af en Spekhøker; han er gaaet tilveirs fra Kjelderen til Stue-Boutiken; et Menneske med stor Læsning, Kræmmerhuus-Læsning, baade den trykte og den skrevne. Han har en interessant Samling, og i den flere vigtige Actstykker fra Een og Anden altfor beskæftiget tankespredt Embedsmands Papirskurv; eet og andet fortroligt Brev fra Veninde til Veninde: Scandale-Meddelelser, som ikke maatte gaae videre, ikke omtales af noget Menneske. Han er en levende Redningsanstalt for en ikke ringe Deel af Literaturen og har i den et stort Omraade, han har Forældrenes og <seg target="txtcmnt-343-04"><!--DATA-TERM: Principalens--><anchor target="txtcmnt-343-04"/><!--sin foresattes.-->Principalens</seg> Bod og har der reddet mangen Bog eller Blade af en Bog, der nok kunde fortjene at læses to Gange.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Han har viist mig sin Samling trykte og skrevne Sager fra Bøtten, rigest fra Spekhøkerens. Der laae et Par Blade af en større Skriverbog; den særdeles smukke og tydelige Haandskrift tildrog sig strax min Opmærksomhed.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Det har Studenten skrevet!« sagde han, »Studenten, som boede her ligeoverfor og døde for en Maaned siden. Han har lidt svært af Tandpine, seer man. Det er ganske morsomt at læse! Her er kun lidt endnu af det Skrevne, det var en heel Bog og lidt til; mine Forældre gav et halvt Pund grøn Sæbe for det til Studentens Vertinde. Her er, hvad jeg fik holdt tilbage.«</p>
+
+<p rend="firstIndent" xml:id="p_00009">Jeg laante det, jeg læste det og nu meddeler jeg det.</p>
+
+<pb n="344"/><p rend="firstIndent" xml:id="p_00010">Overskriften var:</p>
+
+<head type="main"><hi rend="bold">Tante Tandpine</hi></head></div>
+
+<div type="section" rend="I" xml:id="div0009">
+<head type="section">I</head>
+
+<p rend="noIndent" xml:id="p_00011">– Tante gav mig Slik-Sødt, da jeg var Lille. Mine Tænder holdt det ud, bleve ikke fordærvede; nu er jeg bleven ældre, bleven Student; hun forkjæler mig endnu med Sødt, siger at jeg er Digter.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Jeg har i mig Noget af Poeten, men ikke nok. Tidt naar jeg gaaer i Byens Gader synes det mig, som gaaer jeg i et stort Bibliothek; Husene ere Bogreoler, hver Etage en Hylde med Bøger. <hi rend="italic">Der</hi> staaer <seg target="txtcmnt-344-01"><!--DATA-TERM: en Hverdagshistorie--><anchor target="txtcmnt-344-01"/><!--hentydning til de noveller og små romaner om hverdagslivet i familien, som Thomasine Gyllembourg (1773-1856) udgav anonymt eller under pseudonym i årene 1827-1845.-->en Hverdagshistorie</seg>, <hi rend="italic">der</hi> en god gammel Komedie, videnskabelige Værker i alle Fag, her Smuds-Literatur og god Læsning. Jeg kan phantasere og philosophere over alt det Bogværk.</p>
+
+<p rend="firstIndent" xml:id="p_00013">Der er Noget i mig af Poeten, men ikke nok. Mange Mennesker have vist ligesaa Meget i sig deraf som jeg, og bære dog ikke Skilt eller Halsbaand med Navnet <hi rend="italic">Poet</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Der er givet dem og mig en Gudsgave, en Velsignelse, stor nok for En selv, men altfor lille til at stykkes ud igjen til Andre. Den kommer som en Solstraale, fylder Sjæl og Tanke; den kommer som en Blomsterduft, som en Melodi man kjender og husker dog ikke hvorfra.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Forleden Aften, jeg sad i min Stue, trængte til Læsning, havde ingen Bog, intet Blad, faldt i det Samme et Blad, friskt og grønt, fra Lindetræet. Luftningen bar det ind af Vinduet til mig.</p>
+
+<p rend="firstIndent" xml:id="p_00016">Jeg betragtede de mange forgrenede Aarer; et lille Kryb bevægede sig hen over disse, som vilde det gjøre et grundigt Studium af Bladet. Da maatte jeg tænke paa Menneske-Viisdom; vi kravle ogsaa om paa Bladet, kjende kun det, og saa holde vi strax Foredrag over det hele store Træ, Roden, Stammen og Kronen; det store Træ: Gud, Verden og Udødelighed, og kjende af det Hele, kun et lille Blad!</p>
+
+<p rend="firstIndent" xml:id="p_00017">Som jeg sad der, fik jeg Besøg af Tante <hi rend="italic">Mille</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00018">Jeg viste hende Bladet med Krybet, sagde hende mine Tanker derved, og hendes Øine lyste.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Du er Digter!« sagde hun, »maaskee den største vi har! skulde jeg opleve det, saa gaaer jeg gjerne i min Grav. Du har altid, lige fra Brygger <hi rend="italic">Rasmussens</hi> Begravelse, forbauset mig ved din mægtige Phantasi!«</p>
+
+<pb n="345"/><p rend="firstIndent" xml:id="p_00020">Det sagde Tante <hi rend="italic">Mille</hi> og kyssede mig.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Hvem var Tante <hi rend="italic">Mille</hi> og hvem var Brygger <hi rend="italic">Rasmussen</hi>?</p>
+
+</div>
+                              
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="II" xml:id="div0010">
+<head type="section">II</head>
+
+<p rend="noIndent" xml:id="p_00022">Moders Tante blev af os Børn kaldt Tante, vi havde intet andet Navn til hende.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Hun gav os Syltetøi og Sukker, uagtet det var en stor Fortræd for vore Tænder, men hun var svag ligeoverfor de søde Børn, sagde hun. Det var jo grusomt at negte dem den Smule Sødt, som de holde saa meget af.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Og derfor holdt vi saa meget af Tante.</p>
+
+<p rend="firstIndent" xml:id="p_00025">Hun var gammel Frøken, saa langt jeg kan huske tilbage, altid gammel! Hun stod stille i Alderen.</p>
+
+<p rend="firstIndent" xml:id="p_00026">I tidligere Aar led hun meget af Tandpine og talte altid derom, og saa var det, hendes Ven, Brygger <hi rend="italic">Rasmussen</hi>, var vittig og kaldte hende <hi rend="italic">Tante Tandpine</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00027">Han bryggede ikke i de sidste Aar, levede af sine Rente-Penge, kom tidt til Tante og var ældre end hun. Han havde slet ingen Tænder, kun nogle sorte Stumper.</p>
+
+<p rend="firstIndent" xml:id="p_00028">Som Lille havde han spiist for meget Sukker, sagde han til os Børn, og saa kom man til at see saaledes ud.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Tante havde vist aldrig i sin Barndom spiist Sukker; hun havde de deiligste hvide Tænder.</p>
+
+<p rend="firstIndent" xml:id="p_00030">Hun sparede ogsaa paa dem, sov ikke med dem om Natten! sagde Brygger <hi rend="italic">Rasmussen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00031">Det var nu at være ond, vidste vi Børn, men Tante sagde, han meente ikke Noget med det.</p>
+
+<p rend="firstIndent" xml:id="p_00032">En Formiddag ved Frokosten, fortalte hun en fæl Drøm, hun havde om Natten: at een af hendes Tænder var falden ud.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»<seg target="txtcmnt-345-01"><!--DATA-TERM: Det betyder … Veninde--><anchor target="txtcmnt-345-01"/><!--jf. Thiele III, 44: »Drømmer man om smaa Børn, betyder det Dødsfald; ligesaa naar man drømmer, at Tænder falde ud af Munden«.-->Det betyder,« sagde hun, »at jeg mister en sand Ven eller Veninde</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Var det en falsk Tand!« sagde Bryggeren og smaaloe, »saa kan det kun betyde at De mister en falsk Ven!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">»De er en uhøflig gammel Herre!« sagde Tante vred, som jeg aldrig har seet hende før eller siden.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Senere sagde hun, at det kun var Dril af hendes gamle Ven; han var det ædleste Menneske paa Jorden, og naar han engang døde, blev han til en lille Guds Engel i Himlen!</p>
+
+<p rend="firstIndent" xml:id="p_00037">Jeg tænkte meget over den Forvandling og om jeg vilde være istand til at <seg target="txtcmnt-345-02"><!--DATA-TERM: kjendte ham--><anchor target="txtcmnt-345-02"/><!--genkendte ham.-->kjende ham</seg> i den nye Skikkelse.</p>
+
+<p rend="firstIndent" xml:id="p_00038">Da Tante var ung og han ogsaa ung, friede han til hende.</p>
+
+<pb n="346"/><p rend="noIndent" xml:id="p_00039">Hun betænkte sig for længe, blev siddende, blev altfor længe siddende, blev altid gammel Frøken, men altid trofast Veninde.</p>
+
+<p rend="firstIndent" xml:id="p_00040">Og saa døde Brygger <hi rend="italic">Rasmussen</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00041">Han blev kjørt til Graven i den dyreste Liigvogn og havde stort Følge, Folk med Ordener og i Uniform.</p>
+
+<p rend="firstIndent" xml:id="p_00042">Tante stod sørgeklædt ved Vinduet med alle os Børn, paa den lille Broder nær, som Storken havde bragt for en Uge siden.</p>
+
+<p rend="firstIndent" xml:id="p_00043">Nu var Liigvognen og Følget forbi, Gaden tom, Tante vilde gaae, men det vilde jeg ikke, jeg ventede paa Englen, Brygger <hi rend="italic">Rasmussen</hi>; han var jo nu bleven et lille vinget Guds Barn, og maatte vise sig.</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Tante!« sagde jeg. »Troer Du ikke, at han kommer nu! eller at naar Storken igjen bringer os en lille Broder, han da bringer os Englen <hi rend="italic">Rasmussen</hi>.«</p>
+
+<p rend="firstIndent" xml:id="p_00045">Tante blev aldeles overvældet af min Phantasi, og sagde: »Det Barn bliver en stor Digter!« og det gjentog hun i hele min Skolegang, ja efter min Confirmation og nu ind i Studenter-Aarene.</p>
+
+<p rend="firstIndent" xml:id="p_00046">Hun var og er mig den meest deeltagende Veninde, baade i Digter-Pine og i Tandpine. Jeg har jo Anfald af begge to.</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Skriv bare alle dine Tanker ned,« sagde hun, »og put dem i Bordskuffen; det gjorde <hi rend="italic"><seg target="txtcmnt-346-01"><!--DATA-TERM: Jean Paul--><anchor target="txtcmnt-346-01"/><!--pseudonym for den tyske digter Johann Paul Friedrich Richter (1763-1825).-->Jean Paul</seg></hi>; han blev en stor Digter, som jeg rigtignok ikke holder af, han spænder ikke! Du maa spænde! og Du vil spænde!«</p>
+
+<p rend="firstIndent" xml:id="p_00048">Natten efter den Tale laae jeg i Længsel og Vaande, i Trang og Lyst til at blive den store Digter, Tante saae og fornam i mig; jeg laae i Digter-Pine! men der er en værre Pine: <hi rend="italic">Tandpine</hi>; den masede og qvasede mig, jeg blev en krympende Orm, med <seg target="txtcmnt-346-02"><!--DATA-TERM: Krydderpose--><anchor target="txtcmnt-346-02"/><!--opvarmet pose fyldt med urter, der lægges mod kinden for at dulme tandpinen.-->Krydderpose</seg> og <seg target="txtcmnt-346-03"><!--DATA-TERM: spansk Flue--><anchor target="txtcmnt-346-03"/><!--bille, hvis blod indeholder et ætsende, blæredannende stof, cantharidin, der anvendtes som afledende middel i plastre, dvs. et middel, der skulle påvirke én del af legemet for at indvirke positivt på en anden, sygelig del.-->spansk Flue</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Det kjender jeg!« sagde Tante.</p>
+
+<p rend="firstIndent" xml:id="p_00050">Der var et Sorgens Smiil om hendes Mund; hendes Tænder skinnede saa hvide.</p>
+
+<graphic type="blank"/>
+     
+     <p rend="noIndent" xml:id="p_00051">Men jeg maa begynde et nyt Afsnit i min og Tantes Historie.</p>
+
+</div>
+                              
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<div type="section" rend="III" xml:id="div0011">
+<head type="section">III</head>
+
+<p rend="noIndent" xml:id="p_00052">Jeg var flyttet ind i en ny Huusleilighed og havde boet der en Maaned. Herom talte jeg med Tante.</p>
+
+<p rend="firstIndent" xml:id="p_00053">»Jeg boer hos en stille Familie; den tænker ikke paa mig, selv om jeg ringer tre Gange. Forresten er det et sandt Spectakel-Huus med Lyd og Larm af Veir og Vind og Mennesker. Jeg boer lige over Porten; hver Vogn, som kjører ud eller ind, faaer <pb n="347"/><seg target="txtcmnt-347-01"><!--DATA-TERM: Skilderierne--><anchor target="txtcmnt-347-01"/><!--billederne.-->Skilderierne</seg> paa Væggen til at bevæge sig. Porten smælder og rusker i Huset, som var det en Jordrystelse. Ligger jeg i Sengen, gaae Stødene gjennem alle mine Lemmer; men det skal være nervestyrkende. Blæser det, og blæse gjør det altid her til Lands, saa dingle de lange Vindues-Kramper udenfor frem og tilbage og slaae mod Muren. Naboens Portklokke til Gaarden ringer ved hvert Vindstød.</p>
+
+<p rend="firstIndent" xml:id="p_00054">Vore Huusbeboere komme klatviis hjem, sildigt paa Aftenen, heelt ud paa Natten; den Logerende, lige over mig, som om Dagen giver Timer i Basunblæsen, kommer senest hjem og lægger sig ikke, før han først har gaaet en lille Midnatstour, med tunge Trin og jernbeslaaede Støvler.</p>
+
+<p rend="firstIndent" xml:id="p_00055">Dobbelte Vinduer er der ikke, men der er en knækket Rude, den har Vertinden klistret Papir over, Vinden blæser alligevel ind gjennem Sprækken og frembringer en Lyd som af en summende Bremse. Det er Sovemusik. Falder jeg saa endelig i Søvn, da bliver jeg snart vækket af Hanegal. – Hane og Høne melde fra Hønse-Aflukket hos Kjeldermanden, at det vil snart blive Morgen. De smaa Norbakker, de have ikke Stald, de ere tøirede i <seg target="txtcmnt-347-02"><!--DATA-TERM: Sandhullet--><anchor target="txtcmnt-347-02"/><!--hul til opbevaring af gulvsand.-->Sandhullet</seg> under Trappen, sparke mod Døren og Panelet for at røre sig.</p>
+
+<p rend="firstIndent" xml:id="p_00056">Dagen dæmrer; Portneren, som med Familie sover paa Qvisten, buldrer ned ad Trappen; Trætøflerne klappre, Porten smælder, Huset ryster, og er det overstaaet, begynder den Logerende oven over at øve sig i Gymnastik, løfter i hver Haand en tung Jernkugle, som han ikke kan holde paa; den falder og falder igjen, medens paa samme Tid Husets Ungdom, som skal i Skole, kommer styrtende skrigende. Jeg gaaer til Vinduet, aabner det for at faae frisk Luft, og det er <seg target="txtcmnt-347-03"><!--DATA-TERM: vederqvægende--><anchor target="txtcmnt-347-03"/><!--lindrende.-->vederqvægende</seg>, naar jeg kan faae den, og ikke Jomfruen i Baghuset vasker Handsker i <seg target="txtcmnt-347-04"><!--DATA-TERM: Pletvand--><anchor target="txtcmnt-347-04"/><!--rensevæske, fx benzin, benzol.-->Pletvand</seg>, det er hendes Levebrød. Forresten er det et rart Huus og jeg boer hos en stille Familie.«</p>
+
+<p rend="firstIndent" xml:id="p_00057">Det var det Referat, jeg gav Tante om min Huusleilighed; jeg gav det livligere, det mundtlige Foredrag har friskere Ord-Lyd end det skrevne.</p>
+
+<p rend="firstIndent" xml:id="p_00058">»Du er Digter!« raabte Tante. »Skriv bare din Tale op, saa er Du ligesaa god som <hi rend="italic"><seg target="txtcmnt-347-05"><!--DATA-TERM: Dickens--><anchor target="txtcmnt-347-05"/><!--Charles Dickens (1812-1870), engelsk forfatter.-->Dickens</seg></hi>! ja mig interesserer Du nu meget meer! Du maler, naar Du taler! Du beskriver dit Huus, saa man seer det! Det gyser i En! – Digt videre! Læg noget Levende ind i det, Mennesker, yndige Mennesker, helst ulykkelige!«</p>
+
+<p rend="firstIndent" xml:id="p_00059">Huset skrev jeg virkeligt ned, som det staaer med Lyd og Lyder, men kun med mig selv, uden Handling. Den kom senere!</p>
+</div>
+                              
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<pb n="348"/>
+               
+<div type="section" rend="IV" xml:id="div0012">
+<head type="section">IV</head>
+
+<p rend="noIndent" xml:id="p_00060">Der var ved Vintertid, ud paa Aftenen, efter Komedie-Tid, et frygteligt Veir, Sneestorm, saa at man næsten ikke kunde trænge sig frem.</p>
+
+<p rend="firstIndent" xml:id="p_00061">Tante var i Theatret og jeg var der for at følge hende hjem, men man havde Besvær med at gaae selv, end sige følge Andre. Hyrevognene vare alle <seg target="txtcmnt-348-01"><!--DATA-TERM: tagne i Beslag--><anchor target="txtcmnt-348-01"/><!--optagede, beslaglagt.-->tagne i Beslag</seg>; Tante boede langt ude i Byen, min Bolig var derimod tæt ved Theatret, havde det ikke været Tilfældet, maatte vi have staaet i Skilderhuus indtil videre.</p>
+
+<p rend="firstIndent" xml:id="p_00062">Vi stavrede frem i den dybe Snee, omsuust af de hvirvlende <seg target="txtcmnt-348-02"><!--DATA-TERM: Sneefnokker--><anchor target="txtcmnt-348-02"/><!--snefnug.-->Sneefnokker</seg>. Jeg løftede hende, jeg holdt hende, jeg stødte hende frem. Kun to Gange faldt vi, men vi faldt blødt.</p>
+
+<p rend="firstIndent" xml:id="p_00063">Vi naaede min Port, hvor vi rystede os; ogsaa paa Trappen rystede vi os og havde dog endnu Snee nok til at fylde Gulvet med inde i Forstuen.</p>
+
+<p rend="firstIndent" xml:id="p_00064">Vi fik af os Overtøi og Nedertøi, og alt hvad Tøi der kunde kastes. Vertinden laante Tante tørre Strømper og en Morgenkappe; det var nødvendigt, sagde Vertinden og tilføiede, som sandt var, at Tante umuligt kunde komme hjem denne Nat, bad hende tage til Takke med hendes Dagligstue; der vilde hun rede Seng paa Sophaen foran den altid aflaasede Dør ind til mig.</p>
+
+<p rend="firstIndent" xml:id="p_00065">Og det skete.</p>
+
+<p rend="firstIndent" xml:id="p_00066">Ilden brændte i min Kakkelovn, Theemaskinen kom paa Bordet, der blev hyggeligt i den lille Stue, om ikke saa hyggeligt som hos Tante, hvor der ved Vintertid er tykke Gardiner for Døren, tykke Gardiner for Vinduerne, dobbelte Gulvtæpper med tre Lag tykt Papir under; man sidder der som i en veltilproppet Flaske med varm Luft; dog som sagt, der blev ogsaa hyggeligt hjemme hos mig; Vinden susede udenfor.</p>
+
+<p rend="firstIndent" xml:id="p_00067">Tante talte og fortalte; Ungdomstid kom igjen, Bryggeren kom igjen, gamle Minder.</p>
+
+<p rend="firstIndent" xml:id="p_00068">Hun kunde huske, jeg fik den første Tand og Familieglæden herover.</p>
+
+<p rend="firstIndent" xml:id="p_00069">Den første Tand! Uskylds Tand, skinnende som en lille hvid Melkedraabe, Melketanden.</p>
+
+<p rend="firstIndent" xml:id="p_00070">Der kom een, der kom flere, et heelt Geled, Side om Side, oven og neden, de deiligste Barnetænder, og dog kun Fortropperne, ikke de rigtige, som skulde vare ved for hele Livet.</p>
+
+<p rend="firstIndent" xml:id="p_00071">Ogsaa de kom og Viisdoms Tænderne med, Fløimænd i Rækken, fødte under Pine og stor Besvær.</p>
+
+<pb n="349"/><p rend="firstIndent" xml:id="p_00072">De gaae igjen, hver en eneste! de gaae før Tjenestetiden er omme, selv den sidste Tand gaaer, og det er ingen Festdag, det er en Veemodsdag.</p>
+
+<p rend="firstIndent" xml:id="p_00073">Saa er man gammel, selv om Humeuret er ungt.</p>
+
+<p rend="firstIndent" xml:id="p_00074">Slig Tanke og Tale er ikke fornøielig og dog kom vi til at tale om alt Dette, vi kom tilbage i Barndomsaarene, talte og talte, Klokken blev tolv før Tante gik til Ro i Stuen tæt ved.</p>
+
+<p rend="firstIndent" xml:id="p_00075">»God Nat, mit søde Barn!« raabte hun, »nu sover jeg, som om jeg laae i min egen <seg target="txtcmnt-349-01"><!--DATA-TERM: Dragkiste--><anchor target="txtcmnt-349-01"/><!--kiste eller kommode med store skuffer, ofte brugt som sengeplads for børn.-->Dragkiste</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00076">Og hun var til Ro; men Ro blev der ikke hverken i Huset eller udenfor. Stormen ruskede i Vinduerne, slog med de lange, dinglende Jernkramper, ringede med Naboens Dør-Klokke i Baggaarden. Den Logerende ovenpaa var kommen hjem. Han gik endnu en lille Nattetour op og ned; smed Støvlerne, gik saa til Sengs og til Hvile, men han snorker saa man med gode Øren kan høre det gjennem Loftet.</p>
+
+<p rend="firstIndent" xml:id="p_00077">Jeg fandt ikke Hvile, jeg kom ikke til Ro; Veiret lagde sig heller ikke til Ro; det var umaneerligt livligt. Blæsten susede og sang paa sin Maade, mine Tænder begyndte ogsaa at blive livlige, de susede og sang paa deres Maade. De sloge an til stor Tandpine.</p>
+
+<p rend="firstIndent" xml:id="p_00078">Det trak fra Vinduet. Maanen skinnede ind paa Gulvet. Lysningen kom og gik, som Skyerne kom og gik i Stormveiret. Der var en Uro i Skygge og Lys, men tilsidst saae Skyggen paa Gulvet ud som Noget; jeg saae paa dette Bevægelige og fornam en iisnende kold Blæst.</p>
+
+<p rend="firstIndent" xml:id="p_00079">Paa Gulvet sad en Skikkelse, tynd og lang, som naar et Barn tegner med <seg target="txtcmnt-349-02"><!--DATA-TERM: Griffel--><anchor target="txtcmnt-349-02"/><!--tynd pind af skifer, som brugtes til at skrive på skifertavle med.-->Griffel</seg> paa Tavlen Noget, der skal ligne et Menneske; en eneste tynd Streg er Legemet; en Streg og een til ere Armene; Benene ere ogsaa hver kun en Streg, Hovedet en Mangekant.</p>
+
+<p rend="firstIndent" xml:id="p_00080">Snart blev Skikkelsen tydeligere, den fik et Slags Kjoletøi, meget tyndt, meget fiint, men det viste, at den hørte til Hunkjønnet.</p>
+
+<p rend="firstIndent" xml:id="p_00081">Jeg hørte en Summen. Var det hende eller Vinden, der surrede som Bremse i Rudesprækken.</p>
+
+<p rend="firstIndent" xml:id="p_00082">Nei, det var hende selv, Fru Tandpine! hendes Forfærdelighed <hi rend="italic"><seg target="txtcmnt-349-03"><!--DATA-TERM: Satania--><anchor target="txtcmnt-349-03"/><!--hunkøn (latiniseret) af Satan.-->Satania</seg> <seg target="txtcmnt-349-04"><!--DATA-TERM: infernalis--><anchor target="txtcmnt-349-04"/><!--helvedes.-->infernalis</seg></hi>, Gud frie og bevare os fra hendes Besøg.</p>
+
+<p rend="firstIndent" xml:id="p_00083">»Her er godt at være!« summede hun; »her er godt Qvarteer! sumpet Grund, Mosegrund. Her have Myggene summet med Gift i Braadden, nu har jeg Braadden. Den maa hvæsses paa Mennesketænder. De skinne saa hvide paa ham her i Sengen.<pb n="350"/> De have trodset Sødt og Suurt, Hedt og Koldt, Nøddeskal og Blommesteen! men jeg skal rokke dem, blokke dem, gjøde Roden med Trækvind, give dem fodkoldt!«</p>
+
+<p rend="firstIndent" xml:id="p_00084">Det var en forfærdelig Tale, en forfærdelig Gjest.</p>
+
+<p rend="firstIndent" xml:id="p_00085">»Naa, saa Du er Digter!« sagde hun, »ja jeg skal digte Dig op i alle Pinens Versemaal! jeg skal give Dig Jern og Staal i Kroppen, faae Traad i alle dine Nervetraade!«</p>
+
+<p rend="firstIndent" xml:id="p_00086">Det var som gik der en gloende Syl ind i Kindbenet; jeg vred og vendte mig.</p>
+
+<p rend="firstIndent" xml:id="p_00087">»Et udmærket Tandværk!« sagde hun, »et Orgel at spille paa. Mundharpe-Concert, storartet, med Pauker og Trompeter, <seg target="txtcmnt-350-01"><!--DATA-TERM: Fløite  piccolo--><anchor target="txtcmnt-350-01"/><!--piccolofløjte.-->Fløite <hi rend="italic">piccolo</hi></seg>, Basun i Viisdomstanden. Stor Poet, stor Musik!«</p>
+
+<p rend="firstIndent" xml:id="p_00088">Jo hun spillede op og forfærdelig saae hun ud, selv om man ikke saae mere af hende end Haanden, den skyggegraa, iiskolde Haand, med de lange syletynde Fingre; hver af dem var et Piinsels-Redskab: Tommeltot og <seg target="txtcmnt-350-02"><!--DATA-TERM: Slikkepot--><anchor target="txtcmnt-350-02"/><!--pegefinger.-->Slikkepot</seg> havde Knivtang og Skrue, Langemand endte i en spids Syl, <seg target="txtcmnt-350-03"><!--DATA-TERM: Guldbrand--><anchor target="txtcmnt-350-03"/><!--ringfinger.-->Guldbrand</seg> var Vridbor og Lillefinger Sprøite med Myggegift.</p>
+
+<p rend="firstIndent" xml:id="p_00089">»Jeg skal lære Dig Versemaal!« sagde hun. »Stor Digter skal have stor Tandpine, lille Digter lille Tandpine!«</p>
+
+<p rend="firstIndent" xml:id="p_00090">»O lad mig være lille!« bad jeg. »Lad mig slet ikke være! og jeg er ikke Poet, jeg har kun Anfald af at digte, Anfald, som af Tandpine! far hen! far hen!«</p>
+
+<p rend="firstIndent" xml:id="p_00091">»<seg target="txtcmnt-350-04"><!--DATA-TERM: Erkjender Du--><anchor target="txtcmnt-350-04"/><!--anerkender du.-->Erkjender Du</seg> da, at jeg er mægtigere end Poesien, Philosophien, Mathematiken og hele Musiken!« sagde hun. »Mægtigere end alle disse afmalede og i Marmor hugne Fornemmelser! jeg er ældre end dem Allesammen. Jeg blev født tæt ved Paradisets Have, udenfor, hvor Vinden blæste og de vaade Paddehatte groede. Jeg fik <hi rend="italic">Eva</hi> til at klæde sig paa i det kolde Veir, og <hi rend="italic">Adam</hi> med. Du kan troe, der var Kraft i den første Tandpine!«</p>
+
+<p rend="firstIndent" xml:id="p_00092">»Jeg troer Alt!« sagde jeg. »Far hen! far hen!«</p>
+
+<p rend="firstIndent" xml:id="p_00093">»Ja, vil Du opgive at være Digter, aldrig sætte Vers paa Papir, Tavle eller noget Slags Skrivemateriale, saa skal jeg slippe Dig, men jeg kommer igjen, digter Du!«</p>
+
+<p rend="firstIndent" xml:id="p_00094">»Jeg sværger!« sagde jeg. »Lad mig bare aldrig see eller fornemme Dig mere!«</p>
+
+<p rend="firstIndent" xml:id="p_00095">»See mig skal Du, men i en fyldigere, en Dig kjærere Skikkelse, end jeg er det nu! Du skal see mig som Tante <hi rend="italic">Mille</hi>; og jeg vil sige: Digt, min søde Dreng! Du er en stor Digter, den største maaskee vi har! men troer Du mig, og begynder at digte, saa sætter jeg dine Vers i Musik, spiller dem paa din Mundharpe!</p>
+
+<pb n="351"/>
+
+<pb n="352"/><p rend="noIndent" xml:id="p_00096">Du søde Barn! – Husk paa mig, naar Du seer Tante <hi rend="italic">Mille</hi>!«</p> 
+
+<p rend="firstIndent" xml:id="p_00097">Saa forsvandt hun.</p>
+
+<p rend="firstIndent" xml:id="p_00098">Jeg fik til Afsked ligesom et gloende Sylestik op i Kjæbebenet; men det dulmede snart, jeg ligesom gled paa det bløde Vand, saae de hvide Aakander med de grønne brede Blade bøie sig, sænke sig ned under mig, visne, løse sig op, og jeg sank med dem, løsnedes i Fred og Hvile – –</p>
+
+<p rend="firstIndent" xml:id="p_00099">– »Døe, smelte hen som Sneen!« sang og klang det i Vandet, »<seg target="txtcmnt-352-01"><!--DATA-TERM: dunste--><anchor target="txtcmnt-352-01"/><!--fordampe, forsvinde.-->dunste</seg> hen i Skyen, fare hen som Skyen! – –«</p>
+
+<p rend="firstIndent" xml:id="p_00100">Ned til mig gjennem Vandet skinnede store, lysende Navne, Indskrifter paa vaiende Seiers-Faner, <seg target="txtcmnt-352-02"><!--DATA-TERM: Udødeligheds Patentet--><anchor target="txtcmnt-352-02"/><!--garantien for udødelighed.-->Udødeligheds Patentet</seg> – skrevet paa Døgnfluens Vinge.</p>
+
+<p rend="firstIndent" xml:id="p_00101">Søvnen var dyb, Søvn uden Drømme. Jeg hørte ikke den susende Vind, den smældende Port, Naboens ringende Portklokke, eller den Logerendes svære Gymnastik.</p>
+
+<p rend="firstIndent" xml:id="p_00102">Lyksalighed!</p>
+
+<p rend="firstIndent" xml:id="p_00103">Da kom der et Stormkast, saa at den aflaasede Dør ind til Tante sprang op. Tante sprang op, kom i Skoene, kom i Klæderne, kom ind til mig.</p>
+
+<p rend="firstIndent" xml:id="p_00104">Jeg sov som en Guds Engel, sagde hun, og nænte ikke at vække mig.</p>
+
+<p rend="firstIndent" xml:id="p_00105">Jeg vaagnede af mig selv, slog Øinene op, havde reent glemt, at Tante var her i Huset, men snart huskede jeg det, huskede mit Tandpine-Syn. Drøm og Virkelighed gik over i hinanden.</p>
+
+<p rend="firstIndent" xml:id="p_00106">»Du har vel ikke skrevet Noget iaftes, efter at vi sagde hinanden Godnat?« spurgte hun. »Gid at Du havde! Du er min Digter, og <seg target="txtcmnt-352-03"><!--DATA-TERM: det bliver Du--><anchor target="txtcmnt-352-03"/><!--det forbliver du.-->det bliver Du</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00107">Jeg syntes at hun smilede saa lumskelig. Jeg vidste ikke om det var den skikkelige Tante <hi rend="italic">Mille</hi>, som elskede mig, eller den Forfærdelige, jeg i Nat havde givet Løfte.</p>
+
+<p rend="firstIndent" xml:id="p_00108">»Har Du digtet, søde Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00109">»Nei, nei!« raabte jeg. »Du er jo Tante <hi rend="italic">Mille</hi>.«</p>
+
+<p rend="firstIndent" xml:id="p_00110">»Hvem anden!« sagde hun. Og det var Tante <hi rend="italic">Mille</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00111">Hun kyssede mig, kom i Droske og kjørte hjem.</p>
+
+<p rend="firstIndent" xml:id="p_00112">Jeg nedskrev, hvad her staaer skrevet. Det er ikke paa Vers og det skal aldrig blive trykt – –.</p>
+
+<graphic type="blank"/>
+     
+<p rend="noIndent" xml:id="p_00113">Ja her holdt Manuskriptet op.</p>
+
+<p rend="firstIndent" xml:id="p_00114">Min unge Ven, den vordende Urtekræmmersvend, kunde ikke opdrive det Manglende, det var gaaet ud i Verden, som Papir om Spegesild, Smør og grøn Sæbe; det havde opfyldt sin Bestemmelse.</p>
+
+<pb n="353"/><p rend="firstIndent" xml:id="p_00115">Bryggeren er død, Tante er død, Studenten er død, ham fra hvem Tankegnisterne gik i Bøtten.</p>
+
+<p rend="firstIndent" xml:id="p_00116">Alt gaaer i Bøtten.</p>
+
+<p rend="firstIndent" xml:id="p_00117">Det er Enden paa Historien, – Historien om <hi rend="italic">Tante Tandpine</hi>.</p>
+</div>
+                              
+                              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+<pb n="354"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Tante Tandpine" xml:id="tante-tandpine">
+<head type="section-comments">Tante Tandpine</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr og Historier. Tredie Række. Anden Samling</hi>, der udkom den 23. november 1872.</p>
+<p>BFN 1027/V,213-222/VII,375-379.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">343,32</cell><cell type="deviation">tilbage.« &lt; tilbage.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">343</cell><row xml:id="txtcmnt-343-01"><cell type="data-term">Fjerdingen</cell><cell type="data-definition">(affalds)tønden.</cell></row><row xml:id="txtcmnt-343-02"><cell type="data-term">Spekhøkeren</cell><cell type="data-definition">forhandler af viktualier, smør, æg, brød og andre dagligvarer.</cell></row><row xml:id="txtcmnt-343-03"><cell type="data-term">Urtekræmmeren</cell><cell type="data-definition">handlede med kolonialvarer (kaffe, te, krydderier).</cell></row><row xml:id="txtcmnt-343-04"><cell type="data-term">Principalens</cell><cell type="data-definition">sin foresattes.</cell></row>
+<cell type="page">344</cell><row xml:id="txtcmnt-344-01"><cell type="data-term">en Hverdagshistorie</cell><cell type="data-definition">hentydning til de noveller og små romaner om hverdagslivet i familien, som Thomasine Gyllembourg (1773-1856) udgav anonymt eller under pseudonym i årene 1827-1845.</cell></row>
+<cell type="page">345</cell><row xml:id="txtcmnt-345-01"><cell type="data-term">Det betyder … Veninde</cell><cell type="data-definition">jf. Thiele III, 44: »Drømmer man om smaa Børn, betyder det Dødsfald; ligesaa naar man drømmer, at Tænder falde ud af Munden«.</cell></row><row xml:id="txtcmnt-345-02"><cell type="data-term">kjendte ham</cell><cell type="data-definition">genkendte ham.</cell></row>
+<cell type="page">346</cell><row xml:id="txtcmnt-346-01"><cell type="data-term">Jean Paul</cell><cell type="data-definition">pseudonym for den tyske digter Johann Paul Friedrich Richter (1763-1825).</cell></row><row xml:id="txtcmnt-346-02"><cell type="data-term">Krydderpose</cell><cell type="data-definition">opvarmet pose fyldt med urter, der lægges mod kinden for at dulme tandpinen.</cell></row><row xml:id="txtcmnt-346-03"><cell type="data-term">spansk Flue</cell><cell type="data-definition">bille, hvis blod indeholder et ætsende, blæredannende stof, cantharidin, der anvendtes som afledende middel i plastre, dvs. et middel, der skulle påvirke én del af legemet for at indvirke positivt på en anden, sygelig del.</cell></row>
+<cell type="page">347</cell><row xml:id="txtcmnt-347-01"><cell type="data-term">Skilderierne</cell><cell type="data-definition">billederne.</cell></row><row xml:id="txtcmnt-347-02"><cell type="data-term">Sandhullet</cell><cell type="data-definition">hul til opbevaring af gulvsand.</cell></row><row xml:id="txtcmnt-347-03"><cell type="data-term">vederqvægende</cell><cell type="data-definition">lindrende.</cell></row><row xml:id="txtcmnt-347-04"><cell type="data-term">Pletvand</cell><cell type="data-definition">rensevæske, fx benzin, benzol.</cell></row><row xml:id="txtcmnt-347-05"><cell type="data-term">Dickens</cell><cell type="data-definition">Charles Dickens (1812-1870), engelsk forfatter.</cell></row>
+<pb n="458"/>
+<cell type="page">348</cell><row xml:id="txtcmnt-348-01"><cell type="data-term">tagne i Beslag</cell><cell type="data-definition">optagede, beslaglagt.</cell></row><row xml:id="txtcmnt-348-02"><cell type="data-term">Sneefnokker</cell><cell type="data-definition">snefnug.</cell></row>
+<cell type="page">349</cell><row xml:id="txtcmnt-349-01"><cell type="data-term">Dragkiste</cell><cell type="data-definition">kiste eller kommode med store skuffer, ofte brugt som sengeplads for børn.</cell></row><row xml:id="txtcmnt-349-02"><cell type="data-term">Griffel</cell><cell type="data-definition">tynd pind af skifer, som brugtes til at skrive på skifertavle med.</cell></row><row xml:id="txtcmnt-349-03"><cell type="data-term">Satania</cell><cell type="data-definition">hunkøn (latiniseret) af Satan.</cell></row><row xml:id="txtcmnt-349-04"><cell type="data-term">infernalis</cell><cell type="data-definition">helvedes.</cell></row>
+<cell type="page">350</cell><row xml:id="txtcmnt-350-01"><cell type="data-term">Fløite <hi rend="italic">piccolo</hi></cell><cell type="data-definition">piccolofløjte.</cell></row><row xml:id="txtcmnt-350-02"><cell type="data-term">Slikkepot</cell><cell type="data-definition">pegefinger.</cell></row><row xml:id="txtcmnt-350-03"><cell type="data-term">Guldbrand</cell><cell type="data-definition">ringfinger.</cell></row><row xml:id="txtcmnt-350-04"><cell type="data-term">Erkjender Du</cell><cell type="data-definition">anerkender du.</cell></row>
+<cell type="page">352</cell><row xml:id="txtcmnt-352-01"><cell type="data-term">dunste</cell><cell type="data-definition">fordampe, forsvinde.</cell></row><row xml:id="txtcmnt-352-02"><cell type="data-term">Udødeligheds Patentet</cell><cell type="data-definition">garantien for udødelighed.</cell></row><row xml:id="txtcmnt-352-03"><cell type="data-term">det bliver Du</cell><cell type="data-definition">det forbliver du.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

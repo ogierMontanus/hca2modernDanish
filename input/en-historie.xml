@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>En Historie</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Freia. Nordisk Album for Poesi og Kunst</i>, bind I, nr. 1, redigeret af Carl Borgaard, som udkom den 5. oktober 1845.<br/>
+BFN 481/IV,46-49/VII,233-234.</p><p>Trykt første gang i <i>Fædrelandet</i>, nr. 79, den 3. april 1849.<br/>
+BFN 549/II,209-212/VII,135-136.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="en-historie" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="en-historie_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="77_Grandmother">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Bedstemoder er saa gammel, hun har saa mange Rynker og et ganske hvidt Haar, men...</incipit><readingTime>8</readingTime><popularity>931</popularity><cite>&lt;p&gt;H.C. Andersen: En Historie. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Bedstemoder_hca_ill_0170.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1845</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>livsforloeb</term><term>barnelogik</term></keywords>
+                                        </textClass>
+                                        
+                                             <milestone type="noTOC"/>
+                                             
+                                        
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-05" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="En Historie" xml:id="en-historie">
+<div type="source"><pb n="375"/><source>Fra </source><sourceTitle>Freia. Nordisk Album for Poesi og Kunst</sourceTitle><sourceDate>1845</sourceDate></div>
+
+<pb n="376"/>
+<pb n="377"/><head type="main">En Historie</head>
+
+<lg xml:id="p_00001">
+<l><seg target="txtcmnt-377-01" type="dfnStart"/><!--DATA-TERM: Ich hab’ … erblickt--><!--DATA-DEFINITION: »Jeg har en gammel moster, / som har en gammel lille bog, / der ligger i den gamle bog / et gammelt, tørt blad. / Så tørre er vel også hænderne, / som engang i våren plukkede det. / Hvad vil den gamle mon have? / Hun græder, så ofte hun ser det!« Citatet stammer fra digtet »Das Blatt im Buche« (i <i>Gedichte</i>, 1837) af den østrigske digter og statsmand Anastasius Grün, pseudonym for Anton Alexander Graf von Auersperg (1806-1876).-->Ich hab’ eine alte Muhme,</l>
+<l>Die ein altes Büchlein hat,</l>
+<l>Es liegt in dem alten Buche</l>
+<l>Ein altes, dürres Blatt.</l>
+<l>So dürr sind wohl auch die Hände,</l>
+<l>Die einst im Lenz ihr’s gepflückt.</l>
+<l>Was mag doch die Alte haben?</l>
+<l>Sie weint, so oft sie’s erblickt<seg target="txtcmnt-377-01" type="dfnEnd"/>!</l>
+<l rend="right"><hi rend="italic">Anastasius Grün</hi></l>
+</lg>
+
+<p rend="noIndent" xml:id="p_00002">Bedstemoder er saa gammel, hun har saa mange Rynker og et ganske hvidt Haar, men hendes Øine de skinne ligesom to Stjerner, ja de ere meget smukkere, de ere saa milde, saa velsignede at see ind i; og saa kan hun de deiligste Historier og hun har en Kjole med store Blomster, det er saadant noget tykt Silketøi, det rasler. Bedstemoder veed saa meget, for hun har levet længe førend Fader og Moder; det er ganske vist! Bedstemoder har en Psalmebog med tykke Spænder af Sølv og i den Bog læser hun tidt; midt i den ligger en Rose, den er ganske flad og tør, den er ikke saa smuk, som Roserne, hun har i Glasset og dog smiler hun allervenligst til den, ja der komme Taarer i hendes Øine! hvorfor mon Bedstemoder saaledes seer paa den visne Blomst i den gamle Bog?</p>
+
+<p rend="firstIndent" xml:id="p_00003">Veed Du det? – Hver Gang Bedstemoders Taarer falde paa Blomsten, da blive Farverne mere friske, da svulmer Rosen og hele Stuen fyldes med Duft, Væggene synke, som vare de kun Taager, og rundt om er det den grønne, den deilige Skov, hvor Solen skinner mellem Bladene, og Bedstemoder – ja, hun er ganske ung, hun er en deilig Pige med gule Haar, med runde, røde Kinder, smuk og yndig, ingen Rose er mere frisk; dog Øinene, de milde, velsignede Øine – jo, de ere endnu Bedstemoders! – Ved hendes Side sidder en Mand, ung og kraftig, han rækker hende Rosen og hun smiler – saaledes smiler dog ikke Bedstemoder! – jo, Smilet kommer, – han er borte, der gaae mange Tanker, mange Skikkelser forbi! – Den smukke Mand er <pb n="378"/>borte, Rosen ligger i Psalmebogen og Bedstemoder, – ja, hun sidder igjen som en gammel Kone og seer paa den visne Rose, der ligger i Bogen.</p>
+
+<p rend="firstIndent" xml:id="p_00004">– Nu er Bedstemoder død!</p>
+
+<p rend="firstIndent" xml:id="p_00005">Hun sad i Lænestolen og fortalte en deilig Historie, hun sagde at nu var den ude, at nu var hun træt, og hun lagde sit Hoved tilbage for at sove; hun trak Veiret, hun sov, men det blev mere og mere stille og hendes Ansigt var saa fuldt af Fred og Lykke, det var ligesom der gik Solskin over det; hun smilede, og saa sagde de at hun var død.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Hun blev lagt i <seg target="txtcmnt-378-01"><!--DATA-TERM: den sorte Kiste--><!--DATA-DEFINITION: den almindelige farve på kister i 1800-tallet.-->den sorte Kiste</seg>, hun blev lagt i det hvide Linned, hun var saa smuk, og dog vare Øinene lukkede, men alle Rynker vare borte, hun laa med Smiil om Munden; hendes Haar var saa sølvhvidt, saa ærværdigt, man blev slet ikke bange ved at see paa den Døde, det var jo den søde, eiegode Bedstemoder. Og Psalmebogen blev lagt i Kisten under hendes Hoved, det havde hun selv forlangt, og Rosen laa i den gamle Bog, og saa begravede de Bedstemoder.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Paa Graven, tæt under Kirkemuren, plantede de et Rosentræ, og det stod fuldt af Roser og de nikkede i Vinden og sagde til hverandre: »hvor det er deiligt at blomstre i det varme Solskin! hvor det er deiligt at bade sig i Dug og Maaneskin! og naar man saa er allersmukkest, kommer en kjærlig Haand og plukker os til den deiligste Pige. Hvor vi ville rødme, hvor vi ville dufte!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Og Nattergalen hørte hvad Roserne sagde, og Nattergalen sang om Rosen, som den unge Pige lagde i sin Psalmebog, om Rosen som gjemtes der til de friske Kinder vare runkne, til den unge Pige var en gammel Kone. Det er deiligt at leve i Erindringen!</p>
+
+<p rend="firstIndent" xml:id="p_00009">Og medens Nattergalen sang over Roserne og over Graven, spillede Orgelet i Kirken de smukke Psalmer, der stode i Bogen under den Dødes Hoved; og Maanen skinnede saa stor og saa rund, men de Døde vare her ikke; ethvert Barn kunde ved Nattetid roligt gaae hen og plukke en Rose der ved Kirkegaardsmuren. Een Død veed mere end alle vi Levende vide. De Døde kjende den Angest vi vilde føle ved det Sælsomme, om de stode frem imellem os; De Døde ere gode og kjærlige, de ville ikke skrække os, de komme ikke. Der er Jord over Kisten, der er Jord inden i den, Psalmebogens Blade ere Støv, Rosen med alle sine Erindringer falder i Støv, men ovenover blomstre nye Roser, ovenover synger Nattergalen og Orgelet spiller; man tænker paa den kjære gamle Bedstemoder med de milde, evig <pb n="379"/>unge Øine. – Øine kunne aldrig døe, – vore skulle engang see hende ung og smuk, som da hun første Gang kyssede den friske røde Rose, der nu er Støv i Graven.</p>
+
+
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="En Historie" xml:id="en-historie">
+<head type="section-comments">En Historie</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Freia. Nordisk Album for Poesi og Kunst</hi>, bind I, nr. 1, redigeret af Carl Borgaard, som udkom den 5. oktober 1845.<br/>
+BFN 481/IV,46-49/VII,233-234.</p>
+
+<p rend="noIndent">I forbindelse med en planlagt tysk oversættelse og udgivelse i det aldrig realiserede opsamlingsbind <hi rend="italic">Aus meiner Mappe</hi> ændrede H.C. Andersen i 1847 titlen til »Bedstemoder«; en titel, som blev bevaret, da teksten indgik i kapitel V i rejseskildringen <hi rend="italic">I Sverrig</hi>, 1851. Optaget med enkelte ændringer i <hi rend="italic">Eventyr og Historier. Med Illustrationer efter Originaltegninger af V. Pedersen</hi>, 4. hefte, der udkom den 9. februar 1863 (hefterne 1-3 udgør tilsammen udgavens første bind, 1862, hefterne 4-6 udgør dens andet bind, 1863). Denne udgave følger førstetrykket fra <hi rend="italic">Freia</hi>.</p>
+
+<table rend="textcomments">
+<cell type="page">377</cell><row xml:id="txtcmnt-377-01"><cell type="data-term">Ich hab’ … erblickt</cell><cell type="data-definition">»Jeg har en gammel moster, / som har en gammel lille bog, / der ligger i den gamle bog / et gammelt, tørt blad. / Så tørre er vel også hænderne, / som engang i våren plukkede det. / Hvad vil den gamle mon have? / Hun græder, så ofte hun ser det!« Citatet stammer fra digtet »Das Blatt im Buche« (i <hi rend="italic">Gedichte</hi>, 1837) af den østrigske digter og statsmand Anastasius Grün, pseudonym for Anton Alexander Graf von Auersperg (1806-1876).</cell></row>
+<cell type="page">378</cell><row xml:id="txtcmnt-378-01"><cell type="data-term">den sorte Kiste</cell><cell type="data-definition">den almindelige farve på kister i 1800-tallet.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

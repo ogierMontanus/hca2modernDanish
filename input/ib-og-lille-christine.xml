@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Ib og lille Christine</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Historier. Med 55 Illustrationer efter Originaltegninger af V. Pedersen, skaarne i Træ af Ed. Kretzschmar</i>, der udkom den 30. april 1855.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">2:<i> Eventyr og Historier II 1852-1862</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="ib-og-lille-christine" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="ib-og-lille-christine_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="120_Ib-and-Little-Christine">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Nær ved Gudenaa, inde i Silkeborg-Skov, løfter sig en Landryg, som en stor Vold,...</incipit><readingTime>14</readingTime><popularity>914</popularity><cite>&lt;p&gt;H.C. Andersen: Ib og lille Christine. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Ib_og_lille_Christine_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1855</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>steder</term><term>livsforloeb</term><term>kaerlighed</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2024-02-23" status="draft">minor changes in div-structure</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Ib og lille Christine" xml:id="ib-og-lille-christine">
+<head type="main"><hi rend="italic">Ib</hi> og lille <hi rend="italic">Christine</hi></head>
+
+<p rend="noIndent" xml:id="p_00001">Nær ved <hi rend="italic">Gudenaa</hi>, inde i <hi rend="italic">Silkeborg</hi>-Skov, løfter sig en Landryg, som en stor Vold, den kaldes »<hi rend="italic">Aasen</hi>« og under den mod Vest laae, ja der ligger endnu, et lille Bondehuus med magre Jorder; Sandet skinner igjennem den tynde Rug- og Byg-Ager. Det er nu en Deel Aar siden; Folkene, som boede der, dreve deres lille <seg target="txtcmnt-126-01"><!--DATA-TERM: Avling--><anchor target="txtcmnt-126-01"/><!--landbrug.-->Avling</seg>, havde dertil tre Faar, eet Sviin og to Stude; kort sagt, de havde det ret vel til Føden, naar man tager den, som man har den, ja de kunde vel ogsaa have bragt det til at holde et Par Heste, men de sagde, som de andre Bønder derovre: »Hesten æder sig selv!« – den tærer for det Gode den gjør. <hi rend="italic">Jeppe-Jæns</hi> drev sin lille Jordlod om Sommeren, og var om Vinteren en <seg target="txtcmnt-126-02"><!--DATA-TERM: flink--><anchor target="txtcmnt-126-02"/><!--dygtig.-->flink</seg> Træskomand. Han havde da ogsaa Medhjelp, en Karl, der forstod at skjære Træskoe, der vare baade stærke, lette og med Facon; Skoe og <seg target="txtcmnt-126-03"><!--DATA-TERM: Sløv--><anchor target="txtcmnt-126-03"/><!--slev, stor træske.-->Sløv</seg> skar de; det gav Skillinger, man kunde ikke kalde <hi rend="italic">Jeppe-Jæns</hi> for fattig Folk.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Lille <hi rend="italic">Ib</hi>, den syvaars Dreng, Husets eneste Barn sad og saae til, skar i en Pind, skar sig ogsaa i Fingrene, men en Dag havde han snittet to Stykker Træ, saa at de saae ud, som smaa Træskoe, de skulde, sagde han, foræres til lille <hi rend="italic">Christine</hi>, og det var Prammandens lille Datter, og hun var saa fiin og saa <seg target="txtcmnt-126-04"><!--DATA-TERM: yndelig--><anchor target="txtcmnt-126-04"/><!--yndig.-->yndelig</seg>, som et Herskabs Barn; <seg target="txtcmnt-126-05"><!--DATA-TERM: havde hun Klæder skaaret … født og baaret--><anchor target="txtcmnt-126-05"/><!--spiller på talemåden: Det er ham i kødet båret og ej i klæder skåret, dvs. medfødt; jf. Mau 4861. Her: havde hendes klæder været, som hun var skabt.-->havde hun Klæder skaaret, som hun var født og baaret</seg>, saa vilde Ingen troe at hun var fra Lyngtørvhuset paa <hi rend="italic"><seg target="txtcmnt-126-06"><!--DATA-TERM: Seishede--><anchor target="txtcmnt-126-06"/><!--hedeområde sydøst for Silkeborg.-->Seishede</seg></hi>. Derovre boede hendes Fader, der var Enkemand og ernærede sig ved at pramme Brænde fra Skoven ned til <hi rend="italic">Silkeborg</hi> <seg target="txtcmnt-126-07"><!--DATA-TERM: Aaleværk--><anchor target="txtcmnt-126-07"/><!--fangstredskaber, som anbringes ved et stemværk (dæmning med afløb) for at fange de ål, som følger med strømmen.-->Aaleværk</seg>, ja tidt derfra videre op til <hi rend="italic">Randers</hi>. Ingen havde han, der kunde tage vare paa lille <hi rend="italic">Christine</hi>, der var et Aar yngre end <hi rend="italic">Ib</hi> og saa var hun næsten altid hos ham, paa Prammen og mellem Lyngen og <seg target="txtcmnt-126-08"><!--DATA-TERM: Tyltebær(buskene)--><anchor target="txtcmnt-126-08"/><!--tyttebær.-->Tyltebærbuskene</seg>; skulde han endelig heelt op til <hi rend="italic">Randers</hi>, ja saa kom lille <hi rend="italic">Christine</hi> over til <hi rend="italic">Jeppe-Jæns’s</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00003"><hi rend="italic">Ib</hi> og lille <hi rend="italic">Christine</hi> kom godt ud af det ved Leg og <seg target="txtcmnt-126-09"><!--DATA-TERM: ved Fad--><anchor target="txtcmnt-126-09"/><!--ved spisning.-->ved Fad</seg>; de rodede og de gravede, de krøb og de gik, og en Dag vovede de sig ene to næsten heelt op paa Aasen og et Stykke ind i Skoven, engang fandt de der Sneppeæg, det var en stor Begivenhed.</p>
+
+<pb n="127"/><p rend="firstIndent" xml:id="p_00004"><hi rend="italic">Ib</hi> havde endnu aldrig været ovre paa <hi rend="italic">Seishede</hi>, aldrig prammet igjennem Søerne ad <hi rend="italic">Gudenaa</hi>, men nu skulde han det: han var indbudt af Prammanden og Aftenen forud fulgte han hjem med ham.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Paa de høit opstablede Brændestykker i Prammen sad tidlig om Morgenen de to Børn og spiste Brød og Hindbær. Prammanden og hans Medhjelper stagede sig frem, det gik med Strømmen, i rask Fart ned ad Aaen, gjennem Søerne, der syntes at lukke sig ved Skov og ved Siv, men altid var der dog Gjennemfart, om endogsaa de gamle Træer heldede sig heelt ud og Egetræerne strakte frem afskaldede Grene, ligesom om de havde opsmøgede Ærmer og vilde vise deres knuddrede, nøgne Arme; gamle Elletræer, som Strømmen havde løsnet fra Skrænten, holdt sig med Rødderne fast ved Bunden, og saae ud ligesom smaa Skovøer; Aakander vuggede paa Vandet; det var en deilig Fart! – og saa kom man til Aaleværket, hvor Vandet brusede gjennem Sluserne; det var Noget for <hi rend="italic">Ib</hi> og <hi rend="italic">Christine</hi> at see paa!</p>
+
+<p rend="firstIndent" xml:id="p_00006">Dengang var endnu hernede <seg target="txtcmnt-127-01"><!--DATA-TERM: hverken Fabrik eller By--><anchor target="txtcmnt-127-01"/><!--Silkeborg Papirfabrik blev grundlagt i 1844, byen 1845.-->hverken Fabrik eller By</seg>, her stod kun den gamle Avlsgaard og Besætningen der var ikke stor, Vandets Fald gjennem Slusen og Vildandens Skrig, det var den Gang den stadigste Livlighed. – Da nu Brændet var prammet om, kjøbte <hi rend="italic">Christines</hi> Fader sig et stort Knippe Aal og en lille slagtet Griis, der Alt tilsammen i en Kurv blev stillet agter ude paa Prammen. Nu gik det mod Strømmen hjem, men Vinden var med og da de satte Seil til, var det ligesaa godt, som om de havde to Heste for.</p>
+
+<p rend="firstIndent" xml:id="p_00007">Da de med Prammen var saa høit oppe under Skoven, at de laae ud for hvor Manden, der hjalp med at pramme, havde kun et kort Stykke hjem, saa gik han og <hi rend="italic">Christines</hi> Fader i Land, men paalagde Børnene at forholde sig rolige og forsigtige, men det gjorde de ikke længe, de maatte see ned i Kurven hvor Aalene og Grisen gjemtes og Grisen maatte de løfte paa og holde den, og da de begge vilde holde den saa tabte de den og det lige ud i Vandet; der drev den paa Strømmen, det var en forfærdelig Begivenhed.</p>
+
+<p rend="firstIndent" xml:id="p_00008"><hi rend="italic">Ib</hi> sprang i Land og løb et lille Stykke, saa kom ogsaa <hi rend="italic">Christine</hi>; »tag mig med Dig!« raabte hun, og nu var de snart inde i Buskene, de saae ikke længer Prammen eller Aaen; et lille Stykke endnu løb de, saa faldt <hi rend="italic">Christine</hi> og græd; <hi rend="italic">Ib</hi> fik hende op.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Kom med mig!« sagde han. »Huset ligger derovre!« men det laae ikke derovre. De gik og de gik, over vissent Løv og tør<pb n="128"/>re nedfaldne Grene, der knagede under deres smaa Fødder; nu hørte de en stærk Raaben – de stode stille og lyttede; nu skreg en Ørn, det var et fælt Skrig, de bleve ganske forskrækkede, men foran dem, inde i Skoven, voxte de deiligste Blaabær, en utrolig Mængde; det var alt for indbydende til ikke at blive og de blev og de spiste, og bleve ganske blaa om Mund og Kinder. Nu hørtes igjen en Raaben.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Vi faae Bank for Grisen!« sagde <hi rend="italic">Christine</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Lad os gaae hjem <seg target="txtcmnt-128-01"><!--DATA-TERM: til vort--><anchor target="txtcmnt-128-01"/><!--hos os.-->til vort</seg>!« sagde <hi rend="italic">Ib</hi>; »det er her i Skoven!« og de gik; de kom paa en Kjørevei, men hjem førte den ikke, mørkt blev det og angest vare de. Den forunderlige Stilhed rundt om afbrødes ved fæle Skrig af den store Hornugle eller Lyd fra Fugle, de ikke kjendte; endelig stod de begge To fast i en Busk, <hi rend="italic">Christine</hi> græd og <hi rend="italic">Ib</hi> græd, og da de saa havde grædt en Stund lagde de sig i Løvet og faldt isøvn.</p>
+
+<p rend="firstIndent" xml:id="p_00012">Solen var høit oppe da de vaagnede, de frøs, men oppe paa Høiden tæt ved, skinnede Solen ned mellem Træerne, der kunde de varme sig og derfra, meente Ib, maatte de kunde see hans Forældres Huus; men de vare langt fra det, i en ganske anden Deel af Skoven. De kravlede heelt op paa Høiden og stod paa en Skrænt ved en klar, gjennemsigtig Sø; Fiskene i den stode i <seg target="txtcmnt-128-02"><!--DATA-TERM: Stiim--><anchor target="txtcmnt-128-02"/><!--stime.-->Stiim</seg> belyste af Solstraalerne; det var saa uventet hvad de saae og tætved var en stor Busk fuld af Nødder, ja saagar syv <seg target="txtcmnt-128-03"><!--DATA-TERM: Kløvser--><anchor target="txtcmnt-128-03"/><!--(nødde)klaser.-->Kløvser</seg>; og de plukkede og de knækkede og fik de fine Kjærner, der havde begyndt at sætte sig, – og saa kom der endnu en Overraskelse, en Forskrækkelse. Fra Busken traadte frem en stor, gammel Kone, hvis Ansigt var saa bruunt og Haaret saa glindsende og sort; det Hvide i hendes Øine skinnede ligesom paa en <seg target="txtcmnt-128-04"><!--DATA-TERM: Morian--><anchor target="txtcmnt-128-04"/><!--neger.-->Morian</seg>; hun havde en Bylt paa Nakken, og en Knortekjep i Haanden; hun var en <seg target="txtcmnt-128-05"><!--DATA-TERM: Taterske--><anchor target="txtcmnt-128-05"/><!--sigøjnerske.-->Taterske</seg>. Børnene forstode ikke strax hvad hun sagde; og hun tog tre store Nødder op af Lommen, inde i hver laae de deiligste Ting gjemte, fortalte hun, det var Ønskenødder.</p>
+
+<p rend="firstIndent" xml:id="p_00013"><hi rend="italic">Ib</hi> saae paa hende, hun var saa venlig, og saa tog han sig sammen og spurgte, om han maatte have de Nødder og Konen gav ham dem og plukkede sig en heel Lomme fuld af dem paa Busken.</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og <hi rend="italic">Ib</hi> og <hi rend="italic">Christine</hi> saae med store Øine paa de tre Ønskenødder.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Er der i den en Vogn med Heste for?« spurgte <hi rend="italic">Ib</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Der er en Guldkarreet med Guldheste!« sagde Konen.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Saa giv mig den!« sagde lille <hi rend="italic">Christine</hi>, og <hi rend="italic">Ib</hi> gav hende den og Konen knyttede Nødden ind i hendes Halstørklæde.</p>
+
+<pb n="129"/><p rend="firstIndent" xml:id="p_00018">»Er der inde i denne saadant et lille kjønt Halsklæde, som det <hi rend="italic">Christine</hi> der har?« spurgte <hi rend="italic">Ib</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Der er ti Halsklæder!« sagde Konen, »der er fine Kjoler, Strømper og Hat!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Saa vil jeg ogsaa have den!« sagde <hi rend="italic">Christine</hi>, og lille <hi rend="italic">Ib</hi> gav hende ogsaa den anden Nød; den tredie var en lille sort en.</p>
+<p rend="firstIndent" xml:id="p_00021">»Den skal Du beholde!« sagde <hi rend="italic">Christine</hi>, »og den er ogsaa kjøn.«</p>
+<p rend="firstIndent" xml:id="p_00022">»Og hvad er der i den?« spurgte <hi rend="italic">Ib</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Det Allerbedste for Dig!« sagde Taterkonen.</p>
+
+<p rend="firstIndent" xml:id="p_00024">Og <hi rend="italic">Ib</hi> holdt fast paa Nødden. Konen lovede at føre dem paa rette Vei hjem, og de gik, men rigtignok i en ganske modsat Retning, end de skulde gaae, men derfor tør man ikke beskylde hende for, at hun vilde stjæle Børn.</p>
+
+<p rend="firstIndent" xml:id="p_00025">I den <seg target="txtcmnt-129-01"><!--DATA-TERM: vildsomme--><anchor target="txtcmnt-129-01"/><!--uvejsomme.-->vildsomme</seg> Skov mødte de <seg target="txtcmnt-129-02"><!--DATA-TERM: Skovløber(en)--><anchor target="txtcmnt-129-02"/><!--skovfogeds medhjælper, underbetjent i skovbruget.-->Skovløberen</seg> <hi rend="italic">Chræn</hi>, han kjendte <hi rend="italic">Ib</hi>, og ved ham kom <hi rend="italic">Ib</hi> med lille <hi rend="italic">Christine</hi> hjem, hvor man var i stor Angest for dem, og Tilgivelse fik de, skjøndt de havde begge fortjent et godt Livfuldt Riis, først fordi de lod Grisen falde i Vandet og dernæst at de vare løbne deres Vei.</p>
+
+<p rend="firstIndent" xml:id="p_00026"><hi rend="italic">Christine</hi> kom hjem paa Heden og <hi rend="italic">Ib</hi> blev i det lille Skovhuus; det Første han der om Aftenen gjorde, var at tage frem Nødden, der gjemte »det Allerbedste«; – han lagde den mellem Døren og Dørkarmen, klemte saa til, Nødden knak, men ikke Kjærne skabt var der at see, den var fyldt ligesom med Snuus eller Muld-Jord; der var gaaet Orm i den, som det kaldes.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Ja, det kunde jeg nok tænke!« meente <hi rend="italic">Ib</hi>, »<seg target="txtcmnt-129-03"><!--DATA-TERM: hvor skulde de--><anchor target="txtcmnt-129-03"/><!--hvordan skulle de.-->hvor skulde der</seg>, inde i den lille Nød, være Plads for det Allerbedste! <hi rend="italic">Christine</hi> faaer hverken fine Klæder eller Guldkarreet ud af sine to Nødder!«</p>
+
+<p rend="firstIndent" xml:id="p_00028">Og Vinteren kom og det nye Aar kom.</p>
+
+<p rend="firstIndent" xml:id="p_00029">Og der gik flere Aaringer. Nu skulde <hi rend="italic">Ib</hi> gaae til Præsten og han boede langveis borte. Paa den Tid kom en Dag Prammanden og fortalte hos <hi rend="italic">Ibs</hi> Forældre, at lille <hi rend="italic">Christine</hi> skulde nu ud at tjene for sit Brød, og at det var en sand Lykke for hende, at hun kom i de Hænder, hun kom, fik Tjeneste hos saadanne brave Folk; tænk, hun skulde til de rige Krofolk i <hi rend="italic">Herning</hi> Kanten, vesterpaa; der skulde hun gaae Mo’er tilhaande og siden, naar hun skikkede sig og der var confirmeret, vilde de beholde hende.</p>
+
+<p rend="firstIndent" xml:id="p_00030">Og <hi rend="italic">Ib</hi> og <hi rend="italic">Christine</hi> toge Afsked fra hinanden: Kjærestefolkene bleve de kaldte; og hun viste ham ved Afskeden, at hun endnu havde de to Nødder, som hun fik af ham da de løb vild i Skoven, og hun sagde, at hun i sin Klædekiste gjemte de smaa <pb n="130"/>Træskoe, han som Dreng havde skaaret og foræret hende. Og saa skiltes de.</p>
+
+<p rend="firstIndent" xml:id="p_00031"><hi rend="italic">Ib</hi> blev confirmeret, men i sin Moders Huus blev han, for han var en flink <seg target="txtcmnt-130-01"><!--DATA-TERM: Træskoesnider--><anchor target="txtcmnt-130-01"/><!--træskomager.-->Træskoesnider</seg> og han passede godt om Sommeren den lille Avling, hans Moder havde kun ham dertil, <hi rend="italic">Ibs</hi> Fader var død.</p>
+
+<p rend="firstIndent" xml:id="p_00032">Kun sjeldent, og det var da ved en Postkarl eller en <seg target="txtcmnt-130-04"><!--DATA-TERM: Aalebonde--><anchor target="txtcmnt-130-04"/><!--ålehandler.-->Aalebonde</seg>, hørte man om <hi rend="italic">Christine</hi>: det gik hende godt hos de rige Krofolk og da hun var blevet confirmeret, skrev hun til Faderen Brev med Hilsen til <hi rend="italic">Ib</hi> og hans Moder; i Brevet stod om sex nye <seg target="txtcmnt-130-02"><!--DATA-TERM: Særk--><anchor target="txtcmnt-130-02"/><!--løsthængende underbeklædning for kvinder, chemise.-->Særk</seg>e og en deilig Klædning, <hi rend="italic">Christine</hi> havde faaet af Husbond og Madmo’er. Det var rigtignok gode <seg target="txtcmnt-130-03"><!--DATA-TERM: Tidende--><anchor target="txtcmnt-130-03"/><!--nyheder.-->Tidender</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Foraaret derefter, en smuk Dag, bankede det paa <hi rend="italic">Ibs</hi> og hans Moders Dør, det var Prammanden med <hi rend="italic">Christine</hi>; hun var kommet i Besøg paa en Dagstid; der var just en <seg target="txtcmnt-130-05"><!--DATA-TERM: Leilighed--><anchor target="txtcmnt-130-05"/><!--transportmulighed.-->Leilighed</seg> til <hi rend="italic">Them</hi> og igjen tilbage, og den benyttede hun. Smuk var hun, som en fiin Frøken, og gode Klæder havde hun, de vare syede vel og de passede til hende. I fuld Stads stod hun og <hi rend="italic">Ib</hi> var i de daglige, gamle Klæder. Han kunde slet ikke komme til Mæle; vel tog han hendes Haand, holdt den saa fast, var saa inderlig glad, men Munden kunde han ikke <seg target="txtcmnt-130-06"><!--DATA-TERM: faae paa Gang--><anchor target="txtcmnt-130-06"/><!--få på gled, få i gang.-->faae paa Gang</seg>, det kunde lille <hi rend="italic">Christine</hi>, hun talte, hun vidste at fortælle og hun kyssede <hi rend="italic">Ib</hi> lige paa Munden:</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Kjender Du mig ikke nok!« sagde hun; men selv da de vare ene To og han endnu stod og holdt hende i Haanden, var Alt hvad han kunde sige, alene det: »Du er blevet ligesom en fiin Dame! og jeg seer saa pjusket ud! hvor jeg har tænkt paa Dig, Christine! og paa gamle Tider!«</p>
+
+<p rend="firstIndent" xml:id="p_00035">Og de gik Arm i Arm op paa Aasen og saae over Guden-Aa til Seishede med de store Lyngbanker, men <hi rend="italic">Ib</hi> sagde ikke Noget, dog da de skiltes ad, var det klart for ham, at <hi rend="italic">Christine</hi> maatte blive hans Kone, de vare jo fra Smaa kaldt Kjærestefolk, de vare, syntes han, et forlovet Par, uagtet ingen af dem selv havde sagt det.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Kun nogle Timer endnu kunde de være sammen, for hun skulde igjen til <hi rend="italic">Them</hi>, hvorfra tidlig næste Morgen Vognen kjørte tilbage vesterpaa. Faderen og <hi rend="italic">Ib</hi> fulgte med til <hi rend="italic">Them</hi>, det var klart Maaneskin, og da de kom der og <hi rend="italic">Ib</hi> endnu holdt <hi rend="italic">Christines</hi> Haand, kunde han ikke slippe den, hans Øine de vare saa klare, men Ordene faldt kun smaat, men det var Hjerte-Ord hvert eneste et: »er Du ikke blevet for fiint vant,« sagde han, »og kan Du finde Dig i at leve i vor Mo’ers Huus med mig, som Ægte<pb n="131"/>mand, saa blive vi To engang Mand og Kone! – – men vi kan jo vente lidt!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Ja, lad os see Tiden an, Ib!« sagde hun; og saa trykkede hun hans Haand og han kyssede hende paa hendes Mund. »Jeg stoler paa Dig, <hi rend="italic">Ib</hi>!« sagde <hi rend="italic">Christine</hi>, »og jeg troer, at jeg holder af Dig! men lad mig sove paa det!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">Og saa skiltes de ad. Og <hi rend="italic">Ib</hi> sagde til Prammanden, at han og <hi rend="italic">Christine</hi> vare nu saa godt som forlovede, og Prammanden fandt, at det var, som han altid havde tænkt om det; og han fulgte hjem med <hi rend="italic">Ib</hi> og sov der i Seng med ham, og der taltes saa ikke mere om Forlovelsen.</p>
+
+<p rend="firstIndent" xml:id="p_00039">Et Aar var gaaet; to Breve vare vexlede mellem <hi rend="italic">Ib</hi> og <hi rend="italic">Christine</hi>; »trofast til Døden!« stod der ved Underskriften. En Dag traadte Prammanden ind til <hi rend="italic">Ib</hi>, han havde Hilsen til ham fra <hi rend="italic">Christine</hi>; hvad mere han havde at sige, gik det lidt langsomt med, men det var det, at det gik <hi rend="italic">Christine</hi> vel, mere end vel, hun var jo en kjøn Pige, agtet og afholdt. Kromandens Søn havde været hjemme paa Besøg; han var ansat ved noget Stort i Kjøbenhavn, ved et Contoir: han syntes godt om <hi rend="italic">Christine</hi>, hun fandt ham ogsaa efter sit Sind, hans Forældre vare nok ikke uvillige, men nu laae det dog <hi rend="italic">Christine</hi> paa Hjertet, at nok <hi rend="italic">Ib</hi> tænkte saa meget paa hende, og saa havde hun betænkt at skyde Lykken fra sig, sagde Prammanden.</p>
+
+<p rend="firstIndent" xml:id="p_00040"><hi rend="italic">Ib</hi> sagde i <seg target="txtcmnt-131-01"><!--DATA-TERM: Førstningen--><anchor target="txtcmnt-131-01"/><!--begyndelsen.-->Førstningen</seg> ikke et Ord, men han blev ligesaa hvid, som et Klæde, rystede lidt med Hovedet og saa sagde han: »<hi rend="italic">Christine</hi> maa ikke skyde sin Lykke fra sig!«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Skriv hende det Par Ord til!« sagde Prammanden.</p>
+
+<p rend="firstIndent" xml:id="p_00042">Og <hi rend="italic">Ib</hi> skrev ogsaa, men han kunde ikke ret sætte Ordene sammen, som han vilde, og han slog Streg over og han rev itu, – men om Morgenen var der et Brev istand til lille <hi rend="italic">Christine</hi>, og her er det!</p>
+<floatingText type="letter">     
+<p rend="noIndent" xml:id="p_00043">– »Det Brev, Du har skrevet til din Fader, har jeg læst og seer, at det gaaer Dig vel i alle Maader og at Du kan faae det endnu Bedre! Spørg dit Hjerte ad, <hi rend="italic">Christine</hi>! og tænk vel over hvad Du gaaer ind til, om Du tager mig; det er kun ringe hvad jeg har. Tænk ikke paa mig og hvordan jeg har det, men tænk paa dit eget Gavn! Mig er Du ikke bundet til ved Løfte, og har Du i dit Hjerte givet mig et, saa løser jeg Dig fra det. Alverdens Glæde være over Dig, lille <hi rend="italic">Christine</hi>! vor Herre har vel Trøst for mit Hjerte!</p>
+
+<salute rend="secondIndent">Altid din inderlige Ven,</salute>
+<signed rend="secondIndent">Ib.«</signed>
+</floatingText>
+
+<pb n="132"/><p rend="noIndent" xml:id="p_00044">Og Brevet blev afsendt og <hi rend="italic">Christine</hi> fik det.</p>
+
+<p rend="firstIndent" xml:id="p_00045">Ved Mortensdagstider blev der lyst fra Prædikestolen for hende, i Kirken paa Heden og ovre i Kjøbenhavn, hvor Brudgommen var, og derover reiste hun med sin Madmo’er, da Brudgommen, for sine mange Forretningers Skyld, ikke kunde komme saalangt over i Jylland. <hi rend="italic">Christine</hi> havde, efter Aftale, truffet sammen med sin Fader i Landsbyen <hi rend="italic">Funder</hi>, som Veien gaaer igjennem og som var ham det nærmeste Mødested; der tog de To Afsked. Derom kom til at falde et Par Ord, men <hi rend="italic">Ib</hi> sagde ikke Noget; han var blevet saa eftertænksom, sagde hans gamle Mo’er; ja eftertænksom var han, og derfor randt ham i Tanke de tre Nødder, han som Barn fik af Taterkonen og gav Christine de to af, det var Ønskenødder, i hendes den ene laae jo en Guldkarreet med Heste, i den anden de deiligste Klæder; det slog til! al den Herlighed fik hun nu ovre i Kongens Kjøbenhavn! for hende gik det i Opfyldelse –! for <hi rend="italic">Ib</hi> var der i Nødden kun den sorte Muld. »Det Allerbedste« for ham, havde Taterkonen sagt, – jo, ogsaa det gik i Opfyldelse! den sorte Muld var ham det Bedste. Nu forstod han tydeligt hvad Konen havde meent: I den sorte Jord, i Gravens Gjemme, der var det ham det Allerbedste!</p>
+
+<p rend="firstIndent" xml:id="p_00046">Og der gik Aaringer, – ikke mange, men lange, syntes <hi rend="italic">Ib</hi>; de gamle Krofolk døde bort, den ene kort efter den anden; al Velstanden, mange tusinde Rigsdaler gik til Sønnen. Ja, nu kunde <hi rend="italic">Christine</hi> faae Guldkarreet og fine Klæder nok.</p>
+
+<p rend="firstIndent" xml:id="p_00047">I to lange Aar, som fulgte, kom ikke Brev fra <hi rend="italic">Christine</hi>, og da saa Faderen fik et, var det slet ikke skrevet i Velstand og Fornøielse. Stakkels <hi rend="italic">Christine</hi>! hverken hun eller hendes Mand havde vidst at holde Maade paa Rigdommen, den gik, som den kom, der var ingen Velsignelse ved den, for de vilde det ikke selv.</p>
+
+<p rend="firstIndent" xml:id="p_00048">Og Lyngen stod i Blomster og Lyngen tørrede hen; Sneen havde mange Vintre fyget over <hi rend="italic">Seis</hi> Hede, over Aasen hvor <hi rend="italic">Ib</hi> boede i Læ; Foraarssolen skinnede og <hi rend="italic">Ib</hi> satte Ploven i Jorden, da skar den, som han troede, hen af en Flintesteen, der kom ligesom en stor sort Høvlspaan op over Jorden, og da <hi rend="italic">Ib</hi> tog paa den, mærkede han, at det var et Metal, og hvor Ploven havde skaaret ind i det, skinnede det blankt. Det var en tung, stor Arm-Ring af Guld fra <seg target="txtcmnt-132-01"><!--DATA-TERM: Hedenold--><anchor target="txtcmnt-132-01"/><!--oldtiden.-->Hedenold</seg>; Kjæmpegraven var blevet jævnet her, dens <seg target="txtcmnt-132-02"><!--DATA-TERM: kostelige--><anchor target="txtcmnt-132-02"/><!--kostbare.-->kostelige</seg> Smykke fundet. <hi rend="italic">Ib</hi> viste det til Præsten, der sagde ham hvad herligt det var og derfra gik <hi rend="italic">Ib</hi> med det til Herredsfogden, der gav Indberetning derom til <pb n="133"/><pb n="134"/>Kjøbenhavn og raadede <hi rend="italic">Ib</hi> selv at overbringe det kostelige Fund.</p>
+
+<p rend="firstIndent" xml:id="p_00049">»Du har fundet i Jorden det Bedste, Du kunde finde!« sagde Herredsfogeden.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Det Bedste!« tænkte <hi rend="italic">Ib</hi>. »Det Allerbedste for mig – og i Jorden! saa havde Taterqvinden dog ogsaa Ret med mig, naar <hi rend="italic">det</hi> var det Bedste!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">Og <hi rend="italic">Ib</hi> gik med <seg target="txtcmnt-134-01"><!--DATA-TERM: Smakke(n)--><anchor target="txtcmnt-134-01"/><!--mindre skib, brugt til færgesejlads.-->Smakken</seg> fra <hi rend="italic">Aarhuus</hi> til Kongens <hi rend="italic">Kjøbenhavn</hi>; det var som en Reise over Verdenshavet, for ham, som kun havde sat over <hi rend="italic">Gudenaa</hi>. Og <hi rend="italic">Ib</hi> kom til Kjøbenhavn.</p>
+
+<p rend="firstIndent" xml:id="p_00052">Værdien af det fundne Guld blev udbetalt ham, det var en stor Sum: sex hundrede Rigsdaler. Der gik i det store, <seg target="txtcmnt-134-02"><!--DATA-TERM: vildsom(me)--><anchor target="txtcmnt-134-02"/><!--kaotisk, labyrintisk.-->vildsomme</seg> <hi rend="italic">Kjøbenhavn Ib</hi> fra Skoven ved Seishede.</p>
+
+<p rend="firstIndent" xml:id="p_00053">Det var netop Aftenen før han vilde med Skipperen tilbage til <hi rend="italic">Aarhuus</hi>, da han forvildede sig i Gaderne, kom i en ganske anden Retning, end den han vilde, og var, over Knippelsbro, kommet til <hi rend="italic">Christianshavn</hi> istedetfor ned mod Volden ved Vesterport! Han styrede ganske rigtigt vesterpaa, men ikke hvor han skulde. Der var ikke et Menneske at see paa Gaden. Da kom der en lille bitte Pige ud fra et fattigt Huus; <hi rend="italic">Ib</hi> talte til hende om Veien, han søgte; hun studsede, saae op paa ham og var i heftig Graad. Nu var hans Spørgsmaal, hvad hun feilede, hun sagde Noget, som han ikke forstod og idet de begge vare lige under en Lygte, og Lyset fra den skinnede hende lige ind i Ansigtet, blev han ganske underlig, for det var livagtig lille <hi rend="italic">Christine</hi> han saae, ganske, som han huskede hende fra de begge vare Børn.</p>
+
+<p rend="firstIndent" xml:id="p_00054">Og han gik med den lille Pige ind i det fattige Huus, opad den smalle, slidte Trappe, høit op til et lille, skraat Kammer under Taget. Der var en tung, qvalm Luft derinde, intet Lys tændt; henne i Krogen sukkede det og drog Veiret trangt. <hi rend="italic">Ib</hi> tændte en Svovlstikke. Det var Barnets Moder, som laae paa den fattige Seng.</p>
+
+<p rend="firstIndent" xml:id="p_00055">»Er der Noget, jeg kan hjelpe Eder med!« sagde <hi rend="italic">Ib</hi>. »Den Lille fik mig fat, men jeg er fremmed selv her i Staden. Er her ingen Naboer eller Nogen, jeg kan kalde paa!« – Og han løftede hendes Hoved.</p>
+
+<p rend="firstIndent" xml:id="p_00056">Det var <hi rend="italic">Christine</hi> fra <hi rend="italic">Seishede</hi>.</p>
+
+<p rend="firstIndent" xml:id="p_00057">I Aaringer var derhjemme i Jylland hendes Navn ikke blevet nævnet, det vilde have rørt op i <hi rend="italic">Ibs</hi> stille Tankegang, og det var jo ikke heller godt, hvad Rygtet og Sandheden meldte, at de mange Penge, hendes Mand fik i Arv fra hans Forældre, havde <pb n="135"/>gjort ham overmodig og vildsom; sin faste Stilling havde han opgivet, reist et halvt Aar i fremmede Lande, kommet tilbage og gjort Gjæld og dog <seg target="txtcmnt-135-01"><!--DATA-TERM: flankere(t)--><anchor target="txtcmnt-135-01"/><!--svire.-->flankeret</seg>; meer og meer heldede Vognen og tilsidst væltede den. De mange lystige Venner fra hans Bord sagde om ham, at han fortjente det, som det gik ham, han havde jo levet, som en gal Mand! – Hans Liig var en Morgen funden i Canalen i Slotshaven.</p>
+
+<p rend="firstIndent" xml:id="p_00058"><hi rend="italic">Christine</hi> gik med Døden i sig; hendes yngste lille Barn, kun nogle Uger gammelt, <seg target="txtcmnt-135-02"><!--DATA-TERM: baaret--><anchor target="txtcmnt-135-02"/><!--undfanget.-->baaret</seg> i Velstand, født i Elendighed, var <seg target="txtcmnt-135-03"><!--DATA-TERM: alt--><anchor target="txtcmnt-135-03"/><!--allerede.-->alt</seg> i Graven og nu var det saa vidt med <hi rend="italic">Christine</hi>, at hun laae dødssyg, forladt, paa et usselt Kammer, usselt, som hun kunde have taalt det i sine unge Aar paa Seishede, men nu bedre vant, ret følte Elendigheden af. Det var hendes ældste, lille Barn, ogsaa en lille <hi rend="italic">Christine</hi>, der led Nød og Sult med hende, og som havde faaet <hi rend="italic">Ib</hi> derop.</p>
+
+<p rend="firstIndent" xml:id="p_00059">»Jeg er bange, jeg døer fra det stakkels Barn!« fremsukkede hun, »hvor i Verden skal hun saa hen!« – mere kunde hun ikke sige.</p>
+
+<p rend="firstIndent" xml:id="p_00060">Og <hi rend="italic">Ib</hi> fik igjen en Svovlstikke tændt og fandt en Stump Lys, den brændte og lyste i det usle Kammer.</p>
+
+<p rend="firstIndent" xml:id="p_00061">Og <hi rend="italic">Ib</hi> saae paa den lille Pige og tænkte paa <hi rend="italic">Christine</hi> i unge Dage; for <hi rend="italic">Christines</hi> Skyld kunde han være god mod dette Barn, som han ikke kjendte. Den Døende saae paa ham, hendes Øine bleve større og større –! Kjendte hun ham? Ikke vidste han det, ikke et Ord hørte han hende sige.</p>
+
+<graphic type="blank"/>
+
+
+<p rend="noIndent" xml:id="p_00062">Og det var i Skoven ved <hi rend="italic">Gudenaa</hi>, nær <hi rend="italic">Seishede</hi>; Luften var graa, Lyngen stod uden Blomster, Vestens Storme dreve det gule Løv fra Skoven ud i Aaen og hen over Heden hvor Græstørvhuset stod, hvor fremmede Folk boede; men under Aasen, godt i Læ bag høie Træer stod det lille Huus, hvidtet og malet; inde i Stuen brændte i Kakkelovnen <seg target="txtcmnt-135-04"><!--DATA-TERM: Klynetørvene--><anchor target="txtcmnt-135-04"/><!--mosetørvene.-->Klynetørvene</seg>, inde i Stuen var Solskin, der straalede fra to Barne-Øine, Foraarets Lærkeslag lød i Talen fra dets røde, leende Mund; der var Liv og Lystighed, lille <hi rend="italic">Christine</hi> var der; hun sad paa <hi rend="italic">Ibs</hi> Knæ; <hi rend="italic">Ib</hi> var hende Fader og Moder, de vare borte, som Drømmen er det for Barnet og den Voxne. <hi rend="italic">Ib</hi> sad i det nette, pyntelige Huus, en velhavende Mand; den lille Piges Moder laae paa de Fattiges Kirkegaard ved Kongens Kjøbenhavn.</p>
+
+<p rend="firstIndent" xml:id="p_00063"><hi rend="italic">Ib</hi> havde Penge paa Kistebunden, sagde de, Guld fra Muld, og han havde jo ogsaa lille <hi rend="italic">Christine</hi>.</p>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Ib og lille Christine" xml:id="ib-og-lille-christine">
+<head type="section-comments"><hi rend="italic">Ib</hi> og lille <hi rend="italic">Christine</hi></head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Historier. Med 55 Illustrationer efter Originaltegninger af V. Pedersen, skaarne i Træ af Ed. Kretzschmar</hi>, der udkom den 30. april 1855.</p>
+<p rend="noIndent">BFN 739/II,297-306/VII,164-166.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">131,13</cell><cell type="deviation">Underskriften. &lt; Underskriften</cell></row>
+<row><cell type="position">132,12</cell><cell type="deviation">han som &lt; han, som</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">126</cell><row xml:id="txtcmnt-126-01"><cell type="data-term">Avling</cell><cell type="data-definition">landbrug.</cell></row><row xml:id="txtcmnt-126-02"><cell type="data-term">flink</cell><cell type="data-definition">dygtig.</cell></row><row xml:id="txtcmnt-126-03"><cell type="data-term">Sløv</cell><cell type="data-definition">slev, stor træske.</cell></row><row xml:id="txtcmnt-126-04"><cell type="data-term">yndelig</cell><cell type="data-definition">yndig.</cell></row><row xml:id="txtcmnt-126-05"><cell type="data-term">havde hun Klæder skaaret … født og baaret</cell><cell type="data-definition">spiller på talemåden: Det er ham i kødet båret og ej i klæder skåret, dvs. medfødt; jf. Mau 4861. Her: havde hendes klæder været, som hun var skabt.</cell></row><row xml:id="txtcmnt-126-06"><cell type="data-term">Seishede</cell><cell type="data-definition">hedeområde sydøst for Silkeborg.</cell></row><row xml:id="txtcmnt-126-07"><cell type="data-term">Aaleværk</cell><cell type="data-definition">fangstredskaber, som anbringes ved et stemværk (dæmning med afløb) for at fange de ål, som følger med strømmen.</cell></row><row xml:id="txtcmnt-126-08"><cell type="data-term">Tyltebær(buskene)</cell><cell type="data-definition">tyttebær.</cell></row><row xml:id="txtcmnt-126-09"><cell type="data-term">ved Fad</cell><cell type="data-definition">ved spisning.</cell></row>
+<cell type="page">127</cell><row xml:id="txtcmnt-127-01"><cell type="data-term">hverken Fabrik eller By</cell><cell type="data-definition">Silkeborg Papirfabrik blev grundlagt i 1844, byen 1845.</cell></row>
+<cell type="page">128</cell><row xml:id="txtcmnt-128-01"><cell type="data-term">til vort</cell><cell type="data-definition">hos os.</cell></row><row xml:id="txtcmnt-128-02"><cell type="data-term">Stiim</cell><cell type="data-definition">stime.</cell></row><row xml:id="txtcmnt-128-03"><cell type="data-term">Kløvser</cell><cell type="data-definition">(nødde)klaser.</cell></row><row xml:id="txtcmnt-128-04"><cell type="data-term">Morian</cell><cell type="data-definition">neger.</cell></row><row xml:id="txtcmnt-128-05"><cell type="data-term">Taterske</cell><cell type="data-definition">sigøjnerske.</cell></row>
+<cell type="page">129</cell><row xml:id="txtcmnt-129-01"><cell type="data-term">vildsomme</cell><cell type="data-definition">uvejsomme.</cell></row><row xml:id="txtcmnt-129-02"><cell type="data-term">Skovløber(en)</cell><cell type="data-definition">skovfogeds medhjælper, underbetjent i skovbruget.</cell></row><row xml:id="txtcmnt-129-03"><cell type="data-term">hvor skulde <app type="corrNote"><lem wit="HCAC">der</lem><rdg>de</rdg></app></cell><cell type="data-definition">hvordan skulle <app type="corrNote"><lem wit="HCAC">der</lem><rdg>de</rdg></app>.</cell></row>
+<cell type="page">130</cell><row xml:id="txtcmnt-130-01"><cell type="data-term">Træskoesnider</cell><cell type="data-definition">træskomager.</cell></row><row xml:id="txtcmnt-130-02"><cell type="data-term">Særk</cell><cell type="data-definition">løsthængende underbeklædning for kvinder, chemise.</cell></row><row xml:id="txtcmnt-130-03"><cell type="data-term">Tidende</cell><cell type="data-definition">nyheder.</cell></row><row xml:id="txtcmnt-130-04"><cell type="data-term">Aalebonde</cell><cell type="data-definition">ålehandler.</cell></row><row xml:id="txtcmnt-130-05"><cell type="data-term">Leilighed</cell><cell type="data-definition">transportmulighed.</cell></row><row xml:id="txtcmnt-130-06"><cell type="data-term">faae paa Gang</cell><cell type="data-definition">få på gled, få i gang.</cell></row>
+<cell type="page">131</cell><row xml:id="txtcmnt-131-01"><cell type="data-term">Førstningen</cell><cell type="data-definition">begyndelsen.</cell></row>
+<cell type="page">132</cell><row xml:id="txtcmnt-132-01"><cell type="data-term">Hedenold</cell><cell type="data-definition">oldtiden.</cell></row><row xml:id="txtcmnt-132-02"><cell type="data-term">kostelige</cell><cell type="data-definition">kostbare.</cell></row>
+<cell type="page">134</cell><row xml:id="txtcmnt-134-01"><cell type="data-term">Smakke(n)</cell><cell type="data-definition">mindre skib, brugt til færgesejlads.</cell></row><row xml:id="txtcmnt-134-02"><cell type="data-term">vildsom(me)</cell><cell type="data-definition">kaotisk, labyrintisk.</cell></row>
+<cell type="page">135</cell><row xml:id="txtcmnt-135-01"><cell type="data-term">flankere(t)</cell><cell type="data-definition">svire.</cell></row><row xml:id="txtcmnt-135-02"><cell type="data-term">baaret</cell><cell type="data-definition">undfanget.</cell></row><row xml:id="txtcmnt-135-03"><cell type="data-term">alt</cell><cell type="data-definition">allerede.</cell></row><row xml:id="txtcmnt-135-04"><cell type="data-term">Klynetørvene</cell><cell type="data-definition">mosetørvene.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>»Spørg Amagermo’er«!</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl>
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Illustreret Børneblad</hi>, 1. årgang, nr. 1, som udkom den 1. oktober 1871 (BFN 1011). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p>
+<p>BFN 1017/V,159-160/VII,362.</p> 
+<p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="spoerg-amagermoer" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="spoerg-amagermoer_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="192_Ask-the-Market-Dame">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var en ældgammel Gulerod,...</incipit><readingTime>3</readingTime><popularity>884</popularity><cite>&lt;p&gt;H.C. Andersen: »Spørg Amagermo’er«!. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Spoerg-Amagermoer_01_2022-03-14.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1872</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>teknik</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="»Spørg Amagermo’er«!" xml:id="spoerg-amagermoer">
+<head type="main">»Spørg <seg target="txtcmnt-286-01"><!--DATA-TERM: Amagermo’er--><anchor target="txtcmnt-286-01"/><!--amagerkone, dvs. kone fra Amager, som handler med grøntsager, frugt osv.-->Amagermo’er</seg>«!</head>
+
+
+<lg xml:id="p_00001">
+<l rend="firstline">Der var en ældgammel Gulerod,</l>
+<l>Saa knoldet, saa tyk og saa tung,</l>
+<l>Den havde et ganske forfærdeligt Mod,</l>
+<l>Den vilde gifte sig med en ung, En yndig ung,</l>
+<l>lille Gulerod Af Røddernes fineste Blod.</l>
+<l>– Og Brylluppet stod.</l>
+<l>Bevertningen var ubetalelig god,</l>
+<l>Den kostede slet ingen Penge;</l>
+<l>De slikkede Maaneskin og drak Dugg,</l>
+<l>Tog Blomsterfnug,</l>
+<l>Som det kom fra Mark og Enge.</l>
+<l>– Gammel Gulerod hilsede med et Buk,</l>
+<l>Og talte saa langt og saa længe,</l>
+<l>De Ord de klukkede Kluk i Kluk;</l>
+<l>– Ung Gulerod sagde ikke et Muk,</l>
+<l>Sad uden at give et Smiil eller Suk,</l>
+<l>Ung og smuk.</l>
+<l rend="firstIndent">Hvis ikke Du troer,</l>
+<l rend="firstIndent">Spørg Amagermo’er!</l>
+</lg>
+
+<lg xml:id="p_00002">
+<l>Et Rødkaalshoved var deres Præst,</l>
+<l>Og Brudepiger <seg target="txtcmnt-286-02"><!--DATA-TERM: Hvideroer--><anchor target="txtcmnt-286-02"/><!--haveturnips.-->Hvideroer</seg>;</l>
+<l>Agurk’ og Asparges sad som Æresgjest,</l>
+<l>Kartoflerne stod og sang Chor.</l>
+<l>Og der blev dandset af Lille og Stor.</l>
+<l>Spørg Amagermo’er!</l>
+<l>Gammel Gulerod sprang uden Strømper og Skoe,</l>
+<l>Hu, hei! han revned’ i Ryggen,</l>
+<l>Og saa var han død, kunde aldrig groe.</l>
+<l>Ung Gulerod loe,</l>
+<l>Saa underligt vender sig Lykken.</l>
+<l>Nu var hun Enke, nu var hun glad,</l>
+<l>Nu kunde hun leve som helst hun gad,</l>
+<l>Kunde svømme som Jomfru i Suppefad,</l>
+<l>Ung og glad.</l>
+<l rend="firstIndent">Hvis ikke Du troer,</l>
+<l rend="firstIndent">Spørg Amagermo’er!</l>
+</lg>
+
+<pb n="287"/>
+
+<pb n="288"/></div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="»Spørg Amagermo’er«!" xml:id="spoerg-amagermoer">
+<head type="section-comments">»Spørg Amagermo’er«!</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Illustreret Børneblad</hi>, 1. årgang, nr. 1, som udkom den 1. oktober 1871 (BFN 1011). Optaget i <hi rend="italic">Eventyr og Historier. Ny Samling</hi>, der udkom den 30. marts 1872. Sidstnævnte udgave følges her.</p>
+<p>BFN 1017/V,159-160/VII,362.</p>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">286</cell><cell type="deviation">3: knoldet &lt; knudret – <hi rend="italic">Under teksten</hi>: H. C. Andersen.</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">286</cell><row xml:id="txtcmnt-286-01"><cell type="data-term">Amagermo’er</cell><cell type="data-definition">amagerkone, dvs. kone fra Amager, som handler med grøntsager, frugt osv.</cell></row><row xml:id="txtcmnt-286-02"><cell type="data-term">Hvideroer</cell><cell type="data-definition">haveturnips.</cell></row>
+</table>
+
+<pb n="453"/>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

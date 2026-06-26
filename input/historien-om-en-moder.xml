@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Historien om en Moder</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Story of a Mother« i <i>A Christmas Greeting to my English Friends</i>, der udkom i december 1847. Trykt første gang på dansk i <i>Nye Eventyr. Andet Bind. Anden Samling</i>, som udkom den 4. marts 1848. BFN 533/II,160-164/VII,126-128.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="historien-om-en-moder" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="historien-om-en-moder_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="91_The-Story-of-a-Mother">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der sad en Moder hos sit lille Barn, hun var saa bedrøvet, saa bange for at det ...</incipit><readingTime>9</readingTime><popularity>986</popularity><cite>&lt;p&gt;H.C. Andersen: Historien om en Moder. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Historien_om_en_Moder_03_2022-03-09.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>trylleeventyr</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-02-28" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-06" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Historien om en Moder" xml:id="historien-om-en-moder">
+<pb n="443"/><head type="main">Historien om en Moder</head>
+
+<img src="0091_HCA-1971-209-0001.jpg" ref="p_00001" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="noIndent" xml:id="p_00001">Der sad en Moder hos sit lille Barn, hun var saa bedrøvet, saa bange for at det skulde døe. Det var saa blegt, de smaa Øine havde lukket sig, det trak saa sagte Veiret, og imellem med et dybt Drag ligesom om det sukkede; og Moderen saae endnu mere <seg target="txtcmnt-443-01"><!--DATA-TERM: sorrigfuld--><!--DATA-DEFINITION: sorgfuld.-->sorrigfuld</seg> paa den lille Sjæl.</p>
+
+<img src="0091_HCA-1971-209-0002.jpg" ref="p_00002" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00002">Da bankede det paa Døren og der kom en fattig, gammel Mand svøbt ligesom i et stort Hestedækken, for det varmer, og det trængte han til, det var jo kold Vinter; Alting udenfor laae med Iis og Snee, og Vinden blæste saa at det skar i Ansigtet.</p>
+
+<img src="0091_HCA-1971-209-0003.jpg" ref="p_00003" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00003">Og da den gamle Mand rystede af Kulde, og det lille Barn sov et Øieblik, gik Moderen hen og satte Øl i en lille Potte ind i Kakkelovnen, at det kunde varmes til ham; og den gamle Mand sad og vuggede og Moderen satte sig paa Stolen tæt ved ham, saae paa sit syge Barn der trak saa dybt Veiret, og løftede den lille Haand.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Troer Du ikke nok at jeg beholder ham?« sagde hun, »<hi rend="italic">vor Herre</hi> vil ikke tage ham fra mig!«</p>
+
+<img src="0091_HCA-1971-209-0004.jpg" ref="p_00005" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00005">Og den gamle Mand, det var Døden selv, han nikkede saa underligt, det kunde lige saa godt betyde ja, som nei. Og Moderen saae ned i sit Skjød og Taarerne løb hende over Kinderne; – hendes Hoved blev saa tungt, i tre Nætter og Dage havde hun ikke lukket sit Øie, og nu sov hun, men kun eet Øieblik, saa foer hun op og rystede af Kulde: »hvad er det!« sagde hun og saae til alle Sider; men den gamle Mand var borte og hendes lille Barn var borte, han havde taget det med sig; og henne i Krogen snurrede og snurrede det gamle Uhr, det store Blylod løb lige ned til Gulvet, bum! og saa stod ogsaa Uhret stille.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Men den stakkels Moder løb ud af Huset og raabte paa sit Barn.</p>
+
+<img src="0091_HCA-1971-209-0005.jpg" ref="p_00007" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00007">Derude, midt i Sneen, sad en Kone i lange, sorte Klæder og hun sagde: »Døden har været inde i din Stue, jeg saae han skyndte sig bort med dit lille Barn; han gaaer stærkere til end Vinden, han bringer aldrig tilbage hvad han tog!«</p>
+
+<pb n="444"/><p rend="firstIndent" xml:id="p_00008">»Siig mig blot hvad Vei han gik!« sagde Moderen, »siig mig Veien og jeg skal finde ham!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Jeg veed den!« sagde Konen i de sorte Klæder, »men før jeg siger den maa Du først synge for mig alle de Viser Du har sjunget for dit Barn! jeg holder af dem, jeg har hørt dem før, jeg er Natten, jeg saae dine Taarer mens Du sang dem!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Jeg vil synge dem alle, alle!« sagde Moderen, »men stands mig ikke at jeg kan naae ham, at jeg kan finde mit Barn!«</p>
+
+<img src="0091_HCA-1971-209-0006.jpg" ref="p_00011" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00011">Men Natten sad stum og stille, da vred Moderen sine Hænder, sang og græd, og der vare mange Viser, men endnu flere Taarer; og saa sagde Natten: »gaae til høire, ind i den mørke Granskov, der saae jeg Døden tage Vei med dit lille Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Dybt inde i Skoven krydsede Veiene sig og hun vidste ikke længer hvor hun skulde gaae; da stod der en Tornebusk, der var hverken Blad eller Blomst paa den, det var jo ogsaa i den kolde Vintertid og der hang Iisslag paa Grenene.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Har du ikke seet Døden gaae forbi med mit lille Barn?«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jo!« sagde Tornebusken, »men jeg siger Dig ikke hvilken Vei han tog, uden at Du først vil varme mig op ved dit Hjerte! jeg fryser ihjel, jeg bliver til bare Iis!«</p>
+
+<img src="0091_HCA-1971-209-0007.jpg" ref="p_00015" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00015">Og hun trykkede Tornebusken til sit Bryst, saa fast, for at den ret kunde opvarmes, og Tornene gik lige ind i hendes Kjød, og hendes Blod flød i store Draaber, men Tornebusken skjød friske grønne Blade og der kom Blomster paa i den kolde Vinter-Nat, saa varmt var der ved en bedrøvet Moders Hjerte; og Tornebusken sagde hende Veien, som hun skulde gaae.</p>
+
+<img src="0091_HCA-1971-209-0008.jpg" ref="p_00016" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00016">Da kom hun til en stor Sø, hvor der hverken var Skib eller Baad. Søen var ikke frosset nok til at den kunde bære hende, og heller ikke aaben og lav nok til at hun kunde vade igjennem, og over den maatte hun, vilde hun finde sit Barn; saa lagde hun sig ned for at drikke Søen ud, og det var jo umueligt for et Menneske, men den bedrøvede Moder tænkte, at der dog kunde skee et Mirakel. –</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Nei, det gaaer aldrig!« sagde Søen, »lad os to heller see at blive enige! jeg holder af at samle paa Perler og dine Øine ere de to klareste jeg har seet, vil Du græde dem ud til mig, saa skal jeg bære Dig over til det store Drivhuus, hvor Døden boer og passer Blomster og Træer; hver af dem er et Menneskeliv!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»O, hvad giver jeg ikke for at komme til mit Barn!« sagde den forgrædte Moder og hun græd endnu mere og hendes Øine sank ned paa Havsens Bund og bleve to kostbare Perler, men <pb n="445"/>Søen løftede hende, som om hun sad i en Gynge, og hun fløi i een Svingning til Kysten paa den anden Side, hvor der stod et milebredt, underligt Huus, man vidste ikke om det var et Bjerg med Skov og Huler, eller om det var tømret op, men den stakkels Moder kunde ikke see det, hun havde jo grædt sine Øine ud.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Hvor skal jeg finde Døden, som gik med mit lille Barn!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Her er han ikke kommet endnu!« sagde den gamle Grav-Kone, som gik og skulde passe paa Dødens store Drivhuus. »Hvor har Du kunnet finde her hen og hvem har hjulpet Dig!«</p>
+
+<img src="0091_HCA-1971-209-0009.jpg" ref="p_00021" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00021">»<hi rend="italic">Vor Herre</hi> har hjulpet mig!« sagde hun, »han er barmhjertig og det vil Du ogsaa være! hvor skal jeg finde mit lille Barn!«</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Ja, jeg kjender det ikke,« sagde Konen, »og Du kan jo ikke see! – Mange Blomster og Træer ere visnede i Nat, Døden vil snart komme og plante dem om! Du veed vel, at hvert Menneske har sit Livstræ eller sin Blomst, saaledes, som nu enhver er indrettet; de see ud, som andre Væxter, men de har Hjerte-Slag; Barne-Hjerte kan ogsaa banke! gaae efter det, maaskee kan Du kjende dit Barns; men hvad giver Du mig for at sige Dig hvad Du mere skal gjøre!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Jeg har ikke noget at give,« sagde den bedrøvede Moder, »men jeg vil gaae for Dig til Verdens Ende!«</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Ja der har jeg ikke noget at gjøre!« sagde Konen, »men Du kan give mig dit lange sorte Haar, Du veed nok selv det er kjønt, og det kan jeg lide! Du skal faae mit hvide igjen, det er altid noget!«</p>
+
+<img src="0091_HCA-1971-209-0010.jpg" ref="p_00025" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00025">»Forlanger Du ikke andet,« sagde hun, »det giver jeg Dig med Glæde!« Og hun gav hende sit smukke Haar og fik den Gamles sneehvide igjen.</p>
+
+<img src="0091_HCA-1971-209-0011.jpg" ref="p_00026" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00026">Og saa gik de ind i Dødens store Drivhuus, hvor Blomster og Træer voxte underligt imellem hverandre. Der stode fine Hyazinther under Glasklokker, og der stode store bomstærke <seg target="txtcmnt-445-01"><!--DATA-TERM: Pioner--><!--DATA-DEFINITION: pæoner, bonderoser.-->Pioner</seg>; der voxte Vandplanter, nogle saa friske, andre halvsyge, Vandsnogene lagde sig paa dem, og sorte Krebs klemte dem om Stilken. Der stode deilige Palmetræer, Ege og Plataner, der stod <seg target="txtcmnt-445-02"><!--DATA-TERM: Petersillie--><!--DATA-DEFINITION: persille.-->Petersillie</seg> og blomstrende Timian; hvert Træ og hver Blomst havde sit Navn, de vare hver et Menneskeliv, Mennesket levede endnu, Een i China, Een i Grønland, rundt omkring i Verden. Der vare store Træer i smaa Potter, saa at de stode saa <seg target="txtcmnt-445-03"><!--DATA-TERM: forkuede--><!--DATA-DEFINITION: klemte.-->forkuede</seg> og vare færdige ved at sprænge Potten, der var ogsaa mange Steder en lille, kjedelig Blomst i feed Jord, med Mos rundt om og <seg target="txtcmnt-445-04"><!--DATA-TERM: dægget--><!--DATA-DEFINITION: omhyggelig plejet, kælet for.-->dægget</seg> og pleiet. Men den bedrøvede Moder <pb n="446"/>bøiede sig over alle de mindste Planter og hørte inden i dem hvor Menneskehjertet bankede, og imellem Millioner <seg target="txtcmnt-446-01"><!--DATA-TERM: kjendte--><!--DATA-DEFINITION: genkendte.-->kjendte</seg> hun sit Barns.</p>
+
+<img src="0091_HCA-1971-209-0012.jpg" ref="p_00027" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00027">»Der er det!« raabte hun og strakte Haanden ud over en lille blaa Krokus, som hang ganske syg til den ene Side.</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Rør ikke ved Blomsten!« sagde den gamle Kone, »men stil Dig her, og naar saa Døden kommer, jeg venter ham før jeg veed det, lad ham da ikke rykke Planten op, og tru Du med at Du vil gjøre det med de andre Blomster, saa bliver han bange! han skal <seg target="txtcmnt-446-02"><!--DATA-TERM: svare … til--><!--DATA-DEFINITION: svare for, stå til ansvar for.-->svare <hi rend="italic">vor Herre</hi> til</seg> dem, Ingen <seg target="txtcmnt-446-03"><!--DATA-TERM: tør--><!--DATA-DEFINITION: må, har lov til.-->tør</seg> rykkes op før han giver Lov.«</p>
+
+<p rend="firstIndent" xml:id="p_00029">Med Eet susede det iiskoldt igiennem Salen, og den blinde Moder kunde mærke, at det var Døden der kom.</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Hvor har Du kunnet finde Vei her hen?« spurgte han, »hvor kunde Du komme hurtigere end jeg?«</p>
+<p rend="firstIndent" xml:id="p_00031">»Jeg er en Moder,« sagde hun.</p>
+
+<img src="0091_HCA-1971-209-0013.jpg" ref="p_00032" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00032">Og Døden strakte sin lange Haand hen imod den lille fine Blomst, men hun holdt sine Hænder fast om den, saa tæt, og dog bange for at hun skulde røre ved et af Bladene. Da blæste Døden paa hendes Hænder og hun følte at det var koldere end den kolde Vind, og hendes Hænder faldt matte ned.</p>
+
+<p rend="firstIndent" xml:id="p_00033">»Du kan dog ikke gjøre Noget imod mig!« sagde Døden.</p>
+
+<p rend="firstIndent" xml:id="p_00034">»Men det kan <hi rend="italic">vor Herre</hi>!« sagde hun.</p>
+
+<p rend="firstIndent" xml:id="p_00035">»Jeg gjør kun hvad han vil!« sagde Døden. »Jeg er hans <seg target="txtcmnt-446-04"><!--DATA-TERM: Urtegaardsmand--><!--DATA-DEFINITION: gartner.-->Urtegaardsmand</seg>! jeg tager alle hans Blomster og Træer og planter dem ud i den store Paradisets Have i det ubekjendte Land, men hvorledes de der groe og hvorledes der er, tør jeg ikke sige Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00036">»Giv mig mit Barn tilbage!« sagde Moderen og græd og bad; med eet greb hun med hver Haand om to smukke Blomster tæt ved og raabte til Døden: »jeg river alle dine Blomster af, for jeg er i Fortvivlelse!«</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Rør dem ikke!« sagde Døden. »Du siger, at Du er saa ulykkelig, og nu vil Du gjøre en anden Moder ligesaa ulykkelig –!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">»En anden Moder!« sagde den stakkels Kone og slap strax begge Blomsterne.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Der har Du dine Øine,« sagde Døden, »jeg har fisket dem op af Søen, de skinnede saa stærkt; jeg vidste ikke at det var dine; tag dem igjen, de ere nu klarere end før, see saa ned i den dybe Brønd tæt ved, jeg skal nævne Navnene paa de to Blomster, Du vilde rive op og Du seer deres hele Fremtid, deres hele Menneskeliv, seer hvad Du vilde forstyrre og ødelægge!«</p>
+
+<pb n="447"/>
+
+<pb n="448"/><img src="0091_HCA-1971-209-0014.jpg" ref="p_00040" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00040">Og hun saae ned i Brønden; og det var en Lyksalighed at see, hvor den ene blev en Velsignelse for Verden, see hvormegen Lykke og Glæde der udfoldede sig rundt om. Og hun saae den Andens Liv og det var Sorg og Nød, Rædsel og Elendighed.</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Begge Dele ere Guds Villie!« sagde Døden.</p>
+
+<p rend="firstIndent" xml:id="p_00042">»Hvilken af dem er Ulykkens Blomst og hvilken er Velsignelsens?« spurgte hun.</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Det siger jeg Dig ikke,« sagde Døden, »men det skal Du vide af mig, at den ene Blomst var dit eget Barns, det var dit Barns Skjæbne Du saae, dit eget Barns Fremtid!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">Da skreeg Moderen af Skræk, »hvilken af dem var mit Barn! siig mig det! frels den Uskyldige! frels mit Barn fra al den Elendighed! bær det heller bort! bær det ind i Guds Rige! glem mine Taarer, glem mine Bønner og Alt hvad jeg har sagt og gjort!«</p>
+
+<img src="0091_HCA-1971-209-0015.jpg" ref="p_00045" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00045">»Jeg forstaaer Dig ikke!« sagde Døden. »Vil Du have dit Barn tilbage, eller skal jeg gaae med det derind, hvor Du ikke veed!« –</p>
+
+<img src="0091_HCA-1971-209-0016.jpg" ref="p_00046" title="Illustrator: Fritz Syberg. 1898. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00046">Da vred Moderen sine Hænder, faldt paa sine Knæ og bad til vor Herre: »Hør mig ikke, hvor jeg beder imod din Villie, som er den bedste! hør mig ikke! hør mig ikke!«</p>
+<p rend="firstIndent" xml:id="p_00047">Og hun bøiede sit Hoved ned i sit Skjød.</p>
+
+<p rend="firstIndent" xml:id="p_00048">Og Døden gik med hendes Barn ind i det ubekjendte Land.</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Historien om en Moder" xml:id="historien-om-en-moder">
+<head type="section-comments">Historien om en Moder</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Story of a Mother« i <hi rend="italic">A Christmas Greeting to my English Friends</hi>, der udkom i december 1847. Trykt første gang på dansk i <hi rend="italic">Nye Eventyr. Andet Bind. Anden Samling</hi>, som udkom den 4. marts 1848. BFN 533/II,160-164/VII,126-128.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+<table rend="textdeviations">
+<row><cell type="position">444,3</cell><cell type="deviation">Klæder, »men &lt; Klæder,« men</cell></row>
+<row><cell type="position">444,6</cell><cell type="deviation">dem!« &lt; dem!</cell></row>
+<row><cell type="position">445,21</cell><cell type="deviation">Moder, »men &lt; Moder,« men</cell></row>
+<row><cell type="position">445,40</cell><cell type="deviation">Potten, &lt; Potten</cell></row>
+<row><cell type="position">446,14</cell><cell type="deviation">spurgte &lt; Spurgte</cell></row>
+<row><cell type="position">446,24</cell><cell type="deviation">Døden. &lt; Døden</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">443</cell><row xml:id="txtcmnt-443-01"><cell type="data-term">sorrigfuld</cell><cell type="data-definition">sorgfuld.</cell></row>
+<cell type="page">445</cell><row xml:id="txtcmnt-445-01"><cell type="data-term">Pioner</cell><cell type="data-definition">pæoner, bonderoser.</cell></row><row xml:id="txtcmnt-445-02"><cell type="data-term">Petersillie</cell><cell type="data-definition">persille.</cell></row><row xml:id="txtcmnt-445-03"><cell type="data-term">forkuede</cell><cell type="data-definition">klemte.</cell></row><row xml:id="txtcmnt-445-04"><cell type="data-term">dægget</cell><cell type="data-definition">omhyggelig plejet, kælet for.</cell></row>
+<cell type="page">446</cell><row xml:id="txtcmnt-446-01"><cell type="data-term">kjendte</cell><cell type="data-definition">genkendte.</cell></row><row xml:id="txtcmnt-446-02"><cell type="data-term">svare … til</cell><cell type="data-definition">svare for, stå til ansvar for.</cell></row><row xml:id="txtcmnt-446-03"><cell type="data-term">tør</cell><cell type="data-definition">må, har lov til.</cell></row><row xml:id="txtcmnt-446-04"><cell type="data-term">Urtegaardsmand</cell><cell type="data-definition">gartner.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

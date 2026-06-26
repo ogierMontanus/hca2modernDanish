@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Barnet i Graven</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang to steder nogenlunde samtidig: i <i>Nya Nordiska Dikter och Skildringar</i>, utg. och förl. av Axel Kullberg, Stockholm, december 1859 (BFN 793), og i <i>Nye Eventyr og Historier. Fjerde Samling</i>, der udkom den 9. december 1859 med årstallet 1860 på titelbladet. Sidstnævnte udgave følges her.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">2:<i> Eventyr og Historier II 1852-1862</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="barnet-i-graven" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="barnet-i-graven_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="139_The-Child-in-the-Grave">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var Sorg i Huset, der var Sorg i Hjerterne, det yngste Barn, en firaars Dren...</incipit><readingTime>6</readingTime><popularity>908</popularity><cite>&lt;p&gt;H.C. Andersen: Barnet i Graven. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Barnet_i_Graven_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1860</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tro</term><term>uhygge</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-31" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-31" who="NHB">formatted</change><change who="NHB" when="2023-04-05" status="draft">wellformed</change><change who="NHB" when="2023-05-02" status="draft">div ved work-comments</change><change who="NHB" when="2024-02-23" status="draft">minor changes in div-structure</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Barnet i Graven" xml:id="barnet-i-graven">
+<head type="main">Barnet i Graven</head>
+
+<p rend="noIndent" xml:id="p_00001">Der var Sorg i Huset, der var Sorg i Hjerterne, det yngste Barn, en firaars Dreng, den eneste Søn, Forældrenes Glæde og Fremtids Haab, var død; to ældre Døttre havde de vel, den ældste skulde netop i dette Aar confirmeres, velsignede, gode Piger begge To, men det mistede Barn er altid det kjæreste og dette var det yngste og en Søn. Det var en tung Prøvelse. Søstrene sørgede som unge Hjerter sørge, grebne især ved Forældrenes Smerte, Faderen var nedbøiet, men Moderen overvældet af den store Sorg. Nat og Dag havde hun gaaet om det syge Barn, pleiet det, løftet og baaret det; det var en Deel af hende selv havde hun følt og <seg target="txtcmnt-291-01"><!--DATA-TERM: fornummet--><anchor target="txtcmnt-291-01"/><!--fornemmet, anet.-->fornummet</seg>, hun kunde ikke tænke sig at det var dødt, at det skulde lægges i Kiste og gjemmes i Graven: Gud kunde ikke tage dette Barn fra hende, meente hun, og da det dog skete og var en Vished, sagde hun i sin syge Smerte:</p>
+
+<p rend="firstIndent" xml:id="p_00002">»Gud har ikke vidst det! han har hjerteløse Tjenere her paa Jorden, de handle, som de lyste, de høre ikke en Moders Bønner«.</p>
+
+<p rend="firstIndent" xml:id="p_00003">Hun slap i sin Smerte <hi rend="italic">Vor Herre</hi> og da kom mørke Tanker, Dødens Tanker, den evige Død, at Mennesket blev Jord i Jorden, og at da Alt var forbi. Ved saadan Tanke havde hun Intet at klamre sig til, men sank i Fortvivlelsens bundløse Intet.</p>
+
+<p rend="firstIndent" xml:id="p_00004">I de tungeste Timer kunde hun ikke græde meer; hun tænkte ikke paa de unge Døttre hun havde, Mandens Taarer faldt paa hendes Pande, hun saae ikke op til ham; hendes Tanker vare hos det døde Barn, al hendes Liv og Leven aandede i at tilbagekalde sig hvert Minde om Barnet, hvert af dets uskyldige Barne-Ord.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Begravelsesdagen kom, Nætter forud havde hun ikke sovet, i Morgenstunden overvældedes hun af Træthed og havde nogen Hvile, imens blev Kisten baaren hen i en afsides Stue og Laaget der slaaet til, at hun ikke skulde høre Hammerslagene.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Da hun vaagnede, kom op og vilde see sit Barn, sagde Manden hende i Taarer: »Vi have lukket Laaget; det maatte skee!«</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Naar Gud er haard mod mig«, udbrød hun, »hvorfor skulde saa Menneskene være bedre!« og hun hulkede i Graad.</p>
+
+<pb n="292"/><p rend="firstIndent" xml:id="p_00008">Kisten blev bragt til Graven, den trøstesløse Moder sad hos sine unge Døttre, hun saae paa dem, uden at see dem, hendes Tanker havde ikke mere med Hjemmet at gjøre, hun overgav sig til Sorgen, og den kastede hende som Søen kaster Skibet, der har mistet Ror og Styrer. Saaledes gik Begravelsesdagen og flere Dage fulgte med samme eensformige, tunge Smerte. Med vaade Øine og bedrøvede Blik saae de Sørgende hjemme paa hende, hun hørte ikke deres Trøst, hvad kunde de vel ogsaa sige, de vare for bedrøvede dertil.</p>
+
+<p rend="firstIndent" xml:id="p_00009">Det var som om hun ikke kjendte til Søvnen meer, og alene den vilde være hendes bedste Ven, styrke Legemet, kalde Ro i Sjælen; de fik hende til at lægge sig i Sengen, hun laae ogsaa stille som en Sovende. Een Nat, Manden lyttede efter hendes Aandedrag og troede forvist, at hun fandt Hvile og Lettelse, han foldede derfor sine Hænder, bad og sov snart sundt og fast, mærkede ikke, at hun reiste sig, kastede sine Klæder om sig og gik saa stille ud af Huset, for at komme derhen hvor hendes Tanker Nat og Dag søgte, til Graven, der gjemte hendes Barn. Hun gik gjennem Husets Have, ud paa Marken, hvor Stien førte uden om Byen hen til Kirkegaarden; Ingen saae hende, hun saae Ingen.</p>
+
+<p rend="firstIndent" xml:id="p_00010">Det var deiligt stjerneklart, Luften endnu saa mild, det var først i September. Hun kom ind paa Kirkegaarden, hen til den lille Grav, den var som en eneste stor Bouquet af Blomster, de duftede, hun satte sig ned, bøiede sit Hoved imod Graven, som skulde hun gjennem det tætte Jordlag kunde see sin lille Dreng, hvis Smiil hun saa levende huskede; det kjærlige Udtryk i Øinene, selv paa Sygeleiet, var jo aldrig til at glemme, hvor talende havde der hans Blik været, naar hun bøiede sig over ham og tog hans fine Haand, den han ikke selv <seg target="txtcmnt-292-01"><!--DATA-TERM: mægtede--><anchor target="txtcmnt-292-01"/><!--magtede.-->mægtede</seg> at løfte. Som hun havde siddet ved hans Seng sad hun nu ved hans Grav, men her havde Taarerne frit Løb, de faldt paa Graven.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Du vil ned til dit Barn!« sagde en Stemme tæt ved, den lød saa klar, saa dyb, den klang ind i hendes Hjerte, hun saae op, og der stod hos hende en Mand, hyllet i en stor Sørgekappe med Hætte ned om Hovedet, men hun saae ind under den i hans Ansigt, det var strengt, men dog saa tillidsvækkende, hans Øine straalede som var han i Ungdoms Aar.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Ned til mit Barn!« gjentog hun og der laae en Fortvivlelsens Bøn deri.</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Tør Du følge mig?« spurgte Skikkelsen. »Jeg er Døden!«</p>
+
+<pb n="293"/><p rend="firstIndent" xml:id="p_00014">Og hun nikkede bekræftende; da var det med Eet, som om alle Stjerner ovenover lyste med Fuldmaanens Glands, hun saae den brogede Farvepragt i Blomsterne paa Graven, Jorddækket her gav blødt og sagte efter, som et svævende Klæde, hun sank, og Skikkelsen bredte sin sorte Kappe om hende, det blev Nat, Dødens Nat, hun sank dybere end Gravspaden trænger ned, Kirkegaarden laae som et Tag over hendes Hoved.</p>
+
+<p rend="firstIndent" xml:id="p_00015">Kappens Flig gled til Side, hun stod i en mægtig Hal, der bredte sig stor og venlig; det var Skumring rundt om, men foran hende, og i samme Nu, tæt op til sit Hjerte, holdt hun sit Barn, det tilsmilede hende i en Skjønhed, større end nogensinde før; hun udstødte et Skrig, dog hørligt blev det ikke, thi tæt ved, og derpaa igjen langt borte og atter nær, lød en svulmende, deilig Musik, aldrig før havde saa saligstemmende Toner naaet til hendes Øre, de klang hin Side det natsorte, tætte Forhæng, der skilte Hallen fra det store Evigheds-Land.</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Min søde Moder! min egen Moder!« hørte hun sit Barn sige. Det var den kjendte, elskede Røst; og Kys fulgte paa Kys i uendelig Lyksalighed; og Barnet pegede hen paa det mørke Forhæng.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Saa deiligt er der ikke oppe paa Jorden! seer Du, Moder! seer Du dem Allesammen! det er Lyksalighed!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">Men Moderen saae Intet, der hvor Barnet pegede, Intet, uden den sorte Nat; hun saae med jordiske Øine, saae ikke saaledes som Barnet, det Gud havde kaldt til sig, hun hørte Klangen, Tonerne, men hun fornam ikke Ordet, det hun havde at troe.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Nu kan jeg flyve, Moder!« sagde Barnet, »flyve med alle de andre glade Børn lige derind til Gud! jeg vil det saa gjerne, men naar Du græder, som Du nu græder, kan jeg ikke komme fra Dig, og jeg vilde saa gjerne! maa jeg dog ikke nok! Du kommer jo derind til mig om ganske lidt, søde Moder!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»O bliv, o bliv!« sagde hun, »kun et Øieblik endnu! en eneste Gang endnu maa jeg see paa Dig, kysse Dig, holde Dig fast i mine Arme!«</p>
+
+<p rend="firstIndent" xml:id="p_00021">Og hun kyssede og holdt fast. Da lød hendes Navn deroven fra; saa klagende kom disse Toner; hvad var det dog?</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Hører Du!« sagde Barnet, »det er Fader, som kalder paa Dig!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">Og atter, efter faa Secunder, lød dybe Suk, som fra Børn der græde.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Det er mine Søstre!« sagde Barnet, »Moder, Du har jo ikke glemt dem!«</p>
+
+<pb n="294"/><p rend="firstIndent" xml:id="p_00025">Og hun huskede de Tilbageblevne, en Angst betog hende, hun saae frem for sig og altid svævede Skikkelser forbi, hun troede at kjende Nogle, de svævede gjennem Dødens Hal, hen mod det mørke Forhæng og der forsvandt de. Om vel hendes Mand, hendes Døttre kom tilsyne? Nei! deres Raab, deres Suk lød endnu deroven fra; nær havde hun ganske glemt dem for den Døde.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Moder, nu ringer Himmeriges Klokker!« sagde Barnet. »Moder, nu staaer Solen op!«</p>
+
+<p rend="firstIndent" xml:id="p_00027">Og der strømmede et overvældende Lys mod hende; – Barnet var borte, og hun løftedes – det blev koldt rundt om hende, hun hævede sit Hoved og saae, at hun laae paa Kirkegaarden paa sit Barns Grav; men Gud var i Drømmen bleven en Støtte for hendes Fod, et Lys for hendes Forstand, hun bøiede sine Knæ og bad:</p>
+
+<p rend="firstIndent" xml:id="p_00028">»Tilgiv mig, Herre min Gud! at jeg vilde holde en evig Sjæl fra sin Flugt, og at jeg kunde glemme mine Pligter mod de Levende, Du her gav mig!« Og ved disse Ord var det som om hendes Hjerte fandt Lettelse! Da brød Solen frem, en lille Fugl sang over hendes Hoved, og Kirkeklokkerne ringede til Morgensang. Der blev saa helligt rundt om, helligt som i hendes Hjerte! hun kjendte sin Gud, hun kjendte sine Pligter, og i Længsel skyndte hun sig til Hjemmet. Hun bøiede sig over Manden, hendes varme, inderlige Kys vækkede ham, og de talte Hjertets, Inderlighedens Ord, og hun var stærk og mild som Hustruen kan være det, fra hende kom Fortrøstningens Væld.</p>
+
+<graphic type="blank"/>
+
+
+<p rend="secondIndent" xml:id="p_00029">»Guds Villie er altid den bedste!«</p>
+
+
+<graphic type="blank"/>
+
+<p rend="noIndent" xml:id="p_00030">Og Manden spurgte hende: »hvorfra fik Du med Eet denne Kraft, dette trøstende Sind?«</p>
+
+<p rend="firstIndent" xml:id="p_00031">Og hun kyssede ham og kyssede sine Børn:</p>
+
+<p rend="noIndent" xml:id="p_00032">»Jeg fik det fra Gud, ved Barnet i Graven!«</p>
+
+<pb n="295"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Barnet i Graven" xml:id="barnet-i-graven">
+<head type="section-comments">Barnet i Graven</head>
+
+<p rend="noIndent">Trykt første gang to steder nogenlunde samtidig: i <hi rend="italic">Nya Nordiska Dikter och Skildringar</hi>, utg. och förl. av Axel Kullberg, Stockholm, december 1859 (BFN 793), og i <hi rend="italic">Nye Eventyr og Historier. Fjerde Samling</hi>, der udkom den 9. december 1859 med årstallet 1860 på titelbladet. Sidstnævnte udgave følges her.</p>
+<p rend="noIndent">BFN 794/III,152-158/VII,211-212.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">293,29</cell><cell type="deviation">ikke komme &lt; komme</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">291</cell><row xml:id="txtcmnt-291-01"><cell type="data-term">fornummet</cell><cell type="data-definition">fornemmet, anet.</cell></row>
+<cell type="page">292</cell><row xml:id="txtcmnt-292-01"><cell type="data-term">mægtede</cell><cell type="data-definition">magtede.</cell></row>
+</table></div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

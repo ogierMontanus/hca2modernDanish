@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "tokens": 1207,
+    "flagged": 1,
+    "left_alone": 2
+  },
+  "flagged": [
+    {
+      "original": "Sneen",
+      "normalized": "snen",
+      "suggested_form": "sneen",
+      "implicated_rule": "R0027: ee -> e",
+      "all_applied_rules": [
+        "R0013",
+        "R0027",
+        "R0027"
+      ],
+      "hunspell_suggestions": [
+        "anen",
+        "sen",
+        "sne",
+        "senen",
+        "sneen"
+      ],
+      "occurrences": 1,
+      "confidence": 0.9
+    }
+  ],
+  "rule_evidence": [
+    {
+      "rule": "R0027: ee -> e",
+      "overnormalizations": 1,
+      "examples": [
+        "Sneen -> snen (suggest sneen)"
+      ]
+    }
+  ]
+}

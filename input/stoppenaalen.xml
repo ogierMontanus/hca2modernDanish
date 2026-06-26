@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Stoppenaalen</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Gæa, æsthetisk Aarbog</i>, 1846, udgivet af P.L. Møller, december 1845, med titlen »Stoppenaalen, et nyt Eventyr af H. C. Andersen« (BFN 482). Optaget i <i>Nye Eventyr. Andet Bind. Første Samling</i>, der udkom den 3. april 1847.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="stoppenaalen" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="stoppenaalen_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="78_The-Darning-Needle">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                   <xenoData><incipit>Der var engang en Stoppenaal, der var saa fiin paa det, at hun bildte sig ind, a...</incipit><readingTime>5</readingTime><popularity>966</popularity><cite>&lt;p&gt;H.C. Andersen: Stoppenaalen. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Stoppenaalen_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>tingseventyr</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Stoppenaalen" xml:id="stoppenaalen">
+<pb n="403"/><head type="main">Stoppenaalen</head>
+
+<head type="sub">(Har været trykt i »Gæa« for 1846)</head>
+
+<p rend="noIndent" xml:id="p_00002">Der var engang en Stoppenaal, der var saa fiin paa det, at hun bildte sig ind, at hun var en Synaal.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Seer nu bare til, hvad I holde paa!« sagde Stoppenaalen til Fingrene, der toge den frem. »Tab mig ikke! falder jeg paa Gulvet, er jeg istand til aldrig at findes igjen, saa fiin er jeg!«</p>
+
+<p rend="firstIndent" xml:id="p_00004">»<seg target="txtcmnt-403-01"><!--DATA-TERM: Der er Maade med--><!--DATA-DEFINITION: det er der grænser for.-->Der er Maade med</seg>!« sagde Fingrene og saa klemte de hende om Livet.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Seer I, jeg kommer med <seg target="txtcmnt-403-02"><!--DATA-TERM: Suite--><!--DATA-DEFINITION: følge.-->Suite</seg>!« sagde Stoppenaalen og saa trak den en lang Traad efter sig, men som dog ikke havde Knude.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Fingrene styrede Naalen lige mod Kokkepigens Tøffel, hvor Overlæderet var revnet og nu skulde det syes sammen.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Det er et <seg target="txtcmnt-403-03"><!--DATA-TERM: nedrigt--><!--DATA-DEFINITION: dobbeltbetydning af moralsk og fysisk lavt.-->nedrigt</seg> Arbeide!« sagde Stoppenaalen. »Jeg gaaer aldrig igjennem, jeg knækker! jeg knækker!« – og saa knak hun. »Sagde jeg det ikke nok!« sagde Stoppenaalen, »jeg er for fiin!«</p>
+
+<p rend="firstIndent" xml:id="p_00008">Nu duer hun ikke til Noget, meente Fingrene, men de maatte dog holde fast, Kokkepigen dryppede Lak paa hende, og stak hende saa foran i sit Tørklæde.</p>
+
+<p rend="firstIndent" xml:id="p_00009">»See, nu er jeg en Brystnaal!« sagde Stoppenaalen; »jeg vidste nok, at jeg kom til Ære; naar man er noget, bliver man altid til noget;« og saa lo hun indvendig, for man kan aldrig see udvendig paa en Stoppenaal, at den leer; der sad hun nu saa stolt, som om hun kjørte i Karret og saae til alle Sider.</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Maa jeg have den Ære at spørge om De er af Guld,« spurgte hun Knappenaalen, som var Nabo. »De har et deiligt Udseende og deres eget Hoved, men lille er det! De maa see til at det voxer ud, thi man kan ikke alle lakkes paa Enden!« og saa reiste Stoppenaalen sig saa stolt i Veiret, at hun gik af Tørklædet og i Vasken, just som Kokkepigen skyllede ud.</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Nu gaae vi paa Reise!« sagde Stoppenaalen, »bare jeg ikke bliver borte!« men det blev hun.</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Jeg er for fiin for denne Verden!« sagde hun da hun sad i Rendestenen. »Jeg har min gode <seg target="txtcmnt-403-04"><!--DATA-TERM: Bevidsthed--><!--DATA-DEFINITION: selverkendelse, selvopfattelse, samvittighed.-->Bevidsthed</seg> og det er altid en lille Fornøielse!« og saa holdt Stoppenaalen sig rank og tabte ikke sit gode Humeur.</p>
+
+<pb n="404"/><p rend="firstIndent" xml:id="p_00013">Og der seilede Alleslags hen over den, Pinde, Straae, Stumper af Aviser. »See, hvor de seile!« sagde Stoppenaalen. »De veed ikke hvad der stikker under dem! jeg stikker, jeg sidder her. See, der gaaer nu en Pind, den tænker paa ingen Ting i Verden uden paa »Pind« og det er den selv; der flyder et Straa, see hvor det svaier, see hvor det dreier! tænk ikke saa meget paa dig selv, du kunde støde dig paa Brostenene! – der flyder en Avis! – glemt er det, som staaer i den og dog breder den sig! – Jeg sidder taalmodig og stille! jeg veed hvad jeg er og det <seg target="txtcmnt-404-01"><!--DATA-TERM: bliver--><!--DATA-DEFINITION: forbliver.-->bliver</seg> jeg!« –</p>
+
+<p rend="firstIndent" xml:id="p_00014">En Dag var der noget, der skinnede saa deiligt tæt ved, og saa troede Stoppenaalen, at det var en Diamant, men det var et Flaskeskaar og da det skinnede, saa talte Stoppenaalen til det og gav sig tilkjende som Brystnaal! »De er nok en Diamant?« – »Ja, jeg er saadant noget!« og saa troede den ene om den anden, at de vare rigtig kostbare og saa talte de om hvor hovmodig Verden var.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»Ja, jeg har boet i en Æske hos en Jomfru,« sagde Stoppenaalen, »og den Jomfru var Kokkepige; hun havde paa hver Haand fem Fingre, men noget saa indbildsk, som de fem Fingre, har jeg ikke kjendt, og saa vare de kun til for at holde mig, tage mig af Æske og lægge mig i Æske!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Var der Glands ved dem?« spurgte Flaskeskaaret.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Glands!« sagde Stoppenaalen, »nei, der var Hovmod! de vare fem Brødre, alle fødte »Fingre,« de holdt sig ranke op til hverandre, skjøndt af forskjellig Længde; den yderste af dem: <hi rend="italic">Tommeltot</hi>, var kort og tyk, han gik udenfor Geledet, og saa havde han kun eet Knæk i Ryggen, han kunde kun bukke een Gang, men han sagde: at blev han hugget af et Menneske, saa var hele det Menneske spoleret for Krigstjeneste. <hi rend="italic">Slikpot</hi> kom i Sødt og Suurt, pegede paa Sol og Maane, og det var ham, der klemte, naar de skrev; <hi rend="italic">Langemand</hi> saae de andre over Hovedet; <hi rend="italic">Guldbrand</hi> gik med Guldring om Maven og lille <hi rend="italic">Peer Spillemand</hi> bestilte ikke noget og deraf var han stolt. Pral var det og Pral blev det og saa gik jeg i Vasken!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Og nu sidde vi og glindse!« sagde Glasskaaret. I det samme kom der mere Vand i Rendestenen, den strømmede over alle Bredder og rev Glasskaaret med sig.</p>
+
+<p rend="firstIndent" xml:id="p_00019">»See nu blev det forfremmet!« sagde Stoppenaalen, »jeg bliver siddende, jeg er for fiin, men det er min Stolthed og den er agtværdig!« og saa sad den rank og havde mange Tanker.</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Jeg skulde næsten troe at jeg er født af en Solstraale, saa fiin <pb n="405"/>er jeg! synes jeg ikke ogsaa, at Solen altid søger mig under Vandet. Ak, jeg er saa fiin, at min Moder ikke kan finde mig. Havde jeg mit gamle Øie, som knak, saa troer jeg at jeg kunde græde! – skjøndt jeg gjorde det ikke – græde det er ikke fiint!«</p>
+
+<p rend="firstIndent" xml:id="p_00021">En Dag laae der nogle Gadedrenge og ragede i Rendestenen, hvor de fandt gamle Søm, Skillinger og saadant noget. Det var Griseri, men det var nu deres Fornøielse.</p>
+
+<p rend="firstIndent" xml:id="p_00022">»Av!« sagde den Ene, han stak sig paa Stoppenaalen. »<seg target="txtcmnt-405-01"><!--DATA-TERM: Det er ogsaa en--><!--DATA-DEFINITION: sikken en.-->Det er ogsaa en</seg> Fyr!«</p>
+
+<p rend="firstIndent" xml:id="p_00023">»Jeg er ingen Fyr, jeg er en <seg target="txtcmnt-405-02"><!--DATA-TERM: Frøken--><!--DATA-DEFINITION: indtil ca. 1850 blev Frøken næsten udelukkende brugt som titel for adelsog borgerdøtre, hvis fædre havde rang eller embede; normalt anvendtes Jomfru.-->Frøken</seg>!« sagde Stoppenaalen, men ingen hørte det; Lakket var gaaet af den og sort var den blevet, men sort gjør tyndere og saa troede den at den var endnu finere, end før.</p>
+
+<p rend="firstIndent" xml:id="p_00024">»Der kommer en Æggeskal seilende!« sagde Drengene, og saa stak de Stoppenaalen fast i Skallen.</p>
+
+<p rend="firstIndent" xml:id="p_00025">»Hvide Vægge og selv sort!« sagde Stoppenaalen, »det klæder! saa kan man dog see mig! – bare jeg ikke bliver søsyg, for saa knækker jeg mig!« – men den blev ikke søsyg og den knak sig ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00026">»Det er godt mod Søsyge at have Staalmave og saa altid huske paa at man er lidt mere end et Menneske! nu er <hi rend="italic">mit</hi> gaaet over! jo finere man er, desmere kan man holde ud.«</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Krask!« sagde Æggeskallen, der gik et Vognmandslæs over den. »Hu, hvor det klemmer!« sagde Stoppenaalen, »nu bliver jeg dog søsyg! jeg knækker! jeg knækker!« men den knak ikke, skjøndt der gik et Vognmandslæs over, den laae paa langs – og der kan den blive liggende!</p>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Stoppenaalen" xml:id="stoppenaalen">
+<head type="section-comments">Stoppenaalen</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Gæa, æsthetisk Aarbog</hi>, 1846, udgivet af P.L. Møller, december 1845, med titlen »Stoppenaalen, et nyt Eventyr af H. C. Andersen« (BFN 482). Optaget i <hi rend="italic">Nye Eventyr. Andet Bind. Første Samling</hi>, der udkom den 3. april 1847.</p>
+
+<p rend="noIndent">Sidtnævnte udgave følges her.<br/>
+BFN 516/II,122-124/VII,113-114.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">405,2</cell><cell type="deviation">mig. &lt; mig,</cell></row>
+</table>
+
+<p rend="noIndent">Afvigelser i den her optrykte tekst i forhold til førstetrykket</p>
+
+<table rend="textdeviations">
+<row><cell type="position">404</cell><cell type="deviation">18: i en Æske &lt; i Æske – 21: saa vare de kun &lt; saa vare de</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">403</cell><row xml:id="txtcmnt-403-01"><cell type="data-term">Der er Maade med</cell><cell type="data-definition">det er der grænser for.</cell></row><row xml:id="txtcmnt-403-02"><cell type="data-term">Suite</cell><cell type="data-definition">følge.</cell></row><row xml:id="txtcmnt-403-03"><cell type="data-term">nedrigt</cell><cell type="data-definition">dobbeltbetydning af moralsk og fysisk lavt.</cell></row><row xml:id="txtcmnt-403-04"><cell type="data-term">Bevidsthed</cell><cell type="data-definition">selverkendelse, selvopfattelse, samvittighed.</cell></row>
+<cell type="page">404</cell><row xml:id="txtcmnt-404-01"><cell type="data-term">bliver</cell><cell type="data-definition">forbliver.</cell></row>
+<cell type="page">405</cell><row xml:id="txtcmnt-405-01"><cell type="data-term">Det er ogsaa en</cell><cell type="data-definition">sikken en.</cell></row><row xml:id="txtcmnt-405-02"><cell type="data-term">Frøken</cell><cell type="data-definition">indtil ca. 1850 blev Frøken næsten udelukkende brugt som titel for adelsog borgerdøtre, hvis fædre havde rang eller embede; normalt anvendtes Jomfru.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

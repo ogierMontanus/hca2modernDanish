@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den lykkelige Familie</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Happy Family« i <i>A Christmas Greeting to my English Friends</i>, der udkom i december 1847. Trykt første gang i <i>Nye Eventyr. Andet Bind. Anden Samling</i>, som udkom den 4. marts 1848.<br/>
+BFN 532/II,156-159/VII,125-126.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-lykkelige-familie" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="den-lykkelige-familie_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="90_The-Happy-Family">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Det største grønne Blad her til Lands, det er da rigtignok et Skræppeblad; holde...</incipit><readingTime>6</readingTime><popularity>953</popularity><cite>&lt;p&gt;H.C. Andersen: Den lykkelige Familie. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Den_lykkelige_Familie_forside.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1847</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>humor</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den lykkelige Familie" xml:id="den-lykkelige-familie">
+<pb n="439"/><head type="main">Den lykkelige Familie</head>
+
+<p rend="noIndent" xml:id="p_00001">Det største grønne Blad her til Lands, det er da rigtignok et Skræppeblad; holder man det foran paa sin lille Mave, saa er det ligesom et heelt Forklæde, og lægger man det paa sit Hoved, saa er det i Regnveir næsten ligesaa godt, som en Paraply, for det er saa forfærdeligt stort. Aldrig voxer een Skræppe alene, nei hvor der groer een, der groe flere, det er en stor Deilighed, og al den Deilighed er Sneglemad. <seg target="txtcmnt-439-01"><!--DATA-TERM: De store hvide Snegle--><!--DATA-DEFINITION: vinbjergsnegle.-->De store hvide Snegle</seg>, som fornemme Folk i gamle Dage lod lave til Fricasee, spiste og sagde »hum! hvor det smager!« for de troede nu det smagte saa deiligt, de levede af Skræppeblade og derfor bleve <seg target="txtcmnt-439-02"><!--DATA-TERM: Skræpperne saaede--><!--DATA-DEFINITION: det var en almindelig antagelse, at skræppen var sået for vinbjergsneglens skyld.-->Skræpperne saaede</seg>.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Nu var der en gammel Herregaard, hvor man ikke længer spiste Snegle, de vare ganske uddøde, men Skræpperne vare ikke uddøde, de voxte og voxte over alle Gange og alle Bede, man kunde ikke mere faae Bugt med dem, det var en heel Skræppeskov, hist og her stod et Æble- og et Blomme-Træ, ellers kunde man nu aldrig have tænkt at det var en Have. Alt var Skræpper, og derinde boede de to sidste, inderlig gamle Snegle.</p>
+
+<p rend="firstIndent" xml:id="p_00003">De vidste ikke selv hvor gamle de vare, men de kunde godt huske at de havde været mange flere, at de var af en Familie fra fremmede Lande og at for dem og deres var hele Skoven plantet. De havde aldrig været udenfor, men de vidste at der var endnu noget til i Verden, som heed <hi rend="italic">Herregaarden</hi>, og deroppe blev man kogt, og saa blev man sort og saa blev man lagt paa Sølvfad, men hvad videre der skete vidste man ikke. Hvorledes det iøvrigt var at blive kogt og at ligge paa Sølvfad, kunde de ikke tænke sig, men deiligt skulde det være og særdeles fornemt. Hverken Oldenborren, Skruptudsen eller Regnormen, som de spurgte ad, kunde give Beskeed, ingen af dem havde været kogt eller ligget paa Sølvfad.</p>
+
+<p rend="firstIndent" xml:id="p_00004">De gamle hvide Snegle vare de fornemste i Verden, vidste de, Skoven var til for deres Skyld, og Herregaarden var til for at de kunde blive kogte og lagte paa Sølvfad.</p>
+
+<pb n="440"/><p rend="firstIndent" xml:id="p_00005">De levede nu meget eensomt og lykkeligt, og da de selv ikke havde Børn, saa havde de taget en lille almindelig Snegl til sig, som de opdrog som deres egen, men den Lille vilde ikke voxe, for han var almindelig; men de gamle, især Mutter, Sneglemutter, syntes hun kunde dog bemærke, hvor han tog til, og hun bad Fatter, dersom han ikke kunde see det, han da vilde føle paa det lille Sneglehuus, og saa følte han og fandt at Mutter havde Ret.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Een Dag var det stærk Regn.</p>
+
+<p rend="firstIndent" xml:id="p_00007">»Hør hvor det tromme-romme-rommer paa Skræpperne«, sagde Sneglefader.</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Der kommer ogsaa Draaber!« sagde Sneglemoer. »Det løber jo lige ned af Stilken! Du skal see her bliver vaadt! Jeg er glad ved vi have vort gode Huus og den Lille ogsaa har sit! Der er rigtignok gjort mere for os end for alle andre Skabninger; man kan da see, at vi er Herskabet i Verden! Vi have Huus fra Fødselen og Skræppeskoven er saaet for vor Skyld –! jeg gad vidst hvor langt den strækker sig og hvad der er udenfor!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Der er ikke noget udenfor!« sagde Sneglefader. »Bedre end hos os kan der ingen Steder være, og jeg har ikke noget at ønske!«</p>
+
+<p rend="firstIndent" xml:id="p_00010">»Jo,« sagde Moer, »jeg gad nok komme paa Herregaarden, blive kogt og lagt paa Sølvfad, det ere alle vore Forfædre blevne, og Du kan troe, der er noget <seg target="txtcmnt-440-01"><!--DATA-TERM: aparte--><!--DATA-DEFINITION: særligt.-->aparte</seg> ved det!«</p>
+
+<p rend="firstIndent" xml:id="p_00011">»Herregaarden er muligviis faldet sammen!« sagde Sneglefaer, »eller Skræppeskoven er voxet hen over den, saa at Menneskene ikke kunne komme ud. Det har da heller ingen Hast, men du iler altid saa forfærdelig og det begynder den Lille ogsaa med; har han nu ikke i tre Dage krøbet op ad den Stilk, jeg faaer ondt i Hovedet naar jeg seer op paa ham!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">»Du maa ikke skjænde«, sagde Sneglemoer, »han kryber saa sindig, vi faae nok Fornøielse af ham og andet have vi Gamle jo ikke at leve for! Men har Du tænkt paa det: hvor faae vi en Kone til ham. Troer Du ikke der langveis inde i Skræppeskoven skulde være nogen af vor Art?«</p>
+
+<p rend="firstIndent" xml:id="p_00013">»Sorte Snegle troer jeg nu nok der er«, sagde den Gamle, »sorte Snegle uden Huus, men det er saa simpelt og de have Indbildninger, men vi kunne give det i Commission til Myrerne, de løbe frem og tilbage, som om de havde noget at bestille, de veed vist en Kone til vor lille Snegl!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">»Jeg veed rigtignok den allerdeiligste!« sagde Een af Myrerne, »men jeg er bange det gaaer ikke, for hun er Dronning!«</p>
+
+<pb n="441"/><p rend="firstIndent" xml:id="p_00015">»Det gjør ikke noget!« sagde de Gamle. »Har hun Huus?«</p>
+
+<p rend="firstIndent" xml:id="p_00016">»Hun har Slot!« sagde Myren, »det deiligste Myreslot med syv hundrede Gange«.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Tak!« sagde Sneglemoer, »vor Søn skal ikke i en Myretue! veed I ikke bedre, saa <seg target="txtcmnt-441-01"><!--DATA-TERM: give … i Commission--><!--DATA-DEFINITION: overdrager vi det hverv.-->give vi det i Commission</seg> til <seg target="txtcmnt-441-02"><!--DATA-TERM: de hvide Myg--><!--DATA-DEFINITION: dansemyg.-->de hvide Myg</seg>, de flyve vidt omkring i Regn og i Solskin, de kjende Skræppeskoven forinden og foruden.«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Vi have en Kone for ham!« sagde Myggen, »hundrede Menneskeskridt herfra sidder paa en Stikkelsbærbusk en lille Snegl med Huus, den er ganske eensom og gammel nok til at gifte sig. Det er bare hundrede Menneskeskridt!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Ja lad hende komme til ham!« sagde de Gamle, »han har en Skræppeskov, hun har kun en Busk!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">Og saa hentede de den lille Snegle-Frøken. Det varede otte Dage før hun kom, men det var just det <seg target="txtcmnt-441-03"><!--DATA-TERM: Rare--><!--DATA-DEFINITION: interessante, udsøgte, værdifulde.-->Rare</seg> ved det, saa kunde man see hun var af Arten.</p>
+
+<p rend="firstIndent" xml:id="p_00021">Og saa holdt de Bryllup. Sex <seg target="txtcmnt-441-04"><!--DATA-TERM: Sanct-Hans Orme--><!--DATA-DEFINITION: små, brunlige biller, der på lune sommeraftener udsender et gul-grønt lys.-->Sanct-Hans Orme</seg> lyste saa godt de kunde; ellers gik det Hele stille af, for de gamle Snegle-Folk kunde ikke taale Sviir og Lystighed; men en deilig Tale blev der holdt af Sneglemoer, Fatter kunde ikke, han var saa bevæget, og saa gav de dem i Arv den hele Skræppeskov og sagde, hvad de altid havde sagt, at det var det Bedste i Verden, og naar de levede redelig og skikkelig og formerede sig, vilde de engang og deres Børn komme paa Herregaarden, blive kogte sorte og lagte paa Sølvfad.</p>
+
+<p rend="firstIndent" xml:id="p_00022">Og efter at den Tale var holdt, krøb de Gamle ind i deres Huus, og kom aldrig mere ud; de sov. Det unge Snegle-Par regjerede i Skoven og fik en stor Afkom, men de blev aldrig kogte, og de kom aldrig paa Sølvfad, saa sluttede de deraf, at Herregaarden var faldet sammen, og at alle Mennesker i Verden vare uddøde, og da Ingen sagde dem imod, saa var det jo sandt; og Regnen slog paa Skræppebladene for at gjøre Tromme-Musik for deres Skyld, og Solen skinnede for at give Skræppeskoven Couleur for deres Skyld, og de vare meget lykkelige, og hele Familien var lykkelig, thi den var det.</p>
+
+<pb n="442"/>
+
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Den lykkelige Familie" xml:id="den-lykkelige-familie">
+<head type="section-comments">Den lykkelige Familie</head>
+
+<p rend="noIndent">Trykt første gang i engelsk oversættelse ved Charles B. Lohmeyer med titlen »The Happy Family« i <hi rend="italic">A Christmas Greeting to my English Friends</hi>, der udkom i december 1847. Trykt første gang i <hi rend="italic">Nye Eventyr. Andet Bind. Anden Samling</hi>, som udkom den 4. marts 1848.<br/>
+BFN 532/II,156-159/VII,125-126.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<pb n="535"/>
+<table rend="textdeviations">
+<row><cell type="position">440,42</cell><cell type="deviation">»men &lt; men</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">439</cell><row xml:id="txtcmnt-439-01"><cell type="data-term">De store hvide Snegle</cell><cell type="data-definition">vinbjergsnegle.</cell></row><row xml:id="txtcmnt-439-02"><cell type="data-term">Skræpperne saaede</cell><cell type="data-definition">det var en almindelig antagelse, at skræppen var sået for vinbjergsneglens skyld.</cell></row>
+<cell type="page">440</cell><row xml:id="txtcmnt-440-01"><cell type="data-term">aparte</cell><cell type="data-definition">særligt.</cell></row>
+<cell type="page">441</cell><row xml:id="txtcmnt-441-01"><cell type="data-term">give … i Commission</cell><cell type="data-definition">overdrager vi det hverv.</cell></row><row xml:id="txtcmnt-441-02"><cell type="data-term">de hvide Myg</cell><cell type="data-definition">dansemyg.</cell></row><row xml:id="txtcmnt-441-03"><cell type="data-term">Rare</cell><cell type="data-definition">interessante, udsøgte, værdifulde.</cell></row><row xml:id="txtcmnt-441-04"><cell type="data-term">Sanct-Hans Orme</cell><cell type="data-definition">små, brunlige biller, der på lune sommeraftener udsender et gul-grønt lys.</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

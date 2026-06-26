@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Vænø og Glænø</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Figaro. Et Ugeblad</i>, nr. 73, redigeret af Robert Watt, som udkom den 18. august 1867.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">3:<i> Eventyr og Historier III 1862-1873</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="vaenoe-og-glaenoe" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="vaenoe-og-glaenoe_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="171_Vaenoe-and-Glaenoe">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der laae en Gang ved Sjællands Kyst, ud for Holsteinborg, to skovbegroede Øer, V...</incipit><readingTime>2</readingTime><popularity>889</popularity><cite>&lt;p&gt;H.C. Andersen: Vænø og Glænø. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Vaenoe_og_Glaenoe_hca_ill_0137.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1867</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>teknik</term><term>steder</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-03-29" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-03-29" who="NHB">formatted</change><change who="NHB" when="2023-04-02" status="draft">gennemgået br-tags i export-filen indtil linje 3350</change><change who="NHB" when="2023-12-04" status="draft">slået to p-elementer sammen i Tante Tandpine</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-03-05" who="NHB">added metadata to teiHeader</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Vænø og Glænø" xml:id="vaenoe-og-glaenoe">
+<head type="main">Vænø og Glænø</head>
+
+<p rend="noIndent" xml:id="p_00001">Der laae en Gang ved Sjællands Kyst, ud for <hi rend="italic"><seg target="txtcmnt-146-01"><!--DATA-TERM: Holsteinborg--><anchor target="txtcmnt-146-01"/><!--herregård 13 km øst for Skælskør.-->Holsteinborg</seg></hi>, to skovbegroede Øer, <hi rend="italic">Vænø</hi> og <hi rend="italic">Glænø</hi>, paa dem var Kirkeby og Gaarde; de laae Kysten nær, de laae hinanden nær, nu er der kun den ene Ø.</p>
+
+<p rend="firstIndent" xml:id="p_00002">En Nat blev det et forfærdeligt Veir, Havet steg som det ikke var steget i Mands Minde; Stormen tog voldsomt til; det var et Dommedags-Veir, det lød, som om Jorden revnede; Kirkeklokkerne kom i Sving og ringede uden Menneskehjælp.</p>
+
+<p rend="firstIndent" xml:id="p_00003">I den Nat forsvandt <hi rend="italic">Vænø</hi> i Havets Dyb; det var som om den Ø aldrig havde været. Men siden, mangen Sommernat, ved stille, klart Lavvande, naar Fiskeren var ude at stange Aal ved Blus forude i Baaden, saae han, med rigtigt skarpt Syn, dybt nede under sig <hi rend="italic">Vænø</hi> med dens hvide Kirketaarn og den høie Kirkemur. »<hi rend="italic">Vænø</hi> bier efter <hi rend="italic">Glænø</hi>,« sagde <seg target="txtcmnt-146-02"><!--DATA-TERM: Sagnet--><anchor target="txtcmnt-146-02"/><!--her: talemåde, ordsprog; jf. Thiele II, 20: »I Stranden ved Holsteinborg ligger en Ø, kaldet Glænø, og i Nærheden af samme skal en anden Ø, Vænø, være gaaet under. Dette sidste Sted kaldes derfor Vænø-Grund, og, naar Vandet er klart, skal man endnu kunne see Spor af Kirkemuren. Det er en almindelig Tro, at det skal gaae Glænø ligesaa, og derfor pleier man at sige: »Vænø bier efter Glænø!««-->Sagnet</seg>; han saae Øen, han hørte Kirkeklokkerne ringe dernede, men deri tog han dog feil, det var tilvisse Lyd fra de mange vilde Svaner, som her tidt ligge paa Vandfladen; de klukke og klage, som hørte man langt borte fra Klokkeklang.</p>
+
+<p rend="firstIndent" xml:id="p_00004">Der var en Tid, da endnu mange gamle Folk paa <hi rend="italic">Glænø</hi> huskede saa godt hin Stormnat og at de selv, som Smaa, havde ved Lavvande kjørt mellem de to Øer, som man nutildags fra Sjællands Kyst, ikke langt fra <hi rend="italic">Holsteinborg</hi>, kjører over til <hi rend="italic">Glænø</hi>; Vandet naaer kun midt op om Hjulene. »<hi rend="italic">Vænø</hi> <seg target="txtcmnt-146-03"><!--DATA-TERM: bier--><anchor target="txtcmnt-146-03"/><!--venter.-->bier</seg> paa <hi rend="italic">Glænø</hi>,« blev der sagt, og det blev Sagn og Vished.</p>
+
+<p rend="firstIndent" xml:id="p_00005">Mangen lille Dreng og Pige laa i stormfulde Nætter og tænkte: i Nat kommer Timen, da <hi rend="italic">Vænø</hi> henter <hi rend="italic">Glænø</hi>. I Angst læste de deres <hi rend="italic">Fadervor</hi>, sov saa ind, drømte sødt – og næste Morgen var <hi rend="italic">Glænø</hi> der endnu med sine Skove og Kornmarker, sine venlige Bønderhuse og Humlehaver; Fuglen sang, Daadyret sprang; Muldvarpen lugtede ikke Havvand, saa langt den kunde rode.</p>
+
+<p rend="firstIndent" xml:id="p_00006">Og <seg target="txtcmnt-146-04"><!--DATA-TERM: dog ere  Glænø’s  Dage talte--><anchor target="txtcmnt-146-04"/><!--hentyder til den planlagte dæmning mellem Glænø og Sjælland, som dog først blev opført i 1881.-->dog ere <hi rend="italic">Glænø’s</hi> Dage talte</seg>; vi kunne ikke sige, hvor mange de ere, men de ere talte, en skjøn Morgen er Øen forsvundet.</p>
+
+<pb n="147"/><p rend="firstIndent" xml:id="p_00007">Du var maaskee endnu igaar hernede ved Strandbredden, saae de vilde Svaner ligge paa Vandet mellem Sjælland og <hi rend="italic">Glænø</hi>, en Seilbaad med udspændte Seil gled forbi Skovtykningen, Du selv kjørte over det lave Vadested, der var ingen anden Farvei; Hestene trampede i Vandet, det plaskede om Vognhjulene.</p>
+
+<p rend="firstIndent" xml:id="p_00008">Du er reist derfra, reiser maaskee nu et lille Stykke ud i den vide Verden og kommer efter nogle Aaringer tilbage igjen: Du seer da Skoven her omslutte en stor grøn Eng-Strækning, hvor Høet dufter foran pyntelige Bønderhuse. Hvor er Du? <hi rend="italic">Holsteinborg</hi> pranger jo her endnu med sit forgyldte Taarnspir, men ikke tæt ved Fjorden, det ligger høiere oppe i Landet; Du gaaer igjennem Skov, hen over Mark, ned mod Stranden, – hvor er <hi rend="italic">Glænø</hi>? Du seer ingen Skovø foran Dig, Du seer det aabne Vand. Har <hi rend="italic">Vænø</hi> hentet <hi rend="italic">Glænø</hi>, som den saa længe biede paa? <seg target="txtcmnt-147-01"><!--DATA-TERM: Naar var--><anchor target="txtcmnt-147-01"/><!--hvornår var.-->Naar var</seg> den Stormnat, hvori dette skete, hvor Jorden rystede, saa at det gamle <hi rend="italic">Holsteinborg</hi> flyttedes mange Tusind <seg target="txtcmnt-147-02"><!--DATA-TERM: Hanefjed--><anchor target="txtcmnt-147-02"/><!--længden af en hanes skridt, brugt som mål.-->Hanefjed</seg> op i Landet?</p>
+
+<p rend="firstIndent" xml:id="p_00009">Det var ingen Stormnat, det var ved den lyse Solskins Dag. Menneskekløgt lagde Dæmning for Havet, Menneskekløgt blæste Indvandet bort, bandt <hi rend="italic">Glænø</hi> til det faste Land. Fjorden er bleven Eng med frodigt Græs, <hi rend="italic">Glænø</hi> er groet fast til Sjælland. Den gamle Gaard ligger hvor den altid laa. Det var ikke <hi rend="italic">Vænø</hi>, som hentede <hi rend="italic">Glænø</hi>, det var <hi rend="italic">Sjælland</hi>, som med lange Dige-Arme greb til og med Pompernes Mundveir blæste og læste Trylleordene, <seg target="txtcmnt-147-03"><!--DATA-TERM: Formælingen(s)--><anchor target="txtcmnt-147-03"/><!--vielsen, hentyder til dæmningens forening af Sjælland og Glænø.-->Formælingens</seg> Ord, og <hi rend="italic">Sjælland</hi> fik mange Tønder Land i Brudegave. Det er Sandhed, den er <seg target="txtcmnt-147-04"><!--DATA-TERM: thinglæst--><anchor target="txtcmnt-147-04"/><!--tinglyst, bekendtgjort (her: lysning af ægteskab).-->thinglæst</seg>, Du har Syn for Sagn, Øen <hi rend="italic">Glænø</hi> er forsvundet.</p>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Vænø og Glænø" xml:id="vaenoe-og-glaenoe">
+<head type="section-comments">Vænø og Glænø</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Figaro. Et Ugeblad</hi>, nr. 73, redigeret af Robert Watt, som udkom den 18. august 1867.</p>
+<p>BFN 930/V,44-45/VII,320-321.</p>
+
+<table rend="textcomments">
+<cell type="page">146</cell><row xml:id="txtcmnt-146-01"><cell type="data-term">Holsteinborg</cell><cell type="data-definition">herregård 13 km øst for Skælskør.</cell></row><row xml:id="txtcmnt-146-02"><cell type="data-term">Sagnet</cell><cell type="data-definition">her: talemåde, ordsprog; jf. Thiele II, 20: »I Stranden ved Holsteinborg ligger en Ø, kaldet Glænø, og i Nærheden af samme skal en anden Ø, Vænø, være gaaet under. Dette sidste Sted kaldes derfor Vænø-Grund, og, naar Vandet er klart, skal man endnu kunne see Spor af Kirkemuren. Det er en almindelig Tro, at det skal gaae Glænø ligesaa, og derfor pleier man at sige: »Vænø bier efter Glænø!««</cell></row><row xml:id="txtcmnt-146-03"><cell type="data-term">bier</cell><cell type="data-definition">venter.</cell></row><row xml:id="txtcmnt-146-04"><cell type="data-term">dog ere <hi rend="italic">Glænø’s</hi> Dage talte</cell><cell type="data-definition">hentyder til den planlagte dæmning mellem Glænø og Sjælland, som dog først blev opført i 1881.</cell></row>
+<pb n="426"/>
+<cell type="page">147</cell><row xml:id="txtcmnt-147-01"><cell type="data-term">Naar var</cell><cell type="data-definition">hvornår var.</cell></row><row xml:id="txtcmnt-147-02"><cell type="data-term">Hanefjed</cell><cell type="data-definition">længden af en hanes skridt, brugt som mål.</cell></row><row xml:id="txtcmnt-147-03"><cell type="data-term">Formælingen(s)</cell><cell type="data-definition">vielsen, hentyder til dæmningens forening af Sjælland og Glænø.</cell></row><row xml:id="txtcmnt-147-04"><cell type="data-term">thinglæst</cell><cell type="data-definition">tinglyst, bekendtgjort (her: lysning af ægteskab).</cell></row>
+</table>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>

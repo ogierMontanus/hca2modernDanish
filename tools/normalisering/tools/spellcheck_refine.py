@@ -173,13 +173,14 @@ def main() -> None:
     flagged, left_alone, evidence, n_types = analyze(
         args.corpus, rules, lex, args.min_occurrences, entities)
 
+    stem = args.corpus.stem
     args.out_dir.mkdir(parents=True, exist_ok=True)
     proposal = {"summary": {"tokens": n_types, "flagged": len(flagged),
                             "left_alone": left_alone},
                 "flagged": flagged, "rule_evidence": evidence}
-    (args.out_dir / "update_proposal.json").write_text(
+    (args.out_dir / f"{stem}.spellcheck.json").write_text(
         json.dumps(proposal, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    write_markdown(args.out_dir / "update_proposal.md",
+    write_markdown(args.out_dir / f"{stem}.spellcheck.md",
                    flagged, left_alone, evidence, n_types)
 
     print(f"{n_types} tokens; flagged {len(flagged)} clear over-normalization(s), "

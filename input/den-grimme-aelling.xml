@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/relax-ng-compact-syntax" href="https://beta.auh.sdu.dk/pmm-skema/sv18.rnc"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:TEI="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="da" xml:space="preserve">
+
+                         
+                              <teiHeader>
+                                   <fileDesc>
+                                        <titleStmt>
+                                             <title>Den grimme Ælling</title>
+                                             <author ref="http://viaf.org/viaf/4925902">H.C. Andersen</author>
+                                             <editor role="content">Laurids Kristian Fahl</editor>
+<editor role="content">Esther Kielberg</editor>
+<editor role="content">Klaus P. Mortensen</editor>
+<editor role="content">Jesper Gehlert Nielsen</editor>
+<editor role="content">Finn Gredal Jensen</editor>
+
+                                             <editor role="data">Dan H. Andreasen</editor>
+                                             <editor role="data">Holger Berg</editor>
+                                        </titleStmt>
+                                        <publicationStmt>
+                                             <publisher>Museum Odense and The Hans Christian Andersen Center, University of Southern Denmark, Odense, Denmark</publisher>
+                                             <availability>
+            <p type="cc-by" target="https://creativecommons.org/licenses/by/4.0/">Creative Commons, Attribution 4.0 International (CC BY 4.0)</p>
+                 <p>Draft, not for public accession</p>
+            </availability>
+                                             <idno type="version1.0">1.0</idno>
+                                             <date>2024-04-01</date>
+                                             
+                                        </publicationStmt>
+                                        <sourceDesc>
+                                             <listBibl>
+                                                  <bibl><p>Trykt første gang i <i>Nye Eventyr</i>, som udkom den 11. november 1843 med årstallet 1844 på titelbladet.<br/>
+BFN 432/II,30-38/VII,87-89.</p><p>Vi har i denne version bibeholdt den originale stavemåde. Der findes også en version med moderniseret stavemåde.</p></bibl>
+                                                  <biblStruct>
+                                                  <monogr>
+                                                       <title level="m">ANDERSEN: H.C. Andersens Samlede Værker</title>
+                                                       <editor ref="http://viaf.org/viaf/4925902">
+                                                            <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                                                            <persName>
+                                                                 <forename>Klaus</forename>
+                                                                 <forename full="init">P.</forename>
+                                                                 <surname>Mortensen</surname>
+                                                            </persName>
+                                                            </editor>
+                                                            <imprint>
+                                                                 <pubPlace>København</pubPlace>
+                                                                 <publisher>Gyldendal</publisher>
+                                                                 <date>2003-2007</date>
+                                                                 <idno type="ISBN">87-02-01991-4</idno>
+                                                            </imprint>
+                                                       <biblScope unit="volume">1:<i> Eventyr og Historier I 1830-1850</i></biblScope>
+                                                       <date when="2003"/>
+                                                  </monogr>
+                                             </biblStruct></listBibl>
+                                             <notesStmt>
+                                                  
+                                                       <note xml:id="thisFile" target="den-grimme-aelling" type="originalDanish">dansk førsteudgave</note>
+                                                       
+                                                            <note target="den-grimme-aelling_modern" type="modernDanish">moderniseret version</note>
+                                                       <note type="britishEnglish" target="66_The-Ugly-Duckling">engelsk oversættelse</note>
+                                                  
+                                                                                                    
+                                             </notesStmt>
+                                        </sourceDesc>
+                                        <encodingDesc>
+                                             <taxonomy xml:id="tax.Mortensen">
+                                                  <bibl>
+                                                       <title>ANDERSEN. H.C. Andersens Samlede Værker</title>
+                                                       <editor>Klaus P. Mortensen</editor>
+                                                       <edition>2003-2008</edition>
+                                                  </bibl>
+                                                  <category xml:id="tale">
+                                                       <catDesc xml:lang="da">eventyr og historier</catDesc>
+                                                       <catDesc xml:lang="en">fairy tales and stories</catDesc>
+                                                  </category>
+                                                  <category xml:id="novel">
+                                                       <catDesc xml:lang="da">romaner</catDesc>
+                                                       <catDesc xml:lang="en">novels</catDesc>
+                                                  </category>
+                                                  <category xml:id="poem">
+                                                       <catDesc xml:lang="da">digte</catDesc>
+                                                       <catDesc xml:lang="en">poems</catDesc>
+                                                  </category>
+                                                  <category xml:id="mix">
+                                                       <catDesc xml:lang="da">blandinger</catDesc>
+                                                       <catDesc xml:lang="en">genre mixes</catDesc>
+                                                  </category>
+                                                  <category xml:id="play">
+                                                       <catDesc xml:lang="da">skuespil</catDesc>
+                                                       <catDesc xml:lang="en">plays</catDesc>
+                                                  </category>
+                                                  <category xml:id="travelAccount">
+                                                       <catDesc xml:lang="da">rejseberetninger</catDesc>
+                                                       <catDesc xml:lang="en">travel accounts</catDesc>
+                                                  </category>
+                                                  <category xml:id="autobiography">
+                                                       <catDesc xml:lang="da">selvbiografier</catDesc>
+                                                       <catDesc xml:lang="en">autobiographies</catDesc>
+                                                  </category>
+                                             </taxonomy>︎    
+                                        </encodingDesc>
+                                        
+                                                                       <xenoData><incipit>Der var saa deiligt ude paa Landet; det var Sommer, Kornet stod guult, Havren gr...</incipit><readingTime>14</readingTime><popularity>996</popularity><cite>&lt;p&gt;H.C. Andersen: Den grimme Ælling. Udg. af Laurids Kristian Fahl, Esther Kielberg, Klaus P. Mortensen, Jesper Gehlert Nielsen &amp; Finn Gredal Jensen[INFO OM 18-binds-udgaven 2003-2009...] for Det Danske Sprog- og Litteraturselskab. Digitaliseret af Dan H. Andreasen &amp; Holger Berg til sitet hcandersen.dk&lt;/p&gt;&lt;p&gt;
+            Creative Commons, Attribution 4.0 International (CC BY 4.0)
+                 Draft, not for public accession
+            &lt;/p&gt;</cite><idno type="image">Den_grimme_Aelling_Duckling_03.png</idno></xenoData>                                    </fileDesc>
+                                   <profileDesc>
+                                        <creation>
+                                             <date>1844</date>
+                                        </creation>
+                                        <textClass>
+                                             <catRef scheme="#tax.Mortensen" target="tale"/>
+                                             
+                                             <keywords scheme="addLinkToControlledVocabulary"><term>natur</term><term>livsforloeb</term></keywords>
+                                        </textClass>
+                                        <milestone type="noTOC"/>
+                                   </profileDesc>
+                                   <revisionDesc><change when="2023-07-23" xml:id="NHB" who="NHB">docx2xml</change><change when="2023-07-23" who="NHB">formatted</change><change who="NHB" when="2023-07-24" status="draft">diff indtil Fyrtøiet. Div-struktur indtil Talismanen</change><change when="NHB" who="2023-07-25">diff indtil De vilde Svaner</change><change who="NHB" when="2024-02-05" status="draft">ny struktur Den onde Fyrste</change><change who="NHB" when="2024-02-28">extracted from larger file with entire volume</change><change when="2024-02-28" who="NHB">added metadata to teiHeader</change><change when="2024-02-28" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-04" who="NHB">added img-tags based on imgIndex.xml, the xml-version of the spreadsheet with img-metadata, </change><change when="2024-03-06" who="NHB">added keywords and popularity based on popularityAndKeywordsIndex.xml, the xml-version of the spreadsheet with relevant metadata</change><change when="2024-03-12" who="NHB">added metadata to teiHeader</change></revisionDesc>
+                              </teiHeader>
+                              
+                                                  
+                         
+                         <text type="print">
+                              <body>
+                                   <div type="work" rend="Den grimme Ælling" xml:id="den-grimme-aelling">
+<pb n="284"/><head type="main">Den grimme Ælling</head>
+
+<img src="0066_HCA-1956-2-0001.jpg" ref="p_00001" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="noIndent" xml:id="p_00001">Der var saa deiligt ude paa Landet; det var Sommer, Kornet stod guult, Havren grøn, Høet var reist i Stakke nede i de grønne Enge, og der gik Storken paa sine lange, røde Been og snakkede ægyptisk, for det Sprog havde han lært af sin Moder. Rundtom Ager og Eng var der store Skove, og midt i Skovene dybe Søer; jo, der var rigtignok deiligt derude paa Landet! Midt i Solskinnet laae der en gammel Herregaard med dybe Canaler rundt om, og fra Muren og ned til Vandet voxte store Skræppeblade, der vare saa høie, at smaa Børn kunde staae opreiste under de største; der var ligesaa vildsomt derinde, som i den tykkeste Skov, og her laae en And paa sin Rede; hun skulde ruge sine smaae Ællinger ud, men nu var hun næsten kjed af det, fordi det varede saa længe, og hun sjælden fik Visit; de andre Ænder holdt mere af at svømme om i Canalerne, end at løbe op og sidde under et Skræppeblad for at <seg target="txtcmnt-284-01"><!--DATA-TERM: snaddre--><!--DATA-DEFINITION: rappe, skræppe op (sladre).-->snaddre</seg> med hende.</p>
+
+<p rend="firstIndent" xml:id="p_00002">Endelig knagede det ene Æg efter det andet: »pip! pip!« sagde det, alle Æggeblommerne vare blevne levende og stak Hovedet ud.</p>
+
+<p rend="firstIndent" xml:id="p_00003">»Rap! rap!« sagde hun, og saa rappede de sig alt hvad de kunde, og saae til alle Sider under de grønne Blade, og Moderen lod dem see saa meget de vilde, for det Grønne er godt for Øinene.</p>
+
+<p rend="firstIndent" xml:id="p_00004">»Hvor dog Verden er stor!« sagde alle Ungerne; thi de havde nu rigtignok ganske anderledes Plads, end da de laae inde i Ægget.</p>
+
+<p rend="firstIndent" xml:id="p_00005">»Troer I, det er hele Verden!« sagde Moderen, »den strækker sig langt paa den anden Side Haven, lige ind i Præstens Mark! men der har jeg aldrig været! – I ere her dog vel Allesammen!« – og saa reiste hun sig op, »nei, jeg har ikke alle! det største Æg ligger der endnu; hvor længe skal det vare! nu er jeg snart kjed af det!« og saa lagde hun sig igjen.</p>
+
+<p rend="firstIndent" xml:id="p_00006">»Naa hvordan gaaer det?« sagde en gammel And, som kom for at gjøre Visit.</p>
+
+<pb n="285"/><p rend="firstIndent" xml:id="p_00007">»Det varer saa længe med det ene Æg!« sagde Anden, som laae; »der vil ikke gaae Hul paa det! men nu skal Du see de andre! de ere de deiligste Ællinger jeg har seet! de ligne Allesammen deres Fader, det Skarn han kommer ikke og besøger mig.«</p>
+
+<p rend="firstIndent" xml:id="p_00008">»Lad mig see det Æg, der ikke vil revne!« sagde den gamle. »Du kan troe, at det er et Kalkun-Æg! saaledes er jeg ogsaa blevet narret engang, og jeg havde min Sorg og Nød med de Unger, for de ere bange for Vandet, skal jeg sige Dig! jeg kunde ikke faae dem ud! jeg rappede og snappede, men det hjalp ikke! – Lad mig see Ægget! jo, det er et Kalkun-Æg! lad Du det ligge og lær de andre Børn at svømme!«</p>
+
+<p rend="firstIndent" xml:id="p_00009">»Jeg vil dog ligge paa det lidt endnu!« sagde Anden; »har jeg nu ligget saalænge, saa kan jeg ligge <seg target="txtcmnt-285-01"><!--DATA-TERM: Dyrehavstiden--><!--DATA-DEFINITION: den periode, hvor Dyrehavsbakken (»Bakken«) havde åbent, dvs. en måned omkring sankthans‚ her: endnu et lille stykke tid.-->Dyrehavstiden</seg> med!«</p>
+<p rend="firstIndent" xml:id="p_00010">»Vær saa god!« sagde den gamle And, og saa gik hun.</p>
+
+<p rend="firstIndent" xml:id="p_00011">Endelig revnede det store Æg. »Pip! pip!« sagde Ungen og væltede ud; han var saa stor og styg. Anden saae paa ham: »Det er da en forfærdelig stor Ælling den!« sagde hun; »ingen af de andre see saadanne ud! det skulde dog vel aldrig være en Kalkun-Kylling! naa, det skal vi snart <seg target="txtcmnt-285-02"><!--DATA-TERM: komme efter--><!--DATA-DEFINITION: få opklaret.-->komme efter</seg>! i Vandet skal han, om jeg saa selv maa sparke ham ud!«</p>
+
+<p rend="firstIndent" xml:id="p_00012">Næste Dag var det et velsignet, deiligt Veir; Solen skinnede paa alle de grønne Skræpper. Ællingemoderen med hele sin Familie kom frem nede ved Canalen: pladsk! sprang hun i Vandet: »rap! rap!« sagde hun og den ene Ælling plumpede ud efter den anden; Vandet slog dem over Hovedet, men de kom strax op igjen og fløde saa deiligt; Benene gik af sig selv, og alle vare de ude, selv den stygge, graae Unge svømmede med.</p>
+
+<img src="0066_HCA-1956-2-0006.jpg" ref="p_00013" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00013">»Nei, det er ingen Kalkun!« sagde hun; »see hvor deiligt den bruger Benene, hvor rank den holder sig! det er min egen Unge! igrunden er den dog ganske kjøn, naar man rigtig seer paa den! rap! rap! – kom nu med mig, saa skal jeg føre Jer ind i Verden, og præsentere Jer i Andegaarden, men hold Jer altid nær ved mig, at ingen træder paa Jer, og tag Jer iagt for Kattene!«</p>
+
+<p rend="firstIndent" xml:id="p_00014">Og saa kom de ind i Andegaarden. Der var en skrækkelig Støi derinde, thi der var to Familier, som sloges om et Aalehoved, og saa fik dog Katten det.</p>
+
+<p rend="firstIndent" xml:id="p_00015">»See, saaledes gaaer det til i Verden!« sagde Ællingemoderen, og slikkede sig om <seg target="txtcmnt-285-03"><!--DATA-TERM: Snabelen--><!--DATA-DEFINITION: næbbet.-->Snabelen</seg>, for hun vilde ogsaa have Aalehovedet. »Brug nu Benene!« sagde hun, »see, at I kunne rappe Jer, og nei med Halsen for den gamle And der<pb n="286"/>henne! hun er den fornemste af dem Alle her! hun er af spansk Blod, derfor er hun svær, og see I, hun har en rød Klud om Benet! det er noget overordentligt deiligt, og den største Udmærkelse nogen And kan faae, det betyder saameget, at man ikke vil af med hende, og at hun skal kjendes af Dyr og af Mennesker! – Rap Jer! – ikke ind til Beens! en velopdragen Ælling sætter Benene vidt fra hinanden, ligesom Fader og Moder! see saa! nei nu med Halsen og siig: rap!«</p>
+
+<p rend="firstIndent" xml:id="p_00016">Og det gjorde de; men de andre Ænder rundt om saae paa dem og sagde ganske høit: »see saa! nu skal vi have det Slæng til! ligesom vi ikke vare nok alligevel! og fy, hvor den ene Ælling seer ud! ham ville vi ikke taale!« – og strax fløi der en And hen og bed den i Nakken.</p>
+
+<p rend="firstIndent" xml:id="p_00017">»Lad ham være!« sagde Moderen, »han gjør jo Ingen noget!«</p>
+
+<p rend="firstIndent" xml:id="p_00018">»Ja, men han er for stor og for <seg target="txtcmnt-286-01"><!--DATA-TERM: aparte--><!--DATA-DEFINITION: mærkelig, anderledes (negativt).-->aparte</seg>!« sagde Anden, som bed, »og saa skal han <seg target="txtcmnt-286-02"><!--DATA-TERM: nøfles--><!--DATA-DEFINITION: kanøfles, mobbes.-->nøfles</seg>!«</p>
+
+<p rend="firstIndent" xml:id="p_00019">»Det er kjønne Børn, Moder har!« sagde den gamle And med Kluden om Benet, »Allesammen kjønne, paa den ene nær, den er ikke lykkedes! jeg vilde ønske, hun kunde gjøre den om igjen!«</p>
+
+<p rend="firstIndent" xml:id="p_00020">»Det gaaer ikke, Deres Naade!« sagde Ællingemoderen, »han er ikke kjøn, men han er et inderligt godt Gemyt, og svømmer saa deiligt, som nogen af de andre, ja, jeg tør sige lidt til! jeg tænker han voxer sig kjøn, eller han med Tiden bliver noget mindre! han har ligget for længe i Ægget, og derfor har han ikke faaet den rette Skikkelse!« og saa pillede hun ham i Nakken og <seg target="txtcmnt-286-03"><!--DATA-TERM: glattede paa Personen--><!--DATA-DEFINITION: pudsede fjerdragten.-->glattede paa Personen</seg>. »Han er desuden en Andrik,« sagde hun, »og saa gjør det ikke saa meget! jeg troer han faaer gode Kræfter, han slaaer sig nok igjennem!«</p>
+
+<img src="0066_HCA-1956-2-0014.jpg" ref="p_00021" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00021">»De andre Ællinger ere nydelige!« sagde den Gamle, »lad nu, som I var hjemme, og finder I et Aalehoved, saa kan I bringe mig det!« –</p>
+
+<p rend="firstIndent" xml:id="p_00022">Og saa vare de, som hjemme.</p>
+
+<p rend="firstIndent" xml:id="p_00023">Men den stakkels Ælling, som sidst var kommen ud af Ægget, og saae saa fæl ud, blev bidt, puffet og gjort Nar af, og det baade af Ænderne og Hønsene. »Han er for stor!« sagde de Allesammen, og den kalkunske Hane, der var født med Sporer og troede derfor, at han var en Keiser, pustede sig op som et Fartøi for fulde Seil, gik lige ind paa ham og saa pludrede den og blev ganske rød i Hovedet. Den stakkels Ælling vidste hverken, hvor den turde staae eller gaae, den var saa bedrøvet, fordi den saae saa styg ud og var til Spot for hele Andegaarden.</p>
+
+<pb n="287"/><p rend="firstIndent" xml:id="p_00024">Saaledes gik det den første Dag, og siden blev det værre og værre. Den stakkels Ælling blev jaget af dem Allesammen, selv hans Sødskende var saa onde imod ham, og de sagde altid: »bare Katten vilde tage Dig, dit fæle Spektakel!« og Moderen sagde: »gid Du bare var langt borte!« og Ænderne beed ham, og Hønsene huggede ham, og Pigen, som skulde give Dyrene Æde, sparkede til ham med Foden.</p>
+
+<p rend="firstIndent" xml:id="p_00025">Da løb og fløi han henover Hegnet; de smaa Fugle i Buskene foer forskrækket i Veiret; »det er fordi jeg er saa styg,« tænkte Ællingen og lukkede Øinene, men løb alligevel afsted; saa kom den ud i den store Mose, hvor Vildænderne boede. Her laae den hele Natten, den var saa træt og <seg target="txtcmnt-287-01"><!--DATA-TERM: sorrigfuld--><!--DATA-DEFINITION: sorgfuld.-->sorrigfuld</seg>.</p>
+
+<img src="0066_HCA-1956-2-0007.jpg" ref="p_00026" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00026">Om Morgenen fløi Vildænderne op, og de saae paa den nye Kamerat; »hvad er Du for een?« spurgte de, og Ællingen dreiede sig til alle Sider, og hilsede saa godt den kunde.</p>
+
+<p rend="firstIndent" xml:id="p_00027">»Du er inderlig styg!« sagde Vildænderne, »men det kan da være os det samme, naar Du ikke gifter Dig ind i vor Familie!« – Den Stakkel! han tænkte rigtignok ikke paa at gifte sig, <seg target="txtcmnt-287-02"><!--DATA-TERM: turde han bare have lov--><!--DATA-DEFINITION: kunne han bare have lov.-->turde han bare have Lov</seg> at ligge i Sivene og drikke lidt Mosevand.</p>
+
+<p rend="firstIndent" xml:id="p_00028">Der laae han i hele to Dage, saa kom der to Vildgjæs eller rettere Vildgasser, for de vare to Hanner; det var ikke mange Tider siden de vare komne ud af Ægget, og derfor vare de saa raske paa det.</p>
+
+<p rend="firstIndent" xml:id="p_00029">»Hør Kammerat!« sagde de, »Du er saa styg at jeg kan godt lide Dig! vil Du drive med og være Trækfugl! tæt herved i en anden Mose er der nogle søde velsignede Vildgjæs, allesammen Frøkener, der kunne sige: rap! Du er istand til at gjøre din Lykke, saa styg er Du!« – –</p>
+
+<p rend="firstIndent" xml:id="p_00030">»Pif! paf!« lød i det samme ovenover, og begge Vildgasserne faldt døde ned i Sivene, og Vandet blev blodrødt; pif! paf! lød det igjen, og hele Skarer af Vildgjæs fløi op af Sivene, og saa knaldede det igjen. Der var stor Jagt, Jægerne laae rundtom Mosen, ja nogle sad oppe i Trægrenene, der strakte sig langt ud over Sivene; den blaae Røg gik ligesom Skyer ind imellem de mørke Træer og hang langt hen over Vandet; i Mudderet kom Jagthundene, klask klask; Siv og Rør svaiede til alle Sider; det var en Forskrækkelse for den stakkels Ælling, den dreiede Hovedet om for at faae det under Vingen, og lige i det samme stod tæt ved den en frygtelig stor Hund, Tungen hang ham langt ud af Halsen, og Øinene skinnede grueligt fælt; han satte sit Gab lige ned imod Ællingen, viste de skarpe Tænder – – og pladsk! pladsk! gik han igjen uden at tage den.</p>
+
+<pb n="288"/><p rend="firstIndent" xml:id="p_00031">»O Gud skee Lov!« sukkede Ællingen, »jeg er saa styg, at selv Hunden ikke gider bide mig!«</p>
+
+<p rend="firstIndent" xml:id="p_00032">Og saa laae den ganske stille, mens Haglene susede i Sivene, og det knaldede Skud paa Skud.</p>
+
+<p rend="firstIndent" xml:id="p_00033">Først langt ud paa Dagen blev der stille, men den stakkels Unge turde endnu ikke reise sig, den ventede flere Timer endnu, før den saae sig om, og saa skyndte den sig afsted fra Mosen, alt hvad den kunde; den løb over Mark og over Eng, det var en Blæst, saa at den havde haardt ved at komme afsted.</p>
+
+<p rend="firstIndent" xml:id="p_00034">Mod Aften naaede den et fattigt lille Bondehuus; det var saa elendigt, at det ikke selv vidste til hvad Side det vilde falde, og saa blev det staaende. Blæsten susede saaledes om Ællingen, at han maatte sætte sig paa Halen for at holde imod; og det blev værre og værre; da mærkede han, at Døren var gaaet af det ene Hængsel, og hang saa skjævt, at han igjennem Sprækken kunde smutte ind i Stuen, og det gjorde han.</p>
+
+<img src="0066_HCA-1956-2-0018.jpg" ref="p_00035" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00035">Her boede en gammel Kone med sin Kat og sin Høne, og Katten, som hun kaldte <hi rend="italic">Sønneke</hi>, kunde skyde Ryg og spinde, han <seg target="txtcmnt-288-01"><!--DATA-TERM: gnistre(de)--><!--DATA-DEFINITION: knitre.-->gnistrede</seg> saagar, men saa maatte man stryge ham mod Haarene; Hønen havde ganske smaae lave Been, og derfor kaldtes den »<hi rend="italic">Kykkelilavbeen</hi>;« den lagde gode Æg, og Konen holdt af den, som af sit eget Barn.</p>
+
+<p rend="firstIndent" xml:id="p_00036">Om Morgenen mærkede man strax den fremmede Ælling, og Katten begyndte at spinde og Hønen at klukke.</p>
+
+<p rend="firstIndent" xml:id="p_00037">»Hvad for noget!« sagde Konen, og saae rundtomkring, men hun saae ikke godt, og saa troede hun, at Ællingen var en feed And, der havde forvildet sig. »Det var jo en rar Fangst!« sagde hun, »nu kan jeg faae Ande-Æg, er den bare ikke en Andrik! det maa vi prøve!«</p>
+
+<p rend="firstIndent" xml:id="p_00038">Og saa blev Ællingen antaget paa Prøve i tre Uger, men der kom ingen Æg. Og Katten var Herre i Huset og Hønen var Madamme, og alletider sagde de: »<hi rend="italic">vi</hi> og Verden!« for de troede, at de vare Halvparten, og det den allerbedste Deel. Ællingen syntes, at man kunde ogsaa have en anden Mening, men det taalte Hønen ikke.</p>
+
+<p rend="firstIndent" xml:id="p_00039">»Kan Du lægge Æg?« spurgte hun.</p>
+<p rend="firstIndent" xml:id="p_00040">»Nei!«</p>
+
+<p rend="firstIndent" xml:id="p_00041">»Ja, vil Du saa holde din Mund!«</p>
+
+<p rend="firstIndent" xml:id="p_00042">Og Katten sagde: »Kan Du skyde Ryg, spinde og gnistre?«</p>
+
+<p rend="firstIndent" xml:id="p_00043">»Nei!«</p>
+
+<p rend="firstIndent" xml:id="p_00044">»Ja saa skal Du ikke have Mening, naar fornuftige Folk tale!«</p>
+<p rend="firstIndent" xml:id="p_00045">Og Ællingen sad i Krogen og var i daarligt Humeur; da kom <pb n="289"/>den til at tænke paa den friske Luft og Solskinnet; den fik saadan en forunderlig Lyst til at flyde paa Vandet, tilsidst kunde den ikke lade være, den maatte sige det til Hønen.</p>
+
+<p rend="firstIndent" xml:id="p_00046">»Hvad gaaer der af Dig?« spurgte hun. »Du har ingen Ting at bestille, derfor komme de Nykker over dig! Læg Æg eller spind, saa gaae de over.«</p>
+
+<p rend="firstIndent" xml:id="p_00047">»Men det er saa deiligt at flyde paa Vandet!« sagde Ællingen, »saa deiligt at faae det over Hovedet og dukke ned paa Bunden!«</p>
+
+<p rend="firstIndent" xml:id="p_00048">»Ja det er en stor Fornøielse!« sagde Hønen, »Du er nok bleven gal! Spørg Katten ad, han er den klogeste, jeg kjender, om han holder af at flyde paa Vandet, eller dykke ned! jeg vil ikke tale om mig. – Spørg selv vort Herskab, den gamle Kone, klogere end hende er der Ingen i Verden! troer Du, hun har Lyst til at flyde og faae Vand over Hovedet!«</p>
+
+<p rend="firstIndent" xml:id="p_00049">»I forstaae mig ikke!« sagde Ællingen.</p>
+
+<p rend="firstIndent" xml:id="p_00050">»Ja, forstaae vi Dig ikke, hvem skulde saa forstaae Dig! Du vil dog vel aldrig være klogere end Katten og Konen, for ikke at nævne mig! Skab Dig ikke, Barn! og tak Du din Skaber for alt det Gode, man har gjort for dig! Er Du ikke kommet i en varm Stue og har en <seg target="txtcmnt-289-01"><!--DATA-TERM: Omgang--><!--DATA-DEFINITION: omgangskreds.-->Omgang</seg>, Du kan lære noget af! men Du er et Vrøvl, og det er ikke morsomt at omgaaes Dig! mig kan Du troe! jeg mener Dig det godt, jeg siger Dig Ubehageligheder, og derpaa skal man kjende sine sande Venner! see nu bare til, at Du lægger Æg og lærer at spinde eller gnistre!«</p>
+
+<p rend="firstIndent" xml:id="p_00051">»Jeg troer, jeg vil gaae ud i den vide Verden!« sagde Ællingen.</p>
+
+<p rend="firstIndent" xml:id="p_00052">»Ja, gjør Du det!« sagde Hønen.</p>
+
+<p rend="firstIndent" xml:id="p_00053">Og saa gik Ællingen; den flød paa Vandet, den dykkede ned, men af alle Dyr var den overseet for sin Grimhed.</p>
+
+<p rend="firstIndent" xml:id="p_00054">Nu faldt Efteraaret paa, Bladene i Skoven bleve gule og brune, Blæsten tog fat i dem, saa de dandsede omkring, og oppe i Luften saae der koldt ud; Skyerne hang tunge med Hagl og <seg target="txtcmnt-289-02"><!--DATA-TERM: Sneeflokke--><!--DATA-DEFINITION: snefnug.-->Sneeflokke</seg>, og paa Gjærdet stod Ravnen og skreg »av! av!« af bare Kulde; ja man kunde ordenlig fryse, naar man tænkte derpaa; den stakkels Ælling havde det rigtignok ikke godt.</p>
+
+<img src="0066_HCA-1956-2-0022.jpg" ref="p_00055" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00055">En Aften, Solen gik saa velsignet ned, kom der en heel Flok deilige store Fugle ud af Buskene, Ællingen havde aldrig seet nogen saa smukke, de vare ganske skinnende hvide, med lange, smidige Halse; det var Svaner, de udstødte en ganske forunderlig Lyd, bredte deres prægtige, lange Vinger ud og fløi bort fra de kolde Egne til varmere Lande, til aabne Søer! de <pb n="290"/>stege saa høit, saa høit, og den lille grimme Ælling blev saa forunderlig tilmode, den dreiede sig rundt i Vandet ligesom et Hjul, rakte Halsen høit op i Luften efter dem, udstødte et Skrig saa høit og forunderligt, at den selv blev bange derved. O, den kunde ikke glemme de deilige Fugle, de lykkelige Fugle, og saasnart den ikke længer øinede dem, dukkede den lige ned til Bunden, og da den kom op igjen, var den ligesom ude af sig selv. Den vidste ikke, hvad Fuglene hed, ikke hvor de fløi hen, men dog holdt den af dem, som den aldrig havde holdt af nogen; den misundte dem slet ikke, hvor kunde det falde den ind at ønske sig en saadan Deilighed, den vilde være glad, naar bare dog Ænderne vilde have taalt den imellem sig! – det stakkels grimme Dyr!</p>
+
+<p rend="firstIndent" xml:id="p_00056">Og Vinteren blev saa kold, saa kold; Ællingen maatte svømme om i Vandet for at holde det fra at fryse reent til; men hver Nat blev Hullet, hvori den svømmede, smallere og smallere; det frøs, saa det knagede i Iisskorpen; Ællingen maatte altid bruge Benene, at Vandet ikke skulde lukkes; tilsidst blev den mat, laa ganske stille og frøs saa fast i Isen.</p>
+
+<p rend="firstIndent" xml:id="p_00057">Tidlig om Morgenen kom en Bondemand, han saae den, gik ud og slog med sin Træsko Isen i Stykker og bar den saa hjem til sin Kone. Der blev den livet op.</p>
+
+<img src="0066_HCA-1956-2-0027.jpg" ref="p_00058" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00058">Børnene vilde lege med den, men Ællingen troede, at de vilde gjøre den Fortræd, og foer, i Forskrækkelse, lige op i Melkefadet, saa at Melken skvulpede ud i Stuen; Konen skreg og slog Hænderne i Veiret, og da fløi den i Truget, hvor Smørret var, og saa ned i Meeltønden og op igjen; naa, hvor den kom til at see ud! og Konen skreg og slog efter den med <seg target="txtcmnt-290-01"><!--DATA-TERM: Ildklemmen--><!--DATA-DEFINITION: jerntang, hvormed man kan tage noget ud af ilden og rage op i den.-->Ildklemmen</seg>, og Børnene løbe hinanden overende for at fange Ællingen, og de loe, og de skrege! – godt var det, at Døren stod aaben, ud foer den imellem Buskene i den nysfaldne Snee – der laae den, ligesom i Dvale.</p>
+
+<img src="0066_HCA-1956-2-0029.jpg" ref="p_00059" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00059">Men det vilde blive altfor bedrøveligt at fortælle al den Nød og Elendighed, den maatte prøve i den haarde Vinter – – den laae i Mosen mellem Rørene, da Solen igjen begyndte at skinne varmt; Lærkerne sang – det var deiligt Foraar.</p>
+
+<img src="0066_HCA-1956-2-0033.jpg" ref="p_00060" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00060">Da løftede den paa eengang sine Vinger, de bruste stærkere end før og bare den kraftigt afsted; og før den ret vidste det, var den i en stor Have, hvor Æbletræerne stode i Blomster, hvor Sirenerne duftede og hang paa de lange, grønne Grene lige ned imod de bugtede Canaler! O her var saa deiligt, saa foraarsfriskt! og lige foran, ud af Tykningen, kom tre deilige, hvide <pb n="291"/>Svaner; de bruste med Fjerene og fløde saa let paa Vandet. Ællingen kjendte de prægtige Dyr og blev betagen af en forunderlig Sørgmodighed.</p>
+
+<p rend="firstIndent" xml:id="p_00061">»Jeg vil flyve hen til dem, de kongelige Fugle! og de vil hugge mig ihjel, fordi jeg, der er saa styg, tør nærme mig dem! men det er det samme! bedre at dræbes af dem, end at nappes af Ænderne, hugges af Hønsene, sparkes af Pigen, der passer Hønsegaarden, og lide ondt om Vinteren!« – og den fløi ud i Vandet og svømmede hen imod de prægtige Svaner, disse saae den og skjøde med brusende Fjere henimod den. »Dræber mig kun!« sagde det stakkels Dyr, og bøiede sit Hoved ned mod Vandfladen og ventede Døden, – men hvad saae den i det klare Vand! den saae under sig sit eget Billed, men den var ikke længere en kluntet, sortgraae Fugl, styg og fæl, den var selv en Svane.</p>
+
+<p rend="firstIndent" xml:id="p_00062">Det gjør ikke noget at være født i Andegaarden, naar man kun har ligget i et Svaneæg!</p>
+
+<p rend="firstIndent" xml:id="p_00063">Den følte sig ordenlig glad over al den Nød og Gjenvordighed, den havde prøvet; nu skjønnede den just paa sin Lykke, paa al den Deilighed, der hilsede den. – Og de store Svaner svømmede rundt omkring den og strøge den med Næbet.</p>
+
+<p rend="firstIndent" xml:id="p_00064">I Haven kom der nogle smaa Børn, de kastede Brød og Korn ud i Vandet, og den mindste raabte:</p>
+
+<p rend="firstIndent" xml:id="p_00065">»Der er en ny!« og de andre Børn jublede med: »ja der er kommet en ny!« og de klappede i Hænderne og dandsede rundt; løbe efter Fader og Moder, og der blev kastet Brød og Kage i Vandet, og Alle sagde de: »Den nye er den smukkeste! saa ung og saa deilig!« og de gamle Svaner neiede for den.</p>
+
+<img src="0066_HCA-1956-2-0035.jpg" ref="p_00066" title="Illustrator: Johannes Larsen. 1930. Fra/from: H.C. Andersens Hus/Museum Odense"/><p rend="firstIndent" xml:id="p_00066">Da følte den sig ganske undseelig og stak Hovedet om bag Vingerne, den vidste ikke selv hvad! den var altfor lykkelig, men slet ikke stolt, thi et godt Hjerte bliver aldrig stolt! den tænkte paa, hvor den havde været forfulgt og forhaanet, og hørte nu Alle sige, at den var den deiligste af alle deilige Fugle; og <seg target="txtcmnt-291-01"><!--DATA-TERM: Sirenerne--><!--DATA-DEFINITION: syrenerne.-->Sirenerne</seg> bøiede sig med Grenene lige ned i Vandet til den, og Solen skinnede saa varmt og saa godt, da bruste dens <seg target="txtcmnt-291-02"><!--DATA-TERM: Fjedre--><!--DATA-DEFINITION: fjer.-->Fjedre</seg>, den slanke Hals hævede sig, og af Hjertet jublede den: »saa megen Lykke drømte jeg ikke om, da jeg var den grimme Ælling!«</p>
+
+<pb n="292"/>
+</div>
+                              </body>
+                         </text>
+                         <standOff>
+                              <listAnnotation>
+                                   
+                                   <div type="work-comments" rend="Den grimme Ælling" xml:id="den-grimme-aelling">
+<head type="section-comments">Den grimme Ælling</head>
+
+<p rend="noIndent">Trykt første gang i <hi rend="italic">Nye Eventyr</hi>, som udkom den 11. november 1843 med årstallet 1844 på titelbladet.<br/>
+BFN 432/II,30-38/VII,87-89.</p>
+
+<p rend="noIndent">Tekstrettelser i forhold til trykforlægget</p>
+
+<table rend="textdeviations">
+<row><cell type="position">284,12</cell><cell type="deviation">And &lt; Aand</cell></row>
+<row><cell type="position">287,29</cell><cell type="deviation">»Pif! &lt; Pif!</cell></row>
+<row><cell type="position">288,27</cell><cell type="deviation">Fangst!« sagde hun, »nu &lt; Fangst! »sagde hun,« nu</cell></row>
+<row><cell type="position">289,40</cell><cell type="deviation">det &lt; Det</cell></row>
+</table>
+
+<table rend="textcomments">
+<cell type="page">284</cell><row xml:id="txtcmnt-284-01"><cell type="data-term">snaddre</cell><cell type="data-definition">rappe, skræppe op (sladre).</cell></row>
+<cell type="page">285</cell><row xml:id="txtcmnt-285-01"><cell type="data-term">Dyrehavstiden</cell><cell type="data-definition">den periode, hvor Dyrehavsbakken (»Bakken«) havde åbent, dvs. en måned omkring sankthans‚ her: endnu et lille stykke tid.</cell></row><row xml:id="txtcmnt-285-02"><cell type="data-term">komme efter</cell><cell type="data-definition">få opklaret.</cell></row><row xml:id="txtcmnt-285-03"><cell type="data-term">Snabelen</cell><cell type="data-definition">næbbet.</cell></row>
+<cell type="page">286</cell><row xml:id="txtcmnt-286-01"><cell type="data-term">aparte</cell><cell type="data-definition">mærkelig, anderledes (negativt).</cell></row><row xml:id="txtcmnt-286-02"><cell type="data-term">nøfles</cell><cell type="data-definition">kanøfles, mobbes.</cell></row><row xml:id="txtcmnt-286-03"><cell type="data-term">glattede paa Personen</cell><cell type="data-definition">pudsede fjerdragten.</cell></row>
+<cell type="page">287</cell><row xml:id="txtcmnt-287-01"><cell type="data-term">sorrigfuld</cell><cell type="data-definition">sorgfuld.</cell></row><row xml:id="txtcmnt-287-02"><cell type="data-term">turde han bare have lov</cell><cell type="data-definition">kunne han bare have lov.</cell></row>
+<cell type="page">288</cell><row xml:id="txtcmnt-288-01"><cell type="data-term">gnistre(de)</cell><cell type="data-definition">knitre.</cell></row>
+<cell type="page">289</cell><row xml:id="txtcmnt-289-01"><cell type="data-term">Omgang</cell><cell type="data-definition">omgangskreds.</cell></row><row xml:id="txtcmnt-289-02"><cell type="data-term">Sneeflokke</cell><cell type="data-definition">snefnug.</cell></row>
+<cell type="page">290</cell><row xml:id="txtcmnt-290-01"><cell type="data-term">Ildklemmen</cell><cell type="data-definition">jerntang, hvormed man kan tage noget ud af ilden og rage op i den.</cell></row>
+<cell type="page">291</cell><row xml:id="txtcmnt-291-01"><cell type="data-term">Sirenerne</cell><cell type="data-definition">syrenerne.</cell></row><row xml:id="txtcmnt-291-02"><cell type="data-term">Fjedre</cell><cell type="data-definition">fjer.</cell></row>
+</table>
+
+<pb n="519"/>
+
+</div>
+                                   
+                              </listAnnotation>
+                         </standOff>
+                    </TEI>
